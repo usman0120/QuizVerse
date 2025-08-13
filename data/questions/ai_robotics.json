@@ -1,0 +1,2683 @@
+{
+  "meta": {
+    "category": "ai_robotics",
+    "category_ur": "مصنوعی ذہانت اور روبوٹکس",
+    "description": "Test your knowledge of Artificial Intelligence and Robotics",
+    "description_ur": "مصنوعی ذہانت اور روبوٹکس کے بارے میں اپنا علم پرکھیں",
+    "difficulty": "medium",
+    "image": "ai_robotics.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Which of the following is a branch of AI concerned with understanding and producing human language?",
+      "question_ur": "ذیل میں سے کون سا AI کی وہ شاخ ہے جو انسانی زبان کو سمجھنے اور پیدا کرنے سے متعلق ہے؟",
+      "options": {
+        "en": ["Computer Vision", "Natural Language Processing", "Robotics", "Machine Vision"],
+        "ur": ["کمپیوٹر وژن", "قدرتی زبان کی پروسیسنگ", "روبوٹکس", "مشین وژن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Natural Language Processing (NLP) enables machines to understand, interpret, and respond to human language.",
+      "explanation_ur": "قدرتی زبان کی پروسیسنگ (NLP) مشینوں کو انسانی زبان کو سمجھنے، اس کی تشریح کرنے اور جواب دینے کے قابل بناتی ہے۔",
+      "hint": "Think about chatbots and voice assistants",
+      "hint_ur": "چیٹ بوٹس اور وائس اسسٹنٹس کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 2,
+      "type": "true-false",
+      "question": "Robotics is only used in manufacturing industries.",
+      "question_ur": "روبوٹکس صرف مینوفیکچرنگ انڈسٹریز میں استعمال ہوتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "Robotics is used in healthcare, space exploration, agriculture, military, and many other fields besides manufacturing.",
+      "explanation_ur": "روبوٹکس صحت، خلا کی کھوج، زراعت، فوج اور مینوفیکچرنگ کے علاوہ کئی شعبوں میں استعمال ہوتی ہے۔",
+      "hint": "Think beyond factories",
+      "hint_ur": "کارخانوں سے آگے سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "What does the term 'Machine Learning' refer to?",
+      "question_ur": "'مشین لرننگ' سے کیا مراد ہے؟",
+      "options": {
+        "en": ["Teaching machines by coding every instruction", "Enabling machines to learn from data", "Machines fixing hardware automatically", "Training robots to walk"],
+        "ur": ["ہر ہدایت کو کوڈ کر کے مشینوں کو سکھانا", "مشینوں کو ڈیٹا سے سیکھنے کے قابل بنانا", "مشینوں کا خودکار ہارڈویئر مرمت کرنا", "روبوٹس کو چلنا سکھانا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Machine Learning is a subset of AI that enables systems to learn patterns from data without explicit programming.",
+      "explanation_ur": "مشین لرننگ AI کی ایک شاخ ہے جو سسٹمز کو ڈیٹا سے پیٹرنز سیکھنے کے قابل بناتی ہے بغیر واضح پروگرامنگ کے۔",
+      "hint": "Think about algorithms improving over time",
+      "hint_ur": "ایسے الگورتھمز کے بارے میں سوچیں جو وقت کے ساتھ بہتر ہوتے ہیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 4,
+      "type": "true-false",
+      "question": "AI can be used for predicting weather patterns.",
+      "question_ur": "AI کو موسم کی پیشگوئی کے لیے استعمال کیا جا سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "AI models can analyze large datasets to predict weather more accurately than traditional methods.",
+      "explanation_ur": "AI ماڈلز بڑے ڈیٹا سیٹ کا تجزیہ کر کے موسم کی زیادہ درست پیشگوئی کر سکتے ہیں۔",
+      "hint": "Meteorology meets algorithms",
+      "hint_ur": "موسمیات اور الگورتھمز کا ملاپ",
+      "timeLimit": 15
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Which programming language is most popular for AI development?",
+      "question_ur": "AI کی ترقی کے لیے سب سے زیادہ مقبول پروگرامنگ زبان کون سی ہے؟",
+      "options": {
+        "en": ["Python", "Java", "C++", "Ruby"],
+        "ur": ["پائتھون", "جاوا", "سی پلس پلس", "روبی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Python is widely used in AI due to its simplicity and large number of AI libraries like TensorFlow and PyTorch.",
+      "explanation_ur": "پائتھون AI میں اپنی سادگی اور بڑی تعداد میں لائبریریوں جیسے ٹینسر فلو اور پائی ٹورچ کی وجہ سے بڑے پیمانے پر استعمال ہوتی ہے۔",
+      "hint": "It's named after a comedy group, not a snake",
+      "hint_ur": "یہ ایک کامیڈی گروپ کے نام پر ہے، سانپ کے نہیں",
+      "timeLimit": 20
+    },
+    
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Which component acts as the 'brain' of a robot?",
+      "question_ur": "روبوٹ کا 'دماغ' کون سا جزو ہوتا ہے؟",
+      "options": {
+        "en": ["Actuator", "Controller", "Sensor", "Gripper"],
+        "ur": ["ایکچیویٹر", "کنٹرولر", "سینسر", "گرپر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The controller processes information and sends commands to the robot's parts, acting like a brain.",
+      "explanation_ur": "کنٹرولر معلومات کو پراسیس کرتا ہے اور روبوٹ کے حصوں کو احکامات بھیجتا ہے، بالکل دماغ کی طرح۔",
+      "hint": "It decides what the robot should do",
+      "hint_ur": "یہ فیصلہ کرتا ہے کہ روبوٹ کو کیا کرنا چاہیے",
+      "timeLimit": 20
+    },
+    {
+      "id": 7,
+      "type": "true-false",
+      "question": "AI is capable of human-like reasoning.",
+      "question_ur": "AI انسانی جیسے استدلال کی صلاحیت رکھتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "Advanced AI systems can simulate human-like reasoning for decision making and problem solving.",
+      "explanation_ur": "اعلی درجے کے AI سسٹمز فیصلہ سازی اور مسئلہ حل کرنے کے لیے انسانی جیسے استدلال کی نقل کر سکتے ہیں۔",
+      "hint": "Think of chess-playing AI",
+      "hint_ur": "شطرنج کھیلنے والے AI کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "In robotics, what is the function of sensors?",
+      "question_ur": "روبوٹکس میں سینسرز کا کیا کام ہوتا ہے؟",
+      "options": {
+        "en": ["Movement", "Energy supply", "Perception of environment", "Programming"],
+        "ur": ["حرکت", "توانائی فراہم کرنا", "ماحول کا ادراک", "پروگرامنگ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Sensors collect data from the environment, allowing the robot to perceive and respond accordingly.",
+      "explanation_ur": "سینسر ماحول سے ڈیٹا اکٹھا کرتے ہیں، جس سے روبوٹ ماحول کو محسوس کر کے اس کے مطابق جواب دیتا ہے۔",
+      "hint": "Like eyes and ears for robots",
+      "hint_ur": "روبوٹس کے لیے آنکھوں اور کانوں کی طرح",
+      "timeLimit": 25
+    },
+    {
+      "id": 9,
+      "type": "true-false",
+      "question": "Neural networks are inspired by the human brain.",
+      "question_ur": "نیورل نیٹ ورکس انسانی دماغ سے متاثر ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Neural networks mimic the structure and function of neurons in the human brain to process information.",
+      "explanation_ur": "نیورل نیٹ ورکس انسانی دماغ کے نیوران کی ساخت اور فنکشن کی نقل کرتے ہیں تاکہ معلومات کو پراسیس کیا جا سکے۔",
+      "hint": "Biology meets algorithms",
+      "hint_ur": "حیاتیات اور الگورتھمز کا ملاپ",
+      "timeLimit": 15
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Which AI technology powers virtual assistants like Siri and Alexa?",
+      "question_ur": "کون سی AI ٹیکنالوجی ورچوئل اسسٹنٹس جیسے سری اور الیکسا کو طاقت دیتی ہے؟",
+      "options": {
+        "en": ["Computer Vision", "Natural Language Processing", "Reinforcement Learning", "Expert Systems"],
+        "ur": ["کمپیوٹر وژن", "قدرتی زبان کی پروسیسنگ", "ریفورسمنٹ لرننگ", "ایکسپرٹ سسٹمز"]
+      },
+      "correctAnswer": 1,
+      "explanation": "NLP allows these assistants to understand and respond to spoken language.",
+      "explanation_ur": "NLP ان اسسٹنٹس کو بولی گئی زبان کو سمجھنے اور جواب دینے کے قابل بناتا ہے۔",
+      "hint": "It’s all about language",
+      "hint_ur": "یہ سب زبان کے بارے میں ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "question": "Reinforcement learning is based on the concept of rewards and penalties.",
+      "question_ur": "ریفورسمنٹ لرننگ انعامات اور سزاؤں کے تصور پر مبنی ہے۔",
+      "correctAnswer": true,
+      "explanation": "In reinforcement learning, agents learn by receiving feedback in the form of rewards or penalties.",
+      "explanation_ur": "ریفورسمنٹ لرننگ میں ایجنٹس انعامات یا سزاؤں کی شکل میں فیڈبیک حاصل کر کے سیکھتے ہیں۔",
+      "hint": "Think of training a dog",
+      "hint_ur": "کتے کی تربیت کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "What does 'Computer Vision' enable machines to do?",
+      "question_ur": "'کمپیوٹر وژن' مشینوں کو کیا کرنے کے قابل بناتا ہے؟",
+      "options": {
+        "en": ["See and interpret visual data", "Speak human languages", "Repair themselves", "Understand emotions"],
+        "ur": ["بصری ڈیٹا دیکھنا اور سمجھنا", "انسانی زبان بولنا", "خود کو مرمت کرنا", "جذبات کو سمجھنا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Computer vision enables machines to process and interpret images and videos.",
+      "explanation_ur": "کمپیوٹر وژن مشینوں کو تصاویر اور ویڈیوز کو پراسیس اور سمجھنے کے قابل بناتا ہے۔",
+      "hint": "It’s how self-driving cars see the road",
+      "hint_ur": "یہ وہ طریقہ ہے جس سے خودکار گاڑیاں سڑک کو دیکھتی ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 13,
+      "type": "true-false",
+      "question": "AI can help detect diseases from medical images.",
+      "question_ur": "AI طبی تصاویر سے بیماریوں کا پتہ لگانے میں مدد کر سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "AI algorithms can analyze X-rays, MRIs, and CT scans to detect diseases.",
+      "explanation_ur": "AI الگورتھمز ایکس رے، ایم آر آئی اور سی ٹی اسکین کا تجزیہ کر کے بیماریوں کا پتہ لگا سکتے ہیں۔",
+      "hint": "Think of AI doctors",
+      "hint_ur": "AI ڈاکٹروں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "What is the primary goal of robotics?",
+      "question_ur": "روبوٹکس کا بنیادی مقصد کیا ہے؟",
+      "options": {
+        "en": ["To replace all human jobs", "To design machines that can perform tasks autonomously", "To create human-like emotions", "To improve computer speed"],
+        "ur": ["تمام انسانی نوکریاں ختم کرنا", "ایسی مشینیں بنانا جو خودکار طریقے سے کام کر سکیں", "انسانی جیسے جذبات پیدا کرنا", "کمپیوٹر کی رفتار بہتر بنانا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Robotics aims to create machines that can perform tasks without human intervention.",
+      "explanation_ur": "روبوٹکس کا مقصد ایسی مشینیں بنانا ہے جو انسانی مداخلت کے بغیر کام کر سکیں۔",
+      "hint": "Autonomy is key",
+      "hint_ur": "خود مختاری اہم ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 15,
+      "type": "true-false",
+      "question": "Chatbots are an example of AI.",
+      "question_ur": "چیٹ بوٹس AI کی ایک مثال ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Chatbots use AI to interact with users in a conversational manner.",
+      "explanation_ur": "چیٹ بوٹس AI کا استعمال کرتے ہیں تاکہ صارفین سے بات چیت کر سکیں۔",
+      "hint": "You’ve probably spoken to one online",
+      "hint_ur": "آپ نے شاید کسی آن لائن چیٹ بوٹ سے بات کی ہو",
+      "timeLimit": 15
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "Which of these is NOT an application of AI?",
+      "question_ur": "ان میں سے کون AI کی ایپلیکیشن نہیں ہے؟",
+      "options": {
+        "en": ["Self-driving cars", "Spam email filtering", "Face recognition", "Manual typewriters"],
+        "ur": ["خودکار گاڑیاں", "سپیم ای میل فلٹرنگ", "چہرے کی شناخت", "مینول ٹائپ رائٹرز"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Manual typewriters do not involve AI technology.",
+      "explanation_ur": "مینول ٹائپ رائٹرز میں AI ٹیکنالوجی شامل نہیں ہوتی۔",
+      "hint": "Think old school",
+      "hint_ur": "پرانے زمانے کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 17,
+      "type": "true-false",
+      "question": "Robots can be controlled remotely over the internet.",
+      "question_ur": "روبوٹس کو انٹرنیٹ کے ذریعے دور سے کنٹرول کیا جا سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Teleoperation allows robots to be controlled from a distance via network connections.",
+      "explanation_ur": "ٹیلی آپریشن روبوٹس کو نیٹ ورک کنکشن کے ذریعے فاصلے سے کنٹرول کرنے کی اجازت دیتا ہے۔",
+      "hint": "Think space rovers",
+      "hint_ur": "خلائی گاڑیوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Which of these AI approaches uses large amounts of labeled data to learn?",
+      "question_ur": "ان میں سے کون سا AI طریقہ بڑی مقدار میں لیبل شدہ ڈیٹا استعمال کر کے سیکھتا ہے؟",
+      "options": {
+        "en": ["Unsupervised Learning", "Supervised Learning", "Reinforcement Learning", "Genetic Algorithms"],
+        "ur": ["ان سپروائزڈ لرننگ", "سپروائزڈ لرننگ", "ریفورسمنٹ لرننگ", "جینیٹک الگورتھمز"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Supervised learning trains models using labeled datasets to make predictions.",
+      "explanation_ur": "سپروائزڈ لرننگ ماڈلز کو لیبل شدہ ڈیٹا سیٹس سے ٹرین کرتی ہے تاکہ پیشگوئی کی جا سکے۔",
+      "hint": "Think teacher and student",
+      "hint_ur": "استاد اور طالب علم کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 19,
+      "type": "true-false",
+      "question": "AI cannot be used in agriculture.",
+      "question_ur": "AI کو زراعت میں استعمال نہیں کیا جا سکتا۔",
+      "correctAnswer": false,
+      "explanation": "AI is used in agriculture for crop monitoring, pest detection, and yield prediction.",
+      "explanation_ur": "AI فصل کی نگرانی، کیڑوں کا پتہ لگانے اور پیداوار کی پیشگوئی کے لیے زراعت میں استعمال ہوتا ہے۔",
+      "hint": "Think smart farming",
+      "hint_ur": "سمارٹ فارمنگ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Which AI concept refers to a machine’s ability to improve at a task over time without being explicitly programmed?",
+      "question_ur": "کون سا AI تصور مشین کی اس صلاحیت کو بیان کرتا ہے کہ وہ وقت کے ساتھ بہتر ہو جائے بغیر واضح پروگرامنگ کے؟",
+      "options": {
+        "en": ["Expert Systems", "Machine Learning", "Rule-based Systems", "Robotics"],
+        "ur": ["ایکسپرٹ سسٹمز", "مشین لرننگ", "رول بیسڈ سسٹمز", "روبوٹکس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Machine learning allows systems to improve their performance automatically with experience.",
+      "explanation_ur": "مشین لرننگ سسٹمز کو تجربے کے ساتھ اپنی کارکردگی خود بخود بہتر کرنے کی اجازت دیتا ہے۔",
+      "hint": "It’s all about learning from data",
+      "hint_ur": "یہ سب ڈیٹا سے سیکھنے کے بارے میں ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 21,
+      "type": "true-false",
+      "question": "Humanoid robots are designed to resemble humans.",
+      "question_ur": "ہیومینائیڈ روبوٹس انسانوں سے مشابہت رکھنے کے لیے بنائے جاتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Humanoid robots have human-like appearance and movement capabilities.",
+      "explanation_ur": "ہیومینائیڈ روبوٹس انسانی جیسے خدوخال اور حرکت کرنے کی صلاحیت رکھتے ہیں۔",
+      "hint": "Think of ASIMO",
+      "hint_ur": "ASIMO کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "Which of these is an open-source machine learning library?",
+      "question_ur": "ان میں سے کون سی اوپن سورس مشین لرننگ لائبریری ہے؟",
+      "options": {
+        "en": ["TensorFlow", "MS Word", "Photoshop", "Autodesk Maya"],
+        "ur": ["ٹینسر فلو", "ایم ایس ورڈ", "فوٹوشاپ", "آٹو ڈیسک مایا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "TensorFlow is a popular open-source library for machine learning and deep learning.",
+      "explanation_ur": "ٹینسر فلو مشین لرننگ اور ڈیپ لرننگ کے لیے ایک مشہور اوپن سورس لائبریری ہے۔",
+      "hint": "It’s by Google",
+      "hint_ur": "یہ گوگل کی ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 23,
+      "type": "true-false",
+      "question": "All AI systems require the internet to function.",
+      "question_ur": "تمام AI سسٹمز کو کام کرنے کے لیے انٹرنیٹ کی ضرورت ہوتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "Some AI systems can run offline after being trained, without needing internet access.",
+      "explanation_ur": "کچھ AI سسٹمز تربیت کے بعد بغیر انٹرنیٹ کے آف لائن چل سکتے ہیں۔",
+      "hint": "Think of offline translation apps",
+      "hint_ur": "آف لائن ترجمہ کرنے والی ایپس کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which of the following is an example of reinforcement learning in robotics?",
+      "question_ur": "ذیل میں سے کون سا روبوٹکس میں ریفورسمنٹ لرننگ کی مثال ہے؟",
+      "options": {
+        "en": ["Robot learning to walk by trial and error", "Sorting emails into spam and non-spam", "Recognizing faces in photos", "Translating text into another language"],
+        "ur": ["روبوٹ کا آزمائش اور غلطی سے چلنا سیکھنا", "ای میلز کو سپیم اور نان سپیم میں تقسیم کرنا", "تصاویر میں چہرے پہچاننا", "متن کو دوسری زبان میں ترجمہ کرنا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Reinforcement learning teaches robots through feedback from their actions.",
+      "explanation_ur": "ریفورسمنٹ لرننگ روبوٹس کو ان کے اعمال سے فیڈبیک کے ذریعے سکھاتی ہے۔",
+      "hint": "Learning by doing",
+      "hint_ur": "کر کے سیکھنا",
+      "timeLimit": 25
+    },
+    {
+      "id": 25,
+      "type": "true-false",
+      "question": "AI can compose music.",
+      "question_ur": "AI موسیقی بنا سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "AI models can generate original music by learning patterns from existing compositions.",
+      "explanation_ur": "AI ماڈلز موجودہ دھنوں سے پیٹرنز سیکھ کر نیا موسیقی بنا سکتے ہیں۔",
+      "hint": "Think of AI-generated songs",
+      "hint_ur": "AI سے بنی گانوں کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "Which AI method is inspired by the process of natural selection?",
+      "question_ur": "کون سا AI طریقہ قدرتی انتخاب کے عمل سے متاثر ہے؟",
+      "options": {
+        "en": ["Genetic Algorithms", "Neural Networks", "Decision Trees", "Bayesian Networks"],
+        "ur": ["جینیٹک الگورتھمز", "نیورل نیٹ ورکس", "ڈسیژن ٹریز", "بیزین نیٹ ورکس"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Genetic algorithms mimic the process of evolution to solve optimization problems.",
+      "explanation_ur": "جینیٹک الگورتھمز ارتقاء کے عمل کی نقل کر کے بہتر حل تلاش کرتے ہیں۔",
+      "hint": "Think survival of the fittest",
+      "hint_ur": "اہل ترین کی بقا کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 27,
+      "type": "true-false",
+      "question": "AI can be biased if trained on biased data.",
+      "question_ur": "اگر AI کو جانبدار ڈیٹا پر تربیت دی جائے تو وہ جانبدار ہو سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "AI reflects the biases present in its training data, leading to unfair decisions.",
+      "explanation_ur": "AI اپنے تربیتی ڈیٹا میں موجود تعصبات کی عکاسی کرتا ہے، جو غیر منصفانہ فیصلوں کا سبب بن سکتا ہے۔",
+      "hint": "Garbage in, garbage out",
+      "hint_ur": "برا ڈیٹا، برا نتیجہ",
+      "timeLimit": 15
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "What is the main advantage of collaborative robots (cobots)?",
+      "question_ur": "کولیبریٹو روبوٹس (کوبوٹس) کا بنیادی فائدہ کیا ہے؟",
+      "options": {
+        "en": ["They work alongside humans safely", "They are faster than all other robots", "They do not require power", "They are always humanoid"],
+        "ur": ["یہ انسانوں کے ساتھ محفوظ طریقے سے کام کرتے ہیں", "یہ تمام روبوٹس سے تیز ہیں", "انہیں بجلی کی ضرورت نہیں ہوتی", "یہ ہمیشہ ہیومینائیڈ ہوتے ہیں"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Cobots are designed to work alongside humans in shared workspaces safely.",
+      "explanation_ur": "کوبوٹس کو مشترکہ ورک اسپیس میں انسانوں کے ساتھ محفوظ طریقے سے کام کرنے کے لیے بنایا گیا ہے۔",
+      "hint": "Think teamwork between human and robot",
+      "hint_ur": "انسان اور روبوٹ کے درمیان ٹیم ورک کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 29,
+      "type": "true-false",
+      "question": "AI can write computer code.",
+      "question_ur": "AI کمپیوٹر کوڈ لکھ سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "AI tools can generate and debug code in multiple programming languages.",
+      "explanation_ur": "AI ٹولز مختلف پروگرامنگ زبانوں میں کوڈ بنا اور ڈیبگ کر سکتے ہیں۔",
+      "hint": "Think GitHub Copilot",
+      "hint_ur": "گیٹ ہب کوپائلٹ کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "Which of these is a real-world application of AI in transportation?",
+      "question_ur": "ان میں سے کون سا ٹرانسپورٹیشن میں AI کی حقیقی دنیا کی ایپلیکیشن ہے؟",
+      "options": {
+        "en": ["Autonomous vehicles", "Mechanical speedometers", "Manual traffic lights", "Paper maps"],
+        "ur": ["خودکار گاڑیاں", "مکینیکل اسپیڈومیٹرز", "مینول ٹریفک سگنلز", "کاغذی نقشے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "AI enables self-driving cars and intelligent traffic systems.",
+      "explanation_ur": "AI خودکار گاڑیوں اور ذہین ٹریفک سسٹمز کو ممکن بناتا ہے۔",
+      "hint": "Think Tesla Autopilot",
+      "hint_ur": "ٹیسلا آٹو پائلٹ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 31,
+      "type": "true-false",
+      "question": "AI can only understand structured data.",
+      "question_ur": "AI صرف اسٹرکچرڈ ڈیٹا کو سمجھ سکتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "AI can process structured, semi-structured, and unstructured data like images and audio.",
+      "explanation_ur": "AI اسٹرکچرڈ، نیم اسٹرکچرڈ اور ان اسٹرکچرڈ ڈیٹا جیسے تصاویر اور آڈیو کو پراسیس کر سکتا ہے۔",
+      "hint": "Think of image recognition",
+      "hint_ur": "امیج ریکگنیشن کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "Which robot was sent by NASA to explore Mars?",
+      "question_ur": "ناسا نے مریخ کی کھوج کے لیے کون سا روبوٹ بھیجا تھا؟",
+      "options": {
+        "en": ["Curiosity", "Sophia", "ASIMO", "Atlas"],
+        "ur": ["کیوریوسٹی", "صوفیہ", "اسیمو", "اٹلس"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Curiosity is a rover robot sent by NASA to explore Mars.",
+      "explanation_ur": "کیوریوسٹی ایک روور روبوٹ ہے جو ناسا نے مریخ کی کھوج کے لیے بھیجا۔",
+      "hint": "It’s still on Mars",
+      "hint_ur": "یہ اب بھی مریخ پر ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 33,
+      "type": "true-false",
+      "question": "AI can help in financial fraud detection.",
+      "question_ur": "AI مالی دھوکہ دہی کا پتہ لگانے میں مدد کر سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "AI analyzes transaction patterns to identify suspicious activities.",
+      "explanation_ur": "AI لین دین کے پیٹرنز کا تجزیہ کر کے مشکوک سرگرمیوں کی نشاندہی کرتا ہے۔",
+      "hint": "Think of bank security systems",
+      "hint_ur": "بینک سیکیورٹی سسٹمز کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "Which term describes a robot’s ability to move and navigate in its environment?",
+      "question_ur": "کون سا اصطلاح روبوٹ کی اپنے ماحول میں حرکت اور نیویگیٹ کرنے کی صلاحیت کو بیان کرتی ہے؟",
+      "options": {
+        "en": ["Manipulation", "Perception", "Locomotion", "Automation"],
+        "ur": ["مینپولیشن", "ادراک", "لوکوموشن", "آٹومیشن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Locomotion refers to the ability to move and navigate.",
+      "explanation_ur": "لوکوموشن سے مراد حرکت اور نیویگیٹ کرنے کی صلاحیت ہے۔",
+      "hint": "Walking, rolling, flying…",
+      "hint_ur": "چلنا، گھومنا، اڑنا…",
+      "timeLimit": 25
+    },
+    {
+      "id": 35,
+      "type": "true-false",
+      "question": "Robots are always controlled by humans in real time.",
+      "question_ur": "روبوٹس ہمیشہ حقیقی وقت میں انسانوں کے ذریعے کنٹرول کیے جاتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Autonomous robots can operate without real-time human control.",
+      "explanation_ur": "خودکار روبوٹس حقیقی وقت میں انسانی کنٹرول کے بغیر کام کر سکتے ہیں۔",
+      "hint": "Think Roomba vacuum",
+      "hint_ur": "رومبا ویکیوم کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Which AI branch focuses on enabling machines to plan and make decisions?",
+      "question_ur": "کون سی AI شاخ مشینوں کو منصوبہ بندی اور فیصلے کرنے کے قابل بنانے پر توجہ دیتی ہے؟",
+      "options": {
+        "en": ["Planning", "Perception", "Machine Learning", "Computer Vision"],
+        "ur": ["پلاننگ", "ادراک", "مشین لرننگ", "کمپیوٹر وژن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "AI planning deals with creating a sequence of actions to achieve goals.",
+      "explanation_ur": "AI پلاننگ مقاصد حاصل کرنے کے لیے اقدامات کی ترتیب بنانے سے متعلق ہے۔",
+      "hint": "Think strategy games",
+      "hint_ur": "اسٹریٹیجی گیمز کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 37,
+      "type": "true-false",
+      "question": "All robots use AI.",
+      "question_ur": "تمام روبوٹس AI استعمال کرتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Some robots operate using simple programmed instructions without AI.",
+      "explanation_ur": "کچھ روبوٹس بغیر AI کے سادہ پروگرام شدہ ہدایات استعمال کر کے کام کرتے ہیں۔",
+      "hint": "Think of basic assembly line robots",
+      "hint_ur": "اسمبلی لائن کے بنیادی روبوٹس کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "What is the main role of actuators in robotics?",
+      "question_ur": "روبوٹکس میں ایکچیویٹرز کا بنیادی کردار کیا ہے؟",
+      "options": {
+        "en": ["To process data", "To provide movement", "To sense the environment", "To store energy"],
+        "ur": ["ڈیٹا پراسیس کرنا", "حرکت فراہم کرنا", "ماحول کا ادراک کرنا", "توانائی ذخیرہ کرنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Actuators convert energy into motion in robots.",
+      "explanation_ur": "ایکچیویٹر روبوٹس میں توانائی کو حرکت میں بدلتے ہیں۔",
+      "hint": "Think motors and hydraulics",
+      "hint_ur": "موٹرز اور ہائیڈرولکس کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 39,
+      "type": "true-false",
+      "question": "AI-powered drones can be used for delivery services.",
+      "question_ur": "AI سے چلنے والے ڈرونز ڈلیوری سروسز کے لیے استعمال ہو سکتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Companies are testing AI drones for delivering packages.",
+      "explanation_ur": "کمپنیاں پیکجز پہنچانے کے لیے AI ڈرونز کا تجربہ کر رہی ہیں۔",
+      "hint": "Think Amazon",
+      "hint_ur": "ایمیزون کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "Which AI technique is best suited for playing complex games like Go?",
+      "question_ur": "کون سی AI تکنیک گو جیسے پیچیدہ کھیل کھیلنے کے لیے سب سے موزوں ہے؟",
+      "options": {
+        "en": ["Rule-based systems", "Deep Reinforcement Learning", "Linear Regression", "Decision Trees"],
+        "ur": ["رول بیسڈ سسٹمز", "ڈیپ ریفورسمنٹ لرننگ", "لینیئر ریگریشن", "ڈسیژن ٹریز"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Deep reinforcement learning combines deep learning with reinforcement strategies for complex problem solving.",
+      "explanation_ur": "ڈیپ ریفورسمنٹ لرننگ پیچیدہ مسئلہ حل کرنے کے لیے ڈیپ لرننگ اور ریفورسمنٹ حکمت عملی کو یکجا کرتی ہے۔",
+      "hint": "Think AlphaGo",
+      "hint_ur": "الفاگو کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 41,
+      "type": "true-false",
+      "question": "AI can only operate on digital data.",
+      "question_ur": "AI صرف ڈیجیٹل ڈیٹا پر کام کر سکتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "AI can process analog inputs like sound and convert them into usable data.",
+      "explanation_ur": "AI صوتی جیسے اینالاگ ان پٹس کو پراسیس کر کے انہیں استعمال کے قابل ڈیٹا میں بدل سکتا ہے۔",
+      "hint": "Think voice assistants",
+      "hint_ur": "وائس اسسٹنٹس کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "Which of the following is an industrial application of AI-powered robotics?",
+      "question_ur": "ذیل میں سے کون سی AI سے چلنے والے روبوٹکس کی صنعتی ایپلیکیشن ہے؟",
+      "options": {
+        "en": ["Assembly line automation", "Hand sewing", "Manual farming", "Handwritten letter writing"],
+        "ur": ["اسمبلی لائن آٹومیشن", "ہاتھ سے سلائی", "مینول فارمنگ", "ہاتھ سے خط لکھنا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "AI robots automate assembly lines to improve efficiency.",
+      "explanation_ur": "AI روبوٹس اسمبلی لائنز کو خودکار بنا کر کارکردگی بہتر کرتے ہیں۔",
+      "hint": "Think car manufacturing",
+      "hint_ur": "کار مینوفیکچرنگ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 43,
+      "type": "true-false",
+      "question": "Robotic surgery is fully autonomous without human control.",
+      "question_ur": "روبوٹک سرجری مکمل طور پر خودکار ہوتی ہے اور انسانی کنٹرول کے بغیر چلتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "Most robotic surgeries are assisted by human surgeons for precision.",
+      "explanation_ur": "زیادہ تر روبوٹک سرجریز انسانی سرجنز کی مدد سے کی جاتی ہیں تاکہ درستگی یقینی ہو۔",
+      "hint": "Think human-assisted robots",
+      "hint_ur": "انسانی مدد سے چلنے والے روبوٹس کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "Which company developed the humanoid robot 'Sophia'?",
+      "question_ur": "ہیومینائیڈ روبوٹ 'صوفیہ' کس کمپنی نے تیار کیا؟",
+      "options": {
+        "en": ["Boston Dynamics", "Hanson Robotics", "SoftBank Robotics", "NASA"],
+        "ur": ["بوسٹن ڈائنامکس", "ہینسن روبوٹکس", "سوفٹ بینک روبوٹکس", "ناسا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Sophia was created by Hanson Robotics, a Hong Kong-based company.",
+      "explanation_ur": "صوفیہ ہانگ کانگ میں قائم کمپنی ہینسن روبوٹکس نے تیار کی تھی۔",
+      "hint": "Not Boston Dynamics",
+      "hint_ur": "یہ بوسٹن ڈائنامکس نہیں ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 45,
+      "type": "true-false",
+      "question": "AI chatbots can be used in customer service to answer common questions.",
+      "question_ur": "AI چیٹ بوٹس کسٹمر سروس میں عام سوالات کے جوابات دینے کے لیے استعمال ہو سکتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "AI chatbots help companies respond to customers quickly and efficiently.",
+      "explanation_ur": "AI چیٹ بوٹس کمپنیوں کو صارفین کو تیزی اور مؤثر طریقے سے جواب دینے میں مدد کرتے ہیں۔",
+      "hint": "Think online help desks",
+      "hint_ur": "آن لائن ہیلپ ڈیسک کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    
+  {
+    "id": 46,
+    "type": "true-false",
+    "question": "Reinforcement learning is inspired by how humans learn from rewards and punishments.",
+    "question_ur": "ری انفورسمنٹ لرننگ اس بات سے متاثر ہے کہ انسان انعامات اور سزاؤں سے کیسے سیکھتے ہیں۔",
+    "correctAnswer": true,
+    "explanation": "Reinforcement learning uses a reward system to train agents, similar to how humans learn through trial and error.",
+    "explanation_ur": "ری انفورسمنٹ لرننگ ایجنٹس کو تربیت دینے کے لیے انعامی نظام استعمال کرتی ہے، بالکل اسی طرح جیسے انسان کوشش اور غلطی کے ذریعے سیکھتے ہیں۔",
+    "hint": "Think of training a pet",
+    "hint_ur": "پالتو جانور کو تربیت دینے کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 47,
+    "type": "mcq",
+    "question": "Which AI concept involves breaking down problems into smaller, more manageable parts?",
+    "question_ur": "کون سا AI کا تصور مسائل کو چھوٹے، زیادہ قابل انتظام حصوں میں تقسیم کرنے سے متعلق ہے؟",
+    "options": {
+      "en": ["Neural Networks", "Decomposition", "Clustering", "Regression"],
+      "ur": ["نیورل نیٹ ورکس", "ڈی کمپوزیشن", "کلسٹرنگ", "ریگریشن"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Decomposition is a problem-solving strategy where a large problem is divided into smaller parts for easier handling.",
+    "explanation_ur": "ڈی کمپوزیشن ایک مسئلہ حل کرنے کی حکمت عملی ہے جس میں بڑے مسئلے کو چھوٹے حصوں میں تقسیم کیا جاتا ہے تاکہ اسے آسانی سے حل کیا جا سکے۔",
+    "hint": "Think of breaking a big task into smaller tasks",
+    "hint_ur": "ایک بڑے کام کو چھوٹے کاموں میں تقسیم کرنے کے بارے میں سوچیں",
+    "timeLimit": 25
+  },
+  {
+    "id": 48,
+    "type": "mcq",
+    "question": "What is a 'sensor' in a robot used for?",
+    "question_ur": "روبوٹ میں 'سینسر' کس لیے استعمال ہوتا ہے؟",
+    "options": {
+      "en": ["Processing data", "Storing information", "Detecting environmental changes", "Executing commands"],
+      "ur": ["ڈیٹا پروسیس کرنا", "معلومات ذخیرہ کرنا", "ماحولیاتی تبدیلیوں کا پتہ لگانا", "احکامات پر عمل درآمد کرنا"]
+    },
+    "correctAnswer": 2,
+    "explanation": "Sensors detect environmental changes such as temperature, light, or movement, allowing robots to respond accordingly.",
+    "explanation_ur": "سینسر ماحولیاتی تبدیلیوں جیسے درجہ حرارت، روشنی یا حرکت کا پتہ لگاتے ہیں، تاکہ روبوٹ اس کے مطابق ردعمل دے سکیں۔",
+    "hint": "Think about a robot knowing if it's dark",
+    "hint_ur": "سوچیں کہ روبوٹ کیسے جانتا ہے کہ اندھیرا ہے",
+    "timeLimit": 20
+  },
+  {
+    "id": 49,
+    "type": "true-false",
+    "question": "AI chatbots always understand human emotions perfectly.",
+    "question_ur": "AI چیٹ بوٹس ہمیشہ انسانی جذبات کو مکمل طور پر سمجھتے ہیں۔",
+    "correctAnswer": false,
+    "explanation": "While AI can detect certain emotional cues, it cannot fully understand complex human emotions.",
+    "explanation_ur": "اگرچہ AI کچھ جذباتی اشاروں کا پتہ لگا سکتا ہے، یہ انسانی جذبات کو مکمل طور پر سمجھ نہیں سکتا۔",
+    "hint": "Even humans misunderstand emotions sometimes",
+    "hint_ur": "انسان بھی کبھی کبھی جذبات کو غلط سمجھتے ہیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 50,
+    "type": "mcq",
+    "question": "Which AI application is used in spam email filtering?",
+    "question_ur": "سپیم ای میل فلٹرنگ میں کون سی AI ایپلی کیشن استعمال ہوتی ہے؟",
+    "options": {
+      "en": ["Speech Recognition", "Natural Language Processing", "Computer Vision", "Robotics"],
+      "ur": ["اسپیچ ریکگنیشن", "قدرتی زبان کی پروسیسنگ", "کمپیوٹر وژن", "روبوٹکس"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Natural Language Processing helps email systems understand the content of emails and classify them as spam or not.",
+    "explanation_ur": "قدرتی زبان کی پروسیسنگ ای میل سسٹمز کو ای میلز کے مواد کو سمجھنے اور انہیں اسپام یا نہ اسپام کے طور پر درجہ بندی کرنے میں مدد دیتی ہے۔",
+    "hint": "It's about understanding email text",
+    "hint_ur": "یہ ای میل کے متن کو سمجھنے کے بارے میں ہے",
+    "timeLimit": 25
+  },
+  {
+    "id": 51,
+    "type": "mcq",
+    "question": "What is 'actuation' in robotics?",
+    "question_ur": "روبوٹکس میں 'ایکچیوشن' کیا ہے؟",
+    "options": {
+      "en": ["Processing data", "Moving robot parts", "Analyzing images", "Storing data"],
+      "ur": ["ڈیٹا پروسیس کرنا", "روبوٹ کے حصوں کو حرکت دینا", "تصاویر کا تجزیہ کرنا", "ڈیٹا ذخیرہ کرنا"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Actuation refers to the process of moving or controlling a mechanism or robotic parts.",
+    "explanation_ur": "ایکچیوشن کا مطلب ہے کسی میکانزم یا روبوٹ کے حصوں کو حرکت دینا یا کنٹرول کرنا۔",
+    "hint": "Think about motors and servos",
+    "hint_ur": "موٹرز اور سرووز کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 52,
+    "type": "true-false",
+    "question": "Computer vision allows robots to process and understand images from the real world.",
+    "question_ur": "کمپیوٹر وژن روبوٹس کو حقیقی دنیا کی تصاویر کو پروسیس اور سمجھنے کی اجازت دیتا ہے۔",
+    "correctAnswer": true,
+    "explanation": "Computer vision enables robots and AI systems to interpret visual data from cameras or sensors.",
+    "explanation_ur": "کمپیوٹر وژن روبوٹس اور AI سسٹمز کو کیمروں یا سینسرز سے بصری ڈیٹا کی تشریح کرنے کے قابل بناتا ہے۔",
+    "hint": "Think of facial recognition systems",
+    "hint_ur": "چہرہ پہچاننے والے نظام کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 53,
+    "type": "mcq",
+    "question": "Which AI term refers to the ability of a system to adjust its actions based on new data?",
+    "question_ur": "کون سا AI کا لفظ اس صلاحیت کو ظاہر کرتا ہے کہ کوئی نظام نئے ڈیٹا کی بنیاد پر اپنے اعمال کو ایڈجسٹ کر سکے؟",
+    "options": {
+      "en": ["Adaptability", "Automation", "Optimization", "Segmentation"],
+      "ur": ["ایڈاپٹیبلیٹی", "آٹومیشن", "آپٹیمائزیشن", "سیگمنٹیشن"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Adaptability allows AI systems to improve or change their behavior when given new data.",
+    "explanation_ur": "ایڈاپٹیبلیٹی AI سسٹمز کو نئے ڈیٹا ملنے پر اپنے رویے کو بہتر بنانے یا تبدیل کرنے کی اجازت دیتی ہے۔",
+    "hint": "Think about AI learning from mistakes",
+    "hint_ur": "AI کے غلطیوں سے سیکھنے کے بارے میں سوچیں",
+    "timeLimit": 25
+  },
+  {
+    "id": 54,
+    "type": "true-false",
+    "question": "In robotics, path planning is about deciding the shortest route to the goal.",
+    "question_ur": "روبوٹکس میں، پاتھ پلاننگ کا مطلب ہے ہدف تک پہنچنے کے لیے سب سے مختصر راستے کا فیصلہ کرنا۔",
+    "correctAnswer": true,
+    "explanation": "Path planning algorithms help robots determine the most efficient route to a target while avoiding obstacles.",
+    "explanation_ur": "پاتھ پلاننگ الگورتھمز روبوٹس کو رکاوٹوں سے بچتے ہوئے ہدف تک پہنچنے کے لیے سب سے مؤثر راستہ طے کرنے میں مدد دیتے ہیں۔",
+    "hint": "Think of GPS for robots",
+    "hint_ur": "روبوٹس کے لیے جی پی ایس کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  
+  {
+    "id": 66,
+    "type": "mcq",
+    "question": "Which type of AI is designed to perform a specific task, such as playing chess?",
+    "question_ur": "کون سا AI مخصوص کام کرنے کے لیے بنایا گیا ہے، جیسے شطرنج کھیلنا؟",
+    "options": {
+      "en": ["General AI", "Narrow AI", "Super AI", "Adaptive AI"],
+      "ur": ["جنرل AI", "نارو AI", "سپر AI", "ایڈاپٹو AI"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Narrow AI is programmed to handle a specific task, such as language translation or chess.",
+    "explanation_ur": "نارو AI کو ایک خاص کام کرنے کے لیے پروگرام کیا جاتا ہے، جیسے زبان کا ترجمہ یا شطرنج۔",
+    "hint": "It's also called 'Weak AI'",
+    "hint_ur": "اسے 'ویک AI' بھی کہا جاتا ہے",
+    "timeLimit": 25
+  },
+  {
+    "id": 67,
+    "type": "true-false",
+    "question": "A LiDAR sensor in robotics uses lasers to measure distance.",
+    "question_ur": "روبوٹکس میں لائیڈار سینسر فاصلے کو ماپنے کے لیے لیزر استعمال کرتا ہے۔",
+    "correctAnswer": true,
+    "explanation": "LiDAR works by sending laser beams and measuring the time they take to bounce back from objects.",
+    "explanation_ur": "لائیڈار لیزر بیم بھیج کر اور اشیاء سے واپس آنے کا وقت ماپ کر کام کرتا ہے۔",
+    "hint": "Think of self-driving car sensors",
+    "hint_ur": "سیلف ڈرائیونگ کار کے سینسرز کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 68,
+    "type": "mcq",
+    "question": "Which AI learning method uses labeled data for training?",
+    "question_ur": "کون سا AI لرننگ طریقہ تربیت کے لیے لیبل شدہ ڈیٹا استعمال کرتا ہے؟",
+    "options": {
+      "en": ["Unsupervised Learning", "Reinforcement Learning", "Supervised Learning", "Self-learning"],
+      "ur": ["غیر نگران لرننگ", "ری انفورسمنٹ لرننگ", "نگران لرننگ", "خودکار لرننگ"]
+    },
+    "correctAnswer": 2,
+    "explanation": "Supervised learning uses labeled data, where both input and output are known during training.",
+    "explanation_ur": "نگران لرننگ لیبل شدہ ڈیٹا استعمال کرتی ہے، جہاں تربیت کے دوران ان پٹ اور آؤٹ پٹ دونوں معلوم ہوتے ہیں۔",
+    "hint": "Think of a teacher guiding a student",
+    "hint_ur": "ایک استاد کے طالب علم کی رہنمائی کرنے کے بارے میں سوچیں",
+    "timeLimit": 25
+  },
+  {
+    "id": 69,
+    "type": "true-false",
+    "question": "Robots can operate underwater for exploration purposes.",
+    "question_ur": "روبوٹس زیرِ آب دریافت کے مقاصد کے لیے کام کر سکتے ہیں۔",
+    "correctAnswer": true,
+    "explanation": "Underwater robots, also known as ROVs, are used for ocean exploration, repairs, and research.",
+    "explanation_ur": "زیرِ آب روبوٹس، جنہیں ROVs بھی کہا جاتا ہے، سمندری تحقیق، مرمت اور تلاش کے لیے استعمال ہوتے ہیں۔",
+    "hint": "Think of deep-sea exploration",
+    "hint_ur": "سمندر کی گہرائی کی کھوج کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 70,
+    "type": "mcq",
+    "question": "Which programming language is most popular for AI development?",
+    "question_ur": "AI ڈیولپمنٹ کے لیے کون سی پروگرامنگ زبان سب سے زیادہ مقبول ہے؟",
+    "options": {
+      "en": ["Java", "Python", "C++", "Ruby"],
+      "ur": ["جاوا", "پائتھون", "سی++", "روبی"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Python is widely used for AI due to its large libraries like TensorFlow, PyTorch, and Scikit-learn.",
+    "explanation_ur": "پائتھون AI میں بڑے پیمانے پر استعمال ہوتی ہے کیونکہ اس میں ٹینسر فلو، پائی ٹورچ اور سائکیٹ لرن جیسی بڑی لائبریریز ہیں۔",
+    "hint": "It's named after a comedy group, not a snake",
+    "hint_ur": "یہ ایک کامیڈی گروپ کے نام پر رکھی گئی ہے، سانپ پر نہیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 71,
+    "type": "true-false",
+    "question": "Speech recognition systems convert spoken words into text.",
+    "question_ur": "اسپیچ ریکگنیشن سسٹمز بولے گئے الفاظ کو متن میں تبدیل کرتے ہیں۔",
+    "correctAnswer": true,
+    "explanation": "Speech recognition technology listens to spoken language and translates it into written text.",
+    "explanation_ur": "اسپیچ ریکگنیشن ٹیکنالوجی بولی گئی زبان کو سنتی ہے اور اسے تحریری متن میں تبدیل کرتی ہے۔",
+    "hint": "Think of virtual assistants like Siri",
+    "hint_ur": "Siri جیسے ورچوئل اسسٹنٹس کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 72,
+    "type": "mcq",
+    "question": "What does 'autonomous' mean in robotics?",
+    "question_ur": "روبوٹکس میں 'خود مختار' کا کیا مطلب ہے؟",
+    "options": {
+      "en": ["Needing human control", "Operating on its own", "Only working in labs", "Following fixed commands only"],
+      "ur": ["انسانی کنٹرول کی ضرورت", "اپنے آپ کام کرنا", "صرف لیبارٹری میں کام کرنا", "صرف مقررہ احکامات پر عمل کرنا"]
+    },
+    "correctAnswer": 1,
+    "explanation": "An autonomous robot can make decisions and operate without direct human control.",
+    "explanation_ur": "ایک خود مختار روبوٹ فیصلے کر سکتا ہے اور براہِ راست انسانی کنٹرول کے بغیر کام کر سکتا ہے۔",
+    "hint": "Think of self-driving cars",
+    "hint_ur": "سیلف ڈرائیونگ کارز کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 73,
+    "type": "true-false",
+    "question": "Machine vision and computer vision are exactly the same.",
+    "question_ur": "مشین وژن اور کمپیوٹر وژن بالکل ایک جیسے ہیں۔",
+    "correctAnswer": false,
+    "explanation": "Machine vision is often used in industrial automation, while computer vision is a broader AI field for image interpretation.",
+    "explanation_ur": "مشین وژن عام طور پر صنعتی آٹومیشن میں استعمال ہوتی ہے، جبکہ کمپیوٹر وژن تصاویر کی تشریح کے لیے ایک وسیع تر AI فیلڈ ہے۔",
+    "hint": "They overlap, but are not identical",
+    "hint_ur": "یہ ایک دوسرے سے ملتے ہیں، مگر ایک جیسے نہیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 74,
+    "type": "mcq",
+    "question": "Which AI technique is used for grouping similar data points together?",
+    "question_ur": "کون سی AI تکنیک ایک جیسے ڈیٹا پوائنٹس کو اکٹھا کرنے کے لیے استعمال ہوتی ہے؟",
+    "options": {
+      "en": ["Classification", "Clustering", "Regression", "Segmentation"],
+      "ur": ["کلاسیفکیشن", "کلسٹرنگ", "ریگریشن", "سیگمنٹیشن"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Clustering groups similar items together without pre-labeled data.",
+    "explanation_ur": "کلسٹرنگ ایک جیسے آئٹمز کو بغیر پہلے سے لیبل کیے ہوئے ڈیٹا کے اکٹھا کرتی ہے۔",
+    "hint": "Think of grouping similar photos",
+    "hint_ur": "ایک جیسی تصاویر کو گروپ کرنے کے بارے میں سوچیں",
+    "timeLimit": 25
+  },
+  {
+    "id": 75,
+    "type": "true-false",
+    "question": "AI is only used in technology and not in healthcare.",
+    "question_ur": "AI صرف ٹیکنالوجی میں استعمال ہوتا ہے اور صحت کی دیکھ بھال میں نہیں۔",
+    "correctAnswer": false,
+    "explanation": "AI is used in healthcare for diagnosis, treatment recommendations, and patient monitoring.",
+    "explanation_ur": "AI صحت کی دیکھ بھال میں تشخیص، علاج کی سفارشات اور مریض کی نگرانی کے لیے استعمال ہوتا ہے۔",
+    "hint": "Think of AI in medical imaging",
+    "hint_ur": "میڈیکل امیجنگ میں AI کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  
+  {
+    "id": 86,
+    "type": "mcq",
+    "question": "Which component in a robot is responsible for movement?",
+    "question_ur": "روبوٹ میں کون سا جزو حرکت کا ذمہ دار ہوتا ہے؟",
+    "options": {
+      "en": ["Sensors", "Actuators", "Controllers", "Power supply"],
+      "ur": ["سینسرز", "ایکچیویٹرز", "کنٹرولرز", "پاور سپلائی"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Actuators are mechanical devices that convert energy into motion in robots.",
+    "explanation_ur": "ایکچیویٹرز وہ مکینیکل آلات ہیں جو توانائی کو روبوٹ میں حرکت میں بدلتے ہیں۔",
+    "hint": "Motors are an example of these",
+    "hint_ur": "موٹرز ان کی ایک مثال ہیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 87,
+    "type": "true-false",
+    "question": "AI can be used to detect fraud in banking transactions.",
+    "question_ur": "AI بینکنگ ٹرانزیکشنز میں فراڈ کا پتہ لگانے کے لیے استعمال ہو سکتا ہے۔",
+    "correctAnswer": true,
+    "explanation": "AI analyzes transaction patterns to detect unusual or suspicious activities.",
+    "explanation_ur": "AI ٹرانزیکشن پیٹرنز کا تجزیہ کر کے غیر معمولی یا مشکوک سرگرمیوں کا پتہ لگاتا ہے۔",
+    "hint": "Think of fraud detection systems in banks",
+    "hint_ur": "بینکوں میں فراڈ ڈٹیکشن سسٹمز کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 88,
+    "type": "mcq",
+    "question": "Which AI method rewards an agent for achieving a goal?",
+    "question_ur": "کون سا AI طریقہ ایجنٹ کو مقصد حاصل کرنے پر انعام دیتا ہے؟",
+    "options": {
+      "en": ["Supervised Learning", "Reinforcement Learning", "Clustering", "Natural Language Processing"],
+      "ur": ["نگران لرننگ", "ری انفورسمنٹ لرننگ", "کلسٹرنگ", "نیچرل لینگویج پروسیسنگ"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Reinforcement learning trains an agent through rewards and penalties.",
+    "explanation_ur": "ری انفورسمنٹ لرننگ ایک ایجنٹ کو انعامات اور جرمانوں کے ذریعے تربیت دیتی ہے۔",
+    "hint": "Think of training a dog with treats",
+    "hint_ur": "کتے کو ٹریٹس کے ساتھ تربیت دینے کے بارے میں سوچیں",
+    "timeLimit": 25
+  },
+  {
+    "id": 89,
+    "type": "true-false",
+    "question": "Industrial robots are only used in car manufacturing.",
+    "question_ur": "انڈسٹریل روبوٹس صرف کار مینوفیکچرنگ میں استعمال ہوتے ہیں۔",
+    "correctAnswer": false,
+    "explanation": "Industrial robots are used in many industries like electronics, food processing, and packaging.",
+    "explanation_ur": "انڈسٹریل روبوٹس کئی صنعتوں میں استعمال ہوتے ہیں جیسے الیکٹرانکس، فوڈ پروسیسنگ، اور پیکجنگ۔",
+    "hint": "Think beyond automotive factories",
+    "hint_ur": "گاڑیوں کے کارخانوں سے آگے سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 90,
+    "type": "mcq",
+    "question": "What is the main advantage of collaborative robots (cobots)?",
+    "question_ur": "کولیبارٹو روبوٹس (کوبوٹس) کا بنیادی فائدہ کیا ہے؟",
+    "options": {
+      "en": ["They work only at night", "They work safely alongside humans", "They replace all workers", "They don't require electricity"],
+      "ur": ["یہ صرف رات کو کام کرتے ہیں", "یہ انسانوں کے ساتھ محفوظ طریقے سے کام کرتے ہیں", "یہ تمام کارکنوں کی جگہ لیتے ہیں", "یہ بجلی کی ضرورت نہیں رکھتے"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Cobots are designed to work safely alongside humans without safety cages.",
+    "explanation_ur": "کوبوٹس کو اس طرح ڈیزائن کیا گیا ہے کہ یہ انسانوں کے ساتھ محفوظ طریقے سے بغیر سیفٹی کیجز کے کام کریں۔",
+    "hint": "They are often used in shared workspaces",
+    "hint_ur": "یہ اکثر مشترکہ ورک اسپیس میں استعمال ہوتے ہیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 91,
+    "type": "true-false",
+    "question": "AI chatbots can provide 24/7 customer support.",
+    "question_ur": "AI چیٹ بوٹس 24/7 کسٹمر سپورٹ فراہم کر سکتے ہیں۔",
+    "correctAnswer": true,
+    "explanation": "AI chatbots can answer customer queries anytime without human presence.",
+    "explanation_ur": "AI چیٹ بوٹس انسانی موجودگی کے بغیر کسی بھی وقت کسٹمر کے سوالات کا جواب دے سکتے ہیں۔",
+    "hint": "Think of automated online help",
+    "hint_ur": "آن لائن خودکار مدد کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 92,
+    "type": "mcq",
+    "question": "Which AI concept involves mimicking the human brain's neuron connections?",
+    "question_ur": "کون سا AI تصور انسانی دماغ کے نیورون کنکشنز کی نقل کرتا ہے؟",
+    "options": {
+      "en": ["Decision Trees", "Neural Networks", "Bayesian Models", "Genetic Algorithms"],
+      "ur": ["ڈسیژن ٹریز", "نیورل نیٹ ورکس", "بیزین ماڈلز", "جینیٹک الگورمز"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Neural networks are inspired by the human brain's structure and learning process.",
+    "explanation_ur": "نیورل نیٹ ورکس انسانی دماغ کے ڈھانچے اور سیکھنے کے عمل سے متاثر ہوتے ہیں۔",
+    "hint": "Used heavily in deep learning",
+    "hint_ur": "ڈیپ لرننگ میں بڑے پیمانے پر استعمال ہوتے ہیں",
+    "timeLimit": 25
+  },
+  {
+    "id": 93,
+    "type": "true-false",
+    "question": "Path planning in robotics helps a robot find the safest and shortest route.",
+    "question_ur": "روبوٹکس میں پاتھ پلاننگ روبوٹ کو سب سے محفوظ اور مختصر راستہ تلاش کرنے میں مدد دیتی ہے۔",
+    "correctAnswer": true,
+    "explanation": "Path planning algorithms calculate optimal routes for robot navigation.",
+    "explanation_ur": "پاتھ پلاننگ الگوردمز روبوٹ کی نیویگیشن کے لیے بہترین راستے کا حساب لگاتے ہیں۔",
+    "hint": "Think of GPS for robots",
+    "hint_ur": "روبوٹس کے لیے GPS کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 94,
+    "type": "mcq",
+    "question": "Which AI application helps doctors detect diseases from medical images?",
+    "question_ur": "کون سی AI ایپلیکیشن ڈاکٹروں کو میڈیکل امیجز سے بیماریوں کا پتہ لگانے میں مدد دیتی ہے؟",
+    "options": {
+      "en": ["Natural Language Processing", "Computer Vision", "Expert Systems", "Robotic Process Automation"],
+      "ur": ["نیچرل لینگویج پروسیسنگ", "کمپیوٹر وژن", "ایکسپرٹ سسٹمز", "روبوٹک پروسیس آٹومیشن"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Computer vision analyzes images to detect patterns and anomalies.",
+    "explanation_ur": "کمپیوٹر وژن تصاویر کا تجزیہ کر کے پیٹرنز اور غیر معمولی چیزوں کا پتہ لگاتا ہے۔",
+    "hint": "Used in X-ray and MRI analysis",
+    "hint_ur": "ایکس رے اور MRI کے تجزیے میں استعمال ہوتا ہے",
+    "timeLimit": 25
+  },
+  {
+    "id": 95,
+    "type": "true-false",
+    "question": "AI cannot be used in agriculture.",
+    "question_ur": "AI زراعت میں استعمال نہیں ہو سکتا۔",
+    "correctAnswer": false,
+    "explanation": "AI is used in agriculture for crop monitoring, pest detection, and automated irrigation.",
+    "explanation_ur": "AI زراعت میں فصل کی نگرانی، کیڑوں کا پتہ لگانے اور خودکار آبپاشی کے لیے استعمال ہوتا ہے۔",
+    "hint": "Think of smart farming",
+    "hint_ur": "سمارٹ فارمنگ کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 96,
+    "type": "mcq",
+    "question": "Which AI branch focuses on understanding and generating human language?",
+    "question_ur": "کون سی AI برانچ انسانی زبان کو سمجھنے اور بنانے پر توجہ دیتی ہے؟",
+    "options": {
+      "en": ["Natural Language Processing", "Machine Vision", "Reinforcement Learning", "Expert Systems"],
+      "ur": ["نیچرل لینگویج پروسیسنگ", "مشین وژن", "ری انفورسمنٹ لرننگ", "ایکسپرٹ سسٹمز"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Natural Language Processing (NLP) enables machines to understand and generate human language.",
+    "explanation_ur": "نیچرل لینگویج پروسیسنگ مشینوں کو انسانی زبان سمجھنے اور بنانے کے قابل بناتی ہے۔",
+    "hint": "Used in translation apps",
+    "hint_ur": "ترجمے کی ایپس میں استعمال ہوتی ہے",
+    "timeLimit": 20
+  },
+  {
+    "id": 97,
+    "type": "true-false",
+    "question": "Swarm robotics is inspired by the behavior of insects like ants and bees.",
+    "question_ur": "سوارم روبوٹکس چیونٹیوں اور مکھیوں جیسے کیڑوں کے رویے سے متاثر ہے۔",
+    "correctAnswer": true,
+    "explanation": "Swarm robotics uses multiple small robots to work together, inspired by nature.",
+    "explanation_ur": "سوارم روبوٹکس میں کئی چھوٹے روبوٹس مل کر کام کرتے ہیں، جو قدرت سے متاثر ہے۔",
+    "hint": "Think of teamwork in nature",
+    "hint_ur": "قدرت میں ٹیم ورک کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 98,
+    "type": "mcq",
+    "question": "What is the role of a controller in a robot?",
+    "question_ur": "روبوٹ میں کنٹرولر کا کیا کردار ہوتا ہے؟",
+    "options": {
+      "en": ["To provide energy", "To process data and control actions", "To sense the environment", "To store data"],
+      "ur": ["توانائی فراہم کرنا", "ڈیٹا پروسیس کرنا اور عمل کو کنٹرول کرنا", "ماحول کو محسوس کرنا", "ڈیٹا اسٹور کرنا"]
+    },
+    "correctAnswer": 1,
+    "explanation": "A controller acts as the brain of the robot, processing inputs and sending commands.",
+    "explanation_ur": "کنٹرولر روبوٹ کا دماغ ہوتا ہے، جو ان پٹ کو پروسیس کرتا ہے اور کمانڈز بھیجتا ہے۔",
+    "hint": "It’s like a robot's CPU",
+    "hint_ur": "یہ روبوٹ کا CPU جیسا ہوتا ہے",
+    "timeLimit": 20
+  },
+  {
+    "id": 99,
+    "type": "true-false",
+    "question": "Robotic arms can be programmed for repetitive tasks in factories.",
+    "question_ur": "فیکٹریوں میں روبوٹک بازوؤں کو بار بار کے کاموں کے لیے پروگرام کیا جا سکتا ہے۔",
+    "correctAnswer": true,
+    "explanation": "Robotic arms are used for repetitive manufacturing tasks like welding and assembly.",
+    "explanation_ur": "روبوٹک بازو ویلڈنگ اور اسمبلی جیسے بار بار کے مینوفیکچرنگ کاموں کے لیے استعمال ہوتے ہیں۔",
+    "hint": "Think of assembly lines",
+    "hint_ur": "اسمبلی لائنز کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 100,
+    "type": "mcq",
+    "question": "Which AI technique is used to make predictions based on past data?",
+    "question_ur": "کون سی AI تکنیک ماضی کے ڈیٹا کی بنیاد پر پیش گوئیاں کرنے کے لیے استعمال ہوتی ہے؟",
+    "options": {
+      "en": ["Regression", "Classification", "Clustering", "Path Planning"],
+      "ur": ["ریگریشن", "کلاسیفکیشن", "کلسٹرنگ", "پاتھ پلاننگ"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Regression analyzes historical data to predict future values.",
+    "explanation_ur": "ریگریشن ماضی کے ڈیٹا کا تجزیہ کر کے مستقبل کی قدریں پیش گوئی کرتا ہے۔",
+    "hint": "Common in sales forecasting",
+    "hint_ur": "سیلز فورکاسٹنگ میں عام ہے",
+    "timeLimit": 25
+  },
+  {
+    "id": 101,
+    "type": "true-false",
+    "question": "AI can help reduce energy consumption in smart buildings.",
+    "question_ur": "AI اسمارٹ عمارتوں میں توانائی کے استعمال کو کم کرنے میں مدد کر سکتا ہے۔",
+    "correctAnswer": true,
+    "explanation": "AI optimizes heating, cooling, and lighting to save energy.",
+    "explanation_ur": "AI توانائی بچانے کے لیے ہیٹنگ، کولنگ اور لائٹنگ کو بہتر بناتا ہے۔",
+    "hint": "Think of AI managing power usage",
+    "hint_ur": "AI کے پاور استعمال کو منظم کرنے کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 102,
+    "type": "mcq",
+    "question": "Which type of robot is designed to assist in surgeries?",
+    "question_ur": "کس قسم کا روبوٹ سرجری میں مدد کے لیے ڈیزائن کیا گیا ہے؟",
+    "options": {
+      "en": ["Humanoid Robot", "Medical Robot", "Agricultural Robot", "Exploration Robot"],
+      "ur": ["ہیومینائڈ روبوٹ", "میڈیکل روبوٹ", "زرعی روبوٹ", "ایکسپلوریشن روبوٹ"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Medical robots assist doctors in performing precise and minimally invasive surgeries.",
+    "explanation_ur": "میڈیکل روبوٹس ڈاکٹروں کو درست اور کم تکلیف دہ سرجری کرنے میں مدد دیتے ہیں۔",
+    "hint": "Da Vinci robot is one example",
+    "hint_ur": "دا ونچی روبوٹ ایک مثال ہے",
+    "timeLimit": 20
+  },
+  {
+    "id": 103,
+    "type": "true-false",
+    "question": "AI cannot translate one language to another.",
+    "question_ur": "AI ایک زبان کو دوسری زبان میں ترجمہ نہیں کر سکتا۔",
+    "correctAnswer": false,
+    "explanation": "AI language models can translate between many languages instantly.",
+    "explanation_ur": "AI لینگویج ماڈلز کئی زبانوں کے درمیان فوری ترجمہ کر سکتے ہیں۔",
+    "hint": "Think of Google Translate",
+    "hint_ur": "گوگل ٹرانسلیٹ کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 104,
+    "type": "mcq",
+    "question": "Which AI-powered system can recommend products based on your browsing history?",
+    "question_ur": "کون سا AI سے چلنے والا سسٹم آپ کی براؤزنگ ہسٹری کی بنیاد پر پروڈکٹس کی سفارش کر سکتا ہے؟",
+    "options": {
+      "en": ["Expert System", "Recommendation System", "Computer Vision", "Speech Recognition"],
+      "ur": ["ایکسپرٹ سسٹم", "ریکمنڈیشن سسٹم", "کمپیوٹر وژن", "اسپیچ ریکگنیشن"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Recommendation systems use AI to suggest products, movies, or music based on user behavior.",
+    "explanation_ur": "ریکمنڈیشن سسٹمز AI کا استعمال کرتے ہیں تاکہ صارف کے رویے کی بنیاد پر پروڈکٹس، فلمیں یا میوزک تجویز کریں۔",
+    "hint": "Think of Amazon suggestions",
+    "hint_ur": "ایمیزون کی تجاویز کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 105,
+    "type": "true-false",
+    "question": "AI can help detect cyberattacks in real time.",
+    "question_ur": "AI سائبر حملوں کا حقیقی وقت میں پتہ لگانے میں مدد کر سکتا ہے۔",
+    "correctAnswer": true,
+    "explanation": "AI monitors network activity to spot signs of cyber threats instantly.",
+    "explanation_ur": "AI نیٹ ورک کی سرگرمی کی نگرانی کرتا ہے تاکہ فوری طور پر سائبر خطرات کی علامات کا پتہ لگایا جا سکے۔",
+    "hint": "Think of AI security systems",
+    "hint_ur": "AI سیکیورٹی سسٹمز کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  
+  {
+    "id": 106,
+    "type": "mcq",
+    "question": "What is the main function of actuators in robotics?",
+    "question_ur": "روبوٹکس میں ایکچوایٹرز کا بنیادی کام کیا ہے؟",
+    "options": {
+      "en": ["Process data", "Provide movement", "Store energy", "Control software"],
+      "ur": ["ڈیٹا پراسیس کرنا", "حرکت فراہم کرنا", "انرجی ذخیرہ کرنا", "سافٹ ویئر کو کنٹرول کرنا"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Actuators are devices that convert energy into physical movement in robots.",
+    "explanation_ur": "ایکچوایٹرز وہ آلات ہیں جو توانائی کو روبوٹ میں جسمانی حرکت میں تبدیل کرتے ہیں۔",
+    "hint": "Motors and hydraulic systems are examples",
+    "hint_ur": "موٹرز اور ہائیڈرولک سسٹمز مثالیں ہیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 107,
+    "type": "true-false",
+    "question": "AI is capable of creative tasks such as composing music.",
+    "question_ur": "AI موسیقی تخلیق کرنے جیسے تخلیقی کام کرنے کے قابل ہے۔",
+    "correctAnswer": true,
+    "explanation": "AI models like OpenAI's MuseNet can compose original music in different styles.",
+    "explanation_ur": "AI ماڈلز جیسے کہ OpenAI کا MuseNet مختلف طرز میں اصل موسیقی تخلیق کر سکتے ہیں۔",
+    "hint": "Think about AI-generated art and music",
+    "hint_ur": "AI سے تیار کردہ آرٹ اور موسیقی کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 108,
+    "type": "mcq",
+    "question": "Which AI term refers to systems that can adapt to new data without human intervention?",
+    "question_ur": "وہ کون سا AI کا اصطلاحی لفظ ہے جو ایسے سسٹمز کو ظاہر کرتا ہے جو انسانی مداخلت کے بغیر نئے ڈیٹا کے مطابق ڈھل سکتے ہیں؟",
+    "options": {
+      "en": ["Rule-Based Systems", "Adaptive AI", "Static Algorithms", "Data Warehousing"],
+      "ur": ["رول بیسڈ سسٹمز", "ایڈاپٹو AI", "اسٹیٹک الگورتھمز", "ڈیٹا ویئرہاؤسنگ"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Adaptive AI systems learn continuously and update their behavior automatically.",
+    "explanation_ur": "ایڈاپٹو AI سسٹمز مسلسل سیکھتے ہیں اور خودکار طور پر اپنے رویے کو اپ ڈیٹ کرتے ہیں۔",
+    "hint": "The opposite of fixed rules",
+    "hint_ur": "مقررہ اصولوں کا الٹ",
+    "timeLimit": 25
+  },
+  {
+    "id": 109,
+    "type": "true-false",
+    "question": "Robotic surgery is entirely automated without any human control.",
+    "question_ur": "روبوٹک سرجری مکمل طور پر خودکار ہوتی ہے اور انسانی کنٹرول نہیں ہوتا۔",
+    "correctAnswer": false,
+    "explanation": "Robotic surgery involves a surgeon controlling robotic arms for precision, not full automation.",
+    "explanation_ur": "روبوٹک سرجری میں سرجن روبوٹک بازوؤں کو کنٹرول کرتا ہے تاکہ درستگی ہو، یہ مکمل خودکار نہیں ہوتی۔",
+    "hint": "Doctors are still in charge",
+    "hint_ur": "ڈاکٹر اب بھی کنٹرول میں ہوتے ہیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 110,
+    "type": "mcq",
+    "question": "What is 'Reinforcement Learning' used for in AI?",
+    "question_ur": "AI میں 'ری انفورسمنٹ لرننگ' کس کے لیے استعمال ہوتی ہے؟",
+    "options": {
+      "en": ["Predicting numbers", "Learning through trial and error", "Storing large datasets", "Image compression"],
+      "ur": ["اعداد کی پیشگوئی", "کوشش اور غلطی کے ذریعے سیکھنا", "بڑے ڈیٹا سیٹ ذخیرہ کرنا", "امیج کمپریشن"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Reinforcement Learning trains AI agents by rewarding desired actions and penalizing wrong ones.",
+    "explanation_ur": "ری انفورسمنٹ لرننگ AI ایجنٹس کو تربیت دیتی ہے مطلوبہ اعمال پر انعام دے کر اور غلطیوں پر سزا دے کر۔",
+    "hint": "Think of training a pet with treats",
+    "hint_ur": "ایسے پالتو جانور کی تربیت کے بارے میں سوچیں جسے ٹریٹ دی جاتی ہو",
+    "timeLimit": 25
+  },
+  {
+    "id": 111,
+    "type": "true-false",
+    "question": "Computer vision enables robots to interpret and process visual information from the environment.",
+    "question_ur": "کمپیوٹر وژن روبوٹس کو ماحول سے بصری معلومات کی تشریح اور پروسیسنگ کے قابل بناتی ہے۔",
+    "correctAnswer": true,
+    "explanation": "Computer vision allows machines to analyze and understand images and videos.",
+    "explanation_ur": "کمپیوٹر وژن مشینوں کو تصاویر اور ویڈیوز کا تجزیہ اور سمجھنے کے قابل بناتی ہے۔",
+    "hint": "Eyes for the robot",
+    "hint_ur": "روبوٹ کے لیے آنکھیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 112,
+    "type": "mcq",
+    "question": "Which of these is NOT an AI application?",
+    "question_ur": "ان میں سے کون سی AI کی ایپلیکیشن نہیں ہے؟",
+    "options": {
+      "en": ["Face recognition", "Spam filtering", "Weather forecasting", "Boiling water"],
+      "ur": ["چہرہ پہچاننا", "سپیم فلٹرنگ", "موسم کی پیشگوئی", "پانی ابالنا"]
+    },
+    "correctAnswer": 3,
+    "explanation": "Boiling water does not involve artificial intelligence.",
+    "explanation_ur": "پانی ابالنے میں مصنوعی ذہانت شامل نہیں ہوتی۔",
+    "hint": "One is just a kitchen task",
+    "hint_ur": "ایک صرف باورچی خانے کا کام ہے",
+    "timeLimit": 15
+  },
+  {
+    "id": 113,
+    "type": "true-false",
+    "question": "Autonomous drones can be used for delivery services.",
+    "question_ur": "خودکار ڈرونز کو ڈیلیوری سروسز کے لیے استعمال کیا جا سکتا ہے۔",
+    "correctAnswer": true,
+    "explanation": "Companies like Amazon have tested autonomous drones for package delivery.",
+    "explanation_ur": "ایمیزون جیسی کمپنیاں پیکج ڈیلیوری کے لیے خودکار ڈرونز کا تجربہ کر چکی ہیں۔",
+    "hint": "Think of flying packages",
+    "hint_ur": "اڑتے ہوئے پیکجز کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 114,
+    "type": "mcq",
+    "question": "What is 'Swarm Robotics' inspired by?",
+    "question_ur": "'سوارم روبوٹکس' کس سے متاثر ہو کر بنایا گیا ہے؟",
+    "options": {
+      "en": ["Human teamwork", "Animal herds", "Insect colonies", "Machine factories"],
+      "ur": ["انسانی ٹیم ورک", "جانوروں کے جھنڈ", "کیڑوں کی کالونیاں", "مشین فیکٹریاں"]
+    },
+    "correctAnswer": 2,
+    "explanation": "Swarm robotics is inspired by the collective behavior of insects like ants and bees.",
+    "explanation_ur": "سوارم روبوٹکس چیونٹیوں اور مکھیوں جیسے کیڑوں کے اجتماعی رویے سے متاثر ہے۔",
+    "hint": "Think about ants working together",
+    "hint_ur": "چیونٹیوں کے مل کر کام کرنے کے بارے میں سوچیں",
+    "timeLimit": 25
+  },
+  {
+    "id": 115,
+    "type": "true-false",
+    "question": "Robots cannot be used in hazardous environments.",
+    "question_ur": "روبوٹس کو خطرناک ماحول میں استعمال نہیں کیا جا سکتا۔",
+    "correctAnswer": false,
+    "explanation": "Robots are often used in hazardous environments to reduce human risk, such as in mines or nuclear plants.",
+    "explanation_ur": "روبوٹس اکثر خطرناک ماحول میں استعمال کیے جاتے ہیں تاکہ انسانی خطرہ کم ہو، جیسے کانوں یا جوہری پلانٹس میں۔",
+    "hint": "They can go where humans can't",
+    "hint_ur": "وہ وہاں جا سکتے ہیں جہاں انسان نہیں جا سکتے",
+    "timeLimit": 20
+  },
+  {
+    "id": 116,
+    "type": "mcq",
+    "question": "Which AI field focuses on enabling machines to understand spoken language?",
+    "question_ur": "AI کا کون سا شعبہ مشینوں کو بولی گئی زبان سمجھنے کے قابل بنانے پر توجہ دیتا ہے؟",
+    "options": {
+      "en": ["Speech Recognition", "Machine Vision", "Neural Networking", "Data Mining"],
+      "ur": ["اسپیچ ریکگنیشن", "مشین وژن", "نیورل نیٹ ورکنگ", "ڈیٹا مائننگ"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Speech recognition allows computers to convert spoken language into text.",
+    "explanation_ur": "اسپیچ ریکگنیشن کمپیوٹرز کو بولی گئی زبان کو ٹیکسٹ میں تبدیل کرنے کے قابل بناتی ہے۔",
+    "hint": "Think of voice assistants",
+    "hint_ur": "وائس اسسٹنٹس کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 117,
+    "type": "true-false",
+    "question": "Machine learning always requires big data to work.",
+    "question_ur": "مشین لرننگ کے لیے ہمیشہ بڑے ڈیٹا کی ضرورت ہوتی ہے۔",
+    "correctAnswer": false,
+    "explanation": "While large datasets help, some machine learning models can be trained with small datasets.",
+    "explanation_ur": "اگرچہ بڑے ڈیٹا سیٹ مددگار ہوتے ہیں، کچھ مشین لرننگ ماڈلز چھوٹے ڈیٹا سیٹ کے ساتھ بھی تربیت دیے جا سکتے ہیں۔",
+    "hint": "Small data can sometimes be enough",
+    "hint_ur": "کبھی کبھی تھوڑا ڈیٹا بھی کافی ہوتا ہے",
+    "timeLimit": 20
+  },
+  {
+    "id": 118,
+    "type": "mcq",
+    "question": "Which robot was the first to land on Mars?",
+    "question_ur": "مریخ پر اترنے والا پہلا روبوٹ کون سا تھا؟",
+    "options": {
+      "en": ["Spirit", "Curiosity", "Sojourner", "Opportunity"],
+      "ur": ["اسپرٹ", "کیوریوسٹی", "سوجورنر", "اپرچیونٹی"]
+    },
+    "correctAnswer": 2,
+    "explanation": "NASA's Sojourner rover was the first successful robot to operate on Mars in 1997.",
+    "explanation_ur": "ناسا کا سوجورنر روور 1997 میں مریخ پر کامیابی سے کام کرنے والا پہلا روبوٹ تھا۔",
+    "hint": "It was part of the Mars Pathfinder mission",
+    "hint_ur": "یہ مریخ پاتھ فائنڈر مشن کا حصہ تھا",
+    "timeLimit": 25
+  },
+  {
+    "id": 119,
+    "type": "true-false",
+    "question": "AI can be used in fraud detection for banking systems.",
+    "question_ur": "AI کو بینکنگ سسٹمز میں فراڈ کا پتہ لگانے کے لیے استعمال کیا جا سکتا ہے۔",
+    "correctAnswer": true,
+    "explanation": "AI analyzes transaction patterns to detect unusual activity and potential fraud.",
+    "explanation_ur": "AI لین دین کے پیٹرنز کا تجزیہ کر کے غیر معمولی سرگرمی اور ممکنہ فراڈ کا پتہ لگاتا ہے۔",
+    "hint": "Think about credit card alerts",
+    "hint_ur": "کریڈٹ کارڈ الرٹس کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 120,
+    "type": "mcq",
+    "question": "What does 'ASIMO', Honda's humanoid robot, stand for?",
+    "question_ur": "ہونڈا کے ہومینوئڈ روبوٹ 'ASIMO' کا کیا مطلب ہے؟",
+    "options": {
+      "en": ["Advanced Step in Innovative Mobility", "Artificial Simulation of Intelligent Machines", "Autonomous System for Industrial Mechanization", "Advanced Software for Intelligent Movement"],
+      "ur": ["انوویٹو موبلٹی میں ایڈوانسڈ اسٹیپ", "انٹیلیجنٹ مشینز کی مصنوعی تخلیق", "انڈسٹریل میکنائزیشن کے لیے خودکار نظام", "انٹیلیجنٹ موومنٹ کے لیے ایڈوانسڈ سافٹ ویئر"]
+    },
+    "correctAnswer": 0,
+    "explanation": "ASIMO stands for Advanced Step in Innovative Mobility, showcasing Honda's robotics technology.",
+    "explanation_ur": "ASIMO کا مطلب ہے انوویٹو موبلٹی میں ایڈوانسڈ اسٹیپ، جو ہونڈا کی روبوٹکس ٹیکنالوجی کو ظاہر کرتا ہے۔",
+    "hint": "It's an acronym for a mobility concept",
+    "hint_ur": "یہ ایک موبلٹی تصور کا مخفف ہے",
+    "timeLimit": 25
+  },
+  
+  {
+    "id": 121,
+    "type": "mcq",
+    "question": "What does 'ASIMO', Honda's humanoid robot, stand for?",
+    "question_ur": "'ASIMO'، ہونڈا کا ہومینائیڈ روبوٹ، کا مطلب کیا ہے؟",
+    "options": {
+      "en": ["Advanced Step in Innovative Mobility", "Artificial Simulation Model", "Autonomous System for Intelligent Movement", "Automated Simulation of Motion"],
+      "ur": ["ایڈوانسڈ اسٹیپ ان انوویٹیو موبلٹی", "آرٹیفیشل سمیولیشن ماڈل", "آٹونومس سسٹم فار انٹیلیجنٹ موومنٹ", "آٹومیٹڈ سمیولیشن آف موشن"]
+    },
+    "correctAnswer": 0,
+    "explanation": "ASIMO stands for Advanced Step in Innovative Mobility, developed by Honda to showcase humanoid robotics technology.",
+    "explanation_ur": "ASIMO کا مطلب ہے ایڈوانسڈ اسٹیپ ان انوویٹیو موبلٹی، جو ہونڈا نے ہومینائیڈ روبوٹکس ٹیکنالوجی کے لیے تیار کیا۔",
+    "hint": "It's about mobility innovation",
+    "hint_ur": "یہ نقل و حرکت میں جدت کے بارے میں ہے",
+    "timeLimit": 30
+  },
+  {
+    "id": 122,
+    "type": "true-false",
+    "question": "AI can help in detecting fraud in banking systems.",
+    "question_ur": "AI بینکاری نظام میں دھوکہ دہی کا پتہ لگانے میں مدد کر سکتی ہے۔",
+    "correctAnswer": true,
+    "explanation": "AI analyzes transaction patterns to identify anomalies that may indicate fraud.",
+    "explanation_ur": "AI لین دین کے نمونوں کا تجزیہ کرتی ہے تاکہ غیر معمولی حرکات کو پہچانا جا سکے جو دھوکہ دہی کی نشاندہی کر سکتی ہیں۔",
+    "hint": "Think about credit card fraud detection",
+    "hint_ur": "کریڈٹ کارڈ دھوکہ دہی کی شناخت کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 123,
+    "type": "mcq",
+    "question": "Which AI model is most commonly used for image recognition?",
+    "question_ur": "تصویر کی شناخت کے لیے سب سے عام استعمال ہونے والا AI ماڈل کون سا ہے؟",
+    "options": {
+      "en": ["Convolutional Neural Networks", "Recurrent Neural Networks", "Decision Trees", "Support Vector Machines"],
+      "ur": ["کنوولوشنل نیورل نیٹ ورکس", "ریکَرَنٹ نیورل نیٹ ورکس", "ڈسیژن ٹریز", "سپورٹ ویکٹر مشینز"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Convolutional Neural Networks (CNNs) are specifically designed for image processing and recognition tasks.",
+    "explanation_ur": "کنوولوشنل نیورل نیٹ ورکس خاص طور پر تصویر کی پروسیسنگ اور شناخت کے کاموں کے لیے تیار کیے گئے ہیں۔",
+    "hint": "These networks 'see' like humans",
+    "hint_ur": "یہ نیٹ ورکس انسانوں کی طرح 'دیکھتے' ہیں",
+    "timeLimit": 25
+  },
+  {
+    "id": 124,
+    "type": "true-false",
+    "question": "Robotic arms in surgery are controlled entirely by AI without human input.",
+    "question_ur": "سرجری میں روبوٹک بازو مکمل طور پر AI کے ذریعے بغیر انسانی ان پٹ کے کنٹرول کیے جاتے ہیں۔",
+    "correctAnswer": false,
+    "explanation": "Most surgical robots are controlled by human surgeons with AI assistance for precision.",
+    "explanation_ur": "زیادہ تر جراحی کے روبوٹس انسانی سرجن کے ذریعے کنٹرول ہوتے ہیں اور AI صرف درستگی میں مدد دیتا ہے۔",
+    "hint": "Think of it as teamwork",
+    "hint_ur": "اسے ٹیم ورک کے طور پر سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 125,
+    "type": "mcq",
+    "question": "Which company developed the 'Spot' robot dog?",
+    "question_ur": "'اسپاٹ' روبوٹ کتا کس کمپنی نے تیار کیا؟",
+    "options": {
+      "en": ["Boston Dynamics", "Tesla", "iRobot", "Sony"],
+      "ur": ["بوسٹن ڈائنامکس", "ٹیسلا", "آئی روبوٹ", "سونی"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Boston Dynamics developed 'Spot', a quadruped robot for various applications.",
+    "explanation_ur": "بوسٹن ڈائنامکس نے 'اسپاٹ' تیار کیا، جو ایک چار ٹانگوں والا روبوٹ ہے اور مختلف کاموں کے لیے استعمال ہوتا ہے۔",
+    "hint": "They also made Atlas",
+    "hint_ur": "انہوں نے اٹلس بھی بنایا ہے",
+    "timeLimit": 25
+  },
+  {
+    "id": 126,
+    "type": "mcq",
+    "question": "Which AI algorithm is inspired by the human brain's neuron connections?",
+    "question_ur": "کون سا AI الگورتھم انسانی دماغ کے نیورون کنکشن سے متاثر ہے؟",
+    "options": {
+      "en": ["Decision Trees", "Artificial Neural Networks", "Genetic Algorithms", "Support Vector Machines"],
+      "ur": ["ڈسیژن ٹریز", "مصنوعی نیورل نیٹ ورکس", "جینیٹک الگورتھمز", "سپورٹ ویکٹر مشینز"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Artificial Neural Networks are modeled after the interconnected neurons in the human brain.",
+    "explanation_ur": "مصنوعی نیورل نیٹ ورکس انسانی دماغ میں موجود جڑے ہوئے نیورونز کے ماڈل پر مبنی ہیں۔",
+    "hint": "Think of brain simulation",
+    "hint_ur": "دماغ کی نقل کے بارے میں سوچیں",
+    "timeLimit": 30
+  },
+  {
+    "id": 127,
+    "type": "true-false",
+    "question": "AI can be used to compose music.",
+    "question_ur": "AI موسیقی تخلیق کرنے کے لیے استعمال ہو سکتی ہے۔",
+    "correctAnswer": true,
+    "explanation": "AI algorithms can generate melodies, harmonies, and even full songs based on learned patterns.",
+    "explanation_ur": "AI الگورتھمز سیکھے گئے پیٹرنز کی بنیاد پر دھنیں، ہم آہنگی، اور مکمل گانے بھی بنا سکتے ہیں۔",
+    "hint": "Think about AI composing symphonies",
+    "hint_ur": "AI کے سمفنی بنانے کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 128,
+    "type": "mcq",
+    "question": "Which sensor is commonly used in robots for obstacle detection?",
+    "question_ur": "روبوٹس میں رکاوٹ کی شناخت کے لیے عام طور پر کون سا سینسر استعمال ہوتا ہے؟",
+    "options": {
+      "en": ["Ultrasonic Sensor", "Infrared Sensor", "LIDAR", "All of the above"],
+      "ur": ["الٹراسونک سینسر", "انفراریڈ سینسر", "لیزر ڈار", "مندرجہ بالا سب"]
+    },
+    "correctAnswer": 3,
+    "explanation": "Robots use ultrasonic, infrared, and LIDAR sensors for accurate obstacle detection.",
+    "explanation_ur": "روبوٹس رکاوٹ کی درست شناخت کے لیے الٹراسونک، انفراریڈ، اور لائیڈار سینسر استعمال کرتے ہیں۔",
+    "hint": "Multiple sensor types are used",
+    "hint_ur": "متعدد سینسر اقسام استعمال ہوتی ہیں",
+    "timeLimit": 25
+  },
+  {
+    "id": 129,
+    "type": "true-false",
+    "question": "AI can improve the efficiency of supply chain management.",
+    "question_ur": "AI سپلائی چین مینجمنٹ کی کارکردگی کو بہتر بنا سکتی ہے۔",
+    "correctAnswer": true,
+    "explanation": "AI predicts demand, optimizes routes, and manages inventory more effectively.",
+    "explanation_ur": "AI طلب کی پیشگوئی کرتی ہے، راستوں کو بہتر بناتی ہے، اور ذخیرہ کو مؤثر طریقے سے منظم کرتی ہے۔",
+    "hint": "Think of logistics companies",
+    "hint_ur": "لاجسٹکس کمپنیوں کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 130,
+    "type": "mcq",
+    "question": "Which field of AI focuses on decision-making under uncertainty?",
+    "question_ur": "AI کا کون سا شعبہ غیر یقینی صورتحال میں فیصلہ سازی پر توجہ دیتا ہے؟",
+    "options": {
+      "en": ["Reinforcement Learning", "Natural Language Processing", "Computer Vision", "Neural Networks"],
+      "ur": ["رینفورسمنٹ لرننگ", "قدرتی زبان کی پروسیسنگ", "کمپیوٹر وژن", "نیورل نیٹ ورکس"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Reinforcement Learning trains agents to make decisions based on rewards and penalties in uncertain environments.",
+    "explanation_ur": "رینفورسمنٹ لرننگ ایجنٹس کو غیر یقینی ماحول میں انعامات اور سزاؤں کی بنیاد پر فیصلے کرنے کی تربیت دیتی ہے۔",
+    "hint": "It's like training by trial and error",
+    "hint_ur": "یہ آزمائش اور غلطی کے ذریعے تربیت جیسا ہے",
+    "timeLimit": 30
+  },
+  
+  {
+    "id": 131,
+    "type": "mcq",
+    "question": "Which AI concept involves using multiple layers of neural networks to model complex patterns?",
+    "question_ur": "کون سا AI تصور پیچیدہ پیٹرنز کو ماڈل کرنے کے لیے نیورل نیٹ ورکس کی متعدد تہوں کے استعمال پر مشتمل ہے؟",
+    "options": {
+      "en": ["Reinforcement Learning", "Deep Learning", "Supervised Learning", "Unsupervised Learning"],
+      "ur": ["رینفورسمنٹ لرننگ", "ڈیپ لرننگ", "سپر وائزڈ لرننگ", "ان سپر وائزڈ لرننگ"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Deep Learning uses neural networks with many layers to learn complex features from data.",
+    "explanation_ur": "ڈیپ لرننگ نیورل نیٹ ورکس کی کئی تہوں کا استعمال کرتے ہوئے ڈیٹا سے پیچیدہ فیچرز سیکھتی ہے۔",
+    "hint": "Think of 'deep' as in many layers",
+    "hint_ur": "'ڈیپ' یعنی کئی تہوں کے بارے میں سوچیں",
+    "timeLimit": 30
+  },
+  {
+    "id": 132,
+    "type": "true-false",
+    "question": "AI can only process structured data.",
+    "question_ur": "AI صرف ساختہ ڈیٹا کو پروسیس کر سکتی ہے۔",
+    "correctAnswer": false,
+    "explanation": "AI can handle both structured data like tables and unstructured data like images, audio, and text.",
+    "explanation_ur": "AI ساختہ ڈیٹا جیسے جدولیں اور غیر ساختہ ڈیٹا جیسے تصاویر، آڈیو اور متن دونوں کو ہینڈل کر سکتی ہے۔",
+    "hint": "Think about image recognition",
+    "hint_ur": "تصویر کی شناخت کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 133,
+    "type": "mcq",
+    "question": "What is the main goal of reinforcement learning?",
+    "question_ur": "رینفورسمنٹ لرننگ کا بنیادی مقصد کیا ہے؟",
+    "options": {
+      "en": ["Minimizing prediction error", "Maximizing cumulative reward", "Classifying data points", "Learning without data"],
+      "ur": ["پیشگوئی کی غلطی کو کم کرنا", "مجموعی انعام کو زیادہ سے زیادہ کرنا", "ڈیٹا پوائنٹس کی درجہ بندی کرنا", "بغیر ڈیٹا کے سیکھنا"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Reinforcement Learning trains agents to take actions that maximize total reward over time.",
+    "explanation_ur": "رینفورسمنٹ لرننگ ایجنٹس کو ایسی کارروائیاں کرنے کی تربیت دیتی ہے جو وقت کے ساتھ کل انعام کو زیادہ سے زیادہ کریں۔",
+    "hint": "Think of a game AI learning to win",
+    "hint_ur": "کھیل میں جیتنا سیکھنے والی AI کے بارے میں سوچیں",
+    "timeLimit": 25
+  },
+  {
+    "id": 134,
+    "type": "true-false",
+    "question": "Humanoid robots are designed to resemble the human body.",
+    "question_ur": "ہیومینائیڈ روبوٹس انسانی جسم سے مشابہت کے لیے ڈیزائن کیے جاتے ہیں۔",
+    "correctAnswer": true,
+    "explanation": "Humanoid robots mimic human appearance and movement for interaction purposes.",
+    "explanation_ur": "ہیومینائیڈ روبوٹس انسانی ظاہری شکل اور حرکات کی نقل کرتے ہیں تاکہ بات چیت کی جا سکے۔",
+    "hint": "Think of robots like ASIMO",
+    "hint_ur": "ASIMO جیسے روبوٹس کے بارے میں سوچیں",
+    "timeLimit": 10
+  },
+  {
+    "id": 135,
+    "type": "mcq",
+    "question": "Which AI technique is inspired by the way the human brain works?",
+    "question_ur": "کون سی AI تکنیک انسانی دماغ کے کام کرنے کے طریقے سے متاثر ہے؟",
+    "options": {
+      "en": ["Decision Trees", "Neural Networks", "Genetic Algorithms", "K-means Clustering"],
+      "ur": ["ڈیسیژن ٹریز", "نیورل نیٹ ورکس", "جینیٹک الگورتھمز", "کے مینز کلسٹرنگ"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Neural networks are modeled after the structure and function of the human brain.",
+    "explanation_ur": "نیورل نیٹ ورکس انسانی دماغ کے ڈھانچے اور کام کرنے کے طریقے پر مبنی ہوتے ہیں۔",
+    "hint": "Think of neurons and synapses",
+    "hint_ur": "نیورونز اور سائنیپس کے بارے میں سوچیں",
+    "timeLimit": 25
+  },
+  {
+    "id": 136,
+    "type": "true-false",
+    "question": "AI is always biased.",
+    "question_ur": "AI ہمیشہ جانبدار ہوتی ہے۔",
+    "correctAnswer": false,
+    "explanation": "AI bias depends on the quality and diversity of the training data. Properly designed AI can minimize bias.",
+    "explanation_ur": "AI کی جانبداری تربیتی ڈیٹا کے معیار اور تنوع پر منحصر ہے۔ درست طریقے سے ڈیزائن کی گئی AI جانبداری کو کم کر سکتی ہے۔",
+    "hint": "It's about the data, not the algorithm itself",
+    "hint_ur": "یہ ڈیٹا کے بارے میں ہے، خود الگورتھم کے بارے میں نہیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 137,
+    "type": "mcq",
+    "question": "Which company developed the AI language model GPT?",
+    "question_ur": "کس کمپنی نے AI لینگویج ماڈل GPT تیار کیا؟",
+    "options": {
+      "en": ["Google", "OpenAI", "Microsoft", "IBM"],
+      "ur": ["گوگل", "اوپن اے آئی", "مائیکروسافٹ", "آئی بی ایم"]
+    },
+    "correctAnswer": 1,
+    "explanation": "GPT (Generative Pre-trained Transformer) was developed by OpenAI.",
+    "explanation_ur": "جی پی ٹی (جنریٹیو پری ٹرینڈ ٹرانسفارمر) اوپن اے آئی نے تیار کیا تھا۔",
+    "hint": "Think of ChatGPT",
+    "hint_ur": "چیٹ جی پی ٹی کے بارے میں سوچیں",
+    "timeLimit": 10
+  },
+  {
+    "id": 138,
+    "type": "true-false",
+    "question": "AI can be used to detect fraudulent transactions in banking.",
+    "question_ur": "بینکنگ میں دھوکہ دہی والے لین دین کا پتہ لگانے کے لیے AI استعمال کی جا سکتی ہے۔",
+    "correctAnswer": true,
+    "explanation": "AI models analyze transaction patterns to flag unusual activities for fraud prevention.",
+    "explanation_ur": "AI ماڈلز لین دین کے پیٹرنز کا تجزیہ کر کے غیر معمولی سرگرمیوں کو دھوکہ دہی سے بچاؤ کے لیے نشاندہی کرتے ہیں۔",
+    "hint": "Think of fraud detection systems",
+    "hint_ur": "فراڈ ڈیٹیکشن سسٹمز کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 139,
+    "type": "mcq",
+    "question": "Which sensor is most commonly used in robots for distance measurement?",
+    "question_ur": "فاصلہ ناپنے کے لیے روبوٹس میں سب سے زیادہ کون سا سینسر استعمال ہوتا ہے؟",
+    "options": {
+      "en": ["Ultrasonic Sensor", "Temperature Sensor", "Humidity Sensor", "Light Sensor"],
+      "ur": ["الٹراسونک سینسر", "درجہ حرارت سینسر", "نمی سینسر", "روشنی سینسر"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Ultrasonic sensors measure distance by sending and receiving sound waves.",
+    "explanation_ur": "الٹراسونک سینسرز آواز کی لہریں بھیج کر اور وصول کر کے فاصلہ ناپتے ہیں۔",
+    "hint": "Think of echo and sonar",
+    "hint_ur": "ایکو اور سونار کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 140,
+    "type": "true-false",
+    "question": "Computer vision allows AI to interpret visual information from the world.",
+    "question_ur": "کمپیوٹر وژن AI کو دنیا سے بصری معلومات سمجھنے کی اجازت دیتا ہے۔",
+    "correctAnswer": true,
+    "explanation": "Computer vision enables machines to process and understand images and videos.",
+    "explanation_ur": "کمپیوٹر وژن مشینوں کو تصاویر اور ویڈیوز کو پروسیس اور سمجھنے کے قابل بناتا ہے۔",
+    "hint": "Think about facial recognition",
+    "hint_ur": "چہرے کی شناخت کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  
+  {
+    "id": 141,
+    "type": "mcq",
+    "question": "Which AI subfield focuses on enabling machines to understand human language?",
+    "question_ur": "AI کا کون سا ذیلی شعبہ مشینوں کو انسانی زبان سمجھنے کے قابل بناتا ہے؟",
+    "options": {
+      "en": ["Computer Vision", "Natural Language Processing", "Robotics", "Expert Systems"],
+      "ur": ["کمپیوٹر وژن", "نیچرل لینگویج پروسیسنگ", "روبوٹکس", "ایکسپرٹ سسٹمز"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Natural Language Processing (NLP) deals with the interaction between computers and human language.",
+    "explanation_ur": "نیچرل لینگویج پروسیسنگ (NLP) کمپیوٹر اور انسانی زبان کے درمیان تعامل سے متعلق ہے۔",
+    "hint": "Think of chatbots and translators",
+    "hint_ur": "چیٹ بوٹس اور مترجمین کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 142,
+    "type": "true-false",
+    "question": "AI can only be applied in the technology sector.",
+    "question_ur": "AI صرف ٹیکنالوجی سیکٹر میں ہی لاگو ہو سکتی ہے۔",
+    "correctAnswer": false,
+    "explanation": "AI is used in many sectors including healthcare, agriculture, finance, and education.",
+    "explanation_ur": "AI کئی شعبوں میں استعمال ہوتی ہے جیسے صحت، زراعت، مالیات، اور تعلیم۔",
+    "hint": "Think beyond tech companies",
+    "hint_ur": "ٹیک کمپنیوں سے آگے سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 143,
+    "type": "mcq",
+    "question": "What is the main advantage of autonomous robots?",
+    "question_ur": "خودمختار روبوٹس کا سب سے بڑا فائدہ کیا ہے؟",
+    "options": {
+      "en": ["They need constant human control", "They operate without continuous human intervention", "They are slower than manual work", "They cannot make decisions"],
+      "ur": ["انہیں مسلسل انسانی کنٹرول کی ضرورت ہوتی ہے", "وہ بغیر مسلسل انسانی مداخلت کے کام کرتے ہیں", "وہ دستی کام سے سست ہیں", "وہ فیصلے نہیں کر سکتے"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Autonomous robots can make decisions and perform tasks without human control.",
+    "explanation_ur": "خودمختار روبوٹس فیصلے کر سکتے ہیں اور انسانی کنٹرول کے بغیر کام انجام دے سکتے ہیں۔",
+    "hint": "Think of self-driving cars",
+    "hint_ur": "سیلف ڈرائیونگ کارز کے بارے میں سوچیں",
+    "timeLimit": 25
+  },
+  {
+    "id": 144,
+    "type": "true-false",
+    "question": "Machine learning is a subset of artificial intelligence.",
+    "question_ur": "مشین لرننگ مصنوعی ذہانت کا ایک ذیلی حصہ ہے۔",
+    "correctAnswer": true,
+    "explanation": "Machine learning is one approach to achieving AI by letting systems learn from data.",
+    "explanation_ur": "مشین لرننگ ایک ایسا طریقہ ہے جس سے سسٹمز کو ڈیٹا سے سیکھنے کی اجازت دے کر AI حاصل کی جاتی ہے۔",
+    "hint": "Think of AI as the big circle",
+    "hint_ur": "AI کو بڑے دائرے کے طور پر سوچیں",
+    "timeLimit": 10
+  },
+  {
+    "id": 145,
+    "type": "mcq",
+    "question": "Which algorithm is commonly used for image classification tasks?",
+    "question_ur": "تصاویر کی درجہ بندی کے لیے عام طور پر کون سا الگورتھم استعمال ہوتا ہے؟",
+    "options": {
+      "en": ["Convolutional Neural Networks", "Support Vector Machines", "K-Nearest Neighbors", "Linear Regression"],
+      "ur": ["کنوولوشنل نیورل نیٹ ورکس", "سپورٹ ویکٹر مشینز", "کے نیئرَسٹ نیبرز", "لینیئر ریگریشن"]
+    },
+    "correctAnswer": 0,
+    "explanation": "CNNs are designed to process image data efficiently and accurately.",
+    "explanation_ur": "سی این اینز تصاویر کے ڈیٹا کو مؤثر اور درست طریقے سے پروسیس کرنے کے لیے بنائے گئے ہیں۔",
+    "hint": "Think of filters detecting shapes",
+    "hint_ur": "شکلوں کو پہچاننے والے فلٹرز کے بارے میں سوچیں",
+    "timeLimit": 30
+  },
+  {
+    "id": 146,
+    "type": "true-false",
+    "question": "AI can be used to predict weather conditions.",
+    "question_ur": "AI کو موسم کی پیشگوئی کے لیے استعمال کیا جا سکتا ہے۔",
+    "correctAnswer": true,
+    "explanation": "AI analyzes historical and real-time weather data to forecast conditions.",
+    "explanation_ur": "AI ماضی اور موجودہ موسم کے ڈیٹا کا تجزیہ کر کے حالات کی پیشگوئی کرتی ہے۔",
+    "hint": "Think of weather apps",
+    "hint_ur": "موسم کی ایپس کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 147,
+    "type": "mcq",
+    "question": "What is the primary input for speech recognition systems?",
+    "question_ur": "اسپیچ ریکگنیشن سسٹمز کے لیے بنیادی ان پٹ کیا ہے؟",
+    "options": {
+      "en": ["Text Data", "Audio Signals", "Image Data", "Numerical Tables"],
+      "ur": ["متنی ڈیٹا", "آڈیو سگنلز", "تصویری ڈیٹا", "عددی جدولیں"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Speech recognition systems process audio signals to identify spoken words.",
+    "explanation_ur": "اسپیچ ریکگنیشن سسٹمز آڈیو سگنلز کو پروسیس کر کے بولے گئے الفاظ کی شناخت کرتے ہیں۔",
+    "hint": "Think of Siri or Google Assistant",
+    "hint_ur": "سیری یا گوگل اسسٹنٹ کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 148,
+    "type": "true-false",
+    "question": "Robotics engineering only involves mechanical design.",
+    "question_ur": "روبوٹکس انجینئرنگ میں صرف مکینیکل ڈیزائن شامل ہوتا ہے۔",
+    "correctAnswer": false,
+    "explanation": "Robotics involves mechanical, electrical, and software engineering.",
+    "explanation_ur": "روبوٹکس میں مکینیکل، الیکٹریکل اور سافٹ ویئر انجینئرنگ شامل ہوتی ہے۔",
+    "hint": "Think about sensors and code",
+    "hint_ur": "سینسرز اور کوڈ کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 149,
+    "type": "mcq",
+    "question": "Which technology allows robots to detect and avoid obstacles?",
+    "question_ur": "کون سی ٹیکنالوجی روبوٹس کو رکاوٹوں کا پتہ لگانے اور ان سے بچنے کی اجازت دیتی ہے؟",
+    "options": {
+      "en": ["Path Planning", "Object Recognition", "Collision Avoidance", "SLAM"],
+      "ur": ["پاتھ پلاننگ", "آبجیکٹ ریکگنیشن", "کولیزن اووائڈنس", "ایس ایل اے ایم"]
+    },
+    "correctAnswer": 2,
+    "explanation": "Collision avoidance systems help robots detect obstacles and navigate safely.",
+    "explanation_ur": "کولیزن اووائڈنس سسٹمز روبوٹس کو رکاوٹوں کا پتہ لگانے اور محفوظ طریقے سے چلنے میں مدد دیتے ہیں۔",
+    "hint": "Think of self-driving car safety",
+    "hint_ur": "سیلف ڈرائیونگ کار کی حفاظت کے بارے میں سوچیں",
+    "timeLimit": 25
+  },
+  {
+    "id": 150,
+    "type": "true-false",
+    "question": "AI systems can sometimes make decisions that humans cannot easily explain.",
+    "question_ur": "AI سسٹمز بعض اوقات ایسے فیصلے کر سکتے ہیں جنہیں انسان آسانی سے نہیں سمجھا سکتے۔",
+    "correctAnswer": true,
+    "explanation": "This is known as the 'black box' problem in AI, where decision-making processes are not transparent.",
+    "explanation_ur": "اسے AI میں 'بلیک باکس' مسئلہ کہا جاتا ہے، جہاں فیصلہ سازی کے عمل شفاف نہیں ہوتے۔",
+    "hint": "Think of deep learning models",
+    "hint_ur": "ڈیپ لرننگ ماڈلز کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  
+  {
+    "id": 151,
+    "type": "mcq",
+    "question": "Which type of AI is designed to handle a narrow task?",
+    "question_ur": "کون سی قسم کی AI کسی محدود کام کو انجام دینے کے لیے ڈیزائن کی گئی ہے؟",
+    "options": {
+      "en": ["General AI", "Narrow AI", "Super AI", "Cognitive AI"],
+      "ur": ["جنرل AI", "نیرو AI", "سپر AI", "کاگنیٹیو AI"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Narrow AI is specialized for specific tasks, like facial recognition or translation.",
+    "explanation_ur": "نیرو AI خاص کاموں کے لیے تیار کی جاتی ہے جیسے چہرہ پہچاننا یا ترجمہ کرنا۔",
+    "hint": "Think Siri or Google Translate",
+    "hint_ur": "سیری یا گوگل ٹرانسلیٹ کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 152,
+    "type": "true-false",
+    "question": "Deep learning is based on artificial neural networks.",
+    "question_ur": "ڈیپ لرننگ مصنوعی نیورل نیٹ ورکس پر مبنی ہے۔",
+    "correctAnswer": true,
+    "explanation": "Deep learning uses layers of neural networks to learn from data.",
+    "explanation_ur": "ڈیپ لرننگ ڈیٹا سے سیکھنے کے لیے نیورل نیٹ ورکس کی تہوں کا استعمال کرتی ہے۔",
+    "hint": "Think of brain-like structure",
+    "hint_ur": "دماغ جیسے ڈھانچے کے بارے میں سوچیں",
+    "timeLimit": 10
+  },
+  {
+    "id": 153,
+    "type": "mcq",
+    "question": "Which sensor is commonly used in robots for distance measurement?",
+    "question_ur": "فاصلہ ناپنے کے لیے روبوٹس میں عام طور پر کون سا سینسر استعمال ہوتا ہے؟",
+    "options": {
+      "en": ["Ultrasonic Sensor", "Temperature Sensor", "Pressure Sensor", "Gas Sensor"],
+      "ur": ["الٹراسونک سینسر", "درجہ حرارت سینسر", "پریشر سینسر", "گیس سینسر"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Ultrasonic sensors measure distance by sending and receiving sound waves.",
+    "explanation_ur": "الٹراسونک سینسر آواز کی لہریں بھیج کر اور وصول کر کے فاصلہ ناپتے ہیں۔",
+    "hint": "Think of echo location",
+    "hint_ur": "ایکو لوکیشن کے بارے میں سوچیں",
+    "timeLimit": 25
+  },
+  {
+    "id": 154,
+    "type": "true-false",
+    "question": "AI can help in detecting fraudulent financial transactions.",
+    "question_ur": "AI دھوکہ دہی والے مالی لین دین کا پتہ لگانے میں مدد کر سکتی ہے۔",
+    "correctAnswer": true,
+    "explanation": "AI analyzes patterns to detect unusual or suspicious activities.",
+    "explanation_ur": "AI پیٹرنز کا تجزیہ کر کے غیر معمولی یا مشکوک سرگرمیوں کا پتہ لگاتی ہے۔",
+    "hint": "Think of bank fraud alerts",
+    "hint_ur": "بینک فراڈ الرٹس کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 155,
+    "type": "mcq",
+    "question": "Which AI concept allows machines to improve with experience?",
+    "question_ur": "کون سا AI تصور مشینوں کو تجربے کے ساتھ بہتر بننے کی اجازت دیتا ہے؟",
+    "options": {
+      "en": ["Machine Learning", "Expert Systems", "Data Mining", "Automation"],
+      "ur": ["مشین لرننگ", "ایکسپرٹ سسٹمز", "ڈیٹا مائننگ", "آٹومیشن"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Machine learning enables systems to learn from data and improve performance over time.",
+    "explanation_ur": "مشین لرننگ سسٹمز کو ڈیٹا سے سیکھنے اور وقت کے ساتھ بہتر ہونے کی اجازت دیتی ہے۔",
+    "hint": "Think of algorithms learning from mistakes",
+    "hint_ur": "غلطیوں سے سیکھنے والے الگورتھمز کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 156,
+    "type": "true-false",
+    "question": "Robots can only be used in manufacturing industries.",
+    "question_ur": "روبوٹس صرف مینوفیکچرنگ انڈسٹری میں ہی استعمال ہو سکتے ہیں۔",
+    "correctAnswer": false,
+    "explanation": "Robots are used in healthcare, agriculture, space exploration, and more.",
+    "explanation_ur": "روبوٹس صحت، زراعت، خلائی تحقیق اور دیگر شعبوں میں استعمال ہوتے ہیں۔",
+    "hint": "Think of surgical robots",
+    "hint_ur": "سرجیکل روبوٹس کے بارے میں سوچیں",
+    "timeLimit": 10
+  },
+  {
+    "id": 157,
+    "type": "mcq",
+    "question": "What does 'SLAM' stand for in robotics?",
+    "question_ur": "روبوٹکس میں 'SLAM' کا مطلب کیا ہے؟",
+    "options": {
+      "en": ["Simultaneous Localization and Mapping", "Systematic Learning and Motion", "Signal Location and Measurement", "Spatial Learning and Mapping"],
+      "ur": ["سمولٹینیئس لوکلائزیشن اینڈ میپنگ", "سسٹیمیٹک لرننگ اینڈ موشن", "سگنل لوکیشن اینڈ میژرمنٹ", "اسپیشل لرننگ اینڈ میپنگ"]
+    },
+    "correctAnswer": 0,
+    "explanation": "SLAM helps robots map their surroundings while tracking their own location.",
+    "explanation_ur": "SLAM روبوٹس کو اپنے اردگرد کا نقشہ بنانے اور اپنی جگہ کا پتہ رکھنے میں مدد دیتا ہے۔",
+    "hint": "Think of robot vacuum navigation",
+    "hint_ur": "روبوٹ ویکیوم کی نیویگیشن کے بارے میں سوچیں",
+    "timeLimit": 30
+  },
+  {
+    "id": 158,
+    "type": "true-false",
+    "question": "AI can write and debug computer programs.",
+    "question_ur": "AI کمپیوٹر پروگرام لکھ اور ڈیبگ کر سکتی ہے۔",
+    "correctAnswer": true,
+    "explanation": "AI coding assistants can generate code and suggest fixes for errors.",
+    "explanation_ur": "AI کوڈنگ اسسٹنٹس کوڈ بنا سکتے ہیں اور غلطیوں کو درست کرنے کی تجاویز دے سکتے ہیں۔",
+    "hint": "Think of GitHub Copilot",
+    "hint_ur": "گٹ ہب کوپائلٹ کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 159,
+    "type": "mcq",
+    "question": "Which AI term describes learning from labeled examples?",
+    "question_ur": "کون سا AI اصطلاح لیبل شدہ مثالوں سے سیکھنے کو بیان کرتی ہے؟",
+    "options": {
+      "en": ["Supervised Learning", "Unsupervised Learning", "Reinforcement Learning", "Deep Learning"],
+      "ur": ["سپر وائزڈ لرننگ", "ان سپر وائزڈ لرننگ", "رینفورسمنٹ لرننگ", "ڈیپ لرننگ"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Supervised learning uses labeled datasets to train models.",
+    "explanation_ur": "سپر وائزڈ لرننگ ماڈلز کو تربیت دینے کے لیے لیبل شدہ ڈیٹا سیٹس کا استعمال کرتی ہے۔",
+    "hint": "Think of student learning with answer keys",
+    "hint_ur": "جواب کی چابی کے ساتھ سیکھنے والے طالب علم کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 160,
+    "type": "true-false",
+    "question": "AI can help doctors detect diseases earlier than traditional methods.",
+    "question_ur": "AI ڈاکٹروں کو روایتی طریقوں سے پہلے بیماریوں کا پتہ لگانے میں مدد دے سکتی ہے۔",
+    "correctAnswer": true,
+    "explanation": "AI analyzes medical data to identify early signs of diseases.",
+    "explanation_ur": "AI بیماریوں کی ابتدائی علامات کی شناخت کے لیے طبی ڈیٹا کا تجزیہ کرتی ہے۔",
+    "hint": "Think of AI cancer detection",
+    "hint_ur": "AI کینسر کی تشخیص کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  
+  {
+    "id": 161,
+    "type": "mcq",
+    "question": "Which algorithm is commonly used for pathfinding in robotics?",
+    "question_ur": "روبوٹکس میں راستہ تلاش کرنے کے لیے عام طور پر کون سا الگورتھم استعمال ہوتا ہے؟",
+    "options": {
+      "en": ["A* Algorithm", "K-Means", "Linear Regression", "Apriori"],
+      "ur": ["اے اسٹار الگورتھم", "کے مینز", "لینیئر ریگریشن", "اپریوری"]
+    },
+    "correctAnswer": 0,
+    "explanation": "The A* algorithm is widely used for finding the shortest path in maps and robotics.",
+    "explanation_ur": "اے اسٹار الگورتھم نقشوں اور روبوٹکس میں سب سے مختصر راستہ تلاش کرنے کے لیے استعمال ہوتا ہے۔",
+    "hint": "Think GPS navigation",
+    "hint_ur": "جی پی ایس نیویگیشن کے بارے میں سوچیں",
+    "timeLimit": 25
+  },
+  {
+    "id": 162,
+    "type": "true-false",
+    "question": "Computer vision enables machines to interpret visual information.",
+    "question_ur": "کمپیوٹر وژن مشینوں کو بصری معلومات سمجھنے کے قابل بناتا ہے۔",
+    "correctAnswer": true,
+    "explanation": "Computer vision processes and analyzes images and videos for decision making.",
+    "explanation_ur": "کمپیوٹر وژن تصاویر اور ویڈیوز کا تجزیہ اور پراسیسنگ کر کے فیصلے کرنے میں مدد کرتا ہے۔",
+    "hint": "Think of facial recognition",
+    "hint_ur": "چہرہ پہچاننے کے بارے میں سوچیں",
+    "timeLimit": 10
+  },
+  {
+    "id": 163,
+    "type": "mcq",
+    "question": "In robotics, what is the function of an actuator?",
+    "question_ur": "روبوٹکس میں ایکچویٹر کا کیا کام ہوتا ہے؟",
+    "options": {
+      "en": ["Process data", "Store energy", "Convert signals into motion", "Measure temperature"],
+      "ur": ["ڈیٹا پراسیس کرنا", "توانائی ذخیرہ کرنا", "سگنلز کو حرکت میں بدلنا", "درجہ حرارت ناپنا"]
+    },
+    "correctAnswer": 2,
+    "explanation": "Actuators convert electrical signals into physical movement in robots.",
+    "explanation_ur": "ایکچویٹر روبوٹس میں برقی سگنلز کو جسمانی حرکت میں بدلتے ہیں۔",
+    "hint": "Think of robot arms moving",
+    "hint_ur": "روبوٹ کے بازو کی حرکت کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 164,
+    "type": "true-false",
+    "question": "Reinforcement learning is inspired by trial-and-error learning.",
+    "question_ur": "رینفورسمنٹ لرننگ آزمائش اور غلطی سے سیکھنے سے متاثر ہے۔",
+    "correctAnswer": true,
+    "explanation": "Reinforcement learning agents learn by receiving rewards or penalties.",
+    "explanation_ur": "رینفورسمنٹ لرننگ ایجنٹس انعامات یا سزائیں حاصل کر کے سیکھتے ہیں۔",
+    "hint": "Think of training a dog",
+    "hint_ur": "کتے کی تربیت کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 165,
+    "type": "mcq",
+    "question": "Which programming language is most popular for AI development?",
+    "question_ur": "AI کی ترقی کے لیے سب سے زیادہ مشہور پروگرامنگ زبان کون سی ہے؟",
+    "options": {
+      "en": ["Python", "C++", "Java", "Ruby"],
+      "ur": ["پائتھون", "سی پلس پلس", "جاوا", "روبی"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Python is widely used due to its simplicity and powerful AI libraries.",
+    "explanation_ur": "پائتھون اپنی سادگی اور طاقتور AI لائبریریوں کی وجہ سے وسیع پیمانے پر استعمال ہوتی ہے۔",
+    "hint": "Think TensorFlow or PyTorch",
+    "hint_ur": "ٹینسر فلو یا پائی ٹارچ کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 166,
+    "type": "true-false",
+    "question": "LIDAR uses lasers to map surroundings.",
+    "question_ur": "لائیڈار لیزرز استعمال کر کے ارد گرد کا نقشہ بناتا ہے۔",
+    "correctAnswer": true,
+    "explanation": "LIDAR measures distances by sending laser pulses and detecting reflections.",
+    "explanation_ur": "لائیڈار لیزر پلس بھیج کر اور ان کے عکس کا پتہ لگا کر فاصلے ناپتا ہے۔",
+    "hint": "Used in self-driving cars",
+    "hint_ur": "خودکار گاڑیوں میں استعمال ہوتا ہے",
+    "timeLimit": 10
+  },
+  {
+    "id": 167,
+    "type": "mcq",
+    "question": "Which AI field focuses on understanding and generating human language?",
+    "question_ur": "کون سا AI شعبہ انسانی زبان کو سمجھنے اور پیدا کرنے پر توجہ دیتا ہے؟",
+    "options": {
+      "en": ["Natural Language Processing", "Computer Vision", "Robotics", "Cybersecurity"],
+      "ur": ["نیچرل لینگویج پروسیسنگ", "کمپیوٹر وژن", "روبوٹکس", "سائبر سیکیورٹی"]
+    },
+    "correctAnswer": 0,
+    "explanation": "NLP enables machines to process and understand human language.",
+    "explanation_ur": "نیچرل لینگویج پروسیسنگ مشینوں کو انسانی زبان کو سمجھنے کے قابل بناتی ہے۔",
+    "hint": "Think of chatbots",
+    "hint_ur": "چَیٹ بوٹس کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 168,
+    "type": "true-false",
+    "question": "AI cannot be used in agriculture.",
+    "question_ur": "AI کو زراعت میں استعمال نہیں کیا جا سکتا۔",
+    "correctAnswer": false,
+    "explanation": "AI is used for crop monitoring, soil analysis, and pest detection.",
+    "explanation_ur": "AI فصل کی نگرانی، مٹی کے تجزیے اور کیڑوں کی شناخت میں استعمال ہوتی ہے۔",
+    "hint": "Think of smart farming",
+    "hint_ur": "اسمارٹ فارمنگ کے بارے میں سوچیں",
+    "timeLimit": 10
+  },
+  {
+    "id": 169,
+    "type": "mcq",
+    "question": "Which type of machine learning uses rewards and penalties?",
+    "question_ur": "کون سی مشین لرننگ انعامات اور سزائیں استعمال کرتی ہے؟",
+    "options": {
+      "en": ["Reinforcement Learning", "Supervised Learning", "Unsupervised Learning", "Deep Learning"],
+      "ur": ["رینفورسمنٹ لرننگ", "سپر وائزڈ لرننگ", "ان سپر وائزڈ لرننگ", "ڈیپ لرننگ"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Reinforcement learning improves performance by maximizing rewards.",
+    "explanation_ur": "رینفورسمنٹ لرننگ انعامات کو زیادہ سے زیادہ کر کے کارکردگی بہتر بناتی ہے۔",
+    "hint": "Think of game AI",
+    "hint_ur": "گیم AI کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 170,
+    "type": "true-false",
+    "question": "AI can be used to predict weather patterns.",
+    "question_ur": "AI موسم کے پیٹرنز کی پیش گوئی کے لیے استعمال ہو سکتی ہے۔",
+    "correctAnswer": true,
+    "explanation": "AI models analyze historical data to forecast weather.",
+    "explanation_ur": "AI ماڈلز تاریخی ڈیٹا کا تجزیہ کر کے موسم کی پیش گوئی کرتے ہیں۔",
+    "hint": "Think of meteorology",
+    "hint_ur": "موسم کی سائنس کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 171,
+    "type": "mcq",
+    "question": "Which term describes the ability of robots to make decisions without human input?",
+    "question_ur": "کون سا لفظ روبوٹس کی انسان کے بغیر فیصلے کرنے کی صلاحیت کو بیان کرتا ہے؟",
+    "options": {
+      "en": ["Autonomy", "Automation", "Adaptation", "Alignment"],
+      "ur": ["خودمختاری", "خودکار عمل", "مطابقت", "ترتیب"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Autonomy means robots can operate and decide independently.",
+    "explanation_ur": "خودمختاری کا مطلب ہے کہ روبوٹس خود فیصلے اور عمل کر سکیں۔",
+    "hint": "Think of self-driving cars",
+    "hint_ur": "خودکار گاڑیوں کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 172,
+    "type": "true-false",
+    "question": "AI is not used in cybersecurity.",
+    "question_ur": "AI سائبر سیکیورٹی میں استعمال نہیں ہوتی۔",
+    "correctAnswer": false,
+    "explanation": "AI detects and prevents cyber threats by analyzing patterns.",
+    "explanation_ur": "AI پیٹرنز کا تجزیہ کر کے سائبر خطرات کا پتہ لگاتی اور روکتی ہے۔",
+    "hint": "Think of malware detection",
+    "hint_ur": "مالویئر ڈیٹیکشن کے بارے میں سوچیں",
+    "timeLimit": 10
+  },
+  {
+    "id": 173,
+    "type": "mcq",
+    "question": "What is the main goal of computer vision in AI?",
+    "question_ur": "AI میں کمپیوٹر وژن کا بنیادی مقصد کیا ہے؟",
+    "options": {
+      "en": ["Understanding images and videos", "Generating code", "Optimizing databases", "Encrypting data"],
+      "ur": ["تصاویر اور ویڈیوز کو سمجھنا", "کوڈ بنانا", "ڈیٹا بیس بہتر بنانا", "ڈیٹا کو انکرپٹ کرنا"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Computer vision aims to interpret and process visual inputs.",
+    "explanation_ur": "کمپیوٹر وژن کا مقصد بصری ڈیٹا کو سمجھنا اور پراسیس کرنا ہے۔",
+    "hint": "Think object detection",
+    "hint_ur": "آبجیکٹ ڈیٹیکشن کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 174,
+    "type": "true-false",
+    "question": "AI can only work with large amounts of data.",
+    "question_ur": "AI صرف بڑی مقدار میں ڈیٹا کے ساتھ کام کر سکتی ہے۔",
+    "correctAnswer": false,
+    "explanation": "Some AI systems can work with small datasets, especially few-shot learning models.",
+    "explanation_ur": "کچھ AI سسٹمز چھوٹے ڈیٹا سیٹس کے ساتھ بھی کام کر سکتے ہیں، خاص طور پر فیو شاٹ لرننگ ماڈلز۔",
+    "hint": "Think of few-shot learning",
+    "hint_ur": "فیو شاٹ لرننگ کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 175,
+    "type": "mcq",
+    "question": "Which AI concept mimics the way neurons work in the brain?",
+    "question_ur": "کون سا AI تصور دماغ میں نیوران کے کام کرنے کے طریقے کی نقل کرتا ہے؟",
+    "options": {
+      "en": ["Neural Networks", "Decision Trees", "Genetic Algorithms", "Fuzzy Logic"],
+      "ur": ["نیورل نیٹ ورکس", "ڈسیژن ٹریز", "جینیٹک الگورتھمز", "فزی لاجک"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Neural networks are inspired by the brain's structure and function.",
+    "explanation_ur": "نیورل نیٹ ورکس دماغ کی ساخت اور افعال سے متاثر ہیں۔",
+    "hint": "Think deep learning",
+    "hint_ur": "ڈیپ لرننگ کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 176,
+    "type": "true-false",
+    "question": "AI is capable of generating realistic images from text descriptions.",
+    "question_ur": "AI متن کی وضاحت سے حقیقت پسندانہ تصاویر بنانے کے قابل ہے۔",
+    "correctAnswer": true,
+    "explanation": "Generative AI models like DALL·E can create images from prompts.",
+    "explanation_ur": "جنریٹیو AI ماڈلز جیسے DALL·E متن سے تصاویر بنا سکتے ہیں۔",
+    "hint": "Think text-to-image AI",
+    "hint_ur": "ٹیکسٹ ٹو امیج AI کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  {
+    "id": 177,
+    "type": "mcq",
+    "question": "Which type of AI system learns without labeled data?",
+    "question_ur": "کون سا AI سسٹم لیبل شدہ ڈیٹا کے بغیر سیکھتا ہے؟",
+    "options": {
+      "en": ["Unsupervised Learning", "Supervised Learning", "Reinforcement Learning", "Transfer Learning"],
+      "ur": ["ان سپر وائزڈ لرننگ", "سپر وائزڈ لرننگ", "رینفورسمنٹ لرننگ", "ٹرانسفر لرننگ"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Unsupervised learning finds patterns in unlabeled datasets.",
+    "explanation_ur": "ان سپر وائزڈ لرننگ بغیر لیبل کے ڈیٹا سیٹس میں پیٹرنز تلاش کرتی ہے۔",
+    "hint": "Think clustering",
+    "hint_ur": "کلسٹرنگ کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 178,
+    "type": "true-false",
+    "question": "Robotics and AI are completely unrelated fields.",
+    "question_ur": "روبوٹکس اور AI مکمل طور پر غیر متعلقہ شعبے ہیں۔",
+    "correctAnswer": false,
+    "explanation": "AI enhances robotics by enabling decision-making and adaptability.",
+    "explanation_ur": "AI روبوٹکس میں فیصلہ سازی اور موافقت کو ممکن بنا کر اسے بہتر بناتی ہے۔",
+    "hint": "Think of autonomous robots",
+    "hint_ur": "خودکار روبوٹس کے بارے میں سوچیں",
+    "timeLimit": 10
+  },
+  {
+    "id": 179,
+    "type": "mcq",
+    "question": "Which technology helps robots detect obstacles?",
+    "question_ur": "کون سی ٹیکنالوجی روبوٹس کو رکاوٹیں شناخت کرنے میں مدد دیتی ہے؟",
+    "options": {
+      "en": ["Sensors", "Batteries", "Motors", "Processors"],
+      "ur": ["سینسرز", "بیٹریاں", "موٹرز", "پروسیسرز"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Robots use sensors like ultrasonic, infrared, or LIDAR to detect obstacles.",
+    "explanation_ur": "روبوٹس الٹراسونک، انفراریڈ یا لائیڈار جیسے سینسرز استعمال کر کے رکاوٹوں کا پتہ لگاتے ہیں۔",
+    "hint": "Think of self-parking cars",
+    "hint_ur": "خود پارکنگ گاڑیوں کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 180,
+    "type": "true-false",
+    "question": "AI can assist in personalized education for students.",
+    "question_ur": "AI طلباء کے لیے ذاتی نوعیت کی تعلیم میں مدد کر سکتی ہے۔",
+    "correctAnswer": true,
+    "explanation": "AI tailors learning materials to match individual student needs.",
+    "explanation_ur": "AI تعلیمی مواد کو ہر طالب علم کی ضروریات کے مطابق ڈھالتی ہے۔",
+    "hint": "Think adaptive learning platforms",
+    "hint_ur": "ایڈاپٹو لرننگ پلیٹ فارمز کے بارے میں سوچیں",
+    "timeLimit": 15
+  },
+  
+  {
+    "id": 181,
+    "type": "mcq",
+    "question": "Which AI technology enables machines to understand and respond to human language?",
+    "question_ur": "کون سی اے آئی ٹیکنالوجی مشینوں کو انسانی زبان کو سمجھنے اور جواب دینے کے قابل بناتی ہے؟",
+    "options": {
+      "en": ["Computer Vision", "Natural Language Processing", "Robotics", "Data Mining"],
+      "ur": ["کمپیوٹر وژن", "قدرتی زبان پراسیسنگ", "روبوٹکس", "ڈیٹا مائننگ"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Natural Language Processing (NLP) allows machines to interpret and respond to human language.",
+    "explanation_ur": "قدرتی زبان پراسیسنگ مشینوں کو انسانی زبان کو سمجھنے اور جواب دینے کے قابل بناتی ہے۔",
+    "hint": "It is often abbreviated as NLP.",
+    "hint_ur": "اسے اکثر این ایل پی کہا جاتا ہے۔",
+    "timeLimit": 20
+  },
+  {
+    "id": 182,
+    "type": "true-false",
+    "question": "Robotics only deals with building physical robots.",
+    "question_ur": "روبوٹکس صرف فزیکل روبوٹ بنانے سے متعلق ہے۔",
+    "correctAnswer": false,
+    "explanation": "Robotics also includes software, AI control systems, and simulations.",
+    "explanation_ur": "روبوٹکس میں سافٹ ویئر، اے آئی کنٹرول سسٹمز، اور سمولیشنز بھی شامل ہیں۔",
+    "hint": "Think beyond hardware.",
+    "hint_ur": "ہارڈویئر سے آگے سوچیں۔",
+    "timeLimit": 15
+  },
+  {
+    "id": 183,
+    "type": "mcq",
+    "question": "Which programming language is most popular for AI model development?",
+    "question_ur": "کون سی پروگرامنگ زبان اے آئی ماڈل بنانے کے لیے سب سے زیادہ مشہور ہے؟",
+    "options": {
+      "en": ["Python", "Java", "C++", "PHP"],
+      "ur": ["پائتھن", "جاوا", "سی پلس پلس", "پی ایچ پی"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Python is widely used for AI because of its simplicity and rich library support.",
+    "explanation_ur": "پائتھن اے آئی کے لیے اس کی سادگی اور وسیع لائبریری سپورٹ کی وجہ سے استعمال ہوتی ہے۔",
+    "hint": "It's named after a comedy group, not a snake.",
+    "hint_ur": "اس کا نام ایک کامیڈی گروپ کے نام پر ہے، سانپ پر نہیں۔",
+    "timeLimit": 20
+  },
+  {
+    "id": 184,
+    "type": "true-false",
+    "question": "Machine learning is a subset of artificial intelligence.",
+    "question_ur": "مشین لرننگ مصنوعی ذہانت کا ذیلی شعبہ ہے۔",
+    "correctAnswer": true,
+    "explanation": "Machine learning focuses on algorithms that allow computers to learn from data.",
+    "explanation_ur": "مشین لرننگ ایسے الگورتھمز پر مبنی ہے جو کمپیوٹرز کو ڈیٹا سے سیکھنے کے قابل بناتے ہیں۔",
+    "hint": "It’s part of AI, not separate.",
+    "hint_ur": "یہ اے آئی کا حصہ ہے، الگ نہیں۔",
+    "timeLimit": 15
+  },
+  {
+    "id": 185,
+    "type": "mcq",
+    "question": "Which AI field focuses on giving machines the ability to see and interpret images?",
+    "question_ur": "کون سا اے آئی شعبہ مشینوں کو تصاویر دیکھنے اور سمجھنے کی صلاحیت دیتا ہے؟",
+    "options": {
+      "en": ["Speech Recognition", "Computer Vision", "Neural Networks", "Data Analytics"],
+      "ur": ["اسپیچ ریکگنیشن", "کمپیوٹر وژن", "نیورل نیٹ ورکس", "ڈیٹا اینالیٹکس"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Computer vision enables machines to analyze and understand visual information.",
+    "explanation_ur": "کمپیوٹر وژن مشینوں کو بصری معلومات کا تجزیہ اور سمجھنے کے قابل بناتا ہے۔",
+    "hint": "Think of cameras and AI together.",
+    "hint_ur": "کیمروں اور اے آئی کو ایک ساتھ سوچیں۔",
+    "timeLimit": 20
+  },
+  {
+    "id": 186,
+    "type": "true-false",
+    "question": "AI-powered chatbots can only answer pre-programmed questions.",
+    "question_ur": "اے آئی چیٹ بوٹس صرف پہلے سے پروگرام شدہ سوالات کے جواب دے سکتے ہیں۔",
+    "correctAnswer": false,
+    "explanation": "Advanced AI chatbots can generate answers dynamically using language models.",
+    "explanation_ur": "جدید اے آئی چیٹ بوٹس زبان کے ماڈلز کا استعمال کر کے فوری جوابات پیدا کر سکتے ہیں۔",
+    "hint": "Think of conversational AI like ChatGPT.",
+    "hint_ur": "بات چیت کرنے والی اے آئی جیسے چیٹ جی پی ٹی کے بارے میں سوچیں۔",
+    "timeLimit": 15
+  },
+  {
+    "id": 187,
+    "type": "mcq",
+    "question": "What is the main purpose of reinforcement learning in AI?",
+    "question_ur": "اے آئی میں رینفورسمنٹ لرننگ کا بنیادی مقصد کیا ہے؟",
+    "options": {
+      "en": ["To label data", "To learn from rewards and penalties", "To translate languages", "To store data"],
+      "ur": ["ڈیٹا لیبل کرنا", "انعامات اور سزاؤں سے سیکھنا", "زبانوں کا ترجمہ کرنا", "ڈیٹا اسٹور کرنا"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Reinforcement learning trains agents to make decisions through trial and error with rewards and penalties.",
+    "explanation_ur": "رینفورسمنٹ لرننگ ایجنٹس کو انعامات اور سزاؤں کے ذریعے سیکھنے کے لیے تربیت دیتی ہے۔",
+    "hint": "Think of training a dog with treats.",
+    "hint_ur": "کتے کو ٹریٹس سے ٹرین کرنے کے بارے میں سوچیں۔",
+    "timeLimit": 25
+  },
+  {
+    "id": 188,
+    "type": "true-false",
+    "question": "AI systems never make mistakes if trained properly.",
+    "question_ur": "اے آئی سسٹمز اگر صحیح طریقے سے تربیت دیے جائیں تو کبھی غلطی نہیں کرتے۔",
+    "correctAnswer": false,
+    "explanation": "AI can still make errors due to bias, poor data, or unexpected scenarios.",
+    "explanation_ur": "اے آئی اب بھی تعصب، ناقص ڈیٹا یا غیر متوقع حالات کی وجہ سے غلطیاں کر سکتی ہے۔",
+    "hint": "No system is perfect.",
+    "hint_ur": "کوئی بھی نظام کامل نہیں ہوتا۔",
+    "timeLimit": 15
+  },
+  {
+    "id": 189,
+    "type": "mcq",
+    "question": "What is a neural network inspired by?",
+    "question_ur": "نیورل نیٹ ورک کس چیز سے متاثر ہو کر بنایا گیا ہے؟",
+    "options": {
+      "en": ["The human brain", "Computer processors", "Internet networks", "DNA structure"],
+      "ur": ["انسانی دماغ", "کمپیوٹر پروسیسرز", "انٹرنیٹ نیٹ ورکس", "ڈی این اے اسٹرکچر"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Neural networks are inspired by the structure and functioning of the human brain.",
+    "explanation_ur": "نیورل نیٹ ورکس انسانی دماغ کی ساخت اور کام کرنے کے طریقے سے متاثر ہیں۔",
+    "hint": "It has neurons and connections.",
+    "hint_ur": "اس میں نیوران اور کنکشنز ہوتے ہیں۔",
+    "timeLimit": 20
+  },
+  
+  {
+    "id": 190,
+    "type": "mcq",
+    "question": "What does 'SLAM' stand for in robotics?",
+    "question_ur": "روبوٹکس میں 'SLAM' کا کیا مطلب ہے؟",
+    "options": {
+      "en": ["Simultaneous Localization and Mapping", "Single Layer Artificial Memory", "Sequential Logic and Motion", "Software Learning and Management"],
+      "ur": ["بیک وقت لوکلائزیشن اور میپنگ", "سنگل لیئر آرٹیفیشل میموری", "تسلسلی منطق اور حرکت", "سافٹ ویئر لرننگ اور مینجمنٹ"]
+    },
+    "correctAnswer": 0,
+    "explanation": "SLAM is a technique used by robots to build a map of an unknown environment while keeping track of their own location.",
+    "explanation_ur": "SLAM ایک تکنیک ہے جو روبوٹ نامعلوم ماحول کا نقشہ بنانے اور اپنی جگہ معلوم رکھنے کے لیے استعمال کرتے ہیں۔",
+    "hint": "Used in autonomous navigation",
+    "hint_ur": "خودکار نیویگیشن میں استعمال ہوتی ہے",
+    "timeLimit": 25
+  },
+  {
+    "id": 191,
+    "type": "true-false",
+    "question": "In robotics, an actuator is a device that produces motion.",
+    "question_ur": "روبوٹکس میں ایک ایکچیویٹر وہ آلہ ہے جو حرکت پیدا کرتا ہے۔",
+    "correctAnswer": true,
+    "explanation": "Actuators convert energy into physical movement, enabling robots to perform tasks.",
+    "explanation_ur": "ایکچیویٹر توانائی کو جسمانی حرکت میں بدلتا ہے، جس سے روبوٹ کام کر سکتے ہیں۔",
+    "hint": "Think of robot arms and wheels",
+    "hint_ur": "روبوٹ کے بازو اور پہیوں کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 192,
+    "type": "mcq",
+    "question": "Which programming language is widely used for controlling robots in ROS (Robot Operating System)?",
+    "question_ur": "ROS (روبوٹ آپریٹنگ سسٹم) میں روبوٹس کو کنٹرول کرنے کے لیے کون سی پروگرامنگ زبان زیادہ استعمال ہوتی ہے؟",
+    "options": {
+      "en": ["Java", "Python", "C#", "Ruby"],
+      "ur": ["جاوا", "پائتھون", "سی شارپ", "روبی"]
+    },
+    "correctAnswer": 1,
+    "explanation": "Python is one of the most common languages used in ROS due to its simplicity and flexibility.",
+    "explanation_ur": "پائتھون ROS میں سادگی اور لچک کی وجہ سے سب سے زیادہ استعمال ہونے والی زبانوں میں سے ایک ہے۔",
+    "hint": "A popular beginner-friendly language",
+    "hint_ur": "ایک مشہور ابتدائی دوست زبان",
+    "timeLimit": 20
+  },
+  {
+    "id": 193,
+    "type": "true-false",
+    "question": "A drone is an example of an autonomous robot.",
+    "question_ur": "ڈرون ایک خودکار روبوٹ کی مثال ہے۔",
+    "correctAnswer": true,
+    "explanation": "Drones can navigate and perform tasks without constant human control.",
+    "explanation_ur": "ڈرون بغیر مسلسل انسانی کنٹرول کے نیویگیٹ کر سکتے ہیں اور کام کر سکتے ہیں۔",
+    "hint": "Used in aerial photography",
+    "hint_ur": "ہوائی فوٹوگرافی میں استعمال ہوتا ہے",
+    "timeLimit": 20
+  },
+  {
+    "id": 194,
+    "type": "mcq",
+    "question": "Which sensor is most commonly used in robots for detecting distance to an object?",
+    "question_ur": "کون سا سینسر روبوٹس میں کسی شے کا فاصلہ معلوم کرنے کے لیے سب سے زیادہ استعمال ہوتا ہے؟",
+    "options": {
+      "en": ["Ultrasonic Sensor", "Temperature Sensor", "Pressure Sensor", "Light Sensor"],
+      "ur": ["الٹراسونک سینسر", "درجہ حرارت سینسر", "پریشر سینسر", "روشنی سینسر"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Ultrasonic sensors measure distance by using sound waves.",
+    "explanation_ur": "الٹراسونک سینسر آواز کی لہروں کے ذریعے فاصلے کو ماپتے ہیں۔",
+    "hint": "Bats use a similar method",
+    "hint_ur": "چمگادڑ اسی طریقے کا استعمال کرتے ہیں",
+    "timeLimit": 25
+  },
+  {
+    "id": 195,
+    "type": "true-false",
+    "question": "Machine learning is sometimes used in robotics to improve decision-making.",
+    "question_ur": "روبوٹکس میں مشین لرننگ بعض اوقات فیصلہ سازی کو بہتر بنانے کے لیے استعمال ہوتی ہے۔",
+    "correctAnswer": true,
+    "explanation": "Machine learning enables robots to adapt and make better choices based on experience.",
+    "explanation_ur": "مشین لرننگ روبوٹس کو تجربے کی بنیاد پر ڈھلنے اور بہتر فیصلے کرنے کے قابل بناتی ہے۔",
+    "hint": "AI technique",
+    "hint_ur": "ایک AI تکنیک",
+    "timeLimit": 20
+  },
+  {
+    "id": 196,
+    "type": "mcq",
+    "question": "What does 'ROS' stand for in robotics?",
+    "question_ur": "روبوٹکس میں 'ROS' کا کیا مطلب ہے؟",
+    "options": {
+      "en": ["Robot Operating System", "Robotic Output Signal", "Reactive Object Simulation", "Remote Operation Software"],
+      "ur": ["روبوٹ آپریٹنگ سسٹم", "روبوٹک آؤٹ پٹ سگنل", "ری ایکٹیو آبجیکٹ سمولیشن", "ریموٹ آپریشن سافٹ ویئر"]
+    },
+    "correctAnswer": 0,
+    "explanation": "ROS is an open-source framework for building robot applications.",
+    "explanation_ur": "ROS ایک اوپن سورس فریم ورک ہے جو روبوٹ ایپلیکیشنز بنانے کے لیے استعمال ہوتا ہے۔",
+    "hint": "Common in research robotics",
+    "hint_ur": "تحقیقی روبوٹکس میں عام",
+    "timeLimit": 20
+  },
+  {
+    "id": 197,
+    "type": "true-false",
+    "question": "Robotic process automation (RPA) uses physical robots to perform tasks.",
+    "question_ur": "روبوٹک پروسیس آٹومیشن (RPA) کام کرنے کے لیے فزیکل روبوٹس استعمال کرتا ہے۔",
+    "correctAnswer": false,
+    "explanation": "RPA uses software 'bots' to automate digital tasks, not physical robots.",
+    "explanation_ur": "RPA ڈیجیٹل کاموں کو خودکار کرنے کے لیے سافٹ ویئر 'بوٹس' استعمال کرتا ہے، فزیکل روبوٹ نہیں۔",
+    "hint": "Mostly in business software",
+    "hint_ur": "زیادہ تر کاروباری سافٹ ویئر میں",
+    "timeLimit": 25
+  },
+  {
+    "id": 198,
+    "type": "mcq",
+    "question": "Which company developed the humanoid robot 'ASIMO'?",
+    "question_ur": "'ASIMO' ہیومینائڈ روبوٹ کس کمپنی نے تیار کیا؟",
+    "options": {
+      "en": ["Honda", "Toyota", "Sony", "Panasonic"],
+      "ur": ["ہونڈا", "ٹوئیوٹا", "سونی", "پیناسونک"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Honda developed ASIMO as an advanced humanoid robot for research and demonstration.",
+    "explanation_ur": "ہونڈا نے ASIMO کو تحقیق اور مظاہرے کے لیے ایک جدید ہیومینائڈ روبوٹ کے طور پر تیار کیا۔",
+    "hint": "Japanese car manufacturer",
+    "hint_ur": "جاپانی کار بنانے والی کمپنی",
+    "timeLimit": 20
+  },
+  {
+    "id": 199,
+    "type": "true-false",
+    "question": "Industrial robots are typically used in manufacturing.",
+    "question_ur": "صنعتی روبوٹس عام طور پر مینوفیکچرنگ میں استعمال ہوتے ہیں۔",
+    "correctAnswer": true,
+    "explanation": "Industrial robots are widely used in assembly lines, welding, painting, and packaging.",
+    "explanation_ur": "صنعتی روبوٹس اسمبلی لائنوں، ویلڈنگ، پینٹنگ، اور پیکیجنگ میں وسیع پیمانے پر استعمال ہوتے ہیں۔",
+    "hint": "Think of car factories",
+    "hint_ur": "کار فیکٹریوں کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 200,
+    "type": "mcq",
+    "question": "Which robot is famous for exploring Mars?",
+    "question_ur": "کون سا روبوٹ مریخ کی کھوج کے لیے مشہور ہے؟",
+    "options": {
+      "en": ["Curiosity Rover", "Deep Blue", "Atlas", "Pepper"],
+      "ur": ["کیوریاسٹی روور", "ڈیپ بلیو", "ایٹلس", "پیپر"]
+    },
+    "correctAnswer": 0,
+    "explanation": "NASA's Curiosity Rover has been exploring Mars since 2012.",
+    "explanation_ur": "ناسا کا کیوریاسٹی روور 2012 سے مریخ کی کھوج کر رہا ہے۔",
+    "hint": "NASA space mission",
+    "hint_ur": "ناسا کا خلائی مشن",
+    "timeLimit": 20
+  },
+  {
+    "id": 201,
+    "type": "true-false",
+    "question": "Humanoid robots are designed to mimic human appearance and behavior.",
+    "question_ur": "ہیومینائڈ روبوٹس کو انسانی شکل و رویے کی نقل کرنے کے لیے ڈیزائن کیا جاتا ہے۔",
+    "correctAnswer": true,
+    "explanation": "They often have arms, legs, and a head to resemble humans.",
+    "explanation_ur": "ان کے پاس اکثر بازو، ٹانگیں، اور سر ہوتا ہے تاکہ وہ انسانوں سے مشابہت رکھیں۔",
+    "hint": "Think of Sophia robot",
+    "hint_ur": "صوفیہ روبوٹ کے بارے میں سوچیں",
+    "timeLimit": 20
+  },
+  {
+    "id": 202,
+    "type": "mcq",
+    "question": "Which AI technique helps robots recognize objects in images?",
+    "question_ur": "کون سی AI تکنیک روبوٹس کو تصویروں میں اشیاء پہچاننے میں مدد دیتی ہے؟",
+    "options": {
+      "en": ["Computer Vision", "Natural Language Processing", "Reinforcement Learning", "Speech Recognition"],
+      "ur": ["کمپیوٹر وژن", "قدرتی زبان پروسیسنگ", "ری انفورسمنٹ لرننگ", "اسپیچ ریکگنیشن"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Computer vision processes and interprets visual data from the environment.",
+    "explanation_ur": "کمپیوٹر وژن ماحول سے بصری ڈیٹا کو پروسیس اور تشریح کرتا ہے۔",
+    "hint": "Related to image processing",
+    "hint_ur": "امیج پروسیسنگ سے متعلق",
+    "timeLimit": 25
+  },
+  {
+    "id": 203,
+    "type": "true-false",
+    "question": "Robots cannot operate underwater.",
+    "question_ur": "روبوٹس پانی کے اندر کام نہیں کر سکتے۔",
+    "correctAnswer": false,
+    "explanation": "Specialized underwater robots, called ROVs, are designed for deep-sea exploration.",
+    "explanation_ur": "خصوصی زیرِ آب روبوٹس، جنہیں ROV کہا جاتا ہے، گہرے سمندر کی کھوج کے لیے ڈیزائن کیے گئے ہیں۔",
+    "hint": "Used in ocean research",
+    "hint_ur": "سمندری تحقیق میں استعمال",
+    "timeLimit": 20
+  },
+  {
+    "id": 204,
+    "type": "mcq",
+    "question": "What does 'AI' stand for in robotics?",
+    "question_ur": "روبوٹکس میں 'AI' کا کیا مطلب ہے؟",
+    "options": {
+      "en": ["Artificial Intelligence", "Automated Interface", "Algorithmic Integration", "Analog Input"],
+      "ur": ["مصنوعی ذہانت", "خودکار انٹرفیس", "الگورتھمک انٹیگریشن", "اینالاگ ان پٹ"]
+    },
+    "correctAnswer": 0,
+    "explanation": "AI enables robots to perform tasks that require intelligence.",
+    "explanation_ur": "AI روبوٹس کو ایسے کام کرنے کے قابل بناتا ہے جن کے لیے ذہانت کی ضرورت ہوتی ہے۔",
+    "hint": "Main field in smart robots",
+    "hint_ur": "اسمارٹ روبوٹس میں بنیادی شعبہ",
+    "timeLimit": 20
+  },
+  {
+    "id": 205,
+    "type": "true-false",
+    "question": "Soft robots are made from flexible materials.",
+    "question_ur": "سوفٹ روبوٹس لچکدار مواد سے بنائے جاتے ہیں۔",
+    "correctAnswer": true,
+    "explanation": "Soft robotics uses materials that can bend and adapt to environments.",
+    "explanation_ur": "سوفٹ روبوٹکس ایسے مواد استعمال کرتا ہے جو جھک سکتے ہیں اور ماحول سے مطابقت اختیار کر سکتے ہیں۔",
+    "hint": "Opposite of rigid robots",
+    "hint_ur": "سخت روبوٹس کے برعکس",
+    "timeLimit": 20
+  },
+  {
+    "id": 206,
+    "type": "mcq",
+    "question": "Which part of a robot acts as its 'brain'?",
+    "question_ur": "روبوٹ کا کون سا حصہ اس کا 'دماغ' ہوتا ہے؟",
+    "options": {
+      "en": ["Controller", "Sensor", "Actuator", "Chassis"],
+      "ur": ["کنٹرولر", "سینسر", "ایکچیویٹر", "چیسس"]
+    },
+    "correctAnswer": 0,
+    "explanation": "The controller processes information and sends commands to other parts.",
+    "explanation_ur": "کنٹرولر معلومات پروسیس کرتا ہے اور دیگر حصوں کو کمانڈ بھیجتا ہے۔",
+    "hint": "Equivalent to CPU in computers",
+    "hint_ur": "کمپیوٹرز میں CPU کے برابر",
+    "timeLimit": 20
+  },
+  {
+    "id": 207,
+    "type": "true-false",
+    "question": "AI can help robots learn from their mistakes.",
+    "question_ur": "AI روبوٹس کو اپنی غلطیوں سے سیکھنے میں مدد دے سکتا ہے۔",
+    "correctAnswer": true,
+    "explanation": "Machine learning allows robots to improve through feedback and experience.",
+    "explanation_ur": "مشین لرننگ روبوٹس کو فیڈبیک اور تجربے کے ذریعے بہتر بننے دیتی ہے۔",
+    "hint": "Learning ability",
+    "hint_ur": "سیکھنے کی صلاحیت",
+    "timeLimit": 20
+  },
+  {
+    "id": 208,
+    "type": "mcq",
+    "question": "Which company developed the robot 'Spot'?",
+    "question_ur": "'اسپاٹ' روبوٹ کس کمپنی نے تیار کیا؟",
+    "options": {
+      "en": ["Boston Dynamics", "Google", "Tesla", "Amazon"],
+      "ur": ["بوسٹن ڈائنامکس", "گوگل", "ٹیسلا", "ایمیزون"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Boston Dynamics developed Spot as a quadruped robot for multiple uses.",
+    "explanation_ur": "بوسٹن ڈائنامکس نے اسپاٹ کو چار ٹانگوں والے روبوٹ کے طور پر تیار کیا ہے جو مختلف کاموں کے لیے استعمال ہوتا ہے۔",
+    "hint": "Famous robotics company",
+    "hint_ur": "مشہور روبوٹکس کمپنی",
+    "timeLimit": 20
+  },
+  {
+    "id": 209,
+    "type": "true-false",
+    "question": "Robots can use GPS for navigation.",
+    "question_ur": "روبوٹس نیویگیشن کے لیے GPS استعمال کر سکتے ہیں۔",
+    "correctAnswer": true,
+    "explanation": "GPS helps robots determine their exact location outdoors.",
+    "explanation_ur": "GPS روبوٹس کو باہر ان کا درست مقام معلوم کرنے میں مدد دیتا ہے۔",
+    "hint": "Used in delivery robots",
+    "hint_ur": "ڈیلیوری روبوٹس میں استعمال",
+    "timeLimit": 20
+  },
+  {
+    "id": 210,
+    "type": "mcq",
+    "question": "Which field combines biology and robotics?",
+    "question_ur": "کون سا شعبہ حیاتیات اور روبوٹکس کو یکجا کرتا ہے؟",
+    "options": {
+      "en": ["Biorobotics", "Cybersecurity", "Biomechanics", "Nanotechnology"],
+      "ur": ["بایو روبوٹکس", "سائبر سیکیورٹی", "بایومیکانکس", "نینو ٹیکنالوجی"]
+    },
+    "correctAnswer": 0,
+    "explanation": "Biorobotics applies biological principles to robot design.",
+    "explanation_ur": "بایو روبوٹکس حیاتیاتی اصولوں کو روبوٹ ڈیزائن میں لاگو کرتا ہے۔",
+    "hint": "Inspired by living organisms",
+    "hint_ur": "جانداروں سے متاثر",
+    "timeLimit": 20
+  }]}

@@ -1,0 +1,5209 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Categories | QuizVerse - Learn & Explore</title>
+  <meta name="description"
+    content="Explore 100+ quiz categories on QuizVerse - from science to Islamic studies, Urdu poetry to technology.">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="dist/style.css">
+  <link rel="stylesheet" href="src/index.css">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#2D6A4F',
+            secondary: '#40916C',
+            accent: '#FFB703',
+            textDark: '#1D1D1D',
+            textLight: '#FFFFFF',
+            bgLight: '#F9F9F9',
+            bgDark: '#121212',
+            error: '#D00000',
+            success: '#007F5F',
+
+            // Category colors
+            blue: '#3b82f6',
+            green: '#10b981',
+            red: '#ef4444',
+            orange: '#f97316',
+            gold: '#eab308',
+            purple: '#8b5cf6',
+            yellow: '#facc15',
+            brown: '#92400e',
+            pink: '#ec4899',
+            teal: '#14b8a6'
+          },
+          animation: {
+            'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            'bounce-slow': 'bounce 2s infinite'
+          },
+          fontFamily: {
+            sans: ['Poppins', 'sans-serif'],
+            serif: ['Playfair Display', 'serif'],
+            urdu: ['Noto Nastaliq Urdu', 'serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    .category-card {
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+    }
+
+    .category-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
+    }
+
+    .category-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(90deg, var(--category-color), transparent);
+    }
+
+    .category-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      opacity: 0.1;
+      z-index: 0;
+    }
+
+    .category-content {
+      position: relative;
+      z-index: 1;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .progress-ring__circle {
+      transition: stroke-dashoffset 0.35s;
+      transform: rotate(-90deg);
+      transform-origin: 50% 50%;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(0px);
+      }
+
+      50% {
+        transform: translateY(-10px);
+      }
+
+      100% {
+        transform: translateY(0px);
+      }
+    }
+
+    .floating {
+      animation: float 4s ease-in-out infinite;
+    }
+
+    /* Loading skeleton */
+    .loading-skeleton {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 1.5rem;
+    }
+
+    @media (min-width: 640px) {
+      .loading-skeleton {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .loading-skeleton {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (min-width: 1280px) {
+      .loading-skeleton {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    /* Language toggle */
+    .language-toggle {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 30px;
+    }
+
+    .language-toggle input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .language-slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #2A9D8F;
+      transition: .4s;
+      border-radius: 34px;
+    }
+
+    .language-slider:before {
+      position: absolute;
+      content: "";
+      height: 22px;
+      width: 22px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      transition: .4s;
+      border-radius: 50%;
+    }
+
+    input:checked+.language-slider {
+      background-color: #0077B6;
+    }
+
+    input:checked+.language-slider:before {
+      transform: translateX(30px);
+    }
+
+    .language-labels {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 10px;
+      pointer-events: none;
+    }
+
+    .language-labels span {
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    /* Tooltip styles */
+    .tooltip {
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .has-tooltip:hover .tooltip {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    /* Modal transitions */
+    .modal-transition {
+      transition: all 0.3s ease;
+    }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+
+    /* Dark mode scrollbar */
+    .dark ::-webkit-scrollbar-track {
+      background: #2d3748;
+    }
+
+    .dark ::-webkit-scrollbar-thumb {
+      background: #4a5568;
+    }
+
+    .dark ::-webkit-scrollbar-thumb:hover {
+      background: #718096;
+    }
+
+    /* Pagination styles */
+    .pagination {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+
+    .page-item {
+      margin: 0 0.25rem;
+    }
+
+    .page-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 0.375rem;
+      background-color: white;
+      color: #2D6A4F;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .page-link:hover {
+      background-color: #f3f4f6;
+    }
+
+    .page-item.active .page-link {
+      background-color: #2D6A4F;
+      color: white;
+    }
+
+    .page-item.disabled .page-link {
+      color: #9ca3af;
+      pointer-events: none;
+    }
+
+    .dark .page-link {
+      background-color: #374151;
+      color: #D1D5DB;
+    }
+
+    .dark .page-link:hover {
+      background-color: #4B5563;
+    }
+
+    .dark .page-item.active .page-link {
+      background-color: #40916C;
+      color: white;
+    }
+
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+      backdrop-filter: blur(5px);
+    }
+
+    .modal-overlay.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .modal-container {
+      background-color: white;
+      border-radius: 1rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      transform: translateY(20px);
+      opacity: 0;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+      width: 90%;
+      max-width: 28rem;
+      max-height: 90vh;
+      overflow-y: auto;
+      margin: 2rem;
+    }
+
+    .dark .modal-container {
+      background-color: #1f2937;
+    }
+
+    .modal-overlay.active .modal-container {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    /* Animation for modal content */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .modal-content-item {
+      animation: fadeIn 0.3s ease forwards;
+    }
+
+    .modal-content-item:nth-child(1) {
+      animation-delay: 0.1s;
+    }
+
+    .modal-content-item:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .modal-content-item:nth-child(3) {
+      animation-delay: 0.3s;
+    }
+
+    .modal-content-item:nth-child(4) {
+      animation-delay: 0.4s;
+    }
+
+    .modal-overlay {
+      z-index: 1000;
+    }
+
+    .modal-container {
+      z-index: 1001;
+    }
+
+    /* Ensure nothing appears above modals */
+    header,
+    footer {
+      z-index: 999;
+    }
+
+    /* Add this to your style section */
+    .profile-badge {
+      display: inline-flex;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 9999px;
+      padding: 0.5rem 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .profile-badge:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .profile-badge i {
+      margin-right: 0.5rem;
+    }
+
+    .profile-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 1rem;
+    }
+
+    .profile-grid-item {
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 0.5rem;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .profile-grid-item p:first-child {
+      font-size: 0.875rem;
+      color: rgba(255, 255, 255, 0.7);
+      margin-bottom: 0.25rem;
+    }
+
+    .profile-grid-item p:last-child {
+      font-weight: 500;
+    }
+
+    /* Random Quiz Section Styles */
+    #random-quiz-btn {
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    #random-quiz-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    #random-quiz-btn:active {
+      transform: translateY(0);
+    }
+
+    /* Mobile Responsiveness */
+@media (max-width: 640px) {
+  /* General sizing adjustments */
+  body {
+    font-size: 14px;
+  }
+  
+  /* Header adjustments */
+  header .container {
+    padding: 0.5rem;
+  }
+  
+  /* Hero section */
+  .hero-section h1 {
+    font-size: 1.8rem;
+  }
+  
+  /* Search bar */
+  #search-input {
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Filter section */
+  .grid-cols-1.md\:grid-cols-5 {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  
+  /* Category cards */
+  #categories-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+  
+  .category-card {
+    padding: 0.75rem;
+  }
+  
+  .category-card h3 {
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .category-card p {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .category-card button {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  /* Modals */
+  .modal-container {
+    width: 95%;
+    margin: 0.5rem;
+    padding: 0.75rem;
+  }
+  
+  /* Footer */
+  footer .grid-cols-1.md\:grid-cols-4 {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  /* Even smaller adjustments for very small devices */
+  #categories-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .category-card {
+    padding: 0.5rem;
+  }
+}
+
+/* Compact cards on mobile */
+@media (max-width: 640px) {
+  .category-card {
+    min-height: 180px;
+  }
+  
+  .category-content {
+    padding: 0.5rem;
+  }
+  
+  .category-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+  }
+  
+  .quiz-btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* Responsive filters */
+@media (max-width: 767px) {
+  #level-filter,
+  #age-filter,
+  #type-filter,
+  #interest-filter,
+  #time-filter {
+    font-size: 14px;
+    padding: 0.5rem 0.75rem;
+  }
+  
+  .relative > .fas {
+    font-size: 12px;
+    padding-right: 0.25rem;
+  }
+  
+  /* Make sure select elements show their full text */
+  select {
+    text-overflow: ellipsis;
+  }
+}
+
+/* For very small screens, adjust the grid */
+@media (max-width: 380px) {
+  .grid.grid-cols-2 {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Make filters full width on tiny screens */
+  #level-filter,
+  #age-filter,
+  #type-filter,
+  #interest-filter,
+  #time-filter {
+    width: 100%;
+  }
+}
+  </style>
+</head>
+
+<body class="bg-bgLight text-textDark dark:bg-bgDark dark:text-textLight transition-colors duration-300">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-primary text-white shadow-md dark:bg-gray-800">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <i class="fas fa-brain text-2xl text-accent"></i>
+        <a href="index.html" class="text-xl font-bold">QuizVerse</a>
+      </div>
+
+      <div class="hidden md:flex space-x-6">
+        <a href="index.html" class="hover:text-accent transition">Home</a>
+        <a href="#" class="hover:text-accent transition">Quizzes</a>
+        <a href="learning-categories.html" class="hover:text-accent transition">Learning Hub</a>
+        <a href="flashcards.html" class="hover:text-accent transition">Flashcards</a>
+  <a href="personality.html" class="hover:text-accent transition">Personality Tests</a>
+      </div>
+
+      <div class="flex items-center space-x-4">
+        <!-- Language Toggle -->
+        <div class="flex items-center space-x-3 mr-4">
+          <span class="text-sm hidden md:block">English</span>
+          <label class="language-toggle">
+            <input type="checkbox" id="language-toggle">
+            <span class="language-slider"></span>
+            <div class="language-labels">
+              <span>EN</span>
+              <span>UR</span>
+            </div>
+          </label>
+          <span class="text-sm hidden md:block">Urdu</span>
+        </div>
+
+        <button id="theme-toggle" class="p-2 rounded-full hover:bg-secondary transition-colors"
+          aria-label="Toggle dark mode">
+          <i class="fas fa-moon dark:hidden"></i>
+          <i class="fas fa-sun hidden dark:block"></i>
+        </button>
+
+        <button id="mobile-menu-button" class="md:hidden p-2 rounded-full hover:bg-secondary">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <button data-action="sign-in"
+          class="hidden md:block bg-accent hover:bg-yellow-500 text-textDark font-medium px-4 py-2 rounded-lg transition">
+          Sign In
+        </button>
+      </div>
+    </div>
+
+<!-- Mobile Menu -->
+    <div id="mobile-menu" class="md:hidden hidden bg-secondary text-white px-4 py-2">
+      <div class="flex flex-col space-y-3">
+        <a href="#home" class="hover:text-accent transition">Home</a>
+        <a href="#" class="hover:text-accent transition">Quizzes</a>
+        <a href="learning-categories.html" class="hover:text-accent transition">Learning Hub</a>
+        <a href="flashcards.html" class="hover:text-accent transition">Flashcards</a>
+        <a href="personality.html" class="hover:text-accent transition">Personality Tests</a>
+        <a href="index.html#features" class="hover:text-accent transition">Features</a>
+        <a href="index.html#leaderboard" class="hover:text-accent transition">Leaderboard</a>
+        <button data-action="sign-in"
+          class="sign-in-btn bg-accent hover:bg-yellow-500 text-textDark font-medium px-4 py-2 rounded-lg transition">
+          Sign In
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-primary to-secondary text-white py-12 md:py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4 font-serif">Expand Your Knowledge Universe</h1>
+      <p class="text-lg md:text-xl mb-6 max-w-3xl mx-auto">Discover, learn, and challenge yourself with our interactive
+        knowledge journeys</p>
+
+      <!-- Feature Box -->
+      <div class="max-w-5xl mx-auto bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 shadow-lg">
+        <h3 class="text-xl font-bold mb-4 flex items-center justify-center">
+          <i class="fas fa-rocket text-accent mr-2"></i> Why QuizVerse Stands Out
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-sm md:text-base">
+          <div class="flex flex-col items-center p-3 bg-white/5 rounded-lg">
+            <i class="fas fa-graduation-cap text-accent text-xl mb-2"></i>
+            <span class="text-center">100+ categories for all interests</span>
+          </div>
+          <div class="flex flex-col items-center p-3 bg-white/5 rounded-lg">
+            <i class="fas fa-child text-accent text-xl mb-2"></i>
+            <span class="text-center">Kids to professionals - everyone's covered</span>
+          </div>
+          <div class="flex flex-col items-center p-3 bg-white/5 rounded-lg">
+            <i class="fas fa-lock-open text-accent text-xl mb-2"></i>
+            <span class="text-center">100% free, no login needed</span>
+          </div>
+          <div class="flex flex-col items-center p-3 bg-white/5 rounded-lg">
+            <i class="fas fa-plus-circle text-accent text-xl mb-2"></i>
+            <span class="text-center">New quizzes added weekly!</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="bg-gray-100 dark:bg-gray-800 py-10">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-bold text-center mb-8">
+        <i class="fas fa-lightbulb text-accent mr-2"></i> How QuizVerse Works
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <div class="flex items-center mb-4">
+            <div
+              class="bg-primary/10 text-primary dark:text-secondary w-12 h-12 rounded-full flex items-center justify-center mr-4">
+              <span class="text-xl font-bold">1</span>
+            </div>
+            <h3 class="text-lg font-bold">Choose Your Category</h3>
+          </div>
+          <p class="text-gray-600 dark:text-gray-300">Browse our extensive collection of quiz categories tailored for
+            all ages and knowledge levels.</p>
+        </div>
+        <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <div class="flex items-center mb-4">
+            <div
+              class="bg-primary/10 text-primary dark:text-secondary w-12 h-12 rounded-full flex items-center justify-center mr-4">
+              <span class="text-xl font-bold">2</span>
+            </div>
+            <h3 class="text-lg font-bold">Take Challenges</h3>
+          </div>
+          <p class="text-gray-600 dark:text-gray-300">Engage with our interactive quizzes that adapt to your skill
+            level, with various question types.</p>
+        </div>
+        <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <div class="flex items-center mb-4">
+            <div
+              class="bg-primary/10 text-primary dark:text-secondary w-12 h-12 rounded-full flex items-center justify-center mr-4">
+              <span class="text-xl font-bold">3</span>
+            </div>
+            <h3 class="text-lg font-bold">Track & Improve</h3>
+          </div>
+          <p class="text-gray-600 dark:text-gray-300">Monitor your progress with detailed analytics and personalized
+            recommendations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="container mx-auto px-4 py-8">
+    <!-- Welcome Message with User Progress -->
+    <div
+      class="mb-8 bg-gradient-to-r from-primary/10 to-secondary/10 p-6 rounded-xl border border-primary/20 dark:border-secondary/20 shadow-sm">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+        <div class="mb-4 md:mb-0">
+          <h2 id="welcome-message" class="text-xl font-bold mb-2"></h2>
+          <p class="text-gray-600 dark:text-gray-300">Your learning journey continues with <span
+              class="font-medium text-primary dark:text-secondary">3 new categories</span> added this week!</p>
+        </div>
+        <div class="flex items-center space-x-4">
+          <div class="relative w-16 h-16">
+            <svg class="w-full h-full" viewBox="0 0 36 36">
+              <path d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#E5E7EB" stroke-width="3"
+                stroke-dasharray="100, 100" />
+              <path class="progress-ring__circle" d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#2D6A4F" stroke-width="3"
+                stroke-dasharray="65, 100" />
+              <text x="18" y="20.5" text-anchor="middle" font-size="10" fill="#2D6A4F" font-weight="bold">65%</text>
+            </svg>
+          </div>
+          <div>
+            <p class="text-sm text-gray-500">Knowledge Mastery</p>
+            <p class="font-medium">Expert in 8 categories</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search & Filters Section -->
+    <div class="mb-8 bg-white dark:bg-gray-700 p-6 rounded-xl shadow-sm">
+      <!-- Search Bar -->
+<div class="mb-6">
+  <div class="relative max-w-3xl mx-auto">
+    <input type="text" id="search-input" placeholder="Search categories..." 
+      class="w-full pl-10 pr-4 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-secondary dark:bg-gray-800 dark:border-gray-600">
+    <div class="absolute left-3 top-2.5 text-gray-400">
+      <i class="fas fa-brain"></i>
+    </div>
+    <button id="search-button" class="absolute right-3 top-2.5 text-primary dark:text-secondary">
+      <i class="fas fa-search"></i>
+    </button>
+  </div>
+</div>
+
+      <!-- Filters Section -->
+      <div class="mb-4">
+        <div class="flex justify-between items-center mb-4">
+          <h3 class="font-medium text-lg">Refine Your Search</h3>
+          <div class="flex items-center space-x-3">
+            <button id="save-preferences"
+              class="text-sm text-primary dark:text-secondary hover:underline flex items-center">
+              <i class="fas fa-save mr-1"></i> Save Preferences
+            </button>
+            <button id="reset-filters"
+              class="text-sm text-gray-500 hover:text-primary dark:hover:text-secondary hover:underline flex items-center">
+              <i class="fas fa-undo mr-1"></i> Reset All
+            </button>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4 mb-4">
+          <!-- Level Filter -->
+          <div>
+            <label class="block text-sm font-medium mb-1">Difficulty Level</label>
+            <div class="relative">
+              <select id="level-filter"
+                class="w-full p-3 border rounded-lg dark:bg-gray-800 dark:border-gray-600 appearance-none">
+                <option value="">All Levels</option>
+                <option value="easy">Beginner</option>
+                <option value="medium">Intermediate</option>
+                <option value="hard">Advanced</option>
+                <option value="expert">Expert</option>
+              </select>
+              <div
+                class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-300">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Age Group Filter -->
+          <div>
+            <label class="block text-sm font-medium mb-1">Age Group</label>
+            <div class="relative">
+              <select id="age-filter"
+                class="w-full p-3 border rounded-lg dark:bg-gray-800 dark:border-gray-600 appearance-none">
+                <option value="">All Ages</option>
+                <option value="kids">Kids (5-12)</option>
+                <option value="teens">Teens (13-19)</option>
+                <option value="adults">Adults (20+)</option>
+                <option value="seniors">Seniors (65+)</option>
+              </select>
+              <div
+                class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-300">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quiz Type Filter -->
+          <div>
+            <label class="block text-sm font-medium mb-1">Quiz Type</label>
+            <div class="relative">
+              <select id="type-filter"
+                class="w-full p-3 border rounded-lg dark:bg-gray-800 dark:border-gray-600 appearance-none">
+                <option value="">All Types</option>
+                <option value="mcq">Multiple Choice</option>
+                <option value="true-false">True/False</option>
+                <option value="fill-blanks">Fill in Blanks</option>
+                <option value="match">Matching</option>
+              </select>
+              <div
+                class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-300">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interest Type Filter -->
+          <div>
+            <label class="block text-sm font-medium mb-1">Primary Interest</label>
+            <div class="relative">
+              <select id="interest-filter"
+                class="w-full p-3 border rounded-lg dark:bg-gray-800 dark:border-gray-600 appearance-none">
+                <option value="">All Interests</option>
+                <option value="islamic">Islamic Studies</option>
+                <option value="science">Science & Tech</option>
+                <option value="arts">Arts & Creativity</option>
+                <option value="history">History & Culture</option>
+                <option value="language">Language & Literature</option>
+              </select>
+              <div
+                class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-300">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Time Commitment -->
+          <div>
+            <label class="block text-sm font-medium mb-1">Quiz Duration</label>
+            <div class="relative">
+              <select id="time-filter"
+                class="w-full p-3 border rounded-lg dark:bg-gray-800 dark:border-gray-600 appearance-none">
+                <option value="">Any Duration</option>
+                <option value="5">Quick (5 mins)</option>
+                <option value="15">Short (15 mins)</option>
+                <option value="30">Medium (30 mins)</option>
+                <option value="60">Long (1 hour+)</option>
+              </select>
+              <div
+                class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-300">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-between items-center">
+          <div id="active-filters" class="flex flex-wrap gap-2">
+            <!-- Active filters will appear here -->
+          </div>
+          <span id="filter-count" class="text-sm text-gray-500 dark:text-gray-400 whitespace-nowrap">Showing all
+            categories</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Random Quiz Section -->
+    <div class="mb-8 bg-accent/10 dark:bg-gray-700 p-6 rounded-xl shadow-sm">
+      <div class="flex flex-col md:flex-row items-center justify-between">
+        <div class="mb-4 md:mb-0">
+          <h3 class="text-lg font-bold mb-2 flex items-center">
+            <i class="fas fa-random text-accent mr-2"></i>
+            Feeling Adventurous?
+          </h3>
+          <p class="text-gray-600 dark:text-gray-300">
+            Try our random quiz that pulls questions from all categories for a real challenge!
+          </p>
+        </div>
+        <button id="random-quiz-btn"
+          class="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-white px-6 py-3 rounded-lg transition font-medium flex items-center">
+          <i class="fas fa-dice mr-2"></i> Start Random Quiz
+        </button>
+      </div>
+    </div>
+    <!-- Recommended For You Section -->
+    <div class="mb-8">
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-xl font-bold flex items-center">
+          <i class="fas fa-star text-accent mr-2"></i> Recommended For You
+        </h2>
+        <button id="see-all-recommended" class="text-sm text-primary dark:text-secondary hover:underline">See
+          All</button>
+      </div>
+      <div id="recommended-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Recommended categories will load here -->
+      </div>
+    </div>
+
+    <!-- All Categories Section -->
+    <div class="mb-8">
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-xl font-bold flex items-center">
+          <i class="fas fa-layer-group text-primary dark:text-secondary mr-2"></i> All Quiz Categories
+        </h2>
+        <div class="flex items-center space-x-4">
+          <div class="relative">
+            <select id="sort-by"
+              class="pl-8 pr-4 py-2 border rounded-lg dark:bg-gray-800 dark:border-gray-600 appearance-none text-sm">
+              <option value="default">Sort: Default</option>
+              <option value="popular">Most Popular</option>
+              <option value="newest">Newest First</option>
+              <option value="trending">Currently Trending</option>
+              <option value="alphabetical">A-Z</option>
+            </select>
+            <div
+              class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3 text-gray-700 dark:text-gray-300">
+              <i class="fas fa-sort"></i>
+            </div>
+          </div>
+          <button id="view-toggle" class="p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+            title="Toggle view">
+            <i class="fas fa-th-large"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Categories Grid -->
+      <div id="categories-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <!-- Categories will be loaded here -->
+      </div>
+
+      <!-- Loading Skeleton -->
+      <div id="loading-skeleton" class="hidden loading-skeleton">
+        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-4 animate-pulse">
+          <div class="h-6 bg-gray-200 dark:bg-gray-600 rounded w-3/4 mb-4"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-full mb-2"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-5/6 mb-4"></div>
+          <div class="h-8 bg-gray-200 dark:bg-gray-600 rounded w-full"></div>
+        </div>
+        <!-- Repeat 7 more times -->
+        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-4 animate-pulse">
+          <div class="h-6 bg-gray-200 dark:bg-gray-600 rounded w-3/4 mb-4"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-full mb-2"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-5/6 mb-4"></div>
+          <div class="h-8 bg-gray-200 dark:bg-gray-600 rounded w-full"></div>
+        </div>
+        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-4 animate-pulse">
+          <div class="h-6 bg-gray-200 dark:bg-gray-600 rounded w-3/4 mb-4"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-full mb-2"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-5/6 mb-4"></div>
+          <div class="h-8 bg-gray-200 dark:bg-gray-600 rounded w-full"></div>
+        </div>
+        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-4 animate-pulse">
+          <div class="h-6 bg-gray-200 dark:bg-gray-600 rounded w-3/4 mb-4"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-full mb-2"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-5/6 mb-4"></div>
+          <div class="h-8 bg-gray-200 dark:bg-gray-600 rounded w-full"></div>
+        </div>
+      </div>
+
+      <!-- Empty State -->
+      <div id="empty-state" class="hidden text-center py-12">
+        <div class="max-w-md mx-auto">
+          <div class="floating inline-block mb-6">
+            <i class="fas fa-search text-4xl text-gray-400"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-2">No matching categories found</h3>
+          <p class="text-gray-600 dark:text-gray-300 mb-6">Try adjusting your filters or search for something different
+          </p>
+          <button id="reset-search"
+            class="bg-primary hover:bg-green-700 text-white px-6 py-3 rounded-lg transition dark:bg-secondary font-medium flex items-center mx-auto">
+            <i class="fas fa-undo mr-2"></i> Reset Search
+          </button>
+        </div>
+      </div>
+
+      <!-- Pagination -->
+      <div id="pagination-container" class="pagination mt-8">
+        <!-- Pagination will be loaded here -->
+      </div>
+    </div>
+
+    <!-- Learning Tips Section -->
+    <div
+      class="bg-gradient-to-r from-primary/5 to-secondary/5 dark:from-primary/10 dark:to-secondary/10 p-6 rounded-xl mb-8">
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="md:w-2/3 mb-6 md:mb-0">
+          <h2 class="text-xl font-bold mb-2">Boost Your Learning Potential</h2>
+          <p class="text-gray-700 dark:text-gray-300 mb-4">Discover personalized learning strategies based on your
+            activity and preferences.</p>
+          <button id="show-tips"
+            class="bg-primary hover:bg-green-700 text-white px-4 py-2 rounded-lg transition dark:bg-secondary font-medium">
+            Show Learning Tips <i class="fas fa-arrow-right ml-2"></i>
+          </button>
+        </div>
+        <div class="md:w-1/3 flex justify-center">
+          <img src="https://cdn-icons-png.flaticon.com/512/3573/3573753.png" alt="Learning illustration"
+            class="h-40 w-auto">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top"
+    class="fixed bottom-8 right-8 bg-primary text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300 hover:bg-secondary dark:bg-secondary dark:hover:bg-primary">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+
+
+  <!-- Suggest Category Modal -->
+  <div id="suggest-modal"
+    class="fixed inset-0 bg-black bg-opacity-50 items-center justify-center z-50 hidden transition-opacity duration-300">
+    <div
+      class="bg-white dark:bg-gray-800 rounded-xl p-6 max-w-md w-full mx-4 shadow-xl transform transition-all duration-300 scale-95 opacity-0"
+      id="modal-content">
+      <div class="flex justify-between items-center mb-4">
+        <h3 class="text-xl font-bold">Suggest a New Category</h3>
+        <button id="close-modal"
+          class="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 p-1 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <form id="suggestion-form">
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1">Category Name *</label>
+          <input type="text"
+            class="w-full p-3 border rounded-lg dark:bg-gray-700 dark:border-gray-600 focus:ring-2 focus:ring-primary dark:focus:ring-secondary"
+            placeholder="e.g., Space Exploration" required>
+        </div>
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1">Description *</label>
+          <textarea
+            class="w-full p-3 border rounded-lg dark:bg-gray-700 dark:border-gray-600 focus:ring-2 focus:ring-primary dark:focus:ring-secondary"
+            rows="3" placeholder="Briefly describe what this category would cover..." required></textarea>
+        </div>
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1">Why should we add this? *</label>
+          <textarea
+            class="w-full p-3 border rounded-lg dark:bg-gray-700 dark:border-gray-600 focus:ring-2 focus:ring-primary dark:focus:ring-secondary"
+            rows="2" placeholder="How would this benefit our community?" required></textarea>
+        </div>
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1">Your Email (optional)</label>
+          <input type="email"
+            class="w-full p-3 border rounded-lg dark:bg-gray-700 dark:border-gray-600 focus:ring-2 focus:ring-primary dark:focus:ring-secondary"
+            placeholder="We'll notify you if implemented">
+        </div>
+        <button type="submit"
+          class="w-full bg-accent hover:bg-yellow-500 text-textDark font-medium py-3 rounded-lg transition flex items-center justify-center">
+          <i class="fas fa-paper-plane mr-2"></i> Submit Suggestion
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Learning Tips Modal -->
+  <div id="tips-modal"
+    class="fixed inset-0 bg-black bg-opacity-50 items-center justify-center z-50 hidden transition-opacity duration-300">
+    <div
+      class="bg-white dark:bg-gray-800 rounded-xl p-6 max-w-2xl w-full mx-4 shadow-xl transform transition-all duration-300 scale-95 opacity-0 max-h-[90vh] overflow-y-auto"
+      id="tips-modal-content">
+      <div class="flex justify-between items-center mb-4 sticky top-0 bg-white dark:bg-gray-800 py-2">
+        <h3 class="text-xl font-bold">Personalized Learning Tips</h3>
+        <button id="close-tips-modal"
+          class="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 p-1 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="space-y-6">
+        <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
+          <h4 class="font-bold text-primary dark:text-secondary mb-2 flex items-center">
+            <i class="fas fa-clock mr-2"></i> Time Management
+          </h4>
+          <p class="text-gray-700 dark:text-gray-300">Based on your activity, you learn best in 25-minute focused
+            sessions. Try the Pomodoro technique with 5-minute breaks.</p>
+        </div>
+        <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
+          <h4 class="font-bold text-primary dark:text-secondary mb-2 flex items-center">
+            <i class="fas fa-brain mr-2"></i> Retention Boosters
+          </h4>
+          <p class="text-gray-700 dark:text-gray-300">You retain information better with visual aids. Try creating mind
+            maps for complex topics like Science and History.</p>
+        </div>
+        <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
+          <h4 class="font-bold text-primary dark:text-secondary mb-2 flex items-center">
+            <i class="fas fa-trophy mr-2"></i> Challenge Yourself
+          </h4>
+          <p class="text-gray-700 dark:text-gray-300">You've mastered beginner levels in Technology. Try our "Advanced
+            Web Development" category to push your skills further.</p>
+        </div>
+        <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
+          <h4 class="font-bold text-primary dark:text-secondary mb-2 flex items-center">
+            <i class="fas fa-heart mr-2"></i> Recommended Categories
+          </h4>
+          <p class="text-gray-700 dark:text-gray-300 mb-2">Based on your interests in Science and Technology:</p>
+          <ul class="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
+            <li>Artificial Intelligence Basics</li>
+            <li>Space Exploration</li>
+            <li>Renewable Energy Technologies</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-6 pt-4 border-t border-gray-200 dark:border-gray-700">
+        <button
+          class="bg-primary hover:bg-green-700 text-white px-4 py-2 rounded-lg transition dark:bg-secondary font-medium">
+          Save These Recommendations
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Voice Search Modal -->
+  <div id="voice-modal"
+    class="fixed inset-0 bg-black bg-opacity-50 items-center justify-center z-50 hidden transition-opacity duration-300">
+    <div
+      class="bg-white dark:bg-gray-800 rounded-xl p-6 max-w-sm w-full mx-4 shadow-xl transform transition-all duration-300 scale-95 opacity-0 text-center"
+      id="voice-modal-content">
+      <div class="mb-4">
+        <div
+          class="w-20 h-20 bg-primary/10 dark:bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+          <i class="fas fa-microphone text-3xl text-primary dark:text-secondary"></i>
+        </div>
+        <h3 class="text-xl font-bold mb-2">Voice Search</h3>
+        <p id="voice-status" class="text-gray-600 dark:text-gray-300">Click the microphone and speak your search</p>
+      </div>
+      <button id="start-listening"
+        class="bg-primary hover:bg-green-700 text-white px-6 py-3 rounded-full transition dark:bg-secondary font-medium mb-4">
+        <i class="fas fa-microphone mr-2"></i> Start Listening
+      </button>
+      <div id="voice-result" class="hidden p-3 bg-gray-100 dark:bg-gray-700 rounded-lg mb-4 text-left">
+        <p class="font-medium">You said:</p>
+        <p id="voice-text" class="text-gray-700 dark:text-gray-300"></p>
+      </div>
+      <button id="close-voice-modal" class="text-sm text-gray-500 hover:text-primary dark:hover:text-secondary">
+        Cancel
+      </button>
+    </div>
+  </div>
+
+  <!-- Feedback Toast -->
+  <div id="feedback-toast" class="fixed bottom-4 right-4 z-50 hidden">
+    <div class="bg-primary dark:bg-secondary text-white px-6 py-3 rounded-lg shadow-lg flex items-start max-w-xs">
+      <div class="mr-3 mt-0.5">
+        <i id="toast-icon" class="fas fa-check-circle"></i>
+      </div>
+      <div>
+        <h4 id="toast-title" class="font-bold mb-1">Success!</h4>
+        <p id="toast-message" class="text-sm">Your action was completed successfully.</p>
+      </div>
+      <button id="close-toast" class="ml-4 text-white/70 hover:text-white">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-12">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <div class="flex items-center space-x-2 mb-4">
+            <i class="fas fa-brain text-2xl text-accent"></i>
+            <span class="text-xl font-bold">QuizVerse</span>
+          </div>
+          <p class="text-gray-400 mb-4">Your gateway to interactive learning and knowledge exploration.</p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="text-lg font-bold mb-4">Explore</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Categories</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Learning Paths</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Daily Challenges</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Knowledge Hub</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Community</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-bold mb-4">Resources</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Help Center</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Learning Tips</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Blog</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Webinars</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Educator Resources</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-bold mb-4">Get In Touch</h4>
+          <ul class="space-y-2">
+            <li class="flex items-start space-x-2">
+              <i class="fas fa-envelope mt-1 text-gray-400"></i>
+              <a href="mailto:info@quizverse.com"
+                class="text-gray-400 hover:text-white transition">info@quizverse.com</a>
+            </li>
+            <li class="flex items-start space-x-2">
+              <i class="fas fa-phone-alt mt-1 text-gray-400"></i>
+              <a href="tel:+1234567890" class="text-gray-400 hover:text-white transition">+1 (234) 567-890</a>
+            </li>
+            <li class="flex items-start space-x-2">
+              <i class="fas fa-map-marker-alt mt-1 text-gray-400"></i>
+              <span class="text-gray-400">123 Knowledge St, Learning City</span>
+            </li>
+          </ul>
+          <button id="suggest-btn"
+            class="mt-4 bg-primary hover:bg-green-700 text-white px-4 py-2 rounded transition dark:bg-secondary flex items-center">
+            <i class="fas fa-lightbulb mr-2"></i> Suggest a Category
+          </button>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 pt-6 text-center text-gray-400 text-sm">
+        <p>© 2023 QuizVerse. All rights reserved. | <a href="#" class="hover:text-white transition">Privacy Policy</a> |
+          <a href="#" class="hover:text-white transition">Terms of Service</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Add this modal HTML before the closing  tag -->
+  <div id="profile-modal" class="modal-overlay hidden">
+    <div class="modal-container">
+      <div class="p-6">
+        <div class="flex justify-between items-center mb-4">
+          <h3 class="text-2xl font-bold text-primary dark:text-white">Create Your Profile</h3>
+          <button onclick="closeModal('profile-modal')"
+            class="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <form id="profile-form" class="space-y-4">
+          <div>
+            <label for="profile-name" class="block mb-2 mt-2 font-medium">Name</label>
+            <input type="text" id="profile-name" name="name" required minlength="2"
+              class="w-full bg-bgLight dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-brand"
+              placeholder="👤 Your name">
+            <div id="name-error" class="text-red-500 text-sm mt-1 hidden">Please enter a valid name (at least 2
+              characters)</div>
+          </div>
+
+          <div>
+            <label for="profile-country" class="block mb-2 mt-2 font-medium">Country</label>
+            <select id="profile-country" name="country" required
+              class="w-full bg-bgLight dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-brand">
+              <option value="">Select your country</option>
+              <option value="AF">Afghanistan</option>
+              <option value="AL">Albania</option>
+              <option value="DZ">Algeria</option>
+              <option value="AR">Argentina</option>
+              <option value="AU">Australia</option>
+              <option value="AT">Austria</option>
+              <option value="BH">Bahrain</option>
+              <option value="BD">Bangladesh</option>
+              <option value="BR">Brazil</option>
+              <option value="CA">Canada</option>
+              <option value="CN">China</option>
+              <option value="EG">Egypt</option>
+              <option value="FR">France</option>
+              <option value="DE">Germany</option>
+              <option value="IN">India</option>
+              <option value="ID">Indonesia</option>
+              <option value="IR">Iran</option>
+              <option value="IQ">Iraq</option>
+              <option value="IT">Italy</option>
+              <option value="JP">Japan</option>
+              <option value="JO">Jordan</option>
+              <option value="KW">Kuwait</option>
+              <option value="LB">Lebanon</option>
+              <option value="MY">Malaysia</option>
+              <option value="MX">Mexico</option>
+              <option value="MA">Morocco</option>
+              <option value="NP">Nepal</option>
+              <option value="PK">Pakistan</option>
+              <option value="PS">Palestine</option>
+              <option value="PH">Philippines</option>
+              <option value="QA">Qatar</option>
+              <option value="RU">Russia</option>
+              <option value="SA">Saudi Arabia</option>
+              <option value="SG">Singapore</option>
+              <option value="ZA">South Africa</option>
+              <option value="KR">South Korea</option>
+              <option value="ES">Spain</option>
+              <option value="LK">Sri Lanka</option>
+              <option value="SE">Sweden</option>
+              <option value="CH">Switzerland</option>
+              <option value="SY">Syria</option>
+              <option value="TH">Thailand</option>
+              <option value="TR">Turkey</option>
+              <option value="AE">United Arab Emirates</option>
+              <option value="GB">United Kingdom</option>
+              <option value="US">United States</option>
+              <option value="VN">Vietnam</option>
+              <option value="YE">Yemen</option>
+              <option value="ZW">Zimbabwe</option>
+            </select>
+            <div id="country-error" class="text-red-500 text-sm mt-1 hidden">Please select your country</div>
+          </div>
+
+          <div>
+            <label for="profile-age" class="block mb-2 mt-2 font-medium">Age</label>
+            <input type="number" id="profile-age" name="age" required min="5" max="99"
+              class="w-full bg-bgLight dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-brand"
+              placeholder="Your age">
+            <div id="age-error" class="text-red-500 text-sm mt-1 hidden">Please enter a valid age (5-99)</div>
+          </div>
+
+          <div>
+            <label for="profile-level" class="block mb-2 mt-2 font-medium">Level</label>
+            <select id="profile-level" name="level" required
+              class="w-full bg-bgLight dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-brand">
+              <option value="">Select your level</option>
+              <option value="student">Student</option>
+              <option value="kid">Kid</option>
+              <option value="adult">Adult</option>
+              <option value="teacher">Teacher</option>
+              <option value="pro">Pro Learner</option>
+              <option value="parent">Parent</option>
+              <option value="senior">Senior</option>
+            </select>
+            <div id="level-error" class="text-red-500 text-sm mt-1 hidden">Please select your level</div>
+          </div>
+
+          <div>
+            <label for="profile-gender" class="block mb-2 mt-2 font-medium">Gender</label>
+            <select id="profile-gender" name="gender" required
+              class="w-full bg-bgLight dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-brand">
+              <option value="">Select your gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+              <option value="prefer-not">Prefer not to say</option>
+            </select>
+            <div id="gender-error" class="text-red-500 text-sm mt-1 hidden">Please select your gender</option>
+            </div>
+
+            <div>
+              <label for="profile-email" class="block mb-2 mt-2 font-medium">Email (optional)</label>
+              <input type="email" id="profile-email" name="email"
+                class="w-full bg-bgLight dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-brand"
+                placeholder="📧 your@email.com">
+            </div>
+
+            <div>
+              <label for="profile-password" class="block mb-2 mt-2 font-medium">Create Password</label>
+              <input type="password" id="profile-password" name="password" minlength="6"
+                class="w-full bg-bgLight dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-brand"
+                placeholder="At least 6 characters">
+              <div id="password-error" class="text-red-500 text-sm mt-1 hidden">Password must be at least 6 characters
+              </div>
+            </div>
+
+            <div id="profile-success"
+              class="hidden p-3 mt-2 bg-green-500/20 rounded-lg text-green-700 dark:text-green-300 mb-4">
+              <i class="fas fa-check-circle mr-2"></i> Profile saved successfully!
+            </div>
+
+            <div id="profile-error"
+              class="hidden mt-2 p-3 bg-red-500/20 rounded-lg text-red-700 dark:text-red-300 mb-4">
+              <i class="fas fa-exclamation-circle mr-2"></i> There was an error saving your profile. Please try again.
+            </div>
+
+            <div class="flex flex-col sm:flex-row justify-between mt-4 gap-3">
+              <button type="button" onclick="skipProfile()"
+                class="px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700 transition">
+                Skip for Now
+              </button>
+              <button type="submit"
+                class="bg-primary hover:bg-secondary text-white px-4 py-2 rounded-lg transition flex-1">
+                Save and Continue <i class="fas fa-arrow-right ml-2"></i>
+              </button>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const categories = [
+      // General Knowledge (10)
+      {
+        "id": 1,
+        "name": { "en": "General Knowledge", "ur": "عام معلومات" },
+        "slug": "general_knowledge",
+        "group": "General Knowledge",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "general",
+        "popularity": "popular",
+        "trending": false,
+        "description": {
+          "en": "Test your knowledge about the world",
+          "ur": "دنیا کے بارے میں اپنے علم کا امتحان لیں"
+        },
+        "icon": "globe",
+        "color": "blue",
+        "features": ["Daily quizzes", "Global topics"],
+        "lastUpdated": "2023-07-01",
+        "resources": 150
+      },
+      {
+        "id": 2,
+        "name": { "en": "World Facts", "ur": "دنیا کے حقائق" },
+        "slug": "world_facts",
+        "group": "General Knowledge",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "general",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "Amazing facts about countries and cultures",
+          "ur": "ممالک اور ثقافتوں کے حیرت انگیز حقائق"
+        },
+        "icon": "info-circle",
+        "color": "green",
+        "features": ["Country comparisons", "Cultural facts"],
+        "lastUpdated": "2023-07-05",
+        "resources": 132
+      },
+      {
+        "id": 3,
+        "name": { "en": "Flags & Countries", "ur": "پرچم اور ممالک" },
+        "slug": "flags_countries",
+        "group": "General Knowledge",
+        "level": "medium",
+        "age": "all",
+        "type": "match",
+        "interest": "geography",
+        "popularity": "popular",
+        "trending": false,
+        "description": {
+          "en": "Identify countries by their flags and landmarks",
+          "ur": "پرچموں اور اہم مقامات سے ممالک کی شناخت کریں"
+        },
+        "icon": "flag",
+        "color": "red",
+        "features": ["Flag recognition", "Capital cities"],
+        "lastUpdated": "2023-06-28",
+        "resources": 118
+      },
+      {
+        "id": 4,
+        "name": { "en": "Capitals", "ur": "دارالحکومتیں" },
+        "slug": "capitals",
+        "group": "General Knowledge",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "geography",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Test your knowledge of world capitals",
+          "ur": "دنیا کے دارالحکومتوں کا علم آزمائیں"
+        },
+        "icon": "city",
+        "color": "orange",
+        "features": ["Continent-wise quizzes", "Map integration"],
+        "lastUpdated": "2023-07-02",
+        "resources": 95
+      },
+      {
+        "id": 5,
+        "name": { "en": "Nobel Prize", "ur": "نوبل انعام" },
+        "slug": "nobel_prize",
+        "group": "General Knowledge",
+        "level": "hard",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "science",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Learn about Nobel laureates and their work",
+          "ur": "نوبل انعام یافتگان اور ان کے کام کے بارے میں جانیں"
+        },
+        "icon": "award",
+        "color": "gold",
+        "features": ["Laureate profiles", "Discoveries"],
+        "lastUpdated": "2023-06-20",
+        "resources": 87
+      },
+      {
+        "id": 6,
+        "name": { "en": "Famous Landmarks", "ur": "مشہور مقامات" },
+        "slug": "famous_landmarks",
+        "group": "General Knowledge",
+        "level": "medium",
+        "age": "all",
+        "type": "image-quiz",
+        "interest": "travel",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "Identify world-famous landmarks",
+          "ur": "دنیا کے مشہور مقامات کی شناخت کریں"
+        },
+        "icon": "monument",
+        "color": "purple",
+        "features": ["Image recognition", "Historical context"],
+        "lastUpdated": "2023-07-10",
+        "resources": 105
+      },
+      {
+        "id": 7,
+        "name": { "en": "Inventions", "ur": "ایجادات" },
+        "slug": "inventions",
+        "group": "General Knowledge",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "science",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Discover revolutionary inventions",
+          "ur": "انقلابی ایجادات دریافت کریں"
+        },
+        "icon": "lightbulb",
+        "color": "yellow",
+        "features": ["Inventor profiles", "Timeline"],
+        "lastUpdated": "2023-06-25",
+        "resources": 92
+      },
+      {
+        "id": 8,
+        "name": { "en": "Olympics", "ur": "اولمپکس" },
+        "slug": "olympics",
+        "group": "General Knowledge",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "sports",
+        "popularity": "medium",
+        "trending": true,
+        "description": {
+          "en": "Test your knowledge of Olympic games",
+          "ur": "اولمپک کھیلوں کے بارے میں اپنا علم آزمائیں"
+        },
+        "icon": "medal",
+        "color": "blue",
+        "features": ["History", "Records"],
+        "lastUpdated": "2023-07-08",
+        "resources": 78
+      },
+      {
+        "id": 9,
+        "name": { "en": "Currency", "ur": "کرنسی" },
+        "slug": "currency",
+        "group": "General Knowledge",
+        "level": "easy",
+        "age": "all",
+        "type": "match",
+        "interest": "finance",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Identify world currencies",
+          "ur": "دنیا کی کرنسیوں کی شناخت کریں"
+        },
+        "icon": "money-bill-wave",
+        "color": "green",
+        "features": ["Currency symbols", "Exchange rates"],
+        "lastUpdated": "2023-06-30",
+        "resources": 85
+      },
+      {
+        "id": 10,
+        "name": { "en": "Time Zones", "ur": "ٹائم زونز" },
+        "slug": "time_zones",
+        "group": "General Knowledge",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "geography",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Learn about world time zones",
+          "ur": "دنیا کے ٹائم زونز کے بارے میں جانیں"
+        },
+        "icon": "clock",
+        "color": "orange",
+        "features": ["Timezone calculations", "Daylight saving"],
+        "lastUpdated": "2023-07-03",
+        "resources": 72
+      },
+
+      // Science & Nature (10)
+      {
+        "id": 11,
+        "name": { "en": "Space & Galaxy", "ur": "خلاء اور کہکشاں" },
+        "slug": "space_galaxy",
+        "group": "Science & Nature",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "science",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "Explore the wonders of the universe",
+          "ur": "کائنات کے عجائبات دریافت کریں"
+        },
+        "icon": "meteor",
+        "color": "purple",
+        "features": ["Planet facts", "Space missions"],
+        "lastUpdated": "2023-07-12",
+        "resources": 145
+      },
+      {
+        "id": 12,
+        "name": { "en": "Physics", "ur": "طبیعیات" },
+        "slug": "physics",
+        "group": "Science & Nature",
+        "level": "hard",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "science",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Fundamentals of physics",
+          "ur": "طبیعیات کی بنیادی باتیں"
+        },
+        "icon": "atom",
+        "color": "blue",
+        "features": ["Laws of motion", "Quantum physics"],
+        "lastUpdated": "2023-06-22",
+        "resources": 112
+      },
+      {
+        "id": 13,
+        "name": { "en": "Chemistry", "ur": "کیمسٹری" },
+        "slug": "chemistry",
+        "group": "Science & Nature",
+        "level": "medium",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "science",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Elements, compounds and reactions",
+          "ur": "عناصر، مرکبات اور رد عمل"
+        },
+        "icon": "flask",
+        "color": "green",
+        "features": ["Periodic table", "Chemical equations"],
+        "lastUpdated": "2023-06-25",
+        "resources": 128
+      },
+      {
+        "id": 14,
+        "name": { "en": "Biology", "ur": "حیاتیات" },
+        "slug": "biology",
+        "group": "Science & Nature",
+        "level": "medium",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "science",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Study of living organisms",
+          "ur": "جاندار اشیاء کا مطالعہ"
+        },
+        "icon": "dna",
+        "color": "green",
+        "features": ["Human body", "Ecosystems"],
+        "lastUpdated": "2023-07-05",
+        "resources": 118
+      },
+      {
+        "id": 15,
+        "name": { "en": "Human Body", "ur": "انسانی جسم" },
+        "slug": "human_body",
+        "group": "Science & Nature",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "science",
+        "popularity": "popular",
+        "trending": false,
+        "description": {
+          "en": "Learn about human anatomy",
+          "ur": "انسانی جسم کی ساخت کے بارے میں جانیں"
+        },
+        "icon": "heartbeat",
+        "color": "red",
+        "features": ["Organ systems", "Health facts"],
+        "lastUpdated": "2023-07-08",
+        "resources": 135
+      },
+      {
+        "id": 16,
+        "name": { "en": "Environmental Science", "ur": "ماحولیاتی سائنس" },
+        "slug": "environmental_science",
+        "group": "Science & Nature",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "science",
+        "popularity": "trending",
+        "trending": true,
+        "description": {
+          "en": "Climate change and sustainability",
+          "ur": "موسمیاتی تبدیلی اور پائیداری"
+        },
+        "icon": "leaf",
+        "color": "green",
+        "features": ["Ecosystems", "Conservation"],
+        "lastUpdated": "2023-07-15",
+        "resources": 142
+      },
+      {
+        "id": 17,
+        "name": { "en": "Nature & Life", "ur": "فطرت اور زندگی" },
+        "slug": "nature_life",
+        "group": "Science & Nature",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "nature",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Amazing facts about nature",
+          "ur": "فطرت کے حیرت انگیز حقائق"
+        },
+        "icon": "tree",
+        "color": "green",
+        "features": ["Animal kingdom", "Plant life"],
+        "lastUpdated": "2023-07-02",
+        "resources": 98
+      },
+      {
+        "id": 18,
+        "name": { "en": "Medical Fields", "ur": "طبی شعبے" },
+        "slug": "medical_fields",
+        "group": "Science & Nature",
+        "level": "hard",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "science",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Different medical specialties",
+          "ur": "مختلف طبی خصوصیات"
+        },
+        "icon": "stethoscope",
+        "color": "red",
+        "features": ["Medical terms", "Specializations"],
+        "lastUpdated": "2023-06-28",
+        "resources": 105
+      },
+      {
+        "id": 19,
+        "name": { "en": "Geology", "ur": "ارضیات" },
+        "slug": "geology",
+        "group": "Science & Nature",
+        "level": "medium",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "science",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Study of Earth's physical structure",
+          "ur": "زمین کی جسمانی ساخت کا مطالعہ"
+        },
+        "icon": "mountain",
+        "color": "brown",
+        "features": ["Rocks", "Natural phenomena"],
+        "lastUpdated": "2023-06-20",
+        "resources": 87
+      },
+      {
+        "id": 20,
+        "name": { "en": "Weather", "ur": "موسم" },
+        "slug": "weather",
+        "group": "Science & Nature",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "science",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Learn about weather patterns",
+          "ur": "موسمی پیٹرن کے بارے میں جانیں"
+        },
+        "icon": "cloud-sun",
+        "color": "blue",
+        "features": ["Climate zones", "Weather systems"],
+        "lastUpdated": "2023-07-01",
+        "resources": 92
+      },
+
+      // Technology (10)
+      {
+        "id": 21,
+        "name": { "en": "Technology", "ur": "ٹیکنالوجی" },
+        "slug": "technology",
+        "group": "Technology",
+        "level": "medium",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "tech",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "Latest tech innovations",
+          "ur": "تازہ ترین ٹیکنالوجی کی ایجادات"
+        },
+        "icon": "microchip",
+        "color": "blue",
+        "features": ["Gadgets", "Innovations"],
+        "lastUpdated": "2023-07-18",
+        "resources": 155
+      },
+      {
+        "id": 22,
+        "name": { "en": "Computers", "ur": "کمپیوٹرز" },
+        "slug": "computers",
+        "group": "Technology",
+        "level": "medium",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "tech",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Computer hardware and software",
+          "ur": "کمپیوٹر ہارڈویئر اور سافٹ ویئر"
+        },
+        "icon": "desktop",
+        "color": "blue",
+        "features": ["Components", "Operating systems"],
+        "lastUpdated": "2023-07-05",
+        "resources": 128
+      },
+      {
+        "id": 23,
+        "name": { "en": "Internet", "ur": "انٹرنیٹ" },
+        "slug": "internet",
+        "group": "Technology",
+        "level": "medium",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "tech",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "How the internet works",
+          "ur": "انٹرنیٹ کیسے کام کرتا ہے"
+        },
+        "icon": "wifi",
+        "color": "blue",
+        "features": ["Web technologies", "History"],
+        "lastUpdated": "2023-07-15",
+        "resources": 142
+      },
+      {
+        "id": 24,
+        "name": { "en": "Mobile Technology", "ur": "موبائل ٹیکنالوجی" },
+        "slug": "mobile_technology",
+        "group": "Technology",
+        "level": "medium",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "tech",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "Smartphones and mobile apps",
+          "ur": "سمارٹ فونز اور موبائل ایپس"
+        },
+        "icon": "mobile-alt",
+        "color": "blue",
+        "features": ["OS comparison", "App development"],
+        "lastUpdated": "2023-07-10",
+        "resources": 135
+      },
+      {
+        "id": 25,
+        "name": { "en": "Programming Basics", "ur": "پروگرامنگ کی بنیادی باتیں" },
+        "slug": "programming_basics",
+        "group": "Technology",
+        "level": "medium",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "tech",
+        "popularity": "trending",
+        "trending": true,
+        "description": {
+          "en": "Introduction to coding concepts",
+          "ur": "کوڈنگ کے تصورات کا تعارف"
+        },
+        "icon": "code",
+        "color": "blue",
+        "features": ["Languages overview", "Basic syntax"],
+        "lastUpdated": "2023-07-20",
+        "resources": 165
+      },
+      {
+        "id": 26,
+        "name": { "en": "AI & Robotics", "ur": "مصنوعی ذہانت اور روبوٹکس" },
+        "slug": "ai_robotics",
+        "group": "Technology",
+        "level": "hard",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "tech",
+        "popularity": "trending",
+        "trending": true,
+        "description": {
+          "en": "Artificial intelligence and robots",
+          "ur": "مصنوعی ذہانت اور روبوٹس"
+        },
+        "icon": "robot",
+        "color": "blue",
+        "features": ["Machine learning", "Applications"],
+        "lastUpdated": "2023-07-22",
+        "resources": 148
+      },
+      {
+        "id": 27,
+        "name": { "en": "Cyber Safety", "ur": "سائبر سیفٹی" },
+        "slug": "cyber_safety",
+        "group": "Technology",
+        "level": "medium",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "tech",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "Online privacy and security",
+          "ur": "آن لائن رازداری اور سیکورٹی"
+        },
+        "icon": "shield-alt",
+        "color": "blue",
+        "features": ["Password security", "Scam prevention"],
+        "lastUpdated": "2023-07-12",
+        "resources": 132
+      },
+      {
+        "id": 28,
+        "name": { "en": "Web Development", "ur": "ویب ڈویلپمنٹ" },
+        "slug": "web_development",
+        "group": "Technology",
+        "level": "medium",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "tech",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "Building websites and applications",
+          "ur": "ویب سائٹس اور ایپلیکیشنز بنانا"
+        },
+        "icon": "laptop-code",
+        "color": "blue",
+        "features": ["HTML/CSS", "JavaScript"],
+        "lastUpdated": "2023-07-18",
+        "resources": 178
+      },
+      {
+        "id": 29,
+        "name": { "en": "Gadgets", "ur": "گیجٹس" },
+        "slug": "gadgets",
+        "group": "Technology",
+        "level": "easy",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "tech",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Latest electronic devices",
+          "ur": "تازہ ترین الیکٹرانک آلات"
+        },
+        "icon": "tablet-alt",
+        "color": "blue",
+        "features": ["Reviews", "Specifications"],
+        "lastUpdated": "2023-07-05",
+        "resources": 112
+      },
+      {
+        "id": 30,
+        "name": { "en": "Tech Companies", "ur": "ٹیک کمپنیاں" },
+        "slug": "tech_companies",
+        "group": "Technology",
+        "level": "medium",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "tech",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Major technology corporations",
+          "ur": "بڑی ٹیکنالوجی کارپوریشنز"
+        },
+        "icon": "building",
+        "color": "blue",
+        "features": ["Founders", "Products"],
+        "lastUpdated": "2023-06-28",
+        "resources": 98
+      },
+
+      // Math (5)
+      {
+        "id": 31,
+        "name": { "en": "Math", "ur": "ریاضی" },
+        "slug": "math",
+        "group": "Math",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "math",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "General mathematics questions",
+          "ur": "عام ریاضی کے سوالات"
+        },
+        "icon": "square-root-alt",
+        "color": "purple",
+        "features": ["Problem solving", "Formulas"],
+        "lastUpdated": "2023-07-10",
+        "resources": 125
+      },
+      {
+        "id": 32,
+        "name": { "en": "Arithmetic", "ur": "حساب" },
+        "slug": "arithmetic",
+        "group": "Math",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "math",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Basic calculations and operations",
+          "ur": "بنیادی حسابی عمل"
+        },
+        "icon": "calculator",
+        "color": "purple",
+        "features": ["Addition", "Multiplication"],
+        "lastUpdated": "2023-07-05",
+        "resources": 112
+      },
+      {
+        "id": 33,
+        "name": { "en": "Algebra", "ur": "الجبرا" },
+        "slug": "algebra",
+        "group": "Math",
+        "level": "hard",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "math",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Equations and variables",
+          "ur": "مساوات اور متغیرات"
+        },
+        "icon": "x",
+        "color": "purple",
+        "features": ["Linear equations", "Polynomials"],
+        "lastUpdated": "2023-06-28",
+        "resources": 98
+      },
+      {
+        "id": 34,
+        "name": { "en": "Geometry", "ur": "جیومیٹری" },
+        "slug": "geometry",
+        "group": "Math",
+        "level": "medium",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "math",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Shapes, angles and measurements",
+          "ur": "اشکال، زاویے اور پیمائش"
+        },
+        "icon": "shapes",
+        "color": "purple",
+        "features": ["Theorems", "Formulas"],
+        "lastUpdated": "2023-07-01",
+        "resources": 105
+      },
+      {
+        "id": 35,
+        "name": { "en": "Mental Math", "ur": "ذہنی حساب" },
+        "slug": "mental_math",
+        "group": "Math",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "math",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Quick calculations without tools",
+          "ur": "اوزاروں کے بغیر تیز حساب"
+        },
+        "icon": "brain",
+        "color": "purple",
+        "features": ["Speed math", "Tricks"],
+        "lastUpdated": "2023-07-08",
+        "resources": 92
+      },
+
+      // Arts & Culture (10)
+      {
+        "id": 36,
+        "name": { "en": "Arts & Culture", "ur": "آرٹس اور ثقافت" },
+        "slug": "arts_culture",
+        "group": "Arts & Culture",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "arts",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "World art and cultural heritage",
+          "ur": "دنیا کا فن اور ثقافتی ورثہ"
+        },
+        "icon": "palette",
+        "color": "orange",
+        "features": ["Art movements", "Cultural traditions"],
+        "lastUpdated": "2023-07-12",
+        "resources": 118
+      },
+      {
+        "id": 37,
+        "name": { "en": "World Art", "ur": "دنیا کا فن" },
+        "slug": "world_art",
+        "group": "Arts & Culture",
+        "level": "medium",
+        "age": "all",
+        "type": "image-quiz",
+        "interest": "arts",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Famous artworks and artists",
+          "ur": "مشہور فن پارے اور فنکار"
+        },
+        "icon": "paint-brush",
+        "color": "orange",
+        "features": ["Art recognition", "Artist bios"],
+        "lastUpdated": "2023-07-05",
+        "resources": 105
+      },
+      {
+        "id": 38,
+        "name": { "en": "Painting & Design", "ur": "پینٹنگ اور ڈیزائن" },
+        "slug": "painting_design",
+        "group": "Arts & Culture",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "arts",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Techniques and styles",
+          "ur": "تکنیک اور اسٹائلز"
+        },
+        "icon": "brush",
+        "color": "orange",
+        "features": ["Color theory", "Composition"],
+        "lastUpdated": "2023-06-28",
+        "resources": 92
+      },
+      {
+        "id": 39,
+        "name": { "en": "Music", "ur": "موسیقی" },
+        "slug": "music",
+        "group": "Arts & Culture",
+        "level": "easy",
+        "age": "all",
+        "type": "audio-quiz",
+        "interest": "arts",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "Identify songs and instruments",
+          "ur": "گانوں اور آلات موسیقی کی شناخت"
+        },
+        "icon": "music",
+        "color": "orange",
+        "features": ["Music genres", "Composers"],
+        "lastUpdated": "2023-07-15",
+        "resources": 135
+      },
+      {
+        "id": 40,
+        "name": { "en": "Theatre", "ur": "تھیٹر" },
+        "slug": "theatre",
+        "group": "Arts & Culture",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "arts",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Drama and performing arts",
+          "ur": "ڈرامہ اور پرفارمنگ آرٹس"
+        },
+        "icon": "theater-masks",
+        "color": "orange",
+        "features": ["Famous plays", "Actors"],
+        "lastUpdated": "2023-07-01",
+        "resources": 85
+      },
+      {
+        "id": 41,
+        "name": { "en": "Dance", "ur": "رقص" },
+        "slug": "dance",
+        "group": "Arts & Culture",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "arts",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Traditional and modern dance forms",
+          "ur": "روایتی اور جدید رقص کی شکلیں"
+        },
+        "icon": "user-tie",
+        "color": "orange",
+        "features": ["Dance styles", "Cultural dances"],
+        "lastUpdated": "2023-06-25",
+        "resources": 78
+      },
+      {
+        "id": 42,
+        "name": { "en": "Film & Cinema", "ur": "فلم اور سنیما" },
+        "slug": "film_cinema",
+        "group": "Arts & Culture",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "arts",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "Movies and film industry",
+          "ur": "فلمیں اور فلم انڈسٹری"
+        },
+        "icon": "film",
+        "color": "orange",
+        "features": ["Film history", "Awards"],
+        "lastUpdated": "2023-07-10",
+        "resources": 142
+      },
+      {
+        "id": 43,
+        "name": { "en": "Photography", "ur": "فوٹوگرافی" },
+        "slug": "photography",
+        "group": "Arts & Culture",
+        "level": "medium",
+        "age": "all",
+        "type": "image-quiz",
+        "interest": "arts",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Art and technique of photography",
+          "ur": "فوٹوگرافی کی فن اور تکنیک"
+        },
+        "icon": "camera",
+        "color": "orange",
+        "features": ["Composition", "Famous photographers"],
+        "lastUpdated": "2023-07-05",
+        "resources": 92
+      },
+      {
+        "id": 44,
+        "name": { "en": "Architecture", "ur": "معماری" },
+        "slug": "architecture",
+        "group": "Arts & Culture",
+        "level": "medium",
+        "age": "all",
+        "type": "image-quiz",
+        "interest": "arts",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Famous buildings and styles",
+          "ur": "مشہور عمارتیں اور اسٹائلز"
+        },
+        "icon": "archway",
+        "color": "orange",
+        "features": ["Architectural styles", "Landmarks"],
+        "lastUpdated": "2023-06-30",
+        "resources": 98
+      },
+      {
+        "id": 45,
+        "name": { "en": "Fashion", "ur": "فیشن" },
+        "slug": "fashion",
+        "group": "Arts & Culture",
+        "level": "easy",
+        "age": "all",
+        "type": "image-quiz",
+        "interest": "arts",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Clothing styles through history",
+          "ur": "تاریخ کے دوران لباس کے اسٹائل"
+        },
+        "icon": "tshirt",
+        "color": "orange",
+        "features": ["Designers", "Trends"],
+        "lastUpdated": "2023-07-02",
+        "resources": 85
+      },
+
+      // Languages & Literature (10)
+      {
+        "id": 46,
+        "name": { "en": "Languages & Literature", "ur": "زبانیں اور ادب" },
+        "slug": "languages_literature",
+        "group": "Languages & Literature",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "language",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "World languages and literary works",
+          "ur": "دنیا کی زبانیں اور ادبی کام"
+        },
+        "icon": "language",
+        "color": "brown",
+        "features": ["Language families", "Literary genres"],
+        "lastUpdated": "2023-07-15",
+        "resources": 128
+      },
+      {
+        "id": 47,
+        "name": { "en": "English Grammar", "ur": "انگریزی گرامر" },
+        "slug": "english_grammar",
+        "group": "Languages & Literature",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "language",
+        "popularity": "popular",
+        "trending": false,
+        "description": {
+          "en": "Rules of English language",
+          "ur": "انگریزی زبان کے قواعد"
+        },
+        "icon": "spell-check",
+        "color": "brown",
+        "features": ["Tenses", "Sentence structure"],
+        "lastUpdated": "2023-07-10",
+        "resources": 145
+      },
+      {
+        "id": 48,
+        "name": { "en": "Vocabulary", "ur": "ذخیرہ الفاظ" },
+        "slug": "vocabulary",
+        "group": "Languages & Literature",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "language",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Word meanings and usage",
+          "ur": "الفاظ کے معنی اور استعمال"
+        },
+        "icon": "book-open",
+        "color": "brown",
+        "features": ["Synonyms", "Antonyms"],
+        "lastUpdated": "2023-07-05",
+        "resources": 132
+      },
+      {
+        "id": 49,
+        "name": { "en": "Urdu Poetry", "ur": "اردو شاعری" },
+        "slug": "urdu_poetry",
+        "group": "Languages & Literature",
+        "level": "medium",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "language",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "Classic and modern Urdu poetry",
+          "ur": "کلاسیکی اور جدید اردو شاعری"
+        },
+        "icon": "pen-fancy",
+        "color": "brown",
+        "features": ["Ghazals", "Nazms"],
+        "lastUpdated": "2023-07-18",
+        "resources": 165
+      },
+      {
+        "id": 50,
+        "name": { "en": "Famous Poets", "ur": "مشہور شعراء" },
+        "slug": "famous_poets",
+        "group": "Languages & Literature",
+        "level": "medium",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "language",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Biographies of legendary poets",
+          "ur": "عظیم شعراء کی سوانح عمریاں"
+        },
+        "icon": "user-edit",
+        "color": "brown",
+        "features": ["Poet timelines", "Famous works"],
+        "lastUpdated": "2023-07-12",
+        "resources": 142
+      },
+      {
+        "id": 51,
+        "name": { "en": "Biographies", "ur": "سوانح عمریاں" },
+        "slug": "biographies",
+        "group": "Languages & Literature",
+        "level": "medium",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "language",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Life stories of famous people",
+          "ur": "مشہور لوگوں کی زندگی کی کہانیاں"
+        },
+        "icon": "book-reader",
+        "color": "brown",
+        "features": ["Historical figures", "Achievements"],
+        "lastUpdated": "2023-07-08",
+        "resources": 128
+      },
+      {
+        "id": 52,
+        "name": { "en": "Proverbs & Idioms", "ur": "محاورے اور اصطلاحات" },
+        "slug": "proverbs_idioms",
+        "group": "Languages & Literature",
+        "level": "medium",
+        "age": "all",
+        "type": "match",
+        "interest": "language",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Common sayings and their meanings",
+          "ur": "عام کہاوتیں اور ان کے معنی"
+        },
+        "icon": "comment-dots",
+        "color": "brown",
+        "features": ["Cultural context", "Translations"],
+        "lastUpdated": "2023-07-05",
+        "resources": 118
+      },
+      {
+        "id": 53,
+        "name": { "en": "World Literature", "ur": "دنیا کا ادب" },
+        "slug": "world_literature",
+        "group": "Languages & Literature",
+        "level": "hard",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "language",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Classic works from around the world",
+          "ur": "دنیا بھر کے کلاسیکی کام"
+        },
+        "icon": "book",
+        "color": "brown",
+        "features": ["Novels", "Poetry"],
+        "lastUpdated": "2023-06-30",
+        "resources": 112
+      },
+      {
+        "id": 54,
+        "name": { "en": "Storytelling", "ur": "کہانی سنانا" },
+        "slug": "storytelling",
+        "group": "Languages & Literature",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "language",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Art of crafting narratives",
+          "ur": "کہانیاں بنانے کا فن"
+        },
+        "icon": "bookmark",
+        "color": "brown",
+        "features": ["Story elements", "Character development"],
+        "lastUpdated": "2023-07-02",
+        "resources": 92
+      },
+      {
+        "id": 55,
+        "name": { "en": "Translation", "ur": "ترجمہ" },
+        "slug": "translation",
+        "group": "Languages & Literature",
+        "level": "hard",
+        "age": "teens",
+        "type": "match",
+        "interest": "language",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Converting between languages",
+          "ur": "زبانوں کے درمیان تبدیلی"
+        },
+        "icon": "exchange-alt",
+        "color": "brown",
+        "features": ["Language pairs", "Techniques"],
+        "lastUpdated": "2023-06-28",
+        "resources": 85
+      },
+
+      // Islamic Studies (10)
+      {
+        "id": 56,
+        "name": { "en": "Islamic Studies", "ur": "اسلامیات" },
+        "slug": "islamic_studies",
+        "group": "Islamic Studies",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "islamic",
+        "popularity": "popular",
+        "trending": false,
+        "description": {
+          "en": "Fundamentals of Islam",
+          "ur": "اسلام کی بنیادی باتیں"
+        },
+        "icon": "mosque",
+        "color": "green",
+        "features": ["Basic beliefs", "Practices"],
+        "lastUpdated": "2023-07-20",
+        "resources": 178
+      },
+      {
+        "id": 57,
+        "name": { "en": "Quran & Hadith", "ur": "قرآن اور حدیث" },
+        "slug": "quran_hadith",
+        "group": "Islamic Studies",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "islamic",
+        "popularity": "popular",
+        "trending": false,
+        "description": {
+          "en": "Study of Islamic scriptures",
+          "ur": "اسلامی صحائف کا مطالعہ"
+        },
+        "icon": "book-quran",
+        "color": "green",
+        "features": ["Quranic verses", "Hadith collections"],
+        "lastUpdated": "2023-07-18",
+        "resources": 185
+      },
+      {
+        "id": 58,
+        "name": { "en": "Islamic History", "ur": "اسلامی تاریخ" },
+        "slug": "islamic_history",
+        "group": "Islamic Studies",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "islamic",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "History of Muslim civilizations",
+          "ur": "مسلم تہذیبوں کی تاریخ"
+        },
+        "icon": "landmark",
+        "color": "green",
+        "features": ["Caliphates", "Contributions"],
+        "lastUpdated": "2023-07-12",
+        "resources": 142
+      },
+      {
+        "id": 59,
+        "name": { "en": "Prophets' Stories", "ur": "انبیاء کے واقعات" },
+        "slug": "prophets_stories",
+        "group": "Islamic Studies",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "islamic",
+        "popularity": "popular",
+        "trending": false,
+        "description": {
+          "en": "Stories of prophets in Islam",
+          "ur": "اسلام میں انبیاء کے واقعات"
+        },
+        "icon": "user-tie",
+        "color": "green",
+        "features": ["Moral lessons", "Quranic accounts"],
+        "lastUpdated": "2023-07-15",
+        "resources": 165
+      },
+      {
+        "id": 60,
+        "name": { "en": "Seerah", "ur": "سیرت" },
+        "slug": "seerah",
+        "group": "Islamic Studies",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "islamic",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "Life of Prophet Muhammad (PBUH)",
+          "ur": "نبی کریم ﷺ کی زندگی"
+        },
+        "icon": "user",
+        "color": "green",
+        "features": ["Timeline", "Events"],
+        "lastUpdated": "2023-07-22",
+        "resources": 195
+      },
+      {
+        "id": 61,
+        "name": { "en": "Islamic Ethics", "ur": "اسلامی اخلاقیات" },
+        "slug": "islamic_ethics",
+        "group": "Islamic Studies",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "islamic",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Moral teachings of Islam",
+          "ur": "اسلام کی اخلاقی تعلیمات"
+        },
+        "icon": "hands-helping",
+        "color": "green",
+        "features": ["Character building", "Social conduct"],
+        "lastUpdated": "2023-07-10",
+        "resources": 128
+      },
+      {
+        "id": 62,
+        "name": { "en": "Pillars of Islam", "ur": "ارکان اسلام" },
+        "slug": "pillars_of_islam",
+        "group": "Islamic Studies",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "islamic",
+        "popularity": "popular",
+        "trending": false,
+        "description": {
+          "en": "Five pillars and their significance",
+          "ur": "پانچ ارکان اور ان کی اہمیت"
+        },
+        "icon": "kaaba",
+        "color": "green",
+        "features": ["Shahadah", "Hajj"],
+        "lastUpdated": "2023-07-18",
+        "resources": 152
+      },
+      {
+        "id": 63,
+        "name": { "en": "Fiqh Basics", "ur": "فقہ کی بنیادی باتیں" },
+        "slug": "fiqh_basics",
+        "group": "Islamic Studies",
+        "level": "hard",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "islamic",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Islamic jurisprudence fundamentals",
+          "ur": "اسلامی فقہ کی بنیادی باتیں"
+        },
+        "icon": "balance-scale",
+        "color": "green",
+        "features": ["Rulings", "Schools of thought"],
+        "lastUpdated": "2023-07-05",
+        "resources": 135
+      },
+      {
+        "id": 64,
+        "name": { "en": "Sahabah (RA)", "ur": "صحابہ کرام" },
+        "slug": "sahabah",
+        "group": "Islamic Studies",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "islamic",
+        "popularity": "popular",
+        "trending": false,
+        "description": {
+          "en": "Companions of the Prophet (PBUH)",
+          "ur": "نبی کریم ﷺ کے صحابہ"
+        },
+        "icon": "users",
+        "color": "green",
+        "features": ["Biographies", "Contributions"],
+        "lastUpdated": "2023-07-15",
+        "resources": 165
+      },
+      {
+        "id": 65,
+        "name": { "en": "Dua & Azkar", "ur": "دعا اور اذکار" },
+        "slug": "dua_azkar",
+        "group": "Islamic Studies",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "islamic",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Daily supplications and remembrance",
+          "ur": "روزانہ دعائیں اور ذکر"
+        },
+        "icon": "hands-praying",
+        "color": "green",
+        "features": ["Morning/evening", "Occasion-specific"],
+        "lastUpdated": "2023-07-08",
+        "resources": 142
+      },
+
+      // History (5)
+      {
+        "id": 66,
+        "name": { "en": "History", "ur": "تاریخ" },
+        "slug": "history",
+        "group": "History",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "history",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "World historical events",
+          "ur": "دنیا کے تاریخی واقعات"
+        },
+        "icon": "hourglass-half",
+        "color": "brown",
+        "features": ["Timelines", "Key figures"],
+        "lastUpdated": "2023-07-15",
+        "resources": 145
+      },
+      {
+        "id": 67,
+        "name": { "en": "World Wars", "ur": "عالمی جنگیں" },
+        "slug": "world_wars",
+        "group": "History",
+        "level": "hard",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "history",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "WWI and WWII events",
+          "ur": "پہلی اور دوسری جنگ عظیم کے واقعات"
+        },
+        "icon": "fighter-jet",
+        "color": "brown",
+        "features": ["Battles", "Consequences"],
+        "lastUpdated": "2023-07-05",
+        "resources": 128
+      },
+      {
+        "id": 68,
+        "name": { "en": "Ancient Civilizations", "ur": "قدیم تہذیبیں" },
+        "slug": "ancient_civilizations",
+        "group": "History",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "history",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Egypt, Greece, Rome and more",
+          "ur": "مصر، یونان، روم اور مزید"
+        },
+        "icon": "monument",
+        "color": "brown",
+        "features": ["Cultural achievements", "Rulers"],
+        "lastUpdated": "2023-07-10",
+        "resources": 118
+      },
+      {
+        "id": 69,
+        "name": { "en": "Mughals", "ur": "مغلیہ سلطنت" },
+        "slug": "mughals",
+        "group": "History",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "history",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "History of Mughal Empire",
+          "ur": "مغلیہ سلطنت کی تاریخ"
+        },
+        "icon": "crown",
+        "color": "brown",
+        "features": ["Emperors", "Architecture"],
+        "lastUpdated": "2023-07-18",
+        "resources": 152
+      },
+      {
+        "id": 70,
+        "name": { "en": "Tareekh-e-Pakistan", "ur": "تاریخ پاکستان" },
+        "slug": "tareekh_e_pakistan",
+        "group": "History",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "history",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "Pakistan's historical journey",
+          "ur": "پاکستان کا تاریخی سفر"
+        },
+        "icon": "flag",
+        "color": "green",
+        "features": ["Freedom movement", "Key events"],
+        "lastUpdated": "2023-07-22",
+        "resources": 178
+      },
+
+      // Kids Special (5)
+      {
+        "id": 71,
+        "name": { "en": "Kids Special", "ur": "بچوں کا خاص" },
+        "slug": "kids_special",
+        "group": "Kids Special",
+        "level": "easy",
+        "age": "kids",
+        "type": "mcq",
+        "interest": "general",
+        "popularity": "popular",
+        "trending": false,
+        "description": {
+          "en": "Fun learning for children",
+          "ur": "بچوں کے لیے تفریحی سیکھنا"
+        },
+        "icon": "child",
+        "color": "yellow",
+        "features": ["Interactive", "Educational"],
+        "lastUpdated": "2023-07-15",
+        "resources": 165
+      },
+      {
+        "id": 72,
+        "name": { "en": "Animals", "ur": "جانور" },
+        "slug": "animals",
+        "group": "Kids Special",
+        "level": "easy",
+        "age": "kids",
+        "type": "image-quiz",
+        "interest": "nature",
+        "popularity": "popular",
+        "trending": false,
+        "description": {
+          "en": "Learn about animals",
+          "ur": "جانوروں کے بارے میں جانیں"
+        },
+        "icon": "hippo",
+        "color": "yellow",
+        "features": ["Animal sounds", "Habitats"],
+        "lastUpdated": "2023-07-10",
+        "resources": 142
+      },
+      {
+        "id": 73,
+        "name": { "en": "Birds", "ur": "پرندے" },
+        "slug": "birds",
+        "group": "Kids Special",
+        "level": "easy",
+        "age": "kids",
+        "type": "image-quiz",
+        "interest": "nature",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Identify different birds",
+          "ur": "مختلف پرندوں کی شناخت کریں"
+        },
+        "icon": "dove",
+        "color": "yellow",
+        "features": ["Bird calls", "Migration"],
+        "lastUpdated": "2023-07-05",
+        "resources": 118
+      },
+      {
+        "id": 74,
+        "name": { "en": "Shapes & Colors", "ur": "شکلیں اور رنگ" },
+        "slug": "shapes_colors",
+        "group": "Kids Special",
+        "level": "easy",
+        "age": "kids",
+        "type": "match",
+        "interest": "general",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Basic shapes and colors",
+          "ur": "بنیادی شکلیں اور رنگ"
+        },
+        "icon": "shapes",
+        "color": "yellow",
+        "features": ["Color mixing", "Shape recognition"],
+        "lastUpdated": "2023-07-01",
+        "resources": 95
+      },
+      {
+        "id": 75,
+        "name": { "en": "Riddles & Rhymes", "ur": "پہیلیاں اور نظمیں" },
+        "slug": "riddles_rhymes",
+        "group": "Kids Special",
+        "level": "easy",
+        "age": "kids",
+        "type": "mcq",
+        "interest": "general",
+        "popularity": "popular",
+        "trending": false,
+        "description": {
+          "en": "Fun riddles and nursery rhymes",
+          "ur": "مزیدار پہیلیاں اور نظمیں"
+        },
+        "icon": "puzzle-piece",
+        "color": "yellow",
+        "features": ["Brain teasers", "Poems"],
+        "lastUpdated": "2023-07-08",
+        "resources": 112
+      },
+
+      // Life Skills (5)
+      {
+        "id": 76,
+        "name": { "en": "Life Skills", "ur": "زندگی کی مہارتیں" },
+        "slug": "life_skills",
+        "group": "Life Skills",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "general",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Essential skills for daily life",
+          "ur": "روزمرہ زندگی کے لیے ضروری مہارتیں"
+        },
+        "icon": "user-graduate",
+        "color": "blue",
+        "features": ["Practical knowledge", "Problem solving"],
+        "lastUpdated": "2023-07-12",
+        "resources": 128
+      },
+      {
+        "id": 77,
+        "name": { "en": "Health & Hygiene", "ur": "صحت اور صفائی" },
+        "slug": "health_hygiene",
+        "group": "Life Skills",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "health",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Maintaining good health",
+          "ur": "اچھی صحت برقرار رکھنا"
+        },
+        "icon": "hand-sparkles",
+        "color": "blue",
+        "features": ["Healthy habits", "Disease prevention"],
+        "lastUpdated": "2023-07-05",
+        "resources": 112
+      },
+      {
+        "id": 78,
+        "name": { "en": "Ethics & Manners", "ur": "اخلاق اور آداب" },
+        "slug": "ethics_manners",
+        "group": "Life Skills",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "general",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Good behavior and etiquette",
+          "ur": "اچھا برتاؤ اور آداب"
+        },
+        "icon": "hand-holding-heart",
+        "color": "blue",
+        "features": ["Social skills", "Respect"],
+        "lastUpdated": "2023-07-08",
+        "resources": 98
+      },
+      {
+        "id": 79,
+        "name": { "en": "Safety Tips", "ur": "حفاظتی نکات" },
+        "slug": "safety_tips",
+        "group": "Life Skills",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "general",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Staying safe in different situations",
+          "ur": "مختلف حالات میں محفوظ رہنا"
+        },
+        "icon": "exclamation-triangle",
+        "color": "blue",
+        "features": ["Emergency procedures", "Prevention"],
+        "lastUpdated": "2023-07-01",
+        "resources": 92
+      },
+      {
+        "id": 80,
+        "name": { "en": "Time Management", "ur": "وقت کا انتظام" },
+        "slug": "time_management",
+        "group": "Life Skills",
+        "level": "medium",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "general",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Effective use of time",
+          "ur": "وقت کا مؤثر استعمال"
+        },
+        "icon": "clock",
+        "color": "blue",
+        "features": ["Planning", "Prioritization"],
+        "lastUpdated": "2023-07-05",
+        "resources": 85
+      },
+
+      // Pakistani Special (5)
+      {
+        "id": 81,
+        "name": { "en": "Pakistani Special", "ur": "پاکستانی خاص" },
+        "slug": "pakistani_special",
+        "group": "Pakistani Special",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "culture",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "All about Pakistan",
+          "ur": "پاکستان کے بارے میں سب کچھ"
+        },
+        "icon": "flag",
+        "color": "green",
+        "features": ["Culture", "Heritage"],
+        "lastUpdated": "2023-07-18",
+        "resources": 165
+      },
+      {
+        "id": 82,
+        "name": { "en": "National Heroes", "ur": "قومی ہیروز" },
+        "slug": "national_heroes",
+        "group": "Pakistani Special",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "history",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "Pakistan's freedom fighters and leaders",
+          "ur": "پاکستان کے آزادی پسند اور رہنما"
+        },
+        "icon": "user-tie",
+        "color": "green",
+        "features": ["Biographies", "Contributions"],
+        "lastUpdated": "2023-07-15",
+        "resources": 152
+      },
+      {
+        "id": 83,
+        "name": { "en": "Geography of Pakistan", "ur": "پاکستان کا جغرافیہ" },
+        "slug": "geography_of_pakistan",
+        "group": "Pakistani Special",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "geography",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Physical and political geography",
+          "ur": "طبعی اور سیاسی جغرافیہ"
+        },
+        "icon": "mountain",
+        "color": "green",
+        "features": ["Provinces", "Landmarks"],
+        "lastUpdated": "2023-07-10",
+        "resources": 128
+      },
+      {
+        "id": 84,
+        "name": { "en": "Pakistani Food", "ur": "پاکستانی کھانا" },
+        "slug": "pakistani_food",
+        "group": "Pakistani Special",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "culture",
+        "popularity": "popular",
+        "trending": false,
+        "description": {
+          "en": "Traditional Pakistani cuisine",
+          "ur": "روایتی پاکستانی کھانا"
+        },
+        "icon": "utensils",
+        "color": "green",
+        "features": ["Regional dishes", "Recipes"],
+        "lastUpdated": "2023-07-05",
+        "resources": 112
+      },
+      {
+        "id": 85,
+        "name": { "en": "Local Festivals", "ur": "مقامی تہوار" },
+        "slug": "local_festivals",
+        "group": "Pakistani Special",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "culture",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Cultural festivals of Pakistan",
+          "ur": "پاکستان کے ثقافتی تہوار"
+        },
+        "icon": "glass-cheers",
+        "color": "green",
+        "features": ["Celebrations", "Traditions"],
+        "lastUpdated": "2023-07-01",
+        "resources": 92
+      },
+
+      // Fun Zone (5)
+      {
+        "id": 86,
+        "name": { "en": "Fun Zone", "ur": "تفریحی زون" },
+        "slug": "fun_zone",
+        "group": "Fun Zone",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "fun",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "Entertaining quizzes and games",
+          "ur": "تفریحی کوئز اور کھیل"
+        },
+        "icon": "gamepad",
+        "color": "purple",
+        "features": ["Brain teasers", "Trivia"],
+        "lastUpdated": "2023-07-20",
+        "resources": 155
+      },
+      {
+        "id": 87,
+        "name": { "en": "Riddles", "ur": "پہیلیاں" },
+        "slug": "riddles",
+        "group": "Fun Zone",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "fun",
+        "popularity": "popular",
+        "trending": false,
+        "description": {
+          "en": "Challenge your brain with riddles",
+          "ur": "پہیلیوں کے ساتھ اپنے دماغ کو چیلنج کریں"
+        },
+        "icon": "question",
+        "color": "purple",
+        "features": ["Logic puzzles", "Word play"],
+        "lastUpdated": "2023-07-15",
+        "resources": 132
+      },
+      {
+        "id": 88,
+        "name": { "en": "Would You Rather", "ur": "آپ کیا پسند کریں گے" },
+        "slug": "would_you_rather",
+        "group": "Fun Zone",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "fun",
+        "popularity": "trending",
+        "trending": true,
+        "description": {
+          "en": "Fun hypothetical questions",
+          "ur": "مزیدار فرضی سوالات"
+        },
+        "icon": "balance-scale",
+        "color": "purple",
+        "features": ["Decision making", "Preferences"],
+        "lastUpdated": "2023-07-18",
+        "resources": 145
+      },
+      {
+        "id": 89,
+        "name": { "en": "True/False", "ur": "صحیح/غلط" },
+        "slug": "true_false",
+        "group": "Fun Zone",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "fun",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Test your knowledge with true/false",
+          "ur": "صحیح/غلط کے ساتھ اپنا علم آزمائیں"
+        },
+        "icon": "check",
+        "color": "purple",
+        "features": ["Quick quizzes", "Fact checking"],
+        "lastUpdated": "2023-07-10",
+        "resources": 112
+      },
+      {
+        "id": 90,
+        "name": { "en": "Fun Facts", "ur": "مزیدار حقائق" },
+        "slug": "fun_facts",
+        "group": "Fun Zone",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "fun",
+        "popularity": "popular",
+        "trending": false,
+        "description": {
+          "en": "Interesting and surprising facts",
+          "ur": "دلچسپ اور حیرت انگیز حقائق"
+        },
+        "icon": "lightbulb",
+        "color": "purple",
+        "features": ["Did you know", "Trivia"],
+        "lastUpdated": "2023-07-12",
+        "resources": 128
+      },
+
+      // Urdu & Pakistan Special (10)
+      {
+        "id": 91,
+        "name": { "en": "Urdu & Pakistan Special", "ur": "اردو اور پاکستان خاص" },
+        "slug": "urdu_pakistan_special",
+        "group": "Urdu & Pakistan Special",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "language",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "Special content about Urdu and Pakistan",
+          "ur": "اردو اور پاکستان کے بارے میں خصوصی مواد"
+        },
+        "icon": "language",
+        "color": "green",
+        "features": ["Cultural heritage", "Language"],
+        "lastUpdated": "2023-07-22",
+        "resources": 185
+      },
+      {
+        "id": 92,
+        "name": { "en": "Urdu Poetry (Ghazals, Nazms)", "ur": "اردو شاعری (غزلیں، نظمیں)" },
+        "slug": "urdu_poetry_ghazals_nazms",
+        "group": "Urdu & Pakistan Special",
+        "level": "medium",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "language",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "Classic and contemporary Urdu poetry",
+          "ur": "کلاسیکی اور جدید اردو شاعری"
+        },
+        "icon": "pen-fancy",
+        "color": "green",
+        "features": ["Poetic forms", "Famous poets"],
+        "lastUpdated": "2023-07-20",
+        "resources": 178
+      },
+      {
+        "id": 93,
+        "name": { "en": "Tareekh-e-Pakistan", "ur": "تاریخ پاکستان" },
+        "slug": "tareekh_e_pakistan_2",
+        "group": "Urdu & Pakistan Special",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "history",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "Pakistan's historical journey",
+          "ur": "پاکستان کا تاریخی سفر"
+        },
+        "icon": "landmark",
+        "color": "green",
+        "features": ["Freedom movement", "Key events"],
+        "lastUpdated": "2023-07-18",
+        "resources": 165
+      },
+      {
+        "id": 94,
+        "name": { "en": "Urdu Shayari Quiz", "ur": "اردو شاعری کوئز" },
+        "slug": "urdu_shayari_quiz",
+        "group": "Urdu & Pakistan Special",
+        "level": "medium",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "language",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Test your knowledge of Urdu poetry",
+          "ur": "اردو شاعری کے بارے میں اپنا علم آزمائیں"
+        },
+        "icon": "book-open",
+        "color": "green",
+        "features": ["Poet identification", "Verse completion"],
+        "lastUpdated": "2023-07-15",
+        "resources": 142
+      },
+      {
+        "id": 95,
+        "name": { "en": "Urdu Proverbs & Meanings", "ur": "اردو محاورے اور معانی" },
+        "slug": "urdu_proverbs_meanings",
+        "group": "Urdu & Pakistan Special",
+        "level": "medium",
+        "age": "all",
+        "type": "match",
+        "interest": "language",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Understand common Urdu proverbs",
+          "ur": "عام اردو محاوروں کو سمجھیں"
+        },
+        "icon": "comment-dots",
+        "color": "green",
+        "features": ["Cultural context", "Usage"],
+        "lastUpdated": "2023-07-12",
+        "resources": 128
+      },
+      {
+        "id": 96,
+        "name": { "en": "Nature in Urdu Literature", "ur": "اردو ادب میں فطرت" },
+        "slug": "nature_in_urdu_literature",
+        "group": "Urdu & Pakistan Special",
+        "level": "hard",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "language",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Depiction of nature in Urdu works",
+          "ur": "اردو کاموں میں فطرت کی عکاسی"
+        },
+        "icon": "tree",
+        "color": "green",
+        "features": ["Poetic imagery", "Symbolism"],
+        "lastUpdated": "2023-07-10",
+        "resources": 112
+      },
+      {
+        "id": 97,
+        "name": { "en": "Urdu Riddles & Idioms", "ur": "اردو پہیلیاں اور محاورے" },
+        "slug": "urdu_riddles_idioms",
+        "group": "Urdu & Pakistan Special",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "language",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Traditional Urdu word games",
+          "ur": "روایتی اردو لفظی کھیل"
+        },
+        "icon": "puzzle-piece",
+        "color": "green",
+        "features": ["Word play", "Cultural sayings"],
+        "lastUpdated": "2023-07-08",
+        "resources": 105
+      },
+      {
+        "id": 98,
+        "name": { "en": "Pakistani Culture", "ur": "پاکستانی ثقافت" },
+        "slug": "pakistani_culture",
+        "group": "Urdu & Pakistan Special",
+        "level": "easy",
+        "age": "all",
+        "type": "mcq",
+        "interest": "culture",
+        "popularity": "popular",
+        "trending": false,
+        "description": {
+          "en": "Diverse cultural traditions of Pakistan",
+          "ur": "پاکستان کی متنوع ثقافتی روایات"
+        },
+        "icon": "drum",
+        "color": "green",
+        "features": ["Festivals", "Customs"],
+        "lastUpdated": "2023-07-05",
+        "resources": 132
+      },
+      {
+        "id": 99,
+        "name": { "en": "Pakistani Constitution", "ur": "پاکستانی آئین" },
+        "slug": "pakistani_constitution",
+        "group": "Urdu & Pakistan Special",
+        "level": "hard",
+        "age": "teens",
+        "type": "mcq",
+        "interest": "history",
+        "popularity": "medium",
+        "trending": false,
+        "description": {
+          "en": "Fundamentals of Pakistan's constitution",
+          "ur": "پاکستان کے آئین کی بنیادی باتیں"
+        },
+        "icon": "balance-scale",
+        "color": "green",
+        "features": ["Articles", "Amendments"],
+        "lastUpdated": "2023-07-01",
+        "resources": 118
+      },
+      {
+        "id": 100,
+        "name": { "en": "Pakistani Heroes", "ur": "پاکستانی ہیروز" },
+        "slug": "pakistani_heroes",
+        "group": "Urdu & Pakistan Special",
+        "level": "medium",
+        "age": "all",
+        "type": "mcq",
+        "interest": "history",
+        "popularity": "popular",
+        "trending": true,
+        "description": {
+          "en": "Celebrating Pakistan's achievers",
+          "ur": "پاکستان کے کامیاب لوگوں کو خراج تحسین"
+        },
+        "icon": "user-tie",
+        "color": "green",
+        "features": ["Biographies", "Achievements"],
+        "lastUpdated": "2023-07-15",
+        "resources": 152
+      }
+    ];
+
+    // Function to generate JSON files for each category
+    function generateCategoryFiles() {
+      categories.forEach(category => {
+        const fileName = `${category.slug}.json`;
+        const fileContent = JSON.stringify(category, null, 2);
+
+        // In a real implementation, you would write this to a file
+        console.log(`Generating file: ${fileName}`);
+        // Example: fs.writeFileSync(fileName, fileContent);
+      });
+    }
+
+    // Call the function to generate files
+    generateCategoryFiles();
+
+
+
+    // DOM Elements
+    const domElements = {
+      categoriesContainer: document.getElementById('categories-container'),
+      recommendedContainer: document.getElementById('recommended-container'),
+      searchInput: document.getElementById('search-input'),
+      levelFilter: document.getElementById('level-filter'),
+      ageFilter: document.getElementById('age-filter'),
+      typeFilter: document.getElementById('type-filter'),
+      interestFilter: document.getElementById('interest-filter'),
+      timeFilter: document.getElementById('time-filter'),
+      sortBy: document.getElementById('sort-by'),
+      resetFiltersBtn: document.getElementById('reset-filters'),
+      resetSearchBtn: document.getElementById('reset-search'),
+      filterCount: document.getElementById('filter-count'),
+      activeFilters: document.getElementById('active-filters'),
+      emptyState: document.getElementById('empty-state'),
+      welcomeMessage: document.getElementById('welcome-message'),
+      themeToggle: document.getElementById('theme-toggle'),
+      suggestBtn: document.getElementById('suggest-btn'),
+      suggestModal: document.getElementById('suggest-modal'),
+      modalContent: document.getElementById('modal-content'),
+      closeModal: document.getElementById('close-modal'),
+      suggestionForm: document.getElementById('suggestion-form'),
+      tipsModal: document.getElementById('tips-modal'),
+      tipsModalContent: document.getElementById('tips-modal-content'),
+      showTipsBtn: document.getElementById('show-tips'),
+      closeTipsModal: document.getElementById('close-tips-modal'),
+      voiceModal: document.getElementById('voice-modal'),
+      voiceModalContent: document.getElementById('voice-modal-content'),
+      voiceSearchBtn: document.getElementById('voice-search'),
+      startListeningBtn: document.getElementById('start-listening'),
+      closeVoiceModal: document.getElementById('close-voice-modal'),
+      voiceStatus: document.getElementById('voice-status'),
+      voiceResult: document.getElementById('voice-result'),
+      voiceText: document.getElementById('voice-text'),
+      feedbackToast: document.getElementById('feedback-toast'),
+      toastTitle: document.getElementById('toast-title'),
+      toastMessage: document.getElementById('toast-message'),
+      toastIcon: document.getElementById('toast-icon'),
+      closeToast: document.getElementById('close-toast'),
+      savePreferencesBtn: document.getElementById('save-preferences'),
+      viewToggle: document.getElementById('view-toggle'),
+      seeAllRecommendedBtn: document.getElementById('see-all-recommended'),
+      loadingSkeleton: document.getElementById('loading-skeleton'),
+      languageToggle: document.getElementById('language-toggle'),
+      mobileMenuButton: document.getElementById('mobile-menu-button'),
+      mobileMenu: document.getElementById('mobile-menu'),
+      paginationContainer: document.getElementById('pagination-container'),
+      backToTopBtn: document.getElementById('back-to-top'),
+      randomQuizBtn: document.getElementById('random-quiz-btn')
+    };
+    // Search button click handler
+document.getElementById('search-button').addEventListener('click', function() {
+  core.filterCategories();
+  // Scroll to categories section
+  document.getElementById('categories-container').scrollIntoView({ behavior: 'smooth' });
+});
+
+    // State Management
+    const state = {
+      currentView: 'grid',
+      isListening: false,
+      recognition: null,
+      currentPage: 1,
+      itemsPerPage: 12,
+      filteredCategories: [...categories],
+      isUrdu: false,
+      currentFilters: {
+        search: '',
+        level: '',
+        age: '',
+        type: '',
+        interest: '',
+        time: ''
+      }
+    };
+
+    // Utility Functions
+    const utils = {
+      formatDate: (dateString) => {
+        const date = new Date(dateString);
+        return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+      },
+
+      debounce: (func, delay) => {
+        let timeoutId;
+        return function (...args) {
+          clearTimeout(timeoutId);
+          timeoutId = setTimeout(() => func.apply(this, args), delay);
+        };
+      },
+
+      showLoading: () => {
+        domElements.categoriesContainer.classList.add('hidden');
+        domElements.loadingSkeleton.classList.remove('hidden');
+      },
+
+      hideLoading: () => {
+        domElements.loadingSkeleton.classList.add('hidden');
+        domElements.categoriesContainer.classList.remove('hidden');
+      },
+
+      getTranslatedText: (textObj) => {
+        return state.isUrdu ? textObj.ur : textObj.en;
+      },
+
+      // Get background image based on category
+      getCategoryBackground: (category) => {
+        const backgrounds = {
+          'General Knowledge': 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+          'Science & Nature': 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+          'Technology': 'https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+          'Math': 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+          'Arts & Culture': 'https://images.unsplash.com/photo-1567598472393-22154c01d49a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+          'Languages & Literature': 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+          'Islamic Studies': 'https://images.unsplash.com/photo-1542816417-0983670e46da?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+          'History': 'https://images.unsplash.com/photo-1505664194779-8beaceb93744?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+          'Kids Special': 'https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+          'Life Skills': 'https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+          'Pakistani Special': 'https://images.unsplash.com/photo-1587474260584-136574528ed5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+          'Fun Zone': 'https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+          'Urdu & Pakistan Special': 'https://images.unsplash.com/photo-1587474260584-136574528ed5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'
+        };
+
+        return backgrounds[category.group] || 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80';
+      }
+    };
+
+    // Core Functions
+    const core = {
+      init: () => {
+        // Initialize page
+        core.displayCategories(categories);
+        core.displayRecommendedCategories();
+        core.setWelcomeMessage();
+        core.loadThemePreference();
+        core.loadLanguagePreference();
+        core.loadUserPreferences();
+        core.setupBackToTopButton();
+
+        // Set default active filters
+        state.currentFilters = {
+          search: '',
+          level: '',
+          age: '',
+          type: '',
+          interest: '',
+          time: ''
+        };
+
+        // Track last visit
+        const lastVisit = localStorage.getItem('lastVisit');
+        if (lastVisit) {
+          const daysSinceLastVisit = Math.floor((new Date() - new Date(lastVisit)) / (1000 * 60 * 60 * 24));
+          if (daysSinceLastVisit > 0) {
+            core.showFeedback(
+              state.isUrdu ?
+                `خوش آمدید! آپ کے آخری دورے کو ${daysSinceLastVisit} دن ہو چکے ہیں` :
+                `Welcome back! It's been ${daysSinceLastVisit} day${daysSinceLastVisit > 1 ? 's' : ''} since your last visit.`,
+              'info'
+            );
+          }
+        }
+        localStorage.setItem('lastVisit', new Date().toISOString());
+
+        // Set up event listeners
+        eventHandlers.setupEventListeners();
+
+       domElements.mobileMenu.classList.add('hidden');
+domElements.mobileMenu.classList.remove('block');
+      },
+
+      displayCategories: (cats) => {
+        if (!domElements.categoriesContainer) return;
+
+        domElements.categoriesContainer.innerHTML = '';
+        state.filteredCategories = cats;
+
+        if (cats.length === 0) {
+          domElements.emptyState.classList.remove('hidden');
+          domElements.categoriesContainer.classList.add('hidden');
+          domElements.paginationContainer.innerHTML = '';
+          return;
+        }
+
+        domElements.emptyState.classList.add('hidden');
+        domElements.categoriesContainer.classList.remove('hidden');
+
+        // Pagination logic
+        const totalPages = Math.ceil(cats.length / state.itemsPerPage);
+        const startIdx = (state.currentPage - 1) * state.itemsPerPage;
+        const paginatedItems = cats.slice(startIdx, startIdx + state.itemsPerPage);
+
+        paginatedItems.forEach(cat => {
+          const progress = Math.floor(Math.random() * 60) + 20;
+          const card = document.createElement('div');
+          card.className = `category-card bg-white dark:bg-gray-700 rounded-lg overflow-hidden shadow-md transition-all duration-300 hover:shadow-lg relative`;
+          card.style.setProperty('--category-color', `var(--color-${cat.color})`);
+
+          // Create background div with category-specific image
+          const bgDiv = document.createElement('div');
+          bgDiv.className = `category-bg ${cat.color}-bg`;
+          bgDiv.style.backgroundImage = `url(${utils.getCategoryBackground(cat)})`;
+          bgDiv.style.backgroundSize = 'cover';
+          bgDiv.style.backgroundPosition = 'center';
+          bgDiv.style.opacity = '0.1';
+
+          // Create content div
+          const contentDiv = document.createElement('div');
+          contentDiv.className = 'category-content p-5 h-full flex flex-col relative z-10';
+
+          contentDiv.innerHTML = `
+          <div class="flex items-center justify-between mb-3">
+            <div class="w-12 h-12 rounded-full bg-${cat.color}/10 text-${cat.color} flex items-center justify-center text-xl">
+              <i class="fas fa-${cat.icon}"></i>
+            </div>
+            <div class="flex space-x-2">
+              ${cat.trending ? `<span class="text-xs px-2 py-1 rounded-full bg-accent/10 text-accent flex items-center">
+                <i class="fas fa-bolt mr-1 text-xs"></i> ${state.isUrdu ? 'مقبول' : 'TRENDING'}
+              </span>` : ''}
+              <span class="text-xs px-2 py-1 rounded-full bg-${cat.color}/10 text-${cat.color}">
+                ${cat.level.toUpperCase()}
+              </span>
+            </div>
+          </div>
+          <h3 class="text-lg font-bold mb-2 ${state.isUrdu ? 'urdu' : ''}">${utils.getTranslatedText(cat.name)}</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-300 mb-4 flex-grow ${state.isUrdu ? 'urdu' : ''}">${utils.getTranslatedText(cat.description)}</p>
+
+          <div class="mb-3">
+            <div class="flex justify-between text-xs text-gray-500 dark:text-gray-400 mb-1">
+              <span>${state.isUrdu ? 'ترقی' : 'Progress'}</span>
+              <span>${progress}%</span>
+            </div>
+            <div class="w-full bg-gray-200 dark:bg-gray-600 rounded-full h-2">
+              <div class="bg-${cat.color} h-2 rounded-full" style="width: ${progress}%"></div>
+            </div>
+          </div>
+          
+          <div class="flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+              <span class="text-xs text-gray-500 dark:text-gray-400 flex items-center">
+                <i class="fas fa-book-open mr-1"></i> ${cat.resources} ${state.isUrdu ? 'وسائل' : 'resources'}
+              </span>
+              <span class="text-xs text-gray-500 dark:text-gray-400 flex items-center">
+                <i class="fas fa-calendar-alt mr-1"></i> ${utils.formatDate(cat.lastUpdated)}
+              </span>
+            </div>
+            <button class="quiz-btn text-sm px-4 py-2 rounded-lg transition font-medium flex items-center bg-${cat.color} hover:bg-${cat.color}/90 text-white">
+              ${state.isUrdu ? 'کوئز' : 'Quiz'} <i class="fas fa-arrow-right ml-1"></i>
+            </button>
+          </div>
+        `;
+
+          // Append background and content to card
+          card.appendChild(bgDiv);
+          card.appendChild(contentDiv);
+
+
+
+          // Add click event to the entire card
+          card.addEventListener('click', () => {
+            core.showFeedback(
+              state.isUrdu ?
+                `${utils.getTranslatedText(cat.name)} کی تفصیلات دیکھی جا رہی ہیں` :
+                `Viewing details for ${utils.getTranslatedText(cat.name)}`,
+              'info'
+            );
+          });
+
+          // Add click event to the quiz button
+          const quizBtn = card.querySelector('.quiz-btn');
+          quizBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const lang = state.isUrdu ? 'ur' : 'en';
+            core.showFeedback(
+              state.isUrdu ?
+                `${utils.getTranslatedText(cat.name)} کوئز شروع ہو رہا ہے...` :
+                `Starting ${utils.getTranslatedText(cat.name)} quiz...`,
+              'info'
+            );
+            // Redirect to quiz page with category and language parameters
+            window.location.href = `quiz.html?cat=${cat.slug}&lang=${lang}&type=${cat.type}`;
+          });
+
+
+          domElements.categoriesContainer.appendChild(card);
+        });
+
+        // Update filter count
+        core.updateFilterCount(cats.length);
+
+        // Render pagination
+        core.renderPagination(totalPages);
+      },
+
+      renderPagination: (totalPages) => {
+        domElements.paginationContainer.innerHTML = '';
+
+        if (totalPages <= 1) return;
+
+        const paginationDiv = document.createElement('div');
+        paginationDiv.className = 'pagination';
+
+        // Previous button
+        const prevLi = document.createElement('div');
+        prevLi.className = `page-item ${state.currentPage === 1 ? 'disabled' : ''}`;
+        prevLi.innerHTML = `
+        <button class="page-link" ${state.currentPage === 1 ? 'disabled' : ''}>
+          <i class="fas fa-chevron-left"></i>
+        </button>
+      `;
+        prevLi.addEventListener('click', () => {
+          if (state.currentPage > 1) {
+            state.currentPage--;
+            core.displayCategories(state.filteredCategories);
+            window.scrollTo({ top: domElements.categoriesContainer.offsetTop - 100, behavior: 'smooth' });
+          }
+        });
+        paginationDiv.appendChild(prevLi);
+
+        // Page numbers
+        const maxVisiblePages = 5;
+        let startPage, endPage;
+
+        if (totalPages <= maxVisiblePages) {
+          startPage = 1;
+          endPage = totalPages;
+        } else {
+          const maxPagesBeforeCurrent = Math.floor(maxVisiblePages / 2);
+          const maxPagesAfterCurrent = Math.ceil(maxVisiblePages / 2) - 1;
+
+          if (state.currentPage <= maxPagesBeforeCurrent) {
+            startPage = 1;
+            endPage = maxVisiblePages;
+          } else if (state.currentPage + maxPagesAfterCurrent >= totalPages) {
+            startPage = totalPages - maxVisiblePages + 1;
+            endPage = totalPages;
+          } else {
+            startPage = state.currentPage - maxPagesBeforeCurrent;
+            endPage = state.currentPage + maxPagesAfterCurrent;
+          }
+        }
+
+        // First page with ellipsis if needed
+        if (startPage > 1) {
+          const firstLi = document.createElement('div');
+          firstLi.className = 'page-item';
+          firstLi.innerHTML = `<button class="page-link">1</button>`;
+          firstLi.addEventListener('click', () => {
+            state.currentPage = 1;
+            core.displayCategories(state.filteredCategories);
+            window.scrollTo({ top: domElements.categoriesContainer.offsetTop - 100, behavior: 'smooth' });
+          });
+          paginationDiv.appendChild(firstLi);
+
+          if (startPage > 2) {
+            const ellipsisLi = document.createElement('div');
+            ellipsisLi.className = 'page-item disabled';
+            ellipsisLi.innerHTML = `<span class="page-link">...</span>`;
+            paginationDiv.appendChild(ellipsisLi);
+          }
+        }
+
+        // Page range
+        for (let i = startPage; i <= endPage; i++) {
+          const pageLi = document.createElement('div');
+          pageLi.className = `page-item ${i === state.currentPage ? 'active' : ''}`;
+          pageLi.innerHTML = `<button class="page-link">${i}</button>`;
+          pageLi.addEventListener('click', () => {
+            state.currentPage = i;
+            core.displayCategories(state.filteredCategories);
+            window.scrollTo({ top: domElements.categoriesContainer.offsetTop - 100, behavior: 'smooth' });
+          });
+          paginationDiv.appendChild(pageLi);
+        }
+
+        // Last page with ellipsis if needed
+        if (endPage < totalPages) {
+          if (endPage < totalPages - 1) {
+            const ellipsisLi = document.createElement('div');
+            ellipsisLi.className = 'page-item disabled';
+            ellipsisLi.innerHTML = `<span class="page-link">...</span>`;
+            paginationDiv.appendChild(ellipsisLi);
+          }
+
+          const lastLi = document.createElement('div');
+          lastLi.className = 'page-item';
+          lastLi.innerHTML = `<button class="page-link">${totalPages}</button>`;
+          lastLi.addEventListener('click', () => {
+            state.currentPage = totalPages;
+            core.displayCategories(state.filteredCategories);
+            window.scrollTo({ top: domElements.categoriesContainer.offsetTop - 100, behavior: 'smooth' });
+          });
+          paginationDiv.appendChild(lastLi);
+        }
+
+        // Next button
+        const nextLi = document.createElement('div');
+        nextLi.className = `page-item ${state.currentPage === totalPages ? 'disabled' : ''}`;
+        nextLi.innerHTML = `
+        <button class="page-link" ${state.currentPage === totalPages ? 'disabled' : ''}>
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      `;
+        nextLi.addEventListener('click', () => {
+          if (state.currentPage < totalPages) {
+            state.currentPage++;
+            core.displayCategories(state.filteredCategories);
+            window.scrollTo({ top: domElements.categoriesContainer.offsetTop - 100, behavior: 'smooth' });
+          }
+        });
+        paginationDiv.appendChild(nextLi);
+
+        domElements.paginationContainer.appendChild(paginationDiv);
+      },
+
+      displayRecommendedCategories: () => {
+        const recommended = categories.filter(cat => cat.trending).slice(0, 3);
+        domElements.recommendedContainer.innerHTML = '';
+
+        recommended.forEach(cat => {
+          const card = document.createElement('div');
+          card.className = `category-card bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 border-t-4 border-${cat.color} relative`;
+
+          // Create background div with category-specific image
+          const bgDiv = document.createElement('div');
+          bgDiv.className = `category-bg ${cat.color}-bg`;
+          bgDiv.style.backgroundImage = `url(${utils.getCategoryBackground(cat)})`;
+          bgDiv.style.backgroundSize = 'cover';
+          bgDiv.style.backgroundPosition = 'center';
+          bgDiv.style.opacity = '0.1';
+
+          // Create content div
+          const contentDiv = document.createElement('div');
+          contentDiv.className = 'category-content p-6 relative z-10';
+
+          contentDiv.innerHTML = `
+          <div class="flex items-start justify-between mb-4">
+            <div class="category-icon w-14 h-14 bg-${cat.color} rounded-lg flex items-center justify-center text-white text-2xl transition-transform duration-300">
+              <i class="fas fa-${cat.icon}"></i>
+            </div>
+            <span class="text-xs font-medium px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded-full">${cat.resources} ${state.isUrdu ? 'کوئز' : 'quizzes'}</span>
+          </div>
+          <h3 class="text-xl font-bold mb-2 ${state.isUrdu ? 'urdu' : ''}">${utils.getTranslatedText(cat.name)}</h3>
+          <p class="text-sm mb-3 ${state.isUrdu ? 'urdu' : ''}">${utils.getTranslatedText(cat.description)}</p>
+          <div class="mb-4">
+            <h4 class="text-sm font-semibold mb-1">${state.isUrdu ? 'خصوصیات' : 'Features'}:</h4>
+            <ul class="text-xs space-y-1 ${state.isUrdu ? 'urdu' : ''}">
+              ${cat.features.map(feat => `<li>• ${feat}</li>`).join('')}
+            </ul>
+          </div>
+          <button class="w-full mt-4 bg-${cat.color} hover:bg-${cat.color}/90 text-white py-2 rounded-lg transition font-medium flex items-center justify-center">
+            <i class="fas fa-${cat.icon} mr-2"></i> ${state.isUrdu ? 'کوئز شروع کریں' : 'Start Quiz'}
+          </button>
+        `;
+
+          // Append background and content to card
+          card.appendChild(bgDiv);
+          card.appendChild(contentDiv);
+
+          // Add click event to the quiz button
+          const quizBtn = card.querySelector('button');
+          quizBtn.addEventListener('click', () => {
+            const lang = state.isUrdu ? 'ur' : 'en';
+            core.showFeedback(
+              state.isUrdu ?
+                `${utils.getTranslatedText(cat.name)} کوئز شروع ہو رہا ہے...` :
+                `Starting ${utils.getTranslatedText(cat.name)} quiz...`,
+              'info'
+            );
+            // Redirect to quiz page with category and language parameters
+            window.location.href = `quiz.html?cat=${cat.slug}&lang=${lang}&type=${cat.type}`;
+          });
+          domElements.recommendedContainer.appendChild(card);
+        });
+      },
+
+      filterCategories: utils.debounce(() => {
+        const searchTerm = domElements.searchInput.value.toLowerCase();
+        const level = domElements.levelFilter.value;
+        const age = domElements.ageFilter.value;
+        const type = domElements.typeFilter.value;
+        const interest = domElements.interestFilter.value;
+        const time = domElements.timeFilter.value;
+        const sort = domElements.sortBy.value;
+
+        // Update state filters
+        state.currentFilters = {
+          search: searchTerm,
+          level,
+          age,
+          type,
+          interest,
+          time
+        };
+
+        // Reset to first page when filters change
+        state.currentPage = 1;
+
+        utils.showLoading();
+
+        setTimeout(() => {
+          const filtered = categories.filter(cat => {
+            const name = utils.getTranslatedText(cat.name).toLowerCase();
+            const description = utils.getTranslatedText(cat.description).toLowerCase();
+
+            // Search filter
+            if (searchTerm && !name.includes(searchTerm)) {
+              const featuresMatch = cat.features.some(feat =>
+                feat.toLowerCase().includes(searchTerm)
+              );
+              if (!featuresMatch && !description.includes(searchTerm)) {
+                return false;
+              }
+            }
+
+            // Level filter
+            if (level && cat.level !== level) {
+              return false;
+            }
+
+            // Age filter
+            if (age && !cat.age.includes(age)) {
+              return false;
+            }
+
+            // Type filter
+            if (type && cat.type !== type) {
+              return false;
+            }
+
+            // Interest filter
+            if (interest && cat.interest !== interest) {
+              return false;
+            }
+
+            // Time filter - In a real app, you might have duration data for each category
+            if (time) {
+              // Placeholder - actual implementation would check category duration
+              if (time === "5" && cat.resources > 50) return false;
+              if (time === "60" && cat.resources < 30) return false;
+            }
+
+            return true;
+          });
+
+          let sorted = [...filtered];
+          if (sort === 'popular') {
+            sorted.sort((a, b) => {
+              if (a.popularity === 'popular' && b.popularity !== 'popular') return -1;
+              if (a.popularity !== 'popular' && b.popularity === 'popular') return 1;
+              if (a.popularity === 'trending' && b.popularity !== 'trending') return -1;
+              if (a.popularity !== 'trending' && b.popularity === 'trending') return 1;
+              return 0;
+            });
+          } else if (sort === 'newest') {
+            sorted.sort((a, b) => new Date(b.lastUpdated) - new Date(a.lastUpdated));
+          } else if (sort === 'trending') {
+            sorted.sort((a, b) => (b.trending === a.trending) ? 0 : b.trending ? -1 : 1);
+          } else if (sort === 'alphabetical') {
+            sorted.sort((a, b) => utils.getTranslatedText(a.name).localeCompare(utils.getTranslatedText(b.name)));
+          }
+
+          utils.hideLoading();
+          core.displayCategories(sorted);
+          core.updateActiveFilters();
+        }, 300);
+      }, 300),
+
+      updateActiveFilters: () => {
+        domElements.activeFilters.innerHTML = '';
+
+        const { search, level, age, type, interest, time } = state.currentFilters;
+        const filters = {
+          'Level': level,
+          'Age': age,
+          'Type': type,
+          'Interest': interest,
+          'Time': time
+        };
+
+        Object.entries(filters).forEach(([name, value]) => {
+          if (value) {
+            const pill = document.createElement('div');
+            pill.className = 'flex items-center bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-3 py-1 rounded-full text-sm';
+            pill.innerHTML = `
+            <span>${name}: ${value.charAt(0).toUpperCase() + value.slice(1)}</span>
+            <button class="ml-2 text-gray-500 hover:text-gray-700 dark:hover:text-gray-200" data-filter="${name.toLowerCase()}">
+              <i class="fas fa-times"></i>
+            </button>
+          `;
+            domElements.activeFilters.appendChild(pill);
+          }
+        });
+
+        // Add event listeners to remove buttons
+        domElements.activeFilters.querySelectorAll('button').forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            const filter = btn.dataset.filter;
+            if (filter === 'level') domElements.levelFilter.value = '';
+            if (filter === 'age') domElements.ageFilter.value = '';
+            if (filter === 'type') domElements.typeFilter.value = '';
+            if (filter === 'interest') domElements.interestFilter.value = '';
+            if (filter === 'time') domElements.timeFilter.value = '';
+            core.filterCategories();
+          });
+        });
+      },
+
+      updateFilterCount: (count) => {
+        const total = categories.length;
+        if (count === total) {
+          domElements.filterCount.textContent = state.isUrdu ?
+            `تمام ${total} زمرے دکھا رہے ہیں` :
+            `Showing all ${total} categories`;
+        } else {
+          domElements.filterCount.textContent = state.isUrdu ?
+            `${count} میں سے ${total} زمرے دکھا رہے ہیں` :
+            `Showing ${count} of ${total} categories`;
+        }
+      },
+
+      resetAllFilters: () => {
+        state.currentPage = 1;
+        domElements.searchInput.value = '';
+        domElements.levelFilter.value = '';
+        domElements.ageFilter.value = '';
+        domElements.typeFilter.value = '';
+        domElements.interestFilter.value = '';
+        domElements.timeFilter.value = '';
+        domElements.sortBy.value = 'default';
+
+        // Update state filters
+        state.currentFilters = {
+          search: '',
+          level: '',
+          age: '',
+          type: '',
+          interest: '',
+          time: ''
+        };
+
+        core.filterCategories();
+      },
+
+      setWelcomeMessage: () => {
+        const hour = new Date().getHours();
+        let message;
+
+        if (hour < 12) {
+          message = state.isUrdu ?
+            "🌞 صبح بخیر! آج اپنے علم کو بڑھانے کے لیے تیار ہیں؟" :
+            "🌞 Good morning! Ready to expand your knowledge today?";
+        } else if (hour < 18) {
+          message = state.isUrdu ?
+            "🌤 دوپہر بخیر! آپ کیا سیکھنا چاہیں گے؟" :
+            "🌤 Good afternoon! What would you like to learn about?";
+        } else {
+          message = state.isUrdu ?
+            "🌙 شام بخیر! دماغی ورزش کا بہترین وقت!" :
+            "🌙 Good evening! Perfect time for some brain exercise!";
+        }
+
+        const ongoingProgress = Math.random() > 0.7;
+        if (ongoingProgress) {
+          message += state.isUrdu ?
+            " آپ کے پاس جاری سیکھنے کے راستے ہیں جنہیں جاری رکھا جا سکتا ہے۔" :
+            " You have unfinished learning paths to continue.";
+        }
+
+        domElements.welcomeMessage.textContent = message;
+      },
+
+      showFeedback: (message, type = 'success') => {
+        if (type === 'success') {
+          domElements.toastTitle.textContent = state.isUrdu ? 'کامیابی!' : 'Success!';
+          domElements.toastMessage.textContent = message;
+          domElements.toastIcon.className = 'fas fa-check-circle';
+          domElements.feedbackToast.className = 'fixed bottom-4 right-4 z-50 bg-primary dark:bg-secondary text-white px-6 py-3 rounded-lg shadow-lg flex items-start max-w-xs';
+        } else if (type === 'error') {
+          domElements.toastTitle.textContent = state.isUrdu ? 'اوہ!' : 'Oops!';
+          domElements.toastMessage.textContent = message;
+          domElements.toastIcon.className = 'fas fa-exclamation-circle';
+          domElements.feedbackToast.className = 'fixed bottom-4 right-4 z-50 bg-red-500 text-white px-6 py-3 rounded-lg shadow-lg flex items-start max-w-xs';
+        } else if (type === 'info') {
+          domElements.toastTitle.textContent = state.isUrdu ? 'معلومات' : 'Info';
+          domElements.toastMessage.textContent = message;
+          domElements.toastIcon.className = 'fas fa-info-circle';
+          domElements.feedbackToast.className = 'fixed bottom-4 right-4 z-50 bg-primary dark:bg-secondary text-white px-6 py-3 rounded-lg shadow-lg flex items-start max-w-xs';
+        }
+
+        domElements.feedbackToast.classList.remove('hidden');
+
+        setTimeout(() => {
+          domElements.feedbackToast.classList.add('hidden');
+        }, 5000);
+      },
+
+      // Theme management
+      loadThemePreference: () => {
+        const savedTheme = localStorage.getItem('theme');
+        const osPreference = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+
+        if (savedTheme) {
+          document.documentElement.classList.toggle('dark', savedTheme === 'dark');
+        } else {
+          document.documentElement.classList.toggle('dark', osPreference === 'dark');
+        }
+
+        core.updateThemeToggle();
+      },
+
+      toggleTheme: () => {
+        const html = document.documentElement;
+        html.classList.toggle('dark');
+
+        const isDark = html.classList.contains('dark');
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+
+        core.updateThemeToggle();
+        core.showFeedback(
+          state.isUrdu ?
+            `${isDark ? 'ڈارک' : 'لائٹ'} موڈ میں تبدیل کیا گیا` :
+            `Switched to ${isDark ? 'dark' : 'light'} mode`,
+          'info'
+        );
+      },
+
+      updateThemeToggle: () => {
+        const isDark = document.documentElement.classList.contains('dark');
+        domElements.themeToggle.setAttribute('aria-label', isDark ?
+          (state.isUrdu ? 'لائٹ موڈ پر سوئچ کریں' : 'Switch to light mode') :
+          (state.isUrdu ? 'ڈارک موڈ پر سوئچ کریں' : 'Switch to dark mode')
+        );
+      },
+
+      // Language management
+      toggleLanguage: () => {
+        state.isUrdu = !state.isUrdu;
+        localStorage.setItem('preferredLanguage', state.isUrdu ? 'ur' : 'en');
+
+        // Update UI elements
+        core.setWelcomeMessage();
+        core.displayCategories(state.filteredCategories);
+        core.displayRecommendedCategories();
+        core.updateFilterCount(state.filteredCategories.length);
+        core.updateThemeToggle();
+
+        // Update search placeholder
+        domElements.searchInput.placeholder = state.isUrdu ?
+          "زمرے تلاش کریں (مثال: 'سائنس', 'تاریخ')" :
+          "Search categories (e.g. 'science', 'history')";
+
+        core.showFeedback(
+          state.isUrdu ?
+            'زبان اردو میں تبدیل کی گئی' :
+            'Language switched to English',
+          'info'
+        );
+      },
+
+      loadLanguagePreference: () => {
+        const preferredLanguage = localStorage.getItem('preferredLanguage') || 'en';
+        state.isUrdu = preferredLanguage === 'ur';
+        if (domElements.languageToggle) {
+          domElements.languageToggle.checked = state.isUrdu;
+        }
+      },
+
+      // Modal functions
+      openSuggestModal: () => {
+        domElements.suggestModal.classList.remove('hidden');
+        setTimeout(() => {
+          domElements.modalContent.classList.remove('scale-95', 'opacity-0');
+          domElements.modalContent.classList.add('scale-100', 'opacity-100');
+        }, 10);
+      },
+
+      closeSuggestModal: () => {
+        domElements.modalContent.classList.remove('scale-100', 'opacity-100');
+        domElements.modalContent.classList.add('scale-95', 'opacity-0');
+        setTimeout(() => {
+          domElements.suggestModal.classList.add('hidden');
+        }, 300);
+      },
+
+      openTipsModal: () => {
+        domElements.tipsModal.classList.remove('hidden');
+        setTimeout(() => {
+          domElements.tipsModalContent.classList.remove('scale-95', 'opacity-0');
+          domElements.tipsModalContent.classList.add('scale-100', 'opacity-100');
+        }, 10);
+      },
+
+      closeTipsModal: () => {
+        domElements.tipsModalContent.classList.remove('scale-100', 'opacity-100');
+        domElements.tipsModalContent.classList.add('scale-95', 'opacity-0');
+        setTimeout(() => {
+          domElements.tipsModal.classList.add('hidden');
+        }, 300);
+      },
+
+      // User preferences
+      loadUserPreferences: () => {
+        const savedFilters = localStorage.getItem('quizFilters');
+        if (savedFilters) {
+          try {
+            const filters = JSON.parse(savedFilters);
+            domElements.levelFilter.value = filters.level || '';
+            domElements.ageFilter.value = filters.age || '';
+            domElements.typeFilter.value = filters.type || '';
+            domElements.interestFilter.value = filters.interest || '';
+            domElements.timeFilter.value = filters.time || '';
+            core.filterCategories();
+          } catch (e) {
+            console.error('Failed to parse saved filters', e);
+          }
+        }
+      },
+
+      saveUserPreferences: () => {
+        const filters = {
+          level: domElements.levelFilter.value,
+          age: domElements.ageFilter.value,
+          type: domElements.typeFilter.value,
+          interest: domElements.interestFilter.value,
+          time: domElements.timeFilter.value
+        };
+
+        localStorage.setItem('quizFilters', JSON.stringify(filters));
+        core.showFeedback(
+          state.isUrdu ?
+            'ترجیحات کو محفوظ کر لیا گیا' :
+            'Preferences saved successfully',
+          'success'
+        );
+      },
+
+      // View toggle
+      toggleView: () => {
+        state.currentView = state.currentView === 'grid' ? 'list' : 'grid';
+        domElements.categoriesContainer.className = state.currentView === 'grid' ?
+          'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6' :
+          'grid grid-cols-1 gap-4';
+
+        domElements.viewToggle.innerHTML = state.currentView === 'grid' ?
+          '<i class="fas fa-list"></i>' :
+          '<i class="fas fa-th-large"></i>';
+
+        core.showFeedback(
+          state.isUrdu ?
+            `نظر تبدیل کر دی گئی ${state.currentView === 'grid' ? 'گرڈ' : 'فہرست'}` :
+            `Switched to ${state.currentView} view`,
+          'info'
+        );
+      },
+
+      // Mobile menu
+      toggleMobileMenu: () => {
+  const menu = domElements.mobileMenu;
+  menu.classList.toggle('hidden');
+  menu.classList.toggle('block');
+},
+
+      // Back to top button
+      setupBackToTopButton: () => {
+        window.addEventListener('scroll', () => {
+          if (window.pageYOffset > 300) {
+            domElements.backToTopBtn.classList.remove('opacity-0', 'invisible');
+            domElements.backToTopBtn.classList.add('opacity-100', 'visible');
+          } else {
+            domElements.backToTopBtn.classList.remove('opacity-100', 'visible');
+            domElements.backToTopBtn.classList.add('opacity-0', 'invisible');
+          }
+        });
+
+        domElements.backToTopBtn.addEventListener('click', () => {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
+        });
+      }
+    };
+
+    // Event Handlers
+    const eventHandlers = {
+      setupEventListeners: () => {
+        // Search and filter inputs
+        domElements.searchInput.addEventListener('input', core.filterCategories);
+        domElements.levelFilter.addEventListener('change', core.filterCategories);
+        domElements.ageFilter.addEventListener('change', core.filterCategories);
+        domElements.typeFilter.addEventListener('change', core.filterCategories);
+        domElements.interestFilter.addEventListener('change', core.filterCategories);
+        domElements.timeFilter.addEventListener('change', core.filterCategories);
+        domElements.sortBy.addEventListener('change', core.filterCategories);
+
+        // Reset buttons
+        domElements.resetFiltersBtn.addEventListener('click', core.resetAllFilters);
+        domElements.resetSearchBtn.addEventListener('click', core.resetAllFilters);
+
+        // Theme toggle
+        domElements.themeToggle.addEventListener('click', core.toggleTheme);
+
+        // Language toggle
+        if (domElements.languageToggle) {
+          domElements.languageToggle.addEventListener('change', core.toggleLanguage);
+        }
+
+        // Suggest category modal
+        domElements.suggestBtn.addEventListener('click', core.openSuggestModal);
+        domElements.closeModal.addEventListener('click', core.closeSuggestModal);
+        domElements.suggestionForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          core.closeSuggestModal();
+          core.showFeedback(
+            state.isUrdu ?
+              'آپ کی تجویز موصول ہو گئی ہے! شکریہ' :
+              'Your suggestion has been received! Thank you',
+            'success'
+          );
+          domElements.suggestionForm.reset();
+        });
+
+        // Learning tips modal
+        domElements.showTipsBtn.addEventListener('click', core.openTipsModal);
+        domElements.closeTipsModal.addEventListener('click', core.closeTipsModal);
+
+        
+        // Feedback toast
+        domElements.closeToast.addEventListener('click', () => {
+          domElements.feedbackToast.classList.add('hidden');
+        });
+
+        // Save preferences
+        domElements.savePreferencesBtn.addEventListener('click', core.saveUserPreferences);
+
+        // View toggle
+        domElements.viewToggle.addEventListener('click', core.toggleView);
+
+        // See all recommended
+        domElements.seeAllRecommendedBtn.addEventListener('click', () => {
+          domElements.interestFilter.value = '';
+          domElements.sortBy.value = 'trending';
+          core.filterCategories();
+        });
+
+        // Random quiz button
+        domElements.randomQuizBtn.addEventListener('click', () => {
+          const lang = state.isUrdu ? 'ur' : 'en';
+
+          // Get a random selection of categories (for variety)
+          const shuffledCategories = [...categories].sort(() => 0.5 - Math.random());
+          const selectedCategories = shuffledCategories.slice(0, 5).map(cat => cat.slug);
+
+          core.showFeedback(
+            state.isUrdu ?
+              'بے ترتیب کوئز شروع ہو رہا ہے...' :
+              'Starting random quiz...',
+            'info'
+          );
+
+          // Redirect to quiz page with random parameters
+          window.location.href = `quiz.html?random=true&lang=${lang}&cats=${selectedCategories.join(',')}`;
+        });
+
+
+        // Mobile menu
+        domElements.mobileMenuButton.addEventListener('click', core.toggleMobileMenu);
+
+        // Click outside modals to close them
+        window.addEventListener('click', (e) => {
+          if (e.target === domElements.suggestModal) {
+            core.closeSuggestModal();
+          }
+          if (e.target === domElements.tipsModal) {
+            core.closeTipsModal();
+          }
+          if (e.target === domElements.voiceModal) {
+            core.closeVoiceModal();
+          }
+        });
+      }
+    };
+
+    // Initialize the application
+    document.addEventListener('DOMContentLoaded', core.init);
+
+
+
+
+    // Enhanced Modal Functions
+    function openModal(modalId) {
+      const modal = document.getElementById(modalId);
+      if (!modal) {
+        console.error(`Modal with ID ${modalId} not found`);
+        return;
+      }
+
+      // Close any other open modals first
+      document.querySelectorAll('.modal-overlay:not(.hidden)').forEach(openModal => {
+        if (openModal.id !== modalId) {
+          openModal.classList.remove('active');
+          setTimeout(() => {
+            openModal.classList.add('hidden');
+          }, 300);
+        }
+      });
+
+      // Prepare to open new modal
+      document.body.style.overflow = 'hidden';
+      modal.classList.remove('hidden');
+
+      // Small delay to allow CSS transition
+      setTimeout(() => {
+        modal.classList.add('active');
+      }, 10);
+
+      // Focus management
+      const focusable = modal.querySelector('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+      if (focusable) focusable.focus();
+
+      // Keyboard event listener
+      const handleKeyDown = (e) => {
+        if (e.key === 'Escape') {
+          closeModal(modalId);
+        }
+
+        // Trap focus within modal
+        if (e.key === 'Tab') {
+          const focusableElements = modal.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+          const firstElement = focusableElements[0];
+          const lastElement = focusableElements[focusableElements.length - 1];
+
+          if (e.shiftKey && document.activeElement === firstElement) {
+            lastElement.focus();
+            e.preventDefault();
+          } else if (!e.shiftKey && document.activeElement === lastElement) {
+            firstElement.focus();
+            e.preventDefault();
+          }
+        }
+      };
+
+      modal._keydownHandler = handleKeyDown;
+      document.addEventListener('keydown', handleKeyDown);
+    }
+
+    function closeModal(modalId) {
+      const modal = document.getElementById(modalId);
+      if (!modal) return;
+
+      modal.classList.remove('active');
+      setTimeout(() => {
+        modal.classList.add('hidden');
+        document.body.style.overflow = '';
+      }, 300);
+
+      // Clean up event listeners
+      if (modal._keydownHandler) {
+        document.removeEventListener('keydown', modal._keydownHandler);
+        delete modal._keydownHandler;
+      }
+    }
+
+    // Profile form handling
+    document.addEventListener('DOMContentLoaded', function () {
+      // Check if profile exists
+      const profile = localStorage.getItem('quizverse_profile');
+      const profileSkipped = localStorage.getItem('quizverse_profile_skipped');
+
+      // Show profile modal if no profile exists and not skipped
+      if (!profile && !profileSkipped) {
+        setTimeout(() => openModal('profile-modal'), 1000);
+      }
+
+      // Update header button based on profile
+      updateHeaderButton();
+
+      // Profile form submission
+      const profileForm = document.getElementById('profile-form');
+      if (profileForm) {
+        profileForm.addEventListener('submit', function (e) {
+          e.preventDefault();
+
+          // Reset errors
+          document.querySelectorAll('[id$="-error"]').forEach(el => el.classList.add('hidden'));
+          document.getElementById('profile-success').classList.add('hidden');
+          document.getElementById('profile-error').classList.add('hidden');
+
+          // Validate form
+          let isValid = true;
+          const name = document.getElementById('profile-name').value.trim();
+          const country = document.getElementById('profile-country').value;
+          const age = document.getElementById('profile-age').value;
+          const level = document.getElementById('profile-level').value;
+          const gender = document.getElementById('profile-gender').value;
+          const password = document.getElementById('profile-password').value;
+
+          if (name.length < 2) {
+            document.getElementById('name-error').classList.remove('hidden');
+            isValid = false;
+          }
+
+          if (!country) {
+            document.getElementById('country-error').classList.remove('hidden');
+            isValid = false;
+          }
+
+          if (!age || age < 5 || age > 99) {
+            document.getElementById('age-error').classList.remove('hidden');
+            isValid = false;
+          }
+
+          if (!level) {
+            document.getElementById('level-error').classList.remove('hidden');
+            isValid = false;
+          }
+
+          if (!gender) {
+            document.getElementById('gender-error').classList.remove('hidden');
+            isValid = false;
+          }
+
+          if (password && password.length < 6) {
+            document.getElementById('password-error').classList.remove('hidden');
+            isValid = false;
+          }
+
+          if (isValid) {
+            // Save profile (update existing or create new)
+            const profileData = {
+              name,
+              country,
+              age,
+              level,
+              gender,
+              email: document.getElementById('profile-email').value.trim(),
+              password: password || null,
+              createdAt: localStorage.getItem('quizverse_profile') ?
+                JSON.parse(localStorage.getItem('quizverse_profile')).createdAt :
+                new Date().toISOString(),
+              quizStats: localStorage.getItem('quizverse_profile') ?
+                JSON.parse(localStorage.getItem('quizverse_profile')).quizStats || {
+                  totalQuizzes: 0,
+                  totalScore: 0,
+                  totalQuestions: 0,
+                  lastQuizDate: null
+                } : {
+                  totalQuizzes: 0,
+                  totalScore: 0,
+                  totalQuestions: 0,
+                  lastQuizDate: null
+                }
+            };
+
+            try {
+              localStorage.setItem('quizverse_profile', JSON.stringify(profileData));
+              localStorage.removeItem('quizverse_profile_skipped');
+
+              // Show success
+              document.getElementById('profile-success').classList.remove('hidden');
+
+              // Update header button
+              updateHeaderButton();
+
+              // Close modal after delay
+              setTimeout(() => {
+                closeModal('profile-modal');
+              }, 1500);
+            } catch (e) {
+              console.error('Error saving profile:', e);
+              document.getElementById('profile-error').classList.remove('hidden');
+            }
+          }
+        });
+      }
+
+      // Sign in/profile buttons in header
+      const signInButtons = document.querySelectorAll('[data-action="sign-in"]');
+      signInButtons.forEach(btn => {
+        btn.addEventListener('click', function (e) {
+          e.preventDefault();
+          if (localStorage.getItem('quizverse_profile')) {
+            // Show profile view/edit modal
+            openProfileView();
+          } else {
+            openModal('profile-modal');
+          }
+        });
+      });
+
+      // Close buttons in modals
+      document.querySelectorAll('[onclick^="closeModal"]').forEach(btn => {
+        const modalId = btn.getAttribute('onclick').match(/'([^']+)'/)[1];
+        btn.addEventListener('click', function (e) {
+          e.preventDefault();
+          closeModal(modalId);
+        });
+      });
+    });
+
+    function skipProfile() {
+      localStorage.setItem('quizverse_profile_skipped', 'true');
+      closeModal('profile-modal');
+    }
+
+    function updateHeaderButton() {
+      const profile = localStorage.getItem('quizverse_profile');
+      const signInButtons = document.querySelectorAll('[data-action="sign-in"]');
+
+      signInButtons.forEach(btn => {
+        if (profile) {
+          const profileData = JSON.parse(profile);
+          btn.innerHTML = `
+        <i class="fas fa-user-circle mr-2"></i>
+        ${profileData.name.split(' ')[0]}
+      `;
+          btn.classList.remove('bg-accent', 'text-textDark');
+          btn.classList.add('bg-white/10', 'text-white');
+        } else {
+          btn.innerHTML = 'Sign In';
+          btn.classList.add('bg-accent', 'text-textDark');
+          btn.classList.remove('bg-white/10', 'text-white');
+        }
+      });
+    }
+
+    function openProfileView() {
+      const profile = JSON.parse(localStorage.getItem('quizverse_profile'));
+      if (!profile) return;
+
+      // Gender display text
+      const genderDisplay = {
+        'male': 'Male',
+        'female': 'Female',
+        'other': 'Other',
+        'prefer-not': 'Prefer not to say'
+      };
+
+      // Create a comprehensive profile view modal
+      const profileHTML = `
+    <div class="space-y-6">
+      <div class="flex flex-col items-center justify-center mb-6">
+        <div class="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center text-4xl mb-4">
+          <i class="fas fa-user text-primary"></i>
+        </div>
+        <h3 class="text-xl font-bold">${profile.name}</h3>
+        <p class="text-gray-500">${profile.age} years • ${profile.country}</p>
+      </div>
+      
+      <div class="grid grid-cols-2 gap-4 mb-6">
+        <div class="bg-bgLight dark:bg-gray-700 p-3 rounded-lg">
+          <p class="text-sm text-gray-500">Level</p>
+          <p class="font-medium capitalize">${profile.level.replace('-', ' ')}</p>
+        </div>
+        <div class="bg-bgLight dark:bg-gray-700 p-3 rounded-lg">
+          <p class="text-sm text-gray-500">Gender</p>
+          <p class="font-medium">${genderDisplay[profile.gender] || profile.gender}</p>
+        </div>
+        <div class="bg-bgLight dark:bg-gray-700 p-3 rounded-lg">
+          <p class="text-sm text-gray-500">Member Since</p>
+          <p class="font-medium">${new Date(profile.createdAt).toLocaleDateString()}</p>
+        </div>
+        <div class="bg-bgLight dark:bg-gray-700 p-3 rounded-lg">
+          <p class="text-sm text-gray-500">Account</p>
+          <p class="font-medium">${profile.email ? 'Verified' : 'Guest'}</p>
+        </div>
+      </div>
+      
+      ${profile.quizStats ? `
+      <div class="bg-bgLight dark:bg-gray-700 p-4 rounded-lg mb-6">
+        <div class="flex justify-between items-center mb-3">
+          <h4 class="text-lg font-bold">Quiz Statistics</h4>
+          <div class="flex space-x-2">
+            <button onclick="downloadQuizStats()" class="text-xs bg-primary/10 hover:bg-brand/20 text-brand dark:text-brandLight px-2 py-1 rounded transition">
+              <i class="fas fa-download mr-1"></i> Download
+            </button>
+            <button onclick="confirmResetStats()" class="text-xs bg-red-500/10 hover:bg-red-500/20 text-red-500 dark:text-red-400 px-2 py-1 rounded transition">
+              <i class="fas fa-redo mr-1"></i> Reset
+            </button>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <div class="bg-white dark:bg-gray-800 p-2 rounded">
+            <p class="text-sm text-gray-500">Total Quizzes</p>
+            <p class="font-bold text-lg">${profile.quizStats.totalQuizzes}</p>
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-2 rounded">
+            <p class="text-sm text-gray-500">Total Score</p>
+            <p class="font-bold text-lg">${profile.quizStats.totalScore}</p>
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-2 rounded">
+            <p class="text-sm text-gray-500">Total Questions</p>
+            <p class="font-bold text-lg">${profile.quizStats.totalQuestions}</p>
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-2 rounded">
+            <p class="text-sm text-gray-500">Accuracy</p>
+            <p class="font-bold text-lg">${profile.quizStats.totalQuestions > 0 ? Math.round((profile.quizStats.totalScore / profile.quizStats.totalQuestions) * 100) : 0}%</p>
+          </div>
+        </div>
+        ${profile.quizStats.lastQuizDate ? `
+        <div class="mt-3 text-sm text-gray-500">
+          Last quiz taken: ${new Date(profile.quizStats.lastQuizDate).toLocaleString()}
+        </div>
+        ` : ''}
+      </div>
+      ` : ''}
+      
+      <div class="flex flex-col space-y-3">
+        <button onclick="openEditProfile()" class="w-full bg-primary hover:bg-secondary text-white dark:hover:bg-gray-600 px-4 py-2 rounded-lg transition">
+          <i class="fas fa-edit mr-2"></i> Edit Profile
+        </button>
+        <button onclick="closeModal('profile-view-modal')" class="w-full text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 px-4 py-2 rounded-lg transition">
+          Close
+        </button>
+      </div>
+    </div>
+  `;
+
+      // Create or update profile view modal
+      let profileViewModal = document.getElementById('profile-view-modal');
+      if (!profileViewModal) {
+        profileViewModal = document.createElement('div');
+        profileViewModal.id = 'profile-view-modal';
+        profileViewModal.className = 'modal-overlay hidden';
+        profileViewModal.innerHTML = `
+      <div class="modal-container">
+        <div class="p-6">
+          <div class="flex justify-between items-center mb-4">
+            <h3 class="text-2xl font-bold text-primary dark:text-white">Your Profile</h3>
+            <button onclick="closeModal('profile-view-modal')" class="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+          ${profileHTML}
+        </div>
+      </div>
+    `;
+        document.body.appendChild(profileViewModal);
+      } else {
+        const contentDiv = profileViewModal.querySelector('.modal-container > div');
+        if (contentDiv) {
+          contentDiv.innerHTML = `
+        <div class="flex justify-between items-center mb-4">
+          <h3 class="text-2xl font-primary text-brand dark:text-white">Your Profile</h3>
+          <button onclick="closeModal('profile-view-modal')" class="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        ${profileHTML}
+      `;
+        }
+      }
+
+      openModal('profile-view-modal');
+    }
+
+    function openEditProfile() {
+      const profile = JSON.parse(localStorage.getItem('quizverse_profile'));
+      if (!profile) return;
+
+      // Pre-fill the profile form with existing data
+      document.getElementById('profile-name').value = profile.name;
+      document.getElementById('profile-country').value = profile.country;
+      document.getElementById('profile-age').value = profile.age;
+      document.getElementById('profile-level').value = profile.level;
+      document.getElementById('profile-gender').value = profile.gender;
+      document.getElementById('profile-email').value = profile.email || '';
+      document.getElementById('profile-password').value = '';
+
+      // Close profile view modal and open edit modal
+      closeModal('profile-view-modal');
+      openModal('profile-modal');
+    }
+
+    // New functions for statistics handling
+    function confirmResetStats() {
+      const confirmModal = document.createElement('div');
+      confirmModal.id = 'confirm-reset-modal';
+      confirmModal.className = 'modal-overlay hidden';
+      confirmModal.innerHTML = `
+    <div class="modal-container max-w-md">
+      <div class="p-6">
+        <div class="flex justify-between items-center mb-4">
+          <h3 class="text-xl font-bold text-red-500">Reset Statistics</h3>
+          <button onclick="closeModal('confirm-reset-modal')" class="text-gray-500 hover:text-gray-700">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <p class="mb-6">Are you sure you want to reset all your quiz statistics? This action cannot be undone.</p>
+        <div class="flex justify-end space-x-3">
+          <button onclick="closeModal('confirm-reset-modal')" class="px-4 py-2 rounded-lg bg-gray-200 hover:bg-gray-300">
+            Cancel
+          </button>
+          <button onclick="resetQuizStats()" class="px-4 py-2 rounded-lg bg-red-500 hover:bg-red-600 text-white">
+            Reset Statistics
+          </button>
+        </div>
+      </div>
+    </div>
+  `;
+
+      document.body.appendChild(confirmModal);
+      openModal('confirm-reset-modal');
+    }
+
+    function resetQuizStats() {
+      const profile = JSON.parse(localStorage.getItem('quizverse_profile'));
+      if (!profile) return;
+
+      profile.quizStats = {
+        totalQuizzes: 0,
+        totalScore: 0,
+        totalQuestions: 0,
+        lastQuizDate: null
+      };
+
+      localStorage.setItem('quizverse_profile', JSON.stringify(profile));
+      closeModal('confirm-reset-modal');
+
+      // Show success message
+      const successMsg = document.createElement('div');
+      successMsg.className = 'fixed top-4 right-4 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg z-50';
+      successMsg.innerHTML = '<i class="fas fa-check-circle mr-2"></i> Statistics reset successfully!';
+      document.body.appendChild(successMsg);
+
+      setTimeout(() => {
+        successMsg.remove();
+        // Refresh profile view
+        openProfileView();
+      }, 2000);
+    }
+
+    function downloadQuizStats() {
+      const profile = JSON.parse(localStorage.getItem('quizverse_profile'));
+      if (!profile || !profile.quizStats) return;
+
+      // Calculate accuracy
+      const accuracy = profile.quizStats.totalQuestions > 0
+        ? Math.round((profile.quizStats.totalScore / profile.quizStats.totalQuestions) * 100)
+        : 0;
+
+      // Create a canvas for the image
+      const canvas = document.createElement('canvas');
+      canvas.width = 800;
+      canvas.height = 600;
+      const ctx = canvas.getContext('2d');
+
+      // Background gradient
+      const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+      gradient.addColorStop(0, '#4f46e5');
+      gradient.addColorStop(1, '#06b6d4');
+      ctx.fillStyle = gradient;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      // Add decorative elements
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
+      for (let i = 0; i < 5; i++) {
+        ctx.beginPath();
+        ctx.arc(
+          Math.random() * canvas.width,
+          Math.random() * canvas.height,
+          Math.random() * 50 + 20,
+          0,
+          Math.PI * 2
+        );
+        ctx.fill();
+      }
+
+      // Add logo or title
+      ctx.fillStyle = 'white';
+      ctx.font = 'bold 32px Arial';
+      ctx.textAlign = 'center';
+      ctx.fillText('QuizVerse Statistics', canvas.width / 2, 60);
+
+      // Add user info
+      ctx.font = '20px Arial';
+      ctx.fillText(`${profile.name}'s Quiz Performance`, canvas.width / 2, 100);
+
+      // Add stats boxes
+      const stats = [
+        { label: 'Total Quizzes', value: profile.quizStats.totalQuizzes },
+        { label: 'Total Score', value: profile.quizStats.totalScore },
+        { label: 'Total Questions', value: profile.quizStats.totalQuestions },
+        { label: 'Accuracy', value: `${accuracy}%` }
+      ];
+
+      ctx.font = 'bold 16px Arial';
+      ctx.textAlign = 'left';
+
+      stats.forEach((stat, index) => {
+        const x = index % 2 === 0 ? 100 : 450;
+        const y = 180 + Math.floor(index / 2) * 120;
+
+        // Stat box
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.2)';
+        ctx.roundRect(x, y, 250, 80, 10);
+        ctx.fill();
+
+        // Stat text
+        ctx.fillStyle = 'white';
+        ctx.fillText(stat.label, x + 20, y + 30);
+        ctx.font = 'bold 28px Arial';
+        ctx.fillText(stat.value.toString(), x + 20, y + 65);
+        ctx.font = 'bold 16px Arial';
+      });
+
+      // Add footer
+      ctx.font = '14px Arial';
+      ctx.textAlign = 'center';
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.7)';
+      ctx.fillText(`Generated on ${new Date().toLocaleDateString()}`, canvas.width / 2, 550);
+      ctx.fillText('quizverse.example.com', canvas.width / 2, 580);
+
+      // Convert to image and download
+      canvas.toBlob(blob => {
+        const link = document.createElement('a');
+        link.download = `quizverse-stats-${profile.name.replace(' ', '-')}.png`;
+        link.href = URL.createObjectURL(blob);
+        link.click();
+        URL.revokeObjectURL(link.href);
+      }, 'image/png', 1);
+    }
+
+    function saveProfile(e) {
+    e.preventDefault();
+    
+    // Reset errors
+    document.querySelectorAll('[id$="-error"]').forEach(el => el.classList.add('hidden'));
+    document.getElementById('profile-success').classList.add('hidden');
+    document.getElementById('profile-error').classList.add('hidden');
+    
+    // Validate form
+    let isValid = true;
+    const name = document.getElementById('profile-name').value.trim();
+    const country = document.getElementById('profile-country').value;
+    const age = document.getElementById('profile-age').value;
+    const level = document.getElementById('profile-level').value;
+    const gender = document.getElementById('profile-gender').value;
+    const password = document.getElementById('profile-password').value;
+    
+    if (name.length < 2) {
+        document.getElementById('name-error').classList.remove('hidden');
+        isValid = false;
+    }
+    
+    if (!country) {
+        document.getElementById('country-error').classList.remove('hidden');
+        isValid = false;
+    }
+    
+    if (!age || age < 5 || age > 99) {
+        document.getElementById('age-error').classList.remove('hidden');
+        isValid = false;
+    }
+    
+    if (!level) {
+        document.getElementById('level-error').classList.remove('hidden');
+        isValid = false;
+    }
+    
+    if (!gender) {
+        document.getElementById('gender-error').classList.remove('hidden');
+        isValid = false;
+    }
+    
+    if (password && password.length < 6) {
+        document.getElementById('password-error').classList.remove('hidden');
+        isValid = false;
+    }
+    
+    if (isValid) {
+        try {
+            const profileData = {
+                name,
+                country,
+                age,
+                level,
+                gender,
+                email: document.getElementById('profile-email').value.trim(),
+                password: password || null,
+                createdAt: new Date().toISOString(),
+                quizStats: {
+                    totalQuizzes: 0,
+                    totalScore: 0,
+                    totalQuestions: 0,
+                    lastQuizDate: null
+                }
+            };
+            
+            localStorage.setItem('quizverse_profile', JSON.stringify(profileData));
+            localStorage.removeItem('quizverse_profile_skipped');
+            
+            document.getElementById('profile-success').classList.remove('hidden');
+            updateHeaderButton();
+            
+            setTimeout(() => {
+                closeModal('profile-modal');
+            }, 1500);
+        } catch (e) {
+            console.error('Error saving profile:', e);
+            document.getElementById('profile-error').classList.remove('hidden');
+        }
+    }
+}
+  </script>
+  <script src="src/js/analytics.js"></script>
+
+</body>
+
+</html>

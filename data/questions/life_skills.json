@@ -1,0 +1,1798 @@
+{
+  "meta": {
+    "category": "Life Skills",
+    "category_ur": "زندگی کی مہارتیں",
+    "description": "Test your knowledge of essential life skills",
+    "description_ur": "اہم زندگی کی مہارتوں کے بارے میں اپنا علم آزمائیں",
+    "difficulty": "medium",
+    "image": "life_skills.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 1.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 1۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 2?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 2؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 3,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 3.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 3۔",
+      "correctAnswer": true,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 4?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 4؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 5.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 5۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 6?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 6؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 7,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 7.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 7۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 8?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 8؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 9,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 9.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 9۔",
+      "correctAnswer": true,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 10?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 10؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 11.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 11۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 12?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 12؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 13,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 13.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 13۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 14?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 14؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 15,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 15.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 15۔",
+      "correctAnswer": true,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 16?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 16؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 17,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 17.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 17۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 18?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 18؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 19,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 19.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 19۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 20?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 20؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 21,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 21.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 21۔",
+      "correctAnswer": true,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 22?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 22؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 23,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 23.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 23۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 24?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 24؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 25,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 25.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 25۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 26?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 26؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 27,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 27.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 27۔",
+      "correctAnswer": true,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 28?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 28؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 29,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 29.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 29۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 30?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 30؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 31,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 31.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 31۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 32?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 32؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 33,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 33.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 33۔",
+      "correctAnswer": true,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 34?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 34؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 35,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 35.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 35۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 36?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 36؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 37,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 37.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 37۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 38?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 38؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 39,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 39.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 39۔",
+      "correctAnswer": true,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 40?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 40؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 41,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 41.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 41۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 42?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 42؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 43,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 43.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 43۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 44?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 44؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 45,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 45.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 45۔",
+      "correctAnswer": true,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 46?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 46؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 47,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 47.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 47۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 48?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 48؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 49,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 49.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 49۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 50?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 50؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 51,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 51.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 51۔",
+      "correctAnswer": true,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 52?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 52؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 53,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 53.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 53۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 54?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 54؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 55,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 55.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 55۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 56?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 56؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 57,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 57.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 57۔",
+      "correctAnswer": true,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 58?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 58؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 59,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 59.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 59۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 60?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 60؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 61,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 61.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 61۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 62,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 62?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 62؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 63,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 63.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 63۔",
+      "correctAnswer": true,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 64?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 64؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 65,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 65.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 65۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 66,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 66?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 66؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 67,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 67.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 67۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 68,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 68?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 68؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 69,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 69.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 69۔",
+      "correctAnswer": true,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 70,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 70?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 70؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 71,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 71.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 71۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 72,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 72?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 72؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 73,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 73.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 73۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 74,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 74?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 74؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 75,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 75.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 75۔",
+      "correctAnswer": true,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 76?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 76؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 77,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 77.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 77۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 78,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 78?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 78؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 79,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 79.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 79۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 80,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 80?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 80؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 81,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 81.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 81۔",
+      "correctAnswer": true,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 82?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 82؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 83,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 83.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 83۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 84,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 84?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 84؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 85,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 85.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 85۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 86,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 86?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 86؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 87,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 87.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 87۔",
+      "correctAnswer": true,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 88?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 88؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 89,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 89.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 89۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 90,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 90?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 90؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 91,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 91.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 91۔",
+      "correctAnswer": false,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 92,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 92?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 92؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 93,
+      "type": "true-false",
+      "question": "Sample life skill true/false question 93.",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا درست/غلط سوال 93۔",
+      "correctAnswer": true,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "question": "Sample life skill MCQ question 94?",
+      "question_ur": "مثال کے طور پر زندگی کی مہارتوں کا سوال 94؟",
+      "options": {
+        "en": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "ur": [
+          "آپشن اے",
+          "آپشن بی",
+          "آپشن سی",
+          "آپشن ڈی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is a sample explanation.",
+      "explanation_ur": "یہ ایک مثال کی وضاحت ہے۔",
+      "hint": "This is a sample hint.",
+      "hint_ur": "یہ ایک مثال کا اشارہ ہے۔",
+      "timeLimit": 25
+    }
+  ]
+}

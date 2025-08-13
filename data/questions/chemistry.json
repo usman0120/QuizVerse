@@ -1,0 +1,1560 @@
+{
+  "meta": {
+    "category": "Chemistry",
+    "category_ur": "کیمسٹری",
+    "description": "Test your knowledge of basic and intermediate chemistry concepts",
+    "description_ur": "بنیادی اور درمیانی سطح کے کیمسٹری کے تصورات پر اپنی معلومات آزمائیں",
+    "difficulty": "medium",
+    "image": "chemistry.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What is the chemical symbol for Sodium?",
+      "question_ur": "سوڈیم کا کیمیائی نشان کیا ہے؟",
+      "options": {
+        "en": ["Na", "So", "S", "Sd"],
+        "ur": ["Na", "So", "S", "Sd"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Sodium's symbol is Na, from the Latin name 'natrium'.",
+      "explanation_ur": "سوڈیم کا نشان Na ہے، جو لاطینی نام 'نیٹریئم' سے لیا گیا ہے۔",
+      "hint": "Think of 'natrium'.",
+      "hint_ur": "'نیٹریئم' کا خیال کریں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "What is the pH of a neutral solution at 25°C?",
+      "question_ur": "25°سینٹی گریڈ پر غیر جانبدار محلول کی pH کیا ہوتی ہے؟",
+      "options": {
+        "en": ["7", "0", "1", "14"],
+        "ur": ["7", "0", "1", "14"]
+      },
+      "correctAnswer": 0,
+      "explanation": "At 25°C, a neutral solution has a pH of 7.",
+      "explanation_ur": "25°سینٹی گریڈ پر غیر جانبدار محلول کی pH کی قدر 7 ہوتی ہے۔",
+      "hint": "Middle of the 0–14 scale.",
+      "hint_ur": "0–14 پیمانے کا وسط۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "What is Avogadro's number (approximately)?",
+      "question_ur": "ایووگاڈرو کا عدد (تقریباً) کیا ہے؟",
+      "options": {
+        "en": ["6.022×10^23", "6.022×10^22", "3.011×10^23", "6.022×10^24"],
+        "ur": ["6.022×10^23", "6.022×10^22", "3.011×10^23", "6.022×10^24"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Avogadro's number is about 6.022×10^23 particles per mole.",
+      "explanation_ur": "ایووگاڈرو کا عدد تقریباً 6.022×10^23 ذرات فی مول ہوتا ہے۔",
+      "hint": "Starts with 6.022.",
+      "hint_ur": "6.022 سے شروع ہوتا ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Which gas is most abundant in Earth's atmosphere?",
+      "question_ur": "زمین کے ماحول میں سب سے زیادہ کون سی گیس پائی جاتی ہے؟",
+      "options": {
+        "en": ["Nitrogen", "Oxygen", "Argon", "Carbon dioxide"],
+        "ur": ["نائٹروجن", "آکسیجن", "آرگن", "کاربن ڈائی آکسائیڈ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Nitrogen makes up about 78% of Earth's atmosphere.",
+      "explanation_ur": "زمین کے ماحول کا تقریباً 78٪ حصہ نائٹروجن پر مشتمل ہے۔",
+      "hint": "About 78%.",
+      "hint_ur": "تقریباً 78٪۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Which state of matter has a definite volume but no definite shape?",
+      "question_ur": "کس حالت مادہ میں حجم معین ہوتا ہے مگر شکل معین نہیں ہوتی؟",
+      "options": {
+        "en": ["Liquid", "Solid", "Gas", "Plasma"],
+        "ur": ["مائع", "ٹھوس", "گیس", "پلازما"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Liquids have definite volume but take the shape of their container.",
+      "explanation_ur": "مائعات کا حجم معین ہوتا ہے مگر وہ برتن کی شکل اختیار کرتے ہیں۔",
+      "hint": "Think of water in a glass.",
+      "hint_ur": "گلاس میں پانی کو سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Which bond is formed by sharing electrons?",
+      "question_ur": "الیکٹرانوں کی شراکت سے کون سا بند بنتا ہے؟",
+      "options": {
+        "en": ["Covalent bond", "Ionic bond", "Metallic bond", "Hydrogen bond"],
+        "ur": ["کوویلنٹ بند", "آیونک بند", "میٹالک بند", "ہائیڈروجن بند"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Covalent bonds involve sharing electron pairs between atoms.",
+      "explanation_ur": "کوویلنٹ بند میں ایٹموں کے درمیان الیکٹران جوڑوں کی شراکت ہوتی ہے۔",
+      "hint": "Co- (together) + valent (electrons).",
+      "hint_ur": "Co (ساتھ) + valent (الیکٹران)۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Which element has atomic number 6?",
+      "question_ur": "کون سے عنصر کا جوہری عدد 6 ہے؟",
+      "options": {
+        "en": ["Hydrogen", "Nitrogen", "Carbon", "Oxygen"],
+        "ur": ["ہائیڈروجن", "نائٹروجن", "کاربن", "آکسیجن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Carbon has atomic number 6.",
+      "explanation_ur": "کاربن کا جوہری عدد 6 ہے۔",
+      "hint": "Basis of organic chemistry.",
+      "hint_ur": "نامیاتی کیمسٹری کی بنیاد۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Which subatomic particle has a negative charge?",
+      "question_ur": "کون سا ذیلی جوہری ذرہ منفی بار رکھتا ہے؟",
+      "options": {
+        "en": ["Proton", "Neutron", "Electron", "Positron"],
+        "ur": ["پروٹون", "نیوٹرون", "الیکٹران", "پوزیٹرون"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Electrons are negatively charged.",
+      "explanation_ur": "الیکٹران منفی بار رکھتے ہیں۔",
+      "hint": "Orbits the nucleus.",
+      "hint_ur": "نیوکلیئس کے گرد گردش کرتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "H2O is the chemical formula of which substance?",
+      "question_ur": "H2O کس مادہ کا کیمیائی فارمولا ہے؟",
+      "options": {
+        "en": ["Hydrogen", "Oxygen", "Water", "Ozone"],
+        "ur": ["ہائیڈروجن", "آکسیجن", "پانی", "اوزون"]
+      },
+      "correctAnswer": 2,
+      "explanation": "H2O is water: two hydrogens and one oxygen.",
+      "explanation_ur": "H2O پانی ہے: دو ہائیڈروجن اور ایک آکسیجن۔",
+      "hint": "Essential for life.",
+      "hint_ur": "زندگی کے لیے لازم۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Which acid is found in vinegar?",
+      "question_ur": "سرکے میں کون سا تیزاب پایا جاتا ہے؟",
+      "options": {
+        "en": ["Hydrochloric acid", "Acetic acid", "Sulfuric acid", "Nitric acid"],
+        "ur": ["ہائڈروکلورک ایسڈ", "ایسیٹک ایسڈ", "سلفیورک ایسڈ", "نائٹرک ایسڈ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Vinegar is a dilute solution of acetic acid.",
+      "explanation_ur": "سرکہ ایسیٹک ایسڈ کا کمزور محلول ہے۔",
+      "hint": "Ethanoic acid.",
+      "hint_ur": "ایتھانوی ایسڈ۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "question": "Helium is a noble gas.",
+      "question_ur": "ہیلیم ایک نوبل گیس ہے۔",
+      "correctAnswer": true,
+      "explanation": "Helium is in Group 18, the noble gases.",
+      "explanation_ur": "ہیلیم گروپ 18 (نوبل گیسیں) میں شامل ہے۔",
+      "hint": "Group 18 elements.",
+      "hint_ur": "گروپ 18 کے عناصر۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "question": "All ionic compounds conduct electricity in the solid state.",
+      "question_ur": "تمام آیونک مرکبات ٹھوس حالت میں بجلی گزارتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Ionic solids conduct when molten or in solution; as solids their ions are fixed.",
+      "explanation_ur": "آیونک مرکبات عموماً پگھلی ہوئی حالت یا محلول میں بجلی گزارتے ہیں؛ ٹھوس میں آئن حرکت نہیں کرتے۔",
+      "hint": "Ions need mobility.",
+      "hint_ur": "آئنوں کی حرکت ضروری ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "Which gas law states that pressure is inversely proportional to volume at constant temperature?",
+      "question_ur": "کون سا گیس قانون کہتا ہے کہ درجہ حرارت مستحکم ہونے پر دباؤ حجم کے الٹا متناسب ہے؟",
+      "options": {
+        "en": ["Boyle's law", "Charles's law", "Avogadro's law", "Dalton's law"],
+        "ur": ["بوائل کا قانون", "چارلس کا قانون", "ایووگاڈرو کا قانون", "ڈالٹن کا قانون"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Boyle's law: P ∝ 1/V at constant temperature.",
+      "explanation_ur": "بوائل کا قانون: درجہ حرارت مستحکم پر P ∝ 1/V۔",
+      "hint": "P–V inverse relation.",
+      "hint_ur": "P–V الٹا تعلق۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "What is the SI unit of pressure?",
+      "question_ur": "دباؤ کی ایس آئی اکائی کیا ہے؟",
+      "options": {
+        "en": ["Newton", "Joule", "Pascal", "Watt"],
+        "ur": ["نیوٹن", "جول", "پاسکل", "واٹ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The SI unit of pressure is the pascal (Pa).",
+      "explanation_ur": "دباؤ کی ایس آئی اکائی پاسکل (Pa) ہے۔",
+      "hint": "Named after Blaise.",
+      "hint_ur": "بلیز کے نام پر۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Which of the following is NOT an alkali metal?",
+      "question_ur": "مندرجہ ذیل میں سے کون الکلی دھات نہیں ہے؟",
+      "options": {
+        "en": ["Sodium", "Potassium", "Magnesium", "Lithium"],
+        "ur": ["سوڈیم", "پوٹاشیم", "میگنیشیم", "لیتھیم"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Magnesium is an alkaline earth metal (Group 2), not an alkali metal.",
+      "explanation_ur": "میگنیشیم الکلائن ارتھ میٹل (گروپ 2) ہے، الکلی دھات نہیں۔",
+      "hint": "Group 2 vs Group 1.",
+      "hint_ur": "گروپ 2 بمقابلہ گروپ 1۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "Which particle determines the chemical identity of an element?",
+      "question_ur": "کون سا ذرہ کسی عنصر کی کیمیائی شناخت طے کرتا ہے؟",
+      "options": {
+        "en": ["Number of protons", "Number of neutrons", "Number of electrons", "Valence electrons"],
+        "ur": ["پروٹونوں کی تعداد", "نیوٹرونوں کی تعداد", "الیکٹرانوں کی تعداد", "باہری پرت کے الیکٹران"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Atomic number (number of protons) defines the element.",
+      "explanation_ur": "جوہری عدد (پروٹونوں کی تعداد) عنصر کی شناخت ہے۔",
+      "hint": "Atomic number.",
+      "hint_ur": "جوہری عدد۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "Chlorine belongs to which group of the periodic table?",
+      "question_ur": "کلورین پیریاڈک جدول کے کس گروہ سے تعلق رکھتی ہے؟",
+      "options": {
+        "en": ["Noble gases", "Alkaline earth metals", "Halogens", "Transition metals"],
+        "ur": ["نوبل گیسیں", "الکلائن ارتھ میٹلز", "ہیلو جنز", "ٹرانزیشن میٹلز"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Chlorine is a halogen (Group 17).",
+      "explanation_ur": "کلورین ہیلو جن (گروپ 17) ہے۔",
+      "hint": "Group 17 nonmetals.",
+      "hint_ur": "گروپ 17 کے غیر دھاتی عناصر۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Isotopes of an element differ in the number of:",
+      "question_ur": "کسی عنصر کے آئسوٹوپس میں کس کی تعداد مختلف ہوتی ہے؟",
+      "options": {
+        "en": ["Protons", "Electrons", "Neutrons", "Photons"],
+        "ur": ["پروٹون", "الیکٹران", "نیوٹرون", "فوٹون"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Isotopes have the same protons but different numbers of neutrons.",
+      "explanation_ur": "آئسوٹوپس میں پروٹون برابر مگر نیوٹرون کی تعداد مختلف ہوتی ہے۔",
+      "hint": "Mass number changes.",
+      "hint_ur": "کُل کمیتی عدد بدلتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "What is the process called when a solid changes directly to a gas?",
+      "question_ur": "ٹھوس کا براہ راست گیس میں تبدیل ہونا کیا کہلاتا ہے؟",
+      "options": {
+        "en": ["Condensation", "Sublimation", "Deposition", "Evaporation"],
+        "ur": ["تکثیف", "رفع (سبلیمیشن)", "ترسیب (ڈیپوزیشن)", "تبخیر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Direct solid-to-gas transition is sublimation.",
+      "explanation_ur": "ٹھوس سے براہ راست گیس بننے کا عمل رفع (سبلائیمیشن) ہے۔",
+      "hint": "Dry ice does this.",
+      "hint_ur": "ڈرائی آئس ایسا کرتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Which is a positive test for hydrogen gas?",
+      "question_ur": "ہائیڈروجن گیس کے لیے مثبت ٹیسٹ کیا ہے؟",
+      "options": {
+        "en": ["Extinguishes a glowing splint", "Turns limewater milky", "Burns with a 'pop' sound", "Gives a lilac flame"],
+        "ur": ["مدہم سلگتی تیلی بجھاتا ہے", "چونے کے پانی کو دودھیا کرتا ہے", "’پاپ‘ کی آواز کے ساتھ جلتا ہے", "ارغوانی شعلہ دیتا ہے"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Hydrogen burns with a characteristic 'pop' when ignited.",
+      "explanation_ur": "آگ لگانے پر ہائیڈروجن ’پاپ‘ کی آواز کے ساتھ جلتا ہے۔",
+      "hint": "Listen for the sound.",
+      "hint_ur": "آواز پر دھیان دیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Molarity is defined as:",
+      "question_ur": "مولیریٹی کی تعریف کیا ہے؟",
+      "options": {
+        "en": ["Moles of solute per liter of solution", "Grams of solute per liter", "Moles of solute per kg of solvent", "Percent by volume"],
+        "ur": ["محلول میں فی لیٹر حل شون (solute) کے مول", "فی لیٹر گرام", "فی کلوگرام سالونٹ کے مول", "فی صد حجمی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Molarity (M) = moles of solute per liter of solution.",
+      "explanation_ur": "مولیریٹی (M) = فی لیٹر محلول میں حل شون کے مول۔",
+      "hint": "Units: mol/L.",
+      "hint_ur": "اکائی: mol/L۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 22,
+      "type": "true-false",
+      "question": "Endothermic reactions absorb heat.",
+      "question_ur": "حرارت جاذب (اینڈوتھرمک) عمل حرارت جذب کرتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Endothermic processes take in energy from the surroundings (ΔH > 0).",
+      "explanation_ur": "اینڈوتھرمک عمل آس پاس سے توانائی جذب کرتے ہیں (ΔH > 0)۔",
+      "hint": "ΔH sign?",
+      "hint_ur": "ΔH کی علامت؟",
+      "timeLimit": 30
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "What is the role of a catalyst in a chemical reaction?",
+      "question_ur": "کیمیائی عمل میں عامل (کیٹالسٹ) کا کردار کیا ہے؟",
+      "options": {
+        "en": ["Increases rate without being consumed", "Changes equilibrium constant", "Increases yield by itself", "Provides energy to the reaction"],
+        "ur": ["شرح بڑھاتا ہے اور خود خرچ نہیں ہوتا", "توازن مستقل کو بدل دیتا ہے", "خود بخود پیداوار بڑھا دیتا ہے", "عمل کو توانائی فراہم کرتا ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Catalysts lower activation energy and are not consumed; they do not change Keq.",
+      "explanation_ur": "کیٹالسٹ سرکٹی توانائی کم کرتا ہے اور خرچ نہیں ہوتا؛ Keq نہیں بدلتا۔",
+      "hint": "Affects kinetics, not thermodynamics.",
+      "hint_ur": "حرکیات پر اثر، حرارہیات پر نہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which metal is liquid at room temperature?",
+      "question_ur": "کون سی دھات کمرہ درجہ حرارت پر مائع ہوتی ہے؟",
+      "options": {
+        "en": ["Mercury", "Gallium", "Cesium", "Sodium"],
+        "ur": ["پارا", "گیلیم", "سیزیئم", "سوڈیم"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Mercury is liquid at around 25°C; gallium and cesium melt slightly above that.",
+      "explanation_ur": "پارا تقریباً 25°سینٹی گریڈ پر مائع ہوتا ہے؛ گیلیم اور سیزیئم اس سے کچھ اوپر پگھلتے ہیں۔",
+      "hint": "Used in thermometers (traditionally).",
+      "hint_ur": "روایتی طور پر تھرمامیٹر میں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Which element is essential in all organic compounds?",
+      "question_ur": "تمام نامیاتی مرکبات میں کون سا عنصر لازمی ہوتا ہے؟",
+      "options": {
+        "en": ["Oxygen", "Hydrogen", "Nitrogen", "Carbon"],
+        "ur": ["آکسیجن", "ہائیڈروجن", "نائٹروجن", "کاربن"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Organic chemistry is the chemistry of carbon compounds.",
+      "explanation_ur": "نامیاتی کیمسٹری کاربن مرکبات کی کیمسٹری ہے۔",
+      "hint": "Backbone of life.",
+      "hint_ur": "زندگی کی ریڑھ کی ہڈی۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "What sugar is present in DNA?",
+      "question_ur": "DNA میں کون سی شکر موجود ہوتی ہے؟",
+      "options": {
+        "en": ["Ribose", "Deoxyribose", "Glucose", "Fructose"],
+        "ur": ["رائبوز", "ڈیوکسی رائبوز", "گلوکوز", "فروکٹوز"]
+      },
+      "correctAnswer": 1,
+      "explanation": "DNA contains deoxyribose; RNA contains ribose.",
+      "explanation_ur": "DNA میں ڈیوکسی رائبوز جبکہ RNA میں رائبوز ہوتا ہے۔",
+      "hint": "The 'D' in DNA.",
+      "hint_ur": "DNA کا 'D'.",
+      "timeLimit": 20
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "A pH less than 7 indicates a:",
+      "question_ur": "pH سات سے کم کیا ظاہر کرتی ہے؟",
+      "options": {
+        "en": ["Basic solution", "Neutral solution", "Acidic solution", "Buffer solution"],
+        "ur": ["بنیادی محلول", "غیر جانبدار محلول", "تیزابی محلول", "عازِل (بفر) محلول"]
+      },
+      "correctAnswer": 2,
+      "explanation": "pH < 7 indicates an acidic solution at 25°C.",
+      "explanation_ur": "25°سینٹی گریڈ پر pH سات سے کم تیزابی محلول کو ظاہر کرتی ہے۔",
+      "hint": "Lower means more H+.",
+      "hint_ur": "کم pH = زیادہ H+۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "Which statement best describes oxidation?",
+      "question_ur": "کون سا بیان آکسیڈیشن کو بہترین بیان کرتا ہے؟",
+      "options": {
+        "en": ["Gain of electrons", "Loss of electrons", "Loss of protons", "Gain of neutrons"],
+        "ur": ["الیکٹران حاصل کرنا", "الیکٹران کھونا", "پروٹون کھونا", "نیوٹرون حاصل کرنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Oxidation is loss of electrons (OIL RIG).",
+      "explanation_ur": "آکسیڈیشن الیکٹران کھونے کو کہتے ہیں (OIL RIG)۔",
+      "hint": "OIL RIG mnemonic.",
+      "hint_ur": "OIL RIG یادگر۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "Which substance is amphoteric?",
+      "question_ur": "کون سا مادہ دو طبعی (ایمفوٹیریک) ہے؟",
+      "options": {
+        "en": ["Water (H2O)", "Sodium hydroxide", "Hydrochloric acid", "Methane"],
+        "ur": ["پانی (H2O)", "سوڈیم ہائیڈرو آکسائیڈ", "ہائڈروکلورک ایسڈ", "میٹھین"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Water can act as both an acid and a base.",
+      "explanation_ur": "پانی بطور تیزاب اور بطور قاعدہ دونوں عمل کر سکتا ہے۔",
+      "hint": "Autoionizes slightly.",
+      "hint_ur": "قدرے خود آئنائز ہوتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "What is the common name of NaHCO3?",
+      "question_ur": "NaHCO3 کا عام نام کیا ہے؟",
+      "options": {
+        "en": ["Baking powder", "Washing soda", "Baking soda", "Bleaching powder"],
+        "ur": ["بیکنگ پاؤڈر", "واشنگ سوڈا", "بیکنگ سوڈا", "بلیچنگ پاؤڈر"]
+      },
+      "correctAnswer": 2,
+      "explanation": "NaHCO3 is sodium bicarbonate, commonly called baking soda.",
+      "explanation_ur": "NaHCO3 سوڈیم بائیکاربونیٹ ہے، جسے بیکنگ سوڈا کہتے ہیں۔",
+      "hint": "Used in cakes to rise.",
+      "hint_ur": "کیک اُٹھانے میں کام آتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "What is the SI unit for amount of substance?",
+      "question_ur": "کمیت مادہ کی ایس آئی اکائی کیا ہے؟",
+      "options": {
+        "en": ["Mole", "Gram", "Liter", "Dalton"],
+        "ur": ["مول", "گرام", "لیٹر", "ڈالٹن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The SI base unit for amount of substance is the mole (mol).",
+      "explanation_ur": "کمیت مادہ کی بنیادی ایس آئی اکائی مول (mol) ہے۔",
+      "hint": "Symbol: mol.",
+      "hint_ur": "علامت: mol۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "Lattice energy is associated primarily with which solids?",
+      "question_ur": "جالی توانائی عموماً کن ٹھوسوں سے وابستہ ہوتی ہے؟",
+      "options": {
+        "en": ["Molecular solids", "Metallic solids", "Ionic solids", "Covalent network solids"],
+        "ur": ["مالیکیولی ٹھوس", "میٹالک ٹھوس", "آیونک ٹھوس", "کوویلنٹ نیٹ ورک ٹھوس"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Lattice energy refers to the energy of forming ionic solids from gaseous ions.",
+      "explanation_ur": "جالی توانائی سے مراد گیس آئنوں سے آیونک ٹھوس بنانے کی توانائی ہے۔",
+      "hint": "Think cations + anions.",
+      "hint_ur": "کیٹائن + اینائن۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 33,
+      "type": "true-false",
+      "question": "In a balanced chemical equation, total mass is conserved.",
+      "question_ur": "متعادل کیمیائی مساوات میں کل کمیت محفوظ رہتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "Law of conservation of mass applies to chemical reactions.",
+      "explanation_ur": "قانون بقائے کمیت کیمیائی اعمال پر لاگو ہوتا ہے۔",
+      "hint": "Atoms aren't created or destroyed.",
+      "hint_ur": "ایٹم نہ بنتے ہیں نہ ختم ہوتے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "What is the flame test color for potassium?",
+      "question_ur": "پوٹاشیم کی فلیم ٹیسٹ رنگت کیا ہوتی ہے؟",
+      "options": {
+        "en": ["Green", "Crimson red", "Lilac (purple)", "Blue-green"],
+        "ur": ["سبز", "گہرا سرخ", "ارغوانی (جامنی)", "نیل سبز"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Potassium gives a lilac or light purple flame.",
+      "explanation_ur": "پوٹاشیم کی آگ ارغوانی/جامنی ہوتی ہے۔",
+      "hint": "Light purple hue.",
+      "hint_ur": "ہلکی جامنی جھلک۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "Which intermolecular force is primarily responsible for water's unusually high boiling point?",
+      "question_ur": "پانی کے غیر معمولی بلند نقطۂ ابال کی بنیادی وجہ کون سی بین الجزی قوت ہے؟",
+      "options": {
+        "en": ["London dispersion", "Dipole–dipole", "Hydrogen bonding", "None of these"],
+        "ur": ["لندن ڈسپرجن", "ڈائپول–ڈائپول", "ہائیڈروجن بندش", "ان میں سے کوئی نہیں"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Extensive hydrogen bonding among water molecules raises its boiling point.",
+      "explanation_ur": "پانی کے مالیکیولز میں وسیع ہائیڈروجن بندش اس کا نقطۂ ابال بڑھاتی ہے۔",
+      "hint": "Involves H with N/O/F.",
+      "hint_ur": "H کا N/O/F سے تعلق۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Which gas is commonly associated with acid rain formation?",
+      "question_ur": "تیزاب بارش کی تشکیل سے عام طور پر کون سی گیس وابستہ ہے؟",
+      "options": {
+        "en": ["Methane", "Sulfur dioxide", "Nitrogen", "Neon"],
+        "ur": ["میٹھین", "سلفر ڈائی آکسائیڈ", "نائٹروجن", "نیون"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Sulfur dioxide forms sulfurous/sulfuric acids in the atmosphere.",
+      "explanation_ur": "سلفر ڈائی آکسائیڈ فضا میں سلفروس/سلفیورک تیزاب بناتی ہے۔",
+      "hint": "From burning coal.",
+      "hint_ur": "کوئلہ جلنے سے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "Ascorbic acid is which vitamin?",
+      "question_ur": "ایسکاربک ایسڈ کون سا وٹامن ہے؟",
+      "options": {
+        "en": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+        "ur": ["وٹامن A", "وٹامن B12", "وٹامن C", "وٹامن D"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Ascorbic acid is Vitamin C.",
+      "explanation_ur": "ایسکاربک ایسڈ وٹامن C ہے۔",
+      "hint": "Citrus fruits.",
+      "hint_ur": "ترش پھل۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "Which process separates components based on different boiling points?",
+      "question_ur": "کس عمل میں اجزاء کو مختلف نقطۂ ابال کی بنیاد پر جدا کیا جاتا ہے؟",
+      "options": {
+        "en": ["Filtration", "Distillation", "Chromatography", "Crystallization"],
+        "ur": ["فلٹریشن", "ڈسٹلیشن (اجتہال)", "کرومیٹوگرافی", "کرسٹلائزیشن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Distillation separates by selectively boiling and condensing.",
+      "explanation_ur": "ڈسٹلیشن منتخب ابال اور تقطیر کے ذریعے جدائی کرتا ہے۔",
+      "hint": "Boil then condense.",
+      "hint_ur": "ابال اور پھر تقطیر۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 39,
+      "type": "true-false",
+      "question": "Graphite conducts electricity.",
+      "question_ur": "گریفائٹ بجلی گزارتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Graphite has delocalized electrons that allow conduction.",
+      "explanation_ur": "گریفائٹ میں منتشر الیکٹران موجود ہوتے ہیں جو ترسیل ممکن بناتے ہیں۔",
+      "hint": "Pencil lead property.",
+      "hint_ur": "پنسل لیڈ کی خاصیت۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 40,
+      "type": "true-false",
+      "question": "Diamond is a form of carbon.",
+      "question_ur": "ہیر ا کاربن کی ایک صورت ہے۔",
+      "correctAnswer": true,
+      "explanation": "Diamond is an allotrope of carbon, like graphite.",
+      "explanation_ur": "ہیرہ کاربن کی ایک شکل (آلوٹروپ) ہے جیسے گریفائٹ۔",
+      "hint": "Allotrope of C.",
+      "hint_ur": "کاربن کا آلوٹروپ۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "An oxidizing agent is a species that:",
+      "question_ur": "موکسڈائزنگ ایجنٹ وہ جنس ہے جو:",
+      "options": {
+        "en": ["Loses electrons", "Gains electrons", "Releases protons", "Increases pH"],
+        "ur": ["الیکٹران کھو دیتی ہے", "الیکٹران حاصل کرتی ہے", "پروٹون خارج کرتی ہے", "pH بڑھاتی ہے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Oxidizing agents gain electrons (they are reduced).",
+      "explanation_ur": "موکسڈائزنگ ایجنٹ الیکٹران حاصل کرتا ہے (خود کم ہوتا ہے)۔",
+      "hint": "It gets reduced.",
+      "hint_ur": "خود ریڈَکشن ہوتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "Which acid is used in car batteries?",
+      "question_ur": "گاڑیوں کی بیٹریوں میں کون سا تیزاب استعمال ہوتا ہے؟",
+      "options": {
+        "en": ["Hydrochloric acid", "Nitric acid", "Sulfuric acid", "Acetic acid"],
+        "ur": ["ہائڈروکلورک ایسڈ", "نائٹرک ایسڈ", "سلفیورک ایسڈ", "ایسیٹک ایسڈ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Lead-acid batteries use sulfuric acid as the electrolyte.",
+      "explanation_ur": "سیسے کی بیٹریوں میں سلفیورک ایسڈ بطور الیکٹرولائٹ استعمال ہوتا ہے۔",
+      "hint": "H2SO4.",
+      "hint_ur": "H2SO4۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Which element has the highest electronegativity?",
+      "question_ur": "سب سے زیادہ برقی منفیّت کس عنصر کی ہے؟",
+      "options": {
+        "en": ["Oxygen", "Fluorine", "Chlorine", "Nitrogen"],
+        "ur": ["آکسیجن", "فلورین", "کلورین", "نائٹروجن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Fluorine is the most electronegative element.",
+      "explanation_ur": "فلورین سب سے زیادہ برقی منفی عنصر ہے۔",
+      "hint": "Top-right (excluding noble gases).",
+      "hint_ur": "اوپر دائیں (نوبل گیسیں نکال کر)۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "What is the approximate pH of human blood?",
+      "question_ur": "انسانی خون کی تقریباً pH کیا ہوتی ہے؟",
+      "options": {
+        "en": ["6.5", "7.0", "7.4", "8.0"],
+        "ur": ["6.5", "7.0", "7.4", "8.0"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Normal blood pH is about 7.35–7.45.",
+      "explanation_ur": "عام خون کی pH تقریباً 7.35–7.45 ہوتی ہے۔",
+      "hint": "Slightly basic.",
+      "hint_ur": "ہلکی بنیادی۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "What is the sign of enthalpy change (ΔH) for an exothermic reaction?",
+      "question_ur": "کسی حرارت خارج (ایگزو تھرمک) عمل کے لیے اینتھالپی کی علامت (ΔH) کیا ہوتی ہے؟",
+      "options": {
+        "en": ["Positive", "Zero", "Negative", "Undefined"],
+        "ur": ["مثبت", "صفر", "منفی", "غیر معین"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Exothermic reactions release heat; ΔH is negative.",
+      "explanation_ur": "ایگزو تھرمک عمل حرارت خارج کرتے ہیں؛ ΔH منفی ہوتا ہے۔",
+      "hint": "Heat out.",
+      "hint_ur": "حرارت باہر۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "Which orbital has a dumbbell shape?",
+      "question_ur": "کس مدار کی شکل ڈمبل جیسی ہوتی ہے؟",
+      "options": {
+        "en": ["s", "p", "d", "f"],
+        "ur": ["s", "p", "d", "f"]
+      },
+      "correctAnswer": 1,
+      "explanation": "p orbitals are dumbbell-shaped.",
+      "explanation_ur": "p مدار ڈمبل جیسی شکل کے ہوتے ہیں۔",
+      "hint": "Not spherical.",
+      "hint_ur": "کروی نہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Which gas law relates volume to temperature at constant pressure?",
+      "question_ur": "کون سا گیس قانون دباؤ مستحکم ہونے پر حجم اور درجہ حرارت کو مربوط کرتا ہے؟",
+      "options": {
+        "en": ["Charles's law", "Boyle's law", "Graham's law", "Raoult's law"],
+        "ur": ["چارلس کا قانون", "بوائل کا قانون", "گراہم کا قانون", "راؤلٹ کا قانون"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Charles's law: V ∝ T at constant pressure.",
+      "explanation_ur": "چارلس کا قانون: دباؤ مستحکم پر V ∝ T۔",
+      "hint": "Volume–Temperature.",
+      "hint_ur": "حجم–درجہ حرارت۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "Which of the following is an ionic compound?",
+      "question_ur": "مندرجہ ذیل میں سے آیونک مرکب کون سا ہے؟",
+      "options": {
+        "en": ["CO2", "H2O", "NaCl", "NH3"],
+        "ur": ["CO2", "H2O", "NaCl", "NH3"]
+      },
+      "correctAnswer": 2,
+      "explanation": "NaCl consists of Na+ and Cl− ions in a lattice.",
+      "explanation_ur": "NaCl میں Na+ اور Cl− آئن جالی میں ترتیب پاتے ہیں۔",
+      "hint": "Table salt.",
+      "hint_ur": "کھانے کا نمک۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "What fuel is commonly used in a laboratory Bunsen burner?",
+      "question_ur": "لیبارٹری بنسن برنر میں عموماً کون سا ایندھن استعمال ہوتا ہے؟",
+      "options": {
+        "en": ["Propane", "Butane", "Methane", "Ethane"],
+        "ur": ["پروپین", "بیوٹین", "میٹھین", "ایتھین"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Bunsen burners typically use natural gas, mainly methane.",
+      "explanation_ur": "بنسن برنر عموماً قدرتی گیس (زیادہ تر میٹھین) استعمال کرتے ہیں۔",
+      "hint": "Main component of natural gas.",
+      "hint_ur": "قدرتی گیس کا بنیادی جزو۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "What is the color of copper(II) sulfate pentahydrate crystals?",
+      "question_ur": "کاپر(II) سلفیٹ پینٹاہائیڈریٹ کے قلموں کا رنگ کیا ہے؟",
+      "options": {
+        "en": ["White", "Green", "Blue", "Pink"],
+        "ur": ["سفید", "سبز", "نیلا", "گلابی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "CuSO4·5H2O crystals are blue.",
+      "explanation_ur": "CuSO4·5H2O کے قلم نیلے ہوتے ہیں۔",
+      "hint": "Common lab salt color.",
+      "hint_ur": "عام لیب نمک کا رنگ۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 51,
+      "type": "true-false",
+      "question": "All metals form basic oxides.",
+      "question_ur": "تمام دھاتیں بنیادی آکسائیڈ بناتی ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Some metal oxides are amphoteric (e.g., Al2O3) or acidic.",
+      "explanation_ur": "کچھ دھاتی آکسائیڈز ایمفوٹیریک (جیسے Al2O3) یا تیزابی بھی ہوتے ہیں۔",
+      "hint": "Consider aluminum oxide.",
+      "hint_ur": "ایلومینیم آکسائیڈ کو سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 52,
+      "type": "true-false",
+      "question": "The pH scale is strictly limited to values between 0 and 14.",
+      "question_ur": "pH پیمانہ سختی سے 0 اور 14 کے درمیان محدود ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Very strong acids/bases can have pH below 0 or above 14.",
+      "explanation_ur": "بہت مضبوط تیزاب/قاعدے میں pH صفر سے کم یا 14 سے زیادہ بھی ہو سکتی ہے۔",
+      "hint": "Extreme concentrations.",
+      "hint_ur": "انتہائی ارتکاز۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "Acids reacting with carbonates typically produce which gas?",
+      "question_ur": "تیزاب کاربونیٹس کے ساتھ ردعمل کر کے عموماً کون سی گیس پیدا کرتے ہیں؟",
+      "options": {
+        "en": ["Hydrogen", "Oxygen", "Nitrogen", "Carbon dioxide"],
+        "ur": ["ہائیڈروجن", "آکسیجن", "نائٹروجن", "کاربن ڈائی آکسائیڈ"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Acid + carbonate → salt + water + CO2.",
+      "explanation_ur": "تیزاب + کاربونیٹ → نمک + پانی + CO2۔",
+      "hint": "Turns limewater milky.",
+      "hint_ur": "چونے کے پانی کو دودھیا کرتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "A solution that cannot dissolve more solute at a given temperature is:",
+      "question_ur": "وہ محلول جو کسی درجہ حرارت پر مزید حل شون حل نہ کر سکے، کیا کہلاتا ہے؟",
+      "options": {
+        "en": ["Unsaturated", "Supersaturated", "Saturated", "Dilute"],
+        "ur": ["غیر سیر شدہ", "زائد سیر شدہ", "سیر شدہ", "کم مرتکز"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A saturated solution holds the maximum amount of solute at that temperature.",
+      "explanation_ur": "سیر شدہ محلول اس درجہ حرارت پر زیادہ سے زیادہ حل شون رکھتا ہے۔",
+      "hint": "At capacity.",
+      "hint_ur": "گنجائش پوری۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "What is the oxidation state of oxygen in water (H2O)?",
+      "question_ur": "پانی (H2O) میں آکسیجن کی آکسیڈیشن اسٹیٹ کیا ہے؟",
+      "options": {
+        "en": ["+2", "-1", "-2", "0"],
+        "ur": ["+2", "-1", "-2", "0"]
+      },
+      "correctAnswer": 2,
+      "explanation": "In H2O, oxygen is −2 (hydrogen is +1).",
+      "explanation_ur": "H2O میں آکسیجن −2 ہوتی ہے (ہائیڈروجن +1)۔",
+      "hint": "Common rule for O.",
+      "hint_ur": "آکسیجن کے عمومی قاعدے کے مطابق۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "How many valence electrons does an oxygen atom have?",
+      "question_ur": "ایک آکسیجن ایٹم کے کتنے والنس الیکٹران ہوتے ہیں؟",
+      "options": {
+        "en": ["4", "6", "8", "2"],
+        "ur": ["4", "6", "8", "2"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Oxygen is in Group 16 and has 6 valence electrons.",
+      "explanation_ur": "آکسیجن گروپ 16 میں ہے اور اس کے 6 والنس الیکٹران ہوتے ہیں۔",
+      "hint": "Group number helps.",
+      "hint_ur": "گروپ نمبر سے مدد لیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "What is the main component of natural gas?",
+      "question_ur": "قدرتی گیس کا بنیادی جزو کیا ہے؟",
+      "options": {
+        "en": ["Ethane", "Propane", "Methane", "Butane"],
+        "ur": ["ایتھین", "پروپین", "میٹھین", "بیوٹین"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Natural gas is primarily methane.",
+      "explanation_ur": "قدرتی گیس بنیادی طور پر میٹھین پر مشتمل ہوتی ہے۔",
+      "hint": "CH4.",
+      "hint_ur": "CH4۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "Polythene is another name for which polymer?",
+      "question_ur": "پولی تھین کس پولیمر کا دوسرا نام ہے؟",
+      "options": {
+        "en": ["Polypropylene", "Polyethylene", "Polystyrene", "PVC"],
+        "ur": ["پولی پروپیلین", "پولی ایتھائلین", "پولی اسٹائرین", "پی وی سی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Polythene is polyethylene.",
+      "explanation_ur": "پولی تھین دراصل پولی ایتھائلین ہے۔",
+      "hint": "PE.",
+      "hint_ur": "PE۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "Which noble gas has atomic number 10?",
+      "question_ur": "کس نوبل گیس کا جوہری عدد 10 ہے؟",
+      "options": {
+        "en": ["Helium", "Argon", "Neon", "Krypton"],
+        "ur": ["ہیلیم", "آرگن", "نیون", "کرپٹن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Neon is atomic number 10.",
+      "explanation_ur": "نیون کا جوہری عدد 10 ہے۔",
+      "hint": "Ne signs.",
+      "hint_ur": "Ne کی علامت۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "Which of the following is a strong acid?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا مضبوط تیزاب ہے؟",
+      "options": {
+        "en": ["Acetic acid", "Hydrochloric acid", "Ammonia", "Water"],
+        "ur": ["ایسیٹک ایسڈ", "ہائڈروکلورک ایسڈ", "امونیا", "پانی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Hydrochloric acid (HCl) is a strong acid; acetic acid is weak.",
+      "explanation_ur": "ہائڈروکلورک ایسڈ (HCl) مضبوط تیزاب ہے؛ ایسیٹک ایسڈ کمزور ہے۔",
+      "hint": "Commonly used in labs.",
+      "hint_ur": "لیبارٹری میں عام۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "Which of the following is a weak base?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا کمزور قاعدہ ہے؟",
+      "options": {
+        "en": ["Sodium hydroxide", "Potassium hydroxide", "Ammonia", "Calcium hydroxide"],
+        "ur": ["سوڈیم ہائیڈرو آکسائیڈ", "پوٹاشیم ہائیڈرو آکسائیڈ", "امونیا", "کیلشیم ہائیڈرو آکسائیڈ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Ammonia (NH3) is a weak base.",
+      "explanation_ur": "امونیا (NH3) ایک کمزور قاعدہ ہے۔",
+      "hint": "Aqueous solution is ammonium hydroxide.",
+      "hint_ur": "آبی محلول میں امونیم ہائیڈرو آکسائیڈ بنتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 62,
+      "type": "mcq",
+      "question": "Which process is commonly used to soften hard water?",
+      "question_ur": "سخت پانی کو نرم کرنے کے لیے کون سا عمل عام ہے؟",
+      "options": {
+        "en": ["Filtration", "Ion exchange", "Distillation", "Chlorination"],
+        "ur": ["فلٹریشن", "آئون ایکسچینج", "ڈسٹلیشن", "کلورینیشن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ion-exchange resins replace Ca2+/Mg2+ with Na+ or H+.",
+      "explanation_ur": "آئون ایکسچینج رزِن Ca2+/Mg2+ کو Na+ یا H+ سے بدل دیتے ہیں۔",
+      "hint": "Resin beads.",
+      "hint_ur": "رزِن کے دانے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "Galvanization is the coating of iron with which metal?",
+      "question_ur": "گلوانائزیشن میں لوہے کو کس دھات کی تہہ دی جاتی ہے؟",
+      "options": {
+        "en": ["Copper", "Silver", "Zinc", "Tin"],
+        "ur": ["تانبا", "چاندی", "زنک", "ٹِن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Galvanization coats iron with zinc to prevent rust.",
+      "explanation_ur": "گلوانائزیشن میں لوہے پر زنک کی تہہ چڑھائی جاتی ہے تاکہ زنگ نہ لگے۔",
+      "hint": "Protects against corrosion.",
+      "hint_ur": "سنکن سے حفاظت۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "question": "What color does phenolphthalein turn in a basic solution?",
+      "question_ur": "بنیادی محلول میں فینولفتھلین کا رنگ کیا ہو جاتا ہے؟",
+      "options": {
+        "en": ["Colorless", "Pink", "Blue", "Red"],
+        "ur": ["بے رنگ", "گلابی", "نیلا", "سرخ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Phenolphthalein is pink in basic solutions and colorless in acidic.",
+      "explanation_ur": "فینولفتھلین بنیادی محلول میں گلابی اور تیزابی میں بے رنگ رہتا ہے۔",
+      "hint": "Classic titration indicator.",
+      "hint_ur": "معروف ٹائٹریشن اشارہ۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "question": "At which electrode does oxidation occur?",
+      "question_ur": "آکسیڈیشن کس الیکٹروڈ پر ہوتی ہے؟",
+      "options": {
+        "en": ["Cathode", "Anode", "Both electrodes", "Neither"],
+        "ur": ["کیتھوڈ", "انوڈ", "دونوں", "کوئی نہیں"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Oxidation occurs at the anode (AnOx).",
+      "explanation_ur": "آکسیڈیشن انوڈ پر ہوتی ہے (AnOx)۔",
+      "hint": "AnOx, RedCat.",
+      "hint_ur": "AnOx، RedCat۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 66,
+      "type": "true-false",
+      "question": "In both galvanic and electrolytic cells, reduction occurs at the cathode.",
+      "question_ur": "گلوانک اور الیکٹرولائٹک دونوں خلیوں میں ریڈکشن کیتھوڈ پر ہوتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "Reduction at cathode is universal; sign may differ but location doesn't.",
+      "explanation_ur": "کیتھوڈ پر ریڈکشن ہمیشہ ہوتی ہے؛ نشان بدل سکتا ہے مگر مقام نہیں۔",
+      "hint": "RedCat.",
+      "hint_ur": "RedCat۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "Which pair is a conjugate acid–base pair?",
+      "question_ur": "کون سا جوڑا قرینی تیزاب–قاعدہ (کنجوگیٹ) جوڑا ہے؟",
+      "options": {
+        "en": ["HCl/Cl2", "NH4+/NH3", "Na+/Na", "H2O/O2"],
+        "ur": ["HCl/Cl2", "NH4+/NH3", "Na+/Na", "H2O/O2"]
+      },
+      "correctAnswer": 1,
+      "explanation": "NH4+ (acid) and NH3 (base) differ by one proton.",
+      "explanation_ur": "NH4+ (تیزاب) اور NH3 (قاعدہ) میں ایک پروٹون کا فرق ہے۔",
+      "hint": "Differ by H+.",
+      "hint_ur": "صرف H+ کا فرق۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 68,
+      "type": "mcq",
+      "question": "What is the value of the gas constant R in L·atm·mol⁻¹·K⁻¹?",
+      "question_ur": "L·atm·mol⁻¹·K⁻¹ میں گیس مستقل R کی قیمت کیا ہے؟",
+      "options": {
+        "en": ["8.314", "0.0821", "62.36", "1.00"],
+        "ur": ["8.314", "0.0821", "62.36", "1.00"]
+      },
+      "correctAnswer": 1,
+      "explanation": "R = 0.0821 L·atm·mol⁻¹·K⁻¹ for gas law calculations in those units.",
+      "explanation_ur": "ان اکائیوں میں R = 0.0821 L·atm·mol⁻¹·K⁻¹ ہوتا ہے۔",
+      "hint": "About eight hundredths.",
+      "hint_ur": "تقریباً 0.08۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "question": "Equal volumes of gases at the same temperature and pressure contain equal numbers of molecules. This is:",
+      "question_ur": "یکساں درجہ حرارت اور دباؤ پر برابر حجم والی گیسوں میں مالیکیولز کی تعداد برابر ہوتی ہے۔ یہ کس قانون کے مطابق ہے؟",
+      "options": {
+        "en": ["Avogadro's law", "Boyle's law", "Dalton's law", "Graham's law"],
+        "ur": ["ایووگاڈرو کا قانون", "بوائل کا قانون", "ڈالٹن کا قانون", "گراہم کا قانون"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is Avogadro's law.",
+      "explanation_ur": "یہ ایووگاڈرو کا قانون ہے۔",
+      "hint": "Moles ~ volume.",
+      "hint_ur": "مول ~ حجم۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 70,
+      "type": "mcq",
+      "question": "What is the main ore of aluminum?",
+      "question_ur": "ایلومینیم کی بنیادی معدنیات (خام) کیا ہے؟",
+      "options": {
+        "en": ["Hematite", "Bauxite", "Galena", "Malachite"],
+        "ur": ["ہیماٹائٹ", "بوکسائیٹ", "گیلینا", "مالاکائٹ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Bauxite is the principal ore of aluminum.",
+      "explanation_ur": "بوکسائیٹ ایلومینیم کی بنیادی معدنیات ہے۔",
+      "hint": "Hydrated alumina minerals.",
+      "hint_ur": "ہائیڈریٹڈ ایلومینا معدنیات۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "question": "What is the SI unit of energy?",
+      "question_ur": "توانائی کی ایس آئی اکائی کیا ہے؟",
+      "options": {
+        "en": ["Watt", "Joule", "Calorie", "Electronvolt"],
+        "ur": ["واٹ", "جول", "کیلوری", "الیکٹران وولٹ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Energy in SI is measured in joules (J).",
+      "explanation_ur": "ایس آئی میں توانائی کی اکائی جول (J) ہے۔",
+      "hint": "Named after James P.",
+      "hint_ur": "جیمز پی کے نام پر۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 72,
+      "type": "true-false",
+      "question": "Aqua regia can dissolve gold.",
+      "question_ur": "آکوا ریجیا سونے کو حل کر سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "A mixture of concentrated HCl and HNO3 (3:1) dissolves gold.",
+      "explanation_ur": "مرکوز HCl اور HNO3 (3:1) کا مرکب سونے کو حل کرتا ہے۔",
+      "hint": "Royal water.",
+      "hint_ur": "شاہی پانی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 73,
+      "type": "true-false",
+      "question": "Blue litmus paper turns red in acidic solutions.",
+      "question_ur": "بلیو لٹمس پیپر تیزابی محلول میں سرخ ہو جاتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Acids turn blue litmus red; bases turn red litmus blue.",
+      "explanation_ur": "تیزاب بلیو لٹمس کو سرخ اور قاعدے ریڈ لٹمس کو نیلا کرتے ہیں۔",
+      "hint": "Acid: blue → red.",
+      "hint_ur": "تیزاب: نیلا → سرخ۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 74,
+      "type": "mcq",
+      "question": "Which compounds are known to deplete the ozone layer?",
+      "question_ur": "کون سے مرکبات اوزون تہہ کو کمزور کرتے ہیں؟",
+      "options": {
+        "en": ["Hydrocarbons", "Chlorofluorocarbons (CFCs)", "Nitrogen oxides", "Carbonyl compounds"],
+        "ur": ["ہائڈروکاربنز", "کلوروفلوروکاربنز (CFCs)", "نائٹروجن آکسائیڈز", "کاربونائل مرکبات"]
+      },
+      "correctAnswer": 1,
+      "explanation": "CFCs release chlorine radicals that destroy ozone.",
+      "explanation_ur": "CFCs کلورین ریڈیکلز خارج کرتے ہیں جو اوزون کو تباہ کرتے ہیں۔",
+      "hint": "Refrigerants of the past.",
+      "hint_ur": "پرانے ریفریجرنٹس۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "question": "What is the hybridization of carbon in methane (CH4)?",
+      "question_ur": "میٹھین (CH4) میں کاربن کی ہائبرڈائزیشن کیا ہے؟",
+      "options": {
+        "en": ["sp", "sp2", "sp3", "dsp2"],
+        "ur": ["sp", "sp2", "sp3", "dsp2"]
+      },
+      "correctAnswer": 2,
+      "explanation": "In CH4, carbon is sp3 hybridized with tetrahedral geometry.",
+      "explanation_ur": "CH4 میں کاربن sp3 ہائبرڈ ہے اور جیومیٹری ٹیٹراہیدرل ہوتی ہے۔",
+      "hint": "Four sigma bonds.",
+      "hint_ur": "چار سگما بند۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "question": "What is the molecular geometry of CO2?",
+      "question_ur": "CO2 کی سالماتی جیومیٹری کیا ہے؟",
+      "options": {
+        "en": ["Linear", "Bent", "Trigonal planar", "Tetrahedral"],
+        "ur": ["لکیری", "خمیدہ", "مثلثی مستوی", "ٹیٹراہیدرل"]
+      },
+      "correctAnswer": 0,
+      "explanation": "CO2 is linear due to two double bonds and no lone pairs on carbon.",
+      "explanation_ur": "CO2 لکیری ہے کیونکہ کاربن پر دو ڈبل بند اور کوئی لون جوڑی نہیں۔",
+      "hint": "O=C=O.",
+      "hint_ur": "O=C=O۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "question": "What is the common name for sodium hypochlorite (NaClO) solution?",
+      "question_ur": "سوڈیم ہائپوکلورائٹ (NaClO) محلول کا عام نام کیا ہے؟",
+      "options": {
+        "en": ["Bleach", "Baking soda", "Washing soda", "Epsom salt"],
+        "ur": ["بلیچ", "بیکنگ سوڈا", "واشنگ سوڈا", "ایپسَم سالٹ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "NaClO solution is commonly called bleach.",
+      "explanation_ur": "NaClO کا محلول عام طور پر بلیچ کہلاتا ہے۔",
+      "hint": "Used for whitening clothes.",
+      "hint_ur": "کپڑے سفید کرنے میں استعمال۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 78,
+      "type": "mcq",
+      "question": "Formation of an insoluble solid from a solution is called:",
+      "question_ur": "محلول سے ناقابل حل ٹھوس بننے کے عمل کو کیا کہتے ہیں؟",
+      "options": {
+        "en": ["Sublimation", "Precipitation", "Evaporation", "Fusion"],
+        "ur": ["رفع", "ترسیب", "تبخیر", "انصہار"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Precipitation forms a solid (precipitate) from solution.",
+      "explanation_ur": "ترسیب میں محلول سے ٹھوس (رسیب) بنتا ہے۔",
+      "hint": "Seen as cloudiness or solid.",
+      "hint_ur": "دودھیا پن یا ٹھوس کی صورت۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "Which of the following is NOT a state function?",
+      "question_ur": "مندرجہ ذیل میں سے کون سی حالت تابع (اسٹیٹ فنکشن) نہیں ہے؟",
+      "options": {
+        "en": ["Enthalpy", "Entropy", "Work", "Internal energy"],
+        "ur": ["اینٹھالپی", "اینٹروپی", "کام", "درونی توانائی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Work and heat are path functions, not state functions.",
+      "explanation_ur": "کام اور حرارت راستہ تابع ہیں، حالت تابع نہیں۔",
+      "hint": "Depends on the path.",
+      "hint_ur": "راستے پر منحصر۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 80,
+      "type": "mcq",
+      "question": "Which molecule is paramagnetic?",
+      "question_ur": "کون سا سالمہ پیرا میگنیٹک ہے؟",
+      "options": {
+        "en": ["N2", "O2", "CO2", "H2O"],
+        "ur": ["N2", "O2", "CO2", "H2O"]
+      },
+      "correctAnswer": 1,
+      "explanation": "O2 has two unpaired electrons, making it paramagnetic.",
+      "explanation_ur": "O2 میں دو غیر جوڑے الیکٹران ہوتے ہیں، اس لیے پیرا میگنیٹک ہے۔",
+      "hint": "Liquid O2 is attracted to a magnet.",
+      "hint_ur": "مایع O2 مقناطیس کی طرف کھنچتا ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 81,
+      "type": "true-false",
+      "question": "Allotropy refers to an element existing in more than one form.",
+      "question_ur": "آلوٹروپی سے مراد ایک عنصر کا ایک سے زیادہ صورتوں میں پایا جانا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Carbon (diamond, graphite) is a classic example.",
+      "explanation_ur": "کاربن (ہیرہ، گریفائٹ) اس کی مثال ہے۔",
+      "hint": "Different structures, same element.",
+      "hint_ur": "سا عنصر، مختلف ساخت۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "question": "Which observation indicates a chemical change?",
+      "question_ur": "کون سی مشاہدہ کیمیائی تبدیلی کی نشان دہی کرتا ہے؟",
+      "options": {
+        "en": ["Change in shape", "Melting of ice", "Formation of a precipitate", "Dissolving sugar in water"],
+        "ur": ["شکل کی تبدیلی", "برف کا پگھلنا", "ترسیب بننا", "پانی میں چینی گھولنا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Precipitate formation is evidence of a chemical reaction.",
+      "explanation_ur": "ترسیب بننا کیمیائی ردعمل کی علامت ہے۔",
+      "hint": "New substance appears.",
+      "hint_ur": "نیا مادہ ظاہر ہوتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "question": "A lower pKa value indicates:",
+      "question_ur": "کم pKa کی قدر کیا ظاہر کرتی ہے؟",
+      "options": {
+        "en": ["Weaker acid", "Stronger acid", "Neutral compound", "Strong base"],
+        "ur": ["کمزور تیزاب", "مضبوط تیزاب", "غیر جانبدار مرکب", "مضبوط قاعدہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Lower pKa means the acid is stronger (dissociates more).",
+      "explanation_ur": "کم pKa مضبوط تیزاب کی طرف اشارہ ہے (زیادہ تجزیہ)۔",
+      "hint": "pKa = −log Ka.",
+      "hint_ur": "pKa = −log Ka۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 84,
+      "type": "mcq",
+      "question": "Which of the following is a monosaccharide?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا مونو سیکرائیڈ ہے؟",
+      "options": {
+        "en": ["Sucrose", "Maltose", "Glucose", "Lactose"],
+        "ur": ["سوکروز", "مالٹوز", "گلوکوز", "لیکٹوز"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Glucose is a monosaccharide; sucrose, maltose, lactose are disaccharides.",
+      "explanation_ur": "گلوکوز مونو سیکرائیڈ ہے؛ سوکروز، مالٹوز، لیکٹوز ڈائی سیکرائیڈز ہیں۔",
+      "hint": "Blood sugar.",
+      "hint_ur": "خون کی شکر۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 85,
+      "type": "true-false",
+      "question": "A buffer solution resists changes in pH when small amounts of acid or base are added.",
+      "question_ur": "بفر محلول میں تھوڑی مقدار میں تیزاب یا قاعدہ ملانے پر pH میں تبدیلی کی مزاحمت ہوتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "Buffers contain a weak acid/base and its conjugate to stabilize pH.",
+      "explanation_ur": "بفر میں کمزور تیزاب/قاعدہ اور اس کا کنجوگیٹ ہوتا ہے جس سے pH مستحکم رہتی ہے۔",
+      "hint": "Weak + conjugate.",
+      "hint_ur": "کمزور + قرینی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 86,
+      "type": "mcq",
+      "question": "Which of these is a noble gas?",
+      "question_ur": "ان میں سے کون سی نوبل گیس ہے؟",
+      "options": {
+        "en": ["Bromine", "Argon", "Nitrogen", "Hydrogen"],
+        "ur": ["برومین", "آرگن", "نائٹروجن", "ہائیڈروجن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Argon is a Group 18 noble gas.",
+      "explanation_ur": "آرگن گروپ 18 کی نوبل گیس ہے۔",
+      "hint": "Used in light bulbs.",
+      "hint_ur": "بلب میں استعمال ہوتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "question": "Which of the following is a nonmetal?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا غیر دھات ہے؟",
+      "options": {
+        "en": ["Sodium", "Iron", "Sulfur", "Aluminum"],
+        "ur": ["سوڈیم", "لوہا", "گندھک", "ایلومینیم"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Sulfur is a nonmetal.",
+      "explanation_ur": "گندھک ایک غیر دھات ہے۔",
+      "hint": "Yellow element.",
+      "hint_ur": "پیلا عنصر۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "question": "What is the charge on the sulfate ion (SO4)?",
+      "question_ur": "سلفیٹ آئن (SO4) کا چارج کیا ہے؟",
+      "options": {
+        "en": ["1−", "1+", "2−", "2+"],
+        "ur": ["1−", "1+", "2−", "2+"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Sulfate ion has a 2− charge: SO4^2−.",
+      "explanation_ur": "سلفیٹ آئن کا چارج 2− ہوتا ہے: SO4^2−۔",
+      "hint": "Think H2SO4 losing two H+.",
+      "hint_ur": "H2SO4 کے دو H+ نکل جائیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "question": "What is the process called when iron reacts with oxygen and moisture?",
+      "question_ur": "لوہے کا آکسیجن اور نمی کے ساتھ ردعمل کیا کہلاتا ہے؟",
+      "options": {
+        "en": ["Rusting (corrosion)", "Distillation", "Fermentation", "Sublimation"],
+        "ur": ["زنگ لگنا (سنکن)", "ڈسٹلیشن", "خمیرہ کاری", "رفع"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Rusting is the corrosion of iron forming iron oxides/hydroxides.",
+      "explanation_ur": "زنگ لگنا لوہے کی سنکن ہے جس میں آکسیڈز/ہائیڈرو آکسیڈز بنتے ہیں۔",
+      "hint": "Red-brown flaky layer.",
+      "hint_ur": "سرخی مائل بھورا تہہ۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 90,
+      "type": "mcq",
+      "question": "The Haber process is used to synthesize which compound?",
+      "question_ur": "ہیبر عمل کس مرکب کی تیاری کے لیے استعمال ہوتا ہے؟",
+      "options": {
+        "en": ["Ammonia", "Methanol", "Nitric acid", "Sulfuric acid"],
+        "ur": ["امونیا", "میتھانول", "نائٹرک ایسڈ", "سلفیورک ایسڈ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Haber–Bosch process produces ammonia from N2 and H2.",
+      "explanation_ur": "ہیبر–بوش عمل N2 اور H2 سے امونیا تیار کرتا ہے۔",
+      "hint": "Used for fertilizers.",
+      "hint_ur": "کھاد بنانے میں اہم۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "Chromatography separates substances mainly based on:",
+      "question_ur": "کرومیٹوگرافی بنیادی طور پر کس بنیاد پر مادے جدا کرتی ہے؟",
+      "options": {
+        "en": ["Boiling point differences", "Particle size differences", "Differential partitioning between phases", "Density differences"],
+        "ur": ["نقطۂ ابال کے فرق", "ذرّات کے سائز کے فرق", "متحرک و ساکن فیز کے درمیان مختلف رغبت", "کثافت کے فرق"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Chromatography relies on different affinities for stationary and mobile phases.",
+      "explanation_ur": "کرومیٹوگرافی ساکن اور متحرک فیز سے مختلف رغبت پر منحصر ہے۔",
+      "hint": "Stationary vs mobile phase.",
+      "hint_ur": "ساکن بمقابلہ متحرک فیز۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 92,
+      "type": "mcq",
+      "question": "What is the common name of calcium oxide (CaO)?",
+      "question_ur": "کیلشیم آکسائیڈ (CaO) کا عام نام کیا ہے؟",
+      "options": {
+        "en": ["Gypsum", "Limestone", "Quicklime", "Slaked lime"],
+        "ur": ["جپسم", "چونا پتھر", "کویکلائم (نابجھا چونا)", "بجھا چونا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "CaO is called quicklime; Ca(OH)2 is slaked lime.",
+      "explanation_ur": "CaO کو کویکلائم (نابجھا چونا) کہتے ہیں؛ Ca(OH)2 بجھا چونا ہے۔",
+      "hint": "Before hydration.",
+      "hint_ur": "بجھانے سے پہلے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "Which law states that the solubility of a gas in a liquid is proportional to its partial pressure?",
+      "question_ur": "کس قانون کے مطابق مائع میں گیس کی حل پذیری اس کے جزوی دباؤ کے متناسب ہوتی ہے؟",
+      "options": {
+        "en": ["Raoult's law", "Henry's law", "Graham's law", "Charles's law"],
+        "ur": ["راؤلٹ کا قانون", "ہنری کا قانون", "گراہم کا قانون", "چارلس کا قانون"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Henry's law relates gas solubility to partial pressure.",
+      "explanation_ur": "ہنری کا قانون گیس کی حل پذیری کو جزوی دباؤ سے جوڑتا ہے۔",
+      "hint": "Carbonated drinks follow it.",
+      "hint_ur": "کاربونیٹڈ ڈرنکس میں نظر آتا ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "question": "Which instrument is used to measure pH accurately?",
+      "question_ur": "pH کی درست پیمائش کے لیے کون سا آلہ استعمال ہوتا ہے؟",
+      "options": {
+        "en": ["Thermometer", "pH meter", "Barometer", "Hygrometer"],
+        "ur": ["تھرمامیٹر", "پی ایچ میٹر", "بیرو میٹر", "ہائگرو میٹر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A pH meter measures hydrogen ion activity.",
+      "explanation_ur": "pH میٹر ہائیڈروجن آئن کی سرگرمی کو ناپتا ہے۔",
+      "hint": "Electrode-based.",
+      "hint_ur": "الیکٹروڈ پر مبنی۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 95,
+      "type": "mcq",
+      "question": "What is the molecular formula of methane?",
+      "question_ur": "میٹھین کا سالماتی فارمولا کیا ہے؟",
+      "options": {
+        "en": ["CH4", "C2H6", "CH3OH", "CO"],
+        "ur": ["CH4", "C2H6", "CH3OH", "CO"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Methane contains one carbon and four hydrogens: CH4.",
+      "explanation_ur": "میٹھین میں ایک کاربن اور چار ہائیڈروجن ہوتے ہیں: CH4۔",
+      "hint": "Simplest alkane.",
+      "hint_ur": "سب سے سادہ الکین۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 96,
+      "type": "mcq",
+      "question": "What is the color of chlorine gas?",
+      "question_ur": "کلورین گیس کا رنگ کیا ہوتا ہے؟",
+      "options": {
+        "en": ["Colorless", "Red-brown", "Greenish-yellow", "Blue"],
+        "ur": ["بے رنگ", "سرخی مائل بھورا", "سبز مائل پیلا", "نیلا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Chlorine gas is greenish-yellow.",
+      "explanation_ur": "کلورین گیس سبز مائل پیلی ہوتی ہے۔",
+      "hint": "Pool smell association.",
+      "hint_ur": "پول کی مخصوص بُو سے جڑا خیال۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "question": "Which compound exhibits hydrogen bonding?",
+      "question_ur": "کون سا مرکب ہائیڈروجن بندش دکھاتا ہے؟",
+      "options": {
+        "en": ["CH4", "HCl", "H2O", "CO2"],
+        "ur": ["CH4", "HCl", "H2O", "CO2"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Water forms hydrogen bonds due to H–O polarity and lone pairs on O.",
+      "explanation_ur": "پانی H–O کی قطبیت اور آکسیجن کی لون جوڑیوں کی وجہ سے ہائیڈروجن بندش بناتا ہے۔",
+      "hint": "H with O/N/F.",
+      "hint_ur": "H کا O/N/F سے بند۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 98,
+      "type": "mcq",
+      "question": "What is the oxidation number of sulfur in H2SO4?",
+      "question_ur": "H2SO4 میں گندھک کی آکسیڈیشن عدد کیا ہے؟",
+      "options": {
+        "en": ["+4", "+6", "0", "−2"],
+        "ur": ["+4", "+6", "0", "−2"]
+      },
+      "correctAnswer": 1,
+      "explanation": "In H2SO4, sulfur is +6 (O is −2, H is +1).",
+      "explanation_ur": "H2SO4 میں گندھک +6 ہوتا ہے (O −2، H +1)۔",
+      "hint": "Sum must equal 0.",
+      "hint_ur": "کل جمع 0 ہونی چاہیے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 99,
+      "type": "mcq",
+      "question": "Which technique measures the absorbance of light by a solution?",
+      "question_ur": "کون سی تکنیک محلول کی روشنی جذب کرنے کی پیمائش کرتی ہے؟",
+      "options": {
+        "en": ["Calorimetry", "Nephelometry", "Spectrophotometry", "Titrimetry"],
+        "ur": ["کیلوریمیٹری", "نیفیلو میٹری", "سپیکٹرو فوٹو میٹری", "ٹائٹری میٹری"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Spectrophotometry measures absorbance at specific wavelengths.",
+      "explanation_ur": "سپیکٹرو فوٹو میٹری مخصوص طول موج پر جذبیت ناپتی ہے۔",
+      "hint": "Beer–Lambert law.",
+      "hint_ur": "بیئر–لامبرٹ قانون۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 100,
+      "type": "mcq",
+      "question": "Standard atmospheric pressure is equal to:",
+      "question_ur": "معیاری فضائی دباؤ کس کے برابر ہوتا ہے؟",
+      "options": {
+        "en": ["0.5 atm", "1 atm", "1.5 atm", "2 atm"],
+        "ur": ["0.5 atm", "1 atm", "1.5 atm", "2 atm"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Standard atmospheric pressure is defined as 1 atm (≈101.325 kPa).",
+      "explanation_ur": "معیاری فضائی دباؤ 1 atm (≈101.325 kPa) کے برابر ہوتا ہے۔",
+      "hint": "Sea level standard.",
+      "hint_ur": "سطح سمندر کا معیار۔",
+      "timeLimit": 20
+    }
+  ]
+}

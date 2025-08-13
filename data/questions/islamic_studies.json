@@ -1,0 +1,1894 @@
+{
+  "meta": {
+    "category": "Islamic Studies",
+    "category_ur": "اسلامیات",
+    "description": "Test your knowledge of Islamic teachings, history and practices",
+    "description_ur": "اسلامی تعلیمات، تاریخ اور معمولات کا امتحان لیں",
+    "difficulty": "medium",
+    "image": "islamic_studies.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "How many times is the word 'Quran' mentioned in the Quran itself?",
+      "question_ur": "قرآن میں لفظ 'قرآن' کتنی بار آیا ہے؟",
+      "options": {
+        "en": ["50 times", "70 times", "58 times", "43 times"],
+        "ur": ["50 بار", "70 بار", "58 بار", "43 بار"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The word 'Quran' appears 70 times in the Quran itself.",
+      "explanation_ur": "لفظ 'قرآن' قرآن میں 70 بار آیا ہے۔",
+      "hint": "It's between 50 and 100 times",
+      "hint_ur": "یہ 50 سے 100 بار کے درمیان ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 2,
+      "type": "true-false",
+      "question": "The Battle of Badr occurred in the month of Ramadan.",
+      "question_ur": "غزوہ بدر ماہ رمضان میں ہوا تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Battle of Badr took place on 17th Ramadan in the 2nd year of Hijri.",
+      "explanation_ur": "غزوہ بدر 17 رمضان 2 ہجری کو پیش آیا تھا۔",
+      "hint": "Consider the significance of Ramadan in Islamic history",
+      "hint_ur": "اسلامی تاریخ میں رمضان کی اہمیت پر غور کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which Surah is known as the 'Heart of the Quran'?",
+      "question_ur": "کس سورت کو 'قرآن کا دل' کہا جاتا ہے؟",
+      "options": {
+        "en": ["Surah Al-Fatiha", "Surah Yaseen", "Surah Al-Baqarah", "Surah Al-Ikhlas"],
+        "ur": ["سورہ الفاتحہ", "سورہ یٰسین", "سورہ البقرہ", "سورہ الاخلاص"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Surah Yaseen is often referred to as the 'Heart of the Quran' due to its profound meanings.",
+      "explanation_ur": "سورہ یٰسین کو اکثر 'قرآن کا دل' کہا جاتا ہے کیونکہ اس کے معانی بہت گہرے ہیں۔",
+      "hint": "It's a Meccan Surah with 83 verses",
+      "hint_ur": "یہ 83 آیات پر مشتمل مکی سورہ ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "How many times should a Muslim perform Hajj in their lifetime?",
+      "question_ur": "ایک مسلمان کو اپنی زندگی میں کتنی بار حج کرنا چاہیے؟",
+      "options": {
+        "en": ["Once", "Twice", "Five times", "As many times as possible"],
+        "ur": ["ایک بار", "دو بار", "پانچ بار", "جتنی بار ممکن ہو"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Hajj is obligatory once in a lifetime for those who are physically and financially able.",
+      "explanation_ur": "حج جسمانی اور مالی طور پر قابل افراد پر زندگی میں ایک بار فرض ہے۔",
+      "hint": "It's one of the five pillars",
+      "hint_ur": "یہ پانچ ستونوں میں سے ایک ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "question": "The first revelation to Prophet Muhammad (PBUH) consisted of the first five verses of Surah Al-Alaq.",
+      "question_ur": "حضرت محمد ﷺ پر پہلی وحی سورہ العلق کی پہلی پانچ آیات پر مشتمل تھی۔",
+      "correctAnswer": true,
+      "explanation": "The first revelation was the first five verses of Surah Al-Alaq (96:1-5) which begin with 'Iqra' (Read).",
+      "explanation_ur": "پہلی وحی سورہ العلق (96:1-5) کی پہلی پانچ آیات تھیں جو 'اقرأ' (پڑھیں) سے شروع ہوتی ہیں۔",
+      "hint": "Think about the Cave of Hira",
+      "hint_ur": "غار حرا کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Which companion of the Prophet (PBUH) was known as the 'Sword of Allah'?",
+      "question_ur": "رسول اللہ ﷺ کے کس صحابی کو 'سیف اللہ' کہا جاتا تھا؟",
+      "options": {
+        "en": ["Abu Bakr (RA)", "Umar (RA)", "Khalid bin Walid (RA)", "Ali (RA)"],
+        "ur": ["ابو بکر رضی اللہ عنہ", "عمر رضی اللہ عنہ", "خالد بن ولید رضی اللہ عنہ", "علی رضی اللہ عنہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Khalid bin Walid (RA) was given the title 'Saifullah' (Sword of Allah) for his military prowess.",
+      "explanation_ur": "خالد بن ولید رضی اللہ عنہ کو ان کی فوجی مہارت کی وجہ سے 'سیف اللہ' (اللہ کی تلوار) کا خطاب دیا گیا تھا۔",
+      "hint": "He was undefeated in over 100 battles",
+      "hint_ur": "وہ 100 سے زائد لڑائیوں میں ناقابل شکست رہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "In which year of the Islamic calendar did the event of Isra and Miraj occur?",
+      "question_ur": "اسراء اور معراج کا واقعہ اسلامی کیلنڈر کے کس سال میں پیش آیا؟",
+      "options": {
+        "en": ["5th year", "10th year", "12th year", "15th year"],
+        "ur": ["پانچویں سال", "دسویں سال", "بارہویں سال", "پندرہویں سال"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Isra and Miraj occurred in the 10th year of Prophethood, approximately 3 years before Hijrah.",
+      "explanation_ur": "اسراء اور معراج نبوت کے دسویں سال میں پیش آیا، تقریباً ہجرت سے تین سال پہلے۔",
+      "hint": "It was before the migration to Madinah",
+      "hint_ur": "یہ مدینہ کی ہجرت سے پہلے تھا",
+      "timeLimit": 35
+    },
+    {
+      "id": 8,
+      "type": "true-false",
+      "question": "The Quran was revealed in the month of Shawwal.",
+      "question_ur": "قرآن ماہ شوال میں نازل ہوا تھا۔",
+      "correctAnswer": false,
+      "explanation": "The Quran was first revealed in the month of Ramadan, specifically on Laylatul Qadr (Night of Power).",
+      "explanation_ur": "قرآن پہلی بار ماہ رمضان میں نازل ہوا، خاص طور پر لیلۃ القدر (راتِ قدر) میں۔",
+      "hint": "Think about the night of power",
+      "hint_ur": "راتِ قدر کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Which prophet is mentioned the most times in the Quran?",
+      "question_ur": "قرآن میں کس نبی کا سب سے زیادہ ذکر آیا ہے؟",
+      "options": {
+        "en": ["Prophet Musa (AS)", "Prophet Ibrahim (AS)", "Prophet Nuh (AS)", "Prophet Isa (AS)"],
+        "ur": ["حضرت موسیٰ علیہ السلام", "حضرت ابراہیم علیہ السلام", "حضرت نوح علیہ السلام", "حضرت عیسیٰ علیہ السلام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Musa (AS) is mentioned by name 136 times in the Quran, more than any other prophet.",
+      "explanation_ur": "حضرت موسیٰ علیہ السلام کا نام قرآن میں 136 بار آیا ہے، جو کسی بھی دوسرے نبی سے زیادہ ہے۔",
+      "hint": "He led the Israelites out of Egypt",
+      "hint_ur": "انہوں نے بنی اسرائیل کو مصر سے نکالا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "How many obligatory prayers (Fard) are there in one day?",
+      "question_ur": "ایک دن میں کتنے فرض نمازیں ہیں؟",
+      "options": {
+        "en": ["3", "5", "7", "9"],
+        "ur": ["3", "5", "7", "9"]
+      },
+      "correctAnswer": 1,
+      "explanation": "There are 5 obligatory prayers daily: Fajr, Dhuhr, Asr, Maghrib, and Isha.",
+      "explanation_ur": "روزانہ 5 فرض نمازیں ہیں: فجر، ظہر، عصر، مغرب اور عشاء۔",
+      "hint": "Count includes dawn, noon, afternoon, sunset and night",
+      "hint_ur": "شمار میں صبح، دوپہر، سہ پہر، غروب آفتاب اور رات شامل ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "question": "The first mosque built in Islam was the Prophet's Mosque in Madinah.",
+      "question_ur": "اسلام میں پہلی مسجد مدینہ میں مسجد نبوی تھی۔",
+      "correctAnswer": false,
+      "explanation": "The first mosque was the Quba Mosque, built when the Prophet (PBUH) migrated to Madinah, before reaching the city center.",
+      "explanation_ur": "پہلی مسجد مسجد قباء تھی، جو رسول اللہ ﷺ کے مدینہ ہجرت کرنے پر شہر کے مرکز میں پہنچنے سے پہلے بنائی گئی تھی۔",
+      "hint": "It was built during the migration journey",
+      "hint_ur": "یہ ہجرت کے سفر کے دوران بنائی گئی تھی",
+      "timeLimit": 25
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Which Surah is called 'Aroos-ul-Quran' (Bride of the Quran)?",
+      "question_ur": "کس سورت کو 'عروس القرآن' (قرآن کی دلہن) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Surah Rahman", "Surah Waqiah", "Surah Mulk", "Surah Yusuf"],
+        "ur": ["سورہ الرحمن", "سورہ الواقعہ", "سورہ الملک", "سورہ یوسف"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Surah Ar-Rahman is called 'Aroos-ul-Quran' due to its beautiful rhythmic style and the repeated verse 'Which of the favors of your Lord will you deny?'",
+      "explanation_ur": "سورہ الرحمن کو 'عروس القرآن' کہا جاتا ہے کیونکہ اس کا خوبصورت موزوں انداز اور بار بار دہرایا جانے والا آیت 'فبای آلاء ربكما تكذبان' (پس تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟)",
+      "hint": "It has a distinctive refrain repeated many times",
+      "hint_ur": "اس میں ایک مخصوص جملہ کئی بار دہرایا گیا ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "How many times is the name of Prophet Muhammad (PBUH) mentioned in the Quran?",
+      "question_ur": "قرآن میں حضرت محمد ﷺ کا نام کتنی بار آیا ہے؟",
+      "options": {
+        "en": ["1 time", "4 times", "7 times", "10 times"],
+        "ur": ["1 بار", "4 بار", "7 بار", "10 بار"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The name 'Muhammad' appears 4 times in the Quran (in 3:144, 33:40, 47:2, and 48:29).",
+      "explanation_ur": "نام 'محمد' قرآن میں 4 بار آیا ہے (3:144، 33:40، 47:2، اور 48:29 میں)",
+      "hint": "It's a single-digit even number",
+      "hint_ur": "یہ ایک ہندسوں والی جفت عدد ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "question": "All chapters of the Quran begin with Bismillah except Surah At-Tawbah.",
+      "question_ur": "قرآن کی تمام سورتیں سورہ التوبہ کے علاوہ بسم اللہ سے شروع ہوتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Surah At-Tawbah is the only chapter that doesn't begin with Bismillah. Scholars suggest it's because it deals with declaration of war against polytheists.",
+      "explanation_ur": "سورہ التوبہ واحد سورہ ہے جو بسم اللہ سے شروع نہیں ہوتی۔ علماء کا کہنا ہے کہ یہ اس لیے کہ یہ مشرکین کے خلاف جنگ کے اعلان سے متعلق ہے۔",
+      "hint": "It's also called Surah Bara'ah",
+      "hint_ur": "اسے سورہ براءت بھی کہا جاتا ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Which angel is responsible for blowing the trumpet on the Day of Judgment?",
+      "question_ur": "قیامت کے دن صور پھونکنے کی ذمہ داری کس فرشتے کی ہے؟",
+      "options": {
+        "en": ["Jibreel (AS)", "Mikaeel (AS)", "Israfil (AS)", "Izraeel (AS)"],
+        "ur": ["جبرائیل علیہ السلام", "میکائیل علیہ السلام", "اسرافیل علیہ السلام", "عزرائیل علیہ السلام"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Angel Israfil (AS) is assigned to blow the trumpet (Soor) twice: first to announce the Day of Judgment and second for resurrection.",
+      "explanation_ur": "فرشتہ اسرافیل علیہ السلام کو صور پھونکنے کی ذمہ داری دی گئی ہے: پہلی بار قیامت کے اعلان کے لیے اور دوسری بار حشر کے لیے۔",
+      "hint": "This angel is associated with sound/trumpet",
+      "hint_ur": "یہ فرشتہ آواز/صور سے منسلک ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "How many years did it take for the complete revelation of the Quran?",
+      "question_ur": "قرآن کی مکمل وحی نازل ہونے میں کتنا وقت لگا؟",
+      "options": {
+        "en": ["10 years", "23 years", "30 years", "40 years"],
+        "ur": ["10 سال", "23 سال", "30 سال", "40 سال"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Quran was revealed gradually over 23 years: 13 years in Makkah and 10 years in Madinah.",
+      "explanation_ur": "قرآن 23 سال کے عرصے میں بتدریج نازل ہوا: 13 سال مکہ میں اور 10 سال مدینہ میں۔",
+      "hint": "It spans the entire prophetic period",
+      "hint_ur": "یہ پوری نبوی مدت پر محیط ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 17,
+      "type": "true-false",
+      "question": "The Quran has 114 Surahs and 6666 verses.",
+      "question_ur": "قرآن میں 114 سورتیں اور 6666 آیات ہیں۔",
+      "correctAnswer": false,
+      "explanation": "While there are indeed 114 Surahs, the number of verses varies slightly between different counting methods (usually between 6236-6348 verses).",
+      "explanation_ur": "اگرچہ 114 سورتیں ہیں، لیکن آیات کی تعداد مختلف گنتی کے طریقوں کے درمیان تھوڑی سی مختلف ہوتی ہے (عام طور پر 6236-6348 آیات کے درمیان)",
+      "hint": "Verse count differs by recitation style",
+      "hint_ur": "آیات کی تعداد تلاوت کے انداز کے لحاظ سے مختلف ہوتی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Which companion was the first martyr in Islam?",
+      "question_ur": "اسلام میں پہلے شہید کون صحابی تھے؟",
+      "options": {
+        "en": ["Sumayyah bint Khayyat (RA)", "Hamza (RA)", "Umar (RA)", "Bilal (RA)"],
+        "ur": ["سمیہ بنت خیاط رضی اللہ عنہا", "حمزہ رضی اللہ عنہ", "عمر رضی اللہ عنہ", "بلال رضی اللہ عنہ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Sumayyah bint Khayyat (RA), a slave of Abu Jahl, was the first martyr in Islam when she was killed for refusing to renounce her faith.",
+      "explanation_ur": "سمیہ بنت خیاط رضی اللہ عنہا، جو ابو جہل کی لونڈی تھیں، اسلام کی پہلی شہید تھیں جب انہیں اپنے ایمان سے دستبردار ہونے سے انکار پر قتل کر دیا گیا۔",
+      "hint": "She was a female slave",
+      "hint_ur": "وہ ایک خاتون غلام تھیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "In which Surah is the verse of the Throne (Ayat-ul-Kursi) found?",
+      "question_ur": "آیت الکرسی کس سورہ میں ہے؟",
+      "options": {
+        "en": ["Surah Al-Baqarah", "Surah Al-Imran", "Surah An-Nisa", "Surah Al-Ma'idah"],
+        "ur": ["سورہ البقرہ", "سورہ آل عمران", "سورہ النساء", "سورہ المائدہ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Ayat-ul-Kursi is verse 255 of Surah Al-Baqarah (2:255), describing Allah's supreme power and knowledge.",
+      "explanation_ur": "آیت الکرسی سورہ البقرہ (2:255) کی آیت 255 ہے، جو اللہ کی اعلیٰ طاقت اور علم کی وضاحت کرتی ہے۔",
+      "hint": "It's in the longest Surah",
+      "hint_ur": "یہ سب سے لمبی سورہ میں ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 20,
+      "type": "true-false",
+      "question": "Zakat is obligatory on gold when it reaches the nisab and one lunar year has passed.",
+      "question_ur": "زکٰوۃ سونے پر فرض ہے جب وہ نصاب کو پہنچ جائے اور ایک قمری سال گزر جائے۔",
+      "correctAnswer": true,
+      "explanation": "Zakat becomes obligatory on gold (and other wealth) when it reaches the nisab (minimum amount) and remains in possession for one lunar year (Hawl).",
+      "explanation_ur": "زکٰوۃ سونے (اور دوسری دولت) پر فرض ہو جاتی ہے جب وہ نصاب (کم از کم مقدار) کو پہنچ جائے اور ایک قمری سال (حول) تک ملکیت میں رہے۔",
+      "hint": "Nisab for gold is about 87.48 grams",
+      "hint_ur": "سونے کا نصاب تقریباً 87.48 گرام ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Which prophet is known as 'Khalilullah' (Friend of Allah)?",
+      "question_ur": "کس نبی کو 'خلیل اللہ' (اللہ کا دوست) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Prophet Musa (AS)", "Prophet Isa (AS)", "Prophet Ibrahim (AS)", "Prophet Dawud (AS)"],
+        "ur": ["حضرت موسیٰ علیہ السلام", "حضرت عیسیٰ علیہ السلام", "حضرت ابراہیم علیہ السلام", "حضرت داؤد علیہ السلام"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Prophet Ibrahim (AS) was given the title 'Khalilullah' due to his close friendship with Allah.",
+      "explanation_ur": "حضرت ابراہیم علیہ السلام کو اللہ کے ساتھ گہری دوستی کی وجہ سے 'خلیل اللہ' کا خطاب دیا گیا تھا۔",
+      "hint": "He built the Kaaba with his son",
+      "hint_ur": "انہوں نے اپنے بیٹے کے ساتھ کعبہ تعمیر کیا",
+      "timeLimit": 20
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "How many Rakah are there in the five daily prayers combined?",
+      "question_ur": "پانچ روزہ نمازوں میں مجموعی طور پر کتنی رکعتیں ہیں؟",
+      "options": {
+        "en": ["17", "27", "32", "40"],
+        "ur": ["17", "27", "32", "40"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Total rakah: Fajr (2), Dhuhr (4), Asr (4), Maghrib (3), Isha (4) = 17 rakah.",
+      "explanation_ur": "کل رکعتیں: فجر (2)، ظہر (4)، عصر (4)، مغرب (3)، عشاء (4) = 17 رکعتیں۔",
+      "hint": "Count is between 15-20",
+      "hint_ur": "شمار 15-20 کے درمیان ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 23,
+      "type": "true-false",
+      "question": "The Quran was first compiled into a single book during the caliphate of Abu Bakr (RA).",
+      "question_ur": "قرآن پہلی بار حضرت ابو بکر رضی اللہ عنہ کے دور خلافت میں ایک کتاب کی شکل میں جمع کیا گیا تھا۔",
+      "correctAnswer": true,
+      "explanation": "After the Battle of Yamama where many memorizers of Quran were martyred, Abu Bakr (RA) ordered the compilation of Quran into a single book under Zaid bin Thabit's supervision.",
+      "explanation_ur": "جنگ یمامہ کے بعد جب بہت سے حافظ قرآن شہید ہو گئے تو حضرت ابو بکر رضی اللہ عنہ نے زید بن ثابت کی نگرانی میں قرآن کو ایک کتاب کی شکل میں جمع کرنے کا حکم دیا۔",
+      "hint": "This was after many memorizers died in battle",
+      "hint_ur": "یہ اس وقت ہوا جب بہت سے حافظ جنگ میں شہید ہو گئے تھے",
+      "timeLimit": 35
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which Surah is recited in every Rakah of Salah?",
+      "question_ur": "کون سی سورت ہر رکعت نماز میں پڑھی جاتی ہے؟",
+      "options": {
+        "en": ["Surah Ikhlas", "Surah Fatiha", "Surah Yaseen", "Surah Baqarah"],
+        "ur": ["سورہ اخلاص", "سورہ فاتحہ", "سورہ یٰسین", "سورہ بقرہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Surah Al-Fatiha is recited in every Rakah of every Salah, making it the most repeated chapter of the Quran.",
+      "explanation_ur": "سورہ الفاتحہ ہر نماز کی ہر رکعت میں پڑھی جاتی ہے، جو اسے قرآن کی سب سے زیادہ دہرائی جانے والی سورت بناتی ہے۔",
+      "hint": "It's called 'The Opening'",
+      "hint_ur": "اسے 'فاتحہ' کہا جاتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Which prophet's story is mentioned most in the Quran?",
+      "question_ur": "قرآن میں کس نبی کا واقعہ سب سے زیادہ بیان ہوا ہے؟",
+      "options": {
+        "en": ["Prophet Yusuf (AS)", "Prophet Musa (AS)", "Prophet Nuh (AS)", "Prophet Ibrahim (AS)"],
+        "ur": ["حضرت یوسف علیہ السلام", "حضرت موسیٰ علیہ السلام", "حضرت نوح علیہ السلام", "حضرت ابراہیم علیہ السلام"]
+      },
+      "correctAnswer": 1,
+      "explanation": "While Prophet Musa (AS) is mentioned most by name, the detailed story of Prophet Yusuf (AS) spans an entire Surah (Surah Yusuf) making his narrative the most extensive.",
+      "explanation_ur": "اگرچہ حضرت موسیٰ علیہ السلام کا نام سب سے زیادہ آیا ہے، لیکن حضرت یوسف علیہ السلام کا مکمل واقعہ ایک پوری سورت (سورہ یوسف) میں بیان ہوا ہے جو ان کے قصے کو سب سے زیادہ تفصیلی بناتا ہے۔",
+      "hint": "His story is told in one complete Surah",
+      "hint_ur": "ان کا قصہ ایک مکمل سورت میں بیان ہوا ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 26,
+      "type": "true-false",
+      "question": "The first call to prayer (Adhan) was given by Bilal (RA).",
+      "question_ur": "پہلی اذان بلال رضی اللہ عنہ نے دی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Bilal ibn Rabah (RA), a former slave who became Islam's first muezzin, gave the first Adhan after it was suggested by Abdullah ibn Zaid (RA) who saw it in a dream.",
+      "explanation_ur": "بلال بن رباح رضی اللہ عنہ، جو ایک سابق غلام تھے اور اسلام کے پہلے موذن بنے، نے پہلی اذان دی جب عبداللہ بن زید رضی اللہ عنہ نے خواب میں دیکھ کر اس کا مشورہ دیا۔",
+      "hint": "He was known for his beautiful voice",
+      "hint_ur": "وہ اپنی خوبصورت آواز کے لیے مشہور تھے",
+      "timeLimit": 25
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "Which Surah is known as 'Umm-ul-Quran' (Mother of the Quran)?",
+      "question_ur": "کس سورت کو 'ام القرآن' (قرآن کی ماں) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Surah Baqarah", "Surah Fatiha", "Surah Ikhlas", "Surah Yaseen"],
+        "ur": ["سورہ بقرہ", "سورہ فاتحہ", "سورہ اخلاص", "سورہ یٰسین"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Surah Al-Fatiha is called 'Umm-ul-Quran' because it contains the essence of the entire Quran in condensed form.",
+      "explanation_ur": "سورہ الفاتحہ کو 'ام القرآن' کہا جاتا ہے کیونکہ اس میں پورے قرآن کا نچوڑ موجود ہے۔",
+      "hint": "It's recited in every Rakah",
+      "hint_ur": "یہ ہر رکعت میں پڑھی جاتی ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "How many times must Hajj rituals be performed in a lifetime?",
+      "question_ur": "زندگی میں کتنی بار حج کے ارکان ادا کرنا ضروری ہیں؟",
+      "options": {
+        "en": ["Once", "Twice", "Five times", "Every five years"],
+        "ur": ["ایک بار", "دو بار", "پانچ بار", "ہر پانچ سال بعد"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Hajj is obligatory once in a lifetime for those who are physically and financially able (Fard al-Ayn).",
+      "explanation_ur": "حج جسمانی اور مالی طور پر قابل افراد پر زندگی میں ایک بار فرض ہے (فرض عین)۔",
+      "hint": "It's one of the five pillars",
+      "hint_ur": "یہ پانچ ستونوں میں سے ایک ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 29,
+      "type": "true-false",
+      "question": "The Quran was revealed in seven different dialects.",
+      "question_ur": "قرآن سات مختلف لہجوں میں نازل ہوا تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Quran was revealed in seven ahruf (dialects/styles) to accommodate different Arab tribes, though only one complete version remains today.",
+      "explanation_ur": "قرآن سات احرف (لہجے/انداز) میں نازل ہوا تھا تاکہ مختلف عرب قبائل کو سہولت ہو، اگرچہ آج صرف ایک مکمل ورژن باقی ہے۔",
+      "hint": "This made it easier for different tribes",
+      "hint_ur": "اس سے مختلف قبائل کے لیے آسان ہو گیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "Which companion was known as 'As-Siddiq' (The Truthful)?",
+      "question_ur": "کس صحابی کو 'الصدیق' (سچا) کہا جاتا تھا؟",
+      "options": {
+        "en": ["Umar ibn Al-Khattab (RA)", "Abu Bakr (RA)", "Uthman ibn Affan (RA)", "Ali ibn Abi Talib (RA)"],
+        "ur": ["عمر بن الخطاب رضی اللہ عنہ", "ابو بکر رضی اللہ عنہ", "عثمان بن عفان رضی اللہ عنہ", "علی بن ابی طالب رضی اللہ عنہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr (RA) earned the title 'As-Siddiq' when he immediately believed the Prophet's (PBUH) account of the Isra and Miraj journey when others doubted.",
+      "explanation_ur": "ابو بکر رضی اللہ عنہ کو 'الصدیق' کا خطاب ملا جب انہوں نے فوراً رسول اللہ ﷺ کے اسراء اور معراج کے واقعے پر یقین کیا جبکہ دوسروں کو شک تھا۔",
+      "hint": "He was the first adult male to accept Islam",
+      "hint_ur": "وہ اسلام قبول کرنے والے پہلے بالغ مرد تھے",
+      "timeLimit": 25
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "In which month was the Quran first revealed?",
+      "question_ur": "قرآن پہلی بار کس مہینے میں نازل ہوا؟",
+      "options": {
+        "en": ["Muharram", "Rajab", "Ramadan", "Shawwal"],
+        "ur": ["محرم", "رجب", "رمضان", "شوال"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Quran was first revealed in the month of Ramadan, specifically on Laylatul Qadr (the Night of Power).",
+      "explanation_ur": "قرآن پہلی بار ماہ رمضان میں نازل ہوا، خاص طور پر لیلۃ القدر (راتِ قدر) میں۔",
+      "hint": "This month includes the Night of Power",
+      "hint_ur": "اس مہینے میں راتِ قدر شامل ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 32,
+      "type": "true-false",
+      "question": "The Battle of Uhud was fought before the Battle of Badr.",
+      "question_ur": "غزوہ احد غزوہ بدر سے پہلے لڑا گیا تھا۔",
+      "correctAnswer": false,
+      "explanation": "The Battle of Badr (2 AH) occurred before the Battle of Uhud (3 AH). Badr was the first major battle in Islamic history.",
+      "explanation_ur": "غزوہ بدر (2 ہجری) غزوہ احد (3 ہجری) سے پہلے پیش آیا۔ بدر اسلامی تاریخ کی پہلی بڑی جنگ تھی۔",
+      "hint": "Badr was in 2 AH, Uhud in 3 AH",
+      "hint_ur": "بدر 2 ہجری میں، احد 3 ہجری میں ہوا",
+      "timeLimit": 25
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Which prophet is known for his patience (As-Sabur)?",
+      "question_ur": "کس نبی کو ان کے صبر (الصبر) کی وجہ سے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Prophet Ayub (AS)", "Prophet Yunus (AS)", "Prophet Ibrahim (AS)", "Prophet Musa (AS)"],
+        "ur": ["حضرت ایوب علیہ السلام", "حضرت یونس علیہ السلام", "حضرت ابراہیم علیہ السلام", "حضرت موسیٰ علیہ السلام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Ayub (AS) is renowned for his extraordinary patience during severe trials including loss of health, wealth and family.",
+      "explanation_ur": "حضرت ایوب علیہ السلام اپنے شدید آزمائشوں کے دوران غیر معمولی صبر کے لیے مشہور ہیں جن میں صحت، دولت اور خاندان کا نقصان شامل تھا۔",
+      "hint": "He suffered from illness for many years",
+      "hint_ur": "وہ کئی سالوں تک بیماری میں مبتلا رہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "How many Surahs begin with the word 'Alif-Laam-Meem'?",
+      "question_ur": "کتنے سورے لفظ 'الٓمّ' سے شروع ہوتے ہیں؟",
+      "options": {
+        "en": ["3", "5", "6", "8"],
+        "ur": ["3", "5", "6", "8"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Six Surahs begin with 'Alif-Laam-Meem': Al-Baqarah, Aal-e-Imran, Al-Ankabut, Ar-Rum, Luqman, and As-Sajdah.",
+      "explanation_ur": "چھ سورتیں 'الٓمّ' سے شروع ہوتی ہیں: البقرہ، آل عمران، العنکبوت، الروم، لقمان اور السجدہ۔",
+      "hint": "Count includes some long and some short Surahs",
+      "hint_ur": "شمار میں کچھ لمبی اور کچھ چھوٹی سورتیں شامل ہیں",
+      "timeLimit": 35
+    },
+    {
+      "id": 35,
+      "type": "true-false",
+      "question": "The first verses revealed to Prophet Muhammad (PBUH) were about fasting.",
+      "question_ur": "حضرت محمد ﷺ پر نازل ہونے والی پہلی آیات روزے کے بارے میں تھیں۔",
+      "correctAnswer": false,
+      "explanation": "The first revelation was about reading/learning (Surah Al-Alaq 96:1-5), while fasting was commanded later in Madinah.",
+      "explanation_ur": "پہلی وحی پڑھنے/سیکھنے کے بارے میں تھی (سورہ العلق 96:1-5)، جبکہ روزے کا حکم بعد میں مدینہ میں نازل ہوا۔",
+      "hint": "First revelation begins with 'Iqra' (Read)",
+      "hint_ur": "پہلی وحی 'اقرأ' (پڑھیں) سے شروع ہوتی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Which Surah is named after a woman?",
+      "question_ur": "کس سورت کا نام ایک عورت کے نام پر رکھا گیا ہے؟",
+      "options": {
+        "en": ["Surah Maryam", "Surah Nisa", "Surah Fatir", "Surah Mumtahina"],
+        "ur": ["سورہ مریم", "سورہ نساء", "سورہ فاطر", "سورہ ممتحنہ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Surah Maryam (Chapter 19) is named after Mary (Maryam), the mother of Prophet Isa (AS).",
+      "explanation_ur": "سورہ مریم (باب 19) کا نام مریم (مریم) کے نام پر رکھا گیا ہے، جو حضرت عیسیٰ علیہ السلام کی والدہ تھیں۔",
+      "hint": "She was the mother of a major prophet",
+      "hint_ur": "وہ ایک بڑے نبی کی والدہ تھیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "How many times is the Basmala ('Bismillah...') repeated in the Quran?",
+      "question_ur": "بسم اللہ... قرآن میں کتنی بار دہرایا گیا ہے؟",
+      "options": {
+        "en": ["112", "114", "115", "120"],
+        "ur": ["112", "114", "115", "120"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Basmala appears 114 times in the Quran - at the start of every Surah except Surah At-Tawbah, plus once within Surah An-Naml.",
+      "explanation_ur": "بسم اللہ قرآن میں 114 بار آیا ہے - ہر سورت کے شروع میں سوائے سورہ التوبہ کے، اور ایک بار سورہ النمل کے اندر۔",
+      "hint": "Same number as total Surahs",
+      "hint_ur": "کل سورتوں کی تعداد کے برابر",
+      "timeLimit": 30
+    },
+    {
+      "id": 38,
+      "type": "true-false",
+      "question": "The Quran mentions four holy books revealed before it.",
+      "question_ur": "قرآن میں اس سے پہلے نازل ہونے والی چار مقدس کتابوں کا ذکر ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Quran mentions the Scrolls of Ibrahim (AS), Zabur (Psalms) of Dawud (AS), Tawrat (Torah) of Musa (AS), and Injil (Gospel) of Isa (AS).",
+      "explanation_ur": "قرآن میں حضرت ابراہیم علیہ السلام کی صحیفے، حضرت داؤد علیہ السلام کے زبور، حضرت موسیٰ علیہ السلام کی تورات اور حضرت عیسیٰ علیہ السلام کی انجیل کا ذکر ہے۔",
+      "hint": "They were given to different prophets",
+      "hint_ur": "وہ مختلف انبیاء کو دی گئی تھیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "Which Surah has two Bismillahs in it?",
+      "question_ur": "کس سورت میں دو بسم اللہ ہیں؟",
+      "options": {
+        "en": ["Surah Naml", "Surah Taha", "Surah Fatiha", "Surah Yusuf"],
+        "ur": ["سورہ نمل", "سورہ طہ", "سورہ فاتحہ", "سورہ یوسف"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Surah An-Naml (27) has a Bismillah at the beginning (like all Surahs except At-Tawbah) and another within verse 30 as part of Prophet Sulaiman's letter to Queen Bilqis.",
+      "explanation_ur": "سورہ النمل (27) کے شروع میں ایک بسم اللہ ہے (جیسے تمام سورتوں میں سوائے التوبہ کے) اور آیت 30 کے اندر ایک اور بسم اللہ ہے جو حضرت سلیمان علیہ السلام کے ملکہ بلقیس کے خط کا حصہ ہے۔",
+      "hint": "It mentions ants and a hoopoe bird",
+      "hint_ur": "اس میں چیونٹیوں اور ہدہد پرندے کا ذکر ہے",
+      "timeLimit": 35
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "Which companion was the first to memorize the entire Quran?",
+      "question_ur": "کون سا صحابی پورا قرآن حفظ کرنے والا پہلا شخص تھا؟",
+      "options": {
+        "en": ["Abu Bakr (RA)", "Uthman (RA)", "Ali (RA)", "Zaid bin Thabit (RA)"],
+        "ur": ["ابو بکر رضی اللہ عنہ", "عثمان رضی اللہ عنہ", "علی رضی اللہ عنہ", "زید بن ثابت رضی اللہ عنہ"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Zaid bin Thabit (RA) was among the first to memorize the entire Quran and was the primary scribe of revelation.",
+      "explanation_ur": "زید بن ثابت رضی اللہ عنہ پورا قرآن حفظ کرنے والے پہلے افراد میں سے تھے اور وحی کے بنیادی کاتب تھے۔",
+      "hint": "He was also the main compiler of the Quran",
+      "hint_ur": "وہ قرآن کے بنیادی جامع بھی تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 41,
+      "type": "true-false",
+      "question": "The shortest Surah in the Quran is Surah Al-Kawthar.",
+      "question_ur": "قرآن کی سب سے چھوٹی سورت سورہ الکوثر ہے۔",
+      "correctAnswer": true,
+      "explanation": "Surah Al-Kawthar (108) has only 3 verses, making it the shortest Surah in the Quran.",
+      "explanation_ur": "سورہ الکوثر (108) میں صرف 3 آیات ہیں، جو اسے قرآن کی سب سے چھوٹی سورت بناتی ہیں۔",
+      "hint": "It has only 10 words in Arabic",
+      "hint_ur": "عربی میں اس کے صرف 10 الفاظ ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "Which prophet is known as 'Kalimullah' (The one who spoke with Allah)?",
+      "question_ur": "کس نبی کو 'کلیم اللہ' (وہ جو اللہ سے بولا) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Prophet Ibrahim (AS)", "Prophet Musa (AS)", "Prophet Isa (AS)", "Prophet Muhammad (PBUH)"],
+        "ur": ["حضرت ابراہیم علیہ السلام", "حضرت موسیٰ علیہ السلام", "حضرت عیسیٰ علیہ السلام", "حضرت محمد ﷺ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Prophet Musa (AS) was given the title 'Kalimullah' because Allah spoke directly to him at Mount Sinai.",
+      "explanation_ur": "حضرت موسیٰ علیہ السلام کو 'کلیم اللہ' کا خطاب دیا گیا کیونکہ اللہ نے کوہ سینا پر ان سے براہ راست کلام کیا۔",
+      "hint": "He received the Ten Commandments",
+      "hint_ur": "انہیں دس احکامات ملے تھے",
+      "timeLimit": 25
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "In which Surah is the story of the People of the Cave mentioned?",
+      "question_ur": "اصحاب کہف کا واقعہ کس سورت میں بیان ہوا ہے؟",
+      "options": {
+        "en": ["Surah Kahf", "Surah Maryam", "Surah Anbiya", "Surah Furqan"],
+        "ur": ["سورہ کہف", "سورہ مریم", "سورہ انبیاء", "سورہ فرقان"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The story of the People of the Cave (Ashab al-Kahf) is mentioned in Surah Al-Kahf (Chapter 18), verses 9-26.",
+      "explanation_ur": "اصحاب کہف کا واقعہ سورہ الکہف (باب 18)، آیات 9-26 میں بیان ہوا ہے۔",
+      "hint": "The Surah is named after them",
+      "hint_ur": "سورت کا نام انہی کے نام پر ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 44,
+      "type": "true-false",
+      "question": "The Quran contains 30 Juz (parts) of equal length.",
+      "question_ur": "قرآن میں 30 برابر حصے (جز) ہیں۔",
+      "correctAnswer": false,
+      "explanation": "While the Quran is divided into 30 Juz for recitation purposes, they are not of exactly equal length but roughly equal.",
+      "explanation_ur": "اگرچہ قرآن کو تلاوت کے مقاصد کے لیے 30 جز میں تقسیم کیا گیا ہے، لیکن یہ بالکل برابر نہیں ہیں بلکہ تقریباً برابر ہیں۔",
+      "hint": "Division is for monthly recitation",
+      "hint_ur": "تقسیم ماہانہ تلاوت کے لیے ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Which prophet was sent to the people of Thamud?",
+      "question_ur": "کس نبی کو قوم ثمود کی طرف بھیجا گیا تھا؟",
+      "options": {
+        "en": ["Prophet Hud (AS)", "Prophet Salih (AS)", "Prophet Shuayb (AS)", "Prophet Lut (AS)"],
+        "ur": ["حضرت ہود علیہ السلام", "حضرت صالح علیہ السلام", "حضرت شعیب علیہ السلام", "حضرت لوط علیہ السلام"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Prophet Salih (AS) was sent to the people of Thamud, who were known for carving homes in mountains and were destroyed for killing the she-camel.",
+      "explanation_ur": "حضرت صالح علیہ السلام کو قوم ثمود کی طرف بھیجا گیا تھا، جو پہاڑوں میں گھر تراشنے کے لیے مشہور تھے اور اونٹنی کو مارنے کی وجہ سے تباہ ہوئے۔",
+      "hint": "His people demanded a miracle with a she-camel",
+      "hint_ur": "ان کی قوم نے ایک اونٹنی کے ساتھ معجزہ مانگا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "Which Surah is called 'Taj-ul-Quran' (Crown of the Quran)?",
+      "question_ur": "کس سورت کو 'تاج القرآن' (قرآن کا تاج) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Surah Rahman", "Surah Ya-Sin", "Surah Baqarah", "Surah Mulk"],
+        "ur": ["سورہ الرحمن", "سورہ یٰسین", "سورہ البقرہ", "سورہ الملک"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Surah Ar-Rahman is called 'Taj-ul-Quran' due to its beautiful rhythmic style and profound message about Allah's blessings.",
+      "explanation_ur": "سورہ الرحمن کو 'تاج القرآن' کہا جاتا ہے کیونکہ اس کا خوبصورت موزوں انداز اور اللہ کی نعمتوں کے بارے میں گہرا پیغام ہے۔",
+      "hint": "It repeats a distinctive refrain",
+      "hint_ur": "یہ ایک مخصوص جملہ بار بار دہراتی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 47,
+      "type": "true-false",
+      "question": "The Quran was revealed in the Arabic language only.",
+      "question_ur": "قرآن صرف عربی زبان میں نازل ہوا تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Quran was revealed in clear Arabic language (26:195) and translations are considered interpretations of its meaning.",
+      "explanation_ur": "قرآن صاف عربی زبان میں نازل ہوا (26:195) اور تراجم اس کے معنی کی تشریحات سمجھے جاتے ہیں۔",
+      "hint": "This is mentioned in the Quran itself",
+      "hint_ur": "یہ قرآن میں خود ذکر ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "Which prophet is known as 'Nabiullah' (Prophet of Allah)?",
+      "question_ur": "کس نبی کو 'نبی اللہ' (اللہ کے نبی) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Prophet Nuh (AS)", "Prophet Dawud (AS)", "Prophet Ayyub (AS)", "Prophet Yunus (AS)"],
+        "ur": ["حضرت نوح علیہ السلام", "حضرت داؤد علیہ السلام", "حضرت ایوب علیہ السلام", "حضرت یونس علیہ السلام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Nuh (AS) is specifically called 'Nabiullah' in hadith literature for his long and patient prophethood.",
+      "explanation_ur": "حضرت نوح علیہ السلام کو حدیث کی کتابوں میں خاص طور پر 'نبی اللہ' کہا گیا ہے ان کی لمبی اور صابرانہ نبوت کی وجہ سے۔",
+      "hint": "He preached for 950 years",
+      "hint_ur": "انہوں نے 950 سال تبلیغ کی",
+      "timeLimit": 30
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "In which Surah is the Ayah about 'Hijab' (veiling) found?",
+      "question_ur": "حجاب کے بارے میں آیت کس سورہ میں ہے؟",
+      "options": {
+        "en": ["Surah Nur", "Surah Ahzab", "Surah Muminun", "Surah Hadid"],
+        "ur": ["سورہ نور", "سورہ احزاب", "سورہ مومنون", "سورہ حدید"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The primary verses about Hijab are in Surah Al-Ahzab (33:59) and Surah An-Nur (24:31), but the more detailed instruction is in Surah Al-Ahzab.",
+      "explanation_ur": "حجاب کے بارے میں بنیادی آیات سورہ الاحزاب (33:59) اور سورہ النور (24:31) میں ہیں، لیکن زیادہ تفصیلی ہدایت سورہ الاحزاب میں ہے۔",
+      "hint": "It's in a Surah named after confederates",
+      "hint_ur": "یہ ایک ایسی سورت میں ہے جس کا نام اتحادیوں کے نام پر ہے",
+      "timeLimit": 35
+    },
+    {
+      "id": 50,
+      "type": "true-false",
+      "question": "The first complete compilation of the Quran was done during Uthman's (RA) caliphate.",
+      "question_ur": "قرآن کی پہلی مکمل تدوین حضرت عثمان رضی اللہ عنہ کے دور خلافت میں ہوئی تھی۔",
+      "correctAnswer": false,
+      "explanation": "The first compilation was during Abu Bakr's (RA) caliphate, while Uthman (RA) later standardized the copies.",
+      "explanation_ur": "پہلی تدوین حضرت ابو بکر رضی اللہ عنہ کے دور خلافت میں ہوئی، جبکہ حضرت عثمان رضی اللہ عنہ نے بعد میں نسخوں کو معیاری شکل دی۔",
+      "hint": "First compilation was after many memorizers died",
+      "hint_ur": "پہلی تدوین بہت سے حافظوں کے شہید ہونے کے بعد ہوئی",
+      "timeLimit": 30
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "Which Surah is known as 'Quran Majeed'?",
+      "question_ur": "کس سورت کو 'قرآن مجید' کہا جاتا ہے؟",
+      "options": {
+        "en": ["Surah Fatiha", "Surah Yaseen", "Surah Rahman", "Surah Buruj"],
+        "ur": ["سورہ فاتحہ", "سورہ یٰسین", "سورہ الرحمن", "سورہ البروج"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Surah Al-Buruj (85) is called 'Quran Majeed' in its 21st verse, making it unique with this title.",
+      "explanation_ur": "سورہ البروج (85) کو اس کی 21ویں آیت میں 'قرآن مجید' کہا گیا ہے، جو اسے اس عنوان کے ساتھ منفرد بناتا ہے۔",
+      "hint": "It mentions 'the heaven possessing the constellations'",
+      "hint_ur": "اس میں 'برجوں والے آسمان' کا ذکر ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "Which prophet was given the ability to understand the language of birds?",
+      "question_ur": "کس نبی کو پرندوں کی زبان سمجھنے کی صلاحیت دی گئی تھی؟",
+      "options": {
+        "en": ["Prophet Sulaiman (AS)", "Prophet Dawud (AS)", "Prophet Yunus (AS)", "Prophet Isa (AS)"],
+        "ur": ["حضرت سلیمان علیہ السلام", "حضرت داؤد علیہ السلام", "حضرت یونس علیہ السلام", "حضرت عیسیٰ علیہ السلام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Sulaiman (AS) was given the ability to understand and speak with birds, as mentioned in Surah An-Naml (27:16).",
+      "explanation_ur": "حضرت سلیمان علیہ السلام کو پرندوں کی زبان سمجھنے اور بولنے کی صلاحیت دی گئی تھی، جیسا کہ سورہ النمل (27:16) میں ذکر ہے۔",
+      "hint": "He also controlled jinn and wind",
+      "hint_ur": "وہ جنات اور ہوا کو بھی کنٹرول کرتے تھے",
+      "timeLimit": 25
+    },
+    {
+      "id": 53,
+      "type": "true-false",
+      "question": "The Quran mentions that honey has healing properties.",
+      "question_ur": "قرآن میں ذکر ہے کہ شہد میں شفا کے خواص ہیں۔",
+      "correctAnswer": true,
+      "explanation": "In Surah An-Nahl (16:69), Allah mentions that honey has healing properties for mankind.",
+      "explanation_ur": "سورہ النحل (16:69) میں اللہ نے ذکر کیا ہے کہ شہد میں انسانوں کے لیے شفا کے خواص ہیں۔",
+      "hint": "It's in the 'Bee' Surah",
+      "hint_ur": "یہ 'مکھی' والی سورت میں ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "Which Surah is recited specifically for protection from Dajjal?",
+      "question_ur": "دجال سے حفاظت کے لیے خاص طور پر کون سی سورت پڑھی جاتی ہے؟",
+      "options": {
+        "en": ["Surah Kahf", "Surah Mulk", "Surah Yaseen", "Surah Ikhlas"],
+        "ur": ["سورہ کہف", "سورہ ملک", "سورہ یٰسین", "سورہ اخلاص"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Prophet (PBUH) recommended reciting the first 10 verses or last 10 verses of Surah Al-Kahf for protection from Dajjal.",
+      "explanation_ur": "نبی ﷺ نے دجال سے حفاظت کے لیے سورہ الکہف کی پہلی 10 آیات یا آخری 10 آیات پڑھنے کی سفارش کی ہے۔",
+      "hint": "It mentions the People of the Cave",
+      "hint_ur": "اس میں اصحاب کہف کا ذکر ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "How many times is the name 'Muhammad' mentioned in the Quran?",
+      "question_ur": "قرآن میں نام 'محمد' کتنی بار آیا ہے؟",
+      "options": {
+        "en": ["1 time", "4 times", "5 times", "7 times"],
+        "ur": ["1 بار", "4 بار", "5 بار", "7 بار"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The name 'Muhammad' appears 4 times in the Quran (in 3:144, 33:40, 47:2, and 48:29).",
+      "explanation_ur": "نام 'محمد' قرآن میں 4 بار آیا ہے (3:144، 33:40، 47:2، اور 48:29 میں)",
+      "hint": "It's an even number less than 5",
+      "hint_ur": "یہ 5 سے کم ایک جفت عدد ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 56,
+      "type": "true-false",
+      "question": "The Quran contains scientific facts discovered only recently by modern science.",
+      "question_ur": "قرآن میں ایسے سائنسی حقائق موجود ہیں جو حال ہی میں جدید سائنس نے دریافت کیے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "The Quran mentions several scientific facts (embryology, water cycle, expansion of universe etc.) that were only discovered by modern science centuries later.",
+      "explanation_ur": "قرآن میں کئی سائنسی حقائق (جنینیات، پانی کا چکر، کائنات کے پھیلاؤ وغیرہ) کا ذکر ہے جو صدیوں بعد جدید سائنس نے دریافت کیے۔",
+      "hint": "Includes embryology and astronomy",
+      "hint_ur": "جنینیات اور فلکیات شامل ہیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "Which prophet was swallowed by a big fish?",
+      "question_ur": "کس نبی کو ایک بڑی مچھلی نے نگل لیا تھا؟",
+      "options": {
+        "en": ["Prophet Yunus (AS)", "Prophet Musa (AS)", "Prophet Nuh (AS)", "Prophet Ayub (AS)"],
+        "ur": ["حضرت یونس علیہ السلام", "حضرت موسیٰ علیہ السلام", "حضرت نوح علیہ السلام", "حضرت ایوب علیہ السلام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Yunus (AS) was swallowed by a large fish after being thrown overboard, as mentioned in Surah As-Saffat (37:142-145).",
+      "explanation_ur": "حضرت یونس علیہ السلام کو جہاز سے پھینکے جانے کے بعد ایک بڑی مچھلی نے نگل لیا تھا، جیسا کہ سورہ الصافات (37:142-145) میں ذکر ہے۔",
+      "hint": "He's also called 'Dhun-Nun'",
+      "hint_ur": "انہیں 'ذوالنون' بھی کہا جاتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "Which Surah begins with an oath by the pen?",
+      "question_ur": "کس سورت کا آغاز قلم کی قسم سے ہوتا ہے؟",
+      "options": {
+        "en": ["Surah Qalam", "Surah Alaq", "Surah Muddathir", "Surah Muzzammil"],
+        "ur": ["سورہ قلم", "سورہ علق", "سورہ مدثر", "سورہ مزمل"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Surah Al-Qalam (68) begins with the oath 'Nun. By the pen and what they inscribe.'",
+      "explanation_ur": "سورہ القلم (68) کا آغاز قسم سے ہوتا ہے 'ن۔ قسم ہے قلم کی اور اس کی جو کچھ لکھتے ہیں۔'",
+      "hint": "It's the 68th Surah",
+      "hint_ur": "یہ 68ویں سورت ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 59,
+      "type": "true-false",
+      "question": "The Quran was revealed piecemeal over 23 years.",
+      "question_ur": "قرآن 23 سال کے عرصے میں ٹکڑوں ٹکڑوں میں نازل ہوا۔",
+      "correctAnswer": true,
+      "explanation": "The Quran was revealed gradually over 23 years (13 in Makkah and 10 in Madinah) to address circumstances and allow for easier memorization.",
+      "explanation_ur": "قرآن 23 سال (13 مکہ میں اور 10 مدینہ میں) کے عرصے میں بتدریج نازل ہوا تاکہ حالات کو حل کیا جا سکے اور حفظ کرنا آسان ہو۔",
+      "hint": "First revelation was in 610 CE",
+      "hint_ur": "پہلی وحی 610 عیسوی میں نازل ہوئی",
+      "timeLimit": 30
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "Which Surah is named after an insect?",
+      "question_ur": "کس سورت کا نام ایک کیڑے کے نام پر رکھا گیا ہے؟",
+      "options": {
+        "en": ["Surah Naml", "Surah Ankabut", "Surah Nahl", "Surah Fil"],
+        "ur": ["سورہ نمل", "سورہ عنکبوت", "سورہ نحل", "سورہ فیل"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Surah Al-Ankabut (29) is named after the spider ('ankabut' in Arabic), mentioned in verse 41 regarding the flimsiness of false gods.",
+      "explanation_ur": "سورہ العنکبوت (29) کا نام مکڑی ('عنکبوت' عربی میں) کے نام پر رکھا گیا ہے، جو آیت 41 میں جھوٹے معبودوں کی کمزوری کے حوالے سے ذکر ہے۔",
+      "hint": "It means 'The Spider'",
+      "hint_ur": "اس کا مطلب 'مکڑی' ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "Which prophet is known as 'Safiullah' (The Pure One of Allah)?",
+      "question_ur": "کس نبی کو 'صفی اللہ' (اللہ کا پاک) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Prophet Adam (AS)", "Prophet Nuh (AS)", "Prophet Yahya (AS)", "Prophet Isa (AS)"],
+        "ur": ["حضرت آدم علیہ السلام", "حضرت نوح علیہ السلام", "حضرت یحییٰ علیہ السلام", "حضرت عیسیٰ علیہ السلام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Adam (AS) is called 'Safiullah' because Allah created him with His own hands and breathed into him of His spirit.",
+      "explanation_ur": "حضرت آدم علیہ السلام کو 'صفی اللہ' کہا جاتا ہے کیونکہ اللہ نے انہیں اپنے ہاتھوں سے پیدا کیا اور ان میں اپنی روح سے پھونکا۔",
+      "hint": "He was the first human",
+      "hint_ur": "وہ پہلے انسان تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 62,
+      "type": "true-false",
+      "question": "The Quran contains 114 Surahs and all begin with Bismillah except one.",
+      "question_ur": "قرآن میں 114 سورتیں ہیں اور ایک کو چھوڑ کر سب بسم اللہ سے شروع ہوتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "All 114 Surahs begin with Bismillah except Surah At-Tawbah (Repentance), which starts abruptly with a declaration of disassociation.",
+      "explanation_ur": "114 سورتوں میں سے سب بسم اللہ سے شروع ہوتی ہیں سوائے سورہ التوبہ کے، جو ایک اعلان برأت کے ساتھ اچانک شروع ہوتی ہے۔",
+      "hint": "The exception deals with disassociation",
+      "hint_ur": "استثنیٰ برأت سے متعلق ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "Which Surah is known as the 'Beauty of the Quran'?",
+      "question_ur": "کس سورت کو 'قرآن کا حسن' کہا جاتا ہے؟",
+      "options": {
+        "en": ["Surah Rahman", "Surah Yusuf", "Surah Waqiah", "Surah Mulk"],
+        "ur": ["سورہ الرحمن", "سورہ یوسف", "سورہ واقعہ", "سورہ ملک"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Surah Ar-Rahman is called 'The Beauty of the Quran' due to its poetic rhythm and profound message about Allah's blessings.",
+      "explanation_ur": "سورہ الرحمن کو 'قرآن کا حسن' کہا جاتا ہے کیونکہ اس کا شاعرانہ وزن اور اللہ کی نعمتوں کے بارے میں گہرا پیغام ہے۔",
+      "hint": "It repeats a distinctive refrain",
+      "hint_ur": "یہ ایک مخصوص جملہ بار بار دہراتی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "question": "Which prophet was given the miracle of splitting the sea?",
+      "question_ur": "کس نبی کو سمندر کو پھاڑنے کا معجزہ دیا گیا تھا؟",
+      "options": {
+        "en": ["Prophet Musa (AS)", "Prophet Isa (AS)", "Prophet Nuh (AS)", "Prophet Yunus (AS)"],
+        "ur": ["حضرت موسیٰ علیہ السلام", "حضرت عیسیٰ علیہ السلام", "حضرت نوح علیہ السلام", "حضرت یونس علیہ السلام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Musa (AS) was given the miracle of splitting the Red Sea to escape Pharaoh's army, as mentioned in Surah Ash-Shu'ara (26:63).",
+      "explanation_ur": "حضرت موسیٰ علیہ السلام کو فرعون کی فوج سے بچنے کے لیے بحیرہ قلزم کو پھاڑنے کا معجزہ دیا گیا تھا، جیسا کہ سورہ الشعراء (26:63) میں ذکر ہے۔",
+      "hint": "This occurred during Exodus from Egypt",
+      "hint_ur": "یہ مصر سے خروج کے دوران ہوا تھا",
+      "timeLimit": 20
+    },
+    {
+      "id": 65,
+      "type": "true-false",
+      "question": "The Quran mentions that the earth is spherical.",
+      "question_ur": "قرآن میں ذکر ہے کہ زمین گول ہے۔",
+      "correctAnswer": true,
+      "explanation": "In Surah Az-Zumar (39:5), Allah mentions that He 'wraps the night over the day and wraps the day over the night', indicating the spherical shape of earth.",
+      "explanation_ur": "سورہ الزمر (39:5) میں اللہ نے ذکر کیا ہے کہ وہ 'رات کو دن پر لپیٹتا ہے اور دن کو رات پر لپیٹتا ہے'، جو زمین کی گول شکل کی نشاندہی کرتا ہے۔",
+      "hint": "This was revealed 1400 years ago",
+      "hint_ur": "یہ 1400 سال پہلے نازل ہوا تھا",
+      "timeLimit": 25
+    },
+    {
+      "id": 66,
+      "type": "mcq",
+      "question": "Which Surah is recited in funeral prayers?",
+      "question_ur": "جنازہ کی نماز میں کون سی سورت پڑھی جاتی ہے؟",
+      "options": {
+        "en": ["Surah Fatiha", "Surah Ikhlas", "Surah Falaq", "Surah Nas"],
+        "ur": ["سورہ فاتحہ", "سورہ اخلاص", "سورہ فلق", "سورہ ناس"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Surah Al-Fatiha is recited in funeral prayers (Janazah Salah), along with other supplications for the deceased.",
+      "explanation_ur": "جنازہ کی نماز میں سورہ الفاتحہ پڑھی جاتی ہے، اور میت کے لیے دیگر دعائیں بھی کی جاتی ہیں۔",
+      "hint": "It's the opening chapter",
+      "hint_ur": "یہ ابتدائی سورت ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "Which prophet's wife was the daughter of another prophet?",
+      "question_ur": "کس نبی کی بیوی ایک اور نبی کی بیٹی تھی؟",
+      "options": {
+        "en": ["Prophet Musa (AS)", "Prophet Yusuf (AS)", "Prophet Isa (AS)", "Prophet Muhammad (PBUH)"],
+        "ur": ["حضرت موسیٰ علیہ السلام", "حضرت یوسف علیہ السلام", "حضرت عیسیٰ علیہ السلام", "حضرت محمد ﷺ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Musa (AS) married Safura, the daughter of Prophet Shuaib (AS), after helping them water their flock.",
+      "explanation_ur": "حضرت موسیٰ علیہ السلام نے صفورا سے شادی کی جو حضرت شعیب علیہ السلام کی بیٹی تھیں، ان کے ریوڑ کو پانی پلانے میں مدد کرنے کے بعد۔",
+      "hint": "This occurred in Madyan",
+      "hint_ur": "یہ مدین میں ہوا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 68,
+      "type": "true-false",
+      "question": "The Quran contains stories of previous prophets to serve as lessons.",
+      "question_ur": "قرآن میں پچھلے انبیاء کے قصے سبق کے طور پر موجود ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Allah mentions in the Quran (12:111) that the stories of prophets are lessons and guidance for people of understanding.",
+      "explanation_ur": "اللہ نے قرآن (12:111) میں ذکر کیا ہے کہ انبیاء کے قصے عقل والوں کے لیے سبق اور ہدایت ہیں۔",
+      "hint": "About 25 prophets are mentioned",
+      "hint_ur": "تقریباً 25 انبیاء کا ذکر ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "question": "Which Surah is known as 'Al-Munjiyah' (The Savior)?",
+      "question_ur": "کس سورت کو 'المنجیہ' (نجات دہندہ) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Surah Yaseen", "Surah Waqiah", "Surah Mulk", "Surah Sajdah"],
+        "ur": ["سورہ یٰسین", "سورہ واقعہ", "سورہ ملک", "سورہ سجدہ"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Surah As-Sajdah is called 'Al-Munjiyah' because the Prophet (PBUH) said it will intercede for its reciter on Judgment Day.",
+      "explanation_ur": "سورہ السجدہ کو 'المنجیہ' کہا جاتا ہے کیونکہ نبی ﷺ نے فرمایا کہ یہ قیامت کے دن اس کے پڑھنے والے کی شفاعت کرے گی۔",
+      "hint": "It contains a mandatory prostration",
+      "hint_ur": "اس میں ایک لازمی سجدہ ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 70,
+      "type": "mcq",
+      "question": "Which prophet is known as 'Abul Bashar' (Father of Mankind)?",
+      "question_ur": "کس نبی کو 'ابوالبشر' (انسانیت کے باپ) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Prophet Nuh (AS)", "Prophet Adam (AS)", "Prophet Ibrahim (AS)", "Prophet Muhammad (PBUH)"],
+        "ur": ["حضرت نوح علیہ السلام", "حضرت آدم علیہ السلام", "حضرت ابراہیم علیہ السلام", "حضرت محمد ﷺ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Prophet Adam (AS) is called 'Abul Bashar' as he was the first human and ancestor of all mankind.",
+      "explanation_ur": "حضرت آدم علیہ السلام کو 'ابوالبشر' کہا جاتا ہے کیونکہ وہ پہلے انسان اور تمام انسانیت کے جد امجد تھے۔",
+      "hint": "He was created without parents",
+      "hint_ur": "وہ بغیر والدین کے پیدا کیے گئے تھے",
+      "timeLimit": 20
+    },
+    {
+      "id": 71,
+      "type": "true-false",
+      "question": "The Quran was revealed in seven different Arabic dialects.",
+      "question_ur": "قرآن سات مختلف عربی لہجوں میں نازل ہوا تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Quran was revealed in seven ahruf (dialects) to accommodate different Arab tribes, though only one complete version was preserved.",
+      "explanation_ur": "قرآن سات احرف (لہجوں) میں نازل ہوا تھا تاکہ مختلف عرب قبائل کو سہولت ہو، اگرچہ صرف ایک مکمل ورژن محفوظ کیا گیا۔",
+      "hint": "This made memorization easier",
+      "hint_ur": "اس نے حفظ کرنا آسان بنا دیا",
+      "timeLimit": 25
+    },
+    {
+      "id": 72,
+      "type": "mcq",
+      "question": "Which Surah is named after a historical event?",
+      "question_ur": "کس سورت کا نام ایک تاریخی واقعے کے نام پر رکھا گیا ہے؟",
+      "options": {
+        "en": ["Surah Fil", "Surah Qamar", "Surah Dukhan", "Surah Insan"],
+        "ur": ["سورہ فیل", "سورہ قمر", "سورہ دخان", "سورہ انسان"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Surah Al-Fil (The Elephant) is named after the event of Abraha's army with elephants attempting to destroy the Kaaba.",
+      "explanation_ur": "سورہ الفیل (ہاتھی) کا نام ابرہہ کی فیل سوار فوج کے کعبہ کو تباہ کرنے کی کوشش کے واقعے کے نام پر رکھا گیا ہے۔",
+      "hint": "This occurred shortly before the Prophet's birth",
+      "hint_ur": "یہ نبی ﷺ کی پیدائش سے کچھ پہلے ہوا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "Which prophet is known as 'Abul Anbiya' (Father of Prophets)?",
+      "question_ur": "کس نبی کو 'ابوالانبیاء' (انبیاء کے باپ) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Prophet Adam (AS)", "Prophet Nuh (AS)", "Prophet Ibrahim (AS)", "Prophet Ismail (AS)"],
+        "ur": ["حضرت آدم علیہ السلام", "حضرت نوح علیہ السلام", "حضرت ابراہیم علیہ السلام", "حضرت اسماعیل علیہ السلام"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Prophet Ibrahim (AS) is called 'Abul Anbiya' as many prophets including Ismail, Ishaq, Yaqub, Yusuf, Musa, Dawud, Sulaiman and Isa (AS) were from his lineage.",
+      "explanation_ur": "حضرت ابراہیم علیہ السلام کو 'ابوالانبیاء' کہا جاتا ہے کیونکہ بہت سے انبیاء جن میں اسماعیل، اسحاق، یعقوب، یوسف، موسیٰ، داؤد، سلیمان اور عیسیٰ علیہم السلام شامل ہیں ان کی نسل سے تھے۔",
+      "hint": "He rebuilt the Kaaba",
+      "hint_ur": "انہوں نے کعبہ کی تعمیر نو کی",
+      "timeLimit": 25
+    },
+    {
+      "id": 74,
+      "type": "true-false",
+      "question": "The Quran contains 30 Juz (parts) for recitation over one month.",
+      "question_ur": "قرآن میں ایک مہینے میں تلاوت کے لیے 30 جز (حصے) ہیں۔",
+      "correctAnswer": true,
+      "explanation": "The Quran is divided into 30 Juz to facilitate completion of its recitation in one month, especially during Ramadan.",
+      "explanation_ur": "قرآن کو 30 جز میں تقسیم کیا گیا ہے تاکہ اس کی تلاوت ایک مہینے میں مکمل کرنا آسان ہو، خاص طور پر رمضان کے دوران۔",
+      "hint": "Common during Ramadan",
+      "hint_ur": "رمضان میں عام",
+      "timeLimit": 20
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "question": "Which Surah is named after a star?",
+      "question_ur": "کس سورت کا نام ایک ستارے کے نام پر رکھا گیا ہے؟",
+      "options": {
+        "en": ["Surah Najm", "Surah Shams", "Surah Qamar", "Surah Buruj"],
+        "ur": ["سورہ نجم", "سورہ شمس", "سورہ قمر", "سورہ بروج"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Surah An-Najm (53) is named after the star ('najm' in Arabic) mentioned in its first verse.",
+      "explanation_ur": "سورہ النجم (53) کا نام ستارے ('نجم' عربی میں) کے نام پر رکھا گیا ہے جو اس کی پہلی آیت میں ذکر ہے۔",
+      "hint": "It begins with an oath by the star",
+      "hint_ur": "یہ ستارے کی قسم سے شروع ہوتی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "question": "Which prophet was given the miracle of bringing the dead back to life?",
+      "question_ur": "کس نبی کو مردوں کو زندہ کرنے کا معجزہ دیا گیا تھا؟",
+      "options": {
+        "en": ["Prophet Isa (AS)", "Prophet Musa (AS)", "Prophet Ibrahim (AS)", "Prophet Sulaiman (AS)"],
+        "ur": ["حضرت عیسیٰ علیہ السلام", "حضرت موسیٰ علیہ السلام", "حضرت ابراہیم علیہ السلام", "حضرت سلیمان علیہ السلام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Isa (AS) was given the miracle, with Allah's permission, to bring the dead back to life (3:49).",
+      "explanation_ur": "حضرت عیسیٰ علیہ السلام کو اللہ کے حکم سے مردوں کو زندہ کرنے کا معجزہ دیا گیا تھا (3:49)",
+      "hint": "He also healed the blind",
+      "hint_ur": "انہوں نے اندھوں کو بھی شفا دی",
+      "timeLimit": 20
+    },
+    {
+      "id": 77,
+      "type": "true-false",
+      "question": "The Quran mentions that mountains have roots deep in the earth.",
+      "question_ur": "قرآن میں ذکر ہے کہ پہاڑوں کی زمین میں گہری جڑیں ہوتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "In Surah An-Naba (78:7), mountains are described as 'pegs' or 'stakes', matching modern science that discovered mountains have deep roots.",
+      "explanation_ur": "سورہ النبأ (78:7) میں پہاڑوں کو 'میخوں' یا 'کھونٹوں' کے طور پر بیان کیا گیا ہے، جو جدید سائنس سے مطابقت رکھتا ہے جس نے دریافت کیا کہ پہاڑوں کی گہری جڑیں ہوتی ہیں۔",
+      "hint": "This was unknown 1400 years ago",
+      "hint_ur": "یہ 1400 سال پہلے نامعلوم تھا",
+      "timeLimit": 25
+    },
+    {
+      "id": 78,
+      "type": "mcq",
+      "question": "Which Surah is named after a woman who was not a prophet?",
+      "question_ur": "کس سورت کا نام ایک ایسی عورت کے نام پر رکھا گیا ہے جو نبی نہیں تھی؟",
+      "options": {
+        "en": ["Surah Maryam", "Surah Nisa", "Surah Mumtahina", "Surah Zalzalah"],
+        "ur": ["سورہ مریم", "سورہ نساء", "سورہ ممتحنہ", "سورہ زلزلہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Surah Al-Mumtahina (60) is named after the 'examined woman' who pledged allegiance to the Prophet (PBUH), though Maryam (AS) was also not a prophet but is named in Surah Maryam.",
+      "explanation_ur": "سورہ الممتحنہ (60) کا نام 'امتحان میں ڈالی گئی عورت' کے نام پر رکھا گیا ہے جس نے نبی ﷺ سے بیعت کی تھی، اگرچہ مریم علیہ السلام بھی نبی نہیں تھیں لیکن سورہ مریم میں ان کا نام ہے۔",
+      "hint": "It means 'The Examined Woman'",
+      "hint_ur": "اس کا مطلب 'امتحان میں ڈالی گئی عورت' ہے",
+      "timeLimit": 35
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "Which prophet's dua is mentioned in the Quran as being immediately accepted?",
+      "question_ur": "قرآن میں کس نبی کی دعا کا فوری طور پر قبول ہونا ذکر ہے؟",
+      "options": {
+        "en": ["Prophet Yunus (AS)", "Prophet Ayyub (AS)", "Prophet Zakariya (AS)", "Prophet Ibrahim (AS)"],
+        "ur": ["حضرت یونس علیہ السلام", "حضرت ایوب علیہ السلام", "حضرت زکریا علیہ السلام", "حضرت ابراہیم علیہ السلام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Yunus's (AS) dua from the belly of the fish (21:87) was immediately accepted by Allah, who caused the fish to cast him onto the shore.",
+      "explanation_ur": "حضرت یونس علیہ السلام کی مچھلی کے پیٹ سے دعا (21:87) فوری طور پر اللہ نے قبول کی، جس نے مچھلی کو حکم دیا کہ وہ انہیں کنارے پر ڈال دے۔",
+      "hint": "He was in the darkness of three things",
+      "hint_ur": "وہ تین چیزوں کے اندھیرے میں تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 80,
+      "type": "true-false",
+      "question": "The Quran contains verses about the development of the human embryo.",
+      "question_ur": "قرآن میں انسانی جنین کی نشوونما کے بارے میں آیات موجود ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Surah Al-Mu'minun (23:12-14) describes embryonic development stages (nutfah, alaqah, mudghah) matching modern embryology.",
+      "explanation_ur": "سورہ المومنون (23:12-14) جنین کی نشوونما کے مراحل (نطفہ، علقہ، مضغہ) بیان کرتی ہے جو جدید جنین کی سائنس سے مطابقت رکھتے ہیں۔",
+      "hint": "This was unknown in 7th century",
+      "hint_ur": "یہ ساتویں صدی میں نامعلوم تھا",
+      "timeLimit": 25
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "question": "Which Surah is named after a day of judgment?",
+      "question_ur": "کس سورت کا نام قیامت کے ایک دن کے نام پر رکھا گیا ہے؟",
+      "options": {
+        "en": ["Surah Qiyamah", "Surah Hashr", "Surah Waqiah", "Surah Taghabun"],
+        "ur": ["سورہ قیامہ", "سورہ حشر", "سورہ واقعہ", "سورہ تغابن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Surah Al-Waqi'ah (56) is named after 'The Inevitable Event' - the Day of Judgment.",
+      "explanation_ur": "سورہ الواقعہ (56) کا نام 'ناگزیر واقعہ' - قیامت کے دن کے نام پر رکھا گیا ہے۔",
+      "hint": "It describes three groups of people",
+      "hint_ur": "یہ لوگوں کے تین گروہوں کو بیان کرتی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "question": "Which prophet is known as 'Nurullah' (Light of Allah)?",
+      "question_ur": "کس نبی کو 'نور اللہ' (اللہ کی روشنی) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Prophet Musa (AS)", "Prophet Isa (AS)", "Prophet Muhammad (PBUH)", "Prophet Ibrahim (AS)"],
+        "ur": ["حضرت موسیٰ علیہ السلام", "حضرت عیسیٰ علیہ السلام", "حضرت محمد ﷺ", "حضرت ابراہیم علیہ السلام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Musa (AS) is called 'Nurullah' because Allah spoke to him directly at Mount Sinai and his face shone with light afterward.",
+      "explanation_ur": "حضرت موسیٰ علیہ السلام کو 'نور اللہ' کہا جاتا ہے کیونکہ اللہ نے کوہ سینا پر ان سے براہ راست کلام کیا اور اس کے بعد ان کا چہرہ نور سے چمک اٹھا۔",
+      "hint": "His face shone after divine communication",
+      "hint_ur": "الہامی رابطے کے بعد ان کا چہرہ چمک اٹھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 83,
+      "type": "true-false",
+      "question": "The Quran mentions that the universe is expanding.",
+      "question_ur": "قرآن میں ذکر ہے کہ کائنات پھیل رہی ہے۔",
+      "correctAnswer": true,
+      "explanation": "In Surah Adh-Dhariyat (51:47), Allah says 'We are expanding it', referring to the universe, matching modern cosmology.",
+      "explanation_ur": "سورہ الذاریات (51:47) میں اللہ فرماتا ہے 'ہم اسے وسعت دے رہے ہیں'، کائنات کی طرف اشارہ کرتے ہوئے، جو جدید علم فلکیات سے مطابقت رکھتا ہے۔",
+      "hint": "This was discovered in 20th century",
+      "hint_ur": "یہ 20ویں صدی میں دریافت ہوا",
+      "timeLimit": 25
+    },
+    {
+      "id": 84,
+      "type": "mcq",
+      "question": "Which Surah is named after a small creature?",
+      "question_ur": "کس سورت کا نام ایک چھوٹے جانور کے نام پر رکھا گیا ہے؟",
+      "options": {
+        "en": ["Surah Nahl", "Surah Naml", "Surah Ankabut", "Surah Fil"],
+        "ur": ["سورہ نحل", "سورہ نمل", "سورہ عنکبوت", "سورہ فیل"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Surah An-Nahl (16) is named after the bee ('nahl' in Arabic), mentioned in verse 68 regarding its honey production.",
+      "explanation_ur": "سورہ النحل (16) کا نام مکھی ('نحل' عربی میں) کے نام پر رکھا گیا ہے، جو آیت 68 میں اس کے شہد کی پیداوار کے حوالے سے ذکر ہے۔",
+      "hint": "It produces healing honey",
+      "hint_ur": "یہ شفا بخش شہد پیدا کرتی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "Which prophet is known as 'Khalilullah' (Friend of Allah)?",
+      "question_ur": "کس نبی کو 'خلیل اللہ' (اللہ کا دوست) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Prophet Ibrahim (AS)", "Prophet Musa (AS)", "Prophet Dawud (AS)", "Prophet Muhammad (PBUH)"],
+        "ur": ["حضرت ابراہیم علیہ السلام", "حضرت موسیٰ علیہ السلام", "حضرت داؤد علیہ السلام", "حضرت محمد ﷺ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Ibrahim (AS) was given the title 'Khalilullah' for his complete submission to Allah, even willing to sacrifice his son.",
+      "explanation_ur": "حضرت ابراہیم علیہ السلام کو 'خلیل اللہ' کا خطاب دیا گیا تھا کیونکہ انہوں نے اللہ کے سامنے مکمل submission کا مظاہرہ کیا، حتیٰ کہ اپنے بیٹے کی قربانی دینے کے لیے بھی تیار ہو گئے۔",
+      "hint": "He built the Kaaba",
+      "hint_ur": "انہوں نے کعبہ تعمیر کیا",
+      "timeLimit": 20
+    },
+    {
+      "id": 86,
+      "type": "true-false",
+      "question": "The Quran was memorized by thousands of companions during the Prophet's (PBUH) lifetime.",
+      "question_ur": "قرآن نبی ﷺ کی زندگی میں ہزاروں صحابہ نے حفظ کیا تھا۔",
+      "correctAnswer": true,
+      "explanation": "Many companions memorized the entire Quran during the Prophet's (PBUH) time, ensuring its preservation through oral and written transmission.",
+      "explanation_ur": "بہت سے صحابہ نے نبی ﷺ کے زمانے میں پورا قرآن حفظ کیا تھا، جس سے زبانی اور تحریری نقل کے ذریعے اس کی حفاظت یقینی ہوئی۔",
+      "hint": "This was primary preservation method",
+      "hint_ur": "یہ بنیادی تحفظ کا طریقہ تھا",
+      "timeLimit": 20
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "question": "Which Surah is named after a time period?",
+      "question_ur": "کس سورت کا نام ایک وقت کی مدت کے نام پر رکھا گیا ہے؟",
+      "options": {
+        "en": ["Surah Fajr", "Surah Dhuha", "Surah Asr", "Surah Lail"],
+        "ur": ["سورہ فجر", "سورہ ضحیٰ", "سورہ عصر", "سورہ لیل"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Surah Al-Asr (103) is named after 'the afternoon', mentioned in its first verse as a witness to the value of time.",
+      "explanation_ur": "سورہ العصر (103) کا نام 'عصر' (سہ پہر) کے نام پر رکھا گیا ہے، جو اس کی پہلی آیت میں وقت کی اہمیت کے گواہ کے طور پر ذکر ہے۔",
+      "hint": "It's one of the shortest Surahs",
+      "hint_ur": "یہ سب سے چھوٹی سورتوں میں سے ایک ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "question": "Which prophet's miracle was the turning of his staff into a snake?",
+      "question_ur": "کس نبی کا معجزہ ان کے عصا کا سانپ میں بدلنا تھا؟",
+      "options": {
+        "en": ["Prophet Musa (AS)", "Prophet Isa (AS)", "Prophet Ibrahim (AS)", "Prophet Yusuf (AS)"],
+        "ur": ["حضرت موسیٰ علیہ السلام", "حضرت عیسیٰ علیہ السلام", "حضرت ابراہیم علیہ السلام", "حضرت یوسف علیہ السلام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Musa (AS) was given the miracle of his staff turning into a snake to confront Pharaoh's magicians (20:17-21).",
+      "explanation_ur": "حضرت موسیٰ علیہ السلام کو ان کے عصا کے سانپ میں بدلنے کا معجزہ دیا گیا تھا تاکہ وہ فرعون کے جادوگروں کا مقابلہ کر سکیں (20:17-21)",
+      "hint": "This was one of his nine signs",
+      "hint_ur": "یہ ان کے نو نشانوں میں سے ایک تھا",
+      "timeLimit": 20
+    },
+    {
+      "id": 89,
+      "type": "true-false",
+      "question": "The Quran mentions that every living thing is created from water.",
+      "question_ur": "قرآن میں ذکر ہے کہ ہر جاندار چیز پانی سے پیدا کی گئی ہے۔",
+      "correctAnswer": true,
+      "explanation": "In Surah Al-Anbiya (21:30), Allah states 'We made every living thing from water', matching modern biology that life originated in water.",
+      "explanation_ur": "سورہ الانبیاء (21:30) میں اللہ فرماتا ہے 'ہم نے ہر جاندار چیز کو پانی سے بنایا'، جو جدید حیاتیات سے مطابقت رکھتا ہے کہ زندگی کی ابتدا پانی میں ہوئی۔",
+      "hint": "This was revealed 1400 years ago",
+      "hint_ur": "یہ 1400 سال پہلے نازل ہوا",
+      "timeLimit": 25
+    },
+    {
+      "id": 90,
+      "type": "mcq",
+      "question": "Which Surah is named after a celestial body?",
+      "question_ur": "کس سورت کا نام ایک آسمانی جسم کے نام پر رکھا گیا ہے؟",
+      "options": {
+        "en": ["Surah Shams", "Surah Qamar", "Surah Najm", "Surah Buruj"],
+        "ur": ["سورہ شمس", "سورہ قمر", "سورہ نجم", "سورہ بروج"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Surah Al-Qamar (54) is named after the moon ('qamar' in Arabic), mentioned in its first verse regarding its splitting as a sign.",
+      "explanation_ur": "سورہ القمر (54) کا نام چاند ('قمر' عربی میں) کے نام پر رکھا گیا ہے، جو اس کی پہلی آیت میں ایک نشانی کے طور پر اس کے پھٹنے کے حوالے سے ذکر ہے۔",
+      "hint": "It mentions a splitting miracle",
+      "hint_ur": "یہ ایک پھٹنے کے معجزے کا ذکر کرتی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "Which prophet is known as 'Ruhullah' (Spirit of Allah)?",
+      "question_ur": "کس نبی کو 'روح اللہ' (اللہ کی روح) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Prophet Isa (AS)", "Prophet Musa (AS)", "Prophet Yahya (AS)", "Prophet Zakariya (AS)"],
+        "ur": ["حضرت عیسیٰ علیہ السلام", "حضرت موسیٰ علیہ السلام", "حضرت یحییٰ علیہ السلام", "حضرت زکریا علیہ السلام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Isa (AS) is called 'Ruhullah' in the Quran (4:171) as he was created by Allah's command 'Be' and the spirit from Him.",
+      "explanation_ur": "حضرت عیسیٰ علیہ السلام کو قرآن (4:171) میں 'روح اللہ' کہا گیا ہے کیونکہ انہیں اللہ کے حکم 'ہو' اور اس کی طرف سے روح کے ذریعے پیدا کیا گیا تھا۔",
+      "hint": "He was born without a father",
+      "hint_ur": "وہ بغیر باپ کے پیدا ہوئے تھے",
+      "timeLimit": 25
+    },
+    {
+      "id": 92,
+      "type": "true-false",
+      "question": "The Quran mentions that mountains prevent earthquakes.",
+      "question_ur": "قرآن میں ذکر ہے کہ پہاڑ زلزلوں کو روکتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "In Surah An-Naba (78:7), mountains are described as pegs/stabilizers, matching modern plate tectonics that mountains stabilize earth's crust.",
+      "explanation_ur": "سورہ النبأ (78:7) میں پہاڑوں کو میخوں/استحکام دینے والوں کے طور پر بیان کیا گیا ہے، جو جدید پلیٹ ٹیکٹونکس سے مطابقت رکھتا ہے کہ پہاڑ زمین کی پرت کو مستحکم کرتے ہیں۔",
+      "hint": "This was unknown in ancient times",
+      "hint_ur": "یہ قدیم زمانے میں نامعلوم تھا",
+      "timeLimit": 25
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "Which Surah is named after a historical people?",
+      "question_ur": "کس سورت کا نام ایک تاریخی قوم کے نام پر رکھا گیا ہے؟",
+      "options": {
+        "en": ["Surah Hud", "Surah Yunus", "Surah Luqman", "Surah Saba"],
+        "ur": ["سورہ ہود", "سورہ یونس", "سورہ لقمان", "سورہ سبا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Surah Saba (34) is named after the people of Saba (Sheba), known for their advanced civilization mentioned in verses 15-19.",
+      "explanation_ur": "سورہ سبأ (34) کا نام قوم سبا (شیبا) کے نام پر رکھا گیا ہے، جو اپنی ترقی یافتہ تہذیب کے لیے مشہور ہیں جو آیات 15-19 میں ذکر ہے۔",
+      "hint": "They had a famous dam",
+      "hint_ur": "ان کا ایک مشہور بند تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "question": "Which prophet is known as 'Imamul Anbiya' (Leader of Prophets)?",
+      "question_ur": "کس نبی کو 'امام الانبیاء' (انبیاء کے رہنما) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Prophet Muhammad (PBUH)", "Prophet Ibrahim (AS)", "Prophet Musa (AS)", "Prophet Isa (AS)"],
+        "ur": ["حضرت محمد ﷺ", "حضرت ابراہیم علیہ السلام", "حضرت موسیٰ علیہ السلام", "حضرت عیسیٰ علیہ السلام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Muhammad (PBUH) is called 'Imamul Anbiya' as he is the leader and seal of all prophets.",
+      "explanation_ur": "حضرت محمد ﷺ کو 'امام الانبیاء' کہا جاتا ہے کیونکہ وہ تمام انبیاء کے رہنما اور مہر ہیں۔",
+      "hint": "He is the final prophet",
+      "hint_ur": "وہ آخری نبی ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 95,
+      "type": "true-false",
+      "question": "The Quran was compiled into a single book during the Prophet's (PBUH) lifetime.",
+      "question_ur": "قرآن نبی ﷺ کی زندگی میں ایک کتاب کی شکل میں جمع کیا گیا تھا۔",
+      "correctAnswer": false,
+      "explanation": "While the complete Quran was revealed and memorized during the Prophet's (PBUH) time, it was compiled into a single book during Abu Bakr's (RA) caliphate.",
+      "explanation_ur": "اگرچہ پورا قرآن نبی ﷺ کے زمانے میں نازل اور حفظ کیا گیا تھا، لیکن اسے ایک کتاب کی شکل میں حضرت ابو بکر رضی اللہ عنہ کے دور خلافت میں جمع کیا گیا تھا۔",
+      "hint": "First compilation was after his death",
+      "hint_ur": "پہلی تدوین ان کی وفات کے بعد ہوئی",
+      "timeLimit": 25
+    },
+    {
+      "id": 96,
+      "type": "mcq",
+      "question": "Which Surah is named after a night journey?",
+      "question_ur": "کس سورت کا نام ایک رات کے سفر کے نام پر رکھا گیا ہے؟",
+      "options": {
+        "en": ["Surah Isra", "Surah Lail", "Surah Fajr", "Surah Duha"],
+        "ur": ["سورہ اسراء", "سورہ لیل", "سورہ فجر", "سورہ ضحیٰ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Surah Al-Isra (17) is named after the Night Journey ('Isra') of Prophet Muhammad (PBUH) from Makkah to Jerusalem.",
+      "explanation_ur": "سورہ الاسراء (17) کا نام حضرت محمد ﷺ کے مکہ سے یروشلم تک کے رات کے سفر ('اسراء') کے نام پر رکھا گیا ہے۔",
+      "hint": "First verse mentions this journey",
+      "hint_ur": "پہلی آیت اس سفر کا ذکر کرتی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "question": "Which prophet is known as 'Habibullah' (Beloved of Allah)?",
+      "question_ur": "کس نبی کو 'حبیب اللہ' (اللہ کے محبوب) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Prophet Muhammad (PBUH)", "Prophet Ibrahim (AS)", "Prophet Musa (AS)", "Prophet Dawud (AS)"],
+        "ur": ["حضرت محمد ﷺ", "حضرت ابراہیم علیہ السلام", "حضرت موسیٰ علیہ السلام", "حضرت داؤد علیہ السلام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Muhammad (PBUH) is called 'Habibullah' in Islamic tradition as the most beloved creation to Allah.",
+      "explanation_ur": "حضرت محمد ﷺ کو اسلامی روایت میں 'حبیب اللہ' کہا جاتا ہے کیونکہ وہ اللہ کے سب سے محبوب مخلوق ہیں۔",
+      "hint": "He is the final messenger",
+      "hint_ur": "وہ آخری رسول ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 98,
+      "type": "true-false",
+      "question": "The Quran mentions that the sun has its own orbit.",
+      "question_ur": "قرآن میں ذکر ہے کہ سورج کا اپنا مدار ہے۔",
+      "correctAnswer": true,
+      "explanation": "In Surah Yasin (36:38), the sun is described as running its course to a settled place, matching modern astronomy that the sun orbits Milky Way center.",
+      "explanation_ur": "سورہ یٰسین (36:38) میں سورج کو ایک مقررہ جگہ کی طرف اپنے راستے پر چلتے ہوئے بیان کیا گیا ہے، جو جدید فلکیات سے مطابقت رکھتا ہے کہ سورج کہکشاں کے مرکز کے گرد چکر لگاتا ہے۔",
+      "hint": "This was unknown in ancient times",
+      "hint_ur": "یہ قدیم زمانے میں نامعلوم تھا",
+      "timeLimit": 25
+    },
+    {
+      "id": 99,
+      "type": "mcq",
+      "question": "Which Surah is named after a historical battle?",
+      "question_ur": "کس سورت کا نام ایک تاریخی جنگ کے نام پر رکھا گیا ہے؟",
+      "options": {
+        "en": ["Surah Ahzab", "Surah Anfal", "Surah Hashr", "Surah Fath"],
+        "ur": ["سورہ احزاب", "سورہ انفال", "سورہ حشر", "سورہ فتح"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Surah Al-Ahzab (33) is named after 'The Confederates' who allied against Muslims in the Battle of the Trench (5 AH).",
+      "explanation_ur": "سورہ الاحزاب (33) کا نام 'اتحادیوں' کے نام پر رکھا گیا ہے جو خندق کی لڑائی (5 ہجری) میں مسلمانوں کے خلاف متحد ہوئے تھے۔",
+      "hint": "This battle involved a trench",
+      "hint_ur": "اس جنگ میں خندق شامل تھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 100,
+      "type": "mcq",
+      "question": "Which prophet is known as 'Jaddul Anbiya' (Grandfather of Prophets)?",
+      "question_ur": "کس نبی کو 'جد الانبیاء' (انبیاء کے دادا) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Prophet Ibrahim (AS)", "Prophet Nuh (AS)", "Prophet Adam (AS)", "Prophet Ismail (AS)"],
+        "ur": ["حضرت ابراہیم علیہ السلام", "حضرت نوح علیہ السلام", "حضرت آدم علیہ السلام", "حضرت اسماعیل علیہ السلام"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Prophet Nuh (AS) is called 'Jaddul Anbiya' as he was the first prophet sent to mankind after Adam and lived for 950 years preaching.",
+      "explanation_ur": "حضرت نوح علیہ السلام کو 'جد الانبیاء' کہا جاتا ہے کیونکہ وہ آدم علیہ السلام کے بعد انسانیت کی طرف بھیجے جانے والے پہلے نبی تھے اور 950 سال تک تبلیغ کرتے رہے۔",
+      "hint": "He had a famous ark",
+      "hint_ur": "ان کی ایک مشہور کشتی تھی",
+      "timeLimit": 30
+    },
+    
+    {
+      "id": 101,
+      "type": "mcq",
+      "question": "Which Surah is known as 'The Bride of the Quran'?",
+      "question_ur": "کس سورت کو 'قرآن کی دلہن' کہا جاتا ہے؟",
+      "options": {
+        "en": ["Surah Rahman", "Surah Waqiah", "Surah Mulk", "Surah Yusuf"],
+        "ur": ["سورہ الرحمن", "سورہ واقعہ", "سورہ ملک", "سورہ یوسف"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Surah Ar-Rahman is called 'Aroos-ul-Quran' (Bride of the Quran) due to its beautiful rhythmic style and the repeated verse about Allah's blessings.",
+      "explanation_ur": "سورہ الرحمن کو 'عروس القرآن' (قرآن کی دلہن) کہا جاتا ہے کیونکہ اس کا خوبصورت موزوں انداز اور اللہ کی نعمتوں کے بارے میں بار بار دہرایا جانے والا آیت ہے۔",
+      "hint": "It repeats 'Which of your Lord's favors will you deny?'",
+      "hint_ur": "یہ 'پس تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟' بار بار دہراتی ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 102,
+      "type": "true-false",
+      "question": "The Quran mentions that the earth was created before the heavens.",
+      "question_ur": "قرآن میں ذکر ہے کہ زمین کو آسمانوں سے پہلے پیدا کیا گیا تھا۔",
+      "correctAnswer": false,
+      "explanation": "In Surah An-Nazi'at (79:27-30), Allah mentions creating the heavens first, then the earth afterwards.",
+      "explanation_ur": "سورہ النازعات (79:27-30) میں اللہ نے پہلے آسمانوں کو پیدا کرنے کا ذکر کیا ہے، پھر اس کے بعد زمین کو۔",
+      "hint": "This matches modern cosmology",
+      "hint_ur": "یہ جدید علم فلکیات سے مطابقت رکھتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "question": "Which companion was the first martyr in Islam?",
+      "question_ur": "اسلام میں پہلے شہید کون صحابی تھے؟",
+      "options": {
+        "en": ["Sumayyah bint Khayyat (RA)", "Hamza (RA)", "Umar (RA)", "Bilal (RA)"],
+        "ur": ["سمیہ بنت خیاط رضی اللہ عنہا", "حمزہ رضی اللہ عنہ", "عمر رضی اللہ عنہ", "بلال رضی اللہ عنہ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Sumayyah bint Khayyat (RA), a slave of Abu Jahl, was the first martyr when she was killed for refusing to renounce Islam.",
+      "explanation_ur": "سمیہ بنت خیاط رضی اللہ عنہا، جو ابو جہل کی لونڈی تھیں، اسلام کا انکار کرنے سے انکار پر قتل ہونے والی پہلی شہید تھیں۔",
+      "hint": "She was a female slave",
+      "hint_ur": "وہ ایک خاتون غلام تھیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 104,
+      "type": "mcq",
+      "question": "In which Surah is the story of the People of the Elephant mentioned?",
+      "question_ur": "اصحاب الفیل کا واقعہ کس سورہ میں بیان ہوا ہے؟",
+      "options": {
+        "en": ["Surah Fil", "Surah Quraysh", "Surah Maun", "Surah Kafirun"],
+        "ur": ["سورہ فیل", "سورہ قریش", "سورہ ماعون", "سورہ کافرون"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Surah Al-Fil (105) describes how Allah destroyed the army of Abraha that came with elephants to attack the Kaaba.",
+      "explanation_ur": "سورہ الفیل (105) بیان کرتی ہے کہ کس طرح اللہ نے ابرہہ کی فیل سوار فوج کو تباہ کیا جو کعبہ پر حملہ کرنے آئی تھی۔",
+      "hint": "This occurred shortly before the Prophet's birth",
+      "hint_ur": "یہ نبی ﷺ کی پیدائش سے کچھ پہلے ہوا تھا",
+      "timeLimit": 25
+    },
+    {
+      "id": 105,
+      "type": "true-false",
+      "question": "The Quran was completely written down during the Prophet's (PBUH) lifetime.",
+      "question_ur": "قرآن نبی ﷺ کی زندگی میں مکمل طور پر لکھا جا چکا تھا۔",
+      "correctAnswer": true,
+      "explanation": "While not compiled into one book, the entire Quran was written down on various materials during the Prophet's (PBUH) life under his supervision.",
+      "explanation_ur": "اگرچہ ایک کتاب کی شکل میں جمع نہیں کیا گیا تھا، لیکن پورا قرآن نبی ﷺ کی زندگی میں ان کی نگرانی میں مختلف مواد پر لکھا گیا تھا۔",
+      "hint": "It was compiled later into one book",
+      "hint_ur": "اسے بعد میں ایک کتاب میں جمع کیا گیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 106,
+      "type": "mcq",
+      "question": "Which prophet is known as 'Sahib-ul-Hoot' (Companion of the Fish)?",
+      "question_ur": "کس نبی کو 'صاحب الحوت' (مچھلی والا) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Prophet Yunus (AS)", "Prophet Musa (AS)", "Prophet Nuh (AS)", "Prophet Isa (AS)"],
+        "ur": ["حضرت یونس علیہ السلام", "حضرت موسیٰ علیہ السلام", "حضرت نوح علیہ السلام", "حضرت عیسیٰ علیہ السلام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Yunus (AS) is called 'Sahib-ul-Hoot' because he was swallowed by a large fish after leaving his people.",
+      "explanation_ur": "حضرت یونس علیہ السلام کو 'صاحب الحوت' کہا جاتا ہے کیونکہ وہ اپنی قوم کو چھوڑنے کے بعد ایک بڑی مچھلی کے پیٹ میں چلے گئے تھے۔",
+      "hint": "He spent time in the fish's belly",
+      "hint_ur": "وہ مچھلی کے پیٹ میں وقت گزارا",
+      "timeLimit": 25
+    },
+    {
+      "id": 107,
+      "type": "mcq",
+      "question": "How many times is the Basmala ('Bismillah...') repeated in the Quran?",
+      "question_ur": "بسم اللہ... قرآن میں کتنی بار دہرایا گیا ہے؟",
+      "options": {
+        "en": ["112", "114", "115", "120"],
+        "ur": ["112", "114", "115", "120"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Basmala appears 114 times - at the start of every Surah except Surah At-Tawbah, plus once within Surah An-Naml.",
+      "explanation_ur": "بسم اللہ 114 بار آیا ہے - ہر سورت کے شروع میں سوائے سورہ التوبہ کے، اور ایک بار سورہ النمل کے اندر۔",
+      "hint": "Same as number of Surahs",
+      "hint_ur": "سورتوں کی تعداد کے برابر",
+      "timeLimit": 30
+    },
+    {
+      "id": 108,
+      "type": "true-false",
+      "question": "The Quran mentions that honey has healing properties.",
+      "question_ur": "قرآن میں ذکر ہے کہ شہد میں شفا کے خواص ہیں۔",
+      "correctAnswer": true,
+      "explanation": "In Surah An-Nahl (16:69), Allah mentions that honey has healing properties for mankind.",
+      "explanation_ur": "سورہ النحل (16:69) میں اللہ نے ذکر کیا ہے کہ شہد میں انسانوں کے لیے شفا کے خواص ہیں۔",
+      "hint": "It's in the 'Bee' Surah",
+      "hint_ur": "یہ 'مکھی' والی سورت میں ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "question": "Which Surah is recited specifically for protection from Dajjal?",
+      "question_ur": "دجال سے حفاظت کے لیے خاص طور پر کون سی سورت پڑھی جاتی ہے؟",
+      "options": {
+        "en": ["Surah Kahf", "Surah Mulk", "Surah Yaseen", "Surah Ikhlas"],
+        "ur": ["سورہ کہف", "سورہ ملک", "سورہ یٰسین", "سورہ اخلاص"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Prophet (PBUH) recommended reciting the first 10 verses or last 10 verses of Surah Al-Kahf for protection from Dajjal.",
+      "explanation_ur": "نبی ﷺ نے دجال سے حفاظت کے لیے سورہ الکہف کی پہلی 10 آیات یا آخری 10 آیات پڑھنے کی سفارش کی ہے۔",
+      "hint": "It mentions the People of the Cave",
+      "hint_ur": "اس میں اصحاب کہف کا ذکر ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 110,
+      "type": "mcq",
+      "question": "Which prophet's wife was the daughter of another prophet?",
+      "question_ur": "کس نبی کی بیوی ایک اور نبی کی بیٹی تھی؟",
+      "options": {
+        "en": ["Prophet Musa (AS)", "Prophet Yusuf (AS)", "Prophet Isa (AS)", "Prophet Muhammad (PBUH)"],
+        "ur": ["حضرت موسیٰ علیہ السلام", "حضرت یوسف علیہ السلام", "حضرت عیسیٰ علیہ السلام", "حضرت محمد ﷺ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Musa (AS) married Safura, the daughter of Prophet Shuaib (AS), after helping them water their flock.",
+      "explanation_ur": "حضرت موسیٰ علیہ السلام نے صفورا سے شادی کی جو حضرت شعیب علیہ السلام کی بیٹی تھیں، ان کے ریوڑ کو پانی پلانے میں مدد کرنے کے بعد۔",
+      "hint": "This occurred in Madyan",
+      "hint_ur": "یہ مدین میں ہوا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 111,
+      "type": "true-false",
+      "question": "The Quran contains stories of previous prophets to serve as lessons.",
+      "question_ur": "قرآن میں پچھلے انبیاء کے قصے سبق کے طور پر موجود ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Allah mentions in the Quran (12:111) that the stories of prophets are lessons and guidance for people of understanding.",
+      "explanation_ur": "اللہ نے قرآن (12:111) میں ذکر کیا ہے کہ انبیاء کے قصے عقل والوں کے لیے سبق اور ہدایت ہیں۔",
+      "hint": "About 25 prophets are mentioned",
+      "hint_ur": "تقریباً 25 انبیاء کا ذکر ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 112,
+      "type": "mcq",
+      "question": "Which Surah is known as 'Al-Munjiyah' (The Savior)?",
+      "question_ur": "کس سورت کو 'المنجیہ' (نجات دہندہ) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Surah Yaseen", "Surah Waqiah", "Surah Mulk", "Surah Sajdah"],
+        "ur": ["سورہ یٰسین", "سورہ واقعہ", "سورہ ملک", "سورہ سجدہ"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Surah As-Sajdah is called 'Al-Munjiyah' because the Prophet (PBUH) said it will intercede for its reciter on Judgment Day.",
+      "explanation_ur": "سورہ السجدہ کو 'المنجیہ' کہا جاتا ہے کیونکہ نبی ﷺ نے فرمایا کہ یہ قیامت کے دن اس کے پڑھنے والے کی شفاعت کرے گی۔",
+      "hint": "It contains a mandatory prostration",
+      "hint_ur": "اس میں ایک لازمی سجدہ ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 113,
+      "type": "mcq",
+      "question": "Which prophet is known as 'Abul Bashar' (Father of Mankind)?",
+      "question_ur": "کس نبی کو 'ابوالبشر' (انسانیت کے باپ) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Prophet Nuh (AS)", "Prophet Adam (AS)", "Prophet Ibrahim (AS)", "Prophet Muhammad (PBUH)"],
+        "ur": ["حضرت نوح علیہ السلام", "حضرت آدم علیہ السلام", "حضرت ابراہیم علیہ السلام", "حضرت محمد ﷺ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Prophet Adam (AS) is called 'Abul Bashar' as he was the first human and ancestor of all mankind.",
+      "explanation_ur": "حضرت آدم علیہ السلام کو 'ابوالبشر' کہا جاتا ہے کیونکہ وہ پہلے انسان اور تمام انسانیت کے جد امجد تھے۔",
+      "hint": "He was created without parents",
+      "hint_ur": "وہ بغیر والدین کے پیدا کیے گئے تھے",
+      "timeLimit": 20
+    },
+    {
+      "id": 114,
+      "type": "true-false",
+      "question": "The Quran was revealed in seven different Arabic dialects.",
+      "question_ur": "قرآن سات مختلف عربی لہجوں میں نازل ہوا تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Quran was revealed in seven ahruf (dialects) to accommodate different Arab tribes, though only one complete version was preserved.",
+      "explanation_ur": "قرآن سات احرف (لہجوں) میں نازل ہوا تھا تاکہ مختلف عرب قبائل کو سہولت ہو، اگرچہ صرف ایک مکمل ورژن محفوظ کیا گیا۔",
+      "hint": "This made memorization easier",
+      "hint_ur": "اس نے حفظ کرنا آسان بنا دیا",
+      "timeLimit": 25
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "question": "Which Surah is named after a historical event?",
+      "question_ur": "کس سورت کا نام ایک تاریخی واقعے کے نام پر رکھا گیا ہے؟",
+      "options": {
+        "en": ["Surah Fil", "Surah Qamar", "Surah Dukhan", "Surah Insan"],
+        "ur": ["سورہ فیل", "سورہ قمر", "سورہ دخان", "سورہ انسان"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Surah Al-Fil (The Elephant) is named after the event of Abraha's army with elephants attempting to destroy the Kaaba.",
+      "explanation_ur": "سورہ الفیل (ہاتھی) کا نام ابرہہ کی فیل سوار فوج کے کعبہ کو تباہ کرنے کی کوشش کے واقعے کے نام پر رکھا گیا ہے۔",
+      "hint": "This occurred shortly before the Prophet's birth",
+      "hint_ur": "یہ نبی ﷺ کی پیدائش سے کچھ پہلے ہوا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 116,
+      "type": "mcq",
+      "question": "Which prophet is known as 'Abul Anbiya' (Father of Prophets)?",
+      "question_ur": "کس نبی کو 'ابوالانبیاء' (انبیاء کے باپ) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Prophet Adam (AS)", "Prophet Nuh (AS)", "Prophet Ibrahim (AS)", "Prophet Ismail (AS)"],
+        "ur": ["حضرت آدم علیہ السلام", "حضرت نوح علیہ السلام", "حضرت ابراہیم علیہ السلام", "حضرت اسماعیل علیہ السلام"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Prophet Ibrahim (AS) is called 'Abul Anbiya' as many prophets including Ismail, Ishaq, Yaqub, Yusuf, Musa, Dawud, Sulaiman and Isa (AS) were from his lineage.",
+      "explanation_ur": "حضرت ابراہیم علیہ السلام کو 'ابوالانبیاء' کہا جاتا ہے کیونکہ بہت سے انبیاء جن میں اسماعیل، اسحاق، یعقوب، یوسف، موسیٰ، داؤد، سلیمان اور عیسیٰ علیہم السلام شامل ہیں ان کی نسل سے تھے۔",
+      "hint": "He rebuilt the Kaaba",
+      "hint_ur": "انہوں نے کعبہ کی تعمیر نو کی",
+      "timeLimit": 25
+    },
+    {
+      "id": 117,
+      "type": "true-false",
+      "question": "The Quran contains 30 Juz (parts) for recitation over one month.",
+      "question_ur": "قرآن میں ایک مہینے میں تلاوت کے لیے 30 جز (حصے) ہیں۔",
+      "correctAnswer": true,
+      "explanation": "The Quran is divided into 30 Juz to facilitate completion of its recitation in one month, especially during Ramadan.",
+      "explanation_ur": "قرآن کو 30 جز میں تقسیم کیا گیا ہے تاکہ اس کی تلاوت ایک مہینے میں مکمل کرنا آسان ہو، خاص طور پر رمضان کے دوران۔",
+      "hint": "Common during Ramadan",
+      "hint_ur": "رمضان میں عام",
+      "timeLimit": 20
+    },
+    {
+      "id": 118,
+      "type": "mcq",
+      "question": "Which Surah is named after a star?",
+      "question_ur": "کس سورت کا نام ایک ستارے کے نام پر رکھا گیا ہے؟",
+      "options": {
+        "en": ["Surah Najm", "Surah Shams", "Surah Qamar", "Surah Buruj"],
+        "ur": ["سورہ نجم", "سورہ شمس", "سورہ قمر", "سورہ بروج"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Surah An-Najm (53) is named after the star ('najm' in Arabic) mentioned in its first verse.",
+      "explanation_ur": "سورہ النجم (53) کا نام ستارے ('نجم' عربی میں) کے نام پر رکھا گیا ہے جو اس کی پہلی آیت میں ذکر ہے۔",
+      "hint": "It begins with an oath by the star",
+      "hint_ur": "یہ ستارے کی قسم سے شروع ہوتی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 119,
+      "type": "mcq",
+      "question": "Which prophet was given the miracle of bringing the dead back to life?",
+      "question_ur": "کس نبی کو مردوں کو زندہ کرنے کا معجزہ دیا گیا تھا؟",
+      "options": {
+        "en": ["Prophet Isa (AS)", "Prophet Musa (AS)", "Prophet Ibrahim (AS)", "Prophet Sulaiman (AS)"],
+        "ur": ["حضرت عیسیٰ علیہ السلام", "حضرت موسیٰ علیہ السلام", "حضرت ابراہیم علیہ السلام", "حضرت سلیمان علیہ السلام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Isa (AS) was given the miracle, with Allah's permission, to bring the dead back to life (3:49).",
+      "explanation_ur": "حضرت عیسیٰ علیہ السلام کو اللہ کے حکم سے مردوں کو زندہ کرنے کا معجزہ دیا گیا تھا (3:49)",
+      "hint": "He also healed the blind",
+      "hint_ur": "انہوں نے اندھوں کو بھی شفا دی",
+      "timeLimit": 20
+    },
+    {
+      "id": 120,
+      "type": "true-false",
+      "question": "The Quran mentions that mountains have roots deep in the earth.",
+      "question_ur": "قرآن میں ذکر ہے کہ پہاڑوں کی زمین میں گہری جڑیں ہوتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "In Surah An-Naba (78:7), mountains are described as 'pegs' or 'stakes', matching modern science that discovered mountains have deep roots.",
+      "explanation_ur": "سورہ النبأ (78:7) میں پہاڑوں کو 'میخوں' یا 'کھونٹوں' کے طور پر بیان کیا گیا ہے، جو جدید سائنس سے مطابقت رکھتا ہے جس نے دریافت کیا کہ پہاڑوں کی گہری جڑیں ہوتی ہیں۔",
+      "hint": "This was unknown 1400 years ago",
+      "hint_ur": "یہ 1400 سال پہلے نامعلوم تھا",
+      "timeLimit": 25
+    },
+    {
+      "id": 121,
+      "type": "mcq",
+      "question": "Which Surah is named after a woman who was not a prophet?",
+      "question_ur": "کس سورت کا نام ایک ایسی عورت کے نام پر رکھا گیا ہے جو نبی نہیں تھی؟",
+      "options": {
+        "en": ["Surah Maryam", "Surah Nisa", "Surah Mumtahina", "Surah Zalzalah"],
+        "ur": ["سورہ مریم", "سورہ نساء", "سورہ ممتحنہ", "سورہ زلزلہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Surah Al-Mumtahina (60) is named after the 'examined woman' who pledged allegiance to the Prophet (PBUH), though Maryam (AS) was also not a prophet but is named in Surah Maryam.",
+      "explanation_ur": "سورہ الممتحنہ (60) کا نام 'امتحان میں ڈالی گئی عورت' کے نام پر رکھا گیا ہے جس نے نبی ﷺ سے بیعت کی تھی، اگرچہ مریم علیہ السلام بھی نبی نہیں تھیں لیکن سورہ مریم میں ان کا نام ہے۔",
+      "hint": "It means 'The Examined Woman'",
+      "hint_ur": "اس کا مطلب 'امتحان میں ڈالی گئی عورت' ہے",
+      "timeLimit": 35
+    },
+    {
+      "id": 122,
+      "type": "mcq",
+      "question": "Which prophet's dua is mentioned in the Quran as being immediately accepted?",
+      "question_ur": "قرآن میں کس نبی کی دعا کا فوری طور پر قبول ہونا ذکر ہے؟",
+      "options": {
+        "en": ["Prophet Yunus (AS)", "Prophet Ayyub (AS)", "Prophet Zakariya (AS)", "Prophet Ibrahim (AS)"],
+        "ur": ["حضرت یونس علیہ السلام", "حضرت ایوب علیہ السلام", "حضرت زکریا علیہ السلام", "حضرت ابراہیم علیہ السلام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Yunus's (AS) dua from the belly of the fish (21:87) was immediately accepted by Allah, who caused the fish to cast him onto the shore.",
+      "explanation_ur": "حضرت یونس علیہ السلام کی مچھلی کے پیٹ سے دعا (21:87) فوری طور پر اللہ نے قبول کی، جس نے مچھلی کو حکم دیا کہ وہ انہیں کنارے پر ڈال دے۔",
+      "hint": "He was in the darkness of three things",
+      "hint_ur": "وہ تین چیزوں کے اندھیرے میں تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 123,
+      "type": "true-false",
+      "question": "The Quran contains verses about the development of the human embryo.",
+      "question_ur": "قرآن میں انسانی جنین کی نشوونما کے بارے میں آیات موجود ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Surah Al-Mu'minun (23:12-14) describes embryonic development stages (nutfah, alaqah, mudghah) matching modern embryology.",
+      "explanation_ur": "سورہ المومنون (23:12-14) جنین کی نشوونما کے مراحل (نطفہ، علقہ، مضغہ) بیان کرتی ہے جو جدید جنین کی سائنس سے مطابقت رکھتے ہیں۔",
+      "hint": "This was unknown in 7th century",
+      "hint_ur": "یہ ساتویں صدی میں نامعلوم تھا",
+      "timeLimit": 25
+    },
+    {
+      "id": 124,
+      "type": "mcq",
+      "question": "Which Surah is named after a day of judgment?",
+      "question_ur": "کس سورت کا نام قیامت کے ایک دن کے نام پر رکھا گیا ہے؟",
+      "options": {
+        "en": ["Surah Qiyamah", "Surah Hashr", "Surah Waqiah", "Surah Taghabun"],
+        "ur": ["سورہ قیامہ", "سورہ حشر", "سورہ واقعہ", "سورہ تغابن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Surah Al-Waqi'ah (56) is named after 'The Inevitable Event' - the Day of Judgment.",
+      "explanation_ur": "سورہ الواقعہ (56) کا نام 'ناگزیر واقعہ' - قیامت کے دن کے نام پر رکھا گیا ہے۔",
+      "hint": "It describes three groups of people",
+      "hint_ur": "یہ لوگوں کے تین گروہوں کو بیان کرتی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 125,
+      "type": "mcq",
+      "question": "Which prophet is known as 'Nurullah' (Light of Allah)?",
+      "question_ur": "کس نبی کو 'نور اللہ' (اللہ کی روشنی) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Prophet Musa (AS)", "Prophet Isa (AS)", "Prophet Muhammad (PBUH)", "Prophet Ibrahim (AS)"],
+        "ur": ["حضرت موسیٰ علیہ السلام", "حضرت عیسیٰ علیہ السلام", "حضرت محمد ﷺ", "حضرت ابراہیم علیہ السلام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Musa (AS) is called 'Nurullah' because Allah spoke to him directly at Mount Sinai and his face shone with light afterward.",
+      "explanation_ur": "حضرت موسیٰ علیہ السلام کو 'نور اللہ' کہا جاتا ہے کیونکہ اللہ نے کوہ سینا پر ان سے براہ راست کلام کیا اور اس کے بعد ان کا چہرہ نور سے چمک اٹھا۔",
+      "hint": "His face shone after divine communication",
+      "hint_ur": "الہامی رابطے کے بعد ان کا چہرہ چمک اٹھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 126,
+      "type": "true-false",
+      "question": "The Quran mentions that the universe is expanding.",
+      "question_ur": "قرآن میں ذکر ہے کہ کائنات پھیل رہی ہے۔",
+      "correctAnswer": true,
+      "explanation": "In Surah Adh-Dhariyat (51:47), Allah says 'We are expanding it', referring to the universe, matching modern cosmology.",
+      "explanation_ur": "سورہ الذاریات (51:47) میں اللہ فرماتا ہے 'ہم اسے وسعت دے رہے ہیں'، کائنات کی طرف اشارہ کرتے ہوئے، جو جدید علم فلکیات سے مطابقت رکھتا ہے۔",
+      "hint": "This was discovered in 20th century",
+      "hint_ur": "یہ 20ویں صدی میں دریافت ہوا",
+      "timeLimit": 25
+    },
+    {
+      "id": 127,
+      "type": "mcq",
+      "question": "Which Surah is named after a small creature?",
+      "question_ur": "کس سورت کا نام ایک چھوٹے جانور کے نام پر رکھا گیا ہے؟",
+      "options": {
+        "en": ["Surah Nahl", "Surah Naml", "Surah Ankabut", "Surah Fil"],
+        "ur": ["سورہ نحل", "سورہ نمل", "سورہ عنکبوت", "سورہ فیل"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Surah An-Nahl (16) is named after the bee ('nahl' in Arabic), mentioned in verse 68 regarding its honey production.",
+      "explanation_ur": "سورہ النحل (16) کا نام مکھی ('نحل' عربی میں) کے نام پر رکھا گیا ہے، جو آیت 68 میں اس کے شہد کی پیداوار کے حوالے سے ذکر ہے۔",
+      "hint": "It produces healing honey",
+      "hint_ur": "یہ شفا بخش شہد پیدا کرتی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 128,
+      "type": "mcq",
+      "question": "Which prophet is known as 'Khalilullah' (Friend of Allah)?",
+      "question_ur": "کس نبی کو 'خلیل اللہ' (اللہ کا دوست) کہا جاتا ہے؟",
+      "options": {
+        "en": ["Prophet Ibrahim (AS)", "Prophet Musa (AS)", "Prophet Dawud (AS)", "Prophet Muhammad (PBUH)"],
+        "ur": ["حضرت ابراہیم علیہ السلام", "حضرت موسیٰ علیہ السلام", "حضرت داؤد علیہ السلام", "حضرت محمد ﷺ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Ibrahim (AS) was given the title 'Khalilullah' for his complete submission to Allah, even willing to sacrifice his son.",
+      "explanation_ur": "حضرت ابراہیم علیہ السلام کو 'خلیل اللہ' کا خطاب دیا گیا تھا کیونکہ انہوں نے اللہ کے سامنے مکمل submission کا مظاہرہ کیا، حتیٰ کہ اپنے بیٹے کی قربانی دینے کے لیے بھی تیار ہو گئے۔",
+      "hint": "He built the Kaaba",
+      "hint_ur": "انہوں نے کعبہ تعمیر کیا",
+      "timeLimit": 20
+    }
+    
+  ]
+}

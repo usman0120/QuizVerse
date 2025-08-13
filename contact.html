@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - QuizVerse</title>
+    <meta name="description" content="Get in touch with QuizVerse team. Send feedback, suggest questions, or report issues. We'd love to hear from you!">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- Favicon -->
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+    <!-- Navigation -->
+    <nav class="bg-emerald-800 dark:bg-gray-800 text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <img src="/images/logo.png" alt="QuizVerse Logo" class="h-10 w-10">
+                <a href="index.html" class="text-2xl font-bold">QuizVerse</a>
+            </div>
+            <div class="hidden md:flex space-x-6">
+                <a href="index.html" class="hover:text-yellow-300 font-medium">Home</a>
+                <a href="categories.html" class="hover:text-yellow-300 font-medium">Quiz Categories</a>
+                <a href="learn-categories.html" class="hover:text-yellow-300 font-medium">Learn</a>
+                <a href="leaderboard.html" class="hover:text-yellow-300 font-medium">Leaderboard</a>
+                <a href="about.html" class="hover:text-yellow-300 font-medium">About</a>
+                <a href="contact.html" class="hover:text-yellow-300 font-medium underline">Contact</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <button id="darkModeToggle" class="p-2 rounded-full hover:bg-emerald-700 dark:hover:bg-gray-700">
+                    <i class="fas fa-moon dark:hidden"></i>
+                    <i class="fas fa-sun hidden dark:inline"></i>
+                </button>
+                <button class="md:hidden" id="mobileMenuButton">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="hidden md:hidden bg-emerald-700 dark:bg-gray-700 px-4 py-2">
+            <a href="index.html" class="block py-2 hover:text-yellow-300">Home</a>
+            <a href="categories.html" class="block py-2 hover:text-yellow-300">Quiz Categories</a>
+            <a href="learn-categories.html" class="block py-2 hover:text-yellow-300">Learn</a>
+            <a href="leaderboard.html" class="block py-2 hover:text-yellow-300">Leaderboard</a>
+            <a href="about.html" class="block py-2 hover:text-yellow-300">About</a>
+            <a href="contact.html" class="block py-2 hover:text-yellow-300 underline">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-emerald-700 to-emerald-500 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
+            <p class="text-xl md:text-2xl">We'd love to hear from you! Send feedback, suggestions, or report issues.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="py-12">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="bg-white dark:bg-gray-700 rounded-xl shadow-lg p-8">
+                <h2 class="text-2xl font-bold text-gray-800 dark:text-white mb-6">Send Us a Message</h2>
+                
+                <form id="contactForm" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-gray-700 dark:text-gray-300 mb-2 font-medium">Your Name</label>
+                        <input type="text" id="name" name="name" required 
+                               class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-gray-800 dark:text-white">
+                    </div>
+                    
+                    <div>
+                        <label for="email" class="block text-gray-700 dark:text-gray-300 mb-2 font-medium">Email Address</label>
+                        <input type="email" id="email" name="email" required 
+                               class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-gray-800 dark:text-white">
+                    </div>
+                    
+                    <div>
+                        <label for="subject" class="block text-gray-700 dark:text-gray-300 mb-2 font-medium">Subject</label>
+                        <select id="subject" name="subject" 
+                                class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-gray-800 dark:text-white">
+                            <option value="feedback">General Feedback</option>
+                            <option value="question-suggestion">Question Suggestion</option>
+                            <option value="bug-report">Bug Report</option>
+                            <option value="partnership">Partnership Inquiry</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label for="message" class="block text-gray-700 dark:text-gray-300 mb-2 font-medium">Your Message</label>
+                        <textarea id="message" name="message" rows="5" required 
+                                  class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-gray-800 dark:text-white"></textarea>
+                    </div>
+                    
+                    <div class="flex items-center">
+                        <input type="checkbox" id="consent" name="consent" required 
+                               class="w-4 h-4 text-emerald-600 bg-gray-100 dark:bg-gray-700 border-gray-300 dark:border-gray-600 rounded focus:ring-emerald-500 focus:ring-2">
+                        <label for="consent" class="ml-2 text-sm text-gray-600 dark:text-gray-300">I consent to QuizVerse collecting my details through this form</label>
+                    </div>
+                    
+                    <div>
+                        <button type="submit" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-6 rounded-lg transition w-full">
+                            Send Message <i class="fas fa-paper-plane ml-2"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Suggest a Question -->
+    <section class="py-12 bg-gray-100 dark:bg-gray-800">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="bg-white dark:bg-gray-700 rounded-xl shadow-lg p-8">
+                <h2 class="text-2xl font-bold text-gray-800 dark:text-white mb-6">Suggest a Question</h2>
+                <p class="text-gray-600 dark:text-gray-300 mb-6">Have a great quiz question idea? Help us improve QuizVerse by suggesting questions for our database. Please include:</p>
+                
+                <ul class="space-y-3 text-gray-600 dark:text-gray-300 mb-8">
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-emerald-500 mr-2 mt-1"></i>
+                        <span>The question text</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-emerald-500 mr-2 mt-1"></i>
+                        <span>Correct answer</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-emerald-500 mr-2 mt-1"></i>
+                        <span>3-4 incorrect options (for multiple choice)</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-emerald-500 mr-2 mt-1"></i>
+                        <span>Category it belongs to</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-check text-emerald-500 mr-2 mt-1"></i>
+                        <span>Source/reference for factual questions</span>
+                    </li>
+                </ul>
+                
+                <button id="suggestQuestionBtn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition">
+                    <i class="fas fa-question-circle mr-2"></i> Suggest a Question
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Contact Methods -->
+    <section class="py-12">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h2 class="text-2xl font-bold text-center text-gray-800 dark:text-white mb-8">Other Ways to Reach Us</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Email -->
+                <div class="bg-white dark:bg-gray-700 rounded-xl shadow-md p-6 text-center">
+                    <div class="bg-emerald-100 dark:bg-emerald-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-envelope text-emerald-600 dark:text-emerald-300 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-2">Email Us</h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">For general inquiries and support</p>
+                    <a href="mailto:contact@quizverse.com" class="text-emerald-600 dark:text-emerald-400 hover:underline">contact@quizverse.com</a>
+                </div>
+                
+                <!-- Social Media -->
+                <div class="bg-white dark:bg-gray-700 rounded-xl shadow-md p-6 text-center">
+                    <div class="bg-blue-100 dark:bg-blue-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-hashtag text-blue-600 dark:text-blue-300 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-2">Social Media</h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">Connect with us on social platforms</p>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="text-blue-500 hover:text-blue-700 dark:hover:text-blue-400">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                        <a href="#" class="text-blue-400 hover:text-blue-600 dark:hover:text-blue-300">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-pink-500 hover:text-pink-700 dark:hover:text-pink-400">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Feedback -->
+                <div class="bg-white dark:bg-gray-700 rounded-xl shadow-md p-6 text-center">
+                    <div class="bg-yellow-100 dark:bg-yellow-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-comment-dots text-yellow-600 dark:text-yellow-300 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-2">Quick Feedback</h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">Share your thoughts in our feedback section</p>
+                    <button id="openFeedbackBtn" class="bg-yellow-500 hover:bg-yellow-600 text-gray-800 font-bold py-2 px-4 rounded-lg transition text-sm">
+                        Leave Feedback
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback Modal -->
+    <div id="feedbackModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-xl max-w-md w-full mx-4">
+            <div class="p-6">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-white">Quick Feedback</h3>
+                    <button id="closeFeedbackModal" class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <form id="quickFeedbackForm" class="space-y-4">
+                    <div>
+                        <label class="block text-gray-700 dark:text-gray-300 mb-2">How would you rate your experience?</label>
+                        <div class="flex justify-center space-x-2">
+                            <button type="button" class="rating-btn" data-value="1">😞</button>
+                            <button type="button" class="rating-btn" data-value="2">🙁</button>
+                            <button type="button" class="rating-btn" data-value="3">😐</button>
+                            <button type="button" class="rating-btn" data-value="4">🙂</button>
+                            <button type="button" class="rating-btn active" data-value="5">😀</button>
+                        </div>
+                        <input type="hidden" id="ratingValue" name="rating" value="5">
+                    </div>
+                    <div>
+                        <label for="quickFeedback" class="block text-gray-700 dark:text-gray-300 mb-2">Your feedback (optional)</label>
+                        <textarea id="quickFeedback" name="feedback" rows="3" 
+                                  class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-gray-800 dark:text-white"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-medium py-2 px-4 rounded-lg transition">
+                            Submit Feedback
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-xl max-w-md w-full mx-4 text-center p-8">
+            <div class="bg-emerald-100 dark:bg-emerald-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <i class="fas fa-check text-emerald-600 dark:text-emerald-300 text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-2">Thank You!</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-6">Your message has been received. We'll get back to you soon.</p>
+            <button id="closeSuccessModal" class="bg-emerald-600 hover:bg-emerald-700 text-white font-medium py-2 px-6 rounded-lg transition">
+                Close
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white pt-12 pb-6">
+        <!-- Same footer as homepage -->
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="fixed bottom-6 right-6 bg-emerald-600 text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center opacity-0 invisible transition-all">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="/js/main.js"></script>
+    <script src="/js/analytics.js"></script>
+    <script src="/js/storage.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Contact form submission
+            document.getElementById('contactForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // In a real app, this would send the form data to a server
+                // For this demo, we'll just show a success message
+                document.getElementById('successModal').classList.remove('hidden');
+                
+                // Save to localStorage
+                const formData = {
+                    name: document.getElementById('name').value,
+                    email: document.getElementById('email').value,
+                    subject: document.getElementById('subject').value,
+                    message: document.getElementById('message').value,
+                    timestamp: new Date().toISOString()
+                };
+                
+                saveContactForm(formData);
+                
+                // Reset form
+                this.reset();
+            });
+            
+            // Suggest question button
+            document.getElementById('suggestQuestionBtn').addEventListener('click', function() {
+                document.getElementById('subject').value = 'question-suggestion';
+                document.getElementById('message').focus();
+                
+                // Scroll to form
+                document.getElementById('contactForm').scrollIntoView({ behavior: 'smooth' });
+            });
+            
+            // Feedback modal
+            document.getElementById('openFeedbackBtn').addEventListener('click', function() {
+                document.getElementById('feedbackModal').classList.remove('hidden');
+            });
+            
+            document.getElementById('closeFeedbackModal').addEventListener('click', function() {
+                document.getElementById('feedbackModal').classList.add('hidden');
+            });
+            
+            // Rating buttons
+            document.querySelectorAll('.rating-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    document.querySelectorAll('.rating-btn').forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    document.getElementById('ratingValue').value = this.dataset.value;
+                });
+            });
+            
+            // Quick feedback form
+            document.getElementById('quickFeedbackForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Save feedback to localStorage
+                const feedback = {
+                    rating: document.getElementById('ratingValue').value,
+                    comments: document.getElementById('quickFeedback').value,
+                    timestamp: new Date().toISOString()
+                };
+                
+                saveFeedback(feedback);
+                
+                // Show thank you and close
+                document.getElementById('feedbackModal').classList.add('hidden');
+                alert('Thank you for your feedback!');
+                this.reset();
+                document.getElementById('ratingValue').value = '5';
+                document.querySelectorAll('.rating-btn').forEach(b => b.classList.remove('active'));
+                document.querySelector('.rating-btn[data-value="5"]').classList.add('active');
+            });
+            
+            // Close success modal
+            document.getElementById('closeSuccessModal').addEventListener('click', function() {
+                document.getElementById('successModal').classList.add('hidden');
+            });
+        });
+        
+        function saveContactForm(formData) {
+            // In a real app, this would save to localStorage or send to a server
+            console.log('Form data saved:', formData);
+        }
+        
+        function saveFeedback(feedback) {
+            // In a real app, this would save to localStorage or send to a server
+            console.log('Feedback saved:', feedback);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,2949 @@
+{
+  "meta": {
+    "category": "kids_special",
+    "category_ur": "بچوں کے لیے خصوصی",
+    "description": "A fun quiz for kids to test their knowledge on various topics.",
+    "description_ur": "بچوں کے لیے مختلف موضوعات پر اپنے علم کو جانچنے کے لیے ایک تفریحی کوئز۔",
+    "difficulty": "easy",
+    "image": "kids_special.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What animal says 'Moo'?",
+      "question_ur": "کون سا جانور 'موں' کہتا ہے؟",
+      "options": {
+        "en": ["Cat", "Dog", "Cow", "Duck"],
+        "ur": ["بلی", "کتا", "گائے", "بطخ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A cow is a farm animal that makes a 'moo' sound.",
+      "explanation_ur": "گائے ایک فارمی جانور ہے جو 'موں' کی آواز نکالتی ہے۔",
+      "hint": "This animal gives us milk.",
+      "hint_ur": "یہ جانور ہمیں دودھ دیتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 2,
+      "type": "true-false",
+      "question": "The sun is a star.",
+      "question_ur": "سورج ایک ستارہ ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Sun is the star at the center of our solar system.",
+      "explanation_ur": "سورج ہمارے نظام شمسی کے مرکز کا ستارہ ہے۔",
+      "hint": "It gives us light and heat.",
+      "hint_ur": "یہ ہمیں روشنی اور گرمی دیتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "How many colors are in a rainbow?",
+      "question_ur": "قوس قزح میں کتنے رنگ ہوتے ہیں؟",
+      "options": {
+        "en": ["5", "7", "10", "3"],
+        "ur": ["5", "7", "10", "3"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A rainbow has 7 colors: red, orange, yellow, green, blue, indigo, and violet.",
+      "explanation_ur": "قوس قزح میں 7 رنگ ہوتے ہیں: سرخ، نارنجی، پیلا، سبز، نیلا، نیل اور بنفشی۔",
+      "hint": "Think of the acronym ROYGBIV.",
+      "hint_ur": "ROYGBIV کے مخفف کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "What is the color of a banana?",
+      "question_ur": "کیلے کا رنگ کیا ہے؟",
+      "options": {
+        "en": ["Red", "Blue", "Yellow", "Green"],
+        "ur": ["سرخ", "نیلا", "پیلا", "سبز"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Ripe bananas are yellow.",
+      "explanation_ur": "پکے ہوئے کیلے پیلے ہوتے ہیں۔",
+      "hint": "It's a bright and happy color.",
+      "hint_ur": "یہ ایک روشن اور خوشگوار رنگ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "question": "A fish can live on land.",
+      "question_ur": "مچھلی خشکی پر رہ سکتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "Fish live in water and breathe through gills.",
+      "explanation_ur": "مچھلیاں پانی میں رہتی ہیں اور گلپھڑوں سے سانس لیتی ہیں۔",
+      "hint": "Where do you find fish?",
+      "hint_ur": "آپ کو مچھلیاں کہاں ملتی ہیں؟",
+      "timeLimit": 20
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "What shape has three sides?",
+      "question_ur": "کس شکل کے تین اطراف ہوتے ہیں؟",
+      "options": {
+        "en": ["Square", "Circle", "Triangle", "Rectangle"],
+        "ur": ["مربع", "دائرہ", "مثلث", "مستطیل"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A triangle is a polygon with three edges and three vertices.",
+      "explanation_ur": "مثلث ایک کثیرالضلعی ہے جس کے تین کنارے اور تین کونے ہوتے ہیں۔",
+      "hint": "Think of a slice of pizza.",
+      "hint_ur": "پیزا کے ایک ٹکڑے کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Which month has 28 or 29 days?",
+      "question_ur": "کس مہینے میں 28 یا 29 دن ہوتے ہیں؟",
+      "options": {
+        "en": ["January", "February", "March", "April"],
+        "ur": ["جنوری", "فروری", "مارچ", "اپریل"]
+      },
+      "correctAnswer": 1,
+      "explanation": "February has 28 days in a common year and 29 days in a leap year.",
+      "explanation_ur": "فروری میں عام سال میں 28 دن اور لیپ کے سال میں 29 دن ہوتے ہیں۔",
+      "hint": "It's the shortest month of the year.",
+      "hint_ur": "یہ سال کا سب سے چھوٹا مہینہ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 8,
+      "type": "true-false",
+      "question": "Spiders are insects.",
+      "question_ur": "مکڑیاں حشرات ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Spiders are arachnids, not insects. They have 8 legs, while insects have 6.",
+      "explanation_ur": "مکڑیاں عنکبوت ہیں، حشرات نہیں۔ ان کی 8 ٹانگیں ہوتی ہیں، جبکہ حشرات کی 6 ٹانگیں ہوتی ہیں۔",
+      "hint": "Count the legs.",
+      "hint_ur": "ٹانگیں گنیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "What do bees make?",
+      "question_ur": "شہد کی مکھیاں کیا بناتی ہیں؟",
+      "options": {
+        "en": ["Milk", "Honey", "Bread", "Cheese"],
+        "ur": ["دودھ", "شہد", "روٹی", "پنیر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Bees make honey from the nectar of flowers.",
+      "explanation_ur": "شہد کی مکھیاں پھولوں کے رس سے شہد بناتی ہیں۔",
+      "hint": "It's sweet and golden.",
+      "hint_ur": "یہ میٹھا اور سنہری ہوتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "How many continents are there in the world?",
+      "question_ur": "دنیا میں کتنے براعظم ہیں؟",
+      "options": {
+        "en": ["5", "6", "7", "8"],
+        "ur": ["5", "6", "7", "8"]
+      },
+      "correctAnswer": 2,
+      "explanation": "There are 7 continents: Asia, Africa, North America, South America, Antarctica, Europe, and Australia.",
+      "explanation_ur": "دنیا میں 7 براعظم ہیں: ایشیا، افریقہ، شمالی امریکہ، جنوبی امریکہ، انٹارکٹیکا، یورپ اور آسٹریلیا۔",
+      "hint": "It's a number between 6 and 8.",
+      "hint_ur": "یہ 6 اور 8 کے درمیان ایک عدد ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "question": "A square has four equal sides.",
+      "question_ur": "ایک مربع کے چار برابر اطراف ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "A square is a regular quadrilateral, which means that it has four equal sides and four equal angles.",
+      "explanation_ur": "مربع ایک باقاعدہ چوکور ہے، جس کا مطلب ہے کہ اس کے چار برابر اطراف اور چار برابر زاویے ہوتے ہیں۔",
+      "hint": "Think of a chessboard square.",
+      "hint_ur": "شطرنج کے ایک خانے کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Which animal is known as the 'King of the Jungle'?",
+      "question_ur": "کون سا جانور 'جنگل کا بادشاہ' کہلاتا ہے؟",
+      "options": {
+        "en": ["Tiger", "Lion", "Elephant", "Bear"],
+        "ur": ["شیر", "ببر شیر", "ہاتھی", "ریچھ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The lion is often called the 'King of the Jungle' because of its majestic appearance and powerful roar.",
+      "explanation_ur": "ببر شیر کو اکثر اس کی شاہی شکل اور طاقتور دھاڑ کی وجہ سے 'جنگل کا بادشاہ' کہا جاتا ہے۔",
+      "hint": "This animal has a big mane.",
+      "hint_ur": "اس جانور کی ایک بڑی ایال ہوتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "What is the opposite of 'hot'?",
+      "question_ur": "'گرم' کا متضاد کیا ہے؟",
+      "options": {
+        "en": ["Cold", "Warm", "Spicy", "Cool"],
+        "ur": ["سرد", "گرم", "مسالیدار", "ٹھنڈا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Cold is the opposite of hot.",
+      "explanation_ur": "سرد گرم کا متضاد ہے۔",
+      "hint": "Think of winter.",
+      "hint_ur": "سردیوں کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "question": "The moon is bigger than the Earth.",
+      "question_ur": "چاند زمین سے بڑا ہے۔",
+      "correctAnswer": false,
+      "explanation": "The Earth is much larger than the moon. The moon is a natural satellite of the Earth.",
+      "explanation_ur": "زمین چاند سے بہت بڑی ہے۔ چاند زمین کا ایک قدرتی سیارہ ہے۔",
+      "hint": "Which one do we live on?",
+      "hint_ur": "ہم کس پر رہتے ہیں؟",
+      "timeLimit": 20
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "What do we use to see?",
+      "question_ur": "ہم دیکھنے کے لیے کیا استعمال کرتے ہیں؟",
+      "options": {
+        "en": ["Ears", "Nose", "Eyes", "Mouth"],
+        "ur": ["کان", "ناک", "آنکھیں", "منہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "We use our eyes to see the world around us.",
+      "explanation_ur": "ہم اپنے اردگرد کی دنیا کو دیکھنے کے لیے اپنی آنکھوں کا استعمال کرتے ہیں۔",
+      "hint": "You have two of them on your face.",
+      "hint_ur": "آپ کے چہرے پر ان میں سے دو ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "What is the baby of a cat called?",
+      "question_ur": "بلی کے بچے کو کیا کہتے ہیں؟",
+      "options": {
+        "en": ["Puppy", "Kitten", "Calf", "Chick"],
+        "ur": ["پلا", "بلی کا بچہ", "بچھڑا", "چوزا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A baby cat is called a kitten.",
+      "explanation_ur": "بلی کے بچے کو کٹن کہتے ہیں۔",
+      "hint": "It's small and fluffy.",
+      "hint_ur": "یہ چھوٹا اور روئیں دار ہوتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 17,
+      "type": "true-false",
+      "question": "Water is a solid.",
+      "question_ur": "پانی ایک ٹھوس ہے۔",
+      "correctAnswer": false,
+      "explanation": "Water is a liquid at room temperature. It becomes a solid (ice) when it freezes.",
+      "explanation_ur": "پانی کمرے کے درجہ حرارت پر ایک مائع ہے۔ جب یہ جم جاتا ہے تو یہ ٹھوس (برف) بن جاتا ہے۔",
+      "hint": "Can you pour it?",
+      "hint_ur": "کیا آپ اسے انڈیل سکتے ہیں؟",
+      "timeLimit": 20
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "How many days are in a week?",
+      "question_ur": "ایک ہفتے میں کتنے دن ہوتے ہیں؟",
+      "options": {
+        "en": ["5", "6", "7", "8"],
+        "ur": ["5", "6", "7", "8"]
+      },
+      "correctAnswer": 2,
+      "explanation": "There are 7 days in a week: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, and Saturday.",
+      "explanation_ur": "ایک ہفتے میں 7 دن ہوتے ہیں: اتوار، پیر، منگل، بدھ، جمعرات، جمعہ اور ہفتہ۔",
+      "hint": "Starts with Sunday and ends with Saturday.",
+      "hint_ur": "اتوار سے شروع ہوتا ہے اور ہفتہ کو ختم ہوتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "What is the color of grass?",
+      "question_ur": "گھاس کا رنگ کیا ہے؟",
+      "options": {
+        "en": ["Blue", "Red", "Green", "Yellow"],
+        "ur": ["نیلا", "سرخ", "سبز", "پیلا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Grass is green due to the presence of chlorophyll.",
+      "explanation_ur": "گھاس کلوروفل کی موجودگی کی وجہ سے سبز ہوتی ہے۔",
+      "hint": "It's the color you see in parks and fields.",
+      "hint_ur": "یہ وہ رنگ ہے جو آپ پارکوں اور کھیتوں میں دیکھتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 20,
+      "type": "true-false",
+      "question": "Penguins can fly.",
+      "question_ur": "پینگوئن اڑ سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Penguins are birds, but they cannot fly. They are excellent swimmers.",
+      "explanation_ur": "پینگوئن پرندے ہیں، لیکن وہ اڑ نہیں سکتے۔ وہ بہترین تیراک ہیں۔",
+      "hint": "They live in cold places and waddle.",
+      "hint_ur": "وہ ٹھنڈی جگہوں پر رہتے ہیں اور لڑکھڑا کر چلتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "What is the sound a dog makes?",
+      "question_ur": "کتا کونسی آواز نکالتا ہے؟",
+      "options": {
+        "en": ["Meow", "Woof", "Oink", "Quack"],
+        "ur": ["میاؤں", "بھونکنا", "اوئنک", "کائیں کائیں"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A dog barks, which is often represented as 'woof'.",
+      "explanation_ur": "کتا بھونکتا ہے، جسے اکثر 'ووف' کہا جاتا ہے۔",
+      "hint": "It's a common pet.",
+      "hint_ur": "یہ ایک عام پالتو جانور ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "What do we wear on our feet?",
+      "question_ur": "ہم اپنے پیروں میں کیا پہنتے ہیں؟",
+      "options": {
+        "en": ["Hats", "Gloves", "Socks", "Scarves"],
+        "ur": ["ٹوپیاں", "دستانے", "جرابیں", "اسکارف"]
+      },
+      "correctAnswer": 2,
+      "explanation": "We wear socks and shoes on our feet.",
+      "explanation_ur": "ہم اپنے پیروں میں جرابیں اور جوتے پہنتے ہیں۔",
+      "hint": "They keep our feet warm.",
+      "hint_ur": "وہ ہمارے پیروں کو گرم رکھتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 23,
+      "type": "true-false",
+      "question": "Carrots are a fruit.",
+      "question_ur": "گاجر ایک پھل ہے۔",
+      "correctAnswer": false,
+      "explanation": "Carrots are root vegetables.",
+      "explanation_ur": "گاجر جڑ والی سبزیاں ہیں۔",
+      "hint": "They grow underground.",
+      "hint_ur": "وہ زیر زمین اگتی ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which of these is a primary color?",
+      "question_ur": "ان میں سے کون سا بنیادی رنگ ہے؟",
+      "options": {
+        "en": ["Green", "Orange", "Purple", "Red"],
+        "ur": ["سبز", "نارنجی", "جامنی", "سرخ"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The primary colors are red, yellow, and blue.",
+      "explanation_ur": "بنیادی رنگ سرخ، پیلا اور نیلا ہیں۔",
+      "hint": "You can't make this color by mixing other colors.",
+      "hint_ur": "آپ دوسرے رنگوں کو ملا کر یہ رنگ نہیں بنا سکتے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "What is the capital of Japan?",
+      "question_ur": "جاپان کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Beijing", "Seoul", "Tokyo", "Bangkok"],
+        "ur": ["بیجنگ", "سیئول", "ٹوکیو", "بنکاک"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Tokyo is the capital and largest city of Japan.",
+      "explanation_ur": "ٹوکیو جاپان کا دارالحکومت اور سب سے بڑا شہر ہے۔",
+      "hint": "It's a very big and modern city in Asia.",
+      "hint_ur": "یہ ایشیا کا ایک بہت بڑا اور جدید شہر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 26,
+      "type": "true-false",
+      "question": "We use a fork to drink soup.",
+      "question_ur": "ہم سوپ پینے کے لیے کانٹا استعمال کرتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "We use a spoon to drink soup.",
+      "explanation_ur": "ہم سوپ پینے کے لیے چمچ کا استعمال کرتے ہیں۔",
+      "hint": "A fork has prongs.",
+      "hint_ur": "ایک کانٹے میں شاخیں ہوتی ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "How many letters are in the English alphabet?",
+      "question_ur": "انگریزی حروف تہجی میں کتنے حروف ہیں؟",
+      "options": {
+        "en": ["24", "25", "26", "27"],
+        "ur": ["24", "25", "26", "27"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The modern English alphabet consists of 26 letters.",
+      "explanation_ur": "جدید انگریزی حروف تہجی 26 حروف پر مشتمل ہے۔",
+      "hint": "It starts with A and ends with Z.",
+      "hint_ur": "یہ A سے شروع ہوتا ہے اور Z پر ختم ہوتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "What is the fastest land animal?",
+      "question_ur": "زمین کا سب سے تیز رفتار جانور کون سا ہے؟",
+      "options": {
+        "en": ["Lion", "Cheetah", "Horse", "Kangaroo"],
+        "ur": ["ببر شیر", "چیتا", "گھوڑا", "کینگرو"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The cheetah is the fastest land animal, capable of running at speeds of up to 75 mph (120 km/h).",
+      "explanation_ur": "چیتا زمین کا سب سے تیز رفتار جانور ہے، جو 75 میل فی گھنٹہ (120 کلومیٹر فی گھنٹہ) کی رفتار سے دوڑنے کی صلاحیت رکھتا ہے۔",
+      "hint": "This animal has spots.",
+      "hint_ur": "اس جانور کے دھبے ہوتے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 29,
+      "type": "true-false",
+      "question": "The Earth is flat.",
+      "question_ur": "زمین چپٹی ہے۔",
+      "correctAnswer": false,
+      "explanation": "The Earth is a sphere, or a round ball.",
+      "explanation_ur": "زمین ایک کرہ ہے، یا ایک گول گیند ہے۔",
+      "hint": "What shape is a ball?",
+      "hint_ur": "ایک گیند کی شکل کیا ہے؟",
+      "timeLimit": 20
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "What is 2 + 2?",
+      "question_ur": "2 + 2 کیا ہے؟",
+      "options": {
+        "en": ["3", "4", "5", "6"],
+        "ur": ["3", "4", "5", "6"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The sum of 2 and 2 is 4.",
+      "explanation_ur": "2 اور 2 کا مجموعہ 4 ہے۔",
+      "hint": "Count on your fingers.",
+      "hint_ur": "اپنی انگلیوں پر گنیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Which planet is known as the Red Planet?",
+      "question_ur": "کون سا سیارہ سرخ سیارہ کہلاتا ہے؟",
+      "options": {
+        "en": ["Venus", "Mars", "Jupiter", "Saturn"],
+        "ur": ["زہرہ", "مریخ", "مشتری", "زحل"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Mars is known as the Red Planet due to its reddish appearance, caused by iron oxide on its surface.",
+      "explanation_ur": "مریخ کو اپنی سرخی مائل شکل کی وجہ سے سرخ سیارہ کہا جاتا ہے، جو اس کی سطح پر آئرن آکسائیڈ کی وجہ سے ہے۔",
+      "hint": "It's the fourth planet from the Sun.",
+      "hint_ur": "یہ سورج سے چوتھا سیارہ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 32,
+      "type": "true-false",
+      "question": "A bicycle has three wheels.",
+      "question_ur": "ایک سائیکل کے تین پہیے ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "A bicycle has two wheels. A tricycle has three wheels.",
+      "explanation_ur": "ایک سائیکل کے دو پہیے ہوتے ہیں۔ ایک ٹرائی سائیکل کے تین پہیے ہوتے ہیں۔",
+      "hint": "Count the wheels on your bike.",
+      "hint_ur": "اپنی موٹر سائیکل کے پہیے گنیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "What is the color of the sky on a clear day?",
+      "question_ur": "صاف دن میں آسمان کا رنگ کیا ہوتا ہے؟",
+      "options": {
+        "en": ["Green", "Blue", "Red", "Yellow"],
+        "ur": ["سبز", "نیلا", "سرخ", "پیلا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The sky is blue because of the way the Earth's atmosphere scatters sunlight.",
+      "explanation_ur": "آسمان نیلا ہے کیونکہ زمین کی فضا سورج کی روشنی کو بکھیرتی ہے۔",
+      "hint": "It's a calming color.",
+      "hint_ur": "یہ ایک پرسکون رنگ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "What is the largest ocean in the world?",
+      "question_ur": "دنیا کا سب سے بڑا سمندر کون سا ہے؟",
+      "options": {
+        "en": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+        "ur": ["بحر اوقیانوس", "بحر ہند", "بحر منجمد شمالی", "بحر الکاہل"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Pacific Ocean is the largest and deepest of the world's five oceans.",
+      "explanation_ur": "بحر الکاہل دنیا کے پانچ سمندروں میں سب سے بڑا اور گہرا ہے۔",
+      "hint": "It's on the west coast of the United States.",
+      "hint_ur": "یہ ریاستہائے متحدہ کے مغربی ساحل پر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 35,
+      "type": "true-false",
+      "question": "Snakes have legs.",
+      "question_ur": "سانپوں کی ٹانگیں ہوتی ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Snakes are reptiles that do not have legs.",
+      "explanation_ur": "سانپ رینگنے والے جانور ہیں جن کی ٹانگیں نہیں ہوتیں۔",
+      "hint": "How do they move?",
+      "hint_ur": "وہ کیسے حرکت کرتے ہیں؟",
+      "timeLimit": 20
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "What is the main ingredient of bread?",
+      "question_ur": "روٹی کا بنیادی جزو کیا ہے؟",
+      "options": {
+        "en": ["Sugar", "Salt", "Flour", "Butter"],
+        "ur": ["چینی", "نمک", "آٹا", "مکھن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Flour is the main ingredient in most types of bread.",
+      "explanation_ur": "آٹا زیادہ تر قسم کی روٹیوں میں بنیادی جزو ہے۔",
+      "hint": "It's a white powder.",
+      "hint_ur": "یہ ایک سفید پاؤڈر ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "Which insect has colorful wings?",
+      "question_ur": "کس کیڑے کے رنگین پر ہوتے ہیں؟",
+      "options": {
+        "en": ["Ant", "Bee", "Butterfly", "Spider"],
+        "ur": ["چیونٹی", "شہد کی مکھی", "تتلی", "مکڑی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Butterflies are known for their large, often brightly colored wings.",
+      "explanation_ur": "تتلیاں اپنے بڑے، اکثر چمکدار رنگ کے پروں کے لیے جانی جاتی ہیں۔",
+      "hint": "They fly from flower to flower.",
+      "hint_ur": "وہ پھول سے پھول تک اڑتی ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 38,
+      "type": "true-false",
+      "question": "A year has 12 months.",
+      "question_ur": "ایک سال میں 12 مہینے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "A year is divided into 12 months in the modern calendar.",
+      "explanation_ur": "جدید کیلنڈر میں ایک سال کو 12 مہینوں میں تقسیم کیا گیا ہے۔",
+      "hint": "Count them from January to December.",
+      "hint_ur": "انہیں جنوری سے دسمبر تک گنیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "What is the name of the toy cowboy in 'Toy Story'?",
+      "question_ur": "'ٹوائے اسٹوری' میں کھلونا کاؤبائے کا کیا نام ہے؟",
+      "options": {
+        "en": ["Buzz Lightyear", "Woody", "Mr. Potato Head", "Slinky Dog"],
+        "ur": ["بز لائٹ ییئر", "ووڈی", "مسٹر پوٹیٹو ہیڈ", "سلنکی ڈاگ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Woody is the main character, a cowboy doll, in the 'Toy Story' movies.",
+      "explanation_ur": "'ٹوائے اسٹوری' فلموں میں ووڈی مرکزی کردار ہے، جو ایک کاؤبائے گڑیا ہے۔",
+      "hint": "He has a pull-string on his back.",
+      "hint_ur": "اس کی پیٹھ پر ایک کھینچنے والی تار ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "What is the currency of the United States?",
+      "question_ur": "ریاستہائے متحدہ کی کرنسی کیا ہے؟",
+      "options": {
+        "en": ["Euro", "Pound", "Dollar", "Yen"],
+        "ur": ["یورو", "پاؤنڈ", "ڈالر", "ین"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The United States dollar is the official currency of the United States and its territories.",
+      "explanation_ur": "ریاستہائے متحدہ کا ڈالر ریاستہائے متحدہ اور اس کے علاقوں کی سرکاری کرنسی ہے۔",
+      "hint": "Its symbol is $.",
+      "hint_ur": "اس کی علامت $ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 41,
+      "type": "true-false",
+      "question": "An octopus has ten arms.",
+      "question_ur": "ایک آکٹوپس کے دس بازو ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "An octopus has eight arms.",
+      "explanation_ur": "ایک آکٹوپس کے آٹھ بازو ہوتے ہیں۔",
+      "hint": "Think of the prefix 'octo-'.",
+      "hint_ur": "'آکٹو-' کے سابقے کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "What is the name of the fairy in 'Peter Pan'?",
+      "question_ur": "'پیٹر پین' میں پری کا کیا نام ہے؟",
+      "options": {
+        "en": ["Cinderella", "Tinker Bell", "Ariel", "Belle"],
+        "ur": ["سنڈریلا", "ٹنکر بیل", "ایریل", "بیل"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Tinker Bell is the fairy who is Peter Pan's companion.",
+      "explanation_ur": "ٹنکر بیل وہ پری ہے جو پیٹر پین کی ساتھی ہے۔",
+      "hint": "She is small and magical.",
+      "hint_ur": "وہ چھوٹی اور جادوئی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "What is the tallest animal in the world?",
+      "question_ur": "دنیا کا سب سے لمبا جانور کون سا ہے؟",
+      "options": {
+        "en": ["Elephant", "Giraffe", "Horse", "Camel"],
+        "ur": ["ہاتھی", "زرافہ", "گھوڑا", "اونٹ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The giraffe is the tallest mammal in the world, known for its long neck.",
+      "explanation_ur": "زرافہ دنیا کا سب سے لمبا ممالیہ ہے، جو اپنی لمبی گردن کے لیے جانا جاتا ہے۔",
+      "hint": "This animal has a very long neck.",
+      "hint_ur": "اس جانور کی بہت لمبی گردن ہوتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 44,
+      "type": "true-false",
+      "question": "A circle has corners.",
+      "question_ur": "ایک دائرے کے کونے ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "A circle is a round shape with no corners or edges.",
+      "explanation_ur": "دائرہ ایک گول شکل ہے جس میں کوئی کونے یا کنارے نہیں ہوتے۔",
+      "hint": "Think of a wheel.",
+      "hint_ur": "ایک پہیے کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Which of these is not a fruit?",
+      "question_ur": "ان میں سے کون سا پھل نہیں ہے؟",
+      "options": {
+        "en": ["Apple", "Banana", "Broccoli", "Grapes"],
+        "ur": ["سیب", "کیلا", "بروکولی", "انگور"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Broccoli is a vegetable. Apples, bananas, and grapes are fruits.",
+      "explanation_ur": "بروکولی ایک سبزی ہے۔ سیب، کیلے اور انگور پھل ہیں۔",
+      "hint": "It looks like a small tree.",
+      "hint_ur": "یہ ایک چھوٹے درخت کی طرح لگتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "What is the opposite of 'big'?",
+      "question_ur": "'بڑا' کا متضاد کیا ہے؟",
+      "options": {
+        "en": ["Large", "Small", "Tall", "Wide"],
+        "ur": ["بڑا", "چھوٹا", "لمبا", "چوڑا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Small is the opposite of big.",
+      "explanation_ur": "چھوٹا بڑے کا متضاد ہے۔",
+      "hint": "Think of a mouse.",
+      "hint_ur": "ایک چوہے کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 47,
+      "type": "true-false",
+      "question": "Goldfish have a long memory.",
+      "question_ur": "سنہری مچھلی کی یادداشت لمبی ہوتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "It's a myth that goldfish have a three-second memory. They can actually remember things for several months.",
+      "explanation_ur": "یہ ایک افسانہ ہے کہ سنہری مچھلی کی یادداشت تین سیکنڈ کی ہوتی ہے۔ وہ دراصل کئی مہینوں تک چیزیں یاد رکھ سکتی ہیں۔",
+      "hint": "They are a common pet.",
+      "hint_ur": "وہ ایک عام پالتو جانور ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "What is the name of the snowman in 'Frozen'?",
+      "question_ur": "'فروزن' میں برفانی آدمی کا کیا نام ہے؟",
+      "options": {
+        "en": ["Sven", "Kristoff", "Olaf", "Hans"],
+        "ur": ["سوین", "کرسٹوف", "اولاف", "ہینس"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Olaf is the friendly snowman in the Disney movie 'Frozen'.",
+      "explanation_ur": "اولاف ڈزنی کی فلم 'فروزن' میں ایک دوستانہ برفانی آدمی ہے۔",
+      "hint": "He likes warm hugs.",
+      "hint_ur": "اسے گرم گلے ملنا پسند ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "What is the first letter of the alphabet?",
+      "question_ur": "حروف تہجی کا پہلا حرف کیا ہے؟",
+      "options": {
+        "en": ["A", "B", "C", "D"],
+        "ur": ["A", "B", "C", "D"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The English alphabet starts with the letter 'A'.",
+      "explanation_ur": "انگریزی حروف تہجی 'A' سے شروع ہوتے ہیں۔",
+      "hint": "It's in the word 'apple'.",
+      "hint_ur": "یہ لفظ 'apple' میں ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 50,
+      "type": "true-false",
+      "question": "A turtle can come out of its shell.",
+      "question_ur": "ایک کچھوا اپنے خول سے باہر آ سکتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "A turtle's shell is part of its skeleton, so it cannot be removed.",
+      "explanation_ur": "کچھوے کا خول اس کے کنکال کا حصہ ہے، لہذا اسے ہٹایا نہیں جا سکتا۔",
+      "hint": "Its shell is its home and protection.",
+      "hint_ur": "اس کا خول اس کا گھر اور تحفظ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "What is the color of an orange?",
+      "question_ur": "مالٹے کا رنگ کیا ہوتا ہے؟",
+      "options": {
+        "en": ["Red", "Orange", "Yellow", "Green"],
+        "ur": ["سرخ", "نارنجی", "پیلا", "سبز"]
+      },
+      "correctAnswer": 1,
+      "explanation": "An orange is named after its color.",
+      "explanation_ur": "ایک مالٹے کا نام اس کے رنگ کے نام پر رکھا گیا ہے۔",
+      "hint": "The fruit and the color have the same name.",
+      "hint_ur": "پھل اور رنگ کا ایک ہی نام ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "What is the baby of a dog called?",
+      "question_ur": "کتے کے بچے کو کیا کہتے ہیں؟",
+      "options": {
+        "en": ["Kitten", "Puppy", "Cub", "Lamb"],
+        "ur": ["بلی کا بچہ", "پلا", "شیر کا بچہ", "میمنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A baby dog is called a puppy.",
+      "explanation_ur": "کتے کے بچے کو پلا کہتے ہیں۔",
+      "hint": "It likes to play and wag its tail.",
+      "hint_ur": "اسے کھیلنا اور اپنی دم ہلانا پسند ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 53,
+      "type": "true-false",
+      "question": "The sun rises in the west.",
+      "question_ur": "سورج مغرب سے طلوع ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "The sun rises in the east and sets in the west.",
+      "explanation_ur": "سورج مشرق سے طلوع ہوتا ہے اور مغرب میں غروب ہوتا ہے۔",
+      "hint": "Think about where the sun appears in the morning.",
+      "hint_ur": "اس بارے میں سوچیں کہ صبح سورج کہاں نظر آتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "What do you use to write on a blackboard?",
+      "question_ur": "آپ بلیک بورڈ پر لکھنے کے لیے کیا استعمال کرتے ہیں؟",
+      "options": {
+        "en": ["Pen", "Pencil", "Chalk", "Crayon"],
+        "ur": ["قلم", "پنسل", "چاک", "کریون"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Chalk is used to write on blackboards or chalkboards.",
+      "explanation_ur": "چاک بلیک بورڈ یا چاک بورڈ پر لکھنے کے لیے استعمال ہوتا ہے۔",
+      "hint": "It's usually white and dusty.",
+      "hint_ur": "یہ عام طور پر سفید اور دھول دار ہوتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "How many fingers do you have on one hand?",
+      "question_ur": "آپ کے ایک ہاتھ میں کتنی انگلیاں ہیں؟",
+      "options": {
+        "en": ["4", "5", "6", "10"],
+        "ur": ["4", "5", "6", "10"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A human hand typically has five fingers.",
+      "explanation_ur": "انسانی ہاتھ میں عام طور پر پانچ انگلیاں ہوتی ہیں۔",
+      "hint": "Count them yourself!",
+      "hint_ur": "انہیں خود گنیں!",
+      "timeLimit": 20
+    },
+    {
+      "id": 56,
+      "type": "true-false",
+      "question": "A bat is a bird.",
+      "question_ur": "چمگادڑ ایک پرندہ ہے۔",
+      "correctAnswer": false,
+      "explanation": "A bat is a mammal, the only mammal capable of sustained flight.",
+      "explanation_ur": "چمگادڑ ایک ممالیہ ہے، واحد ممالیہ جو مسلسل پرواز کرنے کی صلاحیت رکھتا ہے۔",
+      "hint": "It has fur, not feathers.",
+      "hint_ur": "اس کے پر نہیں ہوتے، بلکہ کھال ہوتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "What is the name of the princess in 'The Little Mermaid'?",
+      "question_ur": "'دی لٹل مرمیڈ' میں شہزادی کا کیا نام ہے؟",
+      "options": {
+        "en": ["Cinderella", "Belle", "Ariel", "Jasmine"],
+        "ur": ["سنڈریلا", "بیل", "ایریل", "جیسمین"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Ariel is the protagonist of Disney's 'The Little Mermaid'.",
+      "explanation_ur": "ایریل ڈزنی کی 'دی لٹل مرمیڈ' کی مرکزی کردار ہے۔",
+      "hint": "She has a fish tail.",
+      "hint_ur": "اس کی مچھلی کی دم ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "What is the capital of Italy?",
+      "question_ur": "اٹلی کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Paris", "Madrid", "Rome", "Athens"],
+        "ur": ["پیرس", "میڈرڈ", "روم", "ایتھنز"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Rome is the capital city of Italy.",
+      "explanation_ur": "روم اٹلی کا دارالحکومت ہے۔",
+      "hint": "It's famous for the Colosseum.",
+      "hint_ur": "یہ کولوزیم کے لیے مشہور ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 59,
+      "type": "true-false",
+      "question": "A desert is a place with a lot of water.",
+      "question_ur": "صحرا ایک ایسی جگہ ہے جہاں بہت زیادہ پانی ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "A desert is a barren area of land where little precipitation occurs and consequently living conditions are hostile for plant and animal life.",
+      "explanation_ur": "صحرا زمین کا ایک بنجر علاقہ ہے جہاں بہت کم بارش ہوتی ہے اور نتیجتاً پودوں اور جانوروں کی زندگی کے لیے حالات ناموافق ہوتے ہیں۔",
+      "hint": "It's very dry and sandy.",
+      "hint_ur": "یہ بہت خشک اور ریتیلا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "What is the name of the main character in 'Harry Potter'?",
+      "question_ur": "'ہیری پوٹر' میں مرکزی کردار کا کیا نام ہے؟",
+      "options": {
+        "en": ["Ron Weasley", "Hermione Granger", "Harry Potter", "Draco Malfoy"],
+        "ur": ["رون ویزلی", "ہرمائنی گرینجر", "ہیری پوٹر", "ڈریکو مالفائے"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Harry Potter is the title character of J. K. Rowling's 'Harry Potter' series.",
+      "explanation_ur": "ہیری پوٹر جے کے رولنگ کی 'ہیری پوٹر' سیریز کا ٹائٹل کردار ہے۔",
+      "hint": "He is a famous wizard.",
+      "hint_ur": "وہ ایک مشہور جادوگر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "What is the largest planet in our solar system?",
+      "question_ur": "ہمارے نظام شمسی کا سب سے بڑا سیارہ کون سا ہے؟",
+      "options": {
+        "en": ["Earth", "Mars", "Jupiter", "Saturn"],
+        "ur": ["زمین", "مریخ", "مشتری", "زحل"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Jupiter is the largest planet in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined.",
+      "explanation_ur": "مشتری نظام شمسی کا سب سے بڑا سیارہ ہے۔ یہ ایک گیس دیو ہے جس کا کمیت نظام شمسی کے دیگر تمام سیاروں کے مشترکہ کمیت سے ڈھائی گنا زیادہ ہے۔",
+      "hint": "It has a Great Red Spot.",
+      "hint_ur": "اس کا ایک بڑا سرخ دھبہ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 62,
+      "type": "true-false",
+      "question": "A triangle has five sides.",
+      "question_ur": "ایک مثلث کے پانچ اطراف ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "A triangle has three sides. A pentagon has five sides.",
+      "explanation_ur": "ایک مثلث کے تین اطراف ہوتے ہیں۔ ایک پینٹاگون کے پانچ اطراف ہوتے ہیں۔",
+      "hint": "Think of the prefix 'tri-'.",
+      "hint_ur": "'ٹرائی-' کے سابقے کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "What season comes after winter?",
+      "question_ur": "سردیوں کے بعد کون سا موسم آتا ہے؟",
+      "options": {
+        "en": ["Summer", "Spring", "Autumn", "Fall"],
+        "ur": ["گرمی", "بہار", "خزاں", "خزاں"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Spring follows winter and precedes summer.",
+      "explanation_ur": "بہار سردیوں کے بعد آتی ہے اور گرمیوں سے پہلے آتی ہے۔",
+      "hint": "Flowers start to bloom in this season.",
+      "hint_ur": "اس موسم میں پھول کھلنے لگتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "question": "What is the opposite of 'up'?",
+      "question_ur": "'اوپر' کا متضاد کیا ہے؟",
+      "options": {
+        "en": ["Down", "Left", "Right", "Side"],
+        "ur": ["نیچے", "بائیں", "دائیں", "طرف"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Down is the opposite of up.",
+      "explanation_ur": "نیچے اوپر کا متضاد ہے۔",
+      "hint": "Think of stairs.",
+      "hint_ur": "سیڑھیوں کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 65,
+      "type": "true-false",
+      "question": "The moon has its own light.",
+      "question_ur": "چاند کی اپنی روشنی ہوتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "The moon does not produce its own light. It reflects light from the sun.",
+      "explanation_ur": "چاند اپنی روشنی خود پیدا نہیں کرتا۔ یہ سورج سے روشنی منعکس کرتا ہے۔",
+      "hint": "Where does the light at night come from?",
+      "hint_ur": "رات کو روشنی کہاں سے آتی ہے؟",
+      "timeLimit": 20
+    },
+    {
+      "id": 66,
+      "type": "mcq",
+      "question": "What is the color of a stop sign?",
+      "question_ur": "اسٹاپ سائن کا رنگ کیا ہے؟",
+      "options": {
+        "en": ["Green", "Yellow", "Red", "Blue"],
+        "ur": ["سبز", "پیلا", "سرخ", "نیلا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Stop signs are red, which is a color used to indicate danger or to stop.",
+      "explanation_ur": "اسٹاپ کے نشانات سرخ ہوتے ہیں، جو ایک رنگ ہے جو خطرے کی نشاندہی کرنے یا رکنے کے لیے استعمال ہوتا ہے۔",
+      "hint": "It's the same color as an apple.",
+      "hint_ur": "یہ ایک سیب کی طرح کا رنگ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "Which animal is known for its black and white stripes?",
+      "question_ur": "کون سا جانور اپنی سیاہ اور سفید دھاریوں کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Tiger", "Lion", "Zebra", "Giraffe"],
+        "ur": ["شیر", "ببر شیر", "زیبرا", "زرافہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Zebras are African equines with distinctive black-and-white striped coats.",
+      "explanation_ur": "زیبرا افریقی گھوڑے ہیں جن کے مخصوص سیاہ اور سفید دھاری دار کوٹ ہوتے ہیں۔",
+      "hint": "It looks like a horse with stripes.",
+      "hint_ur": "یہ دھاریوں والے گھوڑے کی طرح لگتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 68,
+      "type": "true-false",
+      "question": "A week has ten days.",
+      "question_ur": "ایک ہفتے میں دس دن ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "A week has seven days.",
+      "explanation_ur": "ایک ہفتے میں سات دن ہوتے ہیں۔",
+      "hint": "Count the days from Sunday to Saturday.",
+      "hint_ur": "اتوار سے ہفتہ تک دن گنیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "question": "What is the name of the superhero who can climb walls?",
+      "question_ur": "اس سپر ہیرو کا کیا نام ہے جو دیواروں پر چڑھ سکتا ہے؟",
+      "options": {
+        "en": ["Superman", "Batman", "Spider-Man", "Iron Man"],
+        "ur": ["سپر مین", "بیٹ مین", "اسپائیڈر مین", "آئرن مین"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Spider-Man is a superhero known for his spider-like abilities, including climbing walls.",
+      "explanation_ur": "اسپائیڈر مین ایک سپر ہیرو ہے جو اپنی مکڑی جیسی صلاحیتوں کے لیے جانا جاتا ہے، بشمول دیواروں پر چڑھنا۔",
+      "hint": "He shoots webs from his wrists.",
+      "hint_ur": "وہ اپنی کلائیوں سے جالے پھینکتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 70,
+      "type": "mcq",
+      "question": "What is 10 - 5?",
+      "question_ur": "10 - 5 کیا ہے؟",
+      "options": {
+        "en": ["3", "4", "5", "6"],
+        "ur": ["3", "4", "5", "6"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The difference between 10 and 5 is 5.",
+      "explanation_ur": "10 اور 5 کا فرق 5 ہے۔",
+      "hint": "It's half of 10.",
+      "hint_ur": "یہ 10 کا آدھا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 71,
+      "type": "true-false",
+      "question": "Dolphins are fish.",
+      "question_ur": "ڈولفن مچھلیاں ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Dolphins are marine mammals, not fish. They are warm-blooded and breathe air.",
+      "explanation_ur": "ڈولفن سمندری ممالیہ ہیں، مچھلیاں نہیں۔ وہ گرم خون والے ہیں اور ہوا میں سانس لیتے ہیں۔",
+      "hint": "They are very intelligent and playful.",
+      "hint_ur": "وہ بہت ذہین اور زندہ دل ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 72,
+      "type": "mcq",
+      "question": "What do we use to smell?",
+      "question_ur": "ہم سونگھنے کے لیے کیا استعمال کرتے ہیں؟",
+      "options": {
+        "en": ["Ears", "Nose", "Eyes", "Mouth"],
+        "ur": ["کان", "ناک", "آنکھیں", "منہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "We use our nose to smell things.",
+      "explanation_ur": "ہم چیزوں کو سونگھنے کے لیے اپنی ناک کا استعمال کرتے ہیں۔",
+      "hint": "It's in the middle of your face.",
+      "hint_ur": "یہ آپ کے چہرے کے بیچ میں ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "Which of these is a vegetable?",
+      "question_ur": "ان میں سے کون سی سبزی ہے؟",
+      "options": {
+        "en": ["Apple", "Potato", "Orange", "Banana"],
+        "ur": ["سیب", "آلو", "مالٹا", "کیلا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A potato is a starchy root vegetable.",
+      "explanation_ur": "آلو ایک نشاستہ دار جڑ والی سبزی ہے۔",
+      "hint": "It can be made into french fries.",
+      "hint_ur": "اس سے فرنچ فرائز بنائے جا سکتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 74,
+      "type": "true-false",
+      "question": "An elephant is a small animal.",
+      "question_ur": "ہاتھی ایک چھوٹا جانور ہے۔",
+      "correctAnswer": false,
+      "explanation": "Elephants are the largest existing land animals.",
+      "explanation_ur": "ہاتھی موجودہ سب سے بڑے زمینی جانور ہیں۔",
+      "hint": "It has a long trunk.",
+      "hint_ur": "اس کی ایک لمبی سونڈ ہوتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "question": "What is the name of the princess who sleeps for 100 years?",
+      "question_ur": "اس شہزادی کا کیا نام ہے جو 100 سال تک سوتی ہے؟",
+      "options": {
+        "en": ["Cinderella", "Snow White", "Sleeping Beauty", "Belle"],
+        "ur": ["سنڈریلا", "سنو وائٹ", "سلیپنگ بیوٹی", "بیل"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Princess Aurora, also known as Sleeping Beauty, is cursed to sleep for 100 years.",
+      "explanation_ur": "شہزادی ارورہ، جسے سلیپنگ بیوٹی بھی کہا جاتا ہے، کو 100 سال تک سونے کا অভিশাপ دیا گیا ہے۔",
+      "hint": "Her name is in the question.",
+      "hint_ur": "اس کا نام سوال میں ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "question": "What shape is a stop sign?",
+      "question_ur": "اسٹاپ سائن کی شکل کیا ہے؟",
+      "options": {
+        "en": ["Circle", "Square", "Triangle", "Octagon"],
+        "ur": ["دائرہ", "مربع", "مثلث", "مثمن"]
+      },
+      "correctAnswer": 3,
+      "explanation": "A stop sign has eight sides, which makes it an octagon.",
+      "explanation_ur": "اسٹاپ سائن کے آٹھ اطراف ہوتے ہیں، جو اسے ایک مثمن بناتا ہے۔",
+      "hint": "It has eight sides.",
+      "hint_ur": "اس کے آٹھ اطراف ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 77,
+      "type": "true-false",
+      "question": "You can touch a rainbow.",
+      "question_ur": "آپ قوس قزح کو چھو سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "A rainbow is an optical illusion. It's made of light, so you can't touch it.",
+      "explanation_ur": "قوس قزح ایک نظری وہم ہے۔ یہ روشنی سے بنی ہے، لہذا آپ اسے چھو نہیں سکتے۔",
+      "hint": "It's not a physical object.",
+      "hint_ur": "یہ کوئی طبعی چیز نہیں ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 78,
+      "type": "mcq",
+      "question": "What is the baby of a sheep called?",
+      "question_ur": "بھیڑ کے بچے کو کیا کہتے ہیں؟",
+      "options": {
+        "en": ["Calf", "Foal", "Lamb", "Kid"],
+        "ur": ["بچھڑا", "گھوڑے کا بچہ", "میمنا", "بکری کا بچہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A baby sheep is called a lamb.",
+      "explanation_ur": "بھیڑ کے بچے کو میمنا کہتے ہیں۔",
+      "hint": "Mary had a little one.",
+      "hint_ur": "مریم کے پاس ایک چھوٹا سا تھا۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "What is the opposite of 'happy'?",
+      "question_ur": "'خوش' کا متضاد کیا ہے؟",
+      "options": {
+        "en": ["Sad", "Glad", "Joyful", "Merry"],
+        "ur": ["غمگین", "خوش", "خوشگوار", "خوش"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Sad is the opposite of happy.",
+      "explanation_ur": "غمگین خوش کا متضاد ہے۔",
+      "hint": "You might cry when you feel this way.",
+      "hint_ur": "جب آپ ایسا محسوس کرتے ہیں تو آپ رو سکتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 80,
+      "type": "true-false",
+      "question": "A tomato is a vegetable.",
+      "question_ur": "ٹماٹر ایک سبزی ہے۔",
+      "correctAnswer": false,
+      "explanation": "Botanically, a tomato is a fruit. However, it is commonly used as a vegetable in cooking.",
+      "explanation_ur": "نباتیات کے لحاظ سے، ٹماٹر ایک پھل ہے۔ تاہم، یہ عام طور پر کھانا پکانے میں سبزی کے طور پر استعمال ہوتا ہے۔",
+      "hint": "It has seeds inside.",
+      "hint_ur": "اس کے اندر بیج ہوتے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "question": "Which of these animals can fly?",
+      "question_ur": "ان میں سے کون سا جانور اڑ سکتا ہے؟",
+      "options": {
+        "en": ["Dog", "Cat", "Bird", "Fish"],
+        "ur": ["کتا", "بلی", "پرندہ", "مچھلی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Birds are animals that have wings and can fly.",
+      "explanation_ur": "پرندے وہ جانور ہیں جن کے پر ہوتے ہیں اور وہ اڑ سکتے ہیں۔",
+      "hint": "It has feathers and wings.",
+      "hint_ur": "اس کے پر اور پنکھ ہوتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "question": "What is the capital of China?",
+      "question_ur": "چین کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Shanghai", "Beijing", "Hong Kong", "Taipei"],
+        "ur": ["شنگھائی", "بیجنگ", "ہانگ کانگ", "تائی پے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Beijing is the capital of the People's Republic of China.",
+      "explanation_ur": "بیجنگ عوامی جمہوریہ چین کا دارالحکومت ہے۔",
+      "hint": "It's a very big city in Asia.",
+      "hint_ur": "یہ ایشیا کا ایک بہت بڑا شہر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 83,
+      "type": "true-false",
+      "question": "The moon is made of cheese.",
+      "question_ur": "چاند پنیر سے بنا ہے۔",
+      "correctAnswer": false,
+      "explanation": "The moon is made of rock. The idea of it being made of cheese is a popular myth.",
+      "explanation_ur": "چاند چٹان سے بنا ہے۔ یہ خیال کہ یہ پنیر سے بنا ہے ایک مقبول افسانہ ہے۔",
+      "hint": "Astronauts have walked on it.",
+      "hint_ur": "خلاباز اس پر چل چکے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 84,
+      "type": "mcq",
+      "question": "What is the main character's name in 'The Lion King'?",
+      "question_ur": "'دی لائن کنگ' میں مرکزی کردار کا کیا نام ہے؟",
+      "options": {
+        "en": ["Mufasa", "Simba", "Scar", "Timon"],
+        "ur": ["مفاسا", "سمبا", "اسکار", "ٹیمون"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Simba is the main protagonist of Disney's 'The Lion King'.",
+      "explanation_ur": "سمبا ڈزنی کی 'دی لائن کنگ' کا مرکزی کردار ہے۔",
+      "hint": "He grows from a cub to a king.",
+      "hint_ur": "وہ ایک بچے سے بادشاہ بنتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "How many sides does a rectangle have?",
+      "question_ur": "ایک مستطیل کے کتنے اطراف ہوتے ہیں؟",
+      "options": {
+        "en": ["3", "4", "5", "6"],
+        "ur": ["3", "4", "5", "6"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A rectangle is a quadrilateral, which means it has four sides.",
+      "explanation_ur": "مستطیل ایک چوکور ہے، جس کا مطلب ہے کہ اس کے چار اطراف ہیں۔",
+      "hint": "It has two long sides and two short sides.",
+      "hint_ur": "اس کے دو لمبے اور دو چھوٹے اطراف ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 86,
+      "type": "true-false",
+      "question": "A policeman helps people.",
+      "question_ur": "ایک پولیس والا لوگوں کی مدد کرتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Police officers are responsible for maintaining law and order and helping citizens.",
+      "explanation_ur": "پولیس افسران قانون اور نظم و نسق کو برقرار رکھنے اور شہریوں کی مدد کرنے کے ذمہ دار ہیں۔",
+      "hint": "They are community helpers.",
+      "hint_ur": "وہ کمیونٹی کے مددگار ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "question": "What do you do with a book?",
+      "question_ur": "آپ کتاب کے ساتھ کیا کرتے ہیں؟",
+      "options": {
+        "en": ["Eat it", "Read it", "Throw it", "Wear it"],
+        "ur": ["اسے کھاؤ", "اسے پڑھو", "اسے پھینکو", "اسے پہنو"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Books are meant to be read for stories and information.",
+      "explanation_ur": "کتابیں کہانیوں اور معلومات کے لیے پڑھی جاتی ہیں۔",
+      "hint": "It has pages with words.",
+      "hint_ur": "اس کے صفحات پر الفاظ ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "question": "What is the name of the green monster in 'Monsters, Inc.'?",
+      "question_ur": "'مونسٹرز، انکارپوریٹڈ' میں سبز عفریت کا کیا نام ہے؟",
+      "options": {
+        "en": ["Sulley", "Mike Wazowski", "Randall", "Boo"],
+        "ur": ["سلی", "مائیک وازوسکی", "رینڈل", "بو"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Mike Wazowski is the green, one-eyed monster in 'Monsters, Inc.'.",
+      "explanation_ur": "مائیک وازوسکی 'مونسٹرز، انکارپوریٹڈ' میں سبز، ایک آنکھ والا عفریت ہے۔",
+      "hint": "He is small and has one big eye.",
+      "hint_ur": "وہ چھوٹا ہے اور اس کی ایک بڑی آنکھ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 89,
+      "type": "true-false",
+      "question": "A fire engine is usually blue.",
+      "question_ur": "ایک فائر انجن عام طور پر نیلا ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Fire engines are typically painted red for high visibility.",
+      "explanation_ur": "فائر انجن عام طور پر زیادہ نظر آنے کے لیے سرخ رنگ کے ہوتے ہیں۔",
+      "hint": "Think of the color used for emergencies.",
+      "hint_ur": "ہنگامی حالات کے لیے استعمال ہونے والے رنگ کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 90,
+      "type": "mcq",
+      "question": "What do we use to hear?",
+      "question_ur": "ہم سننے کے لیے کیا استعمال کرتے ہیں؟",
+      "options": {
+        "en": ["Eyes", "Nose", "Mouth", "Ears"],
+        "ur": ["آنکھیں", "ناک", "منہ", "کان"]
+      },
+      "correctAnswer": 3,
+      "explanation": "We use our ears to hear sounds.",
+      "explanation_ur": "ہم آوازیں سننے کے لیے اپنے کانوں کا استعمال کرتے ہیں۔",
+      "hint": "You have one on each side of your head.",
+      "hint_ur": "آپ کے سر کے ہر طرف ایک ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "What is the sound a cat makes?",
+      "question_ur": "بلی کونسی آواز نکالتی ہے؟",
+      "options": {
+        "en": ["Woof", "Meow", "Moo", "Oink"],
+        "ur": ["بھونکنا", "میاؤں", "موں", "اوئنک"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A cat makes a 'meow' sound.",
+      "explanation_ur": "ایک بلی 'میاؤں' کی آواز نکالتی ہے۔",
+      "hint": "It's a small, furry pet.",
+      "hint_ur": "یہ ایک چھوٹا، روئیں دار پالتو جانور ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 92,
+      "type": "true-false",
+      "question": "The ocean is made of freshwater.",
+      "question_ur": "سمندر میٹھے پانی سے بنا ہے۔",
+      "correctAnswer": false,
+      "explanation": "The ocean is made of saltwater.",
+      "explanation_ur": "سمندر کھارے پانی سے بنا ہے۔",
+      "hint": "It's very salty.",
+      "hint_ur": "یہ بہت نمکین ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "What is the name of the wooden puppet who wants to be a real boy?",
+      "question_ur": "اس لکڑی کی کٹھ پتلی کا کیا نام ہے جو ایک حقیقی لڑکا بننا چاہتا ہے؟",
+      "options": {
+        "en": ["Peter Pan", "Pinocchio", "Aladdin", "Simba"],
+        "ur": ["پیٹر پین", "پنوکیو", "علاء الدین", "سمبا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Pinocchio is a fictional character and the protagonist of the children's novel 'The Adventures of Pinocchio'.",
+      "explanation_ur": "پنوکیو ایک افسانوی کردار اور بچوں کے ناول 'دی ایڈونچرز آف پنوکیو' کا مرکزی کردار ہے۔",
+      "hint": "His nose grows when he lies.",
+      "hint_ur": "جب وہ جھوٹ بولتا ہے تو اس کی ناک بڑھ جاتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "question": "What is the opposite of 'fast'?",
+      "question_ur": "'تیز' کا متضاد کیا ہے؟",
+      "options": {
+        "en": ["Quick", "Slow", "Rapid", "Swift"],
+        "ur": ["تیز", "آہستہ", "تیز", "تیز"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Slow is the opposite of fast.",
+      "explanation_ur": "آہستہ تیز کا متضاد ہے۔",
+      "hint": "Think of a turtle.",
+      "hint_ur": "ایک کچھوے کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 95,
+      "type": "true-false",
+      "question": "A doctor helps sick people get better.",
+      "question_ur": "ایک ڈاکٹر بیمار لوگوں کو ٹھیک ہونے میں مدد کرتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Doctors are trained to diagnose and treat illnesses and injuries.",
+      "explanation_ur": "ڈاکٹروں کو بیماریوں اور چوٹوں کی تشخیص اور علاج کے لیے تربیت دی جاتی ہے۔",
+      "hint": "You visit them when you are not feeling well.",
+      "hint_ur": "جب آپ کی طبیعت ٹھیک نہیں ہوتی تو آپ ان سے ملنے جاتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 96,
+      "type": "mcq",
+      "question": "What is the name of the fish in 'Finding Nemo'?",
+      "question_ur": "'فائنڈنگ نیمو' میں مچھلی کا کیا نام ہے؟",
+      "options": {
+        "en": ["Dory", "Marlin", "Nemo", "Bruce"],
+        "ur": ["ڈوری", "مارلن", "نیمو", "بروس"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Nemo is a young clownfish who gets captured and taken to a dentist's office aquarium.",
+      "explanation_ur": "نیمو ایک نوجوان کلاؤن فش ہے جسے پکڑ کر دانتوں کے ڈاکٹر کے دفتر کے ایکویریم میں لے جایا جاتا ہے۔",
+      "hint": "His name is in the title of the movie.",
+      "hint_ur": "اس کا نام فلم کے عنوان میں ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "question": "What do we sleep on?",
+      "question_ur": "ہم کس پر سوتے ہیں؟",
+      "options": {
+        "en": ["Table", "Chair", "Bed", "Floor"],
+        "ur": ["میز", "کرسی", "بستر", "فرش"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A bed is a piece of furniture used for sleeping or resting.",
+      "explanation_ur": "بستر فرنیچر کا ایک ٹکڑا ہے جو سونے یا آرام کرنے کے لیے استعمال ہوتا ہے۔",
+      "hint": "It's in your bedroom.",
+      "hint_ur": "یہ آپ کے سونے کے کمرے میں ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 98,
+      "type": "true-false",
+      "question": "A car has wings.",
+      "question_ur": "ایک کار کے پر ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Cars have wheels to move on the ground. Airplanes have wings to fly.",
+      "explanation_ur": "کاروں کے زمین پر چلنے کے لیے پہیے ہوتے ہیں۔ ہوائی جہازوں کے اڑنے کے لیے پر ہوتے ہیں۔",
+      "hint": "How does a car move?",
+      "hint_ur": "ایک کار کیسے چلتی ہے؟",
+      "timeLimit": 20
+    },
+    {
+      "id": 99,
+      "type": "mcq",
+      "question": "What is the color of the sun?",
+      "question_ur": "سورج کا رنگ کیا ہے؟",
+      "options": {
+        "en": ["Blue", "Green", "Yellow", "Red"],
+        "ur": ["نیلا", "سبز", "پیلا", "سرخ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The sun is often depicted as yellow, although it is technically white.",
+      "explanation_ur": "سورج کو اکثر پیلا دکھایا جاتا ہے، حالانکہ یہ تکنیکی طور پر سفید ہے۔",
+      "hint": "It's a bright color.",
+      "hint_ur": "یہ ایک روشن رنگ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 100,
+      "type": "mcq",
+      "question": "What is the name of the princess who has very long hair?",
+      "question_ur": "اس شہزادی کا کیا نام ہے جس کے بہت لمبے بال ہیں؟",
+      "options": {
+        "en": ["Cinderella", "Rapunzel", "Ariel", "Belle"],
+        "ur": ["سنڈریلا", "ریپونزیل", "ایریل", "بیل"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Rapunzel is a princess known for her long, magical hair.",
+      "explanation_ur": "ریپونزیل ایک شہزادی ہے جو اپنے لمبے، جادوئی بالوں کے لیے جانی جاتی ہے۔",
+      "hint": "She lives in a tall tower.",
+      "hint_ur": "وہ ایک لمبے ٹاور میں رہتی ہے۔",
+      "timeLimit": 30
+    },
+    
+    {
+      "id": 101,
+      "type": "mcq",
+      "question": "Which animal lives in a sty?",
+      "question_ur": "کون سا جانور باڑے میں رہتا ہے؟",
+      "options": {
+        "en": ["Cow", "Chicken", "Pig", "Horse"],
+        "ur": ["گائے", "مرغی", "سور", "گھوڑا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A sty or pigsty is a small-scale outdoor enclosure for raising domestic pigs as livestock.",
+      "explanation_ur": "ایک باڑہ یا سور باڑہ گھریلو سوروں کو مویشی کے طور پر پالنے کے لیے ایک چھوٹے پیمانے پر بیرونی احاطہ ہے۔",
+      "hint": "This animal says 'oink'.",
+      "hint_ur": "یہ جانور 'اوئنک' کہتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 102,
+      "type": "true-false",
+      "question": "Plants need sunlight to grow.",
+      "question_ur": "پودوں کو بڑھنے کے لیے سورج کی روشنی کی ضرورت ہوتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "Plants use a process called photosynthesis to convert sunlight into food.",
+      "explanation_ur": "پودے فوٹو سنتھیسس نامی عمل کا استعمال کرتے ہوئے سورج کی روشنی کو خوراک میں تبدیل کرتے ہیں۔",
+      "hint": "Think about what happens to a plant in a dark room.",
+      "hint_ur": "ایک تاریک کمرے میں پودے کے ساتھ کیا ہوتا ہے اس کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "question": "Which of these is a breakfast food?",
+      "question_ur": "ان میں سے کون سا ناشتے کا کھانا ہے؟",
+      "options": {
+        "en": ["Pizza", "Cereal", "Burger", "Ice Cream"],
+        "ur": ["پیزا", "سیریل", "برگر", "آئس کریم"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Cereal with milk is a very common breakfast food.",
+      "explanation_ur": "دودھ کے ساتھ سیریل ایک بہت عام ناشتے کا کھانا ہے۔",
+      "hint": "You often eat it in a bowl with milk.",
+      "hint_ur": "آپ اسے اکثر دودھ کے ساتھ ایک پیالے میں کھاتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 104,
+      "type": "mcq",
+      "question": "How many hours are in a day?",
+      "question_ur": "ایک دن میں کتنے گھنٹے ہوتے ہیں؟",
+      "options": {
+        "en": ["12", "24", "30", "60"],
+        "ur": ["12", "24", "30", "60"]
+      },
+      "correctAnswer": 1,
+      "explanation": "There are 24 hours in a full day.",
+      "explanation_ur": "ایک پورے دن میں 24 گھنٹے ہوتے ہیں۔",
+      "hint": "A clock shows 12 hours, but it goes around twice a day.",
+      "hint_ur": "ایک گھڑی 12 گھنٹے دکھاتی ہے، لیکن یہ دن میں دو بار گھومتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 105,
+      "type": "true-false",
+      "question": "A chick is a baby chicken.",
+      "question_ur": "چوزا مرغی کا بچہ ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "A young chicken is called a chick.",
+      "explanation_ur": "ایک نوجوان مرغی کو چوزا کہا جاتا ہے۔",
+      "hint": "It hatches from an egg.",
+      "hint_ur": "یہ انڈے سے نکلتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 106,
+      "type": "mcq",
+      "question": "What is the name of the yellow minion who loves bananas?",
+      "question_ur": "کیلے سے محبت کرنے والے پیلے منین کا کیا نام ہے؟",
+      "options": {
+        "en": ["Gru", "Kevin", "Bob", "Stuart"],
+        "ur": ["گرو", "کیون", "باب", "اسٹورٹ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "While all minions love bananas, Kevin is one of the main minions featured in the movies.",
+      "explanation_ur": "اگرچہ تمام منینز کو کیلے پسند ہیں، کیون فلموں میں شامل اہم منینز میں سے ایک ہے۔",
+      "hint": "Think of the movie 'Minions'.",
+      "hint_ur": "فلم 'منینز' کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 107,
+      "type": "mcq",
+      "question": "What is the opposite of 'day'?",
+      "question_ur": "'دن' کا متضاد کیا ہے؟",
+      "options": {
+        "en": ["Morning", "Evening", "Night", "Noon"],
+        "ur": ["صبح", "شام", "رات", "دوپہر"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Night is the period of darkness in each 24-hour period, when the Sun is below the horizon.",
+      "explanation_ur": "رات ہر 24 گھنٹے کے دورانیے میں تاریکی کا دور ہے، جب سورج افق سے نیچے ہوتا ہے۔",
+      "hint": "The moon and stars come out during this time.",
+      "hint_ur": "اس وقت چاند اور ستارے نکلتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 108,
+      "type": "true-false",
+      "question": "A library is a place to buy books.",
+      "question_ur": "لائبریری کتابیں خریدنے کی جگہ ہے۔",
+      "correctAnswer": false,
+      "explanation": "A library is a place where you can borrow books for free. A bookstore is where you buy books.",
+      "explanation_ur": "لائبریری ایک ایسی جگہ ہے جہاں آپ مفت میں کتابیں ادھار لے سکتے ہیں۔ کتابوں کی دکان وہ جگہ ہے جہاں آپ کتابیں خریدتے ہیں۔",
+      "hint": "You have to be quiet in this place.",
+      "hint_ur": "آپ کو اس جگہ خاموش رہنا ہوگا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "question": "What is the currency of the United Kingdom?",
+      "question_ur": "برطانیہ کی کرنسی کیا ہے؟",
+      "options": {
+        "en": ["Dollar", "Euro", "Pound", "Yen"],
+        "ur": ["ڈالر", "یورو", "پاؤنڈ", "ین"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The pound sterling (£), known as the pound, is the official currency of the United Kingdom.",
+      "explanation_ur": "پاؤنڈ سٹرلنگ (£)، جسے پاؤنڈ کہا جاتا ہے، برطانیہ کی سرکاری کرنسی ہے۔",
+      "hint": "It has a symbol like this: £",
+      "hint_ur": "اس کی علامت ایسی ہے: £",
+      "timeLimit": 30
+    },
+    {
+      "id": 110,
+      "type": "mcq",
+      "question": "Which of these is a musical instrument?",
+      "question_ur": "ان میں سے کون سا موسیقی کا آلہ ہے؟",
+      "options": {
+        "en": ["Hammer", "Screwdriver", "Guitar", "Saw"],
+        "ur": ["ہتھوڑا", "اسکریو ڈرایور", "گٹار", "آری"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A guitar is a string instrument that is played by strumming or plucking the strings.",
+      "explanation_ur": "گٹار ایک تاروں والا آلہ ہے جسے تاروں کو چھیڑ کر یا توڑ کر بجایا جاتا ہے۔",
+      "hint": "It has strings and makes music.",
+      "hint_ur": "اس میں تاریں ہوتی ہیں اور یہ موسیقی بناتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 111,
+      "type": "true-false",
+      "question": "Sharks are mammals.",
+      "question_ur": "شارک ممالیہ ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Sharks are a type of fish. They have gills to breathe underwater.",
+      "explanation_ur": "شارک ایک قسم کی مچھلی ہیں۔ ان کے پاس پانی کے اندر سانس لینے کے لیے گلپھڑے ہوتے ہیں۔",
+      "hint": "Think about dolphins. Are sharks like them?",
+      "hint_ur": "ڈولفن کے بارے میں سوچیں۔ کیا شارک ان کی طرح ہیں؟",
+      "timeLimit": 30
+    },
+    {
+      "id": 112,
+      "type": "mcq",
+      "question": "In the story, who did the tortoise race against?",
+      "question_ur": "کہانی میں، کچھوے نے کس کے خلاف دوڑ لگائی؟",
+      "options": {
+        "en": ["The Lion", "The Fox", "The Hare", "The Wolf"],
+        "ur": ["شیر", "لومڑی", "خرگوش", "بھیڑیا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "In the famous fable, the tortoise wins a race against the much faster hare.",
+      "explanation_ur": "مشہور کہانی میں، کچھوا بہت تیز خرگوش کے خلاف دوڑ جیتتا ہے۔",
+      "hint": "Slow and steady wins the race.",
+      "hint_ur": "آہستہ اور مستقل مزاجی سے دوڑ جیتی جاتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 113,
+      "type": "mcq",
+      "question": "What is the color you get when you mix red and yellow?",
+      "question_ur": "سرخ اور پیلا ملانے سے کون سا رنگ ملتا ہے؟",
+      "options": {
+        "en": ["Green", "Purple", "Orange", "Brown"],
+        "ur": ["سبز", "جامنی", "نارنجی", "بھورا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Mixing the primary colors red and yellow creates the secondary color orange.",
+      "explanation_ur": "بنیادی رنگ سرخ اور پیلے کو ملانے سے ثانوی رنگ نارنجی بنتا ہے۔",
+      "hint": "It's the color of a fruit with the same name.",
+      "hint_ur": "یہ اسی نام کے پھل کا رنگ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 114,
+      "type": "true-false",
+      "question": "An ambulance helps people who are sick or hurt.",
+      "question_ur": "ایمبولینس بیمار یا زخمی لوگوں کی مدد کرتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "An ambulance is a vehicle for transporting sick or injured people to a hospital.",
+      "explanation_ur": "ایمبولینس بیمار یا زخمی لوگوں کو ہسپتال منتقل کرنے کے لیے ایک گاڑی ہے۔",
+      "hint": "It has a siren and flashing lights.",
+      "hint_ur": "اس میں سائرن اور چمکتی ہوئی روشنیاں ہوتی ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "question": "What is the home of a bee?",
+      "question_ur": "شہد کی مکھی کا گھر کیا ہے؟",
+      "options": {
+        "en": ["Nest", "Den", "Hive", "Web"],
+        "ur": ["گھونسلا", "ماند", "چھتا", "جالا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Bees live in a colony inside a hive.",
+      "explanation_ur": "شہد کی مکھیاں ایک چھتے کے اندر ایک کالونی میں رہتی ہیں۔",
+      "hint": "They make honey here.",
+      "hint_ur": "وہ یہاں شہد بناتی ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 116,
+      "type": "mcq",
+      "question": "What is 5 x 2?",
+      "question_ur": "5 x 2 کیا ہے؟",
+      "options": {
+        "en": ["7", "9", "10", "12"],
+        "ur": ["7", "9", "10", "12"]
+      },
+      "correctAnswer": 2,
+      "explanation": "5 multiplied by 2 equals 10.",
+      "explanation_ur": "5 کو 2 سے ضرب دینے پر 10 ملتا ہے۔",
+      "hint": "It's the same as 5 + 5.",
+      "hint_ur": "یہ 5 + 5 کے برابر ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 117,
+      "type": "true-false",
+      "question": "A koala is a type of bear.",
+      "question_ur": "کوالا ایک قسم کا ریچھ ہے۔",
+      "correctAnswer": false,
+      "explanation": "Koalas are marsupials, not bears. They are native to Australia.",
+      "explanation_ur": "کوالا مارسوپیل ہیں، ریچھ نہیں۔ وہ آسٹریلیا کے مقامی ہیں۔",
+      "hint": "They carry their babies in a pouch.",
+      "hint_ur": "وہ اپنے بچوں کو ایک تھیلی میں رکھتے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 118,
+      "type": "mcq",
+      "question": "What is the name of the boy who never grows up?",
+      "question_ur": "اس لڑکے کا کیا نام ہے جو کبھی بڑا نہیں ہوتا؟",
+      "options": {
+        "en": ["Harry Potter", "Peter Pan", "Pinocchio", "Aladdin"],
+        "ur": ["ہیری پوٹر", "پیٹر پین", "پنوکیو", "علاء الدین"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Peter Pan is a mischievous boy who can fly and never grows up.",
+      "explanation_ur": "پیٹر پین ایک شرارتی لڑکا ہے جو اڑ سکتا ہے اور کبھی بڑا نہیں ہوتا۔",
+      "hint": "He lives in Neverland.",
+      "hint_ur": "وہ نیورلینڈ میں رہتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 119,
+      "type": "mcq",
+      "question": "Which of the five senses do you use to listen to music?",
+      "question_ur": "آپ موسیقی سننے کے لیے پانچ حواس میں سے کون سا استعمال کرتے ہیں؟",
+      "options": {
+        "en": ["Sight", "Smell", "Touch", "Hearing"],
+        "ur": ["نظر", "بو", "لمس", "سماعت"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Hearing is the sense that allows you to perceive sounds.",
+      "explanation_ur": "سماعت وہ حس ہے جو آپ کو آوازوں کو سمجھنے کی اجازت دیتی ہے۔",
+      "hint": "You use your ears for this.",
+      "hint_ur": "آپ اس کے لیے اپنے کان استعمال کرتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 120,
+      "type": "true-false",
+      "question": "All stars are yellow.",
+      "question_ur": "تمام ستارے پیلے ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Stars can be different colors, such as red, blue, or white, depending on their temperature.",
+      "explanation_ur": "ستارے اپنے درجہ حرارت کے لحاظ سے مختلف رنگوں کے ہو سکتے ہیں، جیسے سرخ، نیلے یا سفید۔",
+      "hint": "The hottest stars are blue.",
+      "hint_ur": "گرم ترین ستارے نیلے ہوتے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 121,
+      "type": "mcq",
+      "question": "What is a baby kangaroo called?",
+      "question_ur": "کینگرو کے بچے کو کیا کہتے ہیں؟",
+      "options": {
+        "en": ["Calf", "Joey", "Pup", "Kitten"],
+        "ur": ["بچھڑا", "جوئی", "پلا", "بلی کا بچہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A baby kangaroo is called a joey.",
+      "explanation_ur": "کینگرو کے بچے کو جوئی کہتے ہیں۔",
+      "hint": "It lives in its mother's pouch.",
+      "hint_ur": "یہ اپنی ماں کی تھیلی میں رہتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 122,
+      "type": "mcq",
+      "question": "Which season is the coldest?",
+      "question_ur": "کون سا موسم سب سے سرد ہوتا ہے؟",
+      "options": {
+        "en": ["Spring", "Summer", "Autumn", "Winter"],
+        "ur": ["بہار", "گرمی", "خزاں", "سردی"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Winter is the coldest season of the year in polar and temperate zones.",
+      "explanation_ur": "سردی قطبی اور معتدل علاقوں میں سال کا سب سے سرد موسم ہے۔",
+      "hint": "You might see snow in this season.",
+      "hint_ur": "آپ کو اس موسم میں برف نظر آسکتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 123,
+      "type": "true-false",
+      "question": "A rectangle and a square both have four sides.",
+      "question_ur": "ایک مستطیل اور ایک مربع دونوں کے چار اطراف ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Both shapes are quadrilaterals, meaning they have four sides. A square is a special type of rectangle where all sides are equal.",
+      "explanation_ur": "دونوں شکلیں چوکور ہیں، یعنی ان کے چار اطراف ہیں۔ مربع ایک خاص قسم کا مستطیل ہے جس میں تمام اطراف برابر ہوتے ہیں۔",
+      "hint": "Count the sides of both shapes.",
+      "hint_ur": "دونوں شکلوں کے اطراف گنیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 124,
+      "type": "mcq",
+      "question": "Who is the famous mouse character created by Walt Disney?",
+      "question_ur": "والٹ ڈزنی کا تخلیق کردہ مشہور چوہے کا کردار کون ہے؟",
+      "options": {
+        "en": ["Jerry", "Mickey Mouse", "Speedy Gonzales", "Minnie Mouse"],
+        "ur": ["جیری", "مکی ماؤس", "اسپیڈی گونزالیز", "منی ماؤس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Mickey Mouse is the famous cartoon character and mascot of The Walt Disney Company.",
+      "explanation_ur": "مکی ماؤس مشہور کارٹون کردار اور دی والٹ ڈزنی کمپنی کا شوبنکر ہے۔",
+      "hint": "He wears red shorts and yellow shoes.",
+      "hint_ur": "وہ سرخ شارٹس اور پیلے جوتے پہنتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 125,
+      "type": "mcq",
+      "question": "Which planet has beautiful rings around it?",
+      "question_ur": "کس سیارے کے گرد خوبصورت حلقے ہیں؟",
+      "options": {
+        "en": ["Mars", "Venus", "Jupiter", "Saturn"],
+        "ur": ["مریخ", "زہرہ", "مشتری", "زحل"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Saturn is famous for its extensive ring system, which is made of ice particles and rock.",
+      "explanation_ur": "زحل اپنے وسیع حلقے کے نظام کے لیے مشہور ہے، جو برف کے ذرات اور چٹان سے بنا ہے۔",
+      "hint": "It is the sixth planet from the Sun.",
+      "hint_ur": "یہ سورج سے چھٹا سیارہ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 126,
+      "type": "true-false",
+      "question": "You should brush your teeth once a month.",
+      "question_ur": "آپ کو مہینے میں ایک بار اپنے دانت صاف کرنے چاہئیں۔",
+      "correctAnswer": false,
+      "explanation": "Dentists recommend brushing your teeth at least twice a day to keep them healthy.",
+      "explanation_ur": "دانتوں کے ڈاکٹر صحت مند رکھنے کے لیے دن میں کم از کم دو بار دانت صاف کرنے کی تجویز کرتے ہیں۔",
+      "hint": "How often do your parents tell you to brush them?",
+      "hint_ur": "آپ کے والدین آپ کو کتنی بار برش کرنے کو کہتے ہیں؟",
+      "timeLimit": 20
+    },
+    {
+      "id": 127,
+      "type": "mcq",
+      "question": "What is the capital of Egypt?",
+      "question_ur": "مصر کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Cairo", "Dubai", "Riyadh", "Istanbul"],
+        "ur": ["قاہرہ", "دبئی", "ریاض", "استنبول"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Cairo is the capital of Egypt and is famous for the ancient pyramids.",
+      "explanation_ur": "قاہرہ مصر کا دارالحکومت ہے اور قدیم اهراموں کے لیے مشہور ہے۔",
+      "hint": "The Great Pyramids are located nearby.",
+      "hint_ur": "عظیم اهرام قریب ہی واقع ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 128,
+      "type": "mcq",
+      "question": "What does a caterpillar turn into?",
+      "question_ur": "کیٹرپلر کس میں تبدیل ہوتا ہے؟",
+      "options": {
+        "en": ["A bee", "A butterfly", "A ladybug", "A beetle"],
+        "ur": ["ایک شہد کی مکھی", "ایک تتلی", "ایک لیڈی بگ", "ایک بھنورا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A caterpillar undergoes metamorphosis to become a butterfly.",
+      "explanation_ur": "ایک کیٹرپلر تتلی بننے کے لیے میٹامورفوسس سے گزرتا ہے۔",
+      "hint": "It has colorful wings and flies.",
+      "hint_ur": "اس کے رنگین پر ہوتے ہیں اور یہ اڑتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 129,
+      "type": "true-false",
+      "question": "Ice is warmer than water.",
+      "question_ur": "برف پانی سے زیادہ گرم ہوتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "Ice is the solid state of water, which forms at or below 0 degrees Celsius (32 degrees Fahrenheit).",
+      "explanation_ur": "برف پانی کی ٹھوس حالت ہے، جو 0 ڈگری سیلسیس (32 ڈگری فارن ہائیٹ) پر یا اس سے نیچے بنتی ہے۔",
+      "hint": "What do you put in your drink to make it cold?",
+      "hint_ur": "آپ اپنے مشروب کو ٹھنڈا کرنے کے لیے اس میں کیا ڈالتے ہیں؟",
+      "timeLimit": 20
+    },
+    {
+      "id": 130,
+      "type": "mcq",
+      "question": "Which of these is NOT a continent?",
+      "question_ur": "ان میں سے کون سا براعظم نہیں ہے؟",
+      "options": {
+        "en": ["Asia", "Africa", "Brazil", "Europe"],
+        "ur": ["ایشیا", "افریقہ", "برازیل", "یورپ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Brazil is a country in South America. Asia, Africa, and Europe are continents.",
+      "explanation_ur": "برازیل جنوبی امریکہ کا ایک ملک ہے۔ ایشیا، افریقہ اور یورپ براعظم ہیں۔",
+      "hint": "One of these is a country famous for soccer.",
+      "hint_ur": "ان میں سے ایک ملک فٹ بال کے لیے مشہور ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 131,
+      "type": "mcq",
+      "question": "Who is Batman's sidekick?",
+      "question_ur": "بیٹ مین کا سائڈ کِک کون ہے؟",
+      "options": {
+        "en": ["Superman", "Joker", "Robin", "Alfred"],
+        "ur": ["سپر مین", "جوکر", "رابن", "الفریڈ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Robin is the name of several fictional superheroes appearing in comic books published by DC Comics, as a sidekick to Batman.",
+      "explanation_ur": "رابن ڈی سی کامکس کے ذریعہ شائع کردہ کامک کتابوں میں نظر آنے والے کئی افسانوی سپر ہیروز کا نام ہے، جو بیٹ مین کے سائڈ کِک کے طور پر کام کرتا ہے۔",
+      "hint": "He is also known as the 'Boy Wonder'.",
+      "hint_ur": "اسے 'بوائے ونڈر' کے نام سے بھی جانا جاتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 132,
+      "type": "true-false",
+      "question": "Frogs live only on land.",
+      "question_ur": "مینڈک صرف خشکی پر رہتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Frogs are amphibians, which means they can live both on land and in water.",
+      "explanation_ur": "مینڈک جل تھلیے ہیں، جس کا مطلب ہے کہ وہ خشکی اور پانی دونوں میں رہ سکتے ہیں۔",
+      "hint": "They are known for jumping and swimming.",
+      "hint_ur": "وہ چھلانگ لگانے اور تیراکی کے لیے جانے جاتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 133,
+      "type": "mcq",
+      "question": "Which holiday is on December 25th?",
+      "question_ur": "25 دسمبر کو کون سی چھٹی ہوتی ہے؟",
+      "options": {
+        "en": ["Halloween", "Thanksgiving", "Christmas", "Easter"],
+        "ur": ["ہالووین", "تھینکس گیونگ", "کرسمس", "ایسٹر"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Christmas is an annual festival commemorating the birth of Jesus Christ, observed primarily on December 25.",
+      "explanation_ur": "کرسمس ایک سالانہ تہوار ہے جو یسوع مسیح کی پیدائش کی یاد میں منایا جاتا ہے، جو بنیادی طور پر 25 دسمبر کو منایا جاتا ہے۔",
+      "hint": "Santa Claus comes on this day.",
+      "hint_ur": "سانتا کلاز اس دن آتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 134,
+      "type": "mcq",
+      "question": "What is the opposite of 'empty'?",
+      "question_ur": "'خالی' کا متضاد کیا ہے؟",
+      "options": {
+        "en": ["Clear", "Full", "Hollow", "Bare"],
+        "ur": ["صاف", "بھرا ہوا", "کھوکھلا", "ننگا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Full is the opposite of empty.",
+      "explanation_ur": "بھرا ہوا خالی کا متضاد ہے۔",
+      "hint": "Think of a glass of water.",
+      "hint_ur": "پانی کے ایک گلاس کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 135,
+      "type": "true-false",
+      "question": "There are 60 minutes in an hour.",
+      "question_ur": "ایک گھنٹے میں 60 منٹ ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "An hour is a unit of time conventionally reckoned as 1/24 of a day and scientifically reckoned as 3,600 seconds.",
+      "explanation_ur": "ایک گھنٹہ وقت کی ایک اکائی ہے جسے روایتی طور پر ایک دن کا 1/24 حصہ اور سائنسی طور پر 3,600 سیکنڈ شمار کیا جاتا ہے۔",
+      "hint": "Look at a clock.",
+      "hint_ur": "ایک گھڑی کو دیکھیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 136,
+      "type": "mcq",
+      "question": "Which of these is a farm animal?",
+      "question_ur": "ان میں سے کون سا ایک فارمی جانور ہے؟",
+      "options": {
+        "en": ["Lion", "Monkey", "Sheep", "Zebra"],
+        "ur": ["شیر", "بندر", "بھیڑ", "زیبرا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Sheep are commonly raised on farms for their wool, meat, and milk.",
+      "explanation_ur": "بھیڑوں کو عام طور پر ان کے اون، گوشت اور دودھ کے لیے فارموں پر پالا جاتا ہے۔",
+      "hint": "This animal is covered in wool.",
+      "hint_ur": "یہ جانور اون سے ڈھکا ہوا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 137,
+      "type": "mcq",
+      "question": "What is the name of the bear who loves honey in the Hundred Acre Wood?",
+      "question_ur": "ہنڈریڈ ایکڑ ووڈ میں شہد سے محبت کرنے والے ریچھ کا کیا نام ہے؟",
+      "options": {
+        "en": ["Paddington", "Yogi", "Winnie the Pooh", "Baloo"],
+        "ur": ["پیڈنگٹن", "یوگی", "ونی دی پوہ", "بالو"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Winnie the Pooh is a fictional teddy bear created by English author A. A. Milne.",
+      "explanation_ur": "ونی دی پوہ ایک افسانوی ٹیڈی بیئر ہے جسے انگریزی مصنف اے اے ملن نے تخلیق کیا ہے۔",
+      "hint": "He is friends with Piglet and Tigger.",
+      "hint_ur": "وہ پگلٹ اور ٹائیگر کے ساتھ دوست ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 138,
+      "type": "true-false",
+      "question": "The capital of the USA is New York City.",
+      "question_ur": "امریکہ کا دارالحکومت نیو یارک سٹی ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital of the United States is Washington, D.C.",
+      "explanation_ur": "ریاستہائے متحدہ کا دارالحکومت واشنگٹن ڈی سی ہے۔",
+      "hint": "The White House is located in the capital city.",
+      "hint_ur": "وائٹ ہاؤس دارالحکومت میں واقع ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 139,
+      "type": "mcq",
+      "question": "How many players are on a soccer team on the field?",
+      "question_ur": "فٹ بال ٹیم میں میدان میں کتنے کھلاڑی ہوتے ہیں؟",
+      "options": {
+        "en": ["7", "9", "11", "13"],
+        "ur": ["7", "9", "11", "13"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A soccer match is played by two teams, each with a maximum of 11 players on the field.",
+      "explanation_ur": "ایک فٹ بال میچ دو ٹیموں کے ذریعہ کھیلا جاتا ہے، ہر ایک میں زیادہ سے زیادہ 11 کھلاڑی میدان میں ہوتے ہیں۔",
+      "hint": "It's more than 10.",
+      "hint_ur": "یہ 10 سے زیادہ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 140,
+      "type": "mcq",
+      "question": "What is the name of the red monster on Sesame Street?",
+      "question_ur": "سیسیم اسٹریٹ پر سرخ عفریت کا کیا نام ہے؟",
+      "options": {
+        "en": ["Cookie Monster", "Grover", "Big Bird", "Elmo"],
+        "ur": ["کوکی مونسٹر", "گروور", "بگ برڈ", "ایلمو"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Elmo is a red Muppet character on the children's television show Sesame Street.",
+      "explanation_ur": "ایلمو بچوں کے ٹیلی ویژن شو سیسیم اسٹریٹ پر ایک سرخ میپیٹ کردار ہے۔",
+      "hint": "He is small, red, and furry.",
+      "hint_ur": "وہ چھوٹا، سرخ اور روئیں دار ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 141,
+      "type": "true-false",
+      "question": "A volcano can erupt with hot lava.",
+      "question_ur": "ایک آتش فشاں گرم لاوا کے ساتھ پھٹ سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "A volcano is a rupture in the crust of a planetary-mass object, such as Earth, that allows hot lava, volcanic ash, and gases to escape from a magma chamber below the surface.",
+      "explanation_ur": "ایک آتش فشاں کسی سیاروی کمیت والی چیز، جیسے زمین، کی پرت میں ایک شگاف ہے جو گرم لاوا، آتشفشانی راکھ اور گیسوں کو سطح کے نیچے ایک میگما چیمبر سے فرار ہونے کی اجازت دیتا ہے۔",
+      "hint": "It looks like a mountain that smokes.",
+      "hint_ur": "یہ ایک پہاڑ کی طرح لگتا ہے جو دھواں چھوڑتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 142,
+      "type": "mcq",
+      "question": "Which of these objects is round?",
+      "question_ur": "ان میں سے کون سی چیز گول ہے؟",
+      "options": {
+        "en": ["A book", "A door", "A ball", "A box"],
+        "ur": ["ایک کتاب", "ایک دروازہ", "ایک گیند", "ایک ڈبہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A ball is a sphere, which is a round 3D shape.",
+      "explanation_ur": "ایک گیند ایک کرہ ہے، جو ایک گول 3D شکل ہے۔",
+      "hint": "You can bounce it.",
+      "hint_ur": "آپ اسے اچھال سکتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 143,
+      "type": "mcq",
+      "question": "What is the name of the girl who fell down a rabbit hole?",
+      "question_ur": "اس لڑکی کا کیا نام ہے جو خرگوش کے بل میں گر گئی تھی؟",
+      "options": {
+        "en": ["Dorothy", "Alice", "Wendy", "Heidi"],
+        "ur": ["ڈوروتھی", "ایلس", "وینڈی", "ہائیڈی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Alice is the main character in Lewis Carroll's book 'Alice's Adventures in Wonderland'.",
+      "explanation_ur": "ایلس لیوس کیرول کی کتاب 'ایلس ایڈونچرز ان ونڈر لینڈ' کا مرکزی کردار ہے۔",
+      "hint": "She went to Wonderland.",
+      "hint_ur": "وہ ونڈر لینڈ گئی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 144,
+      "type": "true-false",
+      "question": "The Great Wall of China is in Africa.",
+      "question_ur": "چین کی عظیم دیوار افریقہ میں ہے۔",
+      "correctAnswer": false,
+      "explanation": "The Great Wall of China is located in China, which is in Asia.",
+      "explanation_ur": "چین کی عظیم دیوار چین میں واقع ہے، جو ایشیا میں ہے۔",
+      "hint": "The name of the country is in the name of the wall.",
+      "hint_ur": "ملک کا نام دیوار کے نام میں ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 145,
+      "type": "mcq",
+      "question": "What is the color of a school bus in the USA?",
+      "question_ur": "امریکہ میں اسکول بس کا رنگ کیا ہے؟",
+      "options": {
+        "en": ["Red", "Green", "Blue", "Yellow"],
+        "ur": ["سرخ", "سبز", "نیلا", "پیلا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "In the United States, school buses are painted a specific shade of yellow for safety and visibility.",
+      "explanation_ur": "ریاستہائے متحدہ میں، اسکول بسوں کو حفاظت اور نظر آنے کے لیے ایک مخصوص پیلے رنگ میں پینٹ کیا جاتا ہے۔",
+      "hint": "It's a bright, noticeable color.",
+      "hint_ur": "یہ ایک روشن، قابل توجہ رنگ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 146,
+      "type": "mcq",
+      "question": "What is the opposite of 'young'?",
+      "question_ur": "'جوان' کا متضاد کیا ہے؟",
+      "options": {
+        "en": ["New", "Old", "Small", "Little"],
+        "ur": ["نیا", "بوڑھا", "چھوٹا", "چھوٹا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Old is the opposite of young.",
+      "explanation_ur": "بوڑھا جوان کا متضاد ہے۔",
+      "hint": "Think of grandparents.",
+      "hint_ur": "دادا دادی کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 147,
+      "type": "true-false",
+      "question": "A baker bakes bread.",
+      "question_ur": "ایک نانبائی روٹی پکاتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "A baker is a person who bakes and sells bread, cakes, and other baked goods.",
+      "explanation_ur": "ایک نانبائی وہ شخص ہوتا ہے جو روٹی، کیک اور دیگر پکی ہوئی چیزیں پکاتا اور بیچتا ہے۔",
+      "hint": "Think of a bakery.",
+      "hint_ur": "ایک بیکری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 148,
+      "type": "mcq",
+      "question": "Which of these is a liquid?",
+      "question_ur": "ان میں سے کون سا ایک مائع ہے؟",
+      "options": {
+        "en": ["A rock", "A book", "Milk", "A table"],
+        "ur": ["ایک چٹان", "ایک کتاب", "دودھ", "ایک میز"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Milk is a liquid that you can pour.",
+      "explanation_ur": "دودھ ایک مائع ہے جسے آپ انڈیل سکتے ہیں۔",
+      "hint": "You drink this from a glass.",
+      "hint_ur": "آپ اسے ایک گلاس سے پیتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 149,
+      "type": "mcq",
+      "question": "What is the name of the superhero from the planet Krypton?",
+      "question_ur": "سیارہ کرپٹن سے آنے والے سپر ہیرو کا کیا نام ہے؟",
+      "options": {
+        "en": ["Batman", "Spider-Man", "Iron Man", "Superman"],
+        "ur": ["بیٹ مین", "اسپائیڈر مین", "آئرن مین", "سپر مین"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Superman was born on the fictional planet Krypton and was sent to Earth as an infant.",
+      "explanation_ur": "سپر مین افسانوی سیارے کرپٹن پر پیدا ہوا تھا اور اسے بچپن میں زمین پر بھیجا گیا تھا۔",
+      "hint": "He wears a red cape and can fly.",
+      "hint_ur": "وہ ایک سرخ چغہ پہنتا ہے اور اڑ سکتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 150,
+      "type": "true-false",
+      "question": "An airplane drives on the road.",
+      "question_ur": "ایک ہوائی جہاز سڑک پر چلتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "An airplane flies in the sky. Cars drive on the road.",
+      "explanation_ur": "ایک ہوائی جہاز آسمان میں اڑتا ہے۔ کاریں سڑک پر چلتی ہیں۔",
+      "hint": "It has wings.",
+      "hint_ur": "اس کے پر ہوتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 151,
+      "type": "mcq",
+      "question": "What is the baby of a goat called?",
+      "question_ur": "بکری کے بچے کو کیا کہتے ہیں؟",
+      "options": {
+        "en": ["Kid", "Lamb", "Calf", "Foal"],
+        "ur": ["بچہ", "میمنا", "بچھڑا", "گھوڑے کا بچہ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "A baby goat is called a kid.",
+      "explanation_ur": "بکری کے بچے کو بچہ کہتے ہیں۔",
+      "hint": "It's the same word for a human child.",
+      "hint_ur": "یہ انسانی بچے کے لیے بھی یہی لفظ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 152,
+      "type": "mcq",
+      "question": "Which shape has no straight sides?",
+      "question_ur": "کس شکل کے کوئی سیدھے اطراف نہیں ہوتے؟",
+      "options": {
+        "en": ["Square", "Triangle", "Rectangle", "Circle"],
+        "ur": ["مربع", "مثلث", "مستطیل", "دائرہ"]
+      },
+      "correctAnswer": 3,
+      "explanation": "A circle is a perfectly round shape with no straight sides or corners.",
+      "explanation_ur": "دائرہ ایک بالکل گول شکل ہے جس میں کوئی سیدھے اطراف یا کونے نہیں ہوتے۔",
+      "hint": "It's the shape of a coin.",
+      "hint_ur": "یہ ایک سکے کی شکل ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 153,
+      "type": "true-false",
+      "question": "The Sahara is the largest hot desert in the world.",
+      "question_ur": "صحرائے اعظم دنیا کا سب سے بڑا گرم صحرا ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Sahara Desert, located in Africa, is the largest hot desert in the world.",
+      "explanation_ur": "صحرائے اعظم، جو افریقہ میں واقع ہے، دنیا کا سب سے بڑا گرم صحرا ہے۔",
+      "hint": "It's a very large, sandy place in Africa.",
+      "hint_ur": "یہ افریقہ میں ایک بہت بڑی، ریتیلی جگہ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 154,
+      "type": "mcq",
+      "question": "What color is a ruby?",
+      "question_ur": "ایک یاقوت کا رنگ کیا ہے؟",
+      "options": {
+        "en": ["Blue", "Green", "Red", "Yellow"],
+        "ur": ["نیلا", "سبز", "سرخ", "پیلا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A ruby is a precious gemstone that is typically red.",
+      "explanation_ur": "یاقوت ایک قیمتی پتھر ہے جو عام طور پر سرخ ہوتا ہے۔",
+      "hint": "It's a deep, rich color.",
+      "hint_ur": "یہ ایک گہرا، بھرپور رنگ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 155,
+      "type": "mcq",
+      "question": "What is the name of the sponge who lives in a pineapple under the sea?",
+      "question_ur": "اس سپنج کا کیا نام ہے جو سمندر کے نیچے ایک انناس میں رہتا ہے؟",
+      "options": {
+        "en": ["Patrick Star", "Squidward Tentacles", "SpongeBob SquarePants", "Mr. Krabs"],
+        "ur": ["پیٹرک اسٹار", "اسکویڈورڈ ٹینٹیکلز", "اسپنج باب اسکوائر پینٹس", "مسٹر کریبز"]
+      },
+      "correctAnswer": 2,
+      "explanation": "SpongeBob SquarePants is the main character of the popular animated television series of the same name.",
+      "explanation_ur": "اسپنج باب اسکوائر پینٹس اسی نام کی مقبول اینیمیٹڈ ٹیلی ویژن سیریز کا مرکزی کردار ہے۔",
+      "hint": "He is yellow and porous.",
+      "hint_ur": "وہ پیلا اور مسام دار ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 156,
+      "type": "true-false",
+      "question": "Leaves on trees are always green.",
+      "question_ur": "درختوں پر پتے ہمیشہ سبز ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Leaves can change color, especially in autumn, turning yellow, orange, or red.",
+      "explanation_ur": "پتے رنگ بدل سکتے ہیں، خاص طور پر خزاں میں، پیلے، نارنجی یا سرخ ہو جاتے ہیں۔",
+      "hint": "What happens in autumn or fall?",
+      "hint_ur": "خزاں میں کیا ہوتا ہے؟",
+      "timeLimit": 20
+    },
+    {
+      "id": 157,
+      "type": "mcq",
+      "question": "What is the tallest mountain in the world?",
+      "question_ur": "دنیا کا سب سے اونچا پہاڑ کون سا ہے؟",
+      "options": {
+        "en": ["K2", "Mount Everest", "Kangchenjunga", "Lhotse"],
+        "ur": ["کے ٹو", "ماؤنٹ ایورسٹ", "کنچن جنگا", "لہوٹسے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Mount Everest is Earth's highest mountain above sea level, located in the Himalayas.",
+      "explanation_ur": "ماؤنٹ ایورسٹ سطح سمندر سے زمین کا سب سے اونچا پہاڑ ہے، جو ہمالیہ میں واقع ہے۔",
+      "hint": "It's in the Himalayan mountain range.",
+      "hint_ur": "یہ ہمالیہ کے پہاڑی سلسلے میں ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 158,
+      "type": "mcq",
+      "question": "What is the opposite of 'wet'?",
+      "question_ur": "'گیلا' کا متضاد کیا ہے؟",
+      "options": {
+        "en": ["Moist", "Damp", "Soaked", "Dry"],
+        "ur": ["نم", "گیلا", "بھیگا ہوا", "خشک"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Dry is the opposite of wet.",
+      "explanation_ur": "خشک گیلے کا متضاد ہے۔",
+      "hint": "You use a towel to become this.",
+      "hint_ur": "آپ یہ بننے کے لیے تولیہ استعمال کرتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 159,
+      "type": "true-false",
+      "question": "A dozen is equal to 10.",
+      "question_ur": "ایک درجن 10 کے برابر ہے۔",
+      "correctAnswer": false,
+      "explanation": "A dozen is a group of twelve.",
+      "explanation_ur": "ایک درجن بارہ کا ایک گروہ ہے۔",
+      "hint": "How many eggs are usually in a carton?",
+      "hint_ur": "ایک کارٹن میں عام طور پر کتنے انڈے ہوتے ہیں؟",
+      "timeLimit": 20
+    },
+    {
+      "id": 160,
+      "type": "mcq",
+      "question": "What kind of animal is 'Bambi'?",
+      "question_ur": "'بامبی' کس قسم کا جانور ہے؟",
+      "options": {
+        "en": ["A rabbit", "A squirrel", "A deer", "A bear"],
+        "ur": ["ایک خرگوش", "ایک گلہری", "ایک ہرن", "ایک ریچھ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Bambi is the title character in Felix Salten's 1923 novel and the Disney animated film. He is a young deer.",
+      "explanation_ur": "بامبی فیلکس سالٹن کے 1923 کے ناول اور ڈزنی کی اینیمیٹڈ فلم کا ٹائٹل کردار ہے۔ وہ ایک نوجوان ہرن ہے۔",
+      "hint": "This animal has antlers.",
+      "hint_ur": "اس جانور کے سینگ ہوتے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 161,
+      "type": "mcq",
+      "question": "What do you wear to protect your head when riding a bike?",
+      "question_ur": "بائیک چلاتے وقت اپنے سر کی حفاظت کے لیے آپ کیا پہنتے ہیں؟",
+      "options": {
+        "en": ["A hat", "A helmet", "A scarf", "Goggles"],
+        "ur": ["ایک ٹوپی", "ایک ہیلمٹ", "ایک اسکارف", "عینک"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A helmet is a form of protective gear worn to protect the head.",
+      "explanation_ur": "ہیلمٹ ایک حفاظتی پوشاک ہے جو سر کی حفاظت کے لیے پہنا جاتا ہے۔",
+      "hint": "It's hard and fits on your head.",
+      "hint_ur": "یہ سخت ہے اور آپ کے سر پر فٹ بیٹھتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 162,
+      "type": "true-false",
+      "question": "The three primary colors are red, yellow, and green.",
+      "question_ur": "تین بنیادی رنگ سرخ، پیلا اور سبز ہیں۔",
+      "correctAnswer": false,
+      "explanation": "The three primary colors are red, yellow, and blue.",
+      "explanation_ur": "تین بنیادی رنگ سرخ، پیلا اور نیلے ہیں۔",
+      "hint": "Green is made by mixing two primary colors.",
+      "hint_ur": "سبز دو بنیادی رنگوں کو ملا کر بنایا جاتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 163,
+      "type": "mcq",
+      "question": "In which city would you find the Eiffel Tower?",
+      "question_ur": "آپ کو ایفل ٹاور کس شہر میں ملے گا؟",
+      "options": {
+        "en": ["London", "Rome", "Paris", "Berlin"],
+        "ur": ["لندن", "روم", "پیرس", "برلن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Eiffel Tower is a famous landmark located in Paris, the capital of France.",
+      "explanation_ur": "ایفل ٹاور ایک مشہور تاریخی نشان ہے جو فرانس کے دارالحکومت پیرس میں واقع ہے۔",
+      "hint": "It's the capital of France.",
+      "hint_ur": "یہ فرانس کا دارالحکومت ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 164,
+      "type": "mcq",
+      "question": "What is the sound a duck makes?",
+      "question_ur": "بطخ کونسی آواز نکالتی ہے؟",
+      "options": {
+        "en": ["Chirp", "Quack", "Hiss", "Roar"],
+        "ur": ["چہچہانا", "کائیں کائیں", "پھنکارنا", "دھاڑنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A duck makes a 'quack' sound.",
+      "explanation_ur": "ایک بطخ 'کائیں کائیں' کی آواز نکالتی ہے۔",
+      "hint": "This bird likes to swim in ponds.",
+      "hint_ur": "یہ پرندہ تالابوں میں تیرنا پسند کرتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 165,
+      "type": "true-false",
+      "question": "A chef is someone who flies airplanes.",
+      "question_ur": "ایک شیف وہ ہوتا ہے جو ہوائی جہاز اڑاتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "A chef is a professional cook. A pilot is someone who flies airplanes.",
+      "explanation_ur": "ایک شیف ایک پیشہ ور باورچی ہوتا ہے۔ ایک پائلٹ وہ ہوتا ہے جو ہوائی جہاز اڑاتا ہے۔",
+      "hint": "A chef works in a kitchen.",
+      "hint_ur": "ایک شیف باورچی خانے میں کام کرتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 166,
+      "type": "mcq",
+      "question": "Which of these is a type of weather?",
+      "question_ur": "ان میں سے کون سی موسم کی ایک قسم ہے؟",
+      "options": {
+        "en": ["Happy", "Sad", "Sunny", "Angry"],
+        "ur": ["خوش", "غمگین", "دھوپ", "ناراض"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Sunny is a type of weather where there is a lot of sunshine.",
+      "explanation_ur": "دھوپ موسم کی ایک قسم ہے جہاں بہت زیادہ دھوپ ہوتی ہے۔",
+      "hint": "It's a bright and warm day.",
+      "hint_ur": "یہ ایک روشن اور گرم دن ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 167,
+      "type": "mcq",
+      "question": "What is the name of the boy wizard with a lightning bolt scar?",
+      "question_ur": "بجلی کے نشان والے لڑکے جادوگر کا کیا نام ہے؟",
+      "options": {
+        "en": ["Ron", "Draco", "Neville", "Harry"],
+        "ur": ["رون", "ڈریکو", "نیول", "ہیری"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Harry Potter is the famous wizard with a lightning bolt scar on his forehead.",
+      "explanation_ur": "ہیری پوٹر وہ مشہور جادوگر ہے جس کے ماتھے پر بجلی کا نشان ہے۔",
+      "hint": "He goes to Hogwarts School.",
+      "hint_ur": "وہ ہاگ وارٹس اسکول جاتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 168,
+      "type": "true-false",
+      "question": "A postman delivers mail.",
+      "question_ur": "ایک ڈاکیا ڈاک پہنچاتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "A postman or mail carrier is a person who is employed to deliver mail and parcels.",
+      "explanation_ur": "ایک ڈاکیا یا میل کیریئر وہ شخص ہوتا ہے جسے ڈاک اور پارسل پہنچانے کے لیے ملازم رکھا جاتا ہے۔",
+      "hint": "They bring letters to your house.",
+      "hint_ur": "وہ آپ کے گھر خط لاتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 169,
+      "type": "mcq",
+      "question": "How many legs does a spider have?",
+      "question_ur": "ایک مکڑی کی کتنی ٹانگیں ہوتی ہیں؟",
+      "options": {
+        "en": ["4", "6", "8", "10"],
+        "ur": ["4", "6", "8", "10"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Spiders are arachnids and have eight legs.",
+      "explanation_ur": "مکڑیاں عنکبوت ہیں اور ان کی آٹھ ٹانگیں ہوتی ہیں۔",
+      "hint": "It's more than an insect.",
+      "hint_ur": "یہ ایک کیڑے سے زیادہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 170,
+      "type": "mcq",
+      "question": "What do you call the meal you eat in the middle of the day?",
+      "question_ur": "آپ دن کے وسط میں کھانے والے کھانے کو کیا کہتے ہیں؟",
+      "options": {
+        "en": ["Breakfast", "Lunch", "Dinner", "Snack"],
+        "ur": ["ناشتہ", "دوپہر کا کھانا", "رات کا کھانا", "ہلکا ناشتہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Lunch is the meal eaten around midday.",
+      "explanation_ur": "دوپہر کا کھانا دوپہر کے قریب کھایا جانے والا کھانا ہے۔",
+      "hint": "It comes after breakfast.",
+      "hint_ur": "یہ ناشتے کے بعد آتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 171,
+      "type": "true-false",
+      "question": "A map is a drawing of a place.",
+      "question_ur": "ایک نقشہ کسی جگہ کی تصویر ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "A map is a symbolic representation of selected characteristics of a place, usually drawn on a flat surface.",
+      "explanation_ur": "ایک نقشہ کسی جگہ کی منتخب خصوصیات کی ایک علامتی نمائندگی ہے، جو عام طور پر ایک ہموار سطح پر کھینچی جاتی ہے۔",
+      "hint": "It helps you find your way.",
+      "hint_ur": "یہ آپ کو اپنا راستہ تلاش کرنے میں مدد کرتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 172,
+      "type": "mcq",
+      "question": "What color is an emerald?",
+      "question_ur": "زمرد کا رنگ کیا ہے؟",
+      "options": {
+        "en": ["Blue", "Red", "Yellow", "Green"],
+        "ur": ["نیلا", "سرخ", "پیلا", "سبز"]
+      },
+      "correctAnswer": 3,
+      "explanation": "An emerald is a precious gemstone that is a variety of the mineral beryl, colored green.",
+      "explanation_ur": "زمرد ایک قیمتی پتھر ہے جو معدنی بیریل کی ایک قسم ہے، جس کا رنگ سبز ہوتا ہے۔",
+      "hint": "It's the color of grass.",
+      "hint_ur": "یہ گھاس کا رنگ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 173,
+      "type": "mcq",
+      "question": "What is the name of the racing car in the movie 'Cars'?",
+      "question_ur": "فلم 'کارز' میں ریسنگ کار کا کیا نام ہے؟",
+      "options": {
+        "en": ["Mater", "Doc Hudson", "Lightning McQueen", "Sally"],
+        "ur": ["میٹر", "ڈاک ہڈسن", "لائٹننگ میک کوین", "سیلی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Lightning McQueen is the protagonist of the Disney/Pixar 'Cars' franchise.",
+      "explanation_ur": "لائٹننگ میک کوین ڈزنی/پکسر کی 'کارز' فرنچائز کا مرکزی کردار ہے۔",
+      "hint": "He is red and very fast.",
+      "hint_ur": "وہ سرخ ہے اور بہت تیز ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 174,
+      "type": "true-false",
+      "question": "A farmer works in an office.",
+      "question_ur": "ایک کسان دفتر میں کام کرتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "A farmer works on a farm, growing crops or raising animals.",
+      "explanation_ur": "ایک کسان ایک فارم پر کام کرتا ہے، فصلیں اگاتا ہے یا جانور پالتا ہے۔",
+      "hint": "They often drive a tractor.",
+      "hint_ur": "وہ اکثر ٹریکٹر چلاتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 175,
+      "type": "mcq",
+      "question": "What is the opposite of 'easy'?",
+      "question_ur": "'آسان' کا متضاد کیا ہے؟",
+      "options": {
+        "en": ["Simple", "Hard", "Clear", "Light"],
+        "ur": ["سادہ", "مشکل", "صاف", "ہلکا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Hard or difficult is the opposite of easy.",
+      "explanation_ur": "مشکل یا دشوار آسان کا متضاد ہے۔",
+      "hint": "This question is not...",
+      "hint_ur": "یہ سوال... نہیں ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 176,
+      "type": "mcq",
+      "question": "What animal is the character 'Dumbo'?",
+      "question_ur": "کردار 'ڈمبو' کون سا جانور ہے؟",
+      "options": {
+        "en": ["A mouse", "A dog", "A cat", "An elephant"],
+        "ur": ["ایک چوہا", "ایک کتا", "ایک بلی", "ایک ہاتھی"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Dumbo is a famous elephant from the Disney movie, known for his very large ears.",
+      "explanation_ur": "ڈمبو ڈزنی فلم کا ایک مشہور ہاتھی ہے، جو اپنے بہت بڑے کانوں کے لیے جانا جاتا ہے۔",
+      "hint": "He can fly using his big ears.",
+      "hint_ur": "وہ اپنے بڑے کانوں کا استعمال کرتے ہوئے اڑ سکتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 177,
+      "type": "true-false",
+      "question": "You can walk on water.",
+      "question_ur": "آپ پانی پر چل سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Humans cannot walk on water because our density is greater than that of water, causing us to sink.",
+      "explanation_ur": "انسان پانی پر نہیں چل سکتے کیونکہ ہماری کثافت پانی سے زیادہ ہے، جس کی وجہ سے ہم ڈوب جاتے ہیں۔",
+      "hint": "What happens when you step into a pool?",
+      "hint_ur": "جب آپ ایک تالاب میں قدم رکھتے ہیں تو کیا ہوتا ہے؟",
+      "timeLimit": 20
+    },
+    {
+      "id": 178,
+      "type": "mcq",
+      "question": "What number comes after nine?",
+      "question_ur": "نو کے بعد کون سا نمبر آتا ہے؟",
+      "options": {
+        "en": ["Eight", "Ten", "Seven", "Eleven"],
+        "ur": ["آٹھ", "دس", "سات", "گیارہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ten is the number that follows nine.",
+      "explanation_ur": "دس وہ نمبر ہے جو نو کے بعد آتا ہے۔",
+      "hint": "It's the number of fingers you have in total.",
+      "hint_ur": "یہ آپ کی کل انگلیوں کی تعداد ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 179,
+      "type": "mcq",
+      "question": "What is the main language spoken in Spain?",
+      "question_ur": "اسپین میں بولی جانے والی اہم زبان کون سی ہے؟",
+      "options": {
+        "en": ["French", "Italian", "Spanish", "German"],
+        "ur": ["فرانسیسی", "اطالوی", "ہسپانوی", "جرمن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Spanish is the official language of Spain.",
+      "explanation_ur": "ہسپانوی اسپین کی سرکاری زبان ہے۔",
+      "hint": "The name of the language is similar to the country's name.",
+      "hint_ur": "زبان کا نام ملک کے نام سے ملتا جلتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 180,
+      "type": "true-false",
+      "question": "A teacher works at a hospital.",
+      "question_ur": "ایک استاد ہسپتال میں کام کرتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "A teacher works at a school, helping students learn.",
+      "explanation_ur": "ایک استاد ایک اسکول میں کام کرتا ہے، طالب علموں کو سیکھنے میں مدد کرتا ہے۔",
+      "hint": "Where do you go to learn?",
+      "hint_ur": "آپ سیکھنے کہاں جاتے ہیں؟",
+      "timeLimit": 20
+    },
+    {
+      "id": 181,
+      "type": "mcq",
+      "question": "What do you call a house made of ice?",
+      "question_ur": "برف سے بنے گھر کو آپ کیا کہتے ہیں؟",
+      "options": {
+        "en": ["A tent", "A cabin", "An igloo", "A castle"],
+        "ur": ["ایک خیمہ", "ایک کیبن", "ایک اگلو", "ایک قلعہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "An igloo is a type of shelter built from blocks of snow, traditionally used by the Inuit people.",
+      "explanation_ur": "اگلو برف کے بلاکس سے بنی ایک قسم کی پناہ گاہ ہے، جو روایتی طور پر انوئٹ لوگ استعمال کرتے ہیں۔",
+      "hint": "It's found in very cold, snowy places.",
+      "hint_ur": "یہ بہت ٹھنڈی، برفیلی جگہوں پر پایا جاتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 182,
+      "type": "mcq",
+      "question": "What is the last letter of the English alphabet?",
+      "question_ur": "انگریزی حروف تہجی کا آخری حرف کیا ہے؟",
+      "options": {
+        "en": ["X", "Y", "Z", "A"],
+        "ur": ["X", "Y", "Z", "A"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The English alphabet ends with the letter Z.",
+      "explanation_ur": "انگریزی حروف تہجی حرف Z پر ختم ہوتے ہیں۔",
+      "hint": "Think of a zebra.",
+      "hint_ur": "ایک زیبرا کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 183,
+      "type": "true-false",
+      "question": "A compass shows you the time.",
+      "question_ur": "ایک کمپاس آپ کو وقت دکھاتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "A compass shows you directions (North, South, East, West). A clock or watch shows you the time.",
+      "explanation_ur": "ایک کمپاس آپ کو سمتیں دکھاتا ہے (شمال، جنوب، مشرق، مغرب)۔ ایک گھڑی یا واچ آپ کو وقت دکھاتی ہے۔",
+      "hint": "It has a needle that points North.",
+      "hint_ur": "اس میں ایک سوئی ہوتی ہے جو شمال کی طرف اشارہ کرتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 184,
+      "type": "mcq",
+      "question": "What animal is 'Garfield'?",
+      "question_ur": "'گارفیلڈ' کون سا جانور ہے؟",
+      "options": {
+        "en": ["A dog", "A mouse", "A cat", "A bird"],
+        "ur": ["ایک کتا", "ایک چوہا", "ایک بلی", "ایک پرندہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Garfield is a famous fictional cat, known for being lazy and loving lasagna.",
+      "explanation_ur": "گارفیلڈ ایک مشہور افسانوی بلی ہے، جو سست ہونے اور لزانیا سے محبت کرنے کے لیے جانی جاتی ہے۔",
+      "hint": "He is orange and loves lasagna.",
+      "hint_ur": "وہ نارنجی ہے اور لزانیا سے محبت کرتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 185,
+      "type": "mcq",
+      "question": "How many months are in a year?",
+      "question_ur": "ایک سال میں کتنے مہینے ہوتے ہیں؟",
+      "options": {
+        "en": ["10", "11", "12", "13"],
+        "ur": ["10", "11", "12", "13"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The calendar year is divided into 12 months.",
+      "explanation_ur": "کیلنڈر سال 12 مہینوں میں تقسیم ہوتا ہے۔",
+      "hint": "Starts with January, ends with December.",
+      "hint_ur": "جنوری سے شروع ہوتا ہے، دسمبر پر ختم ہوتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 186,
+      "type": "true-false",
+      "question": "The Statue of Liberty is in London.",
+      "question_ur": "مجسمہ آزادی لندن میں ہے۔",
+      "correctAnswer": false,
+      "explanation": "The Statue of Liberty is located in New York Harbor in the United States.",
+      "explanation_ur": "مجسمہ آزادی ریاستہائے متحدہ کے نیو یارک ہاربر میں واقع ہے۔",
+      "hint": "It was a gift from France to the USA.",
+      "hint_ur": "یہ فرانس کی طرف سے امریکہ کو ایک تحفہ تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 187,
+      "type": "mcq",
+      "question": "What do we use to taste food?",
+      "question_ur": "ہم کھانا چکھنے کے لیے کیا استعمال کرتے ہیں؟",
+      "options": {
+        "en": ["Nose", "Ears", "Eyes", "Tongue"],
+        "ur": ["ناک", "کان", "آنکھیں", "زبان"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Our tongue has taste buds that allow us to taste sweet, sour, salty, and bitter flavors.",
+      "explanation_ur": "ہماری زبان میں ذائقہ کی کلیاں ہوتی ہیں جو ہمیں میٹھے، کھٹے، نمکین اور کڑوے ذائقوں کو چکھنے کی اجازت دیتی ہیں۔",
+      "hint": "It's inside your mouth.",
+      "hint_ur": "یہ آپ کے منہ کے اندر ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 188,
+      "type": "mcq",
+      "question": "What is the opposite of 'black'?",
+      "question_ur": "'سیاہ' کا متضاد کیا ہے؟",
+      "options": {
+        "en": ["Gray", "White", "Dark", "Brown"],
+        "ur": ["سرمئی", "سفید", "گہرا", "بھورا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "White is the opposite of black.",
+      "explanation_ur": "سفید سیاہ کا متضاد ہے۔",
+      "hint": "Think of a chess board.",
+      "hint_ur": "ایک شطرنج کی بساط کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 189,
+      "type": "true-false",
+      "question": "A firefighter's job is to start fires.",
+      "question_ur": "ایک فائر فائٹر کا کام آگ لگانا ہے۔",
+      "correctAnswer": false,
+      "explanation": "A firefighter's job is to extinguish fires and rescue people.",
+      "explanation_ur": "ایک فائر فائٹر کا کام آگ بجھانا اور لوگوں کو بچانا ہے۔",
+      "hint": "They use water hoses.",
+      "hint_ur": "وہ پانی کی نلیاں استعمال کرتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 190,
+      "type": "mcq",
+      "question": "What is the main ingredient in chocolate?",
+      "question_ur": "چاکلیٹ میں اہم جزو کیا ہے؟",
+      "options": {
+        "en": ["Flour", "Sugar", "Cocoa", "Milk"],
+        "ur": ["آٹا", "چینی", "کوکو", "دودھ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Chocolate is made from cocoa beans, which are roasted and ground.",
+      "explanation_ur": "چاکلیٹ کوکو بینز سے بنتی ہے، جنہیں بھون کر پیسا جاتا ہے۔",
+      "hint": "It comes from a bean.",
+      "hint_ur": "یہ ایک پھلی سے آتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 191,
+      "type": "mcq",
+      "question": "Which of these is the smallest?",
+      "question_ur": "ان میں سے کون سا سب سے چھوٹا ہے؟",
+      "options": {
+        "en": ["An elephant", "A mouse", "A dog", "A horse"],
+        "ur": ["ایک ہاتھی", "ایک چوہا", "ایک کتا", "ایک گھوڑا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A mouse is a very small rodent, much smaller than the other animals listed.",
+      "explanation_ur": "ایک چوہا ایک بہت چھوٹا چوہا ہے، جو درج دیگر جانوروں سے بہت چھوٹا ہے۔",
+      "hint": "It likes to eat cheese.",
+      "hint_ur": "اسے پنیر کھانا پسند ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 192,
+      "type": "true-false",
+      "question": "Boats sail on land.",
+      "question_ur": "کشتیاں خشکی پر چلتی ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Boats are designed to travel on water, such as rivers, lakes, and oceans.",
+      "explanation_ur": "کشتیاں پانی پر سفر کرنے کے لیے بنائی گئی ہیں، جیسے دریا، جھیلیں اور سمندر۔",
+      "hint": "Where do you see boats?",
+      "hint_ur": "آپ کشتیاں کہاں دیکھتے ہیں؟",
+      "timeLimit": 20
+    },
+    {
+      "id": 193,
+      "type": "mcq",
+      "question": "What is the color of a sapphire?",
+      "question_ur": "ایک نیلم کا رنگ کیا ہے؟",
+      "options": {
+        "en": ["Red", "Green", "Yellow", "Blue"],
+        "ur": ["سرخ", "سبز", "پیلا", "نیلا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "A sapphire is a precious gemstone that is typically blue.",
+      "explanation_ur": "نیلم ایک قیمتی پتھر ہے جو عام طور پر نیلا ہوتا ہے۔",
+      "hint": "It's the color of the deep ocean.",
+      "hint_ur": "یہ گہرے سمندر کا رنگ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 194,
+      "type": "mcq",
+      "question": "What is the name of the princess who lost her glass slipper?",
+      "question_ur": "اس شہزادی کا کیا نام ہے جس نے اپنی کانچ کی جوتی کھو دی تھی؟",
+      "options": {
+        "en": ["Ariel", "Belle", "Cinderella", "Jasmine"],
+        "ur": ["ایریل", "بیل", "سنڈریلا", "جیسمین"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Cinderella is the princess who loses a glass slipper at the royal ball.",
+      "explanation_ur": "سنڈریلا وہ شہزادی ہے جو شاہی بال میں ایک کانچ کی جوتی کھو دیتی ہے۔",
+      "hint": "She had to be home by midnight.",
+      "hint_ur": "اسے آدھی رات تک گھر پہنچنا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 195,
+      "type": "true-false",
+      "question": "There are eight days in a week.",
+      "question_ur": "ایک ہفتے میں آٹھ دن ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "There are seven days in a week.",
+      "explanation_ur": "ایک ہفتے میں سات دن ہوتے ہیں۔",
+      "hint": "Count them: Sunday, Monday, Tuesday...",
+      "hint_ur": "انہیں گنیں: اتوار، پیر، منگل...",
+      "timeLimit": 20
+    },
+    {
+      "id": 196,
+      "type": "mcq",
+      "question": "What is the main gas that we breathe in?",
+      "question_ur": "ہم سانس میں کون سی اہم گیس لیتے ہیں؟",
+      "options": {
+        "en": ["Carbon Dioxide", "Oxygen", "Nitrogen", "Helium"],
+        "ur": ["کاربن ڈائی آکسائیڈ", "آکسیجن", "نائٹروجن", "ہیلیم"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Humans need to breathe in oxygen to live. Plants produce oxygen.",
+      "explanation_ur": "انسانوں کو زندہ رہنے کے لیے آکسیجن میں سانس لینے کی ضرورت ہوتی ہے۔ پودے آکسیجن پیدا کرتے ہیں۔",
+      "hint": "Trees and plants make this gas for us.",
+      "hint_ur": "درخت اور پودے ہمارے لیے یہ گیس بناتے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 197,
+      "type": "mcq",
+      "question": "What is the name of the boy who owns the toys in 'Toy Story'?",
+      "question_ur": "'ٹوائے اسٹوری' میں کھلونوں کے مالک لڑکے کا کیا نام ہے؟",
+      "options": {
+        "en": ["Sid", "Andy", "Buzz", "Woody"],
+        "ur": ["سڈ", "اینڈی", "بز", "ووڈی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Andy is the young boy who owns the toys, including Woody and Buzz Lightyear.",
+      "explanation_ur": "اینڈی وہ نوجوان لڑکا ہے جو ووڈی اور بز لائٹ ییئر سمیت کھلونوں کا مالک ہے۔",
+      "hint": "He writes his name on the bottom of his toys' feet.",
+      "hint_ur": "وہ اپنے کھلونوں کے پیروں کے نیچے اپنا نام لکھتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 198,
+      "type": "true-false",
+      "question": "Kangaroos are found in Africa.",
+      "question_ur": "کینگرو افریقہ میں پائے جاتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Kangaroos are native to the continent of Australia.",
+      "explanation_ur": "کینگرو آسٹریلیا کے براعظم کے مقامی ہیں۔",
+      "hint": "They are famous for hopping.",
+      "hint_ur": "وہ اچھلنے کے لیے مشہور ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 199,
+      "type": "mcq",
+      "question": "What is the opposite of 'hot'?",
+      "question_ur": "'گرم' کا متضاد کیا ہے؟",
+      "options": {
+        "en": ["Warm", "Cold", "Spicy", "Sunny"],
+        "ur": ["گرم", "سرد", "مسالیدار", "دھوپ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Cold is the opposite of hot.",
+      "explanation_ur": "سرد گرم کا متضاد ہے۔",
+      "hint": "Think of ice cream.",
+      "hint_ur": "آئس کریم کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 200,
+      "type": "mcq",
+      "question": "Which of these is a number?",
+      "question_ur": "ان میں سے کون سا ایک نمبر ہے؟",
+      "options": {
+        "en": ["Cat", "Red", "Seven", "Run"],
+        "ur": ["بلی", "سرخ", "سات", "دوڑنا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Seven (7) is a number. The others are an animal, a color, and an action.",
+      "explanation_ur": "سات (7) ایک نمبر ہے۔ دیگر ایک جانور، ایک رنگ اور ایک عمل ہیں۔",
+      "hint": "You can count to this.",
+      "hint_ur": "آپ اس تک گن سکتے ہیں۔",
+      "timeLimit": 20
+    }
+  ]
+}

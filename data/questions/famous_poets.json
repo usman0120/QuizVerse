@@ -1,0 +1,2292 @@
+{
+  "meta": {
+    "category": "Famous Poets",
+    "category_ur": "مشہور شاعروں",
+    "description": "Test your knowledge about famous poets from around the world",
+    "description_ur": "دنیا بھر کے مشہور شاعروں کے بارے میں اپنا علم آزمائیں",
+    "difficulty": "medium",
+    "image": "famous_poets.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 2,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 6,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 8,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 10,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 16,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 18,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 20,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 22,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 24,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 26,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 28,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 30,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 32,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 34,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 36,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 38,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 40,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 42,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 44,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 46,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 48,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 50,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 52,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 54,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 56,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 58,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 60,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 62,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 64,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 66,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 68,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 70,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 72,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 74,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 76,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 78,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 80,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 82,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 84,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 86,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 88,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 90,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 92,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 94,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 95,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 96,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 98,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 99,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 100,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 101,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 102,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 104,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 105,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 106,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 107,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 108,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 110,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 111,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 112,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 113,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 114,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 116,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 117,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 118,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 119,
+      "type": "mcq",
+      "question": "Who is known as the poet of nature?",
+      "question_ur": "کون شاعر قدرت کے شاعر کے طور پر جانے جاتے ہیں؟",
+      "options": {
+        "en": [
+          "William Blake",
+          "William Wordsworth",
+          "John Keats",
+          "Lord Byron"
+        ],
+        "ur": [
+          "ولیم بلیک",
+          "ولیم ورڈزورتھ",
+          "جان کیٹس",
+          "لارڈ بائرن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "William Wordsworth is often called the poet of nature for his vivid descriptions of the countryside.",
+      "explanation_ur": "ولیم ورڈزورتھ کو قدرت کے شاعر کے طور پر جانا جاتا ہے کیونکہ وہ دیہات کے مناظر کا خوبصورت بیان کرتے ہیں۔",
+      "hint": "Think of Lake District poetry.",
+      "hint_ur": "لیک ڈسٹرکٹ کی شاعری کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 120,
+      "type": "true-false",
+      "question": "Allama Iqbal wrote 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'.",
+      "question_ur": "علامہ اقبال نے 'لب پہ آتی ہے دعا بن کے تمنا میری' لکھی تھی۔",
+      "correctAnswer": true,
+      "explanation": "Allama Iqbal wrote this famous prayer poem for children.",
+      "explanation_ur": "علامہ اقبال نے یہ مشہور دعا بچوں کے لیے لکھی تھی۔",
+      "hint": "Think of Pakistan's national poet.",
+      "hint_ur": "پاکستان کے قومی شاعر کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    }
+  ]
+}

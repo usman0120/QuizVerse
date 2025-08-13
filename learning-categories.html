@@ -1,0 +1,2300 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Hub | QuizVerse - Learn & Explore</title>
+  <meta name="description" content="Explore educational articles and notes on various topics from science to Islamic studies, Urdu poetry to technology.">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS -->
+  <link href="dist/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="src/index.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+    
+    .urdu {
+      font-family: 'Noto Nastaliq Urdu', serif;
+      direction: rtl;
+    }
+    
+    .category-card {
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+    }
+    
+    .category-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
+    }
+    
+    .category-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(90deg, var(--category-color), transparent);
+    }
+    
+    .category-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      opacity: 0.1;
+      z-index: 0;
+    }
+    
+    .category-content {
+      position: relative;
+      z-index: 1;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .filter-btn.active {
+      background-color: #2D6A4F;
+      color: white;
+    }
+    
+    .dark .filter-btn.active {
+      background-color: #40916C;
+    }
+    
+    .progress-ring__circle {
+      transition: stroke-dashoffset 0.35s;
+      transform: rotate(-90deg);
+      transform-origin: 50% 50%;
+    }
+    
+    .tooltip {
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    
+    .has-tooltip:hover .tooltip {
+      visibility: visible;
+      opacity: 1;
+    }
+    
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+    
+    .floating {
+      animation: float 4s ease-in-out infinite;
+    }
+    
+    /* Loading skeleton */
+    .loading-skeleton {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 1.5rem;
+    }
+    
+    @media (min-width: 640px) {
+      .loading-skeleton {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    
+    @media (min-width: 1024px) {
+      .loading-skeleton {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+    
+    @media (min-width: 1280px) {
+      .loading-skeleton {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+    
+    .loading-skeleton.hidden {
+      display: none;
+    }
+    
+    /* Category-specific background images */
+    .science-bg {
+      background-image: url('https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    }
+    
+    .general-bg {
+      background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80');
+    }
+    
+    .history-bg {
+      background-image: url('https://images.unsplash.com/photo-1502136969935-8d8eef54d77b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80');
+    }
+    
+    .islamic-bg {
+      background-image: url('https://images.unsplash.com/photo-1542817697-b5c1d74b05a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    }
+    
+    .tech-bg {
+      background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    }
+    
+    .arts-bg {
+      background-image: url('https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1415&q=80');
+    }
+    
+    .kids-bg {
+      background-image: url('https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    }
+    
+    .poetry-bg {
+      background-image: url('https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80');
+    }
+    
+    /* Language toggle */
+    .language-toggle {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 30px;
+    }
+    
+    .language-toggle input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    
+    .language-slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #2A9D8F;
+      transition: .4s;
+      border-radius: 34px;
+    }
+    
+    .language-slider:before {
+      position: absolute;
+      content: "";
+      height: 22px;
+      width: 22px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      transition: .4s;
+      border-radius: 50%;
+    }
+    
+    input:checked + .language-slider {
+      background-color: #0077B6;
+    }
+    
+    input:checked + .language-slider:before {
+      transform: translateX(30px);
+    }
+    
+    .language-labels {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 10px;
+      pointer-events: none;
+    }
+    
+    .language-labels span {
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+    
+    /* Learning specific styles */
+    .learning-card:hover .category-icon {
+      transform: scale(1.1) rotate(5deg);
+    }
+    
+    .top-read-card {
+      transition: all 0.3s ease;
+    }
+    
+    .top-read-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Pagination styles */
+    .pagination {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+    
+    .pagination button {
+      margin: 0 0.25rem;
+      padding: 0.5rem 1rem;
+      border-radius: 0.375rem;
+      background-color: #f3f4f6;
+      color: #4b5563;
+      transition: all 0.2s;
+    }
+    
+    .pagination button:hover {
+      background-color: #e5e7eb;
+    }
+    
+    .pagination button.active {
+      background-color: #2D6A4F;
+      color: white;
+    }
+    
+    .pagination button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    
+    .dark .pagination button {
+      background-color: #374151;
+      color: #d1d5db;
+    }
+    
+    .dark .pagination button:hover {
+      background-color: #4b5563;
+    }
+    
+    .dark .pagination button.active {
+      background-color: #40916C;
+    }
+
+
+
+
+
+    /* Add this to your existing style section */
+@media (max-width: 640px) {
+  /* General adjustments */
+  body {
+    font-size: 14px;
+  }
+  
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Header adjustments */
+  header .container {
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Hero section */
+  .hero h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+  }
+  
+  /* Cards */
+  .category-card {
+    margin-bottom: 0.75rem;
+  }
+  
+  .category-content {
+    padding: 1rem;
+  }
+  
+  /* Filter section */
+  .grid-cols-1.md\:grid-cols-4 {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+  
+  /* Modal adjustments */
+  #modal-content, #tips-modal-content {
+    width: 95%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  /* Pagination */
+  .pagination {
+    flex-wrap: wrap;
+  }
+  
+  .pagination button {
+    margin: 0.25rem;
+    padding: 0.5rem;
+  }
+  
+  /* Mobile menu */
+  #mobile-menu {
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Font size adjustments */
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  h2 {
+    font-size: 1.25rem;
+  }
+  
+  h3 {
+    font-size: 1.1rem;
+  }
+  
+  /* Card content adjustments */
+  .category-content h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .category-content p {
+    font-size: 0.875rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  /* Progress bars and stats */
+  .progress-bar {
+    height: 0.5rem;
+  }
+  
+  .text-xs {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 400px) {
+  /* Extra small devices */
+  .category-card {
+    margin-bottom: 0.5rem;
+  }
+  
+  .category-content {
+    padding: 0.75rem;
+  }
+  
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+  
+  .hero p {
+    font-size: 0.875rem;
+  }
+}
+  </style>
+</head>
+<body class="bg-bgLight text-textDark dark:bg-bgDark dark:text-textLight transition-colors duration-300">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-brand text-white shadow-md dark:bg-gray-800">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <i class="fas fa-brain text-2xl text-accent"></i>
+        <a href="index.html" class="text-xl font-bold">QuizVerse</a>
+      </div>
+      
+      <div class="hidden md:flex space-x-6">
+        <a href="index.html" class="hover:text-accent transition">Home</a>
+        <a href="quiz-categories.html" class="hover:text-accent transition">Quizzes</a>
+        <a href="learn-categories.html" class="hover:text-accent transition">Learning Hub</a>
+        <a href="personality.html" class="hover:text-accent transition">Personality Tests</a>
+      </div>
+
+      <div class="flex items-center space-x-4">
+        <!-- Language Toggle -->
+        <div class="flex items-center space-x-3 mr-4">
+          <span class="text-sm hidden md:block">English</span>
+          <label class="language-toggle">
+            <input type="checkbox" id="language-toggle">
+            <span class="language-slider"></span>
+            <div class="language-labels">
+              <span>EN</span>
+              <span>UR</span>
+            </div>
+          </label>
+          <span class="text-sm hidden md:block">Urdu</span>
+        </div>
+        
+        <button id="theme-toggle" class="p-2 rounded-full hover:bg-secondary transition-colors" aria-label="Toggle dark mode">
+          <i class="fas fa-moon dark:hidden"></i>
+          <i class="fas fa-sun hidden dark:block"></i>
+        </button>
+        
+        <button id="mobile-menu-button" class="md:hidden p-2 rounded-full hover:bg-secondary">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="md:hidden hidden bg-secondary text-white px-4 py-2">
+      <div class="flex flex-col space-y-3">
+        <a href="index.html" class="hover:text-accent transition">Home</a>
+        <a href="quiz-categories.html" class="hover:text-accent transition">Quizzes</a>
+        <a href="learn-categories.html" class="hover:text-accent transition">Learning Hub</a>
+        <a href="personality.html" class="hover:text-accent transition">Personality Tests</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-brand to-secondary text-white py-12 md:py-16 ">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4 font-serif">Expand Your Knowledge Universe</h1>
+      <p class="text-lg md:text-xl mb-6 max-w-3xl mx-auto">Discover, learn, and grow with our comprehensive learning resources</p>
+      
+      <!-- Feature Box -->
+      <div class="max-w-5xl mx-auto bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 shadow-lg">
+        <h3 class="text-xl font-bold mb-4 flex items-center justify-center">
+          <i class="fas fa-rocket text-accent mr-2"></i> Why Our Learning Hub Stands Out
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-sm md:text-base">
+          <div class="flex flex-col items-center p-3 bg-white/5 rounded-lg">
+            <i class="fas fa-graduation-cap text-accent text-xl mb-2"></i>
+            <span class="text-center">70+ topics for all interests</span>
+          </div>
+          <div class="flex flex-col items-center p-3 bg-white/5 rounded-lg">
+            <i class="fas fa-child text-accent text-xl mb-2"></i>
+            <span class="text-center">Kids to professionals - everyone's covered</span>
+          </div>
+          <div class="flex flex-col items-center p-3 bg-white/5 rounded-lg">
+            <i class="fas fa-lock-open text-accent text-xl mb-2"></i>
+            <span class="text-center">100% free, no login needed</span>
+          </div>
+          <div class="flex flex-col items-center p-3 bg-white/5 rounded-lg">
+            <i class="fas fa-plus-circle text-accent text-xl mb-2"></i>
+            <span class="text-center">New content added weekly!</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- Learning Types -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800 dark:text-white">Ways to Learn</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Articles -->
+                <a href="learning-categories.html" class="bg-white dark:bg-gray-700 rounded-xl shadow-md p-8 text-center transition-transform hover:scale-105 hover:shadow-lg">
+                    <div class="bg-blue-100 dark:bg-blue-900 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-newspaper text-blue-600 dark:text-blue-300 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-3">Articles</h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">Read detailed articles on various topics to build your foundational knowledge.</p>
+                    <span class="text-blue-600 dark:text-blue-400 font-medium">Explore Articles <i class="fas fa-arrow-right ml-1"></i></span>
+                </a>
+                
+                <!-- Flashcards -->
+                <a href="flashcards.html" class="bg-white dark:bg-gray-700 rounded-xl shadow-md p-8 text-center transition-transform hover:scale-105 hover:shadow-lg">
+                    <div class="bg-purple-100 dark:bg-purple-900 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-layer-group text-purple-600 dark:text-purple-300 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-3">Flashcards</h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">Quickly memorize key facts and concepts with our interactive flashcards.</p>
+                    <span class="text-purple-600 dark:text-purple-400 font-medium">Try Flashcards <i class="fas fa-arrow-right ml-1"></i></span>
+                </a>
+                
+                <!-- Personality -->
+                <a href="personality.html" class="bg-white dark:bg-gray-700 rounded-xl shadow-md p-8 text-center transition-transform hover:scale-105 hover:shadow-lg">
+                    <div class="bg-emerald-100 dark:bg-emerald-900 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-user-tie text-emerald-600 dark:text-emerald-300 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-3">Personality Test</h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4"> Take our personality test to understand your strengths and weaknesses.</p>
+                    <span class="text-emerald-600 dark:text-emerald-400 font-medium">Test Your Personality <i class="fas fa-arrow-right ml-1"></i></span>
+                </a>
+            </div>
+        </div>
+    </section>
+  <!-- How It Works Section -->
+  <section class="bg-gray-100 dark:bg-gray-800 py-6">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-bold text-center mb-8">
+        <i class="fas fa-lightbulb text-accent mr-2"></i> How Learning Hub Works
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <div class="flex items-center mb-4">
+            <div class="bg-brand/10 text-brand dark:text-secondary w-12 h-12 rounded-full flex items-center justify-center mr-4">
+              <span class="text-xl font-bold">1</span>
+            </div>
+            <h3 class="text-lg font-bold">Choose Your Topic</h3>
+          </div>
+          <p class="text-gray-600 dark:text-gray-300">Browse our extensive collection of learning topics tailored for all ages and knowledge levels.</p>
+        </div>
+        <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <div class="flex items-center mb-4">
+            <div class="bg-brand/10 text-brand dark:text-secondary w-12 h-12 rounded-full flex items-center justify-center mr-4">
+              <span class="text-xl font-bold">2</span>
+            </div>
+            <h3 class="text-lg font-bold">Read & Learn</h3>
+          </div>
+          <p class="text-gray-600 dark:text-gray-300">Engage with our well-structured articles that explain concepts clearly with examples.</p>
+        </div>
+        <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+          <div class="flex items-center mb-4">
+            <div class="bg-brand/10 text-brand dark:text-secondary w-12 h-12 rounded-full flex items-center justify-center mr-4">
+              <span class="text-xl font-bold">3</span>
+            </div>
+            <h3 class="text-lg font-bold">Apply Knowledge</h3>
+          </div>
+          <p class="text-gray-600 dark:text-gray-300">Test your understanding with related quizzes and practical exercises.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="container mx-auto px-4 py-8">
+    <!-- Welcome Message with User Progress -->
+    <div class="mb-8 bg-gradient-to-r from-brand/10 to-secondary/10 p-6 rounded-xl border border-brand/20 dark:border-secondary/20 shadow-sm">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+        <div class="mb-4 md:mb-0">
+          <h2 id="welcome-message" class="text-xl font-bold mb-2"></h2>
+          <p class="text-gray-600 dark:text-gray-300">Your learning journey continues with <span class="font-medium text-brand dark:text-secondary">3 new topics</span> added this week!</p>
+        </div>
+        <div class="flex items-center space-x-4">
+          <div class="relative w-16 h-16">
+            <svg class="w-full h-full" viewBox="0 0 36 36">
+              <path
+                d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831"
+                fill="none"
+                stroke="#E5E7EB"
+                stroke-width="3"
+                stroke-dasharray="100, 100"
+              />
+              <path
+                class="progress-ring__circle"
+                d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831"
+                fill="none"
+                stroke="#2D6A4F"
+                stroke-width="3"
+                stroke-dasharray="65, 100"
+              />
+              <text x="18" y="20.5" text-anchor="middle" font-size="10" fill="#2D6A4F" font-weight="bold">65%</text>
+            </svg>
+          </div>
+          <div>
+            <p class="text-sm text-gray-500">Knowledge Mastery</p>
+            <p class="font-medium">Expert in 8 topics</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search & Filters Section -->
+    <div class="mb-8 bg-white dark:bg-gray-700 p-6 rounded-xl shadow-sm">
+      <!-- Search Bar -->
+      <div class="mb-6">
+        <div class="relative max-w-3xl mx-auto">
+          <input type="text" id="search-input" placeholder="Search topics" 
+                class="w-full pl-12 pr-4 py-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-secondary dark:bg-gray-800 dark:border-gray-600 text-lg">
+          <div class="absolute left-3 top-3.5 text-gray-400">
+            <i class="fas fa-book mr-2"></i>
+          </div>
+          <button id="search-button" class="absolute right-3 top-3.5 text-gray-400 hover:text-brand dark:hover:text-secondary transition-colors">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+        <p class="text-sm text-gray-500 dark:text-gray-400 mt-2 text-center">Try: "Islamic history" or "Science for kids" or "Web development"</p>
+      </div>
+      
+      <!-- Filters Section -->
+      <div class="mb-4">
+        <div class="flex justify-between items-center mb-4">
+          <h3 class="font-medium text-lg">Refine Your Search</h3>
+          <div class="flex items-center space-x-3">
+            <button id="save-preferences" class="text-sm text-brand dark:text-secondary hover:underline flex items-center">
+              <i class="fas fa-save mr-1"></i> Save Preferences
+            </button>
+            <button id="reset-filters" class="text-sm text-gray-500 hover:text-brand dark:hover:text-secondary hover:underline flex items-center">
+              <i class="fas fa-undo mr-1"></i> Reset All
+            </button>
+          </div>
+        </div>
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+          <!-- Age Group Filter -->
+          <div>
+            <label class="block text-sm font-medium mb-1">Age Group</label>
+            <div class="relative">
+              <select id="age-filter" class="w-full p-3 border rounded-lg dark:bg-gray-800 dark:border-gray-600 appearance-none">
+                <option value="">All Ages</option>
+                <option value="kids">Kids (5-12)</option>
+                <option value="teens">Teens (13-19)</option>
+                <option value="adults">Adults (20+)</option>
+                <option value="seniors">Seniors (65+)</option>
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-300">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Content Type Filter -->
+          <div>
+            <label class="block text-sm font-medium mb-1">Content Type</label>
+            <div class="relative">
+              <select id="type-filter" class="w-full p-3 border rounded-lg dark:bg-gray-800 dark:border-gray-600 appearance-none">
+                <option value="">All Types</option>
+                <option value="article">Articles</option>
+                <option value="guide">Guides</option>
+                <option value="tutorial">Tutorials</option>
+                <option value="reference">References</option>
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-300">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Interest Type Filter -->
+          <div>
+            <label class="block text-sm font-medium mb-1">Primary Interest</label>
+            <div class="relative">
+              <select id="interest-filter" class="w-full p-3 border rounded-lg dark:bg-gray-800 dark:border-gray-600 appearance-none">
+                <option value="">All Interests</option>
+                <option value="islamic">Islamic Studies</option>
+                <option value="science">Science & Tech</option>
+                <option value="history">History & Culture</option>
+                <option value="language">Language & Literature</option>
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-300">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Sort By -->
+          <div>
+            <label class="block text-sm font-medium mb-1">Sort By</label>
+            <div class="relative">
+              <select id="sort-by" class="w-full p-3 border rounded-lg dark:bg-gray-800 dark:border-gray-600 appearance-none">
+                <option value="default">Default</option>
+                <option value="popular">Most Popular</option>
+                <option value="newest">Newest First</option>
+                <option value="trending">Currently Trending</option>
+                <option value="alphabetical">A-Z</option>
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-gray-300">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="flex justify-between items-center">
+          <div id="active-filters" class="flex flex-wrap gap-2">
+            <!-- Active filters will appear here -->
+          </div>
+          <span id="filter-count" class="text-sm text-gray-500 dark:text-gray-400 whitespace-nowrap">Showing all topics</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Recommended For You Section -->
+    <div class="mb-8">
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-xl font-bold flex items-center">
+          <i class="fas fa-star text-accent mr-2"></i> Recommended For You
+        </h2>
+        <button id="see-all-recommended" class="text-sm text-brand dark:text-secondary hover:underline">See All</button>
+      </div>
+      <div id="recommended-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Recommended topics will load here -->
+      </div>
+    </div>
+    
+    <!-- All Topics Section -->
+    <div class="mb-8">
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-xl font-bold flex items-center">
+          <i class="fas fa-layer-group text-brand dark:text-secondary mr-2"></i> All Learning Topics
+        </h2>
+        <div class="flex items-center space-x-4">
+          <button id="view-toggle" class="p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors" title="Toggle view">
+            <i class="fas fa-th-large"></i>
+          </button>
+        </div>
+      </div>
+      
+      <!-- Topics Grid -->
+      <div id="topics-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <!-- Topics will be loaded here -->
+      </div>
+
+      <!-- Pagination -->
+      <div class="pagination mt-8">
+        <button id="prev-page" class="px-4 py-2 rounded-lg" disabled>
+          <i class="fas fa-chevron-left mr-2"></i> Previous
+        </button>
+        <div id="page-numbers" class="flex items-center mx-4">
+          <!-- Page numbers will be inserted here -->
+        </div>
+        <button id="next-page" class="px-4 py-2 rounded-lg">
+          Next <i class="fas fa-chevron-right ml-2"></i>
+        </button>
+      </div>
+      
+      <!-- Loading Skeleton -->
+      <div id="loading-skeleton" class="hidden loading-skeleton">
+        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-4 animate-pulse">
+          <div class="h-6 bg-gray-200 dark:bg-gray-600 rounded w-3/4 mb-4"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-full mb-2"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-5/6 mb-4"></div>
+          <div class="h-8 bg-gray-200 dark:bg-gray-600 rounded w-full"></div>
+        </div>
+        <!-- Repeat 7 more times -->
+        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-4 animate-pulse">
+          <div class="h-6 bg-gray-200 dark:bg-gray-600 rounded w-3/4 mb-4"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-full mb-2"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-5/6 mb-4"></div>
+          <div class="h-8 bg-gray-200 dark:bg-gray-600 rounded w-full"></div>
+        </div>
+        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-4 animate-pulse">
+          <div class="h-6 bg-gray-200 dark:bg-gray-600 rounded w-3/4 mb-4"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-full mb-2"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-5/6 mb-4"></div>
+          <div class="h-8 bg-gray-200 dark:bg-gray-600 rounded w-full"></div>
+        </div>
+        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-4 animate-pulse">
+          <div class="h-6 bg-gray-200 dark:bg-gray-600 rounded w-3/4 mb-4"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-full mb-2"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-5/6 mb-4"></div>
+          <div class="h-8 bg-gray-200 dark:bg-gray-600 rounded w-full"></div>
+        </div>
+        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-4 animate-pulse">
+          <div class="h-6 bg-gray-200 dark:bg-gray-600 rounded w-3/4 mb-4"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-full mb-2"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-5/6 mb-4"></div>
+          <div class="h-8 bg-gray-200 dark:bg-gray-600 rounded w-full"></div>
+        </div>
+        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-4 animate-pulse">
+          <div class="h-6 bg-gray-200 dark:bg-gray-600 rounded w-3/4 mb-4"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-full mb-2"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-5/6 mb-4"></div>
+          <div class="h-8 bg-gray-200 dark:bg-gray-600 rounded w-full"></div>
+        </div>
+        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-4 animate-pulse">
+          <div class="h-6 bg-gray-200 dark:bg-gray-600 rounded w-3/4 mb-4"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-full mb-2"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-5/6 mb-4"></div>
+          <div class="h-8 bg-gray-200 dark:bg-gray-600 rounded w-full"></div>
+        </div>
+        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-4 animate-pulse">
+          <div class="h-6 bg-gray-200 dark:bg-gray-600 rounded w-3/4 mb-4"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-full mb-2"></div>
+          <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-5/6 mb-4"></div>
+          <div class="h-8 bg-gray-200 dark:bg-gray-600 rounded w-full"></div>
+        </div>
+      </div>
+      
+      <!-- Empty State -->
+      <div id="empty-state" class="hidden text-center py-12">
+        <div class="max-w-md mx-auto">
+          <div class="floating inline-block mb-6">
+            <i class="fas fa-search text-4xl text-gray-400"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-2">No matching topics found</h3>
+          <p class="text-gray-600 dark:text-gray-300 mb-6">Try adjusting your filters or search for something different</p>
+          <button id="reset-search" class="bg-brand hover:bg-green-700 text-white px-6 py-3 rounded-lg transition dark:bg-secondary font-medium flex items-center mx-auto">
+            <i class="fas fa-undo mr-2"></i> Reset Search
+          </button>
+        </div>
+      </div>
+    </div>
+        <!-- How to Use -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800 dark:text-white">How to Use Learning Resources</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white dark:bg-gray-700 rounded-xl shadow-md p-8">
+                    <div class="flex flex-col md:flex-row gap-8">
+                        <div class="md:w-1/2">
+                            <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-4">Getting Started</h3>
+                            <ul class="space-y-4">
+                                <li class="flex items-start">
+                                    <div class="bg-emerald-100 dark:bg-emerald-900 p-2 rounded-full mr-4 mt-1">
+                                        <i class="fas fa-search text-emerald-600 dark:text-emerald-300"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-gray-800 dark:text-white">Browse Categories</h4>
+                                        <p class="text-gray-600 dark:text-gray-300">Find topics that interest you from our extensive collection.</p>
+                                    </div>
+                                </li>
+                                <li class="flex items-start">
+                                    <div class="bg-blue-100 dark:bg-blue-900 p-2 rounded-full mr-4 mt-1">
+                                        <i class="fas fa-book-open text-blue-600 dark:text-blue-300"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-gray-800 dark:text-white">Choose Resource Type</h4>
+                                        <p class="text-gray-600 dark:text-gray-300">Select between articles, flashcards, or study guides.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="md:w-1/2">
+                            <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-4">Maximize Learning</h3>
+                            <ul class="space-y-4">
+                                <li class="flex items-start">
+                                    <div class="bg-purple-100 dark:bg-purple-900 p-2 rounded-full mr-4 mt-1">
+                                        <i class="fas fa-star text-purple-600 dark:text-purple-300"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-gray-800 dark:text-white">Bookmark Important</h4>
+                                        <p class="text-gray-600 dark:text-gray-300">Save resources to review later with our bookmark feature.</p>
+                                    </div>
+                                </li>
+                                <li class="flex items-start">
+                                    <div class="bg-yellow-100 dark:bg-yellow-900 p-2 rounded-full mr-4 mt-1">
+                                        <i class="fas fa-question-circle text-yellow-600 dark:text-yellow-300"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-gray-800 dark:text-white">Test Your Knowledge</h4>
+                                        <p class="text-gray-600 dark:text-gray-300">After learning, take a quiz to reinforce what you've learned.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mt-8 bg-emerald-50 dark:bg-emerald-900 rounded-lg p-6">
+                        <h4 class="font-bold text-emerald-800 dark:text-emerald-200 mb-2"><i class="fas fa-lightbulb mr-2"></i> Pro Tip</h4>
+                        <p class="text-gray-700 dark:text-black">Combine different resource types for best results. Read an article first, then use flashcards to memorize key points, and finally take a quiz to test your understanding.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Learning Tips Section -->
+    <div class="bg-gradient-to-r from-brand/5 to-secondary/5 dark:from-brand/10 dark:to-secondary/10 p-6 rounded-xl mb-8">
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="md:w-2/3 mb-6 md:mb-0">
+          <h2 class="text-xl font-bold mb-2">Boost Your Learning Potential</h2>
+          <p class="text-gray-700 dark:text-gray-300 mb-4">Discover personalized learning strategies based on your activity and preferences.</p>
+          <button id="show-tips" class="bg-brand hover:bg-green-700 text-white px-4 py-2 rounded-lg transition dark:bg-secondary font-medium">
+            Show Learning Tips <i class="fas fa-arrow-right ml-2"></i>
+          </button>
+        </div>
+        <div class="md:w-1/3 flex justify-center">
+          <img src="https://cdn-icons-png.flaticon.com/512/3573/3573753.png" alt="Learning illustration" class="h-40 w-auto">
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+
+  <!-- Suggest Topic Modal -->
+  <div id="suggest-modal" class="fixed inset-0 bg-black bg-opacity-50 items-center justify-center z-50 hidden transition-opacity duration-300">
+    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 max-w-md w-full mx-4 shadow-xl transform transition-all duration-300 scale-95 opacity-0" id="modal-content">
+      <div class="flex justify-between items-center mb-4">
+        <h3 class="text-xl font-bold">Suggest a New Topic</h3>
+        <button id="close-modal" class="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 p-1 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <form id="suggestion-form">
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1">Topic Name *</label>
+          <input type="text" class="w-full p-3 border rounded-lg dark:bg-gray-700 dark:border-gray-600 focus:ring-2 focus:ring-brand dark:focus:ring-secondary" placeholder="e.g., Space Exploration" required>
+        </div>
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1">Description *</label>
+          <textarea class="w-full p-3 border rounded-lg dark:bg-gray-700 dark:border-gray-600 focus:ring-2 focus:ring-brand dark:focus:ring-secondary" rows="3" placeholder="Briefly describe what this topic would cover..." required></textarea>
+        </div>
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1">Why should we add this? *</label>
+          <textarea class="w-full p-3 border rounded-lg dark:bg-gray-700 dark:border-gray-600 focus:ring-2 focus:ring-brand dark:focus:ring-secondary" rows="2" placeholder="How would this benefit our community?" required></textarea>
+        </div>
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1">Your Email (optional)</label>
+          <input type="email" class="w-full p-3 border rounded-lg dark:bg-gray-700 dark:border-gray-600 focus:ring-2 focus:ring-brand dark:focus:ring-secondary" placeholder="We'll notify you if implemented">
+        </div>
+        <button type="submit" class="w-full bg-accent hover:bg-yellow-500 text-textDark font-medium py-3 rounded-lg transition flex items-center justify-center">
+          <i class="fas fa-paper-plane mr-2"></i> Submit Suggestion
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Learning Tips Modal -->
+  <div id="tips-modal" class="fixed inset-0 bg-black bg-opacity-50 items-center justify-center z-50 hidden transition-opacity duration-300">
+    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 max-w-2xl w-full mx-4 shadow-xl transform transition-all duration-300 scale-95 opacity-0 max-h-[90vh] overflow-y-auto" id="tips-modal-content">
+      <div class="flex justify-between items-center mb-4 sticky top-0 bg-white dark:bg-gray-800 py-2">
+        <h3 class="text-xl font-bold">Personalized Learning Tips</h3>
+        <button id="close-tips-modal" class="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 p-1 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="space-y-6">
+        <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
+          <h4 class="font-bold text-brand dark:text-secondary mb-2 flex items-center">
+            <i class="fas fa-clock mr-2"></i> Time Management
+          </h4>
+          <p class="text-gray-700 dark:text-gray-300">Based on your activity, you learn best in 25-minute focused sessions. Try the Pomodoro technique with 5-minute breaks.</p>
+        </div>
+        <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
+          <h4 class="font-bold text-brand dark:text-secondary mb-2 flex items-center">
+            <i class="fas fa-brain mr-2"></i> Retention Boosters
+          </h4>
+          <p class="text-gray-700 dark:text-gray-300">You retain information better with visual aids. Try creating mind maps for complex topics like Science and History.</p>
+        </div>
+        <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
+          <h4 class="font-bold text-brand dark:text-secondary mb-2 flex items-center">
+            <i class="fas fa-trophy mr-2"></i> Challenge Yourself
+          </h4>
+          <p class="text-gray-700 dark:text-gray-300">You've mastered beginner levels in Technology. Try our "Advanced Web Development" topic to push your skills further.</p>
+        </div>
+        <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
+          <h4 class="font-bold text-brand dark:text-secondary mb-2 flex items-center">
+            <i class="fas fa-heart mr-2"></i> Recommended Topics
+          </h4>
+          <p class="text-gray-700 dark:text-gray-300 mb-2">Based on your interests in Science and Technology:</p>
+          <ul class="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
+            <li>Artificial Intelligence Basics</li>
+            <li>Space Exploration</li>
+            <li>Renewable Energy Technologies</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-6 pt-4 border-t border-gray-200 dark:border-gray-700">
+        <button class="bg-brand hover:bg-green-700 text-white px-4 py-2 rounded-lg transition dark:bg-secondary font-medium">
+          Save These Recommendations
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Feedback Toast -->
+  <div id="feedback-toast" class="fixed bottom-4 right-4 z-50 hidden">
+    <div class="bg-brand dark:bg-secondary text-white px-6 py-3 rounded-lg shadow-lg flex items-start max-w-xs">
+      <div class="mr-3 mt-0.5">
+        <i id="toast-icon" class="fas fa-check-circle"></i>
+      </div>
+      <div>
+        <h4 id="toast-title" class="font-bold mb-1">Success!</h4>
+        <p id="toast-message" class="text-sm">Your action was completed successfully.</p>
+      </div>
+      <button id="close-toast" class="ml-4 text-white/70 hover:text-white">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-12">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <div class="flex items-center space-x-2 mb-4">
+            <i class="fas fa-brain text-2xl text-accent"></i>
+            <span class="text-xl font-bold">QuizVerse</span>
+          </div>
+          <p class="text-gray-400 mb-4">Your gateway to interactive learning and knowledge exploration.</p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="text-lg font-bold mb-4">Explore</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Topics</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Learning Paths</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Daily Challenges</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Knowledge Hub</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Community</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-bold mb-4">Resources</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Help Center</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Learning Tips</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Blog</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Webinars</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Educator Resources</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-bold mb-4">Get In Touch</h4>
+          <ul class="space-y-2">
+            <li class="flex items-start space-x-2">
+              <i class="fas fa-envelope mt-1 text-gray-400"></i>
+              <a href="mailto:info@quizverse.com" class="text-gray-400 hover:text-white transition">info@quizverse.com</a>
+            </li>
+            <li class="flex items-start space-x-2">
+              <i class="fas fa-phone-alt mt-1 text-gray-400"></i>
+              <a href="tel:+1234567890" class="text-gray-400 hover:text-white transition">+1 (234) 567-890</a>
+            </li>
+            <li class="flex items-start space-x-2">
+              <i class="fas fa-map-marker-alt mt-1 text-gray-400"></i>
+              <span class="text-gray-400">123 Knowledge St, Learning City</span>
+            </li>
+          </ul>
+          <button id="suggest-btn" class="mt-4 bg-brand hover:bg-green-700 text-white px-4 py-2 rounded transition dark:bg-secondary flex items-center">
+            <i class="fas fa-lightbulb mr-2"></i> Suggest a Topic
+          </button>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 pt-6 text-center text-gray-400 text-sm">
+        <p>© 2023 QuizVerse. All rights reserved. | <a href="#" class="hover:text-white transition">Privacy Policy</a> | <a href="#" class="hover:text-white transition">Terms of Service</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Enhanced Learning Topics Data (simplified without difficulty levels)
+const learningTopics = [
+  // Science & Nature
+  { 
+    id: "science-nature", 
+    name: { en: "Science & Nature", ur: "سائنس اور فطرت" }, 
+    group: "Science & Nature", 
+    age: "all", 
+    type: "article",
+    interest: "science", 
+    popularity: "popular", 
+    trending: true,
+    description: { 
+      en: "Explore the wonders of science and the natural world", 
+      ur: "سائنس اور قدرتی دنیا کے عجائبات کو دریافت کریں"
+    }, 
+    icon: "atom", 
+    color: "science",
+    features: ["Interactive diagrams", "Science news updates"],
+    lastUpdated: "2023-06-15",
+    resources: 128,
+    readCount: 1250
+  },
+  { 
+    id: "physics", 
+    name: { en: "Physics", ur: "طبیعیات" }, 
+    group: "Science & Nature", 
+    age: "teens", 
+    type: "tutorial",
+    interest: "science", 
+    popularity: "popular", 
+    trending: false,
+    description: { 
+      en: "Fundamental concepts and principles of physics", 
+      ur: "طبیعیات کے بنیادی تصورات اور اصول"
+    }, 
+    icon: "magnet", 
+    color: "science",
+    features: ["Formulas explained", "Practical examples"],
+    lastUpdated: "2023-05-22",
+    resources: 95,
+    readCount: 980
+  },
+  { 
+    id: "biology", 
+    name: { en: "Biology", ur: "حیاتیات" }, 
+    group: "Science & Nature", 
+    age: "all", 
+    type: "article",
+    interest: "science", 
+    popularity: "popular", 
+    trending: false,
+    description: { 
+      en: "The science of life and living organisms", 
+      ur: "زندگی اور جانداروں کی سائنس"
+    }, 
+    icon: "dna", 
+    color: "science",
+    features: ["Interactive diagrams", "Microscope images"],
+    lastUpdated: "2023-07-01",
+    resources: 87,
+    readCount: 1120
+  },
+  { 
+    id: "human-body", 
+    name: { en: "Human Body", ur: "انسانی جسم" }, 
+    group: "Science & Nature", 
+    age: "all", 
+    type: "guide",
+    interest: "science", 
+    popularity: "popular", 
+    trending: false,
+    description: { 
+      en: "Understanding human anatomy and physiology", 
+      ur: "انسانی اناٹومی اور فزیالوجی کو سمجھنا"
+    }, 
+    icon: "heartbeat", 
+    color: "science",
+    features: ["3D models", "Health tips"],
+    lastUpdated: "2023-06-28",
+    resources: 145,
+    readCount: 870
+  },
+
+  // Islamic Studies
+  { 
+    id: "islamic-studies", 
+    name: { en: "Islamic Studies", ur: "اسلامیات" }, 
+    group: "Islamic Studies", 
+    age: "all", 
+    type: "article",
+    interest: "islamic", 
+    popularity: "popular", 
+    trending: false,
+    description: { 
+      en: "Comprehensive knowledge of Islam, Quran and Hadith", 
+      ur: "اسلام، قرآن اور حدیث کا جامع علم"
+    }, 
+    icon: "quran", 
+    color: "islamic",
+    features: ["Quran references", "Hadith explanations"],
+    lastUpdated: "2023-07-08",
+    resources: 132,
+    readCount: 2100
+  },
+  { 
+    id: "quran-hadith", 
+    name: { en: "Quran & Hadith", ur: "قرآن اور حدیث" }, 
+    group: "Islamic Studies", 
+    age: "all", 
+    type: "reference",
+    interest: "islamic", 
+    popularity: "popular", 
+    trending: false,
+    description: { 
+      en: "Deep study of Quranic verses and Prophetic traditions", 
+      ur: "قرآنی آیات اور احادیث کا گہرا مطالعہ"
+    }, 
+    icon: "book-quran", 
+    color: "islamic",
+    features: ["Word-by-word analysis", "Commentaries"],
+    lastUpdated: "2023-06-22",
+    resources: 76,
+    readCount: 1750
+  },
+  { 
+    id: "prophets-stories", 
+    name: { en: "Prophets' Stories", ur: "انبیاء کے قصص" }, 
+    group: "Islamic Studies", 
+    age: "all", 
+    type: "article",
+    interest: "islamic", 
+    popularity: "popular", 
+    trending: false,
+    description: { 
+      en: "Lessons from the stories of prophets in Islam", 
+      ur: "اسلام میں انبیاء کے قصص سے سبق"
+    }, 
+    icon: "mosque", 
+    color: "islamic",
+    features: ["Moral lessons", "Historical context"],
+    lastUpdated: "2023-07-05",
+    resources: 89,
+    readCount: 1420
+  },
+  { 
+    id: "sahabah", 
+    name: { en: "Sahabah (RA)", ur: "صحابہ کرام" }, 
+    group: "Islamic Studies", 
+    age: "all", 
+    type: "article",
+    interest: "islamic", 
+    popularity: "popular", 
+    trending: false,
+    description: { 
+      en: "Biographies of the companions of Prophet Muhammad (PBUH)", 
+      ur: "نبی کریم ﷺ کے صحابہ کرام کی سوانح حیات"
+    }, 
+    icon: "users", 
+    color: "islamic",
+    features: ["Biographical details", "Virtues"],
+    lastUpdated: "2023-07-18",
+    resources: 142,
+    readCount: 930
+  },
+
+  // Urdu & Literature
+  { 
+    id: "urdu-poetry", 
+    name: { en: "Urdu Poetry", ur: "اردو شاعری" }, 
+    group: "Arts & Literature", 
+    age: "teens", 
+    type: "article",
+    interest: "language", 
+    popularity: "medium", 
+    trending: false,
+    description: { 
+      en: "Appreciation of Urdu poetry and famous poets", 
+      ur: "اردو شاعری اور مشہور شعراء کی تعریف"
+    }, 
+    icon: "pen-fancy", 
+    color: "poetry",
+    features: ["Poet biographies", "Classic poems"],
+    lastUpdated: "2023-06-15",
+    resources: 92,
+    readCount: 1560
+  },
+  { 
+    id: "famous-poets", 
+    name: { en: "Famous Poets", ur: "مشہور شعراء" }, 
+    group: "Arts & Literature", 
+    age: "all", 
+    type: "article",
+    interest: "language", 
+    popularity: "medium", 
+    trending: false,
+    description: { 
+      en: "Biographies and works of renowned Urdu poets", 
+      ur: "مشہور اردو شعراء کی سوانح اور کام"
+    }, 
+    icon: "user-graduate", 
+    color: "poetry",
+    features: ["Poet timelines", "Famous works"],
+    lastUpdated: "2023-06-20",
+    resources: 78,
+    readCount: 890
+  },
+  { 
+    id: "urdu-proverbs", 
+    name: { en: "Urdu Proverbs", ur: "اردو محاورے" }, 
+    group: "Arts & Literature", 
+    age: "all", 
+    type: "reference",
+    interest: "language", 
+    popularity: "medium", 
+    trending: false,
+    description: { 
+      en: "Meaning and usage of Urdu proverbs and idioms", 
+      ur: "اردو محاوروں اور اصطلاحات کا مطلب اور استعمال"
+    }, 
+    icon: "comment-dots", 
+    color: "poetry",
+    features: ["Common sayings", "Cultural context"],
+    lastUpdated: "2023-07-15",
+    resources: 178,
+    readCount: 680
+  },
+  { 
+    id: "english-grammar", 
+    name: { en: "English Grammar", ur: "انگریزی گرامر" }, 
+    group: "Arts & Literature", 
+    age: "teens", 
+    type: "tutorial",
+    interest: "language", 
+    popularity: "popular", 
+    trending: true,
+    description: { 
+      en: "Comprehensive guide to English grammar rules", 
+      ur: "انگریزی گرامر کے قواعد کی جامع رہنمائی"
+    }, 
+    icon: "language", 
+    color: "general",
+    features: ["Interactive exercises", "Grammar rules"],
+    lastUpdated: "2023-07-10",
+    resources: 112,
+    readCount: 1240
+  },
+
+  // History
+  { 
+    id: "history", 
+    name: { en: "History", ur: "تاریخ" }, 
+    group: "History", 
+    age: "teens", 
+    type: "article",
+    interest: "history", 
+    popularity: "popular", 
+    trending: false,
+    description: { 
+      en: "World history from ancient to modern times", 
+      ur: "قدیم سے جدید دور تک کی عالمی تاریخ"
+    }, 
+    icon: "landmark", 
+    color: "history",
+    features: ["Timelines", "Historical documents"],
+    lastUpdated: "2023-06-25",
+    resources: 95,
+    readCount: 980
+  },
+  { 
+    id: "mughals", 
+    name: { en: "Mughals", ur: "مغلیہ سلطنت" }, 
+    group: "History", 
+    age: "teens", 
+    type: "article",
+    interest: "history", 
+    popularity: "popular", 
+    trending: false,
+    description: { 
+      en: "The rise and fall of the Mughal Empire", 
+      ur: "مغلیہ سلطنت کا عروج و زوال"
+    }, 
+    icon: "crown", 
+    color: "history",
+    features: ["Empire timeline", "Cultural contributions"],
+    lastUpdated: "2023-07-12",
+    resources: 87,
+    readCount: 760
+  },
+  { 
+    id: "tareekh-e-pakistan", 
+    name: { en: "History of Pakistan", ur: "تاریخ پاکستان" }, 
+    group: "History", 
+    age: "all", 
+    type: "article",
+    interest: "history", 
+    popularity: "popular", 
+    trending: true,
+    description: { 
+      en: "Comprehensive history of Pakistan and freedom movement", 
+      ur: "پاکستان اور تحریک آزادی کی جامع تاریخ"
+    }, 
+    icon: "star-and-crescent", 
+    color: "history",
+    features: ["Freedom movement", "National heroes"],
+    lastUpdated: "2023-07-20",
+    resources: 142,
+    readCount: 1540
+  },
+  { 
+    id: "ancient-civilizations", 
+    name: { en: "Ancient Civilizations", ur: "قدیم تہذیبیں" }, 
+    group: "History", 
+    age: "teens", 
+    type: "article",
+    interest: "history", 
+    popularity: "medium", 
+    trending: false,
+    description: { 
+      en: "Exploring ancient civilizations and their contributions", 
+      ur: "قدیم تہذیبوں اور ان کے تعاون کی تلاش"
+    }, 
+    icon: "monument", 
+    color: "history",
+    features: ["Archaeological findings", "Cultural impacts"],
+    lastUpdated: "2023-06-30",
+    resources: 78,
+    readCount: 670
+  },
+
+  // Kids Special
+  { 
+    id: "kids-animals", 
+    name: { en: "Animals for Kids", ur: "بچوں کے لیے جانور" }, 
+    group: "Kids Special", 
+    age: "kids", 
+    type: "article",
+    interest: "science", 
+    popularity: "popular", 
+    trending: false,
+    description: { 
+      en: "Fun facts about animals for young learners", 
+      ur: "چھوٹے سیکھنے والوں کے لیے جانوروں کے بارے میں دلچسپ حقائق"
+    }, 
+    icon: "paw", 
+    color: "kids",
+    features: ["Animal sounds", "Fun facts"],
+    lastUpdated: "2023-07-05",
+    resources: 89,
+    readCount: 2100
+  },
+  { 
+    id: "kids-shapes", 
+    name: { en: "Shapes & Colors", ur: "شکلیں اور رنگ" }, 
+    group: "Kids Special", 
+    age: "kids", 
+    type: "tutorial",
+    interest: "science", 
+    popularity: "popular", 
+    trending: false,
+    description: { 
+      en: "Learning basic shapes and colors", 
+      ur: "بنیادی شکلیں اور رنگ سیکھنا"
+    }, 
+    icon: "shapes", 
+    color: "kids",
+    features: ["Interactive exercises", "Coloring pages"],
+    lastUpdated: "2023-07-10",
+    resources: 76,
+    readCount: 1850
+  },
+  { 
+    id: "ethics-manners", 
+    name: { en: "Ethics & Manners", ur: "اخلاق اور آداب" }, 
+    group: "Kids Special", 
+    age: "kids", 
+    type: "guide",
+    interest: "islamic", 
+    popularity: "popular", 
+    trending: false,
+    description: { 
+      en: "Teaching good manners and ethical behavior", 
+      ur: "اچھے آداب اور اخلاقی برتاؤ کی تعلیم"
+    }, 
+    icon: "hands-helping", 
+    color: "kids",
+    features: ["Moral stories", "Practical examples"],
+    lastUpdated: "2023-07-15",
+    resources: 92,
+    readCount: 1430
+  },
+  { 
+    id: "safety-tips", 
+    name: { en: "Safety Tips", ur: "حفاظتی نکات" }, 
+    group: "Kids Special", 
+    age: "kids", 
+    type: "guide",
+    interest: "science", 
+    popularity: "popular", 
+    trending: false,
+    description: { 
+      en: "Important safety tips for children", 
+      ur: "بچوں کے لیے اہم حفاظتی نکات"
+    }, 
+    icon: "shield-alt", 
+    color: "kids",
+    features: ["Emergency contacts", "Safety rules"],
+    lastUpdated: "2023-07-20",
+    resources: 78,
+    readCount: 1120
+  },
+
+  // Pakistani Special
+  { 
+    id: "national-heroes", 
+    name: { en: "National Heroes", ur: "قومی ہیروز" }, 
+    group: "Pakistani Special", 
+    age: "all", 
+    type: "article",
+    interest: "history", 
+    popularity: "popular", 
+    trending: false,
+    description: { 
+      en: "Stories of Pakistan's national heroes and leaders", 
+      ur: "پاکستان کے قومی ہیروز اور رہنماؤں کی کہانیاں"
+    }, 
+    icon: "medal", 
+    color: "history",
+    features: ["Biographies", "Contributions"],
+    lastUpdated: "2023-06-25",
+    resources: 95,
+    readCount: 980
+  },
+  { 
+    id: "pakistani-culture", 
+    name: { en: "Pakistani Culture", ur: "پاکستانی ثقافت" }, 
+    group: "Pakistani Special", 
+    age: "all", 
+    type: "article",
+    interest: "history", 
+    popularity: "popular", 
+    trending: false,
+    description: { 
+      en: "Exploring the rich cultural heritage of Pakistan", 
+      ur: "پاکستان کی امیر ثقافتی ورثے کی تلاش"
+    }, 
+    icon: "flag", 
+    color: "history",
+    features: ["Cultural traditions", "Festivals"],
+    lastUpdated: "2023-07-05",
+    resources: 87,
+    readCount: 760
+  },
+  { 
+    id: "urdu-literature", 
+    name: { en: "Urdu Literature", ur: "اردو ادب" }, 
+    group: "Pakistani Special", 
+    age: "teens", 
+    type: "article",
+    interest: "language", 
+    popularity: "popular", 
+    trending: true,
+    description: { 
+      en: "Classic and contemporary Urdu literature", 
+      ur: "کلاسیکی اور معاصر اردو ادب"
+    }, 
+    icon: "book-open", 
+    color: "poetry",
+    features: ["Literary works", "Author biographies"],
+    lastUpdated: "2023-07-10",
+    resources: 112,
+    readCount: 890
+  },
+  { 
+    id: "pakistani-food", 
+    name: { en: "Pakistani Food", ur: "پاکستانی کھانا" }, 
+    group: "Pakistani Special", 
+    age: "all", 
+    type: "article",
+    interest: "history", 
+    popularity: "popular", 
+    trending: false,
+    description: { 
+      en: "Traditional Pakistani cuisine and recipes", 
+      ur: "روایتی پاکستانی کھانا اور ترکیبیں"
+    }, 
+    icon: "utensils", 
+    color: "history",
+    features: ["Recipes", "Cultural significance"],
+    lastUpdated: "2023-07-15",
+    resources: 78,
+    readCount: 1250
+  }
+];
+    // DOM Elements
+    const domElements = {
+      topicsContainer: document.getElementById('topics-container'),
+      recommendedContainer: document.getElementById('recommended-container'),
+      searchInput: document.getElementById('search-input'),
+      searchButton: document.getElementById('search-button'),
+      ageFilter: document.getElementById('age-filter'),
+      typeFilter: document.getElementById('type-filter'),
+      interestFilter: document.getElementById('interest-filter'),
+      sortBy: document.getElementById('sort-by'),
+      resetFiltersBtn: document.getElementById('reset-filters'),
+      resetSearchBtn: document.getElementById('reset-search'),
+      filterCount: document.getElementById('filter-count'),
+      activeFilters: document.getElementById('active-filters'),
+      emptyState: document.getElementById('empty-state'),
+      welcomeMessage: document.getElementById('welcome-message'),
+      themeToggle: document.getElementById('theme-toggle'),
+      suggestBtn: document.getElementById('suggest-btn'),
+      suggestModal: document.getElementById('suggest-modal'),
+      modalContent: document.getElementById('modal-content'),
+      closeModal: document.getElementById('close-modal'),
+      suggestionForm: document.getElementById('suggestion-form'),
+      tipsModal: document.getElementById('tips-modal'),
+      tipsModalContent: document.getElementById('tips-modal-content'),
+      showTipsBtn: document.getElementById('show-tips'),
+      closeTipsModal: document.getElementById('close-tips-modal'),
+      feedbackToast: document.getElementById('feedback-toast'),
+      toastTitle: document.getElementById('toast-title'),
+      toastMessage: document.getElementById('toast-message'),
+      toastIcon: document.getElementById('toast-icon'),
+      closeToast: document.getElementById('close-toast'),
+      savePreferencesBtn: document.getElementById('save-preferences'),
+      viewToggle: document.getElementById('view-toggle'),
+      seeAllRecommendedBtn: document.getElementById('see-all-recommended'),
+      loadingSkeleton: document.getElementById('loading-skeleton'),
+      languageToggle: document.getElementById('language-toggle'),
+      mobileMenuButton: document.getElementById('mobile-menu-button'),
+      mobileMenu: document.getElementById('mobile-menu'),
+      prevPageBtn: document.getElementById('prev-page'),
+      nextPageBtn: document.getElementById('next-page'),
+      pageNumbers: document.getElementById('page-numbers')
+    };
+
+    // Application State
+    const state = {
+      currentView: 'grid',
+      currentPage: 1,
+      itemsPerPage: 12,
+      filteredTopics: [...learningTopics],
+      isUrdu: false,
+      currentFilters: {
+        search: '',
+        age: '',
+        type: '',
+        interest: ''
+      },
+      totalPages: Math.ceil(learningTopics.length / 12)
+    };
+
+    // Utility Functions
+    const utils = {
+      formatDate: (dateString) => {
+        const date = new Date(dateString);
+        return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+      },
+      debounce: (func, delay) => {
+        let timeoutId;
+        return function(...args) {
+          clearTimeout(timeoutId);
+          timeoutId = setTimeout(() => func.apply(this, args), delay);
+        };
+      },
+      showLoading: () => {
+        domElements.topicsContainer.classList.add('hidden');
+        domElements.loadingSkeleton.classList.remove('hidden');
+      },
+      hideLoading: () => {
+        domElements.loadingSkeleton.classList.add('hidden');
+        domElements.topicsContainer.classList.remove('hidden');
+      },
+      getTranslatedText: (textObj) => {
+        return state.isUrdu ? `<span class="urdu">${textObj.ur}</span>` : textObj.en;
+      },
+      scrollToTopics: () => {
+        const topicsSection = document.querySelector('#topics-container');
+        if (topicsSection) {
+          topicsSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    };
+
+    // Core Application Functions
+    const core = {
+      init: () => {
+        core.displayTopics();
+        core.displayRecommendedTopics();
+        core.setWelcomeMessage();
+        core.loadThemePreference();
+        core.loadLanguagePreference();
+        core.loadUserPreferences();
+        core.updatePagination();
+        eventHandlers.setupEventListeners();
+        
+        // Track last visit
+        const lastVisit = localStorage.getItem('lastVisit');
+        if (lastVisit) {
+          const daysSinceLastVisit = Math.floor((new Date() - new Date(lastVisit)) / (1000 * 60 * 60 * 24));
+          if (daysSinceLastVisit > 0) {
+            core.showFeedback(
+              state.isUrdu ? 
+              `خوش آمدید! آپ کے آخری دورے کو ${daysSinceLastVisit} دن ہو چکے ہیں` : 
+              `Welcome back! It's been ${daysSinceLastVisit} day${daysSinceLastVisit > 1 ? 's' : ''} since your last visit.`, 
+              'info'
+            );
+          }
+        }
+        localStorage.setItem('lastVisit', new Date().toISOString());
+      },
+
+      displayTopics: () => {
+        if (!domElements.topicsContainer) return;
+        
+        domElements.topicsContainer.innerHTML = '';
+        
+        const startIndex = (state.currentPage - 1) * state.itemsPerPage;
+        const endIndex = startIndex + state.itemsPerPage;
+        const topicsToDisplay = state.filteredTopics.slice(startIndex, endIndex);
+        
+        if (topicsToDisplay.length === 0) {
+          domElements.emptyState.classList.remove('hidden');
+          domElements.topicsContainer.classList.add('hidden');
+          return;
+        }
+        
+        domElements.emptyState.classList.add('hidden');
+        domElements.topicsContainer.classList.remove('hidden');
+        
+        topicsToDisplay.forEach(topic => {
+          const progress = Math.floor(Math.random() * 60) + 20;
+          const card = document.createElement('div');
+          card.className = `category-card bg-white dark:bg-gray-700 rounded-lg overflow-hidden shadow-md transition-all duration-300 hover:shadow-lg`;
+          card.style.setProperty('--category-color', `var(--color-${topic.color})`);
+          
+          const bgDiv = document.createElement('div');
+          bgDiv.className = `category-bg ${topic.color}-bg`;
+          
+          const contentDiv = document.createElement('div');
+          contentDiv.className = 'category-content p-5 h-full flex flex-col';
+          
+          contentDiv.innerHTML = `
+            <div class="flex items-center justify-between mb-3">
+              <div class="w-12 h-12 rounded-full bg-${topic.color}/10 text-${topic.color} flex items-center justify-center text-xl">
+                <i class="fas fa-${topic.icon}"></i>
+              </div>
+              <div class="flex space-x-2">
+                ${topic.trending ? `<span class="text-xs px-2 py-1 rounded-full bg-accent/10 text-accent flex items-center">
+                  <i class="fas fa-bolt mr-1 text-xs"></i> ${state.isUrdu ? 'مقبول' : 'TRENDING'}
+                </span>` : ''}
+                <span class="text-xs px-2 py-1 rounded-full bg-${topic.color}/10 text-${topic.color}">
+                  ${topic.age.toUpperCase()}
+                </span>
+              </div>
+            </div>
+            <h3 class="text-lg font-bold mb-2">${utils.getTranslatedText(topic.name)}</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-300 mb-4 flex-grow">${utils.getTranslatedText(topic.description)}</p>
+            
+            <div class="mb-3">
+              <div class="flex justify-between text-xs text-gray-500 dark:text-gray-400 mb-1">
+                <span>${state.isUrdu ? 'مطالعے' : 'Reads'}</span>
+                <span>${topic.readCount.toLocaleString()}</span>
+              </div>
+              <div class="w-full bg-gray-200 dark:bg-gray-600 rounded-full h-2">
+                <div class="bg-${topic.color} h-2 rounded-full" style="width: ${progress}%"></div>
+              </div>
+            </div>
+            
+            <div class="flex justify-between items-center">
+              <div class="flex items-center space-x-2">
+                <span class="text-xs text-gray-500 dark:text-gray-400 flex items-center">
+                  <i class="fas fa-book-open mr-1"></i> ${topic.resources} ${state.isUrdu ? 'وسائل' : 'resources'}
+                </span>
+                <span class="text-xs text-gray-500 dark:text-gray-400 flex items-center">
+                  <i class="fas fa-calendar-alt mr-1"></i> ${utils.formatDate(topic.lastUpdated)}
+                </span>
+              </div>
+              <a href="learn.html?topic=${topic.id}&lang=${state.isUrdu ? 'ur' : 'en'}" class="text-sm px-4 py-2 rounded-lg transition font-medium flex items-center bg-${topic.color} hover:bg-${topic.color}/90 text-white">
+                ${state.isUrdu ? 'پڑھیں' : 'Read'} <i class="fas fa-arrow-right ml-1"></i>
+              </a>
+            </div>
+          `;
+          
+          card.appendChild(bgDiv);
+          card.appendChild(contentDiv);
+          domElements.topicsContainer.appendChild(card);
+        });
+        
+        core.updateFilterCount();
+        core.updatePagination();
+      },
+
+      updatePagination: () => {
+        state.totalPages = Math.ceil(state.filteredTopics.length / state.itemsPerPage);
+        
+        // Update page numbers
+        domElements.pageNumbers.innerHTML = '';
+        for (let i = 1; i <= state.totalPages; i++) {
+          const pageBtn = document.createElement('button');
+          pageBtn.textContent = i;
+          pageBtn.className = `px-3 py-1 rounded ${state.currentPage === i ? 'bg-brand text-white dark:bg-secondary' : 'bg-gray-200 dark:bg-gray-700'}`;
+          pageBtn.addEventListener('click', () => {
+            state.currentPage = i;
+            core.displayTopics();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          });
+          domElements.pageNumbers.appendChild(pageBtn);
+        }
+        
+        // Update prev/next buttons
+        domElements.prevPageBtn.disabled = state.currentPage === 1;
+        domElements.nextPageBtn.disabled = state.currentPage === state.totalPages;
+      },
+
+      displayRecommendedTopics: () => {
+        const recommended = learningTopics.filter(topic => topic.trending).slice(0, 3);
+        domElements.recommendedContainer.innerHTML = '';
+        
+        recommended.forEach(topic => {
+          const card = document.createElement('div');
+          card.className = `category-card bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 border-t-4 border-${topic.color}`;
+          
+          const bgDiv = document.createElement('div');
+          bgDiv.className = `category-bg ${topic.color}-bg`;
+          
+          const contentDiv = document.createElement('div');
+          contentDiv.className = 'category-content p-6';
+          
+          contentDiv.innerHTML = `
+            <div class="flex items-start justify-between mb-4">
+              <div class="category-icon w-14 h-14 bg-${topic.color} rounded-lg flex items-center justify-center text-white text-2xl transition-transform duration-300">
+                <i class="fas fa-${topic.icon}"></i>
+              </div>
+              <span class="text-xs font-medium px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded-full">${topic.readCount.toLocaleString()} ${state.isUrdu ? 'مطالعے' : 'reads'}</span>
+            </div>
+            <h3 class="text-xl font-bold mb-2">${utils.getTranslatedText(topic.name)}</h3>
+            <div class="tooltip absolute bottom-16 left-5 right-5 bg-white dark:bg-gray-700 p-3 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 z-10">
+              <p class="text-sm text-gray-600 dark:text-gray-300">${utils.getTranslatedText(topic.description)}</p>
+            </div>
+            <a href="learn.html?topic=${topic.id}&lang=${state.isUrdu ? 'ur' : 'en'}" class="w-full mt-4 bg-${topic.color} hover:bg-${topic.color}/90 text-white py-2 rounded-lg transition font-medium flex items-center justify-center">
+              <i class="fas fa-book-open mr-2"></i> ${state.isUrdu ? 'پڑھیں' : 'Read Now'}
+            </a>
+          `;
+          
+          card.appendChild(bgDiv);
+          card.appendChild(contentDiv);
+          domElements.recommendedContainer.appendChild(card);
+        });
+      },
+
+      filterTopics: utils.debounce(() => {
+        const searchTerm = domElements.searchInput.value.toLowerCase();
+        const age = domElements.ageFilter.value;
+        const type = domElements.typeFilter.value;
+        const interest = domElements.interestFilter.value;
+        const sort = domElements.sortBy.value;
+        
+        // Update state filters
+        state.currentFilters = {
+          search: searchTerm,
+          age,
+          type,
+          interest
+        };
+        
+        // Reset to first page when filters change
+        state.currentPage = 1;
+        
+        utils.showLoading();
+        
+        setTimeout(() => {
+          const filtered = learningTopics.filter(topic => {
+            const name = state.isUrdu ? topic.name.ur.toLowerCase() : topic.name.en.toLowerCase();
+            const description = state.isUrdu ? topic.description.ur.toLowerCase() : topic.description.en.toLowerCase();
+            
+            // Search filter
+            if (searchTerm && !name.includes(searchTerm) && !description.includes(searchTerm)) {
+              return false;
+            }
+            
+            // Age filter
+            if (age && topic.age !== age) {
+              return false;
+            }
+            
+            // Type filter
+            if (type && topic.type !== type) {
+              return false;
+            }
+            
+            // Interest filter
+            if (interest && topic.interest !== interest) {
+              return false;
+            }
+            
+            return true;
+          });
+          
+          let sorted = [...filtered];
+          if (sort === 'popular') {
+            sorted.sort((a, b) => b.readCount - a.readCount);
+          } else if (sort === 'newest') {
+            sorted.sort((a, b) => new Date(b.lastUpdated) - new Date(a.lastUpdated));
+          } else if (sort === 'trending') {
+            sorted.sort((a, b) => (b.trending === a.trending) ? 0 : b.trending ? -1 : 1);
+          } else if (sort === 'alphabetical') {
+            sorted.sort((a, b) => {
+              const nameA = state.isUrdu ? a.name.ur : a.name.en;
+              const nameB = state.isUrdu ? b.name.ur : b.name.en;
+              return nameA.localeCompare(nameB);
+            });
+          }
+          
+          state.filteredTopics = sorted;
+          utils.hideLoading();
+          core.displayTopics();
+          core.updateActiveFilters();
+        }, 300);
+      }, 300),
+
+      updateActiveFilters: () => {
+        domElements.activeFilters.innerHTML = '';
+        
+        const { search, age, type, interest } = state.currentFilters;
+        const filters = {
+          'Age': age,
+          'Type': type,
+          'Interest': interest
+        };
+        
+        Object.entries(filters).forEach(([name, value]) => {
+          if (value) {
+            const pill = document.createElement('div');
+            pill.className = 'flex items-center bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-3 py-1 rounded-full text-sm';
+            pill.innerHTML = `
+              <span>${name}: ${value.charAt(0).toUpperCase() + value.slice(1)}</span>
+              <button class="ml-2 text-gray-500 hover:text-gray-700 dark:hover:text-gray-200" data-filter="${name.toLowerCase()}">
+                <i class="fas fa-times"></i>
+              </button>
+            `;
+            domElements.activeFilters.appendChild(pill);
+          }
+        });
+        
+        // Add event listeners to remove buttons
+        domElements.activeFilters.querySelectorAll('button').forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            const filter = btn.dataset.filter;
+            if (filter === 'age') domElements.ageFilter.value = '';
+            if (filter === 'type') domElements.typeFilter.value = '';
+            if (filter === 'interest') domElements.interestFilter.value = '';
+            core.filterTopics();
+          });
+        });
+      },
+
+      updateFilterCount: () => {
+        const total = learningTopics.length;
+        const showing = state.filteredTopics.length;
+        
+        if (showing === total) {
+          domElements.filterCount.textContent = state.isUrdu ? 
+            `تمام ${total} موضوعات دکھا رہے ہیں` : 
+            `Showing all ${total} topics`;
+        } else {
+          domElements.filterCount.textContent = state.isUrdu ?
+            `${showing} میں سے ${total} موضوعات دکھا رہے ہیں` :
+            `Showing ${showing} of ${total} topics`;
+        }
+      },
+
+      resetAllFilters: () => {
+        state.currentPage = 1;
+        domElements.searchInput.value = '';
+        domElements.ageFilter.value = '';
+        domElements.typeFilter.value = '';
+        domElements.interestFilter.value = '';
+        domElements.sortBy.value = 'default';
+        
+        state.currentFilters = {
+          search: '',
+          age: '',
+          type: '',
+          interest: ''
+        };
+        
+        core.filterTopics();
+      },
+
+      setWelcomeMessage: () => {
+        const hour = new Date().getHours();
+        let message;
+        
+        if (hour < 12) {
+          message = state.isUrdu ? 
+            "🌞 صبح بخیر! آج اپنے علم کو بڑھانے کے لیے تیار ہیں؟" : 
+            "🌞 Good morning! Ready to expand your knowledge today?";
+        } else if (hour < 18) {
+          message = state.isUrdu ?
+            "🌤 دوپہر بخیر! آپ کیا سیکھنا چاہیں گے؟" :
+            "🌤 Good afternoon! What would you like to learn about?";
+        } else {
+          message = state.isUrdu ?
+            "🌙 شام بخیر! مطالعہ کا بہترین وقت!" :
+            "🌙 Good evening! Perfect time for some reading!";
+        }
+        
+        const ongoingProgress = Math.random() > 0.7;
+        if (ongoingProgress) {
+          message += state.isUrdu ? 
+            " آپ کے پاس جاری سیکھنے کے راستے ہیں جنہیں جاری رکھا جا سکتا ہے۔" : 
+            " You have unfinished learning paths to continue.";
+        }
+        
+        domElements.welcomeMessage.textContent = message;
+      },
+
+      showFeedback: (message, type = 'success') => {
+        if (type === 'success') {
+          domElements.toastTitle.textContent = state.isUrdu ? 'کامیابی!' : 'Success!';
+          domElements.toastMessage.textContent = message;
+          domElements.toastIcon.className = 'fas fa-check-circle';
+          domElements.feedbackToast.className = 'fixed bottom-4 right-4 z-50 bg-brand dark:bg-secondary text-white px-6 py-3 rounded-lg shadow-lg flex items-start max-w-xs';
+        } else if (type === 'error') {
+          domElements.toastTitle.textContent = state.isUrdu ? 'اوہ!' : 'Oops!';
+          domElements.toastMessage.textContent = message;
+          domElements.toastIcon.className = 'fas fa-exclamation-circle';
+          domElements.feedbackToast.className = 'fixed bottom-4 right-4 z-50 bg-red-500 text-white px-6 py-3 rounded-lg shadow-lg flex items-start max-w-xs';
+        } else if (type === 'info') {
+          domElements.toastTitle.textContent = state.isUrdu ? 'معلومات' : 'Info';
+          domElements.toastMessage.textContent = message;
+          domElements.toastIcon.className = 'fas fa-info-circle';
+          domElements.feedbackToast.className = 'fixed bottom-4 right-4 z-50 bg-brand dark:bg-secondary text-white px-6 py-3 rounded-lg shadow-lg flex items-start max-w-xs';
+        }
+        
+        domElements.feedbackToast.classList.remove('hidden');
+        
+        setTimeout(() => {
+          domElements.feedbackToast.classList.add('hidden');
+        }, 5000);
+      },
+
+      // Theme management
+      loadThemePreference: () => {
+        const savedTheme = localStorage.getItem('theme');
+        const osPreference = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        
+        if (savedTheme) {
+          document.documentElement.classList.toggle('dark', savedTheme === 'dark');
+        } else {
+          document.documentElement.classList.toggle('dark', osPreference === 'dark');
+        }
+        
+        core.updateThemeToggle();
+      },
+
+      toggleTheme: () => {
+        const html = document.documentElement;
+        html.classList.toggle('dark');
+        
+        const isDark = html.classList.contains('dark');
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        
+        core.updateThemeToggle();
+        core.showFeedback(
+          state.isUrdu ?
+          `${isDark ? 'ڈارک' : 'لائٹ'} موڈ میں تبدیل کیا گیا` :
+          `Switched to ${isDark ? 'dark' : 'light'} mode`, 
+          'info'
+        );
+      },
+
+      updateThemeToggle: () => {
+        const isDark = document.documentElement.classList.contains('dark');
+        domElements.themeToggle.setAttribute('aria-label', isDark ? 
+          (state.isUrdu ? 'لائٹ موڈ پر سوئچ کریں' : 'Switch to light mode') : 
+          (state.isUrdu ? 'ڈارک موڈ پر سوئچ کریں' : 'Switch to dark mode')
+        );
+      },
+
+      // Language management
+      toggleLanguage: () => {
+        state.isUrdu = !state.isUrdu;
+        localStorage.setItem('preferredLanguage', state.isUrdu ? 'ur' : 'en');
+        
+        // Update UI elements
+        core.setWelcomeMessage();
+        core.displayTopics();
+        core.displayRecommendedTopics();
+        core.updateFilterCount();
+        core.updateThemeToggle();
+        
+        // Update search placeholder
+        domElements.searchInput.placeholder = state.isUrdu ? 
+          "موضوعات تلاش کریں (مثال: 'سائنس', 'تاریخ')" : 
+          "Search topics (e.g. 'science', 'history')";
+        
+        core.showFeedback(
+          state.isUrdu ? 
+          'زبان اردو میں تبدیل کی گئی' : 
+          'Language switched to English', 
+          'info'
+        );
+      },
+
+      loadLanguagePreference: () => {
+        const preferredLanguage = localStorage.getItem('preferredLanguage') || 'en';
+        state.isUrdu = preferredLanguage === 'ur';
+        if (domElements.languageToggle) {
+          domElements.languageToggle.checked = state.isUrdu;
+        }
+      },
+
+      // Modal functions
+      openSuggestModal: () => {
+        domElements.suggestModal.classList.remove('hidden');
+        setTimeout(() => {
+          domElements.modalContent.classList.remove('scale-95', 'opacity-0');
+          domElements.modalContent.classList.add('scale-100', 'opacity-100');
+        }, 10);
+      },
+
+      closeSuggestModal: () => {
+        domElements.modalContent.classList.remove('scale-100', 'opacity-100');
+        domElements.modalContent.classList.add('scale-95', 'opacity-0');
+        setTimeout(() => {
+          domElements.suggestModal.classList.add('hidden');
+        }, 300);
+      },
+
+      openTipsModal: () => {
+        domElements.tipsModal.classList.remove('hidden');
+        setTimeout(() => {
+          domElements.tipsModalContent.classList.remove('scale-95', 'opacity-0');
+          domElements.tipsModalContent.classList.add('scale-100', 'opacity-100');
+        }, 10);
+      },
+
+      closeTipsModal: () => {
+        domElements.tipsModalContent.classList.remove('scale-100', 'opacity-100');
+        domElements.tipsModalContent.classList.add('scale-95', 'opacity-0');
+        setTimeout(() => {
+          domElements.tipsModal.classList.add('hidden');
+        }, 300);
+      },
+
+      // User preferences
+      loadUserPreferences: () => {
+        const savedFilters = localStorage.getItem('learningFilters');
+        if (savedFilters) {
+          try {
+            const filters = JSON.parse(savedFilters);
+            domElements.ageFilter.value = filters.age || '';
+            domElements.typeFilter.value = filters.type || '';
+            domElements.interestFilter.value = filters.interest || '';
+            core.filterTopics();
+          } catch (e) {
+            console.error('Failed to parse saved filters', e);
+          }
+        }
+      },
+
+      saveUserPreferences: () => {
+        const filters = {
+          age: domElements.ageFilter.value,
+          type: domElements.typeFilter.value,
+          interest: domElements.interestFilter.value
+        };
+        
+        localStorage.setItem('learningFilters', JSON.stringify(filters));
+        core.showFeedback(
+          state.isUrdu ? 
+          'ترجیحات کو محفوظ کر لیا گیا' : 
+          'Preferences saved successfully',
+          'success'
+        );
+      },
+
+      // View toggle
+      toggleView: () => {
+        state.currentView = state.currentView === 'grid' ? 'list' : 'grid';
+        domElements.topicsContainer.className = state.currentView === 'grid' ? 
+          'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6' : 
+          'grid grid-cols-1 gap-4';
+        
+        domElements.viewToggle.innerHTML = state.currentView === 'grid' ? 
+          '<i class="fas fa-list"></i>' : 
+          '<i class="fas fa-th-large"></i>';
+        
+        core.showFeedback(
+          state.isUrdu ? 
+          `نظر تبدیل کر دی گئی ${state.currentView === 'grid' ? 'گرڈ' : 'فہرست'}` : 
+          `Switched to ${state.currentView} view`,
+          'info'
+        );
+      },
+
+      // Mobile menu
+      toggleMobileMenu: () => {
+        domElements.mobileMenu.classList.toggle('hidden');
+      },
+
+      // Pagination navigation
+      goToPrevPage: () => {
+        if (state.currentPage > 1) {
+          state.currentPage--;
+          core.displayTopics();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      },
+
+      goToNextPage: () => {
+        if (state.currentPage < state.totalPages) {
+          state.currentPage++;
+          core.displayTopics();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      }
+    };
+
+    // Event Handlers
+    const eventHandlers = {
+      setupEventListeners: () => {
+        // Search and filter inputs
+        domElements.searchInput.addEventListener('input', core.filterTopics);
+        domElements.searchButton.addEventListener('click', () => {
+          core.filterTopics();
+          utils.scrollToTopics();
+        });
+        domElements.searchInput.addEventListener('keypress', (e) => {
+          if (e.key === 'Enter') {
+            core.filterTopics();
+            utils.scrollToTopics();
+          }
+        });
+        
+        domElements.ageFilter.addEventListener('change', core.filterTopics);
+        domElements.typeFilter.addEventListener('change', core.filterTopics);
+        domElements.interestFilter.addEventListener('change', core.filterTopics);
+        domElements.sortBy.addEventListener('change', core.filterTopics);
+
+        // Reset buttons
+        domElements.resetFiltersBtn.addEventListener('click', core.resetAllFilters);
+        domElements.resetSearchBtn.addEventListener('click', core.resetAllFilters);
+        
+        // Theme toggle
+        domElements.themeToggle.addEventListener('click', core.toggleTheme);
+        
+        // Language toggle
+        if (domElements.languageToggle) {
+          domElements.languageToggle.addEventListener('change', core.toggleLanguage);
+        }
+        
+        // Suggest topic modal
+        domElements.suggestBtn.addEventListener('click', core.openSuggestModal);
+        domElements.closeModal.addEventListener('click', core.closeSuggestModal);
+        domElements.suggestionForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          core.closeSuggestModal();
+          core.showFeedback(
+            state.isUrdu ? 
+            'آپ کی تجویز موصول ہو گئی ہے! شکریہ' : 
+            'Your suggestion has been received! Thank you',
+            'success'
+          );
+          domElements.suggestionForm.reset();
+        });
+        
+        // Learning tips modal
+        domElements.showTipsBtn.addEventListener('click', core.openTipsModal);
+        domElements.closeTipsModal.addEventListener('click', core.closeTipsModal);
+        
+        // Feedback toast
+        domElements.closeToast.addEventListener('click', () => {
+          domElements.feedbackToast.classList.add('hidden');
+        });
+        
+        // Save preferences
+        domElements.savePreferencesBtn.addEventListener('click', core.saveUserPreferences);
+        
+        // View toggle
+        domElements.viewToggle.addEventListener('click', core.toggleView);
+        
+        // See all recommended
+        domElements.seeAllRecommendedBtn.addEventListener('click', () => {
+          domElements.interestFilter.value = '';
+          domElements.sortBy.value = 'trending';
+          core.filterTopics();
+        });
+        
+        // Mobile menu
+        domElements.mobileMenuButton.addEventListener('click', core.toggleMobileMenu);
+        
+        // Pagination
+        domElements.prevPageBtn.addEventListener('click', core.goToPrevPage);
+        domElements.nextPageBtn.addEventListener('click', core.goToNextPage);
+        
+        // Click outside modals to close them
+        window.addEventListener('click', (e) => {
+          if (e.target === domElements.suggestModal) {
+            core.closeSuggestModal();
+          }
+          if (e.target === domElements.tipsModal) {
+            core.closeTipsModal();
+          }
+        });
+      }
+    };
+
+    // Initialize the application
+    document.addEventListener('DOMContentLoaded', core.init);
+ </script>
+ <script src="src/js/analytics.js"></script>
+</body>
+</html>

@@ -1,0 +1,1848 @@
+{
+  "meta": {
+    "category": "Urdu Proverbs Meanings",
+    "category_ur": "اردو محاورے اور ان کے معانی",
+    "description": "Test your knowledge of Urdu proverbs and their meanings",
+    "description_ur": "اردو محاوروں اور ان کے معانی کا امتحان لیں",
+    "difficulty": "medium",
+    "image": "urdu_proverbs.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What does the proverb 'Daal mein kuchh kaala hai' mean?",
+      "question_ur": "'دال میں کچھ کالا ہے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["There's black color in the lentils", "Something is suspicious", "Food is not cooked properly", "There's a hidden truth"],
+        "ur": ["دال میں کالا رنگ ہے", "کچھ مشکوک ہے", "کھانا ٹھیک سے نہیں پکا", "ایک پوشیدہ سچائی ہے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This proverb means that there's something suspicious about the situation.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ صورتحال کے بارے میں کچھ مشکوک ہے۔",
+      "hint": "Think about when something seems wrong",
+      "hint_ur": "جب کچھ غلط محسوس ہو تو سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "What is the meaning of 'Andhon mein kaana raja'?",
+      "question_ur": "'اندھوں میں کانا راجا' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["A one-eyed king among blind people", "A blind leading the blind", "A king who lost his eye", "A competition among blind people"],
+        "ur": ["اندھوں میں ایک آنکھ والا راجا", "اندھا اندھوں کو راستہ دکھائے", "ایک راجا جس نے اپنی آنکھ کھو دی", "اندھوں کے درمیان مقابلہ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means someone with slight advantage appears superior among those with none.",
+      "explanation_ur": "اس کا مطلب ہے کہ معمولی برتری والا شخص ان لوگوں میں بہتر نظر آتا ہے جن کے پاس کوئی برتری نہیں۔",
+      "hint": "Think about relative superiority",
+      "hint_ur": "نسبتی برتری کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 3,
+      "type": "true-false",
+      "question": "'Ab pachtaye hot kya jab chidiya chug gayi khet' means it's useless to regret after the damage is done.",
+      "question_ur": "'اب پچھتائے ہوت کیا جب چڑیا چگ گئی کھیت' کا مطلب ہے کہ نقصان ہونے کے بعد پچھتانا بیکار ہے۔",
+      "correctAnswer": true,
+      "explanation": "This proverb indeed means that regretting after the damage has occurred is pointless.",
+      "explanation_ur": "اس محاورے کا مطلب یقیناً یہ ہے کہ نقصان ہونے کے بعد پچھتانا بے فائدہ ہے۔",
+      "hint": "Think about timing of regret",
+      "hint_ur": "پچھتانے کے وقت کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "What does 'Naach na jaane aangan tedha' mean?",
+      "question_ur": "'ناچ نہ جانے آنگن ٹیڑھا' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["The courtyard is crooked", "Blaming others for one's own shortcomings", "A bad dancer", "The floor is uneven"],
+        "ur": ["آنگن ٹیڑھا ہے", "اپنی خامیوں کے لیے دوسروں کو مورد الزام ٹھہرانا", "ایک برا رقاص", "فرش غیر مسطح ہے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means blaming external factors for one's own inability.",
+      "explanation_ur": "اس کا مطلب ہے اپنی نااہلی کے لیے بیرونی عوامل کو مورد الزام ٹھہرانا۔",
+      "hint": "Think about making excuses",
+      "hint_ur": "بہانے بنانے کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "What is the meaning of 'Jaisi karni waisi bharni'?",
+      "question_ur": "'جیسی کرنی ویسی بھرنی' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["As you sow, so shall you reap", "Different actions have different results", "Work hard to earn", "Karma affects everyone"],
+        "ur": ["جیسا بویں گے ویسا کاٹیں گے", "مختلف اعمال کے مختلف نتائج ہوتے ہیں", "کمانے کے لیے محنت کریں", "کرما سب کو متاثر کرتا ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means one's actions determine their consequences.",
+      "explanation_ur": "اس کا مطلب ہے کہ انسان کے اعمال اس کے نتائج کا تعین کرتے ہیں۔",
+      "hint": "Think about consequences of actions",
+      "hint_ur": "اعمال کے نتائج کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 6,
+      "type": "true-false",
+      "question": "'Doodh ka doodh pani ka pani' means to separate truth from falsehood.",
+      "question_ur": "'دودھ کا دودھ پانی کا پانی' کا مطلب ہے سچ کو جھوٹ سے الگ کرنا۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means to distinguish clearly between right and wrong.",
+      "explanation_ur": "اس محاورے کا مطلب ہے صحیح اور غلط میں واضح فرق کرنا۔",
+      "hint": "Think about distinguishing things",
+      "hint_ur": "چیزوں میں فرق کرنے کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "What does 'Ungli pakad kar chalna' mean?",
+      "question_ur": "'انگلی پکڑ کر چلنا' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["To walk holding fingers", "To guide someone step by step", "To walk carefully", "To hold hands while walking"],
+        "ur": ["انگلیاں پکڑ کر چلنا", "کسی کو قدم بہ قدم رہنمائی کرنا", "احتیاط سے چلنا", "چلتے ہوئے ہاتھ تھامنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means to guide someone very carefully through each step.",
+      "explanation_ur": "اس کا مطلب ہے کسی کو ہر قدم پر بہت احتیاط سے رہنمائی کرنا۔",
+      "hint": "Think about teaching someone",
+      "hint_ur": "کسی کو سکھانے کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "What is the meaning of 'Chor ki daari mein tinka'?",
+      "question_ur": "'چور کی داڑھی میں تنکا' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["A thief with beard", "Feeling guilty makes you suspicious", "A straw in beard", "Sign of a thief"],
+        "ur": ["داڑھی والا چور", "مجرم ہونے کا احساس آپ کو مشتعل بنا دیتا ہے", "داڑھی میں تنکا", "چور کی نشانی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means a guilty conscience makes one see signs of accusation everywhere.",
+      "explanation_ur": "اس کا مطلب ہے کہ مجرم ضمیر ہر جگہ الزام کی نشانیاں دیکھتا ہے۔",
+      "hint": "Think about guilty behavior",
+      "hint_ur": "مجرم رویے کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 9,
+      "type": "true-false",
+      "question": "'Bandar kya jaane adrak ka swad' means someone can't appreciate what they don't understand.",
+      "question_ur": "'بندر کیا جانے ادرک کا سواد' کا مطلب ہے کہ کوئی اس چیز کی تعریف نہیں کر سکتا جسے وہ نہیں سمجھتا۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means one can't appreciate something beyond their understanding.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ کوئی اپنی سمجھ سے باہر کی چیز کی تعریف نہیں کر سکتا۔",
+      "hint": "Think about monkeys and ginger",
+      "hint_ur": "بندروں اور ادرک کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "What does 'Aag lagane wale khud bhi jal jaate hain' mean?",
+      "question_ur": "'آگ لگانے والے خود بھی جل جاتے ہیں' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Fire spreaders get burned", "Those who create trouble suffer too", "Fire is dangerous", "Arsonists get caught"],
+        "ur": ["آگ پھیلانے والے جلتے ہیں", "جو لوگ مصیبت پیدا کرتے ہیں وہ بھی تکلیف اٹھاتے ہیں", "آگ خطرناک ہے", "آتش زنوں کو پکڑ لیا جاتا ہے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means those who create problems for others often face consequences themselves.",
+      "explanation_ur": "اس کا مطلب ہے کہ جو لوگ دوسروں کے لیے مسائل پیدا کرتے ہیں وہ اکثر خود بھی نتائج بھگتتے ہیں۔",
+      "hint": "Think about consequences for troublemakers",
+      "hint_ur": "فسادیوں کے نتائج کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "What is the meaning of 'Bandi chor ko bhi peer hoti hai'?",
+      "question_ur": "'باندی چور کو بھی پیر ہوتی ہے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Even thieves have masters", "Everyone has someone above them", "Even servants have authority sometimes", "All are equal in some way"],
+        "ur": ["چوروں کے بھی مالک ہوتے ہیں", "ہر کسی کے اوپر کوئی نہ کوئی ہوتا ہے", "نوکروں کو بھی کبھی اختیار ہوتا ہے", "کسی نہ کسی طرح سب برابر ہیں"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means everyone is answerable to someone else, no matter how powerful.",
+      "explanation_ur": "اس کا مطلب ہے کہ ہر شخص کسی نہ کسی کے سامنے جوابدہ ہے، چاہے وہ کتنا ہی طاقتور کیوں نہ ہو۔",
+      "hint": "Think about hierarchy",
+      "hint_ur": "درجہ بندی کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "question": "'Bhains ke aage been bajana' means to waste effort on someone who won't appreciate it.",
+      "question_ur": "'بھینس کے آگے بین بجانا' کا مطلب ہے کسی ایسے شخص پر محنت ضائع کرنا جو اس کی تعریف نہیں کرے گا۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means trying to explain something to someone who can't understand or appreciate it.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کسی ایسے شخص کو کچھ سمجھانے کی کوشش کرنا جو نہ سمجھ سکے یا اس کی تعریف نہ کر سکے۔",
+      "hint": "Think about buffalos and flutes",
+      "hint_ur": "بھینس اور بین کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "What does 'Dusron ke sir par chad kar khud naachna' mean?",
+      "question_ur": "'دوسروں کے سر پر چڑھ کر خود ناچنا' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Dancing on others' heads", "Advancing oneself by putting others down", "Celebrating at others' expense", "Climbing to dance"],
+        "ur": ["دوسروں کے سروں پر ناچنا", "دوسروں کو نیچا دکھا کر خود کو آگے بڑھانا", "دوسروں کے خرچ پر جشن منانا", "ناچنے کے لیے چڑھنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means achieving success by harming or belittling others.",
+      "explanation_ur": "اس کا مطلب ہے دوسروں کو نقصان پہنچا کر یا انہیں چھوٹا دکھا کر کامیابی حاصل کرنا۔",
+      "hint": "Think about selfish advancement",
+      "hint_ur": "خود غرض ترقی کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "What is the meaning of 'Ek haath se deta hai, doosre haath se le leta hai'?",
+      "question_ur": "'ایک ہاتھ سے دیتا ہے، دوسرے ہاتھ سے لے لیتا ہے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Giving with one hand, taking with another", "Being generous and selfish simultaneously", "Circular transactions", "False generosity"],
+        "ur": ["ایک ہاتھ سے دینا، دوسرے سے لینا", "فیاض اور خود غرض بیک وقت ہونا", "سرکلر لین دین", "جعلی فیاضی"]
+      },
+      "correctAnswer": 3,
+      "explanation": "This means apparent generosity while actually taking back what was given.",
+      "explanation_ur": "اس کا مطلب ہے ظاہری فیاضی جبکہ درحقیقت دی ہوئی چیز واپس لے لی جاتی ہے۔",
+      "hint": "Think about fake giving",
+      "hint_ur": "جعلی دینے کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 15,
+      "type": "true-false",
+      "question": "'Ghar ki murgi daal barabar' means we often undervalue what's easily available to us.",
+      "question_ur": "'گھر کی مرغی دال برابر' کا مطلب ہے کہ ہم اکثر اس چیز کو کم قیمت دیتے ہیں جو ہمیں آسانی سے دستیاب ہو۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means we tend to take for granted what we have readily available.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ ہم اس چیز کو قدر کی نگاہ سے نہیں دیکھتے جو ہمیں آسانی سے دستیاب ہو۔",
+      "hint": "Think about home-cooked food",
+      "hint_ur": "گھر کے پکے کھانے کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "What does 'Haathi ke daant dikhane ke aur, khane ke aur' mean?",
+      "question_ur": "'ہاتھی کے دانت دکھانے کے اور، کھانے کے اور' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Elephants have different teeth for show and eating", "Appearances can be deceptive", "Some things are not what they seem", "People have public and private faces"],
+        "ur": ["ہاتھی کے دکھانے اور کھانے کے الگ دانت ہوتے ہیں", "ظاہری شکل دھوکہ دینے والی ہو سکتی ہے", "کچھ چیزیں وہ نہیں ہوتیں جو دکھائی دیتی ہیں", "لوگوں کے عوامی اور نجی چہرے ہوتے ہیں"]
+      },
+      "correctAnswer": 2,
+      "explanation": "This means things are often different from how they appear.",
+      "explanation_ur": "اس کا مطلب ہے چیزیں اکثر ویسی نہیں ہوتیں جیسی دکھائی دیتی ہیں۔",
+      "hint": "Think about hidden realities",
+      "hint_ur": "پوشیدہ حقائق کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "What is the meaning of 'Jab jaago tabhi savera'?",
+      "question_ur": "'جب جاگو تبھی ساورا' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Morning comes when you wake up", "It's never too late to start", "Wake up early", "Morning depends on your sleep"],
+        "ur": ["صبح تب ہوتی ہے جب آپ جاگتے ہیں", "شروع کرنے میں کبھی دیر نہیں ہوتی", "جلدی اٹھیں", "صبح آپ کی نیند پر منحصر ہے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means it's never too late to begin something good or make a change.",
+      "explanation_ur": "اس کا مطلب ہے کہ کچھ اچھا شروع کرنے یا تبدیلی لانے میں کبھی دیر نہیں ہوتی۔",
+      "hint": "Think about new beginnings",
+      "hint_ur": "نئے آغاز کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 18,
+      "type": "true-false",
+      "question": "'Jis ki laathi us ki bhains' means might is right.",
+      "question_ur": "'جس کی لاٹھی اس کی بھینس' کا مطلب ہے طاقت ہی حق ہے۔",
+      "correctAnswer": true,
+      "explanation": "This proverb indeed means that the powerful get to keep what they can control.",
+      "explanation_ur": "اس محاورے کا مطلب یقیناً یہ ہے کہ طاقتور وہی رکھتے ہیں جس پر وہ کنٹرول کر سکتے ہیں۔",
+      "hint": "Think about power dynamics",
+      "hint_ur": "طاقت کے تعلقات کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "What does 'Khoda pahaar nikli chuhiya' mean?",
+      "question_ur": "'کھودا پہاڑ نکلی چوہیا' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Digging mountain found mouse", "Much effort little result", "Unexpected discovery", "Mountain turned to mouse"],
+        "ur": ["پہاڑ کھود کر چوہیا نکلی", "بہت محنت کم نتیجہ", "غیر متوقع دریافت", "پہاڑ چوہیا بن گیا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means putting in great effort but achieving very little.",
+      "explanation_ur": "اس کا مطلب ہے بہت زیادہ محنت کرنا لیکن بہت کم حاصل کرنا۔",
+      "hint": "Think about disproportionate results",
+      "hint_ur": "غیر متناسب نتائج کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "What is the meaning of 'Laaton ke bhoot baton se nahi mante'?",
+      "question_ur": "'لاٹھی کے بھوت باتوں سے نہیں مانتے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Ghosts don't listen to words", "Some people only understand force", "Sticks have ghosts", "Violence is sometimes necessary"],
+        "ur": ["بھوت باتیں نہیں سنتے", "کچھ لوگ صرف طاقت سمجھتے ہیں", "لاٹھیوں میں بھوت ہوتے ہیں", "کبھی کبھار تشدد ضروری ہوتا ہے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means some people only respond to force or harsh measures.",
+      "explanation_ur": "اس کا مطلب ہے کہ کچھ لوگ صرف طاقت یا سخت اقدامات پر رد عمل دیتے ہیں۔",
+      "hint": "Think about stubborn people",
+      "hint_ur": "ضدی لوگوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 21,
+      "type": "true-false",
+      "question": "'Maan baap ki dua jannat ki hawa' means parental blessings are like heavenly winds.",
+      "question_ur": "'ماں باپ کی دعا جنت کی ہوا' کا مطلب ہے کہ والدین کی دعائیں جنت کی ہواؤں کی مانند ہیں۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means parental blessings bring divine benefits.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ والدین کی دعائیں الہی فوائد لاتی ہیں۔",
+      "hint": "Think about blessings",
+      "hint_ur": "دعاؤں کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "What does 'Neem hakeem khatra-e-jaan' mean?",
+      "question_ur": "'نیم حکیم خطرہ جان' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Half-knowledge is dangerous", "Doctors are risky", "Medicine can be harmful", "New doctors are dangerous"],
+        "ur": ["نیم خواندگی خطرناک ہے", "ڈاکٹر خطرناک ہوتے ہیں", "دوا نقصان دہ ہو سکتی ہے", "نئے ڈاکٹر خطرناک ہوتے ہیں"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means a little knowledge can be more dangerous than no knowledge.",
+      "explanation_ur": "اس کا مطلب ہے کہ تھوڑا علم بالکل نہ جاننے سے زیادہ خطرناک ہو سکتا ہے۔",
+      "hint": "Think about partial knowledge",
+      "hint_ur": "جزوی علم کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "What is the meaning of 'Oonth ke munh mein jeera'?",
+      "question_ur": "'اونٹ کے منہ میں زیرہ' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Cumin in camel's mouth", "Very small amount for a big need", "Camel likes cumin", "Insignificant quantity"],
+        "ur": ["اونٹ کے منہ میں زیرہ", "بڑی ضرورت کے لیے بہت تھوڑی مقدار", "اونٹ کو زیرہ پسند ہے", "ناچیز مقدار"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means something very insignificant compared to what's needed.",
+      "explanation_ur": "اس کا مطلب ہے کہ درکار چیز کے مقابلے میں بہت ہی ناچیز چیز۔",
+      "hint": "Think about proportion",
+      "hint_ur": "تناسب کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 24,
+      "type": "true-false",
+      "question": "'Pani mein reh kar magarmach se bair' means to live with someone yet be in conflict with them.",
+      "question_ur": "'پانی میں رہ کر مگرمچھ سے بیر' کا مطلب ہے کسی کے ساتھ رہتے ہوئے بھی اس سے تنازعہ رکھنا۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means being dependent on someone yet quarreling with them.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کسی پر انحصار کرتے ہوئے بھی اس سے جھگڑنا۔",
+      "hint": "Think about crocodiles and water",
+      "hint_ur": "مگرمچھ اور پانی کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "What does 'Ram naam satya hai' signify?",
+      "question_ur": "'رام naam satya ہے' کیا ظاہر کرتا ہے؟",
+      "options": {
+        "en": ["Truth of Lord Ram", "Death is ultimate truth", "Ram's name is truth", "Religious chant"],
+        "ur": ["رام کی سچائی", "موت حتمی سچائی ہے", "رام کا نام سچ ہے", "مذہبی منتر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This phrase is chanted during Hindu funerals, signifying death as ultimate truth.",
+      "explanation_ur": "یہ جملہ ہندو جنازوں کے دوران پڑھا جاتا ہے، جو موت کو حتمی سچائی کے طور پر ظاہر کرتا ہے۔",
+      "hint": "Think about funeral rituals",
+      "hint_ur": "جنازے کی رسومات کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "What is the meaning of 'Sabr ka phal meetha hota hai'?",
+      "question_ur": "'صبر کا پھل میٹھا ہوتا ہے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Patience bears sweet fruit", "Sweet fruits require patience", "Results come to those who wait", "Patience is sweet"],
+        "ur": ["صبر کا پھل میٹھا ہوتا ہے", "میٹھے پھلوں کے لیے صبر چاہیے", "انتظار کرنے والوں کو نتائج ملتے ہیں", "صبر میٹھا ہوتا ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means patience ultimately leads to good results.",
+      "explanation_ur": "اس کا مطلب ہے کہ صبر آخرکار اچھے نتائج کی طرف لے جاتا ہے۔",
+      "hint": "Think about rewards of patience",
+      "hint_ur": "صبر کے انعامات کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 27,
+      "type": "true-false",
+      "question": "'Toota hua saaz bhi kabhi sur mein hota hai' means even broken things can sometimes function well.",
+      "question_ur": "'ٹوٹا ہوا ساز بھی کبھی سر میں ہوتا ہے' کا مطلب ہے کہ ٹوٹی ہوئی چیزیں بھی کبھی کبھی اچھی طرح کام کر سکتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means even damaged things can sometimes work properly.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ خراب شدہ چیزیں بھی کبھی کبھی صحیح طریقے سے کام کر سکتی ہیں۔",
+      "hint": "Think about imperfect things",
+      "hint_ur": "نامکمل چیزوں کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "What does 'Ullu ke patthe' mean?",
+      "question_ur": "'الو کے پٹھے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Owl's feathers", "Foolish person", "Night owl", "Wise but silent"],
+        "ur": ["الو کے پر", "بیوقوف شخص", "رات کا الو", "عقلمند لیکن خاموش"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This is a term used for someone considered foolish or stupid.",
+      "explanation_ur": "یہ ایک ایسے شخص کے لیے استعمال ہوتا ہے جسے بیوقوف یا احمق سمجھا جاتا ہے۔",
+      "hint": "Think about bird idioms",
+      "hint_ur": "پرندوں کے محاوروں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "What is the meaning of 'Waqt se pehle aur muqaddar se zyada kisi ko kuch nahi milta'?",
+      "question_ur": "'وقت سے پہلے اور مقدر سے زیادہ کسی کو کچھ نہیں ملتا' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["No one gets anything before time or beyond fate", "Patience is key", "Destiny controls all", "Time and fate are everything"],
+        "ur": ["کوئی وقت سے پہلے یا مقدر سے زیادہ نہیں پاتا", "صبر کلیدی ہے", "تقدیر سب کنٹرول کرتی ہے", "وقت اور تقدیر سب کچھ ہیں"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means everything comes at its destined time and quantity.",
+      "explanation_ur": "اس کا مطلب ہے کہ ہر چیز اپنے مقررہ وقت اور مقدار میں آتی ہے۔",
+      "hint": "Think about timing and destiny",
+      "hint_ur": "وقت اور تقدیر کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 30,
+      "type": "true-false",
+      "question": "'Zor kaa bhed lalchi se koi na poochhe' means no one asks about the source of power from greedy people.",
+      "question_ur": "'زور کا بھید لالچی سے کوئی نہ پوچھے' کا مطلب ہے کہ لالچی لوگوں سے طاقت کے ماخذ کے بارے میں کوئی نہیں پوچھتا۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means people accept power without questioning its source when they're greedy.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ لوگ طاقت کو اس کے ماخذ کے بارے میں سوال کیے بغیر قبول کر لیتے ہیں جب وہ لالچی ہوتے ہیں۔",
+      "hint": "Think about power and greed",
+      "hint_ur": "طاقت اور لالچ کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "What does 'Aam ke aam, guthliyon ke daam' mean?",
+      "question_ur": "'آم کے آم، گٹھلیوں کے دام' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Mangoes and their seeds", "Getting benefits from both main product and byproducts", "Double profit", "Selling mangoes and seeds"],
+        "ur": ["آم اور ان کی گٹھلیاں", "مرکزی مصنوعات اور ضمنی مصنوعات دونوں سے فائدہ اٹھانا", "دوہرا منافع", "آم اور گٹھلیاں بیچنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means profiting from both the primary and secondary aspects of something.",
+      "explanation_ur": "اس کا مطلب ہے کسی چیز کے بنیادی اور ثانوی پہلوؤں دونوں سے فائدہ اٹھانا۔",
+      "hint": "Think about multiple benefits",
+      "hint_ur": "متعدد فوائد کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "What is the meaning of 'Bachay ki jaan lein to pyaar na aaye'?",
+      "question_ur": "'بچے کی جان لیں تو پیار نہ آئے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Don't kill children", "Even punishment should have limits", "Excessive strictness kills affection", "Children shouldn't be punished"],
+        "ur": ["بچوں کو مت مارو", "سزا کی بھی حد ہونی چاہیے", "ضرورت سے زیادہ سختی محبت ختم کر دیتی ہے", "بچوں کو سزا نہیں دینی چاہیے"]
+      },
+      "correctAnswer": 2,
+      "explanation": "This means being too harsh can destroy love and affection.",
+      "explanation_ur": "اس کا مطلب ہے کہ بہت زیادہ سخت ہونا محبت اور پیار کو ختم کر سکتا ہے۔",
+      "hint": "Think about discipline and love",
+      "hint_ur": "نظم و ضبط اور محبت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 33,
+      "type": "true-false",
+      "question": "'Chalti ka naam gaadi' means something is known by its function.",
+      "question_ur": "'چلتی کا نام گاڑی' کا مطلب ہے کہ کسی چیز کو اس کے کام سے جانا جاتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means things are recognized by what they do (like a vehicle by its movement).",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ چیزیں اس سے پہچانی جاتی ہیں جو وہ کرتی ہیں (جیسے گاڑی اپنی حرکت سے)۔",
+      "hint": "Think about function defining things",
+      "hint_ur": "کام کی وضاحت کرنے والی چیزوں کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "What does 'Dhande ki naani bhi nahi' mean?",
+      "question_ur": "'دھندے کی نانی بھی نہیں' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Grandmother of business", "Not even the basics of work", "No knowledge of business", "Complete ignorance about a profession"],
+        "ur": ["کاروبار کی دادی", "کام کی بنیادی باتوں کا بھی علم نہیں", "کاروبار کا کوئی علم نہیں", "کسی پیشے کے بارے میں مکمل جہالت"]
+      },
+      "correctAnswer": 3,
+      "explanation": "This means complete lack of knowledge about a particular work or profession.",
+      "explanation_ur": "اس کا مطلب ہے کسی خاص کام یا پیشے کے بارے میں مکمل علم کی کمی۔",
+      "hint": "Think about complete ignorance",
+      "hint_ur": "مکمل جہالت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "What is the meaning of 'Ek anar sau bimar'?",
+      "question_ur": "'ایک انار سو بیمار' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["One pomegranate, hundred sick", "Limited resources, many claimants", "One cure for many diseases", "Sharing equally"],
+        "ur": ["ایک انار، سو بیمار", "محدود وسائل، بہت سے دعویدار", "بہت سی بیماریوں کا ایک علاج", "برابر بانٹنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means when there's limited supply but too many people wanting it.",
+      "explanation_ur": "اس کا مطلب ہے جب سپلائی محدود ہو لیکن اسے حاصل کرنے والے بہت سے لوگ ہوں۔",
+      "hint": "Think about scarcity",
+      "hint_ur": "کمی کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 36,
+      "type": "true-false",
+      "question": "'Ghar ki murgi daal barabar' means we often take for granted what's easily available.",
+      "question_ur": "'گھر کی مرغی دال برابر' کا مطلب ہے کہ ہم اکثر اس چیز کو قدر کی نگاہ سے نہیں دیکھتے جو آسانی سے دستیاب ہو۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means we tend to undervalue what we have readily available.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ ہم اس چیز کو کم قیمت دیتے ہیں جو ہمیں آسانی سے دستیاب ہو۔",
+      "hint": "Think about home food",
+      "hint_ur": "گھر کے کھانے کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "What does 'Hathi chale bazaar, kutte bhonke hazaar' mean?",
+      "question_ur": "'ہاتھی چلے بازار، کتے بھونکے ہزار' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Elephant goes to market, dogs bark thousand", "Important people work while others just talk", "Market scene with animals", "Noise in the marketplace"],
+        "ur": ["ہاتھی بازار جاتا ہے، کتے ہزار بار بھونکتے ہیں", "اہم لوگ کام کرتے ہیں جبکہ دوسرے صرف بات کرتے ہیں", "جانوروں کے ساتھ بازار کا منظر", "بازار میں شور"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means significant people keep working while insignificant ones keep making noise.",
+      "explanation_ur": "اس کا مطلب ہے کہ اہم لوگ کام کرتے رہتے ہیں جبکہ غیر اہم لوگ شور مچاتے رہتے ہیں۔",
+      "hint": "Think about workers vs talkers",
+      "hint_ur": "کام کرنے والوں بمقابلہ بات کرنے والوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "What is the meaning of 'Jab miya biwi raazi, to kya karega qazi'?",
+      "question_ur": "'جب میاں بیوی راضی، تو کیا کرے گا قاضی' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["When husband and wife agree, what can judge do", "Marital harmony prevents disputes", "Judge is powerless before mutual consent", "Agreement solves problems"],
+        "ur": ["جب میاں بیوی راضی ہوں، تو قاضی کیا کرے گا", "شوہر بیوی کا اتفاق تنازعات کو روکتا ہے", "قاضی باہمی رضامندی کے سامنے بے بس ہے", "معاہدہ مسائل کو حل کرتا ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means when two parties agree, no third party can interfere.",
+      "explanation_ur": "اس کا مطلب ہے کہ جب دو فریق متفق ہوں، تو کوئی تیسرا فریق مداخلت نہیں کر سکتا۔",
+      "hint": "Think about mutual agreement",
+      "hint_ur": "باہمی معاہدے کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 39,
+      "type": "true-false",
+      "question": "'Kachcha chittha pakka ghee' means something appears weak but is actually strong.",
+      "question_ur": "'کچا چٹھا پکا گھی' کا مطلب ہے کہ کوئی چیز کمزور نظر آتی ہے لیکن درحقیقت مضبوط ہوتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means outward appearance may be misleading as the substance is strong.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ ظاہری شکل دھوکہ دینے والی ہو سکتی ہے کیونکہ مادہ مضبوط ہوتا ہے۔",
+      "hint": "Think about appearances vs reality",
+      "hint_ur": "ظاہری شکل بمقابلہ حقیقت کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "What does 'Laaton ke bhoot baton se nahi mante' mean?",
+      "question_ur": "'لاٹھی کے بھوت باتوں سے نہیں مانتے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Ghosts of sticks don't listen to words", "Some people only understand force", "Violence is sometimes necessary", "Sticks have spirits"],
+        "ur": ["لاٹھی کے بھوت باتیں نہیں سنتے", "کچھ لوگ صرف طاقت سمجھتے ہیں", "کبھی کبھار تشدد ضروری ہوتا ہے", "لاٹھیوں میں روحیں ہوتی ہیں"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means some people only respond to force or harsh measures.",
+      "explanation_ur": "اس کا مطلب ہے کہ کچھ لوگ صرف طاقت یا سخت اقدامات پر رد عمل دیتے ہیں۔",
+      "hint": "Think about stubbornness",
+      "hint_ur": "ضدی پن کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "What is the meaning of 'Maan baap ki dua jannat ki hawa'?",
+      "question_ur": "'ماں باپ کی دعا جنت کی ہوا' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Parental blessings are like heaven's breeze", "Parents pray for children", "Heavenly winds bring blessings", "Children need parents' prayers"],
+        "ur": ["والدین کی دعائیں جنت کی ہوا کی مانند ہیں", "والدین بچوں کے لیے دعا کرتے ہیں", "جنت کی ہوائیں برکتیں لاتی ہیں", "بچوں کو والدین کی دعاؤں کی ضرورت ہوتی ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means parental blessings bring divine benefits like a heavenly breeze.",
+      "explanation_ur": "اس کا مطلب ہے کہ والدین کی دعائیں جنت کی ہوا کی مانند الہی فوائد لاتی ہیں۔",
+      "hint": "Think about blessings",
+      "hint_ur": "دعاؤں کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 42,
+      "type": "true-false",
+      "question": "'Neem hakeem khatra-e-jaan' means a half-qualified doctor is dangerous.",
+      "question_ur": "'نیم حکیم خطرہ جان' کا مطلب ہے کہ آدھے تعلیم یافتہ ڈاکٹر خطرناک ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means partial knowledge in critical fields can be dangerous.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ اہم شعبوں میں جزوی علم خطرناک ہو سکتا ہے۔",
+      "hint": "Think about medical knowledge",
+      "hint_ur": "طبی علم کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "What does 'Oonth ke munh mein jeera' mean?",
+      "question_ur": "'اونٹ کے منہ میں زیرہ' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Cumin in camel's mouth", "Very small amount for a big creature", "Insignificant quantity", "Camel likes cumin"],
+        "ur": ["اونٹ کے منہ میں زیرہ", "ایک بڑے جانور کے لیے بہت تھوڑی مقدار", "ناچیز مقدار", "اونٹ کو زیرہ پسند ہے"]
+      },
+      "correctAnswer": 2,
+      "explanation": "This means something very insignificant compared to what's needed.",
+      "explanation_ur": "اس کا مطلب ہے کہ درکار چیز کے مقابلے میں بہت ہی ناچیز چیز۔",
+      "hint": "Think about proportions",
+      "hint_ur": "تناسب کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "What is the meaning of 'Pani mein reh kar magarmach se bair'?",
+      "question_ur": "'پانی میں رہ کر مگرمچھ سے بیر' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Enmity with crocodile while living in water", "Being in conflict with your environment", "Quarreling with your benefactor", "Living with danger"],
+        "ur": ["پانی میں رہتے ہوئے مگرمچھ سے دشمنی", "اپنے ماحول سے تنازعہ", "اپنے محسن سے جھگڑا", "خطرے کے ساتھ رہنا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "This means being in conflict with someone you depend on for survival.",
+      "explanation_ur": "اس کا مطلب ہے کسی ایسے شخص سے تنازعہ رکھنا جس پر آپ زندہ رہنے کے لیے انحصار کرتے ہیں۔",
+      "hint": "Think about dependency",
+      "hint_ur": "انحصار کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 45,
+      "type": "true-false",
+      "question": "'Qismat aazmana' means to test one's luck.",
+      "question_ur": "'قسمت آزمانا' کا مطلب ہے اپنی قسمت کو آزمانا۔",
+      "correctAnswer": true,
+      "explanation": "This phrase indeed means to try one's luck or fortune.",
+      "explanation_ur": "اس جملے کا مطلب یقیناً اپنی قسمت یا نصیب کو آزمانا ہے۔",
+      "hint": "Think about trying chances",
+      "hint_ur": "موقعوں کو آزمانے کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "What does 'Ram naam satya hai' signify?",
+      "question_ur": "'رام naam satya ہے' کیا ظاہر کرتا ہے؟",
+      "options": {
+        "en": ["Truth of Lord Ram", "Death is ultimate truth", "Religious chant", "Name of Ram is truth"],
+        "ur": ["رام کی سچائی", "موت حتمی سچائی ہے", "مذہبی منتر", "رام کا نام سچ ہے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This phrase is chanted during Hindu funerals, signifying death as ultimate truth.",
+      "explanation_ur": "یہ جملہ ہندو جنازوں کے دوران پڑھا جاتا ہے، جو موت کو حتمی سچائی کے طور پر ظاہر کرتا ہے۔",
+      "hint": "Think about funeral rites",
+      "hint_ur": "جنازے کی رسومات کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "What is the meaning of 'Sabr ka phal meetha hota hai'?",
+      "question_ur": "'صبر کا پھل میٹھا ہوتا ہے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Fruit of patience is sweet", "Sweet results come from patience", "Patience is rewarded", "Good things come to those who wait"],
+        "ur": ["صبر کا پھل میٹھا ہوتا ہے", "میٹھے نتائج صبر سے آتے ہیں", "صبر کا صلہ ملتا ہے", "اچھی چیزیں انتظار کرنے والوں کو ملتی ہیں"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means patience ultimately leads to good results.",
+      "explanation_ur": "اس کا مطلب ہے کہ صبر آخرکار اچھے نتائج کی طرف لے جاتا ہے۔",
+      "hint": "Think about patience",
+      "hint_ur": "صبر کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 48,
+      "type": "true-false",
+      "question": "'Toota hua saaz bhi kabhi sur mein hota hai' means even broken things can sometimes function well.",
+      "question_ur": "'ٹوٹا ہوا ساز بھی کبھی سر میں ہوتا ہے' کا مطلب ہے کہ ٹوٹی ہوئی چیزیں بھی کبھی کبھی اچھی طرح کام کر سکتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means even damaged things can sometimes work properly.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ خراب شدہ چیزیں بھی کبھی کبھی صحیح طریقے سے کام کر سکتی ہیں۔",
+      "hint": "Think about imperfect things",
+      "hint_ur": "نامکمل چیزوں کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "What does 'Ullu ke patthe' mean?",
+      "question_ur": "'الو کے پٹھے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Owl's feathers", "Foolish person", "Night owl", "Wise but silent"],
+        "ur": ["الو کے پر", "بیوقوف شخص", "رات کا الو", "عقلمند لیکن خاموش"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This is a term used for someone considered foolish or stupid.",
+      "explanation_ur": "یہ ایک ایسے شخص کے لیے استعمال ہوتا ہے جسے بیوقوف یا احمق سمجھا جاتا ہے۔",
+      "hint": "Think about bird idioms",
+      "hint_ur": "پرندوں کے محاوروں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "What is the meaning of 'Waqt se pehle aur muqaddar se zyada kisi ko kuch nahi milta'?",
+      "question_ur": "'وقت سے پہلے اور مقدر سے زیادہ کسی کو کچھ نہیں ملتا' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["No one gets anything before time or beyond fate", "Everything has its time", "Destiny controls all", "Patience is necessary"],
+        "ur": ["کوئی وقت سے پہلے یا مقدر سے زیادہ نہیں پاتا", "ہر چیز کا ایک وقت ہوتا ہے", "تقدیر سب کنٹرول کرتی ہے", "صبر ضروری ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means everything comes at its destined time and quantity.",
+      "explanation_ur": "اس کا مطلب ہے کہ ہر چیز اپنے مقررہ وقت اور مقدار میں آتی ہے۔",
+      "hint": "Think about timing",
+      "hint_ur": "وقت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 51,
+      "type": "true-false",
+      "question": "'Zor kaa bhed lalchi se koi na poochhe' means no one questions the source of power when greedy.",
+      "question_ur": "'زور کا بھید لالچی سے کوئی نہ پوچھے' کا مطلب ہے کہ لالچی ہونے پر کوئی طاقت کے ماخذ پر سوال نہیں کرتا۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means people accept power without questioning its source when they're greedy.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ لوگ طاقت کو اس کے ماخذ کے بارے میں سوال کیے بغیر قبول کر لیتے ہیں جب وہ لالچی ہوتے ہیں۔",
+      "hint": "Think about power dynamics",
+      "hint_ur": "طاقت کے تعلقات کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "What does 'Aam ke aam, guthliyon ke daam' mean?",
+      "question_ur": "'آم کے آم، گٹھلیوں کے دام' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Mangoes and their seeds", "Double benefit", "Profit from both main and byproducts", "Selling everything"],
+        "ur": ["آم اور ان کی گٹھلیاں", "دوہرا فائدہ", "مرکزی اور ضمنی مصنوعات دونوں سے منافع", "سب کچھ بیچنا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "This means profiting from both the primary and secondary aspects of something.",
+      "explanation_ur": "اس کا مطلب ہے کسی چیز کے بنیادی اور ثانوی پہلوؤں دونوں سے فائدہ اٹھانا۔",
+      "hint": "Think about multiple gains",
+      "hint_ur": "متعدد فوائد کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "What is the meaning of 'Bachay ki jaan lein to pyaar na aaye'?",
+      "question_ur": "'بچے کی جان لیں تو پیار نہ آئے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Don't kill children", "Excessive punishment kills love", "Children shouldn't be punished", "Love requires gentleness"],
+        "ur": ["بچوں کو مت مارو", "ضرورت سے زیادہ سزا محبت ختم کر دیتی ہے", "بچوں کو سزا نہیں دینی چاہیے", "محبت کے لیے نرمی چاہیے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means being too harsh can destroy love and affection.",
+      "explanation_ur": "اس کا مطلب ہے کہ بہت زیادہ سخت ہونا محبت اور پیار کو ختم کر سکتا ہے۔",
+      "hint": "Think about discipline",
+      "hint_ur": "نظم و ضبط کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 54,
+      "type": "true-false",
+      "question": "'Chalti ka naam gaadi' means things are known by their function.",
+      "question_ur": "'چلتی کا نام گاڑی' کا مطلب ہے کہ چیزیں اپنے کام سے پہچانی جاتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means things are recognized by what they do (like a vehicle by its movement).",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ چیزیں اس سے پہچانی جاتی ہیں جو وہ کرتی ہیں (جیسے گاڑی اپنی حرکت سے)۔",
+      "hint": "Think about functionality",
+      "hint_ur": "فعالیت کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "What does 'Dhande ki naani bhi nahi' mean?",
+      "question_ur": "'دھندے کی نانی بھی نہیں' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Grandmother of business", "Complete ignorance about a profession", "No business knowledge", "Not even basics known"],
+        "ur": ["کاروبار کی دادی", "کسی پیشے کے بارے میں مکمل جہالت", "کاروبار کا کوئی علم نہیں", "بنیادی باتوں کا بھی علم نہیں"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means complete lack of knowledge about a particular work or profession.",
+      "explanation_ur": "اس کا مطلب ہے کسی خاص کام یا پیشے کے بارے میں مکمل علم کی کمی۔",
+      "hint": "Think about ignorance",
+      "hint_ur": "جہالت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "What is the meaning of 'Ek anar sau bimar'?",
+      "question_ur": "'ایک انار سو بیمار' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["One pomegranate, hundred sick", "Limited resource, many claimants", "One cure for many", "Sharing problems"],
+        "ur": ["ایک انار، سو بیمار", "محدود وسائل، بہت سے دعویدار", "بہتوں کا ایک علاج", "مسائل بانٹنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means when there's limited supply but too many people wanting it.",
+      "explanation_ur": "اس کا مطلب ہے جب سپلائی محدود ہو لیکن اسے حاصل کرنے والے بہت سے لوگ ہوں۔",
+      "hint": "Think about demand and supply",
+      "hint_ur": "طلب اور رسد کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 57,
+      "type": "true-false",
+      "question": "'Ghar ki murgi daal barabar' means we undervalue what's easily available.",
+      "question_ur": "'گھر کی مرغی دال برابر' کا مطلب ہے کہ ہم اس چیز کو کم قیمت دیتے ہیں جو آسانی سے دستیاب ہو۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means we tend to take for granted what we have readily available.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ ہم اس چیز کو قدر کی نگاہ سے نہیں دیکھتے جو ہمیں آسانی سے دستیاب ہو۔",
+      "hint": "Think about home food",
+      "hint_ur": "گھر کے کھانے کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "What does 'Hathi chale bazaar, kutte bhonke hazaar' mean?",
+      "question_ur": "'ہاتھی چلے بازار، کتے بھونکے ہزار' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Elephant goes to market, dogs bark thousand", "Important people work while others just talk", "Market scene with animals", "Noise in marketplace"],
+        "ur": ["ہاتھی بازار جاتا ہے، کتے ہزار بار بھونکتے ہیں", "اہم لوگ کام کرتے ہیں جبکہ دوسرے صرف بات کرتے ہیں", "جانوروں کے ساتھ بازار کا منظر", "بازار میں شور"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means significant people keep working while insignificant ones keep making noise.",
+      "explanation_ur": "اس کا مطلب ہے کہ اہم لوگ کام کرتے رہتے ہیں جبکہ غیر اہم لوگ شور مچاتے رہتے ہیں۔",
+      "hint": "Think about workers vs talkers",
+      "hint_ur": "کام کرنے والوں بمقابلہ بات کرنے والوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "What is the meaning of 'Jab miya biwi raazi, to kya karega qazi'?",
+      "question_ur": "'جب میاں بیوی راضی، تو کیا کرے گا قاضی' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["When husband and wife agree, what can judge do", "Marital harmony prevents disputes", "Judge is powerless before mutual consent", "Agreement solves problems"],
+        "ur": ["جب میاں بیوی راضی ہوں، تو قاضی کیا کرے گا", "شوہر بیوی کا اتفاق تنازعات کو روکتا ہے", "قاضی باہمی رضامندی کے سامنے بے بس ہے", "معاہدہ مسائل کو حل کرتا ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means when two parties agree, no third party can interfere.",
+      "explanation_ur": "اس کا مطلب ہے کہ جب دو فریق متفق ہوں، تو کوئی تیسرا فریق مداخلت نہیں کر سکتا۔",
+      "hint": "Think about mutual agreement",
+      "hint_ur": "باہمی معاہدے کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 60,
+      "type": "true-false",
+      "question": "'Kachcha chittha pakka ghee' means appearances can be deceptive.",
+      "question_ur": "'کچا چٹھا پکا گھی' کا مطلب ہے کہ ظاہری شکل دھوکہ دینے والی ہو سکتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means outward appearance may be weak but substance is strong.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ ظاہری شکل کمزور ہو سکتی ہے لیکن مادہ مضبوط ہوتا ہے۔",
+      "hint": "Think about packaging",
+      "hint_ur": "پیکجنگ کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "What does 'Laaton ke bhoot baton se nahi mante' mean?",
+      "question_ur": "'لاٹھی کے بھوت باتوں سے نہیں مانتے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Ghosts of sticks don't listen to words", "Some people only understand force", "Violence is sometimes necessary", "Sticks have spirits"],
+        "ur": ["لاٹھی کے بھوت باتیں نہیں سنتے", "کچھ لوگ صرف طاقت سمجھتے ہیں", "کبھی کبھار تشدد ضروری ہوتا ہے", "لاٹھیوں میں روحیں ہوتی ہیں"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means some people only respond to force or harsh measures.",
+      "explanation_ur": "اس کا مطلب ہے کہ کچھ لوگ صرف طاقت یا سخت اقدامات پر رد عمل دیتے ہیں۔",
+      "hint": "Think about stubbornness",
+      "hint_ur": "ضدی پن کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 62,
+      "type": "mcq",
+      "question": "What is the meaning of 'Maan baap ki dua jannat ki hawa'?",
+      "question_ur": "'ماں باپ کی دعا جنت کی ہوا' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Parental blessings are like heaven's breeze", "Parents pray for children", "Heavenly winds bring blessings", "Children need parents' prayers"],
+        "ur": ["والدین کی دعائیں جنت کی ہوا کی مانند ہیں", "والدین بچوں کے لیے دعا کرتے ہیں", "جنت کی ہوائیں برکتیں لاتی ہیں", "بچوں کو والدین کی دعاؤں کی ضرورت ہوتی ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means parental blessings bring divine benefits like a heavenly breeze.",
+      "explanation_ur": "اس کا مطلب ہے کہ والدین کی دعائیں جنت کی ہوا کی مانند الہی فوائد لاتی ہیں۔",
+      "hint": "Think about blessings",
+      "hint_ur": "دعاؤں کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 63,
+      "type": "true-false",
+      "question": "'Neem hakeem khatra-e-jaan' means a half-qualified doctor is dangerous.",
+      "question_ur": "'نیم حکیم خطرہ جان' کا مطلب ہے کہ آدھے تعلیم یافتہ ڈاکٹر خطرناک ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means partial knowledge in critical fields can be dangerous.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ اہم شعبوں میں جزوی علم خطرناک ہو سکتا ہے۔",
+      "hint": "Think about medical knowledge",
+      "hint_ur": "طبی علم کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "question": "What does 'Oonth ke munh mein jeera' mean?",
+      "question_ur": "'اونٹ کے منہ میں زیرہ' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Cumin in camel's mouth", "Very small amount for a big creature", "Insignificant quantity", "Camel likes cumin"],
+        "ur": ["اونٹ کے منہ میں زیرہ", "ایک بڑے جانور کے لیے بہت تھوڑی مقدار", "ناچیز مقدار", "اونٹ کو زیرہ پسند ہے"]
+      },
+      "correctAnswer": 2,
+      "explanation": "This means something very insignificant compared to what's needed.",
+      "explanation_ur": "اس کا مطلب ہے کہ درکار چیز کے مقابلے میں بہت ہی ناچیز چیز۔",
+      "hint": "Think about proportions",
+      "hint_ur": "تناسب کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "question": "What is the meaning of 'Pani mein reh kar magarmach se bair'?",
+      "question_ur": "'پانی میں رہ کر مگرمچھ سے بیر' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Enmity with crocodile while living in water", "Being in conflict with your environment", "Quarreling with your benefactor", "Living with danger"],
+        "ur": ["پانی میں رہتے ہوئے مگرمچھ سے دشمنی", "اپنے ماحول سے تنازعہ", "اپنے محسن سے جھگڑا", "خطرے کے ساتھ رہنا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "This means being in conflict with someone you depend on for survival.",
+      "explanation_ur": "اس کا مطلب ہے کسی ایسے شخص سے تنازعہ رکھنا جس پر آپ زندہ رہنے کے لیے انحصار کرتے ہیں۔",
+      "hint": "Think about dependency",
+      "hint_ur": "انحصار کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 66,
+      "type": "true-false",
+      "question": "'Qismat aazmana' means to test one's luck.",
+      "question_ur": "'قسمت آزمانا' کا مطلب ہے اپنی قسمت کو آزمانا۔",
+      "correctAnswer": true,
+      "explanation": "This phrase indeed means to try one's luck or fortune.",
+      "explanation_ur": "اس جملے کا مطلب یقیناً اپنی قسمت یا نصیب کو آزمانا ہے۔",
+      "hint": "Think about trying chances",
+      "hint_ur": "موقعوں کو آزمانے کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "What does 'Ram naam satya hai' signify?",
+      "question_ur": "'رام naam satya ہے' کیا ظاہر کرتا ہے؟",
+      "options": {
+        "en": ["Truth of Lord Ram", "Death is ultimate truth", "Religious chant", "Name of Ram is truth"],
+        "ur": ["رام کی سچائی", "موت حتمی سچائی ہے", "مذہبی منتر", "رام کا نام سچ ہے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This phrase is chanted during Hindu funerals, signifying death as ultimate truth.",
+      "explanation_ur": "یہ جملہ ہندو جنازوں کے دوران پڑھا جاتا ہے، جو موت کو حتمی سچائی کے طور پر ظاہر کرتا ہے۔",
+      "hint": "Think about funeral rites",
+      "hint_ur": "جنازے کی رسومات کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 68,
+      "type": "mcq",
+      "question": "What is the meaning of 'Sabr ka phal meetha hota hai'?",
+      "question_ur": "'صبر کا پھل میٹھا ہوتا ہے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Fruit of patience is sweet", "Sweet results come from patience", "Patience is rewarded", "Good things come to those who wait"],
+        "ur": ["صبر کا پھل میٹھا ہوتا ہے", "میٹھے نتائج صبر سے آتے ہیں", "صبر کا صلہ ملتا ہے", "اچھی چیزیں انتظار کرنے والوں کو ملتی ہیں"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means patience ultimately leads to good results.",
+      "explanation_ur": "اس کا مطلب ہے کہ صبر آخرکار اچھے نتائج کی طرف لے جاتا ہے۔",
+      "hint": "Think about patience",
+      "hint_ur": "صبر کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 69,
+      "type": "true-false",
+      "question": "'Toota hua saaz bhi kabhi sur mein hota hai' means even broken things can sometimes function well.",
+      "question_ur": "'ٹوٹا ہوا ساز بھی کبھی سر میں ہوتا ہے' کا مطلب ہے کہ ٹوٹی ہوئی چیزیں بھی کبھی کبھی اچھی طرح کام کر سکتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means even damaged things can sometimes work properly.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ خراب شدہ چیزیں بھی کبھی کبھی صحیح طریقے سے کام کر سکتی ہیں۔",
+      "hint": "Think about imperfect things",
+      "hint_ur": "نامکمل چیزوں کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 70,
+      "type": "mcq",
+      "question": "What does 'Ullu ke patthe' mean?",
+      "question_ur": "'الو کے پٹھے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Owl's feathers", "Foolish person", "Night owl", "Wise but silent"],
+        "ur": ["الو کے پر", "بیوقوف شخص", "رات کا الو", "عقلمند لیکن خاموش"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This is a term used for someone considered foolish or stupid.",
+      "explanation_ur": "یہ ایک ایسے شخص کے لیے استعمال ہوتا ہے جسے بیوقوف یا احمق سمجھا جاتا ہے۔",
+      "hint": "Think about bird idioms",
+      "hint_ur": "پرندوں کے محاوروں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "question": "What is the meaning of 'Waqt se pehle aur muqaddar se zyada kisi ko kuch nahi milta'?",
+      "question_ur": "'وقت سے پہلے اور مقدر سے زیادہ کسی کو کچھ نہیں ملتا' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["No one gets anything before time or beyond fate", "Everything has its time", "Destiny controls all", "Patience is necessary"],
+        "ur": ["کوئی وقت سے پہلے یا مقدر سے زیادہ نہیں پاتا", "ہر چیز کا ایک وقت ہوتا ہے", "تقدیر سب کنٹرول کرتی ہے", "صبر ضروری ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means everything comes at its destined time and quantity.",
+      "explanation_ur": "اس کا مطلب ہے کہ ہر چیز اپنے مقررہ وقت اور مقدار میں آتی ہے۔",
+      "hint": "Think about timing",
+      "hint_ur": "وقت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 72,
+      "type": "true-false",
+      "question": "'Zor kaa bhed lalchi se koi na poochhe' means no one questions the source of power when greedy.",
+      "question_ur": "'زور کا بھید لالچی سے کوئی نہ پوچھے' کا مطلب ہے کہ لالچی ہونے پر کوئی طاقت کے ماخذ پر سوال نہیں کرتا۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means people accept power without questioning its source when they're greedy.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ لوگ طاقت کو اس کے ماخذ کے بارے میں سوال کیے بغیر قبول کر لیتے ہیں جب وہ لالچی ہوتے ہیں۔",
+      "hint": "Think about power dynamics",
+      "hint_ur": "طاقت کے تعلقات کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "What does 'Aam ke aam, guthliyon ke daam' mean?",
+      "question_ur": "'آم کے آم، گٹھلیوں کے دام' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Mangoes and their seeds", "Double benefit", "Profit from both main and byproducts", "Selling everything"],
+        "ur": ["آم اور ان کی گٹھلیاں", "دوہرا فائدہ", "مرکزی اور ضمنی مصنوعات دونوں سے منافع", "سب کچھ بیچنا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "This means profiting from both the primary and secondary aspects of something.",
+      "explanation_ur": "اس کا مطلب ہے کسی چیز کے بنیادی اور ثانوی پہلوؤں دونوں سے فائدہ اٹھانا۔",
+      "hint": "Think about multiple gains",
+      "hint_ur": "متعدد فوائد کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 74,
+      "type": "mcq",
+      "question": "What is the meaning of 'Bachay ki jaan lein to pyaar na aaye'?",
+      "question_ur": "'بچے کی جان لیں تو پیار نہ آئے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Don't kill children", "Excessive punishment kills love", "Children shouldn't be punished", "Love requires gentleness"],
+        "ur": ["بچوں کو مت مارو", "ضرورت سے زیادہ سزا محبت ختم کر دیتی ہے", "بچوں کو سزا نہیں دینی چاہیے", "محبت کے لیے نرمی چاہیے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means being too harsh can destroy love and affection.",
+      "explanation_ur": "اس کا مطلب ہے کہ بہت زیادہ سخت ہونا محبت اور پیار کو ختم کر سکتا ہے۔",
+      "hint": "Think about discipline",
+      "hint_ur": "نظم و ضبط کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 75,
+      "type": "true-false",
+      "question": "'Chalti ka naam gaadi' means things are known by their function.",
+      "question_ur": "'چلتی کا نام گاڑی' کا مطلب ہے کہ چیزیں اپنے کام سے پہچانی جاتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means things are recognized by what they do (like a vehicle by its movement).",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ چیزیں اس سے پہچانی جاتی ہیں جو وہ کرتی ہیں (جیسے گاڑی اپنی حرکت سے)۔",
+      "hint": "Think about functionality",
+      "hint_ur": "فعالیت کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "question": "What does 'Dhande ki naani bhi nahi' mean?",
+      "question_ur": "'دھندے کی نانی بھی نہیں' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Grandmother of business", "Complete ignorance about a profession", "No business knowledge", "Not even basics known"],
+        "ur": ["کاروبار کی دادی", "کسی پیشے کے بارے میں مکمل جہالت", "کاروبار کا کوئی علم نہیں", "بنیادی باتوں کا بھی علم نہیں"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means complete lack of knowledge about a particular work or profession.",
+      "explanation_ur": "اس کا مطلب ہے کسی خاص کام یا پیشے کے بارے میں مکمل علم کی کمی۔",
+      "hint": "Think about ignorance",
+      "hint_ur": "جہالت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "question": "What is the meaning of 'Ek anar sau bimar'?",
+      "question_ur": "'ایک انار سو بیمار' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["One pomegranate, hundred sick", "Limited resource, many claimants", "One cure for many", "Sharing problems"],
+        "ur": ["ایک انار، سو بیمار", "محدود وسائل، بہت سے دعویدار", "بہتوں کا ایک علاج", "مسائل بانٹنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means when there's limited supply but too many people wanting it.",
+      "explanation_ur": "اس کا مطلب ہے جب سپلائی محدود ہو لیکن اسے حاصل کرنے والے بہت سے لوگ ہوں۔",
+      "hint": "Think about demand and supply",
+      "hint_ur": "طلب اور رسد کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 78,
+      "type": "true-false",
+      "question": "'Ghar ki murgi daal barabar' means we undervalue what's easily available.",
+      "question_ur": "'گھر کی مرغی دال برابر' کا مطلب ہے کہ ہم اس چیز کو کم قیمت دیتے ہیں جو آسانی سے دستیاب ہو۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means we tend to take for granted what we have readily available.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ ہم اس چیز کو قدر کی نگاہ سے نہیں دیکھتے جو ہمیں آسانی سے دستیاب ہو۔",
+      "hint": "Think about home food",
+      "hint_ur": "گھر کے کھانے کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "What does 'Hathi chale bazaar, kutte bhonke hazaar' mean?",
+      "question_ur": "'ہاتھی چلے بازار، کتے بھونکے ہزار' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Elephant goes to market, dogs bark thousand", "Important people work while others just talk", "Market scene with animals", "Noise in marketplace"],
+        "ur": ["ہاتھی بازار جاتا ہے، کتے ہزار بار بھونکتے ہیں", "اہم لوگ کام کرتے ہیں جبکہ دوسرے صرف بات کرتے ہیں", "جانوروں کے ساتھ بازار کا منظر", "بازار میں شور"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means significant people keep working while insignificant ones keep making noise.",
+      "explanation_ur": "اس کا مطلب ہے کہ اہم لوگ کام کرتے رہتے ہیں جبکہ غیر اہم لوگ شور مچاتے رہتے ہیں۔",
+      "hint": "Think about workers vs talkers",
+      "hint_ur": "کام کرنے والوں بمقابلہ بات کرنے والوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 80,
+      "type": "mcq",
+      "question": "What is the meaning of 'Jab miya biwi raazi, to kya karega qazi'?",
+      "question_ur": "'جب میاں بیوی راضی، تو کیا کرے گا قاضی' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["When husband and wife agree, what can judge do", "Marital harmony prevents disputes", "Judge is powerless before mutual consent", "Agreement solves problems"],
+        "ur": ["جب میاں بیوی راضی ہوں، تو قاضی کیا کرے گا", "شوہر بیوی کا اتفاق تنازعات کو روکتا ہے", "قاضی باہمی رضامندی کے سامنے بے بس ہے", "معاہدہ مسائل کو حل کرتا ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means when two parties agree, no third party can interfere.",
+      "explanation_ur": "اس کا مطلب ہے کہ جب دو فریق متفق ہوں، تو کوئی تیسرا فریق مداخلت نہیں کر سکتا۔",
+      "hint": "Think about mutual agreement",
+      "hint_ur": "باہمی معاہدے کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 81,
+      "type": "true-false",
+      "question": "'Kachcha chittha pakka ghee' means appearances can be deceptive.",
+      "question_ur": "'کچا چٹھا پکا گھی' کا مطلب ہے کہ ظاہری شکل دھوکہ دینے والی ہو سکتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means outward appearance may be weak but substance is strong.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ ظاہری شکل کمزور ہو سکتی ہے لیکن مادہ مضبوط ہوتا ہے۔",
+      "hint": "Think about packaging",
+      "hint_ur": "پیکجنگ کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "question": "What does 'Laaton ke bhoot baton se nahi mante' mean?",
+      "question_ur": "'لاٹھی کے بھوت باتوں سے نہیں مانتے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Ghosts of sticks don't listen to words", "Some people only understand force", "Violence is sometimes necessary", "Sticks have spirits"],
+        "ur": ["لاٹھی کے بھوت باتیں نہیں سنتے", "کچھ لوگ صرف طاقت سمجھتے ہیں", "کبھی کبھار تشدد ضروری ہوتا ہے", "لاٹھیوں میں روحیں ہوتی ہیں"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means some people only respond to force or harsh measures.",
+      "explanation_ur": "اس کا مطلب ہے کہ کچھ لوگ صرف طاقت یا سخت اقدامات پر رد عمل دیتے ہیں۔",
+      "hint": "Think about stubbornness",
+      "hint_ur": "ضدی پن کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "question": "What is the meaning of 'Maan baap ki dua jannat ki hawa'?",
+      "question_ur": "'ماں باپ کی دعا جنت کی ہوا' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Parental blessings are like heaven's breeze", "Parents pray for children", "Heavenly winds bring blessings", "Children need parents' prayers"],
+        "ur": ["والدین کی دعائیں جنت کی ہوا کی مانند ہیں", "والدین بچوں کے لیے دعا کرتے ہیں", "جنت کی ہوائیں برکتیں لاتی ہیں", "بچوں کو والدین کی دعاؤں کی ضرورت ہوتی ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means parental blessings bring divine benefits like a heavenly breeze.",
+      "explanation_ur": "اس کا مطلب ہے کہ والدین کی دعائیں جنت کی ہوا کی مانند الہی فوائد لاتی ہیں۔",
+      "hint": "Think about blessings",
+      "hint_ur": "دعاؤں کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 84,
+      "type": "true-false",
+      "question": "'Neem hakeem khatra-e-jaan' means a half-qualified doctor is dangerous.",
+      "question_ur": "'نیم حکیم خطرہ جان' کا مطلب ہے کہ آدھے تعلیم یافتہ ڈاکٹر خطرناک ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means partial knowledge in critical fields can be dangerous.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ اہم شعبوں میں جزوی علم خطرناک ہو سکتا ہے۔",
+      "hint": "Think about medical knowledge",
+      "hint_ur": "طبی علم کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "What does 'Oonth ke munh mein jeera' mean?",
+      "question_ur": "'اونٹ کے منہ میں زیرہ' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Cumin in camel's mouth", "Very small amount for a big creature", "Insignificant quantity", "Camel likes cumin"],
+        "ur": ["اونٹ کے منہ میں زیرہ", "ایک بڑے جانور کے لیے بہت تھوڑی مقدار", "ناچیز مقدار", "اونٹ کو زیرہ پسند ہے"]
+      },
+      "correctAnswer": 2,
+      "explanation": "This means something very insignificant compared to what's needed.",
+      "explanation_ur": "اس کا مطلب ہے کہ درکار چیز کے مقابلے میں بہت ہی ناچیز چیز۔",
+      "hint": "Think about proportions",
+      "hint_ur": "تناسب کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 86,
+      "type": "mcq",
+      "question": "What is the meaning of 'Pani mein reh kar magarmach se bair'?",
+      "question_ur": "'پانی میں رہ کر مگرمچھ سے بیر' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Enmity with crocodile while living in water", "Being in conflict with your environment", "Quarreling with your benefactor", "Living with danger"],
+        "ur": ["پانی میں رہتے ہوئے مگرمچھ سے دشمنی", "اپنے ماحول سے تنازعہ", "اپنے محسن سے جھگڑا", "خطرے کے ساتھ رہنا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "This means being in conflict with someone you depend on for survival.",
+      "explanation_ur": "اس کا مطلب ہے کسی ایسے شخص سے تنازعہ رکھنا جس پر آپ زندہ رہنے کے لیے انحصار کرتے ہیں۔",
+      "hint": "Think about dependency",
+      "hint_ur": "انحصار کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 87,
+      "type": "true-false",
+      "question": "'Qismat aazmana' means to test one's luck.",
+      "question_ur": "'قسمت آزمانا' کا مطلب ہے اپنی قسمت کو آزمانا۔",
+      "correctAnswer": true,
+      "explanation": "This phrase indeed means to try one's luck or fortune.",
+      "explanation_ur": "اس جملے کا مطلب یقیناً اپنی قسمت یا نصیب کو آزمانا ہے۔",
+      "hint": "Think about trying chances",
+      "hint_ur": "موقعوں کو آزمانے کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "question": "What does 'Ram naam satya hai' signify?",
+      "question_ur": "'رام naam satya ہے' کیا ظاہر کرتا ہے؟",
+      "options": {
+        "en": ["Truth of Lord Ram", "Death is ultimate truth", "Religious chant", "Name of Ram is truth"],
+        "ur": ["رام کی سچائی", "موت حتمی سچائی ہے", "مذہبی منتر", "رام کا نام سچ ہے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This phrase is chanted during Hindu funerals, signifying death as ultimate truth.",
+      "explanation_ur": "یہ جملہ ہندو جنازوں کے دوران پڑھا جاتا ہے، جو موت کو حتمی سچائی کے طور پر ظاہر کرتا ہے۔",
+      "hint": "Think about funeral rites",
+      "hint_ur": "جنازے کی رسومات کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "question": "What is the meaning of 'Sabr ka phal meetha hota hai'?",
+      "question_ur": "'صبر کا پھل میٹھا ہوتا ہے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Fruit of patience is sweet", "Sweet results come from patience", "Patience is rewarded", "Good things come to those who wait"],
+        "ur": ["صبر کا پھل میٹھا ہوتا ہے", "میٹھے نتائج صبر سے آتے ہیں", "صبر کا صلہ ملتا ہے", "اچھی چیزیں انتظار کرنے والوں کو ملتی ہیں"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means patience ultimately leads to good results.",
+      "explanation_ur": "اس کا مطلب ہے کہ صبر آخرکار اچھے نتائج کی طرف لے جاتا ہے۔",
+      "hint": "Think about patience",
+      "hint_ur": "صبر کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 90,
+      "type": "true-false",
+      "question": "'Toota hua saaz bhi kabhi sur mein hota hai' means even broken things can sometimes function well.",
+      "question_ur": "'ٹوٹا ہوا ساز بھی کبھی سر میں ہوتا ہے' کا مطلب ہے کہ ٹوٹی ہوئی چیزیں بھی کبھی کبھی اچھی طرح کام کر سکتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means even damaged things can sometimes work properly.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ خراب شدہ چیزیں بھی کبھی کبھی صحیح طریقے سے کام کر سکتی ہیں۔",
+      "hint": "Think about imperfect things",
+      "hint_ur": "نامکمل چیزوں کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "What does 'Ullu ke patthe' mean?",
+      "question_ur": "'الو کے پٹھے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Owl's feathers", "Foolish person", "Night owl", "Wise but silent"],
+        "ur": ["الو کے پر", "بیوقوف شخص", "رات کا الو", "عقلمند لیکن خاموش"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This is a term used for someone considered foolish or stupid.",
+      "explanation_ur": "یہ ایک ایسے شخص کے لیے استعمال ہوتا ہے جسے بیوقوف یا احمق سمجھا جاتا ہے۔",
+      "hint": "Think about bird idioms",
+      "hint_ur": "پرندوں کے محاوروں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 92,
+      "type": "mcq",
+      "question": "What is the meaning of 'Waqt se pehle aur muqaddar se zyada kisi ko kuch nahi milta'?",
+      "question_ur": "'وقت سے پہلے اور مقدر سے زیادہ کسی کو کچھ نہیں ملتا' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["No one gets anything before time or beyond fate", "Everything has its time", "Destiny controls all", "Patience is necessary"],
+        "ur": ["کوئی وقت سے پہلے یا مقدر سے زیادہ نہیں پاتا", "ہر چیز کا ایک وقت ہوتا ہے", "تقدیر سب کنٹرول کرتی ہے", "صبر ضروری ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means everything comes at its destined time and quantity.",
+      "explanation_ur": "اس کا مطلب ہے کہ ہر چیز اپنے مقررہ وقت اور مقدار میں آتی ہے۔",
+      "hint": "Think about timing",
+      "hint_ur": "وقت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 93,
+      "type": "true-false",
+      "question": "'Zor kaa bhed lalchi se koi na poochhe' means no one questions the source of power when greedy.",
+      "question_ur": "'زور کا بھید لالچی سے کوئی نہ پوچھے' کا مطلب ہے کہ لالچی ہونے پر کوئی طاقت کے ماخذ پر سوال نہیں کرتا۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means people accept power without questioning its source when they're greedy.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ لوگ طاقت کو اس کے ماخذ کے بارے میں سوال کیے بغیر قبول کر لیتے ہیں جب وہ لالچی ہوتے ہیں۔",
+      "hint": "Think about power dynamics",
+      "hint_ur": "طاقت کے تعلقات کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "question": "What does 'Aam ke aam, guthliyon ke daam' mean?",
+      "question_ur": "'آم کے آم، گٹھلیوں کے دام' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Mangoes and their seeds", "Double benefit", "Profit from both main and byproducts", "Selling everything"],
+        "ur": ["آم اور ان کی گٹھلیاں", "دوہرا فائدہ", "مرکزی اور ضمنی مصنوعات دونوں سے منافع", "سب کچھ بیچنا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "This means profiting from both the primary and secondary aspects of something.",
+      "explanation_ur": "اس کا مطلب ہے کسی چیز کے بنیادی اور ثانوی پہلوؤں دونوں سے فائدہ اٹھانا۔",
+      "hint": "Think about multiple gains",
+      "hint_ur": "متعدد فوائد کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 95,
+      "type": "mcq",
+      "question": "What is the meaning of 'Bachay ki jaan lein to pyaar na aaye'?",
+      "question_ur": "'بچے کی جان لیں تو پیار نہ آئے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Don't kill children", "Excessive punishment kills love", "Children shouldn't be punished", "Love requires gentleness"],
+        "ur": ["بچوں کو مت مارو", "ضرورت سے زیادہ سزا محبت ختم کر دیتی ہے", "بچوں کو سزا نہیں دینی چاہیے", "محبت کے لیے نرمی چاہیے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means being too harsh can destroy love and affection.",
+      "explanation_ur": "اس کا مطلب ہے کہ بہت زیادہ سخت ہونا محبت اور پیار کو ختم کر سکتا ہے۔",
+      "hint": "Think about discipline",
+      "hint_ur": "نظم و ضبط کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 96,
+      "type": "true-false",
+      "question": "'Chalti ka naam gaadi' means things are known by their function.",
+      "question_ur": "'چلتی کا نام گاڑی' کا مطلب ہے کہ چیزیں اپنے کام سے پہچانی جاتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means things are recognized by what they do (like a vehicle by its movement).",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ چیزیں اس سے پہچانی جاتی ہیں جو وہ کرتی ہیں (جیسے گاڑی اپنی حرکت سے)۔",
+      "hint": "Think about functionality",
+      "hint_ur": "فعالیت کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "question": "What does 'Dhande ki naani bhi nahi' mean?",
+      "question_ur": "'دھندے کی نانی بھی نہیں' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Grandmother of business", "Complete ignorance about a profession", "No business knowledge", "Not even basics known"],
+        "ur": ["کاروبار کی دادی", "کسی پیشے کے بارے میں مکمل جہالت", "کاروبار کا کوئی علم نہیں", "بنیادی باتوں کا بھی علم نہیں"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means complete lack of knowledge about a particular work or profession.",
+      "explanation_ur": "اس کا مطلب ہے کسی خاص کام یا پیشے کے بارے میں مکمل علم کی کمی۔",
+      "hint": "Think about ignorance",
+      "hint_ur": "جہالت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 98,
+      "type": "mcq",
+      "question": "What is the meaning of 'Ek anar sau bimar'?",
+      "question_ur": "'ایک انار سو بیمار' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["One pomegranate, hundred sick", "Limited resource, many claimants", "One cure for many", "Sharing problems"],
+        "ur": ["ایک انار، سو بیمار", "محدود وسائل، بہت سے دعویدار", "بہتوں کا ایک علاج", "مسائل بانٹنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means when there's limited supply but too many people wanting it.",
+      "explanation_ur": "اس کا مطلب ہے جب سپلائی محدود ہو لیکن اسے حاصل کرنے والے بہت سے لوگ ہوں۔",
+      "hint": "Think about demand and supply",
+      "hint_ur": "طلب اور رسد کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 99,
+      "type": "true-false",
+      "question": "'Ghar ki murgi daal barabar' means we undervalue what's easily available.",
+      "question_ur": "'گھر کی مرغی دال برابر' کا مطلب ہے کہ ہم اس چیز کو کم قیمت دیتے ہیں جو آسانی سے دستیاب ہو۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means we tend to take for granted what we have readily available.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ ہم اس چیز کو قدر کی نگاہ سے نہیں دیکھتے جو ہمیں آسانی سے دستیاب ہو۔",
+      "hint": "Think about home food",
+      "hint_ur": "گھر کے کھانے کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 100,
+      "type": "mcq",
+      "question": "What does 'Hathi chale bazaar, kutte bhonke hazaar' mean?",
+      "question_ur": "'ہاتھی چلے بازار، کتے بھونکے ہزار' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Elephant goes to market, dogs bark thousand", "Important people work while others just talk", "Market scene with animals", "Noise in marketplace"],
+        "ur": ["ہاتھی بازار جاتا ہے، کتے ہزار بار بھونکتے ہیں", "اہم لوگ کام کرتے ہیں جبکہ دوسرے صرف بات کرتے ہیں", "جانوروں کے ساتھ بازار کا منظر", "بازار میں شور"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means significant people keep working while insignificant ones keep making noise.",
+      "explanation_ur": "اس کا مطلب ہے کہ اہم لوگ کام کرتے رہتے ہیں جبکہ غیر اہم لوگ شور مچاتے رہتے ہیں۔",
+      "hint": "Think about workers vs talkers",
+      "hint_ur": "کام کرنے والوں بمقابلہ بات کرنے والوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 101,
+      "type": "mcq",
+      "question": "What is the meaning of 'Jab miya biwi raazi, to kya karega qazi'?",
+      "question_ur": "'جب میاں بیوی راضی، تو کیا کرے گا قاضی' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["When husband and wife agree, what can judge do", "Marital harmony prevents disputes", "Judge is powerless before mutual consent", "Agreement solves problems"],
+        "ur": ["جب میاں بیوی راضی ہوں، تو قاضی کیا کرے گا", "شوہر بیوی کا اتفاق تنازعات کو روکتا ہے", "قاضی باہمی رضامندی کے سامنے بے بس ہے", "معاہدہ مسائل کو حل کرتا ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means when two parties agree, no third party can interfere.",
+      "explanation_ur": "اس کا مطلب ہے کہ جب دو فریق متفق ہوں، تو کوئی تیسرا فریق مداخلت نہیں کر سکتا۔",
+      "hint": "Think about mutual agreement",
+      "hint_ur": "باہمی معاہدے کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 102,
+      "type": "true-false",
+      "question": "'Kachcha chittha pakka ghee' means appearances can be deceptive.",
+      "question_ur": "'کچا چٹھا پکا گھی' کا مطلب ہے کہ ظاہری شکل دھوکہ دینے والی ہو سکتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means outward appearance may be weak but substance is strong.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ ظاہری شکل کمزور ہو سکتی ہے لیکن مادہ مضبوط ہوتا ہے۔",
+      "hint": "Think about packaging",
+      "hint_ur": "پیکجنگ کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "question": "What does 'Laaton ke bhoot baton se nahi mante' mean?",
+      "question_ur": "'لاٹھی کے بھوت باتوں سے نہیں مانتے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Ghosts of sticks don't listen to words", "Some people only understand force", "Violence is sometimes necessary", "Sticks have spirits"],
+        "ur": ["لاٹھی کے بھوت باتیں نہیں سنتے", "کچھ لوگ صرف طاقت سمجھتے ہیں", "کبھی کبھار تشدد ضروری ہوتا ہے", "لاٹھیوں میں روحیں ہوتی ہیں"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means some people only respond to force or harsh measures.",
+      "explanation_ur": "اس کا مطلب ہے کہ کچھ لوگ صرف طاقت یا سخت اقدامات پر رد عمل دیتے ہیں۔",
+      "hint": "Think about stubbornness",
+      "hint_ur": "ضدی پن کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 104,
+      "type": "mcq",
+      "question": "What is the meaning of 'Maan baap ki dua jannat ki hawa'?",
+      "question_ur": "'ماں باپ کی دعا جنت کی ہوا' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Parental blessings are like heaven's breeze", "Parents pray for children", "Heavenly winds bring blessings", "Children need parents' prayers"],
+        "ur": ["والدین کی دعائیں جنت کی ہوا کی مانند ہیں", "والدین بچوں کے لیے دعا کرتے ہیں", "جنت کی ہوائیں برکتیں لاتی ہیں", "بچوں کو والدین کی دعاؤں کی ضرورت ہوتی ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means parental blessings bring divine benefits like a heavenly breeze.",
+      "explanation_ur": "اس کا مطلب ہے کہ والدین کی دعائیں جنت کی ہوا کی مانند الہی فوائد لاتی ہیں۔",
+      "hint": "Think about blessings",
+      "hint_ur": "دعاؤں کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 105,
+      "type": "true-false",
+      "question": "'Neem hakeem khatra-e-jaan' means a half-qualified doctor is dangerous.",
+      "question_ur": "'نیم حکیم خطرہ جان' کا مطلب ہے کہ آدھے تعلیم یافتہ ڈاکٹر خطرناک ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means partial knowledge in critical fields can be dangerous.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ اہم شعبوں میں جزوی علم خطرناک ہو سکتا ہے۔",
+      "hint": "Think about medical knowledge",
+      "hint_ur": "طبی علم کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 106,
+      "type": "mcq",
+      "question": "What does 'Oonth ke munh mein jeera' mean?",
+      "question_ur": "'اونٹ کے منہ میں زیرہ' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Cumin in camel's mouth", "Very small amount for a big creature", "Insignificant quantity", "Camel likes cumin"],
+        "ur": ["اونٹ کے منہ میں زیرہ", "ایک بڑے جانور کے لیے بہت تھوڑی مقدار", "ناچیز مقدار", "اونٹ کو زیرہ پسند ہے"]
+      },
+      "correctAnswer": 2,
+      "explanation": "This means something very insignificant compared to what's needed.",
+      "explanation_ur": "اس کا مطلب ہے کہ درکار چیز کے مقابلے میں بہت ہی ناچیز چیز۔",
+      "hint": "Think about proportions",
+      "hint_ur": "تناسب کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 107,
+      "type": "mcq",
+      "question": "What is the meaning of 'Pani mein reh kar magarmach se bair'?",
+      "question_ur": "'پانی میں رہ کر مگرمچھ سے بیر' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Enmity with crocodile while living in water", "Being in conflict with your environment", "Quarreling with your benefactor", "Living with danger"],
+        "ur": ["پانی میں رہتے ہوئے مگرمچھ سے دشمنی", "اپنے ماحول سے تنازعہ", "اپنے محسن سے جھگڑا", "خطرے کے ساتھ رہنا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "This means being in conflict with someone you depend on for survival.",
+      "explanation_ur": "اس کا مطلب ہے کسی ایسے شخص سے تنازعہ رکھنا جس پر آپ زندہ رہنے کے لیے انحصار کرتے ہیں۔",
+      "hint": "Think about dependency",
+      "hint_ur": "انحصار کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 108,
+      "type": "true-false",
+      "question": "'Qismat aazmana' means to test one's luck.",
+      "question_ur": "'قسمت آزمانا' کا مطلب ہے اپنی قسمت کو آزمانا۔",
+      "correctAnswer": true,
+      "explanation": "This phrase indeed means to try one's luck or fortune.",
+      "explanation_ur": "اس جملے کا مطلب یقیناً اپنی قسمت یا نصیب کو آزمانا ہے۔",
+      "hint": "Think about trying chances",
+      "hint_ur": "موقعوں کو آزمانے کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "question": "What does 'Ram naam satya hai' signify?",
+      "question_ur": "'رام naam satya ہے' کیا ظاہر کرتا ہے؟",
+      "options": {
+        "en": ["Truth of Lord Ram", "Death is ultimate truth", "Religious chant", "Name of Ram is truth"],
+        "ur": ["رام کی سچائی", "موت حتمی سچائی ہے", "مذہبی منتر", "رام کا نام سچ ہے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This phrase is chanted during Hindu funerals, signifying death as ultimate truth.",
+      "explanation_ur": "یہ جملہ ہندو جنازوں کے دوران پڑھا جاتا ہے، جو موت کو حتمی سچائی کے طور پر ظاہر کرتا ہے۔",
+      "hint": "Think about funeral rites",
+      "hint_ur": "جنازے کی رسومات کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 110,
+      "type": "mcq",
+      "question": "What is the meaning of 'Sabr ka phal meetha hota hai'?",
+      "question_ur": "'صبر کا پھل میٹھا ہوتا ہے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Fruit of patience is sweet", "Sweet results come from patience", "Patience is rewarded", "Good things come to those who wait"],
+        "ur": ["صبر کا پھل میٹھا ہوتا ہے", "میٹھے نتائج صبر سے آتے ہیں", "صبر کا صلہ ملتا ہے", "اچھی چیزیں انتظار کرنے والوں کو ملتی ہیں"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means patience ultimately leads to good results.",
+      "explanation_ur": "اس کا مطلب ہے کہ صبر آخرکار اچھے نتائج کی طرف لے جاتا ہے۔",
+      "hint": "Think about patience",
+      "hint_ur": "صبر کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 111,
+      "type": "true-false",
+      "question": "'Toota hua saaz bhi kabhi sur mein hota hai' means even broken things can sometimes function well.",
+      "question_ur": "'ٹوٹا ہوا ساز بھی کبھی سر میں ہوتا ہے' کا مطلب ہے کہ ٹوٹی ہوئی چیزیں بھی کبھی کبھی اچھی طرح کام کر سکتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means even damaged things can sometimes work properly.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ خراب شدہ چیزیں بھی کبھی کبھی صحیح طریقے سے کام کر سکتی ہیں۔",
+      "hint": "Think about imperfect things",
+      "hint_ur": "نامکمل چیزوں کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 112,
+      "type": "mcq",
+      "question": "What does 'Ullu ke patthe' mean?",
+      "question_ur": "'الو کے پٹھے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Owl's feathers", "Foolish person", "Night owl", "Wise but silent"],
+        "ur": ["الو کے پر", "بیوقوف شخص", "رات کا الو", "عقلمند لیکن خاموش"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This is a term used for someone considered foolish or stupid.",
+      "explanation_ur": "یہ ایک ایسے شخص کے لیے استعمال ہوتا ہے جسے بیوقوف یا احمق سمجھا جاتا ہے۔",
+      "hint": "Think about bird idioms",
+      "hint_ur": "پرندوں کے محاوروں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 113,
+      "type": "mcq",
+      "question": "What is the meaning of 'Waqt se pehle aur muqaddar se zyada kisi ko kuch nahi milta'?",
+      "question_ur": "'وقت سے پہلے اور مقدر سے زیادہ کسی کو کچھ نہیں ملتا' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["No one gets anything before time or beyond fate", "Everything has its time", "Destiny controls all", "Patience is necessary"],
+        "ur": ["کوئی وقت سے پہلے یا مقدر سے زیادہ نہیں پاتا", "ہر چیز کا ایک وقت ہوتا ہے", "تقدیر سب کنٹرول کرتی ہے", "صبر ضروری ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means everything comes at its destined time and quantity.",
+      "explanation_ur": "اس کا مطلب ہے کہ ہر چیز اپنے مقررہ وقت اور مقدار میں آتی ہے۔",
+      "hint": "Think about timing",
+      "hint_ur": "وقت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 114,
+      "type": "true-false",
+      "question": "'Zor kaa bhed lalchi se koi na poochhe' means no one questions the source of power when greedy.",
+      "question_ur": "'زور کا بھید لالچی سے کوئی نہ پوچھے' کا مطلب ہے کہ لالچی ہونے پر کوئی طاقت کے ماخذ پر سوال نہیں کرتا۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means people accept power without questioning its source when they're greedy.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ لوگ طاقت کو اس کے ماخذ کے بارے میں سوال کیے بغیر قبول کر لیتے ہیں جب وہ لالچی ہوتے ہیں۔",
+      "hint": "Think about power dynamics",
+      "hint_ur": "طاقت کے تعلقات کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "question": "What does 'Aam ke aam, guthliyon ke daam' mean?",
+      "question_ur": "'آم کے آم، گٹھلیوں کے دام' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Mangoes and their seeds", "Double benefit", "Profit from both main and byproducts", "Selling everything"],
+        "ur": ["آم اور ان کی گٹھلیاں", "دوہرا فائدہ", "مرکزی اور ضمنی مصنوعات دونوں سے منافع", "سب کچھ بیچنا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "This means profiting from both the primary and secondary aspects of something.",
+      "explanation_ur": "اس کا مطلب ہے کسی چیز کے بنیادی اور ثانوی پہلوؤں دونوں سے فائدہ اٹھانا۔",
+      "hint": "Think about multiple gains",
+      "hint_ur": "متعدد فوائد کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 116,
+      "type": "mcq",
+      "question": "What is the meaning of 'Bachay ki jaan lein to pyaar na aaye'?",
+      "question_ur": "'بچے کی جان لیں تو پیار نہ آئے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Don't kill children", "Excessive punishment kills love", "Children shouldn't be punished", "Love requires gentleness"],
+        "ur": ["بچوں کو مت مارو", "ضرورت سے زیادہ سزا محبت ختم کر دیتی ہے", "بچوں کو سزا نہیں دینی چاہیے", "محبت کے لیے نرمی چاہیے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means being too harsh can destroy love and affection.",
+      "explanation_ur": "اس کا مطلب ہے کہ بہت زیادہ سخت ہونا محبت اور پیار کو ختم کر سکتا ہے۔",
+      "hint": "Think about discipline",
+      "hint_ur": "نظم و ضبط کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 117,
+      "type": "true-false",
+      "question": "'Chalti ka naam gaadi' means things are known by their function.",
+      "question_ur": "'چلتی کا نام گاڑی' کا مطلب ہے کہ چیزیں اپنے کام سے پہچانی جاتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means things are recognized by what they do (like a vehicle by its movement).",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ چیزیں اس سے پہچانی جاتی ہیں جو وہ کرتی ہیں (جیسے گاڑی اپنی حرکت سے)۔",
+      "hint": "Think about functionality",
+      "hint_ur": "فعالیت کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 118,
+      "type": "mcq",
+      "question": "What does 'Dhande ki naani bhi nahi' mean?",
+      "question_ur": "'دھندے کی نانی بھی نہیں' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Grandmother of business", "Complete ignorance about a profession", "No business knowledge", "Not even basics known"],
+        "ur": ["کاروبار کی دادی", "کسی پیشے کے بارے میں مکمل جہالت", "کاروبار کا کوئی علم نہیں", "بنیادی باتوں کا بھی علم نہیں"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means complete lack of knowledge about a particular work or profession.",
+      "explanation_ur": "اس کا مطلب ہے کسی خاص کام یا پیشے کے بارے میں مکمل علم کی کمی۔",
+      "hint": "Think about ignorance",
+      "hint_ur": "جہالت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 119,
+      "type": "mcq",
+      "question": "What is the meaning of 'Ek anar sau bimar'?",
+      "question_ur": "'ایک انار سو بیمار' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["One pomegranate, hundred sick", "Limited resource, many claimants", "One cure for many", "Sharing problems"],
+        "ur": ["ایک انار، سو بیمار", "محدود وسائل، بہت سے دعویدار", "بہتوں کا ایک علاج", "مسائل بانٹنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means when there's limited supply but too many people wanting it.",
+      "explanation_ur": "اس کا مطلب ہے جب سپلائی محدود ہو لیکن اسے حاصل کرنے والے بہت سے لوگ ہوں۔",
+      "hint": "Think about demand and supply",
+      "hint_ur": "طلب اور رسد کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 120,
+      "type": "true-false",
+      "question": "'Ghar ki murgi daal barabar' means we undervalue what's easily available.",
+      "question_ur": "'گھر کی مرغی دال برابر' کا مطلب ہے کہ ہم اس چیز کو کم قیمت دیتے ہیں جو آسانی سے دستیاب ہو۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means we tend to take for granted what we have readily available.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ ہم اس چیز کو قدر کی نگاہ سے نہیں دیکھتے جو ہمیں آسانی سے دستیاب ہو۔",
+      "hint": "Think about home food",
+      "hint_ur": "گھر کے کھانے کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 121,
+      "type": "mcq",
+      "question": "What does 'Hathi chale bazaar, kutte bhonke hazaar' mean?",
+      "question_ur": "'ہاتھی چلے بازار، کتے بھونکے ہزار' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Elephant goes to market, dogs bark thousand", "Important people work while others just talk", "Market scene with animals", "Noise in marketplace"],
+        "ur": ["ہاتھی بازار جاتا ہے، کتے ہزار بار بھونکتے ہیں", "اہم لوگ کام کرتے ہیں جبکہ دوسرے صرف بات کرتے ہیں", "جانوروں کے ساتھ بازار کا منظر", "بازار میں شور"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means significant people keep working while insignificant ones keep making noise.",
+      "explanation_ur": "اس کا مطلب ہے کہ اہم لوگ کام کرتے رہتے ہیں جبکہ غیر اہم لوگ شور مچاتے رہتے ہیں۔",
+      "hint": "Think about workers vs talkers",
+      "hint_ur": "کام کرنے والوں بمقابلہ بات کرنے والوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 122,
+      "type": "mcq",
+      "question": "What is the meaning of 'Jab miya biwi raazi, to kya karega qazi'?",
+      "question_ur": "'جب میاں بیوی راضی، تو کیا کرے گا قاضی' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["When husband and wife agree, what can judge do", "Marital harmony prevents disputes", "Judge is powerless before mutual consent", "Agreement solves problems"],
+        "ur": ["جب میاں بیوی راضی ہوں، تو قاضی کیا کرے گا", "شوہر بیوی کا اتفاق تنازعات کو روکتا ہے", "قاضی باہمی رضامندی کے سامنے بے بس ہے", "معاہدہ مسائل کو حل کرتا ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means when two parties agree, no third party can interfere.",
+      "explanation_ur": "اس کا مطلب ہے کہ جب دو فریق متفق ہوں، تو کوئی تیسرا فریق مداخلت نہیں کر سکتا۔",
+      "hint": "Think about mutual agreement",
+      "hint_ur": "باہمی معاہدے کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 123,
+      "type": "true-false",
+      "question": "'Kachcha chittha pakka ghee' means appearances can be deceptive.",
+      "question_ur": "'کچا چٹھا پکا گھی' کا مطلب ہے کہ ظاہری شکل دھوکہ دینے والی ہو سکتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "This proverb means outward appearance may be weak but substance is strong.",
+      "explanation_ur": "اس محاورے کا مطلب ہے کہ ظاہری شکل کمزور ہو سکتی ہے لیکن مادہ مضبوط ہوتا ہے۔",
+      "hint": "Think about packaging",
+      "hint_ur": "پیکجنگ کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 124,
+      "type": "mcq",
+      "question": "What does 'Laaton ke bhoot baton se nahi mante' mean?",
+      "question_ur": "'لاٹھی کے بھوت باتوں سے نہیں مانتے' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Ghosts of sticks don't listen to words", "Some people only understand force", "Violence is sometimes necessary", "Sticks have spirits"],
+        "ur": ["لاٹھی کے بھوت باتیں نہیں سنتے", "کچھ لوگ صرف طاقت سمجھتے ہیں", "کبھی کبھار تشدد ضروری ہوتا ہے", "لاٹھیوں میں روحیں ہوتی ہیں"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This means some people only respond to force or harsh measures.",
+      "explanation_ur": "اس کا مطلب ہے کہ کچھ لوگ صرف طاقت یا سخت اقدامات پر رد عمل دیتے ہیں۔",
+      "hint": "Think about stubbornness",
+      "hint_ur": "ضدی پن کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 125,
+      "type": "mcq",
+      "question": "What is the meaning of 'Maan baap ki dua jannat ki hawa'?",
+      "question_ur": "'ماں باپ کی دعا جنت کی ہوا' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Parental blessings are like heaven's breeze", "Parents pray for children", "Heavenly winds bring blessings", "Children need parents' prayers"],
+        "ur": ["والدین کی دعائیں جنت کی ہوا کی مانند ہیں", "والدین بچوں کے لیے دعا کرتے ہیں", "جنت کی ہوائیں برکتیں لاتی ہیں", "بچوں کو والدین کی دعاؤں کی ضرورت ہوتی ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This means parental blessings bring divine benefits like a heavenly breeze.",
+      "explanation_ur": "اس کا مطلب ہے کہ والدین کی دعائیں جنت کی ہوا کی مانند الہی فوائد لاتی ہیں۔",
+      "hint": "Think about blessings",
+      "hint_ur": "دعاؤں کے بارے میں سوچیں",
+      "timeLimit": 15
+    }
+  ]
+}

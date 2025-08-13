@@ -1,0 +1,2074 @@
+{
+  "meta": {
+    "category": "Cyber Safety",
+    "category_ur": "سائبر سیکیورٹی",
+    "description": "Test your knowledge of online safety and security practices.",
+    "description_ur": "آن لائن حفاظت اور سیکیورٹی کے طریقوں کے بارے میں اپنے علم کا امتحان لیں۔",
+    "difficulty": "medium",
+    "image": "cyber_safety.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What is phishing?",
+      "question_ur": "فشنگ کیا ہے؟",
+      "options": {
+        "en": [
+          "A type of malware that encrypts your files",
+          "An attempt to acquire sensitive information by impersonating a trustworthy entity",
+          "A method of physically breaking into a computer system",
+          "A strong password creation technique"
+        ],
+        "ur": [
+          "مالویئر کی ایک قسم جو آپ کی فائلوں کو انکرپٹ کرتی ہے",
+          "ایک قابل اعتماد ادارے کی نقالی کر کے حساس معلومات حاصل کرنے کی کوشش",
+          "کمپیوٹر سسٹم میں جسمانی طور پر گھسنے کا ایک طریقہ",
+          "ایک مضبوط پاس ورڈ بنانے کی تکنیک"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Phishing is a fraudulent attempt to trick users into revealing sensitive information, like passwords and credit card numbers, by pretending to be a legitimate organization.",
+      "explanation_ur": "فشنگ ایک دھوکہ دہی کی کوشش ہے جس میں صارفین کو ایک جائز تنظیم ہونے کا بہانہ کرتے ہوئے حساس معلومات، جیسے پاس ورڈ اور کریڈٹ کارڈ نمبر ظاہر کرنے کے لیے دھوکہ دیا جاتا ہے۔",
+      "hint": "Think of a deceptive 'fishing' attempt for information.",
+      "hint_ur": "معلومات کے لیے ایک دھوکہ دہی والی 'ماہی گیری' کی کوشش کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 2,
+      "type": "true-false",
+      "question": "It's safe to use the same password for all your online accounts.",
+      "question_ur": "کیا اپنے تمام آن لائن اکاؤنٹس کے لیے ایک ہی پاس ورڈ استعمال کرنا محفوظ ہے؟",
+      "correctAnswer": false,
+      "explanation": "Using the same password for multiple accounts is a significant security risk. If one account is compromised, all others using the same password become vulnerable.",
+      "explanation_ur": "متعدد اکاؤنٹس کے لیے ایک ہی پاس ورڈ کا استعمال ایک بڑا سیکیورٹی رسک ہے۔ اگر ایک اکاؤنٹ سمجھوتہ ہو جاتا ہے، تو اسی پاس ورڈ کا استعمال کرنے والے تمام دوسرے اکاؤنٹ بھی خطرے میں آ جاتے ہیں۔",
+      "hint": "Consider the consequences if one of your accounts is breached.",
+      "hint_ur": "اگر آپ کا ایک اکاؤنٹ ہیک ہو جاتا ہے تو اس کے نتائج پر غور کریں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "What is two-factor authentication (2FA)?",
+      "question_ur": "ٹو فیکٹر توثیق (2FA) کیا ہے؟",
+      "options": {
+        "en": [
+          "A login process that requires only a password",
+          "A security method that requires two different passwords",
+          "An extra layer of security that requires a second form of verification in addition to a password",
+          "A type of antivirus software"
+        ],
+        "ur": [
+          "ایک لاگ ان کا عمل جس کے لیے صرف پاس ورڈ درکار ہوتا ہے",
+          "ایک سیکیورٹی کا طریقہ جس کے لیے دو مختلف پاس ورڈز کی ضرورت ہوتی ہے",
+          "سیکیورٹی کی ایک اضافی تہہ جس کے لیے پاس ورڈ کے علاوہ توثیق کی دوسری شکل کی ضرورت ہوتی ہے",
+          "ایک قسم کا اینٹی وائرس سافٹ ویئر"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "2FA adds a second layer of security, often a code sent to your phone or email, to verify your identity after you enter your password.",
+      "explanation_ur": "2FA سیکیورٹی کی ایک دوسری تہہ کا اضافہ کرتا ہے، اکثر آپ کے فون یا ای میل پر بھیجا گیا ایک کوڈ، جو آپ کے پاس ورڈ داخل کرنے کے بعد آپ کی شناخت کی تصدیق کرتا ہے۔",
+      "hint": "Think about the 'two' factors involved.",
+      "hint_ur": "'دو' عوامل کے بارے میں سوچیں جو اس میں شامل ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "What does 'HTTPS' in a website address indicate?",
+      "question_ur": "کسی ویب سائٹ کے ایڈریس میں 'HTTPS' کیا ظاہر کرتا ہے؟",
+      "options": {
+        "en": [
+          "The website is a hypertext page",
+          "The website is secure and the connection is encrypted",
+          "The website is a public domain",
+          "The website is only accessible via certain browsers"
+        ],
+        "ur": [
+          "ویب سائٹ ایک ہائپر ٹیکسٹ صفحہ ہے",
+          "ویب سائٹ محفوظ ہے اور کنکشن انکرپٹڈ ہے",
+          "ویب سائٹ ایک عوامی ڈومین ہے",
+          "ویب سائٹ صرف مخصوص براؤزرز کے ذریعے قابل رسائی ہے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "HTTPS stands for Hypertext Transfer Protocol Secure. The 'S' signifies that the communication between your browser and the website is encrypted, making it more secure.",
+      "explanation_ur": "HTTPS کا مطلب ہے ہائپر ٹیکسٹ ٹرانسفر پروٹوکول سیکیور۔ 'S' کا مطلب ہے کہ آپ کے براؤزر اور ویب سائٹ کے درمیان مواصلت انکرپٹڈ ہے، جو اسے زیادہ محفوظ بناتی ہے۔",
+      "hint": "Focus on the 'S' at the end.",
+      "hint_ur": "آخر میں 'S' پر توجہ دیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "question": "It's safe to click on links in unsolicited emails from unknown senders.",
+      "question_ur": "کیا نامعلوم بھیجنے والوں کی غیر مطلوب ای میلز میں موجود لنکس پر کلک کرنا محفوظ ہے؟",
+      "correctAnswer": false,
+      "explanation": "Unsolicited emails often contain phishing links or malware. Clicking on them can lead to data theft or infection of your device.",
+      "explanation_ur": "غیر مطلوب ای میلز میں اکثر فشنگ لنکس یا مالویئر ہوتے ہیں۔ ان پر کلک کرنے سے ڈیٹا چوری ہو سکتا ہے یا آپ کے آلہ کو انفیکشن ہو سکتا ہے۔",
+      "hint": "What could be the risk if the sender isn't who they say they are?",
+      "hint_ur": "اگر بھیجنے والا وہ نہیں ہے جو وہ کہتا ہے تو کیا خطرہ ہو سکتا ہے؟",
+      "timeLimit": 20
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "What is the best practice for creating a strong password?",
+      "question_ur": "ایک مضبوط پاس ورڈ بنانے کے لیے بہترین طریقہ کیا ہے؟",
+      "options": {
+        "en": [
+          "Using a common word or name",
+          "Using your birthdate or a simple sequence of numbers",
+          "Combining uppercase and lowercase letters, numbers, and symbols",
+          "Keeping it short and easy to remember"
+        ],
+        "ur": [
+          "ایک عام لفظ یا نام استعمال کرنا",
+          "اپنی تاریخ پیدائش یا نمبروں کی ایک سادہ ترتیب استعمال کرنا",
+          "بڑے اور چھوٹے حروف، نمبروں اور علامتوں کو یکجا کرنا",
+          "اسے مختصر اور یاد رکھنے میں آسان رکھنا"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "A strong password uses a combination of different character types and is long, making it difficult for attackers to guess or crack.",
+      "explanation_ur": "ایک مضبوط پاس ورڈ مختلف حروف کی اقسام کا مجموعہ استعمال کرتا ہے اور لمبا ہوتا ہے، جس سے حملہ آوروں کے لیے اسے اندازہ لگانا یا کریک کرنا مشکل ہوتا ہے۔",
+      "hint": "Think about how to make it complex and unpredictable.",
+      "hint_ur": "اسے پیچیدہ اور غیر متوقع کیسے بنایا جائے اس بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "What is a firewall?",
+      "question_ur": "فائر وال کیا ہے؟",
+      "options": {
+        "en": [
+          "A physical wall that blocks internet access",
+          "A software or hardware-based network security system that monitors and controls incoming and outgoing network traffic",
+          "A program that creates secure backups of your files",
+          "A tool for creating strong passwords"
+        ],
+        "ur": [
+          "ایک جسمانی دیوار جو انٹرنیٹ تک رسائی کو روکتی ہے",
+          "ایک سافٹ ویئر یا ہارڈ ویئر پر مبنی نیٹ ورک سیکیورٹی سسٹم جو اندرونی اور بیرونی نیٹ ورک ٹریفک کی نگرانی اور کنٹرول کرتا ہے",
+          "ایک پروگرام جو آپ کی فائلوں کے محفوظ بیک اپ بناتا ہے",
+          "مضبوط پاس ورڈ بنانے کا ایک آلہ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "A firewall acts as a barrier, inspecting data packets and blocking suspicious traffic to protect a network or computer from threats.",
+      "explanation_ur": "ایک فائر وال ایک رکاوٹ کے طور پر کام کرتا ہے، ڈیٹا پیکٹس کا معائنہ کرتا ہے اور نیٹ ورک یا کمپیوٹر کو خطرات سے بچانے کے لیے مشکوک ٹریفک کو روکتا ہے۔",
+      "hint": "It's a security guard for your network.",
+      "hint_ur": "یہ آپ کے نیٹ ورک کے لیے ایک سیکیورٹی گارڈ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 8,
+      "type": "true-false",
+      "question": "Public Wi-Fi networks are always secure for sensitive transactions.",
+      "question_ur": "کیا عوامی وائی فائی نیٹ ورکس ہمیشہ حساس لین دین کے لیے محفوظ ہوتے ہیں؟",
+      "correctAnswer": false,
+      "explanation": "Public Wi-Fi networks are often unsecured and can be easily monitored by hackers, making them unsafe for sensitive activities like online banking or shopping.",
+      "explanation_ur": "عوامی وائی فائی نیٹ ورکس اکثر غیر محفوظ ہوتے ہیں اور ہیکرز کے ذریعے آسانی سے نگرانی کی جا سکتی ہے، جو انہیں آن لائن بینکنگ یا خریداری جیسی حساس سرگرمیوں کے لیے غیر محفوظ بناتے ہیں۔",
+      "hint": "Consider who else might be on the same network.",
+      "hint_ur": "غور کریں کہ اس نیٹ ورک پر اور کون ہو سکتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "What is social engineering?",
+      "question_ur": "سوشل انجینئرنگ کیا ہے؟",
+      "options": {
+        "en": [
+          "The process of creating social media accounts",
+          "The use of psychological manipulation to trick people into divulging confidential information",
+          "A type of software for managing social interactions",
+          "The study of how people interact online"
+        ],
+        "ur": [
+          "سوشل میڈیا اکاؤنٹس بنانے کا عمل",
+          "لوگوں کو خفیہ معلومات بتانے پر مجبور کرنے کے لیے نفسیاتی ہیرا پھیری کا استعمال",
+          "سماجی تعاملات کو منظم کرنے کے لیے ایک قسم کا سافٹ ویئر",
+          "لوگوں کے آن لائن تعامل کرنے کا مطالعہ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Social engineering is a tactic that manipulates people into performing actions or divulging confidential information, often a key component of phishing attacks.",
+      "explanation_ur": "سوشل انجینئرنگ ایک تدبیر ہے جو لوگوں کو کارروائی کرنے یا خفیہ معلومات بتانے پر مجبور کرتی ہے، جو اکثر فشنگ حملوں کا ایک اہم جزو ہے۔",
+      "hint": "It's about manipulating people, not technology.",
+      "hint_ur": "یہ لوگوں کو ہیر پھیر کرنے کے بارے میں ہے، نہ کہ ٹیکنالوجی کے بارے میں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Which of the following is a sign of a potential phishing email?",
+      "question_ur": "مندرجہ ذیل میں سے کونسی ممکنہ فشنگ ای میل کی علامت ہے؟",
+      "options": {
+        "en": [
+          "A personal greeting with your name",
+          "A request for personal information or urgent action",
+          "A professionally designed email with a company logo",
+          "A link to a well-known, legitimate website"
+        ],
+        "ur": [
+          "آپ کے نام کے ساتھ ایک ذاتی مبارکباد",
+          "ذاتی معلومات یا فوری کارروائی کی درخواست",
+          "ایک کمپنی کے لوگو کے ساتھ پیشہ ورانہ طور پر ڈیزائن کردہ ای میل",
+          "ایک مشہور، جائز ویب سائٹ کا لنک"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Phishing emails often create a sense of urgency or fear to trick users into providing information, and they frequently request sensitive data.",
+      "explanation_ur": "فشنگ ای میلز اکثر صارفین کو معلومات فراہم کرنے پر مجبور کرنے کے لیے فوری یا خوف کا احساس پیدا کرتی ہیں، اور وہ اکثر حساس ڈیٹا کی درخواست کرتی ہیں۔",
+      "hint": "Look for red flags like a sense of panic or a demand for private data.",
+      "hint_ur": "گھبراہٹ یا نجی ڈیٹا کے مطالبے جیسی سرخ جھنڈوں کو تلاش کریں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "question": "Keeping your software and operating system updated is an important cyber safety practice.",
+      "question_ur": "کیا اپنے سافٹ ویئر اور آپریٹنگ سسٹم کو اپ ڈیٹ رکھنا ایک اہم سائبر سیکیورٹی کا طریقہ ہے؟",
+      "correctAnswer": true,
+      "explanation": "Updates often include security patches that fix vulnerabilities that hackers could exploit. Keeping your systems updated is crucial for protecting against new threats.",
+      "explanation_ur": "اپ ڈیٹس میں اکثر سیکیورٹی پیچ شامل ہوتے ہیں جو ان کمزوریوں کو ٹھیک کرتے ہیں جن کا ہیکرز فائدہ اٹھا سکتے ہیں۔ اپنے سسٹمز کو اپ ڈیٹ رکھنا نئے خطرات سے بچاؤ کے لیے اہم ہے۔",
+      "hint": "Think about why companies release new versions and patches.",
+      "hint_ur": "سوچیں کہ کمپنیاں نئے ورژن اور پیچ کیوں جاری کرتی ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "What is malware?",
+      "question_ur": "مالویئر کیا ہے؟",
+      "options": {
+        "en": [
+          "Software designed to help you organize your files",
+          "A type of software that speeds up your computer",
+          "Malicious software designed to disrupt, damage, or gain unauthorized access to a computer system",
+          "A tool for creating encrypted documents"
+        ],
+        "ur": [
+          "سافٹ ویئر جو آپ کی فائلوں کو منظم کرنے میں مدد کرنے کے لیے ڈیزائن کیا گیا ہے",
+          "ایک قسم کا سافٹ ویئر جو آپ کے کمپیوٹر کو تیز کرتا ہے",
+          "ایک کمپیوٹر سسٹم کو خراب کرنے، نقصان پہنچانے یا غیر مجاز رسائی حاصل کرنے کے لیے ڈیزائن کیا گیا بدنیتی پر مبنی سافٹ ویئر",
+          "انکرپٹڈ دستاویزات بنانے کا ایک آلہ"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Malware is a broad term for malicious software, including viruses, worms, and trojans, designed to harm or exploit a computer system.",
+      "explanation_ur": "مالویئر بدنیتی پر مبنی سافٹ ویئر کے لیے ایک وسیع اصطلاح ہے، جس میں وائرس، ورمز اور ٹروجن شامل ہیں، جو ایک کمپیوٹر سسٹم کو نقصان پہنچانے یا اس کا استحصال کرنے کے لیے ڈیزائن کیے گئے ہیں۔",
+      "hint": "The name itself gives a clue: 'mal' means bad or evil.",
+      "hint_ur": "نام خود ایک اشارہ دیتا ہے: 'mal' کا مطلب برا یا شیطانی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "What is the primary function of an antivirus program?",
+      "question_ur": "ایک اینٹی وائرس پروگرام کا بنیادی کام کیا ہے؟",
+      "options": {
+        "en": [
+          "To speed up your internet connection",
+          "To prevent unauthorized physical access to your computer",
+          "To detect, prevent, and remove malware",
+          "To back up your personal files"
+        ],
+        "ur": [
+          "آپ کے انٹرنیٹ کنکشن کو تیز کرنا",
+          "آپ کے کمپیوٹر تک غیر مجاز جسمانی رسائی کو روکنا",
+          "مالویئر کا پتہ لگانا، روکنا اور اسے ہٹانا",
+          "آپ کی ذاتی فائلوں کا بیک اپ بنانا"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Antivirus software is designed to protect your computer from a wide range of malicious software by scanning for, identifying, and eliminating threats.",
+      "explanation_ur": "اینٹی وائرس سافٹ ویئر آپ کے کمپیوٹر کو وسیع اقسام کے بدنیتی پر مبنی سافٹ ویئر سے بچانے کے لیے ڈیزائن کیا گیا ہے تاکہ خطرات کو اسکین کیا جا سکے، شناخت کیا جا سکے اور ختم کیا جا سکے۔",
+      "hint": "It fights against a specific type of malicious software.",
+      "hint_ur": "یہ ایک مخصوص قسم کے بدنیتی پر مبنی سافٹ ویئر کے خلاف لڑتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "Which of the following is a form of malware that secretly records user activity, such as keystrokes?",
+      "question_ur": "مندرجہ ذیل میں سے کونسی مالویئر کی ایک شکل ہے جو خفیہ طور پر صارف کی سرگرمیوں کو ریکارڈ کرتی ہے، جیسے کہ کی اسٹروکس؟",
+      "options": {
+        "en": [
+          "A Trojan horse",
+          "A Worm",
+          "A Keylogger",
+          "A Spyware"
+        ],
+        "ur": [
+          "ایک ٹروجن ہارس",
+          "ایک ورم",
+          "ایک کیلاگر",
+          "ایک اسپائی ویئر"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "A keylogger is a type of spyware that monitors and records every keystroke a user makes, often to steal passwords or other sensitive information.",
+      "explanation_ur": "ایک کیلاگر ایک قسم کا اسپائی ویئر ہے جو صارف کی ہر کی اسٹروک کی نگرانی اور ریکارڈ کرتا ہے، اکثر پاس ورڈز یا دیگر حساس معلومات کو چوری کرنے کے لیے۔",
+      "hint": "The name combines the two main actions it performs.",
+      "hint_ur": "نام ہی اس کے دو اہم کاموں کو یکجا کرتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 15,
+      "type": "true-false",
+      "question": "It's always safe to download free software from any website.",
+      "question_ur": "کیا کسی بھی ویب سائٹ سے مفت سافٹ ویئر ڈاؤن لوڈ کرنا ہمیشہ محفوظ ہوتا ہے؟",
+      "correctAnswer": false,
+      "explanation": "Free software from untrustworthy sources can often be bundled with malware or viruses. It's best to download software only from official or reputable websites.",
+      "explanation_ur": "غیر معتبر ذرائع سے مفت سافٹ ویئر اکثر مالویئر یا وائرس کے ساتھ بنڈل ہو سکتا ہے۔ سافٹ ویئر کو صرف سرکاری یا معروف ویب سائٹوں سے ڈاؤن لوڈ کرنا بہتر ہے۔",
+      "hint": "Consider the phrase: 'If it's too good to be true...'",
+      "hint_ur": "اس جملے پر غور کریں: 'اگر یہ سچ ہونے کے لیے بہت اچھا ہے...'",
+      "timeLimit": 20
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "What is ransomware?",
+      "question_ur": "رینسم ویئر کیا ہے؟",
+      "options": {
+        "en": [
+          "A type of software that helps you find lost files",
+          "A malicious program that blocks access to a computer system or data until a sum of money is paid",
+          "A tool for securely deleting files",
+          "A program that organizes your digital photos"
+        ],
+        "ur": [
+          "ایک قسم کا سافٹ ویئر جو آپ کو کھوئی ہوئی فائلوں کو تلاش کرنے میں مدد کرتا ہے",
+          "ایک بدنیتی پر مبنی پروگرام جو رقم ادا ہونے تک کمپیوٹر سسٹم یا ڈیٹا تک رسائی کو روک دیتا ہے",
+          "فائلوں کو محفوظ طریقے سے حذف کرنے کا ایک آلہ",
+          "ایک پروگرام جو آپ کی ڈیجیٹل تصاویر کو منظم کرتا ہے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ransomware holds a user's data or system hostage, often by encrypting files, and demands a ransom payment for their release.",
+      "explanation_ur": "رینسم ویئر صارف کے ڈیٹا یا سسٹم کو یرغمال بناتا ہے، اکثر فائلوں کو انکرپٹ کر کے، اور ان کی رہائی کے لیے تاوان کی ادائیگی کا مطالبہ کرتا ہے۔",
+      "hint": "The name combines two words: 'ransom' and 'software'.",
+      "hint_ur": "نام دو الفاظ کو یکجا کرتا ہے: 'تاوان' اور 'سافٹ ویئر'۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "What is the primary purpose of a VPN (Virtual Private Network)?",
+      "question_ur": "ایک VPN (ورچوئل پرائیویٹ نیٹ ورک) کا بنیادی مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To speed up your internet connection",
+          "To allow you to access blocked websites",
+          "To create a secure, encrypted connection over a public network, protecting your data and privacy",
+          "To filter out spam emails"
+        ],
+        "ur": [
+          "آپ کے انٹرنیٹ کنکشن کو تیز کرنا",
+          "آپ کو بلاک شدہ ویب سائٹوں تک رسائی کی اجازت دینا",
+          "ایک عوامی نیٹ ورک پر ایک محفوظ، انکرپٹڈ کنکشن بنانا، آپ کے ڈیٹا اور پرائیویسی کی حفاظت کرنا",
+          "اسپیم ای میلز کو فلٹر کرنا"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "A VPN creates a secure tunnel for your internet traffic, encrypting your data and masking your IP address, which helps protect you from surveillance and data theft, especially on public Wi-Fi.",
+      "explanation_ur": "ایک VPN آپ کے انٹرنیٹ ٹریفک کے لیے ایک محفوظ سرنگ بناتا ہے، آپ کے ڈیٹا کو انکرپٹ کرتا ہے اور آپ کا IP ایڈریس چھپاتا ہے، جو آپ کو نگرانی اور ڈیٹا چوری سے بچانے میں مدد کرتا ہے، خاص طور پر عوامی وائی فائی پر۔",
+      "hint": "Think about the 'private' aspect of the name.",
+      "hint_ur": "نام کے 'پرائیویٹ' پہلو کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 18,
+      "type": "true-false",
+      "question": "Sharing your password with a family member is acceptable as long as you trust them.",
+      "question_ur": "کیا اپنے پاس ورڈ کو ایک فیملی ممبر کے ساتھ شیئر کرنا قابل قبول ہے جب تک آپ ان پر بھروسہ کرتے ہیں؟",
+      "correctAnswer": false,
+      "explanation": "Sharing passwords, even with trusted individuals, increases the risk of unauthorized access. A breach of their device could expose your accounts.",
+      "explanation_ur": "پاس ورڈز کا اشتراک، یہاں تک کہ قابل اعتماد افراد کے ساتھ بھی، غیر مجاز رسائی کے خطرے کو بڑھاتا ہے۔ ان کے آلے کی خلاف ورزی آپ کے اکاؤنٹس کو بے نقاب کر سکتی ہے۔",
+      "hint": "Consider the principle of 'least privilege' for security.",
+      "hint_ur": "سیکیورٹی کے لیے 'کم سے کم مراعات' کے اصول پر غور کریں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "What is a 'Trojan horse' in the context of cyber safety?",
+      "question_ur": "سائبر سیکیورٹی کے تناظر میں 'ٹروجن ہارس' کیا ہے؟",
+      "options": {
+        "en": [
+          "A large, powerful computer virus",
+          "A malicious program disguised as a legitimate, harmless application",
+          "A type of encrypted file",
+          "A security feature in a web browser"
+        ],
+        "ur": [
+          "ایک بڑا، طاقتور کمپیوٹر وائرس",
+          "ایک بدنیتی پر مبنی پروگرام جو ایک جائز، بے ضرر ایپلی کیشن کے طور پر بھیس بدلتا ہے",
+          "ایک قسم کی انکرپٹڈ فائل",
+          "ایک ویب براؤزر میں ایک سیکیورٹی کی خصوصیت"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Like the myth of the Trojan horse, this malware is disguised as something useful to trick a user into downloading and installing it, allowing it to secretly carry out malicious tasks.",
+      "explanation_ur": "ٹروجن ہارس کے افسانے کی طرح، یہ مالویئر کسی مفید چیز کے طور پر بھیس بدلتا ہے تاکہ ایک صارف کو اسے ڈاؤن لوڈ اور انسٹال کرنے پر مجبور کیا جا سکے، جس سے یہ خفیہ طور پر بدنیتی پر مبنی کام انجام دے سکے۔",
+      "hint": "Think of the famous Greek story.",
+      "hint_ur": "مشہور یونانی کہانی کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "What is the best way to secure your router's wireless network?",
+      "question_ur": "اپنے روٹر کے وائرلیس نیٹ ورک کو محفوظ بنانے کا بہترین طریقہ کیا ہے؟",
+      "options": {
+        "en": [
+          "Leave it open without a password",
+          "Use a simple, common password like '123456'",
+          "Change the default admin password and use a strong, unique Wi-Fi password with WPA2 or WPA3 encryption",
+          "Hide the network's name (SSID)"
+        ],
+        "ur": [
+          "اسے بغیر پاس ورڈ کے کھلا چھوڑ دیں",
+          "ایک سادہ، عام پاس ورڈ استعمال کریں جیسے '123456'",
+          "پہلے سے طے شدہ ایڈمن پاس ورڈ کو تبدیل کریں اور WPA2 یا WPA3 انکرپشن کے ساتھ ایک مضبوط، منفرد وائی فائی پاس ورڈ استعمال کریں",
+          "نیٹ ورک کا نام (SSID) چھپا دیں"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Changing the default password and using a strong, encrypted password with WPA2/3 is crucial to prevent unauthorized access and protect your network.",
+      "explanation_ur": "پہلے سے طے شدہ پاس ورڈ کو تبدیل کرنا اور WPA2/3 کے ساتھ ایک مضبوط، انکرپٹڈ پاس ورڈ استعمال کرنا غیر مجاز رسائی کو روکنے اور آپ کے نیٹ ورک کی حفاظت کے لیے اہم ہے۔",
+      "hint": "Think about what makes it hard for someone to 'break in'.",
+      "hint_ur": "سوچیں کہ کسی کے لیے 'داخل ہونے' کو کیا مشکل بناتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 21,
+      "type": "true-false",
+      "question": "You should regularly back up your important files.",
+      "question_ur": "کیا آپ کو باقاعدگی سے اپنی اہم فائلوں کا بیک اپ لینا چاہیے؟",
+      "correctAnswer": true,
+      "explanation": "Backing up your files is a critical measure against data loss from hardware failure, theft, or cyberattacks like ransomware.",
+      "explanation_ur": "اپنی فائلوں کا بیک اپ لینا ہارڈ ویئر کی خرابی، چوری، یا رینسم ویئر جیسے سائبر حملوں سے ڈیٹا کے نقصان کے خلاف ایک اہم اقدام ہے۔",
+      "hint": "What would happen if your computer suddenly stopped working?",
+      "hint_ur": "کیا ہوگا اگر آپ کا کمپیوٹر اچانک کام کرنا بند کر دے؟",
+      "timeLimit": 20
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "What is 'spyware'?",
+      "question_ur": "'اسپائی ویئر' کیا ہے؟",
+      "options": {
+        "en": [
+          "Software that helps you browse the internet securely",
+          "Software that secretly gathers information about a person or organization without their knowledge",
+          "A tool for creating secure online forms",
+          "A program that helps you manage your passwords"
+        ],
+        "ur": [
+          "سافٹ ویئر جو آپ کو انٹرنیٹ پر محفوظ طریقے سے براؤز کرنے میں مدد کرتا ہے",
+          "سافٹ ویئر جو کسی شخص یا تنظیم کے بارے میں ان کے علم کے بغیر خفیہ طور پر معلومات جمع کرتا ہے",
+          "محفوظ آن لائن فارم بنانے کا ایک آلہ",
+          "ایک پروگرام جو آپ کے پاس ورڈز کو منظم کرنے میں مدد کرتا ہے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Spyware is a type of malicious software that is installed on a computer without the user's knowledge to secretly monitor their activities and gather sensitive data.",
+      "explanation_ur": "اسپائی ویئر ایک قسم کا بدنیتی پر مبنی سافٹ ویئر ہے جو صارف کے علم کے بغیر کمپیوٹر پر انسٹال کیا جاتا ہے تاکہ ان کی سرگرمیوں کی خفیہ طور پر نگرانی کی جا سکے اور حساس ڈیٹا جمع کیا جا سکے۔",
+      "hint": "The name suggests its function.",
+      "hint_ur": "نام اس کے کام کی نشاندہی کرتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Which of the following is a symptom of a computer infected with malware?",
+      "question_ur": "مندرجہ ذیل میں سے کونسی ایک کمپیوٹر کے مالویئر سے متاثر ہونے کی علامت ہے؟",
+      "options": {
+        "en": [
+          "Faster-than-normal performance",
+          "Unusual pop-ups, slow performance, or frequent crashes",
+          "Increased battery life on a laptop",
+          "A new desktop background"
+        ],
+        "ur": [
+          "عام سے تیز کارکردگی",
+          "غیر معمولی پاپ اپ، سست کارکردگی، یا بار بار کریش",
+          "ایک لیپ ٹاپ پر بیٹری کی زندگی میں اضافہ",
+          "ایک نیا ڈیسک ٹاپ بیک گراؤنڈ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Malware often uses system resources, leading to a noticeable decrease in performance. Unusual pop-ups and frequent crashes are also common indicators of an infection.",
+      "explanation_ur": "مالویئر اکثر سسٹم کے وسائل کا استعمال کرتا ہے، جس سے کارکردگی میں نمایاں کمی آتی ہے۔ غیر معمولی پاپ اپ اور بار بار کریش بھی انفیکشن کے عام اشارے ہیں۔",
+      "hint": "Think about what a malicious program would do to your computer's resources.",
+      "hint_ur": "سوچیں کہ ایک بدنیتی پر مبنی پروگرام آپ کے کمپیوٹر کے وسائل کے ساتھ کیا کرے گا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 24,
+      "type": "true-false",
+      "question": "A strong password is a combination of your name and a simple number.",
+      "question_ur": "کیا ایک مضبوط پاس ورڈ آپ کے نام اور ایک سادہ نمبر کا مجموعہ ہے؟",
+      "correctAnswer": false,
+      "explanation": "Using personal information like your name, birthdate, or simple number sequences makes a password easy for attackers to guess or crack. A strong password should be a complex mix of characters.",
+      "explanation_ur": "اپنے نام، تاریخ پیدائش، یا سادہ نمبر کی ترتیب جیسی ذاتی معلومات کا استعمال پاس ورڈ کو حملہ آوروں کے لیے اندازہ لگانا یا کریک کرنا آسان بنا دیتا ہے۔ ایک مضبوط پاس ورڈ حروف کا ایک پیچیدہ مرکب ہونا چاہیے۔",
+      "hint": "Think about what makes a password hard to guess.",
+      "hint_ur": "سوچیں کہ پاس ورڈ کو اندازہ لگانا مشکل کیا بناتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "What is the main purpose of a password manager?",
+      "question_ur": "ایک پاس ورڈ مینیجر کا بنیادی مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To store all your passwords in an unencrypted file for easy access",
+          "To automatically generate and store unique, strong passwords for your various accounts in a secure, encrypted vault",
+          "To remind you to change your password every month",
+          "To prevent you from logging into any websites"
+        ],
+        "ur": [
+          "آپ کے تمام پاس ورڈز کو ایک غیر انکرپٹڈ فائل میں آسان رسائی کے لیے ذخیرہ کرنا",
+          "آپ کے مختلف اکاؤنٹس کے لیے محفوظ، انکرپٹڈ والٹ میں منفرد، مضبوط پاس ورڈز خود بخود بنانا اور ذخیرہ کرنا",
+          "آپ کو ہر ماہ اپنا پاس ورڈ تبدیل کرنے کی یاد دلانا",
+          "آپ کو کسی بھی ویب سائٹ میں لاگ ان ہونے سے روکنا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "A password manager is a tool that helps you create and securely store complex, unique passwords for all your online accounts, so you don't have to remember them all.",
+      "explanation_ur": "ایک پاس ورڈ مینیجر ایک ایسا آلہ ہے جو آپ کو اپنے تمام آن لائن اکاؤنٹس کے لیے پیچیدہ، منفرد پاس ورڈز بنانے اور محفوظ طریقے سے ذخیرہ کرنے میں مدد کرتا ہے، تاکہ آپ کو ان سب کو یاد نہ رکھنا پڑے۔",
+      "hint": "It manages your passwords securely.",
+      "hint_ur": "یہ آپ کے پاس ورڈز کو محفوظ طریقے سے منظم کرتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "What is the term for a malicious program that replicates itself and spreads to other computers without user intervention?",
+      "question_ur": "ایک بدنیتی پر مبنی پروگرام کے لیے کیا اصطلاح ہے جو خود کو نقل کرتا ہے اور صارف کی مداخلت کے بغیر دوسرے کمپیوٹرز میں پھیل جاتا ہے؟",
+      "options": {
+        "en": [
+          "A Trojan horse",
+          "A Virus",
+          "A Worm",
+          "A Spyware"
+        ],
+        "ur": [
+          "ایک ٹروجن ہارس",
+          "ایک وائرس",
+          "ایک ورم",
+          "ایک اسپائی ویئر"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "A worm is a standalone malicious program that can spread across networks and replicate itself to infect other systems without needing to attach to a host program.",
+      "explanation_ur": "ایک ورم ایک اسٹینڈ الون بدنیتی پر مبنی پروگرام ہے جو نیٹ ورکس میں پھیل سکتا ہے اور خود کو نقل کر سکتا ہے تاکہ کسی میزبان پروگرام سے منسلک ہونے کی ضرورت کے بغیر دوسرے سسٹمز کو متاثر کر سکے۔",
+      "hint": "Think of a small creature that 'wiggles' its way from one place to another.",
+      "hint_ur": "ایک چھوٹی مخلوق کے بارے میں سوچیں جو ایک جگہ سے دوسری جگہ 'وِگل' کرتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 27,
+      "type": "true-false",
+      "question": "You should regularly check your online bank statements and credit reports for suspicious activity.",
+      "question_ur": "کیا آپ کو باقاعدگی سے اپنے آن لائن بینک کے بیانات اور کریڈٹ رپورٹس کو مشکوک سرگرمی کے لیے چیک کرنا چاہیے؟",
+      "correctAnswer": true,
+      "explanation": "Regularly monitoring your financial accounts is a key way to detect and respond to identity theft or fraudulent charges quickly.",
+      "explanation_ur": "اپنے مالیاتی اکاؤنٹس کی باقاعدگی سے نگرانی کرنا شناخت کی چوری یا دھوکہ دہی کے الزامات کا پتہ لگانے اور تیزی سے جواب دینے کا ایک اہم طریقہ ہے۔",
+      "hint": "It's a form of self-auditing for your finances.",
+      "hint_ur": "یہ آپ کے مالیات کے لیے خود آڈیٹنگ کی ایک شکل ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "What is 'smishing'?",
+      "question_ur": "'سمشنگ' کیا ہے؟",
+      "options": {
+        "en": [
+          "A type of social media spam",
+          "Phishing that is conducted over SMS (text messages)",
+          "A form of password cracking",
+          "The act of illegally downloading music"
+        ],
+        "ur": [
+          "سوشل میڈیا اسپام کی ایک قسم",
+          "فشنگ جو SMS (ٹیکسٹ پیغامات) پر کی جاتی ہے",
+          "پاس ورڈ کریکنگ کی ایک شکل",
+          "غیر قانونی طور پر موسیقی ڈاؤن لوڈ کرنے کا عمل"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Smishing is a portmanteau of 'SMS' and 'phishing.' It's a type of phishing attack that uses text messages to trick users into clicking malicious links or revealing personal information.",
+      "explanation_ur": "سمشنگ 'SMS' اور 'فشنگ' کا ایک پورٹمانٹو ہے۔ یہ ایک قسم کا فشنگ حملہ ہے جو ٹیکسٹ پیغامات کا استعمال کرتے ہوئے صارفین کو بدنیتی پر مبنی لنکس پر کلک کرنے یا ذاتی معلومات ظاہر کرنے پر مجبور کرتا ہے۔",
+      "hint": "The name gives a clue to the medium it uses.",
+      "hint_ur": "نام اس میڈیم کا اشارہ دیتا ہے جو یہ استعمال کرتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "Which of the following is an example of a good security question answer?",
+      "question_ur": "مندرجہ ذیل میں سے کونسی ایک اچھی سیکیورٹی سوال کا جواب ہے؟",
+      "options": {
+        "en": [
+          "Your mother's maiden name (publicly available information)",
+          "The name of your first pet (a common question)",
+          "A completely fabricated, memorable answer that is not related to your actual life",
+          "Your childhood best friend's name"
+        ],
+        "ur": [
+          "آپ کی ماں کا کنواری نام (عوامی طور پر دستیاب معلومات)",
+          "آپ کے پہلے پالتو جانور کا نام (ایک عام سوال)",
+          "ایک مکمل طور پر بنا ہوا، یادگار جواب جو آپ کی اصل زندگی سے متعلق نہیں ہے",
+          "آپ کے بچپن کے بہترین دوست کا نام"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Using a fabricated answer makes it much harder for someone to guess the answer, as it's not based on any real-life information they could find or guess.",
+      "explanation_ur": "ایک بناوٹی جواب کا استعمال کسی کے لیے جواب کا اندازہ لگانا بہت مشکل بنا دیتا ہے، کیونکہ یہ کسی بھی حقیقی زندگی کی معلومات پر مبنی نہیں ہے جسے وہ تلاش یا اندازہ لگا سکتے ہیں۔",
+      "hint": "Think about what is least likely for someone else to know.",
+      "hint_ur": "سوچیں کہ کسی اور کے لیے کیا جاننا سب سے کم امکان ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 30,
+      "type": "true-false",
+      "question": "A browser's 'Incognito' or 'Private' mode makes you completely anonymous and untraceable online.",
+      "question_ur": "کیا ایک براؤزر کا 'انکگنیٹو' یا 'پرائیویٹ' موڈ آپ کو مکمل طور پر گمنام اور آن لائن ناقابل تلاش بناتا ہے؟",
+      "correctAnswer": false,
+      "explanation": "Incognito mode only prevents your Browse history, cookies, and site data from being saved on your local device. Your internet service provider (ISP), employer, and the websites you visit can still track your activity.",
+      "explanation_ur": "انکگنیٹو موڈ صرف آپ کی براؤزنگ ہسٹری، کوکیز اور سائٹ ڈیٹا کو آپ کے مقامی آلے پر محفوظ ہونے سے روکتا ہے۔ آپ کا انٹرنیٹ سروس فراہم کنندہ (ISP)، آجر، اور آپ جن ویب سائٹوں پر جاتے ہیں وہ اب بھی آپ کی سرگرمی کو ٹریک کر سکتے ہیں۔",
+      "hint": "Consider what happens beyond your own computer.",
+      "hint_ur": "سوچیں کہ آپ کے اپنے کمپیوٹر سے آگے کیا ہوتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "What is the first thing you should do if you suspect your account has been compromised?",
+      "question_ur": "اگر آپ کو شک ہے کہ آپ کا اکاؤنٹ سمجھوتہ ہو گیا ہے تو آپ کو سب سے پہلے کیا کرنا چاہیے؟",
+      "options": {
+        "en": [
+          "Delete the account immediately",
+          "Change your password and all other passwords that are the same or similar",
+          "Contact the police",
+          "Post about it on social media"
+        ],
+        "ur": [
+          "فوری طور پر اکاؤنٹ حذف کر دیں",
+          "اپنا پاس ورڈ اور دیگر تمام پاس ورڈز تبدیل کریں جو ایک جیسے یا ملتے جلتے ہیں",
+          "پولیس سے رابطہ کریں",
+          "اس کے بارے میں سوشل میڈیا پر پوسٹ کریں"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Changing your password is the most immediate action to regain control of your account and prevent further unauthorized access. It's also crucial to change any other accounts that share the same or similar passwords.",
+      "explanation_ur": "اپنا پاس ورڈ تبدیل کرنا آپ کے اکاؤنٹ پر دوبارہ کنٹرول حاصل کرنے اور مزید غیر مجاز رسائی کو روکنے کا سب سے فوری عمل ہے۔ یہ بھی اہم ہے کہ کسی بھی دوسرے اکاؤنٹس کو تبدیل کریں جو ایک جیسے یا ملتے جلتے پاس ورڈز کا اشتراک کرتے ہیں۔",
+      "hint": "The most effective step to stop the attacker's current access.",
+      "hint_ur": "حملہ آور کی موجودہ رسائی کو روکنے کے لیے سب سے مؤثر قدم۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "What is the purpose of a 'privacy policy' on a website?",
+      "question_ur": "کسی ویب سائٹ پر 'پرائیویسی پالیسی' کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To guarantee that the website will never share your information",
+          "To inform users about how their data is collected, used, and protected",
+          "To allow the website to use your data however they want",
+          "To tell you how to contact customer support"
+        ],
+        "ur": [
+          "اس بات کی ضمانت دینا کہ ویب سائٹ کبھی بھی آپ کی معلومات کا اشتراک نہیں کرے گی",
+          "صارفین کو اس بارے میں آگاہ کرنا کہ ان کا ڈیٹا کیسے جمع کیا جاتا ہے، استعمال کیا جاتا ہے، اور محفوظ کیا جاتا ہے",
+          "ویب سائٹ کو آپ کا ڈیٹا جیسے وہ چاہتے ہیں استعمال کرنے کی اجازت دینا",
+          "آپ کو کسٹمر سپورٹ سے رابطہ کرنے کا طریقہ بتانا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "A privacy policy is a legal document that discloses some or all of the ways a party gathers, uses, discloses, and manages a customer or client's data.",
+      "explanation_ur": "ایک پرائیویسی پالیسی ایک قانونی دستاویز ہے جو ایک پارٹی کے کسی گاہک یا کلائنٹ کے ڈیٹا کو جمع کرنے، استعمال کرنے، ظاہر کرنے اور منظم کرنے کے کچھ یا تمام طریقوں کو ظاہر کرتی ہے۔",
+      "hint": "It's about your 'privacy' and what the website does with your data.",
+      "hint_ur": "یہ آپ کی 'پرائیویسی' اور ویب سائٹ آپ کے ڈیٹا کے ساتھ کیا کرتی ہے اس کے بارے میں ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 33,
+      "type": "true-false",
+      "question": "It's safe to share your full date of birth, current address, and phone number on your public social media profile.",
+      "question_ur": "کیا اپنی مکمل تاریخ پیدائش، موجودہ پتہ، اور فون نمبر کو اپنے عوامی سوشل میڈیا پروفائل پر شیئر کرنا محفوظ ہے؟",
+      "correctAnswer": false,
+      "explanation": "Sharing this much personal information publicly can make you a target for identity theft, phishing, and other cybercrimes. It's best to keep this information private.",
+      "explanation_ur": "اتنی زیادہ ذاتی معلومات کو عوامی طور پر شیئر کرنا آپ کو شناخت کی چوری، فشنگ، اور دیگر سائبر جرائم کا نشانہ بنا سکتا ہے۔ اس معلومات کو نجی رکھنا بہتر ہے۔",
+      "hint": "Think about how this information could be used against you.",
+      "hint_ur": "سوچیں کہ اس معلومات کو آپ کے خلاف کیسے استعمال کیا جا سکتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "What is a 'brute-force' attack?",
+      "question_ur": "'بروٹ فورس' حملہ کیا ہے؟",
+      "options": {
+        "en": [
+          "An attack that uses social engineering to trick a user",
+          "An attack that tries every possible combination of a password until the correct one is found",
+          "A type of malware that encrypts files",
+          "An attack that floods a network with traffic to cause a denial of service"
+        ],
+        "ur": [
+          "ایک حملہ جو صارف کو دھوکہ دینے کے لیے سوشل انجینئرنگ کا استعمال کرتا ہے",
+          "ایک حملہ جو پاس ورڈ کی ہر ممکنہ ترتیب کو اس وقت تک آزमाता ہے جب تک کہ صحیح والا نہ مل جائے",
+          "مالویئر کی ایک قسم جو فائلوں کو انکرپٹ کرتی ہے",
+          "ایک حملہ جو سروس سے انکار کا سبب بننے کے لیے نیٹ ورک کو ٹریفک سے بھر دیتا ہے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "A brute-force attack is a trial-and-error method used to guess login information, passwords, or encryption keys by attempting every possible combination.",
+      "explanation_ur": "ایک بروٹ فورس حملہ لاگ ان معلومات، پاس ورڈز، یا انکرپشن کیز کا اندازہ لگانے کے لیے استعمال ہونے والا ایک آزمائش اور غلطی کا طریقہ ہے، جو ہر ممکنہ ترتیب کی کوشش کرتا ہے۔",
+      "hint": "It uses a lot of 'force' by trying every option.",
+      "hint_ur": "یہ ہر آپشن کی کوشش کر کے بہت زیادہ 'فورس' استعمال کرتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "What is the purpose of an 'ad-blocker' from a cyber safety perspective?",
+      "question_ur": "سائبر سیکیورٹی کے نقطہ نظر سے ایک 'ایڈ بلاکر' کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To make websites load faster",
+          "To block pop-up ads that may contain malicious links or scripts",
+          "To help you find online deals",
+          "To track your Browse history"
+        ],
+        "ur": [
+          "ویب سائٹوں کو تیزی سے لوڈ کرنا",
+          "پاپ اپ اشتہارات کو روکنا جن میں بدنیتی پر مبنی لنکس یا اسکرپٹ ہو سکتے ہیں",
+          "آن لائن سودے تلاش کرنے میں آپ کی مدد کرنا",
+          "آپ کی براؤزنگ ہسٹری کو ٹریک کرنا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Many malicious links and scripts are delivered through deceptive advertisements. Ad-blockers prevent these from loading, reducing your exposure to such threats.",
+      "explanation_ur": "بہت سے بدنیتی پر مبنی لنکس اور اسکرپٹس دھوکہ دہی والے اشتہارات کے ذریعے فراہم کیے جاتے ہیں۔ ایڈ بلاکرز انہیں لوڈ ہونے سے روکتے ہیں، جس سے آپ کے ایسے خطرات کے سامنے آنے میں کمی آتی ہے۔",
+      "hint": "It blocks a common delivery method for malware.",
+      "hint_ur": "یہ مالویئر کے لیے ایک عام ترسیل کے طریقہ کار کو روکتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 36,
+      "type": "true-false",
+      "question": "Clearing your browser's cache and cookies is a way to completely erase all traces of your online activity.",
+      "question_ur": "کیا اپنے براؤزر کی کیش اور کوکیز کو صاف کرنا آپ کی آن لائن سرگرمی کے تمام نشانات کو مکمل طور پر مٹانے کا ایک طریقہ ہے؟",
+      "correctAnswer": false,
+      "explanation": "While clearing cache and cookies removes local data, your internet service provider, search engines, and the websites you visit may still have records of your activity. Using a VPN is a more effective way to increase privacy.",
+      "explanation_ur": "جبکہ کیش اور کوکیز کو صاف کرنا مقامی ڈیٹا کو ہٹا دیتا ہے، آپ کا انٹرنیٹ سروس فراہم کنندہ، سرچ انجنز، اور آپ جن ویب سائٹوں پر جاتے ہیں وہ اب بھی آپ کی سرگرمی کے ریکارڈ رکھ سکتے ہیں۔ ایک VPN کا استعمال پرائیویسی بڑھانے کا ایک زیادہ مؤثر طریقہ ہے۔",
+      "hint": "It only affects your local machine.",
+      "hint_ur": "یہ صرف آپ کی مقامی مشین کو متاثر کرتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "What is 'spoofing' in the context of cyber safety?",
+      "question_ur": "سائبر سیکیورٹی کے تناظر میں 'سپوفنگ' کیا ہے؟",
+      "options": {
+        "en": [
+          "The process of creating a new website",
+          "The act of impersonating a legitimate person or organization to gain trust and access to information",
+          "A method for backing up data",
+          "A type of encrypted communication"
+        ],
+        "ur": [
+          "ایک نئی ویب سائٹ بنانے کا عمل",
+          "اعتماد حاصل کرنے اور معلومات تک رسائی حاصل کرنے کے لیے ایک جائز شخص یا تنظیم کی نقالی کرنے کا عمل",
+          "ڈیٹا کا بیک اپ لینے کا ایک طریقہ",
+          "ایک قسم کی انکرپٹڈ مواصلت"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Spoofing is the malicious practice of pretending to be someone or something else to trick individuals into divulging information or taking action. It's often used in phishing attacks.",
+      "explanation_ur": "سپوفنگ کسی اور کا ہونے کا بہانہ کرنے کا ایک بدنیتی پر مبنی عمل ہے تاکہ افراد کو معلومات بتانے یا کارروائی کرنے پر مجبور کیا جا سکے۔ یہ اکثر فشنگ حملوں میں استعمال ہوتا ہے۔",
+      "hint": "It's about deception and impersonation.",
+      "hint_ur": "یہ دھوکہ دہی اور نقالی کے بارے میں ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "Why is it important to use different passwords for different online accounts?",
+      "question_ur": "مختلف آن لائن اکاؤنٹس کے لیے مختلف پاس ورڈز استعمال کرنا کیوں ضروری ہے؟",
+      "options": {
+        "en": [
+          "It's not important and just makes it harder to remember",
+          "So you don't forget the password for any one account",
+          "To prevent a security breach of one account from compromising your other accounts",
+          "To make your passwords easier to crack"
+        ],
+        "ur": [
+          "یہ اہم نہیں ہے اور صرف یاد رکھنا مشکل بناتا ہے",
+          "تاکہ آپ کسی بھی ایک اکاؤنٹ کا پاس ورڈ نہ بھولیں",
+          "ایک اکاؤنٹ کی سیکیورٹی کی خلاف ورزی کو آپ کے دوسرے اکاؤنٹس کو سمجھوتہ کرنے سے روکنے کے لیے",
+          "آپ کے پاس ورڈز کو کریک کرنا آسان بنانے کے لیے"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "If one of your accounts is breached, having unique passwords for each account ensures that the attacker can't access your other online services. This is a critical security practice known as 'password hygiene'.",
+      "explanation_ur": "اگر آپ کے اکاؤنٹس میں سے ایک کی خلاف ورزی ہو جاتی ہے، تو ہر اکاؤنٹ کے لیے منفرد پاس ورڈز رکھنے سے یہ یقینی ہوتا ہے کہ حملہ آور آپ کی دیگر آن لائن خدمات تک رسائی حاصل نہیں کر سکتا۔ یہ ایک اہم سیکیورٹی کا طریقہ ہے جسے 'پاس ورڈ حفظان صحت' کہا جاتا ہے۔",
+      "hint": "It's about containing the damage of a single breach.",
+      "hint_ur": "یہ ایک واحد خلاف ورزی کے نقصان کو روکنے کے بارے میں ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 39,
+      "type": "true-false",
+      "question": "Downloading illegal or pirated content is harmless if you use an antivirus program.",
+      "question_ur": "کیا غیر قانونی یا پائریٹڈ مواد ڈاؤن لوڈ کرنا بے ضرر ہے اگر آپ اینٹی وائرس پروگرام استعمال کرتے ہیں؟",
+      "correctAnswer": false,
+      "explanation": "Pirated content is a common source of malware. Even with an antivirus program, the risk of infection is significantly higher than downloading from legitimate sources.",
+      "explanation_ur": "پائریٹڈ مواد مالویئر کا ایک عام ذریعہ ہے۔ یہاں تک کہ ایک اینٹی وائرس پروگرام کے ساتھ بھی، قانونی ذرائع سے ڈاؤن لوڈ کرنے کے مقابلے میں انفیکشن کا خطرہ نمایاں طور پر زیادہ ہوتا ہے۔",
+      "hint": "Think about the risk of downloading from an untrusted source.",
+      "hint_ur": "ایک غیر معتبر ذریعہ سے ڈاؤن لوڈ کرنے کے خطرے کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "What is the primary function of a 'pop-up blocker'?",
+      "question_ur": "ایک 'پاپ اپ بلاکر' کا بنیادی کام کیا ہے؟",
+      "options": {
+        "en": [
+          "To prevent all new windows from opening on your browser",
+          "To block pop-up advertisements that can be intrusive or contain malicious links",
+          "To speed up your computer's performance",
+          "To filter your search results"
+        ],
+        "ur": [
+          "آپ کے براؤزر پر تمام نئی ونڈوز کو کھلنے سے روکنا",
+          "پاپ اپ اشتہارات کو روکنا جو مداخلت کرنے والے یا بدنیتی پر مبنی لنکس پر مشتمل ہو سکتے ہیں",
+          "آپ کے کمپیوٹر کی کارکردگی کو تیز کرنا",
+          "آپ کے تلاش کے نتائج کو فلٹر کرنا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Pop-up blockers are an essential tool for preventing annoying and potentially dangerous pop-up windows from appearing, which often contain malware or phishing attempts.",
+      "explanation_ur": "پاپ اپ بلاکرز پریشان کن اور ممکنہ طور پر خطرناک پاپ اپ ونڈوز کو ظاہر ہونے سے روکنے کے لیے ایک ضروری آلہ ہیں، جن میں اکثر مالویئر یا فشنگ کی کوششیں شامل ہوتی ہیں۔",
+      "hint": "Its name describes exactly what it does.",
+      "hint_ur": "اس کا نام بالکل وہی بیان کرتا ہے جو یہ کرتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "What is a 'zero-day' vulnerability?",
+      "question_ur": "ایک 'زیرو ڈے' کمزوری کیا ہے؟",
+      "options": {
+        "en": [
+          "A security flaw that has been known for zero days",
+          "A vulnerability in software that is unknown to the vendor and has no patch available",
+          "A vulnerability that is only a few days old",
+          "A security feature that is a day old"
+        ],
+        "ur": [
+          "ایک سیکیورٹی کی خامی جو صفر دنوں سے معلوم ہے",
+          "سافٹ ویئر میں ایک کمزوری جو فروشندے کو نامعلوم ہے اور جس کا کوئی پیچ دستیاب نہیں ہے",
+          "ایک کمزوری جو صرف چند دن پرانی ہے",
+          "ایک سیکیورٹی کی خصوصیت جو ایک دن پرانی ہے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "A zero-day vulnerability is a software flaw that is exploited by attackers before the vendor is aware of it and can release a patch. The name refers to the fact that the developer has had 'zero days' to fix it.",
+      "explanation_ur": "ایک زیرو ڈے کمزوری ایک سافٹ ویئر کی خامی ہے جس کا حملہ آوروں نے فائدہ اٹھایا اس سے پہلے کہ فروشندے کو اس کا علم ہو اور وہ ایک پیچ جاری کر سکے۔ نام اس حقیقت کا حوالہ دیتا ہے کہ ڈویلپر کے پاس اسے ٹھیک کرنے کے لیے 'صفر دن' تھے۔",
+      "hint": "The 'zero days' refers to the time a developer has had to fix it.",
+      "hint_ur": "'صفر دن' اس وقت کا حوالہ دیتا ہے جو ایک ڈویلپر کے پاس اسے ٹھیک کرنے کے لیے تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 42,
+      "type": "true-false",
+      "question": "Leaving Bluetooth and Wi-Fi enabled on your mobile device at all times is a good cyber safety practice.",
+      "question_ur": "کیا اپنے موبائل آلے پر بلوٹوتھ اور وائی فائی کو ہر وقت فعال رکھنا ایک اچھا سائبر سیکیورٹی کا طریقہ ہے؟",
+      "correctAnswer": false,
+      "explanation": "Leaving these connections on when not in use can make your device discoverable to nearby attackers, potentially leading to unauthorized access or data theft.",
+      "explanation_ur": "ان کنکشنز کو استعمال میں نہ ہونے پر چھوڑنا آپ کے آلے کو قریبی حملہ آوروں کے لیے قابل دریافت بنا سکتا ہے، ممکنہ طور پر غیر مجاز رسائی یا ڈیٹا چوری کا باعث بن سکتا ہے۔",
+      "hint": "Think about what a 'door' is being left open.",
+      "hint_ur": "سوچیں کہ کونسا 'دروازہ' کھلا چھوڑا جا رہا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "What is the purpose of a 'cookie' on a website?",
+      "question_ur": "کسی ویب سائٹ پر 'کوکی' کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To collect your personal information for sale to third parties",
+          "To store small pieces of data on your computer to personalize your experience, like login information or shopping cart contents",
+          "To track your physical location",
+          "To deliver malware to your computer"
+        ],
+        "ur": [
+          "آپ کی ذاتی معلومات کو تیسرے فریق کو فروخت کرنے کے لیے جمع کرنا",
+          "آپ کے تجربے کو ذاتی بنانے کے لیے آپ کے کمپیوٹر پر ڈیٹا کے چھوٹے ٹکڑے ذخیرہ کرنا، جیسے لاگ ان معلومات یا شاپنگ کارٹ کے مواد",
+          "آپ کے جسمانی مقام کو ٹریک کرنا",
+          "آپ کے کمپیوٹر پر مالویئر فراہم کرنا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Cookies are small files stored by your browser that websites use to remember information about you, such as your preferences and login details. They can be harmless but also a privacy concern.",
+      "explanation_ur": "کوکیز آپ کے براؤزر کے ذریعے ذخیرہ کی جانے والی چھوٹی فائلیں ہیں جو ویب سائٹیں آپ کے بارے میں معلومات یاد رکھنے کے لیے استعمال کرتی ہیں، جیسے آپ کی ترجیحات اور لاگ ان تفصیلات۔ وہ بے ضرر ہو سکتی ہیں لیکن پرائیویسی کا بھی ایک مسئلہ ہو سکتی ہیں۔",
+      "hint": "It's a memory tool for a website.",
+      "hint_ur": "یہ ایک ویب سائٹ کے لیے ایک یادداشت کا آلہ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "What is 'doxing'?",
+      "question_ur": "'ڈوکسنگ' کیا ہے؟",
+      "options": {
+        "en": [
+          "The process of creating a secure online document",
+          "The act of publishing private or identifying information about a particular individual on the internet, usually with malicious intent",
+          "A type of encrypted email service",
+          "A method for legally obtaining information about a public figure"
+        ],
+        "ur": [
+          "ایک محفوظ آن لائن دستاویز بنانے کا عمل",
+          "ایک خاص فرد کے بارے میں نجی یا شناختی معلومات کو انٹرنیٹ پر شائع کرنے کا عمل، عام طور پر بدنیتی پر مبنی ارادے سے",
+          "ایک قسم کی انکرپٹڈ ای میل سروس",
+          "ایک عوامی شخصیت کے بارے میں قانونی طور پر معلومات حاصل کرنے کا ایک طریقہ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Doxing is a form of harassment that involves researching and broadcasting private information about an individual without their consent, often for the purpose of intimidation or revenge.",
+      "explanation_ur": "ڈوکسنگ ایک قسم کی ہراساں کرنا ہے جس میں کسی فرد کے بارے میں نجی معلومات کو اس کی رضامندی کے بغیر تحقیق کرنا اور نشر کرنا شامل ہے، اکثر ڈرانے دھمکانے یا بدلہ لینے کے مقصد سے۔",
+      "hint": "The name is a shortening of 'dropping docs'.",
+      "hint_ur": "نام 'ڈراپنگ ڈوکس' کا ایک مختصر شکل ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 45,
+      "type": "true-false",
+      "question": "Using a PIN instead of a password is a more secure option for your devices.",
+      "question_ur": "کیا پاس ورڈ کی بجائے PIN کا استعمال آپ کے آلات کے لیے ایک زیادہ محفوظ آپشن ہے؟",
+      "correctAnswer": false,
+      "explanation": "PINs are typically a short sequence of numbers, making them much easier to guess or crack than a complex password with a mix of characters.",
+      "explanation_ur": "PINs عام طور پر نمبروں کی ایک مختصر ترتیب ہوتے ہیں، جو انہیں حروف کے مرکب کے ساتھ ایک پیچیدہ پاس ورڈ کے مقابلے میں اندازہ لگانا یا کریک کرنا بہت آسان بناتا ہے۔",
+      "hint": "Consider the length and complexity of each method.",
+      "hint_ur": "ہر طریقہ کی لمبائی اور پیچیدگی پر غور کریں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "What is the purpose of a 'data breach' notification?",
+      "question_ur": "ایک 'ڈیٹا خلاف ورزی' نوٹیفکیشن کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To inform you that a company is upgrading its security",
+          "To alert you that a security incident has occurred, and your personal information may have been exposed",
+          "To advertise a new product",
+          "To request that you update your password for no reason"
+        ],
+        "ur": [
+          "آپ کو مطلع کرنا کہ ایک کمپنی اپنی سیکیورٹی کو اپ گریڈ کر رہی ہے",
+          "آپ کو الرٹ کرنا کہ ایک سیکیورٹی کا واقعہ پیش آیا ہے، اور آپ کی ذاتی معلومات بے نقاب ہو سکتی ہے",
+          "ایک نئی پروڈکٹ کی تشہیر کرنا",
+          "آپ سے بلا وجہ اپنا پاس ورڈ اپ ڈیٹ کرنے کی درخواست کرنا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Data breach notifications are a legal requirement in many jurisdictions to inform affected individuals about security incidents and the potential exposure of their personal data, allowing them to take protective measures.",
+      "explanation_ur": "ڈیٹا خلاف ورزی کے نوٹیفیکیشنز بہت سے دائرہ اختیار میں ایک قانونی ضرورت ہیں تاکہ متاثرہ افراد کو سیکیورٹی کے واقعات اور ان کے ذاتی ڈیٹا کے ممکنہ بے نقاب ہونے کے بارے میں آگاہ کیا جا سکے، جس سے انہیں حفاظتی اقدامات کرنے کی اجازت ملتی ہے۔",
+      "hint": "It's a warning about your data being 'breached'.",
+      "hint_ur": "یہ آپ کے ڈیٹا کے 'خلاف ورزی' ہونے کے بارے میں ایک وارننگ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "What is 'cyberbullying'?",
+      "question_ur": "'سائبر بلنگ' کیا ہے؟",
+      "options": {
+        "en": [
+          "Using a computer to send friendly messages to friends",
+          "The use of electronic communication to bully a person, typically by sending messages of an intimidating or threatening nature",
+          "The act of sharing funny memes online",
+          "A type of online game"
+        ],
+        "ur": [
+          "دوستوں کو دوستانہ پیغامات بھیجنے کے لیے ایک کمپیوٹر کا استعمال",
+          "کسی شخص کو دھمکانے کے لیے الیکٹرانک مواصلات کا استعمال، عام طور پر ایک دھمکی آمیز یا خوفناک نوعیت کے پیغامات بھیج کر",
+          "آن لائن مضحکہ خیز میمز شیئر کرنے کا عمل",
+          "ایک قسم کا آن لائن گیم"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Cyberbullying is a form of bullying that takes place over digital devices like cell phones, computers, and tablets. It can occur on social media, in text messages, or on gaming platforms.",
+      "explanation_ur": "سائبر بلنگ دھمکانے کی ایک شکل ہے جو ڈیجیٹل آلات جیسے سیل فون، کمپیوٹر، اور ٹیبلٹس پر ہوتی ہے۔ یہ سوشل میڈیا، ٹیکسٹ پیغامات، یا گیمنگ پلیٹ فارمز پر ہو سکتی ہے۔",
+      "hint": "It's bullying using cyber technology.",
+      "hint_ur": "یہ سائبر ٹیکنالوجی کا استعمال کرتے ہوئے دھمکانا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 48,
+      "type": "true-false",
+      "question": "It's safe to use a public computer for online banking as long as you clear the browser history afterward.",
+      "question_ur": "کیا عوامی کمپیوٹر کو آن لائن بینکنگ کے لیے استعمال کرنا محفوظ ہے جب تک کہ آپ اس کے بعد براؤزر ہسٹری کو صاف کر دیں؟",
+      "correctAnswer": false,
+      "explanation": "Public computers may have keyloggers or other malware installed that can capture your information before you have a chance to clear the history. It is never safe to conduct sensitive transactions on a public machine.",
+      "explanation_ur": "عوامی کمپیوٹرز میں کیلاگرز یا دیگر مالویئر انسٹال ہو سکتے ہیں جو ہسٹری کو صاف کرنے سے پہلے آپ کی معلومات کو پکڑ سکتے ہیں۔ عوامی مشین پر حساس لین دین کرنا کبھی بھی محفوظ نہیں ہے۔",
+      "hint": "Think about what might be installed on the computer that you can't see.",
+      "hint_ur": "سوچیں کہ کمپیوٹر پر کیا انسٹال ہو سکتا ہے جسے آپ دیکھ نہیں سکتے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "What is the term for the process of encrypting data so it can only be read by authorized parties?",
+      "question_ur": "ایک اصطلاح کیا ہے جو ڈیٹا کو انکرپٹ کرنے کے عمل کے لیے استعمال ہوتی ہے تاکہ اسے صرف مجاز فریقین ہی پڑھ سکیں؟",
+      "options": {
+        "en": [
+          "Decoding",
+          "Cryptography",
+          "Steganography",
+          "Defragmentation"
+        ],
+        "ur": [
+          "ڈیکوڈنگ",
+          "کرپٹوگرافی",
+          "سٹیگنلوگرافی",
+          "ڈیفریگمنٹیشن"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Cryptography is the practice and study of techniques for secure communication in the presence of third parties. It is a fundamental component of modern cyber safety.",
+      "explanation_ur": "کرپٹوگرافی تیسرے فریق کی موجودگی میں محفوظ مواصلات کے لیے تکنیکوں کا عمل اور مطالعہ ہے۔ یہ جدید سائبر سیکیورٹی کا ایک بنیادی جزو ہے۔",
+      "hint": "The word comes from Greek for 'secret writing'.",
+      "hint_ur": "یہ لفظ یونانی سے 'خفیہ تحریر' کے لیے آتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "What is a 'deepfake'?",
+      "question_ur": "'ڈیپ فیک' کیا ہے؟",
+      "options": {
+        "en": [
+          "A very complex password",
+          "A strong type of encryption",
+          "A media file (video, audio) that has been altered using AI to replace a person's likeness with someone else's",
+          "A type of computer hardware"
+        ],
+        "ur": [
+          "ایک بہت پیچیدہ پاس ورڈ",
+          "ایک مضبوط قسم کی انکرپشن",
+          "ایک میڈیا فائل (ویڈیو، آڈیو) جس میں AI کا استعمال کرتے ہوئے کسی شخص کی تصویر کو کسی اور کی تصویر سے بدلنے کے لیے تبدیل کیا گیا ہے",
+          "ایک قسم کا کمپیوٹر ہارڈ ویئر"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Deepfakes are a type of synthetic media where a person in an existing image or video is replaced with someone else's likeness using artificial intelligence. They can be used maliciously to spread misinformation.",
+      "explanation_ur": "ڈیپ فیکس ایک قسم کے مصنوعی میڈیا ہیں جہاں ایک موجودہ تصویر یا ویڈیو میں ایک شخص کو مصنوعی ذہانت کا استعمال کرتے ہوئے کسی اور کی تصویر سے بدل دیا جاتا ہے۔ انہیں بدنیتی پر مبنی طور پر غلط معلومات پھیلانے کے لیے استعمال کیا جا سکتا ہے۔",
+      "hint": "It's a fake created using a deep learning algorithm.",
+      "hint_ur": "یہ ایک جعلی ہے جو ایک گہرے سیکھنے کے الگورتھم کا استعمال کرتے ہوئے بنایا گیا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "What is the primary risk of using an outdated web browser?",
+      "question_ur": "ایک پرانے ویب براؤزر کا استعمال کرنے کا بنیادی خطرہ کیا ہے؟",
+      "options": {
+        "en": [
+          "Slower internet speeds",
+          "It won't be able to open any websites",
+          "It may have unpatched security vulnerabilities that can be exploited by attackers",
+          "You will be forced to upgrade immediately"
+        ],
+        "ur": [
+          "سست انٹرنیٹ کی رفتار",
+          "یہ کوئی بھی ویب سائٹ نہیں کھول سکے گا",
+          "اس میں غیر پیچ شدہ سیکیورٹی کی کمزوریاں ہو سکتی ہیں جن کا حملہ آور فائدہ اٹھا سکتے ہیں",
+          "آپ کو فوری طور پر اپ گریڈ کرنے پر مجبور کیا جائے گا"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Outdated browsers often lack the latest security updates and patches, making them vulnerable to exploits and cyberattacks. Using a current, up-to-date browser is essential for online safety.",
+      "explanation_ur": "پرانے براؤزر میں اکثر تازہ ترین سیکیورٹی اپ ڈیٹس اور پیچ کی کمی ہوتی ہے، جو انہیں استحصال اور سائبر حملوں کے لیے کمزور بناتا ہے۔ ایک موجودہ، تازہ ترین براؤزر کا استعمال آن لائن حفاظت کے لیے ضروری ہے۔",
+      "hint": "Think about the security of the software.",
+      "hint_ur": "سافٹ ویئر کی سیکیورٹی کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 52,
+      "type": "true-false",
+      "question": "It's always safe to use a public USB charging port to charge your phone.",
+      "question_ur": "کیا اپنے فون کو چارج کرنے کے لیے عوامی USB چارجنگ پورٹ کا استعمال کرنا ہمیشہ محفوظ ہے؟",
+      "correctAnswer": false,
+      "explanation": "Public USB charging ports can be tampered with to install malware or steal data from your device. This is known as 'juice jacking'. It's safer to use your own wall charger.",
+      "explanation_ur": "عوامی USB چارجنگ پورٹس کو مالویئر انسٹال کرنے یا آپ کے آلے سے ڈیٹا چوری کرنے کے لیے تبدیل کیا جا سکتا ہے۔ اسے 'جوس جیکنگ' کہا جاتا ہے۔ اپنا وال چارجر استعمال کرنا زیادہ محفوظ ہے۔",
+      "hint": "Consider if the port could be a 'data highway' for an attacker.",
+      "hint_ur": "غور کریں کہ کیا پورٹ ایک حملہ آور کے لیے ایک 'ڈیٹا ہائی وے' ہو سکتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "What is the best way to dispose of old electronic devices?",
+      "question_ur": "پرانے الیکٹرانک آلات کو ٹھکانے لگانے کا بہترین طریقہ کیا ہے؟",
+      "options": {
+        "en": [
+          "Throw them in the trash",
+          "Sell them without erasing the data",
+          "Wipe or destroy the hard drive/storage, then recycle them through a certified e-waste program",
+          "Give them away to a stranger"
+        ],
+        "ur": [
+          "انہیں کوڑے دان میں پھینک دیں",
+          "ڈیٹا کو مٹائے بغیر انہیں فروخت کر دیں",
+          "ہارڈ ڈرائیو/اسٹوریج کو صاف یا تباہ کر دیں، پھر انہیں ایک مصدقہ ای-کچرا پروگرام کے ذریعے ری سائیکل کریں",
+          "انہیں کسی اجنبی کو دے دیں"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Simply deleting files doesn't completely remove data from a hard drive. It's crucial to securely wipe the drive or physically destroy it to prevent data recovery and theft before recycling the device.",
+      "explanation_ur": "صرف فائلوں کو حذف کرنا ہارڈ ڈرائیو سے ڈیٹا کو مکمل طور پر نہیں ہٹاتا۔ ڈیٹا کی بازیابی اور چوری کو روکنے کے لیے آلے کو ری سائیکل کرنے سے پہلے ڈرائیو کو محفوظ طریقے سے صاف کرنا یا جسمانی طور پر تباہ کرنا اہم ہے۔",
+      "hint": "Think about how to make your data unrecoverable.",
+      "hint_ur": "سوچیں کہ آپ کے ڈیٹا کو ناقابل بازیاب کیسے بنایا جائے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "What is a 'Denial-of-Service (DoS)' attack?",
+      "question_ur": "'سروس سے انکار (DoS)' حملہ کیا ہے؟",
+      "options": {
+        "en": [
+          "An attack that tries to guess a password",
+          "An attack that floods a network or server with so much traffic that it becomes unable to respond to legitimate requests",
+          "A type of malware that encrypts files",
+          "A program that steals personal information"
+        ],
+        "ur": [
+          "ایک حملہ جو پاس ورڈ کا اندازہ لگانے کی کوشش کرتا ہے",
+          "ایک حملہ جو ایک نیٹ ورک یا سرور کو اتنی زیادہ ٹریفک سے بھر دیتا ہے کہ وہ جائز درخواستوں کا جواب دینے سے قاصر ہو جاتا ہے",
+          "مالویئر کی ایک قسم جو فائلوں کو انکرپٹ کرتی ہے",
+          "ایک پروگرام جو ذاتی معلومات چوری کرتا ہے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "A DoS attack aims to make a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to the internet.",
+      "explanation_ur": "ایک DoS حملے کا مقصد ایک مشین یا نیٹ ورک کے وسائل کو اس کے ارادے کے صارفین کے لیے عارضی طور پر یا غیر معینہ مدت تک انٹرنیٹ سے منسلک ایک میزبان کی خدمات کو خراب کر کے ناقابل دستیاب بنانا ہے۔",
+      "hint": "The name explains the outcome of the attack.",
+      "hint_ur": "نام حملے کے نتیجے کی وضاحت کرتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 55,
+      "type": "true-false",
+      "question": "Using a simple PIN for your phone is better than having no lock at all.",
+      "question_ur": "کیا آپ کے فون کے لیے ایک سادہ PIN استعمال کرنا بالکل لاک نہ رکھنے سے بہتر ہے؟",
+      "correctAnswer": true,
+      "explanation": "While a complex password is best, any form of locking mechanism, even a simple PIN, is better than none. It provides at least a minimal layer of protection against unauthorized physical access to your device.",
+      "explanation_ur": "جبکہ ایک پیچیدہ پاس ورڈ بہترین ہے، کسی بھی قسم کا لاکنگ میکانزم، یہاں تک کہ ایک سادہ PIN، کچھ بھی نہ ہونے سے بہتر ہے۔ یہ آپ کے آلے تک غیر مجاز جسمانی رسائی کے خلاف کم از کم ایک کم سے کم تہہ کی حفاظت فراہم کرتا ہے۔",
+      "hint": "Something is always better than nothing.",
+      "hint_ur": "کچھ ہمیشہ کچھ بھی نہ ہونے سے بہتر ہوتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "What is 'spear phishing'?",
+      "question_ur": "'سپئیر فشنگ' کیا ہے؟",
+      "options": {
+        "en": [
+          "A general, large-scale phishing attack",
+          "A highly targeted phishing attack aimed at a specific individual or organization",
+          "A type of malware",
+          "A method of fishing in a virtual reality environment"
+        ],
+        "ur": [
+          "ایک عام، بڑے پیمانے پر فشنگ حملہ",
+          "ایک انتہائی ہدف شدہ فشنگ حملہ جو کسی مخصوص فرد یا تنظیم کو نشانہ بناتا ہے",
+          "ایک قسم کا مالویئر",
+          "ایک ورچوئل رئیلٹی ماحول میں ماہی گیری کا ایک طریقہ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Unlike general phishing, spear phishing is tailored to the specific target, often using personal information to make the attack more convincing and increase the likelihood of success.",
+      "explanation_ur": "عام فشنگ کے برعکس، سپئیر فشنگ مخصوص ہدف کے لیے تیار کیا جاتا ہے، اکثر ذاتی معلومات کا استعمال کرتے ہوئے حملے کو زیادہ قائل کرنے والا اور کامیابی کے امکان کو بڑھانے کے لیے۔",
+      "hint": "Think of a 'spear' as a pointed, targeted weapon.",
+      "hint_ur": "ایک 'نیزہ' کو ایک نوکدار، ہدف شدہ ہتھیار کے طور پر سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "Which of the following is an effective way to protect against ransomware?",
+      "question_ur": "مندرجہ ذیل میں سے کونسا رینسم ویئر کے خلاف حفاظت کرنے کا ایک مؤثر طریقہ ہے؟",
+      "options": {
+        "en": [
+          "Never using a computer",
+          "Paying the ransom as soon as you are infected",
+          "Regularly backing up your data to an external, offline storage device",
+          "Clicking on all suspicious links to see what they do"
+        ],
+        "ur": [
+          "کبھی بھی کمپیوٹر کا استعمال نہ کرنا",
+          "جیسے ہی آپ متاثر ہوتے ہیں تاوان ادا کرنا",
+          "باقاعدگی سے اپنے ڈیٹا کا ایک بیرونی، آف لائن اسٹوریج آلہ پر بیک اپ لینا",
+          "تمام مشکوک لنکس پر کلک کرنا یہ دیکھنے کے لیے کہ وہ کیا کرتے ہیں"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "If your data is backed up to a device that is not connected to your computer, ransomware cannot encrypt it. This allows you to wipe your system and restore your files without having to pay the ransom.",
+      "explanation_ur": "اگر آپ کا ڈیٹا ایک ایسے آلے پر بیک اپ کیا جاتا ہے جو آپ کے کمپیوٹر سے منسلک نہیں ہے، تو رینسم ویئر اسے انکرپٹ نہیں کر سکتا۔ یہ آپ کو اپنے سسٹم کو صاف کرنے اور اپنے فائلوں کو بحال کرنے کی اجازت دیتا ہے بغیر تاوان ادا کیے ہوئے۔",
+      "hint": "It's about having a 'Plan B' for your data.",
+      "hint_ur": "یہ آپ کے ڈیٹا کے لیے ایک 'پلان B' رکھنے کے بارے میں ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 58,
+      "type": "true-false",
+      "question": "You should use a different email address for your financial accounts than for your social media accounts.",
+      "question_ur": "کیا آپ کو اپنے مالیاتی اکاؤنٹس کے لیے ایک مختلف ای میل ایڈریس استعمال کرنا چاہیے جو آپ کے سوشل میڈیا اکاؤنٹس کے لیے استعمال ہوتا ہے؟",
+      "correctAnswer": true,
+      "explanation": "Using separate emails reduces the risk of a social media breach leading to a financial account compromise. It adds an extra layer of security and makes it harder for attackers to connect the dots.",
+      "explanation_ur": "علیحدہ ای میلز کا استعمال ایک سوشل میڈیا کی خلاف ورزی کے مالیاتی اکاؤنٹ کو سمجھوتہ کرنے کے خطرے کو کم کرتا ہے۔ یہ سیکیورٹی کی ایک اضافی تہہ کا اضافہ کرتا ہے اور حملہ آوروں کے لیے نقطوں کو جوڑنا مشکل بناتا ہے۔",
+      "hint": "It's a way to compartmentalize your online life.",
+      "hint_ur": "یہ آپ کی آن لائن زندگی کو کمپارٹمنٹلائز کرنے کا ایک طریقہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "What is the term for an attacker attempting to gain access to a network by impersonating a trusted employee?",
+      "question_ur": "ایک حملہ آور کے لیے کیا اصطلاح ہے جو ایک قابل اعتماد ملازم کی نقالی کر کے ایک نیٹ ورک تک رسائی حاصل کرنے کی کوشش کرتا ہے؟",
+      "options": {
+        "en": [
+          "Phishing",
+          "Spear phishing",
+          "Social engineering",
+          "Whaling"
+        ],
+        "ur": [
+          "فشنگ",
+          "سپئیر فشنگ",
+          "سوشل انجینئرنگ",
+          "وھیلنگ"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "This is a classic example of social engineering, which relies on human interaction and manipulation to trick people into breaking security procedures.",
+      "explanation_ur": "یہ سوشل انجینئرنگ کی ایک کلاسیکی مثال ہے، جو لوگوں کو سیکیورٹی کے طریقہ کار کو توڑنے پر مجبور کرنے کے لیے انسانی تعامل اور ہیرا پھیری پر انحصار کرتی ہے۔",
+      "hint": "It's about manipulating people, not technology.",
+      "hint_ur": "یہ لوگوں کو ہیر پھیر کرنے کے بارے میں ہے، نہ کہ ٹیکنالوجی کے بارے میں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "What is the primary function of a 'secure boot' feature on a computer?",
+      "question_ur": "ایک کمپیوٹر پر 'محفوظ بوٹ' کی خصوصیت کا بنیادی کام کیا ہے؟",
+      "options": {
+        "en": [
+          "To speed up the computer's startup time",
+          "To prevent malware from loading during the computer's startup process",
+          "To prevent unauthorized physical access to the computer",
+          "To automatically update the operating system"
+        ],
+        "ur": [
+          "کمپیوٹر کے سٹارٹ اپ کے وقت کو تیز کرنا",
+          "کمپیوٹر کے سٹارٹ اپ کے عمل کے دوران مالویئر کو لوڈ ہونے سے روکنا",
+          "کمپیوٹر تک غیر مجاز جسمانی رسائی کو روکنا",
+          "آپریٹنگ سسٹم کو خود بخود اپ ڈیٹ کرنا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Secure boot is a security standard developed by members of the PC industry to help make sure that a device boots using only software that is trusted by the Original Equipment Manufacturer (OEM). When the PC starts, the firmware checks the signature of each piece of boot software, including firmware drivers (Option ROMs), EFI applications, and the operating system.",
+      "explanation_ur": "محفوظ بوٹ ایک سیکیورٹی کا معیار ہے جو پی سی کی صنعت کے ارکان نے تیار کیا ہے تاکہ یہ یقینی بنایا جا سکے کہ ایک آلہ صرف اس سافٹ ویئر کا استعمال کرتے ہوئے بوٹ ہو جو اصل سازوسامان کے مینوفیکچرر (OEM) پر بھروسہ کرتا ہے۔ جب پی سی شروع ہوتا ہے، تو فرم ویئر بوٹ سافٹ ویئر کے ہر حصے کی دستخط کی جانچ کرتا ہے، بشمول فرم ویئر ڈرائیورز (آپشن ROMs)، EFI ایپلی کیشنز، اور آپریٹنگ سسٹم۔",
+      "hint": "It 'secures' the 'boot' process.",
+      "hint_ur": "یہ 'بوٹ' کے عمل کو 'محفوظ' کرتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "What is 'whaling'?",
+      "question_ur": "'وھیلنگ' کیا ہے؟",
+      "options": {
+        "en": [
+          "A type of fishing for whales",
+          "A type of phishing attack that targets high-profile employees or executives",
+          "A type of malware that targets large computers",
+          "The act of illegally downloading movies"
+        ],
+        "ur": [
+          "وہیلوں کے لیے ماہی گیری کی ایک قسم",
+          "ایک قسم کا فشنگ حملہ جو اعلیٰ پروفائل والے ملازمین یا ایگزیکٹوز کو نشانہ بناتا ہے",
+          "مالویئر کی ایک قسم جو بڑے کمپیوٹرز کو نشانہ بناتی ہے",
+          "غیر قانونی طور پر فلمیں ڈاؤن لوڈ کرنے کا عمل"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Whaling is a form of spear phishing that specifically targets senior executives, often using deceptive emails that appear to be from other high-level employees or a legitimate source, to trick them into revealing sensitive corporate information.",
+      "explanation_ur": "وھیلنگ سپئیر فشنگ کی ایک شکل ہے جو خاص طور پر سینئر ایگزیکٹوز کو نشانہ بناتی ہے، اکثر دھوکہ دہی والی ای میلز کا استعمال کرتے ہوئے جو دوسرے اعلیٰ سطح کے ملازمین یا ایک جائز ذریعہ سے ظاہر ہوتی ہیں، تاکہ انہیں حساس کارپوریٹ معلومات ظاہر کرنے پر مجبور کیا جا سکے۔",
+      "hint": "It targets the 'big fish' in an organization.",
+      "hint_ur": "یہ ایک تنظیم میں 'بڑی مچھلی' کو نشانہ بناتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 62,
+      "type": "true-false",
+      "question": "You should accept friend requests on social media from people you don't know in real life to increase your network.",
+      "question_ur": "کیا آپ کو سوشل میڈیا پر ان لوگوں سے دوست کی درخواستیں قبول کرنی چاہیے جنہیں آپ حقیقی زندگی میں نہیں جانتے تاکہ آپ کا نیٹ ورک بڑھ سکے؟",
+      "correctAnswer": false,
+      "explanation": "Accepting requests from strangers can expose your personal information to potential scammers, cyberbullies, or people who may be attempting to gather information for social engineering attacks.",
+      "explanation_ur": "اجنبیوں سے درخواستیں قبول کرنا آپ کی ذاتی معلومات کو ممکنہ سکیمرز، سائبر بدمعاشوں، یا ان لوگوں کے سامنے بے نقاب کر سکتا ہے جو سوشل انجینئرنگ حملوں کے لیے معلومات جمع کرنے کی کوشش کر رہے ہیں۔",
+      "hint": "Consider the risk of who you're letting into your 'digital home'.",
+      "hint_ur": "غور کریں کہ آپ کس کو اپنے 'ڈیجیٹل گھر' میں داخل ہونے دے رہے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "What is the purpose of a 'privacy screen' on a laptop or phone?",
+      "question_ur": "ایک لیپ ٹاپ یا فون پر 'پرائیویسی اسکرین' کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To prevent the screen from being scratched",
+          "To make the screen brighter",
+          "To make the screen difficult for anyone other than the user to see from a side angle",
+          "To block all advertisements"
+        ],
+        "ur": [
+          "اسکرین کو خرچوں سے بچانا",
+          "اسکرین کو زیادہ روشن بنانا",
+          "اسکرین کو صارف کے علاوہ کسی اور کے لیے سائیڈ اینگل سے دیکھنا مشکل بنانا",
+          "تمام اشتہارات کو روکنا"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "A privacy screen is a filter that narrows the viewing angle of a display, making it difficult for people next to you (known as 'shoulder surfers') to see what you're working on.",
+      "explanation_ur": "ایک پرائیویسی اسکرین ایک فلٹر ہے جو ایک ڈسپلے کے دیکھنے کے زاویے کو تنگ کرتا ہے، جس سے آپ کے ساتھ والے لوگوں کے لیے ('کندھے سرفرز' کے نام سے جانا جاتا ہے) یہ دیکھنا مشکل ہو جاتا ہے کہ آپ کس پر کام کر رہے ہیں۔",
+      "hint": "It protects your 'privacy' from those looking over your 'shoulder'.",
+      "hint_ur": "یہ آپ کی 'پرائیویسی' کو ان لوگوں سے بچاتا ہے جو آپ کے 'کندھے' پر دیکھ رہے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "question": "What is 'adware'?",
+      "question_ur": "'ایڈویئر' کیا ہے؟",
+      "options": {
+        "en": [
+          "A tool for creating advertisements",
+          "Software that helps you block ads",
+          "Software that automatically displays or downloads unwanted advertisements, often bundled with other programs",
+          "A tool for analyzing marketing data"
+        ],
+        "ur": [
+          "اشتہارات بنانے کا ایک آلہ",
+          "سافٹ ویئر جو آپ کو اشتہارات کو روکنے میں مدد کرتا ہے",
+          "سافٹ ویئر جو خود بخود ناپسندیدہ اشتہارات کو ظاہر یا ڈاؤن لوڈ کرتا ہے، اکثر دوسرے پروگراموں کے ساتھ بنڈل ہوتا ہے",
+          "مارکیٹنگ ڈیٹا کا تجزیہ کرنے کا ایک آلہ"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Adware is a type of software that generates unwanted ads, often in the form of pop-ups, which can be annoying and sometimes malicious, leading to further malware infections.",
+      "explanation_ur": "ایڈویئر ایک قسم کا سافٹ ویئر ہے جو ناپسندیدہ اشتہارات پیدا کرتا ہے، اکثر پاپ اپ کی شکل میں، جو پریشان کن اور بعض اوقات بدنیتی پر مبنی ہو سکتے ہیں، جس سے مزید مالویئر انفیکشن ہو سکتے ہیں۔",
+      "hint": "It's software that gives you lots of 'ads'.",
+      "hint_ur": "یہ سافٹ ویئر ہے جو آپ کو بہت سارے 'اشتہارات' دیتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 65,
+      "type": "true-false",
+      "question": "It's safe to accept all 'Terms of Service' agreements without reading them.",
+      "question_ur": "کیا تمام 'سروس کی شرائط' کے معاہدوں کو پڑھے بغیر قبول کرنا محفوظ ہے؟",
+      "correctAnswer": false,
+      "explanation": "Terms of Service agreements often contain important clauses about how a company can use your data, which can have significant privacy implications. While it's tedious, it's important to be aware of what you're agreeing to.",
+      "explanation_ur": "سروس کی شرائط کے معاہدوں میں اکثر اہم شقیں ہوتی ہیں کہ ایک کمپنی آپ کا ڈیٹا کیسے استعمال کر سکتی ہے، جس کے اہم پرائیویسی کے مضمرات ہو سکتے ہیں۔ اگرچہ یہ تھکا دینے والا ہے، لیکن یہ جاننا ضروری ہے کہ آپ کس چیز سے متفق ہیں۔",
+      "hint": "You're agreeing to a legal document.",
+      "hint_ur": "آپ ایک قانونی دستاویز سے متفق ہو رہے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 66,
+      "type": "mcq",
+      "question": "What is the primary risk of using a stolen or pirated software key?",
+      "question_ur": "چوری شدہ یا پائریٹڈ سافٹ ویئر کی کلید استعمال کرنے کا بنیادی خطرہ کیا ہے؟",
+      "options": {
+        "en": [
+          "The software will run faster",
+          "The software will be more secure",
+          "The software may contain malware or other malicious code",
+          "You will receive free updates for life"
+        ],
+        "ur": [
+          "سافٹ ویئر تیزی سے چلے گا",
+          "سافٹ ویئر زیادہ محفوظ ہو گا",
+          "سافٹ ویئر میں مالویئر یا دیگر بدنیتی پر مبنی کوڈ شامل ہو سکتا ہے",
+          "آپ کو زندگی بھر کے لیے مفت اپ ڈیٹس ملیں گے"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Illegitimate software is a common vector for malware. The program itself may be modified to include a virus or a keylogger. It is never safe to use pirated software.",
+      "explanation_ur": "غیر قانونی سافٹ ویئر مالویئر کے لیے ایک عام ذریعہ ہے۔ پروگرام کو خود ایک وائرس یا کیلاگر شامل کرنے کے لیے تبدیل کیا جا سکتا ہے۔ پائریٹڈ سافٹ ویئر کا استعمال کبھی بھی محفوظ نہیں ہے۔",
+      "hint": "You don't know what else might be bundled with it.",
+      "hint_ur": "آپ نہیں جانتے کہ اس کے ساتھ اور کیا بنڈل ہو سکتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "What is the purpose of 'multifactor authentication' (MFA)?",
+      "question_ur": "'ملٹی فیکٹر توثیق' (MFA) کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To use two passwords for a single account",
+          "To require two or more verification methods to log in, adding an extra layer of security",
+          "To use your face and fingerprint to log in",
+          "To make it harder for you to log in"
+        ],
+        "ur": [
+          "ایک ہی اکاؤنٹ کے لیے دو پاس ورڈز کا استعمال",
+          "لاگ ان کرنے کے لیے دو یا زیادہ توثیق کے طریقوں کی ضرورت ہوتی ہے، جو سیکیورٹی کی ایک اضافی تہہ کا اضافہ کرتی ہے",
+          "لاگ ان کرنے کے لیے اپنے چہرے اور فنگر پرنٹ کا استعمال",
+          "آپ کے لیے لاگ ان کرنا مشکل بنانا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "MFA is a security system that requires more than one method of authentication from independent categories of credentials to verify the user's identity for a login or other transaction. A common example is using a password and a code from your phone.",
+      "explanation_ur": "MFA ایک سیکیورٹی سسٹم ہے جس میں لاگ ان یا دیگر لین دین کے لیے صارف کی شناخت کی تصدیق کے لیے اسناد کے آزاد زمروں سے ایک سے زیادہ توثیق کے طریقہ کار کی ضرورت ہوتی ہے۔ ایک عام مثال ایک پاس ورڈ اور آپ کے فون سے ایک کوڈ کا استعمال ہے۔",
+      "hint": "It uses 'multiple' factors to 'authenticate' you.",
+      "hint_ur": "یہ آپ کی 'توثیق' کرنے کے لیے 'متعدد' عوامل کا استعمال کرتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 68,
+      "type": "true-false",
+      "question": "An 'out-of-band' authentication method is one that uses the same channel as the login request.",
+      "question_ur": "کیا ایک 'آؤٹ آف بینڈ' توثیق کا طریقہ وہ ہے جو لاگ ان کی درخواست کے طور پر ایک ہی چینل کا استعمال کرتا ہے؟",
+      "correctAnswer": false,
+      "explanation": "Out-of-band authentication uses a separate, independent channel to verify a user's identity. For example, a code sent to your phone (a different channel) to authenticate a login on your computer (the primary channel).",
+      "explanation_ur": "آؤٹ آف بینڈ توثیق صارف کی شناخت کی تصدیق کے لیے ایک علیحدہ، آزاد چینل کا استعمال کرتی ہے۔ مثال کے طور پر، آپ کے فون پر ایک کوڈ بھیجا گیا ہے (ایک مختلف چینل) تاکہ آپ کے کمپیوٹر پر لاگ ان کی توثیق کی جا سکے (بنیادی چینل)۔",
+      "hint": "It uses a channel 'outside' of the main one.",
+      "hint_ur": "یہ بنیادی چینل کے 'باہر' ایک چینل کا استعمال کرتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "question": "What is the primary risk of using a computer with an expired antivirus subscription?",
+      "question_ur": "ایک ختم شدہ اینٹی وائرس سبسکرپشن کے ساتھ کمپیوٹر استعمال کرنے کا بنیادی خطرہ کیا ہے؟",
+      "options": {
+        "en": [
+          "The computer will shut down automatically",
+          "The antivirus program will start deleting all your files",
+          "It will not receive the latest virus definitions and security updates, leaving it vulnerable to new threats",
+          "The computer will run much faster"
+        ],
+        "ur": [
+          "کمپیوٹر خود بخود بند ہو جائے گا",
+          "اینٹی وائرس پروگرام آپ کی تمام فائلوں کو حذف کرنا شروع کر دے گا",
+          "اسے تازہ ترین وائرس کی تعریفیں اور سیکیورٹی اپ ڈیٹس نہیں ملیں گے، جو اسے نئے خطرات کے لیے کمزور چھوڑ دیں گے",
+          "کمپیوٹر بہت تیزی سے چلے گا"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Antivirus programs rely on up-to-date virus definitions to identify and protect against the latest malware. An expired subscription means you're no longer protected from new, emerging threats.",
+      "explanation_ur": "اینٹی وائرس پروگرام تازہ ترین مالویئر کی شناخت اور اس سے بچاؤ کے لیے تازہ ترین وائرس کی تعریفوں پر انحصار کرتے ہیں۔ ایک ختم شدہ سبسکرپشن کا مطلب ہے کہ آپ نئے، ابھرتے ہوئے خطرات سے محفوظ نہیں ہیں۔",
+      "hint": "Think about what the subscription pays for.",
+      "hint_ur": "سوچیں کہ سبسکرپشن کس کے لیے ادائیگی کرتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 70,
+      "type": "mcq",
+      "question": "What is 'vishing'?",
+      "question_ur": "'ویشنگ' کیا ہے؟",
+      "options": {
+        "en": [
+          "A type of phishing attack conducted over the phone (voice phishing)",
+          "A type of social media account",
+          "A tool for creating fake voices",
+          "A security method for video calls"
+        ],
+        "ur": [
+          "فون پر کیے جانے والے فشنگ حملے کی ایک قسم (وائس فشنگ)",
+          "سوشل میڈیا اکاؤنٹ کی ایک قسم",
+          "جعلی آوازیں بنانے کا ایک آلہ",
+          "ویڈیو کالز کے لیے ایک سیکیورٹی کا طریقہ"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Vishing is a portmanteau of 'voice' and 'phishing.' It's the fraudulent practice of convincing individuals to reveal personal information over the phone by impersonating a legitimate company or entity.",
+      "explanation_ur": "ویشنگ 'وائس' اور 'فشنگ' کا ایک پورٹمانٹو ہے۔ یہ ایک دھوکہ دہی کا عمل ہے جس میں افراد کو ایک جائز کمپنی یا ادارے کی نقالی کرتے ہوئے فون پر ذاتی معلومات ظاہر کرنے پر قائل کیا جاتا ہے۔",
+      "hint": "The name combines the medium ('voice') and the attack ('phishing').",
+      "hint_ur": "نام میڈیم ('آواز') اور حملے ('فشنگ') کو یکجا کرتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 71,
+      "type": "true-false",
+      "question": "It's safe to open email attachments from unknown senders as long as the file name looks normal.",
+      "question_ur": "کیا نامعلوم بھیجنے والوں کی ای میل اٹیچمنٹ کو کھولنا محفوظ ہے جب تک کہ فائل کا نام نارمل لگے؟",
+      "correctAnswer": false,
+      "explanation": "Malicious attachments can be disguised with normal-sounding names. Opening them can trigger malware installation or other harmful activities. It is always best to only open attachments from trusted sources.",
+      "explanation_ur": "بدنیتی پر مبنی اٹیچمنٹ کو نارمل لگنے والے ناموں سے چھپایا جا سکتا ہے۔ انہیں کھولنے سے مالویئر انسٹالیشن یا دیگر نقصان دہ سرگرمیاں شروع ہو سکتی ہیں۔ یہ ہمیشہ بہتر ہے کہ صرف قابل اعتماد ذرائع سے اٹیچمنٹ کھولیں۔",
+      "hint": "Appearance can be deceiving.",
+      "hint_ur": "ظاہری شکل دھوکہ دے سکتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 72,
+      "type": "mcq",
+      "question": "What is the primary function of a 'secure socket layer (SSL)' certificate on a website?",
+      "question_ur": "ایک ویب سائٹ پر 'محفوظ ساکٹ پرت (SSL)' سرٹیفکیٹ کا بنیادی کام کیا ہے؟",
+      "options": {
+        "en": [
+          "To make the website load faster",
+          "To encrypt the data transmitted between a web browser and a server, ensuring the connection is secure",
+          "To display a company's logo on the website",
+          "To prevent the website from being hacked"
+        ],
+        "ur": [
+          "ویب سائٹ کو تیزی سے لوڈ کرنا",
+          "ایک ویب براؤزر اور ایک سرور کے درمیان منتقل ہونے والے ڈیٹا کو انکرپٹ کرنا، جو اس بات کو یقینی بناتا ہے کہ کنکشن محفوظ ہے",
+          "ویب سائٹ پر ایک کمپنی کا لوگو ظاہر کرنا",
+          "ویب سائٹ کو ہیک ہونے سے روکنا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "SSL certificates are a cornerstone of website security. They enable an encrypted connection, indicated by the 'HTTPS' in the address bar, which is vital for protecting sensitive data like credit card numbers.",
+      "explanation_ur": "SSL سرٹیفکیٹ ویب سائٹ کی سیکیورٹی کی ایک بنیاد ہیں۔ وہ ایک انکرپٹڈ کنکشن کو فعال کرتے ہیں، جو ایڈریس بار میں 'HTTPS' سے ظاہر ہوتا ہے، جو کریڈٹ کارڈ نمبروں جیسی حساس ڈیٹا کی حفاظت کے لیے اہم ہے۔",
+      "hint": "It ensures the 'secure' communication of data.",
+      "hint_ur": "یہ ڈیٹا کی 'محفوظ' مواصلت کو یقینی بناتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "What is 'ransomware as a service (RaaS)'?",
+      "question_ur": "'رینسم ویئر ایز اے سروس (RaaS)' کیا ہے؟",
+      "options": {
+        "en": [
+          "A cloud-based service that helps you back up your files",
+          "A business model where developers create ransomware and lease it to other criminals for a fee",
+          "A type of government-sponsored ransomware",
+          "A legitimate service for managing software subscriptions"
+        ],
+        "ur": [
+          "ایک کلاؤڈ پر مبنی سروس جو آپ کی فائلوں کا بیک اپ لینے میں مدد کرتی ہے",
+          "ایک کاروباری ماڈل جہاں ڈویلپرز رینسم ویئر بناتے ہیں اور اسے فیس کے عوض دوسرے مجرموں کو کرائے پر دیتے ہیں",
+          "حکومت کی حمایت یافتہ رینسم ویئر کی ایک قسم",
+          "سافٹ ویئر کی سبسکرپشنز کو منظم کرنے کے لیے ایک جائز سروس"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "RaaS has made it easier for criminals with little technical knowledge to launch ransomware attacks, as they can simply rent the software and use it to extort money.",
+      "explanation_ur": "RaaS نے کم تکنیکی علم والے مجرموں کے لیے رینسم ویئر حملے شروع کرنا آسان بنا دیا ہے، کیونکہ وہ صرف سافٹ ویئر کرائے پر لے کر اسے پیسے نکالنے کے لیے استعمال کر سکتے ہیں۔",
+      "hint": "Think of it like a subscription service for criminals.",
+      "hint_ur": "اس کے بارے میں مجرموں کے لیے ایک سبسکرپشن سروس کے طور پر سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 74,
+      "type": "true-false",
+      "question": "Using a separate email address for online shopping and newsletters is a good privacy practice.",
+      "question_ur": "کیا آن لائن خریداری اور نیوز لیٹرز کے لیے ایک علیحدہ ای میل ایڈریس استعمال کرنا ایک اچھا پرائیویسی کا طریقہ ہے؟",
+      "correctAnswer": true,
+      "explanation": "This practice helps to segment your online activity, reducing the amount of spam and potential phishing attacks that reach your primary email. It also contains the damage if a retail site has a data breach.",
+      "explanation_ur": "یہ طریقہ آپ کی آن لائن سرگرمی کو تقسیم کرنے میں مدد کرتا ہے، جو اسپام اور ممکنہ فشنگ حملوں کی مقدار کو کم کرتا ہے جو آپ کی بنیادی ای میل تک پہنچتے ہیں۔ یہ نقصان کو بھی روکتا ہے اگر ایک ریٹیل سائٹ میں ڈیٹا کی خلاف ورزی ہوتی ہے۔",
+      "hint": "It's a way to separate your important accounts from your less important ones.",
+      "hint_ur": "یہ آپ کے اہم اکاؤنٹس کو آپ کے کم اہم اکاؤنٹس سے الگ کرنے کا ایک طریقہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "question": "What is the purpose of a 'network access control (NAC)' solution?",
+      "question_ur": "ایک 'نیٹ ورک رسائی کنٹرول (NAC)' حل کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To allow anyone to connect to a network",
+          "To define and enforce security policies for devices attempting to access a network",
+          "To speed up a network's performance",
+          "To provide internet access to guests"
+        ],
+        "ur": [
+          "کسی کو بھی ایک نیٹ ورک سے جڑنے کی اجازت دینا",
+          "ایک نیٹ ورک تک رسائی حاصل کرنے کی کوشش کرنے والے آلات کے لیے سیکیورٹی کی پالیسیوں کی تعریف اور ان کا نفاذ کرنا",
+          "ایک نیٹ ورک کی کارکردگی کو تیز کرنا",
+          "مہمانوں کو انٹرنیٹ تک رسائی فراہم کرنا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "A NAC solution ensures that only authorized, compliant devices can connect to a network, preventing unauthorized devices from introducing security risks to the network.",
+      "explanation_ur": "ایک NAC حل اس بات کو یقینی بناتا ہے کہ صرف مجاز، مطابق آلات ہی ایک نیٹ ورک سے جڑ سکتے ہیں، جو غیر مجاز آلات کو نیٹ ورک میں سیکیورٹی کے خطرات متعارف کرانے سے روکتا ہے۔",
+      "hint": "It 'controls' the 'access' to a 'network'.",
+      "hint_ur": "یہ ایک 'نیٹ ورک' تک 'رسائی' کو 'کنٹرول' کرتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "question": "What is the primary risk of using a simple, easily guessable password?",
+      "question_ur": "ایک سادہ، آسانی سے اندازہ لگایا جا سکنے والے پاس ورڈ کا استعمال کرنے کا بنیادی خطرہ کیا ہے؟",
+      "options": {
+        "en": [
+          "Your account will be suspended",
+          "It can be easily cracked by a brute-force or dictionary attack",
+          "The password will expire faster",
+          "You will receive more spam emails"
+        ],
+        "ur": [
+          "آپ کا اکاؤنٹ معطل کر دیا جائے گا",
+          "اسے ایک بروٹ فورس یا ڈکشنری حملے سے آسانی سے کریک کیا جا سکتا ہے",
+          "پاس ورڈ تیزی سے ختم ہو جائے گا",
+          "آپ کو زیادہ اسپام ای میلز ملیں گی"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Simple passwords like 'password123' or common words are the first things attackers try. A strong, complex password makes this type of attack much more difficult and time-consuming.",
+      "explanation_ur": "سادہ پاس ورڈز جیسے 'password123' یا عام الفاظ سب سے پہلے حملہ آور کوشش کرتے ہیں۔ ایک مضبوط، پیچیدہ پاس ورڈ اس قسم کے حملے کو بہت زیادہ مشکل اور وقت طلب بناتا ہے۔",
+      "hint": "Think about what an attacker would try first.",
+      "hint_ur": "سوچیں کہ ایک حملہ آور سب سے پہلے کیا کوشش کرے گا۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 77,
+      "type": "true-false",
+      "question": "It's safe to give out your personal information to a person who claims to be from a company you trust, even if you don't know them.",
+      "question_ur": "کیا ایک ایسے شخص کو اپنی ذاتی معلومات دینا محفوظ ہے جو ایک ایسی کمپنی سے ہونے کا دعویٰ کرتا ہے جس پر آپ بھروسہ کرتے ہیں، یہاں تک کہ اگر آپ اسے نہیں جانتے ہیں؟",
+      "correctAnswer": false,
+      "explanation": "This is a classic social engineering tactic. Legitimate companies will never ask for your password or other sensitive information over the phone or email. You should always verify the person's identity through official channels.",
+      "explanation_ur": "یہ ایک کلاسیکی سوشل انجینئرنگ کی تدبیر ہے۔ جائز کمپنیاں کبھی بھی آپ کا پاس ورڈ یا دیگر حساس معلومات فون یا ای میل پر نہیں پوچھیں گی۔ آپ کو ہمیشہ سرکاری چینلز کے ذریعے اس شخص کی شناخت کی تصدیق کرنی چاہیے۔",
+      "hint": "Always verify, never trust.",
+      "hint_ur": "ہمیشہ تصدیق کریں، کبھی بھروسہ نہ کریں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 78,
+      "type": "mcq",
+      "question": "What is the purpose of a 'honeypot' in cyber security?",
+      "question_ur": "سائبر سیکیورٹی میں ایک 'ہنی پاٹ' کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To store sensitive company data",
+          "A system set up to attract and trap cyber attackers, so they can be studied and their methods can be learned",
+          "A type of encrypted storage device",
+          "A tool for creating secure passwords"
+        ],
+        "ur": [
+          "حساس کمپنی ڈیٹا کو ذخیرہ کرنا",
+          "ایک ایسا نظام جو سائبر حملہ آوروں کو اپنی طرف متوجہ کرنے اور پھنسانے کے لیے قائم کیا گیا ہے، تاکہ ان کا مطالعہ کیا جا سکے اور ان کے طریقوں کو سیکھا جا سکے",
+          "ایک قسم کا انکرپٹڈ اسٹوریج آلہ",
+          "محفوظ پاس ورڈ بنانے کا ایک آلہ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "A honeypot is a decoy computer system that is intentionally left vulnerable to entice attackers. By monitoring the attacks, security researchers can learn about new threats and improve defenses.",
+      "explanation_ur": "ایک ہنی پاٹ ایک دھوکہ دہی کا کمپیوٹر سسٹم ہے جسے جان بوجھ کر حملہ آوروں کو راغب کرنے کے لیے کمزور چھوڑا جاتا ہے۔ حملوں کی نگرانی کر کے، سیکیورٹی کے محققین نئے خطرات کے بارے میں جان سکتے ہیں اور دفاع کو بہتر بنا سکتے ہیں۔",
+      "hint": "It's a 'pot' of 'honey' to attract 'bears'.",
+      "hint_ur": "یہ 'بھالو' کو اپنی طرف متوجہ کرنے کے لیے 'شہد' کا ایک 'برتن' ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "What is the term for a malicious program that waits for a specific condition, such as a date or event, to be met before it executes its harmful payload?",
+      "question_ur": "ایک بدنیتی پر مبنی پروگرام کے لیے کیا اصطلاح ہے جو اپنے نقصان دہ پے لوڈ کو چلانے سے پہلے ایک مخصوص شرط، جیسے ایک تاریخ یا واقعہ، کے پورا ہونے کا انتظار کرتا ہے؟",
+      "options": {
+        "en": [
+          "A Trojan",
+          "A Logic bomb",
+          "A Worm",
+          "A Virus"
+        ],
+        "ur": [
+          "ایک ٹروجن",
+          "ایک منطق بم",
+          "ایک ورم",
+          "ایک وائرس"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "A logic bomb is a piece of code intentionally inserted into a software system that will 'detonate' when specified conditions are met. This can be a date, a time, or an event like a specific user logging in.",
+      "explanation_ur": "ایک منطق بم ایک کوڈ کا ٹکڑا ہے جسے جان بوجھ کر ایک سافٹ ویئر سسٹم میں داخل کیا جاتا ہے جو مخصوص شرائط پوری ہونے پر 'پھٹ' جائے گا۔ یہ ایک تاریخ، ایک وقت، یا ایک واقعہ ہو سکتا ہے جیسے ایک مخصوص صارف کا لاگ ان کرنا۔",
+      "hint": "Its name describes a 'bomb' that is triggered by a 'logical' condition.",
+      "hint_ur": "اس کا نام ایک 'بم' کو بیان کرتا ہے جو ایک 'منطقی' شرط سے شروع ہوتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 80,
+      "type": "true-false",
+      "question": "It's generally safe to connect to a Wi-Fi network without a password.",
+      "question_ur": "کیا عام طور پر ایک وائی فائی نیٹ ورک سے بغیر پاس ورڈ کے جڑنا محفوظ ہے؟",
+      "correctAnswer": false,
+      "explanation": "Wi-Fi networks without a password are typically unsecured, meaning that any data you transmit can be intercepted by others on the same network. This is a significant security risk for sensitive activities.",
+      "explanation_ur": "بغیر پاس ورڈ کے وائی فائی نیٹ ورکس عام طور پر غیر محفوظ ہوتے ہیں، جس کا مطلب ہے کہ آپ جو بھی ڈیٹا منتقل کرتے ہیں اسے اسی نیٹ ورک پر موجود دوسرے لوگ روک سکتے ہیں۔ یہ حساس سرگرمیوں کے لیے ایک اہم سیکیورٹی کا خطرہ ہے۔",
+      "hint": "No password means no protection.",
+      "hint_ur": "پاس ورڈ نہیں ہے کا مطلب کوئی حفاظت نہیں ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "question": "What is a 'botnet'?",
+      "question_ur": "'بوٹ نیٹ' کیا ہے؟",
+      "options": {
+        "en": [
+          "A network of friendly robots",
+          "A network of private computers infected with malicious software and controlled as a group without the owners' knowledge",
+          "A social media network for bots",
+          "A type of cybersecurity software"
+        ],
+        "ur": [
+          "دوستانہ روبوٹس کا ایک نیٹ ورک",
+          "بدنیتی پر مبنی سافٹ ویئر سے متاثر اور مالکان کے علم کے بغیر ایک گروپ کے طور پر کنٹرول کیے گئے نجی کمپیوٹرز کا ایک نیٹ ورک",
+          "بوٹس کے لیے ایک سوشل میڈیا نیٹ ورک",
+          "ایک قسم کا سائبر سیکیورٹی سافٹ ویئر"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "A botnet is a network of 'zombie' computers that are controlled by a single attacker, often to carry out large-scale cyberattacks like DoS attacks or to send spam.",
+      "explanation_ur": "ایک بوٹ نیٹ 'زومبی' کمپیوٹرز کا ایک نیٹ ورک ہے جو ایک ہی حملہ آور کے ذریعے کنٹرول کیا جاتا ہے، اکثر بڑے پیمانے پر سائبر حملوں جیسے DoS حملوں کو انجام دینے یا اسپام بھیجنے کے لیے۔",
+      "hint": "It's a 'network' of 'bots'.",
+      "hint_ur": "یہ 'بوٹس' کا ایک 'نیٹ ورک' ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "question": "What is 'pharming'?",
+      "question_ur": "'فارمنگ' کیا ہے؟",
+      "options": {
+        "en": [
+          "A form of phishing that redirects users to a fraudulent website without them clicking on a link",
+          "A type of malware that targets farms",
+          "The act of growing plants in a virtual reality environment",
+          "A new type of social media platform"
+        ],
+        "ur": [
+          "فشنگ کی ایک شکل جو صارفین کو ایک دھوکہ دہی والی ویب سائٹ پر لے جاتی ہے بغیر ان کے لنک پر کلک کیے",
+          "مالویئر کی ایک قسم جو فارموں کو نشانہ بناتی ہے",
+          "ایک ورچوئل رئیلٹی ماحول میں پودے اگانے کا عمل",
+          "سوشل میڈیا پلیٹ فارم کی ایک نئی قسم"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Pharming is a more advanced form of phishing where a hacker redirects users from a legitimate website to a fraudulent one by altering the host's file or DNS records, so the user never sees a malicious link.",
+      "explanation_ur": "فارمنگ فشنگ کی ایک زیادہ جدید شکل ہے جہاں ایک ہیکر میزبان کی فائل یا DNS ریکارڈز کو تبدیل کر کے صارفین کو ایک جائز ویب سائٹ سے ایک دھوکہ دہی والی ویب سائٹ پر لے جاتا ہے، لہذا صارف کبھی بھی ایک بدنیتی پر مبنی لنک نہیں دیکھتا۔",
+      "hint": "It's a play on 'phishing' and 'farming'.",
+      "hint_ur": "یہ 'فشنگ' اور 'فارمنگ' پر ایک کھیل ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 83,
+      "type": "true-false",
+      "question": "You should respond to spam emails to let the sender know you're not interested.",
+      "question_ur": "کیا آپ کو اسپام ای میلز کا جواب دینا چاہیے تاکہ بھیجنے والے کو پتہ چلے کہ آپ دلچسپی نہیں رکھتے؟",
+      "correctAnswer": false,
+      "explanation": "Responding to spam emails confirms that your email address is active, which can lead to you receiving even more spam and phishing emails. It's best to simply delete or block the message.",
+      "explanation_ur": "اسپام ای میلز کا جواب دینا اس بات کی تصدیق کرتا ہے کہ آپ کا ای میل ایڈریس فعال ہے، جو آپ کو اور بھی زیادہ اسپام اور فشنگ ای میلز حاصل کرنے کا باعث بن سکتا ہے۔ یہ بہتر ہے کہ صرف پیغام کو حذف یا بلاک کر دیں۔",
+      "hint": "Think about what a scammer learns from your response.",
+      "hint_ur": "سوچیں کہ ایک سکیمر آپ کے جواب سے کیا سیکھتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 84,
+      "type": "mcq",
+      "question": "What is the purpose of an 'incident response plan' in an organization?",
+      "question_ur": "ایک تنظیم میں 'واقعہ جواب منصوبہ' کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To prevent all security incidents from ever happening",
+          "A set of procedures and guidelines to be followed in the event of a security breach or cyberattack",
+          "To handle employee HR issues",
+          "To plan company parties and events"
+        ],
+        "ur": [
+          "تمام سیکیورٹی کے واقعات کو کبھی بھی ہونے سے روکنا",
+          "ایک سیکیورٹی خلاف ورزی یا سائبر حملے کی صورت میں پیروی کرنے کے لیے طریقہ کار اور رہنما اصولوں کا ایک مجموعہ",
+          "ملازم HR کے مسائل کو سنبھالنا",
+          "کمپنی کی پارٹیوں اور واقعات کی منصوبہ بندی کرنا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "An incident response plan is crucial for minimizing the damage and recovery time after a security incident. It outlines the steps for detection, containment, eradication, and recovery.",
+      "explanation_ur": "ایک سیکیورٹی کے واقعے کے بعد نقصان اور بحالی کے وقت کو کم کرنے کے لیے ایک واقعہ جواب منصوبہ اہم ہے۔ یہ پتہ لگانے، روک تھام، خاتمہ، اور بحالی کے لیے اقدامات کا خاکہ پیش کرتا ہے۔",
+      "hint": "It's a 'plan' for responding to a security 'incident'.",
+      "hint_ur": "یہ ایک سیکیورٹی 'واقعہ' کا جواب دینے کے لیے ایک 'منصوبہ' ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "What is 'cybersquatting'?",
+      "question_ur": "'سائبر اسکوٹنگ' کیا ہے؟",
+      "options": {
+        "en": [
+          "The practice of purchasing a domain name with the malicious intent of profiting from a trademark that belongs to someone else",
+          "A type of online land ownership",
+          "The process of creating a new website",
+          "A type of social media post"
+        ],
+        "ur": [
+          "کسی اور کی ملکیت والے ٹریڈ مارک سے فائدہ اٹھانے کے بدنیتی پر مبنی ارادے سے ایک ڈومین کا نام خریدنے کا عمل",
+          "آن لائن زمین کی ملکیت کی ایک قسم",
+          "ایک نئی ویب سائٹ بنانے کا عمل",
+          "سوشل میڈیا پوسٹ کی ایک قسم"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Cybersquatting is a form of online deception where individuals register domain names that are similar to well-known brands, hoping to either sell the domain for a high price or use it to mislead consumers.",
+      "explanation_ur": "سائبر اسکوٹنگ آن لائن دھوکہ دہی کی ایک شکل ہے جہاں افراد معروف برانڈز سے ملتے جلتے ڈومین کے نام رجسٹر کرتے ہیں، اس امید پر کہ یا تو ڈومین کو ایک اعلیٰ قیمت پر فروخت کریں گے یا اسے صارفین کو گمراہ کرنے کے لیے استعمال کریں گے۔",
+      "hint": "The name suggests someone 'squatting' on a domain name.",
+      "hint_ur": "نام یہ تجویز کرتا ہے کہ کوئی ایک ڈومین نام پر 'قبضہ' کر رہا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 86,
+      "type": "true-false",
+      "question": "A 'social media scam' is a form of cyberbullying.",
+      "question_ur": "کیا ایک 'سوشل میڈیا سکیم' سائبر بلنگ کی ایک شکل ہے؟",
+      "correctAnswer": false,
+      "explanation": "While both are cybercrimes, a social media scam is a type of fraud that uses social platforms to deceive people for financial gain. Cyberbullying is a form of harassment and intimidation.",
+      "explanation_ur": "جبکہ دونوں سائبر جرائم ہیں، ایک سوشل میڈیا سکیم دھوکہ دہی کی ایک قسم ہے جو مالی فائدہ کے لیے لوگوں کو دھوکہ دینے کے لیے سوشل پلیٹ فارمز کا استعمال کرتی ہے۔ سائبر بلنگ ہراسانی اور ڈرانے دھمکانے کی ایک شکل ہے۔",
+      "hint": "One is for money, the other is for harassment.",
+      "hint_ur": "ایک پیسے کے لیے ہے، دوسرا ہراسانی کے لیے ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "question": "What is the primary risk of using a cracked or pirated video game?",
+      "question_ur": "ایک کریک شدہ یا پائریٹڈ ویڈیو گیم استعمال کرنے کا بنیادی خطرہ کیا ہے؟",
+      "options": {
+        "en": [
+          "The game will run too fast",
+          "The game will be more secure",
+          "The game may contain malware, such as viruses or keyloggers",
+          "You will get free updates for the game"
+        ],
+        "ur": [
+          "گیم بہت تیزی سے چلے گا",
+          "گیم زیادہ محفوظ ہو گا",
+          "گیم میں مالویئر، جیسے وائرس یا کیلاگرز، شامل ہو سکتا ہے",
+          "آپ کو گیم کے لیے مفت اپ ڈیٹس ملیں گے"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Cracked games from unofficial sources are a common way for attackers to distribute malware. The game itself may have been modified to include malicious code that can harm your computer or steal your data.",
+      "explanation_ur": "غیر سرکاری ذرائع سے کریک شدہ گیمز حملہ آوروں کے لیے مالویئر تقسیم کرنے کا ایک عام طریقہ ہے۔ گیم کو خود بدنیتی پر مبنی کوڈ شامل کرنے کے لیے تبدیل کیا جا سکتا ہے جو آپ کے کمپیوٹر کو نقصان پہنچا سکتا ہے یا آپ کا ڈیٹا چوری کر سکتا ہے۔",
+      "hint": "Think about the source and what they might have added.",
+      "hint_ur": "ماخذ اور وہ کیا شامل کر سکتے ہیں اس کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "question": "What is the term for a malicious program that disguises itself as a useful utility, like a free anti-virus scanner?",
+      "question_ur": "ایک بدنیتی پر مبنی پروگرام کے لیے کیا اصطلاح ہے جو خود کو ایک مفید افادیت کے طور پر چھپاتا ہے، جیسے ایک مفت اینٹی وائرس سکینر؟",
+      "options": {
+        "en": [
+          "A Worm",
+          "A Virus",
+          "A Trojan horse",
+          "A Rootkit"
+        ],
+        "ur": [
+          "ایک ورم",
+          "ایک وائرس",
+          "ایک ٹروجن ہارس",
+          "ایک روٹ کٹ"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "A Trojan horse is a type of malware that is disguised as a legitimate piece of software. The user is tricked into installing it, which then allows the malicious code to execute on the system.",
+      "explanation_ur": "ایک ٹروجن ہارس مالویئر کی ایک قسم ہے جسے ایک جائز سافٹ ویئر کے ٹکڑے کے طور پر چھپایا جاتا ہے۔ صارف کو اسے انسٹال کرنے پر دھوکہ دیا جاتا ہے، جو پھر بدنیتی پر مبنی کوڈ کو سسٹم پر چلانے کی اجازت دیتا ہے۔",
+      "hint": "It's named after a famous Greek story of deception.",
+      "hint_ur": "اس کا نام دھوکہ دہی کی ایک مشہور یونانی کہانی کے نام پر رکھا گیا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 89,
+      "type": "true-false",
+      "question": "It's safe to use a public computer to log into your email account as long as you use a different password than your banking account.",
+      "question_ur": "کیا ایک عوامی کمپیوٹر کو اپنے ای میل اکاؤنٹ میں لاگ ان کرنے کے لیے استعمال کرنا محفوظ ہے جب تک کہ آپ اپنے بینکنگ اکاؤنٹ سے ایک مختلف پاس ورڈ استعمال کرتے ہیں؟",
+      "correctAnswer": false,
+      "explanation": "Public computers are not secure for any sensitive transactions, including email. Malware like keyloggers can capture your login credentials. While a different password for your banking account is good practice, it doesn't protect your email account from being compromised.",
+      "explanation_ur": "عوامی کمپیوٹر کسی بھی حساس لین دین کے لیے محفوظ نہیں ہیں، بشمول ای میل۔ کیلاگرز جیسے مالویئر آپ کے لاگ ان کی اسناد کو پکڑ سکتے ہیں۔ جبکہ آپ کے بینکنگ اکاؤنٹ کے لیے ایک مختلف پاس ورڈ ایک اچھا طریقہ ہے، یہ آپ کے ای میل اکاؤنٹ کو سمجھوتہ ہونے سے نہیں بچاتا۔",
+      "hint": "Any sensitive information is at risk on a public machine.",
+      "hint_ur": "کوئی بھی حساس معلومات ایک عوامی مشین پر خطرے میں ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 90,
+      "type": "mcq",
+      "question": "What is a 'man-in-the-middle (MitM)' attack?",
+      "question_ur": "'مین ان دی مڈل (MitM)' حملہ کیا ہے؟",
+      "options": {
+        "en": [
+          "An attack that tries to guess a password",
+          "An attack where a hacker secretly relays and alters the communication between two parties who believe they are communicating directly with each other",
+          "A type of malware that encrypts files",
+          "A program that steals personal information"
+        ],
+        "ur": [
+          "ایک حملہ جو پاس ورڈ کا اندازہ لگانے کی کوشش کرتا ہے",
+          "ایک حملہ جہاں ایک ہیکر خفیہ طور پر دو فریقین کے درمیان مواصلات کو ریلے اور تبدیل کرتا ہے جو یہ سمجھتے ہیں کہ وہ براہ راست ایک دوسرے سے بات کر رہے ہیں",
+          "مالویئر کی ایک قسم جو فائلوں کو انکرپٹ کرتی ہے",
+          "ایک پروگرام جو ذاتی معلومات چوری کرتا ہے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "In an MitM attack, the attacker intercepts the communication between two parties, often on an unsecured public network, to eavesdrop on or alter the data being exchanged without their knowledge.",
+      "explanation_ur": "ایک MitM حملے میں، حملہ آور دو فریقین کے درمیان مواصلات کو روکتا ہے، اکثر ایک غیر محفوظ عوامی نیٹ ورک پر، تاکہ ان کی معلومات کے بغیر ڈیٹا کو سن سکے یا تبدیل کر سکے۔",
+      "hint": "The attacker positions themselves 'in the middle' of the communication.",
+      "hint_ur": "حملہ آور خود کو مواصلات کے 'درمیان' میں رکھتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "What is the purpose of a 'digital certificate'?",
+      "question_ur": "ایک 'ڈیجیٹل سرٹیفکیٹ' کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To prove that a document is fake",
+          "To verify the identity of a website or other online entity and to secure communication",
+          "To track your online Browse history",
+          "To create a new email account"
+        ],
+        "ur": [
+          "یہ ثابت کرنا کہ ایک دستاویز جعلی ہے",
+          "ایک ویب سائٹ یا دیگر آن لائن ادارے کی شناخت کی تصدیق کرنا اور مواصلات کو محفوظ بنانا",
+          "آپ کی آن لائن براؤزنگ ہسٹری کو ٹریک کرنا",
+          "ایک نیا ای میل اکاؤنٹ بنانا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Digital certificates are used in online transactions to verify the identity of the server and to ensure that the data being transmitted is encrypted and has not been tampered with. This is a key component of HTTPS.",
+      "explanation_ur": "ڈیجیٹل سرٹیفکیٹ آن لائن لین دین میں سرور کی شناخت کی تصدیق کرنے اور یہ یقینی بنانے کے لیے استعمال ہوتے ہیں کہ منتقل ہونے والا ڈیٹا انکرپٹڈ ہے اور اس میں کوئی تبدیلی نہیں کی گئی ہے۔ یہ HTTPS کا ایک اہم جزو ہے۔",
+      "hint": "It's a digital form of identification and trust.",
+      "hint_ur": "یہ شناخت اور اعتماد کی ایک ڈیجیٹل شکل ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 92,
+      "type": "true-false",
+      "question": "Using a virtual private network (VPN) guarantees that you are completely anonymous online.",
+      "question_ur": "کیا ایک ورچوئل پرائیویٹ نیٹ ورک (VPN) کا استعمال اس بات کی ضمانت دیتا ہے کہ آپ آن لائن مکمل طور پر گمنام ہیں؟",
+      "correctAnswer": false,
+      "explanation": "While a VPN greatly increases your privacy by encrypting your traffic and masking your IP address, it doesn't make you completely anonymous. You can still be tracked by your online activity, such as logging into accounts or accepting cookies.",
+      "explanation_ur": "جبکہ ایک VPN آپ کی ٹریفک کو انکرپٹ کر کے اور آپ کے IP ایڈریس کو چھپا کر آپ کی پرائیویسی میں بہت زیادہ اضافہ کرتا ہے، یہ آپ کو مکمل طور پر گمنام نہیں بناتا۔ آپ کی آن لائن سرگرمی، جیسے اکاؤنٹس میں لاگ ان ہونا یا کوکیز کو قبول کرنا، کے ذریعے آپ کو اب بھی ٹریک کیا جا سکتا ہے۔",
+      "hint": "It's an important tool, but not a magic bullet for anonymity.",
+      "hint_ur": "یہ ایک اہم آلہ ہے، لیکن گمنامی کے لیے کوئی جادوئی گولی نہیں ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "What is the primary risk of using a peer-to-peer (P2P) file-sharing network?",
+      "question_ur": "ایک پیئر ٹو پیئر (P2P) فائل شیئرنگ نیٹ ورک استعمال کرنے کا بنیادی خطرہ کیا ہے؟",
+      "options": {
+        "en": [
+          "It will make your internet faster",
+          "It can expose your IP address and make your computer vulnerable to malware from other users",
+          "You will receive a refund for all your files",
+          "It will prevent you from downloading anything"
+        ],
+        "ur": [
+          "یہ آپ کے انٹرنیٹ کو تیز کر دے گا",
+          "یہ آپ کے IP ایڈریس کو بے نقاب کر سکتا ہے اور آپ کے کمپیوٹر کو دوسرے صارفین سے مالویئر کے لیے کمزور بنا سکتا ہے",
+          "آپ کو اپنی تمام فائلوں کے لیے رقم کی واپسی ملے گی",
+          "یہ آپ کو کچھ بھی ڈاؤن لوڈ کرنے سے روکے گا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "P2P networks, especially those used for pirated content, can expose your IP address to others on the network. It also makes it easy for malicious files disguised as legitimate content to be shared and downloaded.",
+      "explanation_ur": "P2P نیٹ ورکس، خاص طور پر وہ جو پائریٹڈ مواد کے لیے استعمال ہوتے ہیں، آپ کے IP ایڈریس کو نیٹ ورک پر موجود دوسروں کے سامنے بے نقاب کر سکتے ہیں۔ یہ جائز مواد کے طور پر چھپے ہوئے بدنیتی پر مبنی فائلوں کو شیئر اور ڈاؤن لوڈ کرنا بھی آسان بناتا ہے۔",
+      "hint": "Think about the 'peers' you are connecting with.",
+      "hint_ur": "ان 'پیرز' کے بارے میں سوچیں جن سے آپ جڑ رہے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "question": "What is a 'phishing kit'?",
+      "question_ur": "'فشنگ کٹ' کیا ہے؟",
+      "options": {
+        "en": [
+          "A tool for creating strong passwords",
+          "A collection of tools and resources used by attackers to easily create and launch phishing attacks",
+          "A type of fishing equipment for virtual reality",
+          "A legitimate tool for website development"
+        ],
+        "ur": [
+          "مضبوط پاس ورڈ بنانے کا ایک آلہ",
+          "حملہ آوروں کے ذریعے فشنگ حملوں کو آسانی سے بنانے اور لانچ کرنے کے لیے استعمال ہونے والے اوزار اور وسائل کا ایک مجموعہ",
+          "ورچوئل رئیلٹی کے لیے ماہی گیری کے سامان کی ایک قسم",
+          "ویب سائٹ کی ترقی کے لیے ایک جائز آلہ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Phishing kits are often sold on the dark web and allow even novice attackers to quickly set up and deploy sophisticated phishing campaigns, lowering the barrier to entry for cybercrime.",
+      "explanation_ur": "فشنگ کٹس اکثر ڈارک ویب پر فروخت کی جاتی ہیں اور یہاں تک کہ ناتجربہ کار حملہ آوروں کو بھی تیزی سے جدید فشنگ مہمات قائم کرنے اور تعینات کرنے کی اجازت دیتی ہیں، جو سائبر کرائم کے لیے داخلے کی رکاوٹ کو کم کرتی ہیں۔",
+      "hint": "It's a 'kit' to help with a 'phishing' attack.",
+      "hint_ur": "یہ ایک 'کِٹ' ہے جو ایک 'فشنگ' حملے میں مدد کرتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 95,
+      "type": "true-false",
+      "question": "Having an antivirus program installed is a complete guarantee that you will never get a virus.",
+      "question_ur": "کیا ایک اینٹی وائرس پروگرام انسٹال کرنا اس بات کی مکمل ضمانت ہے کہ آپ کو کبھی وائرس نہیں ملے گا؟",
+      "correctAnswer": false,
+      "explanation": "Antivirus programs are a crucial layer of defense, but they are not foolproof. New viruses are created constantly, and some may bypass even the best antivirus. A combination of good security practices and up-to-date software is the best defense.",
+      "explanation_ur": "اینٹی وائرس پروگرام دفاع کی ایک اہم تہہ ہیں، لیکن وہ بے عیب نہیں ہیں۔ نئے وائرس مسلسل بنائے جاتے ہیں، اور کچھ بہترین اینٹی وائرس کو بھی بائی پاس کر سکتے ہیں۔ اچھے سیکیورٹی کے طریقوں اور تازہ ترین سافٹ ویئر کا ایک مجموعہ بہترین دفاع ہے۔",
+      "hint": "Nothing is ever 100% foolproof in cyber security.",
+      "hint_ur": "سائبر سیکیورٹی میں کچھ بھی کبھی 100٪ بے عیب نہیں ہوتا۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 96,
+      "type": "mcq",
+      "question": "What is 'baiting' in the context of social engineering?",
+      "question_ur": "سوشل انجینئرنگ کے تناظر میں 'بیٹنگ' کیا ہے؟",
+      "options": {
+        "en": [
+          "An attack that uses social media to find information",
+          "An attack that promises a prize or reward to trick a victim into downloading malware or giving up personal information",
+          "A type of malware that steals your credit card information",
+          "A form of online bullying"
+        ],
+        "ur": [
+          "ایک حملہ جو معلومات تلاش کرنے کے لیے سوشل میڈیا کا استعمال کرتا ہے",
+          "ایک حملہ جو کسی انعام یا انعام کا وعدہ کرتا ہے تاکہ ایک شکار کو مالویئر ڈاؤن لوڈ کرنے یا ذاتی معلومات دینے پر مجبور کیا جا سکے",
+          "مالویئر کی ایک قسم جو آپ کی کریڈٹ کارڈ کی معلومات چوری کرتی ہے",
+          "آن لائن بدمعاشی کی ایک شکل"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Baiting often uses a promise of something desirable, such as a free movie download or a prize, to lure a victim into performing a malicious action, similar to how a fisherman uses bait to catch a fish.",
+      "explanation_ur": "بیٹنگ اکثر کسی مطلوبہ چیز کا وعدہ استعمال کرتی ہے، جیسے ایک مفت فلم ڈاؤن لوڈ یا ایک انعام، تاکہ ایک شکار کو ایک بدنیتی پر مبنی عمل انجام دینے پر مجبور کیا جا سکے، اسی طرح جیسے ایک ماہی گیر مچھلی پکڑنے کے لیے چارہ استعمال کرتا ہے۔",
+      "hint": "Think of it as a cyber 'bait and switch'.",
+      "hint_ur": "اسے ایک سائبر 'چارہ اور سوئچ' کے طور پر سوچیں۔",
+      "timeLimit": 30
+    }
+  ]
+}

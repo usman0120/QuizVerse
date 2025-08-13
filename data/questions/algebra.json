@@ -1,0 +1,1576 @@
+{
+  "meta": {
+    "category": "Algebra",
+    "category_ur": "الجبرا",
+    "description": "Test your knowledge of advanced algebraic concepts and problem-solving skills",
+    "description_ur": "الجبرائی تصورات اور مسائل حل کرنے کی مہارت کا امتحان لیں",
+    "difficulty": "hard",
+    "image": "algebra.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What is the solution to the equation x³ - 6x² + 11x - 6 = 0?",
+      "question_ur": "مساوات x³ - 6x² + 11x - 6 = 0 کا حل کیا ہے؟",
+      "options": {
+        "en": ["x = 1, 2, 3", "x = -1, -2, -3", "x = 0, 1, 6", "x = 1, 3, 4"],
+        "ur": ["x = 1, 2, 3", "x = -1, -2, -3", "x = 0, 1, 6", "x = 1, 3, 4"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The equation can be factored as (x-1)(x-2)(x-3)=0, giving roots x=1, x=2, and x=3.",
+      "explanation_ur": "مساوات کو (x-1)(x-2)(x-3)=0 کے طور پر عامل بنایا جا سکتا ہے، جس سے جڑیں x=1, x=2, اور x=3 ملتی ہیں۔",
+      "hint": "Try factoring by grouping",
+      "hint_ur": "گروپ بندی کے ذریعے فیکٹرنگ کرنے کی کوشش کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 2,
+      "type": "true-false",
+      "question": "The set of all 3×3 matrices forms a vector space under matrix addition and scalar multiplication.",
+      "question_ur": "میٹرکس کی جمع اور اسکیلر ضرب کے تحت تمام 3×3 میٹرکس کا سیٹ ایک ویکٹر سپیس بناتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "The set satisfies all 10 axioms of a vector space: closure under addition and scalar multiplication, associativity, commutativity, existence of identity and inverse elements, and distributive properties.",
+      "explanation_ur": "سیٹ ویکٹر سپیس کے تمام 10 اصولوں کو پورا کرتا ہے: جمع اور اسکیلر ضرب کے تحت بندش، ایسوسی ایٹیوٹی، کمیوٹیٹیوٹی، شناخت اور الٹ عناصر کی موجودگی، اور تقسیمی خصوصیات۔",
+      "hint": "Consider the definition of a vector space",
+      "hint_ur": "ویکٹر سپیس کی تعریف پر غور کریں",
+      "timeLimit": 60
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "What is the remainder when x⁴ - 3x³ + 2x² - 5x + 7 is divided by (x-2)?",
+      "question_ur": "جب x⁴ - 3x³ + 2x² - 5x + 7 کو (x-2) سے تقسیم کیا جاتا ہے تو باقی کیا رہ جاتا ہے؟",
+      "options": {
+        "en": ["5", "1", "-3", "9"],
+        "ur": ["5", "1", "-3", "9"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Using the Remainder Theorem: f(2) = 16 - 24 + 8 - 10 + 7 = -3",
+      "explanation_ur": "باقی نظریہ کا استعمال کرتے ہوئے: f(2) = 16 - 24 + 8 - 10 + 7 = -3",
+      "hint": "Use the Remainder Theorem",
+      "hint_ur": "باقی نظریہ استعمال کریں",
+      "timeLimit": 40
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Which of the following is a basis for ℝ³?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا ℝ³ کا اساس ہے؟",
+      "options": {
+        "en": ["{(1,0,0), (0,1,0)}", "{(1,1,0), (0,1,1), (1,0,1), (0,0,1)}", "{(1,0,0), (0,1,0), (0,0,1)}", "{(1,1,1), (2,2,2), (3,3,3)}"],
+        "ur": ["{(1,0,0), (0,1,0)}", "{(1,1,0), (0,1,1), (1,0,1), (0,0,1)}", "{(1,0,0), (0,1,0), (0,0,1)}", "{(1,1,1), (2,2,2), (3,3,3)}"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The standard basis {(1,0,0), (0,1,0), (0,0,1)} is linearly independent and spans ℝ³.",
+      "explanation_ur": "معیاری اساس {(1,0,0), (0,1,0), (0,0,1)} لکیری طور پر آزاد ہے اور ℝ³ کو محیط کرتی ہے۔",
+      "hint": "A basis must be linearly independent and span the space",
+      "hint_ur": "اساس کو لکیری طور پر آزاد ہونا چاہیے اور جگہ کو محیط کرنا چاہیے",
+      "timeLimit": 50
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "question": "Every field is an integral domain.",
+      "question_ur": "ہر فیلڈ ایک انٹیگرل ڈومین ہے۔",
+      "correctAnswer": true,
+      "explanation": "Fields satisfy all integral domain properties: they are commutative rings with unity having no zero divisors.",
+      "explanation_ur": "فیلڈز تمام انٹیگرل ڈومین خصوصیات کو پورا کرتی ہیں: وہ کمیوٹیٹیو رنگز ہیں جن میں یونٹی ہوتی ہے اور کوئی زیرو ڈیوائزرز نہیں ہوتے۔",
+      "hint": "Consider the definitions of field and integral domain",
+      "hint_ur": "فیلڈ اور انٹیگرل ڈومین کی تعریفوں پر غور کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "What is the Galois group of the polynomial x² - 2 over ℚ?",
+      "question_ur": "پولینومیل x² - 2 کا گیلوا گروپ ℚ پر کیا ہے؟",
+      "options": {
+        "en": ["ℤ/2ℤ", "S₂", "ℤ/4ℤ", "S₃"],
+        "ur": ["ℤ/2ℤ", "S₂", "ℤ/4ℤ", "S₃"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The splitting field is ℚ(√2), which has degree 2 over ℚ, so the Galois group is cyclic of order 2.",
+      "explanation_ur": "تقسیم میدان ℚ(√2) ہے، جس کی ڈگری ℚ پر 2 ہے، لہذا گیلوا گروپ آرڈر 2 کا سائیکلک ہے۔",
+      "hint": "Consider the roots and their permutations",
+      "hint_ur": "جڑوں اور ان کی ترتیب پر غور کریں",
+      "timeLimit": 60
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Which of the following is NOT a vector space?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا ویکٹر سپیس نہیں ہے؟",
+      "options": {
+        "en": ["The set of all polynomials of degree ≤ 3", "The set of all 2×2 matrices", "The set of all continuous functions on [0,1]", "The set of all positive real numbers"],
+        "ur": ["تمام پولینومیلز کا سیٹ جن کی ڈگری ≤ 3 ہے", "تمام 2×2 میٹرکس کا سیٹ", "[0,1] پر تمام مسلسل افعال کا سیٹ", "تمام مثبت حقیقی اعداد کا سیٹ"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The set of positive real numbers is not closed under scalar multiplication (multiplying by negative scalars) and lacks an additive identity (0 is not positive).",
+      "explanation_ur": "مثبت حقیقی اعداد کا سیٹ اسکیلر ضرب کے تحت بند نہیں ہے (منفی اسکیلرز سے ضرب) اور اضافی شناخت کی کمی ہے (0 مثبت نہیں ہے)۔",
+      "hint": "Check vector space axioms",
+      "hint_ur": "ویکٹر سپیس کے اصول چیک کریں",
+      "timeLimit": 55
+    },
+    {
+      "id": 8,
+      "type": "true-false",
+      "question": "The ring ℤ/6ℤ has zero divisors.",
+      "question_ur": "رنگ ℤ/6ℤ میں زیرو ڈیوائزرز ہیں۔",
+      "correctAnswer": true,
+      "explanation": "In ℤ/6ℤ, 2×3 = 0, so both 2 and 3 are zero divisors.",
+      "explanation_ur": "ℤ/6ℤ میں، 2×3 = 0، لہذا 2 اور 3 دونوں زیرو ڈیوائزرز ہیں۔",
+      "hint": "Look for non-zero elements whose product is zero",
+      "hint_ur": "غیر صفر عناصر تلاش کریں جن کی پیداوار صفر ہے",
+      "timeLimit": 40
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "What is the dimension of the solution space of the system: x + y + z = 0, 2x - y + 3z = 0?",
+      "question_ur": "نظام کے حل کی جگہ کی ڈائمینشن کیا ہے: x + y + z = 0, 2x - y + 3z = 0?",
+      "options": {
+        "en": ["0", "1", "2", "3"],
+        "ur": ["0", "1", "2", "3"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The system has rank 2 with 3 variables, so the null space has dimension 1.",
+      "explanation_ur": "نظام میں 3 متغیرات کے ساتھ رینک 2 ہے، لہذا نل سپیس کی ڈائمینشن 1 ہے۔",
+      "hint": "Use the rank-nullity theorem",
+      "hint_ur": "رینک-نلٹی تھیوریم استعمال کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 10,
+      "type": "true-false",
+      "question": "Every finite integral domain is a field.",
+      "question_ur": "ہر محدود انٹیگرل ڈومین ایک فیلڈ ہے۔",
+      "correctAnswer": true,
+      "explanation": "This is a fundamental theorem in abstract algebra: finite integral domains satisfy all field axioms.",
+      "explanation_ur": "یہ تجریدی الجبرا میں ایک بنیادی نظریہ ہے: محدود انٹیگرل ڈومینز تمام فیلڈ اصولوں کو پورا کرتی ہیں۔",
+      "hint": "Consider the properties of finite rings without zero divisors",
+      "hint_ur": "زیرو ڈیوائزرز کے بغیر محدود رنگز کی خصوصیات پر غور کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "Which of the following is an irreducible polynomial over ℚ?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا پولینومیل ℚ پر ناقابل تقلیل ہے؟",
+      "options": {
+        "en": ["x² - 4", "x³ - 1", "x² + x + 1", "x⁴ - 16"],
+        "ur": ["x² - 4", "x³ - 1", "x² + x + 1", "x⁴ - 16"]
+      },
+      "correctAnswer": 2,
+      "explanation": "x² + x + 1 has no rational roots (by Rational Root Theorem) and doesn't factor over ℚ.",
+      "explanation_ur": "x² + x + 1 کی کوئی عقلی جڑیں نہیں ہیں (عقلی جڑ نظریہ کے مطابق) اور ℚ پر فیکٹر نہیں ہوتا۔",
+      "hint": "Check for rational roots and factorability",
+      "hint_ur": "عقلی جڑوں اور فیکٹر کرنے کی صلاحیت کی جانچ کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "question": "The symmetric group S₄ has 24 elements.",
+      "question_ur": "سیمیٹرک گروپ S₄ میں 24 عناصر ہیں۔",
+      "correctAnswer": true,
+      "explanation": "S₄ is the group of all permutations of 4 elements, and 4! = 24.",
+      "explanation_ur": "S₄ 4 عناصر کے تمام ترتیب دینے والے گروپ ہے، اور 4! = 24۔",
+      "hint": "Recall the order of symmetric groups",
+      "hint_ur": "سیمیٹرک گروپس کے آرڈر کو یاد کریں",
+      "timeLimit": 40
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "What is the minimal polynomial of i (√-1) over ℚ?",
+      "question_ur": "i (√-1) کا کم از کم پولینومیل ℚ پر کیا ہے؟",
+      "options": {
+        "en": ["x", "x²", "x² + 1", "x⁴ + 1"],
+        "ur": ["x", "x²", "x² + 1", "x⁴ + 1"]
+      },
+      "correctAnswer": 2,
+      "explanation": "i satisfies x² + 1 = 0, and this polynomial is irreducible over ℚ.",
+      "explanation_ur": "i مساوات x² + 1 = 0 کو پورا کرتا ہے، اور یہ پولینومیل ℚ پر ناقابل تقلیل ہے۔",
+      "hint": "Find the simplest polynomial equation satisfied by i",
+      "hint_ur": "i کے ذریعہ پورا کیے جانے والے سب سے آسان پولینومیل مساوات تلاش کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "question": "Every subgroup of a cyclic group is cyclic.",
+      "question_ur": "سائیکلک گروپ کا ہر ذیلی گروپ سائیکلک ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "This is a fundamental property of cyclic groups - all their subgroups are also cyclic.",
+      "explanation_ur": "یہ سائیکلک گروپس کی ایک بنیادی خصوصیت ہے - ان کے تمام ذیلی گروپس بھی سائیکلک ہوتے ہیں۔",
+      "hint": "Consider the generator of the subgroup",
+      "hint_ur": "ذیلی گروپ کے جنریٹر پر غور کریں",
+      "timeLimit": 40
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Which of the following is NOT a field?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا فیلڈ نہیں ہے؟",
+      "options": {
+        "en": ["ℚ", "ℤ/5ℤ", "ℤ/6ℤ", "ℝ"],
+        "ur": ["ℚ", "ℤ/5ℤ", "ℤ/6ℤ", "ℝ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "ℤ/6ℤ is not a field because 6 is not prime (it has zero divisors: 2×3=0).",
+      "explanation_ur": "ℤ/6ℤ فیلڈ نہیں ہے کیونکہ 6 پرائم نہیں ہے (اس میں زیرو ڈیوائزرز ہیں: 2×3=0)۔",
+      "hint": "Remember the condition for ℤ/nℤ to be a field",
+      "hint_ur": "ℤ/nℤ کے فیلڈ ہونے کی شرط یاد رکھیں",
+      "timeLimit": 45
+    },
+    {
+      "id": 16,
+      "type": "true-false",
+      "question": "The polynomial ring ℚ[x] is a principal ideal domain.",
+      "question_ur": "پولینومیل رنگ ℚ[x] ایک پرنسپل آئیڈیل ڈومین ہے۔",
+      "correctAnswer": true,
+      "explanation": "ℚ[x] is a PID because ℚ is a field, and polynomial rings over fields are PIDs.",
+      "explanation_ur": "ℚ[x] ایک PID ہے کیونکہ ℚ ایک فیلڈ ہے، اور فیلڈز پر پولینومیل رنگز PIDs ہوتے ہیں۔",
+      "hint": "Consider the Euclidean algorithm for polynomials",
+      "hint_ur": "پولینومیلز کے لیے یوکلڈین الگورتھم پر غور کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "What is the characteristic of the field GF(8)?",
+      "question_ur": "فیلڈ GF(8) کی خصوصیت کیا ہے؟",
+      "options": {
+        "en": ["0", "2", "8", "1"],
+        "ur": ["0", "2", "8", "1"]
+      },
+      "correctAnswer": 1,
+      "explanation": "GF(8) is an extension of GF(2), so it has characteristic 2.",
+      "explanation_ur": "GF(8), GF(2) کا ایک توسیع ہے، اس لیے اس کی خصوصیت 2 ہے۔",
+      "hint": "Recall that GF(pⁿ) has characteristic p",
+      "hint_ur": "یاد رکھیں کہ GF(pⁿ) کی خصوصیت p ہوتی ہے",
+      "timeLimit": 45
+    },
+    {
+      "id": 18,
+      "type": "true-false",
+      "question": "Every vector space has a basis.",
+      "question_ur": "ہر ویکٹر سپیس کا ایک اساس ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "This is equivalent to the Axiom of Choice in set theory - every vector space has a basis, though it may be infinite.",
+      "explanation_ur": "یہ سیٹ تھیوری میں چوائس کے اصول کے برابر ہے - ہر ویکٹر سپیس کا ایک اساس ہوتا ہے، حالانکہ یہ لامحدود ہو سکتا ہے۔",
+      "hint": "Consider the Axiom of Choice",
+      "hint_ur": "چوائس کے اصول پر غور کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Which of the following is the splitting field of x³ - 2 over ℚ?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا x³ - 2 کا تقسیم میدان ℚ پر ہے؟",
+      "options": {
+        "en": ["ℚ(∛2)", "ℚ(∛2, ω)", "ℚ(ω)", "ℚ(i)"],
+        "ur": ["ℚ(∛2)", "ℚ(∛2, ω)", "ℚ(ω)", "ℚ(i)"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The splitting field must contain all roots: ∛2, ω∛2, ω²∛2, where ω is a primitive cube root of unity.",
+      "explanation_ur": "تقسیم میدان میں تمام جڑیں شامل ہونی چاہئیں: ∛2, ω∛2, ω²∛2، جہاں ω اتحاد کی ایک بنیادی کیوب جڑ ہے۔",
+      "hint": "Consider all complex roots of x³-2",
+      "hint_ur": "x³-2 کی تمام پیچیدہ جڑوں پر غور کریں",
+      "timeLimit": 60
+    },
+    {
+      "id": 20,
+      "type": "true-false",
+      "question": "The direct product of two integral domains is always an integral domain.",
+      "question_ur": "دو انٹیگرل ڈومینز کا براہ راست پیداوار ہمیشہ ایک انٹیگرل ڈومین ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "The direct product R×S always has zero divisors (1,0)×(0,1) = (0,0), so it cannot be an integral domain.",
+      "explanation_ur": "براہ راست پیداوار R×S میں ہمیشہ زیرو ڈیوائزرز ہوتے ہیں (1,0)×(0,1) = (0,0)، لہذا یہ انٹیگرل ڈومین نہیں ہو سکتا۔",
+      "hint": "Think about zero divisors in direct products",
+      "hint_ur": "براہ راست پیداوار میں زیرو ڈیوائزرز کے بارے میں سوچیں",
+      "timeLimit": 45
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "What is the order of the automorphism group of ℤ/5ℤ?",
+      "question_ur": "ℤ/5ℤ کے آٹومورفزم گروپ کا آرڈر کیا ہے؟",
+      "options": {
+        "en": ["1", "4", "5", "10"],
+        "ur": ["1", "4", "5", "10"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Aut(ℤ/5ℤ) ≅ (ℤ/5ℤ)*, the multiplicative group of order 4.",
+      "explanation_ur": "Aut(ℤ/5ℤ) ≅ (ℤ/5ℤ)*، ضربی گروپ آرڈر 4۔",
+      "hint": "Consider generators of the cyclic group",
+      "hint_ur": "سائیکلک گروپ کے جنریٹرز پر غور کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 22,
+      "type": "true-false",
+      "question": "Every finite-dimensional inner product space has an orthonormal basis.",
+      "question_ur": "ہر محدود جہتی اندرونی پیداوار جگہ کا ایک آرتھونورمل اساس ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "This follows from the Gram-Schmidt orthogonalization process.",
+      "explanation_ur": "یہ گرام-شمٹ آرتھوگونلائزیشن عمل سے اخذ کیا گیا ہے۔",
+      "hint": "Recall the Gram-Schmidt process",
+      "hint_ur": "گرام-شمٹ عمل کو یاد کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Which of the following is the minimal polynomial of √2 + √3 over ℚ?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا √2 + √3 کا کم از کم پولینومیل ℚ پر ہے؟",
+      "options": {
+        "en": ["x² - 5", "x⁴ - 10x² + 1", "x⁴ + 10x² + 1", "x² - 2√6 + 5"],
+        "ur": ["x² - 5", "x⁴ - 10x² + 1", "x⁴ + 10x² + 1", "x² - 2√6 + 5"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Let α = √2 + √3. Then α² = 5 + 2√6 ⇒ (α²-5)² = 24 ⇒ α⁴-10α²+1=0, and this polynomial is irreducible over ℚ.",
+      "explanation_ur": "α = √2 + √3 ہونے دیں۔ پھر α² = 5 + 2√6 ⇒ (α²-5)² = 24 ⇒ α⁴-10α²+1=0، اور یہ پولینومیل ℚ پر ناقابل تقلیل ہے۔",
+      "hint": "Eliminate the radicals step by step",
+      "hint_ur": "ریڈیکلز کو مرحلہ وار ختم کریں",
+      "timeLimit": 60
+    },
+    {
+      "id": 24,
+      "type": "true-false",
+      "question": "The quotient ring ℝ[x]/(x²+1) is isomorphic to ℂ.",
+      "question_ur": "کوئٹینٹ رنگ ℝ[x]/(x²+1) آئیسومورفک ہے ℂ کے ساتھ۔",
+      "correctAnswer": true,
+      "explanation": "The ideal (x²+1) is maximal, and the quotient ring is isomorphic to ℝ(i) = ℂ.",
+      "explanation_ur": "آئیڈیل (x²+1) زیادہ سے زیادہ ہے، اور کوئٹینٹ رنگ ℝ(i) = ℂ کے ساتھ آئیسومورفک ہے۔",
+      "hint": "Consider the evaluation homomorphism at i",
+      "hint_ur": "i پر تشخیصی ہومومورفزم پر غور کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "What is the degree of the field extension ℚ(√2, √3) over ℚ?",
+      "question_ur": "فیلڈ ایکسٹینشن ℚ(√2, √3) کی ڈگری ℚ پر کیا ہے؟",
+      "options": {
+        "en": ["2", "4", "6", "8"],
+        "ur": ["2", "4", "6", "8"]
+      },
+      "correctAnswer": 1,
+      "explanation": "[ℚ(√2,√3):ℚ] = [ℚ(√2,√3):ℚ(√2)][ℚ(√2):ℚ] = 2×2 = 4.",
+      "explanation_ur": "[ℚ(√2,√3):ℚ] = [ℚ(√2,√3):ℚ(√2)][ℚ(√2):ℚ] = 2×2 = 4۔",
+      "hint": "Use the tower law of field extensions",
+      "hint_ur": "فیلڈ ایکسٹینشنز کے ٹاور قانون کا استعمال کریں",
+      "timeLimit": 55
+    },
+    {
+      "id": 26,
+      "type": "true-false",
+      "question": "Every non-zero prime ideal in a principal ideal domain is maximal.",
+      "question_ur": "پرنسپل آئیڈیل ڈومین میں ہر غیر صفر پرائم آئیڈیل زیادہ سے زیادہ ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "In a PID, non-zero prime ideals are generated by irreducible elements, and these ideals are maximal.",
+      "explanation_ur": "PID میں، غیر صفر پرائم آئیڈیلز ناقابل تقلیل عناصر کے ذریعہ پیدا ہوتے ہیں، اور یہ آئیڈیلز زیادہ سے زیادہ ہوتے ہیں۔",
+      "hint": "Consider the relationship between prime and maximal ideals in PIDs",
+      "hint_ur": "PIDs میں پرائم اور زیادہ سے زیادہ آئیڈیلز کے درمیان تعلق پر غور کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "Which of the following groups is NOT isomorphic to the others?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا گروپ دوسروں کے ساتھ آئیسومورفک نہیں ہے؟",
+      "options": {
+        "en": ["ℤ/4ℤ", "The multiplicative group {1, i, -1, -i}", "The additive group of GF(4)", "The rotations of a square"],
+        "ur": ["ℤ/4ℤ", "ضربی گروپ {1, i, -1, -i}", "GF(4) کا اضافی گروپ", "ایک مربع کی گردشیں"]
+      },
+      "correctAnswer": 2,
+      "explanation": "GF(4) under addition is isomorphic to the Klein 4-group (ℤ/2ℤ × ℤ/2ℤ), not ℤ/4ℤ.",
+      "explanation_ur": "اضافے کے تحت GF(4) کلین 4-گروپ (ℤ/2ℤ × ℤ/2ℤ) کے ساتھ آئیسومورفک ہے، ℤ/4ℤ نہیں۔",
+      "hint": "Consider the orders of elements in each group",
+      "hint_ur": "ہر گروپ میں عناصر کے آرڈر پر غور کریں",
+      "timeLimit": 55
+    },
+    {
+      "id": 28,
+      "type": "true-false",
+      "question": "The polynomial x⁴ + 1 is irreducible over ℤ.",
+      "question_ur": "پولینومیل x⁴ + 1 ℤ پر ناقابل تقلیل ہے۔",
+      "correctAnswer": true,
+      "explanation": "x⁴+1 has no roots in ℤ and cannot be factored into quadratics with integer coefficients.",
+      "explanation_ur": "x⁴+1 کی ℤ میں کوئی جڑیں نہیں ہیں اور یہ عددی کوفیئنٹس کے ساتھ چوکور میں فیکٹر نہیں ہو سکتا۔",
+      "hint": "Try factoring over integers",
+      "hint_ur": "اعداد پر فیکٹرنگ کرنے کی کوشش کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "What is the number of conjugacy classes in the symmetric group S₃?",
+      "question_ur": "سیمیٹرک گروپ S₃ میں کنجوگیسی کلاسز کی تعداد کیا ہے؟",
+      "options": {
+        "en": ["2", "3", "4", "6"],
+        "ur": ["2", "3", "4", "6"]
+      },
+      "correctAnswer": 1,
+      "explanation": "S₃ has 3 conjugacy classes: {e}, {(12),(13),(23)}, and {(123),(132)}.",
+      "explanation_ur": "S₃ میں 3 کنجوگیسی کلاسز ہیں: {e}, {(12),(13),(23)}, اور {(123),(132)}۔",
+      "hint": "Conjugacy classes correspond to cycle types",
+      "hint_ur": "کنجوگیسی کلاسز سائکل کی اقسام کے مطابق ہوتی ہیں",
+      "timeLimit": 50
+    },
+    {
+      "id": 30,
+      "type": "true-false",
+      "question": "Every Euclidean domain is a unique factorization domain.",
+      "question_ur": "ہر یوکلڈین ڈومین ایک منفرد فیکٹرائزیشن ڈومین ہے۔",
+      "correctAnswer": true,
+      "explanation": "All Euclidean domains are PIDs, and all PIDs are UFDs.",
+      "explanation_ur": "تمام یوکلڈین ڈومینز PIDs ہیں، اور تمام PIDs UFDs ہیں۔",
+      "hint": "Recall the hierarchy of domains",
+      "hint_ur": "ڈومینز کی درجہ بندی یاد کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Which of the following is a maximal ideal in ℤ[x]?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا ℤ[x] میں زیادہ سے زیادہ آئیڈیل ہے؟",
+      "options": {
+        "en": ["(2)", "(x)", "(2, x)", "(x² + 1)"],
+        "ur": ["(2)", "(x)", "(2, x)", "(x² + 1)"]
+      },
+      "correctAnswer": 2,
+      "explanation": "(2, x) is maximal because ℤ[x]/(2, x) ≅ ℤ/2ℤ, which is a field.",
+      "explanation_ur": "(2, x) زیادہ سے زیادہ ہے کیونکہ ℤ[x]/(2, x) ≅ ℤ/2ℤ، جو ایک فیلڈ ہے۔",
+      "hint": "Consider quotient rings and whether they are fields",
+      "hint_ur": "کوئٹینٹ رنگز پر غور کریں اور یہ کہ آیا وہ فیلڈز ہیں",
+      "timeLimit": 55
+    },
+    {
+      "id": 32,
+      "type": "true-false",
+      "question": "The alternating group A₄ is simple.",
+      "question_ur": "متبادل گروپ A₄ سادہ ہے۔",
+      "correctAnswer": false,
+      "explanation": "A₄ is not simple - it has a normal subgroup of order 4 (the Klein 4-group).",
+      "explanation_ur": "A₄ سادہ نہیں ہے - اس کا آرڈر 4 کا ایک عام ذیلی گروپ ہے (کلین 4-گروپ)۔",
+      "hint": "Check for non-trivial normal subgroups",
+      "hint_ur": "غیر معمولی عام ذیلی گروپس کی جانچ کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "What is the discriminant of the quadratic form Q(x,y) = 2x² + 4xy + 5y²?",
+      "question_ur": "چوکور فارم Q(x,y) = 2x² + 4xy + 5y² کا امتیاز کیا ہے؟",
+      "options": {
+        "en": ["6", "10", "12", "24"],
+        "ur": ["6", "10", "12", "24"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The discriminant is 4ac - b² = 4(2)(5) - (4)² = 40 - 16 = 24.",
+      "explanation_ur": "امتیاز 4ac - b² = 4(2)(5) - (4)² = 40 - 16 = 24 ہے۔",
+      "hint": "Use the formula for discriminant of quadratic forms",
+      "hint_ur": "چوکور فارمز کے امتیاز کے لیے فارمولہ استعمال کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 34,
+      "type": "true-false",
+      "question": "Every Noetherian ring is Artinian.",
+      "question_ur": "ہر نوٹیریئن رنگ آرٹینین ہے۔",
+      "correctAnswer": false,
+      "explanation": "While every Artinian ring is Noetherian, the converse is not true (e.g., ℤ is Noetherian but not Artinian).",
+      "explanation_ur": "اگرچہ ہر آرٹینین رنگ نوٹیریئن ہے، لیکن اس کا برعکس سچ نہیں ہے (مثال کے طور پر، ℤ نوٹیریئن ہے لیکن آرٹینین نہیں ہے)۔",
+      "hint": "Consider the chain conditions",
+      "hint_ur": "چین کی شرائط پر غور کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "Which of the following is the Jordan canonical form of a 3×3 matrix with minimal polynomial (x-1)² and characteristic polynomial (x-1)³?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا 3×3 میٹرکس کی جورڈن کینونیکل فارم ہے جس کا کم از کم پولینومیل (x-1)² اور خصوصیت پولینومیل (x-1)³ ہے؟",
+      "options": {
+        "en": [
+          "[[1,0,0],[0,1,0],[0,0,1]]",
+          "[[1,1,0],[0,1,0],[0,0,1]]",
+          "[[1,1,0],[0,1,1],[0,0,1]]",
+          "[[1,0,0],[0,1,1],[0,0,1]]"
+        ],
+        "ur": [
+          "[[1,0,0],[0,1,0],[0,0,1]]",
+          "[[1,1,0],[0,1,0],[0,0,1]]",
+          "[[1,1,0],[0,1,1],[0,0,1]]",
+          "[[1,0,0],[0,1,1],[0,0,1]]"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The minimal polynomial indicates the largest Jordan block has size 2, and characteristic polynomial indicates total size 3.",
+      "explanation_ur": "کم از کم پولینومیل اشارہ کرتا ہے کہ سب سے بڑا جورڈن بلاک سائز 2 ہے، اور خصوصیت پولینومیل اشارہ کرتا ہے کہ کل سائز 3 ہے۔",
+      "hint": "Consider the sizes of Jordan blocks",
+      "hint_ur": "جورڈن بلاکس کے سائز پر غور کریں",
+      "timeLimit": 60
+    },
+    {
+      "id": 36,
+      "type": "true-false",
+      "question": "The tensor product of two vector spaces V ⊗ W has dimension dim(V)×dim(W).",
+      "question_ur": "دو ویکٹر سپیسز V ⊗ W کا ٹینسر پیداوار کی ڈائمینشن dim(V)×dim(W) ہے۔",
+      "correctAnswer": true,
+      "explanation": "If {v_i} is a basis for V and {w_j} for W, then {v_i ⊗ w_j} is a basis for V ⊗ W.",
+      "explanation_ur": "اگر {v_i} V کا اساس ہے اور {w_j} W کا اساس ہے، تو {v_i ⊗ w_j} V ⊗ W کا اساس ہے۔",
+      "hint": "Consider the basis of the tensor product",
+      "hint_ur": "ٹینسر پیداوار کے اساس پر غور کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "What is the index of the alternating group A₄ in the symmetric group S₄?",
+      "question_ur": "سیمیٹرک گروپ S₄ میں متبادل گروپ A₄ کا انڈیکس کیا ہے؟",
+      "options": {
+        "en": ["2", "3", "4", "6"],
+        "ur": ["2", "3", "4", "6"]
+      },
+      "correctAnswer": 0,
+      "explanation": "|S₄| = 24, |A₄| = 12, so the index is 24/12 = 2.",
+      "explanation_ur": "|S₄| = 24, |A₄| = 12، لہذا انڈیکس 24/12 = 2 ہے۔",
+      "hint": "Recall Lagrange's theorem",
+      "hint_ur": "لیگرینج کا نظریہ یاد کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 38,
+      "type": "true-false",
+      "question": "Every finitely generated module over a PID is free.",
+      "question_ur": "PID پر ہر محدود طور پر پیدا ہونے والا ماڈیول آزاد ہے۔",
+      "correctAnswer": false,
+      "explanation": "While finitely generated modules over PIDs are direct sums of cyclic modules, they need not be free (consider torsion modules).",
+      "explanation_ur": "اگرچہ PIDs پر محدود طور پر پیدا ہونے والے ماڈیولز سائیکلک ماڈیولز کے براہ راست مجموعے ہیں، لیکن انہیں آزاد ہونے کی ضرورت نہیں ہے (ٹارشن ماڈیولز پر غور کریں)۔",
+      "hint": "Consider torsion elements",
+      "hint_ur": "ٹارشن عناصر پر غور کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "Which of the following is the minimal polynomial of a 3×3 nilpotent matrix of index 3?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا انڈیکس 3 کے 3×3 نیلپوٹنٹ میٹرکس کا کم از کم پولینومیل ہے؟",
+      "options": {
+        "en": ["x", "x²", "x³", "x³ + 1"],
+        "ur": ["x", "x²", "x³", "x³ + 1"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A nilpotent matrix of index 3 satisfies N³ = 0 but N² ≠ 0, so its minimal polynomial is x³.",
+      "explanation_ur": "انڈیکس 3 کا نیلپوٹنٹ میٹرکس N³ = 0 کو پورا کرتا ہے لیکن N² ≠ 0، لہذا اس کا کم از کم پولینومیل x³ ہے۔",
+      "hint": "Consider the definition of nilpotency index",
+      "hint_ur": "نیلپوٹینسی انڈیکس کی تعریف پر غور کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 40,
+      "type": "true-false",
+      "question": "The quotient of a group by its center is always cyclic.",
+      "question_ur": "گروپ کا اس کے مرکز سے کوئٹینٹ ہمیشہ سائیکلک ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "This is not true in general - for example, the quaternion group Q₈ has center {±1}, and Q₈/Z(Q₈) ≅ V₄ (Klein 4-group), which is not cyclic.",
+      "explanation_ur": "یہ عام طور پر سچ نہیں ہے - مثال کے طور پر، کوارٹرنین گروپ Q₈ کا مرکز {±1} ہے، اور Q₈/Z(Q₈) ≅ V₄ (کلین 4-گروپ)، جو سائیکلک نہیں ہے۔",
+      "hint": "Consider non-abelian groups with non-trivial centers",
+      "hint_ur": "غیر معمولی مراکز کے ساتھ غیر ایبیلیئن گروپس پر غور کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "What is the number of irreducible representations of the symmetric group S₃ over ℂ?",
+      "question_ur": "سیمیٹرک گروپ S₃ کے ناقابل تقلیل نمائندگیوں کی تعداد ℂ پر کیا ہے؟",
+      "options": {
+        "en": ["2", "3", "4", "6"],
+        "ur": ["2", "3", "4", "6"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The number of irreducible representations equals the number of conjugacy classes, which is 3 for S₃.",
+      "explanation_ur": "ناقابل تقلیل نمائندگیوں کی تعداد کنجوگیسی کلاسز کی تعداد کے برابر ہے، جو S₃ کے لیے 3 ہے۔",
+      "hint": "Recall the relationship between irreps and conjugacy classes",
+      "hint_ur": "ناقابل تقلیل نمائندگیوں اور کنجوگیسی کلاسز کے درمیان تعلق یاد کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 42,
+      "type": "true-false",
+      "question": "Every finite group is isomorphic to a subgroup of some symmetric group.",
+      "question_ur": "ہر محدود گروپ کسی سیمیٹرک گروپ کے ذیلی گروپ کے ساتھ آئیسومورفک ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "This is Cayley's theorem - every group G is isomorphic to a subgroup of Sym(G).",
+      "explanation_ur": "یہ کیلی کا نظریہ ہے - ہر گروپ G Sym(G) کے ذیلی گروپ کے ساتھ آئیسومورفک ہوتا ہے۔",
+      "hint": "Recall Cayley's theorem on group embeddings",
+      "hint_ur": "گروپ ایمبیڈنگز پر کیلی کے نظریہ کو یاد کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Which of the following is the characteristic polynomial of a 4×4 matrix with minimal polynomial x(x-1)(x-2)?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا 4×4 میٹرکس کی خصوصیت پولینومیل ہے جس کا کم از کم پولینومیل x(x-1)(x-2) ہے؟",
+      "options": {
+        "en": ["x(x-1)(x-2)", "x²(x-1)(x-2)", "x(x-1)²(x-2)", "x(x-1)(x-2)²"],
+        "ur": ["x(x-1)(x-2)", "x²(x-1)(x-2)", "x(x-1)²(x-2)", "x(x-1)(x-2)²"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The minimal polynomial divides the characteristic polynomial, and they must have the same roots. For a 4×4 matrix, the characteristic polynomial must have degree 4.",
+      "explanation_ur": "کم از کم پولینومیل خصوصیت پولینومیل کو تقسیم کرتا ہے، اور ان کی جڑیں ایک جیسی ہونی چاہئیں۔ 4×4 میٹرکس کے لیے، خصوصیت پولینومیل کی ڈگری 4 ہونی چاہیے۔",
+      "hint": "Consider the degrees and roots of the polynomials",
+      "hint_ur": "پولینومیلز کی ڈگریوں اور جڑوں پر غور کریں",
+      "timeLimit": 60
+    },
+    {
+      "id": 44,
+      "type": "true-false",
+      "question": "The direct sum of two free modules is always free.",
+      "question_ur": "دو آزاد ماڈیولز کا براہ راست مجموعہ ہمیشہ آزاد ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "If M and N are free with bases {m_i} and {n_j}, then M⊕N has basis {(m_i,0)} ∪ {(0,n_j)}.",
+      "explanation_ur": "اگر M اور N آزاد ہیں اساسات {m_i} اور {n_j} کے ساتھ، تو M⊕N کا اساس {(m_i,0)} ∪ {(0,n_j)} ہے۔",
+      "hint": "Construct a basis for the direct sum",
+      "hint_ur": "براہ راست مجموعہ کے لیے ایک اساس بنائیں",
+      "timeLimit": 45
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "What is the order of the group GL(2, ℤ/2ℤ)?",
+      "question_ur": "گروپ GL(2, ℤ/2ℤ) کا آرڈر کیا ہے؟",
+      "options": {
+        "en": ["2", "6", "8", "16"],
+        "ur": ["2", "6", "8", "16"]
+      },
+      "correctAnswer": 1,
+      "explanation": "GL(2,ℤ/2ℤ) has (2²-1)(2²-2) = 3×2 = 6 elements.",
+      "explanation_ur": "GL(2,ℤ/2ℤ) میں (2²-1)(2²-2) = 3×2 = 6 عناصر ہیں۔",
+      "hint": "Count invertible 2×2 matrices over the field with 2 elements",
+      "hint_ur": "2 عناصر کے ساتھ فیلڈ پر الٹی 2×2 میٹرکس کی گنتی کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 46,
+      "type": "true-false",
+      "question": "Every non-abelian group of order 6 is isomorphic to S₃.",
+      "question_ur": "آرڈر 6 کا ہر غیر ایبیلیئن گروپ S₃ کے ساتھ آئیسومورفک ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "There are only two groups of order 6: cyclic ℤ/6ℤ (abelian) and symmetric group S₃ (non-abelian).",
+      "explanation_ur": "آرڈر 6 کے صرف دو گروپس ہیں: سائیکلک ℤ/6ℤ (ایبیلیئن) اور سیمیٹرک گروپ S₃ (غیر ایبیلیئن)۔",
+      "hint": "Classify groups of order 6",
+      "hint_ur": "آرڈر 6 کے گروپس کی درجہ بندی کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Which of the following is the splitting field of x⁴ + 1 over ℚ?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا x⁴ + 1 کا تقسیم میدان ℚ پر ہے؟",
+      "options": {
+        "en": ["ℚ(i)", "ℚ(√2)", "ℚ(√2, i)", "ℚ(∜2)"],
+        "ur": ["ℚ(i)", "ℚ(√2)", "ℚ(√2, i)", "ℚ(∜2)"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The roots are (±√2 ± i√2)/2, so the splitting field is ℚ(√2, i).",
+      "explanation_ur": "جڑیں (±√2 ± i√2)/2 ہیں، لہذا تقسیم میدان ℚ(√2, i) ہے۔",
+      "hint": "Find all complex roots of x⁴+1",
+      "hint_ur": "x⁴+1 کی تمام پیچیدہ جڑیں تلاش کریں",
+      "timeLimit": 60
+    },
+    {
+      "id": 48,
+      "type": "true-false",
+      "question": "The polynomial ring ℤ[x] is a principal ideal domain.",
+      "question_ur": "پولینومیل رنگ ℤ[x] ایک پرنسپل آئیڈیل ڈومین ہے۔",
+      "correctAnswer": false,
+      "explanation": "ℤ[x] is not a PID - for example, the ideal (2, x) is not principal.",
+      "explanation_ur": "ℤ[x] PID نہیں ہے - مثال کے طور پر، آئیڈیل (2, x) پرنسپل نہیں ہے۔",
+      "hint": "Find a non-principal ideal in ℤ[x]",
+      "hint_ur": "ℤ[x] میں ایک غیر پرنسپل آئیڈیل تلاش کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "What is the number of Sylow 2-subgroups in the symmetric group S₄?",
+      "question_ur": "سیمیٹرک گروپ S₄ میں سیلو 2-ذیلی گروپس کی تعداد کیا ہے؟",
+      "options": {
+        "en": ["1", "3", "6", "8"],
+        "ur": ["1", "3", "6", "8"]
+      },
+      "correctAnswer": 1,
+      "explanation": "S₄ has 3 Sylow 2-subgroups, each isomorphic to D₄ (dihedral group of order 8).",
+      "explanation_ur": "S₄ میں 3 سیلو 2-ذیلی گروپس ہیں، ہر ایک D₄ (آرڈر 8 کا ڈیہیڈرل گروپ) کے ساتھ آئیسومورفک ہے۔",
+      "hint": "Use Sylow's theorems and consider the symmetries of a square",
+      "hint_ur": "سیلو کے نظریات استعمال کریں اور مربع کی سیمیٹریز پر غور کریں",
+      "timeLimit": 55
+    },
+    {
+      "id": 50,
+      "type": "true-false",
+      "question": "Every finite division ring is a field.",
+      "question_ur": "ہر محدود ڈویژن رنگ ایک فیلڈ ہے۔",
+      "correctAnswer": true,
+      "explanation": "This is Wedderburn's Little Theorem - all finite division rings are commutative, hence fields.",
+      "explanation_ur": "یہ ویڈربرن کا چھوٹا نظریہ ہے - تمام محدود ڈویژن رنگز کمیوٹیٹیو ہیں، لہذا فیلڈز ہیں۔",
+      "hint": "Recall Wedderburn's theorem",
+      "hint_ur": "ویڈربرن کا نظریہ یاد کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "Which of the following is the minimal polynomial of the matrix [[0,1],[-1,0]] over ℝ?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا میٹرکس [[0,1],[-1,0]] کا کم از کم پولینومیل ℝ پر ہے؟",
+      "options": {
+        "en": ["x", "x²", "x² + 1", "x² - 1"],
+        "ur": ["x", "x²", "x² + 1", "x² - 1"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The matrix satisfies A² + I = 0, and x²+1 is irreducible over ℝ.",
+      "explanation_ur": "میٹرکس A² + I = 0 کو پورا کرتا ہے، اور x²+1 ℝ پر ناقابل تقلیل ہے۔",
+      "hint": "Compute the matrix's characteristic polynomial",
+      "hint_ur": "میٹرکس کی خصوصیت پولینومیل کا حساب لگائیں",
+      "timeLimit": 45
+    },
+    {
+      "id": 52,
+      "type": "true-false",
+      "question": "The algebraic closure of ℚ is a finite extension of ℚ.",
+      "question_ur": "ℚ کا الجبرائی بندش ℚ کا محدود توسیع ہے۔",
+      "correctAnswer": false,
+      "explanation": "ℚ̄ is infinite-dimensional over ℚ, as it contains ℚ(√p) for all primes p, and these are linearly disjoint.",
+      "explanation_ur": "ℚ̄ ℚ پر لامحدود جہتی ہے، کیونکہ اس میں تمام پرائم p کے لیے ℚ(√p) شامل ہے، اور یہ لکیری طور پر الگ ہیں۔",
+      "hint": "Consider extensions by roots of different primes",
+      "hint_ur": "مختلف پرائمز کی جڑوں کے ذریعہ توسیعات پر غور کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "What is the degree of the field extension ℚ(ζ₇) over ℚ, where ζ₇ is a primitive 7th root of unity?",
+      "question_ur": "فیلڈ ایکسٹینشن ℚ(ζ₇) کی ڈگری ℚ پر کیا ہے، جہاں ζ₇ اتحاد کی ایک بنیادی ساتویں جڑ ہے؟",
+      "options": {
+        "en": ["3", "6", "7", "8"],
+        "ur": ["3", "6", "7", "8"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The degree is φ(7) = 6, where φ is Euler's totient function.",
+      "explanation_ur": "ڈگری φ(7) = 6 ہے، جہاں φ یولر کا ٹوٹینٹ فنکشن ہے۔",
+      "hint": "Use cyclotomic field theory",
+      "hint_ur": "سائیکلوٹومک فیلڈ تھیوری استعمال کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 54,
+      "type": "true-false",
+      "question": "Every non-zero proper ideal in a commutative ring with unity is contained in a maximal ideal.",
+      "question_ur": "یونٹی کے ساتھ کمیوٹیٹیو رنگ میں ہر غیر صفر مناسب آئیڈیل زیادہ سے زیادہ آئیڈیل میں شامل ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "This follows from Zorn's Lemma - every proper ideal is contained in a maximal ideal.",
+      "explanation_ur": "یہ زورن کی لیما سے اخذ کیا گیا ہے - ہر مناسب آئیڈیل زیادہ سے زیادہ آئیڈیل میں شامل ہوتا ہے۔",
+      "hint": "Recall the application of Zorn's Lemma in ring theory",
+      "hint_ur": "رنگ تھیوری میں زورن کی لیما کی درخواست یاد کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "Which of the following is the characteristic polynomial of a 3×3 matrix A with A³ = 0 but A² ≠ 0?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا 3×3 میٹرکس A کی خصوصیت پولینومیل ہے جس میں A³ = 0 لیکن A² ≠ 0 ہے؟",
+      "options": {
+        "en": ["x³", "x²", "x³ + x²", "x³ - 1"],
+        "ur": ["x³", "x²", "x³ + x²", "x³ - 1"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The matrix is nilpotent of index 3, so its minimal polynomial is x³, which must equal its characteristic polynomial for a 3×3 matrix.",
+      "explanation_ur": "میٹرکس انڈیکس 3 کا نیلپوٹنٹ ہے، لہذا اس کا کم از کم پولینومیل x³ ہے، جو 3×3 میٹرکس کے لیے اس کی خصوصیت پولینومیل کے برابر ہونا چاہیے۔",
+      "hint": "Consider the relationship between minimal and characteristic polynomials for nilpotent matrices",
+      "hint_ur": "نیلپوٹنٹ میٹرکس کے لیے کم از کم اور خصوصیت پولینومیلز کے درمیان تعلق پر غور کریں",
+      "timeLimit": 55
+    },
+    {
+      "id": 56,
+      "type": "true-false",
+      "question": "The symmetric group S₅ is solvable.",
+      "question_ur": "سیمیٹرک گروپ S₅ حل پذیر ہے۔",
+      "correctAnswer": false,
+      "explanation": "S₅ is not solvable because A₅ is simple and non-abelian, making the derived series terminate at A₅.",
+      "explanation_ur": "S₅ حل پذیر نہیں ہے کیونکہ A₅ سادہ اور غیر ایبیلیئن ہے، جس سے ماخوذ سیریز A₅ پر ختم ہوتی ہے۔",
+      "hint": "Consider the derived series of S₅",
+      "hint_ur": "S₅ کی ماخوذ سیریز پر غور کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "What is the number of monic irreducible polynomials of degree 2 over ℤ/3ℤ?",
+      "question_ur": "ڈگری 2 کے مونک ناقابل تقلیل پولینومیلز کی تعداد ℤ/3ℤ پر کیا ہے؟",
+      "options": {
+        "en": ["3", "6", "9", "12"],
+        "ur": ["3", "6", "9", "12"]
+      },
+      "correctAnswer": 0,
+      "explanation": "There are (3² - 3)/2 = 3 monic irreducible quadratics over ℤ/3ℤ: x²+1, x²+x+2, x²+2x+2.",
+      "explanation_ur": "ℤ/3ℤ پر (3² - 3)/2 = 3 مونک ناقابل تقلیل چوکور ہیں: x²+1, x²+x+2, x²+2x+2۔",
+      "hint": "Use the formula for counting irreducible polynomials over finite fields",
+      "hint_ur": "محدود فیلڈز پر ناقابل تقلیل پولینومیلز کی گنتی کے لیے فارمولہ استعمال کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 58,
+      "type": "true-false",
+      "question": "Every non-trivial normal subgroup of a nilpotent group intersects the center non-trivially.",
+      "question_ur": "نیلپوٹنٹ گروپ کے ہر غیر معمولی عام ذیلی گروپ کا مرکز کے ساتھ غیر معمولی انٹرسیکشن ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "This is a property of nilpotent groups - every non-trivial normal subgroup intersects the center non-trivially.",
+      "explanation_ur": "یہ نیلپوٹنٹ گروپس کی ایک خصوصیت ہے - ہر غیر معمولی عام ذیلی گروپ کا مرکز کے ساتھ غیر معمولی انٹرسیکشن ہوتا ہے۔",
+      "hint": "Recall properties of nilpotent groups",
+      "hint_ur": "نیلپوٹنٹ گروپس کی خصوصیات یاد کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "Which of the following is the Jordan form of a 4×4 matrix with minimal polynomial (x-1)² and characteristic polynomial (x-1)⁴?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا 4×4 میٹرکس کی جورڈن فارم ہے جس کا کم از کم پولینومیل (x-1)² اور خصوصیت پولینومیل (x-1)⁴ ہے؟",
+      "options": {
+        "en": [
+          "Two 2×2 Jordan blocks",
+          "One 3×3 and one 1×1 Jordan block",
+          "One 2×2 and two 1×1 Jordan blocks",
+          "Four 1×1 Jordan blocks"
+        ],
+        "ur": [
+          "دو 2×2 جورڈن بلاکس",
+          "ایک 3×3 اور ایک 1×1 جورڈن بلاک",
+          "ایک 2×2 اور دو 1×1 جورڈن بلاکس",
+          "چار 1×1 جورڈن بلاکس"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The minimal polynomial indicates the largest Jordan block has size 2, and characteristic polynomial indicates total size 4. Thus we need one 2×2 block and two 1×1 blocks.",
+      "explanation_ur": "کم از کم پولینومیل اشارہ کرتا ہے کہ سب سے بڑا جورڈن بلاک سائز 2 ہے، اور خصوصیت پولینومیل اشارہ کرتا ہے کہ کل سائز 4 ہے۔ اس طرح ہمیں ایک 2×2 بلاک اور دو 1×1 بلاکس کی ضرورت ہے۔",
+      "hint": "Consider the sizes of Jordan blocks given the minimal polynomial",
+      "hint_ur": "کم از کم پولینومیل دیے گئے جورڈن بلاکس کے سائز پر غور کریں",
+      "timeLimit": 65
+    },
+    {
+      "id": 60,
+      "type": "true-false",
+      "question": "The tensor product ℚ ⊗_ℤ ℚ is isomorphic to ℚ as a ℚ-vector space.",
+      "question_ur": "ٹینسر پیداوار ℚ ⊗_ℤ ℚ ایک ℚ-ویکٹر سپیس کے طور پر ℚ کے ساتھ آئیسومورفک ہے۔",
+      "correctAnswer": true,
+      "explanation": "ℚ ⊗_ℤ ℚ ≅ ℚ via the map a⊗b → ab, with inverse x → x⊗1.",
+      "explanation_ur": "ℚ ⊗_ℤ ℚ ≅ ℚ میپ a⊗b → ab کے ذریعے، الٹ x → x⊗1 کے ساتھ۔",
+      "hint": "Construct explicit isomorphisms",
+      "hint_ur": "واضح آئیسومورفزمز بنائیں",
+      "timeLimit": 50
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "What is the index of the special linear group SL(n, F) in the general linear group GL(n, F)?",
+      "question_ur": "جنرل لینیئر گروپ GL(n, F) میں سپیشل لینیئر گروپ SL(n, F) کا انڈیکس کیا ہے؟",
+      "options": {
+        "en": ["1", "|F| - 1", "|F*|", "n"],
+        "ur": ["1", "|F| - 1", "|F*|", "n"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The index is |F*| because det: GL(n,F) → F* is surjective with kernel SL(n,F).",
+      "explanation_ur": "انڈیکس |F*| ہے کیونکہ det: GL(n,F) → F* سرجیکٹیو ہے جس کا کرنل SL(n,F) ہے۔",
+      "hint": "Consider the determinant homomorphism",
+      "hint_ur": "ڈیٹرمنینٹ ہومومورفزم پر غور کریں",
+      "timeLimit": 55
+    },
+    {
+      "id": 62,
+      "type": "true-false",
+      "question": "Every finite extension of a finite field is Galois.",
+      "question_ur": "محدود فیلڈ کا ہر محدود توسیع گیلیوس ہے۔",
+      "correctAnswer": true,
+      "explanation": "Finite fields are perfect, and all their finite extensions are Galois (in fact cyclic).",
+      "explanation_ur": "محدود فیلڈز کامل ہیں، اور ان کی تمام محدود توسیعات گیلیوس ہیں (حقیقت میں سائیکلک)۔",
+      "hint": "Recall properties of finite field extensions",
+      "hint_ur": "محدود فیلڈ ایکسٹینشنز کی خصوصیات یاد کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "Which of the following is the minimal polynomial of a rotation by π/3 in ℝ²?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا ℝ² میں π/3 کے گھماؤ کا کم از کم پولینومیل ہے؟",
+      "options": {
+        "en": ["x - 1", "x² - 1", "x² - x + 1", "x² - 2x + 1"],
+        "ur": ["x - 1", "x² - 1", "x² - x + 1", "x² - 2x + 1"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The rotation matrix has eigenvalues e^(±iπ/3), satisfying x² - x + 1 = 0.",
+      "explanation_ur": "گھماؤ میٹرکس کی آئیگن ویلیوز e^(±iπ/3) ہیں، جو x² - x + 1 = 0 کو پورا کرتی ہیں۔",
+      "hint": "Find the characteristic polynomial of the rotation matrix",
+      "hint_ur": "گھماؤ میٹرکس کی خصوصیت پولینومیل تلاش کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 64,
+      "type": "true-false",
+      "question": "The quotient of a ring by a prime ideal is always an integral domain.",
+      "question_ur": "رنگ کا پرائم آئیڈیل سے کوئٹینٹ ہمیشہ انٹیگرل ڈومین ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "This is the definition of a prime ideal - P is prime iff R/P is an integral domain.",
+      "explanation_ur": "یہ پرائم آئیڈیل کی تعریف ہے - P پرائم ہے اگر اور صرف اگر R/P انٹیگرل ڈومین ہے۔",
+      "hint": "Recall the definition of prime ideals",
+      "hint_ur": "پرائم آئیڈیلز کی تعریف یاد کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "question": "What is the number of group homomorphisms from ℤ/6ℤ to S₃?",
+      "question_ur": "ℤ/6ℤ سے S₃ تک گروپ ہومومورفزمز کی تعداد کیا ہے؟",
+      "options": {
+        "en": ["2", "3", "6", "12"],
+        "ur": ["2", "3", "6", "12"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Homomorphisms correspond to elements of S₃ whose order divides 6. All 6 elements of S₃ satisfy this (orders 1,2,3).",
+      "explanation_ur": "ہومومورفزمز S₃ کے عناصر کے مطابق ہیں جن کا آرڈر 6 کو تقسیم کرتا ہے۔ S₃ کے تمام 6 عناصر اس کو پورا کرتے ہیں (آرڈرز 1,2,3)۔",
+      "hint": "Consider the possible images of a generator",
+      "hint_ur": "جنریٹر کے ممکنہ امیجز پر غور کریں",
+      "timeLimit": 55
+    },
+    {
+      "id": 66,
+      "type": "true-false",
+      "question": "Every non-zero ring has at least one maximal ideal.",
+      "question_ur": "ہر غیر صفر رنگ میں کم از کم ایک زیادہ سے زیادہ آئیڈیل ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "This is only true for unital rings. Non-unital rings might have no maximal ideals.",
+      "explanation_ur": "یہ صرف یونٹل رنگز کے لیے سچ ہے۔ غیر یونٹل رنگز میں کوئی زیادہ سے زیادہ آئیڈیل نہیں ہو سکتا۔",
+      "hint": "Consider the requirement of having a unity",
+      "hint_ur": "یونٹی ہونے کی ضرورت پر غور کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "Which of the following is the minimal polynomial of the 3×3 matrix with 1's on the anti-diagonal and 0's elsewhere?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا 3×3 میٹرکس کا کم از کم پولینومیل ہے جس میں اینٹی ڈائیگونل پر 1's اور باقی جگہوں پر 0's ہیں؟",
+      "options": {
+        "en": ["x", "x²", "x³", "x² - 1"],
+        "ur": ["x", "x²", "x³", "x² - 1"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The matrix satisfies A² = I, so its minimal polynomial is x² - 1.",
+      "explanation_ur": "میٹرکس A² = I کو پورا کرتا ہے، لہذا اس کا کم از کم پولینومیل x² - 1 ہے۔",
+      "hint": "Compute powers of the matrix",
+      "hint_ur": "میٹرکس کی طاقتوں کا حساب لگائیں",
+      "timeLimit": 50
+    },
+    {
+      "id": 68,
+      "type": "true-false",
+      "question": "The algebraic numbers form a subfield of ℂ.",
+      "question_ur": "الجبرائی اعداد ℂ کا ایک ذیلی میدان بناتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "The set of algebraic numbers is closed under addition, multiplication, and inverses, hence a subfield.",
+      "explanation_ur": "الجبرائی اعداد کا سیٹ اضافہ، ضرب، اور الٹ کے تحت بند ہوتا ہے، لہذا ایک ذیلی میدان ہے۔",
+      "hint": "Verify the field axioms for algebraic numbers",
+      "hint_ur": "الجبرائی اعداد کے لیے فیلڈ اصولوں کی تصدیق کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "question": "What is the order of the group of units in the ring ℤ/24ℤ?",
+      "question_ur": "رنگ ℤ/24ℤ میں یونٹس کے گروپ کا آرڈر کیا ہے؟",
+      "options": {
+        "en": ["6", "8", "12", "24"],
+        "ur": ["6", "8", "12", "24"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The group of units is (ℤ/24ℤ)*, which has order φ(24) = φ(8)φ(3) = 4×2 = 8.",
+      "explanation_ur": "یونٹس کا گروپ (ℤ/24ℤ)* ہے، جس کا آرڈر φ(24) = φ(8)φ(3) = 4×2 = 8 ہے۔",
+      "hint": "Use Euler's totient function",
+      "hint_ur": "یولر کے ٹوٹینٹ فنکشن کا استعمال کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 70,
+      "type": "true-false",
+      "question": "Every irreducible polynomial over a field is separable.",
+      "question_ur": "فیلڈ پر ہر ناقابل تقلیل پولینومیل علیحدہ ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "This is only true for perfect fields. For example, F_p(t) has inseparable irreducible polynomials like x^p - t.",
+      "explanation_ur": "یہ صرف کامل فیلڈز کے لیے سچ ہے۔ مثال کے طور پر، F_p(t) میں ناقابل تقلیل علیحدہ پولینومیلز ہیں جیسے x^p - t۔",
+      "hint": "Consider fields of characteristic p",
+      "hint_ur": "خصوصیت p کے فیلڈز پر غور کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "question": "Which of the following is the Galois group of the splitting field of x⁴ - 2 over ℚ?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا x⁴ - 2 کے تقسیم میدان کا گیلوا گروپ ℚ پر ہے؟",
+      "options": {
+        "en": ["ℤ/4ℤ", "D₄", "S₄", "ℤ/2ℤ × ℤ/2ℤ"],
+        "ur": ["ℤ/4ℤ", "D₄", "S₄", "ℤ/2ℤ × ℤ/2ℤ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Galois group is the dihedral group D₄ of order 8, as it must permute the roots ∜2, i∜2, -∜2, -i∜2 and preserve their algebraic relations.",
+      "explanation_ur": "گیلوا گروپ آرڈر 8 کا ڈیہیڈرل گروپ D₄ ہے، کیونکہ اسے جڑوں ∜2, i∜2, -∜2, -i∜2 کو تبدیل کرنا ہوگا اور ان کے الجبرائی تعلقات کو برقرار رکھنا ہوگا۔",
+      "hint": "Consider the symmetries of the roots in the complex plane",
+      "hint_ur": "پیچیدہ جہاز میں جڑوں کی سیمیٹریز پر غور کریں",
+      "timeLimit": 65
+    },
+    {
+      "id": 72,
+      "type": "true-false",
+      "question": "The polynomial ring over a UFD in infinitely many variables is a UFD.",
+      "question_ur": "لامحدود بہت سے متغیرات میں UFD پر پولینومیل رنگ ایک UFD ہے۔",
+      "correctAnswer": true,
+      "explanation": "If R is a UFD, then R[x₁,x₂,...] is also a UFD, regardless of the number of variables.",
+      "explanation_ur": "اگر R ایک UFD ہے، تو R[x₁,x₂,...] بھی ایک UFD ہے، متغیرات کی تعداد سے قطع نظر۔",
+      "hint": "Recall that UFD property extends to polynomial rings",
+      "hint_ur": "یاد رکھیں کہ UFD پراپرٹی پولینومیل رنگز تک پھیلتی ہے",
+      "timeLimit": 45
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "What is the number of subgroups of the group ℤ/12ℤ?",
+      "question_ur": "گروپ ℤ/12ℤ کے ذیلی گروپس کی تعداد کیا ہے؟",
+      "options": {
+        "en": ["4", "5", "6", "12"],
+        "ur": ["4", "5", "6", "12"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The subgroups correspond to divisors of 12: 1,2,3,4,6,12 - so there are 6 subgroups.",
+      "explanation_ur": "ذیلی گروپس 12 کے تقسیم کنندگان کے مطابق ہیں: 1,2,3,4,6,12 - لہذا 6 ذیلی گروپس ہیں۔",
+      "hint": "Subgroups of cyclic groups correspond to divisors of the order",
+      "hint_ur": "سائیکلک گروپس کے ذیلی گروپس آرڈر کے تقسیم کنندگان کے مطابق ہوتے ہیں",
+      "timeLimit": 45
+    },
+    {
+      "id": 74,
+      "type": "true-false",
+      "question": "Every finite p-group is nilpotent.",
+      "question_ur": "ہر محدود p-گروپ نیلپوٹنٹ ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Finite p-groups have non-trivial centers, and the upper central series terminates at the whole group.",
+      "explanation_ur": "محدود p-گروپس کے غیر معمولی مراکز ہوتے ہیں، اور بالائی مرکزی سیریز پورے گروپ پر ختم ہوتی ہے۔",
+      "hint": "Recall properties of p-groups",
+      "hint_ur": "p-گروپس کی خصوصیات یاد کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "question": "Which of the following is the minimal polynomial of a 4×4 Jordan block with eigenvalue 3?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا آئیگن ویلیو 3 کے ساتھ 4×4 جورڈن بلاک کا کم از کم پولینومیل ہے؟",
+      "options": {
+        "en": ["x - 3", "(x - 3)²", "(x - 3)³", "(x - 3)⁴"],
+        "ur": ["x - 3", "(x - 3)²", "(x - 3)³", "(x - 3)⁴"]
+      },
+      "correctAnswer": 3,
+      "explanation": "A 4×4 Jordan block J with eigenvalue λ has minimal polynomial (x-λ)⁴.",
+      "explanation_ur": "آئیگن ویلیو λ کے ساتھ 4×4 جورڈن بلاک J کا کم از کم پولینومیل (x-λ)⁴ ہے۔",
+      "hint": "Consider the nilpotency index of (J-λI)",
+      "hint_ur": "(J-λI) کے نیلپوٹینسی انڈیکس پر غور کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 76,
+      "type": "true-false",
+      "question": "The alternating group A₅ has a subgroup of order 30.",
+      "question_ur": "متبادل گروپ A₅ کا آرڈر 30 کا ایک ذیلی گروپ ہے۔",
+      "correctAnswer": false,
+      "explanation": "A₅ is simple of order 60, and the next largest possible subgroup size would be 30, but this would be normal, contradicting simplicity.",
+      "explanation_ur": "A₅ آرڈر 60 کا سادہ ہے، اور اگلا سب سے بڑا ممکنہ ذیلی گروپ سائز 30 ہوگا، لیکن یہ عام ہوگا، جو سادگی کے خلاف ہے۔",
+      "hint": "Consider Lagrange's theorem and simplicity of A₅",
+      "hint_ur": "لیگرینج کا نظریہ اور A₅ کی سادگی پر غور کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "question": "What is the dimension of the space of all 3×3 skew-symmetric matrices over ℝ?",
+      "question_ur": "ℝ پر تمام 3×3 اسکیو-سیمیٹرک میٹرکس کی جگہ کی ڈائمینشن کیا ہے؟",
+      "options": {
+        "en": ["1", "3", "6", "9"],
+        "ur": ["1", "3", "6", "9"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Skew-symmetric matrices have a_i,i = 0 and a_i,j = -a_j,i. For 3×3 matrices, there are 3 free parameters (a₁₂, a₁₃, a₂₃).",
+      "explanation_ur": "اسکیو-سیمیٹرک میٹرکس میں a_i,i = 0 اور a_i,j = -a_j,i ہوتا ہے۔ 3×3 میٹرکس کے لیے، 3 آزاد پیرامیٹرز ہیں (a₁₂, a₁₃, a₂₃)۔",
+      "hint": "Count the independent entries in a skew-symmetric matrix",
+      "hint_ur": "اسکیو-سیمیٹرک میٹرکس میں آزاد اندراجات گنیں",
+      "timeLimit": 45
+    },
+    {
+      "id": 78,
+      "type": "true-false",
+      "question": "Every non-zero finite-dimensional algebra over ℂ has at least one maximal ideal.",
+      "question_ur": "ℂ پر ہر غیر صفر محدود جہتی الجبرا میں کم از کم ایک زیادہ سے زیادہ آئیڈیل ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Finite-dimensional algebras over fields are Artinian rings, and Artinian rings have maximal ideals.",
+      "explanation_ur": "فیلڈز پر محدود جہتی الجبرا آرٹینین رنگز ہیں، اور آرٹینین رنگز میں زیادہ سے زیادہ آئیڈیلز ہوتے ہیں۔",
+      "hint": "Consider finite-dimensional algebras as Artinian rings",
+      "hint_ur": "محدود جہتی الجبرا کو آرٹینین رنگز کے طور پر غور کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "Which of the following is the minimal polynomial of the direct sum of two 2×2 Jordan blocks with eigenvalue λ?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا آئیگن ویلیو λ کے ساتھ دو 2×2 جورڈن بلاکس کے براہ راست مجموعہ کا کم از کم پولینومیل ہے؟",
+      "options": {
+        "en": ["(x - λ)", "(x - λ)²", "(x - λ)³", "(x - λ)⁴"],
+        "ur": ["(x - λ)", "(x - λ)²", "(x - λ)³", "(x - λ)⁴"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Each block has minimal polynomial (x-λ)², and the minimal polynomial of the direct sum is the LCM of the minimal polynomials, which is (x-λ)².",
+      "explanation_ur": "ہر بلاک کا کم از کم پولینومیل (x-λ)² ہے، اور براہ راست مجموعہ کا کم از کم پولینومیل کم از کم پولینومیلز کا LCM ہے، جو (x-λ)² ہے۔",
+      "hint": "Consider minimal polynomials of direct sums",
+      "hint_ur": "براہ راست مجموعہ کے کم از کم پولینومیلز پر غور کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 80,
+      "type": "true-false",
+      "question": "The symmetric group S₇ has an element of order 10.",
+      "question_ur": "سیمیٹرک گروپ S₇ میں آرڈر 10 کا ایک عنصر ہے۔",
+      "correctAnswer": true,
+      "explanation": "The permutation (12345)(67) has order lcm(5,2) = 10.",
+      "explanation_ur": "تبدل (12345)(67) کا آرڈر lcm(5,2) = 10 ہے۔",
+      "hint": "Find a permutation whose cycle lengths have LCM 10",
+      "hint_ur": "ایک تبدیلی تلاش کریں جس کے سائیکل کی لمبائی میں LCM 10 ہو",
+      "timeLimit": 45
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "question": "What is the number of monic irreducible polynomials of degree 3 over ℤ/2ℤ?",
+      "question_ur": "ڈگری 3 کے مونک ناقابل تقلیل پولینومیلز کی تعداد ℤ/2ℤ پر کیا ہے؟",
+      "options": {
+        "en": ["2", "3", "4", "8"],
+        "ur": ["2", "3", "4", "8"]
+      },
+      "correctAnswer": 0,
+      "explanation": "There are (2³ - 2)/3 = 2 monic irreducible cubics over ℤ/2ℤ: x³+x+1 and x³+x²+1.",
+      "explanation_ur": "ℤ/2ℤ پر (2³ - 2)/3 = 2 مونک ناقابل تقلیل کیوبکس ہیں: x³+x+1 اور x³+x²+1۔",
+      "hint": "Use the formula for counting irreducible polynomials over finite fields",
+      "hint_ur": "محدود فیلڈز پر ناقابل تقلیل پولینومیلز کی گنتی کے لیے فارمولہ استعمال کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 82,
+      "type": "true-false",
+      "question": "Every non-trivial normal subgroup of Sₙ for n ≥ 5 is Aₙ.",
+      "question_ur": "n ≥ 5 کے لیے Sₙ کا ہر غیر معمولی عام ذیلی گروپ Aₙ ہے۔",
+      "correctAnswer": true,
+      "explanation": "For n ≥ 5, Aₙ is simple, and the only normal subgroups of Sₙ are {e}, Aₙ, and Sₙ.",
+      "explanation_ur": "n ≥ 5 کے لیے، Aₙ سادہ ہے، اور Sₙ کے صرف عام ذیلی گروپس {e}, Aₙ, اور Sₙ ہیں۔",
+      "hint": "Recall the simplicity of Aₙ for n ≥ 5",
+      "hint_ur": "n ≥ 5 کے لیے Aₙ کی سادگی یاد کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "question": "Which of the following is the minimal polynomial of a 3×3 matrix with ones on the superdiagonal and zeros elsewhere?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا 3×3 میٹرکس کا کم از کم پولینومیل ہے جس میں سپر ڈائیگونل پر ایک اور باقی جگہوں پر صفر ہیں؟",
+      "options": {
+        "en": ["x", "x²", "x³", "x³ - 1"],
+        "ur": ["x", "x²", "x³", "x³ - 1"]
+      },
+      "correctAnswer": 2,
+      "explanation": "This is a Jordan block with eigenvalue 0, and its minimal polynomial is x³.",
+      "explanation_ur": "یہ آئیگن ویلیو 0 کے ساتھ ایک جورڈن بلاک ہے، اور اس کا کم از کم پولینومیل x³ ہے۔",
+      "hint": "Compute powers of the matrix",
+      "hint_ur": "میٹرکس کی طاقتوں کا حساب لگائیں",
+      "timeLimit": 45
+    },
+    {
+      "id": 84,
+      "type": "true-false",
+      "question": "The quotient of a Noetherian ring by an ideal is Noetherian.",
+      "question_ur": "نوٹیریئن رنگ کا آئیڈیل سے کوئٹینٹ نوٹیریئن ہے۔",
+      "correctAnswer": true,
+      "explanation": "The image of an ascending chain under the quotient map is still an ascending chain, so the quotient inherits the Noetherian property.",
+      "explanation_ur": "کوئٹینٹ میپ کے تحت چڑھتی ہوئی چین کی تصویر اب بھی چڑھتی ہوئی چین ہے، لہذا کوئٹینٹ نوٹیریئن پراپرٹی وراثت میں ملتی ہے۔",
+      "hint": "Consider the correspondence theorem",
+      "hint_ur": "موافقہ نظریہ پر غور کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "What is the number of irreducible representations of the dihedral group D₅?",
+      "question_ur": "ڈیہیڈرل گروپ D₅ کے ناقابل تقلیل نمائندگیوں کی تعداد کیا ہے؟",
+      "options": {
+        "en": ["2", "4", "5", "10"],
+        "ur": ["2", "4", "5", "10"]
+      },
+      "correctAnswer": 1,
+      "explanation": "D₅ has 4 conjugacy classes (2 from rotations, 2 from reflections), hence 4 irreducible representations.",
+      "explanation_ur": "D₅ میں 4 کنجوگیسی کلاسز ہیں (2 گردش سے، 2 عکاسی سے)، لہذا 4 ناقابل تقلیل نمائندگیاں ہیں۔",
+      "hint": "Count the conjugacy classes",
+      "hint_ur": "کنجوگیسی کلاسز گنیں",
+      "timeLimit": 50
+    },
+    {
+      "id": 86,
+      "type": "true-false",
+      "question": "Every finitely generated abelian group is cyclic.",
+      "question_ur": "ہر محدود طور پر پیدا ہونے والا ایبیلیئن گروپ سائیکلک ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Only those of the form ℤ/nℤ are cyclic. Counterexample: ℤ × ℤ is finitely generated abelian but not cyclic.",
+      "explanation_ur": "صرف ℤ/nℤ کی شکل والے سائیکلک ہوتے ہیں۔ مخالف مثال: ℤ × ℤ محدود طور پر پیدا ہونے والا ایبیلیئن ہے لیکن سائیکلک نہیں ہے۔",
+      "hint": "Consider direct products of cyclic groups",
+      "hint_ur": "سائیکلک گروپس کے براہ راست پیداوار پر غور کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "question": "Which of the following is the Galois group of the splitting field of x³ - 5 over ℚ?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا x³ - 5 کے تقسیم میدان کا گیلوا گروپ ℚ پر ہے؟",
+      "options": {
+        "en": ["ℤ/3ℤ", "S₃", "ℤ/2ℤ", "ℤ/6ℤ"],
+        "ur": ["ℤ/3ℤ", "S₃", "ℤ/2ℤ", "ℤ/6ℤ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The splitting field is ℚ(∛5, ω), with Galois group S₃ (permutations of the three roots).",
+      "explanation_ur": "تقسیم میدان ℚ(∛5, ω) ہے، جس کا گیلوا گروپ S₃ ہے (تین جڑوں کی ترتیب)۔",
+      "hint": "Consider the degree of the splitting field",
+      "hint_ur": "تقسیم میدان کی ڈگری پر غور کریں",
+      "timeLimit": 55
+    },
+    {
+      "id": 88,
+      "type": "true-false",
+      "question": "Every non-zero prime ideal in a Dedekind domain is maximal.",
+      "question_ur": "ڈیڈیکائنڈ ڈومین میں ہر غیر صفر پرائم آئیڈیل زیادہ سے زیادہ ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "This is one of the equivalent definitions of a Dedekind domain - dimension ≤ 1 (non-zero primes are maximal).",
+      "explanation_ur": "یہ ڈیڈیکائنڈ ڈومین کی مساوی تعریفوں میں سے ایک ہے - ڈائمینشن ≤ 1 (غیر صفر پرائمز زیادہ سے زیادہ ہوتے ہیں)۔",
+      "hint": "Recall the definition of Dedekind domains",
+      "hint_ur": "ڈیڈیکائنڈ ڈومینز کی تعریف یاد کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "question": "What is the number of Sylow 3-subgroups in the alternating group A₅?",
+      "question_ur": "متبادل گروپ A₅ میں سیلو 3-ذیلی گروپس کی تعداد کیا ہے؟",
+      "options": {
+        "en": ["1", "4", "10", "20"],
+        "ur": ["1", "4", "10", "20"]
+      },
+      "correctAnswer": 2,
+      "explanation": "n₃ ≡ 1 mod 3 and divides 20. Possible values: 1,4,10. A₅ is simple, so n₃ ≠ 1. The actual number is 10.",
+      "explanation_ur": "n₃ ≡ 1 mod 3 اور 20 کو تقسیم کرتا ہے۔ ممکنہ اقدار: 1,4,10۔ A₅ سادہ ہے، لہذا n₃ ≠ 1۔ اصل تعداد 10 ہے۔",
+      "hint": "Use Sylow's theorems and the simplicity of A₅",
+      "hint_ur": "سیلو کے نظریات اور A₅ کی سادگی استعمال کریں",
+      "timeLimit": 55
+    },
+    {
+      "id": 90,
+      "type": "true-false",
+      "question": "The tensor product of two simple modules over an algebraically closed field is always simple.",
+      "question_ur": "الجبرائی طور پر بند فیلڈ پر دو سادہ ماڈیولز کا ٹینسر پیداوار ہمیشہ سادہ ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Counterexample: For simple sl(2,ℂ)-modules V and W, V⊗W decomposes into a direct sum of simple modules.",
+      "explanation_ur": "مخالف مثال: سادہ sl(2,ℂ)-ماڈیولز V اور W کے لیے، V⊗W سادہ ماڈیولز کے براہ راست مجموعہ میں تحلیل ہوتا ہے۔",
+      "hint": "Consider representations of Lie algebras",
+      "hint_ur": "لی الجبرا کی نمائندگیوں پر غور کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "Which of the following is the minimal polynomial of the 4×4 matrix with 1's on the anti-diagonal and 0's elsewhere?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا 4×4 میٹرکس کا کم از کم پولینومیل ہے جس میں اینٹی ڈائیگونل پر 1's اور باقی جگہوں پر 0's ہیں؟",
+      "options": {
+        "en": ["x", "x²", "x³", "x⁴"],
+        "ur": ["x", "x²", "x³", "x⁴"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The matrix satisfies A² = I, so its minimal polynomial is x² - 1.",
+      "explanation_ur": "میٹرکس A² = I کو پورا کرتا ہے، لہذا اس کا کم از کم پولینومیل x² - 1 ہے۔",
+      "hint": "Compute powers of the matrix",
+      "hint_ur": "میٹرکس کی طاقتوں کا حساب لگائیں",
+      "timeLimit": 45
+    },
+    {
+      "id": 92,
+      "type": "true-false",
+      "question": "Every finite subgroup of the multiplicative group of a field is cyclic.",
+      "question_ur": "فیلڈ کے ضربی گروپ کا ہر محدود ذیلی گروپ سائیکلک ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "This is a fundamental theorem in field theory - the multiplicative group of a finite field is cyclic, and this extends to infinite fields as well.",
+      "explanation_ur": "یہ فیلڈ تھیوری میں ایک بنیادی نظریہ ہے - محدود فیلڈ کا ضربی گروپ سائیکلک ہوتا ہے، اور یہ لامحدود فیلڈز تک بھی پھیلتا ہے۔",
+      "hint": "Recall the structure of finite subgroups of fields",
+      "hint_ur": "فیلڈز کے محدود ذیلی گروپس کی ساخت یاد کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "What is the dimension of the space of all n×n symmetric matrices over ℝ?",
+      "question_ur": "ℝ پر تمام n×n سیمیٹرک میٹرکس کی جگہ کی ڈائمینشن کیا ہے؟",
+      "options": {
+        "en": ["n", "n²", "n(n+1)/2", "n(n-1)/2"],
+        "ur": ["n", "n²", "n(n+1)/2", "n(n-1)/2"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Symmetric matrices have n(n+1)/2 free parameters (n diagonal entries and n(n-1)/2 off-diagonal entries).",
+      "explanation_ur": "سیمیٹرک میٹرکس میں n(n+1)/2 آزاد پیرامیٹرز ہوتے ہیں (n ڈائیگونل اندراجات اور n(n-1)/2 آف-ڈائیگونل اندراجات)۔",
+      "hint": "Count the independent entries in a symmetric matrix",
+      "hint_ur": "سیمیٹرک میٹرکس میں آزاد اندراجات گنیں",
+      "timeLimit": 45
+    },
+    {
+      "id": 94,
+      "type": "true-false",
+      "question": "Every irreducible representation of a finite abelian group over ℂ is one-dimensional.",
+      "question_ur": "ℂ پر محدود ایبیلیئن گروپ کی ہر ناقابل تقلیل نمائندگی ایک جہتی ہوتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "Finite abelian groups have all irreducible representations of degree 1 (characters).",
+      "explanation_ur": "محدود ایبیلیئن گروپس کی تمام ناقابل تقلیل نمائندگیوں کی ڈگری 1 ہوتی ہے (حروف)۔",
+      "hint": "Recall Schur's lemma for abelian groups",
+      "hint_ur": "ایبیلیئن گروپس کے لیے شور کی لیما یاد کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 95,
+      "type": "mcq",
+      "question": "Which of the following is the minimal polynomial of the direct sum of a 2×2 and a 3×3 Jordan block with eigenvalue λ?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا آئیگن ویلیو λ کے ساتھ 2×2 اور 3×3 جورڈن بلاک کے براہ راست مجموعہ کا کم از کم پولینومیل ہے؟",
+      "options": {
+        "en": ["(x - λ)", "(x - λ)²", "(x - λ)³", "(x - λ)⁵"],
+        "ur": ["(x - λ)", "(x - λ)²", "(x - λ)³", "(x - λ)⁵"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The minimal polynomials are (x-λ)² and (x-λ)³ respectively, and the LCM is (x-λ)³.",
+      "explanation_ur": "کم از کم پولینومیلز بالترتیب (x-λ)² اور (x-λ)³ ہیں، اور LCM (x-λ)³ ہے۔",
+      "hint": "Take the least common multiple of the minimal polynomials",
+      "hint_ur": "کم از کم پولینومیلز کا کم از کم عام ضرب لیں",
+      "timeLimit": 50
+    },
+    {
+      "id": 96,
+      "type": "true-false",
+      "question": "The polynomial x⁴ + 1 is reducible over every finite field.",
+      "question_ur": "پولینومیل x⁴ + 1 ہر محدود فیلڈ پر قابل تقلیل ہے۔",
+      "correctAnswer": true,
+      "explanation": "Over any finite field 𝔽_q, x⁴+1 factors into quadratics (or lower) because 8 divides q²-1 for all q, so all roots exist in 𝔽_{q²}.",
+      "explanation_ur": "کسی بھی محدود فیلڈ 𝔽_q پر، x⁴+1 چوکور (یا کم) میں فیکٹر ہوتا ہے کیونکہ 8 تمام q کے لیے q²-1 کو تقسیم کرتا ہے، لہذا تمام جڑیں 𝔽_{q²} میں موجود ہیں۔",
+      "hint": "Consider the splitting field of x⁴+1 over finite fields",
+      "hint_ur": "محدود فیلڈز پر x⁴+1 کے تقسیم میدان پر غور کریں",
+      "timeLimit": 50
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "question": "What is the number of Sylow 2-subgroups in the symmetric group S₄?",
+      "question_ur": "سیمیٹرک گروپ S₄ میں سیلو 2-ذیلی گروپس کی تعداد کیا ہے؟",
+      "options": {
+        "en": ["1", "3", "6", "8"],
+        "ur": ["1", "3", "6", "8"]
+      },
+      "correctAnswer": 1,
+      "explanation": "S₄ has 3 Sylow 2-subgroups, each isomorphic to D₄ (dihedral group of order 8).",
+      "explanation_ur": "S₄ میں 3 سیلو 2-ذیلی گروپس ہیں، ہر ایک D₄ (آرڈر 8 کا ڈیہیڈرل گروپ) کے ساتھ آئیسومورفک ہے۔",
+      "hint": "Use Sylow's theorems and consider the symmetries of a square",
+      "hint_ur": "سیلو کے نظریات استعمال کریں اور مربع کی سیمیٹریز پر غور کریں",
+      "timeLimit": 55
+    },
+    {
+      "id": 98,
+      "type": "true-false",
+      "question": "Every non-zero finite-dimensional division algebra over ℝ is isomorphic to ℝ, ℂ, or ℍ (quaternions).",
+      "question_ur": "ℝ پر ہر غیر صفر محدود جہتی ڈویژن الجبرا ℝ, ℂ, یا ℍ (کوارٹرنینز) کے ساتھ آئیسومورفک ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "This is the Frobenius theorem - the only finite-dimensional real division algebras are ℝ, ℂ, and ℍ.",
+      "explanation_ur": "یہ فروبینیوس کا نظریہ ہے - صرف محدود جہتی حقیقی ڈویژن الجبرا ℝ, ℂ, اور ℍ ہیں۔",
+      "hint": "Recall the Frobenius theorem on real division algebras",
+      "hint_ur": "حقیقی ڈویژن الجبرا پر فروبینیوس کے نظریہ کو یاد کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 99,
+      "type": "mcq",
+      "question": "Which of the following is the minimal polynomial of the 3×3 matrix with all entries equal to 1?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا 3×3 میٹرکس کا کم از کم پولینومیل ہے جس کے تمام اندراجات 1 کے برابر ہیں؟",
+      "options": {
+        "en": ["x", "x²", "x³", "x(x-3)"],
+        "ur": ["x", "x²", "x³", "x(x-3)"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The matrix has eigenvalues 0 (multiplicity 2) and 3, so its minimal polynomial is x(x-3).",
+      "explanation_ur": "میٹرکس کی آئیگن ویلیوز 0 (کثرت 2) اور 3 ہیں، لہذا اس کا کم از کم پولینومیل x(x-3) ہے۔",
+      "hint": "Compute the characteristic polynomial first",
+      "hint_ur": "پہلے خصوصیت پولینومیل کا حساب لگائیں",
+      "timeLimit": 50
+    },
+    {
+      "id": 100,
+      "type": "true-false",
+      "question": "Every non-abelian simple group has even order.",
+      "question_ur": "ہر غیر ایبیلیئن سادہ گروپ کا آرڈر بھی ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "This is the Feit-Thompson theorem - every finite group of odd order is solvable, hence not simple unless cyclic of prime order.",
+      "explanation_ur": "یہ فیٹ-تھامپسن کا نظریہ ہے - طاق آرڈر کا ہر محدود گروپ حل پذیر ہوتا ہے، لہذا پرائم آرڈر کے سائیکلک کے علاوہ سادہ نہیں ہوتا۔",
+      "hint": "Recall the Feit-Thompson theorem",
+      "hint_ur": "فیٹ-تھامپسن کا نظریہ یاد کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 101,
+      "type": "mcq",
+      "question": "What is the dimension of the space of all n×n skew-symmetric matrices over ℂ?",
+      "question_ur": "ℂ پر تمام n×n اسکیو-سیمیٹرک میٹرکس کی جگہ کی ڈائمینشن کیا ہے؟",
+      "options": {
+        "en": ["n", "n²", "n(n-1)/2", "n(n+1)/2"],
+        "ur": ["n", "n²", "n(n-1)/2", "n(n+1)/2"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Skew-symmetric matrices have zero diagonal and a_i,j = -a_j,i, giving n(n-1)/2 free complex parameters.",
+      "explanation_ur": "اسکیو-سیمیٹرک میٹرکس میں زیرو ڈائیگونل اور a_i,j = -a_j,i ہوتا ہے، جو n(n-1)/2 آزاد پیچیدہ پیرامیٹرز دیتا ہے۔",
+      "hint": "Count the independent complex entries",
+      "hint_ur": "آزاد پیچیدہ اندراجات گنیں",
+      "timeLimit": 45
+    },
+    {
+      "id": 102,
+      "type": "true-false",
+      "question": "The quotient of a PID by a prime ideal is always a field.",
+      "question_ur": "PID کا پرائم آئیڈیل سے کوئٹینٹ ہمیشہ فیلڈ ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "It's true for non-zero prime ideals (which are maximal in PIDs), but the zero ideal is prime in PIDs that are domains, and R/(0) ≅ R is not a field.",
+      "explanation_ur": "یہ غیر صفر پرائم آئیڈیلز کے لیے سچ ہے (جو PIDs میں زیادہ سے زیادہ ہوتے ہیں)، لیکن زیرو آئیڈیل ان PIDs میں پرائم ہوتا ہے جو ڈومینز ہیں، اور R/(0) ≅ R فیلڈ نہیں ہے۔",
+      "hint": "Consider the zero ideal in PIDs",
+      "hint_ur": "PIDs میں زیرو آئیڈیل پر غور کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "question": "Which of the following is the minimal polynomial of a 5×5 Jordan block with eigenvalue 0?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا آئیگن ویلیو 0 کے ساتھ 5×5 جورڈن بلاک کا کم از کم پولینومیل ہے؟",
+      "options": {
+        "en": ["x", "x²", "x⁵", "x⁵ - 1"],
+        "ur": ["x", "x²", "x⁵", "x⁵ - 1"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A 5×5 nilpotent Jordan block has minimal polynomial x⁵.",
+      "explanation_ur": "5×5 نیلپوٹنٹ جورڈن بلاک کا کم از کم پولینومیل x⁵ ہے۔",
+      "hint": "Consider the nilpotency index",
+      "hint_ur": "نیلپوٹینسی انڈیکس پر غور کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 104,
+      "type": "true-false",
+      "question": "Every finite p-group is solvable.",
+      "question_ur": "ہر محدود p-گروپ حل پذیر ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Finite p-groups are nilpotent, and nilpotent groups are solvable.",
+      "explanation_ur": "محدود p-گروپس نیلپوٹنٹ ہوتے ہیں، اور نیلپوٹنٹ گروپس حل پذیر ہوتے ہیں۔",
+      "hint": "Recall the hierarchy of group properties",
+      "hint_ur": "گروپ پراپرٹیز کی درجہ بندی یاد کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 105,
+      "type": "mcq",
+      "question": "What is the number of irreducible representations of the quaternion group Q₈ over ℂ?",
+      "question_ur": "ℂ پر کوارٹرنین گروپ Q₈ کے ناقابل تقلیل نمائندگیوں کی تعداد کیا ہے؟",
+      "options": {
+        "en": ["4", "5", "6", "8"],
+        "ur": ["4", "5", "6", "8"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Q₈ has 5 conjugacy classes: {1}, {-1}, {±i}, {±j}, {±k}, hence 5 irreducible representations.",
+      "explanation_ur": "Q₈ میں 5 کنجوگیسی کلاسز ہیں: {1}, {-1}, {±i}, {±j}, {±k}, لہذا 5 ناقابل تقلیل نمائندگیاں ہیں۔",
+      "hint": "Count the conjugacy classes",
+      "hint_ur": "کنجوگیسی کلاسز گنیں",
+      "timeLimit": 50
+    },
+    {
+      "id": 106,
+      "type": "true-false",
+      "question": "The polynomial ring over a field in infinitely many variables is Noetherian.",
+      "question_ur": "لامحدود بہت سے متغیرات میں فیلڈ پر پولینومیل رنگ نوٹیریئن ہے۔",
+      "correctAnswer": false,
+      "explanation": "The polynomial ring k[x₁,x₂,...] in infinitely many variables is not Noetherian, as the chain (x₁) ⊂ (x₁,x₂) ⊂ ... does not stabilize.",
+      "explanation_ur": "لامحدود بہت سے متغیرات میں پولینومیل رنگ k[x₁,x₂,...] نوٹیریئن نہیں ہے، کیونکہ چین (x₁) ⊂ (x₁,x₂) ⊂ ... مستحکم نہیں ہوتی ہے۔",
+      "hint": "Construct an infinite ascending chain of ideals",
+      "hint_ur": "آئیڈیلز کی ایک لامحدود چڑھتی ہوئی چین بنائیں",
+      "timeLimit": 45
+    },
+    {
+      "id": 107,
+      "type": "mcq",
+      "question": "Which of the following is the minimal polynomial of the direct sum of three 2×2 Jordan blocks with eigenvalue λ?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا آئیگن ویلیو λ کے ساتھ تین 2×2 جورڈن بلاکس کے براہ راست مجموعہ کا کم از کم پولینومیل ہے؟",
+      "options": {
+        "en": ["(x - λ)", "(x - λ)²", "(x - λ)³", "(x - λ)⁶"],
+        "ur": ["(x - λ)", "(x - λ)²", "(x - λ)³", "(x - λ)⁶"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Each block has minimal polynomial (x-λ)², and the LCM for three blocks is still (x-λ)².",
+      "explanation_ur": "ہر بلاک کا کم از کم پولینومیل (x-λ)² ہے، اور تین بلاکس کے لیے LCM اب بھی (x-λ)² ہے۔",
+      "hint": "Take the LCM of the minimal polynomials",
+      "hint_ur": "کم از کم پولینومیلز کا LCM لیں",
+      "timeLimit": 50
+    },
+    {
+      "id": 108,
+      "type": "true-false",
+      "question": "Every non-zero finite-dimensional simple algebra over ℂ is isomorphic to a matrix algebra Mₙ(ℂ).",
+      "question_ur": "ℂ پر ہر غیر صفر محدود جہتی سادہ الجبرا میٹرکس الجبرا Mₙ(ℂ) کے ساتھ آئیسومورفک ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "This is a consequence of the Artin-Wedderburn theorem - the only finite-dimensional simple ℂ-algebras are the matrix algebras Mₙ(ℂ).",
+      "explanation_ur": "یہ آرٹن-ویڈربرن نظریہ کا نتیجہ ہے - صرف محدود جہتی سادہ ℂ-الجبرا میٹرکس الجبرا Mₙ(ℂ) ہیں۔",
+      "hint": "Recall the classification of simple algebras over algebraically closed fields",
+      "hint_ur": "الجبرائی طور پر بند فیلڈز پر سادہ الجبرا کی درجہ بندی یاد کریں",
+      "timeLimit": 45
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "question": "What is the number of Sylow 5-subgroups in the alternating group A₅?",
+      "question_ur": "متبادل گروپ A₅ میں سیلو 5-ذیلی گروپس کی تعداد کیا ہے؟",
+      "options": {
+        "en": ["1", "5", "6", "12"],
+        "ur": ["1", "5", "6", "12"]
+      },
+      "correctAnswer": 2,
+      "explanation": "n₅ ≡ 1 mod 5 and divides 12. Possible values: 1,6. A₅ is simple, so n₅ ≠ 1. The actual number is 6.",
+      "explanation_ur": "n₅ ≡ 1 mod 5 اور 12 کو تقسیم کرتا ہے۔ ممکنہ اقدار: 1,6۔ A₅ سادہ ہے، لہذا n₅ ≠ 1۔ اصل تعداد 6 ہے۔",
+      "hint": "Use Sylow's theorems and the simplicity of A₅",
+      "hint_ur": "سیلو کے نظریات اور A₅ کی سادگی استعمال کریں",
+      "timeLimit": 55
+    },
+    {
+      "id": 110,
+      "type": "true-false",
+      "question": "Every irreducible polynomial over a finite field is separable.",
+      "question_ur": "محدود فیلڈ پر ہر ناقابل تقلیل پولینومیل علیحدہ ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Finite fields are perfect, so all finite extensions are separable, meaning irreducible polynomials cannot have repeated roots.",
+      "explanation_ur": "محدود فیلڈز کامل ہیں، لہذا تمام محدود توسیعات علیحدہ ہوتی ہیں، یعنی ناقابل تقلیل پولینومیلز میں بار بار جڑیں نہیں ہو سکتیں۔",
+      "hint": "Recall properties of finite fields",
+      "hint_ur": "محدود فیلڈز کی خصوصیات یاد کریں",
+      "timeLimit": 45
+    }
+  ]
+}

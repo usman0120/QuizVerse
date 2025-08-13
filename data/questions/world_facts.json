@@ -1,0 +1,2813 @@
+{
+  "meta": {
+    "category": "World Facts",
+    "category_ur": "عالمی حقائق",
+    "description": "Test your knowledge of common facts from around the world",
+    "description_ur": "دنیا بھر کے عام حقائق کا امتحان لیں",
+    "difficulty": "easy",
+    "image": "world_facts.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What is the capital of Japan?",
+      "question_ur": "جاپان کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Kyoto", "Tokyo", "Osaka", "Hiroshima"],
+        "ur": ["کیوٹو", "ٹوکیو", "اوساکا", "ہیروشیما"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Tokyo is the largest city in Japan and its capital.",
+      "explanation_ur": "ٹوکیو جاپان کا سب سے بڑا شہر اور اس کا دارالحکومت ہے۔",
+      "hint": "It's the world's most populous metropolitan area.",
+      "hint_ur": "یہ دنیا کا سب سے زیادہ آبادی والا میٹروپولیٹن علاقہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 2,
+      "type": "true-false",
+      "question": "Mount Everest is the tallest mountain in the world.",
+      "question_ur": "ماؤنٹ ایورسٹ دنیا کا سب سے اونچا پہاڑ ہے۔",
+      "correctAnswer": true,
+      "explanation": "Mount Everest, located in the Himalayas, is the highest mountain above sea level.",
+      "explanation_ur": "ماؤنٹ ایورسٹ، جو ہمالیہ میں واقع ہے، سمندر کی سطح سے بلند ترین پہاڑ ہے۔",
+      "hint": "It's part of the Himalayan mountain range.",
+      "hint_ur": "یہ ہمالیہ پہاڑی سلسلے کا حصہ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which country is known as the 'Land of the Rising Sun'?",
+      "question_ur": "کون سا ملک 'طلوع آفتاب کی سرزمین' کے نام سے جانا جاتا ہے؟",
+      "options": {
+        "en": ["China", "South Korea", "Japan", "Thailand"],
+        "ur": ["چین", "جنوبی کوریا", "جاپان", "تھائی لینڈ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The name Japan is derived from the Chinese words meaning 'sun origin'.",
+      "explanation_ur": "جاپان کا نام چینی الفاظ سے ماخوذ ہے جس کا مطلب ہے 'سورج کی اصل'۔",
+      "hint": "Its flag features a red sun.",
+      "hint_ur": "اس کے جھنڈے پر ایک سرخ سورج ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "true-false",
+      "question": "The Amazon River is the longest river in the world.",
+      "question_ur": "دریائے امازون دنیا کا سب سے لمبا دریا ہے۔",
+      "correctAnswer": false,
+      "explanation": "The Nile River is generally considered the longest, though the Amazon is the largest by volume.",
+      "explanation_ur": "دریائے نیل کو عام طور پر سب سے طویل سمجھا جاتا ہے، حالانکہ دریائے امازون حجم کے لحاظ سے سب سے بڑا ہے۔",
+      "hint": "There is a debate between two famous rivers.",
+      "hint_ur": "دو مشہور دریاؤں کے درمیان بحث ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "What is the largest country in the world by land area?",
+      "question_ur": "رقبے کے لحاظ سے دنیا کا سب سے بڑا ملک کون سا ہے؟",
+      "options": {
+        "en": ["Canada", "China", "Russia", "United States"],
+        "ur": ["کینیڈا", "چین", "روس", "ریاستہائے متحدہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Russia spans over 17 million square kilometers and is the largest country by a significant margin.",
+      "explanation_ur": "روس 17 ملین مربع کلومیٹر سے زیادہ پر محیط ہے اور کافی حد تک سب سے بڑا ملک ہے۔",
+      "hint": "It spans across two continents, Europe and Asia.",
+      "hint_ur": "یہ دو براعظموں، یورپ اور ایشیا میں پھیلا ہوا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 6,
+      "type": "true-false",
+      "question": "The capital of Australia is Sydney.",
+      "question_ur": "آسٹریلیا کا دارالحکومت سڈنی ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital city of Australia is Canberra.",
+      "explanation_ur": "آسٹریلیا کا دارالحکومت کینبرا ہے۔",
+      "hint": "It's a city often overshadowed by its more famous counterparts.",
+      "hint_ur": "یہ ایک ایسا شہر ہے جو اکثر اپنے زیادہ مشہور ہم منصبوں کے زیر سایہ رہتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Which ocean is the largest on Earth?",
+      "question_ur": "زمین پر سب سے بڑا سمندر کون سا ہے؟",
+      "options": {
+        "en": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+        "ur": ["بحر اوقیانوس", "بحر ہند", "بحرالکاہل", "بحر منجمد شمالی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Pacific Ocean covers about one-third of the Earth's surface.",
+      "explanation_ur": "بحرالکاہل زمین کی سطح کا تقریباً ایک تہائی حصہ ڈھکتا ہے۔",
+      "hint": "It's bordered by Asia and Australia on one side and the Americas on the other.",
+      "hint_ur": "یہ ایک طرف ایشیا اور آسٹریلیا اور دوسری طرف امریکہ سے گھرا ہوا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 8,
+      "type": "true-false",
+      "question": "The Sahara Desert is the largest hot desert in the world.",
+      "question_ur": "صحارا ریگستان دنیا کا سب سے بڑا گرم ریگستان ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Sahara is the largest hot desert and the third-largest desert overall after Antarctica and the Arctic.",
+      "explanation_ur": "صحارا سب سے بڑا گرم ریگستان ہے اور انٹارکٹیکا اور آرکٹک کے بعد مجموعی طور پر تیسرا سب سے بڑا ریگستان ہے۔",
+      "hint": "It's located in North Africa.",
+      "hint_ur": "یہ شمالی افریقہ میں واقع ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "How many continents are there in the world?",
+      "question_ur": "دنیا میں کتنے براعظم ہیں؟",
+      "options": {
+        "en": ["5", "6", "7", "8"],
+        "ur": ["5", "6", "7", "8"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The seven continents are Asia, Africa, North America, South America, Antarctica, Europe, and Australia.",
+      "explanation_ur": "سات براعظم ایشیا، افریقہ، شمالی امریکہ، جنوبی امریکہ، انٹارکٹیکا، یورپ اور آسٹریلیا ہیں۔",
+      "hint": "Remember the acronym 'AAANASE'.",
+      "hint_ur": "یہ مخفف 'AAANASE' یاد رکھیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 10,
+      "type": "true-false",
+      "question": "The currency of the United Kingdom is the Euro.",
+      "question_ur": "برطانیہ کی کرنسی یورو ہے۔",
+      "correctAnswer": false,
+      "explanation": "The official currency of the United Kingdom is the Pound Sterling (£).",
+      "explanation_ur": "برطانیہ کی سرکاری کرنسی پاؤنڈ سٹرلنگ (£) ہے۔",
+      "hint": "You'll see it on the money of England, Scotland, Wales, and Northern Ireland.",
+      "hint_ur": "آپ اسے انگلینڈ، اسکاٹ لینڈ، ویلز اور شمالی آئرلینڈ کی کرنسی پر دیکھیں گے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "In which country would you find the ancient pyramids?",
+      "question_ur": "قدیم اہرام کس ملک میں پائے جاتے ہیں؟",
+      "options": {
+        "en": ["Greece", "Egypt", "Italy", "Mexico"],
+        "ur": ["یونان", "مصر", "اٹلی", "میکسیکو"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Great Pyramids of Giza are located in Egypt.",
+      "explanation_ur": "اہرام مصر کے عظیم اہرام مصر میں واقع ہیں۔",
+      "hint": "It's a country in northeastern Africa.",
+      "hint_ur": "یہ شمال مشرقی افریقہ کا ایک ملک ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "question": "The capital of Italy is Rome.",
+      "question_ur": "اٹلی کا دارالحکومت روم ہے۔",
+      "correctAnswer": true,
+      "explanation": "Rome is Italy's capital city and a center of history and culture.",
+      "explanation_ur": "روم اٹلی کا دارالحکومت اور تاریخ اور ثقافت کا مرکز ہے۔",
+      "hint": "The Colosseum is in this city.",
+      "hint_ur": "کالوزیئم اس شہر میں ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "What is the official language of Brazil?",
+      "question_ur": "برازیل کی سرکاری زبان کیا ہے؟",
+      "options": {
+        "en": ["Spanish", "Portuguese", "French", "English"],
+        "ur": ["ہسپانوی", "پرتگالی", "فرانسیسی", "انگریزی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Portuguese is the official and most widely spoken language in Brazil.",
+      "explanation_ur": "پرتگالی برازیل میں سرکاری اور سب سے زیادہ بولی جانے والی زبان ہے۔",
+      "hint": "It's a European language, but not Spanish.",
+      "hint_ur": "یہ ایک یورپی زبان ہے، لیکن ہسپانوی نہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "question": "The Eiffel Tower is located in London.",
+      "question_ur": "ایفل ٹاور لندن میں واقع ہے۔",
+      "correctAnswer": false,
+      "explanation": "The Eiffel Tower is a famous landmark in Paris, France.",
+      "explanation_ur": "ایفل ٹاور پیرس، فرانس میں ایک مشہور نشان ہے۔",
+      "hint": "It's a symbol of France.",
+      "hint_ur": "یہ فرانس کی ایک علامت ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Which of these countries is not in Europe?",
+      "question_ur": "ان میں سے کون سا ملک یورپ میں نہیں ہے؟",
+      "options": {
+        "en": ["Germany", "Canada", "Spain", "Poland"],
+        "ur": ["جرمنی", "کینیڈا", "ہسپانیہ", "پولینڈ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Canada is a country located in North America.",
+      "explanation_ur": "کینیڈا شمالی امریکہ میں واقع ایک ملک ہے۔",
+      "hint": "It's a large country with a maple leaf on its flag.",
+      "hint_ur": "یہ ایک بڑا ملک ہے جس کے جھنڈے پر میپل کا پتہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 16,
+      "type": "true-false",
+      "question": "The Great Barrier Reef is located off the coast of Brazil.",
+      "question_ur": "گریٹ بیریئر ریف برازیل کے ساحل پر واقع ہے۔",
+      "correctAnswer": false,
+      "explanation": "The Great Barrier Reef is the world's largest coral reef system, located off the coast of Queensland, Australia.",
+      "explanation_ur": "گریٹ بیریئر ریف دنیا کا سب سے بڑا مرجانی چٹان کا نظام ہے، جو کوئنز لینڈ، آسٹریلیا کے ساحل پر واقع ہے۔",
+      "hint": "Think of koalas and kangaroos.",
+      "hint_ur": "کوآلا اور کینگرو کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "What is the currency of the United States?",
+      "question_ur": "ریاستہائے متحدہ کی کرنسی کیا ہے؟",
+      "options": {
+        "en": ["Pound Sterling", "Yen", "Euro", "US Dollar"],
+        "ur": ["پاؤنڈ سٹرلنگ", "ین", "یورو", "امریکی ڈالر"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The US Dollar ($) is the official currency of the United States and is widely used internationally.",
+      "explanation_ur": "امریکی ڈالر ($) ریاستہائے متحدہ کی سرکاری کرنسی ہے اور اسے بین الاقوامی سطح پر بڑے پیمانے پر استعمال کیا جاتا ہے۔",
+      "hint": "It's a green paper currency.",
+      "hint_ur": "یہ ایک سبز کاغذی کرنسی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 18,
+      "type": "true-false",
+      "question": "Canada has more lakes than the rest of the world combined.",
+      "question_ur": "کینیڈا میں دنیا کے باقی تمام ممالک سے زیادہ جھیلیں ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Canada has over 3 million lakes, a number so large it accounts for more than half of the world's lakes.",
+      "explanation_ur": "کینیڈا میں 3 ملین سے زیادہ جھیلیں ہیں، جو دنیا کی نصف سے زیادہ جھیلوں کا حصہ ہیں۔",
+      "hint": "It's famous for its vast wilderness.",
+      "hint_ur": "یہ اپنی وسیع و عریض ویرانی کے لیے مشہور ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Which desert is located in Africa?",
+      "question_ur": "کون سا صحرا افریقہ میں واقع ہے؟",
+      "options": {
+        "en": ["Gobi Desert", "Atacama Desert", "Kalahari Desert", "Arabian Desert"],
+        "ur": ["گوبی صحرا", "اٹا کاما صحرا", "کالاہاری صحرا", "عرب صحرا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Kalahari Desert is a large, semi-arid sandy savanna in Southern Africa.",
+      "explanation_ur": "کالاہاری صحرا جنوبی افریقہ میں ایک بڑا، نیم بنجر ریتلا سوانا ہے۔",
+      "hint": "It's also home to the San people.",
+      "hint_ur": "یہ سان لوگوں کا بھی گھر ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 20,
+      "type": "true-false",
+      "question": "The capital of Russia is Saint Petersburg.",
+      "question_ur": "روس کا دارالحکومت سینٹ پیٹرزبرگ ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital of Russia is Moscow, a major political, economic, and cultural center.",
+      "explanation_ur": "روس کا دارالحکومت ماسکو ہے، جو ایک بڑا سیاسی، اقتصادی اور ثقافتی مرکز ہے۔",
+      "hint": "It's home to the Kremlin and Red Square.",
+      "hint_ur": "یہ کرملن اور ریڈ اسکوائر کا گھر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Which country is famous for its tulips and windmills?",
+      "question_ur": "کون سا ملک اپنے ٹولپس اور ونڈملز کے لیے مشہور ہے؟",
+      "options": {
+        "en": ["Netherlands", "Belgium", "Switzerland", "Denmark"],
+        "ur": ["نیدرلینڈز", "بیلجیم", "سویٹزرلینڈ", "ڈنمارک"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Netherlands is internationally known for its vibrant tulip fields and historic windmills.",
+      "explanation_ur": "نیدرلینڈز اپنے متحرک ٹولپ کے کھیتوں اور تاریخی ونڈملز کے لیے بین الاقوامی سطح پر جانا جاتا ہے۔",
+      "hint": "It's a low-lying country in Europe.",
+      "hint_ur": "یہ یورپ کا ایک نشیبی ملک ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 22,
+      "type": "true-false",
+      "question": "There are five oceans in the world.",
+      "question_ur": "دنیا میں پانچ سمندر ہیں۔",
+      "correctAnswer": true,
+      "explanation": "The five oceans are the Pacific, Atlantic, Indian, Arctic, and Southern Oceans.",
+      "explanation_ur": "پانچ سمندر بحرالکاہل، بحر اوقیانوس، بحر ہند، بحر منجمد شمالی اور جنوبی سمندر ہیں۔",
+      "hint": "One of them is a recent addition to the official list.",
+      "hint_ur": "ان میں سے ایک سرکاری فہرست میں ایک حالیہ اضافہ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "What is the most populous country in the world?",
+      "question_ur": "دنیا کا سب سے زیادہ آبادی والا ملک کون سا ہے؟",
+      "options": {
+        "en": ["United States", "India", "China", "Brazil"],
+        "ur": ["ریاستہائے متحدہ", "بھارت", "چین", "برازیل"]
+      },
+      "correctAnswer": 1,
+      "explanation": "As of recent estimates, India has surpassed China as the world's most populous country.",
+      "explanation_ur": "حالیہ تخمینوں کے مطابق، بھارت نے دنیا کے سب سے زیادہ آبادی والے ملک کے طور پر چین کو پیچھے چھوڑ دیا ہے۔",
+      "hint": "This country's population recently exceeded China's.",
+      "hint_ur": "اس ملک کی آبادی حال ہی میں چین کی آبادی سے تجاوز کر گئی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 24,
+      "type": "true-false",
+      "question": "The Great Wall of China is the longest man-made structure in the world.",
+      "question_ur": "چین کی عظیم دیوار دنیا کی سب سے لمبی انسانی ساختہ عمارت ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Great Wall of China is the longest wall in the world, with its official length being over 21,000 km.",
+      "explanation_ur": "چین کی عظیم دیوار دنیا کی سب سے لمبی دیوار ہے، جس کی سرکاری لمبائی 21,000 کلومیٹر سے زیادہ ہے۔",
+      "hint": "It was built to protect against invasions from the north.",
+      "hint_ur": "یہ شمال سے حملوں سے بچانے کے لیے بنایا گیا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "What is the capital of Egypt?",
+      "question_ur": "مصر کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Alexandria", "Luxor", "Cairo", "Giza"],
+        "ur": ["اسکندریہ", "لکسر", "قاہرہ", "گیزہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Cairo is the capital and largest city of Egypt.",
+      "explanation_ur": "قاہرہ مصر کا دارالحکومت اور سب سے بڑا شہر ہے۔",
+      "hint": "It's the largest city in the Arab world.",
+      "hint_ur": "یہ عرب دنیا کا سب سے بڑا شہر ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 26,
+      "type": "true-false",
+      "question": "Brazil is the only country in South America that does not speak Spanish.",
+      "question_ur": "برازیل جنوبی امریکہ کا واحد ملک ہے جو ہسپانوی نہیں بولتا۔",
+      "correctAnswer": true,
+      "explanation": "While most of South America speaks Spanish, Brazil's official language is Portuguese due to its colonial history.",
+      "explanation_ur": "جبکہ زیادہ تر جنوبی امریکہ میں ہسپانوی بولی جاتی ہے، برازیل کی سرکاری زبان اس کی نوآبادیاتی تاریخ کی وجہ سے پرتگالی ہے۔",
+      "hint": "Its primary language is from a country on the Iberian Peninsula.",
+      "hint_ur": "اس کی بنیادی زبان جزیرہ نما ایبیرین کے ایک ملک سے ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "The statue of 'Christ the Redeemer' is located in which city?",
+      "question_ur": "'کرائسٹ دی ریڈیمر' کا مجسمہ کس شہر میں واقع ہے؟",
+      "options": {
+        "en": ["Buenos Aires", "Rio de Janeiro", "Lima", "Bogotá"],
+        "ur": ["بیونس آئرس", "ریو ڈی جینیرو", "لیما", "بوگوٹا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The famous statue is located at the peak of the Corcovado mountain in Rio de Janeiro, Brazil.",
+      "explanation_ur": "یہ مشہور مجسمہ ریو ڈی جینیرو، برازیل میں کورکوواڈو پہاڑ کی چوٹی پر واقع ہے۔",
+      "hint": "This city hosted the 2016 Summer Olympics.",
+      "hint_ur": "اس شہر نے 2016 کے سمر اولمپکس کی میزبانی کی تھی۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 28,
+      "type": "true-false",
+      "question": "The currency of Switzerland is the Swiss Franc.",
+      "question_ur": "سویٹزرلینڈ کی کرنسی سوئس فرانک ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Swiss Franc (CHF) is the official currency and is known for its stability.",
+      "explanation_ur": "سوئس فرانک (CHF) سرکاری کرنسی ہے اور اپنے استحکام کے لیے مشہور ہے۔",
+      "hint": "It's the currency of a country known for chocolate and watches.",
+      "hint_ur": "یہ چاکلیٹ اور گھڑیوں کے لیے مشہور ملک کی کرنسی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "Which mountain range runs along the western side of South America?",
+      "question_ur": "کون سا پہاڑی سلسلہ جنوبی امریکہ کے مغربی جانب چلتا ہے؟",
+      "options": {
+        "en": ["Rocky Mountains", "Alps", "Himalayas", "Andes"],
+        "ur": ["راکی پہاڑ", "آلپس", "ہمالیہ", "اینڈیز"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Andes is the longest continental mountain range in the world.",
+      "explanation_ur": "اینڈیز دنیا کا سب سے طویل براعظمی پہاڑی سلسلہ ہے۔",
+      "hint": "It's an important feature of countries like Peru and Chile.",
+      "hint_ur": "یہ پیرو اور چلی جیسے ممالک کی ایک اہم خصوصیت ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 30,
+      "type": "true-false",
+      "question": "The capital of China is Shanghai.",
+      "question_ur": "چین کا دارالحکومت شنگھائی ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital of China is Beijing, while Shanghai is its most populous city.",
+      "explanation_ur": "چین کا دارالحکومت بیجنگ ہے، جبکہ شنگھائی اس کا سب سے زیادہ آبادی والا شہر ہے۔",
+      "hint": "It's the city that hosted the 2008 Summer Olympics.",
+      "hint_ur": "یہ وہ شہر ہے جس نے 2008 کے سمر اولمپکس کی میزبانی کی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Which of these animals is native to Australia?",
+      "question_ur": "ان میں سے کون سا جانور آسٹریلیا کا مقامی ہے؟",
+      "options": {
+        "en": ["Polar Bear", "Koala", "Panda", "Elephant"],
+        "ur": ["قطبی ریچھ", "کوآلا", "پانڈا", "ہاتھی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Koalas are marsupials native to Australia.",
+      "explanation_ur": "کوآلا آسٹریلیا کے مقامی ہیں۔",
+      "hint": "It's a marsupial that eats eucalyptus leaves.",
+      "hint_ur": "یہ ایک ایسا جانور ہے جو یوکلپٹس کے پتے کھاتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 32,
+      "type": "true-false",
+      "question": "The Mediterranean Sea separates Europe and Africa.",
+      "question_ur": "بحیرہ روم یورپ اور افریقہ کو الگ کرتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Mediterranean Sea is bordered by Southern Europe, North Africa, and Western Asia.",
+      "explanation_ur": "بحیرہ روم کی سرحد جنوبی یورپ، شمالی افریقہ اور مغربی ایشیا سے ملتی ہے۔",
+      "hint": "Many ancient civilizations flourished along its shores.",
+      "hint_ur": "بہت سی قدیم تہذیبیں اس کے ساحلوں پر پروان چڑھیں تھیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "What is the smallest country in the world?",
+      "question_ur": "دنیا کا سب سے چھوٹا ملک کون سا ہے؟",
+      "options": {
+        "en": ["Monaco", "Nauru", "Vatican City", "San Marino"],
+        "ur": ["موناکو", "ناورو", "ویٹیکن سٹی", "سان مارینو"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Vatican City is an independent city-state located within Rome, Italy.",
+      "explanation_ur": "ویٹیکن سٹی ایک آزاد شہر-ریاست ہے جو روم، اٹلی میں واقع ہے۔",
+      "hint": "It's a city-state within Rome.",
+      "hint_ur": "یہ روم کے اندر ایک شہر-ریاست ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 34,
+      "type": "true-false",
+      "question": "The currency of Japan is the Yen.",
+      "question_ur": "جاپان کی کرنسی ین ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Japanese Yen (¥) is the official currency of Japan.",
+      "explanation_ur": "جاپانی ین (¥) جاپان کی سرکاری کرنسی ہے۔",
+      "hint": "It's one of the most traded currencies in the world.",
+      "hint_ur": "یہ دنیا کی سب سے زیادہ تجارت کی جانے والی کرنسیوں میں سے ایک ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "The 'Golden Gate Bridge' is located in which city?",
+      "question_ur": "'گولڈن گیٹ برج' کس شہر میں واقع ہے؟",
+      "options": {
+        "en": ["New York City", "Los Angeles", "Chicago", "San Francisco"],
+        "ur": ["نیویارک شہر", "لاس اینجلس", "شکاگو", "سان فرانسسکو"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Golden Gate Bridge is a famous suspension bridge spanning the Golden Gate, the one-mile-wide strait connecting San Francisco Bay and the Pacific Ocean.",
+      "explanation_ur": "گولڈن گیٹ برج ایک مشہور سسپنشن پل ہے جو گولڈن گیٹ پر پھیلا ہوا ہے، جو ایک میل چوڑی پٹی ہے جو سان فرانسسکو بے اور بحرالکاہل کو جوڑتی ہے۔",
+      "hint": "It's a city in California.",
+      "hint_ur": "یہ کیلیفورنیا کا ایک شہر ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 36,
+      "type": "true-false",
+      "question": "The longest river in the United States is the Mississippi River.",
+      "question_ur": "ریاستہائے متحدہ کا سب سے لمبا دریا مسی سیپی دریا ہے۔",
+      "correctAnswer": false,
+      "explanation": "The Missouri River is the longest river in the United States, flowing for 2,540 miles.",
+      "explanation_ur": "دریائے مسوری ریاستہائے متحدہ کا سب سے لمبا دریا ہے، جو 2,540 میل تک بہتا ہے۔",
+      "hint": "It's a major tributary of the Mississippi.",
+      "hint_ur": "یہ مسی سیپی کی ایک بڑی معاون ندی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "Which country is home to the ancient ruins of Machu Picchu?",
+      "question_ur": "قدیم کھنڈرات ماچو پیچو کس ملک میں ہیں؟",
+      "options": {
+        "en": ["Colombia", "Peru", "Bolivia", "Ecuador"],
+        "ur": ["کولمبیا", "پیرو", "بولیویا", "ایکواڈور"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru.",
+      "explanation_ur": "ماچو پیچو 15ویں صدی کا ایک انکا گڑھ ہے جو جنوبی پیرو کے مشرقی کورڈیلیرا میں واقع ہے۔",
+      "hint": "This country's capital is Lima.",
+      "hint_ur": "اس ملک کا دارالحکومت لیما ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 38,
+      "type": "true-false",
+      "question": "The country of Iceland is entirely covered in ice.",
+      "question_ur": "آئس لینڈ کا ملک مکمل طور پر برف سے ڈھکا ہوا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Despite its name, Iceland is a land of volcanoes, geysers, and hot springs. Only about 10% is covered by glaciers.",
+      "explanation_ur": "اس کے نام کے باوجود، آئس لینڈ آتش فشاں، گیزر اور گرم چشموں کی سرزمین ہے۔ صرف 10% گلیشیرز سے ڈھکا ہوا ہے۔",
+      "hint": "It has many active volcanoes.",
+      "hint_ur": "اس میں بہت سے فعال آتش فشاں ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "What is the capital of Canada?",
+      "question_ur": "کینیڈا کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Toronto", "Vancouver", "Montreal", "Ottawa"],
+        "ur": ["ٹورنٹو", "وینکوور", "مونٹریال", "اوٹاوا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Ottawa is the capital of Canada, a city in the eastern part of Southern Ontario.",
+      "explanation_ur": "اوٹاوا کینیڈا کا دارالحکومت ہے، جو جنوبی اونٹاریو کے مشرقی حصے میں واقع ایک شہر ہے۔",
+      "hint": "It's not the largest city in the country.",
+      "hint_ur": "یہ ملک کا سب سے بڑا شہر نہیں ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 40,
+      "type": "true-false",
+      "question": "The currency of Germany is the Mark.",
+      "question_ur": "جرمنی کی کرنسی مارک ہے۔",
+      "correctAnswer": false,
+      "explanation": "As part of the European Union, Germany uses the Euro (€) as its currency.",
+      "explanation_ur": "یورپی یونین کے حصے کے طور پر، جرمنی اپنی کرنسی کے طور پر یورو (€) استعمال کرتا ہے۔",
+      "hint": "It's the same currency as France and Italy.",
+      "hint_ur": "یہ فرانس اور اٹلی کی کرنسی کی طرح ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "Which of these is not a country?",
+      "question_ur": "ان میں سے کون سا ملک نہیں ہے؟",
+      "options": {
+        "en": ["Cuba", "Greenland", "Mexico", "Egypt"],
+        "ur": ["کیوبا", "گرین لینڈ", "میکسیکو", "مصر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Greenland is an autonomous territory within the Kingdom of Denmark.",
+      "explanation_ur": "گرین لینڈ ڈنمارک کی بادشاہت کے اندر ایک خود مختار علاقہ ہے۔",
+      "hint": "It's a large island politically part of Denmark.",
+      "hint_ur": "یہ ایک بڑا جزیرہ ہے جو سیاسی طور پر ڈنمارک کا حصہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 42,
+      "type": "true-false",
+      "question": "The capital of Spain is Madrid.",
+      "question_ur": "اسپین کا دارالحکومت میڈرڈ ہے۔",
+      "correctAnswer": true,
+      "explanation": "Madrid is the capital and largest city of Spain.",
+      "explanation_ur": "میڈرڈ اسپین کا دارالحکومت اور سب سے بڑا شہر ہے۔",
+      "hint": "It's a major hub for Spanish art and culture.",
+      "hint_ur": "یہ ہسپانوی فن اور ثقافت کا ایک بڑا مرکز ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Which continent is known as the 'Dark Continent'?",
+      "question_ur": "کون سا براعظم 'تاریک براعظم' کے نام سے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Asia", "Africa", "South America", "Antarctica"],
+        "ur": ["ایشیا", "افریقہ", "جنوبی امریکہ", "انٹارکٹیکا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The term 'Dark Continent' was used by early explorers because of the continent's unknown interior.",
+      "explanation_ur": "'تاریک براعظم' کی اصطلاح ابتدائی ایکسپلوررز نے براعظم کے نامعلوم اندرونی حصے کی وجہ سے استعمال کی تھی۔",
+      "hint": "The Nile River is on this continent.",
+      "hint_ur": "دریائے نیل اسی براعظم پر ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 44,
+      "type": "true-false",
+      "question": "The official language of Austria is German.",
+      "question_ur": "آسٹریا کی سرکاری زبان جرمن ہے۔",
+      "correctAnswer": true,
+      "explanation": "German is the official language of Austria, and a significant portion of its population speaks it as their mother tongue.",
+      "explanation_ur": "جرمن آسٹریا کی سرکاری زبان ہے، اور اس کی آبادی کا ایک بڑا حصہ اسے اپنی مادری زبان کے طور پر بولتا ہے۔",
+      "hint": "This country is bordered by Germany to the north.",
+      "hint_ur": "اس ملک کی سرحد شمال میں جرمنی سے ملتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "In which city is the 'Colosseum' located?",
+      "question_ur": "'کالوزیئم' کس شہر میں واقع ہے؟",
+      "options": {
+        "en": ["Athens", "Rome", "Cairo", "Istanbul"],
+        "ur": ["ایتھنز", "روم", "قاہرہ", "استنبول"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Colosseum is an ancient amphitheater located in the center of Rome, Italy.",
+      "explanation_ur": "کالوزیئم ایک قدیم ایمفی تھیٹر ہے جو روم، اٹلی کے مرکز میں واقع ہے۔",
+      "hint": "It's a landmark of the Roman Empire.",
+      "hint_ur": "یہ رومی سلطنت کا ایک نشان ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 46,
+      "type": "true-false",
+      "question": "The capital of Russia is Moscow.",
+      "question_ur": "روس کا دارالحکومت ماسکو ہے۔",
+      "correctAnswer": true,
+      "explanation": "Moscow is the capital and the largest city of Russia.",
+      "explanation_ur": "ماسکو روس کا دارالحکومت اور سب سے بڑا شہر ہے۔",
+      "hint": "It is home to the famous Red Square.",
+      "hint_ur": "یہ مشہور ریڈ اسکوائر کا گھر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Which country is the largest producer of coffee in the world?",
+      "question_ur": "دنیا میں کافی کا سب سے بڑا پیدا کرنے والا ملک کون سا ہے؟",
+      "options": {
+        "en": ["Colombia", "Vietnam", "Brazil", "Ethiopia"],
+        "ur": ["کولمبیا", "ویتنام", "برازیل", "ایتھوپیا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Brazil has been the world's largest producer of coffee for over 150 years.",
+      "explanation_ur": "برازیل 150 سال سے زیادہ عرصے سے دنیا میں کافی کا سب سے بڑا پیدا کرنے والا ملک ہے۔",
+      "hint": "It's a country in South America.",
+      "hint_ur": "یہ جنوبی امریکہ کا ایک ملک ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 48,
+      "type": "true-false",
+      "question": "The currency of China is the Yuan.",
+      "question_ur": "چین کی کرنسی یوآن ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Renminbi is the official currency of China, and its basic unit is the Yuan.",
+      "explanation_ur": "رینمنبی چین کی سرکاری کرنسی ہے، اور اس کی بنیادی اکائی یوآن ہے۔",
+      "hint": "It's often referred to by its basic unit.",
+      "hint_ur": "اسے اکثر اس کی بنیادی اکائی کے نام سے پکارا جاتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "What is the capital of South Africa?",
+      "question_ur": "جنوبی افریقہ کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Johannesburg", "Cape Town", "Durban", "Pretoria"],
+        "ur": ["جوہانسبرگ", "کیپ ٹاؤن", "ڈربن", "پریٹوریا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "South Africa has three capital cities: Pretoria (executive), Cape Town (legislative), and Bloemfontein (judicial). Pretoria is considered the official administrative capital.",
+      "explanation_ur": "جنوبی افریقہ کے تین دارالحکومت ہیں: پریٹوریا (ایگزیکٹو)، کیپ ٹاؤن (قانون ساز) اور بلومفونٹین (عدلیہ)۔ پریٹوریا کو سرکاری انتظامی دارالحکومت سمجھا جاتا ہے۔",
+      "hint": "It's the administrative capital and home to the Union Buildings.",
+      "hint_ur": "یہ انتظامی دارالحکومت ہے اور یونین عمارتوں کا گھر ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 50,
+      "type": "true-false",
+      "question": "The United States has more than 50 states.",
+      "question_ur": "ریاستہائے متحدہ میں 50 سے زیادہ ریاستیں ہیں۔",
+      "correctAnswer": false,
+      "explanation": "The United States is made up of 50 states and the District of Columbia.",
+      "explanation_ur": "ریاستہائے متحدہ 50 ریاستوں اور ڈسٹرکٹ آف کولمبیا سے بنا ہے۔",
+      "hint": "It's a round number.",
+      "hint_ur": "یہ ایک گول نمبر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "What is the capital of India?",
+      "question_ur": "بھارت کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Mumbai", "New Delhi", "Kolkata", "Chennai"],
+        "ur": ["ممبئی", "نئی دہلی", "کولکاتا", "چنئی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "New Delhi is the capital of India and houses the executive, legislative, and judicial branches of the government.",
+      "explanation_ur": "نئی دہلی بھارت کا دارالحکومت ہے اور اس میں حکومت کی ایگزیکٹو، قانون ساز اور عدالتی شاخیں ہیں۔",
+      "hint": "It's a city with 'New' in its name.",
+      "hint_ur": "یہ ایک ایسا شہر ہے جس کے نام میں 'نئی' ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 52,
+      "type": "true-false",
+      "question": "Mount Kilimanjaro is the highest peak in Africa.",
+      "question_ur": "ماؤنٹ کلیمنجارو افریقہ کی بلند ترین چوٹی ہے۔",
+      "correctAnswer": true,
+      "explanation": "Mount Kilimanjaro is the highest single free-standing mountain in the world and the highest peak in Africa.",
+      "explanation_ur": "ماؤنٹ کلیمنجارو دنیا کا سب سے اونچا واحد آزاد پہاڑ اور افریقہ کی بلند ترین چوٹی ہے۔",
+      "hint": "It is located in Tanzania.",
+      "hint_ur": "یہ تنزانیہ میں واقع ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "Which famous landmark is in Rome?",
+      "question_ur": "روم میں کون سا مشہور نشان ہے؟",
+      "options": {
+        "en": ["The Acropolis", "The Vatican", "The Eiffel Tower", "The Leaning Tower of Pisa"],
+        "ur": ["ایکرپولیس", "ویٹیکن", "ایفل ٹاور", "پیسا کا جھکا ہوا مینار"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Vatican City, a city-state, is located within Rome.",
+      "explanation_ur": "ویٹیکن سٹی، ایک شہر-ریاست ہے، جو روم میں واقع ہے۔",
+      "hint": "It is the center of the Catholic Church.",
+      "hint_ur": "یہ کیتھولک چرچ کا مرکز ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 54,
+      "type": "true-false",
+      "question": "The currency of Mexico is the Peso.",
+      "question_ur": "میکسیکو کی کرنسی پیسو ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Mexican Peso is the official currency of Mexico.",
+      "explanation_ur": "میکسیکن پیسو میکسیکو کی سرکاری کرنسی ہے۔",
+      "hint": "It's also the currency of a country in the Philippines.",
+      "hint_ur": "یہ فلپائن کے ایک ملک کی کرنسی بھی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "Which country is home to the 'Great Barrier Reef'?",
+      "question_ur": "'گریٹ بیریئر ریف' کس ملک میں ہے؟",
+      "options": {
+        "en": ["Indonesia", "Australia", "Philippines", "Fiji"],
+        "ur": ["انڈونیشیا", "آسٹریلیا", "فلپائن", "فجی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Great Barrier Reef is located in the Coral Sea, off the coast of Queensland, Australia.",
+      "explanation_ur": "گریٹ بیریئر ریف مرجانی سمندر میں، کوئنز لینڈ، آسٹریلیا کے ساحل پر واقع ہے۔",
+      "hint": "Think of koalas and kangaroos.",
+      "hint_ur": "کوآلا اور کینگرو کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 56,
+      "type": "true-false",
+      "question": "The Amazon rainforest is the largest rainforest in the world.",
+      "question_ur": "ایمازون کا بارانی جنگل دنیا کا سب سے بڑا بارانی جنگل ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Amazon rainforest is the largest tropical rainforest in the world, spanning across several countries in South America.",
+      "explanation_ur": "ایمازون کا بارانی جنگل دنیا کا سب سے بڑا استوائی بارانی جنگل ہے، جو جنوبی امریکہ کے کئی ممالک میں پھیلا ہوا ہے۔",
+      "hint": "The Amazon River flows through it.",
+      "hint_ur": "دریائے امازون اس میں سے بہتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "What is the capital of Germany?",
+      "question_ur": "جرمنی کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Hamburg", "Munich", "Berlin", "Frankfurt"],
+        "ur": ["ہیمبرگ", "میونخ", "برلن", "فرینکفرٹ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Berlin is the capital and largest city of Germany.",
+      "explanation_ur": "برلن جرمنی کا دارالحکومت اور سب سے بڑا شہر ہے۔",
+      "hint": "The Berlin Wall was a famous landmark here.",
+      "hint_ur": "برلن کی دیوار یہاں کا ایک مشہور نشان تھا۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 58,
+      "type": "true-false",
+      "question": "The Nile River is the longest river in the world.",
+      "question_ur": "دریائے نیل دنیا کا سب سے لمبا دریا ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Nile River in Africa is generally regarded as the longest river in the world, at 6,650 km.",
+      "explanation_ur": "افریقہ میں دریائے نیل کو عام طور پر دنیا کا سب سے طویل دریا سمجھا جاتا ہے، جس کی لمبائی 6,650 کلومیٹر ہے۔",
+      "hint": "It flows through Egypt and Sudan.",
+      "hint_ur": "یہ مصر اور سوڈان سے بہتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "Which country is home to the 'Leaning Tower of Pisa'?",
+      "question_ur": "'لیاننگ ٹاور آف پیسا' کس ملک میں ہے؟",
+      "options": {
+        "en": ["France", "Greece", "Italy", "Spain"],
+        "ur": ["فرانس", "یونان", "اٹلی", "ہسپانیہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Leaning Tower of Pisa is the campanile, or freestanding bell tower, of the cathedral of Pisa, Italy.",
+      "explanation_ur": "پیسا کا جھکا ہوا مینار پیسا، اٹلی کے کیتھیڈرل کا ایک آزاد گھنٹی ٹاور ہے۔",
+      "hint": "This country is shaped like a boot.",
+      "hint_ur": "یہ ملک ایک بوٹ کی شکل میں ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 60,
+      "type": "true-false",
+      "question": "Australia is both a country and a continent.",
+      "question_ur": "آسٹریلیا ایک ملک اور ایک براعظم دونوں ہے۔",
+      "correctAnswer": true,
+      "explanation": "Australia is the only country that is also a continent, covering the entire landmass.",
+      "explanation_ur": "آسٹریلیا وہ واحد ملک ہے جو ایک براعظم بھی ہے، جو پوری زمینی پٹی کا احاطہ کرتا ہے۔",
+      "hint": "It's the smallest continent.",
+      "hint_ur": "یہ سب سے چھوٹا براعظم ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "What is the capital of Mexico?",
+      "question_ur": "میکسیکو کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Cancun", "Mexico City", "Guadalajara", "Tijuana"],
+        "ur": ["کینکون", "میکسیکو سٹی", "گواڈالاجارا", "ٹیجوانا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Mexico City is the capital and largest city of Mexico.",
+      "explanation_ur": "میکسیکو سٹی میکسیکو کا دارالحکومت اور سب سے بڑا شہر ہے۔",
+      "hint": "It has the same name as the country.",
+      "hint_ur": "اس کا نام ملک جیسا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 62,
+      "type": "true-false",
+      "question": "The currency of France is the Euro.",
+      "question_ur": "فرانس کی کرنسی یورو ہے۔",
+      "correctAnswer": true,
+      "explanation": "France is a founding member of the European Union and uses the Euro (€).",
+      "explanation_ur": "فرانس یورپی یونین کا ایک بانی رکن ہے اور یورو (€) استعمال کرتا ہے۔",
+      "hint": "It's the same currency used in Italy and Germany.",
+      "hint_ur": "یہ وہی کرنسی ہے جو اٹلی اور جرمنی میں استعمال ہوتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "Which sea is located between Europe, Asia, and Africa?",
+      "question_ur": "یورپ، ایشیا اور افریقہ کے درمیان کون سا سمندر واقع ہے؟",
+      "options": {
+        "en": ["Caribbean Sea", "Red Sea", "Mediterranean Sea", "Black Sea"],
+        "ur": ["کیریبین سمندر", "بحر احمر", "بحیرہ روم", "بحیرہ اسود"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Mediterranean Sea is a sea connected to the Atlantic Ocean, surrounded by the Mediterranean Basin.",
+      "explanation_ur": "بحیرہ روم ایک سمندر ہے جو بحر اوقیانوس سے جڑا ہوا ہے، جو بحیرہ روم کے طاس سے گھرا ہوا ہے۔",
+      "hint": "The name means 'in the middle of the earth'.",
+      "hint_ur": "نام کا مطلب ہے 'زمین کے درمیان میں'۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 64,
+      "type": "true-false",
+      "question": "The capital of Japan is Kyoto.",
+      "question_ur": "جاپان کا دارالحکومت کیوٹو ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital of Japan is Tokyo. Kyoto was the former capital.",
+      "explanation_ur": "جاپان کا دارالحکومت ٹوکیو ہے۔ کیوٹو سابق دارالحکومت تھا۔",
+      "hint": "It's a city famous for its samurai history and cherry blossoms.",
+      "hint_ur": "یہ سامورائی تاریخ اور چیری کے پھولوں کے لیے مشہور شہر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "question": "Which famous ancient civilization built the 'Pyramids of Giza'?",
+      "question_ur": "کس مشہور قدیم تہذیب نے 'اہرام مصر' بنائے تھے؟",
+      "options": {
+        "en": ["Roman", "Greek", "Egyptian", "Mesopotamian"],
+        "ur": ["رومی", "یونانی", "مصری", "میسوپوٹیمیائی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Pyramids of Giza were built by the ancient Egyptians as tombs for their pharaohs.",
+      "explanation_ur": "اہرام مصر قدیم مصریوں نے اپنے فرعونوں کے لیے قبروں کے طور پر بنائے تھے۔",
+      "hint": "They also had hieroglyphics and mummification.",
+      "hint_ur": "ان کے پاس ہائروگلیفس اور ممیفیکیشن بھی تھے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 66,
+      "type": "true-false",
+      "question": "The capital of Brazil is Rio de Janeiro.",
+      "question_ur": "برازیل کا دارالحکومت ریو ڈی جینیرو ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital of Brazil is Brasília, a planned city built in the 1950s.",
+      "explanation_ur": "برازیل کا دارالحکومت برازیلیا ہے، جو 1950 کی دہائی میں بنایا گیا ایک منصوبہ بند شہر ہے۔",
+      "hint": "It's a city named after the country itself.",
+      "hint_ur": "یہ ایک شہر ہے جس کا نام خود ملک کے نام پر رکھا گیا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "What is the largest land animal in the world?",
+      "question_ur": "دنیا کا سب سے بڑا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": ["Giraffe", "Hippopotamus", "African Elephant", "Rhinoceros"],
+        "ur": ["زرافہ", "ہپوپوٹیمس", "افریقی ہاتھی", "رائینو سارس"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The African elephant is the largest living terrestrial animal.",
+      "explanation_ur": "افریقی ہاتھی سب سے بڑا زندہ زمینی جانور ہے۔",
+      "hint": "It has large ears and a trunk.",
+      "hint_ur": "اس کے بڑے کان اور سونڈ ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 68,
+      "type": "true-false",
+      "question": "The currency of the United States is the Dollar.",
+      "question_ur": "ریاستہائے متحدہ کی کرنسی ڈالر ہے۔",
+      "correctAnswer": true,
+      "explanation": "The United States Dollar ($) is the official currency.",
+      "explanation_ur": "ریاستہائے متحدہ ڈالر ($) سرکاری کرنسی ہے۔",
+      "hint": "It's a currency often used in international trade.",
+      "hint_ur": "یہ ایک کرنسی ہے جو اکثر بین الاقوامی تجارت میں استعمال ہوتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "question": "What is the capital of Argentina?",
+      "question_ur": "ارجنٹینا کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Santiago", "Buenos Aires", "Brasília", "Lima"],
+        "ur": ["سینٹیاگو", "بیونس آئرس", "برازیلیا", "لیما"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Buenos Aires is the capital and most populous city of Argentina.",
+      "explanation_ur": "بیونس آئرس ارجنٹینا کا دارالحکومت اور سب سے زیادہ آبادی والا شہر ہے۔",
+      "hint": "It's known for its tango music and dance.",
+      "hint_ur": "یہ اپنے ٹینگو میوزک اور ڈانس کے لیے جانا جاتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 70,
+      "type": "true-false",
+      "question": "The official language of China is Mandarin.",
+      "question_ur": "چین کی سرکاری زبان مینڈارن ہے۔",
+      "correctAnswer": true,
+      "explanation": "Mandarin is the official language of the People's Republic of China.",
+      "explanation_ur": "مینڈارن عوامی جمہوریہ چین کی سرکاری زبان ہے۔",
+      "hint": "It's the most widely spoken language in the world.",
+      "hint_ur": "یہ دنیا میں سب سے زیادہ بولی جانے والی زبان ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "question": "Which country is known for the 'Panda'?",
+      "question_ur": "کون سا ملک 'پانڈا' کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Japan", "China", "India", "Thailand"],
+        "ur": ["جاپان", "چین", "بھارت", "تھائی لینڈ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Giant Pandas are native to south-central China.",
+      "explanation_ur": "وشال پانڈے جنوبی وسطی چین کے مقامی ہیں۔",
+      "hint": "It's a large Asian country.",
+      "hint_ur": "یہ ایک بڑا ایشیائی ملک ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 72,
+      "type": "true-false",
+      "question": "The capital of Australia is Melbourne.",
+      "question_ur": "آسٹریلیا کا دارالحکومت میلبورن ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital of Australia is Canberra.",
+      "explanation_ur": "آسٹریلیا کا دارالحکومت کینبرا ہے۔",
+      "hint": "This city is the largest city in its country.",
+      "hint_ur": "یہ شہر اپنے ملک کا سب سے بڑا شہر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "Which continent is the least populated?",
+      "question_ur": "کون سا براعظم سب سے کم آبادی والا ہے؟",
+      "options": {
+        "en": ["Africa", "South America", "Europe", "Antarctica"],
+        "ur": ["افریقہ", "جنوبی امریکہ", "یورپ", "انٹارکٹیکا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Antarctica has no permanent human residents, only a few thousand scientists.",
+      "explanation_ur": "انٹارکٹیکا میں کوئی مستقل انسانی باشندے نہیں ہیں، صرف چند ہزار سائنسدان ہیں۔",
+      "hint": "It's the coldest continent on Earth.",
+      "hint_ur": "یہ زمین کا سب سے سرد براعظم ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 74,
+      "type": "true-false",
+      "question": "The Statue of Liberty was a gift from Spain to the United States.",
+      "question_ur": "مجسمہ آزادی اسپین کی طرف سے امریکہ کو تحفہ تھا۔",
+      "correctAnswer": false,
+      "explanation": "The Statue of Liberty was a gift from France to the United States.",
+      "explanation_ur": "مجسمہ آزادی فرانس کی طرف سے ریاستہائے متحدہ کو ایک تحفہ تھا۔",
+      "hint": "The country that gave the gift is known for its romance.",
+      "hint_ur": "جس ملک نے یہ تحفہ دیا وہ اپنی رومانوییت کے لیے جانا جاتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "question": "What is the capital of Egypt?",
+      "question_ur": "مصر کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Alexandria", "Luxor", "Cairo", "Giza"],
+        "ur": ["اسکندریہ", "لکسر", "قاہرہ", "گیزہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Cairo is the capital and largest city of Egypt.",
+      "explanation_ur": "قاہرہ مصر کا دارالحکومت اور سب سے بڑا شہر ہے۔",
+      "hint": "It's the largest city in the Arab world.",
+      "hint_ur": "یہ عرب دنیا کا سب سے بڑا شہر ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 76,
+      "type": "true-false",
+      "question": "The currency of the United Kingdom is the Euro.",
+      "question_ur": "برطانیہ کی کرنسی یورو ہے۔",
+      "correctAnswer": false,
+      "explanation": "The official currency of the United Kingdom is the Pound Sterling (£).",
+      "explanation_ur": "برطانیہ کی سرکاری کرنسی پاؤنڈ سٹرلنگ (£) ہے۔",
+      "hint": "You'll see it on the money of England, Scotland, Wales, and Northern Ireland.",
+      "hint_ur": "آپ اسے انگلینڈ، اسکاٹ لینڈ، ویلز اور شمالی آئرلینڈ کی کرنسی پر دیکھیں گے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "question": "Which of these is not a country?",
+      "question_ur": "ان میں سے کون سا ملک نہیں ہے؟",
+      "options": {
+        "en": ["Cuba", "Greenland", "Mexico", "Egypt"],
+        "ur": ["کیوبا", "گرین لینڈ", "میکسیکو", "مصر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Greenland is an autonomous territory within the Kingdom of Denmark.",
+      "explanation_ur": "گرین لینڈ ڈنمارک کی بادشاہت کے اندر ایک خود مختار علاقہ ہے۔",
+      "hint": "It's a large island politically part of Denmark.",
+      "hint_ur": "یہ ایک بڑا جزیرہ ہے جو سیاسی طور پر ڈنمارک کا حصہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 78,
+      "type": "true-false",
+      "question": "The capital of Spain is Madrid.",
+      "question_ur": "اسپین کا دارالحکومت میڈرڈ ہے۔",
+      "correctAnswer": true,
+      "explanation": "Madrid is the capital and largest city of Spain.",
+      "explanation_ur": "میڈرڈ اسپین کا دارالحکومت اور سب سے بڑا شہر ہے۔",
+      "hint": "It's a major hub for Spanish art and culture.",
+      "hint_ur": "یہ ہسپانوی فن اور ثقافت کا ایک بڑا مرکز ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "What is the largest country in the world by land area?",
+      "question_ur": "رقبے کے لحاظ سے دنیا کا سب سے بڑا ملک کون سا ہے؟",
+      "options": {
+        "en": ["Canada", "China", "Russia", "United States"],
+        "ur": ["کینیڈا", "چین", "روس", "ریاستہائے متحدہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Russia spans over 17 million square kilometers and is the largest country by a significant margin.",
+      "explanation_ur": "روس 17 ملین مربع کلومیٹر سے زیادہ پر محیط ہے اور کافی حد تک سب سے بڑا ملک ہے۔",
+      "hint": "It spans across two continents, Europe and Asia.",
+      "hint_ur": "یہ دو براعظموں، یورپ اور ایشیا میں پھیلا ہوا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 80,
+      "type": "true-false",
+      "question": "The capital of Australia is Sydney.",
+      "question_ur": "آسٹریلیا کا دارالحکومت سڈنی ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital city of Australia is Canberra.",
+      "explanation_ur": "آسٹریلیا کا دارالحکومت کینبرا ہے۔",
+      "hint": "It's a city often overshadowed by its more famous counterparts.",
+      "hint_ur": "یہ ایک ایسا شہر ہے جو اکثر اپنے زیادہ مشہور ہم منصبوں کے زیر سایہ رہتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "question": "Which ocean is the largest on Earth?",
+      "question_ur": "زمین پر سب سے بڑا سمندر کون سا ہے؟",
+      "options": {
+        "en": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+        "ur": ["بحر اوقیانوس", "بحر ہند", "بحرالکاہل", "بحر منجمد شمالی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Pacific Ocean covers about one-third of the Earth's surface.",
+      "explanation_ur": "بحرالکاہل زمین کی سطح کا تقریباً ایک تہائی حصہ ڈھکتا ہے۔",
+      "hint": "It's bordered by Asia and Australia on one side and the Americas on the other.",
+      "hint_ur": "یہ ایک طرف ایشیا اور آسٹریلیا اور دوسری طرف امریکہ سے گھرا ہوا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 82,
+      "type": "true-false",
+      "question": "The Sahara Desert is the largest hot desert in the world.",
+      "question_ur": "صحارا ریگستان دنیا کا سب سے بڑا گرم ریگستان ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Sahara is the largest hot desert and the third-largest desert overall after Antarctica and the Arctic.",
+      "explanation_ur": "صحارا سب سے بڑا گرم ریگستان ہے اور انٹارکٹیکا اور آرکٹک کے بعد مجموعی طور پر تیسرا سب سے بڑا ریگستان ہے۔",
+      "hint": "It's located in North Africa.",
+      "hint_ur": "یہ شمالی افریقہ میں واقع ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "question": "How many continents are there in the world?",
+      "question_ur": "دنیا میں کتنے براعظم ہیں؟",
+      "options": {
+        "en": ["5", "6", "7", "8"],
+        "ur": ["5", "6", "7", "8"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The seven continents are Asia, Africa, North America, South America, Antarctica, Europe, and Australia.",
+      "explanation_ur": "سات براعظم ایشیا، افریقہ، شمالی امریکہ، جنوبی امریکہ، انٹارکٹیکا، یورپ اور آسٹریلیا ہیں۔",
+      "hint": "Remember the acronym 'AAANASE'.",
+      "hint_ur": "یہ مخفف 'AAANASE' یاد رکھیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 84,
+      "type": "true-false",
+      "question": "The currency of the United Kingdom is the Euro.",
+      "question_ur": "برطانیہ کی کرنسی یورو ہے۔",
+      "correctAnswer": false,
+      "explanation": "The official currency of the United Kingdom is the Pound Sterling (£).",
+      "explanation_ur": "برطانیہ کی سرکاری کرنسی پاؤنڈ سٹرلنگ (£) ہے۔",
+      "hint": "You'll see it on the money of England, Scotland, Wales, and Northern Ireland.",
+      "hint_ur": "آپ اسے انگلینڈ، اسکاٹ لینڈ، ویلز اور شمالی آئرلینڈ کی کرنسی پر دیکھیں گے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "In which country would you find the ancient pyramids?",
+      "question_ur": "قدیم اہرام کس ملک میں پائے جاتے ہیں؟",
+      "options": {
+        "en": ["Greece", "Egypt", "Italy", "Mexico"],
+        "ur": ["یونان", "مصر", "اٹلی", "میکسیکو"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Great Pyramids of Giza are located in Egypt.",
+      "explanation_ur": "اہرام مصر کے عظیم اہرام مصر میں واقع ہیں۔",
+      "hint": "It's a country in northeastern Africa.",
+      "hint_ur": "یہ شمال مشرقی افریقہ کا ایک ملک ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 86,
+      "type": "true-false",
+      "question": "The capital of Italy is Rome.",
+      "question_ur": "اٹلی کا دارالحکومت روم ہے۔",
+      "correctAnswer": true,
+      "explanation": "Rome is Italy's capital city and a center of history and culture.",
+      "explanation_ur": "روم اٹلی کا دارالحکومت اور تاریخ اور ثقافت کا مرکز ہے۔",
+      "hint": "The Colosseum is in this city.",
+      "hint_ur": "کالوزیئم اس شہر میں ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "question": "What is the official language of Brazil?",
+      "question_ur": "برازیل کی سرکاری زبان کیا ہے؟",
+      "options": {
+        "en": ["Spanish", "Portuguese", "French", "English"],
+        "ur": ["ہسپانوی", "پرتگالی", "فرانسیسی", "انگریزی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Portuguese is the official and most widely spoken language in Brazil.",
+      "explanation_ur": "پرتگالی برازیل میں سرکاری اور سب سے زیادہ بولی جانے والی زبان ہے۔",
+      "hint": "It's a European language, but not Spanish.",
+      "hint_ur": "یہ ایک یورپی زبان ہے، لیکن ہسپانوی نہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 88,
+      "type": "true-false",
+      "question": "The Eiffel Tower is located in London.",
+      "question_ur": "ایفل ٹاور لندن میں واقع ہے۔",
+      "correctAnswer": false,
+      "explanation": "The Eiffel Tower is a famous landmark in Paris, France.",
+      "explanation_ur": "ایفل ٹاور پیرس، فرانس میں ایک مشہور نشان ہے۔",
+      "hint": "It's a symbol of France.",
+      "hint_ur": "یہ فرانس کی ایک علامت ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "question": "Which of these countries is not in Europe?",
+      "question_ur": "ان میں سے کون سا ملک یورپ میں نہیں ہے؟",
+      "options": {
+        "en": ["Germany", "Canada", "Spain", "Poland"],
+        "ur": ["جرمنی", "کینیڈا", "ہسپانیہ", "پولینڈ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Canada is a country located in North America.",
+      "explanation_ur": "کینیڈا شمالی امریکہ میں واقع ایک ملک ہے۔",
+      "hint": "It's a large country with a maple leaf on its flag.",
+      "hint_ur": "یہ ایک بڑا ملک ہے جس کے جھنڈے پر میپل کا پتہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 90,
+      "type": "true-false",
+      "question": "The Great Barrier Reef is located off the coast of Brazil.",
+      "question_ur": "گریٹ بیریئر ریف برازیل کے ساحل پر واقع ہے۔",
+      "correctAnswer": false,
+      "explanation": "The Great Barrier Reef is the world's largest coral reef system, located off the coast of Queensland, Australia.",
+      "explanation_ur": "گریٹ بیریئر ریف دنیا کا سب سے بڑا مرجانی چٹان کا نظام ہے، جو کوئنز لینڈ، آسٹریلیا کے ساحل پر واقع ہے۔",
+      "hint": "Think of koalas and kangaroos.",
+      "hint_ur": "کوآلا اور کینگرو کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "What is the currency of the United States?",
+      "question_ur": "ریاستہائے متحدہ کی کرنسی کیا ہے؟",
+      "options": {
+        "en": ["Pound Sterling", "Yen", "Euro", "US Dollar"],
+        "ur": ["پاؤنڈ سٹرلنگ", "ین", "یورو", "امریکی ڈالر"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The US Dollar ($) is the official currency of the United States and is widely used internationally.",
+      "explanation_ur": "امریکی ڈالر ($) ریاستہائے متحدہ کی سرکاری کرنسی ہے اور اسے بین الاقوامی سطح پر بڑے پیمانے پر استعمال کیا جاتا ہے۔",
+      "hint": "It's a green paper currency.",
+      "hint_ur": "یہ ایک سبز کاغذی کرنسی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 92,
+      "type": "true-false",
+      "question": "Canada has more lakes than the rest of the world combined.",
+      "question_ur": "کینیڈا میں دنیا کے باقی تمام ممالک سے زیادہ جھیلیں ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Canada has over 3 million lakes, a number so large it accounts for more than half of the world's lakes.",
+      "explanation_ur": "کینیڈا میں 3 ملین سے زیادہ جھیلیں ہیں، جو دنیا کی نصف سے زیادہ جھیلوں کا حصہ ہیں۔",
+      "hint": "It's famous for its vast wilderness.",
+      "hint_ur": "یہ اپنی وسیع و عریض ویرانی کے لیے مشہور ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "Which desert is located in Africa?",
+      "question_ur": "کون سا صحرا افریقہ میں واقع ہے؟",
+      "options": {
+        "en": ["Gobi Desert", "Atacama Desert", "Kalahari Desert", "Arabian Desert"],
+        "ur": ["گوبی صحرا", "اٹا کاما صحرا", "کالاہاری صحرا", "عرب صحرا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Kalahari Desert is a large, semi-arid sandy savanna in Southern Africa.",
+      "explanation_ur": "کالاہاری صحرا جنوبی افریقہ میں ایک بڑا، نیم بنجر ریتلا سوانا ہے۔",
+      "hint": "It's also home to the San people.",
+      "hint_ur": "یہ سان لوگوں کا بھی گھر ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 94,
+      "type": "true-false",
+      "question": "The capital of Russia is Saint Petersburg.",
+      "question_ur": "روس کا دارالحکومت سینٹ پیٹرزبرگ ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital of Russia is Moscow, a major political, economic, and cultural center.",
+      "explanation_ur": "روس کا دارالحکومت ماسکو ہے، جو ایک بڑا سیاسی، اقتصادی اور ثقافتی مرکز ہے۔",
+      "hint": "It's home to the Kremlin and Red Square.",
+      "hint_ur": "یہ کرملن اور ریڈ اسکوائر کا گھر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 95,
+      "type": "mcq",
+      "question": "Which country is famous for its tulips and windmills?",
+      "question_ur": "کون سا ملک اپنے ٹولپس اور ونڈملز کے لیے مشہور ہے؟",
+      "options": {
+        "en": ["Netherlands", "Belgium", "Switzerland", "Denmark"],
+        "ur": ["نیدرلینڈز", "بیلجیم", "سویٹزرلینڈ", "ڈنمارک"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Netherlands is internationally known for its vibrant tulip fields and historic windmills.",
+      "explanation_ur": "نیدرلینڈز اپنے متحرک ٹولپ کے کھیتوں اور تاریخی ونڈملز کے لیے بین الاقوامی سطح پر جانا جاتا ہے۔",
+      "hint": "It's a low-lying country in Europe.",
+      "hint_ur": "یہ یورپ کا ایک نشیبی ملک ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 96,
+      "type": "true-false",
+      "question": "There are five oceans in the world.",
+      "question_ur": "دنیا میں پانچ سمندر ہیں۔",
+      "correctAnswer": true,
+      "explanation": "The five oceans are the Pacific, Atlantic, Indian, Arctic, and Southern Oceans.",
+      "explanation_ur": "پانچ سمندر بحرالکاہل، بحر اوقیانوس، بحر ہند، بحر منجمد شمالی اور جنوبی سمندر ہیں۔",
+      "hint": "One of them is a recent addition to the official list.",
+      "hint_ur": "ان میں سے ایک سرکاری فہرست میں ایک حالیہ اضافہ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "question": "What is the most populous country in the world?",
+      "question_ur": "دنیا کا سب سے زیادہ آبادی والا ملک کون سا ہے؟",
+      "options": {
+        "en": ["United States", "India", "China", "Brazil"],
+        "ur": ["ریاستہائے متحدہ", "بھارت", "چین", "برازیل"]
+      },
+      "correctAnswer": 1,
+      "explanation": "As of recent estimates, India has surpassed China as the world's most populous country.",
+      "explanation_ur": "حالیہ تخمینوں کے مطابق، بھارت نے دنیا کے سب سے زیادہ آبادی والے ملک کے طور پر چین کو پیچھے چھوڑ دیا ہے۔",
+      "hint": "This country's population recently exceeded China's.",
+      "hint_ur": "اس ملک کی آبادی حال ہی میں چین کی آبادی سے تجاوز کر گئی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 98,
+      "type": "true-false",
+      "question": "The Great Wall of China is the longest man-made structure in the world.",
+      "question_ur": "چین کی عظیم دیوار دنیا کی سب سے لمبی انسانی ساختہ عمارت ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Great Wall of China is the longest wall in the world, with its official length being over 21,000 km.",
+      "explanation_ur": "چین کی عظیم دیوار دنیا کی سب سے لمبی دیوار ہے، جس کی سرکاری لمبائی 21,000 کلومیٹر سے زیادہ ہے۔",
+      "hint": "It was built to protect against invasions from the north.",
+      "hint_ur": "یہ شمال سے حملوں سے بچانے کے لیے بنایا گیا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 99,
+      "type": "mcq",
+      "question": "What is the capital of Egypt?",
+      "question_ur": "مصر کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Alexandria", "Luxor", "Cairo", "Giza"],
+        "ur": ["اسکندریہ", "لکسر", "قاہرہ", "گیزہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Cairo is the capital and largest city of Egypt.",
+      "explanation_ur": "قاہرہ مصر کا دارالحکومت اور سب سے بڑا شہر ہے۔",
+      "hint": "It's the largest city in the Arab world.",
+      "hint_ur": "یہ عرب دنیا کا سب سے بڑا شہر ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 100,
+      "type": "true-false",
+      "question": "Brazil is the only country in South America that does not speak Spanish.",
+      "question_ur": "برازیل جنوبی امریکہ کا واحد ملک ہے جو ہسپانوی نہیں بولتا۔",
+      "correctAnswer": true,
+      "explanation": "While most of South America speaks Spanish, Brazil's official language is Portuguese due to its colonial history.",
+      "explanation_ur": "جبکہ زیادہ تر جنوبی امریکہ میں ہسپانوی بولی جاتی ہے، برازیل کی سرکاری زبان اس کی نوآبادیاتی تاریخ کی وجہ سے پرتگالی ہے۔",
+      "hint": "Its primary language is from a country on the Iberian Peninsula.",
+      "hint_ur": "اس کی بنیادی زبان جزیرہ نما ایبیرین کے ایک ملک سے ہے۔",
+      "timeLimit": 30
+    },
+    
+    {
+      "id": 101,
+      "type": "mcq",
+      "question": "What is the capital of China?",
+      "question_ur": "چین کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Shanghai", "Beijing", "Hong Kong", "Wuhan"],
+        "ur": ["شنگھائی", "بیجنگ", "ہانگ کانگ", "ووہان"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Beijing is the capital of China and a major political, economic, and cultural center.",
+      "explanation_ur": "بیجنگ چین کا دارالحکومت ہے اور ایک بڑا سیاسی، اقتصادی اور ثقافتی مرکز ہے۔",
+      "hint": "It's home to the Forbidden City.",
+      "hint_ur": "یہ فاربیڈن سٹی کا گھر ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 102,
+      "type": "true-false",
+      "question": "The capital of Russia is Moscow.",
+      "question_ur": "روس کا دارالحکومت ماسکو ہے۔",
+      "correctAnswer": true,
+      "explanation": "Moscow is the capital and largest city of Russia.",
+      "explanation_ur": "ماسکو روس کا دارالحکومت اور سب سے بڑا شہر ہے۔",
+      "hint": "It is home to the famous Red Square.",
+      "hint_ur": "یہ مشہور ریڈ اسکوائر کا گھر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "question": "Which country is the largest producer of coffee in the world?",
+      "question_ur": "دنیا میں کافی کا سب سے بڑا پیدا کرنے والا ملک کون سا ہے؟",
+      "options": {
+        "en": ["Colombia", "Vietnam", "Brazil", "Ethiopia"],
+        "ur": ["کولمبیا", "ویتنام", "برازیل", "ایتھوپیا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Brazil has been the world's largest producer of coffee for over 150 years.",
+      "explanation_ur": "برازیل 150 سال سے زیادہ عرصے سے دنیا میں کافی کا سب سے بڑا پیدا کرنے والا ملک ہے۔",
+      "hint": "It's a country in South America.",
+      "hint_ur": "یہ جنوبی امریکہ کا ایک ملک ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 104,
+      "type": "true-false",
+      "question": "The currency of China is the Yuan.",
+      "question_ur": "چین کی کرنسی یوآن ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Renminbi is the official currency of China, and its basic unit is the Yuan.",
+      "explanation_ur": "رینمنبی چین کی سرکاری کرنسی ہے، اور اس کی بنیادی اکائی یوآن ہے۔",
+      "hint": "It's often referred to by its basic unit.",
+      "hint_ur": "اسے اکثر اس کی بنیادی اکائی کے نام سے پکارا جاتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 105,
+      "type": "mcq",
+      "question": "What is the capital of South Africa?",
+      "question_ur": "جنوبی افریقہ کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Johannesburg", "Cape Town", "Durban", "Pretoria"],
+        "ur": ["جوہانسبرگ", "کیپ ٹاؤن", "ڈربن", "پریٹوریا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "South Africa has three capital cities: Pretoria (executive), Cape Town (legislative), and Bloemfontein (judicial). Pretoria is considered the official administrative capital.",
+      "explanation_ur": "جنوبی افریقہ کے تین دارالحکومت ہیں: پریٹوریا (ایگزیکٹو)، کیپ ٹاؤن (قانون ساز) اور بلومفونٹین (عدلیہ)۔ پریٹوریا کو سرکاری انتظامی دارالحکومت سمجھا جاتا ہے۔",
+      "hint": "It's the administrative capital and home to the Union Buildings.",
+      "hint_ur": "یہ انتظامی دارالحکومت ہے اور یونین عمارتوں کا گھر ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 106,
+      "type": "true-false",
+      "question": "The United States has more than 50 states.",
+      "question_ur": "ریاستہائے متحدہ میں 50 سے زیادہ ریاستیں ہیں۔",
+      "correctAnswer": false,
+      "explanation": "The United States is made up of 50 states and the District of Columbia.",
+      "explanation_ur": "ریاستہائے متحدہ 50 ریاستوں اور ڈسٹرکٹ آف کولمبیا سے بنا ہے۔",
+      "hint": "It's a round number.",
+      "hint_ur": "یہ ایک گول نمبر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 107,
+      "type": "mcq",
+      "question": "What is the capital of India?",
+      "question_ur": "بھارت کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Mumbai", "New Delhi", "Kolkata", "Chennai"],
+        "ur": ["ممبئی", "نئی دہلی", "کولکاتا", "چنئی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "New Delhi is the capital of India and houses the executive, legislative, and judicial branches of the government.",
+      "explanation_ur": "نئی دہلی بھارت کا دارالحکومت ہے اور اس میں حکومت کی ایگزیکٹو، قانون ساز اور عدالتی شاخیں ہیں۔",
+      "hint": "It's a city with 'New' in its name.",
+      "hint_ur": "یہ ایک ایسا شہر ہے جس کے نام میں 'نئی' ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 108,
+      "type": "true-false",
+      "question": "Mount Kilimanjaro is the highest peak in Africa.",
+      "question_ur": "ماؤنٹ کلیمنجارو افریقہ کی بلند ترین چوٹی ہے۔",
+      "correctAnswer": true,
+      "explanation": "Mount Kilimanjaro is the highest single free-standing mountain in the world and the highest peak in Africa.",
+      "explanation_ur": "ماؤنٹ کلیمنجارو دنیا کا سب سے اونچا واحد آزاد پہاڑ اور افریقہ کی بلند ترین چوٹی ہے۔",
+      "hint": "It is located in Tanzania.",
+      "hint_ur": "یہ تنزانیہ میں واقع ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "question": "Which famous landmark is in Rome?",
+      "question_ur": "روم میں کون سا مشہور نشان ہے؟",
+      "options": {
+        "en": ["The Acropolis", "The Vatican", "The Eiffel Tower", "The Leaning Tower of Pisa"],
+        "ur": ["ایکرپولیس", "ویٹیکن", "ایفل ٹاور", "پیسا کا جھکا ہوا مینار"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Vatican City, a city-state, is located within Rome.",
+      "explanation_ur": "ویٹیکن سٹی، ایک شہر-ریاست ہے، جو روم میں واقع ہے۔",
+      "hint": "It is the center of the Catholic Church.",
+      "hint_ur": "یہ کیتھولک چرچ کا مرکز ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 110,
+      "type": "true-false",
+      "question": "The currency of Mexico is the Peso.",
+      "question_ur": "میکسیکو کی کرنسی پیسو ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Mexican Peso is the official currency of Mexico.",
+      "explanation_ur": "میکسیکن پیسو میکسیکو کی سرکاری کرنسی ہے۔",
+      "hint": "It's also the currency of a country in the Philippines.",
+      "hint_ur": "یہ فلپائن کے ایک ملک کی کرنسی بھی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 111,
+      "type": "mcq",
+      "question": "Which country is home to the 'Great Barrier Reef'?",
+      "question_ur": "'گریٹ بیریئر ریف' کس ملک میں ہے؟",
+      "options": {
+        "en": ["Indonesia", "Australia", "Philippines", "Fiji"],
+        "ur": ["انڈونیشیا", "آسٹریلیا", "فلپائن", "فجی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Great Barrier Reef is located in the Coral Sea, off the coast of Queensland, Australia.",
+      "explanation_ur": "گریٹ بیریئر ریف مرجانی سمندر میں، کوئنز لینڈ، آسٹریلیا کے ساحل پر واقع ہے۔",
+      "hint": "Think of koalas and kangaroos.",
+      "hint_ur": "کوآلا اور کینگرو کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 112,
+      "type": "true-false",
+      "question": "The Amazon rainforest is the largest rainforest in the world.",
+      "question_ur": "ایمازون کا بارانی جنگل دنیا کا سب سے بڑا بارانی جنگل ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Amazon rainforest is the largest tropical rainforest in the world, spanning across several countries in South America.",
+      "explanation_ur": "ایمازون کا بارانی جنگل دنیا کا سب سے بڑا استوائی بارانی جنگل ہے، جو جنوبی امریکہ کے کئی ممالک میں پھیلا ہوا ہے۔",
+      "hint": "The Amazon River flows through it.",
+      "hint_ur": "دریائے امازون اس میں سے بہتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 113,
+      "type": "mcq",
+      "question": "What is the capital of Germany?",
+      "question_ur": "جرمنی کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Hamburg", "Munich", "Berlin", "Frankfurt"],
+        "ur": ["ہیمبرگ", "میونخ", "برلن", "فرینکفرٹ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Berlin is the capital and largest city of Germany.",
+      "explanation_ur": "برلن جرمنی کا دارالحکومت اور سب سے بڑا شہر ہے۔",
+      "hint": "The Berlin Wall was a famous landmark here.",
+      "hint_ur": "برلن کی دیوار یہاں کا ایک مشہور نشان تھا۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 114,
+      "type": "true-false",
+      "question": "The Nile River is the longest river in the world.",
+      "question_ur": "دریائے نیل دنیا کا سب سے لمبا دریا ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Nile River in Africa is generally regarded as the longest river in the world, at 6,650 km.",
+      "explanation_ur": "افریقہ میں دریائے نیل کو عام طور پر دنیا کا سب سے طویل دریا سمجھا جاتا ہے، جس کی لمبائی 6,650 کلومیٹر ہے۔",
+      "hint": "It flows through Egypt and Sudan.",
+      "hint_ur": "یہ مصر اور سوڈان سے بہتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "question": "Which country is home to the 'Leaning Tower of Pisa'?",
+      "question_ur": "'لیاننگ ٹاور آف پیسا' کس ملک میں ہے؟",
+      "options": {
+        "en": ["France", "Greece", "Italy", "Spain"],
+        "ur": ["فرانس", "یونان", "اٹلی", "ہسپانیہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Leaning Tower of Pisa is the campanile, or freestanding bell tower, of the cathedral of Pisa, Italy.",
+      "explanation_ur": "پیسا کا جھکا ہوا مینار پیسا، اٹلی کے کیتھیڈرل کا ایک آزاد گھنٹی ٹاور ہے۔",
+      "hint": "This country is shaped like a boot.",
+      "hint_ur": "یہ ملک ایک بوٹ کی شکل میں ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 116,
+      "type": "true-false",
+      "question": "Australia is both a country and a continent.",
+      "question_ur": "آسٹریلیا ایک ملک اور ایک براعظم دونوں ہے۔",
+      "correctAnswer": true,
+      "explanation": "Australia is the only country that is also a continent, covering the entire landmass.",
+      "explanation_ur": "آسٹریلیا وہ واحد ملک ہے جو ایک براعظم بھی ہے، جو پوری زمینی پٹی کا احاطہ کرتا ہے۔",
+      "hint": "It's the smallest continent.",
+      "hint_ur": "یہ سب سے چھوٹا براعظم ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 117,
+      "type": "mcq",
+      "question": "What is the capital of Mexico?",
+      "question_ur": "میکسیکو کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Cancun", "Mexico City", "Guadalajara", "Tijuana"],
+        "ur": ["کینکون", "میکسیکو سٹی", "گواڈالاجارا", "ٹیجوانا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Mexico City is the capital and largest city of Mexico.",
+      "explanation_ur": "میکسیکو سٹی میکسیکو کا دارالحکومت اور سب سے بڑا شہر ہے۔",
+      "hint": "It has the same name as the country.",
+      "hint_ur": "اس کا نام ملک جیسا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 118,
+      "type": "true-false",
+      "question": "The currency of France is the Euro.",
+      "question_ur": "فرانس کی کرنسی یورو ہے۔",
+      "correctAnswer": true,
+      "explanation": "France is a founding member of the European Union and uses the Euro (€).",
+      "explanation_ur": "فرانس یورپی یونین کا ایک بانی رکن ہے اور یورو (€) استعمال کرتا ہے۔",
+      "hint": "It's the same currency used in Italy and Germany.",
+      "hint_ur": "یہ وہی کرنسی ہے جو اٹلی اور جرمنی میں استعمال ہوتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 119,
+      "type": "mcq",
+      "question": "Which sea is located between Europe, Asia, and Africa?",
+      "question_ur": "یورپ، ایشیا اور افریقہ کے درمیان کون سا سمندر واقع ہے؟",
+      "options": {
+        "en": ["Caribbean Sea", "Red Sea", "Mediterranean Sea", "Black Sea"],
+        "ur": ["کیریبین سمندر", "بحر احمر", "بحیرہ روم", "بحیرہ اسود"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Mediterranean Sea is a sea connected to the Atlantic Ocean, surrounded by the Mediterranean Basin.",
+      "explanation_ur": "بحیرہ روم ایک سمندر ہے جو بحر اوقیانوس سے جڑا ہوا ہے، جو بحیرہ روم کے طاس سے گھرا ہوا ہے۔",
+      "hint": "The name means 'in the middle of the earth'.",
+      "hint_ur": "نام کا مطلب ہے 'زمین کے درمیان میں'۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 120,
+      "type": "true-false",
+      "question": "The capital of Japan is Kyoto.",
+      "question_ur": "جاپان کا دارالحکومت کیوٹو ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital of Japan is Tokyo. Kyoto was the former capital.",
+      "explanation_ur": "جاپان کا دارالحکومت ٹوکیو ہے۔ کیوٹو سابق دارالحکومت تھا۔",
+      "hint": "It's a city famous for its samurai history and cherry blossoms.",
+      "hint_ur": "یہ سامورائی تاریخ اور چیری کے پھولوں کے لیے مشہور شہر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 121,
+      "type": "mcq",
+      "question": "Which famous ancient civilization built the 'Pyramids of Giza'?",
+      "question_ur": "کس مشہور قدیم تہذیب نے 'اہرام مصر' بنائے تھے؟",
+      "options": {
+        "en": ["Roman", "Greek", "Egyptian", "Mesopotamian"],
+        "ur": ["رومی", "یونانی", "مصری", "میسوپوٹیمیائی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Pyramids of Giza were built by the ancient Egyptians as tombs for their pharaohs.",
+      "explanation_ur": "اہرام مصر قدیم مصریوں نے اپنے فرعونوں کے لیے قبروں کے طور پر بنائے تھے۔",
+      "hint": "They also had hieroglyphics and mummification.",
+      "hint_ur": "ان کے پاس ہائروگلیفس اور ممیفیکیشن بھی تھے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 122,
+      "type": "true-false",
+      "question": "The capital of Brazil is Rio de Janeiro.",
+      "question_ur": "برازیل کا دارالحکومت ریو ڈی جینیرو ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital of Brazil is Brasília, a planned city built in the 1950s.",
+      "explanation_ur": "برازیل کا دارالحکومت برازیلیا ہے، جو 1950 کی دہائی میں بنایا گیا ایک منصوبہ بند شہر ہے۔",
+      "hint": "It's a city named after the country itself.",
+      "hint_ur": "یہ ایک شہر ہے جس کا نام خود ملک کے نام پر رکھا گیا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 123,
+      "type": "mcq",
+      "question": "What is the largest land animal in the world?",
+      "question_ur": "دنیا کا سب سے بڑا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": ["Giraffe", "Hippopotamus", "African Elephant", "Rhinoceros"],
+        "ur": ["زرافہ", "ہپوپوٹیمس", "افریقی ہاتھی", "رائینو سارس"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The African elephant is the largest living terrestrial animal.",
+      "explanation_ur": "افریقی ہاتھی سب سے بڑا زندہ زمینی جانور ہے۔",
+      "hint": "It has large ears and a trunk.",
+      "hint_ur": "اس کے بڑے کان اور سونڈ ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 124,
+      "type": "true-false",
+      "question": "The currency of the United States is the Dollar.",
+      "question_ur": "ریاستہائے متحدہ کی کرنسی ڈالر ہے۔",
+      "correctAnswer": true,
+      "explanation": "The United States Dollar ($) is the official currency.",
+      "explanation_ur": "ریاستہائے متحدہ ڈالر ($) سرکاری کرنسی ہے۔",
+      "hint": "It's a currency often used in international trade.",
+      "hint_ur": "یہ ایک کرنسی ہے جو اکثر بین الاقوامی تجارت میں استعمال ہوتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 125,
+      "type": "mcq",
+      "question": "What is the capital of Argentina?",
+      "question_ur": "ارجنٹینا کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Santiago", "Buenos Aires", "Brasília", "Lima"],
+        "ur": ["سینٹیاگو", "بیونس آئرس", "برازیلیا", "لیما"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Buenos Aires is the capital and most populous city of Argentina.",
+      "explanation_ur": "بیونس آئرس ارجنٹینا کا دارالحکومت اور سب سے زیادہ آبادی والا شہر ہے۔",
+      "hint": "It's known for its tango music and dance.",
+      "hint_ur": "یہ اپنے ٹینگو میوزک اور ڈانس کے لیے جانا جاتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 126,
+      "type": "true-false",
+      "question": "The official language of China is Mandarin.",
+      "question_ur": "چین کی سرکاری زبان مینڈارن ہے۔",
+      "correctAnswer": true,
+      "explanation": "Mandarin is the official language of the People's Republic of China.",
+      "explanation_ur": "مینڈارن عوامی جمہوریہ چین کی سرکاری زبان ہے۔",
+      "hint": "It's the most widely spoken language in the world.",
+      "hint_ur": "یہ دنیا میں سب سے زیادہ بولی جانے والی زبان ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 127,
+      "type": "mcq",
+      "question": "Which country is known for the 'Panda'?",
+      "question_ur": "کون سا ملک 'پانڈا' کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Japan", "China", "India", "Thailand"],
+        "ur": ["جاپان", "چین", "بھارت", "تھائی لینڈ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Giant Pandas are native to south-central China.",
+      "explanation_ur": "وشال پانڈے جنوبی وسطی چین کے مقامی ہیں۔",
+      "hint": "It's a large Asian country.",
+      "hint_ur": "یہ ایک بڑا ایشیائی ملک ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 128,
+      "type": "true-false",
+      "question": "The capital of Australia is Melbourne.",
+      "question_ur": "آسٹریلیا کا دارالحکومت میلبورن ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital of Australia is Canberra.",
+      "explanation_ur": "آسٹریلیا کا دارالحکومت کینبرا ہے۔",
+      "hint": "This city is the largest city in its country.",
+      "hint_ur": "یہ شہر اپنے ملک کا سب سے بڑا شہر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 129,
+      "type": "mcq",
+      "question": "Which continent is the least populated?",
+      "question_ur": "کون سا براعظم سب سے کم آبادی والا ہے؟",
+      "options": {
+        "en": ["Africa", "South America", "Europe", "Antarctica"],
+        "ur": ["افریقہ", "جنوبی امریکہ", "یورپ", "انٹارکٹیکا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Antarctica has no permanent human residents, only a few thousand scientists.",
+      "explanation_ur": "انٹارکٹیکا میں کوئی مستقل انسانی باشندے نہیں ہیں، صرف چند ہزار سائنسدان ہیں۔",
+      "hint": "It's the coldest continent on Earth.",
+      "hint_ur": "یہ زمین کا سب سے سرد براعظم ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 130,
+      "type": "true-false",
+      "question": "The Statue of Liberty was a gift from Spain to the United States.",
+      "question_ur": "مجسمہ آزادی اسپین کی طرف سے امریکہ کو تحفہ تھا۔",
+      "correctAnswer": false,
+      "explanation": "The Statue of Liberty was a gift from France to the United States.",
+      "explanation_ur": "مجسمہ آزادی فرانس کی طرف سے ریاستہائے متحدہ کو ایک تحفہ تھا۔",
+      "hint": "The country that gave the gift is known for its romance.",
+      "hint_ur": "جس ملک نے یہ تحفہ دیا وہ اپنی رومانوییت کے لیے جانا جاتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 131,
+      "type": "mcq",
+      "question": "What is the capital of Egypt?",
+      "question_ur": "مصر کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Alexandria", "Luxor", "Cairo", "Giza"],
+        "ur": ["اسکندریہ", "لکسر", "قاہرہ", "گیزہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Cairo is the capital and largest city of Egypt.",
+      "explanation_ur": "قاہرہ مصر کا دارالحکومت اور سب سے بڑا شہر ہے۔",
+      "hint": "It's the largest city in the Arab world.",
+      "hint_ur": "یہ عرب دنیا کا سب سے بڑا شہر ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 132,
+      "type": "true-false",
+      "question": "The currency of the United Kingdom is the Euro.",
+      "question_ur": "برطانیہ کی کرنسی یورو ہے۔",
+      "correctAnswer": false,
+      "explanation": "The official currency of the United Kingdom is the Pound Sterling (£).",
+      "explanation_ur": "برطانیہ کی سرکاری کرنسی پاؤنڈ سٹرلنگ (£) ہے۔",
+      "hint": "You'll see it on the money of England, Scotland, Wales, and Northern Ireland.",
+      "hint_ur": "آپ اسے انگلینڈ، اسکاٹ لینڈ، ویلز اور شمالی آئرلینڈ کی کرنسی پر دیکھیں گے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 133,
+      "type": "mcq",
+      "question": "Which of these is not a country?",
+      "question_ur": "ان میں سے کون سا ملک نہیں ہے؟",
+      "options": {
+        "en": ["Cuba", "Greenland", "Mexico", "Egypt"],
+        "ur": ["کیوبا", "گرین لینڈ", "میکسیکو", "مصر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Greenland is an autonomous territory within the Kingdom of Denmark.",
+      "explanation_ur": "گرین لینڈ ڈنمارک کی بادشاہت کے اندر ایک خود مختار علاقہ ہے۔",
+      "hint": "It's a large island politically part of Denmark.",
+      "hint_ur": "یہ ایک بڑا جزیرہ ہے جو سیاسی طور پر ڈنمارک کا حصہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 134,
+      "type": "true-false",
+      "question": "The capital of Spain is Madrid.",
+      "question_ur": "اسپین کا دارالحکومت میڈرڈ ہے۔",
+      "correctAnswer": true,
+      "explanation": "Madrid is the capital and largest city of Spain.",
+      "explanation_ur": "میڈرڈ اسپین کا دارالحکومت اور سب سے بڑا شہر ہے۔",
+      "hint": "It's a major hub for Spanish art and culture.",
+      "hint_ur": "یہ ہسپانوی فن اور ثقافت کا ایک بڑا مرکز ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 135,
+      "type": "mcq",
+      "question": "What is the largest country in the world by land area?",
+      "question_ur": "رقبے کے لحاظ سے دنیا کا سب سے بڑا ملک کون سا ہے؟",
+      "options": {
+        "en": ["Canada", "China", "Russia", "United States"],
+        "ur": ["کینیڈا", "چین", "روس", "ریاستہائے متحدہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Russia spans over 17 million square kilometers and is the largest country by a significant margin.",
+      "explanation_ur": "روس 17 ملین مربع کلومیٹر سے زیادہ پر محیط ہے اور کافی حد تک سب سے بڑا ملک ہے۔",
+      "hint": "It spans across two continents, Europe and Asia.",
+      "hint_ur": "یہ دو براعظموں، یورپ اور ایشیا میں پھیلا ہوا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 136,
+      "type": "true-false",
+      "question": "The capital of Australia is Sydney.",
+      "question_ur": "آسٹریلیا کا دارالحکومت سڈنی ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital city of Australia is Canberra.",
+      "explanation_ur": "آسٹریلیا کا دارالحکومت کینبرا ہے۔",
+      "hint": "It's a city often overshadowed by its more famous counterparts.",
+      "hint_ur": "یہ ایک ایسا شہر ہے جو اکثر اپنے زیادہ مشہور ہم منصبوں کے زیر سایہ رہتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 137,
+      "type": "mcq",
+      "question": "Which ocean is the largest on Earth?",
+      "question_ur": "زمین پر سب سے بڑا سمندر کون سا ہے؟",
+      "options": {
+        "en": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+        "ur": ["بحر اوقیانوس", "بحر ہند", "بحرالکاہل", "بحر منجمد شمالی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Pacific Ocean covers about one-third of the Earth's surface.",
+      "explanation_ur": "بحرالکاہل زمین کی سطح کا تقریباً ایک تہائی حصہ ڈھکتا ہے۔",
+      "hint": "It's bordered by Asia and Australia on one side and the Americas on the other.",
+      "hint_ur": "یہ ایک طرف ایشیا اور آسٹریلیا اور دوسری طرف امریکہ سے گھرا ہوا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 138,
+      "type": "true-false",
+      "question": "The Sahara Desert is the largest hot desert in the world.",
+      "question_ur": "صحارا ریگستان دنیا کا سب سے بڑا گرم ریگستان ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Sahara is the largest hot desert and the third-largest desert overall after Antarctica and the Arctic.",
+      "explanation_ur": "صحارا سب سے بڑا گرم ریگستان ہے اور انٹارکٹیکا اور آرکٹک کے بعد مجموعی طور پر تیسرا سب سے بڑا ریگستان ہے۔",
+      "hint": "It's located in North Africa.",
+      "hint_ur": "یہ شمالی افریقہ میں واقع ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 139,
+      "type": "mcq",
+      "question": "How many continents are there in the world?",
+      "question_ur": "دنیا میں کتنے براعظم ہیں؟",
+      "options": {
+        "en": ["5", "6", "7", "8"],
+        "ur": ["5", "6", "7", "8"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The seven continents are Asia, Africa, North America, South America, Antarctica, Europe, and Australia.",
+      "explanation_ur": "سات براعظم ایشیا، افریقہ، شمالی امریکہ، جنوبی امریکہ، انٹارکٹیکا، یورپ اور آسٹریلیا ہیں۔",
+      "hint": "Remember the acronym 'AAANASE'.",
+      "hint_ur": "یہ مخفف 'AAANASE' یاد رکھیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 140,
+      "type": "true-false",
+      "question": "The currency of the United Kingdom is the Euro.",
+      "question_ur": "برطانیہ کی کرنسی یورو ہے۔",
+      "correctAnswer": false,
+      "explanation": "The official currency of the United Kingdom is the Pound Sterling (£).",
+      "explanation_ur": "برطانیہ کی سرکاری کرنسی پاؤنڈ سٹرلنگ (£) ہے۔",
+      "hint": "You'll see it on the money of England, Scotland, Wales, and Northern Ireland.",
+      "hint_ur": "آپ اسے انگلینڈ، اسکاٹ لینڈ، ویلز اور شمالی آئرلینڈ کی کرنسی پر دیکھیں گے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 141,
+      "type": "mcq",
+      "question": "In which country would you find the ancient pyramids?",
+      "question_ur": "قدیم اہرام کس ملک میں پائے جاتے ہیں؟",
+      "options": {
+        "en": ["Greece", "Egypt", "Italy", "Mexico"],
+        "ur": ["یونان", "مصر", "اٹلی", "میکسیکو"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Great Pyramids of Giza are located in Egypt.",
+      "explanation_ur": "اہرام مصر کے عظیم اہرام مصر میں واقع ہیں۔",
+      "hint": "It's a country in northeastern Africa.",
+      "hint_ur": "یہ شمال مشرقی افریقہ کا ایک ملک ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 142,
+      "type": "true-false",
+      "question": "The capital of Italy is Rome.",
+      "question_ur": "اٹلی کا دارالحکومت روم ہے۔",
+      "correctAnswer": true,
+      "explanation": "Rome is Italy's capital city and a center of history and culture.",
+      "explanation_ur": "روم اٹلی کا دارالحکومت اور تاریخ اور ثقافت کا مرکز ہے۔",
+      "hint": "The Colosseum is in this city.",
+      "hint_ur": "کالوزیئم اس شہر میں ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 143,
+      "type": "mcq",
+      "question": "What is the official language of Brazil?",
+      "question_ur": "برازیل کی سرکاری زبان کیا ہے؟",
+      "options": {
+        "en": ["Spanish", "Portuguese", "French", "English"],
+        "ur": ["ہسپانوی", "پرتگالی", "فرانسیسی", "انگریزی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Portuguese is the official and most widely spoken language in Brazil.",
+      "explanation_ur": "پرتگالی برازیل میں سرکاری اور سب سے زیادہ بولی جانے والی زبان ہے۔",
+      "hint": "It's a European language, but not Spanish.",
+      "hint_ur": "یہ ایک یورپی زبان ہے، لیکن ہسپانوی نہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 144,
+      "type": "true-false",
+      "question": "The Eiffel Tower is located in London.",
+      "question_ur": "ایفل ٹاور لندن میں واقع ہے۔",
+      "correctAnswer": false,
+      "explanation": "The Eiffel Tower is a famous landmark in Paris, France.",
+      "explanation_ur": "ایفل ٹاور پیرس، فرانس میں ایک مشہور نشان ہے۔",
+      "hint": "It's a symbol of France.",
+      "hint_ur": "یہ فرانس کی ایک علامت ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 145,
+      "type": "mcq",
+      "question": "Which of these countries is not in Europe?",
+      "question_ur": "ان میں سے کون سا ملک یورپ میں نہیں ہے؟",
+      "options": {
+        "en": ["Germany", "Canada", "Spain", "Poland"],
+        "ur": ["جرمنی", "کینیڈا", "ہسپانیہ", "پولینڈ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Canada is a country located in North America.",
+      "explanation_ur": "کینیڈا شمالی امریکہ میں واقع ایک ملک ہے۔",
+      "hint": "It's a large country with a maple leaf on its flag.",
+      "hint_ur": "یہ ایک بڑا ملک ہے جس کے جھنڈے پر میپل کا پتہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 146,
+      "type": "true-false",
+      "question": "The Great Barrier Reef is located off the coast of Brazil.",
+      "question_ur": "گریٹ بیریئر ریف برازیل کے ساحل پر واقع ہے۔",
+      "correctAnswer": false,
+      "explanation": "The Great Barrier Reef is the world's largest coral reef system, located off the coast of Queensland, Australia.",
+      "explanation_ur": "گریٹ بیریئر ریف دنیا کا سب سے بڑا مرجانی چٹان کا نظام ہے، جو کوئنز لینڈ، آسٹریلیا کے ساحل پر واقع ہے۔",
+      "hint": "Think of koalas and kangaroos.",
+      "hint_ur": "کوآلا اور کینگرو کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 147,
+      "type": "mcq",
+      "question": "What is the currency of the United States?",
+      "question_ur": "ریاستہائے متحدہ کی کرنسی کیا ہے؟",
+      "options": {
+        "en": ["Pound Sterling", "Yen", "Euro", "US Dollar"],
+        "ur": ["پاؤنڈ سٹرلنگ", "ین", "یورو", "امریکی ڈالر"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The US Dollar ($) is the official currency of the United States and is widely used internationally.",
+      "explanation_ur": "امریکی ڈالر ($) ریاستہائے متحدہ کی سرکاری کرنسی ہے اور اسے بین الاقوامی سطح پر بڑے پیمانے پر استعمال کیا جاتا ہے۔",
+      "hint": "It's a green paper currency.",
+      "hint_ur": "یہ ایک سبز کاغذی کرنسی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 148,
+      "type": "true-false",
+      "question": "Canada has more lakes than the rest of the world combined.",
+      "question_ur": "کینیڈا میں دنیا کے باقی تمام ممالک سے زیادہ جھیلیں ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Canada has over 3 million lakes, a number so large it accounts for more than half of the world's lakes.",
+      "explanation_ur": "کینیڈا میں 3 ملین سے زیادہ جھیلیں ہیں، جو دنیا کی نصف سے زیادہ جھیلوں کا حصہ ہیں۔",
+      "hint": "It's famous for its vast wilderness.",
+      "hint_ur": "یہ اپنی وسیع و عریض ویرانی کے لیے مشہور ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 149,
+      "type": "mcq",
+      "question": "Which desert is located in Africa?",
+      "question_ur": "کون سا صحرا افریقہ میں واقع ہے؟",
+      "options": {
+        "en": ["Gobi Desert", "Atacama Desert", "Kalahari Desert", "Arabian Desert"],
+        "ur": ["گوبی صحرا", "اٹا کاما صحرا", "کالاہاری صحرا", "عرب صحرا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Kalahari Desert is a large, semi-arid sandy savanna in Southern Africa.",
+      "explanation_ur": "کالاہاری صحرا جنوبی افریقہ میں ایک بڑا، نیم بنجر ریتلا سوانا ہے۔",
+      "hint": "It's also home to the San people.",
+      "hint_ur": "یہ سان لوگوں کا بھی گھر ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 150,
+      "type": "true-false",
+      "question": "The capital of Russia is Saint Petersburg.",
+      "question_ur": "روس کا دارالحکومت سینٹ پیٹرزبرگ ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital of Russia is Moscow, a major political, economic, and cultural center.",
+      "explanation_ur": "روس کا دارالحکومت ماسکو ہے، جو ایک بڑا سیاسی، اقتصادی اور ثقافتی مرکز ہے۔",
+      "hint": "It's home to the Kremlin and Red Square.",
+      "hint_ur": "یہ کرملن اور ریڈ اسکوائر کا گھر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 151,
+      "type": "mcq",
+      "question": "Which country is famous for its tulips and windmills?",
+      "question_ur": "کون سا ملک اپنے ٹولپس اور ونڈملز کے لیے مشہور ہے؟",
+      "options": {
+        "en": ["Netherlands", "Belgium", "Switzerland", "Denmark"],
+        "ur": ["نیدرلینڈز", "بیلجیم", "سویٹزرلینڈ", "ڈنمارک"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Netherlands is internationally known for its vibrant tulip fields and historic windmills.",
+      "explanation_ur": "نیدرلینڈز اپنے متحرک ٹولپ کے کھیتوں اور تاریخی ونڈملز کے لیے بین الاقوامی سطح پر جانا جاتا ہے۔",
+      "hint": "It's a low-lying country in Europe.",
+      "hint_ur": "یہ یورپ کا ایک نشیبی ملک ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 152,
+      "type": "true-false",
+      "question": "There are five oceans in the world.",
+      "question_ur": "دنیا میں پانچ سمندر ہیں۔",
+      "correctAnswer": true,
+      "explanation": "The five oceans are the Pacific, Atlantic, Indian, Arctic, and Southern Oceans.",
+      "explanation_ur": "پانچ سمندر بحرالکاہل، بحر اوقیانوس، بحر ہند، بحر منجمد شمالی اور جنوبی سمندر ہیں۔",
+      "hint": "One of them is a recent addition to the official list.",
+      "hint_ur": "ان میں سے ایک سرکاری فہرست میں ایک حالیہ اضافہ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 153,
+      "type": "mcq",
+      "question": "What is the most populous country in the world?",
+      "question_ur": "دنیا کا سب سے زیادہ آبادی والا ملک کون سا ہے؟",
+      "options": {
+        "en": ["United States", "India", "China", "Brazil"],
+        "ur": ["ریاستہائے متحدہ", "بھارت", "چین", "برازیل"]
+      },
+      "correctAnswer": 1,
+      "explanation": "As of recent estimates, India has surpassed China as the world's most populous country.",
+      "explanation_ur": "حالیہ تخمینوں کے مطابق، بھارت نے دنیا کے سب سے زیادہ آبادی والے ملک کے طور پر چین کو پیچھے چھوڑ دیا ہے۔",
+      "hint": "This country's population recently exceeded China's.",
+      "hint_ur": "اس ملک کی آبادی حال ہی میں چین کی آبادی سے تجاوز کر گئی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 154,
+      "type": "true-false",
+      "question": "The Great Wall of China is the longest man-made structure in the world.",
+      "question_ur": "چین کی عظیم دیوار دنیا کی سب سے لمبی انسانی ساختہ عمارت ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Great Wall of China is the longest wall in the world, with its official length being over 21,000 km.",
+      "explanation_ur": "چین کی عظیم دیوار دنیا کی سب سے لمبی دیوار ہے، جس کی سرکاری لمبائی 21,000 کلومیٹر سے زیادہ ہے۔",
+      "hint": "It was built to protect against invasions from the north.",
+      "hint_ur": "یہ شمال سے حملوں سے بچانے کے لیے بنایا گیا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 155,
+      "type": "mcq",
+      "question": "What is the capital of Egypt?",
+      "question_ur": "مصر کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Alexandria", "Luxor", "Cairo", "Giza"],
+        "ur": ["اسکندریہ", "لکسر", "قاہرہ", "گیزہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Cairo is the capital and largest city of Egypt.",
+      "explanation_ur": "قاہرہ مصر کا دارالحکومت اور سب سے بڑا شہر ہے۔",
+      "hint": "It's the largest city in the Arab world.",
+      "hint_ur": "یہ عرب دنیا کا سب سے بڑا شہر ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 156,
+      "type": "true-false",
+      "question": "Brazil is the only country in South America that does not speak Spanish.",
+      "question_ur": "برازیل جنوبی امریکہ کا واحد ملک ہے جو ہسپانوی نہیں بولتا۔",
+      "correctAnswer": true,
+      "explanation": "While most of South America speaks Spanish, Brazil's official language is Portuguese due to its colonial history.",
+      "explanation_ur": "جبکہ زیادہ تر جنوبی امریکہ میں ہسپانوی بولی جاتی ہے، برازیل کی سرکاری زبان اس کی نوآبادیاتی تاریخ کی وجہ سے پرتگالی ہے۔",
+      "hint": "Its primary language is from a country on the Iberian Peninsula.",
+      "hint_ur": "اس کی بنیادی زبان جزیرہ نما ایبیرین کے ایک ملک سے ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 157,
+      "type": "mcq",
+      "question": "The statue of 'Christ the Redeemer' is located in which city?",
+      "question_ur": "'کرائسٹ دی ریڈیمر' کا مجسمہ کس شہر میں واقع ہے؟",
+      "options": {
+        "en": ["Buenos Aires", "Rio de Janeiro", "Lima", "Bogotá"],
+        "ur": ["بیونس آئرس", "ریو ڈی جینیرو", "لیما", "بوگوٹا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The famous statue is located at the peak of the Corcovado mountain in Rio de Janeiro, Brazil.",
+      "explanation_ur": "یہ مشہور مجسمہ ریو ڈی جینیرو، برازیل میں کورکوواڈو پہاڑ کی چوٹی پر واقع ہے۔",
+      "hint": "This city hosted the 2016 Summer Olympics.",
+      "hint_ur": "اس شہر نے 2016 کے سمر اولمپکس کی میزبانی کی تھی۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 158,
+      "type": "true-false",
+      "question": "The currency of Switzerland is the Swiss Franc.",
+      "question_ur": "سویٹزرلینڈ کی کرنسی سوئس فرانک ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Swiss Franc (CHF) is the official currency and is known for its stability.",
+      "explanation_ur": "سوئس فرانک (CHF) سرکاری کرنسی ہے اور اپنے استحکام کے لیے مشہور ہے۔",
+      "hint": "It's the currency of a country known for chocolate and watches.",
+      "hint_ur": "یہ چاکلیٹ اور گھڑیوں کے لیے مشہور ملک کی کرنسی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 159,
+      "type": "mcq",
+      "question": "Which mountain range runs along the western side of South America?",
+      "question_ur": "کون سا پہاڑی سلسلہ جنوبی امریکہ کے مغربی جانب چلتا ہے؟",
+      "options": {
+        "en": ["Rocky Mountains", "Alps", "Himalayas", "Andes"],
+        "ur": ["راکی پہاڑ", "آلپس", "ہمالیہ", "اینڈیز"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Andes is the longest continental mountain range in the world.",
+      "explanation_ur": "اینڈیز دنیا کا سب سے طویل براعظمی پہاڑی سلسلہ ہے۔",
+      "hint": "It's an important feature of countries like Peru and Chile.",
+      "hint_ur": "یہ پیرو اور چلی جیسے ممالک کی ایک اہم خصوصیت ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 160,
+      "type": "true-false",
+      "question": "The capital of China is Shanghai.",
+      "question_ur": "چین کا دارالحکومت شنگھائی ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital of China is Beijing, while Shanghai is its most populous city.",
+      "explanation_ur": "چین کا دارالحکومت بیجنگ ہے، جبکہ شنگھائی اس کا سب سے زیادہ آبادی والا شہر ہے۔",
+      "hint": "It's the city that hosted the 2008 Summer Olympics.",
+      "hint_ur": "یہ وہ شہر ہے جس نے 2008 کے سمر اولمپکس کی میزبانی کی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 161,
+      "type": "mcq",
+      "question": "Which of these animals is native to Australia?",
+      "question_ur": "ان میں سے کون سا جانور آسٹریلیا کا مقامی ہے؟",
+      "options": {
+        "en": ["Polar Bear", "Koala", "Panda", "Elephant"],
+        "ur": ["قطبی ریچھ", "کوآلا", "پانڈا", "ہاتھی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Koalas are marsupials native to Australia.",
+      "explanation_ur": "کوآلا آسٹریلیا کے مقامی ہیں۔",
+      "hint": "It's a marsupial that eats eucalyptus leaves.",
+      "hint_ur": "یہ ایک ایسا جانور ہے جو یوکلپٹس کے پتے کھاتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 162,
+      "type": "true-false",
+      "question": "The Mediterranean Sea separates Europe and Africa.",
+      "question_ur": "بحیرہ روم یورپ اور افریقہ کو الگ کرتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Mediterranean Sea is bordered by Southern Europe, North Africa, and Western Asia.",
+      "explanation_ur": "بحیرہ روم کی سرحد جنوبی یورپ، شمالی افریقہ اور مغربی ایشیا سے ملتی ہے۔",
+      "hint": "Many ancient civilizations flourished along its shores.",
+      "hint_ur": "بہت سی قدیم تہذیبیں اس کے ساحلوں پر پروان چڑھیں تھیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 163,
+      "type": "mcq",
+      "question": "What is the smallest country in the world?",
+      "question_ur": "دنیا کا سب سے چھوٹا ملک کون سا ہے؟",
+      "options": {
+        "en": ["Monaco", "Nauru", "Vatican City", "San Marino"],
+        "ur": ["موناکو", "ناورو", "ویٹیکن سٹی", "سان مارینو"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Vatican City is an independent city-state located within Rome, Italy.",
+      "explanation_ur": "ویٹیکن سٹی ایک آزاد شہر-ریاست ہے جو روم، اٹلی میں واقع ہے۔",
+      "hint": "It's a city-state within Rome.",
+      "hint_ur": "یہ روم کے اندر ایک شہر-ریاست ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 164,
+      "type": "true-false",
+      "question": "The currency of Japan is the Yen.",
+      "question_ur": "جاپان کی کرنسی ین ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Japanese Yen (¥) is the official currency of Japan.",
+      "explanation_ur": "جاپانی ین (¥) جاپان کی سرکاری کرنسی ہے۔",
+      "hint": "It's one of the most traded currencies in the world.",
+      "hint_ur": "یہ دنیا کی سب سے زیادہ تجارت کی جانے والی کرنسیوں میں سے ایک ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 165,
+      "type": "mcq",
+      "question": "The 'Golden Gate Bridge' is located in which city?",
+      "question_ur": "'گولڈن گیٹ برج' کس شہر میں واقع ہے؟",
+      "options": {
+        "en": ["New York City", "Los Angeles", "Chicago", "San Francisco"],
+        "ur": ["نیویارک شہر", "لاس اینجلس", "شکاگو", "سان فرانسسکو"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Golden Gate Bridge is a famous suspension bridge spanning the Golden Gate, the one-mile-wide strait connecting San Francisco Bay and the Pacific Ocean.",
+      "explanation_ur": "گولڈن گیٹ برج ایک مشہور سسپنشن پل ہے جو گولڈن گیٹ پر پھیلا ہوا ہے، جو ایک میل چوڑی پٹی ہے جو سان فرانسسکو بے اور بحرالکاہل کو جوڑتی ہے۔",
+      "hint": "It's a city in California.",
+      "hint_ur": "یہ کیلیفورنیا کا ایک شہر ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 166,
+      "type": "true-false",
+      "question": "The longest river in the United States is the Mississippi River.",
+      "question_ur": "ریاستہائے متحدہ کا سب سے لمبا دریا مسی سیپی دریا ہے۔",
+      "correctAnswer": false,
+      "explanation": "The Missouri River is the longest river in the United States, flowing for 2,540 miles.",
+      "explanation_ur": "دریائے مسوری ریاستہائے متحدہ کا سب سے لمبا دریا ہے، جو 2,540 میل تک بہتا ہے۔",
+      "hint": "It's a major tributary of the Mississippi.",
+      "hint_ur": "یہ مسی سیپی کی ایک بڑی معاون ندی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 167,
+      "type": "mcq",
+      "question": "Which country is home to the ancient ruins of Machu Picchu?",
+      "question_ur": "قدیم کھنڈرات ماچو پیچو کس ملک میں ہیں؟",
+      "options": {
+        "en": ["Colombia", "Peru", "Bolivia", "Ecuador"],
+        "ur": ["کولمبیا", "پیرو", "بولیویا", "ایکواڈور"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru.",
+      "explanation_ur": "ماچو پیچو 15ویں صدی کا ایک انکا گڑھ ہے جو جنوبی پیرو کے مشرقی کورڈیلیرا میں واقع ہے۔",
+      "hint": "This country's capital is Lima.",
+      "hint_ur": "اس ملک کا دارالحکومت لیما ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 168,
+      "type": "true-false",
+      "question": "The country of Iceland is entirely covered in ice.",
+      "question_ur": "آئس لینڈ کا ملک مکمل طور پر برف سے ڈھکا ہوا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Despite its name, Iceland is a land of volcanoes, geysers, and hot springs. Only about 10% is covered by glaciers.",
+      "explanation_ur": "اس کے نام کے باوجود، آئس لینڈ آتش فشاں، گیزر اور گرم چشموں کی سرزمین ہے۔ صرف 10% گلیشیرز سے ڈھکا ہوا ہے۔",
+      "hint": "It has many active volcanoes.",
+      "hint_ur": "اس میں بہت سے فعال آتش فشاں ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 169,
+      "type": "mcq",
+      "question": "What is the capital of Canada?",
+      "question_ur": "کینیڈا کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Toronto", "Vancouver", "Montreal", "Ottawa"],
+        "ur": ["ٹورنٹو", "وینکوور", "مونٹریال", "اوٹاوا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Ottawa is the capital of Canada, a city in the eastern part of Southern Ontario.",
+      "explanation_ur": "اوٹاوا کینیڈا کا دارالحکومت ہے، جو جنوبی اونٹاریو کے مشرقی حصے میں واقع ایک شہر ہے۔",
+      "hint": "It's not the largest city in the country.",
+      "hint_ur": "یہ ملک کا سب سے بڑا شہر نہیں ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 170,
+      "type": "true-false",
+      "question": "The currency of Germany is the Mark.",
+      "question_ur": "جرمنی کی کرنسی مارک ہے۔",
+      "correctAnswer": false,
+      "explanation": "As part of the European Union, Germany uses the Euro (€) as its currency.",
+      "explanation_ur": "یورپی یونین کے حصے کے طور پر، جرمنی اپنی کرنسی کے طور پر یورو (€) استعمال کرتا ہے۔",
+      "hint": "It's the same currency as France and Italy.",
+      "hint_ur": "یہ فرانس اور اٹلی کی کرنسی کی طرح ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 171,
+      "type": "mcq",
+      "question": "Which of these is not a country?",
+      "question_ur": "ان میں سے کون سا ملک نہیں ہے؟",
+      "options": {
+        "en": ["Cuba", "Greenland", "Mexico", "Egypt"],
+        "ur": ["کیوبا", "گرین لینڈ", "میکسیکو", "مصر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Greenland is an autonomous territory within the Kingdom of Denmark.",
+      "explanation_ur": "گرین لینڈ ڈنمارک کی بادشاہت کے اندر ایک خود مختار علاقہ ہے۔",
+      "hint": "It's a large island politically part of Denmark.",
+      "hint_ur": "یہ ایک بڑا جزیرہ ہے جو سیاسی طور پر ڈنمارک کا حصہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 172,
+      "type": "true-false",
+      "question": "The capital of Spain is Madrid.",
+      "question_ur": "اسپین کا دارالحکومت میڈرڈ ہے۔",
+      "correctAnswer": true,
+      "explanation": "Madrid is the capital and largest city of Spain.",
+      "explanation_ur": "میڈرڈ اسپین کا دارالحکومت اور سب سے بڑا شہر ہے۔",
+      "hint": "It's a major hub for Spanish art and culture.",
+      "hint_ur": "یہ ہسپانوی فن اور ثقافت کا ایک بڑا مرکز ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 173,
+      "type": "mcq",
+      "question": "Which continent is known as the 'Dark Continent'?",
+      "question_ur": "کون سا براعظم 'تاریک براعظم' کے نام سے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Asia", "Africa", "South America", "Antarctica"],
+        "ur": ["ایشیا", "افریقہ", "جنوبی امریکہ", "انٹارکٹیکا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The term 'Dark Continent' was used by early explorers because of the continent's unknown interior.",
+      "explanation_ur": "'تاریک براعظم' کی اصطلاح ابتدائی ایکسپلوررز نے براعظم کے نامعلوم اندرونی حصے کی وجہ سے استعمال کی تھی۔",
+      "hint": "The Nile River is on this continent.",
+      "hint_ur": "دریائے نیل اسی براعظم پر ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 174,
+      "type": "true-false",
+      "question": "The official language of Austria is German.",
+      "question_ur": "آسٹریا کی سرکاری زبان جرمن ہے۔",
+      "correctAnswer": true,
+      "explanation": "German is the official language of Austria, and a significant portion of its population speaks it as their mother tongue.",
+      "explanation_ur": "جرمن آسٹریا کی سرکاری زبان ہے، اور اس کی آبادی کا ایک بڑا حصہ اسے اپنی مادری زبان کے طور پر بولتا ہے۔",
+      "hint": "This country is bordered by Germany to the north.",
+      "hint_ur": "اس ملک کی سرحد شمال میں جرمنی سے ملتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 175,
+      "type": "mcq",
+      "question": "In which city is the 'Colosseum' located?",
+      "question_ur": "'کالوزیئم' کس شہر میں واقع ہے؟",
+      "options": {
+        "en": ["Athens", "Rome", "Cairo", "Istanbul"],
+        "ur": ["ایتھنز", "روم", "قاہرہ", "استنبول"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Colosseum is an ancient amphitheater located in the center of Rome, Italy.",
+      "explanation_ur": "کالوزیئم ایک قدیم ایمفی تھیٹر ہے جو روم، اٹلی کے مرکز میں واقع ہے۔",
+      "hint": "It's a landmark of the Roman Empire.",
+      "hint_ur": "یہ رومی سلطنت کا ایک نشان ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 176,
+      "type": "true-false",
+      "question": "The capital of Russia is Moscow.",
+      "question_ur": "روس کا دارالحکومت ماسکو ہے۔",
+      "correctAnswer": true,
+      "explanation": "Moscow is the capital and the largest city of Russia.",
+      "explanation_ur": "ماسکو روس کا دارالحکومت اور سب سے بڑا شہر ہے۔",
+      "hint": "It is home to the famous Red Square.",
+      "hint_ur": "یہ مشہور ریڈ اسکوائر کا گھر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 177,
+      "type": "mcq",
+      "question": "Which country is the largest producer of coffee in the world?",
+      "question_ur": "دنیا میں کافی کا سب سے بڑا پیدا کرنے والا ملک کون سا ہے؟",
+      "options": {
+        "en": ["Colombia", "Vietnam", "Brazil", "Ethiopia"],
+        "ur": ["کولمبیا", "ویتنام", "برازیل", "ایتھوپیا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Brazil has been the world's largest producer of coffee for over 150 years.",
+      "explanation_ur": "برازیل 150 سال سے زیادہ عرصے سے دنیا میں کافی کا سب سے بڑا پیدا کرنے والا ملک ہے۔",
+      "hint": "It's a country in South America.",
+      "hint_ur": "یہ جنوبی امریکہ کا ایک ملک ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 178,
+      "type": "true-false",
+      "question": "The currency of China is the Yuan.",
+      "question_ur": "چین کی کرنسی یوآن ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Renminbi is the official currency of China, and its basic unit is the Yuan.",
+      "explanation_ur": "رینمنبی چین کی سرکاری کرنسی ہے، اور اس کی بنیادی اکائی یوآن ہے۔",
+      "hint": "It's often referred to by its basic unit.",
+      "hint_ur": "اسے اکثر اس کی بنیادی اکائی کے نام سے پکارا جاتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 179,
+      "type": "mcq",
+      "question": "What is the capital of South Africa?",
+      "question_ur": "جنوبی افریقہ کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Johannesburg", "Cape Town", "Durban", "Pretoria"],
+        "ur": ["جوہانسبرگ", "کیپ ٹاؤن", "ڈربن", "پریٹوریا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "South Africa has three capital cities: Pretoria (executive), Cape Town (legislative), and Bloemfontein (judicial). Pretoria is considered the official administrative capital.",
+      "explanation_ur": "جنوبی افریقہ کے تین دارالحکومت ہیں: پریٹوریا (ایگزیکٹو)، کیپ ٹاؤن (قانون ساز) اور بلومفونٹین (عدلیہ)۔ پریٹوریا کو سرکاری انتظامی دارالحکومت سمجھا جاتا ہے۔",
+      "hint": "It's the administrative capital and home to the Union Buildings.",
+      "hint_ur": "یہ انتظامی دارالحکومت ہے اور یونین عمارتوں کا گھر ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 180,
+      "type": "true-false",
+      "question": "The United States has more than 50 states.",
+      "question_ur": "ریاستہائے متحدہ میں 50 سے زیادہ ریاستیں ہیں۔",
+      "correctAnswer": false,
+      "explanation": "The United States is made up of 50 states and the District of Columbia.",
+      "explanation_ur": "ریاستہائے متحدہ 50 ریاستوں اور ڈسٹرکٹ آف کولمبیا سے بنا ہے۔",
+      "hint": "It's a round number.",
+      "hint_ur": "یہ ایک گول نمبر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 181,
+      "type": "mcq",
+      "question": "What is the capital of India?",
+      "question_ur": "بھارت کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Mumbai", "New Delhi", "Kolkata", "Chennai"],
+        "ur": ["ممبئی", "نئی دہلی", "کولکاتا", "چنئی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "New Delhi is the capital of India and houses the executive, legislative, and judicial branches of the government.",
+      "explanation_ur": "نئی دہلی بھارت کا دارالحکومت ہے اور اس میں حکومت کی ایگزیکٹو، قانون ساز اور عدالتی شاخیں ہیں۔",
+      "hint": "It's a city with 'New' in its name.",
+      "hint_ur": "یہ ایک ایسا شہر ہے جس کے نام میں 'نئی' ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 182,
+      "type": "true-false",
+      "question": "Mount Kilimanjaro is the highest peak in Africa.",
+      "question_ur": "ماؤنٹ کلیمنجارو افریقہ کی بلند ترین چوٹی ہے۔",
+      "correctAnswer": true,
+      "explanation": "Mount Kilimanjaro is the highest single free-standing mountain in the world and the highest peak in Africa.",
+      "explanation_ur": "ماؤنٹ کلیمنجارو دنیا کا سب سے اونچا واحد آزاد پہاڑ اور افریقہ کی بلند ترین چوٹی ہے۔",
+      "hint": "It is located in Tanzania.",
+      "hint_ur": "یہ تنزانیہ میں واقع ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 183,
+      "type": "mcq",
+      "question": "Which famous landmark is in Rome?",
+      "question_ur": "روم میں کون سا مشہور نشان ہے؟",
+      "options": {
+        "en": ["The Acropolis", "The Vatican", "The Eiffel Tower", "The Leaning Tower of Pisa"],
+        "ur": ["ایکرپولیس", "ویٹیکن", "ایفل ٹاور", "پیسا کا جھکا ہوا مینار"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Vatican City, a city-state, is located within Rome.",
+      "explanation_ur": "ویٹیکن سٹی، ایک شہر-ریاست ہے، جو روم میں واقع ہے۔",
+      "hint": "It is the center of the Catholic Church.",
+      "hint_ur": "یہ کیتھولک چرچ کا مرکز ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 184,
+      "type": "true-false",
+      "question": "The currency of Mexico is the Peso.",
+      "question_ur": "میکسیکو کی کرنسی پیسو ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Mexican Peso is the official currency of Mexico.",
+      "explanation_ur": "میکسیکن پیسو میکسیکو کی سرکاری کرنسی ہے۔",
+      "hint": "It's also the currency of a country in the Philippines.",
+      "hint_ur": "یہ فلپائن کے ایک ملک کی کرنسی بھی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 185,
+      "type": "mcq",
+      "question": "Which country is home to the 'Great Barrier Reef'?",
+      "question_ur": "'گریٹ بیریئر ریف' کس ملک میں ہے؟",
+      "options": {
+        "en": ["Indonesia", "Australia", "Philippines", "Fiji"],
+        "ur": ["انڈونیشیا", "آسٹریلیا", "فلپائن", "فجی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Great Barrier Reef is located in the Coral Sea, off the coast of Queensland, Australia.",
+      "explanation_ur": "گریٹ بیریئر ریف مرجانی سمندر میں، کوئنز لینڈ، آسٹریلیا کے ساحل پر واقع ہے۔",
+      "hint": "Think of koalas and kangaroos.",
+      "hint_ur": "کوآلا اور کینگرو کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 186,
+      "type": "true-false",
+      "question": "The Amazon rainforest is the largest rainforest in the world.",
+      "question_ur": "ایمازون کا بارانی جنگل دنیا کا سب سے بڑا بارانی جنگل ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Amazon rainforest is the largest tropical rainforest in the world, spanning across several countries in South America.",
+      "explanation_ur": "ایمازون کا بارانی جنگل دنیا کا سب سے بڑا استوائی بارانی جنگل ہے، جو جنوبی امریکہ کے کئی ممالک میں پھیلا ہوا ہے۔",
+      "hint": "The Amazon River flows through it.",
+      "hint_ur": "دریائے امازون اس میں سے بہتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 187,
+      "type": "mcq",
+      "question": "What is the capital of Germany?",
+      "question_ur": "جرمنی کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Hamburg", "Munich", "Berlin", "Frankfurt"],
+        "ur": ["ہیمبرگ", "میونخ", "برلن", "فرینکفرٹ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Berlin is the capital and largest city of Germany.",
+      "explanation_ur": "برلن جرمنی کا دارالحکومت اور سب سے بڑا شہر ہے۔",
+      "hint": "The Berlin Wall was a famous landmark here.",
+      "hint_ur": "برلن کی دیوار یہاں کا ایک مشہور نشان تھا۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 188,
+      "type": "true-false",
+      "question": "The Nile River is the longest river in the world.",
+      "question_ur": "دریائے نیل دنیا کا سب سے لمبا دریا ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Nile River in Africa is generally regarded as the longest river in the world, at 6,650 km.",
+      "explanation_ur": "افریقہ میں دریائے نیل کو عام طور پر دنیا کا سب سے طویل دریا سمجھا جاتا ہے، جس کی لمبائی 6,650 کلومیٹر ہے۔",
+      "hint": "It flows through Egypt and Sudan.",
+      "hint_ur": "یہ مصر اور سوڈان سے بہتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 189,
+      "type": "mcq",
+      "question": "Which country is home to the 'Leaning Tower of Pisa'?",
+      "question_ur": "'لیاننگ ٹاور آف پیسا' کس ملک میں ہے؟",
+      "options": {
+        "en": ["France", "Greece", "Italy", "Spain"],
+        "ur": ["فرانس", "یونان", "اٹلی", "ہسپانیہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Leaning Tower of Pisa is the campanile, or freestanding bell tower, of the cathedral of Pisa, Italy.",
+      "explanation_ur": "پیسا کا جھکا ہوا مینار پیسا، اٹلی کے کیتھیڈرل کا ایک آزاد گھنٹی ٹاور ہے۔",
+      "hint": "This country is shaped like a boot.",
+      "hint_ur": "یہ ملک ایک بوٹ کی شکل میں ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 190,
+      "type": "true-false",
+      "question": "Australia is both a country and a continent.",
+      "question_ur": "آسٹریلیا ایک ملک اور ایک براعظم دونوں ہے۔",
+      "correctAnswer": true,
+      "explanation": "Australia is the only country that is also a continent, covering the entire landmass.",
+      "explanation_ur": "آسٹریلیا وہ واحد ملک ہے جو ایک براعظم بھی ہے، جو پوری زمینی پٹی کا احاطہ کرتا ہے۔",
+      "hint": "It's the smallest continent.",
+      "hint_ur": "یہ سب سے چھوٹا براعظم ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 191,
+      "type": "mcq",
+      "question": "What is the capital of Mexico?",
+      "question_ur": "میکسیکو کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Cancun", "Mexico City", "Guadalajara", "Tijuana"],
+        "ur": ["کینکون", "میکسیکو سٹی", "گواڈالاجارا", "ٹیجوانا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Mexico City is the capital and largest city of Mexico.",
+      "explanation_ur": "میکسیکو سٹی میکسیکو کا دارالحکومت اور سب سے بڑا شہر ہے۔",
+      "hint": "It has the same name as the country.",
+      "hint_ur": "اس کا نام ملک جیسا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 192,
+      "type": "true-false",
+      "question": "The currency of France is the Euro.",
+      "question_ur": "فرانس کی کرنسی یورو ہے۔",
+      "correctAnswer": true,
+      "explanation": "France is a founding member of the European Union and uses the Euro (€).",
+      "explanation_ur": "فرانس یورپی یونین کا ایک بانی رکن ہے اور یورو (€) استعمال کرتا ہے۔",
+      "hint": "It's the same currency used in Italy and Germany.",
+      "hint_ur": "یہ وہی کرنسی ہے جو اٹلی اور جرمنی میں استعمال ہوتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 193,
+      "type": "mcq",
+      "question": "Which sea is located between Europe, Asia, and Africa?",
+      "question_ur": "یورپ، ایشیا اور افریقہ کے درمیان کون سا سمندر واقع ہے؟",
+      "options": {
+        "en": ["Caribbean Sea", "Red Sea", "Mediterranean Sea", "Black Sea"],
+        "ur": ["کیریبین سمندر", "بحر احمر", "بحیرہ روم", "بحیرہ اسود"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Mediterranean Sea is a sea connected to the Atlantic Ocean, surrounded by the Mediterranean Basin.",
+      "explanation_ur": "بحیرہ روم ایک سمندر ہے جو بحر اوقیانوس سے جڑا ہوا ہے، جو بحیرہ روم کے طاس سے گھرا ہوا ہے۔",
+      "hint": "The name means 'in the middle of the earth'.",
+      "hint_ur": "نام کا مطلب ہے 'زمین کے درمیان میں'۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 194,
+      "type": "true-false",
+      "question": "The capital of Japan is Kyoto.",
+      "question_ur": "جاپان کا دارالحکومت کیوٹو ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital of Japan is Tokyo. Kyoto was the former capital.",
+      "explanation_ur": "جاپان کا دارالحکومت ٹوکیو ہے۔ کیوٹو سابق دارالحکومت تھا۔",
+      "hint": "It's a city famous for its samurai history and cherry blossoms.",
+      "hint_ur": "یہ سامورائی تاریخ اور چیری کے پھولوں کے لیے مشہور شہر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 195,
+      "type": "mcq",
+      "question": "Which famous ancient civilization built the 'Pyramids of Giza'?",
+      "question_ur": "کس مشہور قدیم تہذیب نے 'اہرام مصر' بنائے تھے؟",
+      "options": {
+        "en": ["Roman", "Greek", "Egyptian", "Mesopotamian"],
+        "ur": ["رومی", "یونانی", "مصری", "میسوپوٹیمیائی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Pyramids of Giza were built by the ancient Egyptians as tombs for their pharaohs.",
+      "explanation_ur": "اہرام مصر قدیم مصریوں نے اپنے فرعونوں کے لیے قبروں کے طور پر بنائے تھے۔",
+      "hint": "They also had hieroglyphics and mummification.",
+      "hint_ur": "ان کے پاس ہائروگلیفس اور ممیفیکیشن بھی تھے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 196,
+      "type": "true-false",
+      "question": "The capital of Brazil is Rio de Janeiro.",
+      "question_ur": "برازیل کا دارالحکومت ریو ڈی جینیرو ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital of Brazil is Brasília, a planned city built in the 1950s.",
+      "explanation_ur": "برازیل کا دارالحکومت برازیلیا ہے، جو 1950 کی دہائی میں بنایا گیا ایک منصوبہ بند شہر ہے۔",
+      "hint": "It's a city named after the country itself.",
+      "hint_ur": "یہ ایک شہر ہے جس کا نام خود ملک کے نام پر رکھا گیا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 197,
+      "type": "mcq",
+      "question": "What is the largest land animal in the world?",
+      "question_ur": "دنیا کا سب سے بڑا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": ["Giraffe", "Hippopotamus", "African Elephant", "Rhinoceros"],
+        "ur": ["زرافہ", "ہپوپوٹیمس", "افریقی ہاتھی", "رائینو سارس"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The African elephant is the largest living terrestrial animal.",
+      "explanation_ur": "افریقی ہاتھی سب سے بڑا زندہ زمینی جانور ہے۔",
+      "hint": "It has large ears and a trunk.",
+      "hint_ur": "اس کے بڑے کان اور سونڈ ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 198,
+      "type": "true-false",
+      "question": "The currency of the United States is the Dollar.",
+      "question_ur": "ریاستہائے متحدہ کی کرنسی ڈالر ہے۔",
+      "correctAnswer": true,
+      "explanation": "The United States Dollar ($) is the official currency.",
+      "explanation_ur": "ریاستہائے متحدہ ڈالر ($) سرکاری کرنسی ہے۔",
+      "hint": "It's a currency often used in international trade.",
+      "hint_ur": "یہ ایک کرنسی ہے جو اکثر بین الاقوامی تجارت میں استعمال ہوتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 199,
+      "type": "mcq",
+      "question": "What is the capital of Argentina?",
+      "question_ur": "ارجنٹینا کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Santiago", "Buenos Aires", "Brasília", "Lima"],
+        "ur": ["سینٹیاگو", "بیونس آئرس", "برازیلیا", "لیما"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Buenos Aires is the capital and most populous city of Argentina.",
+      "explanation_ur": "بیونس آئرس ارجنٹینا کا دارالحکومت اور سب سے زیادہ آبادی والا شہر ہے۔",
+      "hint": "It's known for its tango music and dance.",
+      "hint_ur": "یہ اپنے ٹینگو میوزک اور ڈانس کے لیے جانا جاتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 200,
+      "type": "true-false",
+      "question": "The official language of China is Mandarin.",
+      "question_ur": "چین کی سرکاری زبان مینڈارن ہے۔",
+      "correctAnswer": true,
+      "explanation": "Mandarin is the official language of the People's Republic of China.",
+      "explanation_ur": "مینڈارن عوامی جمہوریہ چین کی سرکاری زبان ہے۔",
+      "hint": "It's the most widely spoken language in the world.",
+      "hint_ur": "یہ دنیا میں سب سے زیادہ بولی جانے والی زبان ہے۔",
+      "timeLimit": 30
+    }
+  ]
+}

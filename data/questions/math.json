@@ -1,0 +1,2944 @@
+{
+  "meta": {
+    "category": "Math",
+    "category_ur": "ریاضی",
+    "description": "Test your knowledge of basic mathematics",
+    "description_ur": "بنیادی ریاضی کا امتحان لیں",
+    "difficulty": "medium",
+    "image": "math.jpg"
+  },
+  "questions": [
+    
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What is 1 + 1?",
+      "question_ur": "1 جمع 1 کیا ہے؟",
+      "options": {
+        "en": ["1", "2", "3", "4"],
+        "ur": ["1", "2", "3", "4"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Basic addition: 1 + 1 = 2",
+      "explanation_ur": "بنیادی جمع: 1 + 1 = 2",
+      "hint": "Count on your fingers",
+      "hint_ur": "اپنی انگلیوں پر گنیں",
+      "timeLimit": 5
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "What is 3 × 2?",
+      "question_ur": "3 ضرب 2 کیا ہے؟",
+      "options": {
+        "en": ["4", "5", "6", "7"],
+        "ur": ["4", "5", "6", "7"]
+      },
+      "correctAnswer": 2,
+      "explanation": "3 multiplied by 2 equals 6",
+      "explanation_ur": "3 کو 2 سے ضرب دینے پر 6 آتا ہے",
+      "hint": "Think of adding 3 two times",
+      "hint_ur": "3 کو دو بار جمع کرنے کے بارے میں سوچیں",
+      "timeLimit": 10
+    },
+    {
+      "id": 3,
+      "type": "true-false",
+      "question": "The square root of 9 is 3.",
+      "question_ur": "9 کا مربع جذر 3 ہے۔",
+      "correctAnswer": true,
+      "explanation": "3 × 3 = 9, so √9 = 3",
+      "explanation_ur": "3 × 3 = 9، لہذا √9 = 3",
+      "hint": "What number multiplied by itself gives 9?",
+      "hint_ur": "کون سا نمبر خود سے ضرب دینے پر 9 دیتا ہے؟",
+      "timeLimit": 10
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "What is 5 - 2?",
+      "question_ur": "5 منفی 2 کیا ہے؟",
+      "options": {
+        "en": ["1", "2", "3", "4"],
+        "ur": ["1", "2", "3", "4"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Basic subtraction: 5 - 2 = 3",
+      "explanation_ur": "بنیادی تفریق: 5 - 2 = 3",
+      "hint": "Count backwards from 5",
+      "hint_ur": "5 سے پیچھے کی طرف گنیں",
+      "timeLimit": 5
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "How many sides does a square have?",
+      "question_ur": "ایک مربع کے کتنے اطراف ہوتے ہیں؟",
+      "options": {
+        "en": ["2", "3", "4", "5"],
+        "ur": ["2", "3", "4", "5"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A square has four equal sides",
+      "explanation_ur": "مربع کے چار برابر اطراف ہوتے ہیں",
+      "hint": "Think of a box",
+      "hint_ur": "ایک ڈبے کے بارے میں سوچیں",
+      "timeLimit": 10
+    },
+    {
+      "id": 6,
+      "type": "true-false",
+      "question": "All odd numbers are prime numbers.",
+      "question_ur": "تمام طاق اعداد مفرد اعداد ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "9 is odd but not prime (divisible by 3)",
+      "explanation_ur": "9 طاق ہے لیکن مفرد نہیں ہے (3 سے تقسیم ہوتا ہے)",
+      "hint": "Consider the number 9",
+      "hint_ur": "نمبر 9 پر غور کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "What is 8 ÷ 2?",
+      "question_ur": "8 تقسیم 2 کیا ہے؟",
+      "options": {
+        "en": ["2", "3", "4", "5"],
+        "ur": ["2", "3", "4", "5"]
+      },
+      "correctAnswer": 2,
+      "explanation": "8 divided by 2 equals 4",
+      "explanation_ur": "8 کو 2 سے تقسیم کرنے پر 4 آتا ہے",
+      "hint": "How many 2s make 8?",
+      "hint_ur": "8 بنانے کے لیے کتنے 2 درکار ہیں؟",
+      "timeLimit": 10
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "What is the next number in the sequence: 1, 3, 5, 7, ___?",
+      "question_ur": "سلسلہ میں اگلا نمبر کیا ہے: 1، 3، 5، 7، ___؟",
+      "options": {
+        "en": ["8", "9", "10", "11"],
+        "ur": ["8", "9", "10", "11"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This is a sequence of odd numbers increasing by 2 each time",
+      "explanation_ur": "یہ طاق اعداد کا سلسلہ ہے جو ہر بار 2 سے بڑھ رہا ہے",
+      "hint": "Look at the difference between numbers",
+      "hint_ur": "اعداد کے درمیان فرق دیکھیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 9,
+      "type": "true-false",
+      "question": "An acute angle measures less than 90 degrees.",
+      "question_ur": "ایک حادہ زاویہ 90 ڈگری سے کم کا ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "By definition, acute angles are less than 90°",
+      "explanation_ur": "تعریف کے مطابق، حادہ زاویے 90° سے کم ہوتے ہیں",
+      "hint": "Think of a sharp corner",
+      "hint_ur": "تیز کونے کے بارے میں سوچیں",
+      "timeLimit": 10
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "What is 4 × 5?",
+      "question_ur": "4 ضرب 5 کیا ہے؟",
+      "options": {
+        "en": ["15", "20", "25", "30"],
+        "ur": ["15", "20", "25", "30"]
+      },
+      "correctAnswer": 1,
+      "explanation": "4 multiplied by 5 equals 20",
+      "explanation_ur": "4 کو 5 سے ضرب دینے پر 20 آتا ہے",
+      "hint": "Count by fives four times",
+      "hint_ur": "پانچوں کی گنتی چار بار کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "What is the sum of the angles in a quadrilateral?",
+      "question_ur": "چو طرفہ شکل میں زاویوں کا مجموعہ کیا ہے؟",
+      "options": {
+        "en": ["180°", "270°", "360°", "450°"],
+        "ur": ["180°", "270°", "360°", "450°"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The sum of interior angles in any quadrilateral is always 360 degrees",
+      "explanation_ur": "کسی بھی چو طرفہ شکل کے اندرونی زاویوں کا مجموعہ ہمیشہ 360 ڈگری ہوتا ہے",
+      "hint": "Think of a rectangle",
+      "hint_ur": "مستطیل کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "question": "The number 2 is the only even prime number.",
+      "question_ur": "نمبر 2 واحد جفت مفرد عدد ہے۔",
+      "correctAnswer": true,
+      "explanation": "All other even numbers are divisible by 2 and thus not prime",
+      "explanation_ur": "دیگر تمام جفت اعداد 2 سے تقسیم ہوتے ہیں اور اس طرح مفرد نہیں ہوتے",
+      "hint": "What divides even numbers besides 1 and themselves?",
+      "hint_ur": "جفت اعداد کو 1 اور خود کے علاوہ کیا تقسیم کرتا ہے؟",
+      "timeLimit": 15
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "What is 2 squared (2²)?",
+      "question_ur": "2 مربع (2²) کیا ہے؟",
+      "options": {
+        "en": ["2", "4", "6", "8"],
+        "ur": ["2", "4", "6", "8"]
+      },
+      "correctAnswer": 1,
+      "explanation": "2 squared means 2 multiplied by itself: 2 × 2 = 4",
+      "explanation_ur": "2 مربع کا مطلب ہے 2 کو خود سے ضرب دینا: 2 × 2 = 4",
+      "hint": "Multiply the number by itself",
+      "hint_ur": "عدد کو خود سے ضرب دیں",
+      "timeLimit": 10
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "How many millimeters are in a centimeter?",
+      "question_ur": "ایک سینٹی میٹر میں کتنے ملی میٹر ہوتے ہیں؟",
+      "options": {
+        "en": ["1", "10", "100", "1000"],
+        "ur": ["1", "10", "100", "1000"]
+      },
+      "correctAnswer": 1,
+      "explanation": "1 centimeter equals 10 millimeters",
+      "explanation_ur": "1 سینٹی میٹر 10 ملی میٹر کے برابر ہے",
+      "hint": "The prefix 'milli-' means thousandth",
+      "hint_ur": "'ملی' کا مطلب ہزارواں ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 15,
+      "type": "true-false",
+      "question": "The value of π (pi) can be expressed exactly as a fraction.",
+      "question_ur": "π (پائی) کی قیمت کو بالکل ایک کسر کے طور پر ظاہر کیا جا سکتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "π is an irrational number and cannot be expressed exactly as a fraction",
+      "explanation_ur": "π ایک غیر معقول عدد ہے اور اسے بالکل کسر کے طور پر ظاہر نہیں کیا جا سکتا",
+      "hint": "π has infinite non-repeating decimal places",
+      "hint_ur": "π کے اعشاری مقامات لامحدود اور غیر دہرائے جانے والے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "What is 1/3 + 1/3?",
+      "question_ur": "1/3 جمع 1/3 کیا ہے؟",
+      "options": {
+        "en": ["1/6", "1/3", "2/3", "3/3"],
+        "ur": ["1/6", "1/3", "2/3", "3/3"]
+      },
+      "correctAnswer": 2,
+      "explanation": "When denominators are same, add numerators: 1/3 + 1/3 = 2/3",
+      "explanation_ur": "جب نسب نما ایک جیسے ہوں، تو تقسیم کنندگان کو جمع کریں: 1/3 + 1/3 = 2/3",
+      "hint": "Keep the denominator the same",
+      "hint_ur": "نسب نما کو ایک جیسا رکھیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "What is 10% of 50?",
+      "question_ur": "50 کا 10% کیا ہے؟",
+      "options": {
+        "en": ["5", "10", "15", "20"],
+        "ur": ["5", "10", "15", "20"]
+      },
+      "correctAnswer": 0,
+      "explanation": "10% of 50 = 0.10 × 50 = 5",
+      "explanation_ur": "50 کا 10% = 0.10 × 50 = 5",
+      "hint": "Move the decimal point one place left",
+      "hint_ur": "اعشاریہ نقطہ کو ایک جگہ بائیں منتقل کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 18,
+      "type": "true-false",
+      "question": "All rectangles are squares.",
+      "question_ur": "تمام مستطیل مربع ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Only rectangles with all sides equal are squares",
+      "explanation_ur": "صرف وہ مستطیل جن کے تمام اطراف برابر ہوں مربع ہوتے ہیں",
+      "hint": "Think about length vs width",
+      "hint_ur": "لمبائی بمقابلہ چوڑائی کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "What is the perimeter of a square with side length 3 cm?",
+      "question_ur": "3 سینٹی میٹر کی طرف کی لمبائی والے مربع کا محیط کیا ہے؟",
+      "options": {
+        "en": ["6 cm", "9 cm", "12 cm", "15 cm"],
+        "ur": ["6 سینٹی میٹر", "9 سینٹی میٹر", "12 سینٹی میٹر", "15 سینٹی میٹر"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Perimeter = 4 × side length = 4 × 3 = 12 cm",
+      "explanation_ur": "محیط = 4 × طرف کی لمبائی = 4 × 3 = 12 سینٹی میٹر",
+      "hint": "Add all four sides",
+      "hint_ur": "چاروں اطراف کو جمع کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "What is 0.75 expressed as a fraction?",
+      "question_ur": "0.75 کو کسر کے طور پر کیا ظاہر کیا جاتا ہے؟",
+      "options": {
+        "en": ["1/4", "1/2", "3/4", "4/4"],
+        "ur": ["1/4", "1/2", "3/4", "4/4"]
+      },
+      "correctAnswer": 2,
+      "explanation": "0.75 = 75/100 = 3/4",
+      "explanation_ur": "0.75 = 75/100 = 3/4",
+      "hint": "Think of three quarters",
+      "hint_ur": "تین چوتھائی کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 21,
+      "type": "true-false",
+      "question": "The product of two positive numbers is negative.",
+      "question_ur": "دو مثبت اعداد کا حاصل ضرب منفی ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Positive × positive = positive is a fundamental rule of multiplication",
+      "explanation_ur": "مثبت × مثبت = مثبت ضرب کا ایک بنیادی اصول ہے",
+      "hint": "Think about the rules of signs",
+      "hint_ur": "علامتوں کے اصولوں کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "What is the area of a rectangle with length 5 cm and width 2 cm?",
+      "question_ur": "لمبائی 5 سینٹی میٹر اور چوڑائی 2 سینٹی میٹر والے مستطیل کا رقبہ کیا ہے؟",
+      "options": {
+        "en": ["7 cm²", "10 cm²", "14 cm²", "20 cm²"],
+        "ur": ["7 سینٹی میٹر²", "10 سینٹی میٹر²", "14 سینٹی میٹر²", "20 سینٹی میٹر²"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Area = length × width = 5 × 2 = 10 cm²",
+      "explanation_ur": "رقبہ = لمبائی × چوڑائی = 5 × 2 = 10 سینٹی میٹر²",
+      "hint": "Multiply the two dimensions",
+      "hint_ur": "دو جہتوں کو ضرب دیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "What is the next prime number after 5?",
+      "question_ur": "5 کے بعد اگلا مفرد عدد کون سا ہے؟",
+      "options": {
+        "en": ["6", "7", "8", "9"],
+        "ur": ["6", "7", "8", "9"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The sequence of prime numbers is 2, 3, 5, 7, 11,...",
+      "explanation_ur": "مفرد اعداد کا سلسلہ ہے 2، 3، 5، 7، 11,...",
+      "hint": "Check which number has only two divisors",
+      "hint_ur": "چیک کریں کہ کس عدد کے صرف دو تقسیم کنندگان ہیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 24,
+      "type": "true-false",
+      "question": "A hexagon has five sides.",
+      "question_ur": "ایک مسدس کے پانچ اطراف ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "A hexagon has six sides ('hexa-' means six)",
+      "explanation_ur": "مسدس کے چھ اطراف ہوتے ہیں ('ہیکسا' کا مطلب چھ ہے)",
+      "hint": "Think about honeycomb cells",
+      "hint_ur": "شہد کی مکھی کے چھتے کے خلیات کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "What is 1/2 expressed as a percentage?",
+      "question_ur": "1/2 کو فیصد کے طور پر کیا ظاہر کیا جاتا ہے؟",
+      "options": {
+        "en": ["25%", "50%", "75%", "100%"],
+        "ur": ["25%", "50%", "75%", "100%"]
+      },
+      "correctAnswer": 1,
+      "explanation": "1/2 = 0.50 = 50%",
+      "explanation_ur": "1/2 = 0.50 = 50%",
+      "hint": "Divide numerator by denominator and multiply by 100",
+      "hint_ur": "تقسیم کنندہ کو نسب نما سے تقسیم کریں اور 100 سے ضرب دیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "What is the value of 4! (4 factorial)?",
+      "question_ur": "4! (4 فیکٹوریل) کی قیمت کیا ہے؟",
+      "options": {
+        "en": ["4", "12", "24", "48"],
+        "ur": ["4", "12", "24", "48"]
+      },
+      "correctAnswer": 2,
+      "explanation": "4! = 4 × 3 × 2 × 1 = 24",
+      "explanation_ur": "4! = 4 × 3 × 2 × 1 = 24",
+      "hint": "Multiply all integers from 1 to 4",
+      "hint_ur": "1 سے 4 تک تمام اعداد کو ضرب دیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 27,
+      "type": "true-false",
+      "question": "The sum of any two even numbers is always even.",
+      "question_ur": "کسی بھی دو جفت اعداد کا مجموعہ ہمیشہ جفت ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Even + even = even (e.g., 2 + 4 = 6)",
+      "explanation_ur": "جفت + جفت = جفت (مثال کے طور پر، 2 + 4 = 6)",
+      "hint": "Try adding different even numbers",
+      "hint_ur": "مختلف جفت اعداد کو جمع کرنے کی کوشش کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "What is the Roman numeral for 10?",
+      "question_ur": "10 کا رومن ہندسہ کیا ہے؟",
+      "options": {
+        "en": ["V", "X", "L", "C"],
+        "ur": ["V", "X", "L", "C"]
+      },
+      "correctAnswer": 1,
+      "explanation": "X represents 10 in Roman numerals",
+      "explanation_ur": "X رومن ہندسوں میں 10 کو ظاہر کرتا ہے",
+      "hint": "Think of 'X' marks the spot",
+      "hint_ur": "'X' نشان کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "What is the average of 2, 4, and 6?",
+      "question_ur": "2، 4، اور 6 کا اوسط کیا ہے؟",
+      "options": {
+        "en": ["3", "4", "5", "6"],
+        "ur": ["3", "4", "5", "6"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Average = (2 + 4 + 6)/3 = 12/3 = 4",
+      "explanation_ur": "اوسط = (2 + 4 + 6)/3 = 12/3 = 4",
+      "hint": "Add all numbers and divide by count",
+      "hint_ur": "تمام اعداد کو جمع کریں اور گنتی سے تقسیم کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 30,
+      "type": "true-false",
+      "question": "All whole numbers are natural numbers.",
+      "question_ur": "تمام مکمل اعداد قدرتی اعداد ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Whole numbers include 0, which is not considered a natural number",
+      "explanation_ur": "مکمل اعداد میں 0 شامل ہے، جو قدرتی عدد نہیں سمجھا جاتا",
+      "hint": "Natural numbers start from 1",
+      "hint_ur": "قدرتی اعداد 1 سے شروع ہوتے ہیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "What is 1/4 + 1/4?",
+      "question_ur": "1/4 جمع 1/4 کیا ہے؟",
+      "options": {
+        "en": ["1/8", "1/4", "1/2", "2/4"],
+        "ur": ["1/8", "1/4", "1/2", "2/4"]
+      },
+      "correctAnswer": 2,
+      "explanation": "When denominators are same, add numerators: 1/4 + 1/4 = 2/4 = 1/2",
+      "explanation_ur": "جب نسب نما ایک جیسے ہوں، تقسیم کنندگان کو جمع کریں: 1/4 + 1/4 = 2/4 = 1/2",
+      "hint": "Keep the denominator the same",
+      "hint_ur": "نسب نما کو ایک جیسا رکھیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "What is 3 to the power of 2 (3²)?",
+      "question_ur": "3 کی طاقت 2 (3²) کیا ہے؟",
+      "options": {
+        "en": ["6", "9", "12", "15"],
+        "ur": ["6", "9", "12", "15"]
+      },
+      "correctAnswer": 1,
+      "explanation": "3² = 3 × 3 = 9",
+      "explanation_ur": "3² = 3 × 3 = 9",
+      "hint": "Multiply the number by itself",
+      "hint_ur": "عدد کو خود سے ضرب دیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 33,
+      "type": "true-false",
+      "question": "A rhombus has all sides equal.",
+      "question_ur": "ایک معین کے تمام اطراف برابر ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "By definition, a rhombus is a quadrilateral with all sides equal",
+      "explanation_ur": "تعریف کے مطابق، معین ایک چو طرفہ شکل ہے جس کے تمام اطراف برابر ہوتے ہیں",
+      "hint": "Think of a diamond shape",
+      "hint_ur": "ہیرے کی شکل کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "What is the smallest natural number?",
+      "question_ur": "سب سے چھوٹا قدرتی عدد کون سا ہے؟",
+      "options": {
+        "en": ["0", "1", "2", "3"],
+        "ur": ["0", "1", "2", "3"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Natural numbers start from 1 (1, 2, 3,...)",
+      "explanation_ur": "قدرتی اعداد 1 سے شروع ہوتے ہیں (1, 2, 3,...)",
+      "hint": "Counting numbers start from...",
+      "hint_ur": "گنتی کے اعداد شروع ہوتے ہیں...",
+      "timeLimit": 10
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "What is 0.2 expressed as a fraction?",
+      "question_ur": "0.2 کو کسر کے طور پر کیا ظاہر کیا جاتا ہے؟",
+      "options": {
+        "en": ["1/10", "1/5", "1/4", "1/2"],
+        "ur": ["1/10", "1/5", "1/4", "1/2"]
+      },
+      "correctAnswer": 1,
+      "explanation": "0.2 = 2/10 = 1/5",
+      "explanation_ur": "0.2 = 2/10 = 1/5",
+      "hint": "Think of one fifth",
+      "hint_ur": "ایک پانچواں کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 36,
+      "type": "true-false",
+      "question": "The number -1 is a natural number.",
+      "question_ur": "نمبر -1 ایک قدرتی عدد ہے۔",
+      "correctAnswer": false,
+      "explanation": "Natural numbers are positive integers (1, 2, 3,...)",
+      "explanation_ur": "قدرتی اعداد مثبت صحیح اعداد ہوتے ہیں (1, 2, 3,...)",
+      "hint": "Natural numbers are used for counting",
+      "hint_ur": "قدرتی اعداد گنتی کے لیے استعمال ہوتے ہیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "What is the greatest common divisor (GCD) of 6 and 9?",
+      "question_ur": "6 اور 9 کا عظیم ترین مشترکہ تقسیم کنندہ (GCD) کیا ہے؟",
+      "options": {
+        "en": ["1", "2", "3", "6"],
+        "ur": ["1", "2", "3", "6"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Factors of 6: 1,2,3,6; Factors of 9: 1,3,9; GCD is 3",
+      "explanation_ur": "6 کے عوامل: 1,2,3,6; 9 کے عوامل: 1,3,9; GCD 3 ہے",
+      "hint": "Find the largest common factor",
+      "hint_ur": "سب سے بڑا مشترکہ عامل تلاش کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "How many right angles are in a square?",
+      "question_ur": "ایک مربع میں کتنے صحیح زاویے ہوتے ہیں؟",
+      "options": {
+        "en": ["1", "2", "3", "4"],
+        "ur": ["1", "2", "3", "4"]
+      },
+      "correctAnswer": 3,
+      "explanation": "A square has four 90° angles (four right angles)",
+      "explanation_ur": "مربع کے چار 90° زاویے ہوتے ہیں (چار صحیح زاویے)",
+      "hint": "Count the corners",
+      "hint_ur": "کونوں کو گنیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 39,
+      "type": "true-false",
+      "question": "The sum of the angles in a pentagon is 540 degrees.",
+      "question_ur": "ایک مخمس میں زاویوں کا مجموعہ 540 ڈگری ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "The formula is (n-2)×180° where n is number of sides: (5-2)×180° = 540°",
+      "explanation_ur": "فارمولا ہے (n-2)×180° جہاں n اطراف کی تعداد ہے: (5-2)×180° = 540°",
+      "hint": "A pentagon has 5 sides",
+      "hint_ur": "مخمس کے 5 اطراف ہوتے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "What is the decimal equivalent of 1/8?",
+      "question_ur": "1/8 کا اعشاریہ مساوی کیا ہے؟",
+      "options": {
+        "en": ["0.125", "0.25", "0.375", "0.5"],
+        "ur": ["0.125", "0.25", "0.375", "0.5"]
+      },
+      "correctAnswer": 0,
+      "explanation": "1 ÷ 8 = 0.125",
+      "explanation_ur": "1 ÷ 8 = 0.125",
+      "hint": "Divide numerator by denominator",
+      "hint_ur": "تقسیم کنندہ کو نسب نما سے تقسیم کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "What is the least common multiple (LCM) of 3 and 5?",
+      "question_ur": "3 اور 5 کا کم ترین مشترکہ ضرب (LCM) کیا ہے؟",
+      "options": {
+        "en": ["5", "10", "15", "20"],
+        "ur": ["5", "10", "15", "20"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Multiples of 3: 3,6,9,12,15,...; Multiples of 5: 5,10,15,20,...; LCM is 15",
+      "explanation_ur": "3 کے ضربی: 3,6,9,12,15,...; 5 کے ضربی: 5,10,15,20,...; LCM 15 ہے",
+      "hint": "Find the smallest number in both lists",
+      "hint_ur": "دونوں فہرستوں میں سب سے چھوٹا عدد تلاش کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 42,
+      "type": "true-false",
+      "question": "The product of any number and one is always the number itself.",
+      "question_ur": "کسی بھی عدد اور ایک کا حاصل ضرب ہمیشہ خود عدد ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "This is the multiplicative identity property (a × 1 = a)",
+      "explanation_ur": "یہ ضربی شناختی خصوصیت ہے (a × 1 = a)",
+      "hint": "Think about one group of something",
+      "hint_ur": "کسی چیز کے ایک گروپ کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "What is the formula for the circumference of a circle?",
+      "question_ur": "دائرے کے محیط کا فارمولا کیا ہے؟",
+      "options": {
+        "en": ["π × radius", "π × diameter", "2 × π × radius", "Both 2 and 3"],
+        "ur": ["π × رداس", "π × قطر", "2 × π × رداس", "دونوں 2 اور 3"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Circumference = 2πr or πd (since diameter = 2 × radius)",
+      "explanation_ur": "محیط = 2πr یا πd (چونکہ قطر = 2 × رداس)",
+      "hint": "Diameter is twice the radius",
+      "hint_ur": "قطر رداس سے دوگنا ہوتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "What is 7 to the power of 1 (7¹)?",
+      "question_ur": "7 کی طاقت 1 (7¹) کیا ہے؟",
+      "options": {
+        "en": ["0", "1", "7", "14"],
+        "ur": ["0", "1", "7", "14"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Any number to the power of 1 is itself",
+      "explanation_ur": "کوئی بھی عدد 1 کی طاقت پر خود ہوتا ہے",
+      "hint": "Think about one instance of the number",
+      "hint_ur": "عدد کی ایک مثال کے بارے میں سوچیں",
+      "timeLimit": 10
+    },
+    {
+      "id": 45,
+      "type": "true-false",
+      "question": "An equilateral triangle can have two different side lengths.",
+      "question_ur": "ایک متساوی الاضلاع مثلث کے دو مختلف اطراف کی لمبائیاں ہو سکتی ہیں۔",
+      "correctAnswer": false,
+      "explanation": "By definition, all sides in an equilateral triangle are equal",
+      "explanation_ur": "تعریف کے مطابق، متساوی الاضلاع مثلث میں تمام اطراف برابر ہوتے ہیں",
+      "hint": "'Equilateral' means equal sides",
+      "hint_ur": "'متساوی الاضلاع' کا مطلب برابر اطراف ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "What is the value of π (pi) rounded to three decimal places?",
+      "question_ur": "تین اعشاری مقامات تک گول کرنے پر π (پائی) کی قیمت کیا ہے؟",
+      "options": {
+        "en": ["3.140", "3.141", "3.142", "3.143"],
+        "ur": ["3.140", "3.141", "3.142", "3.143"]
+      },
+      "correctAnswer": 1,
+      "explanation": "π ≈ 3.141592..., which rounds to 3.142",
+      "explanation_ur": "π ≈ 3.141592..., جو 3.142 تک گول ہوتا ہے",
+      "hint": "Remember 3.14159...",
+      "hint_ur": "3.14159... یاد رکھیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "What is 20% of 150?",
+      "question_ur": "150 کا 20% کیا ہے؟",
+      "options": {
+        "en": ["15", "20", "30", "45"],
+        "ur": ["15", "20", "30", "45"]
+      },
+      "correctAnswer": 2,
+      "explanation": "20% of 150 = 0.20 × 150 = 30",
+      "explanation_ur": "150 کا 20% = 0.20 × 150 = 30",
+      "hint": "20% is the same as 1/5",
+      "hint_ur": "20% 1/5 کے برابر ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 48,
+      "type": "true-false",
+      "question": "The number 0 is a whole number.",
+      "question_ur": "نمبر 0 ایک مکمل عدد ہے۔",
+      "correctAnswer": true,
+      "explanation": "Whole numbers are 0, 1, 2, 3,...",
+      "explanation_ur": "مکمل اعداد ہیں 0, 1, 2, 3,...",
+      "hint": "Whole numbers include zero",
+      "hint_ur": "مکمل اعداد میں صفر شامل ہوتا ہے",
+      "timeLimit": 10
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "What is the reciprocal of 10?",
+      "question_ur": "10 کا متبادل کیا ہے؟",
+      "options": {
+        "en": ["-10", "0.1", "0.5", "1.0"],
+        "ur": ["-10", "0.1", "0.5", "1.0"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Reciprocal of 10 is 1/10 = 0.1",
+      "explanation_ur": "10 کا متبادل 1/10 = 0.1 ہے",
+      "hint": "Flip the numerator and denominator",
+      "hint_ur": "تقسیم کنندہ اور نسب نما کو الٹ دیں",
+      "timeLimit": 10
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "What is 2 + 2?",
+      "question_ur": "2 جمع 2 کیا ہے؟",
+      "options": {
+        "en": ["3", "4", "5", "6"],
+        "ur": ["3", "4", "5", "6"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Basic addition: 2 + 2 = 4",
+      "explanation_ur": "بنیادی جمع: 2 + 2 = 4",
+      "hint": "Count on your fingers",
+      "hint_ur": "اپنی انگلیوں پر گنیں",
+      "timeLimit": 10
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "What is 5 × 3?",
+      "question_ur": "5 ضرب 3 کیا ہے؟",
+      "options": {
+        "en": ["8", "15", "10", "20"],
+        "ur": ["8", "15", "10", "20"]
+      },
+      "correctAnswer": 1,
+      "explanation": "5 multiplied by 3 equals 15",
+      "explanation_ur": "5 کو 3 سے ضرب دینے پر 15 آتا ہے",
+      "hint": "Think of adding 5 three times",
+      "hint_ur": "5 کو تین بار جمع کرنے کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 52,
+      "type": "true-false",
+      "question": "The square root of 16 is 4.",
+      "question_ur": "16 کا مربع جذر 4 ہے۔",
+      "correctAnswer": true,
+      "explanation": "4 × 4 = 16, so √16 = 4",
+      "explanation_ur": "4 × 4 = 16، لہذا √16 = 4",
+      "hint": "What number multiplied by itself gives 16?",
+      "hint_ur": "کون سا نمبر خود سے ضرب دینے پر 16 دیتا ہے؟",
+      "timeLimit": 20
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "What is 10 - 7?",
+      "question_ur": "10 منفی 7 کیا ہے؟",
+      "options": {
+        "en": ["2", "3", "4", "5"],
+        "ur": ["2", "3", "4", "5"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Basic subtraction: 10 - 7 = 3",
+      "explanation_ur": "بنیادی تفریق: 10 - 7 = 3",
+      "hint": "Count backwards from 10",
+      "hint_ur": "10 سے پیچھے کی طرف گنیں",
+      "timeLimit": 10
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "How many sides does a triangle have?",
+      "question_ur": "ایک مثلث کے کتنے اطراف ہوتے ہیں؟",
+      "options": {
+        "en": ["2", "3", "4", "5"],
+        "ur": ["2", "3", "4", "5"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A triangle has three sides and three angles",
+      "explanation_ur": "ایک مثلث کے تین اطراف اور تین زاویے ہوتے ہیں",
+      "hint": "The prefix 'tri-' means three",
+      "hint_ur": "'ٹرائی' کا مطلب تین ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 55,
+      "type": "true-false",
+      "question": "All even numbers are divisible by 2.",
+      "question_ur": "تمام جفت اعداد 2 سے تقسیم ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "By definition, even numbers are divisible by 2 without remainder",
+      "explanation_ur": "تعریف کے مطابق، جفت اعداد 2 سے بغیر کسی باقی کے تقسیم ہوتے ہیں",
+      "hint": "Even numbers end with 0, 2, 4, 6, or 8",
+      "hint_ur": "جفت اعداد 0، 2، 4، 6 یا 8 پر ختم ہوتے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "What is 12 ÷ 4?",
+      "question_ur": "12 تقسیم 4 کیا ہے؟",
+      "options": {
+        "en": ["2", "3", "4", "5"],
+        "ur": ["2", "3", "4", "5"]
+      },
+      "correctAnswer": 1,
+      "explanation": "12 divided by 4 equals 3",
+      "explanation_ur": "12 کو 4 سے تقسیم کرنے پر 3 آتا ہے",
+      "hint": "How many 4s make 12?",
+      "hint_ur": "12 بنانے کے لیے کتنے 4 درکار ہیں؟",
+      "timeLimit": 15
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "What is the next number in the sequence: 2, 4, 6, 8, ___?",
+      "question_ur": "سلسلہ میں اگلا نمبر کیا ہے: 2، 4، 6، 8، ___؟",
+      "options": {
+        "en": ["9", "10", "12", "14"],
+        "ur": ["9", "10", "12", "14"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This is a sequence of even numbers increasing by 2 each time",
+      "explanation_ur": "یہ جفت اعداد کا سلسلہ ہے جو ہر بار 2 سے بڑھ رہا ہے",
+      "hint": "Look at the difference between numbers",
+      "hint_ur": "اعداد کے درمیان فرق دیکھیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 58,
+      "type": "true-false",
+      "question": "A right angle measures exactly 90 degrees.",
+      "question_ur": "ایک صحیح زاویہ بالکل 90 ڈگری کا ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "By definition, a right angle is 90 degrees",
+      "explanation_ur": "تعریف کے مطابق، صحیح زاویہ 90 ڈگری کا ہوتا ہے",
+      "hint": "Think of the corner of a square",
+      "hint_ur": "مربع کے کونے کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "What is 7 × 8?",
+      "question_ur": "7 ضرب 8 کیا ہے؟",
+      "options": {
+        "en": ["48", "56", "64", "72"],
+        "ur": ["48", "56", "64", "72"]
+      },
+      "correctAnswer": 1,
+      "explanation": "7 multiplied by 8 equals 56",
+      "explanation_ur": "7 کو 8 سے ضرب دینے پر 56 آتا ہے",
+      "hint": "Remember your multiplication tables",
+      "hint_ur": "اپنی ضرب کے جدول یاد کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "What is the sum of the angles in a triangle?",
+      "question_ur": "مثلث کے زاویوں کا مجموعہ کیا ہے؟",
+      "options": {
+        "en": ["90°", "180°", "270°", "360°"],
+        "ur": ["90°", "180°", "270°", "360°"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The sum of interior angles in any triangle is always 180 degrees",
+      "explanation_ur": "کسی بھی مثلث کے اندرونی زاویوں کا مجموعہ ہمیشہ 180 ڈگری ہوتا ہے",
+      "hint": "Think of a straight line",
+      "hint_ur": "سیدھی لکیر کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 61,
+      "type": "true-false",
+      "question": "The number 1 is a prime number.",
+      "question_ur": "نمبر 1 ایک مفرد عدد ہے۔",
+      "correctAnswer": false,
+      "explanation": "By definition, prime numbers are greater than 1 and have exactly two distinct positive divisors",
+      "explanation_ur": "تعریف کے مطابق، مفرد اعداد 1 سے بڑے ہوتے ہیں اور ان کے بالکل دو مخصوص مثابت تقسیم کنندگان ہوتے ہیں",
+      "hint": "Prime numbers start from 2",
+      "hint_ur": "مفرد اعداد 2 سے شروع ہوتے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 62,
+      "type": "mcq",
+      "question": "What is 3 squared (3²)?",
+      "question_ur": "3 مربع (3²) کیا ہے؟",
+      "options": {
+        "en": ["6", "9", "12", "15"],
+        "ur": ["6", "9", "12", "15"]
+      },
+      "correctAnswer": 1,
+      "explanation": "3 squared means 3 multiplied by itself: 3 × 3 = 9",
+      "explanation_ur": "3 مربع کا مطلب ہے 3 کو خود سے ضرب دینا: 3 × 3 = 9",
+      "hint": "Multiply the number by itself",
+      "hint_ur": "عدد کو خود سے ضرب دیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "How many centimeters are in a meter?",
+      "question_ur": "ایک میٹر میں کتنے سینٹی میٹر ہوتے ہیں؟",
+      "options": {
+        "en": ["10", "100", "1000", "10000"],
+        "ur": ["10", "100", "1000", "10000"]
+      },
+      "correctAnswer": 1,
+      "explanation": "1 meter equals 100 centimeters",
+      "explanation_ur": "1 میٹر 100 سینٹی میٹر کے برابر ہے",
+      "hint": "The prefix 'centi-' means hundred",
+      "hint_ur": "'سینٹی' کا مطلب سو ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 64,
+      "type": "true-false",
+      "question": "The value of π (pi) is exactly 3.14.",
+      "question_ur": "π (پائی) کی قیمت بالکل 3.14 ہے۔",
+      "correctAnswer": false,
+      "explanation": "π is an irrational number approximately equal to 3.14159... but its exact value cannot be expressed as a finite decimal",
+      "explanation_ur": "π ایک غیر معقول عدد ہے جو تقریباً 3.14159... کے برابر ہے لیکن اس کی صحیح قیمت کو محدود اعشاریہ کے طور پر ظاہر نہیں کیا جا سکتا",
+      "hint": "π has infinite decimal places",
+      "hint_ur": "π کے اعشاری مقامات لامحدود ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "question": "What is 1/2 + 1/4?",
+      "question_ur": "1/2 جمع 1/4 کیا ہے؟",
+      "options": {
+        "en": ["1/6", "1/4", "3/4", "1/8"],
+        "ur": ["1/6", "1/4", "3/4", "1/8"]
+      },
+      "correctAnswer": 2,
+      "explanation": "1/2 = 2/4, so 2/4 + 1/4 = 3/4",
+      "explanation_ur": "1/2 = 2/4، لہذا 2/4 + 1/4 = 3/4",
+      "hint": "Find a common denominator first",
+      "hint_ur": "پہلے ایک مشترکہ نسب نما تلاش کریں",
+      "timeLimit": 30
+    },
+    {
+      "id": 66,
+      "type": "mcq",
+      "question": "What is 15% of 200?",
+      "question_ur": "200 کا 15% کیا ہے؟",
+      "options": {
+        "en": ["15", "30", "45", "60"],
+        "ur": ["15", "30", "45", "60"]
+      },
+      "correctAnswer": 1,
+      "explanation": "15% of 200 = 0.15 × 200 = 30",
+      "explanation_ur": "200 کا 15% = 0.15 × 200 = 30",
+      "hint": "Convert percentage to decimal and multiply",
+      "hint_ur": "فیصد کو اعشاریہ میں تبدیل کریں اور ضرب دیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 67,
+      "type": "true-false",
+      "question": "All squares are rectangles.",
+      "question_ur": "تمام مربع مستطیل ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "A square is a special type of rectangle where all sides are equal",
+      "explanation_ur": "مربع مستطیل کی ایک خاص قسم ہے جہاں تمام اطراف برابر ہوتے ہیں",
+      "hint": "Check the definitions of both shapes",
+      "hint_ur": "دونوں اشکال کی تعریفیں چیک کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 68,
+      "type": "mcq",
+      "question": "What is the perimeter of a square with side length 5 cm?",
+      "question_ur": "5 سینٹی میٹر کی طرف کی لمبائی والے مربع کا محیط کیا ہے؟",
+      "options": {
+        "en": ["10 cm", "15 cm", "20 cm", "25 cm"],
+        "ur": ["10 سینٹی میٹر", "15 سینٹی میٹر", "20 سینٹی میٹر", "25 سینٹی میٹر"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Perimeter = 4 × side length = 4 × 5 = 20 cm",
+      "explanation_ur": "محیط = 4 × طرف کی لمبائی = 4 × 5 = 20 سینٹی میٹر",
+      "hint": "Add all four sides",
+      "hint_ur": "چاروں اطراف کو جمع کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "question": "What is 0.5 expressed as a fraction?",
+      "question_ur": "0.5 کو کسر کے طور پر کیا ظاہر کیا جاتا ہے؟",
+      "options": {
+        "en": ["1/5", "1/4", "1/3", "1/2"],
+        "ur": ["1/5", "1/4", "1/3", "1/2"]
+      },
+      "correctAnswer": 3,
+      "explanation": "0.5 = 5/10 = 1/2",
+      "explanation_ur": "0.5 = 5/10 = 1/2",
+      "hint": "Think of half of something",
+      "hint_ur": "کسی چیز کے آدھے کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 70,
+      "type": "true-false",
+      "question": "The product of two negative numbers is positive.",
+      "question_ur": "دو منفی اعداد کا حاصل ضرب مثبت ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Negative × negative = positive is a fundamental rule of multiplication",
+      "explanation_ur": "منفی × منفی = مثبت ضرب کا ایک بنیادی اصول ہے",
+      "hint": "Think about the rules of signs",
+      "hint_ur": "علامتوں کے اصولوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "question": "What is the area of a rectangle with length 6 cm and width 4 cm?",
+      "question_ur": "لمبائی 6 سینٹی میٹر اور چوڑائی 4 سینٹی میٹر والے مستطیل کا رقبہ کیا ہے؟",
+      "options": {
+        "en": ["10 cm²", "20 cm²", "24 cm²", "30 cm²"],
+        "ur": ["10 سینٹی میٹر²", "20 سینٹی میٹر²", "24 سینٹی میٹر²", "30 سینٹی میٹر²"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Area = length × width = 6 × 4 = 24 cm²",
+      "explanation_ur": "رقبہ = لمبائی × چوڑائی = 6 × 4 = 24 سینٹی میٹر²",
+      "hint": "Multiply the two dimensions",
+      "hint_ur": "دو جہتوں کو ضرب دیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 72,
+      "type": "mcq",
+      "question": "What is the next prime number after 7?",
+      "question_ur": "7 کے بعد اگلا مفرد عدد کون سا ہے؟",
+      "options": {
+        "en": ["8", "9", "10", "11"],
+        "ur": ["8", "9", "10", "11"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The sequence of prime numbers is 2, 3, 5, 7, 11, 13,...",
+      "explanation_ur": "مفرد اعداد کا سلسلہ ہے 2، 3، 5، 7، 11، 13,...",
+      "hint": "Check which number has only two divisors",
+      "hint_ur": "چیک کریں کہ کس عدد کے صرف دو تقسیم کنندگان ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 73,
+      "type": "true-false",
+      "question": "A pentagon has six sides.",
+      "question_ur": "ایک مخمس کے چھ اطراف ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "A pentagon has five sides ('penta-' means five)",
+      "explanation_ur": "مخمس کے پانچ اطراف ہوتے ہیں ('پینٹا' کا مطلب پانچ ہے)",
+      "hint": "Think about the Pentagon building",
+      "hint_ur": "پینٹاگون عمارت کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 74,
+      "type": "mcq",
+      "question": "What is 3/4 expressed as a percentage?",
+      "question_ur": "3/4 کو فیصد کے طور پر کیا ظاہر کیا جاتا ہے؟",
+      "options": {
+        "en": ["25%", "50%", "75%", "100%"],
+        "ur": ["25%", "50%", "75%", "100%"]
+      },
+      "correctAnswer": 2,
+      "explanation": "3/4 = 0.75 = 75%",
+      "explanation_ur": "3/4 = 0.75 = 75%",
+      "hint": "Divide numerator by denominator and multiply by 100",
+      "hint_ur": "تقسیم کنندہ کو نسب نما سے تقسیم کریں اور 100 سے ضرب دیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "question": "What is the value of 5! (5 factorial)?",
+      "question_ur": "5! (5 فیکٹوریل) کی قیمت کیا ہے؟",
+      "options": {
+        "en": ["20", "60", "120", "720"],
+        "ur": ["20", "60", "120", "720"]
+      },
+      "correctAnswer": 2,
+      "explanation": "5! = 5 × 4 × 3 × 2 × 1 = 120",
+      "explanation_ur": "5! = 5 × 4 × 3 × 2 × 1 = 120",
+      "hint": "Multiply all integers from 1 to 5",
+      "hint_ur": "1 سے 5 تک تمام اعداد کو ضرب دیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 76,
+      "type": "true-false",
+      "question": "The sum of any two odd numbers is always even.",
+      "question_ur": "کسی بھی دو طاق اعداد کا مجموعہ ہمیشہ جفت ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Odd + odd = even (e.g., 3 + 5 = 8)",
+      "explanation_ur": "طاق + طاق = جفت (مثال کے طور پر، 3 + 5 = 8)",
+      "hint": "Try adding different odd numbers",
+      "hint_ur": "مختلف طاق اعداد کو جمع کرنے کی کوشش کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "question": "What is the Roman numeral for 50?",
+      "question_ur": "50 کا رومن ہندسہ کیا ہے؟",
+      "options": {
+        "en": ["V", "X", "L", "C"],
+        "ur": ["V", "X", "L", "C"]
+      },
+      "correctAnswer": 2,
+      "explanation": "L represents 50 in Roman numerals",
+      "explanation_ur": "L رومن ہندسوں میں 50 کو ظاہر کرتا ہے",
+      "hint": "It's not X or C",
+      "hint_ur": "یہ X یا C نہیں ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 78,
+      "type": "mcq",
+      "question": "What is the average of 4, 6, and 8?",
+      "question_ur": "4، 6، اور 8 کا اوسط کیا ہے؟",
+      "options": {
+        "en": ["5", "6", "7", "8"],
+        "ur": ["5", "6", "7", "8"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Average = (4 + 6 + 8)/3 = 18/3 = 6",
+      "explanation_ur": "اوسط = (4 + 6 + 8)/3 = 18/3 = 6",
+      "hint": "Add all numbers and divide by count",
+      "hint_ur": "تمام اعداد کو جمع کریں اور گنتی سے تقسیم کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 79,
+      "type": "true-false",
+      "question": "All integers are whole numbers.",
+      "question_ur": "تمام صحیح اعداد مکمل اعداد ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Integers include negative numbers which are not whole numbers",
+      "explanation_ur": "صحیح اعداد میں منفی اعداد شامل ہوتے ہیں جو مکمل اعداد نہیں ہوتے",
+      "hint": "Whole numbers start from 0",
+      "hint_ur": "مکمل اعداد 0 سے شروع ہوتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 80,
+      "type": "mcq",
+      "question": "What is 1/3 + 1/6?",
+      "question_ur": "1/3 جمع 1/6 کیا ہے؟",
+      "options": {
+        "en": ["1/9", "1/4", "1/2", "2/3"],
+        "ur": ["1/9", "1/4", "1/2", "2/3"]
+      },
+      "correctAnswer": 2,
+      "explanation": "1/3 = 2/6, so 2/6 + 1/6 = 3/6 = 1/2",
+      "explanation_ur": "1/3 = 2/6، لہذا 2/6 + 1/6 = 3/6 = 1/2",
+      "hint": "Find common denominator (6)",
+      "hint_ur": "مشترکہ نسب نما (6) تلاش کریں",
+      "timeLimit": 25
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "question": "What is 2 to the power of 3 (2³)?",
+      "question_ur": "2 کی طاقت 3 (2³) کیا ہے؟",
+      "options": {
+        "en": ["4", "6", "8", "16"],
+        "ur": ["4", "6", "8", "16"]
+      },
+      "correctAnswer": 2,
+      "explanation": "2³ = 2 × 2 × 2 = 8",
+      "explanation_ur": "2³ = 2 × 2 × 2 = 8",
+      "hint": "Multiply 2 by itself three times",
+      "hint_ur": "2 کو خود سے تین بار ضرب دیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 82,
+      "type": "true-false",
+      "question": "A parallelogram has all sides equal.",
+      "question_ur": "متوازی الاضلاع کے تمام اطراف برابر ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Only rhombuses (a type of parallelogram) have all sides equal",
+      "explanation_ur": "صرف معین (متوازی الاضلاع کی ایک قسم) کے تمام اطراف برابر ہوتے ہیں",
+      "hint": "Think about rectangles vs squares",
+      "hint_ur": "مستطیل بمقابلہ مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "question": "What is the smallest prime number?",
+      "question_ur": "سب سے چھوٹا مفرد عدد کون سا ہے؟",
+      "options": {
+        "en": ["0", "1", "2", "3"],
+        "ur": ["0", "1", "2", "3"]
+      },
+      "correctAnswer": 2,
+      "explanation": "2 is the smallest and the only even prime number",
+      "explanation_ur": "2 سب سے چھوٹا اور واحد جفت مفرد عدد ہے",
+      "hint": "It's the only even prime",
+      "hint_ur": "یہ واحد جفت مفرد ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 84,
+      "type": "mcq",
+      "question": "What is 0.25 expressed as a fraction?",
+      "question_ur": "0.25 کو کسر کے طور پر کیا ظاہر کیا جاتا ہے؟",
+      "options": {
+        "en": ["1/8", "1/4", "1/3", "1/2"],
+        "ur": ["1/8", "1/4", "1/3", "1/2"]
+      },
+      "correctAnswer": 1,
+      "explanation": "0.25 = 25/100 = 1/4",
+      "explanation_ur": "0.25 = 25/100 = 1/4",
+      "hint": "Think of a quarter dollar",
+      "hint_ur": "کواٹر ڈالر کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 85,
+      "type": "true-false",
+      "question": "The number 0 is an even number.",
+      "question_ur": "نمبر 0 ایک جفت عدد ہے۔",
+      "correctAnswer": true,
+      "explanation": "0 is divisible by 2 (0 ÷ 2 = 0), so it's even",
+      "explanation_ur": "0 تقسیم ہوتا ہے 2 سے (0 ÷ 2 = 0)، لہذا یہ جفت ہے",
+      "hint": "Even numbers are divisible by 2",
+      "hint_ur": "جفت اعداد 2 سے تقسیم ہوتے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 86,
+      "type": "mcq",
+      "question": "What is the greatest common divisor (GCD) of 8 and 12?",
+      "question_ur": "8 اور 12 کا عظیم ترین مشترکہ تقسیم کنندہ (GCD) کیا ہے؟",
+      "options": {
+        "en": ["2", "4", "6", "8"],
+        "ur": ["2", "4", "6", "8"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Factors of 8: 1,2,4,8; Factors of 12: 1,2,3,4,6,12; GCD is 4",
+      "explanation_ur": "8 کے عوامل: 1,2,4,8; 12 کے عوامل: 1,2,3,4,6,12; GCD 4 ہے",
+      "hint": "Find the largest common factor",
+      "hint_ur": "سب سے بڑا مشترکہ عامل تلاش کریں",
+      "timeLimit": 25
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "question": "How many degrees are in a circle?",
+      "question_ur": "ایک دائرے میں کتنے ڈگری ہوتے ہیں؟",
+      "options": {
+        "en": ["90", "180", "270", "360"],
+        "ur": ["90", "180", "270", "360"]
+      },
+      "correctAnswer": 3,
+      "explanation": "A full circle contains 360 degrees",
+      "explanation_ur": "ایک مکمل دائرہ 360 ڈگری پر مشتمل ہوتا ہے",
+      "hint": "Think about full rotation",
+      "hint_ur": "مکمل گردش کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 88,
+      "type": "true-false",
+      "question": "The sum of the angles in a quadrilateral is 360 degrees.",
+      "question_ur": "ایک چو طرفہ شکل میں زاویوں کا مجموعہ 360 ڈگری ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "All quadrilaterals have interior angles summing to 360°",
+      "explanation_ur": "تمام چو طرفہ اشکال کے اندرونی زاویوں کا مجموعہ 360° ہوتا ہے",
+      "hint": "A square has four 90° angles",
+      "hint_ur": "مربع کے چار 90° زاویے ہوتے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "question": "What is the decimal equivalent of 3/8?",
+      "question_ur": "3/8 کا اعشاریہ مساوی کیا ہے؟",
+      "options": {
+        "en": ["0.125", "0.25", "0.375", "0.5"],
+        "ur": ["0.125", "0.25", "0.375", "0.5"]
+      },
+      "correctAnswer": 2,
+      "explanation": "3 ÷ 8 = 0.375",
+      "explanation_ur": "3 ÷ 8 = 0.375",
+      "hint": "Divide numerator by denominator",
+      "hint_ur": "تقسیم کنندہ کو نسب نما سے تقسیم کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 90,
+      "type": "mcq",
+      "question": "What is the least common multiple (LCM) of 4 and 6?",
+      "question_ur": "4 اور 6 کا کم ترین مشترکہ ضرب (LCM) کیا ہے؟",
+      "options": {
+        "en": ["6", "12", "18", "24"],
+        "ur": ["6", "12", "18", "24"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Multiples of 4: 4,8,12,16,...; Multiples of 6: 6,12,18,...; LCM is 12",
+      "explanation_ur": "4 کے ضربی: 4,8,12,16,...; 6 کے ضربی: 6,12,18,...; LCM 12 ہے",
+      "hint": "Find the smallest number in both lists",
+      "hint_ur": "دونوں فہرستوں میں سب سے چھوٹا عدد تلاش کریں",
+      "timeLimit": 25
+    },
+    {
+      "id": 91,
+      "type": "true-false",
+      "question": "The product of any number and zero is always zero.",
+      "question_ur": "کسی بھی عدد اور صفر کا حاصل ضرب ہمیشہ صفر ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "This is the multiplicative property of zero (a × 0 = 0)",
+      "explanation_ur": "یہ صفر کی ضربی خصوصیت ہے (a × 0 = 0)",
+      "hint": "Think about zero groups of something",
+      "hint_ur": "کسی چیز کے صفر گروپس کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 92,
+      "type": "mcq",
+      "question": "What is the formula for the area of a triangle?",
+      "question_ur": "مثلث کے رقبے کا فارمولا کیا ہے؟",
+      "options": {
+        "en": ["base × height", "½ × base × height", "length × width", "π × radius²"],
+        "ur": ["بنیاد × اونچائی", "½ × بنیاد × اونچائی", "لمبائی × چوڑائی", "π × رداس²"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Area of triangle = ½ × base × height",
+      "explanation_ur": "مثلث کا رقبہ = ½ × بنیاد × اونچائی",
+      "hint": "It's half of a rectangle's area formula",
+      "hint_ur": "یہ مستطیل کے رقبے کے فارمولے کا آدھا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "What is 10 to the power of 0 (10⁰)?",
+      "question_ur": "10 کی طاقت 0 (10⁰) کیا ہے؟",
+      "options": {
+        "en": ["0", "1", "10", "100"],
+        "ur": ["0", "1", "10", "100"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Any non-zero number to the power of 0 equals 1",
+      "explanation_ur": "کوئی بھی غیر صفر عدد 0 کی طاقت پر 1 کے برابر ہوتا ہے",
+      "hint": "Remember the exponent rule",
+      "hint_ur": "قوت نما کے اصول کو یاد کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 94,
+      "type": "true-false",
+      "question": "A right triangle can have two right angles.",
+      "question_ur": "ایک صحیح مثلث کے دو صحیح زاویے ہو سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "A triangle's angles sum to 180°, so two 90° angles would exceed this",
+      "explanation_ur": "مثلث کے زاویوں کا مجموعہ 180° ہوتا ہے، لہذا دو 90° زاویے اس سے زیادہ ہوں گے",
+      "hint": "What's the sum of angles in a triangle?",
+      "hint_ur": "مثلث میں زاویوں کا مجموعہ کیا ہے؟",
+      "timeLimit": 20
+    },
+    {
+      "id": 95,
+      "type": "mcq",
+      "question": "What is the value of π (pi) rounded to two decimal places?",
+      "question_ur": "دو اعشاری مقامات تک گول کرنے پر π (پائی) کی قیمت کیا ہے؟",
+      "options": {
+        "en": ["3.12", "3.14", "3.16", "3.18"],
+        "ur": ["3.12", "3.14", "3.16", "3.18"]
+      },
+      "correctAnswer": 1,
+      "explanation": "π ≈ 3.141592..., which rounds to 3.14",
+      "explanation_ur": "π ≈ 3.141592..., جو 3.14 تک گول ہوتا ہے",
+      "hint": "Think about pie (3.14)",
+      "hint_ur": "پائی کے بارے میں سوچیں (3.14)",
+      "timeLimit": 15
+    },
+    {
+      "id": 96,
+      "type": "mcq",
+      "question": "What is 25% of 80?",
+      "question_ur": "80 کا 25% کیا ہے؟",
+      "options": {
+        "en": ["15", "20", "25", "30"],
+        "ur": ["15", "20", "25", "30"]
+      },
+      "correctAnswer": 1,
+      "explanation": "25% of 80 = 0.25 × 80 = 20",
+      "explanation_ur": "80 کا 25% = 0.25 × 80 = 20",
+      "hint": "25% is the same as 1/4",
+      "hint_ur": "25% 1/4 کے برابر ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 97,
+      "type": "true-false",
+      "question": "The number 1 is neither prime nor composite.",
+      "question_ur": "نمبر 1 نہ تو مفرد ہے اور نہ ہی مرکب۔",
+      "correctAnswer": true,
+      "explanation": "By definition, prime numbers have exactly two distinct positive divisors, and 1 has only one",
+      "explanation_ur": "تعریف کے مطابق، مفرد اعداد کے بالکل دو مخصوص مثبت تقسیم کنندگان ہوتے ہیں، اور 1 کے صرف ایک ہوتا ہے",
+      "hint": "Prime numbers start from 2",
+      "hint_ur": "مفرد اعداد 2 سے شروع ہوتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 98,
+      "type": "mcq",
+      "question": "What is the reciprocal of 5?",
+      "question_ur": "5 کا متبادل کیا ہے؟",
+      "options": {
+        "en": ["-5", "0.2", "0.5", "1.5"],
+        "ur": ["-5", "0.2", "0.5", "1.5"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Reciprocal of 5 is 1/5 = 0.2",
+      "explanation_ur": "5 کا متبادل 1/5 = 0.2 ہے",
+      "hint": "Flip the numerator and denominator",
+      "hint_ur": "تقسیم کنندہ اور نسب نما کو الٹ دیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 99,
+      "type": "mcq",
+      "question": "What is the perimeter of a rectangle with length 7 cm and width 3 cm?",
+      "question_ur": "لمبائی 7 سینٹی میٹر اور چوڑائی 3 سینٹی میٹر والے مستطیل کا محیط کیا ہے؟",
+      "options": {
+        "en": ["10 cm", "15 cm", "20 cm", "25 cm"],
+        "ur": ["10 سینٹی میٹر", "15 سینٹی میٹر", "20 سینٹی میٹر", "25 سینٹی میٹر"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Perimeter = 2 × (length + width) = 2 × (7 + 3) = 20 cm",
+      "explanation_ur": "محیط = 2 × (لمبائی + چوڑائی) = 2 × (7 + 3) = 20 سینٹی میٹر",
+      "hint": "Add all four sides",
+      "hint_ur": "چاروں اطراف کو جمع کریں",
+      "timeLimit": 20
+    },
+    
+    {
+      "id": 100,
+      "type": "mcq",
+      "question": "What is 12 + 15?",
+      "question_ur": "12 جمع 15 کیا ہے؟",
+      "options": {
+        "en": ["25", "27", "30", "35"],
+        "ur": ["25", "27", "30", "35"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Basic addition: 12 + 15 = 27",
+      "explanation_ur": "بنیادی جمع: 12 + 15 = 27",
+      "hint": "Add 10 + 10 and 2 + 5 separately",
+      "hint_ur": "10 + 10 اور 2 + 5 الگ الگ جمع کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 101,
+      "type": "mcq",
+      "question": "What is 6 × 7?",
+      "question_ur": "6 ضرب 7 کیا ہے؟",
+      "options": {
+        "en": ["36", "42", "48", "56"],
+        "ur": ["36", "42", "48", "56"]
+      },
+      "correctAnswer": 1,
+      "explanation": "6 multiplied by 7 equals 42",
+      "explanation_ur": "6 کو 7 سے ضرب دینے پر 42 آتا ہے",
+      "hint": "Remember your multiplication tables",
+      "hint_ur": "اپنی ضرب کے جدول یاد کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 102,
+      "type": "true-false",
+      "question": "The square root of 25 is 5.",
+      "question_ur": "25 کا مربع جذر 5 ہے۔",
+      "correctAnswer": true,
+      "explanation": "5 × 5 = 25, so √25 = 5",
+      "explanation_ur": "5 × 5 = 25، لہذا √25 = 5",
+      "hint": "What number multiplied by itself gives 25?",
+      "hint_ur": "کون سا نمبر خود سے ضرب دینے پر 25 دیتا ہے؟",
+      "timeLimit": 15
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "question": "What is 18 - 9?",
+      "question_ur": "18 منفی 9 کیا ہے؟",
+      "options": {
+        "en": ["7", "8", "9", "10"],
+        "ur": ["7", "8", "9", "10"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Basic subtraction: 18 - 9 = 9",
+      "explanation_ur": "بنیادی تفریق: 18 - 9 = 9",
+      "hint": "Count backwards from 18",
+      "hint_ur": "18 سے پیچھے کی طرف گنیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 104,
+      "type": "mcq",
+      "question": "How many sides does a pentagon have?",
+      "question_ur": "ایک مخمس کے کتنے اطراف ہوتے ہیں؟",
+      "options": {
+        "en": ["3", "4", "5", "6"],
+        "ur": ["3", "4", "5", "6"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A pentagon has five sides ('penta-' means five)",
+      "explanation_ur": "مخمس کے پانچ اطراف ہوتے ہیں ('پینٹا' کا مطلب پانچ ہے)",
+      "hint": "Think of the Pentagon building",
+      "hint_ur": "پینٹاگون عمارت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 105,
+      "type": "true-false",
+      "question": "All prime numbers are odd.",
+      "question_ur": "تمام مفرد اعداد طاق ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "2 is the only even prime number",
+      "explanation_ur": "2 واحد جفت مفرد عدد ہے",
+      "hint": "Consider the smallest prime numbers",
+      "hint_ur": "سب سے چھوٹے مفرد اعداد پر غور کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 106,
+      "type": "mcq",
+      "question": "What is 24 ÷ 6?",
+      "question_ur": "24 تقسیم 6 کیا ہے؟",
+      "options": {
+        "en": ["3", "4", "6", "8"],
+        "ur": ["3", "4", "6", "8"]
+      },
+      "correctAnswer": 1,
+      "explanation": "24 divided by 6 equals 4",
+      "explanation_ur": "24 کو 6 سے تقسیم کرنے پر 4 آتا ہے",
+      "hint": "How many 6s make 24?",
+      "hint_ur": "24 بنانے کے لیے کتنے 6 درکار ہیں؟",
+      "timeLimit": 15
+    },
+    {
+      "id": 107,
+      "type": "mcq",
+      "question": "What is the next number in the sequence: 10, 20, 30, 40, ___?",
+      "question_ur": "سلسلہ میں اگلا نمبر کیا ہے: 10، 20، 30، 40، ___؟",
+      "options": {
+        "en": ["45", "50", "55", "60"],
+        "ur": ["45", "50", "55", "60"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This is a sequence increasing by 10 each time",
+      "explanation_ur": "یہ سلسلہ ہر بار 10 سے بڑھ رہا ہے",
+      "hint": "Look at the difference between numbers",
+      "hint_ur": "اعداد کے درمیان فرق دیکھیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 108,
+      "type": "true-false",
+      "question": "An obtuse angle measures more than 90 degrees but less than 180 degrees.",
+      "question_ur": "ایک منفرجہ زاویہ 90 ڈگری سے زیادہ لیکن 180 ڈگری سے کم کا ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "By definition, obtuse angles are between 90° and 180°",
+      "explanation_ur": "تعریف کے مطابق، منفرجہ زاویے 90° اور 180° کے درمیان ہوتے ہیں",
+      "hint": "Think of a wide corner",
+      "hint_ur": "کھلے کونے کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "question": "What is 9 × 9?",
+      "question_ur": "9 ضرب 9 کیا ہے؟",
+      "options": {
+        "en": ["72", "81", "90", "99"],
+        "ur": ["72", "81", "90", "99"]
+      },
+      "correctAnswer": 1,
+      "explanation": "9 multiplied by 9 equals 81",
+      "explanation_ur": "9 کو 9 سے ضرب دینے پر 81 آتا ہے",
+      "hint": "Remember your multiplication tables",
+      "hint_ur": "اپنی ضرب کے جدول یاد کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 110,
+      "type": "mcq",
+      "question": "What is the sum of the angles in a hexagon?",
+      "question_ur": "ایک مسدس میں زاویوں کا مجموعہ کیا ہے؟",
+      "options": {
+        "en": ["540°", "720°", "900°", "1080°"],
+        "ur": ["540°", "720°", "900°", "1080°"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The formula is (n-2)×180° where n is number of sides: (6-2)×180° = 720°",
+      "explanation_ur": "فارمولا ہے (n-2)×180° جہاں n اطراف کی تعداد ہے: (6-2)×180° = 720°",
+      "hint": "A hexagon has 6 sides",
+      "hint_ur": "مسدس کے 6 اطراف ہوتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 111,
+      "type": "true-false",
+      "question": "The number 57 is a prime number.",
+      "question_ur": "نمبر 57 ایک مفرد عدد ہے۔",
+      "correctAnswer": false,
+      "explanation": "57 is divisible by 3 (3 × 19 = 57)",
+      "explanation_ur": "57 تقسیم ہوتا ہے 3 سے (3 × 19 = 57)",
+      "hint": "Check divisibility by 3",
+      "hint_ur": "3 سے تقسیم پذیری چیک کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 112,
+      "type": "mcq",
+      "question": "What is 4 squared (4²)?",
+      "question_ur": "4 مربع (4²) کیا ہے؟",
+      "options": {
+        "en": ["8", "12", "16", "20"],
+        "ur": ["8", "12", "16", "20"]
+      },
+      "correctAnswer": 2,
+      "explanation": "4 squared means 4 multiplied by itself: 4 × 4 = 16",
+      "explanation_ur": "4 مربع کا مطلب ہے 4 کو خود سے ضرب دینا: 4 × 4 = 16",
+      "hint": "Multiply the number by itself",
+      "hint_ur": "عدد کو خود سے ضرب دیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 113,
+      "type": "mcq",
+      "question": "How many meters are in a kilometer?",
+      "question_ur": "ایک کلومیٹر میں کتنے میٹر ہوتے ہیں؟",
+      "options": {
+        "en": ["10", "100", "1000", "10000"],
+        "ur": ["10", "100", "1000", "10000"]
+      },
+      "correctAnswer": 2,
+      "explanation": "1 kilometer equals 1000 meters",
+      "explanation_ur": "1 کلومیٹر 1000 میٹر کے برابر ہے",
+      "hint": "The prefix 'kilo-' means thousand",
+      "hint_ur": "'کلو' کا مطلب ہزار ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 114,
+      "type": "true-false",
+      "question": "22/7 is the exact value of π (pi).",
+      "question_ur": "22/7 π (پائی) کی صحیح قیمت ہے۔",
+      "correctAnswer": false,
+      "explanation": "22/7 is only an approximation of π (actual π is irrational)",
+      "explanation_ur": "22/7 صرف π کا تقریبی اندازہ ہے (حقیقی π غیر معقول ہے)",
+      "hint": "π cannot be expressed exactly as a fraction",
+      "hint_ur": "π کو بالکل کسر کے طور پر ظاہر نہیں کیا جا سکتا",
+      "timeLimit": 20
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "question": "What is 1/5 + 2/5?",
+      "question_ur": "1/5 جمع 2/5 کیا ہے؟",
+      "options": {
+        "en": ["1/5", "2/5", "3/5", "4/5"],
+        "ur": ["1/5", "2/5", "3/5", "4/5"]
+      },
+      "correctAnswer": 2,
+      "explanation": "When denominators are same, add numerators: 1/5 + 2/5 = 3/5",
+      "explanation_ur": "جب نسب نما ایک جیسے ہوں، تقسیم کنندگان کو جمع کریں: 1/5 + 2/5 = 3/5",
+      "hint": "Keep the denominator the same",
+      "hint_ur": "نسب نما کو ایک جیسا رکھیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 116,
+      "type": "mcq",
+      "question": "What is 30% of 200?",
+      "question_ur": "200 کا 30% کیا ہے؟",
+      "options": {
+        "en": ["30", "60", "90", "120"],
+        "ur": ["30", "60", "90", "120"]
+      },
+      "correctAnswer": 1,
+      "explanation": "30% of 200 = 0.30 × 200 = 60",
+      "explanation_ur": "200 کا 30% = 0.30 × 200 = 60",
+      "hint": "Convert percentage to decimal and multiply",
+      "hint_ur": "فیصد کو اعشاریہ میں تبدیل کریں اور ضرب دیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 117,
+      "type": "true-false",
+      "question": "All rhombuses are squares.",
+      "question_ur": "تمام معین مربع ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Only rhombuses with all angles equal to 90° are squares",
+      "explanation_ur": "صرف وہ معین جن کے تمام زاویے 90° کے برابر ہوں مربع ہوتے ہیں",
+      "hint": "Think about diamond shapes",
+      "hint_ur": "ہیرے کی شکل کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 118,
+      "type": "mcq",
+      "question": "What is the perimeter of a rectangle with length 8 cm and width 5 cm?",
+      "question_ur": "لمبائی 8 سینٹی میٹر اور چوڑائی 5 سینٹی میٹر والے مستطیل کا محیط کیا ہے؟",
+      "options": {
+        "en": ["13 cm", "21 cm", "26 cm", "40 cm"],
+        "ur": ["13 سینٹی میٹر", "21 سینٹی میٹر", "26 سینٹی میٹر", "40 سینٹی میٹر"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Perimeter = 2 × (length + width) = 2 × (8 + 5) = 26 cm",
+      "explanation_ur": "محیط = 2 × (لمبائی + چوڑائی) = 2 × (8 + 5) = 26 سینٹی میٹر",
+      "hint": "Add all four sides",
+      "hint_ur": "چاروں اطراف کو جمع کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 119,
+      "type": "mcq",
+      "question": "What is 0.125 expressed as a fraction?",
+      "question_ur": "0.125 کو کسر کے طور پر کیا ظاہر کیا جاتا ہے؟",
+      "options": {
+        "en": ["1/4", "1/6", "1/8", "1/10"],
+        "ur": ["1/4", "1/6", "1/8", "1/10"]
+      },
+      "correctAnswer": 2,
+      "explanation": "0.125 = 125/1000 = 1/8",
+      "explanation_ur": "0.125 = 125/1000 = 1/8",
+      "hint": "Think of an eighth",
+      "hint_ur": "ایک آٹھویں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 120,
+      "type": "true-false",
+      "question": "The product of a positive and negative number is positive.",
+      "question_ur": "ایک مثبت اور منفی عدد کا حاصل ضرب مثبت ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Positive × negative = negative is a fundamental rule",
+      "explanation_ur": "مثبت × منفی = منفی ایک بنیادی اصول ہے",
+      "hint": "Think about the rules of signs",
+      "hint_ur": "علامتوں کے اصولوں کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 121,
+      "type": "mcq",
+      "question": "What is the area of a square with side length 6 cm?",
+      "question_ur": "6 سینٹی میٹر کی طرف کی لمبائی والے مربع کا رقبہ کیا ہے؟",
+      "options": {
+        "en": ["12 cm²", "24 cm²", "36 cm²", "48 cm²"],
+        "ur": ["12 سینٹی میٹر²", "24 سینٹی میٹر²", "36 سینٹی میٹر²", "48 سینٹی میٹر²"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Area = side × side = 6 × 6 = 36 cm²",
+      "explanation_ur": "رقبہ = طرف × طرف = 6 × 6 = 36 سینٹی میٹر²",
+      "hint": "Multiply the side by itself",
+      "hint_ur": "طرف کو خود سے ضرب دیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 122,
+      "type": "mcq",
+      "question": "What is the next prime number after 11?",
+      "question_ur": "11 کے بعد اگلا مفرد عدد کون سا ہے؟",
+      "options": {
+        "en": ["12", "13", "14", "15"],
+        "ur": ["12", "13", "14", "15"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The sequence of prime numbers is 2, 3, 5, 7, 11, 13,...",
+      "explanation_ur": "مفرد اعداد کا سلسلہ ہے 2، 3، 5، 7، 11، 13,...",
+      "hint": "Check which number has only two divisors",
+      "hint_ur": "چیک کریں کہ کس عدد کے صرف دو تقسیم کنندگان ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 123,
+      "type": "true-false",
+      "question": "A trapezoid has exactly one pair of parallel sides.",
+      "question_ur": "ایک ذوذنقہ کے بالکل ایک جوڑ متوازی اطراف ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "By definition, a trapezoid has exactly one pair of parallel sides",
+      "explanation_ur": "تعریف کے مطابق، ذوذنقہ کے بالکل ایک جوڑ متوازی اطراف ہوتے ہیں",
+      "hint": "Think of a tabletop shape",
+      "hint_ur": "میز کی شکل کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 124,
+      "type": "mcq",
+      "question": "What is 2/5 expressed as a percentage?",
+      "question_ur": "2/5 کو فیصد کے طور پر کیا ظاہر کیا جاتا ہے؟",
+      "options": {
+        "en": ["20%", "40%", "60%", "80%"],
+        "ur": ["20%", "40%", "60%", "80%"]
+      },
+      "correctAnswer": 1,
+      "explanation": "2/5 = 0.40 = 40%",
+      "explanation_ur": "2/5 = 0.40 = 40%",
+      "hint": "Divide numerator by denominator and multiply by 100",
+      "hint_ur": "تقسیم کنندہ کو نسب نما سے تقسیم کریں اور 100 سے ضرب دیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 125,
+      "type": "mcq",
+      "question": "What is the value of 6! (6 factorial)?",
+      "question_ur": "6! (6 فیکٹوریل) کی قیمت کیا ہے؟",
+      "options": {
+        "en": ["120", "360", "720", "1440"],
+        "ur": ["120", "360", "720", "1440"]
+      },
+      "correctAnswer": 2,
+      "explanation": "6! = 6 × 5 × 4 × 3 × 2 × 1 = 720",
+      "explanation_ur": "6! = 6 × 5 × 4 × 3 × 2 × 1 = 720",
+      "hint": "Multiply all integers from 1 to 6",
+      "hint_ur": "1 سے 6 تک تمام اعداد کو ضرب دیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 126,
+      "type": "true-false",
+      "question": "The difference between any two odd numbers is always even.",
+      "question_ur": "کسی بھی دو طاق اعداد کا فرق ہمیشہ جفت ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Odd - odd = even (e.g., 7 - 3 = 4)",
+      "explanation_ur": "طاق - طاق = جفت (مثال کے طور پر، 7 - 3 = 4)",
+      "hint": "Try subtracting different odd numbers",
+      "hint_ur": "مختلف طاق اعداد کو منفی کرنے کی کوشش کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 127,
+      "type": "mcq",
+      "question": "What is the Roman numeral for 100?",
+      "question_ur": "100 کا رومن ہندسہ کیا ہے؟",
+      "options": {
+        "en": ["C", "D", "L", "M"],
+        "ur": ["C", "D", "L", "M"]
+      },
+      "correctAnswer": 0,
+      "explanation": "C represents 100 in Roman numerals",
+      "explanation_ur": "C رومن ہندسوں میں 100 کو ظاہر کرتا ہے",
+      "hint": "It's not D or M",
+      "hint_ur": "یہ D یا M نہیں ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 128,
+      "type": "mcq",
+      "question": "What is the average of 10, 20, and 30?",
+      "question_ur": "10، 20، اور 30 کا اوسط کیا ہے؟",
+      "options": {
+        "en": ["15", "20", "25", "30"],
+        "ur": ["15", "20", "25", "30"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Average = (10 + 20 + 30)/3 = 60/3 = 20",
+      "explanation_ur": "اوسط = (10 + 20 + 30)/3 = 60/3 = 20",
+      "hint": "Add all numbers and divide by count",
+      "hint_ur": "تمام اعداد کو جمع کریں اور گنتی سے تقسیم کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 129,
+      "type": "true-false",
+      "question": "All integers are positive numbers.",
+      "question_ur": "تمام صحیح اعداد مثبت اعداد ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Integers include negative numbers and zero",
+      "explanation_ur": "صحیح اعداد میں منفی اعداد اور صفر شامل ہوتے ہیں",
+      "hint": "Think about numbers below zero",
+      "hint_ur": "صفر سے نیچے کے اعداد کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 130,
+      "type": "mcq",
+      "question": "What is 1/6 + 1/3?",
+      "question_ur": "1/6 جمع 1/3 کیا ہے؟",
+      "options": {
+        "en": ["1/9", "1/4", "1/2", "2/3"],
+        "ur": ["1/9", "1/4", "1/2", "2/3"]
+      },
+      "correctAnswer": 2,
+      "explanation": "1/3 = 2/6, so 1/6 + 2/6 = 3/6 = 1/2",
+      "explanation_ur": "1/3 = 2/6، لہذا 1/6 + 2/6 = 3/6 = 1/2",
+      "hint": "Find common denominator (6)",
+      "hint_ur": "مشترکہ نسب نما (6) تلاش کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 131,
+      "type": "mcq",
+      "question": "What is 5 to the power of 2 (5²)?",
+      "question_ur": "5 کی طاقت 2 (5²) کیا ہے؟",
+      "options": {
+        "en": ["10", "15", "20", "25"],
+        "ur": ["10", "15", "20", "25"]
+      },
+      "correctAnswer": 3,
+      "explanation": "5² = 5 × 5 = 25",
+      "explanation_ur": "5² = 5 × 5 = 25",
+      "hint": "Multiply the number by itself",
+      "hint_ur": "عدد کو خود سے ضرب دیں",
+      "timeLimit": 10
+    },
+    {
+      "id": 132,
+      "type": "true-false",
+      "question": "A rectangle has all sides equal.",
+      "question_ur": "ایک مستطیل کے تمام اطراف برابر ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Only rectangles with all sides equal are squares",
+      "explanation_ur": "صرف وہ مستطیل جن کے تمام اطراف برابر ہوں مربع ہوتے ہیں",
+      "hint": "Think about length vs width",
+      "hint_ur": "لمبائی بمقابلہ چوڑائی کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 133,
+      "type": "mcq",
+      "question": "What is the largest single-digit prime number?",
+      "question_ur": "سب سے بڑا ایک ہندسی مفرد عدد کون سا ہے؟",
+      "options": {
+        "en": ["5", "7", "9", "11"],
+        "ur": ["5", "7", "9", "11"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Single-digit primes are 2, 3, 5, 7 (7 is largest)",
+      "explanation_ur": "ایک ہندسی مفرد اعداد ہیں 2، 3، 5، 7 (7 سب سے بڑا ہے)",
+      "hint": "It's less than 10",
+      "hint_ur": "یہ 10 سے کم ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 134,
+      "type": "mcq",
+      "question": "What is 0.6 expressed as a fraction?",
+      "question_ur": "0.6 کو کسر کے طور پر کیا ظاہر کیا جاتا ہے؟",
+      "options": {
+        "en": ["1/6", "3/5", "2/3", "6/10"],
+        "ur": ["1/6", "3/5", "2/3", "6/10"]
+      },
+      "correctAnswer": 1,
+      "explanation": "0.6 = 6/10 = 3/5",
+      "explanation_ur": "0.6 = 6/10 = 3/5",
+      "hint": "Simplify 6/10",
+      "hint_ur": "6/10 کو آسان بنائیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 135,
+      "type": "true-false",
+      "question": "The number 1 is a composite number.",
+      "question_ur": "نمبر 1 ایک مرکب عدد ہے۔",
+      "correctAnswer": false,
+      "explanation": "1 is neither prime nor composite by definition",
+      "explanation_ur": "تعریف کے مطابق 1 نہ تو مفرد ہے اور نہ ہی مرکب",
+      "hint": "Composite numbers have more than two factors",
+      "hint_ur": "مرکب اعداد کے دو سے زیادہ عوامل ہوتے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 136,
+      "type": "mcq",
+      "question": "What is the greatest common divisor (GCD) of 12 and 18?",
+      "question_ur": "12 اور 18 کا عظیم ترین مشترکہ تقسیم کنندہ (GCD) کیا ہے؟",
+      "options": {
+        "en": ["2", "3", "6", "9"],
+        "ur": ["2", "3", "6", "9"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Factors of 12: 1,2,3,4,6,12; Factors of 18: 1,2,3,6,9,18; GCD is 6",
+      "explanation_ur": "12 کے عوامل: 1,2,3,4,6,12; 18 کے عوامل: 1,2,3,6,9,18; GCD 6 ہے",
+      "hint": "Find the largest common factor",
+      "hint_ur": "سب سے بڑا مشترکہ عامل تلاش کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 137,
+      "type": "mcq",
+      "question": "How many degrees are in a right angle?",
+      "question_ur": "ایک صحیح زاویہ میں کتنے ڈگری ہوتے ہیں؟",
+      "options": {
+        "en": ["45°", "90°", "180°", "360°"],
+        "ur": ["45°", "90°", "180°", "360°"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A right angle measures exactly 90 degrees",
+      "explanation_ur": "ایک صحیح زاویہ بالکل 90 ڈگری کا ہوتا ہے",
+      "hint": "Think of the corner of a square",
+      "hint_ur": "مربع کے کونے کے بارے میں سوچیں",
+      "timeLimit": 10
+    },
+    {
+      "id": 138,
+      "type": "true-false",
+      "question": "The sum of the angles in an octagon is 1080 degrees.",
+      "question_ur": "ایک ثمانی میں زاویوں کا مجموعہ 1080 ڈگری ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "The formula is (n-2)×180° where n is number of sides: (8-2)×180° = 1080°",
+      "explanation_ur": "فارمولا ہے (n-2)×180° جہاں n اطراف کی تعداد ہے: (8-2)×180° = 1080°",
+      "hint": "An octagon has 8 sides",
+      "hint_ur": "ثمانی کے 8 اطراف ہوتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 139,
+      "type": "mcq",
+      "question": "What is the decimal equivalent of 5/8?",
+      "question_ur": "5/8 کا اعشاریہ مساوی کیا ہے؟",
+      "options": {
+        "en": ["0.375", "0.5", "0.625", "0.875"],
+        "ur": ["0.375", "0.5", "0.625", "0.875"]
+      },
+      "correctAnswer": 2,
+      "explanation": "5 ÷ 8 = 0.625",
+      "explanation_ur": "5 ÷ 8 = 0.625",
+      "hint": "Divide numerator by denominator",
+      "hint_ur": "تقسیم کنندہ کو نسب نما سے تقسیم کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 140,
+      "type": "mcq",
+      "question": "What is the least common multiple (LCM) of 6 and 8?",
+      "question_ur": "6 اور 8 کا کم ترین مشترکہ ضرب (LCM) کیا ہے؟",
+      "options": {
+        "en": ["12", "16", "24", "48"],
+        "ur": ["12", "16", "24", "48"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Multiples of 6: 6,12,18,24,...; Multiples of 8: 8,16,24,32,...; LCM is 24",
+      "explanation_ur": "6 کے ضربی: 6,12,18,24,...; 8 کے ضربی: 8,16,24,32,...; LCM 24 ہے",
+      "hint": "Find the smallest number in both lists",
+      "hint_ur": "دونوں فہرستوں میں سب سے چھوٹا عدد تلاش کریں",
+      "timeLimit": 25
+    },
+    {
+      "id": 141,
+      "type": "true-false",
+      "question": "The product of any two even numbers is always even.",
+      "question_ur": "کسی بھی دو جفت اعداد کا حاصل ضرب ہمیشہ جفت ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Even × even = even (e.g., 4 × 6 = 24)",
+      "explanation_ur": "جفت × جفت = جفت (مثال کے طور پر، 4 × 6 = 24)",
+      "hint": "Try multiplying different even numbers",
+      "hint_ur": "مختلف جفت اعداد کو ضرب دینے کی کوشش کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 142,
+      "type": "mcq",
+      "question": "What is the formula for the area of a circle?",
+      "question_ur": "دائرے کے رقبے کا فارمولا کیا ہے؟",
+      "options": {
+        "en": ["π × radius", "π × radius²", "2 × π × radius", "π × diameter"],
+        "ur": ["π × رداس", "π × رداس²", "2 × π × رداس", "π × قطر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Area of circle = π × radius²",
+      "explanation_ur": "دائرے کا رقبہ = π × رداس²",
+      "hint": "It involves squaring the radius",
+      "hint_ur": "اس میں رداس کو مربع کرنا شامل ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 143,
+      "type": "mcq",
+      "question": "What is 8 to the power of 0 (8⁰)?",
+      "question_ur": "8 کی طاقت 0 (8⁰) کیا ہے؟",
+      "options": {
+        "en": ["0", "1", "8", "80"],
+        "ur": ["0", "1", "8", "80"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Any non-zero number to the power of 0 equals 1",
+      "explanation_ur": "کوئی بھی غیر صفر عدد 0 کی طاقت پر 1 کے برابر ہوتا ہے",
+      "hint": "Remember the exponent rule",
+      "hint_ur": "قوت نما کے اصول کو یاد کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 144,
+      "type": "true-false",
+      "question": "An isosceles triangle can have three different side lengths.",
+      "question_ur": "ایک متساوی الساقین مثلث کے تین مختلف اطراف کی لمبائیاں ہو سکتی ہیں۔",
+      "correctAnswer": false,
+      "explanation": "By definition, an isosceles triangle has at least two equal sides",
+      "explanation_ur": "تعریف کے مطابق، متساوی الساقین مثلث کے کم از کم دو برابر اطراف ہوتے ہیں",
+      "hint": "'Isosceles' means equal legs",
+      "hint_ur": "'متساوی الساقین' کا مطلب برابر ٹانگیں ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 145,
+      "type": "mcq",
+      "question": "What is the value of π (pi) rounded to four decimal places?",
+      "question_ur": "چار اعشاری مقامات تک گول کرنے پر π (پائی) کی قیمت کیا ہے؟",
+      "options": {
+        "en": ["3.1415", "3.1416", "3.1428", "3.1419"],
+        "ur": ["3.1415", "3.1416", "3.1428", "3.1419"]
+      },
+      "correctAnswer": 1,
+      "explanation": "π ≈ 3.141592..., which rounds to 3.1416",
+      "explanation_ur": "π ≈ 3.141592..., جو 3.1416 تک گول ہوتا ہے",
+      "hint": "Remember 3.14159...",
+      "hint_ur": "3.14159... یاد رکھیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 146,
+      "type": "mcq",
+      "question": "What is 15% of 300?",
+      "question_ur": "300 کا 15% کیا ہے؟",
+      "options": {
+        "en": ["30", "45", "60", "75"],
+        "ur": ["30", "45", "60", "75"]
+      },
+      "correctAnswer": 1,
+      "explanation": "15% of 300 = 0.15 × 300 = 45",
+      "explanation_ur": "300 کا 15% = 0.15 × 300 = 45",
+      "hint": "10% is 30, 5% is 15, so 15% is 45",
+      "hint_ur": "10% ہے 30، 5% ہے 15، لہذا 15% ہے 45",
+      "timeLimit": 20
+    },
+    {
+      "id": 147,
+      "type": "true-false",
+      "question": "The number 0 is a positive integer.",
+      "question_ur": "نمبر 0 ایک مثبت صحیح عدد ہے۔",
+      "correctAnswer": false,
+      "explanation": "0 is neither positive nor negative",
+      "explanation_ur": "0 نہ تو مثبت ہے اور نہ ہی منفی",
+      "hint": "Positive numbers are greater than zero",
+      "hint_ur": "مثبت اعداد صفر سے بڑے ہوتے ہیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 148,
+      "type": "mcq",
+      "question": "What is the reciprocal of 8?",
+      "question_ur": "8 کا متبادل کیا ہے؟",
+      "options": {
+        "en": ["-8", "0.125", "0.8", "1.8"],
+        "ur": ["-8", "0.125", "0.8", "1.8"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Reciprocal of 8 is 1/8 = 0.125",
+      "explanation_ur": "8 کا متبادل 1/8 = 0.125 ہے",
+      "hint": "Flip the numerator and denominator",
+      "hint_ur": "تقسیم کنندہ اور نسب نما کو الٹ دیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 149,
+      "type": "mcq",
+      "question": "What is the perimeter of an equilateral triangle with side length 9 cm?",
+      "question_ur": "9 سینٹی میٹر کی طرف کی لمبائی والے متساوی الاضلاع مثلث کا محیط کیا ہے؟",
+      "options": {
+        "en": ["18 cm", "27 cm", "36 cm", "45 cm"],
+        "ur": ["18 سینٹی میٹر", "27 سینٹی میٹر", "36 سینٹی میٹر", "45 سینٹی میٹر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Perimeter = 3 × side length = 3 × 9 = 27 cm",
+      "explanation_ur": "محیط = 3 × طرف کی لمبائی = 3 × 9 = 27 سینٹی میٹر",
+      "hint": "All three sides are equal",
+      "hint_ur": "تینوں اطراف برابر ہوتے ہیں",
+      "timeLimit": 20
+    },
+    
+    {
+      "id": 150,
+      "type": "mcq",
+      "question": "What is 14 + 23?",
+      "question_ur": "14 جمع 23 کیا ہے؟",
+      "options": {
+        "en": ["35", "37", "39", "41"],
+        "ur": ["35", "37", "39", "41"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Basic addition: 14 + 23 = 37",
+      "explanation_ur": "بنیادی جمع: 14 + 23 = 37",
+      "hint": "Add 10 + 20 and 4 + 3 separately",
+      "hint_ur": "10 + 20 اور 4 + 3 الگ الگ جمع کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 151,
+      "type": "mcq",
+      "question": "What is 7 × 6?",
+      "question_ur": "7 ضرب 6 کیا ہے؟",
+      "options": {
+        "en": ["35", "42", "49", "56"],
+        "ur": ["35", "42", "49", "56"]
+      },
+      "correctAnswer": 1,
+      "explanation": "7 multiplied by 6 equals 42",
+      "explanation_ur": "7 کو 6 سے ضرب دینے پر 42 آتا ہے",
+      "hint": "Remember your multiplication tables",
+      "hint_ur": "اپنی ضرب کے جدول یاد کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 152,
+      "type": "true-false",
+      "question": "The square root of 64 is 8.",
+      "question_ur": "64 کا مربع جذر 8 ہے۔",
+      "correctAnswer": true,
+      "explanation": "8 × 8 = 64, so √64 = 8",
+      "explanation_ur": "8 × 8 = 64، لہذا √64 = 8",
+      "hint": "What number multiplied by itself gives 64?",
+      "hint_ur": "کون سا نمبر خود سے ضرب دینے پر 64 دیتا ہے؟",
+      "timeLimit": 15
+    },
+    {
+      "id": 153,
+      "type": "mcq",
+      "question": "What is 25 - 13?",
+      "question_ur": "25 منفی 13 کیا ہے؟",
+      "options": {
+        "en": ["10", "12", "13", "15"],
+        "ur": ["10", "12", "13", "15"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Basic subtraction: 25 - 13 = 12",
+      "explanation_ur": "بنیادی تفریق: 25 - 13 = 12",
+      "hint": "Count backwards from 25",
+      "hint_ur": "25 سے پیچھے کی طرف گنیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 154,
+      "type": "mcq",
+      "question": "How many sides does a heptagon have?",
+      "question_ur": "ایک ہفت اضلاعی کے کتنے اطراف ہوتے ہیں؟",
+      "options": {
+        "en": ["5", "6", "7", "8"],
+        "ur": ["5", "6", "7", "8"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A heptagon has seven sides ('hepta-' means seven)",
+      "explanation_ur": "ہفت اضلاعی کے سات اطراف ہوتے ہیں ('ہیپٹا' کا مطلب سات ہے)",
+      "hint": "Think of the prefix 'hepta-'",
+      "hint_ur": "'ہیپٹا' سابقے کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 155,
+      "type": "true-false",
+      "question": "All multiples of 3 are odd numbers.",
+      "question_ur": "3 کے تمام ضربی طاق اعداد ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "6 is a multiple of 3 and is even",
+      "explanation_ur": "6 تین کا ضربی ہے اور جفت ہے",
+      "hint": "Consider 3 × 2",
+      "hint_ur": "3 × 2 پر غور کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 156,
+      "type": "mcq",
+      "question": "What is 36 ÷ 9?",
+      "question_ur": "36 تقسیم 9 کیا ہے؟",
+      "options": {
+        "en": ["3", "4", "6", "9"],
+        "ur": ["3", "4", "6", "9"]
+      },
+      "correctAnswer": 1,
+      "explanation": "36 divided by 9 equals 4",
+      "explanation_ur": "36 کو 9 سے تقسیم کرنے پر 4 آتا ہے",
+      "hint": "How many 9s make 36?",
+      "hint_ur": "36 بنانے کے لیے کتنے 9 درکار ہیں؟",
+      "timeLimit": 15
+    },
+    {
+      "id": 157,
+      "type": "mcq",
+      "question": "What is the next number in the sequence: 2, 4, 8, 16, ___?",
+      "question_ur": "سلسلہ میں اگلا نمبر کیا ہے: 2، 4، 8، 16، ___؟",
+      "options": {
+        "en": ["20", "24", "32", "64"],
+        "ur": ["20", "24", "32", "64"]
+      },
+      "correctAnswer": 2,
+      "explanation": "This is a sequence where each number is multiplied by 2",
+      "explanation_ur": "یہ ایک سلسلہ ہے جہاں ہر عدد کو 2 سے ضرب دیا جاتا ہے",
+      "hint": "Each number doubles the previous one",
+      "hint_ur": "ہر عدد پچھلے عدد سے دوگنا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 158,
+      "type": "true-false",
+      "question": "A straight angle measures exactly 180 degrees.",
+      "question_ur": "ایک سیدھا زاویہ بالکل 180 ڈگری کا ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "By definition, a straight angle forms a straight line",
+      "explanation_ur": "تعریف کے مطابق، سیدھا زاویہ ایک سیدھی لکیر بناتا ہے",
+      "hint": "Think of a straight line",
+      "hint_ur": "سیدھی لکیر کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 159,
+      "type": "mcq",
+      "question": "What is 8 × 7?",
+      "question_ur": "8 ضرب 7 کیا ہے؟",
+      "options": {
+        "en": ["48", "56", "64", "72"],
+        "ur": ["48", "56", "64", "72"]
+      },
+      "correctAnswer": 1,
+      "explanation": "8 multiplied by 7 equals 56",
+      "explanation_ur": "8 کو 7 سے ضرب دینے پر 56 آتا ہے",
+      "hint": "Remember your multiplication tables",
+      "hint_ur": "اپنی ضرب کے جدول یاد کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 160,
+      "type": "mcq",
+      "question": "What is the sum of the angles in a heptagon?",
+      "question_ur": "ایک ہفت اضلاعی میں زاویوں کا مجموعہ کیا ہے؟",
+      "options": {
+        "en": ["720°", "900°", "1080°", "1260°"],
+        "ur": ["720°", "900°", "1080°", "1260°"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The formula is (n-2)×180° where n is number of sides: (7-2)×180° = 900°",
+      "explanation_ur": "فارمولا ہے (n-2)×180° جہاں n اطراف کی تعداد ہے: (7-2)×180° = 900°",
+      "hint": "A heptagon has 7 sides",
+      "hint_ur": "ہفت اضلاعی کے 7 اطراف ہوتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 161,
+      "type": "true-false",
+      "question": "The number 91 is a prime number.",
+      "question_ur": "نمبر 91 ایک مفرد عدد ہے۔",
+      "correctAnswer": false,
+      "explanation": "91 is divisible by 7 and 13 (7 × 13 = 91)",
+      "explanation_ur": "91 تقسیم ہوتا ہے 7 اور 13 سے (7 × 13 = 91)",
+      "hint": "Check divisibility by 7",
+      "hint_ur": "7 سے تقسیم پذیری چیک کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 162,
+      "type": "mcq",
+      "question": "What is 10 squared (10²)?",
+      "question_ur": "10 مربع (10²) کیا ہے؟",
+      "options": {
+        "en": ["20", "50", "100", "200"],
+        "ur": ["20", "50", "100", "200"]
+      },
+      "correctAnswer": 2,
+      "explanation": "10 squared means 10 multiplied by itself: 10 × 10 = 100",
+      "explanation_ur": "10 مربع کا مطلب ہے 10 کو خود سے ضرب دینا: 10 × 10 = 100",
+      "hint": "Count the number of zeros",
+      "hint_ur": "صفر کی تعداد گنیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 163,
+      "type": "mcq",
+      "question": "How many grams are in a kilogram?",
+      "question_ur": "ایک کلوگرام میں کتنے گرام ہوتے ہیں؟",
+      "options": {
+        "en": ["10", "100", "1000", "10000"],
+        "ur": ["10", "100", "1000", "10000"]
+      },
+      "correctAnswer": 2,
+      "explanation": "1 kilogram equals 1000 grams",
+      "explanation_ur": "1 کلوگرام 1000 گرام کے برابر ہے",
+      "hint": "The prefix 'kilo-' means thousand",
+      "hint_ur": "'کلو' کا مطلب ہزار ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 164,
+      "type": "true-false",
+      "question": "The ratio of a circle's circumference to its diameter is exactly 3.",
+      "question_ur": "دائرے کے محیط کا اس کے قطر سے تناسب بالکل 3 ہے۔",
+      "correctAnswer": false,
+      "explanation": "The ratio is π (pi), which is approximately 3.1416",
+      "explanation_ur": "تناسب π (پائی) ہے، جو تقریباً 3.1416 ہے",
+      "hint": "Remember the value of π",
+      "hint_ur": "π کی قیمت یاد رکھیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 165,
+      "type": "mcq",
+      "question": "What is 3/4 + 1/8?",
+      "question_ur": "3/4 جمع 1/8 کیا ہے؟",
+      "options": {
+        "en": ["1/4", "5/8", "7/8", "1"],
+        "ur": ["1/4", "5/8", "7/8", "1"]
+      },
+      "correctAnswer": 2,
+      "explanation": "3/4 = 6/8, so 6/8 + 1/8 = 7/8",
+      "explanation_ur": "3/4 = 6/8، لہذا 6/8 + 1/8 = 7/8",
+      "hint": "Find common denominator (8)",
+      "hint_ur": "مشترکہ نسب نما (8) تلاش کریں",
+      "timeLimit": 25
+    },
+    {
+      "id": 166,
+      "type": "mcq",
+      "question": "What is 25% of 80?",
+      "question_ur": "80 کا 25% کیا ہے؟",
+      "options": {
+        "en": ["15", "20", "25", "30"],
+        "ur": ["15", "20", "25", "30"]
+      },
+      "correctAnswer": 1,
+      "explanation": "25% of 80 = 0.25 × 80 = 20",
+      "explanation_ur": "80 کا 25% = 0.25 × 80 = 20",
+      "hint": "25% is the same as 1/4",
+      "hint_ur": "25% 1/4 کے برابر ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 167,
+      "type": "true-false",
+      "question": "All kites are rhombuses.",
+      "question_ur": "تمام پتنگے معین ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Only kites with all sides equal are rhombuses",
+      "explanation_ur": "صرف وہ پتنگے جن کے تمام اطراف برابر ہوں معین ہوتے ہیں",
+      "hint": "Think about diamond shapes",
+      "hint_ur": "ہیرے کی شکل کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 168,
+      "type": "mcq",
+      "question": "What is the perimeter of a regular pentagon with side length 5 cm?",
+      "question_ur": "5 سینٹی میٹر کی طرف کی لمبائی والے باقاعدہ مخمس کا محیط کیا ہے؟",
+      "options": {
+        "en": ["15 cm", "20 cm", "25 cm", "30 cm"],
+        "ur": ["15 سینٹی میٹر", "20 سینٹی میٹر", "25 سینٹی میٹر", "30 سینٹی میٹر"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Perimeter = 5 × side length = 5 × 5 = 25 cm",
+      "explanation_ur": "محیط = 5 × طرف کی لمبائی = 5 × 5 = 25 سینٹی میٹر",
+      "hint": "A pentagon has 5 sides",
+      "hint_ur": "مخمس کے 5 اطراف ہوتے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 169,
+      "type": "mcq",
+      "question": "What is 0.333... expressed as a fraction?",
+      "question_ur": "0.333... کو کسر کے طور پر کیا ظاہر کیا جاتا ہے؟",
+      "options": {
+        "en": ["1/4", "1/3", "3/8", "2/5"],
+        "ur": ["1/4", "1/3", "3/8", "2/5"]
+      },
+      "correctAnswer": 1,
+      "explanation": "0.333... (repeating) is equal to 1/3",
+      "explanation_ur": "0.333... (دہرانا) 1/3 کے برابر ہے",
+      "hint": "Think of one third",
+      "hint_ur": "ایک تہائی کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 170,
+      "type": "true-false",
+      "question": "The quotient of two negative numbers is negative.",
+      "question_ur": "دو منفی اعداد کا حاصل تقسیم منفی ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Negative ÷ negative = positive is a fundamental rule",
+      "explanation_ur": "منفی ÷ منفی = مثبت ایک بنیادی اصول ہے",
+      "hint": "Think about the rules of signs",
+      "hint_ur": "علامتوں کے اصولوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 171,
+      "type": "mcq",
+      "question": "What is the area of a triangle with base 6 cm and height 4 cm?",
+      "question_ur": "6 سینٹی میٹر بنیاد اور 4 سینٹی میٹر اونچائی والے مثلث کا رقبہ کیا ہے؟",
+      "options": {
+        "en": ["10 cm²", "12 cm²", "18 cm²", "24 cm²"],
+        "ur": ["10 سینٹی میٹر²", "12 سینٹی میٹر²", "18 سینٹی میٹر²", "24 سینٹی میٹر²"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Area = ½ × base × height = ½ × 6 × 4 = 12 cm²",
+      "explanation_ur": "رقبہ = ½ × بنیاد × اونچائی = ½ × 6 × 4 = 12 سینٹی میٹر²",
+      "hint": "Use the triangle area formula",
+      "hint_ur": "مثلث کے رقبے کا فارمولا استعمال کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 172,
+      "type": "mcq",
+      "question": "What is the next prime number after 13?",
+      "question_ur": "13 کے بعد اگلا مفرد عدد کون سا ہے؟",
+      "options": {
+        "en": ["14", "15", "17", "19"],
+        "ur": ["14", "15", "17", "19"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The sequence of prime numbers is 2, 3, 5, 7, 11, 13, 17,...",
+      "explanation_ur": "مفرد اعداد کا سلسلہ ہے 2، 3، 5، 7، 11، 13، 17,...",
+      "hint": "Check which number has only two divisors",
+      "hint_ur": "چیک کریں کہ کس عدد کے صرف دو تقسیم کنندگان ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 173,
+      "type": "true-false",
+      "question": "A parallelogram has at least one right angle.",
+      "question_ur": "ایک متوازی الاضلاع کے کم از کم ایک صحیح زاویہ ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Only rectangles (a type of parallelogram) have right angles",
+      "explanation_ur": "صرف مستطیل (متوازی الاضلاع کی ایک قسم) کے صحیح زاویے ہوتے ہیں",
+      "hint": "Think about slanted parallelograms",
+      "hint_ur": "جھکے ہوئے متوازی الاضلاع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 174,
+      "type": "mcq",
+      "question": "What is 3/8 expressed as a percentage?",
+      "question_ur": "3/8 کو فیصد کے طور پر کیا ظاہر کیا جاتا ہے؟",
+      "options": {
+        "en": ["25%", "37.5%", "50%", "62.5%"],
+        "ur": ["25%", "37.5%", "50%", "62.5%"]
+      },
+      "correctAnswer": 1,
+      "explanation": "3 ÷ 8 = 0.375 = 37.5%",
+      "explanation_ur": "3 ÷ 8 = 0.375 = 37.5%",
+      "hint": "Divide numerator by denominator and multiply by 100",
+      "hint_ur": "تقسیم کنندہ کو نسب نما سے تقسیم کریں اور 100 سے ضرب دیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 175,
+      "type": "mcq",
+      "question": "What is the value of 5! (5 factorial)?",
+      "question_ur": "5! (5 فیکٹوریل) کی قیمت کیا ہے؟",
+      "options": {
+        "en": ["60", "120", "240", "720"],
+        "ur": ["60", "120", "240", "720"]
+      },
+      "correctAnswer": 1,
+      "explanation": "5! = 5 × 4 × 3 × 2 × 1 = 120",
+      "explanation_ur": "5! = 5 × 4 × 3 × 2 × 1 = 120",
+      "hint": "Multiply all integers from 1 to 5",
+      "hint_ur": "1 سے 5 تک تمام اعداد کو ضرب دیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 176,
+      "type": "true-false",
+      "question": "The product of an even and odd number is always odd.",
+      "question_ur": "ایک جفت اور طاق عدد کا حاصل ضرب ہمیشہ طاق ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Even × odd = even (e.g., 4 × 3 = 12)",
+      "explanation_ur": "جفت × طاق = جفت (مثال کے طور پر، 4 × 3 = 12)",
+      "hint": "Try multiplying different even and odd numbers",
+      "hint_ur": "مختلف جفت اور طاق اعداد کو ضرب دینے کی کوشش کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 177,
+      "type": "mcq",
+      "question": "What is the Roman numeral for 50?",
+      "question_ur": "50 کا رومن ہندسہ کیا ہے؟",
+      "options": {
+        "en": ["V", "X", "L", "C"],
+        "ur": ["V", "X", "L", "C"]
+      },
+      "correctAnswer": 2,
+      "explanation": "L represents 50 in Roman numerals",
+      "explanation_ur": "L رومن ہندسوں میں 50 کو ظاہر کرتا ہے",
+      "hint": "It's not X or C",
+      "hint_ur": "یہ X یا C نہیں ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 178,
+      "type": "mcq",
+      "question": "What is the average of 5, 10, and 15?",
+      "question_ur": "5، 10، اور 15 کا اوسط کیا ہے؟",
+      "options": {
+        "en": ["5", "10", "15", "20"],
+        "ur": ["5", "10", "15", "20"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Average = (5 + 10 + 15)/3 = 30/3 = 10",
+      "explanation_ur": "اوسط = (5 + 10 + 15)/3 = 30/3 = 10",
+      "hint": "Add all numbers and divide by count",
+      "hint_ur": "تمام اعداد کو جمع کریں اور گنتی سے تقسیم کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 179,
+      "type": "true-false",
+      "question": "All integers are whole numbers.",
+      "question_ur": "تمام صحیح اعداد مکمل اعداد ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Integers include negative numbers which are not whole numbers",
+      "explanation_ur": "صحیح اعداد میں منفی اعداد شامل ہوتے ہیں جو مکمل اعداد نہیں ہوتے",
+      "hint": "Whole numbers start from 0",
+      "hint_ur": "مکمل اعداد 0 سے شروع ہوتے ہیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 180,
+      "type": "mcq",
+      "question": "What is 2/3 + 1/6?",
+      "question_ur": "2/3 جمع 1/6 کیا ہے؟",
+      "options": {
+        "en": ["1/2", "3/6", "5/6", "7/6"],
+        "ur": ["1/2", "3/6", "5/6", "7/6"]
+      },
+      "correctAnswer": 2,
+      "explanation": "2/3 = 4/6, so 4/6 + 1/6 = 5/6",
+      "explanation_ur": "2/3 = 4/6، لہذا 4/6 + 1/6 = 5/6",
+      "hint": "Find common denominator (6)",
+      "hint_ur": "مشترکہ نسب نما (6) تلاش کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 181,
+      "type": "mcq",
+      "question": "What is 2 to the power of 4 (2⁴)?",
+      "question_ur": "2 کی طاقت 4 (2⁴) کیا ہے؟",
+      "options": {
+        "en": ["8", "12", "16", "32"],
+        "ur": ["8", "12", "16", "32"]
+      },
+      "correctAnswer": 2,
+      "explanation": "2⁴ = 2 × 2 × 2 × 2 = 16",
+      "explanation_ur": "2⁴ = 2 × 2 × 2 × 2 = 16",
+      "hint": "Double the number four times",
+      "hint_ur": "عدد کو چار بار دوگنا کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 182,
+      "type": "true-false",
+      "question": "A square is a type of rectangle.",
+      "question_ur": "مربع مستطیل کی ایک قسم ہے۔",
+      "correctAnswer": true,
+      "explanation": "A square is a rectangle with all sides equal",
+      "explanation_ur": "مربع ایک مستطیل ہے جس کے تمام اطراف برابر ہوتے ہیں",
+      "hint": "Think about definitions",
+      "hint_ur": "تعریفوں کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 183,
+      "type": "mcq",
+      "question": "What is the smallest composite number?",
+      "question_ur": "سب سے چھوٹا مرکب عدد کون سا ہے؟",
+      "options": {
+        "en": ["1", "2", "4", "6"],
+        "ur": ["1", "2", "4", "6"]
+      },
+      "correctAnswer": 2,
+      "explanation": "4 is the smallest composite number (factors: 1, 2, 4)",
+      "explanation_ur": "4 سب سے چھوٹا مرکب عدد ہے (عوامل: 1، 2، 4)",
+      "hint": "Composite numbers have more than two factors",
+      "hint_ur": "مرکب اعداد کے دو سے زیادہ عوامل ہوتے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 184,
+      "type": "mcq",
+      "question": "What is 0.8 expressed as a fraction?",
+      "question_ur": "0.8 کو کسر کے طور پر کیا ظاہر کیا جاتا ہے؟",
+      "options": {
+        "en": ["1/8", "2/5", "4/5", "8/10"],
+        "ur": ["1/8", "2/5", "4/5", "8/10"]
+      },
+      "correctAnswer": 2,
+      "explanation": "0.8 = 8/10 = 4/5",
+      "explanation_ur": "0.8 = 8/10 = 4/5",
+      "hint": "Simplify 8/10",
+      "hint_ur": "8/10 کو آسان بنائیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 185,
+      "type": "true-false",
+      "question": "The number -5 is a whole number.",
+      "question_ur": "نمبر -5 ایک مکمل عدد ہے۔",
+      "correctAnswer": false,
+      "explanation": "Whole numbers are non-negative integers (0, 1, 2, 3,...)",
+      "explanation_ur": "مکمل اعداد غیر منفی صحیح اعداد ہوتے ہیں (0، 1، 2، 3,...)",
+      "hint": "Whole numbers start from 0",
+      "hint_ur": "مکمل اعداد 0 سے شروع ہوتے ہیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 186,
+      "type": "mcq",
+      "question": "What is the greatest common divisor (GCD) of 15 and 25?",
+      "question_ur": "15 اور 25 کا عظیم ترین مشترکہ تقسیم کنندہ (GCD) کیا ہے؟",
+      "options": {
+        "en": ["3", "5", "15", "25"],
+        "ur": ["3", "5", "15", "25"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Factors of 15: 1,3,5,15; Factors of 25: 1,5,25; GCD is 5",
+      "explanation_ur": "15 کے عوامل: 1,3,5,15; 25 کے عوامل: 1,5,25; GCD 5 ہے",
+      "hint": "Find the largest common factor",
+      "hint_ur": "سب سے بڑا مشترکہ عامل تلاش کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 187,
+      "type": "mcq",
+      "question": "How many degrees are in three right angles?",
+      "question_ur": "تین صحیح زاویوں میں کتنے ڈگری ہوتے ہیں؟",
+      "options": {
+        "en": ["90°", "180°", "270°", "360°"],
+        "ur": ["90°", "180°", "270°", "360°"]
+      },
+      "correctAnswer": 2,
+      "explanation": "3 × 90° = 270°",
+      "explanation_ur": "3 × 90° = 270°",
+      "hint": "Multiply 90 by 3",
+      "hint_ur": "90 کو 3 سے ضرب دیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 188,
+      "type": "true-false",
+      "question": "The sum of the angles in a nonagon is 1260 degrees.",
+      "question_ur": "ایک نو اضلاعی میں زاویوں کا مجموعہ 1260 ڈگری ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "The formula is (n-2)×180° where n is number of sides: (9-2)×180° = 1260°",
+      "explanation_ur": "فارمولا ہے (n-2)×180° جہاں n اطراف کی تعداد ہے: (9-2)×180° = 1260°",
+      "hint": "A nonagon has 9 sides",
+      "hint_ur": "نو اضلاعی کے 9 اطراف ہوتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 189,
+      "type": "mcq",
+      "question": "What is the decimal equivalent of 7/8?",
+      "question_ur": "7/8 کا اعشاریہ مساوی کیا ہے؟",
+      "options": {
+        "en": ["0.625", "0.750", "0.785", "0.875"],
+        "ur": ["0.625", "0.750", "0.785", "0.875"]
+      },
+      "correctAnswer": 3,
+      "explanation": "7 ÷ 8 = 0.875",
+      "explanation_ur": "7 ÷ 8 = 0.875",
+      "hint": "Divide numerator by denominator",
+      "hint_ur": "تقسیم کنندہ کو نسب نما سے تقسیم کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 190,
+      "type": "mcq",
+      "question": "What is the least common multiple (LCM) of 4 and 10?",
+      "question_ur": "4 اور 10 کا کم ترین مشترکہ ضرب (LCM) کیا ہے؟",
+      "options": {
+        "en": ["10", "20", "40", "80"],
+        "ur": ["10", "20", "40", "80"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Multiples of 4: 4,8,12,16,20,...; Multiples of 10: 10,20,30,...; LCM is 20",
+      "explanation_ur": "4 کے ضربی: 4,8,12,16,20,...; 10 کے ضربی: 10,20,30,...; LCM 20 ہے",
+      "hint": "Find the smallest number in both lists",
+      "hint_ur": "دونوں فہرستوں میں سب سے چھوٹا عدد تلاش کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 191,
+      "type": "true-false",
+      "question": "The quotient of any number and zero is zero.",
+      "question_ur": "کسی بھی عدد اور صفر کا حاصل تقسیم صفر ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Division by zero is undefined in mathematics",
+      "explanation_ur": "ریاضی میں صفر سے تقسیم غیر معین ہوتی ہے",
+      "hint": "Think about the rules of division",
+      "hint_ur": "تقسیم کے اصولوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 192,
+      "type": "mcq",
+      "question": "What is the formula for the area of a trapezoid?",
+      "question_ur": "ذوذنقہ کے رقبے کا فارمولا کیا ہے؟",
+      "options": {
+        "en": ["½ × base × height", "½ × (base1 + base2) × height", "side × side", "π × radius²"],
+        "ur": ["½ × بنیاد × اونچائی", "½ × (بنیاد1 + بنیاد2) × اونچائی", "طرف × طرف", "π × رداس²"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Area = ½ × (base1 + base2) × height",
+      "explanation_ur": "رقبہ = ½ × (بنیاد1 + بنیاد2) × اونچائی",
+      "hint": "It involves both parallel sides",
+      "hint_ur": "اس میں دونوں متوازی اطراف شامل ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 193,
+      "type": "mcq",
+      "question": "What is 9 to the power of 0 (9⁰)?",
+      "question_ur": "9 کی طاقت 0 (9⁰) کیا ہے؟",
+      "options": {
+        "en": ["0", "1", "9", "90"],
+        "ur": ["0", "1", "9", "90"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Any non-zero number to the power of 0 equals 1",
+      "explanation_ur": "کوئی بھی غیر صفر عدد 0 کی طاقت پر 1 کے برابر ہوتا ہے",
+      "hint": "Remember the exponent rule",
+      "hint_ur": "قوت نما کے اصول کو یاد کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 194,
+      "type": "true-false",
+      "question": "A scalene triangle can have two equal angles.",
+      "question_ur": "ایک مختلف الاضلاع مثلث کے دو برابر زاویے ہو سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "By definition, a scalene triangle has all sides and all angles unequal",
+      "explanation_ur": "تعریف کے مطابق، مختلف الاضلاع مثلث کے تمام اطراف اور تمام زاویے غیر برابر ہوتے ہیں",
+      "hint": "'Scalene' means all sides unequal",
+      "hint_ur": "'مختلف الاضلاع' کا مطلب تمام اطراف غیر برابر ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 195,
+      "type": "mcq",
+      "question": "What is the value of π (pi) rounded to five decimal places?",
+      "question_ur": "پانچ اعشاری مقامات تک گول کرنے پر π (پائی) کی قیمت کیا ہے؟",
+      "options": {
+        "en": ["3.14159", "3.14160", "3.14169", "3.14159"],
+        "ur": ["3.14159", "3.14160", "3.14169", "3.14159"]
+      },
+      "correctAnswer": 0,
+      "explanation": "π ≈ 3.141592..., which rounds to 3.14159",
+      "explanation_ur": "π ≈ 3.141592..., جو 3.14159 تک گول ہوتا ہے",
+      "hint": "Remember 3.141592...",
+      "hint_ur": "3.141592... یاد رکھیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 196,
+      "type": "mcq",
+      "question": "What is 40% of 250?",
+      "question_ur": "250 کا 40% کیا ہے؟",
+      "options": {
+        "en": ["75", "100", "125", "150"],
+        "ur": ["75", "100", "125", "150"]
+      },
+      "correctAnswer": 1,
+      "explanation": "40% of 250 = 0.40 × 250 = 100",
+      "explanation_ur": "250 کا 40% = 0.40 × 250 = 100",
+      "hint": "40% is the same as 2/5",
+      "hint_ur": "40% 2/5 کے برابر ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 197,
+      "type": "true-false",
+      "question": "The number 2 is both prime and even.",
+      "question_ur": "نمبر 2 مفرد اور جفت دونوں ہے۔",
+      "correctAnswer": true,
+      "explanation": "2 is the only even prime number",
+      "explanation_ur": "2 واحد جفت مفرد عدد ہے",
+      "hint": "Think about the smallest prime numbers",
+      "hint_ur": "سب سے چھوٹے مفرد اعداد کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 198,
+      "type": "mcq",
+      "question": "What is the reciprocal of 1/4?",
+      "question_ur": "1/4 کا متبادل کیا ہے؟",
+      "options": {
+        "en": ["-4", "1/2", "2", "4"],
+        "ur": ["-4", "1/2", "2", "4"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Reciprocal of 1/4 is 4/1 = 4",
+      "explanation_ur": "1/4 کا متبادل 4/1 = 4 ہے",
+      "hint": "Flip the numerator and denominator",
+      "hint_ur": "تقسیم کنندہ اور نسب نما کو الٹ دیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 199,
+      "type": "mcq",
+      "question": "What is the perimeter of a regular hexagon with side length 4 cm?",
+      "question_ur": "4 سینٹی میٹر کی طرف کی لمبائی والے باقاعدہ مسدس کا محیط کیا ہے؟",
+      "options": {
+        "en": ["16 cm", "20 cm", "24 cm", "28 cm"],
+        "ur": ["16 سینٹی میٹر", "20 سینٹی میٹر", "24 سینٹی میٹر", "28 سینٹی میٹر"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Perimeter = 6 × side length = 6 × 4 = 24 cm",
+      "explanation_ur": "محیط = 6 × طرف کی لمبائی = 6 × 4 = 24 سینٹی میٹر",
+      "hint": "A hexagon has 6 sides",
+      "hint_ur": "مسدس کے 6 اطراف ہوتے ہیں",
+      "timeLimit": 20
+    }
+
+  ]
+}

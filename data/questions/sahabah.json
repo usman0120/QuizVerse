@@ -1,0 +1,3393 @@
+{
+  "meta": {
+    "category": "Sahabah (RA)",
+    "category_ur": "صحابہ (رضی اللہ عنہم)",
+    "description": "Test your knowledge about the companions of Prophet Muhammad (ﷺ)",
+    "description_ur": "حضرت محمد ﷺ کے صحابہ کرام کے بارے میں اپنے علم کو پرکھیں",
+    "difficulty": "medium",
+    "image": "sahabah.jpg"
+  },
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 1
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 2
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 3
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 4
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 5
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 6
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 7
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 8
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 9
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 10
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 11
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 12
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 13
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 14
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 15
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 16
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 17
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 18
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 19
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 20
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 21
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 22
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 23
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 24
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 25
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 26
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 27
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 28
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 29
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 30
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 31
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 32
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 33
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 34
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 35
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 36
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 37
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 38
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 39
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 40
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 41
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 42
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 43
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 44
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 45
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 46
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 47
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 48
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 49
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 50
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 51
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 52
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 53
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 54
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 55
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 56
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 57
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 58
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 59
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 60
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 61
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 62
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 63
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 64
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 65
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 66
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 67
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 68
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 69
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 70
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 71
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 72
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 73
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 74
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 75
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 76
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 77
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 78
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 79
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 80
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 81
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 82
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 83
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 84
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 85
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 86
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 87
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 88
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 89
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 90
+    },
+    {
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam after Prophet Muhammad (ﷺ)?",
+      "question_ur": "حضرت محمد ﷺ کے بعد اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": [
+          "Umar ibn Al-Khattab (RA)",
+          "Abu Bakr As-Siddiq (RA)",
+          "Uthman ibn Affan (RA)",
+          "Ali ibn Abi Talib (RA)"
+        ],
+        "ur": [
+          "حضرت عمر بن خطابؓ",
+          "حضرت ابو بکر صدیقؓ",
+          "حضرت عثمان بن عفانؓ",
+          "حضرت علی بن ابی طالبؓ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr As-Siddiq (RA) was chosen as the first Caliph after the death of Prophet Muhammad (ﷺ).",
+      "explanation_ur": "حضرت ابو بکر صدیقؓ کو حضرت محمد ﷺ کے وصال کے بعد پہلا خلیفہ منتخب کیا گیا۔",
+      "hint": "Known as As-Siddiq",
+      "hint_ur": "جنہیں صدیق کہا جاتا تھا",
+      "timeLimit": 20,
+      "id": 91
+    },
+    {
+      "type": "true-false",
+      "question": "Umar ibn Al-Khattab (RA) was the second Caliph of Islam.",
+      "question_ur": "حضرت عمر بن خطابؓ اسلام کے دوسرے خلیفہ تھے۔",
+      "correctAnswer": true,
+      "explanation": "Umar ibn Al-Khattab (RA) succeeded Abu Bakr As-Siddiq (RA) as the second Caliph.",
+      "explanation_ur": "حضرت عمر بن خطابؓ، حضرت ابو بکر صدیقؓ کے بعد دوسرے خلیفہ تھے۔",
+      "hint": "He is known as Al-Farooq",
+      "hint_ur": "انہیں الفاروق کہا جاتا تھا",
+      "timeLimit": 15,
+      "id": 92
+    },
+    
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "Who was the companion known as 'Dhun-Nurayn' or 'the Possessor of the Two Lights'?",
+      "question_ur": "وہ کون سے صحابی تھے جو 'ذوالنورین' یا 'دو نوروں والے' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Ali ibn Abi Talib", "Umar ibn al-Khattab", "Uthman ibn Affan", "Sa'd ibn Abi Waqqas"],
+        "ur": ["علی بن ابی طالب", "عمر بن الخطاب", "عثمان بن عفان", "سعد بن ابی وقاص"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Uthman ibn Affan was called 'Dhun-Nurayn' because he married two of the Prophet's daughters, Ruqayyah and Umm Kulthum.",
+      "explanation_ur": "عثمان بن عفان کو 'ذوالنورین' کہا جاتا تھا کیونکہ انہوں نے نبی کی دو بیٹیوں، رقیہ اور ام کلثوم سے شادی کی تھی۔",
+      "hint": "He was the third caliph of Islam.",
+      "hint_ur": "وہ اسلام کے تیسرے خلیفہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "question": "Which companion was the cousin and son-in-law of the Prophet Muhammad (PBUH)?",
+      "question_ur": "نبی اکرم صلی اللہ علیہ وسلم کے چچازاد بھائی اور داماد کون سے صحابی تھے؟",
+      "options": {
+        "en": ["Talha ibn Ubaydullah", "Ali ibn Abi Talib", "Abdullah ibn Umar", "Zubayr ibn al-Awwam"],
+        "ur": ["طلحہ بن عبیداللہ", "علی بن ابی طالب", "عبداللہ بن عمر", "زبیر بن العوام"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ali ibn Abi Talib was the Prophet's cousin and married his daughter, Fatimah.",
+      "explanation_ur": "علی بن ابی طالب نبی کے چچازاد بھائی تھے اور انہوں نے ان کی بیٹی فاطمہ سے شادی کی تھی۔",
+      "hint": "He was the fourth caliph and the father of Hasan and Husayn.",
+      "hint_ur": "وہ چوتھے خلیفہ اور حسن و حسین کے والد تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 95,
+      "type": "mcq",
+      "question": "Who was the first muezzin (caller to prayer) in Islam?",
+      "question_ur": "اسلام میں سب سے پہلے مؤذن کون تھے؟",
+      "options": {
+        "en": ["Anas ibn Malik", "Bilal ibn Rabah", "Mus'ab ibn Umayr", "Umar ibn al-Khattab"],
+        "ur": ["انس بن مالک", "بلال بن رباح", "مصعب بن عمیر", "عمر بن الخطاب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Bilal ibn Rabah was a former slave who was chosen by the Prophet to be the first muezzin.",
+      "explanation_ur": "بلال بن رباح ایک سابق غلام تھے جنہیں نبی نے سب سے پہلے مؤذن کے طور پر منتخب کیا۔",
+      "hint": "He was an Ethiopian companion known for his beautiful voice.",
+      "hint_ur": "وہ ایک حبشی صحابی تھے جو اپنی خوبصورت آواز کے لیے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 96,
+      "type": "mcq",
+      "question": "Which companion was referred to as 'the Lion of Allah'?",
+      "question_ur": "کون سے صحابی کو 'اللہ کا شیر' کہا جاتا تھا؟",
+      "options": {
+        "en": ["Ali ibn Abi Talib", "Hamza ibn Abdul-Muttalib", "Khalid ibn al-Walid", "Abu Ubaydah ibn al-Jarrah"],
+        "ur": ["علی بن ابی طالب", "حمزہ بن عبدالمطلب", "خالد بن الولید", "ابو عبیدہ بن الجراح"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Hamza ibn Abdul-Muttalib, the Prophet's uncle, was known as 'Asadullah' or 'the Lion of Allah' for his bravery.",
+      "explanation_ur": "حمزہ بن عبدالمطلب، جو نبی کے چچا تھے، اپنی بہادری کی وجہ سے 'اسد اللہ' یا 'اللہ کا شیر' کہلاتے تھے۔",
+      "hint": "He was martyred at the Battle of Uhud.",
+      "hint_ur": "وہ غزوہ احد میں شہید ہوئے تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "question": "Who was the companion known for his exceptional memory and narrating the most Hadith?",
+      "question_ur": "کون سے صحابی اپنی غیر معمولی یادداشت اور سب سے زیادہ احادیث روایت کرنے کے لیے مشہور تھے؟",
+      "options": {
+        "en": ["Anas ibn Malik", "Abu Hurairah", "Aisha bint Abu Bakr", "Jabir ibn Abdullah"],
+        "ur": ["انس بن مالک", "ابو ہریرہ", "عائشہ بنت ابی بکر", "جابر بن عبداللہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Hurairah is credited with narrating more Hadith than any other companion, due to his remarkable memory.",
+      "explanation_ur": "ابو ہریرہ کو ان کی قابل ذکر یادداشت کی وجہ سے کسی بھی دوسرے صحابی کے مقابلے میں زیادہ احادیث روایت کرنے کا سہرا دیا جاتا ہے۔",
+      "hint": "His name means 'father of the kitten'.",
+      "hint_ur": "ان کے نام کا مطلب ہے 'بلی کا باپ'۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 98,
+      "type": "mcq",
+      "question": "Which female companion was known as 'Umm al-Mu'minin' or 'Mother of the Believers'?",
+      "question_ur": "کون سی صحابیہ 'ام المؤمنین' یا 'مؤمنوں کی ماں' کے نام سے مشہور تھیں؟",
+      "options": {
+        "en": ["Khadijah bint Khuwaylid", "Aisha bint Abu Bakr", "Fatimah bint Muhammad", "Zaynab bint Khuzaymah"],
+        "ur": ["خدیجہ بنت خویلد", "عائشہ بنت ابی بکر", "فاطمہ بنت محمد", "زینب بنت خزیمہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "All of the Prophet's wives are referred to as 'Umm al-Mu'minin', but Aisha bint Abu Bakr is one of the most prominent.",
+      "explanation_ur": "نبی کی تمام ازواج کو 'ام المؤمنین' کہا جاتا ہے، لیکن عائشہ بنت ابی بکر سب سے نمایاں ہیں۔",
+      "hint": "She was the daughter of the first caliph, Abu Bakr.",
+      "hint_ur": "وہ پہلے خلیفہ، ابو بکر کی بیٹی تھیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 99,
+      "type": "mcq",
+      "question": "Who was the companion who led the first Hijra to Abyssinia (modern-day Ethiopia)?",
+      "question_ur": "کون سے صحابی حبشہ (موجودہ ایتھوپیا) کی طرف پہلی ہجرت کی قیادت کی؟",
+      "options": {
+        "en": ["Ja'far ibn Abi Talib", "Umar ibn al-Khattab", "Uthman ibn Affan", "Abu Talib"],
+        "ur": ["جعفر بن ابی طالب", "عمر بن الخطاب", "عثمان بن عفان", "ابو طالب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Ja'far ibn Abi Talib, the Prophet's cousin, led the group of Muslims who migrated to Abyssinia.",
+      "explanation_ur": "جعفر بن ابی طالب، جو نبی کے چچازاد بھائی تھے، مسلمانوں کے اس گروہ کی قیادت کی جنہوں نے حبشہ کی طرف ہجرت کی۔",
+      "hint": "He was the brother of Ali ibn Abi Talib.",
+      "hint_ur": "وہ علی بن ابی طالب کے بھائی تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 110,
+      "type": "mcq",
+      "question": "Which companion was known as 'al-Waqid' or 'the one who kindles the fire'?",
+      "question_ur": "کون سے صحابی 'الواقد' یا 'آگ جلانے والے' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Amr ibn al-As", "Zubayr ibn al-Awwam", "Sa'd ibn Abi Waqqas", "Talha ibn Ubaydullah"],
+        "ur": ["عمرو بن العاص", "زبیر بن العوام", "سعد بن ابی وقاص", "طلحہ بن عبیداللہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Zubayr ibn al-Awwam was a great warrior and was given the title of 'al-Waqid'.",
+      "explanation_ur": "زبیر بن العوام ایک عظیم جنگجو تھے اور انہیں 'الواقد' کا لقب دیا گیا تھا۔",
+      "hint": "He was one of the 'Asharah Mubasharah', the ten companions promised paradise.",
+      "hint_ur": "وہ 'عشرہ مبشرہ' میں سے ایک تھے، وہ دس صحابہ جن کو جنت کی بشارت دی گئی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 111,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to openly recite the Quran in Mecca?",
+      "question_ur": "مکہ میں سب سے پہلے کھلے عام قرآن کی تلاوت کرنے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Abdullah ibn Mas'ud", "Uthman ibn Affan", "Abu Bakr as-Siddiq", "Umar ibn al-Khattab"],
+        "ur": ["عبداللہ بن مسعود", "عثمان بن عفان", "ابو بکر الصدیق", "عمر بن الخطاب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abdullah ibn Mas'ud was the first to recite the Quran publicly in Mecca, facing great danger.",
+      "explanation_ur": "عبداللہ بن مسعود نے مکہ میں پہلی بار کھلے عام قرآن کی تلاوت کی، جس میں انہیں بڑے خطرات کا سامنا کرنا پڑا۔",
+      "hint": "He was known for his beautiful recitation and knowledge of the Quran.",
+      "hint_ur": "وہ قرآن کی خوبصورت تلاوت اور علم کے لیے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 112,
+      "type": "mcq",
+      "question": "Which companion was known as 'Sayyid al-Shuhada' or 'the Master of Martyrs'?",
+      "question_ur": "کون سے صحابی 'سید الشہداء' یا 'شہیدوں کے سردار' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Ali ibn Abi Talib", "Hamza ibn Abdul-Muttalib", "Mus'ab ibn Umayr", "Ja'far ibn Abi Talib"],
+        "ur": ["علی بن ابی طالب", "حمزہ بن عبدالمطلب", "مصعب بن عمیر", "جعفر بن ابی طالب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Hamza ibn Abdul-Muttalib was given this title by the Prophet Muhammad (PBUH) after his martyrdom in the Battle of Uhud.",
+      "explanation_ur": "حمزہ بن عبدالمطلب کو نبی اکرم صلی اللہ علیہ وسلم نے غزوہ احد میں ان کی شہادت کے بعد یہ لقب دیا تھا۔",
+      "hint": "He was the uncle of the Prophet (PBUH).",
+      "hint_ur": "وہ نبی صلی اللہ علیہ وسلم کے چچا تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 113,
+      "type": "mcq",
+      "question": "Who was the companion who was chosen to lead the first Muslim army to Tabuk?",
+      "question_ur": "کون سے صحابی کو تبوک کی طرف پہلے مسلم لشکر کی قیادت کرنے کے لیے منتخب کیا گیا؟",
+      "options": {
+        "en": ["Umar ibn al-Khattab", "Ali ibn Abi Talib", "Usama ibn Zayd", "Khalid ibn al-Walid"],
+        "ur": ["عمر بن الخطاب", "علی بن ابی طالب", "اسامہ بن زید", "خالد بن الولید"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Usama ibn Zayd was chosen by the Prophet Muhammad (PBUH) to lead an army to Tabuk, despite being very young.",
+      "explanation_ur": "اسامہ بن زید کو نبی اکرم صلی اللہ علیہ وسلم نے ایک فوج کی قیادت کے لیے تبوک کی طرف منتخب کیا، حالانکہ وہ بہت جوان تھے۔",
+      "hint": "He was the son of the Prophet's freed slave, Zayd ibn Harithah.",
+      "hint_ur": "وہ نبی کے آزاد کردہ غلام، زید بن حارثہ کے بیٹے تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 114,
+      "type": "mcq",
+      "question": "Which companion was one of the ten companions promised paradise and was known for his immense wealth?",
+      "question_ur": "کون سے صحابی عشرہ مبشرہ میں سے ایک تھے اور اپنی بے پناہ دولت کے لیے مشہور تھے؟",
+      "options": {
+        "en": ["Abu Ubaydah ibn al-Jarrah", "Sa'd ibn Abi Waqqas", "Talha ibn Ubaydullah", "Abdur-Rahman ibn Awf"],
+        "ur": ["ابو عبیدہ بن الجراح", "سعد بن ابی وقاص", "طلحہ بن عبیداللہ", "عبدالرحمن بن عوف"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Abdur-Rahman ibn Awf was one of the ten companions promised paradise and was known for his generosity and wealth.",
+      "explanation_ur": "عبدالرحمن بن عوف عشرہ مبشرہ میں سے ایک تھے اور اپنی سخاوت اور دولت کے لیے مشہور تھے۔",
+      "hint": "He was a successful businessman who migrated from Mecca to Medina.",
+      "hint_ur": "وہ ایک کامیاب تاجر تھے جنہوں نے مکہ سے مدینہ ہجرت کی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to be born to the Muhajirun after their migration to Medina?",
+      "question_ur": "مدینہ ہجرت کے بعد مہاجرین میں سے سب سے پہلے پیدا ہونے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Abdullah ibn al-Zubayr", "Hasan ibn Ali", "Abdullah ibn Abbas", "Anas ibn Malik"],
+        "ur": ["عبداللہ بن الزبیر", "حسن بن علی", "عبداللہ بن عباس", "انس بن مالک"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abdullah ibn al-Zubayr was the first child born to the Muhajirun in Medina, bringing joy to the Muslims after a period of difficulty.",
+      "explanation_ur": "عبداللہ بن الزبیر مدینہ میں مہاجرین کے پہلے بچے تھے، جنہوں نے مشکلات کے ایک دور کے بعد مسلمانوں کے لیے خوشی کا باعث بنے۔",
+      "hint": "He was the son of Zubayr ibn al-Awwam and Asma bint Abi Bakr.",
+      "hint_ur": "وہ زبیر بن العوام اور اسماء بنت ابی بکر کے بیٹے تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 116,
+      "type": "mcq",
+      "question": "Which companion was known as 'al-Amin' or 'the Trustworthy One'?",
+      "question_ur": "کون سے صحابی 'الامین' یا 'امانت دار' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Abu Ubaydah ibn al-Jarrah", "Zayd ibn Harithah", "Talha ibn Ubaydullah", "Mus'ab ibn Umayr"],
+        "ur": ["ابو عبیدہ بن الجراح", "زید بن حارثہ", "طلحہ بن عبیداللہ", "مصعب بن عمیر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abu Ubaydah ibn al-Jarrah was given the title 'al-Amin' by the Prophet Muhammad (PBUH) for his trustworthiness.",
+      "explanation_ur": "ابو عبیدہ بن الجراح کو نبی اکرم صلی اللہ علیہ وسلم نے ان کی امانت داری کی وجہ سے 'الامین' کا لقب دیا۔",
+      "hint": "He was a great general and commander of the Muslim army.",
+      "hint_ur": "وہ ایک عظیم جنرل اور مسلم فوج کے کمانڈر تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 117,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to shoot an arrow in the cause of Islam?",
+      "question_ur": "اسلام کی راہ میں سب سے پہلے تیر چلانے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Umar ibn al-Khattab", "Ali ibn Abi Talib", "Sa'd ibn Abi Waqqas", "Khalid ibn al-Walid"],
+        "ur": ["عمر بن الخطاب", "علی بن ابی طالب", "سعد بن ابی وقاص", "خالد بن الولید"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Sa'd ibn Abi Waqqas was the first to shoot an arrow in the cause of Islam and was known for his archery skills.",
+      "explanation_ur": "سعد بن ابی وقاص اسلام کی راہ میں سب سے پہلے تیر چلانے والے تھے اور وہ اپنی تیر اندازی کی مہارت کے لیے مشہور تھے۔",
+      "hint": "He was one of the 'Asharah Mubasharah', the ten companions promised paradise.",
+      "hint_ur": "وہ 'عشرہ مبشرہ' میں سے ایک تھے، وہ دس صحابہ جن کو جنت کی بشارت دی گئی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 118,
+      "type": "mcq",
+      "question": "Which companion was the governor of Egypt and a great military commander?",
+      "question_ur": "کون سے صحابی مصر کے گورنر اور ایک عظیم فوجی کمانڈر تھے؟",
+      "options": {
+        "en": ["Amr ibn al-As", "Khalid ibn al-Walid", "Abu Ubaydah ibn al-Jarrah", "Mu'awiyah ibn Abi Sufyan"],
+        "ur": ["عمرو بن العاص", "خالد بن الولید", "ابو عبیدہ بن الجراح", "معاویہ بن ابی سفیان"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Amr ibn al-As was a great military commander who conquered Egypt and became its first governor.",
+      "explanation_ur": "عمرو بن العاص ایک عظیم فوجی کمانڈر تھے جنہوں نے مصر کو فتح کیا اور اس کے پہلے گورنر بنے۔",
+      "hint": "He was a master of diplomacy and strategy.",
+      "hint_ur": "وہ سفارت کاری اور حکمت عملی کے ماہر تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 119,
+      "type": "mcq",
+      "question": "Who was the companion known for his great knowledge of the Quran and Sunnah, and was a teacher of many scholars?",
+      "question_ur": "کون سے صحابی قرآن اور سنت کے عظیم علم کے لیے مشہور تھے اور بہت سے علماء کے استاد تھے؟",
+      "options": {
+        "en": ["Abdullah ibn Abbas", "Zayd ibn Thabit", "Anas ibn Malik", "Abdullah ibn Mas'ud"],
+        "ur": ["عبداللہ بن عباس", "زید بن ثابت", "انس بن مالک", "عبداللہ بن مسعود"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abdullah ibn Abbas was a great scholar and jurist of Islam, known for his deep knowledge of the Quran and Sunnah.",
+      "explanation_ur": "عبداللہ بن عباس اسلام کے ایک عظیم عالم اور فقیہ تھے، جو قرآن اور سنت کے گہرے علم کے لیے مشہور تھے۔",
+      "hint": "He was a cousin of the Prophet (PBUH) and was called 'the interpreter of the Quran'.",
+      "hint_ur": "وہ نبی صلی اللہ علیہ وسلم کے چچازاد بھائی تھے اور انہیں 'قرآن کا مفسر' کہا جاتا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 120,
+      "type": "mcq",
+      "question": "Which companion was known as the 'Sword of Allah'?",
+      "question_ur": "کون سے صحابی 'اللہ کی تلوار' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Ali ibn Abi Talib", "Hamza ibn Abdul-Muttalib", "Khalid ibn al-Walid", "Sa'd ibn Abi Waqqas"],
+        "ur": ["علی بن ابی طالب", "حمزہ بن عبدالمطلب", "خالد بن الولید", "سعد بن ابی وقاص"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Khalid ibn al-Walid was an invincible general and was given the title 'Sayfullah' or 'the Sword of Allah' by the Prophet (PBUH).",
+      "explanation_ur": "خالد بن الولید ایک ناقابل شکست جنرل تھے اور انہیں نبی اکرم صلی اللہ علیہ وسلم نے 'سیف اللہ' یا 'اللہ کی تلوار' کا لقب دیا تھا۔",
+      "hint": "He was a military genius who never lost a battle.",
+      "hint_ur": "وہ ایک فوجی ذہین تھے جنہوں نے کبھی کوئی جنگ نہیں ہاری۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 121,
+      "type": "mcq",
+      "question": "Who was the companion who was the scribe of the Quran and compiled it into a single manuscript?",
+      "question_ur": "کون سے صحابی قرآن کے کاتب تھے اور اسے ایک ہی نسخے میں جمع کیا؟",
+      "options": {
+        "en": ["Abdullah ibn Mas'ud", "Zayd ibn Thabit", "Uthman ibn Affan", "Abu Bakr as-Siddiq"],
+        "ur": ["عبداللہ بن مسعود", "زید بن ثابت", "عثمان بن عفان", "ابو بکر الصدیق"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Zayd ibn Thabit was the chief scribe of the Prophet (PBUH) and was tasked with compiling the Quran during the caliphate of Abu Bakr and Uthman.",
+      "explanation_ur": "زید بن ثابت نبی صلی اللہ علیہ وسلم کے chief scribe تھے اور انہیں ابو بکر اور عثمان کے دور خلافت میں قرآن کو جمع کرنے کا کام سونپا گیا تھا۔",
+      "hint": "He was a young companion who had memorized the entire Quran.",
+      "hint_ur": "وہ ایک نوجوان صحابی تھے جنہوں نے پورا قرآن حفظ کر رکھا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 122,
+      "type": "mcq",
+      "question": "Which companion was known as 'al-Siddiq' or 'the Truthful One'?",
+      "question_ur": "کون سے صحابی 'الصدیق' یا 'سچے' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Umar ibn al-Khattab", "Abu Bakr as-Siddiq", "Ali ibn Abi Talib", "Uthman ibn Affan"],
+        "ur": ["عمر بن الخطاب", "ابو بکر الصدیق", "علی بن ابی طالب", "عثمان بن عفان"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr as-Siddiq was given this title by the Prophet (PBUH) for his unwavering belief and truthfulness.",
+      "explanation_ur": "ابو بکر الصدیق کو نبی صلی اللہ علیہ وسلم نے ان کے اٹوٹ یقین اور سچائی کی وجہ سے یہ لقب دیا۔",
+      "hint": "He was the first caliph of Islam.",
+      "hint_ur": "وہ اسلام کے پہلے خلیفہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 123,
+      "type": "mcq",
+      "question": "Who was the companion who migrated to Medina and was known as 'al-Ansari' or 'the Helper'?",
+      "question_ur": "مدینہ ہجرت کرنے والے اور 'الأنصاری' یا 'مددگار' کے نام سے مشہور صحابی کون تھے؟",
+      "options": {
+        "en": ["Abu Ayyub al-Ansari", "Mus'ab ibn Umayr", "Jabir ibn Abdullah", "Anas ibn Malik"],
+        "ur": ["ابو ایوب الانصاری", "مصعب بن عمیر", "جابر بن عبداللہ", "انس بن مالک"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abu Ayyub al-Ansari hosted the Prophet (PBUH) in his house when he first arrived in Medina.",
+      "explanation_ur": "ابو ایوب الانصاری نے نبی صلی اللہ علیہ وسلم کی اپنے گھر میں میزبانی کی جب وہ پہلی بار مدینہ تشریف لائے۔",
+      "hint": "The Prophet's camel knelt down in front of his house.",
+      "hint_ur": "نبی کی اونٹنی ان کے گھر کے سامنے بیٹھ گئی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 124,
+      "type": "mcq",
+      "question": "Which companion was known as 'al-Ghani' or 'the Rich One'?",
+      "question_ur": "کون سے صحابی 'الغنی' یا 'امیر' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Umar ibn al-Khattab", "Uthman ibn Affan", "Abdur-Rahman ibn Awf", "Talha ibn Ubaydullah"],
+        "ur": ["عمر بن الخطاب", "عثمان بن عفان", "عبدالرحمن بن عوف", "طلحہ بن عبیداللہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Uthman ibn Affan was known for his immense wealth and generosity, and was one of the wealthiest men in Mecca.",
+      "explanation_ur": "عثمان بن عفان اپنی بے پناہ دولت اور سخاوت کے لیے مشہور تھے، اور وہ مکہ کے امیر ترین لوگوں میں سے ایک تھے۔",
+      "hint": "He was the third caliph of Islam.",
+      "hint_ur": "وہ اسلام کے تیسرے خلیفہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 125,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to be a martyr in Islam?",
+      "question_ur": "اسلام میں سب سے پہلے شہید ہونے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Sumayyah bint Khayyat", "Yasir ibn Amir", "Ammar ibn Yasir", "Bilal ibn Rabah"],
+        "ur": ["سمیہ بنت خیاط", "یاسر بن عامر", "عمار بن یاسر", "بلال بن رباح"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Sumayyah bint Khayyat was the first martyr in Islam, killed by Abu Jahl for her belief.",
+      "explanation_ur": "سمیہ بنت خیاط اسلام کی پہلی شہید تھیں، جنہیں ابو جہل نے ان کے عقیدے کی وجہ سے شہید کیا۔",
+      "hint": "She was the mother of Ammar ibn Yasir.",
+      "hint_ur": "وہ عمار بن یاسر کی والدہ تھیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 126,
+      "type": "mcq",
+      "question": "Which companion was known as 'the Interpreter of the Quran'?",
+      "question_ur": "کون سے صحابی 'قرآن کے مفسر' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Abdullah ibn Mas'ud", "Abdullah ibn Abbas", "Zayd ibn Thabit", "Ubayy ibn Ka'b"],
+        "ur": ["عبداللہ بن مسعود", "عبداللہ بن عباس", "زید بن ثابت", "ابی بن کعب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abdullah ibn Abbas was a great scholar and jurist of Islam, known for his deep knowledge of the Quran and its interpretation.",
+      "explanation_ur": "عبداللہ بن عباس اسلام کے ایک عظیم عالم اور فقیہ تھے، جو قرآن اور اس کی تفسیر کے گہرے علم کے لیے مشہور تھے۔",
+      "hint": "He was a cousin of the Prophet (PBUH) and was very young when he accepted Islam.",
+      "hint_ur": "وہ نبی صلی اللہ علیہ وسلم کے چچازاد بھائی تھے اور جب انہوں نے اسلام قبول کیا تو بہت جوان تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 127,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to give the adhan (call to prayer) from the roof of the Kaaba?",
+      "question_ur": "کون سے صحابی کعبہ کی چھت سے سب سے پہلے اذان دی؟",
+      "options": {
+        "en": ["Bilal ibn Rabah", "Umar ibn al-Khattab", "Abu Bakr as-Siddiq", "Uthman ibn Affan"],
+        "ur": ["بلال بن رباح", "عمر بن الخطاب", "ابو بکر الصدیق", "عثمان بن عفان"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Bilal ibn Rabah gave the first adhan from the Kaaba after the conquest of Mecca.",
+      "explanation_ur": "بلال بن رباح نے فتح مکہ کے بعد کعبہ سے پہلی اذان دی۔",
+      "hint": "He was the first muezzin of Islam.",
+      "hint_ur": "وہ اسلام کے پہلے مؤذن تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 128,
+      "type": "mcq",
+      "question": "Which companion was known as 'al-Fatih' or 'the Conqueror'?",
+      "question_ur": "کون سے صحابی 'الفاتح' یا 'فاتح' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Amr ibn al-As", "Khalid ibn al-Walid", "Abu Ubaydah ibn al-Jarrah", "Mu'awiyah ibn Abi Sufyan"],
+        "ur": ["عمرو بن العاص", "خالد بن الولید", "ابو عبیدہ بن الجراح", "معاویہ بن ابی سفیان"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Amr ibn al-As was a great military commander who conquered Egypt and was known as 'the Conqueror' for his military campaigns.",
+      "explanation_ur": "عمرو بن العاص ایک عظیم فوجی کمانڈر تھے جنہوں نے مصر کو فتح کیا اور اپنی فوجی مہمات کی وجہ سے 'فاتح' کے نام سے جانے جاتے تھے۔",
+      "hint": "He was a master of diplomacy and strategy.",
+      "hint_ur": "وہ سفارت کاری اور حکمت عملی کے ماہر تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 129,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to compile a complete manuscript of the Quran?",
+      "question_ur": "کون سے صحابی نے قرآن کا مکمل نسخہ سب سے پہلے جمع کیا؟",
+      "options": {
+        "en": ["Zayd ibn Thabit", "Uthman ibn Affan", "Abdullah ibn Mas'ud", "Ubayy ibn Ka'b"],
+        "ur": ["زید بن ثابت", "عثمان بن عفان", "عبداللہ بن مسعود", "ابی بن کعب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Zayd ibn Thabit was the chief scribe of the Prophet (PBUH) and was tasked with compiling the Quran into a single manuscript during the caliphate of Abu Bakr.",
+      "explanation_ur": "زید بن ثابت نبی صلی اللہ علیہ وسلم کے chief scribe تھے اور انہیں ابو بکر کے دور خلافت میں قرآن کو ایک ہی نسخے میں جمع کرنے کا کام سونپا گیا تھا۔",
+      "hint": "He was a young companion who had memorized the entire Quran.",
+      "hint_ur": "وہ ایک نوجوان صحابی تھے جنہوں نے پورا قرآن حفظ کر رکھا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 130,
+      "type": "mcq",
+      "question": "Which companion was the first to accept Islam among women?",
+      "question_ur": "خواتین میں سب سے پہلے اسلام قبول کرنے والی صحابیہ کون تھیں؟",
+      "options": {
+        "en": ["Aisha bint Abu Bakr", "Fatimah bint Muhammad", "Khadijah bint Khuwaylid", "Umm Salamah"],
+        "ur": ["عائشہ بنت ابی بکر", "فاطمہ بنت محمد", "خدیجہ بنت خویلد", "ام سلمہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Khadijah bint Khuwaylid, the Prophet's first wife, was the first person to accept Islam.",
+      "explanation_ur": "خدیجہ بنت خویلد، جو نبی کی پہلی بیوی تھیں، وہ پہلی شخصیت تھیں جنہوں نے اسلام قبول کیا۔",
+      "hint": "She was a wealthy businesswoman from Mecca.",
+      "hint_ur": "وہ مکہ کی ایک مالدار تاجرہ تھیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 131,
+      "type": "mcq",
+      "question": "Who was the companion who was given the title 'al-Jundi' or 'the Soldier'?",
+      "question_ur": "کون سے صحابی کو 'الجندی' یا 'فوجی' کا لقب دیا گیا؟",
+      "options": {
+        "en": ["Zubayr ibn al-Awwam", "Sa'd ibn Abi Waqqas", "Talha ibn Ubaydullah", "Khalid ibn al-Walid"],
+        "ur": ["زبیر بن العوام", "سعد بن ابی وقاص", "طلحہ بن عبیداللہ", "خالد بن الولید"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Talha ibn Ubaydullah was given the title 'al-Jundi' for his bravery and courage in battle.",
+      "explanation_ur": "طلحہ بن عبیداللہ کو جنگ میں ان کی بہادری اور جرأت کی وجہ سے 'الجندی' کا لقب دیا گیا۔",
+      "hint": "He was one of the ten companions promised paradise.",
+      "hint_ur": "وہ عشرہ مبشرہ میں سے ایک تھے، وہ دس صحابہ جن کو جنت کی بشارت دی گئی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 132,
+      "type": "mcq",
+      "question": "Which companion was the first to lead a Muslim naval fleet?",
+      "question_ur": "کون سے صحابی نے سب سے پہلے ایک مسلم بحری بیڑے کی قیادت کی؟",
+      "options": {
+        "en": ["Mu'awiyah ibn Abi Sufyan", "Uthman ibn Affan", "Amr ibn al-As", "Khalid ibn al-Walid"],
+        "ur": ["معاویہ بن ابی سفیان", "عثمان بن عفان", "عمرو بن العاص", "خالد بن الولید"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Mu'awiyah ibn Abi Sufyan, while governor of Syria, established the first Muslim navy and led it in battles against the Byzantine Empire.",
+      "explanation_ur": "معاویہ بن ابی سفیان، جب شام کے گورنر تھے، انہوں نے پہلی مسلم بحریہ قائم کی اور اسے بازنطینی سلطنت کے خلاف لڑائیوں میں قیادت کی۔",
+      "hint": "He was the founder of the Umayyad Caliphate.",
+      "hint_ur": "وہ اموی خلافت کے بانی تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 133,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to be a martyr in the Battle of Badr?",
+      "question_ur": "غزوہ بدر میں سب سے پہلے شہید ہونے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Ubaydah ibn al-Harith", "Sa'd ibn Mu'adh", "Hamza ibn Abdul-Muttalib", "Mus'ab ibn Umayr"],
+        "ur": ["عبیدہ بن الحارث", "سعد بن معاذ", "حمزہ بن عبدالمطلب", "مصعب بن عمیر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Ubaydah ibn al-Harith was the first to be martyred in the Battle of Badr, after a duel with the Meccan polytheists.",
+      "explanation_ur": "عبیدہ بن الحارث غزوہ بدر میں سب سے پہلے شہید ہوئے، مکی مشرکوں کے ساتھ ایک دوئل کے بعد۔",
+      "hint": "He was a cousin of the Prophet (PBUH).",
+      "hint_ur": "وہ نبی صلی اللہ علیہ وسلم کے چچازاد بھائی تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 134,
+      "type": "mcq",
+      "question": "Which companion was known as 'al-Ghazi' or 'the Warrior'?",
+      "question_ur": "کون سے صحابی 'الغازی' یا 'جنگجو' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Umar ibn al-Khattab", "Khalid ibn al-Walid", "Sa'd ibn Abi Waqqas", "Abdullah ibn Rawahah"],
+        "ur": ["عمر بن الخطاب", "خالد بن الولید", "سعد بن ابی وقاص", "عبداللہ بن رواحہ"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Abdullah ibn Rawahah was a great warrior and a poet who was known for his courage and bravery in battles.",
+      "explanation_ur": "عبداللہ بن رواحہ ایک عظیم جنگجو اور شاعر تھے جو جنگوں میں اپنی جرأت اور بہادری کے لیے مشہور تھے۔",
+      "hint": "He was one of the three commanders at the Battle of Mu'tah.",
+      "hint_ur": "وہ غزوہ موتہ کے تین کمانڈروں میں سے ایک تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 135,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to be martyred in the Battle of Uhud?",
+      "question_ur": "غزوہ احد میں سب سے پہلے شہید ہونے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Hamza ibn Abdul-Muttalib", "Mus'ab ibn Umayr", "Ubaydullah ibn al-Harith", "Abdullah ibn Jubayr"],
+        "ur": ["حمزہ بن عبدالمطلب", "مصعب بن عمیر", "عبیداللہ بن الحارث", "عبداللہ بن جبیر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Mus'ab ibn Umayr was the first to be martyred in the Battle of Uhud, holding the banner of the Muslims.",
+      "explanation_ur": "مصعب بن عمیر غزوہ احد میں مسلمانوں کا پرچم تھامے ہوئے سب سے پہلے شہید ہوئے تھے۔",
+      "hint": "He was the first ambassador of Islam.",
+      "hint_ur": "وہ اسلام کے پہلے سفیر تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 136,
+      "type": "mcq",
+      "question": "Which companion was known as 'the companion of the two migrations'?",
+      "question_ur": "کون سے صحابی 'دو ہجرتوں کے ساتھی' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Uthman ibn Affan", "Zubayr ibn al-Awwam", "Sa'd ibn Abi Waqqas", "Ja'far ibn Abi Talib"],
+        "ur": ["عثمان بن عفان", "زبیر بن العوام", "سعد بن ابی وقاص", "جعفر بن ابی طالب"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Ja'far ibn Abi Talib migrated to Abyssinia and then to Medina, so he was known as 'the companion of the two migrations'.",
+      "explanation_ur": "جعفر بن ابی طالب نے حبشہ اور پھر مدینہ کی طرف ہجرت کی، اس لیے وہ 'دو ہجرتوں کے ساتھی' کے نام سے مشہور تھے۔",
+      "hint": "He was the brother of Ali ibn Abi Talib.",
+      "hint_ur": "وہ علی بن ابی طالب کے بھائی تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 137,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to be martyred in the Battle of Yarmuk?",
+      "question_ur": "غزوہ یرموک میں سب سے پہلے شہید ہونے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Abdullah ibn Rawahah", "Abu Ubaydah ibn al-Jarrah", "Zubayr ibn al-Awwam", "Khalid ibn al-Walid"],
+        "ur": ["عبداللہ بن رواحہ", "ابو عبیدہ بن الجراح", "زبیر بن العوام", "خالد بن الولید"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Ubaydah ibn al-Jarrah was the commander of the Muslim army at the Battle of Yarmuk and was the first to be martyred.",
+      "explanation_ur": "ابو عبیدہ بن الجراح غزوہ یرموک میں مسلم فوج کے کمانڈر تھے اور وہ سب سے پہلے شہید ہوئے۔",
+      "hint": "He was known as 'al-Amin' or 'the Trustworthy One'.",
+      "hint_ur": "وہ 'الامین' یا 'امانت دار' کے نام سے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 138,
+      "type": "mcq",
+      "question": "Which companion was known as 'al-Hakam' or 'the Judge'?",
+      "question_ur": "کون سے صحابی 'الحکم' یا 'منصف' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Umar ibn al-Khattab", "Ali ibn Abi Talib", "Abdullah ibn Mas'ud", "Abdullah ibn Abbas"],
+        "ur": ["عمر بن الخطاب", "علی بن ابی طالب", "عبداللہ بن مسعود", "عبداللہ بن عباس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ali ibn Abi Talib was a great jurist and was known as 'al-Hakam' for his just judgments.",
+      "explanation_ur": "علی بن ابی طالب ایک عظیم فقیہ تھے اور اپنے عادلانہ فیصلوں کی وجہ سے 'الحکم' کے نام سے مشہور تھے۔",
+      "hint": "He was the fourth caliph of Islam.",
+      "hint_ur": "وہ اسلام کے چوتھے خلیفہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 139,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to be a martyr in the Battle of Khaybar?",
+      "question_ur": "غزوہ خیبر میں سب سے پہلے شہید ہونے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Ali ibn Abi Talib", "Sa'd ibn Mu'adh", "Abdullah ibn Rawahah", "Abu Dujana"],
+        "ur": ["علی بن ابی طالب", "سعد بن معاذ", "عبداللہ بن رواحہ", "ابو دجانہ"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Abu Dujana was a great warrior who was the first to be martyred in the Battle of Khaybar.",
+      "explanation_ur": "ابو دجانہ ایک عظیم جنگجو تھے جو غزوہ خیبر میں سب سے پہلے شہید ہوئے۔",
+      "hint": "He was known for his red headband in battle.",
+      "hint_ur": "وہ جنگ میں اپنی سرخ پٹی کے لیے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 140,
+      "type": "mcq",
+      "question": "Which companion was known as 'the companion of the well'?",
+      "question_ur": "کون سے صحابی 'کنویں کے ساتھی' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Uthman ibn Affan", "Abu Bakr as-Siddiq", "Umar ibn al-Khattab", "Ali ibn Abi Talib"],
+        "ur": ["عثمان بن عفان", "ابو بکر الصدیق", "عمر بن الخطاب", "علی بن ابی طالب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Uthman ibn Affan bought a well called 'Rumah' from a Jew and made it a public charity for the Muslims of Medina.",
+      "explanation_ur": "عثمان بن عفان نے ایک یہودی سے 'رومہ' نامی ایک کنواں خریدا اور اسے مدینہ کے مسلمانوں کے لیے ایک عوامی صدقہ بنایا۔",
+      "hint": "He was the third caliph of Islam.",
+      "hint_ur": "وہ اسلام کے تیسرے خلیفہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 141,
+      "type": "mcq",
+      "question": "Who was the companion who was known as 'the companion of the two swords'?",
+      "question_ur": "کون سے صحابی 'دو تلواروں کے ساتھی' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Ali ibn Abi Talib", "Khalid ibn al-Walid", "Zubayr ibn al-Awwam", "Talha ibn Ubaydullah"],
+        "ur": ["علی بن ابی طالب", "خالد بن الولید", "زبیر بن العوام", "طلحہ بن عبیداللہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Zubayr ibn al-Awwam was a great warrior and was known as 'the companion of the two swords' for his bravery in battles.",
+      "explanation_ur": "زبیر بن العوام ایک عظیم جنگجو تھے اور جنگوں میں اپنی بہادری کی وجہ سے 'دو تلواروں کے ساتھی' کے نام سے مشہور تھے۔",
+      "hint": "He was one of the 'Asharah Mubasharah', the ten companions promised paradise.",
+      "hint_ur": "وہ 'عشرہ مبشرہ' میں سے ایک تھے، وہ دس صحابہ جن کو جنت کی بشارت دی گئی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 142,
+      "type": "mcq",
+      "question": "Which companion was known as 'the poet of the Prophet'?",
+      "question_ur": "کون سے صحابی 'نبی کے شاعر' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Hassan ibn Thabit", "Ka'b ibn Zuhayr", "Abdullah ibn Rawahah", "Ubayy ibn Ka'b"],
+        "ur": ["حسان بن ثابت", "کعب بن زہیر", "عبداللہ بن رواحہ", "ابی بن کعب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Hassan ibn Thabit was a famous poet who defended the Prophet Muhammad (PBUH) with his poetry against the polytheists of Mecca.",
+      "explanation_ur": "حسان بن ثابت ایک مشہور شاعر تھے جنہوں نے مکہ کے مشرکوں کے خلاف اپنی شاعری سے نبی اکرم صلی اللہ علیہ وسلم کا دفاع کیا۔",
+      "hint": "He was one of the Ansar from Medina.",
+      "hint_ur": "وہ مدینہ کے انصار میں سے تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 143,
+      "type": "mcq",
+      "question": "Who was the companion who was a great general and conquered Damascus?",
+      "question_ur": "کون سے صحابی ایک عظیم جنرل تھے اور دمشق کو فتح کیا؟",
+      "options": {
+        "en": ["Khalid ibn al-Walid", "Abu Ubaydah ibn al-Jarrah", "Amr ibn al-As", "Mu'awiyah ibn Abi Sufyan"],
+        "ur": ["خالد بن الولید", "ابو عبیدہ بن الجراح", "عمرو بن العاص", "معاویہ بن ابی سفیان"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Ubaydah ibn al-Jarrah was the commander of the Muslim army that conquered Damascus.",
+      "explanation_ur": "ابو عبیدہ بن الجراح مسلم فوج کے کمانڈر تھے جنہوں نے دمشق کو فتح کیا۔",
+      "hint": "He was known as 'al-Amin' or 'the Trustworthy One'.",
+      "hint_ur": "وہ 'الامین' یا 'امانت دار' کے نام سے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 144,
+      "type": "mcq",
+      "question": "Which companion was known as 'the treasurer of the Prophet'?",
+      "question_ur": "کون سے صحابی 'نبی کے خزانچی' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Uthman ibn Affan", "Abdullah ibn Mas'ud", "Umar ibn al-Khattab", "Abu Ubaydah ibn al-Jarrah"],
+        "ur": ["عثمان بن عفان", "عبداللہ بن مسعود", "عمر بن الخطاب", "ابو عبیدہ بن الجراح"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Abu Ubaydah ibn al-Jarrah was the treasurer of the Prophet Muhammad (PBUH) and was responsible for distributing the charity (sadaqah).",
+      "explanation_ur": "ابو عبیدہ بن الجراح نبی اکرم صلی اللہ علیہ وسلم کے خزانچی تھے اور خیرات (صدقہ) تقسیم کرنے کے ذمہ دار تھے۔",
+      "hint": "He was one of the ten companions promised paradise.",
+      "hint_ur": "وہ عشرہ مبشرہ میں سے ایک تھے، وہ دس صحابہ جن کو جنت کی بشارت دی گئی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 145,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to be a martyr in the Battle of the Trench?",
+      "question_ur": "غزوہ خندق میں سب سے پہلے شہید ہونے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Sa'd ibn Mu'adh", "Zayd ibn Harithah", "Salman al-Farsi", "Abdullah ibn Rawahah"],
+        "ur": ["سعد بن معاذ", "زید بن حارثہ", "سلمان فارسی", "عبداللہ بن رواحہ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Sa'd ibn Mu'adh was the chief of the Banu Aws tribe in Medina and was martyred in the Battle of the Trench.",
+      "explanation_ur": "سعد بن معاذ مدینہ میں بنو اوس قبیلے کے سردار تھے اور غزوہ خندق میں شہید ہوئے۔",
+      "hint": "He was known for his just judgment against the Banu Qurayza.",
+      "hint_ur": "وہ بنو قریظہ کے خلاف اپنے عادلانہ فیصلے کے لیے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 146,
+      "type": "mcq",
+      "question": "Which companion was known as 'the owner of the two lights'?",
+      "question_ur": "کون سے صحابی 'دو نوروں کے مالک' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Umar ibn al-Khattab", "Uthman ibn Affan", "Abdur-Rahman ibn Awf", "Ali ibn Abi Talib"],
+        "ur": ["عمر بن الخطاب", "عثمان بن عفان", "عبدالرحمن بن عوف", "علی بن ابی طالب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Uthman ibn Affan was called 'the owner of the two lights' because he married two of the Prophet's daughters.",
+      "explanation_ur": "عثمان بن عفان کو 'دو نوروں کے مالک' کہا جاتا تھا کیونکہ انہوں نے نبی کی دو بیٹیوں سے شادی کی تھی۔",
+      "hint": "He was the third caliph of Islam.",
+      "hint_ur": "وہ اسلام کے تیسرے خلیفہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 147,
+      "type": "mcq",
+      "question": "Who was the companion who was a great scholar and a jurist of Islam?",
+      "question_ur": "کون سے صحابی ایک عظیم عالم اور اسلام کے فقیہ تھے؟",
+      "options": {
+        "en": ["Abdullah ibn Abbas", "Abdullah ibn Mas'ud", "Mu'adh ibn Jabal", "Zayd ibn Thabit"],
+        "ur": ["عبداللہ بن عباس", "عبداللہ بن مسعود", "معاذ بن جبل", "زید بن ثابت"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Mu'adh ibn Jabal was a great scholar and jurist of Islam, and was sent by the Prophet (PBUH) to Yemen as a judge.",
+      "explanation_ur": "معاذ بن جبل اسلام کے ایک عظیم عالم اور فقیہ تھے، اور انہیں نبی صلی اللہ علیہ وسلم نے یمن میں ایک قاضی کے طور پر بھیجا تھا۔",
+      "hint": "He was known for his deep knowledge of the Quran and Sunnah.",
+      "hint_ur": "وہ قرآن اور سنت کے گہرے علم کے لیے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 148,
+      "type": "mcq",
+      "question": "Which companion was known as 'the speaker of the Prophet'?",
+      "question_ur": "کون سے صحابی 'نبی کے متکلم' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Abdullah ibn Rawahah", "Ka'b ibn Zuhayr", "Hassan ibn Thabit", "Ubayy ibn Ka'b"],
+        "ur": ["عبداللہ بن رواحہ", "کعب بن زہیر", "حسان بن ثابت", "ابی بن کعب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abdullah ibn Rawahah was a great poet and was known as 'the speaker of the Prophet' for his poetry that praised the Prophet (PBUH) and Islam.",
+      "explanation_ur": "عبداللہ بن رواحہ ایک عظیم شاعر تھے اور وہ اپنی شاعری کے لیے 'نبی کے متکلم' کے نام سے مشہور تھے جو نبی صلی اللہ علیہ وسلم اور اسلام کی تعریف کرتی تھی۔",
+      "hint": "He was one of the three commanders at the Battle of Mu'tah.",
+      "hint_ur": "وہ غزوہ موتہ کے تین کمانڈروں میں سے ایک تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 149,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to accept Islam among children?",
+      "question_ur": "بچوں میں سب سے پہلے اسلام قبول کرنے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Anas ibn Malik", "Zayd ibn Harithah", "Ali ibn Abi Talib", "Abdullah ibn Abbas"],
+        "ur": ["انس بن مالک", "زید بن حارثہ", "علی بن ابی طالب", "عبداللہ بن عباس"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Ali ibn Abi Talib was the first child to accept Islam, and was the cousin and son-in-law of the Prophet (PBUH).",
+      "explanation_ur": "علی بن ابی طالب سب سے پہلے بچے تھے جنہوں نے اسلام قبول کیا، اور وہ نبی صلی اللہ علیہ وسلم کے چچازاد بھائی اور داماد تھے۔",
+      "hint": "He was the fourth caliph of Islam.",
+      "hint_ur": "وہ اسلام کے چوتھے خلیفہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 150,
+      "type": "mcq",
+      "question": "Which companion was known as 'the companion of the secret'?",
+      "question_ur": "کون سے صحابی 'راز کے ساتھی' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Hudhayfah ibn al-Yaman", "Zubayr ibn al-Awwam", "Salman al-Farsi", "Abdullah ibn Mas'ud"],
+        "ur": ["حذیفہ بن الیمان", "زبیر بن العوام", "سلمان فارسی", "عبداللہ بن مسعود"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Hudhayfah ibn al-Yaman was entrusted by the Prophet (PBUH) with the names of the hypocrites, so he was known as 'the companion of the secret'.",
+      "explanation_ur": "حذیفہ بن الیمان کو نبی صلی اللہ علیہ وسلم نے منافقوں کے ناموں کی امانت دی تھی، اس لیے وہ 'راز کے ساتھی' کے نام سے مشہور تھے۔",
+      "hint": "He was a great general and a jurist.",
+      "hint_ur": "وہ ایک عظیم جنرل اور فقیہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 151,
+      "type": "mcq",
+      "question": "Who was the companion who was known as 'the companion of the donkey'?",
+      "question_ur": "کون سے صحابی 'گدھے کے ساتھی' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Anas ibn Malik", "Jabir ibn Abdullah", "Bilal ibn Rabah", "Umar ibn al-Khattab"],
+        "ur": ["انس بن مالک", "جابر بن عبداللہ", "بلال بن رباح", "عمر بن الخطاب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Jabir ibn Abdullah was known as 'the companion of the donkey' because he owned a famous donkey that was gifted to him by the Prophet (PBUH).",
+      "explanation_ur": "جابر بن عبداللہ 'گدھے کے ساتھی' کے نام سے مشہور تھے کیونکہ ان کے پاس ایک مشہور گدھا تھا جو انہیں نبی صلی اللہ علیہ وسلم نے تحفہ دیا تھا۔",
+      "hint": "He was a great scholar and a narrator of Hadith.",
+      "hint_ur": "وہ ایک عظیم عالم اور حدیث کے راوی تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 152,
+      "type": "mcq",
+      "question": "Which companion was known as 'the companion of the well'?",
+      "question_ur": "کون سے صحابی 'کنویں کے ساتھی' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Uthman ibn Affan", "Abu Bakr as-Siddiq", "Umar ibn al-Khattab", "Ali ibn Abi Talib"],
+        "ur": ["عثمان بن عفان", "ابو بکر الصدیق", "عمر بن الخطاب", "علی بن ابی طالب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Uthman ibn Affan bought a well called 'Rumah' from a Jew and made it a public charity for the Muslims of Medina.",
+      "explanation_ur": "عثمان بن عفان نے ایک یہودی سے 'رومہ' نامی ایک کنواں خریدا اور اسے مدینہ کے مسلمانوں کے لیے ایک عوامی صدقہ بنایا۔",
+      "hint": "He was the third caliph of Islam.",
+      "hint_ur": "وہ اسلام کے تیسرے خلیفہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 153,
+      "type": "mcq",
+      "question": "Who was the companion who was known as 'the companion of the two migrations'?",
+      "question_ur": "کون سے صحابی 'دو ہجرتوں کے ساتھی' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Ja'far ibn Abi Talib", "Uthman ibn Affan", "Sa'd ibn Abi Waqqas", "Zubayr ibn al-Awwam"],
+        "ur": ["جعفر بن ابی طالب", "عثمان بن عفان", "سعد بن ابی وقاص", "زبیر بن العوام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Ja'far ibn Abi Talib migrated to Abyssinia and then to Medina, so he was known as 'the companion of the two migrations'.",
+      "explanation_ur": "جعفر بن ابی طالب نے حبشہ اور پھر مدینہ کی طرف ہجرت کی، اس لیے وہ 'دو ہجرتوں کے ساتھی' کے نام سے مشہور تھے۔",
+      "hint": "He was the brother of Ali ibn Abi Talib.",
+      "hint_ur": "وہ علی بن ابی طالب کے بھائی تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 154,
+      "type": "mcq",
+      "question": "Which companion was known as 'the owner of the two lights'?",
+      "question_ur": "کون سے صحابی 'دو نوروں کے مالک' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Umar ibn al-Khattab", "Uthman ibn Affan", "Abdur-Rahman ibn Awf", "Ali ibn Abi Talib"],
+        "ur": ["عمر بن الخطاب", "عثمان بن عفان", "عبدالرحمن بن عوف", "علی بن ابی طالب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Uthman ibn Affan was called 'the owner of the two lights' because he married two of the Prophet's daughters.",
+      "explanation_ur": "عثمان بن عفان کو 'دو نوروں کے مالک' کہا جاتا تھا کیونکہ انہوں نے نبی کی دو بیٹیوں سے شادی کی تھی۔",
+      "hint": "He was the third caliph of Islam.",
+      "hint_ur": "وہ اسلام کے تیسرے خلیفہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 155,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to openly recite the Quran in Mecca?",
+      "question_ur": "مکہ میں سب سے پہلے کھلے عام قرآن کی تلاوت کرنے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Abdullah ibn Mas'ud", "Uthman ibn Affan", "Abu Bakr as-Siddiq", "Umar ibn al-Khattab"],
+        "ur": ["عبداللہ بن مسعود", "عثمان بن عفان", "ابو بکر الصدیق", "عمر بن الخطاب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abdullah ibn Mas'ud was the first to recite the Quran publicly in Mecca, facing great danger.",
+      "explanation_ur": "عبداللہ بن مسعود نے مکہ میں پہلی بار کھلے عام قرآن کی تلاوت کی، جس میں انہیں بڑے خطرات کا سامنا کرنا پڑا۔",
+      "hint": "He was known for his beautiful recitation and knowledge of the Quran.",
+      "hint_ur": "وہ قرآن کی خوبصورت تلاوت اور علم کے لیے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 156,
+      "type": "mcq",
+      "question": "Which companion was known as 'the Lion of Allah'?",
+      "question_ur": "کون سے صحابی کو 'اللہ کا شیر' کہا جاتا تھا؟",
+      "options": {
+        "en": ["Ali ibn Abi Talib", "Hamza ibn Abdul-Muttalib", "Khalid ibn al-Walid", "Abu Ubaydah ibn al-Jarrah"],
+        "ur": ["علی بن ابی طالب", "حمزہ بن عبدالمطلب", "خالد بن الولید", "ابو عبیدہ بن الجراح"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Hamza ibn Abdul-Muttalib, the Prophet's uncle, was known as 'Asadullah' or 'the Lion of Allah' for his bravery.",
+      "explanation_ur": "حمزہ بن عبدالمطلب، جو نبی کے چچا تھے، اپنی بہادری کی وجہ سے 'اسد اللہ' یا 'اللہ کا شیر' کہلاتے تھے۔",
+      "hint": "He was martyred at the Battle of Uhud.",
+      "hint_ur": "وہ غزوہ احد میں شہید ہوئے تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 157,
+      "type": "mcq",
+      "question": "Who was the first muezzin (caller to prayer) in Islam?",
+      "question_ur": "اسلام میں سب سے پہلے مؤذن کون تھے؟",
+      "options": {
+        "en": ["Anas ibn Malik", "Bilal ibn Rabah", "Mus'ab ibn Umayr", "Umar ibn al-Khattab"],
+        "ur": ["انس بن مالک", "بلال بن رباح", "مصعب بن عمیر", "عمر بن الخطاب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Bilal ibn Rabah was a former slave who was chosen by the Prophet to be the first muezzin.",
+      "explanation_ur": "بلال بن رباح ایک سابق غلام تھے جنہیں نبی نے سب سے پہلے مؤذن کے طور پر منتخب کیا۔",
+      "hint": "He was an Ethiopian companion known for his beautiful voice.",
+      "hint_ur": "وہ ایک حبشی صحابی تھے جو اپنی خوبصورت آواز کے لیے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 158,
+      "type": "mcq",
+      "question": "Which companion was the cousin and son-in-law of the Prophet Muhammad (PBUH)?",
+      "question_ur": "نبی اکرم صلی اللہ علیہ وسلم کے چچازاد بھائی اور داماد کون سے صحابی تھے؟",
+      "options": {
+        "en": ["Talha ibn Ubaydullah", "Ali ibn Abi Talib", "Abdullah ibn Umar", "Zubayr ibn al-Awwam"],
+        "ur": ["طلحہ بن عبیداللہ", "علی بن ابی طالب", "عبداللہ بن عمر", "زبیر بن العوام"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ali ibn Abi Talib was the Prophet's cousin and married his daughter, Fatimah.",
+      "explanation_ur": "علی بن ابی طالب نبی کے چچازاد بھائی تھے اور انہوں نے ان کی بیٹی فاطمہ سے شادی کی تھی۔",
+      "hint": "He was the fourth caliph and the father of Hasan and Husayn.",
+      "hint_ur": "وہ چوتھے خلیفہ اور حسن و حسین کے والد تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 159,
+      "type": "mcq",
+      "question": "Who was the companion known as 'al-Farooq'?",
+      "question_ur": "چار خلفاء میں سے کون 'الفاروق' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Abu Bakr", "Umar ibn al-Khattab", "Uthman ibn Affan", "Ali ibn Abi Talib"],
+        "ur": ["ابو بکر", "عمر بن الخطاب", "عثمان بن عفان", "علی بن ابی طالب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Umar ibn al-Khattab was called 'al-Farooq' by the Prophet Muhammad (PBUH), a title meaning 'the one who distinguishes between right and wrong'.",
+      "explanation_ur": "عمر بن الخطاب کو نبی اکرم صلی اللہ علیہ وسلم نے 'الفاروق' کا لقب دیا تھا، جس کا مطلب ہے 'وہ جو حق اور باطل میں فرق کرتا ہے'۔",
+      "hint": "He was the second caliph of Islam.",
+      "hint_ur": "وہ اسلام کے دوسرے خلیفہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 160,
+      "type": "mcq",
+      "question": "Which companion was the first to accept Islam from outside the Prophet's family?",
+      "question_ur": "نبی کے خاندان سے باہر سب سے پہلے اسلام قبول کرنے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Zayd ibn Harithah", "Abu Bakr as-Siddiq", "Uthman ibn Affan", "Ali ibn Abi Talib"],
+        "ur": ["زید بن حارثہ", "ابو بکر الصدیق", "عثمان بن عفان", "علی بن ابی طالب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr as-Siddiq was the first free man outside the Prophet's family to accept Islam.",
+      "explanation_ur": "ابو بکر الصدیق نبی کے خاندان سے باہر پہلے آزاد مرد تھے جنہوں نے اسلام قبول کیا۔",
+      "hint": "He was the closest friend of the Prophet (PBUH) and the first caliph.",
+      "hint_ur": "وہ نبی اکرم صلی اللہ علیہ وسلم کے سب سے قریبی دوست اور پہلے خلیفہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 161,
+      "type": "mcq",
+      "question": "Who was the companion who led the first Hijra to Abyssinia (modern-day Ethiopia)?",
+      "question_ur": "کون سے صحابی حبشہ (موجودہ ایتھوپیا) کی طرف پہلی ہجرت کی قیادت کی؟",
+      "options": {
+        "en": ["Ja'far ibn Abi Talib", "Umar ibn al-Khattab", "Uthman ibn Affan", "Abu Talib"],
+        "ur": ["جعفر بن ابی طالب", "عمر بن الخطاب", "عثمان بن عفان", "ابو طالب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Ja'far ibn Abi Talib, the Prophet's cousin, led the group of Muslims who migrated to Abyssinia.",
+      "explanation_ur": "جعفر بن ابی طالب، جو نبی کے چچازاد بھائی تھے، مسلمانوں کے اس گروہ کی قیادت کی جنہوں نے حبشہ کی طرف ہجرت کی۔",
+      "hint": "He was the brother of Ali ibn Abi Talib.",
+      "hint_ur": "وہ علی بن ابی طالب کے بھائی تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 162,
+      "type": "mcq",
+      "question": "Which companion was known as 'al-Amin' or 'the Trustworthy One'?",
+      "question_ur": "کون سے صحابی 'الامین' یا 'امانت دار' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Abu Ubaydah ibn al-Jarrah", "Zayd ibn Harithah", "Talha ibn Ubaydullah", "Mus'ab ibn Umayr"],
+        "ur": ["ابو عبیدہ بن الجراح", "زید بن حارثہ", "طلحہ بن عبیداللہ", "مصعب بن عمیر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abu Ubaydah ibn al-Jarrah was given the title 'al-Amin' by the Prophet Muhammad (PBUH) for his trustworthiness.",
+      "explanation_ur": "ابو عبیدہ بن الجراح کو نبی اکرم صلی اللہ علیہ وسلم نے ان کی امانت داری کی وجہ سے 'الامین' کا لقب دیا۔",
+      "hint": "He was a great general and commander of the Muslim army.",
+      "hint_ur": "وہ ایک عظیم جنرل اور مسلم فوج کے کمانڈر تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 163,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to shoot an arrow in the cause of Islam?",
+      "question_ur": "اسلام کی راہ میں سب سے پہلے تیر چلانے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Umar ibn al-Khattab", "Ali ibn Abi Talib", "Sa'd ibn Abi Waqqas", "Khalid ibn al-Walid"],
+        "ur": ["عمر بن الخطاب", "علی بن ابی طالب", "سعد بن ابی وقاص", "خالد بن الولید"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Sa'd ibn Abi Waqqas was the first to shoot an arrow in the cause of Islam and was known for his archery skills.",
+      "explanation_ur": "سعد بن ابی وقاص اسلام کی راہ میں سب سے پہلے تیر چلانے والے تھے اور وہ اپنی تیر اندازی کی مہارت کے لیے مشہور تھے۔",
+      "hint": "He was one of the 'Asharah Mubasharah', the ten companions promised paradise.",
+      "hint_ur": "وہ 'عشرہ مبشرہ' میں سے ایک تھے، وہ دس صحابہ جن کو جنت کی بشارت دی گئی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 164,
+      "type": "mcq",
+      "question": "Which companion was the governor of Egypt and a great military commander?",
+      "question_ur": "کون سے صحابی مصر کے گورنر اور ایک عظیم فوجی کمانڈر تھے؟",
+      "options": {
+        "en": ["Amr ibn al-As", "Khalid ibn al-Walid", "Abu Ubaydah ibn al-Jarrah", "Mu'awiyah ibn Abi Sufyan"],
+        "ur": ["عمرو بن العاص", "خالد بن الولید", "ابو عبیدہ بن الجراح", "معاویہ بن ابی سفیان"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Amr ibn al-As was a great military commander who conquered Egypt and became its first governor.",
+      "explanation_ur": "عمرو بن العاص ایک عظیم فوجی کمانڈر تھے جنہوں نے مصر کو فتح کیا اور اس کے پہلے گورنر بنے۔",
+      "hint": "He was a master of diplomacy and strategy.",
+      "hint_ur": "وہ سفارت کاری اور حکمت عملی کے ماہر تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 165,
+      "type": "mcq",
+      "question": "Who was the companion known for his great knowledge of the Quran and Sunnah, and was a teacher of many scholars?",
+      "question_ur": "کون سے صحابی قرآن اور سنت کے عظیم علم کے لیے مشہور تھے اور بہت سے علماء کے استاد تھے؟",
+      "options": {
+        "en": ["Abdullah ibn Abbas", "Zayd ibn Thabit", "Anas ibn Malik", "Abdullah ibn Mas'ud"],
+        "ur": ["عبداللہ بن عباس", "زید بن ثابت", "انس بن مالک", "عبداللہ بن مسعود"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abdullah ibn Abbas was a great scholar and jurist of Islam, known for his deep knowledge of the Quran and Sunnah.",
+      "explanation_ur": "عبداللہ بن عباس اسلام کے ایک عظیم عالم اور فقیہ تھے، جو قرآن اور سنت کے گہرے علم کے لیے مشہور تھے۔",
+      "hint": "He was a cousin of the Prophet (PBUH) and was called 'the interpreter of the Quran'.",
+      "hint_ur": "وہ نبی صلی اللہ علیہ وسلم کے چچازاد بھائی تھے اور انہیں 'قرآن کا مفسر' کہا جاتا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 166,
+      "type": "mcq",
+      "question": "Which companion was known as the 'Sword of Allah'?",
+      "question_ur": "کون سے صحابی 'اللہ کی تلوار' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Ali ibn Abi Talib", "Hamza ibn Abdul-Muttalib", "Khalid ibn al-Walid", "Sa'd ibn Abi Waqqas"],
+        "ur": ["علی بن ابی طالب", "حمزہ بن عبدالمطلب", "خالد بن الولید", "سعد بن ابی وقاص"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Khalid ibn al-Walid was an invincible general and was given the title 'Sayfullah' or 'the Sword of Allah' by the Prophet (PBUH).",
+      "explanation_ur": "خالد بن الولید ایک ناقابل شکست جنرل تھے اور انہیں نبی اکرم صلی اللہ علیہ وسلم نے 'سیف اللہ' یا 'اللہ کی تلوار' کا لقب دیا تھا۔",
+      "hint": "He was a military genius who never lost a battle.",
+      "hint_ur": "وہ ایک فوجی ذہین تھے جنہوں نے کبھی کوئی جنگ نہیں ہاری۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 167,
+      "type": "mcq",
+      "question": "Who was the companion who was the scribe of the Quran and compiled it into a single manuscript?",
+      "question_ur": "کون سے صحابی قرآن کے کاتب تھے اور اسے ایک ہی نسخے میں جمع کیا؟",
+      "options": {
+        "en": ["Abdullah ibn Mas'ud", "Zayd ibn Thabit", "Uthman ibn Affan", "Abu Bakr as-Siddiq"],
+        "ur": ["عبداللہ بن مسعود", "زید بن ثابت", "عثمان بن عفان", "ابو بکر الصدیق"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Zayd ibn Thabit was the chief scribe of the Prophet (PBUH) and was tasked with compiling the Quran during the caliphate of Abu Bakr and Uthman.",
+      "explanation_ur": "زید بن ثابت نبی صلی اللہ علیہ وسلم کے chief scribe تھے اور انہیں ابو بکر اور عثمان کے دور خلافت میں قرآن کو جمع کرنے کا کام سونپا گیا تھا۔",
+      "hint": "He was a young companion who had memorized the entire Quran.",
+      "hint_ur": "وہ ایک نوجوان صحابی تھے جنہوں نے پورا قرآن حفظ کر رکھا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 168,
+      "type": "mcq",
+      "question": "Which companion was known as 'al-Siddiq' or 'the Truthful One'?",
+      "question_ur": "کون سے صحابی 'الصدیق' یا 'سچے' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Umar ibn al-Khattab", "Abu Bakr as-Siddiq", "Ali ibn Abi Talib", "Uthman ibn Affan"],
+        "ur": ["عمر بن الخطاب", "ابو بکر الصدیق", "علی بن ابی طالب", "عثمان بن عفان"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Bakr as-Siddiq was given this title by the Prophet (PBUH) for his unwavering belief and truthfulness.",
+      "explanation_ur": "ابو بکر الصدیق کو نبی صلی اللہ علیہ وسلم نے ان کے اٹوٹ یقین اور سچائی کی وجہ سے یہ لقب دیا۔",
+      "hint": "He was the first caliph of Islam.",
+      "hint_ur": "وہ اسلام کے پہلے خلیفہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 169,
+      "type": "mcq",
+      "question": "Who was the companion who migrated to Medina and was known as 'al-Ansari' or 'the Helper'?",
+      "question_ur": "مدینہ ہجرت کرنے والے اور 'الأنصاری' یا 'مددگار' کے نام سے مشہور صحابی کون تھے؟",
+      "options": {
+        "en": ["Abu Ayyub al-Ansari", "Mus'ab ibn Umayr", "Jabir ibn Abdullah", "Anas ibn Malik"],
+        "ur": ["ابو ایوب الانصاری", "مصعب بن عمیر", "جابر بن عبداللہ", "انس بن مالک"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abu Ayyub al-Ansari hosted the Prophet (PBUH) in his house when he first arrived in Medina.",
+      "explanation_ur": "ابو ایوب الانصاری نے نبی صلی اللہ علیہ وسلم کی اپنے گھر میں میزبانی کی جب وہ پہلی بار مدینہ تشریف لائے۔",
+      "hint": "The Prophet's camel knelt down in front of his house.",
+      "hint_ur": "نبی کی اونٹنی ان کے گھر کے سامنے بیٹھ گئی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 170,
+      "type": "mcq",
+      "question": "Which companion was known as 'al-Ghani' or 'the Rich One'?",
+      "question_ur": "کون سے صحابی 'الغنی' یا 'امیر' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Umar ibn al-Khattab", "Uthman ibn Affan", "Abdur-Rahman ibn Awf", "Talha ibn Ubaydullah"],
+        "ur": ["عمر بن الخطاب", "عثمان بن عفان", "عبدالرحمن بن عوف", "طلحہ بن عبیداللہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Uthman ibn Affan was known for his immense wealth and generosity, and was one of the wealthiest men in Mecca.",
+      "explanation_ur": "عثمان بن عفان اپنی بے پناہ دولت اور سخاوت کے لیے مشہور تھے، اور وہ مکہ کے امیر ترین لوگوں میں سے ایک تھے۔",
+      "hint": "He was the third caliph of Islam.",
+      "hint_ur": "وہ اسلام کے تیسرے خلیفہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 171,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to be a martyr in Islam?",
+      "question_ur": "اسلام میں سب سے پہلے شہید ہونے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Sumayyah bint Khayyat", "Yasir ibn Amir", "Ammar ibn Yasir", "Bilal ibn Rabah"],
+        "ur": ["سمیہ بنت خیاط", "یاسر بن عامر", "عمار بن یاسر", "بلال بن رباح"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Sumayyah bint Khayyat was the first martyr in Islam, killed by Abu Jahl for her belief.",
+      "explanation_ur": "سمیہ بنت خیاط اسلام کی پہلی شہید تھیں، جنہیں ابو جہل نے ان کے عقیدے کی وجہ سے شہید کیا۔",
+      "hint": "She was the mother of Ammar ibn Yasir.",
+      "hint_ur": "وہ عمار بن یاسر کی والدہ تھیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 172,
+      "type": "mcq",
+      "question": "Which companion was known as 'the Interpreter of the Quran'?",
+      "question_ur": "کون سے صحابی 'قرآن کے مفسر' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Abdullah ibn Mas'ud", "Abdullah ibn Abbas", "Zayd ibn Thabit", "Ubayy ibn Ka'b"],
+        "ur": ["عبداللہ بن مسعود", "عبداللہ بن عباس", "زید بن ثابت", "ابی بن کعب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abdullah ibn Abbas was a great scholar and jurist of Islam, known for his deep knowledge of the Quran and its interpretation.",
+      "explanation_ur": "عبداللہ بن عباس اسلام کے ایک عظیم عالم اور فقیہ تھے، جو قرآن اور اس کی تفسیر کے گہرے علم کے لیے مشہور تھے۔",
+      "hint": "He was a cousin of the Prophet (PBUH) and was very young when he accepted Islam.",
+      "hint_ur": "وہ نبی صلی اللہ علیہ وسلم کے چچازاد بھائی تھے اور جب انہوں نے اسلام قبول کیا تو بہت جوان تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 173,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to give the adhan (call to prayer) from the roof of the Kaaba?",
+      "question_ur": "کون سے صحابی کعبہ کی چھت سے سب سے پہلے اذان دی؟",
+      "options": {
+        "en": ["Bilal ibn Rabah", "Umar ibn al-Khattab", "Abu Bakr as-Siddiq", "Uthman ibn Affan"],
+        "ur": ["بلال بن رباح", "عمر بن الخطاب", "ابو بکر الصدیق", "عثمان بن عفان"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Bilal ibn Rabah gave the first adhan from the Kaaba after the conquest of Mecca.",
+      "explanation_ur": "بلال بن رباح نے فتح مکہ کے بعد کعبہ سے پہلی اذان دی۔",
+      "hint": "He was the first muezzin of Islam.",
+      "hint_ur": "وہ اسلام کے پہلے مؤذن تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 174,
+      "type": "mcq",
+      "question": "Which companion was known as 'al-Fatih' or 'the Conqueror'?",
+      "question_ur": "کون سے صحابی 'الفاتح' یا 'فاتح' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Amr ibn al-As", "Khalid ibn al-Walid", "Abu Ubaydah ibn al-Jarrah", "Mu'awiyah ibn Abi Sufyan"],
+        "ur": ["عمرو بن العاص", "خالد بن الولید", "ابو عبیدہ بن الجراح", "معاویہ بن ابی سفیان"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Amr ibn al-As was a great military commander who conquered Egypt and was known as 'the Conqueror' for his military campaigns.",
+      "explanation_ur": "عمرو بن العاص ایک عظیم فوجی کمانڈر تھے جنہوں نے مصر کو فتح کیا اور اپنی فوجی مہمات کی وجہ سے 'فاتح' کے نام سے جانے جاتے تھے۔",
+      "hint": "He was a master of diplomacy and strategy.",
+      "hint_ur": "وہ سفارت کاری اور حکمت عملی کے ماہر تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 175,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to compile a complete manuscript of the Quran?",
+      "question_ur": "کون سے صحابی نے قرآن کا مکمل نسخہ سب سے پہلے جمع کیا؟",
+      "options": {
+        "en": ["Zayd ibn Thabit", "Uthman ibn Affan", "Abdullah ibn Mas'ud", "Ubayy ibn Ka'b"],
+        "ur": ["زید بن ثابت", "عثمان بن عفان", "عبداللہ بن مسعود", "ابی بن کعب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Zayd ibn Thabit was the chief scribe of the Prophet (PBUH) and was tasked with compiling the Quran into a single manuscript during the caliphate of Abu Bakr.",
+      "explanation_ur": "زید بن ثابت نبی صلی اللہ علیہ وسلم کے chief scribe تھے اور انہیں ابو بکر کے دور خلافت میں قرآن کو ایک ہی نسخے میں جمع کرنے کا کام سونپا گیا تھا۔",
+      "hint": "He was a young companion who had memorized the entire Quran.",
+      "hint_ur": "وہ ایک نوجوان صحابی تھے جنہوں نے پورا قرآن حفظ کر رکھا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 176,
+      "type": "mcq",
+      "question": "Which companion was the first to accept Islam among women?",
+      "question_ur": "خواتین میں سب سے پہلے اسلام قبول کرنے والی صحابیہ کون تھیں؟",
+      "options": {
+        "en": ["Aisha bint Abu Bakr", "Fatimah bint Muhammad", "Khadijah bint Khuwaylid", "Umm Salamah"],
+        "ur": ["عائشہ بنت ابی بکر", "فاطمہ بنت محمد", "خدیجہ بنت خویلد", "ام سلمہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Khadijah bint Khuwaylid, the Prophet's first wife, was the first person to accept Islam.",
+      "explanation_ur": "خدیجہ بنت خویلد، جو نبی کی پہلی بیوی تھیں، وہ پہلی شخصیت تھیں جنہوں نے اسلام قبول کیا۔",
+      "hint": "She was a wealthy businesswoman from Mecca.",
+      "hint_ur": "وہ مکہ کی ایک مالدار تاجرہ تھیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 177,
+      "type": "mcq",
+      "question": "Who was the companion who was given the title 'al-Jundi' or 'the Soldier'?",
+      "question_ur": "کون سے صحابی کو 'الجندی' یا 'فوجی' کا لقب دیا گیا؟",
+      "options": {
+        "en": ["Zubayr ibn al-Awwam", "Sa'd ibn Abi Waqqas", "Talha ibn Ubaydullah", "Khalid ibn al-Walid"],
+        "ur": ["زبیر بن العوام", "سعد بن ابی وقاص", "طلحہ بن عبیداللہ", "خالد بن الولید"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Talha ibn Ubaydullah was given the title 'al-Jundi' for his bravery and courage in battle.",
+      "explanation_ur": "طلحہ بن عبیداللہ کو جنگ میں ان کی بہادری اور جرأت کی وجہ سے 'الجندی' کا لقب دیا گیا۔",
+      "hint": "He was one of the ten companions promised paradise.",
+      "hint_ur": "وہ عشرہ مبشرہ میں سے ایک تھے، وہ دس صحابہ جن کو جنت کی بشارت دی گئی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 178,
+      "type": "mcq",
+      "question": "Which companion was the first to lead a Muslim naval fleet?",
+      "question_ur": "کون سے صحابی نے سب سے پہلے ایک مسلم بحری بیڑے کی قیادت کی؟",
+      "options": {
+        "en": ["Mu'awiyah ibn Abi Sufyan", "Uthman ibn Affan", "Amr ibn al-As", "Khalid ibn al-Walid"],
+        "ur": ["معاویہ بن ابی سفیان", "عثمان بن عفان", "عمرو بن العاص", "خالد بن الولید"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Mu'awiyah ibn Abi Sufyan, while governor of Syria, established the first Muslim navy and led it in battles against the Byzantine Empire.",
+      "explanation_ur": "معاویہ بن ابی سفیان، جب شام کے گورنر تھے، انہوں نے پہلی مسلم بحریہ قائم کی اور اسے بازنطینی سلطنت کے خلاف لڑائیوں میں قیادت کی۔",
+      "hint": "He was the founder of the Umayyad Caliphate.",
+      "hint_ur": "وہ اموی خلافت کے بانی تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 179,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to be a martyr in the Battle of Badr?",
+      "question_ur": "غزوہ بدر میں سب سے پہلے شہید ہونے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Ubaydah ibn al-Harith", "Sa'd ibn Mu'adh", "Hamza ibn Abdul-Muttalib", "Mus'ab ibn Umayr"],
+        "ur": ["عبیدہ بن الحارث", "سعد بن معاذ", "حمزہ بن عبدالمطلب", "مصعب بن عمیر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Ubaydah ibn al-Harith was the first to be martyred in the Battle of Badr, after a duel with the Meccan polytheists.",
+      "explanation_ur": "عبیدہ بن الحارث غزوہ بدر میں سب سے پہلے شہید ہوئے، مکی مشرکوں کے ساتھ ایک دوئل کے بعد۔",
+      "hint": "He was a cousin of the Prophet (PBUH).",
+      "hint_ur": "وہ نبی صلی اللہ علیہ وسلم کے چچازاد بھائی تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 180,
+      "type": "mcq",
+      "question": "Which companion was known as 'al-Ghazi' or 'the Warrior'?",
+      "question_ur": "کون سے صحابی 'الغازی' یا 'جنگجو' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Umar ibn al-Khattab", "Khalid ibn al-Walid", "Sa'd ibn Abi Waqqas", "Abdullah ibn Rawahah"],
+        "ur": ["عمر بن الخطاب", "خالد بن الولید", "سعد بن ابی وقاص", "عبداللہ بن رواحہ"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Abdullah ibn Rawahah was a great warrior and a poet who was known for his courage and bravery in battles.",
+      "explanation_ur": "عبداللہ بن رواحہ ایک عظیم جنگجو اور شاعر تھے جو جنگوں میں اپنی جرأت اور بہادری کے لیے مشہور تھے۔",
+      "hint": "He was one of the three commanders at the Battle of Mu'tah.",
+      "hint_ur": "وہ غزوہ موتہ کے تین کمانڈروں میں سے ایک تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 181,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to be martyred in the Battle of Uhud?",
+      "question_ur": "غزوہ احد میں سب سے پہلے شہید ہونے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Hamza ibn Abdul-Muttalib", "Mus'ab ibn Umayr", "Ubaydullah ibn al-Harith", "Abdullah ibn Jubayr"],
+        "ur": ["حمزہ بن عبدالمطلب", "مصعب بن عمیر", "عبیداللہ بن الحارث", "عبداللہ بن جبیر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Mus'ab ibn Umayr was the first to be martyred in the Battle of Uhud, holding the banner of the Muslims.",
+      "explanation_ur": "مصعب بن عمیر غزوہ احد میں مسلمانوں کا پرچم تھامے ہوئے سب سے پہلے شہید ہوئے تھے۔",
+      "hint": "He was the first ambassador of Islam.",
+      "hint_ur": "وہ اسلام کے پہلے سفیر تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 182,
+      "type": "mcq",
+      "question": "Which companion was known as 'the companion of the two migrations'?",
+      "question_ur": "کون سے صحابی 'دو ہجرتوں کے ساتھی' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Uthman ibn Affan", "Zubayr ibn al-Awwam", "Sa'd ibn Abi Waqqas", "Ja'far ibn Abi Talib"],
+        "ur": ["عثمان بن عفان", "زبیر بن العوام", "سعد بن ابی وقاص", "جعفر بن ابی طالب"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Ja'far ibn Abi Talib migrated to Abyssinia and then to Medina, so he was known as 'the companion of the two migrations'.",
+      "explanation_ur": "جعفر بن ابی طالب نے حبشہ اور پھر مدینہ کی طرف ہجرت کی، اس لیے وہ 'دو ہجرتوں کے ساتھی' کے نام سے مشہور تھے۔",
+      "hint": "He was the brother of Ali ibn Abi Talib.",
+      "hint_ur": "وہ علی بن ابی طالب کے بھائی تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 183,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to be martyred in the Battle of Yarmuk?",
+      "question_ur": "غزوہ یرموک میں سب سے پہلے شہید ہونے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Abdullah ibn Rawahah", "Abu Ubaydah ibn al-Jarrah", "Zubayr ibn al-Awwam", "Khalid ibn al-Walid"],
+        "ur": ["عبداللہ بن رواحہ", "ابو عبیدہ بن الجراح", "زبیر بن العوام", "خالد بن الولید"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Ubaydah ibn al-Jarrah was the commander of the Muslim army at the Battle of Yarmuk and was the first to be martyred.",
+      "explanation_ur": "ابو عبیدہ بن الجراح غزوہ یرموک میں مسلم فوج کے کمانڈر تھے اور وہ سب سے پہلے شہید ہوئے۔",
+      "hint": "He was known as 'al-Amin' or 'the Trustworthy One'.",
+      "hint_ur": "وہ 'الامین' یا 'امانت دار' کے نام سے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 184,
+      "type": "mcq",
+      "question": "Which companion was known as 'al-Hakam' or 'the Judge'?",
+      "question_ur": "کون سے صحابی 'الحکم' یا 'منصف' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Umar ibn al-Khattab", "Ali ibn Abi Talib", "Abdullah ibn Mas'ud", "Abdullah ibn Abbas"],
+        "ur": ["عمر بن الخطاب", "علی بن ابی طالب", "عبداللہ بن مسعود", "عبداللہ بن عباس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ali ibn Abi Talib was a great jurist and was known as 'al-Hakam' for his just judgments.",
+      "explanation_ur": "علی بن ابی طالب ایک عظیم فقیہ تھے اور اپنے عادلانہ فیصلوں کی وجہ سے 'الحکم' کے نام سے مشہور تھے۔",
+      "hint": "He was the fourth caliph of Islam.",
+      "hint_ur": "وہ اسلام کے چوتھے خلیفہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 185,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to be martyred in the Battle of Khaybar?",
+      "question_ur": "غزوہ خیبر میں سب سے پہلے شہید ہونے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Ali ibn Abi Talib", "Sa'd ibn Mu'adh", "Abdullah ibn Rawahah", "Abu Dujana"],
+        "ur": ["علی بن ابی طالب", "سعد بن معاذ", "عبداللہ بن رواحہ", "ابو دجانہ"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Abu Dujana was a great warrior who was the first to be martyred in the Battle of Khaybar.",
+      "explanation_ur": "ابو دجانہ ایک عظیم جنگجو تھے جو غزوہ خیبر میں سب سے پہلے شہید ہوئے۔",
+      "hint": "He was known for his red headband in battle.",
+      "hint_ur": "وہ جنگ میں اپنی سرخ پٹی کے لیے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 186,
+      "type": "mcq",
+      "question": "Which companion was known as 'the companion of the well'?",
+      "question_ur": "کون سے صحابی 'کنویں کے ساتھی' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Uthman ibn Affan", "Abu Bakr as-Siddiq", "Umar ibn al-Khattab", "Ali ibn Abi Talib"],
+        "ur": ["عثمان بن عفان", "ابو بکر الصدیق", "عمر بن الخطاب", "علی بن ابی طالب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Uthman ibn Affan bought a well called 'Rumah' from a Jew and made it a public charity for the Muslims of Medina.",
+      "explanation_ur": "عثمان بن عفان نے ایک یہودی سے 'رومہ' نامی ایک کنواں خریدا اور اسے مدینہ کے مسلمانوں کے لیے ایک عوامی صدقہ بنایا۔",
+      "hint": "He was the third caliph of Islam.",
+      "hint_ur": "وہ اسلام کے تیسرے خلیفہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 187,
+      "type": "mcq",
+      "question": "Who was the companion who was known as 'the companion of the two swords'?",
+      "question_ur": "کون سے صحابی 'دو تلواروں کے ساتھی' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Ali ibn Abi Talib", "Khalid ibn al-Walid", "Zubayr ibn al-Awwam", "Talha ibn Ubaydullah"],
+        "ur": ["علی بن ابی طالب", "خالد بن الولید", "زبیر بن العوام", "طلحہ بن عبیداللہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Zubayr ibn al-Awwam was a great warrior and was known as 'the companion of the two swords' for his bravery in battles.",
+      "explanation_ur": "زبیر بن العوام ایک عظیم جنگجو تھے اور جنگوں میں اپنی بہادری کی وجہ سے 'دو تلواروں کے ساتھی' کے نام سے مشہور تھے۔",
+      "hint": "He was one of the 'Asharah Mubasharah', the ten companions promised paradise.",
+      "hint_ur": "وہ 'عشرہ مبشرہ' میں سے ایک تھے، وہ دس صحابہ جن کو جنت کی بشارت دی گئی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 188,
+      "type": "mcq",
+      "question": "Which companion was known as 'the poet of the Prophet'?",
+      "question_ur": "کون سے صحابی 'نبی کے شاعر' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Hassan ibn Thabit", "Ka'b ibn Zuhayr", "Abdullah ibn Rawahah", "Ubayy ibn Ka'b"],
+        "ur": ["حسان بن ثابت", "کعب بن زہیر", "عبداللہ بن رواحہ", "ابی بن کعب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Hassan ibn Thabit was a famous poet who defended the Prophet Muhammad (PBUH) with his poetry against the polytheists of Mecca.",
+      "explanation_ur": "حسان بن ثابت ایک مشہور شاعر تھے جنہوں نے مکہ کے مشرکوں کے خلاف اپنی شاعری سے نبی اکرم صلی اللہ علیہ وسلم کا دفاع کیا۔",
+      "hint": "He was one of the Ansar from Medina.",
+      "hint_ur": "وہ مدینہ کے انصار میں سے تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 189,
+      "type": "mcq",
+      "question": "Who was the companion who was a great general and conquered Damascus?",
+      "question_ur": "کون سے صحابی ایک عظیم جنرل تھے اور دمشق کو فتح کیا؟",
+      "options": {
+        "en": ["Khalid ibn al-Walid", "Abu Ubaydah ibn al-Jarrah", "Amr ibn al-As", "Mu'awiyah ibn Abi Sufyan"],
+        "ur": ["خالد بن الولید", "ابو عبیدہ بن الجراح", "عمرو بن العاص", "معاویہ بن ابی سفیان"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Ubaydah ibn al-Jarrah was the commander of the Muslim army that conquered Damascus.",
+      "explanation_ur": "ابو عبیدہ بن الجراح مسلم فوج کے کمانڈر تھے جنہوں نے دمشق کو فتح کیا۔",
+      "hint": "He was known as 'al-Amin' or 'the Trustworthy One'.",
+      "hint_ur": "وہ 'الامین' یا 'امانت دار' کے نام سے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 190,
+      "type": "mcq",
+      "question": "Which companion was known as 'the treasurer of the Prophet'?",
+      "question_ur": "کون سے صحابی 'نبی کے خزانچی' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Uthman ibn Affan", "Abdullah ibn Mas'ud", "Umar ibn al-Khattab", "Abu Ubaydah ibn al-Jarrah"],
+        "ur": ["عثمان بن عفان", "عبداللہ بن مسعود", "عمر بن الخطاب", "ابو عبیدہ بن الجراح"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Abu Ubaydah ibn al-Jarrah was the treasurer of the Prophet Muhammad (PBUH) and was responsible for distributing the charity (sadaqah).",
+      "explanation_ur": "ابو عبیدہ بن الجراح نبی اکرم صلی اللہ علیہ وسلم کے خزانچی تھے اور خیرات (صدقہ) تقسیم کرنے کے ذمہ دار تھے۔",
+      "hint": "He was one of the ten companions promised paradise.",
+      "hint_ur": "وہ عشرہ مبشرہ میں سے ایک تھے، وہ دس صحابہ جن کو جنت کی بشارت دی گئی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 191,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to be a martyr in the Battle of the Trench?",
+      "question_ur": "غزوہ خندق میں سب سے پہلے شہید ہونے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Sa'd ibn Mu'adh", "Zayd ibn Harithah", "Salman al-Farsi", "Abdullah ibn Rawahah"],
+        "ur": ["سعد بن معاذ", "زید بن حارثہ", "سلمان فارسی", "عبداللہ بن رواحہ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Sa'd ibn Mu'adh was the chief of the Banu Aws tribe in Medina and was martyred in the Battle of the Trench.",
+      "explanation_ur": "سعد بن معاذ مدینہ میں بنو اوس قبیلے کے سردار تھے اور غزوہ خندق میں شہید ہوئے۔",
+      "hint": "He was known for his just judgment against the Banu Qurayza.",
+      "hint_ur": "وہ بنو قریظہ کے خلاف اپنے عادلانہ فیصلے کے لیے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 192,
+      "type": "mcq",
+      "question": "Which companion was known as 'the owner of the two lights'?",
+      "question_ur": "کون سے صحابی 'دو نوروں کے مالک' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Umar ibn al-Khattab", "Uthman ibn Affan", "Abdur-Rahman ibn Awf", "Ali ibn Abi Talib"],
+        "ur": ["عمر بن الخطاب", "عثمان بن عفان", "عبدالرحمن بن عوف", "علی بن ابی طالب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Uthman ibn Affan was called 'the owner of the two lights' because he married two of the Prophet's daughters.",
+      "explanation_ur": "عثمان بن عفان کو 'دو نوروں کے مالک' کہا جاتا تھا کیونکہ انہوں نے نبی کی دو بیٹیوں سے شادی کی تھی۔",
+      "hint": "He was the third caliph of Islam.",
+      "hint_ur": "وہ اسلام کے تیسرے خلیفہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 193,
+      "type": "mcq",
+      "question": "Who was the companion who was a great scholar and a jurist of Islam?",
+      "question_ur": "کون سے صحابی ایک عظیم عالم اور اسلام کے فقیہ تھے؟",
+      "options": {
+        "en": ["Abdullah ibn Abbas", "Abdullah ibn Mas'ud", "Mu'adh ibn Jabal", "Zayd ibn Thabit"],
+        "ur": ["عبداللہ بن عباس", "عبداللہ بن مسعود", "معاذ بن جبل", "زید بن ثابت"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Mu'adh ibn Jabal was a great scholar and jurist of Islam, and was sent by the Prophet (PBUH) to Yemen as a judge.",
+      "explanation_ur": "معاذ بن جبل اسلام کے ایک عظیم عالم اور فقیہ تھے، اور انہیں نبی صلی اللہ علیہ وسلم نے یمن میں ایک قاضی کے طور پر بھیجا تھا۔",
+      "hint": "He was known for his deep knowledge of the Quran and Sunnah.",
+      "hint_ur": "وہ قرآن اور سنت کے گہرے علم کے لیے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 194,
+      "type": "mcq",
+      "question": "Which companion was known as 'the speaker of the Prophet'?",
+      "question_ur": "کون سے صحابی 'نبی کے متکلم' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Abdullah ibn Rawahah", "Ka'b ibn Zuhayr", "Hassan ibn Thabit", "Ubayy ibn Ka'b"],
+        "ur": ["عبداللہ بن رواحہ", "کعب بن زہیر", "حسان بن ثابت", "ابی بن کعب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abdullah ibn Rawahah was a great poet and was known as 'the speaker of the Prophet' for his poetry that praised the Prophet (PBUH) and Islam.",
+      "explanation_ur": "عبداللہ بن رواحہ ایک عظیم شاعر تھے اور وہ اپنی شاعری کے لیے 'نبی کے متکلم' کے نام سے مشہور تھے جو نبی صلی اللہ علیہ وسلم اور اسلام کی تعریف کرتی تھی۔",
+      "hint": "He was one of the three commanders at the Battle of Mu'tah.",
+      "hint_ur": "وہ غزوہ موتہ کے تین کمانڈروں میں سے ایک تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 195,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to accept Islam among children?",
+      "question_ur": "بچوں میں سب سے پہلے اسلام قبول کرنے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Anas ibn Malik", "Zayd ibn Harithah", "Ali ibn Abi Talib", "Abdullah ibn Abbas"],
+        "ur": ["انس بن مالک", "زید بن حارثہ", "علی بن ابی طالب", "عبداللہ بن عباس"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Ali ibn Abi Talib was the first child to accept Islam, and was the cousin and son-in-law of the Prophet (PBUH).",
+      "explanation_ur": "علی بن ابی طالب سب سے پہلے بچے تھے جنہوں نے اسلام قبول کیا، اور وہ نبی صلی اللہ علیہ وسلم کے چچازاد بھائی اور داماد تھے۔",
+      "hint": "He was the fourth caliph of Islam.",
+      "hint_ur": "وہ اسلام کے چوتھے خلیفہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 196,
+      "type": "mcq",
+      "question": "Which companion was known as 'the companion of the secret'?",
+      "question_ur": "کون سے صحابی 'راز کے ساتھی' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Hudhayfah ibn al-Yaman", "Zubayr ibn al-Awwam", "Salman al-Farsi", "Abdullah ibn Mas'ud"],
+        "ur": ["حذیفہ بن الیمان", "زبیر بن العوام", "سلمان فارسی", "عبداللہ بن مسعود"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Hudhayfah ibn al-Yaman was entrusted by the Prophet (PBUH) with the names of the hypocrites, so he was known as 'the companion of the secret'.",
+      "explanation_ur": "حذیفہ بن الیمان کو نبی صلی اللہ علیہ وسلم نے منافقوں کے ناموں کی امانت دی تھی، اس لیے وہ 'راز کے ساتھی' کے نام سے مشہور تھے۔",
+      "hint": "He was a great general and a jurist.",
+      "hint_ur": "وہ ایک عظیم جنرل اور فقیہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 197,
+      "type": "mcq",
+      "question": "Who was the companion who was known as 'the companion of the donkey'?",
+      "question_ur": "کون سے صحابی 'گدھے کے ساتھی' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Anas ibn Malik", "Jabir ibn Abdullah", "Bilal ibn Rabah", "Umar ibn al-Khattab"],
+        "ur": ["انس بن مالک", "جابر بن عبداللہ", "بلال بن رباح", "عمر بن الخطاب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Jabir ibn Abdullah was known as 'the companion of the donkey' because he owned a famous donkey that was gifted to him by the Prophet (PBUH).",
+      "explanation_ur": "جابر بن عبداللہ 'گدھے کے ساتھی' کے نام سے مشہور تھے کیونکہ ان کے پاس ایک مشہور گدھا تھا جو انہیں نبی صلی اللہ علیہ وسلم نے تحفہ دیا تھا۔",
+      "hint": "He was a great scholar and a narrator of Hadith.",
+      "hint_ur": "وہ ایک عظیم عالم اور حدیث کے راوی تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 198,
+      "type": "mcq",
+      "question": "Which companion was known as 'the companion of the well'?",
+      "question_ur": "کون سے صحابی 'کنویں کے ساتھی' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Uthman ibn Affan", "Abu Bakr as-Siddiq", "Umar ibn al-Khattab", "Ali ibn Abi Talib"],
+        "ur": ["عثمان بن عفان", "ابو بکر الصدیق", "عمر بن الخطاب", "علی بن ابی طالب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Uthman ibn Affan bought a well called 'Rumah' from a Jew and made it a public charity for the Muslims of Medina.",
+      "explanation_ur": "عثمان بن عفان نے ایک یہودی سے 'رومہ' نامی ایک کنواں خریدا اور اسے مدینہ کے مسلمانوں کے لیے ایک عوامی صدقہ بنایا۔",
+      "hint": "He was the third caliph of Islam.",
+      "hint_ur": "وہ اسلام کے تیسرے خلیفہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 199,
+      "type": "mcq",
+      "question": "Who was the companion who was known as 'the companion of the two migrations'?",
+      "question_ur": "کون سے صحابی 'دو ہجرتوں کے ساتھی' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Ja'far ibn Abi Talib", "Uthman ibn Affan", "Sa'd ibn Abi Waqqas", "Zubayr ibn al-Awwam"],
+        "ur": ["جعفر بن ابی طالب", "عثمان بن عفان", "سعد بن ابی وقاص", "زبیر بن العوام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Ja'far ibn Abi Talib migrated to Abyssinia and then to Medina, so he was known as 'the companion of the two migrations'.",
+      "explanation_ur": "جعفر بن ابی طالب نے حبشہ اور پھر مدینہ کی طرف ہجرت کی، اس لیے وہ 'دو ہجرتوں کے ساتھی' کے نام سے مشہور تھے۔",
+      "hint": "He was the brother of Ali ibn Abi Talib.",
+      "hint_ur": "وہ علی بن ابی طالب کے بھائی تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 200,
+      "type": "mcq",
+      "question": "Which companion was known as 'the owner of the two lights'?",
+      "question_ur": "کون سے صحابی 'دو نوروں کے مالک' کے نام سے مشہور تھے؟",
+      "options": {
+        "en": ["Umar ibn al-Khattab", "Uthman ibn Affan", "Abdur-Rahman ibn Awf", "Ali ibn Abi Talib"],
+        "ur": ["عمر بن الخطاب", "عثمان بن عفان", "عبدالرحمن بن عوف", "علی بن ابی طالب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Uthman ibn Affan was called 'the owner of the two lights' because he married two of the Prophet's daughters.",
+      "explanation_ur": "عثمان بن عفان کو 'دو نوروں کے مالک' کہا جاتا تھا کیونکہ انہوں نے نبی کی دو بیٹیوں سے شادی کی تھی۔",
+      "hint": "He was the third caliph of Islam.",
+      "hint_ur": "وہ اسلام کے تیسرے خلیفہ تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 201,
+      "type": "mcq",
+      "question": "Who was the companion who was the first to openly recite the Quran in Mecca?",
+      "question_ur": "مکہ میں سب سے پہلے کھلے عام قرآن کی تلاوت کرنے والے صحابی کون تھے؟",
+      "options": {
+        "en": ["Abdullah ibn Mas'ud", "Uthman ibn Affan", "Abu Bakr as-Siddiq", "Umar ibn al-Khattab"],
+        "ur": ["عبداللہ بن مسعود", "عثمان بن عفان", "ابو بکر الصدیق", "عمر بن الخطاب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abdullah ibn Mas'ud was the first to recite the Quran publicly in Mecca, facing great danger.",
+      "explanation_ur": "عبداللہ بن مسعود نے مکہ میں پہلی بار کھلے عام قرآن کی تلاوت کی، جس میں انہیں بڑے خطرات کا سامنا کرنا پڑا۔",
+      "hint": "He was known for his beautiful recitation and knowledge of the Quran.",
+      "hint_ur": "وہ قرآن کی خوبصورت تلاوت اور علم کے لیے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 202,
+      "type": "mcq",
+      "question": "Which companion was known as 'the Lion of Allah'?",
+      "question_ur": "کون سے صحابی کو 'اللہ کا شیر' کہا جاتا تھا؟",
+      "options": {
+        "en": ["Ali ibn Abi Talib", "Hamza ibn Abdul-Muttalib", "Khalid ibn al-Walid", "Abu Ubaydah ibn al-Jarrah"],
+        "ur": ["علی بن ابی طالب", "حمزہ بن عبدالمطلب", "خالد بن الولید", "ابو عبیدہ بن الجراح"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Hamza ibn Abdul-Muttalib, the Prophet's uncle, was known as 'Asadullah' or 'the Lion of Allah' for his bravery.",
+      "explanation_ur": "حمزہ بن عبدالمطلب، جو نبی کے چچا تھے، اپنی بہادری کی وجہ سے 'اسد اللہ' یا 'اللہ کا شیر' کہلاتے تھے۔",
+      "hint": "He was martyred at the Battle of Uhud.",
+      "hint_ur": "وہ غزوہ احد میں شہید ہوئے تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 203,
+      "type": "mcq",
+      "question": "Who was the first muezzin (caller to prayer) in Islam?",
+      "question_ur": "اسلام میں سب سے پہلے مؤذن کون تھے؟",
+      "options": {
+        "en": ["Anas ibn Malik", "Bilal ibn Rabah", "Mus'ab ibn Umayr", "Umar ibn al-Khattab"],
+        "ur": ["انس بن مالک", "بلال بن رباح", "مصعب بن عمیر", "عمر بن الخطاب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Bilal ibn Rabah was a former slave who was chosen by the Prophet to be the first muezzin.",
+      "explanation_ur": "بلال بن رباح ایک سابق غلام تھے جنہیں نبی نے سب سے پہلے مؤذن کے طور پر منتخب کیا۔",
+      "hint": "He was an Ethiopian companion known for his beautiful voice.",
+      "hint_ur": "وہ ایک حبشی صحابی تھے جو اپنی خوبصورت آواز کے لیے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 204,
+      "type": "mcq",
+      "question": "Which companion was the cousin and son-in-law of the Prophet Muhammad (PBUH)?",
+      "question_ur": "نبی اکرم صلی اللہ علیہ وسلم کے چچازاد بھائی اور داماد کون سے صحابی تھے؟",
+      "options": {
+        "en": ["Talha ibn Ubaydullah", "Ali ibn Abi Talib", "Abdullah ibn Umar", "Zubayr ibn al-Awwam"],
+        "ur": ["طلحہ بن عبیداللہ", "علی بن ابی طالب", "عبداللہ بن عمر", "زبیر بن العوام"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ali ibn Abi Talib was the Prophet's cousin and married his daughter, Fatimah.",
+      "explanation_ur": "علی بن ابی طالب نبی کے چچازاد بھائی تھے اور انہوں نے ان کی بیٹی فاطمہ سے شادی کی تھی۔",
+      "hint": "He was the fourth caliph and the father of Hasan and Husayn.",
+      "hint_ur": "وہ چوتھے خلیفہ اور حسن و حسین کے والد تھے۔",
+      "timeLimit": 30
+    }
+  ]
+}

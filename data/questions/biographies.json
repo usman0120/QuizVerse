@@ -1,0 +1,2292 @@
+{
+  "meta": {
+    "category": "Biographies",
+    "category_ur": "سوانح عمری",
+    "description": "Test your knowledge about famous personalities from around the world",
+    "description_ur": "دنیا بھر کی مشہور شخصیات کے بارے میں اپنا علم آزمائیں",
+    "difficulty": "easy",
+    "image": "biographies.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Who was the first President of the United States?",
+      "question_ur": "ریاستہائے متحدہ امریکہ کے پہلے صدر کون تھے؟",
+      "options": {
+        "en": [
+          "George Washington",
+          "Abraham Lincoln",
+          "Thomas Jefferson",
+          "John Adams"
+        ],
+        "ur": [
+          "جارج واشنگٹن",
+          "ابراہم لنکن",
+          "تھامس جیفرسن",
+          "جان ایڈمز"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "George Washington served as the first President of the USA from 1789 to 1797.",
+      "explanation_ur": "جارج واشنگٹن نے 1789 سے 1797 تک امریکہ کے پہلے صدر کے طور پر خدمات انجام دیں۔",
+      "hint": "He is on the US one-dollar bill.",
+      "hint_ur": "وہ امریکی ایک ڈالر کے نوٹ پر ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 2,
+      "type": "true-false",
+      "question": "Mahatma Gandhi was born in South Africa.",
+      "question_ur": "مہاتما گاندھی جنوبی افریقہ میں پیدا ہوئے تھے۔",
+      "correctAnswer": false,
+      "explanation": "Mahatma Gandhi was born in Porbandar, India, in 1869.",
+      "explanation_ur": "مہاتما گاندھی 1869 میں پوربندر، بھارت میں پیدا ہوئے تھے۔",
+      "hint": "He later lived in South Africa.",
+      "hint_ur": "وہ بعد میں جنوبی افریقہ میں رہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Who was known as the Iron Lady?",
+      "question_ur": "آئرن لیڈی کے نام سے کون مشہور تھیں؟",
+      "options": {
+        "en": [
+          "Margaret Thatcher",
+          "Indira Gandhi",
+          "Angela Merkel",
+          "Golda Meir"
+        ],
+        "ur": [
+          "مارگریٹ تھیچر",
+          "اندرا گاندھی",
+          "انجیلا مرکل",
+          "گولڈا مائیر"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Margaret Thatcher, Prime Minister of the UK from 1979 to 1990, was called the Iron Lady.",
+      "explanation_ur": "مارگریٹ تھیچر، جو 1979 سے 1990 تک برطانیہ کی وزیراعظم رہیں، آئرن لیڈی کہلاتی تھیں۔",
+      "hint": "She was a British Prime Minister.",
+      "hint_ur": "وہ برطانیہ کی وزیر اعظم تھیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 4,
+      "type": "true-false",
+      "question": "William Shakespeare wrote 'The Odyssey'.",
+      "question_ur": "ولیم شیکسپیئر نے 'اوڈیسی' لکھی۔",
+      "correctAnswer": false,
+      "explanation": "The Odyssey was written by the ancient Greek poet Homer.",
+      "explanation_ur": "اوڈیسی قدیم یونانی شاعر ہومر نے لکھی تھی۔",
+      "hint": "Think ancient Greece.",
+      "hint_ur": "قدیم یونان کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "question_ur": "پہلی خاتون کون تھیں جنہوں نے نوبل انعام جیتا؟",
+      "options": {
+        "en": [
+          "Marie Curie",
+          "Mother Teresa",
+          "Rosalind Franklin",
+          "Jane Goodall"
+        ],
+        "ur": [
+          "ماری کیوری",
+          "مدر ٹریسا",
+          "روزالینڈ فرینکلن",
+          "جین گڈال"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Marie Curie was the first woman to win a Nobel Prize, in Physics in 1903.",
+      "explanation_ur": "ماری کیوری نوبل انعام جیتنے والی پہلی خاتون تھیں، انہوں نے 1903 میں فزکس میں یہ انعام حاصل کیا۔",
+      "hint": "She also won in Chemistry.",
+      "hint_ur": "انہوں نے کیمسٹری میں بھی انعام جیتا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 6,
+      "type": "true-false",
+      "question": "Albert Einstein developed the theory of relativity.",
+      "question_ur": "البرٹ آئن سٹائن نے نظریہ اضافیت تیار کیا۔",
+      "correctAnswer": true,
+      "explanation": "Einstein developed the special and general theories of relativity.",
+      "explanation_ur": "آئن سٹائن نے خصوصی اور عمومی نظریہ اضافیت تیار کیا۔",
+      "hint": "Think of E=mc².",
+      "hint_ur": "E=mc² کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Who discovered penicillin?",
+      "question_ur": "پینسلن کس نے دریافت کی؟",
+      "options": {
+        "en": [
+          "Alexander Fleming",
+          "Marie Curie",
+          "Louis Pasteur",
+          "Isaac Newton"
+        ],
+        "ur": [
+          "الگزینڈر فلیمنگ",
+          "ماری کیوری",
+          "لوئی پاسچر",
+          "آئزک نیوٹن"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Alexander Fleming discovered penicillin in 1928.",
+      "explanation_ur": "الگزینڈر فلیمنگ نے 1928 میں پینسلن دریافت کی۔",
+      "hint": "It was a breakthrough in antibiotics.",
+      "hint_ur": "یہ اینٹی بائیوٹکس میں ایک اہم پیشرفت تھی۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 8,
+      "type": "true-false",
+      "question": "Neil Armstrong was the first man on the Moon.",
+      "question_ur": "نیل آرمسٹرانگ چاند پر جانے والے پہلے شخص تھے۔",
+      "correctAnswer": true,
+      "explanation": "Neil Armstrong landed on the Moon in 1969 during Apollo 11.",
+      "explanation_ur": "نیل آرمسٹرانگ 1969 میں اپولو 11 کے دوران چاند پر اترے۔",
+      "hint": "He said 'That's one small step for man'.",
+      "hint_ur": "انہوں نے کہا 'یہ انسان کے لیے ایک چھوٹا قدم ہے'۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Who painted the Mona Lisa?",
+      "question_ur": "مونالیزا کس نے بنائی؟",
+      "options": {
+        "en": [
+          "Vincent van Gogh",
+          "Pablo Picasso",
+          "Leonardo da Vinci",
+          "Michelangelo"
+        ],
+        "ur": [
+          "ونسنٹ وین گو",
+          "پابلو پکاسو",
+          "لیونارڈو ڈا ونچی",
+          "مائیکل اینجلو"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Leonardo da Vinci painted the Mona Lisa in the early 16th century.",
+      "explanation_ur": "لیونارڈو ڈا ونچی نے 16ویں صدی کے اوائل میں مونالیزا پینٹ کی۔",
+      "hint": "He was a Renaissance artist.",
+      "hint_ur": "وہ نشاۃ ثانیہ کے ایک فنکار تھے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 10,
+      "type": "true-false",
+      "question": "Mother Teresa won the Nobel Peace Prize.",
+      "question_ur": "مدر ٹریسا نے نوبل امن انعام جیتا۔",
+      "correctAnswer": true,
+      "explanation": "Mother Teresa won the Nobel Peace Prize in 1979 for her humanitarian work.",
+      "explanation_ur": "مدر ٹریسا نے 1979 میں اپنے انسانی ہمدردی کے کام کے لیے نوبل امن انعام جیتا۔",
+      "hint": "She worked in Kolkata, India.",
+      "hint_ur": "انہوں نے کلکتہ، بھارت میں کام کیا۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "Who was the first President of the United States?",
+      "question_ur": "ریاستہائے متحدہ امریکہ کے پہلے صدر کون تھے؟",
+      "options": {
+        "en": [
+          "George Washington",
+          "Abraham Lincoln",
+          "Thomas Jefferson",
+          "John Adams"
+        ],
+        "ur": [
+          "جارج واشنگٹن",
+          "ابراہم لنکن",
+          "تھامس جیفرسن",
+          "جان ایڈمز"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "George Washington served as the first President of the USA from 1789 to 1797.",
+      "explanation_ur": "جارج واشنگٹن نے 1789 سے 1797 تک امریکہ کے پہلے صدر کے طور پر خدمات انجام دیں۔",
+      "hint": "He is on the US one-dollar bill.",
+      "hint_ur": "وہ امریکی ایک ڈالر کے نوٹ پر ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "question": "Mahatma Gandhi was born in South Africa.",
+      "question_ur": "مہاتما گاندھی جنوبی افریقہ میں پیدا ہوئے تھے۔",
+      "correctAnswer": false,
+      "explanation": "Mahatma Gandhi was born in Porbandar, India, in 1869.",
+      "explanation_ur": "مہاتما گاندھی 1869 میں پوربندر، بھارت میں پیدا ہوئے تھے۔",
+      "hint": "He later lived in South Africa.",
+      "hint_ur": "وہ بعد میں جنوبی افریقہ میں رہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "Who was known as the Iron Lady?",
+      "question_ur": "آئرن لیڈی کے نام سے کون مشہور تھیں؟",
+      "options": {
+        "en": [
+          "Margaret Thatcher",
+          "Indira Gandhi",
+          "Angela Merkel",
+          "Golda Meir"
+        ],
+        "ur": [
+          "مارگریٹ تھیچر",
+          "اندرا گاندھی",
+          "انجیلا مرکل",
+          "گولڈا مائیر"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Margaret Thatcher, Prime Minister of the UK from 1979 to 1990, was called the Iron Lady.",
+      "explanation_ur": "مارگریٹ تھیچر، جو 1979 سے 1990 تک برطانیہ کی وزیراعظم رہیں، آئرن لیڈی کہلاتی تھیں۔",
+      "hint": "She was a British Prime Minister.",
+      "hint_ur": "وہ برطانیہ کی وزیر اعظم تھیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "question": "William Shakespeare wrote 'The Odyssey'.",
+      "question_ur": "ولیم شیکسپیئر نے 'اوڈیسی' لکھی۔",
+      "correctAnswer": false,
+      "explanation": "The Odyssey was written by the ancient Greek poet Homer.",
+      "explanation_ur": "اوڈیسی قدیم یونانی شاعر ہومر نے لکھی تھی۔",
+      "hint": "Think ancient Greece.",
+      "hint_ur": "قدیم یونان کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "question_ur": "پہلی خاتون کون تھیں جنہوں نے نوبل انعام جیتا؟",
+      "options": {
+        "en": [
+          "Marie Curie",
+          "Mother Teresa",
+          "Rosalind Franklin",
+          "Jane Goodall"
+        ],
+        "ur": [
+          "ماری کیوری",
+          "مدر ٹریسا",
+          "روزالینڈ فرینکلن",
+          "جین گڈال"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Marie Curie was the first woman to win a Nobel Prize, in Physics in 1903.",
+      "explanation_ur": "ماری کیوری نوبل انعام جیتنے والی پہلی خاتون تھیں، انہوں نے 1903 میں فزکس میں یہ انعام حاصل کیا۔",
+      "hint": "She also won in Chemistry.",
+      "hint_ur": "انہوں نے کیمسٹری میں بھی انعام جیتا۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 16,
+      "type": "true-false",
+      "question": "Albert Einstein developed the theory of relativity.",
+      "question_ur": "البرٹ آئن سٹائن نے نظریہ اضافیت تیار کیا۔",
+      "correctAnswer": true,
+      "explanation": "Einstein developed the special and general theories of relativity.",
+      "explanation_ur": "آئن سٹائن نے خصوصی اور عمومی نظریہ اضافیت تیار کیا۔",
+      "hint": "Think of E=mc².",
+      "hint_ur": "E=mc² کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "Who discovered penicillin?",
+      "question_ur": "پینسلن کس نے دریافت کی؟",
+      "options": {
+        "en": [
+          "Alexander Fleming",
+          "Marie Curie",
+          "Louis Pasteur",
+          "Isaac Newton"
+        ],
+        "ur": [
+          "الگزینڈر فلیمنگ",
+          "ماری کیوری",
+          "لوئی پاسچر",
+          "آئزک نیوٹن"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Alexander Fleming discovered penicillin in 1928.",
+      "explanation_ur": "الگزینڈر فلیمنگ نے 1928 میں پینسلن دریافت کی۔",
+      "hint": "It was a breakthrough in antibiotics.",
+      "hint_ur": "یہ اینٹی بائیوٹکس میں ایک اہم پیشرفت تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 18,
+      "type": "true-false",
+      "question": "Neil Armstrong was the first man on the Moon.",
+      "question_ur": "نیل آرمسٹرانگ چاند پر جانے والے پہلے شخص تھے۔",
+      "correctAnswer": true,
+      "explanation": "Neil Armstrong landed on the Moon in 1969 during Apollo 11.",
+      "explanation_ur": "نیل آرمسٹرانگ 1969 میں اپولو 11 کے دوران چاند پر اترے۔",
+      "hint": "He said 'That's one small step for man'.",
+      "hint_ur": "انہوں نے کہا 'یہ انسان کے لیے ایک چھوٹا قدم ہے'۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Who painted the Mona Lisa?",
+      "question_ur": "مونالیزا کس نے بنائی؟",
+      "options": {
+        "en": [
+          "Vincent van Gogh",
+          "Pablo Picasso",
+          "Leonardo da Vinci",
+          "Michelangelo"
+        ],
+        "ur": [
+          "ونسنٹ وین گو",
+          "پابلو پکاسو",
+          "لیونارڈو ڈا ونچی",
+          "مائیکل اینجلو"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Leonardo da Vinci painted the Mona Lisa in the early 16th century.",
+      "explanation_ur": "لیونارڈو ڈا ونچی نے 16ویں صدی کے اوائل میں مونالیزا پینٹ کی۔",
+      "hint": "He was a Renaissance artist.",
+      "hint_ur": "وہ نشاۃ ثانیہ کے ایک فنکار تھے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 20,
+      "type": "true-false",
+      "question": "Mother Teresa won the Nobel Peace Prize.",
+      "question_ur": "مدر ٹریسا نے نوبل امن انعام جیتا۔",
+      "correctAnswer": true,
+      "explanation": "Mother Teresa won the Nobel Peace Prize in 1979 for her humanitarian work.",
+      "explanation_ur": "مدر ٹریسا نے 1979 میں اپنے انسانی ہمدردی کے کام کے لیے نوبل امن انعام جیتا۔",
+      "hint": "She worked in Kolkata, India.",
+      "hint_ur": "انہوں نے کلکتہ، بھارت میں کام کیا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Who was the first President of the United States?",
+      "question_ur": "ریاستہائے متحدہ امریکہ کے پہلے صدر کون تھے؟",
+      "options": {
+        "en": [
+          "George Washington",
+          "Abraham Lincoln",
+          "Thomas Jefferson",
+          "John Adams"
+        ],
+        "ur": [
+          "جارج واشنگٹن",
+          "ابراہم لنکن",
+          "تھامس جیفرسن",
+          "جان ایڈمز"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "George Washington served as the first President of the USA from 1789 to 1797.",
+      "explanation_ur": "جارج واشنگٹن نے 1789 سے 1797 تک امریکہ کے پہلے صدر کے طور پر خدمات انجام دیں۔",
+      "hint": "He is on the US one-dollar bill.",
+      "hint_ur": "وہ امریکی ایک ڈالر کے نوٹ پر ہیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 22,
+      "type": "true-false",
+      "question": "Mahatma Gandhi was born in South Africa.",
+      "question_ur": "مہاتما گاندھی جنوبی افریقہ میں پیدا ہوئے تھے۔",
+      "correctAnswer": false,
+      "explanation": "Mahatma Gandhi was born in Porbandar, India, in 1869.",
+      "explanation_ur": "مہاتما گاندھی 1869 میں پوربندر، بھارت میں پیدا ہوئے تھے۔",
+      "hint": "He later lived in South Africa.",
+      "hint_ur": "وہ بعد میں جنوبی افریقہ میں رہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Who was known as the Iron Lady?",
+      "question_ur": "آئرن لیڈی کے نام سے کون مشہور تھیں؟",
+      "options": {
+        "en": [
+          "Margaret Thatcher",
+          "Indira Gandhi",
+          "Angela Merkel",
+          "Golda Meir"
+        ],
+        "ur": [
+          "مارگریٹ تھیچر",
+          "اندرا گاندھی",
+          "انجیلا مرکل",
+          "گولڈا مائیر"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Margaret Thatcher, Prime Minister of the UK from 1979 to 1990, was called the Iron Lady.",
+      "explanation_ur": "مارگریٹ تھیچر، جو 1979 سے 1990 تک برطانیہ کی وزیراعظم رہیں، آئرن لیڈی کہلاتی تھیں۔",
+      "hint": "She was a British Prime Minister.",
+      "hint_ur": "وہ برطانیہ کی وزیر اعظم تھیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 24,
+      "type": "true-false",
+      "question": "William Shakespeare wrote 'The Odyssey'.",
+      "question_ur": "ولیم شیکسپیئر نے 'اوڈیسی' لکھی۔",
+      "correctAnswer": false,
+      "explanation": "The Odyssey was written by the ancient Greek poet Homer.",
+      "explanation_ur": "اوڈیسی قدیم یونانی شاعر ہومر نے لکھی تھی۔",
+      "hint": "Think ancient Greece.",
+      "hint_ur": "قدیم یونان کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "question_ur": "پہلی خاتون کون تھیں جنہوں نے نوبل انعام جیتا؟",
+      "options": {
+        "en": [
+          "Marie Curie",
+          "Mother Teresa",
+          "Rosalind Franklin",
+          "Jane Goodall"
+        ],
+        "ur": [
+          "ماری کیوری",
+          "مدر ٹریسا",
+          "روزالینڈ فرینکلن",
+          "جین گڈال"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Marie Curie was the first woman to win a Nobel Prize, in Physics in 1903.",
+      "explanation_ur": "ماری کیوری نوبل انعام جیتنے والی پہلی خاتون تھیں، انہوں نے 1903 میں فزکس میں یہ انعام حاصل کیا۔",
+      "hint": "She also won in Chemistry.",
+      "hint_ur": "انہوں نے کیمسٹری میں بھی انعام جیتا۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 26,
+      "type": "true-false",
+      "question": "Albert Einstein developed the theory of relativity.",
+      "question_ur": "البرٹ آئن سٹائن نے نظریہ اضافیت تیار کیا۔",
+      "correctAnswer": true,
+      "explanation": "Einstein developed the special and general theories of relativity.",
+      "explanation_ur": "آئن سٹائن نے خصوصی اور عمومی نظریہ اضافیت تیار کیا۔",
+      "hint": "Think of E=mc².",
+      "hint_ur": "E=mc² کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "Who discovered penicillin?",
+      "question_ur": "پینسلن کس نے دریافت کی؟",
+      "options": {
+        "en": [
+          "Alexander Fleming",
+          "Marie Curie",
+          "Louis Pasteur",
+          "Isaac Newton"
+        ],
+        "ur": [
+          "الگزینڈر فلیمنگ",
+          "ماری کیوری",
+          "لوئی پاسچر",
+          "آئزک نیوٹن"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Alexander Fleming discovered penicillin in 1928.",
+      "explanation_ur": "الگزینڈر فلیمنگ نے 1928 میں پینسلن دریافت کی۔",
+      "hint": "It was a breakthrough in antibiotics.",
+      "hint_ur": "یہ اینٹی بائیوٹکس میں ایک اہم پیشرفت تھی۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 28,
+      "type": "true-false",
+      "question": "Neil Armstrong was the first man on the Moon.",
+      "question_ur": "نیل آرمسٹرانگ چاند پر جانے والے پہلے شخص تھے۔",
+      "correctAnswer": true,
+      "explanation": "Neil Armstrong landed on the Moon in 1969 during Apollo 11.",
+      "explanation_ur": "نیل آرمسٹرانگ 1969 میں اپولو 11 کے دوران چاند پر اترے۔",
+      "hint": "He said 'That's one small step for man'.",
+      "hint_ur": "انہوں نے کہا 'یہ انسان کے لیے ایک چھوٹا قدم ہے'۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "Who painted the Mona Lisa?",
+      "question_ur": "مونالیزا کس نے بنائی؟",
+      "options": {
+        "en": [
+          "Vincent van Gogh",
+          "Pablo Picasso",
+          "Leonardo da Vinci",
+          "Michelangelo"
+        ],
+        "ur": [
+          "ونسنٹ وین گو",
+          "پابلو پکاسو",
+          "لیونارڈو ڈا ونچی",
+          "مائیکل اینجلو"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Leonardo da Vinci painted the Mona Lisa in the early 16th century.",
+      "explanation_ur": "لیونارڈو ڈا ونچی نے 16ویں صدی کے اوائل میں مونالیزا پینٹ کی۔",
+      "hint": "He was a Renaissance artist.",
+      "hint_ur": "وہ نشاۃ ثانیہ کے ایک فنکار تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 30,
+      "type": "true-false",
+      "question": "Mother Teresa won the Nobel Peace Prize.",
+      "question_ur": "مدر ٹریسا نے نوبل امن انعام جیتا۔",
+      "correctAnswer": true,
+      "explanation": "Mother Teresa won the Nobel Peace Prize in 1979 for her humanitarian work.",
+      "explanation_ur": "مدر ٹریسا نے 1979 میں اپنے انسانی ہمدردی کے کام کے لیے نوبل امن انعام جیتا۔",
+      "hint": "She worked in Kolkata, India.",
+      "hint_ur": "انہوں نے کلکتہ، بھارت میں کام کیا۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Who was the first President of the United States?",
+      "question_ur": "ریاستہائے متحدہ امریکہ کے پہلے صدر کون تھے؟",
+      "options": {
+        "en": [
+          "George Washington",
+          "Abraham Lincoln",
+          "Thomas Jefferson",
+          "John Adams"
+        ],
+        "ur": [
+          "جارج واشنگٹن",
+          "ابراہم لنکن",
+          "تھامس جیفرسن",
+          "جان ایڈمز"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "George Washington served as the first President of the USA from 1789 to 1797.",
+      "explanation_ur": "جارج واشنگٹن نے 1789 سے 1797 تک امریکہ کے پہلے صدر کے طور پر خدمات انجام دیں۔",
+      "hint": "He is on the US one-dollar bill.",
+      "hint_ur": "وہ امریکی ایک ڈالر کے نوٹ پر ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 32,
+      "type": "true-false",
+      "question": "Mahatma Gandhi was born in South Africa.",
+      "question_ur": "مہاتما گاندھی جنوبی افریقہ میں پیدا ہوئے تھے۔",
+      "correctAnswer": false,
+      "explanation": "Mahatma Gandhi was born in Porbandar, India, in 1869.",
+      "explanation_ur": "مہاتما گاندھی 1869 میں پوربندر، بھارت میں پیدا ہوئے تھے۔",
+      "hint": "He later lived in South Africa.",
+      "hint_ur": "وہ بعد میں جنوبی افریقہ میں رہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Who was known as the Iron Lady?",
+      "question_ur": "آئرن لیڈی کے نام سے کون مشہور تھیں؟",
+      "options": {
+        "en": [
+          "Margaret Thatcher",
+          "Indira Gandhi",
+          "Angela Merkel",
+          "Golda Meir"
+        ],
+        "ur": [
+          "مارگریٹ تھیچر",
+          "اندرا گاندھی",
+          "انجیلا مرکل",
+          "گولڈا مائیر"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Margaret Thatcher, Prime Minister of the UK from 1979 to 1990, was called the Iron Lady.",
+      "explanation_ur": "مارگریٹ تھیچر، جو 1979 سے 1990 تک برطانیہ کی وزیراعظم رہیں، آئرن لیڈی کہلاتی تھیں۔",
+      "hint": "She was a British Prime Minister.",
+      "hint_ur": "وہ برطانیہ کی وزیر اعظم تھیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 34,
+      "type": "true-false",
+      "question": "William Shakespeare wrote 'The Odyssey'.",
+      "question_ur": "ولیم شیکسپیئر نے 'اوڈیسی' لکھی۔",
+      "correctAnswer": false,
+      "explanation": "The Odyssey was written by the ancient Greek poet Homer.",
+      "explanation_ur": "اوڈیسی قدیم یونانی شاعر ہومر نے لکھی تھی۔",
+      "hint": "Think ancient Greece.",
+      "hint_ur": "قدیم یونان کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "question_ur": "پہلی خاتون کون تھیں جنہوں نے نوبل انعام جیتا؟",
+      "options": {
+        "en": [
+          "Marie Curie",
+          "Mother Teresa",
+          "Rosalind Franklin",
+          "Jane Goodall"
+        ],
+        "ur": [
+          "ماری کیوری",
+          "مدر ٹریسا",
+          "روزالینڈ فرینکلن",
+          "جین گڈال"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Marie Curie was the first woman to win a Nobel Prize, in Physics in 1903.",
+      "explanation_ur": "ماری کیوری نوبل انعام جیتنے والی پہلی خاتون تھیں، انہوں نے 1903 میں فزکس میں یہ انعام حاصل کیا۔",
+      "hint": "She also won in Chemistry.",
+      "hint_ur": "انہوں نے کیمسٹری میں بھی انعام جیتا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 36,
+      "type": "true-false",
+      "question": "Albert Einstein developed the theory of relativity.",
+      "question_ur": "البرٹ آئن سٹائن نے نظریہ اضافیت تیار کیا۔",
+      "correctAnswer": true,
+      "explanation": "Einstein developed the special and general theories of relativity.",
+      "explanation_ur": "آئن سٹائن نے خصوصی اور عمومی نظریہ اضافیت تیار کیا۔",
+      "hint": "Think of E=mc².",
+      "hint_ur": "E=mc² کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "Who discovered penicillin?",
+      "question_ur": "پینسلن کس نے دریافت کی؟",
+      "options": {
+        "en": [
+          "Alexander Fleming",
+          "Marie Curie",
+          "Louis Pasteur",
+          "Isaac Newton"
+        ],
+        "ur": [
+          "الگزینڈر فلیمنگ",
+          "ماری کیوری",
+          "لوئی پاسچر",
+          "آئزک نیوٹن"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Alexander Fleming discovered penicillin in 1928.",
+      "explanation_ur": "الگزینڈر فلیمنگ نے 1928 میں پینسلن دریافت کی۔",
+      "hint": "It was a breakthrough in antibiotics.",
+      "hint_ur": "یہ اینٹی بائیوٹکس میں ایک اہم پیشرفت تھی۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 38,
+      "type": "true-false",
+      "question": "Neil Armstrong was the first man on the Moon.",
+      "question_ur": "نیل آرمسٹرانگ چاند پر جانے والے پہلے شخص تھے۔",
+      "correctAnswer": true,
+      "explanation": "Neil Armstrong landed on the Moon in 1969 during Apollo 11.",
+      "explanation_ur": "نیل آرمسٹرانگ 1969 میں اپولو 11 کے دوران چاند پر اترے۔",
+      "hint": "He said 'That's one small step for man'.",
+      "hint_ur": "انہوں نے کہا 'یہ انسان کے لیے ایک چھوٹا قدم ہے'۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "Who painted the Mona Lisa?",
+      "question_ur": "مونالیزا کس نے بنائی؟",
+      "options": {
+        "en": [
+          "Vincent van Gogh",
+          "Pablo Picasso",
+          "Leonardo da Vinci",
+          "Michelangelo"
+        ],
+        "ur": [
+          "ونسنٹ وین گو",
+          "پابلو پکاسو",
+          "لیونارڈو ڈا ونچی",
+          "مائیکل اینجلو"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Leonardo da Vinci painted the Mona Lisa in the early 16th century.",
+      "explanation_ur": "لیونارڈو ڈا ونچی نے 16ویں صدی کے اوائل میں مونالیزا پینٹ کی۔",
+      "hint": "He was a Renaissance artist.",
+      "hint_ur": "وہ نشاۃ ثانیہ کے ایک فنکار تھے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 40,
+      "type": "true-false",
+      "question": "Mother Teresa won the Nobel Peace Prize.",
+      "question_ur": "مدر ٹریسا نے نوبل امن انعام جیتا۔",
+      "correctAnswer": true,
+      "explanation": "Mother Teresa won the Nobel Peace Prize in 1979 for her humanitarian work.",
+      "explanation_ur": "مدر ٹریسا نے 1979 میں اپنے انسانی ہمدردی کے کام کے لیے نوبل امن انعام جیتا۔",
+      "hint": "She worked in Kolkata, India.",
+      "hint_ur": "انہوں نے کلکتہ، بھارت میں کام کیا۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "Who was the first President of the United States?",
+      "question_ur": "ریاستہائے متحدہ امریکہ کے پہلے صدر کون تھے؟",
+      "options": {
+        "en": [
+          "George Washington",
+          "Abraham Lincoln",
+          "Thomas Jefferson",
+          "John Adams"
+        ],
+        "ur": [
+          "جارج واشنگٹن",
+          "ابراہم لنکن",
+          "تھامس جیفرسن",
+          "جان ایڈمز"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "George Washington served as the first President of the USA from 1789 to 1797.",
+      "explanation_ur": "جارج واشنگٹن نے 1789 سے 1797 تک امریکہ کے پہلے صدر کے طور پر خدمات انجام دیں۔",
+      "hint": "He is on the US one-dollar bill.",
+      "hint_ur": "وہ امریکی ایک ڈالر کے نوٹ پر ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 42,
+      "type": "true-false",
+      "question": "Mahatma Gandhi was born in South Africa.",
+      "question_ur": "مہاتما گاندھی جنوبی افریقہ میں پیدا ہوئے تھے۔",
+      "correctAnswer": false,
+      "explanation": "Mahatma Gandhi was born in Porbandar, India, in 1869.",
+      "explanation_ur": "مہاتما گاندھی 1869 میں پوربندر، بھارت میں پیدا ہوئے تھے۔",
+      "hint": "He later lived in South Africa.",
+      "hint_ur": "وہ بعد میں جنوبی افریقہ میں رہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Who was known as the Iron Lady?",
+      "question_ur": "آئرن لیڈی کے نام سے کون مشہور تھیں؟",
+      "options": {
+        "en": [
+          "Margaret Thatcher",
+          "Indira Gandhi",
+          "Angela Merkel",
+          "Golda Meir"
+        ],
+        "ur": [
+          "مارگریٹ تھیچر",
+          "اندرا گاندھی",
+          "انجیلا مرکل",
+          "گولڈا مائیر"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Margaret Thatcher, Prime Minister of the UK from 1979 to 1990, was called the Iron Lady.",
+      "explanation_ur": "مارگریٹ تھیچر، جو 1979 سے 1990 تک برطانیہ کی وزیراعظم رہیں، آئرن لیڈی کہلاتی تھیں۔",
+      "hint": "She was a British Prime Minister.",
+      "hint_ur": "وہ برطانیہ کی وزیر اعظم تھیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 44,
+      "type": "true-false",
+      "question": "William Shakespeare wrote 'The Odyssey'.",
+      "question_ur": "ولیم شیکسپیئر نے 'اوڈیسی' لکھی۔",
+      "correctAnswer": false,
+      "explanation": "The Odyssey was written by the ancient Greek poet Homer.",
+      "explanation_ur": "اوڈیسی قدیم یونانی شاعر ہومر نے لکھی تھی۔",
+      "hint": "Think ancient Greece.",
+      "hint_ur": "قدیم یونان کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "question_ur": "پہلی خاتون کون تھیں جنہوں نے نوبل انعام جیتا؟",
+      "options": {
+        "en": [
+          "Marie Curie",
+          "Mother Teresa",
+          "Rosalind Franklin",
+          "Jane Goodall"
+        ],
+        "ur": [
+          "ماری کیوری",
+          "مدر ٹریسا",
+          "روزالینڈ فرینکلن",
+          "جین گڈال"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Marie Curie was the first woman to win a Nobel Prize, in Physics in 1903.",
+      "explanation_ur": "ماری کیوری نوبل انعام جیتنے والی پہلی خاتون تھیں، انہوں نے 1903 میں فزکس میں یہ انعام حاصل کیا۔",
+      "hint": "She also won in Chemistry.",
+      "hint_ur": "انہوں نے کیمسٹری میں بھی انعام جیتا۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 46,
+      "type": "true-false",
+      "question": "Albert Einstein developed the theory of relativity.",
+      "question_ur": "البرٹ آئن سٹائن نے نظریہ اضافیت تیار کیا۔",
+      "correctAnswer": true,
+      "explanation": "Einstein developed the special and general theories of relativity.",
+      "explanation_ur": "آئن سٹائن نے خصوصی اور عمومی نظریہ اضافیت تیار کیا۔",
+      "hint": "Think of E=mc².",
+      "hint_ur": "E=mc² کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Who discovered penicillin?",
+      "question_ur": "پینسلن کس نے دریافت کی؟",
+      "options": {
+        "en": [
+          "Alexander Fleming",
+          "Marie Curie",
+          "Louis Pasteur",
+          "Isaac Newton"
+        ],
+        "ur": [
+          "الگزینڈر فلیمنگ",
+          "ماری کیوری",
+          "لوئی پاسچر",
+          "آئزک نیوٹن"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Alexander Fleming discovered penicillin in 1928.",
+      "explanation_ur": "الگزینڈر فلیمنگ نے 1928 میں پینسلن دریافت کی۔",
+      "hint": "It was a breakthrough in antibiotics.",
+      "hint_ur": "یہ اینٹی بائیوٹکس میں ایک اہم پیشرفت تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 48,
+      "type": "true-false",
+      "question": "Neil Armstrong was the first man on the Moon.",
+      "question_ur": "نیل آرمسٹرانگ چاند پر جانے والے پہلے شخص تھے۔",
+      "correctAnswer": true,
+      "explanation": "Neil Armstrong landed on the Moon in 1969 during Apollo 11.",
+      "explanation_ur": "نیل آرمسٹرانگ 1969 میں اپولو 11 کے دوران چاند پر اترے۔",
+      "hint": "He said 'That's one small step for man'.",
+      "hint_ur": "انہوں نے کہا 'یہ انسان کے لیے ایک چھوٹا قدم ہے'۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "Who painted the Mona Lisa?",
+      "question_ur": "مونالیزا کس نے بنائی؟",
+      "options": {
+        "en": [
+          "Vincent van Gogh",
+          "Pablo Picasso",
+          "Leonardo da Vinci",
+          "Michelangelo"
+        ],
+        "ur": [
+          "ونسنٹ وین گو",
+          "پابلو پکاسو",
+          "لیونارڈو ڈا ونچی",
+          "مائیکل اینجلو"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Leonardo da Vinci painted the Mona Lisa in the early 16th century.",
+      "explanation_ur": "لیونارڈو ڈا ونچی نے 16ویں صدی کے اوائل میں مونالیزا پینٹ کی۔",
+      "hint": "He was a Renaissance artist.",
+      "hint_ur": "وہ نشاۃ ثانیہ کے ایک فنکار تھے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 50,
+      "type": "true-false",
+      "question": "Mother Teresa won the Nobel Peace Prize.",
+      "question_ur": "مدر ٹریسا نے نوبل امن انعام جیتا۔",
+      "correctAnswer": true,
+      "explanation": "Mother Teresa won the Nobel Peace Prize in 1979 for her humanitarian work.",
+      "explanation_ur": "مدر ٹریسا نے 1979 میں اپنے انسانی ہمدردی کے کام کے لیے نوبل امن انعام جیتا۔",
+      "hint": "She worked in Kolkata, India.",
+      "hint_ur": "انہوں نے کلکتہ، بھارت میں کام کیا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "Who was the first President of the United States?",
+      "question_ur": "ریاستہائے متحدہ امریکہ کے پہلے صدر کون تھے؟",
+      "options": {
+        "en": [
+          "George Washington",
+          "Abraham Lincoln",
+          "Thomas Jefferson",
+          "John Adams"
+        ],
+        "ur": [
+          "جارج واشنگٹن",
+          "ابراہم لنکن",
+          "تھامس جیفرسن",
+          "جان ایڈمز"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "George Washington served as the first President of the USA from 1789 to 1797.",
+      "explanation_ur": "جارج واشنگٹن نے 1789 سے 1797 تک امریکہ کے پہلے صدر کے طور پر خدمات انجام دیں۔",
+      "hint": "He is on the US one-dollar bill.",
+      "hint_ur": "وہ امریکی ایک ڈالر کے نوٹ پر ہیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 52,
+      "type": "true-false",
+      "question": "Mahatma Gandhi was born in South Africa.",
+      "question_ur": "مہاتما گاندھی جنوبی افریقہ میں پیدا ہوئے تھے۔",
+      "correctAnswer": false,
+      "explanation": "Mahatma Gandhi was born in Porbandar, India, in 1869.",
+      "explanation_ur": "مہاتما گاندھی 1869 میں پوربندر، بھارت میں پیدا ہوئے تھے۔",
+      "hint": "He later lived in South Africa.",
+      "hint_ur": "وہ بعد میں جنوبی افریقہ میں رہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "Who was known as the Iron Lady?",
+      "question_ur": "آئرن لیڈی کے نام سے کون مشہور تھیں؟",
+      "options": {
+        "en": [
+          "Margaret Thatcher",
+          "Indira Gandhi",
+          "Angela Merkel",
+          "Golda Meir"
+        ],
+        "ur": [
+          "مارگریٹ تھیچر",
+          "اندرا گاندھی",
+          "انجیلا مرکل",
+          "گولڈا مائیر"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Margaret Thatcher, Prime Minister of the UK from 1979 to 1990, was called the Iron Lady.",
+      "explanation_ur": "مارگریٹ تھیچر، جو 1979 سے 1990 تک برطانیہ کی وزیراعظم رہیں، آئرن لیڈی کہلاتی تھیں۔",
+      "hint": "She was a British Prime Minister.",
+      "hint_ur": "وہ برطانیہ کی وزیر اعظم تھیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 54,
+      "type": "true-false",
+      "question": "William Shakespeare wrote 'The Odyssey'.",
+      "question_ur": "ولیم شیکسپیئر نے 'اوڈیسی' لکھی۔",
+      "correctAnswer": false,
+      "explanation": "The Odyssey was written by the ancient Greek poet Homer.",
+      "explanation_ur": "اوڈیسی قدیم یونانی شاعر ہومر نے لکھی تھی۔",
+      "hint": "Think ancient Greece.",
+      "hint_ur": "قدیم یونان کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "question_ur": "پہلی خاتون کون تھیں جنہوں نے نوبل انعام جیتا؟",
+      "options": {
+        "en": [
+          "Marie Curie",
+          "Mother Teresa",
+          "Rosalind Franklin",
+          "Jane Goodall"
+        ],
+        "ur": [
+          "ماری کیوری",
+          "مدر ٹریسا",
+          "روزالینڈ فرینکلن",
+          "جین گڈال"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Marie Curie was the first woman to win a Nobel Prize, in Physics in 1903.",
+      "explanation_ur": "ماری کیوری نوبل انعام جیتنے والی پہلی خاتون تھیں، انہوں نے 1903 میں فزکس میں یہ انعام حاصل کیا۔",
+      "hint": "She also won in Chemistry.",
+      "hint_ur": "انہوں نے کیمسٹری میں بھی انعام جیتا۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 56,
+      "type": "true-false",
+      "question": "Albert Einstein developed the theory of relativity.",
+      "question_ur": "البرٹ آئن سٹائن نے نظریہ اضافیت تیار کیا۔",
+      "correctAnswer": true,
+      "explanation": "Einstein developed the special and general theories of relativity.",
+      "explanation_ur": "آئن سٹائن نے خصوصی اور عمومی نظریہ اضافیت تیار کیا۔",
+      "hint": "Think of E=mc².",
+      "hint_ur": "E=mc² کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "Who discovered penicillin?",
+      "question_ur": "پینسلن کس نے دریافت کی؟",
+      "options": {
+        "en": [
+          "Alexander Fleming",
+          "Marie Curie",
+          "Louis Pasteur",
+          "Isaac Newton"
+        ],
+        "ur": [
+          "الگزینڈر فلیمنگ",
+          "ماری کیوری",
+          "لوئی پاسچر",
+          "آئزک نیوٹن"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Alexander Fleming discovered penicillin in 1928.",
+      "explanation_ur": "الگزینڈر فلیمنگ نے 1928 میں پینسلن دریافت کی۔",
+      "hint": "It was a breakthrough in antibiotics.",
+      "hint_ur": "یہ اینٹی بائیوٹکس میں ایک اہم پیشرفت تھی۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 58,
+      "type": "true-false",
+      "question": "Neil Armstrong was the first man on the Moon.",
+      "question_ur": "نیل آرمسٹرانگ چاند پر جانے والے پہلے شخص تھے۔",
+      "correctAnswer": true,
+      "explanation": "Neil Armstrong landed on the Moon in 1969 during Apollo 11.",
+      "explanation_ur": "نیل آرمسٹرانگ 1969 میں اپولو 11 کے دوران چاند پر اترے۔",
+      "hint": "He said 'That's one small step for man'.",
+      "hint_ur": "انہوں نے کہا 'یہ انسان کے لیے ایک چھوٹا قدم ہے'۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "Who painted the Mona Lisa?",
+      "question_ur": "مونالیزا کس نے بنائی؟",
+      "options": {
+        "en": [
+          "Vincent van Gogh",
+          "Pablo Picasso",
+          "Leonardo da Vinci",
+          "Michelangelo"
+        ],
+        "ur": [
+          "ونسنٹ وین گو",
+          "پابلو پکاسو",
+          "لیونارڈو ڈا ونچی",
+          "مائیکل اینجلو"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Leonardo da Vinci painted the Mona Lisa in the early 16th century.",
+      "explanation_ur": "لیونارڈو ڈا ونچی نے 16ویں صدی کے اوائل میں مونالیزا پینٹ کی۔",
+      "hint": "He was a Renaissance artist.",
+      "hint_ur": "وہ نشاۃ ثانیہ کے ایک فنکار تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 60,
+      "type": "true-false",
+      "question": "Mother Teresa won the Nobel Peace Prize.",
+      "question_ur": "مدر ٹریسا نے نوبل امن انعام جیتا۔",
+      "correctAnswer": true,
+      "explanation": "Mother Teresa won the Nobel Peace Prize in 1979 for her humanitarian work.",
+      "explanation_ur": "مدر ٹریسا نے 1979 میں اپنے انسانی ہمدردی کے کام کے لیے نوبل امن انعام جیتا۔",
+      "hint": "She worked in Kolkata, India.",
+      "hint_ur": "انہوں نے کلکتہ، بھارت میں کام کیا۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "Who was the first President of the United States?",
+      "question_ur": "ریاستہائے متحدہ امریکہ کے پہلے صدر کون تھے؟",
+      "options": {
+        "en": [
+          "George Washington",
+          "Abraham Lincoln",
+          "Thomas Jefferson",
+          "John Adams"
+        ],
+        "ur": [
+          "جارج واشنگٹن",
+          "ابراہم لنکن",
+          "تھامس جیفرسن",
+          "جان ایڈمز"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "George Washington served as the first President of the USA from 1789 to 1797.",
+      "explanation_ur": "جارج واشنگٹن نے 1789 سے 1797 تک امریکہ کے پہلے صدر کے طور پر خدمات انجام دیں۔",
+      "hint": "He is on the US one-dollar bill.",
+      "hint_ur": "وہ امریکی ایک ڈالر کے نوٹ پر ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 62,
+      "type": "true-false",
+      "question": "Mahatma Gandhi was born in South Africa.",
+      "question_ur": "مہاتما گاندھی جنوبی افریقہ میں پیدا ہوئے تھے۔",
+      "correctAnswer": false,
+      "explanation": "Mahatma Gandhi was born in Porbandar, India, in 1869.",
+      "explanation_ur": "مہاتما گاندھی 1869 میں پوربندر، بھارت میں پیدا ہوئے تھے۔",
+      "hint": "He later lived in South Africa.",
+      "hint_ur": "وہ بعد میں جنوبی افریقہ میں رہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "Who was known as the Iron Lady?",
+      "question_ur": "آئرن لیڈی کے نام سے کون مشہور تھیں؟",
+      "options": {
+        "en": [
+          "Margaret Thatcher",
+          "Indira Gandhi",
+          "Angela Merkel",
+          "Golda Meir"
+        ],
+        "ur": [
+          "مارگریٹ تھیچر",
+          "اندرا گاندھی",
+          "انجیلا مرکل",
+          "گولڈا مائیر"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Margaret Thatcher, Prime Minister of the UK from 1979 to 1990, was called the Iron Lady.",
+      "explanation_ur": "مارگریٹ تھیچر، جو 1979 سے 1990 تک برطانیہ کی وزیراعظم رہیں، آئرن لیڈی کہلاتی تھیں۔",
+      "hint": "She was a British Prime Minister.",
+      "hint_ur": "وہ برطانیہ کی وزیر اعظم تھیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 64,
+      "type": "true-false",
+      "question": "William Shakespeare wrote 'The Odyssey'.",
+      "question_ur": "ولیم شیکسپیئر نے 'اوڈیسی' لکھی۔",
+      "correctAnswer": false,
+      "explanation": "The Odyssey was written by the ancient Greek poet Homer.",
+      "explanation_ur": "اوڈیسی قدیم یونانی شاعر ہومر نے لکھی تھی۔",
+      "hint": "Think ancient Greece.",
+      "hint_ur": "قدیم یونان کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "question_ur": "پہلی خاتون کون تھیں جنہوں نے نوبل انعام جیتا؟",
+      "options": {
+        "en": [
+          "Marie Curie",
+          "Mother Teresa",
+          "Rosalind Franklin",
+          "Jane Goodall"
+        ],
+        "ur": [
+          "ماری کیوری",
+          "مدر ٹریسا",
+          "روزالینڈ فرینکلن",
+          "جین گڈال"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Marie Curie was the first woman to win a Nobel Prize, in Physics in 1903.",
+      "explanation_ur": "ماری کیوری نوبل انعام جیتنے والی پہلی خاتون تھیں، انہوں نے 1903 میں فزکس میں یہ انعام حاصل کیا۔",
+      "hint": "She also won in Chemistry.",
+      "hint_ur": "انہوں نے کیمسٹری میں بھی انعام جیتا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 66,
+      "type": "true-false",
+      "question": "Albert Einstein developed the theory of relativity.",
+      "question_ur": "البرٹ آئن سٹائن نے نظریہ اضافیت تیار کیا۔",
+      "correctAnswer": true,
+      "explanation": "Einstein developed the special and general theories of relativity.",
+      "explanation_ur": "آئن سٹائن نے خصوصی اور عمومی نظریہ اضافیت تیار کیا۔",
+      "hint": "Think of E=mc².",
+      "hint_ur": "E=mc² کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "Who discovered penicillin?",
+      "question_ur": "پینسلن کس نے دریافت کی؟",
+      "options": {
+        "en": [
+          "Alexander Fleming",
+          "Marie Curie",
+          "Louis Pasteur",
+          "Isaac Newton"
+        ],
+        "ur": [
+          "الگزینڈر فلیمنگ",
+          "ماری کیوری",
+          "لوئی پاسچر",
+          "آئزک نیوٹن"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Alexander Fleming discovered penicillin in 1928.",
+      "explanation_ur": "الگزینڈر فلیمنگ نے 1928 میں پینسلن دریافت کی۔",
+      "hint": "It was a breakthrough in antibiotics.",
+      "hint_ur": "یہ اینٹی بائیوٹکس میں ایک اہم پیشرفت تھی۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 68,
+      "type": "true-false",
+      "question": "Neil Armstrong was the first man on the Moon.",
+      "question_ur": "نیل آرمسٹرانگ چاند پر جانے والے پہلے شخص تھے۔",
+      "correctAnswer": true,
+      "explanation": "Neil Armstrong landed on the Moon in 1969 during Apollo 11.",
+      "explanation_ur": "نیل آرمسٹرانگ 1969 میں اپولو 11 کے دوران چاند پر اترے۔",
+      "hint": "He said 'That's one small step for man'.",
+      "hint_ur": "انہوں نے کہا 'یہ انسان کے لیے ایک چھوٹا قدم ہے'۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "question": "Who painted the Mona Lisa?",
+      "question_ur": "مونالیزا کس نے بنائی؟",
+      "options": {
+        "en": [
+          "Vincent van Gogh",
+          "Pablo Picasso",
+          "Leonardo da Vinci",
+          "Michelangelo"
+        ],
+        "ur": [
+          "ونسنٹ وین گو",
+          "پابلو پکاسو",
+          "لیونارڈو ڈا ونچی",
+          "مائیکل اینجلو"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Leonardo da Vinci painted the Mona Lisa in the early 16th century.",
+      "explanation_ur": "لیونارڈو ڈا ونچی نے 16ویں صدی کے اوائل میں مونالیزا پینٹ کی۔",
+      "hint": "He was a Renaissance artist.",
+      "hint_ur": "وہ نشاۃ ثانیہ کے ایک فنکار تھے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 70,
+      "type": "true-false",
+      "question": "Mother Teresa won the Nobel Peace Prize.",
+      "question_ur": "مدر ٹریسا نے نوبل امن انعام جیتا۔",
+      "correctAnswer": true,
+      "explanation": "Mother Teresa won the Nobel Peace Prize in 1979 for her humanitarian work.",
+      "explanation_ur": "مدر ٹریسا نے 1979 میں اپنے انسانی ہمدردی کے کام کے لیے نوبل امن انعام جیتا۔",
+      "hint": "She worked in Kolkata, India.",
+      "hint_ur": "انہوں نے کلکتہ، بھارت میں کام کیا۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "question": "Who was the first President of the United States?",
+      "question_ur": "ریاستہائے متحدہ امریکہ کے پہلے صدر کون تھے؟",
+      "options": {
+        "en": [
+          "George Washington",
+          "Abraham Lincoln",
+          "Thomas Jefferson",
+          "John Adams"
+        ],
+        "ur": [
+          "جارج واشنگٹن",
+          "ابراہم لنکن",
+          "تھامس جیفرسن",
+          "جان ایڈمز"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "George Washington served as the first President of the USA from 1789 to 1797.",
+      "explanation_ur": "جارج واشنگٹن نے 1789 سے 1797 تک امریکہ کے پہلے صدر کے طور پر خدمات انجام دیں۔",
+      "hint": "He is on the US one-dollar bill.",
+      "hint_ur": "وہ امریکی ایک ڈالر کے نوٹ پر ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 72,
+      "type": "true-false",
+      "question": "Mahatma Gandhi was born in South Africa.",
+      "question_ur": "مہاتما گاندھی جنوبی افریقہ میں پیدا ہوئے تھے۔",
+      "correctAnswer": false,
+      "explanation": "Mahatma Gandhi was born in Porbandar, India, in 1869.",
+      "explanation_ur": "مہاتما گاندھی 1869 میں پوربندر، بھارت میں پیدا ہوئے تھے۔",
+      "hint": "He later lived in South Africa.",
+      "hint_ur": "وہ بعد میں جنوبی افریقہ میں رہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "Who was known as the Iron Lady?",
+      "question_ur": "آئرن لیڈی کے نام سے کون مشہور تھیں؟",
+      "options": {
+        "en": [
+          "Margaret Thatcher",
+          "Indira Gandhi",
+          "Angela Merkel",
+          "Golda Meir"
+        ],
+        "ur": [
+          "مارگریٹ تھیچر",
+          "اندرا گاندھی",
+          "انجیلا مرکل",
+          "گولڈا مائیر"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Margaret Thatcher, Prime Minister of the UK from 1979 to 1990, was called the Iron Lady.",
+      "explanation_ur": "مارگریٹ تھیچر، جو 1979 سے 1990 تک برطانیہ کی وزیراعظم رہیں، آئرن لیڈی کہلاتی تھیں۔",
+      "hint": "She was a British Prime Minister.",
+      "hint_ur": "وہ برطانیہ کی وزیر اعظم تھیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 74,
+      "type": "true-false",
+      "question": "William Shakespeare wrote 'The Odyssey'.",
+      "question_ur": "ولیم شیکسپیئر نے 'اوڈیسی' لکھی۔",
+      "correctAnswer": false,
+      "explanation": "The Odyssey was written by the ancient Greek poet Homer.",
+      "explanation_ur": "اوڈیسی قدیم یونانی شاعر ہومر نے لکھی تھی۔",
+      "hint": "Think ancient Greece.",
+      "hint_ur": "قدیم یونان کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "question_ur": "پہلی خاتون کون تھیں جنہوں نے نوبل انعام جیتا؟",
+      "options": {
+        "en": [
+          "Marie Curie",
+          "Mother Teresa",
+          "Rosalind Franklin",
+          "Jane Goodall"
+        ],
+        "ur": [
+          "ماری کیوری",
+          "مدر ٹریسا",
+          "روزالینڈ فرینکلن",
+          "جین گڈال"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Marie Curie was the first woman to win a Nobel Prize, in Physics in 1903.",
+      "explanation_ur": "ماری کیوری نوبل انعام جیتنے والی پہلی خاتون تھیں، انہوں نے 1903 میں فزکس میں یہ انعام حاصل کیا۔",
+      "hint": "She also won in Chemistry.",
+      "hint_ur": "انہوں نے کیمسٹری میں بھی انعام جیتا۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 76,
+      "type": "true-false",
+      "question": "Albert Einstein developed the theory of relativity.",
+      "question_ur": "البرٹ آئن سٹائن نے نظریہ اضافیت تیار کیا۔",
+      "correctAnswer": true,
+      "explanation": "Einstein developed the special and general theories of relativity.",
+      "explanation_ur": "آئن سٹائن نے خصوصی اور عمومی نظریہ اضافیت تیار کیا۔",
+      "hint": "Think of E=mc².",
+      "hint_ur": "E=mc² کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "question": "Who discovered penicillin?",
+      "question_ur": "پینسلن کس نے دریافت کی؟",
+      "options": {
+        "en": [
+          "Alexander Fleming",
+          "Marie Curie",
+          "Louis Pasteur",
+          "Isaac Newton"
+        ],
+        "ur": [
+          "الگزینڈر فلیمنگ",
+          "ماری کیوری",
+          "لوئی پاسچر",
+          "آئزک نیوٹن"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Alexander Fleming discovered penicillin in 1928.",
+      "explanation_ur": "الگزینڈر فلیمنگ نے 1928 میں پینسلن دریافت کی۔",
+      "hint": "It was a breakthrough in antibiotics.",
+      "hint_ur": "یہ اینٹی بائیوٹکس میں ایک اہم پیشرفت تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 78,
+      "type": "true-false",
+      "question": "Neil Armstrong was the first man on the Moon.",
+      "question_ur": "نیل آرمسٹرانگ چاند پر جانے والے پہلے شخص تھے۔",
+      "correctAnswer": true,
+      "explanation": "Neil Armstrong landed on the Moon in 1969 during Apollo 11.",
+      "explanation_ur": "نیل آرمسٹرانگ 1969 میں اپولو 11 کے دوران چاند پر اترے۔",
+      "hint": "He said 'That's one small step for man'.",
+      "hint_ur": "انہوں نے کہا 'یہ انسان کے لیے ایک چھوٹا قدم ہے'۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "Who painted the Mona Lisa?",
+      "question_ur": "مونالیزا کس نے بنائی؟",
+      "options": {
+        "en": [
+          "Vincent van Gogh",
+          "Pablo Picasso",
+          "Leonardo da Vinci",
+          "Michelangelo"
+        ],
+        "ur": [
+          "ونسنٹ وین گو",
+          "پابلو پکاسو",
+          "لیونارڈو ڈا ونچی",
+          "مائیکل اینجلو"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Leonardo da Vinci painted the Mona Lisa in the early 16th century.",
+      "explanation_ur": "لیونارڈو ڈا ونچی نے 16ویں صدی کے اوائل میں مونالیزا پینٹ کی۔",
+      "hint": "He was a Renaissance artist.",
+      "hint_ur": "وہ نشاۃ ثانیہ کے ایک فنکار تھے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 80,
+      "type": "true-false",
+      "question": "Mother Teresa won the Nobel Peace Prize.",
+      "question_ur": "مدر ٹریسا نے نوبل امن انعام جیتا۔",
+      "correctAnswer": true,
+      "explanation": "Mother Teresa won the Nobel Peace Prize in 1979 for her humanitarian work.",
+      "explanation_ur": "مدر ٹریسا نے 1979 میں اپنے انسانی ہمدردی کے کام کے لیے نوبل امن انعام جیتا۔",
+      "hint": "She worked in Kolkata, India.",
+      "hint_ur": "انہوں نے کلکتہ، بھارت میں کام کیا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "question": "Who was the first President of the United States?",
+      "question_ur": "ریاستہائے متحدہ امریکہ کے پہلے صدر کون تھے؟",
+      "options": {
+        "en": [
+          "George Washington",
+          "Abraham Lincoln",
+          "Thomas Jefferson",
+          "John Adams"
+        ],
+        "ur": [
+          "جارج واشنگٹن",
+          "ابراہم لنکن",
+          "تھامس جیفرسن",
+          "جان ایڈمز"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "George Washington served as the first President of the USA from 1789 to 1797.",
+      "explanation_ur": "جارج واشنگٹن نے 1789 سے 1797 تک امریکہ کے پہلے صدر کے طور پر خدمات انجام دیں۔",
+      "hint": "He is on the US one-dollar bill.",
+      "hint_ur": "وہ امریکی ایک ڈالر کے نوٹ پر ہیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 82,
+      "type": "true-false",
+      "question": "Mahatma Gandhi was born in South Africa.",
+      "question_ur": "مہاتما گاندھی جنوبی افریقہ میں پیدا ہوئے تھے۔",
+      "correctAnswer": false,
+      "explanation": "Mahatma Gandhi was born in Porbandar, India, in 1869.",
+      "explanation_ur": "مہاتما گاندھی 1869 میں پوربندر، بھارت میں پیدا ہوئے تھے۔",
+      "hint": "He later lived in South Africa.",
+      "hint_ur": "وہ بعد میں جنوبی افریقہ میں رہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "question": "Who was known as the Iron Lady?",
+      "question_ur": "آئرن لیڈی کے نام سے کون مشہور تھیں؟",
+      "options": {
+        "en": [
+          "Margaret Thatcher",
+          "Indira Gandhi",
+          "Angela Merkel",
+          "Golda Meir"
+        ],
+        "ur": [
+          "مارگریٹ تھیچر",
+          "اندرا گاندھی",
+          "انجیلا مرکل",
+          "گولڈا مائیر"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Margaret Thatcher, Prime Minister of the UK from 1979 to 1990, was called the Iron Lady.",
+      "explanation_ur": "مارگریٹ تھیچر، جو 1979 سے 1990 تک برطانیہ کی وزیراعظم رہیں، آئرن لیڈی کہلاتی تھیں۔",
+      "hint": "She was a British Prime Minister.",
+      "hint_ur": "وہ برطانیہ کی وزیر اعظم تھیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 84,
+      "type": "true-false",
+      "question": "William Shakespeare wrote 'The Odyssey'.",
+      "question_ur": "ولیم شیکسپیئر نے 'اوڈیسی' لکھی۔",
+      "correctAnswer": false,
+      "explanation": "The Odyssey was written by the ancient Greek poet Homer.",
+      "explanation_ur": "اوڈیسی قدیم یونانی شاعر ہومر نے لکھی تھی۔",
+      "hint": "Think ancient Greece.",
+      "hint_ur": "قدیم یونان کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "question_ur": "پہلی خاتون کون تھیں جنہوں نے نوبل انعام جیتا؟",
+      "options": {
+        "en": [
+          "Marie Curie",
+          "Mother Teresa",
+          "Rosalind Franklin",
+          "Jane Goodall"
+        ],
+        "ur": [
+          "ماری کیوری",
+          "مدر ٹریسا",
+          "روزالینڈ فرینکلن",
+          "جین گڈال"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Marie Curie was the first woman to win a Nobel Prize, in Physics in 1903.",
+      "explanation_ur": "ماری کیوری نوبل انعام جیتنے والی پہلی خاتون تھیں، انہوں نے 1903 میں فزکس میں یہ انعام حاصل کیا۔",
+      "hint": "She also won in Chemistry.",
+      "hint_ur": "انہوں نے کیمسٹری میں بھی انعام جیتا۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 86,
+      "type": "true-false",
+      "question": "Albert Einstein developed the theory of relativity.",
+      "question_ur": "البرٹ آئن سٹائن نے نظریہ اضافیت تیار کیا۔",
+      "correctAnswer": true,
+      "explanation": "Einstein developed the special and general theories of relativity.",
+      "explanation_ur": "آئن سٹائن نے خصوصی اور عمومی نظریہ اضافیت تیار کیا۔",
+      "hint": "Think of E=mc².",
+      "hint_ur": "E=mc² کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "question": "Who discovered penicillin?",
+      "question_ur": "پینسلن کس نے دریافت کی؟",
+      "options": {
+        "en": [
+          "Alexander Fleming",
+          "Marie Curie",
+          "Louis Pasteur",
+          "Isaac Newton"
+        ],
+        "ur": [
+          "الگزینڈر فلیمنگ",
+          "ماری کیوری",
+          "لوئی پاسچر",
+          "آئزک نیوٹن"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Alexander Fleming discovered penicillin in 1928.",
+      "explanation_ur": "الگزینڈر فلیمنگ نے 1928 میں پینسلن دریافت کی۔",
+      "hint": "It was a breakthrough in antibiotics.",
+      "hint_ur": "یہ اینٹی بائیوٹکس میں ایک اہم پیشرفت تھی۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 88,
+      "type": "true-false",
+      "question": "Neil Armstrong was the first man on the Moon.",
+      "question_ur": "نیل آرمسٹرانگ چاند پر جانے والے پہلے شخص تھے۔",
+      "correctAnswer": true,
+      "explanation": "Neil Armstrong landed on the Moon in 1969 during Apollo 11.",
+      "explanation_ur": "نیل آرمسٹرانگ 1969 میں اپولو 11 کے دوران چاند پر اترے۔",
+      "hint": "He said 'That's one small step for man'.",
+      "hint_ur": "انہوں نے کہا 'یہ انسان کے لیے ایک چھوٹا قدم ہے'۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "question": "Who painted the Mona Lisa?",
+      "question_ur": "مونالیزا کس نے بنائی؟",
+      "options": {
+        "en": [
+          "Vincent van Gogh",
+          "Pablo Picasso",
+          "Leonardo da Vinci",
+          "Michelangelo"
+        ],
+        "ur": [
+          "ونسنٹ وین گو",
+          "پابلو پکاسو",
+          "لیونارڈو ڈا ونچی",
+          "مائیکل اینجلو"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Leonardo da Vinci painted the Mona Lisa in the early 16th century.",
+      "explanation_ur": "لیونارڈو ڈا ونچی نے 16ویں صدی کے اوائل میں مونالیزا پینٹ کی۔",
+      "hint": "He was a Renaissance artist.",
+      "hint_ur": "وہ نشاۃ ثانیہ کے ایک فنکار تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 90,
+      "type": "true-false",
+      "question": "Mother Teresa won the Nobel Peace Prize.",
+      "question_ur": "مدر ٹریسا نے نوبل امن انعام جیتا۔",
+      "correctAnswer": true,
+      "explanation": "Mother Teresa won the Nobel Peace Prize in 1979 for her humanitarian work.",
+      "explanation_ur": "مدر ٹریسا نے 1979 میں اپنے انسانی ہمدردی کے کام کے لیے نوبل امن انعام جیتا۔",
+      "hint": "She worked in Kolkata, India.",
+      "hint_ur": "انہوں نے کلکتہ، بھارت میں کام کیا۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "Who was the first President of the United States?",
+      "question_ur": "ریاستہائے متحدہ امریکہ کے پہلے صدر کون تھے؟",
+      "options": {
+        "en": [
+          "George Washington",
+          "Abraham Lincoln",
+          "Thomas Jefferson",
+          "John Adams"
+        ],
+        "ur": [
+          "جارج واشنگٹن",
+          "ابراہم لنکن",
+          "تھامس جیفرسن",
+          "جان ایڈمز"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "George Washington served as the first President of the USA from 1789 to 1797.",
+      "explanation_ur": "جارج واشنگٹن نے 1789 سے 1797 تک امریکہ کے پہلے صدر کے طور پر خدمات انجام دیں۔",
+      "hint": "He is on the US one-dollar bill.",
+      "hint_ur": "وہ امریکی ایک ڈالر کے نوٹ پر ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 92,
+      "type": "true-false",
+      "question": "Mahatma Gandhi was born in South Africa.",
+      "question_ur": "مہاتما گاندھی جنوبی افریقہ میں پیدا ہوئے تھے۔",
+      "correctAnswer": false,
+      "explanation": "Mahatma Gandhi was born in Porbandar, India, in 1869.",
+      "explanation_ur": "مہاتما گاندھی 1869 میں پوربندر، بھارت میں پیدا ہوئے تھے۔",
+      "hint": "He later lived in South Africa.",
+      "hint_ur": "وہ بعد میں جنوبی افریقہ میں رہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "Who was known as the Iron Lady?",
+      "question_ur": "آئرن لیڈی کے نام سے کون مشہور تھیں؟",
+      "options": {
+        "en": [
+          "Margaret Thatcher",
+          "Indira Gandhi",
+          "Angela Merkel",
+          "Golda Meir"
+        ],
+        "ur": [
+          "مارگریٹ تھیچر",
+          "اندرا گاندھی",
+          "انجیلا مرکل",
+          "گولڈا مائیر"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Margaret Thatcher, Prime Minister of the UK from 1979 to 1990, was called the Iron Lady.",
+      "explanation_ur": "مارگریٹ تھیچر، جو 1979 سے 1990 تک برطانیہ کی وزیراعظم رہیں، آئرن لیڈی کہلاتی تھیں۔",
+      "hint": "She was a British Prime Minister.",
+      "hint_ur": "وہ برطانیہ کی وزیر اعظم تھیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 94,
+      "type": "true-false",
+      "question": "William Shakespeare wrote 'The Odyssey'.",
+      "question_ur": "ولیم شیکسپیئر نے 'اوڈیسی' لکھی۔",
+      "correctAnswer": false,
+      "explanation": "The Odyssey was written by the ancient Greek poet Homer.",
+      "explanation_ur": "اوڈیسی قدیم یونانی شاعر ہومر نے لکھی تھی۔",
+      "hint": "Think ancient Greece.",
+      "hint_ur": "قدیم یونان کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 95,
+      "type": "mcq",
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "question_ur": "پہلی خاتون کون تھیں جنہوں نے نوبل انعام جیتا؟",
+      "options": {
+        "en": [
+          "Marie Curie",
+          "Mother Teresa",
+          "Rosalind Franklin",
+          "Jane Goodall"
+        ],
+        "ur": [
+          "ماری کیوری",
+          "مدر ٹریسا",
+          "روزالینڈ فرینکلن",
+          "جین گڈال"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Marie Curie was the first woman to win a Nobel Prize, in Physics in 1903.",
+      "explanation_ur": "ماری کیوری نوبل انعام جیتنے والی پہلی خاتون تھیں، انہوں نے 1903 میں فزکس میں یہ انعام حاصل کیا۔",
+      "hint": "She also won in Chemistry.",
+      "hint_ur": "انہوں نے کیمسٹری میں بھی انعام جیتا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 96,
+      "type": "true-false",
+      "question": "Albert Einstein developed the theory of relativity.",
+      "question_ur": "البرٹ آئن سٹائن نے نظریہ اضافیت تیار کیا۔",
+      "correctAnswer": true,
+      "explanation": "Einstein developed the special and general theories of relativity.",
+      "explanation_ur": "آئن سٹائن نے خصوصی اور عمومی نظریہ اضافیت تیار کیا۔",
+      "hint": "Think of E=mc².",
+      "hint_ur": "E=mc² کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "question": "Who discovered penicillin?",
+      "question_ur": "پینسلن کس نے دریافت کی؟",
+      "options": {
+        "en": [
+          "Alexander Fleming",
+          "Marie Curie",
+          "Louis Pasteur",
+          "Isaac Newton"
+        ],
+        "ur": [
+          "الگزینڈر فلیمنگ",
+          "ماری کیوری",
+          "لوئی پاسچر",
+          "آئزک نیوٹن"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Alexander Fleming discovered penicillin in 1928.",
+      "explanation_ur": "الگزینڈر فلیمنگ نے 1928 میں پینسلن دریافت کی۔",
+      "hint": "It was a breakthrough in antibiotics.",
+      "hint_ur": "یہ اینٹی بائیوٹکس میں ایک اہم پیشرفت تھی۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 98,
+      "type": "true-false",
+      "question": "Neil Armstrong was the first man on the Moon.",
+      "question_ur": "نیل آرمسٹرانگ چاند پر جانے والے پہلے شخص تھے۔",
+      "correctAnswer": true,
+      "explanation": "Neil Armstrong landed on the Moon in 1969 during Apollo 11.",
+      "explanation_ur": "نیل آرمسٹرانگ 1969 میں اپولو 11 کے دوران چاند پر اترے۔",
+      "hint": "He said 'That's one small step for man'.",
+      "hint_ur": "انہوں نے کہا 'یہ انسان کے لیے ایک چھوٹا قدم ہے'۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 99,
+      "type": "mcq",
+      "question": "Who painted the Mona Lisa?",
+      "question_ur": "مونالیزا کس نے بنائی؟",
+      "options": {
+        "en": [
+          "Vincent van Gogh",
+          "Pablo Picasso",
+          "Leonardo da Vinci",
+          "Michelangelo"
+        ],
+        "ur": [
+          "ونسنٹ وین گو",
+          "پابلو پکاسو",
+          "لیونارڈو ڈا ونچی",
+          "مائیکل اینجلو"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Leonardo da Vinci painted the Mona Lisa in the early 16th century.",
+      "explanation_ur": "لیونارڈو ڈا ونچی نے 16ویں صدی کے اوائل میں مونالیزا پینٹ کی۔",
+      "hint": "He was a Renaissance artist.",
+      "hint_ur": "وہ نشاۃ ثانیہ کے ایک فنکار تھے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 100,
+      "type": "true-false",
+      "question": "Mother Teresa won the Nobel Peace Prize.",
+      "question_ur": "مدر ٹریسا نے نوبل امن انعام جیتا۔",
+      "correctAnswer": true,
+      "explanation": "Mother Teresa won the Nobel Peace Prize in 1979 for her humanitarian work.",
+      "explanation_ur": "مدر ٹریسا نے 1979 میں اپنے انسانی ہمدردی کے کام کے لیے نوبل امن انعام جیتا۔",
+      "hint": "She worked in Kolkata, India.",
+      "hint_ur": "انہوں نے کلکتہ، بھارت میں کام کیا۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 101,
+      "type": "mcq",
+      "question": "Who was the first President of the United States?",
+      "question_ur": "ریاستہائے متحدہ امریکہ کے پہلے صدر کون تھے؟",
+      "options": {
+        "en": [
+          "George Washington",
+          "Abraham Lincoln",
+          "Thomas Jefferson",
+          "John Adams"
+        ],
+        "ur": [
+          "جارج واشنگٹن",
+          "ابراہم لنکن",
+          "تھامس جیفرسن",
+          "جان ایڈمز"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "George Washington served as the first President of the USA from 1789 to 1797.",
+      "explanation_ur": "جارج واشنگٹن نے 1789 سے 1797 تک امریکہ کے پہلے صدر کے طور پر خدمات انجام دیں۔",
+      "hint": "He is on the US one-dollar bill.",
+      "hint_ur": "وہ امریکی ایک ڈالر کے نوٹ پر ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 102,
+      "type": "true-false",
+      "question": "Mahatma Gandhi was born in South Africa.",
+      "question_ur": "مہاتما گاندھی جنوبی افریقہ میں پیدا ہوئے تھے۔",
+      "correctAnswer": false,
+      "explanation": "Mahatma Gandhi was born in Porbandar, India, in 1869.",
+      "explanation_ur": "مہاتما گاندھی 1869 میں پوربندر، بھارت میں پیدا ہوئے تھے۔",
+      "hint": "He later lived in South Africa.",
+      "hint_ur": "وہ بعد میں جنوبی افریقہ میں رہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "question": "Who was known as the Iron Lady?",
+      "question_ur": "آئرن لیڈی کے نام سے کون مشہور تھیں؟",
+      "options": {
+        "en": [
+          "Margaret Thatcher",
+          "Indira Gandhi",
+          "Angela Merkel",
+          "Golda Meir"
+        ],
+        "ur": [
+          "مارگریٹ تھیچر",
+          "اندرا گاندھی",
+          "انجیلا مرکل",
+          "گولڈا مائیر"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Margaret Thatcher, Prime Minister of the UK from 1979 to 1990, was called the Iron Lady.",
+      "explanation_ur": "مارگریٹ تھیچر، جو 1979 سے 1990 تک برطانیہ کی وزیراعظم رہیں، آئرن لیڈی کہلاتی تھیں۔",
+      "hint": "She was a British Prime Minister.",
+      "hint_ur": "وہ برطانیہ کی وزیر اعظم تھیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 104,
+      "type": "true-false",
+      "question": "William Shakespeare wrote 'The Odyssey'.",
+      "question_ur": "ولیم شیکسپیئر نے 'اوڈیسی' لکھی۔",
+      "correctAnswer": false,
+      "explanation": "The Odyssey was written by the ancient Greek poet Homer.",
+      "explanation_ur": "اوڈیسی قدیم یونانی شاعر ہومر نے لکھی تھی۔",
+      "hint": "Think ancient Greece.",
+      "hint_ur": "قدیم یونان کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 105,
+      "type": "mcq",
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "question_ur": "پہلی خاتون کون تھیں جنہوں نے نوبل انعام جیتا؟",
+      "options": {
+        "en": [
+          "Marie Curie",
+          "Mother Teresa",
+          "Rosalind Franklin",
+          "Jane Goodall"
+        ],
+        "ur": [
+          "ماری کیوری",
+          "مدر ٹریسا",
+          "روزالینڈ فرینکلن",
+          "جین گڈال"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Marie Curie was the first woman to win a Nobel Prize, in Physics in 1903.",
+      "explanation_ur": "ماری کیوری نوبل انعام جیتنے والی پہلی خاتون تھیں، انہوں نے 1903 میں فزکس میں یہ انعام حاصل کیا۔",
+      "hint": "She also won in Chemistry.",
+      "hint_ur": "انہوں نے کیمسٹری میں بھی انعام جیتا۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 106,
+      "type": "true-false",
+      "question": "Albert Einstein developed the theory of relativity.",
+      "question_ur": "البرٹ آئن سٹائن نے نظریہ اضافیت تیار کیا۔",
+      "correctAnswer": true,
+      "explanation": "Einstein developed the special and general theories of relativity.",
+      "explanation_ur": "آئن سٹائن نے خصوصی اور عمومی نظریہ اضافیت تیار کیا۔",
+      "hint": "Think of E=mc².",
+      "hint_ur": "E=mc² کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 107,
+      "type": "mcq",
+      "question": "Who discovered penicillin?",
+      "question_ur": "پینسلن کس نے دریافت کی؟",
+      "options": {
+        "en": [
+          "Alexander Fleming",
+          "Marie Curie",
+          "Louis Pasteur",
+          "Isaac Newton"
+        ],
+        "ur": [
+          "الگزینڈر فلیمنگ",
+          "ماری کیوری",
+          "لوئی پاسچر",
+          "آئزک نیوٹن"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Alexander Fleming discovered penicillin in 1928.",
+      "explanation_ur": "الگزینڈر فلیمنگ نے 1928 میں پینسلن دریافت کی۔",
+      "hint": "It was a breakthrough in antibiotics.",
+      "hint_ur": "یہ اینٹی بائیوٹکس میں ایک اہم پیشرفت تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 108,
+      "type": "true-false",
+      "question": "Neil Armstrong was the first man on the Moon.",
+      "question_ur": "نیل آرمسٹرانگ چاند پر جانے والے پہلے شخص تھے۔",
+      "correctAnswer": true,
+      "explanation": "Neil Armstrong landed on the Moon in 1969 during Apollo 11.",
+      "explanation_ur": "نیل آرمسٹرانگ 1969 میں اپولو 11 کے دوران چاند پر اترے۔",
+      "hint": "He said 'That's one small step for man'.",
+      "hint_ur": "انہوں نے کہا 'یہ انسان کے لیے ایک چھوٹا قدم ہے'۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "question": "Who painted the Mona Lisa?",
+      "question_ur": "مونالیزا کس نے بنائی؟",
+      "options": {
+        "en": [
+          "Vincent van Gogh",
+          "Pablo Picasso",
+          "Leonardo da Vinci",
+          "Michelangelo"
+        ],
+        "ur": [
+          "ونسنٹ وین گو",
+          "پابلو پکاسو",
+          "لیونارڈو ڈا ونچی",
+          "مائیکل اینجلو"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Leonardo da Vinci painted the Mona Lisa in the early 16th century.",
+      "explanation_ur": "لیونارڈو ڈا ونچی نے 16ویں صدی کے اوائل میں مونالیزا پینٹ کی۔",
+      "hint": "He was a Renaissance artist.",
+      "hint_ur": "وہ نشاۃ ثانیہ کے ایک فنکار تھے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 110,
+      "type": "true-false",
+      "question": "Mother Teresa won the Nobel Peace Prize.",
+      "question_ur": "مدر ٹریسا نے نوبل امن انعام جیتا۔",
+      "correctAnswer": true,
+      "explanation": "Mother Teresa won the Nobel Peace Prize in 1979 for her humanitarian work.",
+      "explanation_ur": "مدر ٹریسا نے 1979 میں اپنے انسانی ہمدردی کے کام کے لیے نوبل امن انعام جیتا۔",
+      "hint": "She worked in Kolkata, India.",
+      "hint_ur": "انہوں نے کلکتہ، بھارت میں کام کیا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 111,
+      "type": "mcq",
+      "question": "Who was the first President of the United States?",
+      "question_ur": "ریاستہائے متحدہ امریکہ کے پہلے صدر کون تھے؟",
+      "options": {
+        "en": [
+          "George Washington",
+          "Abraham Lincoln",
+          "Thomas Jefferson",
+          "John Adams"
+        ],
+        "ur": [
+          "جارج واشنگٹن",
+          "ابراہم لنکن",
+          "تھامس جیفرسن",
+          "جان ایڈمز"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "George Washington served as the first President of the USA from 1789 to 1797.",
+      "explanation_ur": "جارج واشنگٹن نے 1789 سے 1797 تک امریکہ کے پہلے صدر کے طور پر خدمات انجام دیں۔",
+      "hint": "He is on the US one-dollar bill.",
+      "hint_ur": "وہ امریکی ایک ڈالر کے نوٹ پر ہیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 112,
+      "type": "true-false",
+      "question": "Mahatma Gandhi was born in South Africa.",
+      "question_ur": "مہاتما گاندھی جنوبی افریقہ میں پیدا ہوئے تھے۔",
+      "correctAnswer": false,
+      "explanation": "Mahatma Gandhi was born in Porbandar, India, in 1869.",
+      "explanation_ur": "مہاتما گاندھی 1869 میں پوربندر، بھارت میں پیدا ہوئے تھے۔",
+      "hint": "He later lived in South Africa.",
+      "hint_ur": "وہ بعد میں جنوبی افریقہ میں رہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 113,
+      "type": "mcq",
+      "question": "Who was known as the Iron Lady?",
+      "question_ur": "آئرن لیڈی کے نام سے کون مشہور تھیں؟",
+      "options": {
+        "en": [
+          "Margaret Thatcher",
+          "Indira Gandhi",
+          "Angela Merkel",
+          "Golda Meir"
+        ],
+        "ur": [
+          "مارگریٹ تھیچر",
+          "اندرا گاندھی",
+          "انجیلا مرکل",
+          "گولڈا مائیر"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Margaret Thatcher, Prime Minister of the UK from 1979 to 1990, was called the Iron Lady.",
+      "explanation_ur": "مارگریٹ تھیچر، جو 1979 سے 1990 تک برطانیہ کی وزیراعظم رہیں، آئرن لیڈی کہلاتی تھیں۔",
+      "hint": "She was a British Prime Minister.",
+      "hint_ur": "وہ برطانیہ کی وزیر اعظم تھیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 114,
+      "type": "true-false",
+      "question": "William Shakespeare wrote 'The Odyssey'.",
+      "question_ur": "ولیم شیکسپیئر نے 'اوڈیسی' لکھی۔",
+      "correctAnswer": false,
+      "explanation": "The Odyssey was written by the ancient Greek poet Homer.",
+      "explanation_ur": "اوڈیسی قدیم یونانی شاعر ہومر نے لکھی تھی۔",
+      "hint": "Think ancient Greece.",
+      "hint_ur": "قدیم یونان کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "question_ur": "پہلی خاتون کون تھیں جنہوں نے نوبل انعام جیتا؟",
+      "options": {
+        "en": [
+          "Marie Curie",
+          "Mother Teresa",
+          "Rosalind Franklin",
+          "Jane Goodall"
+        ],
+        "ur": [
+          "ماری کیوری",
+          "مدر ٹریسا",
+          "روزالینڈ فرینکلن",
+          "جین گڈال"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Marie Curie was the first woman to win a Nobel Prize, in Physics in 1903.",
+      "explanation_ur": "ماری کیوری نوبل انعام جیتنے والی پہلی خاتون تھیں، انہوں نے 1903 میں فزکس میں یہ انعام حاصل کیا۔",
+      "hint": "She also won in Chemistry.",
+      "hint_ur": "انہوں نے کیمسٹری میں بھی انعام جیتا۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 116,
+      "type": "true-false",
+      "question": "Albert Einstein developed the theory of relativity.",
+      "question_ur": "البرٹ آئن سٹائن نے نظریہ اضافیت تیار کیا۔",
+      "correctAnswer": true,
+      "explanation": "Einstein developed the special and general theories of relativity.",
+      "explanation_ur": "آئن سٹائن نے خصوصی اور عمومی نظریہ اضافیت تیار کیا۔",
+      "hint": "Think of E=mc².",
+      "hint_ur": "E=mc² کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 117,
+      "type": "mcq",
+      "question": "Who discovered penicillin?",
+      "question_ur": "پینسلن کس نے دریافت کی؟",
+      "options": {
+        "en": [
+          "Alexander Fleming",
+          "Marie Curie",
+          "Louis Pasteur",
+          "Isaac Newton"
+        ],
+        "ur": [
+          "الگزینڈر فلیمنگ",
+          "ماری کیوری",
+          "لوئی پاسچر",
+          "آئزک نیوٹن"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Alexander Fleming discovered penicillin in 1928.",
+      "explanation_ur": "الگزینڈر فلیمنگ نے 1928 میں پینسلن دریافت کی۔",
+      "hint": "It was a breakthrough in antibiotics.",
+      "hint_ur": "یہ اینٹی بائیوٹکس میں ایک اہم پیشرفت تھی۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 118,
+      "type": "true-false",
+      "question": "Neil Armstrong was the first man on the Moon.",
+      "question_ur": "نیل آرمسٹرانگ چاند پر جانے والے پہلے شخص تھے۔",
+      "correctAnswer": true,
+      "explanation": "Neil Armstrong landed on the Moon in 1969 during Apollo 11.",
+      "explanation_ur": "نیل آرمسٹرانگ 1969 میں اپولو 11 کے دوران چاند پر اترے۔",
+      "hint": "He said 'That's one small step for man'.",
+      "hint_ur": "انہوں نے کہا 'یہ انسان کے لیے ایک چھوٹا قدم ہے'۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 119,
+      "type": "mcq",
+      "question": "Who painted the Mona Lisa?",
+      "question_ur": "مونالیزا کس نے بنائی؟",
+      "options": {
+        "en": [
+          "Vincent van Gogh",
+          "Pablo Picasso",
+          "Leonardo da Vinci",
+          "Michelangelo"
+        ],
+        "ur": [
+          "ونسنٹ وین گو",
+          "پابلو پکاسو",
+          "لیونارڈو ڈا ونچی",
+          "مائیکل اینجلو"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Leonardo da Vinci painted the Mona Lisa in the early 16th century.",
+      "explanation_ur": "لیونارڈو ڈا ونچی نے 16ویں صدی کے اوائل میں مونالیزا پینٹ کی۔",
+      "hint": "He was a Renaissance artist.",
+      "hint_ur": "وہ نشاۃ ثانیہ کے ایک فنکار تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 120,
+      "type": "true-false",
+      "question": "Mother Teresa won the Nobel Peace Prize.",
+      "question_ur": "مدر ٹریسا نے نوبل امن انعام جیتا۔",
+      "correctAnswer": true,
+      "explanation": "Mother Teresa won the Nobel Peace Prize in 1979 for her humanitarian work.",
+      "explanation_ur": "مدر ٹریسا نے 1979 میں اپنے انسانی ہمدردی کے کام کے لیے نوبل امن انعام جیتا۔",
+      "hint": "She worked in Kolkata, India.",
+      "hint_ur": "انہوں نے کلکتہ، بھارت میں کام کیا۔",
+      "timeLimit": 15
+    }
+  ]
+}

@@ -1,0 +1,3178 @@
+{
+  "meta": {
+    "category": "General Knowledge",
+    "category_ur": "عمومی معلومات",
+    "description": "Test your knowledge of common facts from around the world",
+    "description_ur": "دنیا بھر کے عام حقائق کا امتحان لیں",
+    "difficulty": "easy",
+    "image": "general_knowledge.jpg"
+  },
+  "questions": [
+    
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What is the capital of France?",
+      "question_ur": "فرانس کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["London", "Berlin", "Paris", "Madrid"],
+        "ur": ["لندن", "برلن", "پیرس", "میڈرڈ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Paris has been the capital of France since the 10th century.",
+      "explanation_ur": "پیرس دسویں صدی سے فرانس کا دارالحکومت رہا ہے۔",
+      "hint": "Think of the Eiffel Tower",
+      "hint_ur": "آئیفل ٹاور کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 2,
+      "type": "true-false",
+      "question": "The Great Wall of China is visible from space.",
+      "question_ur": "چین کی عظیم دیوار خلا سے نظر آتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "This is a common myth. The Great Wall is not visible to the naked eye from space.",
+      "explanation_ur": "یہ ایک عام خرافات ہے۔ عظیم دیوار خلا سے ننگی آنکھ سے نظر نہیں آتی ہے۔",
+      "hint": "Consider how wide it is compared to other man-made structures",
+      "hint_ur": "اس کی چوڑائی کا دوسرے انسانی ساختہ ڈھانچے سے موازنہ کریں",
+      "timeLimit": 30
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which planet is known as the Red Planet?",
+      "question_ur": "کس سیارے کو سرخ سیارہ کہا جاتا ہے؟",
+      "options": {
+        "en": ["Venus", "Mars", "Jupiter", "Saturn"],
+        "ur": ["وینس", "مریخ", "مشتری", "زحل"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Mars appears reddish due to iron oxide on its surface.",
+      "explanation_ur": "مریخ کی سطح پر آئرن آکسائیڈ کی وجہ سے یہ سرخ نظر آتا ہے۔",
+      "hint": "Named after the Roman god of war",
+      "hint_ur": "رومی جنگ کے دیوتا کے نام پر رکھا گیا",
+      "timeLimit": 15
+    },
+    {
+      "id": 4,
+      "type": "true-false",
+      "question": "The human body has four lungs.",
+      "question_ur": "انسانی جسم میں چار پھیپھڑے ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Humans have only two lungs.",
+      "explanation_ur": "انسانوں میں صرف دو پھیپھڑے ہوتے ہیں۔",
+      "hint": "Count your breathing organs",
+      "hint_ur": "اپنے سانس لینے والے اعضاء کو گنیں",
+      "timeLimit": 10
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "What is the largest ocean on Earth?",
+      "question_ur": "زمین پر سب سے بڑا سمندر کون سا ہے؟",
+      "options": {
+        "en": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+        "ur": ["اطلنطی سمندر", "بحر ہند", "قطبی سمندر", "بحرالکاہل"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Pacific Ocean covers about 30% of the Earth's surface.",
+      "explanation_ur": "بحرالکاہل زمین کی سطح کا تقریباً 30% حصہ احاطہ کرتا ہے۔",
+      "hint": "It means 'peaceful' in Latin",
+      "hint_ur": "لاطینی میں اس کا مطلب ہے 'پرامن'",
+      "timeLimit": 20
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Which country is home to the kangaroo?",
+      "question_ur": "کنگارو کس ملک میں پایا جاتا ہے؟",
+      "options": {
+        "en": ["South Africa", "Brazil", "Australia", "New Zealand"],
+        "ur": ["جنوبی افریقہ", "برازیل", "آسٹریلیا", "نیوزی لینڈ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Kangaroos are marsupials native to Australia.",
+      "explanation_ur": "کنگارو آسٹریلیا کے مقامی مرسوپیئل ہیں۔",
+      "hint": "Also home to koalas and wallabies",
+      "hint_ur": "کوآلاز اور والابی کا بھی گھر",
+      "timeLimit": 15
+    },
+    {
+      "id": 7,
+      "type": "true-false",
+      "question": "The Nile is the longest river in the world.",
+      "question_ur": "نیل دنیا کا سب سے لمبا دریا ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Nile is approximately 6,650 km long.",
+      "explanation_ur": "نیل تقریباً 6,650 کلومیٹر لمبا ہے۔",
+      "hint": "Flows through northeastern Africa",
+      "hint_ur": "شمال مشرقی افریقہ سے بہتا ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "What is the capital of Japan?",
+      "question_ur": "جاپان کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Beijing", "Seoul", "Tokyo", "Bangkok"],
+        "ur": ["بیجنگ", "سیول", "ٹوکیو", "بینکاک"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Tokyo has been Japan's capital since 1868.",
+      "explanation_ur": "ٹوکیو 1868 سے جاپان کا دارالحکومت رہا ہے۔",
+      "hint": "Hosted the 2020 Summer Olympics",
+      "hint_ur": "2020 کے گرمائی اولمپکس کی میزبانی کی",
+      "timeLimit": 20
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Which of these is not a primary color?",
+      "question_ur": "ان میں سے کون سا بنیادی رنگ نہیں ہے؟",
+      "options": {
+        "en": ["Red", "Blue", "Green", "Yellow"],
+        "ur": ["سرخ", "نیلا", "سبز", "پیلا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The primary colors are red, blue, and yellow.",
+      "explanation_ur": "بنیادی رنگ سرخ، نیلا اور پیلا ہیں۔",
+      "hint": "Think of color mixing in painting",
+      "hint_ur": "پینٹنگ میں رنگوں کے اختلاط کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 10,
+      "type": "true-false",
+      "question": "The human skeleton is made up of 206 bones.",
+      "question_ur": "انسانی ڈھانچہ 206 ہڈیوں پر مشتمل ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "An adult human has 206 bones, while babies have about 300.",
+      "explanation_ur": "ایک بالغ انسان میں 206 ہڈیاں ہوتی ہیں، جبکہ بچوں میں تقریباً 300 ہوتی ہیں۔",
+      "hint": "Some bones fuse together as we grow",
+      "hint_ur": "بڑھنے کے ساتھ کچھ ہڈیاں آپس میں مل جاتی ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "Which language has the most native speakers?",
+      "question_ur": "کس زبان کے سب سے زیادہ مقامی بولنے والے ہیں؟",
+      "options": {
+        "en": ["English", "Spanish", "Hindi", "Mandarin Chinese"],
+        "ur": ["انگریزی", "ہسپانوی", "ہندی", "مینڈرن چینی"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Mandarin Chinese has over 1 billion native speakers.",
+      "explanation_ur": "مینڈرن چینی کے 1 ارب سے زیادہ مقامی بولنے والے ہیں۔",
+      "hint": "Official language of China",
+      "hint_ur": "چین کی سرکاری زبان",
+      "timeLimit": 25
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "question": "Lightning never strikes the same place twice.",
+      "question_ur": "بجلی کبھی بھی ایک ہی جگہ پر دو بار نہیں گرتی۔",
+      "correctAnswer": false,
+      "explanation": "Lightning can strike the same place multiple times.",
+      "explanation_ur": "بجلی ایک ہی جگہ پر متعدد بار گر سکتی ہے۔",
+      "hint": "Tall structures are often struck repeatedly",
+      "hint_ur": "اونچی عمارتوں پر اکثر بار بار بجلی گرتی ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "What is the largest continent by area?",
+      "question_ur": "رقبے کے لحاظ سے سب سے بڑا براعظم کون سا ہے؟",
+      "options": {
+        "en": ["Africa", "North America", "Asia", "Europe"],
+        "ur": ["افریقہ", "شمالی امریکہ", "ایشیا", "یورپ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Asia covers about 30% of Earth's land area.",
+      "explanation_ur": "ایشیا زمین کے تقریباً 30% خشکی کے رقبے پر محیط ہے۔",
+      "hint": "Includes China and India",
+      "hint_ur": "چین اور بھارت شامل ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "Which of these is not a bone in the human body?",
+      "question_ur": "ان میں سے کون سی انسانی جسم کی ہڈی نہیں ہے؟",
+      "options": {
+        "en": ["Femur", "Tibia", "Humerus", "Cornea"],
+        "ur": ["فیمر", "ٹبیا", "ہیومرس", "کارنیا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The cornea is part of the eye, not a bone.",
+      "explanation_ur": "کارنیا آنکھ کا حصہ ہے، ہڈی نہیں۔",
+      "hint": "It's part of the visual system",
+      "hint_ur": "یہ بصری نظام کا حصہ ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 15,
+      "type": "true-false",
+      "question": "The currency of the United Kingdom is the Euro.",
+      "question_ur": "برطانیہ کی کرنسی یورو ہے۔",
+      "correctAnswer": false,
+      "explanation": "The UK uses the Pound Sterling, not the Euro.",
+      "explanation_ur": "برطانیہ پاؤنڈ اسٹرلنگ استعمال کرتا ہے، یورو نہیں۔",
+      "hint": "UK is not part of the Eurozone",
+      "hint_ur": "برطانیہ یوروزون کا حصہ نہیں ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "Which planet is closest to the Sun?",
+      "question_ur": "سورج کے قریب ترین سیارہ کون سا ہے؟",
+      "options": {
+        "en": ["Venus", "Mercury", "Earth", "Mars"],
+        "ur": ["وینس", "عطارد", "زمین", "مریخ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Mercury is the smallest and closest planet to the Sun.",
+      "explanation_ur": "عطارد سب سے چھوٹا اور سورج کے قریب ترین سیارہ ہے۔",
+      "hint": "Named after the Roman messenger god",
+      "hint_ur": "رومی پیغام رساں دیوتا کے نام پر رکھا گیا",
+      "timeLimit": 15
+    },
+    {
+      "id": 17,
+      "type": "true-false",
+      "question": "The Statue of Liberty was a gift from France.",
+      "question_ur": "مجسمہ آزادی فرانس کا تحفہ تھا۔",
+      "correctAnswer": true,
+      "explanation": "It was given to the US in 1886 to celebrate friendship.",
+      "explanation_ur": "یہ 1886 میں دوستی کے جشن میں امریکہ کو دیا گیا تھا۔",
+      "hint": "Designed by Frédéric Auguste Bartholdi",
+      "hint_ur": "فریڈرک آگسٹ بارتھولڈی نے ڈیزائن کیا",
+      "timeLimit": 20
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "What is the largest mammal in the world?",
+      "question_ur": "دنیا کا سب سے بڑا ممالیہ کون سا ہے؟",
+      "options": {
+        "en": ["African Elephant", "Blue Whale", "Giraffe", "Polar Bear"],
+        "ur": ["افریقی ہاتھی", "نیلی وہیل", "زرافہ", "قطبی ریچھ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Blue whales can grow up to 100 feet long.",
+      "explanation_ur": "نیلی وہیل 100 فٹ تک لمبی ہو سکتی ہے۔",
+      "hint": "Lives in the ocean",
+      "hint_ur": "سمندر میں رہتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Which country is shaped like a boot?",
+      "question_ur": "کون سا ملک بوٹ کی شکل جیسا ہے؟",
+      "options": {
+        "en": ["Greece", "Italy", "Spain", "Portugal"],
+        "ur": ["یونان", "اٹلی", "سپین", "پرتگال"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Italy's distinctive shape resembles a boot kicking a ball.",
+      "explanation_ur": "اٹلی کی مخصوص شکل ایک گیند کو لات مارتے ہوئے بوٹ جیسی ہے۔",
+      "hint": "Home of pizza and pasta",
+      "hint_ur": "پیزا اور پاستا کا گھر",
+      "timeLimit": 15
+    },
+    {
+      "id": 20,
+      "type": "true-false",
+      "question": "The human brain stops developing at age 18.",
+      "question_ur": "انسانی دماغ 18 سال کی عمر میں ترقی کرنا بند کر دیتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "The brain continues developing until about age 25.",
+      "explanation_ur": "دماغ تقریباً 25 سال کی عمر تک ترقی کرتا رہتا ہے۔",
+      "hint": "Prefrontal cortex develops last",
+      "hint_ur": "پریفرنٹل کورٹیکس سب سے آخر میں ترقی کرتا ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Which of these is not a type of cloud?",
+      "question_ur": "ان میں سے کون سا بادل کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Cumulus", "Stratus", "Cirrus", "Floccus"],
+        "ur": ["کیومولس", "سٹریٹس", "سرس", "فلوکس"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Floccus is not a standard cloud classification.",
+      "explanation_ur": "فلوکس بادلوں کی معیاری درجہ بندی نہیں ہے۔",
+      "hint": "Check cloud classification types",
+      "hint_ur": "بادلوں کی درجہ بندی کی اقسام چیک کریں",
+      "timeLimit": 25
+    },
+    {
+      "id": 22,
+      "type": "true-false",
+      "question": "The capital of Australia is Sydney.",
+      "question_ur": "آسٹریلیا کا دارالحکومت سڈنی ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital of Australia is Canberra.",
+      "explanation_ur": "آسٹریلیا کا دارالحکومت کینبرا ہے۔",
+      "hint": "Not the most populous city",
+      "hint_ur": "سب سے زیادہ آبادی والا شہر نہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "What is the hardest natural substance on Earth?",
+      "question_ur": "زمین پر سب سے سخت قدرتی مادہ کون سا ہے؟",
+      "options": {
+        "en": ["Gold", "Iron", "Diamond", "Quartz"],
+        "ur": ["سونے", "لوہے", "ہیرے", "کوارٹز"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Diamond scores 10 on the Mohs hardness scale.",
+      "explanation_ur": "ہیرا موہس کی سختی کی پیمائش پر 10 اسکور کرتا ہے۔",
+      "hint": "Used in cutting tools",
+      "hint_ur": "کاٹنے کے اوزاروں میں استعمال ہوتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which of these is not a primary taste?",
+      "question_ur": "ان میں سے کون سا بنیادی ذائقہ نہیں ہے؟",
+      "options": {
+        "en": ["Sweet", "Sour", "Spicy", "Bitter"],
+        "ur": ["میٹھا", "کھٹا", "مسالہ دار", "کڑوا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The primary tastes are sweet, sour, salty, bitter, and umami.",
+      "explanation_ur": "بنیادی ذائقے میٹھا، کھٹا، نمکین، کڑوا اور اومامی ہیں۔",
+      "hint": "It's a sensation, not a taste",
+      "hint_ur": "یہ ایک احساس ہے، ذائقہ نہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 25,
+      "type": "true-false",
+      "question": "The human body has more than 600 muscles.",
+      "question_ur": "انسانی جسم میں 600 سے زیادہ پٹھے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "The exact count varies but is generally around 640 muscles.",
+      "explanation_ur": "عین گنتی مختلف ہوتی ہے لیکن عام طور پر تقریباً 640 پٹھے ہوتے ہیں۔",
+      "hint": "Includes skeletal, smooth, and cardiac muscles",
+      "hint_ur": "کنکال، ہموار اور قلبی پٹھے شامل ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "Which country is both an island and a continent?",
+      "question_ur": "کون سا ملک ایک جزیرہ اور ایک براعظم دونوں ہے؟",
+      "options": {
+        "en": ["Greenland", "Madagascar", "Australia", "New Zealand"],
+        "ur": ["گرین لینڈ", "مڈغاسکر", "آسٹریلیا", "نیوزی لینڈ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Australia is considered both a country and a continent.",
+      "explanation_ur": "آسٹریلیا ایک ملک اور ایک براعظم دونوں سمجھا جاتا ہے۔",
+      "hint": "Home to kangaroos and koalas",
+      "hint_ur": "کنگارو اور کوآلاز کا گھر",
+      "timeLimit": 20
+    },
+    {
+      "id": 27,
+      "type": "true-false",
+      "question": "The Dead Sea is the saltiest body of water on Earth.",
+      "question_ur": "بحیرہ مردار زمین پر نمکین ترین پانی کا جسم ہے۔",
+      "correctAnswer": false,
+      "explanation": "While very salty, some lakes like Don Juan Pond are saltier.",
+      "explanation_ur": "اگرچہ بہت نمکین ہے، لیکن ڈون جوآن پونڈ جیسی کچھ جھیلیں زیادہ نمکین ہیں۔",
+      "hint": "Located between Jordan and Israel",
+      "hint_ur": "اردن اور اسرائیل کے درمیان واقع ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "Which of these is not a type of rock?",
+      "question_ur": "ان میں سے کون سی چٹان کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Igneous", "Sedimentary", "Metamorphic", "Crystalline"],
+        "ur": ["آتشی", "رسوبی", "تبدیلی", "قلمی"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three main rock types are igneous, sedimentary, and metamorphic.",
+      "explanation_ur": "چٹانوں کی تین اہم اقسام آتشی، رسوبی اور تبدیلی ہیں۔",
+      "hint": "It's a structure, not a rock type",
+      "hint_ur": "یہ ایک ساخت ہے، چٹان کی قسم نہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "What is the capital of Canada?",
+      "question_ur": "کینیڈا کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+        "ur": ["ٹورنٹو", "وینکوور", "اوٹاوا", "مونٹریال"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Ottawa was chosen as Canada's capital in 1857.",
+      "explanation_ur": "اوٹاوا کو 1857 میں کینیڈا کا دارالحکومت منتخب کیا گیا تھا۔",
+      "hint": "Located in Ontario province",
+      "hint_ur": "اونٹاریو صوبے میں واقع ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 30,
+      "type": "true-false",
+      "question": "The cheetah is the fastest land animal.",
+      "question_ur": "چیتا سب سے تیز زمینی جانور ہے۔",
+      "correctAnswer": true,
+      "explanation": "Cheetahs can reach speeds up to 70-75 mph.",
+      "explanation_ur": "چیتا 70-75 میل فی گھنٹہ کی رفتار تک پہنچ سکتا ہے۔",
+      "hint": "Built for short bursts of speed",
+      "hint_ur": "رفتار کے مختصر دھماکوں کے لیے بنایا گیا",
+      "timeLimit": 15
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Which of these is not a gas giant planet?",
+      "question_ur": "ان میں سے کون سا گیسی دیو سیارہ نہیں ہے؟",
+      "options": {
+        "en": ["Jupiter", "Saturn", "Neptune", "Mars"],
+        "ur": ["مشتری", "زحل", "نیپچون", "مریخ"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Mars is a terrestrial planet, not a gas giant.",
+      "explanation_ur": "مریخ ایک زمینی سیارہ ہے، گیسی دیو نہیں۔",
+      "hint": "Known as the Red Planet",
+      "hint_ur": "سرخ سیارے کے نام سے جانا جاتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 32,
+      "type": "true-false",
+      "question": "The currency of Switzerland is the Euro.",
+      "question_ur": "سوئٹزرلینڈ کی کرنسی یورو ہے۔",
+      "correctAnswer": false,
+      "explanation": "Switzerland uses the Swiss Franc, not the Euro.",
+      "explanation_ur": "سوئٹزرلینڈ سوئس فرانک استعمال کرتا ہے، یورو نہیں۔",
+      "hint": "Not an EU member",
+      "hint_ur": "یورپی یونین کا رکن نہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "What is the largest desert in the world?",
+      "question_ur": "دنیا کا سب سے بڑا صحرا کون سا ہے؟",
+      "options": {
+        "en": ["Sahara", "Arabian", "Gobi", "Antarctic"],
+        "ur": ["صحارا", "عربی", "گوبی", "انٹارکٹک"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Antarctica is technically a desert due to low precipitation.",
+      "explanation_ur": "انٹارکٹیکا تکنیکی طور پر کم بارش کی وجہ سے ایک صحرا ہے۔",
+      "hint": "Cold desert",
+      "hint_ur": "سرد صحرا",
+      "timeLimit": 25
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "Which of these is not a noble gas?",
+      "question_ur": "ان میں سے کون سی عالی گیس نہیں ہے؟",
+      "options": {
+        "en": ["Helium", "Neon", "Argon", "Chlorine"],
+        "ur": ["ہیلیم", "نیون", "آرگون", "کلورین"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Chlorine is a halogen, not a noble gas.",
+      "explanation_ur": "کلورین ایک ہیلوجن ہے، عالی گیس نہیں۔",
+      "hint": "Used in water purification",
+      "hint_ur": "پانی کی صفائی میں استعمال ہوتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 35,
+      "type": "true-false",
+      "question": "The human body has four chambers in the heart.",
+      "question_ur": "انسانی جسم کے دل میں چار خانے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Two atria and two ventricles make up the four chambers.",
+      "explanation_ur": "دو ایٹریا اور دو ویںٹرکلز چار خانوں کو بناتے ہیں۔",
+      "hint": "Pumps blood throughout the body",
+      "hint_ur": "پورے جسم میں خون پمپ کرتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Which country has the most time zones?",
+      "question_ur": "کس ملک کے سب سے زیادہ ٹائم زون ہیں؟",
+      "options": {
+        "en": ["United States", "Russia", "China", "France"],
+        "ur": ["ریاستہائے متحدہ", "روس", "چین", "فرانس"]
+      },
+      "correctAnswer": 3,
+      "explanation": "France has 12 time zones due to its overseas territories.",
+      "explanation_ur": "فرانس کے پاس اپنے سمندر پار علاقوں کی وجہ سے 12 ٹائم زون ہیں۔",
+      "hint": "Includes territories in multiple oceans",
+      "hint_ur": "متعدد سمندروں میں علاقے شامل ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 37,
+      "type": "true-false",
+      "question": "The capital of Brazil is Rio de Janeiro.",
+      "question_ur": "برازیل کا دارالحکومت ریو ڈی جنیرو ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital is Brasília, built in 1960 specifically to be the capital.",
+      "explanation_ur": "دارالحکومت براسیلیا ہے، جو خاص طور پر 1960 میں دارالحکومت بنانے کے لیے بنایا گیا تھا۔",
+      "hint": "Planned city",
+      "hint_ur": "منصوبہ بند شہر",
+      "timeLimit": 20
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "Which of these is not a type of blood cell?",
+      "question_ur": "ان میں سے کون سا خون کے خلیے کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Red blood cell", "White blood cell", "Platelet", "Plasma cell"],
+        "ur": ["سرخ خون کا خلیہ", "سفید خون کا خلیہ", "پلیٹلیٹ", "پلازما سیل"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Plasma is the liquid portion of blood, not a cell type.",
+      "explanation_ur": "پلازما خون کا مائع حصہ ہے، خلیے کی قسم نہیں۔",
+      "hint": "Carries blood cells",
+      "hint_ur": "خون کے خلیوں کو لے جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "What is the capital of South Africa?",
+      "question_ur": "جنوبی افریقہ کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Johannesburg", "Cape Town", "Pretoria", "All of these"],
+        "ur": ["جوہانسبرگ", "کیپ ٹاؤن", "پریٹوریا", "یہ سب"]
+      },
+      "correctAnswer": 3,
+      "explanation": "South Africa has three capitals: Pretoria (administrative), Cape Town (legislative), and Bloemfontein (judicial).",
+      "explanation_ur": "جنوبی افریقہ کے تین دارالحکومت ہیں: پریٹوریا (انتظامی)، کیپ ٹاؤن (قانون ساز)، اور بلومفونٹین (عدالتی)۔",
+      "hint": "Multiple capitals for different branches",
+      "hint_ur": "مختلف شاخوں کے لیے متعدد دارالحکومت",
+      "timeLimit": 30
+    },
+    {
+      "id": 40,
+      "type": "true-false",
+      "question": "The human body has more bacterial cells than human cells.",
+      "question_ur": "انسانی جسم میں انسانی خلیوں سے زیادہ بیکٹیریل خلیے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Estimates suggest a 10:1 ratio of bacterial to human cells.",
+      "explanation_ur": "اندازوں کے مطابق بیکٹیریل اور انسانی خلیوں کا تناسب 10:1 ہے۔",
+      "hint": "Most are beneficial",
+      "hint_ur": "زیادہ تر فائدہ مند ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "Which of these is not a primary color of light?",
+      "question_ur": "ان میں سے کون سا روشنی کا بنیادی رنگ نہیں ہے؟",
+      "options": {
+        "en": ["Red", "Blue", "Green", "Yellow"],
+        "ur": ["سرخ", "نیلا", "سبز", "پیلا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The primary colors of light are red, blue, and green.",
+      "explanation_ur": "روشنی کے بنیادی رنگ سرخ، نیلا اور سبز ہیں۔",
+      "hint": "Think about how screens create colors",
+      "hint_ur": "سوچیں کہ اسکرینیں رنگ کیسے بناتی ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 42,
+      "type": "true-false",
+      "question": "The capital of Spain is Barcelona.",
+      "question_ur": "سپین کا دارالحکومت بارسلونا ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital of Spain is Madrid.",
+      "explanation_ur": "سپین کا دارالحکومت میڈرڈ ہے۔",
+      "hint": "Largest city in Spain",
+      "hint_ur": "سپین کا سب سے بڑا شہر",
+      "timeLimit": 20
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "What is the largest type of big cat?",
+      "question_ur": "بڑی بلی کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Lion", "Tiger", "Jaguar", "Leopard"],
+        "ur": ["شیر", "شیر", "جیگوار", "تیندوا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Tigers are the largest big cats, with Siberian tigers being the biggest subspecies.",
+      "explanation_ur": "شیر سب سے بڑی بلیاں ہیں، سائبیرین شیر سب سے بڑی ذیلی قسم ہے۔",
+      "hint": "Striped pattern",
+      "hint_ur": "دھاری دار پیٹرن",
+      "timeLimit": 20
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "Which of these is not a type of volcano?",
+      "question_ur": "ان میں سے کون سا آتش فشاں کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Shield", "Cinder cone", "Composite", "Igneous"],
+        "ur": ["شیلڈ", "سنڈر کون", "کمپوزٹ", "آتشی"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Igneous is a type of rock, not a volcano classification.",
+      "explanation_ur": "آتشی چٹان کی ایک قسم ہے، آتش فشاں کی درجہ بندی نہیں۔",
+      "hint": "Relates to rock formation",
+      "hint_ur": "چٹان کی تشکیل سے متعلق",
+      "timeLimit": 25
+    },
+    {
+      "id": 45,
+      "type": "true-false",
+      "question": "The human body produces vitamin D when exposed to sunlight.",
+      "question_ur": "انسانی جسم سورج کی روشنی کے سامنے آنے پر وٹامن ڈی پیدا کرتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "UVB rays trigger vitamin D synthesis in the skin.",
+      "explanation_ur": "یووی بی کرنیں جلد میں وٹامن ڈی کی ترکیب کو متحرک کرتی ہیں۔",
+      "hint": "Important for bone health",
+      "hint_ur": "ہڈیوں کی صحت کے لیے اہم",
+      "timeLimit": 20
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "Which country has the most natural lakes?",
+      "question_ur": "کس ملک میں سب سے زیادہ قدرتی جھیلیں ہیں؟",
+      "options": {
+        "en": ["United States", "Russia", "Canada", "Finland"],
+        "ur": ["ریاستہائے متحدہ", "روس", "کینیڈا", "فن لینڈ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Canada has over 2 million lakes, more than any other country.",
+      "explanation_ur": "کینیڈا میں 2 ملین سے زیادہ جھیلیں ہیں، جو کسی بھی دوسرے ملک سے زیادہ ہیں۔",
+      "hint": "Second largest country by area",
+      "hint_ur": "رقبے کے لحاظ سے دوسرا سب سے بڑا ملک",
+      "timeLimit": 25
+    },
+    {
+      "id": 47,
+      "type": "true-false",
+      "question": "The capital of Turkey is Istanbul.",
+      "question_ur": "ترکی کا دارالحکومت استنبول ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital is Ankara, while Istanbul is the largest city.",
+      "explanation_ur": "دارالحکومت انقرہ ہے، جبکہ استنبول سب سے بڑا شہر ہے۔",
+      "hint": "Moved from Istanbul in 1923",
+      "hint_ur": "1923 میں استنبول سے منتقل کیا گیا",
+      "timeLimit": 20
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "Which of these is not a type of triangle?",
+      "question_ur": "ان میں سے کون سا مثلث کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Equilateral", "Isosceles", "Scalene", "Parallel"],
+        "ur": ["مساوی الاضلاع", "مساوی الساقین", "اسکیلین", "متوازی"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Parallel refers to lines, not triangle classification.",
+      "explanation_ur": "متوازی لائنوں سے مراد ہے، مثلث کی درجہ بندی نہیں۔",
+      "hint": "Relates to lines that never meet",
+      "hint_ur": "ان لائنوں سے متعلق جو کبھی نہیں ملتیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "What is the capital of Egypt?",
+      "question_ur": "مصر کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["Alexandria", "Cairo", "Luxor", "Giza"],
+        "ur": ["اسکندریہ", "قاہرہ", "لکسر", "جیزہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Cairo has been Egypt's capital since 969 AD.",
+      "explanation_ur": "قاہرہ 969 عیسوی سے مصر کا دارالحکومت رہا ہے۔",
+      "hint": "Near the Great Pyramids",
+      "hint_ur": "عظیم اہرام کے قریب",
+      "timeLimit": 20
+    },
+    {
+      "id": 50,
+      "type": "true-false",
+      "question": "The human body has five senses.",
+      "question_ur": "انسانی جسم کے پانچ حواس ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Humans have at least nine senses including balance, temperature, pain, etc.",
+      "explanation_ur": "انسانوں میں کم از کم نو حواس ہوتے ہیں جن میں توازن، درجہ حرارت، درد وغیرہ شامل ہیں۔",
+      "hint": "Traditional five are sight, hearing, etc.",
+      "hint_ur": "روایتی پانچ نظر، سماعت وغیرہ ہیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "Which of these is not a type of precipitation?",
+      "question_ur": "ان میں سے کون سا بارش کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Rain", "Snow", "Sleet", "Cloud"],
+        "ur": ["بارش", "برف", "ژالہ باری", "بادل"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Clouds are water vapor, not precipitation that reaches the ground.",
+      "explanation_ur": "بادل پانی کے بخارات ہیں، زمین تک پہنچنے والی بارش نہیں۔",
+      "hint": "Forms in the sky",
+      "hint_ur": "آسمان میں بنتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 52,
+      "type": "true-false",
+      "question": "The capital of Argentina is Buenos Aires.",
+      "question_ur": "ارجنٹائن کا دارالحکومت بیونس آئرس ہے۔",
+      "correctAnswer": true,
+      "explanation": "Buenos Aires has been the capital since 1880.",
+      "explanation_ur": "بیونس آئرس 1880 سے دارالحکومت رہا ہے۔",
+      "hint": "Known for tango dancing",
+      "hint_ur": "ٹینگو ڈانس کے لیے جانا جاتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "What is the largest bird in the world?",
+      "question_ur": "دنیا کا سب سے بڑا پرندہ کون سا ہے؟",
+      "options": {
+        "en": ["Emu", "Albatross", "Ostrich", "Condor"],
+        "ur": ["ایمو", "الباٹروس", "شتر مرغ", "کنڈور"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Ostriches can grow up to 9 feet tall and weigh over 300 pounds.",
+      "explanation_ur": "شتر مرغ 9 فٹ تک لمبا اور 300 پاؤنڈ سے زیادہ وزنی ہو سکتا ہے۔",
+      "hint": "Cannot fly",
+      "hint_ur": "اڑ نہیں سکتا",
+      "timeLimit": 20
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "Which of these is not a type of leaf arrangement?",
+      "question_ur": "ان میں سے کون سا پتوں کی ترتیب کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Alternate", "Opposite", "Whorled", "Parallel"],
+        "ur": ["متبادل", "مخالف", "چکر دار", "متوازی"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Parallel refers to leaf venation, not arrangement on the stem.",
+      "explanation_ur": "متوازی پتے کی رگوں سے مراد ہے، تنے پر ترتیب نہیں۔",
+      "hint": "Relates to veins in leaves",
+      "hint_ur": "پتوں کی رگوں سے متعلق",
+      "timeLimit": 25
+    },
+    {
+      "id": 55,
+      "type": "true-false",
+      "question": "The human body's smallest bone is in the ear.",
+      "question_ur": "انسانی جسم کی سب سے چھوٹی ہڈی کان میں ہوتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "The stapes bone in the middle ear is the smallest.",
+      "explanation_ur": "درمیانی کان کی اسٹیپس ہڈی سب سے چھوٹی ہوتی ہے۔",
+      "hint": "Part of the hearing mechanism",
+      "hint_ur": "سننے کے میکانزم کا حصہ",
+      "timeLimit": 20
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "Which country has the most islands?",
+      "question_ur": "کس ملک کے سب سے زیادہ جزائر ہیں؟",
+      "options": {
+        "en": ["Indonesia", "Philippines", "Sweden", "Norway"],
+        "ur": ["انڈونیشیا", "فلپائن", "سویڈن", "ناروے"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Sweden has over 220,000 islands, though many are uninhabited.",
+      "explanation_ur": "سویڈن میں 220,000 سے زیادہ جزائر ہیں، حالانکہ بہت سے غیر آباد ہیں۔",
+      "hint": "Nordic country",
+      "hint_ur": "نارڈک ملک",
+      "timeLimit": 25
+    },
+    {
+      "id": 57,
+      "type": "true-false",
+      "question": "The capital of Vietnam is Ho Chi Minh City.",
+      "question_ur": "ویتنام کا دارالحکومت ہو چی منہ سٹی ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital is Hanoi; Ho Chi Minh City is the largest city.",
+      "explanation_ur": "دارالحکومت ہنوئی ہے؛ ہو چی منہ سٹی سب سے بڑا شہر ہے۔",
+      "hint": "Northern city",
+      "hint_ur": "شمالی شہر",
+      "timeLimit": 20
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "What is the largest organ in the human body?",
+      "question_ur": "انسانی جسم کا سب سے بڑا عضو کون سا ہے؟",
+      "options": {
+        "en": ["Liver", "Brain", "Skin", "Lungs"],
+        "ur": ["جگر", "دماغ", "جلد", "پھیپھڑے"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The skin accounts for about 16% of body weight.",
+      "explanation_ur": "جلد جسم کے وزن کا تقریباً 16% ہوتی ہے۔",
+      "hint": "Protective outer layer",
+      "hint_ur": "حفاظتی بیرونی تہہ",
+      "timeLimit": 20
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "Which of these is not a type of joint in the human body?",
+      "question_ur": "ان میں سے کون سا انسانی جسم میں جوڑ کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Hinge", "Ball-and-socket", "Pivot", "Parallel"],
+        "ur": ["ہنج", "بال اور ساکٹ", "پیوٹ", "متوازی"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Parallel is not a classification of joints.",
+      "explanation_ur": "متوازی جوڑوں کی درجہ بندی نہیں ہے۔",
+      "hint": "Relates to movement types",
+      "hint_ur": "حرکت کی اقسام سے متعلق",
+      "timeLimit": 25
+    },
+    {
+      "id": 60,
+      "type": "true-false",
+      "question": "The human body has more than 600 lymph nodes.",
+      "question_ur": "انسانی جسم میں 600 سے زیادہ لمف نوڈس ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "The exact number varies but typically ranges from 500-700.",
+      "explanation_ur": "عین تعداد مختلف ہوتی ہے لیکن عام طور پر 500-700 تک ہوتی ہے۔",
+      "hint": "Part of the immune system",
+      "hint_ur": "مدافعتی نظام کا حصہ",
+      "timeLimit": 25
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "Which country has the most volcanoes?",
+      "question_ur": "کس ملک میں سب سے زیادہ آتش فشاں ہیں؟",
+      "options": {
+        "en": ["Japan", "Indonesia", "United States", "Chile"],
+        "ur": ["جاپان", "انڈونیشیا", "ریاستہائے متحدہ", "چلی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Indonesia has about 130 active volcanoes, more than any other country.",
+      "explanation_ur": "انڈونیشیا میں تقریباً 130 فعال آتش فشاں ہیں، جو کسی بھی دوسرے ملک سے زیادہ ہیں۔",
+      "hint": "Located on the Pacific Ring of Fire",
+      "hint_ur": "پیسیفک رنگ آف فائر پر واقع ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 62,
+      "type": "true-false",
+      "question": "The capital of New Zealand is Auckland.",
+      "question_ur": "نیوزی لینڈ کا دارالحکومت آکلینڈ ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital is Wellington; Auckland is the largest city.",
+      "explanation_ur": "دارالحکومت ویلنگٹن ہے؛ آکلینڈ سب سے بڑا شہر ہے۔",
+      "hint": "Southern tip of North Island",
+      "hint_ur": "شمالی جزیرے کا جنوبی سرا",
+      "timeLimit": 20
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "What is the fastest fish in the ocean?",
+      "question_ur": "سمندر کی سب سے تیز مچھلی کون سی ہے؟",
+      "options": {
+        "en": ["Swordfish", "Tuna", "Sailfish", "Marlin"],
+        "ur": ["تلوار مچھلی", "ٹونا", "سیل فش", "مارلن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Sailfish can reach speeds up to 68 mph (110 km/h).",
+      "explanation_ur": "سیل فش 68 میل فی گھنٹہ (110 کلومیٹر فی گھنٹہ) تک کی رفتار تک پہنچ سکتی ہے۔",
+      "hint": "Has a distinctive dorsal fin",
+      "hint_ur": "ایک ممتاز پشتی فن ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "question": "Which of these is not a type of muscle tissue?",
+      "question_ur": "ان میں سے کون سا پٹھوں کے ٹشو کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Skeletal", "Cardiac", "Smooth", "Fibrous"],
+        "ur": ["کنکال", "قلبی", "ہموار", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three types are skeletal, cardiac, and smooth.",
+      "explanation_ur": "تین اقسام کنکال، قلبی اور ہموار ہیں۔",
+      "hint": "Found throughout the body",
+      "hint_ur": "پورے جسم میں پایا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 65,
+      "type": "true-false",
+      "question": "The human body has more than 1,000 different types of cells.",
+      "question_ur": "انسانی جسم میں 1,000 سے زیادہ مختلف قسم کے خلیے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Estimates range from 200 to over 1,000 specialized cell types.",
+      "explanation_ur": "اندازے 200 سے 1,000 سے زیادہ مخصوص خلیوں کی اقسام تک ہیں۔",
+      "hint": "Includes blood cells, nerve cells, etc.",
+      "hint_ur": "خون کے خلیے، اعصابی خلیے وغیرہ شامل ہیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 66,
+      "type": "mcq",
+      "question": "Which country has the longest coastline?",
+      "question_ur": "کس ملک کا سب سے لمبا ساحل ہے؟",
+      "options": {
+        "en": ["Russia", "Canada", "Australia", "United States"],
+        "ur": ["روس", "کینیڈا", "آسٹریلیا", "ریاستہائے متحدہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Canada's coastline measures 202,080 km including islands.",
+      "explanation_ur": "کینیڈا کا ساحل جزائر سمیت 202,080 کلومیٹر ہے۔",
+      "hint": "Second largest country by land area",
+      "hint_ur": "زمینی رقبے کے لحاظ سے دوسرا سب سے بڑا ملک",
+      "timeLimit": 25
+    },
+    {
+      "id": 67,
+      "type": "true-false",
+      "question": "The capital of Malaysia is Kuala Lumpur.",
+      "question_ur": "ملائیشیا کا دارالحکومت کوالالمپور ہے۔",
+      "correctAnswer": false,
+      "explanation": "The official capital is Putrajaya, though Kuala Lumpur remains the financial center.",
+      "explanation_ur": "سرکاری دارالحکومت پتراجایا ہے، حالانکہ کوالالمپور مالیاتی مرکز رہتا ہے۔",
+      "hint": "Planned city",
+      "hint_ur": "منصوبہ بند شہر",
+      "timeLimit": 25
+    },
+    {
+      "id": 68,
+      "type": "mcq",
+      "question": "What is the largest species of shark?",
+      "question_ur": "شارک کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Great White", "Whale Shark", "Tiger Shark", "Hammerhead"],
+        "ur": ["عظیم سفید", "وہیل شارک", "ٹائیگر شارک", "ہتھوڑا سر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Whale sharks can grow up to 40 feet long.",
+      "explanation_ur": "وہیل شارک 40 فٹ تک لمبی ہو سکتی ہے۔",
+      "hint": "Filter feeder",
+      "hint_ur": "فلٹر فیڈر",
+      "timeLimit": 20
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "question": "Which of these is not a type of tooth?",
+      "question_ur": "ان میں سے کون سا دانت کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Incisor", "Canine", "Molar", "Fibrous"],
+        "ur": ["انسیسر", "کی نائن", "مولر", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The four types are incisors, canines, premolars, and molars.",
+      "explanation_ur": "چار اقسام انسیسر، کی نائن، پری مولرز اور مولرز ہیں۔",
+      "hint": "Relates to chewing function",
+      "hint_ur": "چبانے کے کام سے متعلق",
+      "timeLimit": 25
+    },
+    {
+      "id": 70,
+      "type": "true-false",
+      "question": "The human body has more than 100,000 miles of blood vessels.",
+      "question_ur": "انسانی جسم میں 100,000 میل سے زیادہ خون کی نالیاں ہوتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "If laid end to end, an adult's blood vessels would circle Earth 4 times.",
+      "explanation_ur": "اگر آخر سے آخر تک بچھایا جائے تو ایک بالغ کی خون کی نالیاں زمین کو 4 بار گھیر لیں گی۔",
+      "hint": "Includes arteries, veins, capillaries",
+      "hint_ur": "شریانوں، رگوں، کیپلیریز شامل ہیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "question": "Which country has the most UNESCO World Heritage Sites?",
+      "question_ur": "کس ملک کے سب سے زیادہ یونیسکو عالمی ثقافتی ورثہ مقامات ہیں؟",
+      "options": {
+        "en": ["France", "China", "Italy", "Spain"],
+        "ur": ["فرانس", "چین", "اٹلی", "سپین"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Italy has 58 UNESCO World Heritage Sites, more than any other country.",
+      "explanation_ur": "اٹلی میں 58 یونیسکو عالمی ثقافتی ورثہ مقامات ہیں، جو کسی بھی دوسرے ملک سے زیادہ ہیں۔",
+      "hint": "Home of the Roman Empire",
+      "hint_ur": "رومی سلطنت کا گھر",
+      "timeLimit": 25
+    },
+    {
+      "id": 72,
+      "type": "true-false",
+      "question": "The capital of South Korea is Seoul.",
+      "question_ur": "جنوبی کوریا کا دارالحکومت سیول ہے۔",
+      "correctAnswer": true,
+      "explanation": "Seoul has been the capital since 1394.",
+      "explanation_ur": "سیول 1394 سے دارالحکومت رہا ہے۔",
+      "hint": "Megacity with over 10 million people",
+      "hint_ur": "10 ملین سے زیادہ لوگوں والا میگا سٹی",
+      "timeLimit": 20
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "What is the largest species of penguin?",
+      "question_ur": "پینگوئن کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["King Penguin", "Emperor Penguin", "Adélie Penguin", "Gentoo Penguin"],
+        "ur": ["کنگ پینگوئن", "ایمپیرر پینگوئن", "ایڈیلی پینگوئن", "جینٹو پینگوئن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Emperor penguins can grow up to 4 feet tall.",
+      "explanation_ur": "ایمپیرر پینگوئن 4 فٹ تک لمبے ہو سکتے ہیں۔",
+      "hint": "Lives in Antarctica",
+      "hint_ur": "انٹارکٹیکا میں رہتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 74,
+      "type": "mcq",
+      "question": "Which of these is not a type of blood vessel?",
+      "question_ur": "ان میں سے کون سی خون کی نالی کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Artery", "Vein", "Capillary", "Fibrous"],
+        "ur": ["شریان", "ورید", "کیپلری", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three types are arteries, veins, and capillaries.",
+      "explanation_ur": "تین اقسام شریانیں، وریدیں اور کیپلریز ہیں۔",
+      "hint": "Carries blood throughout the body",
+      "hint_ur": "پورے جسم میں خون لے جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 75,
+      "type": "true-false",
+      "question": "The human body replaces all its cells every 7 years.",
+      "question_ur": "انسانی جسم ہر 7 سال بعد اپنے تمام خلیوں کو تبدیل کرتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Cell turnover rates vary - some cells last a lifetime.",
+      "explanation_ur": "خلیوں کی تبدیلی کی شرح مختلف ہوتی ہے - کچھ خلیے زندگی بھر رہتے ہیں۔",
+      "hint": "Some neurons are never replaced",
+      "hint_ur": "کچھ نیورون کبھی تبدیل نہیں ہوتے",
+      "timeLimit": 30
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "question": "Which country has the most pyramids?",
+      "question_ur": "کس ملک میں سب سے زیادہ اہرام ہیں؟",
+      "options": {
+        "en": ["Egypt", "Mexico", "Sudan", "Peru"],
+        "ur": ["مصر", "میکسیکو", "سوڈان", "پیرو"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Sudan has over 200 pyramids, more than Egypt's approximately 120.",
+      "explanation_ur": "سوڈان میں 200 سے زیادہ اہرام ہیں، جو مصر کے تقریباً 120 سے زیادہ ہیں۔",
+      "hint": "Ancient Nubian pyramids",
+      "hint_ur": "قدیم نوبیائی اہرام",
+      "timeLimit": 25
+    },
+    {
+      "id": 77,
+      "type": "true-false",
+      "question": "The capital of Pakistan is Karachi.",
+      "question_ur": "پاکستان کا دارالحکومت کراچی ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital is Islamabad; Karachi is the largest city.",
+      "explanation_ur": "دارالحکومت اسلام آباد ہے؛ کراچی سب سے بڑا شہر ہے۔",
+      "hint": "Planned city in the north",
+      "hint_ur": "شمال میں منصوبہ بند شہر",
+      "timeLimit": 20
+    },
+    {
+      "id": 78,
+      "type": "mcq",
+      "question": "What is the largest species of bear?",
+      "question_ur": "ریچھ کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Grizzly Bear", "Polar Bear", "Kodiak Bear", "Black Bear"],
+        "ur": ["گریزلی ریچھ", "پولر بیئر", "کوڈیاک ریچھ", "کالا ریچھ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Polar bears are the largest, with males weighing up to 1,500 lbs.",
+      "explanation_ur": "پولر بیئر سب سے بڑے ہیں، نر کا وزن 1,500 پاؤنڈ تک ہوتا ہے۔",
+      "hint": "Lives in the Arctic",
+      "hint_ur": "آرکٹک میں رہتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "Which of these is not a type of white blood cell?",
+      "question_ur": "ان میں سے کون سا سفید خون کے خلیے کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Neutrophil", "Lymphocyte", "Eosinophil", "Hemoglobin"],
+        "ur": ["نیوٹروفیل", "لمفوسائٹ", "ایوسینوفیل", "ہیموگلوبن"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Hemoglobin is a protein in red blood cells, not a white blood cell type.",
+      "explanation_ur": "ہیموگلوبن سرخ خون کے خلیوں میں ایک پروٹین ہے، سفید خون کے خلیے کی قسم نہیں۔",
+      "hint": "Carries oxygen",
+      "hint_ur": "آکسیجن لے جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 80,
+      "type": "true-false",
+      "question": "The human body has more bacterial cells than human cells.",
+      "question_ur": "انسانی جسم میں انسانی خلیوں سے زیادہ بیکٹیریل خلیے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Estimates suggest a 10:1 ratio of bacterial to human cells.",
+      "explanation_ur": "اندازوں کے مطابق بیکٹیریل اور انسانی خلیوں کا تناسب 10:1 ہے۔",
+      "hint": "Most are beneficial",
+      "hint_ur": "زیادہ تر فائدہ مند ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "question": "Which country has the most official languages?",
+      "question_ur": "کس ملک کی سب سے زیادہ سرکاری زبانیں ہیں؟",
+      "options": {
+        "en": ["India", "South Africa", "Switzerland", "Bolivia"],
+        "ur": ["بھارت", "جنوبی افریقہ", "سوئٹزرلینڈ", "بولیویا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Bolivia recognizes 37 official languages, the most of any country.",
+      "explanation_ur": "بولیویا 37 سرکاری زبانیں تسلیم کرتا ہے، جو کسی بھی ملک سے زیادہ ہیں۔",
+      "hint": "South American country",
+      "hint_ur": "جنوبی امریکی ملک",
+      "timeLimit": 25
+    },
+    {
+      "id": 82,
+      "type": "true-false",
+      "question": "The capital of Afghanistan is Kabul.",
+      "question_ur": "افغانستان کا دارالحکومت کابل ہے۔",
+      "correctAnswer": true,
+      "explanation": "Kabul has been Afghanistan's capital since 1776.",
+      "explanation_ur": "کابل 1776 سے افغانستان کا دارالحکومت رہا ہے۔",
+      "hint": "Located in the eastern part of the country",
+      "hint_ur": "ملک کے مشرقی حصے میں واقع ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "question": "What is the largest species of turtle?",
+      "question_ur": "کچھوے کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Green Sea Turtle", "Leatherback Turtle", "Galápagos Tortoise", "Alligator Snapping Turtle"],
+        "ur": ["گرین سی ٹرٹل", "لیدر بیک ٹرٹل", "گالاپاگوس ٹارٹائز", "ایلیگیٹر اسنیپنگ ٹرٹل"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Leatherback turtles can weigh over 2,000 pounds.",
+      "explanation_ur": "لیدر بیک کچھوے کا وزن 2,000 پاؤنڈ سے زیادہ ہو سکتا ہے۔",
+      "hint": "Has a leathery shell",
+      "hint_ur": "لیتھری شیل ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 84,
+      "type": "mcq",
+      "question": "Which of these is not a type of neuron?",
+      "question_ur": "ان میں سے کون سا نیورون کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Sensory", "Motor", "Interneuron", "Fibrous"],
+        "ur": ["حسی", "موٹر", "انٹرنیورون", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three types are sensory, motor, and interneurons.",
+      "explanation_ur": "تین اقسام حسی، موٹر اور انٹرنیورون ہیں۔",
+      "hint": "Nerve cells in the brain",
+      "hint_ur": "دماغ میں اعصابی خلیے",
+      "timeLimit": 25
+    },
+    {
+      "id": 85,
+      "type": "true-false",
+      "question": "The human body's skin is completely replaced every month.",
+      "question_ur": "انسانی جسم کی جلد ہر مہینے مکمل طور پر تبدیل ہو جاتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "Skin regeneration takes about 27 days on average.",
+      "explanation_ur": "جلد کی بحالی اوسطاً تقریباً 27 دن لیتی ہے۔",
+      "hint": "Outer layer turns over faster",
+      "hint_ur": "بیرونی تہہ تیزی سے بدلتی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 86,
+      "type": "mcq",
+      "question": "Which country has the most borders with other countries?",
+      "question_ur": "کس ملک کی سب سے زیادہ دوسرے ممالک کے ساتھ سرحدیں ہیں؟",
+      "options": {
+        "en": ["Russia", "China", "Brazil", "France"],
+        "ur": ["روس", "چین", "برازیل", "فرانس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "China shares borders with 14 countries, more than any other.",
+      "explanation_ur": "چین کے 14 ممالک کے ساتھ سرحدیں ہیں، جو کسی بھی دوسرے ملک سے زیادہ ہیں۔",
+      "hint": "Shares borders with India and Russia",
+      "hint_ur": "بھارت اور روس کے ساتھ سرحدیں ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 87,
+      "type": "true-false",
+      "question": "The capital of Saudi Arabia is Riyadh.",
+      "question_ur": "سعودی عرب کا دارالحکومت ریاض ہے۔",
+      "correctAnswer": true,
+      "explanation": "Riyadh has been the capital since the country's unification in 1932.",
+      "explanation_ur": "ریاض 1932 میں ملک کے اتحاد کے بعد سے دارالحکومت رہا ہے۔",
+      "hint": "Located in the center of the country",
+      "hint_ur": "ملک کے مرکز میں واقع ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "question": "What is the largest species of deer?",
+      "question_ur": "ہرن کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Elk", "Moose", "Red Deer", "Reindeer"],
+        "ur": ["ایلک", "موز", "ریڈ ڈیر", "رینڈیر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Moose can stand over 7 feet tall at the shoulder.",
+      "explanation_ur": "موز کندھے پر 7 فٹ سے زیادہ لمبے ہو سکتے ہیں۔",
+      "hint": "Found in northern regions",
+      "hint_ur": "شمالی علاقوں میں پایا جاتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "question": "Which of these is not a type of gland in the human body?",
+      "question_ur": "ان میں سے کون سا انسانی جسم میں غدود کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Pituitary", "Thyroid", "Adrenal", "Fibrous"],
+        "ur": ["پیچوٹری", "تھائیرائیڈ", "ایڈرینل", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Fibrous is not a gland classification.",
+      "explanation_ur": "ریشہ دار غدود کی درجہ بندی نہیں ہے۔",
+      "hint": "Produces hormones",
+      "hint_ur": "ہارمونز پیدا کرتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 90,
+      "type": "true-false",
+      "question": "The human body has more than 200 different types of cells.",
+      "question_ur": "انسانی جسم میں 200 سے زیادہ مختلف قسم کے خلیے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Estimates range from 200 to over 1,000 specialized cell types.",
+      "explanation_ur": "اندازے 200 سے 1,000 سے زیادہ مخصوص خلیوں کی اقسام تک ہیں۔",
+      "hint": "Includes blood cells, nerve cells, etc.",
+      "hint_ur": "خون کے خلیے، اعصابی خلیے وغیرہ شامل ہیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "Which country has the most lakes?",
+      "question_ur": "کس ملک میں سب سے زیادہ جھیلیں ہیں؟",
+      "options": {
+        "en": ["United States", "Russia", "Canada", "Finland"],
+        "ur": ["ریاستہائے متحدہ", "روس", "کینیڈا", "فن لینڈ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Canada has over 2 million lakes, more than any other country.",
+      "explanation_ur": "کینیڈا میں 2 ملین سے زیادہ جھیلیں ہیں، جو کسی بھی دوسرے ملک سے زیادہ ہیں۔",
+      "hint": "Second largest country by area",
+      "hint_ur": "رقبے کے لحاظ سے دوسرا سب سے بڑا ملک",
+      "timeLimit": 25
+    },
+    {
+      "id": 92,
+      "type": "true-false",
+      "question": "The capital of Nigeria is Lagos.",
+      "question_ur": "نائیجیریا کا دارالحکومت لاگوس ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital is Abuja; Lagos is the largest city.",
+      "explanation_ur": "دارالحکومت ابوجا ہے؛ لاگوس سب سے بڑا شہر ہے۔",
+      "hint": "Planned city in the center",
+      "hint_ur": "مرکز میں منصوبہ بند شہر",
+      "timeLimit": 20
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "What is the largest species of cat?",
+      "question_ur": "بلی کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Lion", "Tiger", "Jaguar", "Leopard"],
+        "ur": ["شیر", "شیر", "جیگوار", "تیندوا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Tigers are the largest cats, with Siberian tigers being the biggest subspecies.",
+      "explanation_ur": "شیر سب سے بڑی بلیاں ہیں، سائبیرین شیر سب سے بڑی ذیلی قسم ہے۔",
+      "hint": "Striped pattern",
+      "hint_ur": "دھاری دار پیٹرن",
+      "timeLimit": 20
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "question": "Which of these is not a type of bone cell?",
+      "question_ur": "ان میں سے کون سا ہڈی کے خلیے کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Osteoblast", "Osteocyte", "Osteoclast", "Fibrous"],
+        "ur": ["آسٹیوبلاسٹ", "آسٹیوسائٹ", "آسٹیوکلسٹ", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three types are osteoblasts, osteocytes, and osteoclasts.",
+      "explanation_ur": "تین اقسام آسٹیوبلاسٹ، آسٹیوسائٹ اور آسٹیوکلسٹ ہیں۔",
+      "hint": "Builds, maintains, and breaks down bone",
+      "hint_ur": "ہڈی بناتا، برقرار رکھتا اور توڑتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 95,
+      "type": "true-false",
+      "question": "The human body has more than 100,000 miles of blood vessels.",
+      "question_ur": "انسانی جسم میں 100,000 میل سے زیادہ خون کی نالیاں ہوتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "If laid end to end, an adult's blood vessels would circle Earth 4 times.",
+      "explanation_ur": "اگر آخر سے آخر تک بچھایا جائے تو ایک بالغ کی خون کی نالیاں زمین کو 4 بار گھیر لیں گی۔",
+      "hint": "Includes arteries, veins, capillaries",
+      "hint_ur": "شریانوں، رگوں، کیپلیریز شامل ہیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 96,
+      "type": "mcq",
+      "question": "Which country has the most volcanoes?",
+      "question_ur": "کس ملک میں سب سے زیادہ آتش فشاں ہیں؟",
+      "options": {
+        "en": ["Japan", "Indonesia", "United States", "Chile"],
+        "ur": ["جاپان", "انڈونیشیا", "ریاستہائے متحدہ", "چلی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Indonesia has about 130 active volcanoes, more than any other country.",
+      "explanation_ur": "انڈونیشیا میں تقریباً 130 فعال آتش فشاں ہیں، جو کسی بھی دوسرے ملک سے زیادہ ہیں۔",
+      "hint": "Located on the Pacific Ring of Fire",
+      "hint_ur": "پیسیفک رنگ آف فائر پر واقع ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 97,
+      "type": "true-false",
+      "question": "The capital of New Zealand is Auckland.",
+      "question_ur": "نیوزی لینڈ کا دارالحکومت آکلینڈ ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital is Wellington; Auckland is the largest city.",
+      "explanation_ur": "دارالحکومت ویلنگٹن ہے؛ آکلینڈ سب سے بڑا شہر ہے۔",
+      "hint": "Southern tip of North Island",
+      "hint_ur": "شمالی جزیرے کا جنوبی سرا",
+      "timeLimit": 20
+    },
+    {
+      "id": 98,
+      "type": "mcq",
+      "question": "What is the fastest fish in the ocean?",
+      "question_ur": "سمندر کی سب سے تیز مچھلی کون سی ہے؟",
+      "options": {
+        "en": ["Swordfish", "Tuna", "Sailfish", "Marlin"],
+        "ur": ["تلوار مچھلی", "ٹونا", "سیل فش", "مارلن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Sailfish can reach speeds up to 68 mph (110 km/h).",
+      "explanation_ur": "سیل فش 68 میل فی گھنٹہ (110 کلومیٹر فی گھنٹہ) تک کی رفتار تک پہنچ سکتی ہے۔",
+      "hint": "Has a distinctive dorsal fin",
+      "hint_ur": "ایک ممتاز پشتی فن ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 99,
+      "type": "mcq",
+      "question": "Which of these is not a type of muscle tissue?",
+      "question_ur": "ان میں سے کون سا پٹھوں کے ٹشو کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Skeletal", "Cardiac", "Smooth", "Fibrous"],
+        "ur": ["کنکال", "قلبی", "ہموار", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three types are skeletal, cardiac, and smooth.",
+      "explanation_ur": "تین اقسام کنکال، قلبی اور ہموار ہیں۔",
+      "hint": "Found throughout the body",
+      "hint_ur": "پورے جسم میں پایا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 100,
+      "type": "true-false",
+      "question": "The human body has more than 1,000 different types of cells.",
+      "question_ur": "انسانی جسم میں 1,000 سے زیادہ مختلف قسم کے خلیے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Estimates range from 200 to over 1,000 specialized cell types.",
+      "explanation_ur": "اندازے 200 سے 1,000 سے زیادہ مخصوص خلیوں کی اقسام تک ہیں۔",
+      "hint": "Includes blood cells, nerve cells, etc.",
+      "hint_ur": "خون کے خلیے، اعصابی خلیے وغیرہ شامل ہیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 101,
+      "type": "mcq",
+      "question": "Which country has the longest coastline?",
+      "question_ur": "کس ملک کا سب سے لمبا ساحل ہے؟",
+      "options": {
+        "en": ["Russia", "Canada", "Australia", "United States"],
+        "ur": ["روس", "کینیڈا", "آسٹریلیا", "ریاستہائے متحدہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Canada's coastline measures 202,080 km including islands.",
+      "explanation_ur": "کینیڈا کا ساحل جزائر سمیت 202,080 کلومیٹر ہے۔",
+      "hint": "Second largest country by land area",
+      "hint_ur": "زمینی رقبے کے لحاظ سے دوسرا سب سے بڑا ملک",
+      "timeLimit": 25
+    },
+    {
+      "id": 102,
+      "type": "true-false",
+      "question": "The capital of Malaysia is Kuala Lumpur.",
+      "question_ur": "ملائیشیا کا دارالحکومت کوالالمپور ہے۔",
+      "correctAnswer": false,
+      "explanation": "The official capital is Putrajaya, though Kuala Lumpur remains the financial center.",
+      "explanation_ur": "سرکاری دارالحکومت پتراجایا ہے، حالانکہ کوالالمپور مالیاتی مرکز رہتا ہے۔",
+      "hint": "Planned city",
+      "hint_ur": "منصوبہ بند شہر",
+      "timeLimit": 25
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "question": "What is the largest species of shark?",
+      "question_ur": "شارک کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Great White", "Whale Shark", "Tiger Shark", "Hammerhead"],
+        "ur": ["عظیم سفید", "وہیل شارک", "ٹائیگر شارک", "ہتھوڑا سر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Whale sharks can grow up to 40 feet long.",
+      "explanation_ur": "وہیل شارک 40 فٹ تک لمبی ہو سکتی ہے۔",
+      "hint": "Filter feeder",
+      "hint_ur": "فلٹر فیڈر",
+      "timeLimit": 20
+    },
+    {
+      "id": 104,
+      "type": "mcq",
+      "question": "Which of these is not a type of tooth?",
+      "question_ur": "ان میں سے کون سا دانت کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Incisor", "Canine", "Molar", "Fibrous"],
+        "ur": ["انسیسر", "کی نائن", "مولر", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The four types are incisors, canines, premolars, and molars.",
+      "explanation_ur": "چار اقسام انسیسر، کی نائن، پری مولرز اور مولرز ہیں۔",
+      "hint": "Relates to chewing function",
+      "hint_ur": "چبانے کے کام سے متعلق",
+      "timeLimit": 25
+    },
+    {
+      "id": 105,
+      "type": "true-false",
+      "question": "The human body has more than 100,000 miles of blood vessels.",
+      "question_ur": "انسانی جسم میں 100,000 میل سے زیادہ خون کی نالیاں ہوتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "If laid end to end, an adult's blood vessels would circle Earth 4 times.",
+      "explanation_ur": "اگر آخر سے آخر تک بچھایا جائے تو ایک بالغ کی خون کی نالیاں زمین کو 4 بار گھیر لیں گی۔",
+      "hint": "Includes arteries, veins, capillaries",
+      "hint_ur": "شریانوں، رگوں، کیپلیریز شامل ہیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 106,
+      "type": "mcq",
+      "question": "Which country has the most UNESCO World Heritage Sites?",
+      "question_ur": "کس ملک کے سب سے زیادہ یونیسکو عالمی ثقافتی ورثہ مقامات ہیں؟",
+      "options": {
+        "en": ["France", "China", "Italy", "Spain"],
+        "ur": ["فرانس", "چین", "اٹلی", "سپین"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Italy has 58 UNESCO World Heritage Sites, more than any other country.",
+      "explanation_ur": "اٹلی میں 58 یونیسکو عالمی ثقافتی ورثہ مقامات ہیں، جو کسی بھی دوسرے ملک سے زیادہ ہیں۔",
+      "hint": "Home of the Roman Empire",
+      "hint_ur": "رومی سلطنت کا گھر",
+      "timeLimit": 25
+    },
+    {
+      "id": 107,
+      "type": "true-false",
+      "question": "The capital of South Korea is Seoul.",
+      "question_ur": "جنوبی کوریا کا دارالحکومت سیول ہے۔",
+      "correctAnswer": true,
+      "explanation": "Seoul has been the capital since 1394.",
+      "explanation_ur": "سیول 1394 سے دارالحکومت رہا ہے۔",
+      "hint": "Megacity with over 10 million people",
+      "hint_ur": "10 ملین سے زیادہ لوگوں والا میگا سٹی",
+      "timeLimit": 20
+    },
+    {
+      "id": 108,
+      "type": "mcq",
+      "question": "What is the largest species of penguin?",
+      "question_ur": "پینگوئن کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["King Penguin", "Emperor Penguin", "Adélie Penguin", "Gentoo Penguin"],
+        "ur": ["کنگ پینگوئن", "ایمپیرر پینگوئن", "ایڈیلی پینگوئن", "جینٹو پینگوئن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Emperor penguins can grow up to 4 feet tall.",
+      "explanation_ur": "ایمپیرر پینگوئن 4 فٹ تک لمبے ہو سکتے ہیں۔",
+      "hint": "Lives in Antarctica",
+      "hint_ur": "انٹارکٹیکا میں رہتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "question": "Which of these is not a type of blood vessel?",
+      "question_ur": "ان میں سے کون سی خون کی نالی کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Artery", "Vein", "Capillary", "Fibrous"],
+        "ur": ["شریان", "ورید", "کیپلری", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three types are arteries, veins, and capillaries.",
+      "explanation_ur": "تین اقسام شریانیں، وریدیں اور کیپلریز ہیں۔",
+      "hint": "Carries blood throughout the body",
+      "hint_ur": "پورے جسم میں خون لے جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 110,
+      "type": "true-false",
+      "question": "The human body replaces all its cells every 7 years.",
+      "question_ur": "انسانی جسم ہر 7 سال بعد اپنے تمام خلیوں کو تبدیل کرتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Cell turnover rates vary - some cells last a lifetime.",
+      "explanation_ur": "خلیوں کی تبدیلی کی شرح مختلف ہوتی ہے - کچھ خلیے زندگی بھر رہتے ہیں۔",
+      "hint": "Some neurons are never replaced",
+      "hint_ur": "کچھ نیورون کبھی تبدیل نہیں ہوتے",
+      "timeLimit": 30
+    },
+    {
+      "id": 111,
+      "type": "mcq",
+      "question": "Which country has the most pyramids?",
+      "question_ur": "کس ملک میں سب سے زیادہ اہرام ہیں؟",
+      "options": {
+        "en": ["Egypt", "Mexico", "Sudan", "Peru"],
+        "ur": ["مصر", "میکسیکو", "سوڈان", "پیرو"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Sudan has over 200 pyramids, more than Egypt's approximately 120.",
+      "explanation_ur": "سوڈان میں 200 سے زیادہ اہرام ہیں، جو مصر کے تقریباً 120 سے زیادہ ہیں۔",
+      "hint": "Ancient Nubian pyramids",
+      "hint_ur": "قدیم نوبیائی اہرام",
+      "timeLimit": 25
+    },
+    {
+      "id": 112,
+      "type": "true-false",
+      "question": "The capital of Pakistan is Karachi.",
+      "question_ur": "پاکستان کا دارالحکومت کراچی ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital is Islamabad; Karachi is the largest city.",
+      "explanation_ur": "دارالحکومت اسلام آباد ہے؛ کراچی سب سے بڑا شہر ہے۔",
+      "hint": "Planned city in the north",
+      "hint_ur": "شمال میں منصوبہ بند شہر",
+      "timeLimit": 20
+    },
+    {
+      "id": 113,
+      "type": "mcq",
+      "question": "What is the largest species of bear?",
+      "question_ur": "ریچھ کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Grizzly Bear", "Polar Bear", "Kodiak Bear", "Black Bear"],
+        "ur": ["گریزلی ریچھ", "پولر بیئر", "کوڈیاک ریچھ", "کالا ریچھ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Polar bears are the largest, with males weighing up to 1,500 lbs.",
+      "explanation_ur": "پولر بیئر سب سے بڑے ہیں، نر کا وزن 1,500 پاؤنڈ تک ہوتا ہے۔",
+      "hint": "Lives in the Arctic",
+      "hint_ur": "آرکٹک میں رہتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 114,
+      "type": "mcq",
+      "question": "Which of these is not a type of white blood cell?",
+      "question_ur": "ان میں سے کون سا سفید خون کے خلیے کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Neutrophil", "Lymphocyte", "Eosinophil", "Hemoglobin"],
+        "ur": ["نیوٹروفیل", "لمفوسائٹ", "ایوسینوفیل", "ہیموگلوبن"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Hemoglobin is a protein in red blood cells, not a white blood cell type.",
+      "explanation_ur": "ہیموگلوبن سرخ خون کے خلیوں میں ایک پروٹین ہے، سفید خون کے خلیے کی قسم نہیں۔",
+      "hint": "Carries oxygen",
+      "hint_ur": "آکسیجن لے جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 115,
+      "type": "true-false",
+      "question": "The human body has more bacterial cells than human cells.",
+      "question_ur": "انسانی جسم میں انسانی خلیوں سے زیادہ بیکٹیریل خلیے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Estimates suggest a 10:1 ratio of bacterial to human cells.",
+      "explanation_ur": "اندازوں کے مطابق بیکٹیریل اور انسانی خلیوں کا تناسب 10:1 ہے۔",
+      "hint": "Most are beneficial",
+      "hint_ur": "زیادہ تر فائدہ مند ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 116,
+      "type": "mcq",
+      "question": "Which country has the most official languages?",
+      "question_ur": "کس ملک کی سب سے زیادہ سرکاری زبانیں ہیں؟",
+      "options": {
+        "en": ["India", "South Africa", "Switzerland", "Bolivia"],
+        "ur": ["بھارت", "جنوبی افریقہ", "سوئٹزرلینڈ", "بولیویا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Bolivia recognizes 37 official languages, the most of any country.",
+      "explanation_ur": "بولیویا 37 سرکاری زبانیں تسلیم کرتا ہے، جو کسی بھی ملک سے زیادہ ہیں۔",
+      "hint": "South American country",
+      "hint_ur": "جنوبی امریکی ملک",
+      "timeLimit": 25
+    },
+    {
+      "id": 117,
+      "type": "true-false",
+      "question": "The capital of Afghanistan is Kabul.",
+      "question_ur": "افغانستان کا دارالحکومت کابل ہے۔",
+      "correctAnswer": true,
+      "explanation": "Kabul has been Afghanistan's capital since 1776.",
+      "explanation_ur": "کابل 1776 سے افغانستان کا دارالحکومت رہا ہے۔",
+      "hint": "Located in the eastern part of the country",
+      "hint_ur": "ملک کے مشرقی حصے میں واقع ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 118,
+      "type": "mcq",
+      "question": "What is the largest species of turtle?",
+      "question_ur": "کچھوے کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Green Sea Turtle", "Leatherback Turtle", "Galápagos Tortoise", "Alligator Snapping Turtle"],
+        "ur": ["گرین سی ٹرٹل", "لیدر بیک ٹرٹل", "گالاپاگوس ٹارٹائز", "ایلیگیٹر اسنیپنگ ٹرٹل"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Leatherback turtles can weigh over 2,000 pounds.",
+      "explanation_ur": "لیدر بیک کچھوے کا وزن 2,000 پاؤنڈ سے زیادہ ہو سکتا ہے۔",
+      "hint": "Has a leathery shell",
+      "hint_ur": "لیتھری شیل ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 119,
+      "type": "mcq",
+      "question": "Which of these is not a type of neuron?",
+      "question_ur": "ان میں سے کون سا نیورون کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Sensory", "Motor", "Interneuron", "Fibrous"],
+        "ur": ["حسی", "موٹر", "انٹرنیورون", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three types are sensory, motor, and interneurons.",
+      "explanation_ur": "تین اقسام حسی، موٹر اور انٹرنیورون ہیں۔",
+      "hint": "Nerve cells in the brain",
+      "hint_ur": "دماغ میں اعصابی خلیے",
+      "timeLimit": 25
+    },
+    {
+      "id": 120,
+      "type": "true-false",
+      "question": "The human body's skin is completely replaced every month.",
+      "question_ur": "انسانی جسم کی جلد ہر مہینے مکمل طور پر تبدیل ہو جاتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "Skin regeneration takes about 27 days on average.",
+      "explanation_ur": "جلد کی بحالی اوسطاً تقریباً 27 دن لیتی ہے۔",
+      "hint": "Outer layer turns over faster",
+      "hint_ur": "بیرونی تہہ تیزی سے بدلتی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 121,
+      "type": "mcq",
+      "question": "Which country has the most borders with other countries?",
+      "question_ur": "کس ملک کی سب سے زیادہ دوسرے ممالک کے ساتھ سرحدیں ہیں؟",
+      "options": {
+        "en": ["Russia", "China", "Brazil", "France"],
+        "ur": ["روس", "چین", "برازیل", "فرانس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "China shares borders with 14 countries, more than any other.",
+      "explanation_ur": "چین کے 14 ممالک کے ساتھ سرحدیں ہیں، جو کسی بھی دوسرے ملک سے زیادہ ہیں۔",
+      "hint": "Shares borders with India and Russia",
+      "hint_ur": "بھارت اور روس کے ساتھ سرحدیں ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 122,
+      "type": "true-false",
+      "question": "The capital of Saudi Arabia is Riyadh.",
+      "question_ur": "سعودی عرب کا دارالحکومت ریاض ہے۔",
+      "correctAnswer": true,
+      "explanation": "Riyadh has been the capital since the country's unification in 1932.",
+      "explanation_ur": "ریاض 1932 میں ملک کے اتحاد کے بعد سے دارالحکومت رہا ہے۔",
+      "hint": "Located in the center of the country",
+      "hint_ur": "ملک کے مرکز میں واقع ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 123,
+      "type": "mcq",
+      "question": "What is the largest species of deer?",
+      "question_ur": "ہرن کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Elk", "Moose", "Red Deer", "Reindeer"],
+        "ur": ["ایلک", "موز", "ریڈ ڈیر", "رینڈیر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Moose can stand over 7 feet tall at the shoulder.",
+      "explanation_ur": "موز کندھے پر 7 فٹ سے زیادہ لمبے ہو سکتے ہیں۔",
+      "hint": "Found in northern regions",
+      "hint_ur": "شمالی علاقوں میں پایا جاتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 124,
+      "type": "mcq",
+      "question": "Which of these is not a type of gland in the human body?",
+      "question_ur": "ان میں سے کون سا انسانی جسم میں غدود کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Pituitary", "Thyroid", "Adrenal", "Fibrous"],
+        "ur": ["پیچوٹری", "تھائیرائیڈ", "ایڈرینل", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Fibrous is not a gland classification.",
+      "explanation_ur": "ریشہ دار غدود کی درجہ بندی نہیں ہے۔",
+      "hint": "Produces hormones",
+      "hint_ur": "ہارمونز پیدا کرتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 125,
+      "type": "true-false",
+      "question": "The human body has more than 200 different types of cells.",
+      "question_ur": "انسانی جسم میں 200 سے زیادہ مختلف قسم کے خلیے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Estimates range from 200 to over 1,000 specialized cell types.",
+      "explanation_ur": "اندازے 200 سے 1,000 سے زیادہ مخصوص خلیوں کی اقسام تک ہیں۔",
+      "hint": "Includes blood cells, nerve cells, etc.",
+      "hint_ur": "خون کے خلیے، اعصابی خلیے وغیرہ شامل ہیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 126,
+      "type": "mcq",
+      "question": "Which country has the most lakes?",
+      "question_ur": "کس ملک میں سب سے زیادہ جھیلیں ہیں؟",
+      "options": {
+        "en": ["United States", "Russia", "Canada", "Finland"],
+        "ur": ["ریاستہائے متحدہ", "روس", "کینیڈا", "فن لینڈ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Canada has over 2 million lakes, more than any other country.",
+      "explanation_ur": "کینیڈا میں 2 ملین سے زیادہ جھیلیں ہیں، جو کسی بھی دوسرے ملک سے زیادہ ہیں۔",
+      "hint": "Second largest country by area",
+      "hint_ur": "رقبے کے لحاظ سے دوسرا سب سے بڑا ملک",
+      "timeLimit": 25
+    },
+    {
+      "id": 127,
+      "type": "true-false",
+      "question": "The capital of Nigeria is Lagos.",
+      "question_ur": "نائیجیریا کا دارالحکومت لاگوس ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital is Abuja; Lagos is the largest city.",
+      "explanation_ur": "دارالحکومت ابوجا ہے؛ لاگوس سب سے بڑا شہر ہے۔",
+      "hint": "Planned city in the center",
+      "hint_ur": "مرکز میں منصوبہ بند شہر",
+      "timeLimit": 20
+    },
+    {
+      "id": 128,
+      "type": "mcq",
+      "question": "What is the largest species of cat?",
+      "question_ur": "بلی کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Lion", "Tiger", "Jaguar", "Leopard"],
+        "ur": ["شیر", "شیر", "جیگوار", "تیندوا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Tigers are the largest cats, with Siberian tigers being the biggest subspecies.",
+      "explanation_ur": "شیر سب سے بڑی بلیاں ہیں، سائبیرین شیر سب سے بڑی ذیلی قسم ہے۔",
+      "hint": "Striped pattern",
+      "hint_ur": "دھاری دار پیٹرن",
+      "timeLimit": 20
+    },
+    {
+      "id": 129,
+      "type": "mcq",
+      "question": "Which of these is not a type of bone cell?",
+      "question_ur": "ان میں سے کون سا ہڈی کے خلیے کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Osteoblast", "Osteocyte", "Osteoclast", "Fibrous"],
+        "ur": ["آسٹیوبلاسٹ", "آسٹیوسائٹ", "آسٹیوکلسٹ", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three types are osteoblasts, osteocytes, and osteoclasts.",
+      "explanation_ur": "تین اقسام آسٹیوبلاسٹ، آسٹیوسائٹ اور آسٹیوکلسٹ ہیں۔",
+      "hint": "Builds, maintains, and breaks down bone",
+      "hint_ur": "ہڈی بناتا، برقرار رکھتا اور توڑتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 130,
+      "type": "true-false",
+      "question": "The human body has more than 100,000 miles of blood vessels.",
+      "question_ur": "انسانی جسم میں 100,000 میل سے زیادہ خون کی نالیاں ہوتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "If laid end to end, an adult's blood vessels would circle Earth 4 times.",
+      "explanation_ur": "اگر آخر سے آخر تک بچھایا جائے تو ایک بالغ کی خون کی نالیاں زمین کو 4 بار گھیر لیں گی۔",
+      "hint": "Includes arteries, veins, capillaries",
+      "hint_ur": "شریانوں، رگوں، کیپلیریز شامل ہیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 131,
+      "type": "mcq",
+      "question": "Which country has the most volcanoes?",
+      "question_ur": "کس ملک میں سب سے زیادہ آتش فشاں ہیں؟",
+      "options": {
+        "en": ["Japan", "Indonesia", "United States", "Chile"],
+        "ur": ["جاپان", "انڈونیشیا", "ریاستہائے متحدہ", "چلی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Indonesia has about 130 active volcanoes, more than any other country.",
+      "explanation_ur": "انڈونیشیا میں تقریباً 130 فعال آتش فشاں ہیں، جو کسی بھی دوسرے ملک سے زیادہ ہیں۔",
+      "hint": "Located on the Pacific Ring of Fire",
+      "hint_ur": "پیسیفک رنگ آف فائر پر واقع ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 132,
+      "type": "true-false",
+      "question": "The capital of New Zealand is Auckland.",
+      "question_ur": "نیوزی لینڈ کا دارالحکومت آکلینڈ ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital is Wellington; Auckland is the largest city.",
+      "explanation_ur": "دارالحکومت ویلنگٹن ہے؛ آکلینڈ سب سے بڑا شہر ہے۔",
+      "hint": "Southern tip of North Island",
+      "hint_ur": "شمالی جزیرے کا جنوبی سرا",
+      "timeLimit": 20
+    },
+    {
+      "id": 133,
+      "type": "mcq",
+      "question": "What is the fastest fish in the ocean?",
+      "question_ur": "سمندر کی سب سے تیز مچھلی کون سی ہے؟",
+      "options": {
+        "en": ["Swordfish", "Tuna", "Sailfish", "Marlin"],
+        "ur": ["تلوار مچھلی", "ٹونا", "سیل فش", "مارلن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Sailfish can reach speeds up to 68 mph (110 km/h).",
+      "explanation_ur": "سیل فش 68 میل فی گھنٹہ (110 کلومیٹر فی گھنٹہ) تک کی رفتار تک پہنچ سکتی ہے۔",
+      "hint": "Has a distinctive dorsal fin",
+      "hint_ur": "ایک ممتاز پشتی فن ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 134,
+      "type": "mcq",
+      "question": "Which of these is not a type of muscle tissue?",
+      "question_ur": "ان میں سے کون سا پٹھوں کے ٹشو کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Skeletal", "Cardiac", "Smooth", "Fibrous"],
+        "ur": ["کنکال", "قلبی", "ہموار", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three types are skeletal, cardiac, and smooth.",
+      "explanation_ur": "تین اقسام کنکال، قلبی اور ہموار ہیں۔",
+      "hint": "Found throughout the body",
+      "hint_ur": "پورے جسم میں پایا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 135,
+      "type": "true-false",
+      "question": "The human body has more than 1,000 different types of cells.",
+      "question_ur": "انسانی جسم میں 1,000 سے زیادہ مختلف قسم کے خلیے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Estimates range from 200 to over 1,000 specialized cell types.",
+      "explanation_ur": "اندازے 200 سے 1,000 سے زیادہ مخصوص خلیوں کی اقسام تک ہیں۔",
+      "hint": "Includes blood cells, nerve cells, etc.",
+      "hint_ur": "خون کے خلیے، اعصابی خلیے وغیرہ شامل ہیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 136,
+      "type": "mcq",
+      "question": "Which country has the longest coastline?",
+      "question_ur": "کس ملک کا سب سے لمبا ساحل ہے؟",
+      "options": {
+        "en": ["Russia", "Canada", "Australia", "United States"],
+        "ur": ["روس", "کینیڈا", "آسٹریلیا", "ریاستہائے متحدہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Canada's coastline measures 202,080 km including islands.",
+      "explanation_ur": "کینیڈا کا ساحل جزائر سمیت 202,080 کلومیٹر ہے۔",
+      "hint": "Second largest country by land area",
+      "hint_ur": "زمینی رقبے کے لحاظ سے دوسرا سب سے بڑا ملک",
+      "timeLimit": 25
+    },
+    {
+      "id": 137,
+      "type": "true-false",
+      "question": "The capital of Malaysia is Kuala Lumpur.",
+      "question_ur": "ملائیشیا کا دارالحکومت کوالالمپور ہے۔",
+      "correctAnswer": false,
+      "explanation": "The official capital is Putrajaya, though Kuala Lumpur remains the financial center.",
+      "explanation_ur": "سرکاری دارالحکومت پتراجایا ہے، حالانکہ کوالالمپور مالیاتی مرکز رہتا ہے۔",
+      "hint": "Planned city",
+      "hint_ur": "منصوبہ بند شہر",
+      "timeLimit": 25
+    },
+    {
+      "id": 138,
+      "type": "mcq",
+      "question": "What is the largest species of shark?",
+      "question_ur": "شارک کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Great White", "Whale Shark", "Tiger Shark", "Hammerhead"],
+        "ur": ["عظیم سفید", "وہیل شارک", "ٹائیگر شارک", "ہتھوڑا سر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Whale sharks can grow up to 40 feet long.",
+      "explanation_ur": "وہیل شارک 40 فٹ تک لمبی ہو سکتی ہے۔",
+      "hint": "Filter feeder",
+      "hint_ur": "فلٹر فیڈر",
+      "timeLimit": 20
+    },
+    {
+      "id": 139,
+      "type": "mcq",
+      "question": "Which of these is not a type of tooth?",
+      "question_ur": "ان میں سے کون سا دانت کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Incisor", "Canine", "Molar", "Fibrous"],
+        "ur": ["انسیسر", "کی نائن", "مولر", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The four types are incisors, canines, premolars, and molars.",
+      "explanation_ur": "چار اقسام انسیسر، کی نائن، پری مولرز اور مولرز ہیں۔",
+      "hint": "Relates to chewing function",
+      "hint_ur": "چبانے کے کام سے متعلق",
+      "timeLimit": 25
+    },
+    {
+      "id": 140,
+      "type": "true-false",
+      "question": "The human body has more than 100,000 miles of blood vessels.",
+      "question_ur": "انسانی جسم میں 100,000 میل سے زیادہ خون کی نالیاں ہوتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "If laid end to end, an adult's blood vessels would circle Earth 4 times.",
+      "explanation_ur": "اگر آخر سے آخر تک بچھایا جائے تو ایک بالغ کی خون کی نالیاں زمین کو 4 بار گھیر لیں گی۔",
+      "hint": "Includes arteries, veins, capillaries",
+      "hint_ur": "شریانوں، رگوں، کیپلیریز شامل ہیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 141,
+      "type": "mcq",
+      "question": "Which country has the most UNESCO World Heritage Sites?",
+      "question_ur": "کس ملک کے سب سے زیادہ یونیسکو عالمی ثقافتی ورثہ مقامات ہیں؟",
+      "options": {
+        "en": ["France", "China", "Italy", "Spain"],
+        "ur": ["فرانس", "چین", "اٹلی", "سپین"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Italy has 58 UNESCO World Heritage Sites, more than any other country.",
+      "explanation_ur": "اٹلی میں 58 یونیسکو عالمی ثقافتی ورثہ مقامات ہیں، جو کسی بھی دوسرے ملک سے زیادہ ہیں۔",
+      "hint": "Home of the Roman Empire",
+      "hint_ur": "رومی سلطنت کا گھر",
+      "timeLimit": 25
+    },
+    {
+      "id": 142,
+      "type": "true-false",
+      "question": "The capital of South Korea is Seoul.",
+      "question_ur": "جنوبی کوریا کا دارالحکومت سیول ہے۔",
+      "correctAnswer": true,
+      "explanation": "Seoul has been the capital since 1394.",
+      "explanation_ur": "سیول 1394 سے دارالحکومت رہا ہے۔",
+      "hint": "Megacity with over 10 million people",
+      "hint_ur": "10 ملین سے زیادہ لوگوں والا میگا سٹی",
+      "timeLimit": 20
+    },
+    {
+      "id": 143,
+      "type": "mcq",
+      "question": "What is the largest species of penguin?",
+      "question_ur": "پینگوئن کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["King Penguin", "Emperor Penguin", "Adélie Penguin", "Gentoo Penguin"],
+        "ur": ["کنگ پینگوئن", "ایمپیرر پینگوئن", "ایڈیلی پینگوئن", "جینٹو پینگوئن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Emperor penguins can grow up to 4 feet tall.",
+      "explanation_ur": "ایمپیرر پینگوئن 4 فٹ تک لمبے ہو سکتے ہیں۔",
+      "hint": "Lives in Antarctica",
+      "hint_ur": "انٹارکٹیکا میں رہتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 144,
+      "type": "mcq",
+      "question": "Which of these is not a type of blood vessel?",
+      "question_ur": "ان میں سے کون سی خون کی نالی کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Artery", "Vein", "Capillary", "Fibrous"],
+        "ur": ["شریان", "ورید", "کیپلری", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three types are arteries, veins, and capillaries.",
+      "explanation_ur": "تین اقسام شریانیں، وریدیں اور کیپلریز ہیں۔",
+      "hint": "Carries blood throughout the body",
+      "hint_ur": "پورے جسم میں خون لے جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 145,
+      "type": "true-false",
+      "question": "The human body replaces all its cells every 7 years.",
+      "question_ur": "انسانی جسم ہر 7 سال بعد اپنے تمام خلیوں کو تبدیل کرتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Cell turnover rates vary - some cells last a lifetime.",
+      "explanation_ur": "خلیوں کی تبدیلی کی شرح مختلف ہوتی ہے - کچھ خلیے زندگی بھر رہتے ہیں۔",
+      "hint": "Some neurons are never replaced",
+      "hint_ur": "کچھ نیورون کبھی تبدیل نہیں ہوتے",
+      "timeLimit": 30
+    },
+    {
+      "id": 146,
+      "type": "mcq",
+      "question": "Which country has the most pyramids?",
+      "question_ur": "کس ملک میں سب سے زیادہ اہرام ہیں؟",
+      "options": {
+        "en": ["Egypt", "Mexico", "Sudan", "Peru"],
+        "ur": ["مصر", "میکسیکو", "سوڈان", "پیرو"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Sudan has over 200 pyramids, more than Egypt's approximately 120.",
+      "explanation_ur": "سوڈان میں 200 سے زیادہ اہرام ہیں، جو مصر کے تقریباً 120 سے زیادہ ہیں۔",
+      "hint": "Ancient Nubian pyramids",
+      "hint_ur": "قدیم نوبیائی اہرام",
+      "timeLimit": 25
+    },
+    {
+      "id": 147,
+      "type": "true-false",
+      "question": "The capital of Pakistan is Karachi.",
+      "question_ur": "پاکستان کا دارالحکومت کراچی ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital is Islamabad; Karachi is the largest city.",
+      "explanation_ur": "دارالحکومت اسلام آباد ہے؛ کراچی سب سے بڑا شہر ہے۔",
+      "hint": "Planned city in the north",
+      "hint_ur": "شمال میں منصوبہ بند شہر",
+      "timeLimit": 20
+    },
+    {
+      "id": 148,
+      "type": "mcq",
+      "question": "What is the largest species of bear?",
+      "question_ur": "ریچھ کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Grizzly Bear", "Polar Bear", "Kodiak Bear", "Black Bear"],
+        "ur": ["گریزلی ریچھ", "پولر بیئر", "کوڈیاک ریچھ", "کالا ریچھ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Polar bears are the largest, with males weighing up to 1,500 lbs.",
+      "explanation_ur": "پولر بیئر سب سے بڑے ہیں، نر کا وزن 1,500 پاؤنڈ تک ہوتا ہے۔",
+      "hint": "Lives in the Arctic",
+      "hint_ur": "آرکٹک میں رہتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 149,
+      "type": "mcq",
+      "question": "Which of these is not a type of white blood cell?",
+      "question_ur": "ان میں سے کون سا سفید خون کے خلیے کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Neutrophil", "Lymphocyte", "Eosinophil", "Hemoglobin"],
+        "ur": ["نیوٹروفیل", "لمفوسائٹ", "ایوسینوفیل", "ہیموگلوبن"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Hemoglobin is a protein in red blood cells, not a white blood cell type.",
+      "explanation_ur": "ہیموگلوبن سرخ خون کے خلیوں میں ایک پروٹین ہے، سفید خون کے خلیے کی قسم نہیں۔",
+      "hint": "Carries oxygen",
+      "hint_ur": "آکسیجن لے جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 150,
+      "type": "true-false",
+      "question": "The human body has more bacterial cells than human cells.",
+      "question_ur": "انسانی جسم میں انسانی خلیوں سے زیادہ بیکٹیریل خلیے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Estimates suggest a 10:1 ratio of bacterial to human cells.",
+      "explanation_ur": "اندازوں کے مطابق بیکٹیریل اور انسانی خلیوں کا تناسب 10:1 ہے۔",
+      "hint": "Most are beneficial",
+      "hint_ur": "زیادہ تر فائدہ مند ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 151,
+      "type": "mcq",
+      "question": "Which country has the most official languages?",
+      "question_ur": "کس ملک کی سب سے زیادہ سرکاری زبانیں ہیں؟",
+      "options": {
+        "en": ["India", "South Africa", "Switzerland", "Bolivia"],
+        "ur": ["بھارت", "جنوبی افریقہ", "سوئٹزرلینڈ", "بولیویا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Bolivia recognizes 37 official languages, the most of any country.",
+      "explanation_ur": "بولیویا 37 سرکاری زبانیں تسلیم کرتا ہے، جو کسی بھی ملک سے زیادہ ہیں۔",
+      "hint": "South American country",
+      "hint_ur": "جنوبی امریکی ملک",
+      "timeLimit": 25
+    },
+    {
+      "id": 152,
+      "type": "true-false",
+      "question": "The capital of Afghanistan is Kabul.",
+      "question_ur": "افغانستان کا دارالحکومت کابل ہے۔",
+      "correctAnswer": true,
+      "explanation": "Kabul has been Afghanistan's capital since 1776.",
+      "explanation_ur": "کابل 1776 سے افغانستان کا دارالحکومت رہا ہے۔",
+      "hint": "Located in the eastern part of the country",
+      "hint_ur": "ملک کے مشرقی حصے میں واقع ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 153,
+      "type": "mcq",
+      "question": "What is the largest species of turtle?",
+      "question_ur": "کچھوے کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Green Sea Turtle", "Leatherback Turtle", "Galápagos Tortoise", "Alligator Snapping Turtle"],
+        "ur": ["گرین سی ٹرٹل", "لیدر بیک ٹرٹل", "گالاپاگوس ٹارٹائز", "ایلیگیٹر اسنیپنگ ٹرٹل"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Leatherback turtles can weigh over 2,000 pounds.",
+      "explanation_ur": "لیدر بیک کچھوے کا وزن 2,000 پاؤنڈ سے زیادہ ہو سکتا ہے۔",
+      "hint": "Has a leathery shell",
+      "hint_ur": "لیتھری شیل ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 154,
+      "type": "mcq",
+      "question": "Which of these is not a type of neuron?",
+      "question_ur": "ان میں سے کون سا نیورون کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Sensory", "Motor", "Interneuron", "Fibrous"],
+        "ur": ["حسی", "موٹر", "انٹرنیورون", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three types are sensory, motor, and interneurons.",
+      "explanation_ur": "تین اقسام حسی، موٹر اور انٹرنیورون ہیں۔",
+      "hint": "Nerve cells in the brain",
+      "hint_ur": "دماغ میں اعصابی خلیے",
+      "timeLimit": 25
+    },
+    {
+      "id": 155,
+      "type": "true-false",
+      "question": "The human body's skin is completely replaced every month.",
+      "question_ur": "انسانی جسم کی جلد ہر مہینے مکمل طور پر تبدیل ہو جاتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "Skin regeneration takes about 27 days on average.",
+      "explanation_ur": "جلد کی بحالی اوسطاً تقریباً 27 دن لیتی ہے۔",
+      "hint": "Outer layer turns over faster",
+      "hint_ur": "بیرونی تہہ تیزی سے بدلتی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 156,
+      "type": "mcq",
+      "question": "Which country has the most borders with other countries?",
+      "question_ur": "کس ملک کی سب سے زیادہ دوسرے ممالک کے ساتھ سرحدیں ہیں؟",
+      "options": {
+        "en": ["Russia", "China", "Brazil", "France"],
+        "ur": ["روس", "چین", "برازیل", "فرانس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "China shares borders with 14 countries, more than any other.",
+      "explanation_ur": "چین کے 14 ممالک کے ساتھ سرحدیں ہیں، جو کسی بھی دوسرے ملک سے زیادہ ہیں۔",
+      "hint": "Shares borders with India and Russia",
+      "hint_ur": "بھارت اور روس کے ساتھ سرحدیں ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 157,
+      "type": "true-false",
+      "question": "The capital of Saudi Arabia is Riyadh.",
+      "question_ur": "سعودی عرب کا دارالحکومت ریاض ہے۔",
+      "correctAnswer": true,
+      "explanation": "Riyadh has been the capital since the country's unification in 1932.",
+      "explanation_ur": "ریاض 1932 میں ملک کے اتحاد کے بعد سے دارالحکومت رہا ہے۔",
+      "hint": "Located in the center of the country",
+      "hint_ur": "ملک کے مرکز میں واقع ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 158,
+      "type": "mcq",
+      "question": "What is the largest species of deer?",
+      "question_ur": "ہرن کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Elk", "Moose", "Red Deer", "Reindeer"],
+        "ur": ["ایلک", "موز", "ریڈ ڈیر", "رینڈیر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Moose can stand over 7 feet tall at the shoulder.",
+      "explanation_ur": "موز کندھے پر 7 فٹ سے زیادہ لمبے ہو سکتے ہیں۔",
+      "hint": "Found in northern regions",
+      "hint_ur": "شمالی علاقوں میں پایا جاتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 159,
+      "type": "mcq",
+      "question": "Which of these is not a type of gland in the human body?",
+      "question_ur": "ان میں سے کون سا انسانی جسم میں غدود کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Pituitary", "Thyroid", "Adrenal", "Fibrous"],
+        "ur": ["پیچوٹری", "تھائیرائیڈ", "ایڈرینل", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Fibrous is not a gland classification.",
+      "explanation_ur": "ریشہ دار غدود کی درجہ بندی نہیں ہے۔",
+      "hint": "Produces hormones",
+      "hint_ur": "ہارمونز پیدا کرتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 160,
+      "type": "true-false",
+      "question": "The human body has more than 200 different types of cells.",
+      "question_ur": "انسانی جسم میں 200 سے زیادہ مختلف قسم کے خلیے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Estimates range from 200 to over 1,000 specialized cell types.",
+      "explanation_ur": "اندازے 200 سے 1,000 سے زیادہ مخصوص خلیوں کی اقسام تک ہیں۔",
+      "hint": "Includes blood cells, nerve cells, etc.",
+      "hint_ur": "خون کے خلیے، اعصابی خلیے وغیرہ شامل ہیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 161,
+      "type": "mcq",
+      "question": "Which country has the most lakes?",
+      "question_ur": "کس ملک میں سب سے زیادہ جھیلیں ہیں؟",
+      "options": {
+        "en": ["United States", "Russia", "Canada", "Finland"],
+        "ur": ["ریاستہائے متحدہ", "روس", "کینیڈا", "فن لینڈ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Canada has over 2 million lakes, more than any other country.",
+      "explanation_ur": "کینیڈا میں 2 ملین سے زیادہ جھیلیں ہیں، جو کسی بھی دوسرے ملک سے زیادہ ہیں۔",
+      "hint": "Second largest country by area",
+      "hint_ur": "رقبے کے لحاظ سے دوسرا سب سے بڑا ملک",
+      "timeLimit": 25
+    },
+    {
+      "id": 162,
+      "type": "true-false",
+      "question": "The capital of Nigeria is Lagos.",
+      "question_ur": "نائیجیریا کا دارالحکومت لاگوس ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital is Abuja; Lagos is the largest city.",
+      "explanation_ur": "دارالحکومت ابوجا ہے؛ لاگوس سب سے بڑا شہر ہے۔",
+      "hint": "Planned city in the center",
+      "hint_ur": "مرکز میں منصوبہ بند شہر",
+      "timeLimit": 20
+    },
+    {
+      "id": 163,
+      "type": "mcq",
+      "question": "What is the largest species of cat?",
+      "question_ur": "بلی کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Lion", "Tiger", "Jaguar", "Leopard"],
+        "ur": ["شیر", "شیر", "جیگوار", "تیندوا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Tigers are the largest cats, with Siberian tigers being the biggest subspecies.",
+      "explanation_ur": "شیر سب سے بڑی بلیاں ہیں، سائبیرین شیر سب سے بڑی ذیلی قسم ہے۔",
+      "hint": "Striped pattern",
+      "hint_ur": "دھاری دار پیٹرن",
+      "timeLimit": 20
+    },
+    {
+      "id": 164,
+      "type": "mcq",
+      "question": "Which of these is not a type of bone cell?",
+      "question_ur": "ان میں سے کون سا ہڈی کے خلیے کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Osteoblast", "Osteocyte", "Osteoclast", "Fibrous"],
+        "ur": ["آسٹیوبلاسٹ", "آسٹیوسائٹ", "آسٹیوکلسٹ", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three types are osteoblasts, osteocytes, and osteoclasts.",
+      "explanation_ur": "تین اقسام آسٹیوبلاسٹ، آسٹیوسائٹ اور آسٹیوکلسٹ ہیں۔",
+      "hint": "Builds, maintains, and breaks down bone",
+      "hint_ur": "ہڈی بناتا، برقرار رکھتا اور توڑتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 165,
+      "type": "true-false",
+      "question": "The human body has more than 100,000 miles of blood vessels.",
+      "question_ur": "انسانی جسم میں 100,000 میل سے زیادہ خون کی نالیاں ہوتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "If laid end to end, an adult's blood vessels would circle Earth 4 times.",
+      "explanation_ur": "اگر آخر سے آخر تک بچھایا جائے تو ایک بالغ کی خون کی نالیاں زمین کو 4 بار گھیر لیں گی۔",
+      "hint": "Includes arteries, veins, capillaries",
+      "hint_ur": "شریانوں، رگوں، کیپلیریز شامل ہیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 166,
+      "type": "mcq",
+      "question": "Which country has the most volcanoes?",
+      "question_ur": "کس ملک میں سب سے زیادہ آتش فشاں ہیں؟",
+      "options": {
+        "en": ["Japan", "Indonesia", "United States", "Chile"],
+        "ur": ["جاپان", "انڈونیشیا", "ریاستہائے متحدہ", "چلی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Indonesia has about 130 active volcanoes, more than any other country.",
+      "explanation_ur": "انڈونیشیا میں تقریباً 130 فعال آتش فشاں ہیں، جو کسی بھی دوسرے ملک سے زیادہ ہیں۔",
+      "hint": "Located on the Pacific Ring of Fire",
+      "hint_ur": "پیسیفک رنگ آف فائر پر واقع ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 167,
+      "type": "true-false",
+      "question": "The capital of New Zealand is Auckland.",
+      "question_ur": "نیوزی لینڈ کا دارالحکومت آکلینڈ ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital is Wellington; Auckland is the largest city.",
+      "explanation_ur": "دارالحکومت ویلنگٹن ہے؛ آکلینڈ سب سے بڑا شہر ہے۔",
+      "hint": "Southern tip of North Island",
+      "hint_ur": "شمالی جزیرے کا جنوبی سرا",
+      "timeLimit": 20
+    },
+    {
+      "id": 168,
+      "type": "mcq",
+      "question": "What is the fastest fish in the ocean?",
+      "question_ur": "سمندر کی سب سے تیز مچھلی کون سی ہے؟",
+      "options": {
+        "en": ["Swordfish", "Tuna", "Sailfish", "Marlin"],
+        "ur": ["تلوار مچھلی", "ٹونا", "سیل فش", "مارلن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Sailfish can reach speeds up to 68 mph (110 km/h).",
+      "explanation_ur": "سیل فش 68 میل فی گھنٹہ (110 کلومیٹر فی گھنٹہ) تک کی رفتار تک پہنچ سکتی ہے۔",
+      "hint": "Has a distinctive dorsal fin",
+      "hint_ur": "ایک ممتاز پشتی فن ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 169,
+      "type": "mcq",
+      "question": "Which of these is not a type of muscle tissue?",
+      "question_ur": "ان میں سے کون سا پٹھوں کے ٹشو کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Skeletal", "Cardiac", "Smooth", "Fibrous"],
+        "ur": ["کنکال", "قلبی", "ہموار", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three types are skeletal, cardiac, and smooth.",
+      "explanation_ur": "تین اقسام کنکال، قلبی اور ہموار ہیں۔",
+      "hint": "Found throughout the body",
+      "hint_ur": "پورے جسم میں پایا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 170,
+      "type": "true-false",
+      "question": "The human body has more than 1,000 different types of cells.",
+      "question_ur": "انسانی جسم میں 1,000 سے زیادہ مختلف قسم کے خلیے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Estimates range from 200 to over 1,000 specialized cell types.",
+      "explanation_ur": "اندازے 200 سے 1,000 سے زیادہ مخصوص خلیوں کی اقسام تک ہیں۔",
+      "hint": "Includes blood cells, nerve cells, etc.",
+      "hint_ur": "خون کے خلیے، اعصابی خلیے وغیرہ شامل ہیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 171,
+      "type": "mcq",
+      "question": "Which country has the longest coastline?",
+      "question_ur": "کس ملک کا سب سے لمبا ساحل ہے؟",
+      "options": {
+        "en": ["Russia", "Canada", "Australia", "United States"],
+        "ur": ["روس", "کینیڈا", "آسٹریلیا", "ریاستہائے متحدہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Canada's coastline measures 202,080 km including islands.",
+      "explanation_ur": "کینیڈا کا ساحل جزائر سمیت 202,080 کلومیٹر ہے۔",
+      "hint": "Second largest country by land area",
+      "hint_ur": "زمینی رقبے کے لحاظ سے دوسرا سب سے بڑا ملک",
+      "timeLimit": 25
+    },
+    {
+      "id": 172,
+      "type": "true-false",
+      "question": "The capital of Malaysia is Kuala Lumpur.",
+      "question_ur": "ملائیشیا کا دارالحکومت کوالالمپور ہے۔",
+      "correctAnswer": false,
+      "explanation": "The official capital is Putrajaya, though Kuala Lumpur remains the financial center.",
+      "explanation_ur": "سرکاری دارالحکومت پتراجایا ہے، حالانکہ کوالالمپور مالیاتی مرکز رہتا ہے۔",
+      "hint": "Planned city",
+      "hint_ur": "منصوبہ بند شہر",
+      "timeLimit": 25
+    },
+    {
+      "id": 173,
+      "type": "mcq",
+      "question": "What is the largest species of shark?",
+      "question_ur": "شارک کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Great White", "Whale Shark", "Tiger Shark", "Hammerhead"],
+        "ur": ["عظیم سفید", "وہیل شارک", "ٹائیگر شارک", "ہتھوڑا سر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Whale sharks can grow up to 40 feet long.",
+      "explanation_ur": "وہیل شارک 40 فٹ تک لمبی ہو سکتی ہے۔",
+      "hint": "Filter feeder",
+      "hint_ur": "فلٹر فیڈر",
+      "timeLimit": 20
+    },
+    {
+      "id": 174,
+      "type": "mcq",
+      "question": "Which of these is not a type of tooth?",
+      "question_ur": "ان میں سے کون سا دانت کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Incisor", "Canine", "Molar", "Fibrous"],
+        "ur": ["انسیسر", "کی نائن", "مولر", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The four types are incisors, canines, premolars, and molars.",
+      "explanation_ur": "چار اقسام انسیسر، کی نائن، پری مولرز اور مولرز ہیں۔",
+      "hint": "Relates to chewing function",
+      "hint_ur": "چبانے کے کام سے متعلق",
+      "timeLimit": 25
+    },
+    {
+      "id": 175,
+      "type": "true-false",
+      "question": "The human body has more than 100,000 miles of blood vessels.",
+      "question_ur": "انسانی جسم میں 100,000 میل سے زیادہ خون کی نالیاں ہوتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "If laid end to end, an adult's blood vessels would circle Earth 4 times.",
+      "explanation_ur": "اگر آخر سے آخر تک بچھایا جائے تو ایک بالغ کی خون کی نالیاں زمین کو 4 بار گھیر لیں گی۔",
+      "hint": "Includes arteries, veins, capillaries",
+      "hint_ur": "شریانوں، رگوں، کیپلیریز شامل ہیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 176,
+      "type": "mcq",
+      "question": "Which country has the most UNESCO World Heritage Sites?",
+      "question_ur": "کس ملک کے سب سے زیادہ یونیسکو عالمی ثقافتی ورثہ مقامات ہیں؟",
+      "options": {
+        "en": ["France", "China", "Italy", "Spain"],
+        "ur": ["فرانس", "چین", "اٹلی", "سپین"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Italy has 58 UNESCO World Heritage Sites, more than any other country.",
+      "explanation_ur": "اٹلی میں 58 یونیسکو عالمی ثقافتی ورثہ مقامات ہیں، جو کسی بھی دوسرے ملک سے زیادہ ہیں۔",
+      "hint": "Home of the Roman Empire",
+      "hint_ur": "رومی سلطنت کا گھر",
+      "timeLimit": 25
+    },
+    {
+      "id": 177,
+      "type": "true-false",
+      "question": "The capital of South Korea is Seoul.",
+      "question_ur": "جنوبی کوریا کا دارالحکومت سیول ہے۔",
+      "correctAnswer": true,
+      "explanation": "Seoul has been the capital since 1394.",
+      "explanation_ur": "سیول 1394 سے دارالحکومت رہا ہے۔",
+      "hint": "Megacity with over 10 million people",
+      "hint_ur": "10 ملین سے زیادہ لوگوں والا میگا سٹی",
+      "timeLimit": 20
+    },
+    {
+      "id": 178,
+      "type": "mcq",
+      "question": "What is the largest species of penguin?",
+      "question_ur": "پینگوئن کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["King Penguin", "Emperor Penguin", "Adélie Penguin", "Gentoo Penguin"],
+        "ur": ["کنگ پینگوئن", "ایمپیرر پینگوئن", "ایڈیلی پینگوئن", "جینٹو پینگوئن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Emperor penguins can grow up to 4 feet tall.",
+      "explanation_ur": "ایمپیرر پینگوئن 4 فٹ تک لمبے ہو سکتے ہیں۔",
+      "hint": "Lives in Antarctica",
+      "hint_ur": "انٹارکٹیکا میں رہتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 179,
+      "type": "mcq",
+      "question": "Which of these is not a type of blood vessel?",
+      "question_ur": "ان میں سے کون سی خون کی نالی کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Artery", "Vein", "Capillary", "Fibrous"],
+        "ur": ["شریان", "ورید", "کیپلری", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three types are arteries, veins, and capillaries.",
+      "explanation_ur": "تین اقسام شریانیں، وریدیں اور کیپلریز ہیں۔",
+      "hint": "Carries blood throughout the body",
+      "hint_ur": "پورے جسم میں خون لے جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 180,
+      "type": "true-false",
+      "question": "The human body replaces all its cells every 7 years.",
+      "question_ur": "انسانی جسم ہر 7 سال بعد اپنے تمام خلیوں کو تبدیل کرتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Cell turnover rates vary - some cells last a lifetime.",
+      "explanation_ur": "خلیوں کی تبدیلی کی شرح مختلف ہوتی ہے - کچھ خلیے زندگی بھر رہتے ہیں۔",
+      "hint": "Some neurons are never replaced",
+      "hint_ur": "کچھ نیورون کبھی تبدیل نہیں ہوتے",
+      "timeLimit": 30
+    },
+    {
+      "id": 181,
+      "type": "mcq",
+      "question": "Which country has the most pyramids?",
+      "question_ur": "کس ملک میں سب سے زیادہ اہرام ہیں؟",
+      "options": {
+        "en": ["Egypt", "Mexico", "Sudan", "Peru"],
+        "ur": ["مصر", "میکسیکو", "سوڈان", "پیرو"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Sudan has over 200 pyramids, more than Egypt's approximately 120.",
+      "explanation_ur": "سوڈان میں 200 سے زیادہ اہرام ہیں، جو مصر کے تقریباً 120 سے زیادہ ہیں۔",
+      "hint": "Ancient Nubian pyramids",
+      "hint_ur": "قدیم نوبیائی اہرام",
+      "timeLimit": 25
+    },
+    {
+      "id": 182,
+      "type": "true-false",
+      "question": "The capital of Pakistan is Karachi.",
+      "question_ur": "پاکستان کا دارالحکومت کراچی ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital is Islamabad; Karachi is the largest city.",
+      "explanation_ur": "دارالحکومت اسلام آباد ہے؛ کراچی سب سے بڑا شہر ہے۔",
+      "hint": "Planned city in the north",
+      "hint_ur": "شمال میں منصوبہ بند شہر",
+      "timeLimit": 20
+    },
+    {
+      "id": 183,
+      "type": "mcq",
+      "question": "What is the largest species of bear?",
+      "question_ur": "ریچھ کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Grizzly Bear", "Polar Bear", "Kodiak Bear", "Black Bear"],
+        "ur": ["گریزلی ریچھ", "پولر بیئر", "کوڈیاک ریچھ", "کالا ریچھ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Polar bears are the largest, with males weighing up to 1,500 lbs.",
+      "explanation_ur": "پولر بیئر سب سے بڑے ہیں، نر کا وزن 1,500 پاؤنڈ تک ہوتا ہے۔",
+      "hint": "Lives in the Arctic",
+      "hint_ur": "آرکٹک میں رہتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 184,
+      "type": "mcq",
+      "question": "Which of these is not a type of white blood cell?",
+      "question_ur": "ان میں سے کون سا سفید خون کے خلیے کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Neutrophil", "Lymphocyte", "Eosinophil", "Hemoglobin"],
+        "ur": ["نیوٹروفیل", "لمفوسائٹ", "ایوسینوفیل", "ہیموگلوبن"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Hemoglobin is a protein in red blood cells, not a white blood cell type.",
+      "explanation_ur": "ہیموگلوبن سرخ خون کے خلیوں میں ایک پروٹین ہے، سفید خون کے خلیے کی قسم نہیں۔",
+      "hint": "Carries oxygen",
+      "hint_ur": "آکسیجن لے جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 185,
+      "type": "true-false",
+      "question": "The human body has more bacterial cells than human cells.",
+      "question_ur": "انسانی جسم میں انسانی خلیوں سے زیادہ بیکٹیریل خلیے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Estimates suggest a 10:1 ratio of bacterial to human cells.",
+      "explanation_ur": "اندازوں کے مطابق بیکٹیریل اور انسانی خلیوں کا تناسب 10:1 ہے۔",
+      "hint": "Most are beneficial",
+      "hint_ur": "زیادہ تر فائدہ مند ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 186,
+      "type": "mcq",
+      "question": "Which country has the most official languages?",
+      "question_ur": "کس ملک کی سب سے زیادہ سرکاری زبانیں ہیں؟",
+      "options": {
+        "en": ["India", "South Africa", "Switzerland", "Bolivia"],
+        "ur": ["بھارت", "جنوبی افریقہ", "سوئٹزرلینڈ", "بولیویا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Bolivia recognizes 37 official languages, the most of any country.",
+      "explanation_ur": "بولیویا 37 سرکاری زبانیں تسلیم کرتا ہے، جو کسی بھی ملک سے زیادہ ہیں۔",
+      "hint": "South American country",
+      "hint_ur": "جنوبی امریکی ملک",
+      "timeLimit": 25
+    },
+    {
+      "id": 187,
+      "type": "true-false",
+      "question": "The capital of Afghanistan is Kabul.",
+      "question_ur": "افغانستان کا دارالحکومت کابل ہے۔",
+      "correctAnswer": true,
+      "explanation": "Kabul has been Afghanistan's capital since 1776.",
+      "explanation_ur": "کابل 1776 سے افغانستان کا دارالحکومت رہا ہے۔",
+      "hint": "Located in the eastern part of the country",
+      "hint_ur": "ملک کے مشرقی حصے میں واقع ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 188,
+      "type": "mcq",
+      "question": "What is the largest species of turtle?",
+      "question_ur": "کچھوے کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Green Sea Turtle", "Leatherback Turtle", "Galápagos Tortoise", "Alligator Snapping Turtle"],
+        "ur": ["گرین سی ٹرٹل", "لیدر بیک ٹرٹل", "گالاپاگوس ٹارٹائز", "ایلیگیٹر اسنیپنگ ٹرٹل"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Leatherback turtles can weigh over 2,000 pounds.",
+      "explanation_ur": "لیدر بیک کچھوے کا وزن 2,000 پاؤنڈ سے زیادہ ہو سکتا ہے۔",
+      "hint": "Has a leathery shell",
+      "hint_ur": "لیتھری شیل ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 189,
+      "type": "mcq",
+      "question": "Which of these is not a type of neuron?",
+      "question_ur": "ان میں سے کون سا نیورون کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Sensory", "Motor", "Interneuron", "Fibrous"],
+        "ur": ["حسی", "موٹر", "انٹرنیورون", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three types are sensory, motor, and interneurons.",
+      "explanation_ur": "تین اقسام حسی، موٹر اور انٹرنیورون ہیں۔",
+      "hint": "Nerve cells in the brain",
+      "hint_ur": "دماغ میں اعصابی خلیے",
+      "timeLimit": 25
+    },
+    {
+      "id": 190,
+      "type": "true-false",
+      "question": "The human body's skin is completely replaced every month.",
+      "question_ur": "انسانی جسم کی جلد ہر مہینے مکمل طور پر تبدیل ہو جاتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "Skin regeneration takes about 27 days on average.",
+      "explanation_ur": "جلد کی بحالی اوسطاً تقریباً 27 دن لیتی ہے۔",
+      "hint": "Outer layer turns over faster",
+      "hint_ur": "بیرونی تہہ تیزی سے بدلتی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 191,
+      "type": "mcq",
+      "question": "Which country has the most borders with other countries?",
+      "question_ur": "کس ملک کی سب سے زیادہ دوسرے ممالک کے ساتھ سرحدیں ہیں؟",
+      "options": {
+        "en": ["Russia", "China", "Brazil", "France"],
+        "ur": ["روس", "چین", "برازیل", "فرانس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "China shares borders with 14 countries, more than any other.",
+      "explanation_ur": "چین کے 14 ممالک کے ساتھ سرحدیں ہیں، جو کسی بھی دوسرے ملک سے زیادہ ہیں۔",
+      "hint": "Shares borders with India and Russia",
+      "hint_ur": "بھارت اور روس کے ساتھ سرحدیں ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 192,
+      "type": "true-false",
+      "question": "The capital of Saudi Arabia is Riyadh.",
+      "question_ur": "سعودی عرب کا دارالحکومت ریاض ہے۔",
+      "correctAnswer": true,
+      "explanation": "Riyadh has been the capital since the country's unification in 1932.",
+      "explanation_ur": "ریاض 1932 میں ملک کے اتحاد کے بعد سے دارالحکومت رہا ہے۔",
+      "hint": "Located in the center of the country",
+      "hint_ur": "ملک کے مرکز میں واقع ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 193,
+      "type": "mcq",
+      "question": "What is the largest species of deer?",
+      "question_ur": "ہرن کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Elk", "Moose", "Red Deer", "Reindeer"],
+        "ur": ["ایلک", "موز", "ریڈ ڈیر", "رینڈیر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Moose can stand over 7 feet tall at the shoulder.",
+      "explanation_ur": "موز کندھے پر 7 فٹ سے زیادہ لمبے ہو سکتے ہیں۔",
+      "hint": "Found in northern regions",
+      "hint_ur": "شمالی علاقوں میں پایا جاتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 194,
+      "type": "mcq",
+      "question": "Which of these is not a type of gland in the human body?",
+      "question_ur": "ان میں سے کون سا انسانی جسم میں غدود کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Pituitary", "Thyroid", "Adrenal", "Fibrous"],
+        "ur": ["پیچوٹری", "تھائیرائیڈ", "ایڈرینل", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Fibrous is not a gland classification.",
+      "explanation_ur": "ریشہ دار غدود کی درجہ بندی نہیں ہے۔",
+      "hint": "Produces hormones",
+      "hint_ur": "ہارمونز پیدا کرتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 195,
+      "type": "true-false",
+      "question": "The human body has more than 200 different types of cells.",
+      "question_ur": "انسانی جسم میں 200 سے زیادہ مختلف قسم کے خلیے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Estimates range from 200 to over 1,000 specialized cell types.",
+      "explanation_ur": "اندازے 200 سے 1,000 سے زیادہ مخصوص خلیوں کی اقسام تک ہیں۔",
+      "hint": "Includes blood cells, nerve cells, etc.",
+      "hint_ur": "خون کے خلیے، اعصابی خلیے وغیرہ شامل ہیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 196,
+      "type": "mcq",
+      "question": "Which country has the most lakes?",
+      "question_ur": "کس ملک میں سب سے زیادہ جھیلیں ہیں؟",
+      "options": {
+        "en": ["United States", "Russia", "Canada", "Finland"],
+        "ur": ["ریاستہائے متحدہ", "روس", "کینیڈا", "فن لینڈ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Canada has over 2 million lakes, more than any other country.",
+      "explanation_ur": "کینیڈا میں 2 ملین سے زیادہ جھیلیں ہیں، جو کسی بھی دوسرے ملک سے زیادہ ہیں۔",
+      "hint": "Second largest country by area",
+      "hint_ur": "رقبے کے لحاظ سے دوسرا سب سے بڑا ملک",
+      "timeLimit": 25
+    },
+    {
+      "id": 197,
+      "type": "true-false",
+      "question": "The capital of Nigeria is Lagos.",
+      "question_ur": "نائیجیریا کا دارالحکومت لاگوس ہے۔",
+      "correctAnswer": false,
+      "explanation": "The capital is Abuja; Lagos is the largest city.",
+      "explanation_ur": "دارالحکومت ابوجا ہے؛ لاگوس سب سے بڑا شہر ہے۔",
+      "hint": "Planned city in the center",
+      "hint_ur": "مرکز میں منصوبہ بند شہر",
+      "timeLimit": 20
+    },
+    {
+      "id": 198,
+      "type": "mcq",
+      "question": "What is the largest species of cat?",
+      "question_ur": "بلی کی سب سے بڑی قسم کون سی ہے؟",
+      "options": {
+        "en": ["Lion", "Tiger", "Jaguar", "Leopard"],
+        "ur": ["شیر", "شیر", "جیگوار", "تیندوا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Tigers are the largest cats, with Siberian tigers being the biggest subspecies.",
+      "explanation_ur": "شیر سب سے بڑی بلیاں ہیں، سائبیرین شیر سب سے بڑی ذیلی قسم ہے۔",
+      "hint": "Striped pattern",
+      "hint_ur": "دھاری دار پیٹرن",
+      "timeLimit": 20
+    },
+    {
+      "id": 199,
+      "type": "mcq",
+      "question": "Which of these is not a type of bone cell?",
+      "question_ur": "ان میں سے کون سا ہڈی کے خلیے کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Osteoblast", "Osteocyte", "Osteoclast", "Fibrous"],
+        "ur": ["آسٹیوبلاسٹ", "آسٹیوسائٹ", "آسٹیوکلسٹ", "ریشہ دار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three types are osteoblasts, osteocytes, and osteoclasts.",
+      "explanation_ur": "تین اقسام آسٹیوبلاسٹ، آسٹیوسائٹ اور آسٹیوکلسٹ ہیں۔",
+      "hint": "Builds, maintains, and breaks down bone",
+      "hint_ur": "ہڈی بناتا، برقرار رکھتا اور توڑتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 200,
+      "type": "true-false",
+      "question": "The human body has more than 100,000 miles of blood vessels.",
+      "question_ur": "انسانی جسم میں 100,000 میل سے زیادہ خون کی نالیاں ہوتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "If laid end to end, an adult's blood vessels would circle Earth 4 times.",
+      "explanation_ur": "اگر آخر سے آخر تک بچھایا جائے تو ایک بالغ کی خون کی نالیاں زمین کو 4 بار گھیر لیں گی۔",
+      "hint": "Includes arteries, veins, capillaries",
+      "hint_ur": "شریانوں، رگوں، کیپلیریز شامل ہیں",
+      "timeLimit": 30
+    },
+{
+      "id": 201,
+      "type": "mcq",
+      "question": "What is the capital of France?",
+      "question_ur": "فرانس کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": ["London", "Berlin", "Paris", "Madrid"],
+        "ur": ["لندن", "برلن", "پیرس", "میڈرڈ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Paris has been the capital of France since the 10th century.",
+      "explanation_ur": "پیرس دسویں صدی سے فرانس کا دارالحکومت رہا ہے۔",
+      "hint": "Think of the Eiffel Tower",
+      "hint_ur": "آئیفل ٹاور کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 202,
+      "type": "true-false",
+      "question": "The Great Wall of China is visible from space.",
+      "question_ur": "چین کی عظیم دیوار خلا سے نظر آتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "This is a common myth. The Great Wall is not visible to the naked eye from space.",
+      "explanation_ur": "یہ ایک عام خرافات ہے۔ عظیم دیوار خلا سے ننگی آنکھ سے نظر نہیں آتی ہے۔",
+      "hint": "Consider how wide it is compared to other man-made structures",
+      "hint_ur": "اس کی چوڑائی کا دوسرے انسانی ساختہ ڈھانچے سے موازنہ کریں",
+      "timeLimit": 30
+    },
+    {
+      "id": 203,
+      "type": "fill-blanks",
+      "question": "The chemical symbol for gold is ___.",
+      "question_ur": "سونے کا کیمیائی علامت ___ ہے۔",
+      "correctAnswer": "Au",
+      "correctAnswer_ur": "Au",
+      "explanation": "Au comes from the Latin word for gold, 'aurum'.",
+      "explanation_ur": "Au لاطینی زبان کے لفظ 'aurum' سے آیا ہے جس کا مطلب سونا ہے۔",
+      "hint": "Starts with 'A'",
+      "hint_ur": "'A' سے شروع ہوتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 204,
+      "type": "mcq",
+      "question": "How many continents are there on Earth?",
+      "question_ur": "زمین پر کتنے براعظم ہیں؟",
+      "options": {
+        "en": ["5", "6", "7", "8"],
+        "ur": ["۵", "۶", "۷", "۸"]
+      },
+      "correctAnswer": 2,
+      "explanation": "There are 7 continents: Africa, Antarctica, Asia, Europe, North America, South America, and Australia.",
+      "explanation_ur": "۷ براعظم ہیں: افریقہ، انٹارکٹیکا، ایشیا، یورپ، شمالی امریکہ، جنوبی امریکہ اور آسٹریلیا۔",
+      "hint": "Count includes both Americas separately",
+      "hint_ur": "شمالی اور جنوبی امریکہ الگ الگ شمار ہوتے ہیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 205,
+      "type": "true-false",
+      "question": "The human body has 206 bones.",
+      "question_ur": "انسانی جسم میں 206 ہڈیاں ہوتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "An adult human has 206 bones, while babies have about 300 that fuse together as they grow.",
+      "explanation_ur": "ایک بالغ انسان میں 206 ہڈیاں ہوتی ہیں، جبکہ بچوں میں تقریباً 300 ہوتی ہیں جو بڑھنے کے ساتھ مل جاتی ہیں۔",
+      "hint": "Think about the skeletal system",
+      "hint_ur": "انسانی ڈھانچے کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 206,
+      "type": "mcq",
+      "question": "Which planet is known as the Red Planet?",
+      "question_ur": "کون سا سیارہ سرخ سیارہ کے نام سے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Venus", "Mars", "Jupiter", "Saturn"],
+        "ur": ["زہرہ", "مریخ", "مشتری", "زحل"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Mars appears red due to iron oxide (rust) on its surface.",
+      "explanation_ur": "مریخ کی سطح پر آئرن آکسائیڈ (زنگ) کی وجہ سے سرخ نظر آتا ہے۔",
+      "hint": "Named after the Roman god of war",
+      "hint_ur": "رومی جنگ کے دیوتا کے نام پر رکھا گیا",
+      "timeLimit": 20
+    },
+    {
+      "id": 207,
+      "type": "fill-blanks",
+      "question": "The largest ocean on Earth is the ___ Ocean.",
+      "question_ur": "زمین کا سب سے بڑا سمندر ___ ہے۔",
+      "correctAnswer": "Pacific",
+      "correctAnswer_ur": "بحرالکاہل",
+      "explanation": "The Pacific Ocean covers about 63 million square miles.",
+      "explanation_ur": "بحرالکاہل تقریباً 63 ملین مربع میل پر محیط ہے۔",
+      "hint": "Means 'peaceful' in Latin",
+      "hint_ur": "لاطینی میں 'پرامن' کا مطلب ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 208,
+      "type": "mcq",
+      "question": "What is the largest mammal in the world?",
+      "question_ur": "دنیا کا سب سے بڑا ممالیہ کون سا ہے؟",
+      "options": {
+        "en": ["African Elephant", "Blue Whale", "Giraffe", "Polar Bear"],
+        "ur": ["افریقی ہاتھی", "نیلی وہیل", "زرافہ", "قطبی ریچھ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The blue whale can grow up to 100 feet long and weigh 200 tons.",
+      "explanation_ur": "نیلی وہیل 100 فٹ لمبی اور 200 ٹن وزنی ہو سکتی ہے۔",
+      "hint": "Lives in the ocean",
+      "hint_ur": "سمندر میں رہتا ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 209,
+      "type": "true-false",
+      "question": "Lightning never strikes the same place twice.",
+      "question_ur": "بجلی کبھی بھی ایک ہی جگہ پر دو بار نہیں گرتی۔",
+      "correctAnswer": false,
+      "explanation": "Lightning can strike the same place multiple times, especially tall structures.",
+      "explanation_ur": "بجلی ایک ہی جگہ پر کئی بار گر سکتی ہے، خاص طور پر اونچی عمارتوں پر۔",
+      "hint": "Think about tall buildings",
+      "hint_ur": "اونچی عمارتوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 210,
+      "type": "mcq",
+      "question": "Which country is home to the kangaroo?",
+      "question_ur": "کنگارو کس ملک میں پایا جاتا ہے؟",
+      "options": {
+        "en": ["South Africa", "Brazil", "Australia", "India"],
+        "ur": ["جنوبی افریقہ", "برازیل", "آسٹریلیا", "بھارت"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Kangaroos are marsupials native to Australia.",
+      "explanation_ur": "کنگارو آسٹریلیا کے مقامی مرسوپیئل ہیں۔",
+      "hint": "Also home to koalas",
+      "hint_ur": "کوآلا کا بھی گھر",
+      "timeLimit": 20
+    },
+    {
+      "id": 211,
+      "type": "fill-blanks",
+      "question": "The process by which plants make their own food is called ___.",
+      "question_ur": "وہ عمل جس کے ذریعے پودے اپنا کھانا خود بناتے ہیں ___ کہلاتا ہے۔",
+      "correctAnswer": "photosynthesis",
+      "correctAnswer_ur": "ضیائی تالیف",
+      "explanation": "Photosynthesis converts sunlight, water and carbon dioxide into oxygen and glucose.",
+      "explanation_ur": "ضیائی تالیف سورج کی روشنی، پانی اور کاربن ڈائی آکسائیڈ کو آکسیجن اور گلوکوز میں تبدیل کرتا ہے۔",
+      "hint": "Uses sunlight",
+      "hint_ur": "سورج کی روشنی استعمال کرتا ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 212,
+      "type": "mcq",
+      "question": "What is the largest organ in the human body?",
+      "question_ur": "انسانی جسم کا سب سے بڑا عضو کون سا ہے؟",
+      "options": {
+        "en": ["Liver", "Brain", "Skin", "Heart"],
+        "ur": ["جگر", "دماغ", "جلد", "دل"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The skin is the body's largest organ, with a surface area of about 20 square feet.",
+      "explanation_ur": "جلد جسم کا سب سے بڑا عضو ہے، جس کا رقبہ تقریباً 20 مربع فٹ ہے۔",
+      "hint": "Covers your entire body",
+      "hint_ur": "آپ کے پورے جسم کو ڈھانپتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 213,
+      "type": "true-false",
+      "question": "The currency of Japan is the yen.",
+      "question_ur": "جاپان کی کرنسی ین ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Japanese yen is the third most traded currency in the world.",
+      "explanation_ur": "جاپانی ین دنیا میں تیسرا سب سے زیادہ ٹریڈ ہونے والی کرنسی ہے۔",
+      "hint": "Symbol is ¥",
+      "hint_ur": "علامت ¥ ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 214,
+      "type": "mcq",
+      "question": "Which of these is not a primary color?",
+      "question_ur": "ان میں سے کون سا بنیادی رنگ نہیں ہے؟",
+      "options": {
+        "en": ["Red", "Blue", "Green", "Yellow"],
+        "ur": ["سرخ", "نیلا", "سبز", "پیلا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The primary colors are red, blue, and yellow. Green is a secondary color.",
+      "explanation_ur": "بنیادی رنگ سرخ، نیلا اور پیلا ہیں۔ سبز ایک ثانوی رنگ ہے۔",
+      "hint": "Think about color mixing",
+      "hint_ur": "رنگوں کے ملاپ کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 215,
+      "type": "fill-blanks",
+      "question": "The capital of Pakistan is ___.",
+      "question_ur": "پاکستان کا دارالحکومت ___ ہے۔",
+      "correctAnswer": "Islamabad",
+      "correctAnswer_ur": "اسلام آباد",
+      "explanation": "Islamabad became the capital in 1967, replacing Karachi.",
+      "explanation_ur": "اسلام آباد 1967 میں دارالحکومت بنا، کراچی کی جگہ۔",
+      "hint": "Starts with 'I'",
+      "hint_ur": "'I' سے شروع ہوتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 216,
+      "type": "mcq",
+      "question": "Which planet is closest to the Sun?",
+      "question_ur": "کون سا سیارہ سورج کے سب سے قریب ہے؟",
+      "options": {
+        "en": ["Venus", "Mercury", "Earth", "Mars"],
+        "ur": ["زہرہ", "عطارد", "زمین", "مریخ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Mercury is the smallest and innermost planet in the Solar System.",
+      "explanation_ur": "عطارد نظام شمسی کا سب سے چھوٹا اور اندرونی سیارہ ہے۔",
+      "hint": "Named after the Roman messenger god",
+      "hint_ur": "رومی پیغام رساں دیوتا کے نام پر رکھا گیا",
+      "timeLimit": 20
+    },
+    {
+      "id": 217,
+      "type": "true-false",
+      "question": "The Nile is the longest river in the world.",
+      "question_ur": "نیل دنیا کا سب سے لمبا دریا ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Nile is approximately 4,135 miles (6,650 km) long.",
+      "explanation_ur": "نیل تقریباً 4,135 میل (6,650 کلومیٹر) لمبا ہے۔",
+      "hint": "Flows through Egypt",
+      "hint_ur": "مصر سے گزرتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 218,
+      "type": "mcq",
+      "question": "What is the largest desert in the world?",
+      "question_ur": "دنیا کا سب سے بڑا صحرا کون سا ہے؟",
+      "options": {
+        "en": ["Sahara", "Arabian", "Gobi", "Antarctic"],
+        "ur": ["صحارا", "عربی", "گوبی", "انٹارکٹک"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Antarctica is technically a desert, covering 5.5 million square miles.",
+      "explanation_ur": "انٹارکٹیکا تکنیکی طور پر ایک صحرا ہے، جو 5.5 ملین مربع میل پر محیط ہے۔",
+      "hint": "Cold desert",
+      "hint_ur": "سرد صحرا",
+      "timeLimit": 30
+    },
+    {
+      "id": 219,
+      "type": "fill-blanks",
+      "question": "The chemical symbol for water is ___.",
+      "question_ur": "پانی کا کیمیائی علامت ___ ہے۔",
+      "correctAnswer": "H2O",
+      "correctAnswer_ur": "H2O",
+      "explanation": "Water is composed of two hydrogen atoms and one oxygen atom.",
+      "explanation_ur": "پانی دو ہائیڈروجن ایٹمز اور ایک آکسیجن ایٹم پر مشتمل ہوتا ہے۔",
+      "hint": "Contains hydrogen and oxygen",
+      "hint_ur": "ہائیڈروجن اور آکسیجن پر مشتمل ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 220,
+      "type": "mcq",
+      "question": "Which of these is not a vowel in English?",
+      "question_ur": "ان میں سے کون سا انگریزی میں حرف علت نہیں ہے؟",
+      "options": {
+        "en": ["A", "E", "U", "R"],
+        "ur": ["A", "E", "U", "R"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The English vowels are A, E, I, O, U and sometimes Y.",
+      "explanation_ur": "انگریزی حروف علت A, E, I, O, U اور کبھی کبھی Y ہوتے ہیں۔",
+      "hint": "Think about the alphabet song",
+      "hint_ur": "الفابیٹ گانے کے بارے میں سوچیں",
+      "timeLimit": 20
+    }
+  ]
+}

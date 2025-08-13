@@ -1,0 +1,2508 @@
+{
+  "meta": {
+    "category": "Capitals",
+    "category_ur": "دارالحکومت",
+    "description": "Test your knowledge of world capitals",
+    "description_ur": "دنیا کے دارالحکومتوں کے بارے میں اپنا علم آزمائیں",
+    "difficulty": "easy",
+    "image": "capitals.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What is the capital of Afghanistan?",
+      "question_ur": "Afghanistan کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Libreville",
+          "Tarawa",
+          "Kabul",
+          "Gaborone"
+        ],
+        "ur": [
+          "Libreville",
+          "Tarawa",
+          "Kabul",
+          "Gaborone"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Afghanistan is Kabul.",
+      "explanation_ur": "Afghanistan کا دارالحکومت Kabul ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "What is the capital of Albania?",
+      "question_ur": "Albania کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Tirana",
+          "Port-au-Prince",
+          "Malabo",
+          "Helsinki"
+        ],
+        "ur": [
+          "Tirana",
+          "Port-au-Prince",
+          "Malabo",
+          "Helsinki"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Albania is Tirana.",
+      "explanation_ur": "Albania کا دارالحکومت Tirana ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "What is the capital of Algeria?",
+      "question_ur": "Algeria کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Algiers",
+          "Kuwait City",
+          "Sofia",
+          "Ottawa"
+        ],
+        "ur": [
+          "Algiers",
+          "Kuwait City",
+          "Sofia",
+          "Ottawa"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Algeria is Algiers.",
+      "explanation_ur": "Algeria کا دارالحکومت Algiers ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "What is the capital of Andorra?",
+      "question_ur": "Andorra کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Andorra la Vella",
+          "Dhaka",
+          "Jakarta",
+          "Yerevan"
+        ],
+        "ur": [
+          "Andorra la Vella",
+          "Dhaka",
+          "Jakarta",
+          "Yerevan"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Andorra is Andorra la Vella.",
+      "explanation_ur": "Andorra کا دارالحکومت Andorra la Vella ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "What is the capital of Angola?",
+      "question_ur": "Angola کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Luanda",
+          "Buenos Aires",
+          "Moroni",
+          "Luxembourg City"
+        ],
+        "ur": [
+          "Luanda",
+          "Buenos Aires",
+          "Moroni",
+          "Luxembourg City"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Angola is Luanda.",
+      "explanation_ur": "Angola کا دارالحکومت Luanda ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "What is the capital of Argentina?",
+      "question_ur": "Argentina کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Buenos Aires",
+          "Suva",
+          "Quito",
+          "Algiers"
+        ],
+        "ur": [
+          "Buenos Aires",
+          "Suva",
+          "Quito",
+          "Algiers"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Argentina is Buenos Aires.",
+      "explanation_ur": "Argentina کا دارالحکومت Buenos Aires ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "What is the capital of Armenia?",
+      "question_ur": "Armenia کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Moroni",
+          "Yerevan",
+          "Accra",
+          "Manama"
+        ],
+        "ur": [
+          "Moroni",
+          "Yerevan",
+          "Accra",
+          "Manama"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Armenia is Yerevan.",
+      "explanation_ur": "Armenia کا دارالحکومت Yerevan ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "What is the capital of Australia?",
+      "question_ur": "Australia کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Gitega",
+          "Astana",
+          "Canberra",
+          "Monrovia"
+        ],
+        "ur": [
+          "Gitega",
+          "Astana",
+          "Canberra",
+          "Monrovia"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Australia is Canberra.",
+      "explanation_ur": "Australia کا دارالحکومت Canberra ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "What is the capital of Austria?",
+      "question_ur": "Austria کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Kabul",
+          "Vilnius",
+          "Malabo",
+          "Vienna"
+        ],
+        "ur": [
+          "Kabul",
+          "Vilnius",
+          "Malabo",
+          "Vienna"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Austria is Vienna.",
+      "explanation_ur": "Austria کا دارالحکومت Vienna ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "What is the capital of Azerbaijan?",
+      "question_ur": "Azerbaijan کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Tokyo",
+          "Athens",
+          "Mbabane",
+          "Baku"
+        ],
+        "ur": [
+          "Tokyo",
+          "Athens",
+          "Mbabane",
+          "Baku"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Azerbaijan is Baku.",
+      "explanation_ur": "Azerbaijan کا دارالحکومت Baku ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "What is the capital of Bahamas?",
+      "question_ur": "Bahamas کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Budapest",
+          "Kuwait City",
+          "Copenhagen",
+          "Nassau"
+        ],
+        "ur": [
+          "Budapest",
+          "Kuwait City",
+          "Copenhagen",
+          "Nassau"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Bahamas is Nassau.",
+      "explanation_ur": "Bahamas کا دارالحکومت Nassau ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "What is the capital of Bahrain?",
+      "question_ur": "Bahrain کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Manama",
+          "Tarawa",
+          "Phnom Penh",
+          "Libreville"
+        ],
+        "ur": [
+          "Manama",
+          "Tarawa",
+          "Phnom Penh",
+          "Libreville"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Bahrain is Manama.",
+      "explanation_ur": "Bahrain کا دارالحکومت Manama ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "What is the capital of Bangladesh?",
+      "question_ur": "Bangladesh کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Roseau",
+          "Libreville",
+          "Beijing",
+          "Dhaka"
+        ],
+        "ur": [
+          "Roseau",
+          "Libreville",
+          "Beijing",
+          "Dhaka"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Bangladesh is Dhaka.",
+      "explanation_ur": "Bangladesh کا دارالحکومت Dhaka ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "What is the capital of Barbados?",
+      "question_ur": "Barbados کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Brussels",
+          "Port-au-Prince",
+          "Bridgetown",
+          "Jakarta"
+        ],
+        "ur": [
+          "Brussels",
+          "Port-au-Prince",
+          "Bridgetown",
+          "Jakarta"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Barbados is Bridgetown.",
+      "explanation_ur": "Barbados کا دارالحکومت Bridgetown ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "What is the capital of Belarus?",
+      "question_ur": "Belarus کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "New Delhi",
+          "Suva",
+          "Minsk",
+          "Bandar Seri Begawan"
+        ],
+        "ur": [
+          "New Delhi",
+          "Suva",
+          "Minsk",
+          "Bandar Seri Begawan"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Belarus is Minsk.",
+      "explanation_ur": "Belarus کا دارالحکومت Minsk ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "What is the capital of Belgium?",
+      "question_ur": "Belgium کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Brussels",
+          "Quito",
+          "Beijing",
+          "Ouagadougou"
+        ],
+        "ur": [
+          "Brussels",
+          "Quito",
+          "Beijing",
+          "Ouagadougou"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Belgium is Brussels.",
+      "explanation_ur": "Belgium کا دارالحکومت Brussels ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "What is the capital of Belize?",
+      "question_ur": "Belize کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Dhaka",
+          "Belmopan",
+          "Astana",
+          "Bridgetown"
+        ],
+        "ur": [
+          "Dhaka",
+          "Belmopan",
+          "Astana",
+          "Bridgetown"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Belize is Belmopan.",
+      "explanation_ur": "Belize کا دارالحکومت Belmopan ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "What is the capital of Benin?",
+      "question_ur": "Benin کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Mbabane",
+          "Porto-Novo",
+          "Budapest",
+          "Yerevan"
+        ],
+        "ur": [
+          "Mbabane",
+          "Porto-Novo",
+          "Budapest",
+          "Yerevan"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Benin is Porto-Novo.",
+      "explanation_ur": "Benin کا دارالحکومت Porto-Novo ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "What is the capital of Bhutan?",
+      "question_ur": "Bhutan کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Rome",
+          "Thimphu",
+          "Helsinki",
+          "Bissau"
+        ],
+        "ur": [
+          "Rome",
+          "Thimphu",
+          "Helsinki",
+          "Bissau"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Bhutan is Thimphu.",
+      "explanation_ur": "Bhutan کا دارالحکومت Thimphu ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "What is the capital of Bolivia?",
+      "question_ur": "Bolivia کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Kingston",
+          "Sucre",
+          "Bangui",
+          "Vaduz"
+        ],
+        "ur": [
+          "Kingston",
+          "Sucre",
+          "Bangui",
+          "Vaduz"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Bolivia is Sucre.",
+      "explanation_ur": "Bolivia کا دارالحکومت Sucre ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "What is the capital of Bosnia and Herzegovina?",
+      "question_ur": "Bosnia and Herzegovina کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Nassau",
+          "Suva",
+          "Sarajevo",
+          "Amman"
+        ],
+        "ur": [
+          "Nassau",
+          "Suva",
+          "Sarajevo",
+          "Amman"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Bosnia and Herzegovina is Sarajevo.",
+      "explanation_ur": "Bosnia and Herzegovina کا دارالحکومت Sarajevo ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "What is the capital of Botswana?",
+      "question_ur": "Botswana کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Yaoundé",
+          "Bishkek",
+          "Gaborone",
+          "San Salvador"
+        ],
+        "ur": [
+          "Yaoundé",
+          "Bishkek",
+          "Gaborone",
+          "San Salvador"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Botswana is Gaborone.",
+      "explanation_ur": "Botswana کا دارالحکومت Gaborone ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "What is the capital of Brazil?",
+      "question_ur": "Brazil کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Baku",
+          "Brasília",
+          "Ottawa",
+          "Banjul"
+        ],
+        "ur": [
+          "Baku",
+          "Brasília",
+          "Ottawa",
+          "Banjul"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Brazil is Brasília.",
+      "explanation_ur": "Brazil کا دارالحکومت Brasília ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "What is the capital of Brunei?",
+      "question_ur": "Brunei کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Bandar Seri Begawan",
+          "Libreville",
+          "Tallinn",
+          "Conakry"
+        ],
+        "ur": [
+          "Bandar Seri Begawan",
+          "Libreville",
+          "Tallinn",
+          "Conakry"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Brunei is Bandar Seri Begawan.",
+      "explanation_ur": "Brunei کا دارالحکومت Bandar Seri Begawan ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "What is the capital of Bulgaria?",
+      "question_ur": "Bulgaria کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Kabul",
+          "N'Djamena",
+          "Paris",
+          "Sofia"
+        ],
+        "ur": [
+          "Kabul",
+          "N'Djamena",
+          "Paris",
+          "Sofia"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Bulgaria is Sofia.",
+      "explanation_ur": "Bulgaria کا دارالحکومت Sofia ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "What is the capital of Burkina Faso?",
+      "question_ur": "Burkina Faso کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Ouagadougou",
+          "Luanda",
+          "Sofia",
+          "Yerevan"
+        ],
+        "ur": [
+          "Ouagadougou",
+          "Luanda",
+          "Sofia",
+          "Yerevan"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Burkina Faso is Ouagadougou.",
+      "explanation_ur": "Burkina Faso کا دارالحکومت Ouagadougou ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "What is the capital of Burundi?",
+      "question_ur": "Burundi کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Gitega",
+          "Ottawa",
+          "Moroni",
+          "Ouagadougou"
+        ],
+        "ur": [
+          "Gitega",
+          "Ottawa",
+          "Moroni",
+          "Ouagadougou"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Burundi is Gitega.",
+      "explanation_ur": "Burundi کا دارالحکومت Gitega ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "What is the capital of Cambodia?",
+      "question_ur": "Cambodia کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Helsinki",
+          "Phnom Penh",
+          "Baku",
+          "Brussels"
+        ],
+        "ur": [
+          "Helsinki",
+          "Phnom Penh",
+          "Baku",
+          "Brussels"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Cambodia is Phnom Penh.",
+      "explanation_ur": "Cambodia کا دارالحکومت Phnom Penh ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "What is the capital of Cameroon?",
+      "question_ur": "Cameroon کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Bishkek",
+          "Yaoundé",
+          "Phnom Penh",
+          "Conakry"
+        ],
+        "ur": [
+          "Bishkek",
+          "Yaoundé",
+          "Phnom Penh",
+          "Conakry"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Cameroon is Yaoundé.",
+      "explanation_ur": "Cameroon کا دارالحکومت Yaoundé ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "What is the capital of Canada?",
+      "question_ur": "Canada کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Havana",
+          "Jakarta",
+          "Mbabane",
+          "Ottawa"
+        ],
+        "ur": [
+          "Havana",
+          "Jakarta",
+          "Mbabane",
+          "Ottawa"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Canada is Ottawa.",
+      "explanation_ur": "Canada کا دارالحکومت Ottawa ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "What is the capital of Cape Verde?",
+      "question_ur": "Cape Verde کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Praia",
+          "Jerusalem",
+          "Mbabane",
+          "Tokyo"
+        ],
+        "ur": [
+          "Praia",
+          "Jerusalem",
+          "Mbabane",
+          "Tokyo"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Cape Verde is Praia.",
+      "explanation_ur": "Cape Verde کا دارالحکومت Praia ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "What is the capital of Central African Republic?",
+      "question_ur": "Central African Republic کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Santiago",
+          "Libreville",
+          "Bangui",
+          "Tegucigalpa"
+        ],
+        "ur": [
+          "Santiago",
+          "Libreville",
+          "Bangui",
+          "Tegucigalpa"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Central African Republic is Bangui.",
+      "explanation_ur": "Central African Republic کا دارالحکومت Bangui ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "What is the capital of Chad?",
+      "question_ur": "Chad کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Belmopan",
+          "Kabul",
+          "Amman",
+          "N'Djamena"
+        ],
+        "ur": [
+          "Belmopan",
+          "Kabul",
+          "Amman",
+          "N'Djamena"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Chad is N'Djamena.",
+      "explanation_ur": "Chad کا دارالحکومت N'Djamena ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "What is the capital of Chile?",
+      "question_ur": "Chile کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Libreville",
+          "Santiago",
+          "Tehran",
+          "Bogotá"
+        ],
+        "ur": [
+          "Libreville",
+          "Santiago",
+          "Tehran",
+          "Bogotá"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Chile is Santiago.",
+      "explanation_ur": "Chile کا دارالحکومت Santiago ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "What is the capital of China?",
+      "question_ur": "China کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Banjul",
+          "Beijing",
+          "Brussels",
+          "Canberra"
+        ],
+        "ur": [
+          "Banjul",
+          "Beijing",
+          "Brussels",
+          "Canberra"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of China is Beijing.",
+      "explanation_ur": "China کا دارالحکومت Beijing ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "What is the capital of Colombia?",
+      "question_ur": "Colombia کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Porto-Novo",
+          "Tirana",
+          "Brasília",
+          "Bogotá"
+        ],
+        "ur": [
+          "Porto-Novo",
+          "Tirana",
+          "Brasília",
+          "Bogotá"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Colombia is Bogotá.",
+      "explanation_ur": "Colombia کا دارالحکومت Bogotá ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "What is the capital of Comoros?",
+      "question_ur": "Comoros کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Tbilisi",
+          "Belmopan",
+          "Moroni",
+          "San Salvador"
+        ],
+        "ur": [
+          "Tbilisi",
+          "Belmopan",
+          "Moroni",
+          "San Salvador"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Comoros is Moroni.",
+      "explanation_ur": "Comoros کا دارالحکومت Moroni ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "What is the capital of Costa Rica?",
+      "question_ur": "Costa Rica کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Sucre",
+          "San José",
+          "Santo Domingo",
+          "Brasília"
+        ],
+        "ur": [
+          "Sucre",
+          "San José",
+          "Santo Domingo",
+          "Brasília"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Costa Rica is San José.",
+      "explanation_ur": "Costa Rica کا دارالحکومت San José ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "What is the capital of Croatia?",
+      "question_ur": "Croatia کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Zagreb",
+          "Libreville",
+          "Maseru",
+          "Dhaka"
+        ],
+        "ur": [
+          "Zagreb",
+          "Libreville",
+          "Maseru",
+          "Dhaka"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Croatia is Zagreb.",
+      "explanation_ur": "Croatia کا دارالحکومت Zagreb ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "What is the capital of Cuba?",
+      "question_ur": "Cuba کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Sarajevo",
+          "N'Djamena",
+          "Buenos Aires",
+          "Havana"
+        ],
+        "ur": [
+          "Sarajevo",
+          "N'Djamena",
+          "Buenos Aires",
+          "Havana"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Cuba is Havana.",
+      "explanation_ur": "Cuba کا دارالحکومت Havana ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "What is the capital of Cyprus?",
+      "question_ur": "Cyprus کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Nicosia",
+          "Monrovia",
+          "Roseau",
+          "Manama"
+        ],
+        "ur": [
+          "Nicosia",
+          "Monrovia",
+          "Roseau",
+          "Manama"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Cyprus is Nicosia.",
+      "explanation_ur": "Cyprus کا دارالحکومت Nicosia ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "What is the capital of Czech Republic?",
+      "question_ur": "Czech Republic کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Prague",
+          "Jerusalem",
+          "Andorra la Vella",
+          "Maseru"
+        ],
+        "ur": [
+          "Prague",
+          "Jerusalem",
+          "Andorra la Vella",
+          "Maseru"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Czech Republic is Prague.",
+      "explanation_ur": "Czech Republic کا دارالحکومت Prague ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "What is the capital of Denmark?",
+      "question_ur": "Denmark کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Tokyo",
+          "Copenhagen",
+          "Budapest",
+          "Thimphu"
+        ],
+        "ur": [
+          "Tokyo",
+          "Copenhagen",
+          "Budapest",
+          "Thimphu"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Denmark is Copenhagen.",
+      "explanation_ur": "Denmark کا دارالحکومت Copenhagen ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "What is the capital of Djibouti?",
+      "question_ur": "Djibouti کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Dhaka",
+          "Djibouti",
+          "Suva",
+          "Canberra"
+        ],
+        "ur": [
+          "Dhaka",
+          "Djibouti",
+          "Suva",
+          "Canberra"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Djibouti is Djibouti.",
+      "explanation_ur": "Djibouti کا دارالحکومت Djibouti ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "What is the capital of Dominica?",
+      "question_ur": "Dominica کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Cairo",
+          "Port-au-Prince",
+          "Guatemala City",
+          "Roseau"
+        ],
+        "ur": [
+          "Cairo",
+          "Port-au-Prince",
+          "Guatemala City",
+          "Roseau"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Dominica is Roseau.",
+      "explanation_ur": "Dominica کا دارالحکومت Roseau ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "What is the capital of Dominican Republic?",
+      "question_ur": "Dominican Republic کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Havana",
+          "Santo Domingo",
+          "Tirana",
+          "Astana"
+        ],
+        "ur": [
+          "Havana",
+          "Santo Domingo",
+          "Tirana",
+          "Astana"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Dominican Republic is Santo Domingo.",
+      "explanation_ur": "Dominican Republic کا دارالحکومت Santo Domingo ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "What is the capital of Ecuador?",
+      "question_ur": "Ecuador کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Jerusalem",
+          "Accra",
+          "New Delhi",
+          "Quito"
+        ],
+        "ur": [
+          "Jerusalem",
+          "Accra",
+          "New Delhi",
+          "Quito"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Ecuador is Quito.",
+      "explanation_ur": "Ecuador کا دارالحکومت Quito ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "What is the capital of Egypt?",
+      "question_ur": "Egypt کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Luxembourg City",
+          "Luanda",
+          "Cairo",
+          "Dublin"
+        ],
+        "ur": [
+          "Luxembourg City",
+          "Luanda",
+          "Cairo",
+          "Dublin"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Egypt is Cairo.",
+      "explanation_ur": "Egypt کا دارالحکومت Cairo ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "What is the capital of El Salvador?",
+      "question_ur": "El Salvador کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "San Salvador",
+          "Djibouti",
+          "Copenhagen",
+          "Santiago"
+        ],
+        "ur": [
+          "San Salvador",
+          "Djibouti",
+          "Copenhagen",
+          "Santiago"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of El Salvador is San Salvador.",
+      "explanation_ur": "El Salvador کا دارالحکومت San Salvador ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "What is the capital of Equatorial Guinea?",
+      "question_ur": "Equatorial Guinea کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Tirana",
+          "Tegucigalpa",
+          "Beijing",
+          "Malabo"
+        ],
+        "ur": [
+          "Tirana",
+          "Tegucigalpa",
+          "Beijing",
+          "Malabo"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Equatorial Guinea is Malabo.",
+      "explanation_ur": "Equatorial Guinea کا دارالحکومت Malabo ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "What is the capital of Eritrea?",
+      "question_ur": "Eritrea کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Accra",
+          "Roseau",
+          "Asmara",
+          "Manama"
+        ],
+        "ur": [
+          "Accra",
+          "Roseau",
+          "Asmara",
+          "Manama"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Eritrea is Asmara.",
+      "explanation_ur": "Eritrea کا دارالحکومت Asmara ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "What is the capital of Estonia?",
+      "question_ur": "Estonia کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Tallinn",
+          "Jerusalem",
+          "Nicosia",
+          "Jakarta"
+        ],
+        "ur": [
+          "Tallinn",
+          "Jerusalem",
+          "Nicosia",
+          "Jakarta"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Estonia is Tallinn.",
+      "explanation_ur": "Estonia کا دارالحکومت Tallinn ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "What is the capital of Eswatini?",
+      "question_ur": "Eswatini کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Rome",
+          "Bishkek",
+          "Mbabane",
+          "Addis Ababa"
+        ],
+        "ur": [
+          "Rome",
+          "Bishkek",
+          "Mbabane",
+          "Addis Ababa"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Eswatini is Mbabane.",
+      "explanation_ur": "Eswatini کا دارالحکومت Mbabane ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "What is the capital of Ethiopia?",
+      "question_ur": "Ethiopia کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Tallinn",
+          "Berlin",
+          "Vienna",
+          "Addis Ababa"
+        ],
+        "ur": [
+          "Tallinn",
+          "Berlin",
+          "Vienna",
+          "Addis Ababa"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Ethiopia is Addis Ababa.",
+      "explanation_ur": "Ethiopia کا دارالحکومت Addis Ababa ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "What is the capital of Fiji?",
+      "question_ur": "Fiji کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Yerevan",
+          "Vientiane",
+          "Suva",
+          "Prague"
+        ],
+        "ur": [
+          "Yerevan",
+          "Vientiane",
+          "Suva",
+          "Prague"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Fiji is Suva.",
+      "explanation_ur": "Fiji کا دارالحکومت Suva ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "What is the capital of Finland?",
+      "question_ur": "Finland کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Brasília",
+          "Helsinki",
+          "Rome",
+          "Zagreb"
+        ],
+        "ur": [
+          "Brasília",
+          "Helsinki",
+          "Rome",
+          "Zagreb"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Finland is Helsinki.",
+      "explanation_ur": "Finland کا دارالحکومت Helsinki ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "What is the capital of France?",
+      "question_ur": "France کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Paris",
+          "Dhaka",
+          "Phnom Penh",
+          "Banjul"
+        ],
+        "ur": [
+          "Paris",
+          "Dhaka",
+          "Phnom Penh",
+          "Banjul"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of France is Paris.",
+      "explanation_ur": "France کا دارالحکومت Paris ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "What is the capital of Gabon?",
+      "question_ur": "Gabon کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Bissau",
+          "Libreville",
+          "Helsinki",
+          "Belmopan"
+        ],
+        "ur": [
+          "Bissau",
+          "Libreville",
+          "Helsinki",
+          "Belmopan"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Gabon is Libreville.",
+      "explanation_ur": "Gabon کا دارالحکومت Libreville ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "What is the capital of Gambia?",
+      "question_ur": "Gambia کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Belmopan",
+          "Banjul",
+          "Minsk",
+          "Baghdad"
+        ],
+        "ur": [
+          "Belmopan",
+          "Banjul",
+          "Minsk",
+          "Baghdad"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Gambia is Banjul.",
+      "explanation_ur": "Gambia کا دارالحکومت Banjul ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "What is the capital of Georgia?",
+      "question_ur": "Georgia کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Tbilisi",
+          "Cairo",
+          "Santiago",
+          "Bridgetown"
+        ],
+        "ur": [
+          "Tbilisi",
+          "Cairo",
+          "Santiago",
+          "Bridgetown"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Georgia is Tbilisi.",
+      "explanation_ur": "Georgia کا دارالحکومت Tbilisi ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "What is the capital of Germany?",
+      "question_ur": "Germany کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Kingston",
+          "Berlin",
+          "Zagreb",
+          "San Salvador"
+        ],
+        "ur": [
+          "Kingston",
+          "Berlin",
+          "Zagreb",
+          "San Salvador"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Germany is Berlin.",
+      "explanation_ur": "Germany کا دارالحکومت Berlin ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 62,
+      "type": "mcq",
+      "question": "What is the capital of Ghana?",
+      "question_ur": "Ghana کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Accra",
+          "Bishkek",
+          "Helsinki",
+          "Havana"
+        ],
+        "ur": [
+          "Accra",
+          "Bishkek",
+          "Helsinki",
+          "Havana"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Ghana is Accra.",
+      "explanation_ur": "Ghana کا دارالحکومت Accra ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "What is the capital of Greece?",
+      "question_ur": "Greece کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Astana",
+          "Kuwait City",
+          "Luanda",
+          "Athens"
+        ],
+        "ur": [
+          "Astana",
+          "Kuwait City",
+          "Luanda",
+          "Athens"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Greece is Athens.",
+      "explanation_ur": "Greece کا دارالحکومت Athens ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "question": "What is the capital of Grenada?",
+      "question_ur": "Grenada کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "New Delhi",
+          "Nicosia",
+          "St. George's",
+          "Budapest"
+        ],
+        "ur": [
+          "New Delhi",
+          "Nicosia",
+          "St. George's",
+          "Budapest"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Grenada is St. George's.",
+      "explanation_ur": "Grenada کا دارالحکومت St. George's ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "question": "What is the capital of Guatemala?",
+      "question_ur": "Guatemala کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Guatemala City",
+          "Santo Domingo",
+          "Beijing",
+          "Djibouti"
+        ],
+        "ur": [
+          "Guatemala City",
+          "Santo Domingo",
+          "Beijing",
+          "Djibouti"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Guatemala is Guatemala City.",
+      "explanation_ur": "Guatemala کا دارالحکومت Guatemala City ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 66,
+      "type": "mcq",
+      "question": "What is the capital of Guinea?",
+      "question_ur": "Guinea کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Bandar Seri Begawan",
+          "Suva",
+          "Conakry",
+          "Kabul"
+        ],
+        "ur": [
+          "Bandar Seri Begawan",
+          "Suva",
+          "Conakry",
+          "Kabul"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Guinea is Conakry.",
+      "explanation_ur": "Guinea کا دارالحکومت Conakry ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "What is the capital of Guinea-Bissau?",
+      "question_ur": "Guinea-Bissau کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Mbabane",
+          "Bissau",
+          "Dublin",
+          "San Salvador"
+        ],
+        "ur": [
+          "Mbabane",
+          "Bissau",
+          "Dublin",
+          "San Salvador"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Guinea-Bissau is Bissau.",
+      "explanation_ur": "Guinea-Bissau کا دارالحکومت Bissau ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 68,
+      "type": "mcq",
+      "question": "What is the capital of Guyana?",
+      "question_ur": "Guyana کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Cairo",
+          "Georgetown",
+          "Manama",
+          "Moroni"
+        ],
+        "ur": [
+          "Cairo",
+          "Georgetown",
+          "Manama",
+          "Moroni"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Guyana is Georgetown.",
+      "explanation_ur": "Guyana کا دارالحکومت Georgetown ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "question": "What is the capital of Haiti?",
+      "question_ur": "Haiti کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Quito",
+          "Riga",
+          "Port-au-Prince",
+          "Tirana"
+        ],
+        "ur": [
+          "Quito",
+          "Riga",
+          "Port-au-Prince",
+          "Tirana"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Haiti is Port-au-Prince.",
+      "explanation_ur": "Haiti کا دارالحکومت Port-au-Prince ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 70,
+      "type": "mcq",
+      "question": "What is the capital of Honduras?",
+      "question_ur": "Honduras کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Dublin",
+          "Santo Domingo",
+          "Kuwait City",
+          "Tegucigalpa"
+        ],
+        "ur": [
+          "Dublin",
+          "Santo Domingo",
+          "Kuwait City",
+          "Tegucigalpa"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Honduras is Tegucigalpa.",
+      "explanation_ur": "Honduras کا دارالحکومت Tegucigalpa ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "question": "What is the capital of Hungary?",
+      "question_ur": "Hungary کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Ouagadougou",
+          "Accra",
+          "Budapest",
+          "Kuwait City"
+        ],
+        "ur": [
+          "Ouagadougou",
+          "Accra",
+          "Budapest",
+          "Kuwait City"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Hungary is Budapest.",
+      "explanation_ur": "Hungary کا دارالحکومت Budapest ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 72,
+      "type": "mcq",
+      "question": "What is the capital of Iceland?",
+      "question_ur": "Iceland کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Luanda",
+          "Jakarta",
+          "Mbabane",
+          "Reykjavik"
+        ],
+        "ur": [
+          "Luanda",
+          "Jakarta",
+          "Mbabane",
+          "Reykjavik"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Iceland is Reykjavik.",
+      "explanation_ur": "Iceland کا دارالحکومت Reykjavik ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "What is the capital of India?",
+      "question_ur": "India کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Maseru",
+          "Baghdad",
+          "Gaborone",
+          "New Delhi"
+        ],
+        "ur": [
+          "Maseru",
+          "Baghdad",
+          "Gaborone",
+          "New Delhi"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of India is New Delhi.",
+      "explanation_ur": "India کا دارالحکومت New Delhi ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 74,
+      "type": "mcq",
+      "question": "What is the capital of Indonesia?",
+      "question_ur": "Indonesia کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Djibouti",
+          "Jakarta",
+          "Tallinn",
+          "Yaoundé"
+        ],
+        "ur": [
+          "Djibouti",
+          "Jakarta",
+          "Tallinn",
+          "Yaoundé"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Indonesia is Jakarta.",
+      "explanation_ur": "Indonesia کا دارالحکومت Jakarta ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "question": "What is the capital of Iran?",
+      "question_ur": "Iran کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Luxembourg City",
+          "Ottawa",
+          "Tehran",
+          "Vilnius"
+        ],
+        "ur": [
+          "Luxembourg City",
+          "Ottawa",
+          "Tehran",
+          "Vilnius"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Iran is Tehran.",
+      "explanation_ur": "Iran کا دارالحکومت Tehran ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "question": "What is the capital of Iraq?",
+      "question_ur": "Iraq کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Baghdad",
+          "Gitega",
+          "Beirut",
+          "Nassau"
+        ],
+        "ur": [
+          "Baghdad",
+          "Gitega",
+          "Beirut",
+          "Nassau"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Iraq is Baghdad.",
+      "explanation_ur": "Iraq کا دارالحکومت Baghdad ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "question": "What is the capital of Ireland?",
+      "question_ur": "Ireland کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Bogotá",
+          "Paris",
+          "Brasília",
+          "Dublin"
+        ],
+        "ur": [
+          "Bogotá",
+          "Paris",
+          "Brasília",
+          "Dublin"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Ireland is Dublin.",
+      "explanation_ur": "Ireland کا دارالحکومت Dublin ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 78,
+      "type": "mcq",
+      "question": "What is the capital of Israel?",
+      "question_ur": "Israel کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Banjul",
+          "Jerusalem",
+          "Dhaka",
+          "Addis Ababa"
+        ],
+        "ur": [
+          "Banjul",
+          "Jerusalem",
+          "Dhaka",
+          "Addis Ababa"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Israel is Jerusalem.",
+      "explanation_ur": "Israel کا دارالحکومت Jerusalem ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "What is the capital of Italy?",
+      "question_ur": "Italy کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "St. George's",
+          "Riga",
+          "Vientiane",
+          "Rome"
+        ],
+        "ur": [
+          "St. George's",
+          "Riga",
+          "Vientiane",
+          "Rome"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Italy is Rome.",
+      "explanation_ur": "Italy کا دارالحکومت Rome ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 80,
+      "type": "mcq",
+      "question": "What is the capital of Jamaica?",
+      "question_ur": "Jamaica کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Kingston",
+          "New Delhi",
+          "Yerevan",
+          "Kuwait City"
+        ],
+        "ur": [
+          "Kingston",
+          "New Delhi",
+          "Yerevan",
+          "Kuwait City"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Jamaica is Kingston.",
+      "explanation_ur": "Jamaica کا دارالحکومت Kingston ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "question": "What is the capital of Japan?",
+      "question_ur": "Japan کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Tallinn",
+          "Tokyo",
+          "Santiago",
+          "Brussels"
+        ],
+        "ur": [
+          "Tallinn",
+          "Tokyo",
+          "Santiago",
+          "Brussels"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Japan is Tokyo.",
+      "explanation_ur": "Japan کا دارالحکومت Tokyo ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "question": "What is the capital of Jordan?",
+      "question_ur": "Jordan کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Amman",
+          "Santiago",
+          "Thimphu",
+          "Quito"
+        ],
+        "ur": [
+          "Amman",
+          "Santiago",
+          "Thimphu",
+          "Quito"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Jordan is Amman.",
+      "explanation_ur": "Jordan کا دارالحکومت Amman ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "question": "What is the capital of Kazakhstan?",
+      "question_ur": "Kazakhstan کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Paris",
+          "N'Djamena",
+          "Budapest",
+          "Astana"
+        ],
+        "ur": [
+          "Paris",
+          "N'Djamena",
+          "Budapest",
+          "Astana"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Kazakhstan is Astana.",
+      "explanation_ur": "Kazakhstan کا دارالحکومت Astana ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 84,
+      "type": "mcq",
+      "question": "What is the capital of Kenya?",
+      "question_ur": "Kenya کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Tegucigalpa",
+          "Baghdad",
+          "Algiers",
+          "Nairobi"
+        ],
+        "ur": [
+          "Tegucigalpa",
+          "Baghdad",
+          "Algiers",
+          "Nairobi"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Kenya is Nairobi.",
+      "explanation_ur": "Kenya کا دارالحکومت Nairobi ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "What is the capital of Kiribati?",
+      "question_ur": "Kiribati کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Guatemala City",
+          "Tarawa",
+          "Tehran",
+          "Dhaka"
+        ],
+        "ur": [
+          "Guatemala City",
+          "Tarawa",
+          "Tehran",
+          "Dhaka"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Kiribati is Tarawa.",
+      "explanation_ur": "Kiribati کا دارالحکومت Tarawa ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 86,
+      "type": "mcq",
+      "question": "What is the capital of Kuwait?",
+      "question_ur": "Kuwait کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Kuwait City",
+          "Asmara",
+          "Santiago",
+          "Vientiane"
+        ],
+        "ur": [
+          "Kuwait City",
+          "Asmara",
+          "Santiago",
+          "Vientiane"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Kuwait is Kuwait City.",
+      "explanation_ur": "Kuwait کا دارالحکومت Kuwait City ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "question": "What is the capital of Kyrgyzstan?",
+      "question_ur": "Kyrgyzstan کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Beijing",
+          "Dhaka",
+          "Bishkek",
+          "Amman"
+        ],
+        "ur": [
+          "Beijing",
+          "Dhaka",
+          "Bishkek",
+          "Amman"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Kyrgyzstan is Bishkek.",
+      "explanation_ur": "Kyrgyzstan کا دارالحکومت Bishkek ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "question": "What is the capital of Laos?",
+      "question_ur": "Laos کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Moroni",
+          "Vientiane",
+          "N'Djamena",
+          "Jakarta"
+        ],
+        "ur": [
+          "Moroni",
+          "Vientiane",
+          "N'Djamena",
+          "Jakarta"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Laos is Vientiane.",
+      "explanation_ur": "Laos کا دارالحکومت Vientiane ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "question": "What is the capital of Latvia?",
+      "question_ur": "Latvia کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Kabul",
+          "Vilnius",
+          "Tarawa",
+          "Riga"
+        ],
+        "ur": [
+          "Kabul",
+          "Vilnius",
+          "Tarawa",
+          "Riga"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Latvia is Riga.",
+      "explanation_ur": "Latvia کا دارالحکومت Riga ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 90,
+      "type": "mcq",
+      "question": "What is the capital of Lebanon?",
+      "question_ur": "Lebanon کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Monrovia",
+          "Vaduz",
+          "Beirut",
+          "Moroni"
+        ],
+        "ur": [
+          "Monrovia",
+          "Vaduz",
+          "Beirut",
+          "Moroni"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Lebanon is Beirut.",
+      "explanation_ur": "Lebanon کا دارالحکومت Beirut ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "What is the capital of Lesotho?",
+      "question_ur": "Lesotho کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Maseru",
+          "Banjul",
+          "Athens",
+          "Gaborone"
+        ],
+        "ur": [
+          "Maseru",
+          "Banjul",
+          "Athens",
+          "Gaborone"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Lesotho is Maseru.",
+      "explanation_ur": "Lesotho کا دارالحکومت Maseru ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 92,
+      "type": "mcq",
+      "question": "What is the capital of Liberia?",
+      "question_ur": "Liberia کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Monrovia",
+          "Tegucigalpa",
+          "Berlin",
+          "Yerevan"
+        ],
+        "ur": [
+          "Monrovia",
+          "Tegucigalpa",
+          "Berlin",
+          "Yerevan"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The capital of Liberia is Monrovia.",
+      "explanation_ur": "Liberia کا دارالحکومت Monrovia ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "What is the capital of Libya?",
+      "question_ur": "Libya کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Vienna",
+          "Tripoli",
+          "Vaduz",
+          "San Salvador"
+        ],
+        "ur": [
+          "Vienna",
+          "Tripoli",
+          "Vaduz",
+          "San Salvador"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The capital of Libya is Tripoli.",
+      "explanation_ur": "Libya کا دارالحکومت Tripoli ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "question": "What is the capital of Liechtenstein?",
+      "question_ur": "Liechtenstein کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Bridgetown",
+          "Brussels",
+          "Vaduz",
+          "Paris"
+        ],
+        "ur": [
+          "Bridgetown",
+          "Brussels",
+          "Vaduz",
+          "Paris"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Liechtenstein is Vaduz.",
+      "explanation_ur": "Liechtenstein کا دارالحکومت Vaduz ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 95,
+      "type": "mcq",
+      "question": "What is the capital of Lithuania?",
+      "question_ur": "Lithuania کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Kuwait City",
+          "Astana",
+          "Dhaka",
+          "Vilnius"
+        ],
+        "ur": [
+          "Kuwait City",
+          "Astana",
+          "Dhaka",
+          "Vilnius"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The capital of Lithuania is Vilnius.",
+      "explanation_ur": "Lithuania کا دارالحکومت Vilnius ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 96,
+      "type": "mcq",
+      "question": "What is the capital of Luxembourg?",
+      "question_ur": "Luxembourg کا دارالحکومت کیا ہے؟",
+      "options": {
+        "en": [
+          "Thimphu",
+          "Sucre",
+          "Luxembourg City",
+          "Baku"
+        ],
+        "ur": [
+          "Thimphu",
+          "Sucre",
+          "Luxembourg City",
+          "Baku"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The capital of Luxembourg is Luxembourg City.",
+      "explanation_ur": "Luxembourg کا دارالحکومت Luxembourg City ہے۔",
+      "hint": "Think about famous landmarks or historical sites.",
+      "hint_ur": "مشہور نشانیوں یا تاریخی مقامات کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    }
+  ]
+}

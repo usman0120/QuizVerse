@@ -1,0 +1,412 @@
+{
+  "version": "2.0",
+  "lastUpdated": "2025-08-07",
+  "categories": [
+    {
+      "id": "stem",
+      "name": "STEM",
+      "description": "Science, Technology, Engineering, and Mathematics",
+      "icon": "fas fa-atom"
+    },
+    {
+      "id": "humanities",
+      "name": "Humanities",
+      "description": "Language, History, and Social Sciences",
+      "icon": "fas fa-landmark"
+    },
+    {
+      "id": "languages",
+      "name": "Languages",
+      "description": "Foreign and native language learning",
+      "icon": "fas fa-language"
+    }
+  ],
+  "groups": [
+    {
+      "id": "kids",
+      "name": "Kids",
+      "description": "Ages 5-12",
+      "color": "kids"
+    },
+    {
+      "id": "students",
+      "name": "Students",
+      "description": "Ages 13-22",
+      "color": "science"
+    },
+    {
+      "id": "adults",
+      "name": "Adults",
+      "description": "Ages 23+",
+      "color": "primary"
+    }
+  ],
+  "decks": [
+    {
+      "id": "advanced-math",
+      "title": "Advanced Mathematics",
+      "category": "STEM",
+      "group": "Students",
+      "description": "University-level mathematics concepts and formulas",
+      "tags": ["calculus", "algebra", "proofs"],
+      "author": "Dr. Sarah Chen",
+      "created": "2025-01-15",
+      "lastUpdated": "2025-07-20",
+      "difficulty": "advanced",
+      "cards": [
+        {
+          "front": "What is the derivative of f(x) = eˣ sin(x)?",
+          "back": "eˣ(sin(x) + cos(x))",
+          "hint": "Use the product rule",
+          "example": "At x=0, the derivative is e⁰(sin(0) + cos(0)) = 1",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Trigonometric_functions.svg/1200px-Trigonometric_functions.svg.png",
+          "mnemonic": "eˣ stays, derivative of sin is cos, add them together",
+          "reference": "Calculus 8th Edition, James Stewart, Section 3.3"
+        },
+        {
+          "front": "State the Fundamental Theorem of Calculus",
+          "back": "If f is continuous on [a,b] and F is an antiderivative of f, then ∫ₐᵇ f(x)dx = F(b) - F(a)",
+          "hint": "Connects differentiation and integration",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fundamental_theorem_of_calculus_%28animation%29.gif/440px-Fundamental_theorem_of_calculus_%28animation%29.gif",
+          "reference": "Calculus 8th Edition, James Stewart, Section 5.3"
+        },
+        {
+          "front": "What is the solution to the differential equation dy/dx = ky?",
+          "back": "y = Ceᵏˣ",
+          "hint": "This describes exponential growth/decay",
+          "example": "Population growth, radioactive decay",
+          "image": null,
+          "mnemonic": "The derivative is proportional to the function itself"
+        }
+      ]
+    },
+    {
+      "id": "world-history",
+      "title": "World History Timeline",
+      "category": "Humanities",
+      "group": "Adults",
+      "description": "Major events in world history from ancient to modern times",
+      "tags": ["history", "timeline", "civilizations"],
+      "author": "Prof. James Wilson",
+      "created": "2024-11-05",
+      "lastUpdated": "2025-06-18",
+      "difficulty": "intermediate",
+      "cards": [
+        {
+          "front": "When did the Industrial Revolution begin?",
+          "back": "Late 18th century (1760-1840)",
+          "hint": "Started in Britain",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Streets_of_London_by_Gustave_Dor%C3%A9.jpg/800px-Streets_of_London_by_Gustave_Dor%C3%A9.jpg",
+          "example": "Key inventions: steam engine, spinning jenny",
+          "reference": "The Industrial Revolution, Ashton (1948)"
+        },
+        {
+          "front": "What was the significance of the Magna Carta (1215)?",
+          "back": "Established the principle that everyone is subject to the law, including the king",
+          "hint": "Latin for 'Great Charter'",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg/800px-Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg",
+          "mnemonic": "First step toward constitutional government"
+        },
+        {
+          "front": "Which empire built the Taj Mahal?",
+          "back": "Mughal Empire",
+          "hint": "17th century India",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg/800px-Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "example": "Built by Shah Jahan as a mausoleum for his wife Mumtaz Mahal"
+        }
+      ]
+    },
+    {
+      "id": "medical-terminology",
+      "title": "Medical Terminology",
+      "category": "STEM",
+      "group": "Adults",
+      "description": "Essential terms for medical students and professionals",
+      "tags": ["medicine", "biology", "healthcare"],
+      "author": "Dr. Amanda Rodriguez",
+      "created": "2025-03-10",
+      "lastUpdated": "2025-08-01",
+      "difficulty": "advanced",
+      "cards": [
+        {
+          "front": "What does 'hemiplegia' mean?",
+          "back": "Paralysis of one side of the body",
+          "hint": "Prefix 'hemi-' means half",
+          "example": "Common after strokes affecting one brain hemisphere",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Hemiplegia.jpg/800px-Hemiplegia.jpg",
+          "mnemonic": "Hemi + plegia (paralysis) = half paralysis"
+        },
+        {
+          "front": "Define 'tachycardia'",
+          "back": "Abnormally rapid heart rate (>100 bpm in adults)",
+          "hint": "Prefix 'tachy-' means fast",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Sinus_tachycardia.png/800px-Sinus_tachycardia.png",
+          "reference": "Gray's Anatomy, 42nd Edition"
+        },
+        {
+          "front": "What is the difference between 'proximal' and 'distal'?",
+          "back": "Proximal: closer to point of attachment; Distal: farther from point of attachment",
+          "hint": "Think 'proximity'",
+          "example": "The elbow is proximal to the wrist but distal to the shoulder",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Anatomical_directions.svg/800px-Anatomical_directions.svg.png"
+        }
+      ]
+    },
+    {
+      "id": "spanish-101",
+      "title": "Spanish for Beginners",
+      "category": "Languages",
+      "group": "Kids",
+      "description": "Basic Spanish vocabulary and phrases for young learners",
+      "tags": ["spanish", "beginner", "language"],
+      "author": "Señorita Maria Gonzalez",
+      "created": "2025-02-20",
+      "lastUpdated": "2025-07-15",
+      "difficulty": "beginner",
+      "cards": [
+        {
+          "front": "How do you say 'hello' in Spanish?",
+          "back": "¡Hola!",
+          "hint": "Sounds similar to 'oh-la'",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Spanish_language_in_the_Americas_and_Spain.png/800px-Spanish_language_in_the_Americas_and_Spain.png",
+          "audio": "https://example.com/audio/hola.mp3"
+        },
+        {
+          "front": "What is 'gracias' in English?",
+          "back": "Thank you",
+          "hint": "You say it when someone helps you",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Hand_Heart.jpg/800px-Hand_Heart.jpg",
+          "audio": "https://example.com/audio/gracias.mp3",
+          "mnemonic": "Grace = gracious = thanks"
+        },
+        {
+          "front": "Count from 1 to 5 in Spanish",
+          "back": "Uno, dos, tres, cuatro, cinco",
+          "hint": "Uno starts like 'universe'",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Numbers_1_thru_5.svg/800px-Numbers_1_thru_5.svg.png",
+          "audio": "https://example.com/audio/numbers1-5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "computer-science",
+      "title": "Computer Science Fundamentals",
+      "category": "STEM",
+      "group": "Students",
+      "description": "Key concepts in computer science and programming",
+      "tags": ["programming", "algorithms", "data-structures"],
+      "author": "Prof. Alan Turing Institute",
+      "created": "2024-09-12",
+      "lastUpdated": "2025-07-30",
+      "difficulty": "intermediate",
+      "cards": [
+        {
+          "front": "What is the time complexity of binary search?",
+          "back": "O(log n)",
+          "hint": "The search space halves with each step",
+          "example": "Searching 1M items takes ~20 comparisons (log₂1M ≈ 20)",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Binary_Search_Depiction.svg/800px-Binary_Search_Depiction.svg.png"
+        },
+        {
+          "front": "Name the four pillars of object-oriented programming",
+          "back": "Encapsulation, Abstraction, Inheritance, Polymorphism",
+          "hint": "EAIP (like the word 'ape')",
+          "mnemonic": "EAIP - Every Apple Is Polished"
+        },
+        {
+          "front": "What does the HTTP status code 404 mean?",
+          "back": "Not Found - The requested resource could not be found",
+          "hint": "Common error when a webpage doesn't exist",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/HTTP-404_-_Not_Found.png/800px-HTTP-404_-_Not_Found.png"
+        }
+      ]
+    },
+    {
+      "id": "islamic-studies",
+      "title": "Islamic Beliefs and Practices",
+      "category": "Humanities",
+      "group": "Adults",
+      "description": "Core concepts in Islamic theology and daily practices",
+      "tags": ["religion", "islam", "theology"],
+      "author": "Sheikh Abdullah Al-Mansoori",
+      "created": "2024-10-08",
+      "lastUpdated": "2025-06-25",
+      "difficulty": "intermediate",
+      "cards": [
+        {
+          "front": "What are the Five Pillars of Islam?",
+          "back": "Shahada (Faith), Salah (Prayer), Zakat (Charity), Sawm (Fasting), Hajj (Pilgrimage)",
+          "hint": "There are five fundamental acts",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kaaba_Masjid_Al_Haram_Makkah_Saudi_Arabia.jpg/800px-Kaaba_Masjid_Al_Haram_Makkah_Saudi_Arabia.jpg",
+          "mnemonic": "Faith, Prayer, Charity, Fasting, Pilgrimage"
+        },
+        {
+          "front": "How many times a day do Muslims pray?",
+          "back": "5 times (Fajr, Dhuhr, Asr, Maghrib, Isha)",
+          "hint": "At dawn, noon, afternoon, sunset, and night",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Muslim_prayer_positions.svg/800px-Muslim_prayer_positions.svg.png"
+        },
+        {
+          "front": "What is the significance of Ramadan?",
+          "back": "The month when the Quran was first revealed; Muslims fast from dawn to sunset",
+          "hint": "9th month of the Islamic calendar",
+          "example": "Fasting develops self-discipline and empathy for the less fortunate",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Ramadan_meal.jpg/800px-Ramadan_meal.jpg"
+        }
+      ]
+    },
+    {
+      "id": "biology-anatomy",
+      "title": "Human Anatomy Basics",
+      "category": "STEM",
+      "group": "Students",
+      "description": "Essential structures and systems of the human body",
+      "tags": ["biology", "anatomy", "physiology"],
+      "author": "Dr. Lisa Park",
+      "created": "2025-04-05",
+      "lastUpdated": "2025-07-22",
+      "difficulty": "intermediate",
+      "cards": [
+        {
+          "front": "What is the largest organ in the human body?",
+          "back": "The skin",
+          "hint": "Covers your entire body",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Skin_layers.svg/800px-Skin_layers.svg.png",
+          "example": "Average adult skin weighs about 8 pounds (3.6 kg)"
+        },
+        {
+          "front": "How many bones are in the adult human body?",
+          "back": "206 bones",
+          "hint": "Babies have more (about 300) that fuse together",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Human_skeleton_back_en.svg/800px-Human_skeleton_back_en.svg.png",
+          "mnemonic": "206 = 200 + 6 (easy to remember)"
+        },
+        {
+          "front": "What are the three types of muscle tissue?",
+          "back": "Skeletal, cardiac, and smooth muscle",
+          "hint": "One is voluntary, two are involuntary",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Muscle_Tissue_%281%29.svg/800px-Muscle_Tissue_%281%29.svg.png",
+          "reference": "Anatomy & Physiology, OpenStax"
+        }
+      ]
+    },
+    {
+      "id": "art-history",
+      "title": "Famous Artists and Movements",
+      "category": "Humanities",
+      "group": "Adults",
+      "description": "Masterpieces and artists that shaped art history",
+      "tags": ["art", "history", "culture"],
+      "author": "Dr. Emily Van Gogh",
+      "created": "2024-12-18",
+      "lastUpdated": "2025-07-10",
+      "difficulty": "intermediate",
+      "cards": [
+        {
+          "front": "Who painted the Mona Lisa?",
+          "back": "Leonardo da Vinci",
+          "hint": "Italian Renaissance polymath",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/800px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+          "example": "Painted between 1503-1519, now in the Louvre"
+        },
+        {
+          "front": "What art movement is Salvador Dalí associated with?",
+          "back": "Surrealism",
+          "hint": "Dream-like, bizarre imagery",
+          "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/The_Persistence_of_Memory.jpg/800px-The_Persistence_of_Memory.jpg",
+          "mnemonic": "Dalí's melting clocks = surreal"
+        },
+        {
+          "front": "Name three characteristics of Impressionism",
+          "back": "1. Visible brush strokes\n2. Emphasis on light\n3. Ordinary subject matter\n4. Open composition",
+          "hint": "Began in 19th century France",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/800px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg",
+          "reference": "Art Through the Ages, Gardner"
+        }
+      ]
+    },
+    {
+      "id": "financial-literacy",
+      "title": "Personal Finance Basics",
+      "category": "Humanities",
+      "group": "Adults",
+      "description": "Essential concepts for managing personal finances",
+      "tags": ["finance", "money", "economics"],
+      "author": "CFP John Smith",
+      "created": "2025-01-30",
+      "lastUpdated": "2025-08-05",
+      "difficulty": "beginner",
+      "cards": [
+        {
+          "front": "What is the 50/30/20 budgeting rule?",
+          "back": "50% needs, 30% wants, 20% savings/debt repayment",
+          "hint": "A simple budgeting framework",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Personal_budget.svg/800px-Personal_budget.svg.png",
+          "example": "On $3,000 income: $1,500 needs, $900 wants, $600 savings"
+        },
+        {
+          "front": "What is compound interest?",
+          "back": "Interest calculated on initial principal + accumulated interest",
+          "hint": "Money makes money, which makes more money",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Compound_Interest_with_Varying_Frequencies.svg/800px-Compound_Interest_with_Varying_Frequencies.svg.png",
+          "mnemonic": "Your interest earns interest"
+        },
+        {
+          "front": "What's the difference between a Roth and Traditional IRA?",
+          "back": "Roth: pay taxes now, withdraw tax-free\nTraditional: tax-deductible now, pay taxes on withdrawal",
+          "hint": "Consider current vs future tax rates",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/401k_vs_IRA.svg/800px-401k_vs_IRA.svg.png"
+        }
+      ]
+    },
+    {
+      "id": "kids-science",
+      "title": "Science Fun for Kids",
+      "category": "STEM",
+      "group": "Kids",
+      "description": "Basic science concepts explained simply for children",
+      "tags": ["science", "kids", "learning"],
+      "author": "Ms. Frizzle",
+      "created": "2025-05-15",
+      "lastUpdated": "2025-07-28",
+      "difficulty": "beginner",
+      "cards": [
+        {
+          "front": "What are the three states of matter?",
+          "back": "Solid, liquid, and gas",
+          "hint": "Ice, water, steam",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/States_of_matter_En.svg/800px-States_of_matter_En.svg.png",
+          "audio": "https://example.com/audio/matter.mp3"
+        },
+        {
+          "front": "Why do we have day and night?",
+          "back": "Because the Earth rotates on its axis every 24 hours",
+          "hint": "The sun doesn't actually 'rise' and 'set'",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Rotation_Revolution.gif/800px-Rotation_Revolution.gif",
+          "example": "When your side faces the sun, it's daytime"
+        },
+        {
+          "front": "What do plants need to grow?",
+          "back": "Sunlight, water, air (CO₂), and nutrients from soil",
+          "hint": "Think about what you give a houseplant",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Photosynthesis.gif/800px-Photosynthesis.gif",
+          "mnemonic": "SWAN - Sun, Water, Air, Nutrients"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "totalDecks": 10,
+    "totalCards": 30,
+    "categories": {
+      "STEM": 4,
+      "Humanities": 4,
+      "Languages": 1
+    },
+    "groups": {
+      "Kids": 2,
+      "Students": 4,
+      "Adults": 4
+    }
+  }
+}

@@ -1,0 +1,1408 @@
+{
+  "meta": {
+    "category": "Birds",
+    "category_ur": "پرندے",
+    "description": "Test your knowledge about various bird species and facts",
+    "description_ur": "مختلف پرندوں کی انواع اور حقائق کے بارے میں اپنے علم کا امتحان لیں",
+    "difficulty": "easy",
+    "image": "birds.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What is the largest living bird in the world?",
+      "question_ur": "دنیا کا سب سے بڑا زندہ پرندہ کون سا ہے؟",
+      "options": {
+        "en": ["Eagle", "Ostrich", "Albatross", "Emu"],
+        "ur": ["عقاب", "شتر مرغ", "الباٹروس", "ایمو"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The ostrich is the world's largest living bird, reaching up to 9 feet tall.",
+      "explanation_ur": "شتر مرغ دنیا کا سب سے بڑا زندہ پرندہ ہے، جو 9 فٹ تک لمبا ہو سکتا ہے۔",
+      "hint": "This bird cannot fly but is an excellent runner",
+      "hint_ur": "یہ پرندہ اڑ نہیں سکتا لیکن بہترین دوڑنے والا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 2,
+      "type": "true-false",
+      "question": "All birds can fly.",
+      "question_ur": "تمام پرندے اڑ سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "While most birds can fly, some like penguins, ostriches, and kiwis cannot.",
+      "explanation_ur": "اگرچہ زیادہ تر پرندے اڑ سکتے ہیں، لیکن پینگوئن، شتر مرغ اور کیوی جیسے کچھ نہیں اڑ سکتے۔",
+      "hint": "Think about penguins and ostriches",
+      "hint_ur": "پینگوئن اور شتر مرغ کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which bird is known for its beautiful tail feathers used in courtship displays?",
+      "question_ur": "کون سا پرندہ خوبصورت دم کے پروں کے لیے جانا جاتا ہے جو منگنی کے مظاہرے میں استعمال ہوتے ہیں؟",
+      "options": {
+        "en": ["Peacock", "Parrot", "Flamingo", "Swan"],
+        "ur": ["مور", "طوطا", "فلیمنگو", "ہنس"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The peacock is famous for its iridescent tail feathers that it fans out in courtship displays.",
+      "explanation_ur": "مور اپنے چمکیلے دم کے پروں کے لیے مشہور ہے جو وہ منگنی کے مظاہرے میں پھیلاتا ہے۔",
+      "hint": "This is the national bird of India",
+      "hint_ur": "یہ ہندوستان کا قومی پرندہ ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "What is the fastest bird in level flight?",
+      "question_ur": "سیدھی پرواز میں سب سے تیز پرندہ کون سا ہے؟",
+      "options": {
+        "en": ["Peregrine Falcon", "Eagle", "Swift", "Hummingbird"],
+        "ur": ["پیریگرین فالکن", "عقاب", "سوئفٹ", "ہمنگ برڈ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The common swift can reach speeds of 69 mph in level flight.",
+      "explanation_ur": "عام سوئفٹ سیدھی پرواز میں 69 میل فی گھنٹہ کی رفتار تک پہنچ سکتی ہے۔",
+      "hint": "This bird spends most of its life flying",
+      "hint_ur": "یہ پرندہ اپنی زندگی کا زیادہ تر وقت پرواز میں گزارتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "question": "Penguins are only found in cold climates like Antarctica.",
+      "question_ur": "پینگوئن صرف سرد آب و ہوا جیسے انٹارکٹیکا میں پائے جاتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "While many penguin species live in Antarctica, some live in warmer climates like the Galapagos Islands.",
+      "explanation_ur": "اگرچہ بہت سی پینگوئن انواع انٹارکٹیکا میں رہتی ہیں، کچھ گرم آب و ہوا جیسے گالاپاگوس جزائر میں رہتی ہیں۔",
+      "hint": "Consider tropical penguins",
+      "hint_ur": "گرم خطے کے پینگوئنز کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to mimic human speech?",
+      "question_ur": "کون سا پرندہ انسانی تقریر کی نقل کرنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Crow", "Parrot", "Owl", "Pigeon"],
+        "ur": ["کوّا", "طوطا", "الو", "کبوتر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Parrots, especially African grey parrots, are famous for their ability to mimic human speech.",
+      "explanation_ur": "طوطے، خاص طور پر افریقی گرے طوطے، انسانی تقریر کی نقل کرنے کی صلاحیت کے لیے مشہور ہیں۔",
+      "hint": "These birds are often kept as pets",
+      "hint_ur": "یہ پرندے اکثر پالتو جانوروں کے طور پر رکھے جاتے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "What color are flamingos naturally?",
+      "question_ur": "فلیمنگو قدرتی طور پر کس رنگ کے ہوتے ہیں؟",
+      "options": {
+        "en": ["Pink", "White", "Grey", "Blue"],
+        "ur": ["گلابی", "سفید", "سرمئی", "نیلا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Flamingos are naturally grey; they turn pink from eating shrimp and algae containing carotenoids.",
+      "explanation_ur": "فلیمنگو قدرتی طور پر سرمئی ہوتے ہیں؛ وہ کیروٹینائڈز والے جھینگوں اور طحالب کھانے سے گلابی ہو جاتے ہیں۔",
+      "hint": "Their color comes from their diet",
+      "hint_ur": "ان کا رنگ ان کے خوراک سے آتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 8,
+      "type": "true-false",
+      "question": "Owls can turn their heads 360 degrees.",
+      "question_ur": "الو اپنے سروں کو 360 ڈگری گھما سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Owls can turn their heads up to 270 degrees, not a full 360.",
+      "explanation_ur": "الو اپنے سروں کو 270 ڈگری تک گھما سکتے ہیں، مکمل 360 نہیں۔",
+      "hint": "They have flexible necks but not that flexible",
+      "hint_ur": "ان کی گردنیں لچکدار ہوتی ہیں لیکن اتنی نہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Which bird is a symbol of peace?",
+      "question_ur": "کون سا پرندہ امن کی علامت ہے؟",
+      "options": {
+        "en": ["Eagle", "Dove", "Swan", "Peacock"],
+        "ur": ["عقاب", "فاختہ", "ہنس", "مور"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The dove, particularly the white dove, is universally recognized as a symbol of peace.",
+      "explanation_ur": "فاختہ، خاص طور پر سفید فاختہ، عالمی طور پر امن کی علامت کے طور پر پہچانی جاتی ہے۔",
+      "hint": "Often depicted with an olive branch",
+      "hint_ur": "اکثر زیتون کی ٹہنی کے ساتھ دکھائی جاتی ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "What is the smallest bird in the world?",
+      "question_ur": "دنیا کا سب سے چھوٹا پرندہ کون سا ہے؟",
+      "options": {
+        "en": ["Bee Hummingbird", "Finch", "Wren", "Sunbird"],
+        "ur": ["بی ہمنگ برڈ", "فنچ", "رین", "سن برڈ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The bee hummingbird of Cuba is the smallest bird, measuring about 2 inches long.",
+      "explanation_ur": "کیوبا کی بی ہمنگ برڈ سب سے چھوٹا پرندہ ہے، جو تقریباً 2 انچ لمبا ہوتا ہے۔",
+      "hint": "Its name suggests it's as small as an insect",
+      "hint_ur": "اس کے نام سے پتہ چلتا ہے کہ یہ ایک کیڑے جتنا چھوٹا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "question": "All birds lay eggs.",
+      "question_ur": "تمام پرندے انڈے دیتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "All bird species reproduce by laying eggs, though the size and number vary greatly.",
+      "explanation_ur": "پرندوں کی تمام انواع انڈے دے کر تولید کرتی ہیں، اگرچہ سائز اور تعداد بہت مختلف ہوتی ہے۔",
+      "hint": "This is a defining characteristic of birds",
+      "hint_ur": "یہ پرندوں کی ایک تعریفی خصوصیت ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Which bird is known for its long migration, traveling from the Arctic to Antarctica?",
+      "question_ur": "کون سا پرندہ اپنی طویل نقل مکانی کے لیے جانا جاتا ہے، جو آرکٹک سے انٹارکٹیکا تک سفر کرتا ہے؟",
+      "options": {
+        "en": ["Albatross", "Arctic Tern", "Penguin", "Canadian Goose"],
+        "ur": ["الباٹروس", "آرکٹک ٹرن", "پینگوئن", "کینیڈین گوز"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Arctic tern makes the longest migration of any animal, traveling about 44,000 miles round trip.",
+      "explanation_ur": "آرکٹک ٹرن کسی بھی جانور کی سب سے لمبی نقل مکانی کرتی ہے، تقریباً 44,000 میل کا چکر لگاتی ہے۔",
+      "hint": "It experiences two summers each year",
+      "hint_ur": "یہ ہر سال دو گرمیاں گزارتی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "What is a group of crows called?",
+      "question_ur": "کوؤں کے گروپ کو کیا کہتے ہیں؟",
+      "options": {
+        "en": ["Flock", "Murder", "Herd", "Pack"],
+        "ur": ["جھنڈ", "قتل", "ریوڑ", "پیک"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A group of crows is called a murder, though flock is also sometimes used.",
+      "explanation_ur": "کوؤں کے گروپ کو قتل کہتے ہیں، اگرچہ جھنڈ بھی کبھی کبھی استعمال ہوتا ہے۔",
+      "hint": "The term sounds ominous",
+      "hint_ur": "اصطلاح سننے میں خطرناک لگتی ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "question": "Chickens are the closest living relatives to the Tyrannosaurus rex.",
+      "question_ur": "مرغیاں ٹائرانوسورس ریکس کے قریب ترین زندہ رشتہ دار ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Scientific studies have shown that chickens and other birds are the closest living relatives to dinosaurs like T. rex.",
+      "explanation_ur": "سائنسی مطالعات سے پتہ چلا ہے کہ مرغیاں اور دوسرے پرندے ٹی ریکس جیسے ڈائنوسار کے قریب ترین زندہ رشتہ دار ہیں۔",
+      "hint": "Birds evolved from dinosaurs",
+      "hint_ur": "پرندے ڈائنوسار سے ارتقا پذیر ہوئے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Which bird is known for building elaborate nests called 'bowers' to attract mates?",
+      "question_ur": "کون سا پرندہ ساتھیوں کو راغب کرنے کے لیے 'باؤرز' کہلانے والے پیچیدہ گھونسلے بنانے کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Weaver Bird", "Bowerbird", "Woodpecker", "Robin"],
+        "ur": ["ویور برڈ", "باؤر برڈ", "ووڈپیکر", "رابن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Male bowerbirds build elaborate structures decorated with colorful objects to attract females.",
+      "explanation_ur": "نر باؤر برڈ رنگین چیزوں سے سجے پیچیدہ ڈھانچے بناتے ہیں تاکہ مادہ کو راغب کریں۔",
+      "hint": "They're famous for their courtship structures",
+      "hint_ur": "وہ اپنے منگنی کے ڈھانچے کے لیے مشہور ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "Which bird is associated with delivering babies in folklore?",
+      "question_ur": "کون سا پرندہ لوک کہانیوں میں بچے پہنچانے سے منسلک ہے؟",
+      "options": {
+        "en": ["Stork", "Owl", "Eagle", "Sparrow"],
+        "ur": ["سارس", "الو", "عقاب", "چڑیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "European folklore tells that storks deliver babies to new parents.",
+      "explanation_ur": "یورپی لوک کہانیوں میں بتایا جاتا ہے کہ سارس نئے والدین کو بچے پہنچاتے ہیں۔",
+      "hint": "Often seen nesting on chimneys",
+      "hint_ur": "اکثر چمنیوں پر گھونسلہ بناتے دیکھے جاتے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 17,
+      "type": "true-false",
+      "question": "A group of owls is called a parliament.",
+      "question_ur": "الوؤں کے گروپ کو پارلیمنٹ کہتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "While not a scientific term, a group of owls is poetically called a parliament.",
+      "explanation_ur": "اگرچہ یہ ایک سائنسی اصطلاح نہیں ہے، الوؤں کے گروپ کو شاعرانہ طور پر پارلیمنٹ کہا جاتا ہے۔",
+      "hint": "This term reflects their perceived wisdom",
+      "hint_ur": "یہ اصطلاح ان کی سمجھی جانے والی عقلمندی کو ظاہر کرتی ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Which bird is the national symbol of the United States?",
+      "question_ur": "کون سا پرندہ ریاستہائے متحدہ کا قومی نشان ہے؟",
+      "options": {
+        "en": ["Eagle", "Turkey", "Hawk", "Robin"],
+        "ur": ["عقاب", "پیرو", "باز", "رابن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The bald eagle has been the national emblem of the United States since 1782.",
+      "explanation_ur": "1782 سے بالڈ ایگل ریاستہائے متحدہ کا قومی نشان رہا ہے۔",
+      "hint": "It appears on the Great Seal of the U.S.",
+      "hint_ur": "یہ امریکہ کی عظیم مہر پر نظر آتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "What is the only bird that can fly backwards?",
+      "question_ur": "وہ کون سا واحد پرندہ ہے جو پیچھے کی طرف اڑ سکتا ہے؟",
+      "options": {
+        "en": ["Hummingbird", "Kingfisher", "Swift", "Bat"],
+        "ur": ["ہمنگ برڈ", "کنگ فشر", "سوئفٹ", "چمگادڑ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Hummingbirds can fly backwards due to their unique wing structure and rapid wing beats.",
+      "explanation_ur": "ہمنگ برڈز اپنے منفرد پر ڈھانچے اور تیز پر مارنے کی وجہ سے پیچھے کی طرف اڑ سکتے ہیں۔",
+      "hint": "They can also hover in place",
+      "hint_ur": "یہ ایک جگہ پر بھی معلق رہ سکتے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 20,
+      "type": "true-false",
+      "question": "All birds have feathers.",
+      "question_ur": "تمام پرندوں کے پر ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Feathers are a defining characteristic of all bird species.",
+      "explanation_ur": "پر تمام پرندوں کی انواع کی ایک تعریفی خصوصیت ہیں۔",
+      "hint": "This is one of the main features that distinguishes birds",
+      "hint_ur": "یہ پرندوں کو ممتاز کرنے والی اہم خصوصیات میں سے ایک ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Which bird is known for its laughing call?",
+      "question_ur": "کون سا پرندہ اپنی ہنستے ہوئے آواز کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Kookaburra", "Owl", "Seagull", "Parrot"],
+        "ur": ["کوکابورا", "الو", "سی گل", "طوطا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The kookaburra's distinctive call sounds like human laughter.",
+      "explanation_ur": "کوکابورا کی مخصوص آواز انسانی ہنسی کی طرح لگتی ہے۔",
+      "hint": "Native to Australia",
+      "hint_ur": "آسٹریلیا کا مقامی",
+      "timeLimit": 20
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "Which bird is the fastest animal on Earth when diving?",
+      "question_ur": "زمین پر سب سے تیز جانور کون سا پرندہ ہے جب غوطہ لگاتا ہے؟",
+      "options": {
+        "en": ["Eagle", "Peregrine Falcon", "Hawk", "Swift"],
+        "ur": ["عقاب", "پیریگرین فالکن", "باز", "سوئفٹ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The peregrine falcon can reach speeds over 240 mph during its hunting dive.",
+      "explanation_ur": "پیریگرین فالکن شکار کے دوران غوطہ لگاتے وقت 240 میل فی گھنٹہ سے زیادہ کی رفتار تک پہنچ سکتی ہے۔",
+      "hint": "It's the fastest creature in the animal kingdom",
+      "hint_ur": "یہ جانوروں کی دنیا کا تیز ترین جانور ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 23,
+      "type": "true-false",
+      "question": "Penguins mate for life.",
+      "question_ur": "پینگوئن زندگی بھر کے لیے ساتھی بناتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "While some penguin species are monogamous within a breeding season, most don't mate for life.",
+      "explanation_ur": "اگرچہ کچھ پینگوئن انواع افزائش نسل کے موسم میں یک زوجگی کرتی ہیں، زیادہ تر زندگی بھر کے لیے ساتھی نہیں بناتیں۔",
+      "hint": "Their mating habits vary by species",
+      "hint_ur": "ان کی ملاپ کی عادات انواع کے لحاظ سے مختلف ہوتی ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which bird is known for its colorful beak?",
+      "question_ur": "کون سا پرندہ اپنی رنگین چونچ کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Toucan", "Parrot", "Hornbill", "Puffin"],
+        "ur": ["ٹوکان", "طوطا", "ہارن بل", "پفن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The toucan is famous for its large, colorful beak which can be nearly as long as its body.",
+      "explanation_ur": "ٹوکان اپنی بڑی، رنگین چونچ کے لیے مشہور ہے جو اس کے جسم کے تقریباً برابر لمبی ہو سکتی ہے۔",
+      "hint": "Often seen in cereal commercials",
+      "hint_ur": "اکثر سیریل کے اشتہارات میں دیکھا جاتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "What is a baby swan called?",
+      "question_ur": "ہنس کے بچے کو کیا کہتے ہیں؟",
+      "options": {
+        "en": ["Chick", "Duckling", "Cygnet", "Gosling"],
+        "ur": ["چوزہ", "بتھ", "سگنیٹ", "گوزلنگ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A baby swan is called a cygnet, derived from the Latin word for swan, 'cygnus'.",
+      "explanation_ur": "ہنس کے بچے کو سگنیٹ کہتے ہیں، جو ہنس کے لاطینی لفظ 'سگنس' سے ماخوذ ہے۔",
+      "hint": "The term comes from Latin",
+      "hint_ur": "اصطلاح لاطینی سے آئی ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 26,
+      "type": "true-false",
+      "question": "Birds are warm-blooded animals.",
+      "question_ur": "پرندے گرم خون والے جانور ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Like mammals, birds are warm-blooded (endothermic), maintaining a constant body temperature.",
+      "explanation_ur": "ستنداریوں کی طرح، پرندے گرم خون والے (اینڈوتھرمک) ہوتے ہیں، جو جسم کا مستقل درجہ حرارت برقرار رکھتے ہیں۔",
+      "hint": "This helps them survive in various climates",
+      "hint_ur": "یہ انہیں مختلف آب و ہوا میں زندہ رہنے میں مدد کرتا ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to rotate its head almost 270 degrees?",
+      "question_ur": "کون سا پرندہ اپنے سر کو تقریباً 270 ڈگری گھمانے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Eagle", "Owl", "Parrot", "Woodpecker"],
+        "ur": ["عقاب", "الو", "طوطا", "ووڈپیکر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Owls can rotate their heads up to 270 degrees due to special adaptations in their neck vertebrae.",
+      "explanation_ur": "الو اپنے سروں کو 270 ڈگری تک گھما سکتے ہیں کیونکہ ان کی گردن کی ریڑھ کی ہڈی میں خاص موافقت ہوتی ہے۔",
+      "hint": "This helps them see prey without moving their bodies",
+      "hint_ur": "یہ انہیں اپنے جسم کو ہلائے بغیر شکار دیکھنے میں مدد کرتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "Which bird is associated with wisdom in Western culture?",
+      "question_ur": "کون سا پرندہ مغربی ثقافت میں عقلمندی سے منسلک ہے؟",
+      "options": {
+        "en": ["Eagle", "Owl", "Raven", "Swan"],
+        "ur": ["عقاب", "الو", "کوّا", "ہنس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The owl has been associated with wisdom and knowledge since ancient Greek times.",
+      "explanation_ur": "الو قدیم یونانی دور سے ہی عقلمندی اور علم سے منسلک رہا ہے۔",
+      "hint": "Often depicted with glasses in cartoons",
+      "hint_ur": "کارٹونز میں اکثر چشمے کے ساتھ دکھایا جاتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "What is the only continent where ostriches are naturally found?",
+      "question_ur": "وہ کون سا واحد براعظم ہے جہاں شتر مرغ قدرتی طور پر پائے جاتے ہیں؟",
+      "options": {
+        "en": ["Asia", "Africa", "Australia", "South America"],
+        "ur": ["ایشیا", "افریقہ", "آسٹریلیا", "جنوبی امریکہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ostriches are native to Africa, where they live in savannas and desert lands.",
+      "explanation_ur": "شتر مرغ افریقہ کے مقامی ہیں، جہاں وہ سوانا اور صحرائی زمینوں میں رہتے ہیں۔",
+      "hint": "Also home to elephants and lions",
+      "hint_ur": "ہاتھی اور شیروں کا بھی گھر",
+      "timeLimit": 20
+    },
+    {
+      "id": 30,
+      "type": "true-false",
+      "question": "All birds have teeth.",
+      "question_ur": "تمام پرندوں کے دانت ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Modern birds don't have teeth; they have beaks adapted to their diet.",
+      "explanation_ur": "جدید پرندوں کے دانت نہیں ہوتے؛ ان کی چونچ ان کی خوراک کے مطابق ڈھل جاتی ہے۔",
+      "hint": "Their ancestors had teeth",
+      "hint_ur": "ان کے آباؤ اجداد کے دانت تھے",
+      "timeLimit": 15
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Which bird is known for its dance to attract mates?",
+      "question_ur": "کون سا پرندہ ساتھیوں کو راغب کرنے کے لیے اپنے رقص کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Peacock", "Crane", "Bird of Paradise", "All of these"],
+        "ur": ["مور", "سارس", "پرڈیز آف پیراڈائز", "یہ سب"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Many bird species including peacocks, cranes, and birds of paradise perform elaborate dances for courtship.",
+      "explanation_ur": "بہت سی پرندوں کی انواع بشمول مور، سارس، اور پرڈیز آف پیراڈائز منگنی کے لیے پیچیدہ رقص کرتی ہیں۔",
+      "hint": "These displays are often colorful and complex",
+      "hint_ur": "یہ مظاہرے اکثر رنگین اور پیچیدہ ہوتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to imitate sounds including chainsaws and car alarms?",
+      "question_ur": "کون سا پرندہ چین سا اور کار الارم سمیت آوازوں کی نقل کرنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Parrot", "Lyrebird", "Mockingbird", "Myna"],
+        "ur": ["طوطا", "لائر برڈ", "مockingbird", "مینا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The lyrebird of Australia can mimic almost any sound it hears with incredible accuracy.",
+      "explanation_ur": "آسٹریلیا کا لائر برڈ تقریباً کسی بھی آواز کو حیرت انگیز درستگی سے نقل کر سکتا ہے جو وہ سنتا ہے۔",
+      "hint": "Native to Australia",
+      "hint_ur": "آسٹریلیا کا مقامی",
+      "timeLimit": 25
+    },
+    {
+      "id": 33,
+      "type": "true-false",
+      "question": "The kiwi bird is native to New Zealand.",
+      "question_ur": "کیوی برڈ نیوزی لینڈ کا مقامی ہے۔",
+      "correctAnswer": true,
+      "explanation": "The flightless kiwi is a national symbol of New Zealand and is found nowhere else naturally.",
+      "explanation_ur": "اڑنے سے قاصر کیوی نیوزی لینڈ کا قومی نشان ہے اور قدرتی طور پر کہیں اور نہیں پایا جاتا۔",
+      "hint": "Also the nickname for New Zealanders",
+      "hint_ur": "نیوزی لینڈ والوں کا عرفی نام بھی",
+      "timeLimit": 20
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "Which bird is known for stealing shiny objects?",
+      "question_ur": "کون سا پرندہ چمکدار چیزوں کو چرانے کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Crow", "Magpie", "Jay", "Raven"],
+        "ur": ["کوّا", "میگ پائے", "جے", "کوّا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Magpies are famous for their attraction to shiny objects, though recent studies suggest this may be exaggerated.",
+      "explanation_ur": "میگ پائے چمکدار چیزوں کی طرف اپنی کشش کے لیے مشہور ہیں، اگرچہ حالیہ مطالعات سے پتہ چلتا ہے کہ یہ مبالغہ آرائی ہو سکتی ہے۔",
+      "hint": "Black and white bird with a long tail",
+      "hint_ur": "لمبی دم والا سیاہ اور سفید پرندہ",
+      "timeLimit": 20
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "What is the world's most common wild bird?",
+      "question_ur": "دنیا کا سب سے عام جنگلی پرندہ کون سا ہے؟",
+      "options": {
+        "en": ["House Sparrow", "Red-billed Quelea", "European Starling", "Rock Pigeon"],
+        "ur": ["گھریلو چڑیا", "ریڈ بلڈ کیولیا", "یورپی سٹارلنگ", "راک کبوتر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The red-billed quelea of Africa is considered the most numerous wild bird with estimates of 1.5 billion individuals.",
+      "explanation_ur": "افریقہ کا ریڈ بلڈ کیولیا سب سے زیادہ تعداد والا جنگلی پرندہ سمجھا جاتا ہے جس کی تخمینہ لگ بھگ 1.5 ارب افراد ہیں۔",
+      "hint": "Sometimes considered an agricultural pest",
+      "hint_ur": "کبھی کبھی زرعی کیڑے کے طور پر سمجھا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 36,
+      "type": "true-false",
+      "question": "The dodo bird went extinct because it was hunted to extinction by humans.",
+      "question_ur": "ڈوڈو پرندہ معدوم ہو گیا کیونکہ اسے انسانوں نے شکار کر کے ختم کر دیا۔",
+      "correctAnswer": false,
+      "explanation": "While hunting contributed, the main reason for dodo extinction was habitat destruction and introduced species by humans.",
+      "explanation_ur": "اگرچہ شکار نے حصہ ڈالا، ڈوڈو کے معدوم ہونے کی بنیادی وجہ رہائش گاہ کی تباہی اور انسانوں کے ذریعہ متعارف کرائے گئے انواع تھے۔",
+      "hint": "Think about ecological factors beyond just hunting",
+      "hint_ur": "صرف شکار سے آگے ماحولیاتی عوامل کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to hover in one place while flying?",
+      "question_ur": "کون سا پرندہ اڑتے ہوئے ایک جگہ پر معلق رہنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Hummingbird", "Kestrel", "Both of these", "Neither of these"],
+        "ur": ["ہمنگ برڈ", "کیسٹریل", "یہ دونوں", "ان میں سے کوئی نہیں"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Both hummingbirds and kestrels can hover in place while flying, though they use different techniques.",
+      "explanation_ur": "ہمنگ برڈز اور کیسٹریل دونوں اڑتے ہوئے ایک جگہ پر معلق رہ سکتے ہیں، اگرچہ وہ مختلف تکنیک استعمال کرتے ہیں۔",
+      "hint": "One does it to drink nectar, the other to spot prey",
+      "hint_ur": "ایک پھول کا رس پینے کے لیے، دوسرا شکار کو دیکھنے کے لیے",
+      "timeLimit": 25
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to swim underwater?",
+      "question_ur": "کون سا پرندہ پانی کے اندر تیرنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Penguin", "Cormorant", "Puffin", "All of these"],
+        "ur": ["پینگوئن", "کورمرنٹ", "پفن", "یہ سب"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Penguins, cormorants, and puffins are all excellent swimmers that can dive and swim underwater.",
+      "explanation_ur": "پینگوئن، کورمرنٹ، اور پفن سب کے سب بہترین تیراک ہیں جو غوطہ لگا کر پانی کے اندر تیر سکتے ہیں۔",
+      "hint": "They catch fish underwater",
+      "hint_ur": "یہ پانی کے اندر مچھلیاں پکڑتے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 39,
+      "type": "true-false",
+      "question": "The chicken is the closest living relative to the Tyrannosaurus rex.",
+      "question_ur": "مرغی ٹائرانوسورس ریکس کا قریب ترین زندہ رشتہ دار ہے۔",
+      "correctAnswer": true,
+      "explanation": "Genetic studies have shown that chickens are among the closest living relatives to the T. rex dinosaur.",
+      "explanation_ur": "جینیاتی مطالعات سے پتہ چلا ہے کہ مرغیاں ٹی ریکس ڈائنوسار کے قریب ترین زندہ رشتہ داروں میں سے ہیں۔",
+      "hint": "Birds evolved from theropod dinosaurs",
+      "hint_ur": "پرندے تھیروپوڈ ڈائنوسار سے ارتقا پذیر ہوئے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "Which bird is known for its long-distance migration between Alaska and New Zealand?",
+      "question_ur": "کون سا پرندہ الاسکا اور نیوزی لینڈ کے درمیان طویل فاصلے کی نقل مکانی کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Arctic Tern", "Bar-tailed Godwit", "Albatross", "Snow Goose"],
+        "ur": ["آرکٹک ٹرن", "بار ٹیلڈ گاڈوٹ", "الباٹروس", "سنو گوز"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The bar-tailed godwit makes the longest non-stop migration flight of any bird, traveling over 7,000 miles from Alaska to New Zealand.",
+      "explanation_ur": "بار ٹیلڈ گاڈوٹ کسی بھی پرندے کی سب سے لمبی بغیر رکے نقل مکانی کی پرواز کرتا ہے، الاسکا سے نیوزی لینڈ تک 7,000 میل سے زیادہ کا سفر کرتا ہے۔",
+      "hint": "It holds the record for longest non-stop flight",
+      "hint_ur": "یہ بغیر رکے سب سے لمبی پرواز کا ریکارڈ رکھتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "What is a group of flamingos called?",
+      "question_ur": "فلیمنگو کے گروپ کو کیا کہتے ہیں؟",
+      "options": {
+        "en": ["Flock", "Colony", "Flamingo", "Stand"],
+        "ur": ["جھنڈ", "کالونی", "فلیمنگو", "سٹینڈ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "A group of flamingos is called a flamboyance, though flock is also commonly used.",
+      "explanation_ur": "فلیمنگو کے گروپ کو فلیمبوئنس کہتے ہیں، اگرچہ جھنڈ بھی عام طور پر استعمال ہوتا ہے۔",
+      "hint": "The term reflects their colorful appearance",
+      "hint_ur": "اصطلاح ان کی رنگین ظاہری شکل کو ظاہر کرتی ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 42,
+      "type": "true-false",
+      "question": "All birds build nests.",
+      "question_ur": "تمام پرندے گھونسلے بناتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "While many birds build nests, some like the emperor penguin don't build traditional nests.",
+      "explanation_ur": "اگرچہ بہت سے پرندے گھونسلے بناتے ہیں، کچھ جیسے شہنشاہ پینگوئن روایتی گھونسلے نہیں بناتے۔",
+      "hint": "Some just lay eggs on bare ground",
+      "hint_ur": "کچھ صرف ننگی زمین پر انڈے دیتے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to walk underwater?",
+      "question_ur": "کون سا پرندہ پانی کے اندر چلنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Penguin", "Dipper", "Cormorant", "Grebe"],
+        "ur": ["پینگوئن", "ڈپر", "کورمرنٹ", "گریب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The dipper can walk along the bottom of streams and rivers while searching for food.",
+      "explanation_ur": "ڈپر خوراک کی تلاش میں ندیوں اور دریاؤں کی تہہ پر چل سکتا ہے۔",
+      "hint": "Found in fast-moving streams",
+      "hint_ur": "تیز بہنے والی ندیوں میں پایا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "Which bird is the national bird of Pakistan?",
+      "question_ur": "پاکستان کا قومی پرندہ کون سا ہے؟",
+      "options": {
+        "en": ["Peacock", "Chukar Partridge", "Eagle", "Hoopoe"],
+        "ur": ["مور", "چکور", "عقاب", "ہدہد"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The chukar partridge is the national bird of Pakistan.",
+      "explanation_ur": "چکور پاکستان کا قومی پرندہ ہے۔",
+      "hint": "A type of game bird",
+      "hint_ur": "شکاری پرندے کی ایک قسم",
+      "timeLimit": 20
+    },
+    {
+      "id": 45,
+      "type": "true-false",
+      "question": "The albatross can sleep while flying.",
+      "question_ur": "الباٹروس اڑتے ہوئے سو سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Albatrosses can sleep while gliding, using a technique called 'dynamic soaring' to stay aloft for long periods.",
+      "explanation_ur": "الباٹروس گلائڈنگ کرتے ہوئے سو سکتے ہیں، طویل عرصے تک ہوا میں رہنے کے لیے 'ڈائنامک سوئرنگ' نامی تکنیک استعمال کرتے ہیں۔",
+      "hint": "They spend most of their lives flying over oceans",
+      "hint_ur": "وہ اپنی زندگی کا زیادہ تر وقت سمندر پر اڑتے گزارتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to see ultraviolet light?",
+      "question_ur": "کون سا پرندہ الٹرا وائلٹ روشنی دیکھنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Eagle", "Pigeon", "Hummingbird", "All birds"],
+        "ur": ["عقاب", "کبوتر", "ہمنگ برڈ", "تمام پرندے"]
+      },
+      "correctAnswer": 3,
+      "explanation": "All birds can see ultraviolet light, which helps them in finding food and choosing mates.",
+      "explanation_ur": "تمام پرندے الٹرا وائلٹ روشنی دیکھ سکتے ہیں، جو انہیں خوراک تلاش کرنے اور ساتھی انتخاب کرنے میں مدد کرتی ہے۔",
+      "hint": "This is a common avian trait",
+      "hint_ur": "یہ ایک عام پرندوں کی خصوصیت ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to fly backwards and upside down?",
+      "question_ur": "کون سا پرندہ پیچھے کی طرف اور الٹا اڑنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Hummingbird", "Swift", "Kingfisher", "Bat"],
+        "ur": ["ہمنگ برڈ", "سوئفٹ", "کنگ فشر", "چمگادڑ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Hummingbirds are the only birds that can fly backwards and upside down due to their unique wing structure.",
+      "explanation_ur": "ہمنگ برڈز واحد پرندے ہیں جو اپنے منفرد پر ڈھانچے کی وجہ سے پیچھے کی طرف اور الٹا اڑ سکتے ہیں۔",
+      "hint": "They can also hover in place",
+      "hint_ur": "یہ ایک جگہ پر بھی معلق رہ سکتے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 48,
+      "type": "true-false",
+      "question": "The male emperor penguin incubates the egg while the female goes to feed.",
+      "question_ur": "نر شہنشاہ پینگوئن انڈے کو سینکتا ہے جبکہ مادہ کھانے کے لیے جاتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "Male emperor penguins balance the egg on their feet and cover it with a brood pouch for about two months while females go to sea to feed.",
+      "explanation_ur": "نر شہنشاہ پینگوئن تقریباً دو ماہ تک انڈے کو اپنے پیروں پر رکھتے ہیں اور اسے بروڈ پاؤچ سے ڈھانپتے ہیں جبکہ مادہ سمندر میں کھانا کھانے جاتی ہیں۔",
+      "hint": "They endure extreme Antarctic winters",
+      "hint_ur": "وہ انتہائی انٹارکٹک سردیاں برداشت کرتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to change the color of its feathers?",
+      "question_ur": "کون سا پرندہ اپنے پروں کا رنگ بدلنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Peacock", "Ptarmigan", "Parrot", "Flamingo"],
+        "ur": ["مور", "ٹارمیگن", "طوطا", "فلیمنگو"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The ptarmigan changes its feathers from brown in summer to white in winter for camouflage.",
+      "explanation_ur": "ٹارمیگن گرمیوں میں بھورے سے سردیوں میں سفید رنگ کے پروں کو چھپنے کے لیے تبدیل کرتا ہے۔",
+      "hint": "This is seasonal camouflage",
+      "hint_ur": "یہ موسمی چھپنے کی تکنیک ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "What is the only bird that can fly straight up, down, and backwards?",
+      "question_ur": "وہ کون سا واحد پرندہ ہے جو سیدھا اوپر، نیچے اور پیچھے کی طرف اڑ سکتا ہے؟",
+      "options": {
+        "en": ["Hummingbird", "Eagle", "Bat", "Swift"],
+        "ur": ["ہمنگ برڈ", "عقاب", "چمگادڑ", "سوئفٹ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The hummingbird is the only bird capable of sustained hovering and flying in any direction, including straight up, down, and backwards.",
+      "explanation_ur": "ہمنگ برڈ واحد پرندہ ہے جو مسلسل معلق رہ سکتا ہے اور کسی بھی سمت میں اڑ سکتا ہے، بشمول سیدھا اوپر، نیچے اور پیچھے کی طرف۔",
+      "hint": "They have unique wing joints",
+      "hint_ur": "ان کے پر کے جوڑ منفرد ہوتے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 51,
+      "type": "true-false",
+      "question": "The kiwi bird lays the largest egg relative to its body size of any bird.",
+      "question_ur": "کیوی برڈ کسی بھی پرندے کے مقابلے میں اپنے جسم کے سائز کے لحاظ سے سب سے بڑا انڈا دیتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "The kiwi's egg is about 20% of the female's body weight - equivalent to a human giving birth to a 4-year-old child.",
+      "explanation_ur": "کیوی کا انڈا مادہ کے جسمانی وزن کا تقریباً 20% ہوتا ہے - جو ایک انسان کے 4 سالہ بچے کو جنم دینے کے برابر ہے۔",
+      "hint": "Think about the size comparison",
+      "hint_ur": "سائز کے موازنہ کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to remember human faces?",
+      "question_ur": "کون سا پرندہ انسانی چہروں کو یاد رکھنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Crow", "Pigeon", "Parrot", "All of these"],
+        "ur": ["کوّا", "کبوتر", "طوطا", "یہ سب"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Crows, pigeons, and parrots have all demonstrated the ability to recognize and remember human faces in scientific studies.",
+      "explanation_ur": "سائنسی مطالعات میں کوے، کبوتر، اور طوطے سب نے انسانی چہروں کو پہچاننے اور یاد رکھنے کی صلاحیت کا مظاہرہ کیا ہے۔",
+      "hint": "These birds are all highly intelligent",
+      "hint_ur": "یہ پرندے سب انتہائی ذہین ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to use tools?",
+      "question_ur": "کون سا پرندہ اوزار استعمال کرنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Woodpecker", "New Caledonian Crow", "Parrot", "Owl"],
+        "ur": ["ووڈپیکر", "نیو کیلیڈونین کوّا", "طوطا", "الو"]
+      },
+      "correctAnswer": 1,
+      "explanation": "New Caledonian crows are famous for their tool-making and tool-using abilities in the wild.",
+      "explanation_ur": "نیو کیلیڈونین کوے جنگل میں اوزار بنانے اور استعمال کرنے کی اپنی صلاحیتوں کے لیے مشہور ہیں۔",
+      "hint": "They fashion tools from twigs and leaves",
+      "hint_ur": "وہ ٹہنیوں اور پتوں سے اوزار بناتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 54,
+      "type": "true-false",
+      "question": "The hoatzin bird has claws on its wings as a chick.",
+      "question_ur": "ہوٹزن پرندے کے چوزے کے پروں پر پنجے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Hoatzin chicks have two claws on each wing that help them climb trees, a rare trait that disappears as they mature.",
+      "explanation_ur": "ہوٹزن کے چوزوں کے ہر پر پر دو پنجے ہوتے ہیں جو انہیں درختوں پر چڑھنے میں مدد کرتے ہیں، ایک نایاب خصوصیت جو بڑے ہونے پر ختم ہو جاتی ہے۔",
+      "hint": "This is a primitive characteristic",
+      "hint_ur": "یہ ایک قدیم خصوصیت ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "Which bird is known as the 'king of birds' in some cultures?",
+      "question_ur": "کون سا پرندہ کچھ ثقافتوں میں 'پرندوں کا بادشاہ' کہلاتا ہے؟",
+      "options": {
+        "en": ["Eagle", "Peacock", "Ostrich", "Raven"],
+        "ur": ["عقاب", "مور", "شتر مرغ", "کوّا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The eagle is often called the 'king of birds' due to its strength, size, and majestic appearance.",
+      "explanation_ur": "عقاب کو اکثر 'پرندوں کا بادشاہ' کہا جاتا ہے اس کی طاقت، سائز اور شاندار ظاہری شکل کی وجہ سے۔",
+      "hint": "It appears on many national flags",
+      "hint_ur": "یہ بہت سے قومی پرچموں پر نظر آتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to sleep while flying?",
+      "question_ur": "کون سا پرندہ اڑتے ہوئے سو سکتا ہے؟",
+      "options": {
+        "en": ["Albatross", "Frigatebird", "Swift", "All of these"],
+        "ur": ["الباٹروس", "فریگیٹ برڈ", "سوئفٹ", "یہ سب"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Albatrosses, frigatebirds, and swifts can all sleep while flying, using unihemispheric slow-wave sleep to rest one brain hemisphere at a time.",
+      "explanation_ur": "الباٹروس، فریگیٹ برڈز، اور سوئفٹس سب اڑتے ہوئے سو سکتے ہیں، ایک وقت میں دماغ کے ایک نصف کرہ کو آرام دینے کے لیے یونی ہیمسفیرک سلو ویو نیند کا استعمال کرتے ہیں۔",
+      "hint": "They spend most of their lives in flight",
+      "hint_ur": "وہ اپنی زندگی کا زیادہ تر وقت پرواز میں گزارتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 57,
+      "type": "true-false",
+      "question": "The secretary bird can kill snakes by stomping on them.",
+      "question_ur": "سیکرٹری برڈ سانپوں کو روند کر مار سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "The secretary bird hunts snakes by stomping on them with its powerful legs and sharp claws.",
+      "explanation_ur": "سیکرٹری برڈ سانپوں کا شکار اپنی طاقتور ٹانگوں اور تیز پنجوں سے روند کر کرتا ہے۔",
+      "hint": "It's named for its quill-like head feathers",
+      "hint_ur": "یہ اپنے قلم نما سر کے پروں کے لیے نامزد ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to dive the deepest underwater?",
+      "question_ur": "کون سا پرندہ پانی کے اندر سب سے گہرا غوطہ لگانے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Penguin", "Cormorant", "Puffin", "Emperor Penguin"],
+        "ur": ["پینگوئن", "کورمرنٹ", "پفن", "شہنشاہ پینگوئن"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The emperor penguin can dive deeper than any other bird, reaching depths of over 500 meters (1,700 feet).",
+      "explanation_ur": "شہنشاہ پینگوئن کسی بھی دوسرے پرندے سے زیادہ گہرا غوطہ لگا سکتا ہے، جو 500 میٹر (1,700 فٹ) سے زیادہ گہرائی تک پہنچ سکتا ہے۔",
+      "hint": "Lives in Antarctica",
+      "hint_ur": "انٹارکٹیکا میں رہتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to fly the highest?",
+      "question_ur": "کون سا پرندہ سب سے زیادہ بلندی پر اڑنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Eagle", "Albatross", "Rüppell's Griffon Vulture", "Bar-headed Goose"],
+        "ur": ["عقاب", "الباٹروس", "رپیل کا گرفن گدھ", "بار ہیڈڈ گوز"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Rüppell's griffon vulture holds the record for highest flying bird, having been recorded at 11,300 meters (37,000 feet).",
+      "explanation_ur": "رپیل کا گرفن گدھ سب سے زیادہ بلندی پر اڑنے والے پرندے کا ریکارڈ رکھتا ہے، جو 11,300 میٹر (37,000 فٹ) پر ریکارڈ کیا گیا ہے۔",
+      "hint": "This altitude is above Mount Everest",
+      "hint_ur": "یہ بلندی ماؤنٹ ایورسٹ سے بھی اوپر ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 60,
+      "type": "true-false",
+      "question": "The kakapo is the world's only flightless parrot.",
+      "question_ur": "کاکاپو دنیا کا واحد اڑنے سے قاصر طوطا ہے۔",
+      "correctAnswer": true,
+      "explanation": "The kakapo of New Zealand is a large, nocturnal, flightless parrot and one of the rarest birds in the world.",
+      "explanation_ur": "نیوزی لینڈ کا کاکاپو ایک بڑا، رات کو فعال، اڑنے سے قاصر طوطا ہے اور دنیا کے نایاب ترین پرندوں میں سے ایک ہے۔",
+      "hint": "It's critically endangered",
+      "hint_ur": "یہ انتہائی خطرے سے دوچار ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to see the best?",
+      "question_ur": "کون سا پرندہ بہترین دیکھنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Eagle", "Owl", "Hawk", "All birds of prey"],
+        "ur": ["عقاب", "الو", "باز", "تمام شکار کرنے والے پرندے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Eagles have the best eyesight in the animal kingdom, able to spot prey from several kilometers away.",
+      "explanation_ur": "عقابوں کی جانوروں کی دنیا میں بہترین بینائی ہوتی ہے، جو کئی کلومیٹر دور سے شکار کو دیکھ سکتے ہیں۔",
+      "hint": "They can see ultraviolet light",
+      "hint_ur": "یہ الٹرا وائلٹ روشنی دیکھ سکتے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 62,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to live the longest?",
+      "question_ur": "کون سا پرندہ سب سے زیادہ عرصہ تک زندہ رہنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Parrot", "Albatross", "Swan", "Eagle"],
+        "ur": ["طوطا", "الباٹروس", "ہنس", "عقاب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Albatrosses are among the longest-living birds, with some individuals living over 60 years.",
+      "explanation_ur": "الباٹروس سب سے زیادہ عرصہ تک زندہ رہنے والے پرندوں میں سے ہیں، جن میں سے کچھ افراد 60 سال سے زیادہ زندہ رہتے ہیں۔",
+      "hint": "They mature slowly",
+      "hint_ur": "یہ آہستہ آہستہ بالغ ہوتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 63,
+      "type": "true-false",
+      "question": "The shoebill stork is named for its shoe-shaped beak.",
+      "question_ur": "شوبل سارس کا نام اس کی جوتے کی شکل کی چونچ کے لیے رکھا گیا ہے۔",
+      "correctAnswer": true,
+      "explanation": "The shoebill's massive, shoe-shaped beak gives it its name and helps it catch large prey like lungfish.",
+      "explanation_ur": "شوبل کی بڑی، جوتے کی شکل کی چونچ اس کا نام دیتی ہے اور اسے لنگ فش جیسے بڑے شکار کو پکڑنے میں مدد کرتی ہے۔",
+      "hint": "Found in African swamps",
+      "hint_ur": "افریقی دلدلوں میں پایا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to run the fastest on land?",
+      "question_ur": "کون سا پرندہ زمین پر سب سے تیز دوڑنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Ostrich", "Emu", "Roadrunner", "Cassowary"],
+        "ur": ["شتر مرغ", "ایمو", "روڈ رنر", "کیسووری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The ostrich is the fastest running bird, reaching speeds up to 70 km/h (43 mph).",
+      "explanation_ur": "شتر مرغ سب سے تیز دوڑنے والا پرندہ ہے، جو 70 کلومیٹر فی گھنٹہ (43 میل فی گھنٹہ) کی رفتار تک پہنچ سکتا ہے۔",
+      "hint": "It's also the largest bird",
+      "hint_ur": "یہ سب سے بڑا پرندہ بھی ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to change color with the seasons?",
+      "question_ur": "کون سا پرندہ موسم کے ساتھ رنگ بدلنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Ptarmigan", "Arctic Fox", "Snowy Owl", "Penguin"],
+        "ur": ["ٹارمیگن", "آرکٹک لومڑی", "سنووی الو", "پینگوئن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The ptarmigan changes its plumage from brown in summer to white in winter for camouflage.",
+      "explanation_ur": "ٹارمیگن گرمیوں میں بھورے سے سردیوں میں سفید رنگ کے پروں کو چھپنے کے لیے تبدیل کرتا ہے۔",
+      "hint": "Lives in Arctic regions",
+      "hint_ur": "آرکٹک خطوں میں رہتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 66,
+      "type": "true-false",
+      "question": "The Andean condor has the largest wingspan of any land bird.",
+      "question_ur": "اینڈین کنڈور کے پاس کسی بھی زمینی پرندے کا سب سے بڑا پر پھیلاؤ ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Andean condor has a wingspan up to 3.3 meters (10 feet 10 inches), the largest of any land bird.",
+      "explanation_ur": "اینڈین کنڈور کے پاس 3.3 میٹر (10 فٹ 10 انچ) تک کا پر پھیلاؤ ہے، جو کسی بھی زمینی پرندے میں سب سے بڑا ہے۔",
+      "hint": "Found in South America",
+      "hint_ur": "جنوبی امریکہ میں پایا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to hover in place the longest?",
+      "question_ur": "کون سا پرندہ ایک جگہ پر سب سے زیادہ دیر تک معلق رہنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Hummingbird", "Kestrel", "Kingfisher", "Osprey"],
+        "ur": ["ہمنگ برڈ", "کیسٹریل", "کنگ فشر", "اوسپری"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The kestrel can hover in place for extended periods while hunting, using precise wing adjustments.",
+      "explanation_ur": "کیسٹریل شکار کرتے وقت طویل عرصے تک ایک جگہ پر معلق رہ سکتا ہے، درست پر ایڈجسٹمنٹ کا استعمال کرتے ہوئے۔",
+      "hint": "Often seen hovering over fields",
+      "hint_ur": "اکثر کھیتوں کے اوپر معلق دیکھا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 68,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to swim but not fly?",
+      "question_ur": "کون سا پرندہ تیرنے کی صلاحیت کے لیے جانا جاتا ہے لیکن اڑ نہیں سکتا؟",
+      "options": {
+        "en": ["Penguin", "Cormorant", "Puffin", "Albatross"],
+        "ur": ["پینگوئن", "کورمرنٹ", "پفن", "الباٹروس"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Penguins are excellent swimmers but cannot fly, using their wings as flippers underwater.",
+      "explanation_ur": "پینگوئن بہترین تیراک ہیں لیکن اڑ نہیں سکتے، اپنے پروں کو پانی کے اندر فلپر کے طور پر استعمال کرتے ہیں۔",
+      "hint": "Found in the Southern Hemisphere",
+      "hint_ur": "جنوبی نصف کرہ میں پایا جاتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 69,
+      "type": "true-false",
+      "question": "The hornbill seals its mate in a tree cavity during nesting.",
+      "question_ur": "ہارن بل گھونسلہ بناتے وقت اپنے ساتھی کو درخت کے خلا میں بند کر دیتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Female hornbills seal themselves in tree cavities using mud, leaving only a small slit to receive food from the male.",
+      "explanation_ur": "مادہ ہارن بل مٹی کا استعمال کرتے ہوئے خود کو درخت کے خلا میں بند کر لیتی ہیں، صرف ایک چھوٹا سا شگاف چھوڑ دیتی ہیں تاکہ نر سے خوراک وصول کر سکیں۔",
+      "hint": "This protects from predators",
+      "hint_ur": "یہ شکاریوں سے تحفظ دیتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 70,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to kill prey by dropping it from great heights?",
+      "question_ur": "کون سا پرندہ شکار کو بڑی بلندی سے گرانے کے ذریعے مارنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Eagle", "Owl", "Lammergeier", "Falcon"],
+        "ur": ["عقاب", "الو", "لیمرگیئر", "فالکن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The lammergeier (bearded vulture) drops bones from heights to break them and access the marrow inside.",
+      "explanation_ur": "لیمرگیئر (داڑھی والا گدھ) ہڈیوں کو بلندی سے گرتا ہے تاکہ انہیں توڑ سکے اور اندر کے گودے تک رسائی حاصل کر سکے۔",
+      "hint": "Also called the bone-eating vulture",
+      "hint_ur": "ہڈی کھانے والا گدھ بھی کہلاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to fly the fastest in a dive?",
+      "question_ur": "کون سا پرندہ غوطہ لگاتے وقت سب سے تیز اڑنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Peregrine Falcon", "Eagle", "Swift", "Hawk"],
+        "ur": ["پیریگرین فالکن", "عقاب", "سوئفٹ", "باز"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The peregrine falcon can reach speeds over 240 mph (390 km/h) during its hunting stoop (dive).",
+      "explanation_ur": "پیریگرین فالکن شکار کے دوران غوطہ لگاتے وقت 240 میل فی گھنٹہ (390 کلومیٹر فی گھنٹہ) سے زیادہ کی رفتار تک پہنچ سکتی ہے۔",
+      "hint": "Fastest animal on Earth",
+      "hint_ur": "زمین پر تیز ترین جانور",
+      "timeLimit": 20
+    },
+    {
+      "id": 72,
+      "type": "true-false",
+      "question": "The oilbird uses echolocation to navigate in dark caves.",
+      "question_ur": "آئیل برڈ تاریک غاروں میں رہنمائی کے لیے ایکو لوکیشن کا استعمال کرتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Like bats, oilbirds use echolocation (sonar) to navigate in the dark caves where they roost.",
+      "explanation_ur": "چمگادڑوں کی طرح، آئیل برڈ تاریک غاروں میں رہنمائی کے لیے ایکو لوکیشن (سونار) کا استعمال کرتے ہیں جہاں وہ آرام کرتے ہیں۔",
+      "hint": "The only nocturnal fruit-eating bird",
+      "hint_ur": "رات کو فعال پھل کھانے والا واحد پرندہ",
+      "timeLimit": 25
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to mimic chainsaws and camera shutters?",
+      "question_ur": "کون سا پرندہ چین سا اور کیمرہ شٹر کی نقل کرنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Lyrebird", "Parrot", "Myna", "Mockingbird"],
+        "ur": ["لائر برڈ", "طوطا", "مینا", "مockingbird"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The superb lyrebird of Australia can mimic almost any sound it hears, including man-made noises.",
+      "explanation_ur": "آسٹریلیا کا شاندار لائر برڈ تقریباً کسی بھی آواز کو نقل کر سکتا ہے جو وہ سنتا ہے، بشمول انسان کے بنائے ہوئے شور۔",
+      "hint": "Has an elaborate tail display",
+      "hint_ur": "اس کا پیچیدہ دم کا مظاہرہ ہوتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 74,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to walk on lily pads?",
+      "question_ur": "کون سا پرندہ للی پیڈز پر چلنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Jacana", "Heron", "Kingfisher", "Grebe"],
+        "ur": ["جکانا", "بگلا", "کنگ فشر", "گریب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The jacana, or 'lily-trotter,' has extremely long toes that distribute its weight to walk on floating vegetation.",
+      "explanation_ur": "جکانا، یا 'لل ٹروٹر،' کے انتہائی لمبے پنجے ہوتے ہیں جو تیرتی ہوئی نباتات پر چلنے کے لیے اس کے وزن کو تقسیم کرتے ہیں۔",
+      "hint": "Called the 'Jesus bird' for walking on water",
+      "hint_ur": "پانی پر چلنے کے لیے 'یسوع پرندہ' کہلاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 75,
+      "type": "true-false",
+      "question": "The wandering albatross has the longest wingspan of any living bird.",
+      "question_ur": "وانڈرنگ الباٹروس کے پاس کسی بھی زندہ پرندے کا سب سے لمبا پر پھیلاؤ ہے۔",
+      "correctAnswer": true,
+      "explanation": "The wandering albatross has a wingspan up to 3.7 meters (12 feet), the largest of any living bird.",
+      "explanation_ur": "وانڈرنگ الباٹروس کے پاس 3.7 میٹر (12 فٹ) تک کا پر پھیلاؤ ہے، جو کسی بھی زندہ پرندے میں سب سے بڑا ہے۔",
+      "hint": "Spends most of its life flying over oceans",
+      "hint_ur": "اپنی زندگی کا زیادہ تر وقت سمندر پر اڑتے گزارتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to see at night the best?",
+      "question_ur": "کون سا پرندہ رات کو بہترین دیکھنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Owl", "Eagle", "Bat", "Nightjar"],
+        "ur": ["الو", "عقاب", "چمگادڑ", "نائٹجار"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Owls have exceptional night vision, with large eyes and many light-sensitive rod cells in their retinas.",
+      "explanation_ur": "الوؤں کی غیر معمولی رات کی بینائی ہوتی ہے، بڑی آنکھیں اور ان کے ریٹینا میں روشنی کے لیے حساس بہت سی رڈ سیلز ہوتی ہیں۔",
+      "hint": "They can rotate their heads 270 degrees",
+      "hint_ur": "وہ اپنے سروں کو 270 ڈگری گھما سکتے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to survive in the harshest desert conditions?",
+      "question_ur": "کون سا پرندہ سخت ترین صحرائی حالات میں زندہ رہنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Ostrich", "Roadrunner", "Sandgrouse", "Vulture"],
+        "ur": ["شتر مرغ", "روڈ رنر", "سینڈ گروز", "گدھ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Sandgrouse are specially adapted to desert life, with males able to carry water in their breast feathers to chicks.",
+      "explanation_ur": "سینڈ گروز صحرائی زندگی کے لیے خاص طور پر موافق ہیں، نر اپنے چھاتی کے پروں میں پانی چوزوں تک لے جا سکتے ہیں۔",
+      "hint": "Males soak up water to bring to nest",
+      "hint_ur": "نر گھونسلے تک پانی لانے کے لیے جذب کرتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 78,
+      "type": "true-false",
+      "question": "The hoatzin is also called the 'stinkbird' because of its foul odor.",
+      "question_ur": "ہوٹزن کو 'بدبو دار پرندہ' بھی کہا جاتا ہے کیونکہ اس کی بدبو ہوتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "The hoatzin's unique digestive system produces a manure-like smell, earning it the nickname 'stinkbird'.",
+      "explanation_ur": "ہوٹزن کا منفرد نظام انہضام کھاد جیسی بو پیدا کرتا ہے، جس کی وجہ سے اس کا عرفی نام 'بدبو دار پرندہ' ہے۔",
+      "hint": "It ferments leaves in its crop",
+      "hint_ur": "یہ اپنے کروپ میں پتوں کو خمیر کرتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to fly the longest distance without stopping?",
+      "question_ur": "کون سا پرندہ بغیر رکے سب سے زیادہ فاصلہ اڑنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Arctic Tern", "Bar-tailed Godwit", "Albatross", "Swift"],
+        "ur": ["آرکٹک ٹرن", "بار ٹیلڈ گاڈوٹ", "الباٹروس", "سوئفٹ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The bar-tailed godwit holds the record for longest non-stop flight - about 7,500 miles from Alaska to New Zealand.",
+      "explanation_ur": "بار ٹیلڈ گاڈوٹ بغیر رکے سب سے لمبی پرواز کا ریکارڈ رکھتا ہے - تقریباً 7,500 میل الاسکا سے نیوزی لینڈ تک۔",
+      "hint": "This flight takes about 8 days",
+      "hint_ur": "یہ پرواز تقریباً 8 دن لیتی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 80,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to kill prey with its strong feet?",
+      "question_ur": "کون سا پرندہ اپنے مضبوط پیروں سے شکار کو مارنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Eagle", "Ostrich", "Cassowary", "Secretary Bird"],
+        "ur": ["عقاب", "شتر مرغ", "کیسووری", "سیکرٹری برڈ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The cassowary has powerful legs with dagger-like claws that can kill predators or humans with a single kick.",
+      "explanation_ur": "کیسووری کے پاس خنجر نما پنجوں والی طاقتور ٹانگیں ہیں جو ایک ہی لات سے شکاریوں یا انسانوں کو مار سکتی ہیں۔",
+      "hint": "Considered the world's most dangerous bird",
+      "hint_ur": "دنیا کا سب سے خطرناک پرندہ سمجھا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 81,
+      "type": "true-false",
+      "question": "The common swift can stay airborne for up to 10 months without landing.",
+      "question_ur": "عام سوئفٹ لینڈنگ کے بغیر 10 ماہ تک ہوا میں رہ سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Research shows common swifts can remain airborne for 10 months straight, eating and sleeping while flying.",
+      "explanation_ur": "تحقیق سے پتہ چلتا ہے کہ عام سوئفٹس مسلسل 10 ماہ تک ہوا میں رہ سکتے ہیں، اڑتے ہوئے کھانا کھاتے اور سوتے ہیں۔",
+      "hint": "They even sleep while gliding",
+      "hint_ur": "یہ گلائڈنگ کرتے ہوئے بھی سوتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to dive the fastest underwater?",
+      "question_ur": "کون سا پرندہ پانی کے اندر سب سے تیز غوطہ لگانے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Penguin", "Gannet", "Cormorant", "Puffin"],
+        "ur": ["پینگوئن", "گینٹ", "کورمرنٹ", "پفن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Gannets can hit the water at speeds up to 100 km/h (62 mph) when diving for fish.",
+      "explanation_ur": "گینٹس مچھلیوں کے لیے غوطہ لگاتے وقت 100 کلومیٹر فی گھنٹہ (62 میل فی گھنٹہ) کی رفتار تک پانی سے ٹکرا سکتے ہیں۔",
+      "hint": "They have air sacs to cushion impact",
+      "hint_ur": "ان کے پاس اثر کو نرم کرنے کے لیے ہوا کے تھیلے ہوتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to survive the coldest temperatures?",
+      "question_ur": "کون سا پرندہ سرد ترین درجہ حرارت میں زندہ رہنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Penguin", "Snowy Owl", "Ptarmigan", "Emperor Penguin"],
+        "ur": ["پینگوئن", "سنووی الو", "ٹارمیگن", "شہنشاہ پینگوئن"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Emperor penguins survive Antarctic winters with temperatures below -60°C (-76°F) and winds over 100 mph (160 km/h).",
+      "explanation_ur": "شہنشاہ پینگوئن انٹارکٹک سردیاں -60°C (-76°F) سے کم درجہ حرارت اور 100 میل فی گھنٹہ (160 کلومیٹر فی گھنٹہ) سے زیادہ ہواؤں میں زندہ رہتے ہیں۔",
+      "hint": "They huddle together for warmth",
+      "hint_ur": "یہ گرمی کے لیے اکٹھے ہو جاتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 84,
+      "type": "true-false",
+      "question": "The kakapo is the world's heaviest parrot.",
+      "question_ur": "کاکاپو دنیا کا سب سے وزنی طوطا ہے۔",
+      "correctAnswer": true,
+      "explanation": "The kakapo can weigh up to 4 kg (9 lbs), making it the heaviest parrot species.",
+      "explanation_ur": "کاکاپو کا وزن 4 کلوگرام (9 پاؤنڈ) تک ہو سکتا ہے، جو اسے سب سے وزنی طوطے کی نوع بناتا ہے۔",
+      "hint": "It's also flightless",
+      "hint_ur": "یہ اڑنے سے قاصر بھی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to see the widest range of colors?",
+      "question_ur": "کون سا پرندہ رنگوں کی سب سے زیادہ رینج دیکھنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Eagle", "Hummingbird", "Pigeon", "All birds"],
+        "ur": ["عقاب", "ہمنگ برڈ", "کبوتر", "تمام پرندے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Hummingbirds can see colors into the ultraviolet spectrum that are invisible to humans.",
+      "explanation_ur": "ہمنگ برڈز الٹرا وائلٹ سپیکٹرم میں رنگ دیکھ سکتے ہیں جو انسانوں کے لیے نظر نہیں آتے۔",
+      "hint": "They need this to find nectar-rich flowers",
+      "hint_ur": "انہیں رس سے بھرپور پھول تلاش کرنے کے لیے اس کی ضرورت ہوتی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 86,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to carry the heaviest load relative to its size?",
+      "question_ur": "کون سا پرندہ اپنے سائز کے لحاظ سے سب سے زیادہ بوجھ اٹھانے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Eagle", "Harpy Eagle", "Osprey", "All birds of prey"],
+        "ur": ["عقاب", "ہارپی عقاب", "اوسپری", "تمام شکار کرنے والے پرندے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The harpy eagle can carry prey weighing up to their own body weight (about 9 kg or 20 lbs).",
+      "explanation_ur": "ہارپی عقاب اپنے جسمانی وزن کے برابر وزن والا شکار (تقریباً 9 کلوگرام یا 20 پاؤنڈ) اٹھا سکتا ہے۔",
+      "hint": "Found in tropical rainforests",
+      "hint_ur": "گرم خطے کے بارش کے جنگلوں میں پایا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 87,
+      "type": "true-false",
+      "question": "The bee hummingbird is the world's smallest bird.",
+      "question_ur": "بی ہمنگ برڈ دنیا کا سب سے چھوٹا پرندہ ہے۔",
+      "correctAnswer": true,
+      "explanation": "The bee hummingbird of Cuba is about 5 cm (2 inches) long and weighs about 1.6-2 grams, making it the smallest bird.",
+      "explanation_ur": "کیوبا کی بی ہمنگ برڈ تقریباً 5 سینٹی میٹر (2 انچ) لمبی ہے اور اس کا وزن تقریباً 1.6-2 گرام ہے، جو اسے سب سے چھوٹا پرندہ بناتی ہے۔",
+      "hint": "About the size of a large bee",
+      "hint_ur": "تقریباً ایک بڑی مکھی کے سائز کا",
+      "timeLimit": 20
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to fly the highest altitude?",
+      "question_ur": "کون سا پرندہ سب سے زیادہ بلندی پر اڑنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Bar-headed Goose", "Rüppell's Griffon Vulture", "Alpine Swift", "Andean Condor"],
+        "ur": ["بار ہیڈڈ گوز", "رپیل کا گرفن گدھ", "الپائن سوئفٹ", "اینڈین کنڈور"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Rüppell's griffon vulture holds the record at 11,300 meters (37,000 feet), colliding with an airplane at that height.",
+      "explanation_ur": "رپیل کا گرفن گدھ 11,300 میٹر (37,000 فٹ) پر ریکارڈ رکھتا ہے، اس بلندی پر ایک ہوائی جہاز سے ٹکرا گیا۔",
+      "hint": "Above Mount Everest",
+      "hint_ur": "ماؤنٹ ایورسٹ سے اوپر",
+      "timeLimit": 25
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to live the longest in captivity?",
+      "question_ur": "کون سا پرندہ قید میں سب سے زیادہ عرصہ تک زندہ رہنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Parrot", "Swan", "Albatross", "Cockatoo"],
+        "ur": ["طوطا", "ہنس", "الباٹروس", "کوکاٹو"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Large parrots like macaws and cockatoos can live 60-80 years in captivity, with some over 100 years.",
+      "explanation_ur": "بڑے طوطے جیسے مکاؤ اور کوکاٹو قید میں 60-80 سال تک زندہ رہ سکتے ہیں، کچھ 100 سال سے زیادہ۔",
+      "hint": "Some outlive their owners",
+      "hint_ur": "کچھ اپنے مالکوں سے زیادہ زندہ رہتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 90,
+      "type": "true-false",
+      "question": "The Arctic tern migrates from pole to pole each year.",
+      "question_ur": "آرکٹک ٹرن ہر سال قطب سے قطب تک نقل مکانی کرتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Arctic tern migrates about 44,000 miles round trip annually between Arctic and Antarctic regions.",
+      "explanation_ur": "آرکٹک ٹرن ہر سال آرکٹک اور انٹارکٹک خطوں کے درمیان تقریباً 44,000 میل کا چکر لگاتی ہے۔",
+      "hint": "Sees more daylight than any other creature",
+      "hint_ur": "کسی بھی دوسرے جانور سے زیادہ دن کی روشنی دیکھتی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to turn its head the farthest?",
+      "question_ur": "کون سا پرندہ اپنے سر کو سب سے زیادہ دور تک گھمانے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Owl", "Parrot", "Woodpecker", "Pigeon"],
+        "ur": ["الو", "طوطا", "ووڈپیکر", "کبوتر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Owls can rotate their heads up to 270 degrees due to special adaptations in their neck vertebrae.",
+      "explanation_ur": "الو اپنے سروں کو 270 ڈگری تک گھما سکتے ہیں کیونکہ ان کی گردن کی ریڑھ کی ہڈی میں خاص موافقت ہوتی ہے۔",
+      "hint": "They can't move their eyes much",
+      "hint_ur": "وہ اپنی آنکھیں زیادہ نہیں ہلا سکتے",
+      "timeLimit": 20
+    },
+    {
+      "id": 92,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to survive without water the longest?",
+      "question_ur": "کون سا پرندہ سب سے زیادہ دیر تک پانی کے بغیر زندہ رہنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Ostrich", "Sandgrouse", "Roadrunner", "Vulture"],
+        "ur": ["شتر مرغ", "سینڈ گروز", "روڈ رنر", "گدھ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Sandgrouse can survive without drinking water, getting moisture from food and morning dew.",
+      "explanation_ur": "سینڈ گروز پانی پئے بغیر زندہ رہ سکتے ہیں، خوراک اور صبح کی شبنم سے نمی حاصل کرتے ہیں۔",
+      "hint": "Lives in deserts",
+      "hint_ur": "صحراؤں میں رہتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 93,
+      "type": "true-false",
+      "question": "The shoebill's bill can be up to 9 inches long.",
+      "question_ur": "شوبل کی چونچ 9 انچ تک لمبی ہو سکتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "The shoebill's massive bill can reach 9 inches (23 cm) long and 4 inches (10 cm) wide.",
+      "explanation_ur": "شوبل کی بڑی چونچ 9 انچ (23 سینٹی میٹر) لمبی اور 4 انچ (10 سینٹی میٹر) چوڑی ہو سکتی ہے۔",
+      "hint": "Used to catch large fish",
+      "hint_ur": "بڑی مچھلیاں پکڑنے کے لیے استعمال ہوتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to kill venomous snakes?",
+      "question_ur": "کون سا پرندہ زہریلے سانپوں کو مارنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Secretary Bird", "Eagle", "Roadrunner", "All of these"],
+        "ur": ["سیکرٹری برڈ", "عقاب", "روڈ رنر", "یہ سب"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Secretary birds, eagles, and roadrunners all hunt and kill venomous snakes as part of their diet.",
+      "explanation_ur": "سیکرٹری برڈز، عقاب، اور روڈ رنرز سب زہریلے سانپوں کا شکار کرتے اور مارتے ہیں جو ان کی خوراک کا حصہ ہوتے ہیں۔",
+      "hint": "They have specialized techniques",
+      "hint_ur": "ان کے پاس خصوصی تکنیکیں ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 95,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to survive in the harshest mountain conditions?",
+      "question_ur": "کون سا پرندہ سخت ترین پہاڑی حالات میں زندہ رہنے کی صلاحیت کے لیے جانا جاتا ہے؟",
+      "options": {
+        "en": ["Snowy Owl", "Alpine Chough", "Andean Condor", "Ptarmigan"],
+        "ur": ["سنووی الو", "الپائن چف", "اینڈین کنڈور", "ٹارمیگن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The alpine chough lives at higher altitudes than any other bird, up to 8,000 meters (26,500 feet) on Mount Everest.",
+      "explanation_ur": "الپائن چف کسی بھی دوسرے پرندے سے زیادہ بلندی پر رہتا ہے، ماؤنٹ ایورسٹ پر 8,000 میٹر (26,500 فٹ) تک۔",
+      "hint": "Found near Mount Everest base camps",
+      "hint_ur": "ماؤنٹ ایورسٹ بیس کیمپس کے قریب پایا جاتا ہے",
+      "timeLimit": 25
+    }
+  ]
+}

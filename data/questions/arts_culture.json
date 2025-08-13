@@ -1,0 +1,1480 @@
+{
+  "meta": {
+    "category": "Arts & Culture",
+    "category_ur": "فنون و ثقافت",
+    "description": "Test your knowledge of arts, literature, and cultural facts",
+    "description_ur": "فنون، ادب اور ثقافتی حقائق کا امتحان لیں",
+    "difficulty": "easy",
+    "image": "arts_culture.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Who painted the Mona Lisa?",
+      "question_ur": "مونا لیزا کس نے پینٹ کیا؟",
+      "options": {
+        "en": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+        "ur": ["ونسینٹ وین گوگ", "پابلو پکاسو", "لیونارڈو ڈا ونچی", "مائیکل اینجلو"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Leonardo da Vinci painted the Mona Lisa between 1503 and 1506.",
+      "explanation_ur": "لیونارڈو ڈا ونچی نے مونا لیزا 1503 سے 1506 کے درمیان پینٹ کیا تھا۔",
+      "hint": "He was an Italian Renaissance polymath",
+      "hint_ur": "وہ اطالوی نشاۃ ثانیہ کا ہمہ گیر شخص تھا",
+      "timeLimit": 20
+    },
+    {
+      "id": 2,
+      "type": "true-false",
+      "question": "Shakespeare wrote 'Romeo and Juliet'.",
+      "question_ur": "شیکسپیئر نے 'رومیو اور جولیٹ' لکھا تھا۔",
+      "correctAnswer": true,
+      "explanation": "William Shakespeare wrote this famous tragedy in his early career.",
+      "explanation_ur": "ولیم شیکسپیئر نے اپنے کیریئر کے آغاز میں یہ مشہور المیہ لکھا تھا۔",
+      "hint": "Consider his famous tragedies",
+      "hint_ur": "اس کے مشہور المیوں پر غور کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which instrument has 88 keys?",
+      "question_ur": "کس آلے میں 88 کیز ہوتی ہیں؟",
+      "options": {
+        "en": ["Guitar", "Violin", "Piano", "Harp"],
+        "ur": ["گٹار", "وایلن", "پیانو", "بربط"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A standard piano has 88 keys (52 white and 36 black).",
+      "explanation_ur": "ایک معیاری پیانو میں 88 کیز ہوتی ہیں (52 سفید اور 36 سیاہ)۔",
+      "hint": "Think of large keyboard instruments",
+      "hint_ur": "بڑے کی بورڈ والے آلات کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "What is the primary color in traditional Chinese culture?",
+      "question_ur": "روایتی چینی ثقافت میں بنیادی رنگ کون سا ہے؟",
+      "options": {
+        "en": ["Blue", "Green", "Red", "Yellow"],
+        "ur": ["نیلا", "سبز", "سرخ", "پیلا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Red is considered lucky and auspicious in Chinese culture.",
+      "explanation_ur": "چینی ثقافت میں سرخ رنگ کو خوش قسمتی اور مبارک سمجھا جاتا ہے۔",
+      "hint": "Color often used in Chinese New Year decorations",
+      "hint_ur": "چینی نئے سال کی سجاوٹ میں اکثر استعمال ہونے والا رنگ",
+      "timeLimit": 25
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "question": "The novel '1984' was written by George Orwell.",
+      "question_ur": "ناول '1984' جارج اورویل نے لکھا تھا۔",
+      "correctAnswer": true,
+      "explanation": "George Orwell published this dystopian novel in 1949.",
+      "explanation_ur": "جارج اورویل نے یہ dystopian ناول 1949 میں شائع کیا تھا۔",
+      "hint": "Author also wrote 'Animal Farm'",
+      "hint_ur": "مصنف نے 'اینیمل فارم' بھی لکھا تھا",
+      "timeLimit": 15
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Which dance form originated in Argentina?",
+      "question_ur": "کون سا رقص ارجنٹائن میں شروع ہوا؟",
+      "options": {
+        "en": ["Flamenco", "Tango", "Salsa", "Waltz"],
+        "ur": ["فلیمینکو", "ٹینگو", "سالسا", "والٹز"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Tango originated in the working-class port neighborhoods of Buenos Aires.",
+      "explanation_ur": "ٹینگو بیونس آئرس کے کارکن طبقے کے بندرگاہی علاقوں میں شروع ہوا۔",
+      "hint": "Passionate dance often performed by couples",
+      "hint_ur": "جذباتی رقص جو اکثر جوڑوں کے ذریعہ پیش کیا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Who wrote 'Pride and Prejudice'?",
+      "question_ur": "'پرائیڈ اینڈ پریجوڈس' کس نے لکھا؟",
+      "options": {
+        "en": ["Charlotte Brontë", "Jane Austen", "Emily Dickinson", "Virginia Woolf"],
+        "ur": ["شارلٹ برونٹے", "جین آسٹن", "ایملی ڈکنسن", "ورجینیا وولف"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Jane Austen published this romantic novel in 1813.",
+      "explanation_ur": "جین آسٹن نے یہ رومانی ناول 1813 میں شائع کیا تھا۔",
+      "hint": "Famous female English novelist of the Regency era",
+      "hint_ur": "ریجنسی دور کی مشہور انگریز ناول نگار",
+      "timeLimit": 20
+    },
+    {
+      "id": 8,
+      "type": "true-false",
+      "question": "The Louvre Museum is located in London.",
+      "question_ur": "لوور میوزیم لندن میں واقع ہے۔",
+      "correctAnswer": false,
+      "explanation": "The Louvre is located in Paris, France and is the world's largest art museum.",
+      "explanation_ur": "لوور پیرس، فرانس میں واقع ہے اور یہ دنیا کا سب سے بڑا آرٹ میوزیم ہے۔",
+      "hint": "Think of the city where the Mona Lisa is displayed",
+      "hint_ur": "اس شہر کے بارے میں سوچیں جہاں مونا لیزا نمائش کے لیے رکھا گیا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Which of these is a Japanese poetic form?",
+      "question_ur": "ان میں سے کون سی جاپانی شاعری کی ایک قسم ہے؟",
+      "options": {
+        "en": ["Sonnet", "Haiku", "Limerick", "Free verse"],
+        "ur": ["سوننیٹ", "ہائیکو", "لمرک", "آزاد نظم"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Haiku is a traditional Japanese poetic form with 5-7-5 syllable structure.",
+      "explanation_ur": "ہائیکو جاپانی شاعری کی ایک روایتی قسم ہے جس میں 5-7-5 والی ہجا ساخت ہوتی ہے۔",
+      "hint": "Short poem with nature themes",
+      "hint_ur": "فطرتی موضوعات کے ساتھ مختصر نظم",
+      "timeLimit": 25
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Which composer wrote 'Für Elise'?",
+      "question_ur": "'فیور ایلیز' کس موسیقار نے لکھی؟",
+      "options": {
+        "en": ["Mozart", "Beethoven", "Bach", "Chopin"],
+        "ur": ["موزارٹ", "بیٹھوون", "باخ", "شوپن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ludwig van Beethoven composed this famous piano piece in 1810.",
+      "explanation_ur": "لوڈوگ وان بیٹھوون نے یہ مشہور پیانو موسیقی 1810 میں ترتیب دی تھی۔",
+      "hint": "German composer who went deaf",
+      "hint_ur": "جرمن موسیقار جو بہرا ہو گیا تھا",
+      "timeLimit": 20
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "question": "The Harry Potter series has 7 books.",
+      "question_ur": "ہیری پوٹر سیریز میں 7 کتابیں ہیں۔",
+      "correctAnswer": true,
+      "explanation": "J.K. Rowling wrote 7 books in the main Harry Potter series.",
+      "explanation_ur": "جے کے رولنگ نے ہیری پوٹر سیریز کی 7 کتابیں لکھیں۔",
+      "hint": "One book for each year at Hogwarts",
+      "hint_ur": "ہوگوارٹس میں ہر سال کے لیے ایک کتاب",
+      "timeLimit": 15
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Which art movement is Van Gogh associated with?",
+      "question_ur": "وان گوگ کس آرٹ موومنٹ سے وابستہ ہے؟",
+      "options": {
+        "en": ["Cubism", "Impressionism", "Surrealism", "Baroque"],
+        "ur": ["کیوبزم", "امپریشنزم", "سریئلزم", "باروک"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Van Gogh was a post-Impressionist painter known for his expressive style.",
+      "explanation_ur": "وان گوگ ایک پوسٹ امپریشنسٹ مصور تھا جو اپنے اظہاری انداز کے لیے جانا جاتا ہے۔",
+      "hint": "Known for 'Starry Night' painting",
+      "hint_ur": "'سٹاری نائٹ' پینٹنگ کے لیے مشہور",
+      "timeLimit": 25
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "What is the traditional dress of Japan called?",
+      "question_ur": "جاپان کے روایتی لباس کو کیا کہتے ہیں؟",
+      "options": {
+        "en": ["Sari", "Kimono", "Hanbok", "Cheongsam"],
+        "ur": ["ساڑی", "کیمونو", "ہانبوک", "چیونگسام"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The kimono is a traditional Japanese garment with distinctive long sleeves.",
+      "explanation_ur": "کیمونو ایک روایتی جاپانی لباس ہے جس میں نمایاں لمبی آستینیں ہوتی ہیں۔",
+      "hint": "Often worn with an obi belt",
+      "hint_ur": "اکثر اوبی بیلٹ کے ساتھ پہنا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "question": "The Broadway theater district is located in Los Angeles.",
+      "question_ur": "براڈوے تھیٹر ڈسٹرکٹ لاس اینجلس میں واقع ہے۔",
+      "correctAnswer": false,
+      "explanation": "Broadway is located in New York City and is famous for theatrical performances.",
+      "explanation_ur": "براڈوے نیویارک شہر میں واقع ہے اور تھیٹر پرفارمنس کے لیے مشہور ہے۔",
+      "hint": "Think of New York's theater scene",
+      "hint_ur": "نیویارک کے تھیٹر منظرنامے کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Which Shakespeare play features the characters Rosencrantz and Guildenstern?",
+      "question_ur": "کس شیکسپیئر ڈرامے میں روزنکرانٹز اور گلڈنسٹرن کردار ہیں؟",
+      "options": {
+        "en": ["Macbeth", "Hamlet", "Romeo and Juliet", "A Midsummer Night's Dream"],
+        "ur": ["میکبتھ", "ہیملیٹ", "رومیو اور جولیٹ", "مڈسمر نائٹس ڈریم"]
+      },
+      "correctAnswer": 1,
+      "explanation": "These characters appear in Hamlet as childhood friends of the title character.",
+      "explanation_ur": "یہ کردار ہیملیٹ میں عنوانی کردار کے بچپن کے دوستوں کے طور پر ظاہر ہوتے ہیں۔",
+      "hint": "The play with the famous 'To be or not to be' soliloquy",
+      "hint_ur": "وہ ڈرامہ جس میں مشہور 'ٹو بی اور ناٹ ٹو بی' کا خود کلامی ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "Which instrument is known as the 'king of instruments'?",
+      "question_ur": "کس آلہ موسیقی کو 'آلات کا بادشاہ' کہا جاتا ہے؟",
+      "options": {
+        "en": ["Violin", "Piano", "Organ", "Trumpet"],
+        "ur": ["وایلن", "پیانو", "ارگن", "ترمپٹ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The pipe organ is called the 'king of instruments' due to its size and complexity.",
+      "explanation_ur": "پائپ آرگن کو اس کے سائز اور پیچیدگی کی وجہ سے 'آلات کا بادشاہ' کہا جاتا ہے۔",
+      "hint": "Often found in churches and cathedrals",
+      "hint_ur": "اکثر گرجا گھروں اور کیتھیڈرلز میں پایا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 17,
+      "type": "true-false",
+      "question": "The color orange is named after the fruit.",
+      "question_ur": "اورینج رنگ کا نام پھل کے بعد رکھا گیا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Before the fruit was introduced to Europe, the color was called 'yellow-red'.",
+      "explanation_ur": "پھل کو یورپ میں متعارف کرانے سے پہلے، رنگ کو 'پیلا-سرخ' کہا جاتا تھا۔",
+      "hint": "The word comes from Sanskrit 'naranga'",
+      "hint_ur": "لفظ سنسکرت 'نارنگا' سے آیا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Which of these is a traditional Indian classical dance form?",
+      "question_ur": "ان میں سے کون سا روایتی ہندوستانی کلاسیکی رقص ہے؟",
+      "options": {
+        "en": ["Flamenco", "Bharatanatyam", "Ballet", "Tango"],
+        "ur": ["فلیمینکو", "بھرت ناٹیئم", "بیلی", "ٹینگو"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Bharatanatyam originated in Tamil Nadu and is one of India's oldest dance forms.",
+      "explanation_ur": "بھرت ناٹیئم تمل ناڈو میں شروع ہوا اور یہ ہندوستان کے قدیم ترین رقصوں میں سے ایک ہے۔",
+      "hint": "Dance form from South India",
+      "hint_ur": "جنوبی ہندوستان کا رقص",
+      "timeLimit": 25
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Who directed the movie 'Titanic' (1997)?",
+      "question_ur": "فلم 'ٹائٹینک' (1997) کس نے ہدایت کی؟",
+      "options": {
+        "en": ["Steven Spielberg", "James Cameron", "Martin Scorsese", "Christopher Nolan"],
+        "ur": ["سٹیون سپیلبرگ", "جیمز کیمرون", "مارٹن سکورسیزی", "کرسٹوفر نولن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "James Cameron wrote and directed this epic romance/disaster film.",
+      "explanation_ur": "جیمز کیمرون نے یہ رومانی/تباہی کی شاندار فلم لکھی اور ہدایت کی۔",
+      "hint": "Also directed 'Avatar'",
+      "hint_ur": "'ایویٹر' بھی ہدایت کی",
+      "timeLimit": 20
+    },
+    {
+      "id": 20,
+      "type": "true-false",
+      "question": "The novel 'To Kill a Mockingbird' was written by Harper Lee.",
+      "question_ur": "ناول 'ٹو کل اے موکنگ برڈ' ہارپر لی نے لکھا تھا۔",
+      "correctAnswer": true,
+      "explanation": "Harper Lee published this Pulitzer Prize-winning novel in 1960.",
+      "explanation_ur": "ہارپر لی نے یہ پلٹزر انعام یافتہ ناول 1960 میں شائع کیا تھا۔",
+      "hint": "Features the character Atticus Finch",
+      "hint_ur": "ایٹکس فنچ کا کردار شامل ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Which of these is NOT one of the primary colors?",
+      "question_ur": "ان میں سے کون سا بنیادی رنگ نہیں ہے؟",
+      "options": {
+        "en": ["Red", "Blue", "Green", "Yellow"],
+        "ur": ["سرخ", "نیلا", "سبز", "پیلا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The primary colors are red, blue, and yellow. Green is a secondary color.",
+      "explanation_ur": "بنیادی رنگ سرخ، نیلا اور پیلا ہیں۔ سبز ایک ثانوی رنگ ہے۔",
+      "hint": "Think of the color wheel basics",
+      "hint_ur": "رنگوں کے پہیے کی بنیادی باتوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "Which famous artist cut off part of his own ear?",
+      "question_ur": "کس مشہور مصور نے اپنا کان کاٹ لیا تھا؟",
+      "options": {
+        "en": ["Pablo Picasso", "Vincent van Gogh", "Salvador Dalí", "Claude Monet"],
+        "ur": ["پابلو پکاسو", "ونسینٹ وین گوگ", "سالوڈور ڈالی", "کلوڈ مونے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Van Gogh famously cut off part of his left ear during a mental health crisis.",
+      "explanation_ur": "ونسینٹ وین گوگ نے اپنے ذہنی صحت کے بحران کے دوران اپنے بائیں کان کا ایک حصہ کاٹ لیا تھا۔",
+      "hint": "Dutch post-Impressionist painter",
+      "hint_ur": "ڈچ پوسٹ امپریشنسٹ مصور",
+      "timeLimit": 25
+    },
+    {
+      "id": 23,
+      "type": "true-false",
+      "question": "The Statue of Liberty was a gift from France to the USA.",
+      "question_ur": "مجسمہ آزادی فرانس کا امریکہ کو تحفہ تھا۔",
+      "correctAnswer": true,
+      "explanation": "France gave the statue to commemorate the American Revolution and friendship.",
+      "explanation_ur": "فرانس نے یہ مجسمہ امریکی انقلاب اور دوستی کی یادگار کے طور پر دیا تھا۔",
+      "hint": "Dedicated in 1886",
+      "hint_ur": "1886 میں وقف کیا گیا",
+      "timeLimit": 20
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which of these is a famous ballet composed by Tchaikovsky?",
+      "question_ur": "ان میں سے کون سا چائکوفسکی کا مشہور بیلے ہے؟",
+      "options": {
+        "en": ["Swan Lake", "The Nutcracker", "Both of these", "Neither of these"],
+        "ur": ["سوان لیک", "دی نٹ کریکر", "یہ دونوں", "ان میں سے کوئی نہیں"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Tchaikovsky composed both Swan Lake (1876) and The Nutcracker (1892).",
+      "explanation_ur": "چائکوفسکی نے سوان لیک (1876) اور دی نٹ کریکر (1892) دونوں ترتیب دیے۔",
+      "hint": "Think of holiday season performances",
+      "hint_ur": "چھٹیوں کے موسم کی پرفارمنس کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "What is the traditional fabric used to make Scottish kilts?",
+      "question_ur": "سکاٹش کلٹس بنانے کے لیے روایتی کپڑا کون سا ہے؟",
+      "options": {
+        "en": ["Denim", "Tartan", "Silk", "Linen"],
+        "ur": ["ڈینم", "ٹارٹن", "ریشم", "لیون"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Kilts are made from tartan, a patterned woolen cloth with specific designs for different clans.",
+      "explanation_ur": "کلٹس ٹارٹن سے بنے ہوتے ہیں، جو مختلف خاندانوں کے لیے مخصوص ڈیزائن والا ایک اونی کپڑا ہے۔",
+      "hint": "Plaid-patterned wool fabric",
+      "hint_ur": "پلائیڈ ڈیزائن والا اونی کپڑا",
+      "timeLimit": 30
+    },
+    {
+      "id": 26,
+      "type": "true-false",
+      "question": "The Great Pyramid of Giza is the oldest of the Seven Wonders of the Ancient World.",
+      "question_ur": "اہرام مصر قدیم دنیا کے سات عجائبات میں سے سب سے پرانا ہے۔",
+      "correctAnswer": true,
+      "explanation": "It's the oldest and the only one still largely intact today.",
+      "explanation_ur": "یہ سب سے پرانا ہے اور آج تک بڑی حد تک سالم حالت میں موجود واحد عجوبہ ہے۔",
+      "hint": "Built around 2560 BCE",
+      "hint_ur": "2560 قبل مسیح کے قریب تعمیر کیا گیا",
+      "timeLimit": 25
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "Which musical features the song 'Memory'?",
+      "question_ur": "کس میوزیکل میں 'میموری' گانا ہے؟",
+      "options": {
+        "en": ["Les Misérables", "Cats", "The Phantom of the Opera", "Chicago"],
+        "ur": ["لی میزریبلز", "کیٹس", "دی فینٹم آف دی اوپیرا", "شکاگو"]
+      },
+      "correctAnswer": 1,
+      "explanation": "'Memory' is the most famous song from Andrew Lloyd Webber's musical Cats.",
+      "explanation_ur": "'میموری' اینڈریو لائیڈ ویبر کے میوزیکل کیٹس کا سب سے مشہور گانا ہے۔",
+      "hint": "Based on T.S. Eliot's poems about felines",
+      "hint_ur": "ٹی ایس ایلیٹ کی بلیوں کے بارے میں نظموں پر مبنی",
+      "timeLimit": 30
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "Which country is the origin of the martial art Judo?",
+      "question_ur": "جیوڈو مارشل آرٹ کا آغاز کس ملک سے ہوا؟",
+      "options": {
+        "en": ["China", "Japan", "Korea", "Thailand"],
+        "ur": ["چین", "جاپان", "کوریا", "تھائی لینڈ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Judo was created in Japan in 1882 by Jigoro Kano as a physical, mental, and moral pedagogy.",
+      "explanation_ur": "جیوڈو 1882 میں جاپان میں جیگورو کانو نے جسمانی، ذہنی اور اخلاقی تعلیم کے طور پر تخلیق کیا تھا۔",
+      "hint": "Uses throws and grappling techniques",
+      "hint_ur": "پھینکنے اور گرفت کی تکنیک استعمال کرتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 29,
+      "type": "true-false",
+      "question": "The novel 'The Great Gatsby' is set during the Roaring Twenties.",
+      "question_ur": "ناول 'دی گریٹ گیٹسبائی' رورنگ ٹوینٹیز کے دوران ترتیب دیا گیا ہے۔",
+      "correctAnswer": true,
+      "explanation": "F. Scott Fitzgerald's novel captures the spirit of the Jazz Age in 1920s America.",
+      "explanation_ur": "ایف سکاٹ فٹزجیرلڈ کا ناول 1920 کی دہائی کے امریکہ میں جاز ایج کی روح کو پکڑتا ہے۔",
+      "hint": "Features the character Jay Gatsby",
+      "hint_ur": "جے گیٹسبائی کا کردار شامل ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "Which artist is famous for painting water lilies?",
+      "question_ur": "کون سا مصور واٹر لیلیز پینٹنگ کے لیے مشہور ہے؟",
+      "options": {
+        "en": ["Pablo Picasso", "Vincent van Gogh", "Claude Monet", "Salvador Dalí"],
+        "ur": ["پابلو پکاسو", "ونسینٹ وین گوگ", "کلوڈ مونے", "سالوڈور ڈالی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Monet painted approximately 250 oil paintings of water lilies in his garden at Giverny.",
+      "explanation_ur": "مونے نے گیورنی میں اپنے باغ میں واٹر لیلیز کی تقریباً 250 تیل کی پینٹنگز بنائیں۔",
+      "hint": "French Impressionist painter",
+      "hint_ur": "فرانسیسی امپریشنسٹ مصور",
+      "timeLimit": 25
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Which of these is a traditional Chinese musical instrument?",
+      "question_ur": "ان میں سے کون سا روایتی چینی موسیقی کا آلہ ہے؟",
+      "options": {
+        "en": ["Sitar", "Erhu", "Didgeridoo", "Bagpipes"],
+        "ur": ["ستار", "ارہو", "ڈیجیریڈو", "بیگ پائپس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The erhu is a two-stringed bowed musical instrument, sometimes called the 'Chinese violin'.",
+      "explanation_ur": "ارہو ایک دو تاری موسیقی کا آلہ ہے، جسے کبھی کبھی 'چینی وایلن' کہا جاتا ہے۔",
+      "hint": "Has a distinctive melancholic sound",
+      "hint_ur": "ایک مخصوص اداس آواز ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 32,
+      "type": "true-false",
+      "question": "The character Sherlock Holmes was created by Charles Dickens.",
+      "question_ur": "شیرلک ہومز کا کردار چارلس ڈکنز نے تخلیق کیا تھا۔",
+      "correctAnswer": false,
+      "explanation": "Sherlock Holmes was created by Sir Arthur Conan Doyle, not Charles Dickens.",
+      "explanation_ur": "شیرلک ہومز کا کردار سر آرتھر کونن ڈویل نے تخلیق کیا تھا، چارلس ڈکنز نے نہیں۔",
+      "hint": "Think of the author of 'A Study in Scarlet'",
+      "hint_ur": "'ایک اسٹڈی ان سکارلیٹ' کے مصنف کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Which of these is a famous opera by Mozart?",
+      "question_ur": "ان میں سے کون سی موزارٹ کی مشہور اوپیرا ہے؟",
+      "options": {
+        "en": ["Carmen", "La Traviata", "The Magic Flute", "Madama Butterfly"],
+        "ur": ["کارمین", "لا ٹراویاٹا", "دی میجک فلٹ", "مادام بٹر فلائی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Magic Flute (Die Zauberflöte) was Mozart's last opera, premiered in 1791.",
+      "explanation_ur": "دی میجک فلٹ (ڈائی زوبرفلوٹ) موزارٹ کی آخری اوپیرا تھی، جو 1791 میں پہلی بار پیش کی گئی۔",
+      "hint": "Features the Queen of the Night aria",
+      "hint_ur": "کوئین آف دی نائٹ اریا شامل ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "Which country is the origin of the tea ceremony?",
+      "question_ur": "چائے کی تقریب کا آغاز کس ملک سے ہوا؟",
+      "options": {
+        "en": ["India", "China", "Japan", "England"],
+        "ur": ["ہندوستان", "چین", "جاپان", "انگلینڈ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Chinese tea ceremony dates back to the Tang Dynasty (618-907 CE).",
+      "explanation_ur": "چینی چائے کی تقریب تانگ خاندان (618-907 عیسوی) سے شروع ہوئی۔",
+      "hint": "Where tea was first discovered",
+      "hint_ur": "جہاں چائے سب سے پہلے دریافت ہوئی",
+      "timeLimit": 25
+    },
+    {
+      "id": 35,
+      "type": "true-false",
+      "question": "The novel 'Moby-Dick' is about a giant whale.",
+      "question_ur": "ناول 'موبی ڈک' ایک بڑی وہیل کے بارے میں ہے۔",
+      "correctAnswer": true,
+      "explanation": "Herman Melville's 1851 novel follows Captain Ahab's obsessive quest for the white whale Moby Dick.",
+      "explanation_ur": "ہرمن میلول کا 1851 کا ناول کپتان اہاب کی سفید وہیل موبی ڈک کے لیے جنونی تلاش کی پیروی کرتا ہے۔",
+      "hint": "Features the whaling ship Pequod",
+      "hint_ur": "وہیلنگ جہاز پیقوڈ شامل ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Which art style is characterized by dream-like imagery and unexpected juxtapositions?",
+      "question_ur": "کون سا آرٹ سٹائل خواب نما تصاویر اور غیر متوقع جوڑ کی خصوصیت رکھتا ہے؟",
+      "options": {
+        "en": ["Impressionism", "Cubism", "Surrealism", "Realism"],
+        "ur": ["امپریشنزم", "کیوبزم", "سریئلزم", "ریئلزم"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Surrealism emerged in the 1920s, emphasizing unconscious creativity.",
+      "explanation_ur": "سریئلزم 1920 کی دہائی میں ابھرا، جو لاشعوری تخلیقی صلاحیت پر زور دیتا ہے۔",
+      "hint": "Associated with Salvador Dalí",
+      "hint_ur": "سالوڈور ڈالی سے وابستہ",
+      "timeLimit": 30
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "Which Shakespeare play features the character Iago?",
+      "question_ur": "کس شیکسپیئر ڈرامے میں ایاگو کا کردار ہے؟",
+      "options": {
+        "en": ["Macbeth", "Hamlet", "Othello", "King Lear"],
+        "ur": ["میکبتھ", "ہیملیٹ", "اوتھیلو", "کنگ لیئر"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Iago is the villain who manipulates Othello in Shakespeare's tragedy.",
+      "explanation_ur": "ایاگو وہ ولن ہے جو شیکسپیئر کے المیہ میں اوتھیلو کو ہیرا پھیری کرتا ہے۔",
+      "hint": "Play about jealousy and betrayal",
+      "hint_ur": "رشک اور دھوکے کے بارے میں ڈرامہ",
+      "timeLimit": 25
+    },
+    {
+      "id": 38,
+      "type": "true-false",
+      "question": "The Sydney Opera House is shaped like seashells.",
+      "question_ur": "سڈنی اوپیرا ہاؤس سی شیلز کی شکل میں ہے۔",
+      "correctAnswer": true,
+      "explanation": "Its distinctive architecture by Jørn Utzon was inspired by peeling an orange.",
+      "explanation_ur": "جورن اٹزن کا اس کا مخصوص فن تعمیر ایک اورینج کو چھیلنے سے متاثر ہوا تھا۔",
+      "hint": "UNESCO World Heritage Site",
+      "hint_ur": "یونیسکو عالمی ثقافتی ورثہ",
+      "timeLimit": 20
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "Which of these is a traditional Mexican folk art?",
+      "question_ur": "ان میں سے کون سا روایتی میکسیکن لوک فن ہے؟",
+      "options": {
+        "en": ["Origami", "Alebrijes", "Calligraphy", "Kilim"],
+        "ur": ["اوریگامی", "الیبریجز", "خطاطی", "کیلیم"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Alebrijes are brightly colored Mexican folk art sculptures of fantastical creatures.",
+      "explanation_ur": "الیبریجز خیالی مخلوقات کی روشن رنگوں والی میکسیکن لوک آرٹ مجسمے ہیں۔",
+      "hint": "Colorful animal sculptures",
+      "hint_ur": "رنگ برنگے جانوروں کے مجسمے",
+      "timeLimit": 30
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "Which composer is known as the 'Waltz King'?",
+      "question_ur": "کس موسیقار کو 'والٹز کنگ' کہا جاتا ہے؟",
+      "options": {
+        "en": ["Johann Strauss II", "Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Frédéric Chopin"],
+        "ur": ["جوہان سٹراس دوم", "ولف گینگ امیڈیوس موزارٹ", "لوڈوگ وان بیٹھوون", "فریڈرک شوپن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Johann Strauss II composed over 500 waltzes, including 'The Blue Danube'.",
+      "explanation_ur": "جوہان سٹراس دوم نے 'دی بلیو ڈینیوب' سمیت 500 سے زیادہ والٹز ترتیب دیے۔",
+      "hint": "19th century Austrian composer",
+      "hint_ur": "انیسویں صدی کا آسٹریائی موسیقار",
+      "timeLimit": 25
+    },
+    {
+      "id": 41,
+      "type": "true-false",
+      "question": "The novel 'War and Peace' was written by Fyodor Dostoevsky.",
+      "question_ur": "ناول 'وار اینڈ پیس' فیوڈور ڈوسٹوئفسکی نے لکھا تھا۔",
+      "correctAnswer": false,
+      "explanation": "It was written by Leo Tolstoy and published in 1869.",
+      "explanation_ur": "یہ لیو ٹالسٹائی نے لکھا تھا اور 1869 میں شائع ہوا تھا۔",
+      "hint": "Epic novel about Napoleon's invasion of Russia",
+      "hint_ur": "نیپولین کے روس پر حملے کے بارے میں شاندار ناول",
+      "timeLimit": 20
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "Which painting technique uses small dots of color?",
+      "question_ur": "کون سی پینٹنگ تکنیک رنگ کے چھوٹے نقطے استعمال کرتی ہے؟",
+      "options": {
+        "en": ["Impasto", "Pointillism", "Fresco", "Sfumato"],
+        "ur": ["امپاسٹو", "پوائنٹلزم", "فریسکو", "سفومیٹو"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Pointillism was developed by Georges Seurat in the 1880s.",
+      "explanation_ur": "پوائنٹلزم جارجز سیرا نے 1880 کی دہائی میں تیار کیا تھا۔",
+      "hint": "Seurat's 'A Sunday Afternoon on the Island of La Grande Jatte'",
+      "hint_ur": "سیرا کی 'اے سنڈے آفٹرنون آن دی آئی لینڈ آف لا گرینڈ جیٹ'",
+      "timeLimit": 30
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Which of these is a traditional Japanese theater form?",
+      "question_ur": "ان میں سے کون سا روایتی جاپانی تھیٹر کی قسم ہے؟",
+      "options": {
+        "en": ["Kabuki", "Opera", "Ballet", "Pantomime"],
+        "ur": ["کابکی", "اوپیرا", "بیلی", "پینٹومائم"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kabuki is classical Japanese dance-drama known for stylized drama and elaborate makeup.",
+      "explanation_ur": "کابکی کلاسیکی جاپانی رقص ڈرامہ ہے جو اسٹائلائزڈ ڈرامہ اور پیچیدہ میک اپ کے لیے جانا جاتا ہے۔",
+      "hint": "Features onnagata (male actors playing female roles)",
+      "hint_ur": "اونناگاتا (مرد اداکار جو خواتین کے کردار ادا کرتے ہیں) شامل ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 44,
+      "type": "true-false",
+      "question": "The musical 'West Side Story' is based on 'Romeo and Juliet'.",
+      "question_ur": "میوزیکل 'ویسٹ سائیڈ سٹوری' 'رومیو اینڈ جولیٹ' پر مبنی ہے۔",
+      "correctAnswer": true,
+      "explanation": "It transposes Shakespeare's play to 1950s New York with rival street gangs.",
+      "explanation_ur": "یہ شیکسپیئر کے ڈرامے کو 1950 کی دہائی کے نیویارک میں حریف گلی گینگز کے ساتھ پیش کرتا ہے۔",
+      "hint": "Features songs by Leonard Bernstein",
+      "hint_ur": "لیونارڈ برنسٹین کے گانے شامل ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Which famous artist painted 'The Persistence of Memory'?",
+      "question_ur": "مشہور مصور 'دی پرسسٹنس آف میموری' کس نے پینٹ کیا؟",
+      "options": {
+        "en": ["Pablo Picasso", "Salvador Dalí", "René Magritte", "Joan Miró"],
+        "ur": ["پابلو پکاسو", "سالوڈور ڈالی", "رینے میگریٹ", "جوآن میرó"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Dalí's 1931 painting features melting clocks in a desert landscape.",
+      "explanation_ur": "ڈالی کی 1931 کی پینٹنگ میں صحرائی منظر میں پگھلتی ہوئی گھڑیاں ہیں۔",
+      "hint": "Spanish surrealist artist",
+      "hint_ur": "ہسپانوی سریئلسٹ آرٹسٹ",
+      "timeLimit": 25
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "Which country is the origin of the novel 'Don Quixote'?",
+      "question_ur": "ناول 'ڈان کویکسوٹ' کا آغاز کس ملک سے ہوا؟",
+      "options": {
+        "en": ["France", "Italy", "Spain", "Portugal"],
+        "ur": ["فرانس", "اٹلی", "ہسپانیہ", "پرتگال"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Miguel de Cervantes wrote this Spanish literary masterpiece in 1605.",
+      "explanation_ur": "مگوئل ڈی سروینٹس نے یہ ہسپانوی ادبی شاہکار 1605 میں لکھا تھا۔",
+      "hint": "Features a delusional knight and his squire Sancho",
+      "hint_ur": "ایک وہمی نائٹ اور اس کا اسکوئیر سانچو شامل ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 47,
+      "type": "true-false",
+      "question": "The musical instrument 'didgeridoo' originated in Australia.",
+      "question_ur": "موسیقی کا آلہ 'ڈیجیریڈو' آسٹریلیا میں شروع ہوا۔",
+      "correctAnswer": true,
+      "explanation": "It's a wind instrument developed by Indigenous Australians about 1,500 years ago.",
+      "explanation_ur": "یہ ایک ہوا کا آلہ ہے جو تقریباً 1,500 سال پہلے مقامی آسٹریلویوں نے تیار کیا تھا۔",
+      "hint": "Long wooden trumpet-like instrument",
+      "hint_ur": "لمبا لکڑی کا ٹرمپیٹ نما آلہ",
+      "timeLimit": 20
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "Which of these is a traditional African musical instrument?",
+      "question_ur": "ان میں سے کون سا روایتی افریقی موسیقی کا آلہ ہے؟",
+      "options": {
+        "en": ["Djembe", "Sitar", "Bagpipes", "Banjo"],
+        "ur": ["جمبی", "ستار", "بیگ پائپس", "بینجو"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The djembe is a rope-tuned skin-covered drum played with bare hands.",
+      "explanation_ur": "جمبی رسی سے تیار کردہ کھال سے ڈھکا ہوا ڈھول ہے جسے ننگے ہاتھوں سے بجایا جاتا ہے۔",
+      "hint": "West African goblet drum",
+      "hint_ur": "مغربی افریقی گوبلٹ ڈرم",
+      "timeLimit": 25
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "Which famous artist painted 'Girl with a Pearl Earring'?",
+      "question_ur": "مشہور مصور 'گرل ود اے پرل ایرنگ' کس نے پینٹ کیا؟",
+      "options": {
+        "en": ["Rembrandt", "Vincent van Gogh", "Johannes Vermeer", "Peter Paul Rubens"],
+        "ur": ["ریمبرانڈٹ", "ونسینٹ وین گوگ", "جوہانس ورمر", "پیٹر پال روبنز"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Vermeer's 1665 painting is sometimes called the 'Mona Lisa of the North'.",
+      "explanation_ur": "ورمر کی 1665 کی پینٹنگ کو کبھی کبھی 'شمال کی مونا لیزا' کہا جاتا ہے۔",
+      "hint": "Dutch Golden Age painter",
+      "hint_ur": "ڈچ گولڈن ایج مصور",
+      "timeLimit": 25
+    },
+    {
+      "id": 50,
+      "type": "true-false",
+      "question": "The novel 'The Catcher in the Rye' was written by J.D. Salinger.",
+      "question_ur": "ناول 'دی کیچر ان دی رائی' جے ڈی سلنگر نے لکھا تھا۔",
+      "correctAnswer": true,
+      "explanation": "Published in 1951, it follows teenager Holden Caulfield in New York City.",
+      "explanation_ur": "1951 میں شائع ہوا، یہ نیویارک شہر میں نوعمر ہولڈن کالفیلڈ کی کہانی بیان کرتا ہے۔",
+      "hint": "Features the protagonist's cynical worldview",
+      "hint_ur": "مرکزی کردار کے طنزیہ عالمی نظریہ کو پیش کرتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "Which of these is a traditional Russian string instrument?",
+      "question_ur": "ان میں سے کون سا روایتی روسی تار والا آلہ ہے؟",
+      "options": {
+        "en": ["Balalaika", "Sitar", "Banjo", "Mandolin"],
+        "ur": ["بالالائیکا", "ستار", "بینجو", "مینڈولن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The balalaika has a characteristic triangular body and three strings.",
+      "explanation_ur": "بالالائیکا میں ایک مخصوص مثلثی جسم اور تین تار ہوتے ہیں۔",
+      "hint": "Triangular-shaped instrument",
+      "hint_ur": "مثلثی شکل کا آلہ",
+      "timeLimit": 30
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "Which famous composer was deaf in his later years?",
+      "question_ur": "مشہور موسیقار اپنی بعد کی زندگی میں بہرا ہو گیا تھا؟",
+      "options": {
+        "en": ["Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Ludwig van Beethoven", "Frédéric Chopin"],
+        "ur": ["ولف گینگ امیڈیوس موزارٹ", "جوہان سیبسٹین باخ", "لوڈوگ وان بیٹھوون", "فریڈرک شوپن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Beethoven began losing his hearing in his late 20s and was nearly deaf when he composed his 9th Symphony.",
+      "explanation_ur": "بیٹھوون نے اپنی 20 کی دہائی کے آخر میں اپنی سماعت کھونا شروع کر دی تھی اور جب اس نے اپنی 9 ویں سمفنی ترتیب دی تھی تو تقریباً بہرا ہو چکا تھا۔",
+      "hint": "German composer of 'Ode to Joy'",
+      "hint_ur": "'اوڈ ٹو جوی' کا جرمن موسیقار",
+      "timeLimit": 25
+    },
+    {
+      "id": 53,
+      "type": "true-false",
+      "question": "The character Hercule Poirot was created by Agatha Christie.",
+      "question_ur": "کردار ہرکیول پوآروٹ ایگاتھا کرسٹی نے تخلیق کیا تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Belgian detective first appeared in 'The Mysterious Affair at Styles' (1920).",
+      "explanation_ur": "بیلجیئم کے جاسوس پہلی بار 'دی مسٹیریس افیئر ایٹ سٹائلز' (1920) میں نمودار ہوئے۔",
+      "hint": "Known for his 'little grey cells'",
+      "hint_ur": "اپنے 'چھوٹے سرمئی خلیات' کے لیے جانا جاتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "Which art movement is Pablo Picasso most associated with?",
+      "question_ur": "پابلو پکاسو کس آرٹ موومنٹ سے سب سے زیادہ وابستہ ہے؟",
+      "options": {
+        "en": ["Impressionism", "Cubism", "Surrealism", "Expressionism"],
+        "ur": ["امپریشنزم", "کیوبزم", "سریئلزم", "ایکسپریشنزم"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Picasso co-founded Cubism with Georges Braque in the early 20th century.",
+      "explanation_ur": "پکاسو نے 20 ویں صدی کے اوائل میں جارجز بریک کے ساتھ کیوبزم کی بنیاد رکھی۔",
+      "hint": "Style that depicts subjects from multiple viewpoints",
+      "hint_ur": "انداز جو موضوعات کو متعدد نقطہ نظر سے پیش کرتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "Which of these is a traditional Indian string instrument?",
+      "question_ur": "ان میں سے کون سا روایتی ہندوستانی تار والا آلہ ہے؟",
+      "options": {
+        "en": ["Sitar", "Didgeridoo", "Bagpipes", "Banjo"],
+        "ur": ["ستار", "ڈیجیریڈو", "بیگ پائپس", "بینجو"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The sitar is a plucked string instrument used in Hindustani classical music.",
+      "explanation_ur": "ستار ہندوستانی کلاسیکی موسیقی میں استعمال ہونے والا ایک تار والا آلہ ہے۔",
+      "hint": "Popularized by Ravi Shankar in the West",
+      "hint_ur": "مغرب میں راوی شنکر نے مقبول بنایا",
+      "timeLimit": 25
+    },
+    {
+      "id": 56,
+      "type": "true-false",
+      "question": "The novel 'The Hobbit' was written after 'The Lord of the Rings'.",
+      "question_ur": "ناول 'دی ہابٹ' 'دی لارڈ آف دی رنگز' کے بعد لکھا گیا تھا۔",
+      "correctAnswer": false,
+      "explanation": "'The Hobbit' (1937) was written first as a children's story, before the epic LOTR trilogy.",
+      "explanation_ur": "'دی ہابٹ' (1937) سب سے پہلے بچوں کی کہانی کے طور پر لکھا گیا تھا، شاندار LOTR ٹرائلوجی سے پہلے۔",
+      "hint": "Features Bilbo Baggins as protagonist",
+      "hint_ur": "بلبو بیگنز کو مرکزی کردار کے طور پر پیش کرتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "Which famous artist painted 'The Starry Night'?",
+      "question_ur": "مشہور مصور 'دی سٹاری نائٹ' کس نے پینٹ کیا؟",
+      "options": {
+        "en": ["Pablo Picasso", "Vincent van Gogh", "Claude Monet", "Salvador Dalí"],
+        "ur": ["پابلو پکاسو", "ونسینٹ وین گوگ", "کلوڈ مونے", "سالوڈور ڈالی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Van Gogh painted this iconic work in 1889 while in an asylum at Saint-Rémy.",
+      "explanation_ur": "وان گوگ نے یہ مشہور کام 1889 میں سینٹ ریمی میں ایک پاگل خانے میں رہتے ہوئے پینٹ کیا تھا۔",
+      "hint": "Dutch post-Impressionist painter",
+      "hint_ur": "ڈچ پوسٹ امپریشنسٹ مصور",
+      "timeLimit": 25
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "Which of these is a traditional Chinese theater art?",
+      "question_ur": "ان میں سے کون سا روایتی چینی تھیٹر آرٹ ہے؟",
+      "options": {
+        "en": ["Kabuki", "Peking Opera", "Ballet", "Pantomime"],
+        "ur": ["کابکی", "پیکنگ اوپیرا", "بیلی", "پینٹومائم"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Peking Opera combines music, vocal performance, mime, dance and acrobatics.",
+      "explanation_ur": "پیکنگ اوپیرا موسیقی، آواز کی کارکردگی، مائم، رقص اور ایکروبیٹکس کو جوڑتا ہے۔",
+      "hint": "Features elaborate colorful costumes",
+      "hint_ur": "پیچیدہ رنگ برنگے کوسٹیومز شامل ہیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 59,
+      "type": "true-false",
+      "question": "The character James Bond was created by Ian Fleming.",
+      "question_ur": "کردار جیمز بانڈ ایئن فلیمنگ نے تخلیق کیا تھا۔",
+      "correctAnswer": true,
+      "explanation": "Fleming wrote the first Bond novel 'Casino Royale' in 1953.",
+      "explanation_ur": "فلیمنگ نے پہلا بانڈ ناول 'کیسینو رائل' 1953 میں لکھا تھا۔",
+      "hint": "British author and naval intelligence officer",
+      "hint_ur": "برطانوی مصنف اور نیول انٹیلی جنس افسر",
+      "timeLimit": 20
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "Which of these is a traditional Brazilian dance?",
+      "question_ur": "ان میں سے کون سا روایتی برازیلی رقص ہے؟",
+      "options": {
+        "en": ["Flamenco", "Samba", "Tango", "Waltz"],
+        "ur": ["فلیمینکو", "سامبا", "ٹینگو", "والٹز"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Samba is a Brazilian musical genre and dance style with African roots.",
+      "explanation_ur": "سامبا ایک برازیلی موسیقی کی صنف اور رقص کا انداز ہے جس کی جڑیں افریقہ میں ہیں۔",
+      "hint": "Central to Rio's Carnival celebrations",
+      "hint_ur": "ریو کے کارنیول کے جشن کا مرکز",
+      "timeLimit": 25
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "Which famous artist painted 'The Scream'?",
+      "question_ur": "مشہور مصور 'دی سکریم' کس نے پینٹ کیا؟",
+      "options": {
+        "en": ["Vincent van Gogh", "Edvard Munch", "Pablo Picasso", "Salvador Dalí"],
+        "ur": ["ونسینٹ وین گوگ", "ایڈورڈ منچ", "پابلو پکاسو", "سالوڈور ڈالی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Munch created this iconic expressionist work in 1893.",
+      "explanation_ur": "منچ نے یہ مشہور ایکسپریشنسٹ کام 1893 میں تخلیق کیا تھا۔",
+      "hint": "Norwegian expressionist painter",
+      "hint_ur": "نارویجن ایکسپریشنسٹ مصور",
+      "timeLimit": 25
+    },
+    {
+      "id": 62,
+      "type": "true-false",
+      "question": "The novel 'Frankenstein' was written by Mary Shelley.",
+      "question_ur": "ناول 'فرینکنسٹائن' میری شیلی نے لکھا تھا۔",
+      "correctAnswer": true,
+      "explanation": "Shelley wrote this Gothic novel when she was just 18 years old.",
+      "explanation_ur": "شیلی نے یہ گوتھک ناول اس وقت لکھا جب وہ صرف 18 سال کی تھی۔",
+      "hint": "Written during the 'Year Without a Summer'",
+      "hint_ur": "'سال ودآؤٹ اے سمر' کے دوران لکھا گیا",
+      "timeLimit": 20
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "Which of these is a traditional Irish musical instrument?",
+      "question_ur": "ان میں سے کون سا روایتی آئرش موسیقی کا آلہ ہے؟",
+      "options": {
+        "en": ["Bagpipes", "Tin whistle", "Didgeridoo", "Sitar"],
+        "ur": ["بیگ پائپس", "ٹن وہسٹل", "ڈیجیریڈو", "ستار"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The tin whistle is a simple six-holed woodwind instrument common in Irish music.",
+      "explanation_ur": "ٹن وہسٹل ایک سادہ چھ سوراخوں والا ووڈ ونڈ آلہ ہے جو آئرش موسیقی میں عام ہے۔",
+      "hint": "Also called penny whistle",
+      "hint_ur": "پینی وہسٹل بھی کہا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "question": "Which famous composer wrote 'The Four Seasons'?",
+      "question_ur": "مشہور موسیقار 'دی فور سیزنز' کس نے لکھا؟",
+      "options": {
+        "en": ["Johann Sebastian Bach", "Wolfgang Amadeus Mozart", "Antonio Vivaldi", "Ludwig van Beethoven"],
+        "ur": ["جوہان سیبسٹین باخ", "ولف گینگ امیڈیوس موزارٹ", "اینٹونیو ویوالڈی", "لوڈوگ وان بیٹھوون"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Vivaldi composed this set of four violin concertos in 1723.",
+      "explanation_ur": "ویوالڈی نے وایلن کے چار کنسرٹو کا یہ سیٹ 1723 میں ترتیب دیا تھا۔",
+      "hint": "Italian Baroque composer",
+      "hint_ur": "اطالوی باروک موسیقار",
+      "timeLimit": 25
+    },
+    {
+      "id": 65,
+      "type": "true-false",
+      "question": "The character Sherlock Holmes first appeared in 'A Study in Scarlet'.",
+      "question_ur": "کردار شیرلک ہومز پہلی بار 'ایک اسٹڈی ان سکارلیٹ' میں نمودار ہوا۔",
+      "correctAnswer": true,
+      "explanation": "Arthur Conan Doyle introduced Holmes in this 1887 novel.",
+      "explanation_ur": "آرتھر کونن ڈویل نے ہومز کو اس 1887 کے ناول میں متعارف کرایا۔",
+      "hint": "Features Dr. Watson as narrator",
+      "hint_ur": "ڈاکٹر واٹسن کو راوی کے طور پر پیش کرتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 66,
+      "type": "mcq",
+      "question": "Which of these is a traditional Spanish dance?",
+      "question_ur": "ان میں سے کون سا روایتی ہسپانوی رقص ہے؟",
+      "options": {
+        "en": ["Flamenco", "Samba", "Tango", "Waltz"],
+        "ur": ["فلیمینکو", "سامبا", "ٹینگو", "والٹز"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Flamenco comes from Andalusia and involves guitar, song, dance, and handclaps.",
+      "explanation_ur": "فلیمینکو اینڈالوسیا سے آیا ہے اور اس میں گٹار، گانا، رقص اور تالیاں شامل ہیں۔",
+      "hint": "Known for its emotional intensity",
+      "hint_ur": "اپنی جذباتی شدت کے لیے جانا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "Which famous artist painted 'Guernica'?",
+      "question_ur": "مشہور مصور 'گورنیکا' کس نے پینٹ کیا؟",
+      "options": {
+        "en": ["Pablo Picasso", "Salvador Dalí", "Joan Miró", "Henri Matisse"],
+        "ur": ["پابلو پکاسو", "سالوڈور ڈالی", "جوآن میرó", "ہنری میٹیس"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Picasso's 1937 anti-war painting depicts the bombing of Guernica during the Spanish Civil War.",
+      "explanation_ur": "پکاسو کی 1937 کی جنگ مخالف پینٹنگ ہسپانوی خانہ جنگی کے دوران گورنیکا پر بمباری کو دکھاتی ہے۔",
+      "hint": "Monochrome cubist painting",
+      "hint_ur": "یک رنگ کیوبسٹ پینٹنگ",
+      "timeLimit": 25
+    },
+    {
+      "id": 68,
+      "type": "true-false",
+      "question": "The novel 'Wuthering Heights' was written by Charlotte Brontë.",
+      "question_ur": "ناول 'ویدرنگ ہائٹس' شارلٹ برونٹے نے لکھا تھا۔",
+      "correctAnswer": false,
+      "explanation": "It was written by her sister Emily Brontë and published in 1847.",
+      "explanation_ur": "یہ اس کی بہن ایملی برونٹے نے لکھا تھا اور 1847 میں شائع ہوا تھا۔",
+      "hint": "Features the characters Heathcliff and Catherine",
+      "hint_ur": "ہیتھ کلیف اور کیتھرین کے کردار شامل ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "question": "Which of these is a traditional Hawaiian dance?",
+      "question_ur": "ان میں سے کون سا روایتی ہوائی کا رقص ہے؟",
+      "options": {
+        "en": ["Hula", "Samba", "Flamenco", "Tango"],
+        "ur": ["ہولا", "سامبا", "فلیمینکو", "ٹینگو"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Hula is a Polynesian dance form accompanied by chant or song.",
+      "explanation_ur": "ہولا ایک پولینیشین رقص کی شکل ہے جس کے ساتھ گیت یا گانا ہوتا ہے۔",
+      "hint": "Often performed with grass skirts",
+      "hint_ur": "اکثر گھاس کی سکرٹس کے ساتھ پیش کیا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 70,
+      "type": "mcq",
+      "question": "Which famous composer wrote 'Eine kleine Nachtmusik'?",
+      "question_ur": "مشہور موسیقار 'آئین کلائن ناخٹ موسیقی' کس نے لکھی؟",
+      "options": {
+        "en": ["Johann Sebastian Bach", "Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Franz Schubert"],
+        "ur": ["جوہان سیبسٹین باخ", "ولف گینگ امیڈیوس موزارٹ", "لوڈوگ وان بیٹھوون", "فرانز شوبرٹ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Mozart composed this famous serenade in 1787.",
+      "explanation_ur": "موزارٹ نے یہ مشہور سیرینیڈ 1787 میں ترتیب دی تھی۔",
+      "hint": "Austrian composer of the Classical period",
+      "hint_ur": "کلاسیکی دور کا آسٹریائی موسیقار",
+      "timeLimit": 25
+    },
+    {
+      "id": 71,
+      "type": "true-false",
+      "question": "The character Dracula was created by Bram Stoker.",
+      "question_ur": "کردار ڈریکولا بریم اسٹوکر نے تخلیق کیا تھا۔",
+      "correctAnswer": true,
+      "explanation": "Stoker's 1897 Gothic horror novel introduced the vampire Count Dracula.",
+      "explanation_ur": "اسٹوکر کے 1897 کے گوتھک ہارر ناول نے ویمپائر کاؤنٹ ڈریکولا کو متعارف کرایا۔",
+      "hint": "Irish author",
+      "hint_ur": "آئرش مصنف",
+      "timeLimit": 20
+    },
+    {
+      "id": 72,
+      "type": "mcq",
+      "question": "Which of these is a traditional Native American musical instrument?",
+      "question_ur": "ان میں سے کون سا روایتی امریکی موسیقی کا آلہ ہے؟",
+      "options": {
+        "en": ["Didgeridoo", "Flute", "Sitar", "Bagpipes"],
+        "ur": ["ڈیجیریڈو", "بانسری", "ستار", "بیگ پائپس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Native American flutes are traditionally made of wood and have a distinctive sound.",
+      "explanation_ur": "مقامی امریکی بانسری روایتی طور پر لکڑی سے بنی ہوتی ہیں اور ان کی ایک مخصوص آواز ہوتی ہے۔",
+      "hint": "Often made from cedar or other softwoods",
+      "hint_ur": "اکثر دیودار یا دیگر نرم لکڑی سے بنایا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "Which famous artist painted 'The Birth of Venus'?",
+      "question_ur": "مشہور مصور 'دی برتھ آف وینس' کس نے پینٹ کیا؟",
+      "options": {
+        "en": ["Leonardo da Vinci", "Michelangelo", "Sandro Botticelli", "Raphael"],
+        "ur": ["لیونارڈو ڈا ونچی", "مائیکل اینجلو", "سانڈرو بوٹیچیلی", "ریفیل"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Botticelli painted this iconic Renaissance work in the 1480s.",
+      "explanation_ur": "بوٹیچیلی نے یہ مشہور نشاۃ ثانیہ کا کام 1480 کی دہائی میں پینٹ کیا تھا۔",
+      "hint": "Italian Early Renaissance painter",
+      "hint_ur": "اطالوی ابتدائی نشاۃ ثانیہ مصور",
+      "timeLimit": 25
+    },
+    {
+      "id": 74,
+      "type": "true-false",
+      "question": "The novel 'Alice's Adventures in Wonderland' was written by Lewis Carroll.",
+      "question_ur": "ناول 'ایلس ایڈونچرز ان ونڈر لینڈ' لیوس کیرول نے لکھا تھا۔",
+      "correctAnswer": true,
+      "explanation": "Carroll (real name Charles Dodgson) published this children's classic in 1865.",
+      "explanation_ur": "کیرول (اصل نام چارلس ڈاجسن) نے یہ بچوں کی کلاسک 1865 میں شائع کی تھی۔",
+      "hint": "Features the Mad Hatter and Cheshire Cat",
+      "hint_ur": "میڈ ہیٹر اور چیسائر کیٹ کے کردار شامل ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "question": "Which of these is a traditional Scottish musical instrument?",
+      "question_ur": "ان میں سے کون سا روایتی سکاٹش موسیقی کا آلہ ہے؟",
+      "options": {
+        "en": ["Bagpipes", "Didgeridoo", "Sitar", "Banjo"],
+        "ur": ["بیگ پائپس", "ڈیجیریڈو", "ستار", "بینجو"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Great Highland bagpipe is Scotland's national instrument.",
+      "explanation_ur": "گریٹ ہائی لینڈ بیگ پائپ سکاٹ لینڈ کا قومی آلہ ہے۔",
+      "hint": "Uses a bag and drones",
+      "hint_ur": "ایک بیگ اور ڈرونز استعمال کرتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "question": "Which famous composer wrote 'The Nutcracker' ballet?",
+      "question_ur": "مشہور موسیقار 'دی نٹ کریکر' بیلے کس نے لکھا؟",
+      "options": {
+        "en": ["Johann Sebastian Bach", "Pyotr Ilyich Tchaikovsky", "Wolfgang Amadeus Mozart", "Ludwig van Beethoven"],
+        "ur": ["جوہان سیبسٹین باخ", "پیوٹر ایلیچ چائکوفسکی", "ولف گینگ امیڈیوس موزارٹ", "لوڈوگ وان بیٹھوون"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Tchaikovsky composed this Christmas favorite in 1892.",
+      "explanation_ur": "چائکوفسکی نے یہ کرسمس کا پسندیدہ 1892 میں ترتیب دیا تھا۔",
+      "hint": "Russian Romantic composer",
+      "hint_ur": "روسی رومانٹک موسیقار",
+      "timeLimit": 25
+    },
+    {
+      "id": 77,
+      "type": "true-false",
+      "question": "The character Tarzan was created by Edgar Rice Burroughs.",
+      "question_ur": "کردار ٹارزن ایڈگر رائس بروز نے تخلیق کیا تھا۔",
+      "correctAnswer": true,
+      "explanation": "Burroughs introduced Tarzan in the 1912 novel 'Tarzan of the Apes'.",
+      "explanation_ur": "بروز نے ٹارزن کو 1912 کے ناول 'ٹارزن آف دی ایپس' میں متعارف کرایا۔",
+      "hint": "Raised by apes in the African jungle",
+      "hint_ur": "افریقی جنگل میں بندروں نے پالا",
+      "timeLimit": 20
+    },
+    {
+      "id": 78,
+      "type": "mcq",
+      "question": "Which of these is a traditional Middle Eastern string instrument?",
+      "question_ur": "ان میں سے کون سا روایتی مشرق وسطی کا تار والا آلہ ہے؟",
+      "options": {
+        "en": ["Oud", "Sitar", "Banjo", "Mandolin"],
+        "ur": ["عود", "ستار", "بینجو", "مینڈولن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The oud is a pear-shaped string instrument central to Arabic music.",
+      "explanation_ur": "عود ایک ناشپاتی شکل کا تار والا آلہ ہے جو عربی موسیقی کا مرکز ہے۔",
+      "hint": "Precursor to the European lute",
+      "hint_ur": "یورپی لوت کا پیشرو",
+      "timeLimit": 30
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "Which famous artist painted 'The Last Supper'?",
+      "question_ur": "مشہور مصور 'دی لاسٹ سپر' کس نے پینٹ کیا؟",
+      "options": {
+        "en": ["Michelangelo", "Raphael", "Leonardo da Vinci", "Sandro Botticelli"],
+        "ur": ["مائیکل اینجلو", "ریفیل", "لیونارڈو ڈا ونچی", "سانڈرو بوٹیچیلی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Da Vinci created this famous mural in the late 15th century.",
+      "explanation_ur": "ڈا ونچی نے یہ مشہور دیوار کی پینٹنگ 15 ویں صدی کے آخر میں بنائی تھی۔",
+      "hint": "Painted on the wall of a Milan monastery",
+      "hint_ur": "میلان کی ایک خانقاہ کی دیوار پر پینٹ کیا گیا",
+      "timeLimit": 25
+    },
+    {
+      "id": 80,
+      "type": "true-false",
+      "question": "The novel 'The Adventures of Tom Sawyer' was written by Mark Twain.",
+      "question_ur": "ناول 'دی ایڈونچرز آف ٹام سائر' مارک ٹوائن نے لکھا تھا۔",
+      "correctAnswer": true,
+      "explanation": "Twain published this classic American novel in 1876.",
+      "explanation_ur": "ٹوائن نے یہ کلاسک امریکی ناول 1876 میں شائع کیا تھا۔",
+      "hint": "Features the Mississippi River setting",
+      "hint_ur": "مسسیپی دریا کی ترتیب شامل ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "question": "Which of these is a traditional Greek dance?",
+      "question_ur": "ان میں سے کون سا روایتی یونانی رقص ہے؟",
+      "options": {
+        "en": ["Sirtaki", "Flamenco", "Tango", "Samba"],
+        "ur": ["سیرٹاکی", "فلیمینکو", "ٹینگو", "سامبا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Sirtaki is a popular Greek dance, though actually created for the 1964 film 'Zorba the Greek'.",
+      "explanation_ur": "سیرٹاکی ایک مقبول یونانی رقص ہے، حالانکہ دراصل 1964 کی فلم 'زوربا دی گریک' کے لیے بنایا گیا تھا۔",
+      "hint": "Often performed in a line or circle",
+      "hint_ur": "اکثر ایک لائن یا دائرے میں پیش کیا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "question": "Which famous composer wrote 'Moonlight Sonata'?",
+      "question_ur": "مشہور موسیقار 'مون لائٹ سونیٹا' کس نے لکھی؟",
+      "options": {
+        "en": ["Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Ludwig van Beethoven", "Frédéric Chopin"],
+        "ur": ["ولف گینگ امیڈیوس موزارٹ", "جوہان سیبسٹین باخ", "لوڈوگ وان بیٹھوون", "فریڈرک شوپن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Beethoven composed Piano Sonata No. 14 (later nicknamed 'Moonlight') in 1801.",
+      "explanation_ur": "بیٹھوون نے پیانو سونیٹا نمبر 14 (بعد میں 'مون لائٹ' کا نام دیا گیا) 1801 میں ترتیب دیا تھا۔",
+      "hint": "First movement is famously melancholic",
+      "hint_ur": "پہلی موومنٹ مشہور طور پر اداس ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 83,
+      "type": "true-false",
+      "question": "The character Robin Hood is from English folklore.",
+      "question_ur": "کردار رابن ہڈ انگریز لوک داستانوں سے ہے۔",
+      "correctAnswer": true,
+      "explanation": "The outlaw who stole from the rich to give to the poor appears in English ballads dating to the 14th-15th centuries.",
+      "explanation_ur": "یہ ڈاکو جو امیروں سے چوری کرکے غریبوں کو دیتا تھا، 14ویں-15ویں صدی کی انگریزی گیتوں میں ظاہر ہوتا ہے۔",
+      "hint": "Associated with Sherwood Forest",
+      "hint_ur": "شیرووڈ فاریسٹ سے وابستہ",
+      "timeLimit": 20
+    },
+    {
+      "id": 84,
+      "type": "mcq",
+      "question": "Which of these is a traditional Russian folk instrument?",
+      "question_ur": "ان میں سے کون سا روایتی روسی لوک آلہ ہے؟",
+      "options": {
+        "en": ["Balalaika", "Sitar", "Banjo", "Mandolin"],
+        "ur": ["بالالائیکا", "ستار", "بینجو", "مینڈولن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The balalaika is a triangular string instrument central to Russian folk music.",
+      "explanation_ur": "بالالائیکا ایک مثلثی تار والا آلہ ہے جو روسی لوک موسیقی کا مرکز ہے۔",
+      "hint": "Typically has three strings",
+      "hint_ur": "عام طور پر تین تار ہوتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "Which famous artist painted 'The School of Athens'?",
+      "question_ur": "مشہور مصور 'دی اسکول آف ایتھنز' کس نے پینٹ کیا؟",
+      "options": {
+        "en": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Sandro Botticelli"],
+        "ur": ["مائیکل اینجلو", "لیونارڈو ڈا ونچی", "ریفیل", "سانڈرو بوٹیچیلی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Raphael painted this famous fresco between 1509-1511 in the Vatican.",
+      "explanation_ur": "ریفیل نے یہ مشہور فرسکو 1509-1511 کے درمیان ویٹیکن میں پینٹ کیا تھا۔",
+      "hint": "Features Plato and Aristotle at center",
+      "hint_ur": "مرکز میں افلاطون اور ارسطو شامل ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 86,
+      "type": "true-false",
+      "question": "The novel 'The Old Man and the Sea' was written by Ernest Hemingway.",
+      "question_ur": "ناول 'دی اولڈ مین اینڈ دی سی' ارنسٹ ہیمنگوے نے لکھا تھا۔",
+      "correctAnswer": true,
+      "explanation": "Hemingway won the Nobel Prize in Literature in part for this 1952 novella.",
+      "explanation_ur": "ہیمنگوے نے 1952 کی اس ناولٹ کے لیے جزوی طور پر ادب کا نوبل انعام جیتا تھا۔",
+      "hint": "Features Cuban fisherman Santiago",
+      "hint_ur": "کیوبن ماہی گیر سانتیاگو شامل ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "question": "Which of these is a traditional Argentinian dance?",
+      "question_ur": "ان میں سے کون سا روایتی ارجنٹائنی رقص ہے؟",
+      "options": {
+        "en": ["Flamenco", "Tango", "Samba", "Waltz"],
+        "ur": ["فلیمینکو", "ٹینگو", "سامبا", "والٹز"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Tango originated in the working-class neighborhoods of Buenos Aires.",
+      "explanation_ur": "ٹینگو بیونس آئرس کے کارکن طبقے کے علاقوں میں شروع ہوا۔",
+      "hint": "Passionate dance for couples",
+      "hint_ur": "جوڑوں کے لیے جذباتی رقص",
+      "timeLimit": 25
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "question": "Which famous composer wrote 'Swan Lake'?",
+      "question_ur": "مشہور موسیقار 'سوان لیک' کس نے لکھا؟",
+      "options": {
+        "en": ["Pyotr Ilyich Tchaikovsky", "Igor Stravinsky", "Sergei Prokofiev", "Nikolai Rimsky-Korsakov"],
+        "ur": ["پیوٹر ایلیچ چائکوفسکی", "ایگور سٹراونسکی", "سرگئی پروکوفیف", "نکولائی رمسکی کورساکوف"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Tchaikovsky composed this famous ballet in 1875-76.",
+      "explanation_ur": "چائکوفسکی نے یہ مشہور بیلے 1875-76 میں ترتیب دیا تھا۔",
+      "hint": "Russian composer of Romantic era",
+      "hint_ur": "رومانٹک دور کا روسی موسیقار",
+      "timeLimit": 25
+    },
+    {
+      "id": 89,
+      "type": "true-false",
+      "question": "The character Gandalf was created by J.R.R. Tolkien.",
+      "question_ur": "کردار گینڈالف جے آر آر ٹولکین نے تخلیق کیا تھا۔",
+      "correctAnswer": true,
+      "explanation": "Tolkien introduced the wizard in 'The Hobbit' and featured him prominently in 'The Lord of the Rings'.",
+      "explanation_ur": "ٹولکین نے جادوگر کو 'دی ہابٹ' میں متعارف کرایا اور 'دی لارڈ آف دی رنگز' میں نمایاں طور پر پیش کیا۔",
+      "hint": "Gray wizard who becomes white",
+      "hint_ur": "سرمئی جادوگر جو سفید ہو جاتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 90,
+      "type": "mcq",
+      "question": "Which of these is a traditional Indian folk dance from Punjab?",
+      "question_ur": "ان میں سے کون سا پنجاب کا روایتی ہندوستانی لوک رقص ہے؟",
+      "options": {
+        "en": ["Bharatanatyam", "Kathak", "Bhangra", "Odissi"],
+        "ur": ["بھرت ناٹیئم", "کتھک", "بھنگڑا", "اڈیسی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Bhangra is a lively folk dance and music style originating from Punjab.",
+      "explanation_ur": "بھنگڑا پنجاب سے شروع ہونے والا ایک پرجوش لوک رقص اور موسیقی کا انداز ہے۔",
+      "hint": "Energetic dance often performed at harvest festivals",
+      "hint_ur": "متحرک رقص جو اکثر فصل کی تقریبات پر پیش کیا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "Which famous artist painted 'The Night Watch'?",
+      "question_ur": "مشہور مصور 'دی نائٹ واچ' کس نے پینٹ کیا؟",
+      "options": {
+        "en": ["Vincent van Gogh", "Rembrandt", "Johannes Vermeer", "Peter Paul Rubens"],
+        "ur": ["ونسینٹ وین گوگ", "ریمبرانڈٹ", "جوہانس ورمر", "پیٹر پال روبنز"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Rembrandt completed this famous group portrait in 1642.",
+      "explanation_ur": "ریمبرانڈٹ نے یہ مشہور گروپ پورٹریٹ 1642 میں مکمل کیا تھا۔",
+      "hint": "Dutch Golden Age painter",
+      "hint_ur": "ڈچ گولڈن ایج مصور",
+      "timeLimit": 25
+    },
+    {
+      "id": 92,
+      "type": "true-false",
+      "question": "The novel 'One Hundred Years of Solitude' was written by Gabriel García Márquez.",
+      "question_ur": "ناول 'ون ہنڈرڈ ایئرز آف سولیٹیوڈ' گیبریل گارسیا مارکیز نے لکھا تھا۔",
+      "correctAnswer": true,
+      "explanation": "Márquez's 1967 novel is a landmark of magical realism.",
+      "explanation_ur": "مارکیز کا 1967 کا ناول میجیکل ریئلزم کا ایک اہم سنگ میل ہے۔",
+      "hint": "Colombian Nobel laureate",
+      "hint_ur": "کولمبیائی نوبل انعام یافتہ",
+      "timeLimit": 20
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "Which of these is a traditional Korean string instrument?",
+      "question_ur": "ان میں سے کون سا روایتی کوریائی تار والا آلہ ہے؟",
+      "options": {
+        "en": ["Gayageum", "Sitar", "Banjo", "Mandolin"],
+        "ur": ["گیاگیم", "ستار", "بینجو", "مینڈولن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The gayageum is a traditional Korean zither-like instrument with 12 strings.",
+      "explanation_ur": "گیاگیم ایک روایتی کوریائی زیٹھر نما آلہ ہے جس میں 12 تاریں ہوتی ہیں۔",
+      "hint": "Similar to Chinese guzheng",
+      "hint_ur": "چینی گوزینگ سے ملتا جلتا",
+      "timeLimit": 30
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "question": "Which famous composer wrote 'The Four Seasons'?",
+      "question_ur": "مشہور موسیقار 'دی فور سیزنز' کس نے لکھا؟",
+      "options": {
+        "en": ["Johann Sebastian Bach", "Wolfgang Amadeus Mozart", "Antonio Vivaldi", "Ludwig van Beethoven"],
+        "ur": ["جوہان سیبسٹین باخ", "ولف گینگ امیڈیوس موزارٹ", "اینٹونیو ویوالڈی", "لوڈوگ وان بیٹھوون"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Vivaldi composed this set of four violin concertos in 1723.",
+      "explanation_ur": "ویوالڈی نے وایلن کے چار کنسرٹو کا یہ سیٹ 1723 میں ترتیب دیا تھا۔",
+      "hint": "Italian Baroque composer",
+      "hint_ur": "اطالوی باروک موسیقار",
+      "timeLimit": 25
+    },
+    {
+      "id": 95,
+      "type": "true-false",
+      "question": "The character Hercules is from Greek mythology.",
+      "question_ur": "کردار ہرکیولیز یونانی داستانوں سے ہے۔",
+      "correctAnswer": true,
+      "explanation": "Heracles (Roman name Hercules) is a divine hero known for his strength and adventures.",
+      "explanation_ur": "ہیراکلیز (رومی نام ہرکیولیز) ایک الہی ہیرو ہے جو اپنی طاقت اور مہم جوئی کے لیے جانا جاتا ہے۔",
+      "hint": "Son of Zeus",
+      "hint_ur": "زیوس کا بیٹا",
+      "timeLimit": 20
+    },
+    {
+      "id": 96,
+      "type": "mcq",
+      "question": "Which of these is a traditional African drum?",
+      "question_ur": "ان میں سے کون سا روایتی افریقی ڈھول ہے؟",
+      "options": {
+        "en": ["Djembe", "Tabla", "Bongo", "Snare drum"],
+        "ur": ["جمبی", "ٹیبلہ", "بانگو", "سنیر ڈرم"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The djembe is a rope-tuned skin-covered drum played with bare hands.",
+      "explanation_ur": "جمبی رسی سے تیار کردہ کھال سے ڈھکا ہوا ڈھول ہے جسے ننگے ہاتھوں سے بجایا جاتا ہے۔",
+      "hint": "Originated with the Mandé people",
+      "hint_ur": "مانڈے لوگوں سے شروع ہوا",
+      "timeLimit": 25
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "question": "Which famous artist painted 'American Gothic'?",
+      "question_ur": "مشہور مصور 'امریکن گوتھک' کس نے پینٹ کیا؟",
+      "options": {
+        "en": ["Edward Hopper", "Grant Wood", "Norman Rockwell", "Andrew Wyeth"],
+        "ur": ["ایڈورڈ ہاپر", "گرانٹ ووڈ", "نارمن راک ویل", "اینڈریو وائییتھ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Wood painted this iconic 1930 work depicting a farmer and his daughter.",
+      "explanation_ur": "ووڈ نے یہ مشہور 1930 کا کام ایک کسان اور اس کی بیٹی کو دکھاتے ہوئے پینٹ کیا تھا۔",
+      "hint": "American Regionalist painter",
+      "hint_ur": "امریکی ریجنلسٹ مصور",
+      "timeLimit": 25
+    },
+    {
+      "id": 98,
+      "type": "true-false",
+      "question": "The novel 'The Picture of Dorian Gray' was written by Oscar Wilde.",
+      "question_ur": "ناول 'دی پکچر آف ڈورین گرے' آسکر وائلڈ نے لکھا تھا۔",
+      "correctAnswer": true,
+      "explanation": "Wilde's only novel was first published complete in 1891.",
+      "explanation_ur": "وائلڈ کا واحد ناول پہلی بار 1891 میں مکمل شائع ہوا تھا۔",
+      "hint": "Philosophical novel about aestheticism",
+      "hint_ur": "جمالیات کے بارے میں فلسفیانہ ناول",
+      "timeLimit": 20
+    },
+    {
+      "id": 99,
+      "type": "mcq",
+      "question": "Which of these is a traditional Japanese drum?",
+      "question_ur": "ان میں سے کون سا روایتی جاپانی ڈھول ہے؟",
+      "options": {
+        "en": ["Taiko", "Djembe", "Bongo", "Snare drum"],
+        "ur": ["تائیکو", "جمبی", "بانگو", "سنیر ڈرم"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Taiko means 'drum' in Japanese and refers to various percussion instruments.",
+      "explanation_ur": "تائیکو جاپانی میں 'ڈرم' کا مطلب ہے اور مختلف پرکشن آلات سے مراد ہے۔",
+      "hint": "Often played in ensembles",
+      "hint_ur": "اکثر انسیمبلز میں بجایا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 100,
+      "type": "mcq",
+      "question": "Which famous composer wrote 'Carmen'?",
+      "question_ur": "مشہور موسیقار 'کارمین' کس نے لکھا؟",
+      "options": {
+        "en": ["Giuseppe Verdi", "Georges Bizet", "Giacomo Puccini", "Richard Wagner"],
+        "ur": ["جوزیپے ورڈی", "جارجس بیزے", "جاکومو پچینی", "رچرڈ ویگنر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Bizet composed this famous opera about a fiery gypsy woman, first performed in 1875.",
+      "explanation_ur": "بیزے نے یہ مشہور اوپیرا ایک جذباتی خانہ بدوش عورت کے بارے میں ترتیب دیا تھا، جو پہلی بار 1875 میں پیش کیا گیا تھا۔",
+      "hint": "French composer of the Romantic era",
+      "hint_ur": "رومانٹک دور کا فرانسیسی موسیقار",
+      "timeLimit": 25
+    }
+  ]
+}

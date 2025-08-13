@@ -1,0 +1,1548 @@
+{
+  "meta": {
+    "category": "Computers",
+    "category_ur": "کمپیوٹرز",
+    "description": "Test your knowledge of computer science and technology",
+    "description_ur": "کمپیوٹر سائنس اور ٹیکنالوجی کے بارے میں اپنے علم کی جانچ کریں۔",
+    "difficulty": "medium",
+    "image": "computers.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What does the acronym 'RAM' stand for in computer science?",
+      "question_ur": "کمپیوٹر سائنس میں مخفف 'RAM' کس کا مخفف ہے؟",
+      "options": {
+        "en": ["Read Access Memory", "Random Access Memory", "Rapid Application Management", "Remote Access Module"],
+        "ur": ["ریڈ ایکسیس میموری", "رینڈم ایکسیس میموری", "ریپڈ ایپلی کیشن مینجمنٹ", "ریموٹ ایکسیس ماڈیول"]
+      },
+      "correctAnswer": 1,
+      "explanation": "RAM (Random Access Memory) is a form of computer memory that can be read and changed in any order, typically used to store working data and machine code.",
+      "explanation_ur": "RAM (Random Access Memory) کمپیوٹر میموری کی ایک شکل ہے جسے کسی بھی ترتیب میں پڑھا اور تبدیل کیا جا سکتا ہے، جو عام طور پر ورکنگ ڈیٹا اور مشین کوڈ کو ذخیرہ کرنے کے لیے استعمال ہوتی ہے۔",
+      "hint": "It's a type of volatile memory.",
+      "hint_ur": "یہ ایک قسم کی غیر مستحکم میموری ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 2,
+      "type": "true-false",
+      "question": "The CPU (Central Processing Unit) is also known as the 'brain' of the computer.",
+      "question_ur": "سی پی یو (سینٹرل پروسیسنگ یونٹ) کو کمپیوٹر کا 'دماغ' بھی کہا جاتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "The CPU performs most of the processing inside a computer and is often referred to as its 'brain.'",
+      "explanation_ur": "CPU کمپیوٹر کے اندر زیادہ تر پروسیسنگ کرتا ہے اور اسے اکثر اس کا 'دماغ' کہا جاتا ہے۔",
+      "hint": "Think about its primary function in a computer.",
+      "hint_ur": "کمپیوٹر میں اس کے بنیادی کام کے بارے میں سوچیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which programming language is commonly used for developing mobile applications for Android?",
+      "question_ur": "Android کے لیے موبائل ایپلیکیشنز تیار کرنے کے لیے کون سی پروگرامنگ زبان عام طور پر استعمال ہوتی ہے؟",
+      "options": {
+        "en": ["Swift", "C++", "Java", "Python"],
+        "ur": ["سوئفٹ", "C++", "جاوا", "پائتھن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Java and Kotlin are the two primary programming languages for Android development.",
+      "explanation_ur": "جاوا اور کوٹلن اینڈرائیڈ ڈویلپمنٹ کے لیے دو بنیادی پروگرامنگ زبانیں ہیں۔",
+      "hint": "It shares its name with a popular beverage.",
+      "hint_ur": "اس کا نام ایک مشہور مشروب سے ملتا جلتا ہے۔",
+      "timeLimit": 45
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "What is the primary function of an operating system?",
+      "question_ur": "آپریٹنگ سسٹم کا بنیادی کام کیا ہے؟",
+      "options": {
+        "en": ["To run web browsers", "To manage computer hardware and software resources", "To create documents", "To play video games"],
+        "ur": ["ویب براؤزر چلانا", "کمپیوٹر ہارڈ ویئر اور سافٹ ویئر وسائل کا انتظام کرنا", "دستاویزات بنانا", "ویڈیو گیمز کھیلنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "An operating system (OS) manages all of the software and hardware on a computer.",
+      "explanation_ur": "ایک آپریٹنگ سسٹم (OS) کمپیوٹر پر تمام سافٹ ویئر اور ہارڈ ویئر کا انتظام کرتا ہے۔",
+      "hint": "It acts as a bridge between the user and the computer's hardware.",
+      "hint_ur": "یہ صارف اور کمپیوٹر کے ہارڈ ویئر کے درمیان ایک پل کا کام کرتا ہے۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Which of these is a non-volatile memory type?",
+      "question_ur": "ان میں سے کون سا ایک غیر مستحکم میموری کی قسم ہے؟",
+      "options": {
+        "en": ["RAM", "DRAM", "Cache Memory", "ROM"],
+        "ur": ["ریم", "ڈی ریم", "کیش میموری", "روم"]
+      },
+      "correctAnswer": 3,
+      "explanation": "ROM (Read-Only Memory) retains its data even when the power is turned off.",
+      "explanation_ur": "ROM (Read-Only Memory) بجلی بند ہونے پر بھی اپنا ڈیٹا برقرار رکھتا ہے۔",
+      "hint": "It holds the startup instructions for a computer.",
+      "hint_ur": "یہ کمپیوٹر کے لیے سٹارٹ اپ کی ہدایات رکھتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "What is a 'firewall' in computer networking?",
+      "question_ur": "کمپیوٹر نیٹ ورکنگ میں 'فائر وال' کیا ہے؟",
+      "options": {
+        "en": ["A physical barrier for a computer", "A software or hardware-based network security system", "A type of internet browser", "A tool for data recovery"],
+        "ur": ["کمپیوٹر کے لیے ایک طبعی رکاوٹ", "ایک سافٹ ویئر یا ہارڈ ویئر پر مبنی نیٹ ورک سیکیورٹی سسٹم", "ایک قسم کا انٹرنیٹ براؤزر", "ڈیٹا کی بحالی کا ایک آلہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A firewall is a network security system that monitors and controls incoming and outgoing network traffic.",
+      "explanation_ur": "فائر وال ایک نیٹ ورک سیکیورٹی سسٹم ہے جو آنے اور جانے والے نیٹ ورک ٹریفک کی نگرانی اور کنٹرول کرتا ہے۔",
+      "hint": "Think of it as a gatekeeper for your computer's network connection.",
+      "hint_ur": "اسے اپنے کمپیوٹر کے نیٹ ورک کنکشن کے لیے گیٹ کیپر کے طور پر سوچیں۔",
+      "timeLimit": 40
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Which term describes a malicious software designed to disrupt, damage, or gain unauthorized access to a computer system?",
+      "question_ur": "کون سی اصطلاح ایک بدنیتی پر مبنی سافٹ ویئر کو بیان کرتی ہے جو کمپیوٹر سسٹم میں خلل ڈالنے، نقصان پہنچانے یا غیر مجاز رسائی حاصل کرنے کے لیے ڈیزائن کیا گیا ہے؟",
+      "options": {
+        "en": ["Firmware", "Shareware", "Malware", "Freeware"],
+        "ur": ["فرم ویئر", "شیئر ویئر", "میل ویئر", "فری ویئر"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Malware is a broad term for any malicious software, including viruses, spyware, and ransomware.",
+      "explanation_ur": "میل ویئر کسی بھی بدنیتی پر مبنی سافٹ ویئر کے لیے ایک وسیع اصطلاح ہے، بشمول وائرس، سپائی ویئر اور رینسم ویئر۔",
+      "hint": "The name is a combination of two words: 'malicious' and 'software.'",
+      "hint_ur": "نام دو الفاظ کا مجموعہ ہے: 'بدنیتی پر مبنی' اور 'سافٹ ویئر۔'",
+      "timeLimit": 35
+    },
+    {
+      "id": 8,
+      "type": "true-false",
+      "question": "IPv4 is the latest version of the Internet Protocol.",
+      "question_ur": "IPv4 انٹرنیٹ پروٹوکول کا تازہ ترین ورژن ہے۔",
+      "correctAnswer": false,
+      "explanation": "IPv6 is the latest version, designed to address the limited number of addresses available with IPv4.",
+      "explanation_ur": "IPv6 تازہ ترین ورژن ہے، جسے IPv4 کے ساتھ دستیاب پتوں کی محدود تعداد کو حل کرنے کے لیے ڈیزائن کیا گیا ہے۔",
+      "hint": "The '4' in the name suggests it's not the most recent one.",
+      "hint_ur": "نام میں '4' سے پتہ چلتا ہے کہ یہ سب سے حالیہ نہیں ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "What is the function of a compiler?",
+      "question_ur": "کمپائلر کا کیا کام ہے؟",
+      "options": {
+        "en": ["To execute a program directly", "To translate high-level code into machine code", "To design user interfaces", "To store data in a database"],
+        "ur": ["پروگرام کو براہ راست چلانا", "اعلیٰ سطحی کوڈ کا مشین کوڈ میں ترجمہ کرنا", "یوزر انٹرفیس ڈیزائن کرنا", "ڈیٹا بیس میں ڈیٹا اسٹور کرنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A compiler is a program that translates source code from a high-level programming language into a lower-level language, like machine code.",
+      "explanation_ur": "ایک کمپائلر ایک پروگرام ہے جو سورس کوڈ کا اعلیٰ سطحی پروگرامنگ زبان سے نچلی سطح کی زبان، جیسے مشین کوڈ میں ترجمہ کرتا ہے۔",
+      "hint": "It 'translates' code for the computer.",
+      "hint_ur": "یہ کمپیوٹر کے لیے کوڈ کا 'ترجمہ' کرتا ہے۔",
+      "timeLimit": 45
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Which company developed the Python programming language?",
+      "question_ur": "کس کمپنی نے پائتھن پروگرامنگ زبان تیار کی ہے؟",
+      "options": {
+        "en": ["Google", "Microsoft", "Guido van Rossum", "Apple"],
+        "ur": ["گوگل", "مائیکروسافٹ", "گائیڈو وین روسم", "ایپل"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Python was created by Guido van Rossum in the late 1980s.",
+      "explanation_ur": "پائتھن کو 1980 کی دہائی کے آخر میں گائیڈو وین روسم نے بنایا تھا۔",
+      "hint": "It was created by a single person, not a large corporation.",
+      "hint_ur": "یہ کسی بڑی کارپوریشن نے نہیں بلکہ ایک ہی شخص نے بنایا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "What does 'HTML' stand for?",
+      "question_ur": "'HTML' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Hypertext Markup Language", "High-level Text Management Language", "Hyperlink and Text Markup Language", "Home Tool Markup Language"],
+        "ur": ["ہائپر ٹیکسٹ مارک اپ لینگویج", "ہائی لیول ٹیکسٹ مینجمنٹ لینگویج", "ہائپر لنک اور ٹیکسٹ مارک اپ لینگویج", "ہوم ٹول مارک اپ لینگویج"]
+      },
+      "correctAnswer": 0,
+      "explanation": "HTML is the standard markup language for documents designed to be displayed in a web browser.",
+      "explanation_ur": "HTML ویب براؤزر میں دکھائے جانے والے دستاویزات کے لیے معیاری مارک اپ زبان ہے۔",
+      "hint": "It's the language used to structure web pages.",
+      "hint_ur": "یہ ویب صفحات کو ترتیب دینے کے لیے استعمال ہونے والی زبان ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Which of these is an example of an object-oriented programming (OOP) language?",
+      "question_ur": "ان میں سے کون سی آبجیکٹ اورینٹڈ پروگرامنگ (OOP) زبان کی مثال ہے؟",
+      "options": {
+        "en": ["C", "Assembly Language", "Java", "Fortran"],
+        "ur": ["C", "اسمبلی لینگویج", "جاوا", "فورٹران"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Java, Python, C++, and C# are all examples of object-oriented programming languages.",
+      "explanation_ur": "جاوا، پائتھن، C++ اور C# آبجیکٹ اورینٹڈ پروگرامنگ زبانوں کی مثالیں ہیں۔",
+      "hint": "It's known for its 'write once, run anywhere' philosophy.",
+      "hint_ur": "یہ اپنے 'ایک بار لکھیں، کہیں بھی چلائیں' کے فلسفے کے لیے جانا جاتا ہے۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 13,
+      "type": "true-false",
+      "question": "A byte is a group of 4 bits.",
+      "question_ur": "ایک بائٹ 4 بٹس کا گروپ ہے۔",
+      "correctAnswer": false,
+      "explanation": "A byte is a group of 8 bits. A group of 4 bits is called a nibble.",
+      "explanation_ur": "ایک بائٹ 8 بٹس کا گروپ ہے۔ 4 بٹس کے گروپ کو نبل کہتے ہیں۔",
+      "hint": "Think about the number of bits in a standard ASCII character.",
+      "hint_ur": "معیاری ASCII حرف میں بٹس کی تعداد کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "What is the purpose of a 'cookie' in web Browse?",
+      "question_ur": "ویب براؤزنگ میں 'کوکی' کا مقصد کیا ہے؟",
+      "options": {
+        "en": ["To act as a small text file that stores user data", "To block pop-up ads", "To speed up the internet connection", "To encrypt web traffic"],
+        "ur": ["ایک چھوٹی ٹیکسٹ فائل کے طور پر کام کرنا جو صارف کا ڈیٹا اسٹور کرتی ہے", "پاپ اپ اشتہارات کو مسدود کرنا", "انٹرنیٹ کنکشن کو تیز کرنا", "ویب ٹریفک کو خفیہ کرنا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Cookies are small pieces of data stored on a user's computer by the web browser while Browse a website.",
+      "explanation_ur": "کوکیز ڈیٹا کے چھوٹے ٹکڑے ہوتے ہیں جو ویب براؤز کرتے وقت ویب براؤزر کے ذریعے صارف کے کمپیوٹر پر محفوظ ہوتے ہیں۔",
+      "hint": "They remember information about you and your preferences on a website.",
+      "hint_ur": "وہ کسی ویب سائٹ پر آپ اور آپ کی ترجیحات کے بارے میں معلومات یاد رکھتے ہیں۔",
+      "timeLimit": 40
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Which of these is a database management system (DBMS)?",
+      "question_ur": "ان میں سے کون سا ڈیٹا بیس مینجمنٹ سسٹم (DBMS) ہے؟",
+      "options": {
+        "en": ["Microsoft Word", "Adobe Photoshop", "MySQL", "Google Chrome"],
+        "ur": ["مائیکروسافٹ ورڈ", "ایڈوب فوٹوشاپ", "MySQL", "گوگل کروم"]
+      },
+      "correctAnswer": 2,
+      "explanation": "MySQL is a popular open-source relational database management system.",
+      "explanation_ur": "MySQL ایک مقبول اوپن سورس ریلیشنل ڈیٹا بیس مینجمنٹ سسٹم ہے۔",
+      "hint": "It's commonly used with websites and web applications.",
+      "hint_ur": "یہ عام طور پر ویب سائٹس اور ویب ایپلیکیشنز کے ساتھ استعمال ہوتا ہے۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 16,
+      "type": "true-false",
+      "question": "A 'phishing' attack is a type of social engineering where attackers trick individuals into revealing sensitive information.",
+      "question_ur": "'فشنگ' حملہ ایک قسم کی سوشل انجینئرنگ ہے جہاں حملہ آور افراد کو حساس معلومات ظاہر کرنے کے لیے دھوکہ دیتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Phishing attacks use deceptive emails and websites to steal sensitive information like passwords and credit card numbers.",
+      "explanation_ur": "فشنگ حملے پاس ورڈ اور کریڈٹ کارڈ نمبر جیسی حساس معلومات چرانے کے لیے فریب پر مبنی ای میلز اور ویب سائٹس کا استعمال کرتے ہیں۔",
+      "hint": "Think about the act of 'fishing' for information.",
+      "hint_ur": "معلومات کے لیے 'ماہی گیری' کے عمل کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "In computer networking, what is a 'router' used for?",
+      "question_ur": "کمپیوٹر نیٹ ورکنگ میں، 'راؤٹر' کس لیے استعمال ہوتا ہے؟",
+      "options": {
+        "en": ["To print documents", "To connect multiple networks and direct data traffic", "To store files", "To display images"],
+        "ur": ["دستاویزات کو پرنٹ کرنا", "متعدد نیٹ ورکس کو جوڑنا اور ڈیٹا ٹریفک کو ہدایت دینا", "فائلوں کو اسٹور کرنا", "تصاویر دکھانا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A router connects different networks and routes data packets between them, determining the best path for data to travel.",
+      "explanation_ur": "ایک راؤٹر مختلف نیٹ ورکس کو جوڑتا ہے اور ان کے درمیان ڈیٹا پیکٹس کو روٹ کرتا ہے، ڈیٹا کے سفر کے لیے بہترین راستہ کا تعین کرتا ہے۔",
+      "hint": "It 'routes' data packets to their destination.",
+      "hint_ur": "یہ ڈیٹا پیکٹس کو ان کی منزل تک 'روٹ' کرتا ہے۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Which of these is a popular version control system?",
+      "question_ur": "ان میں سے کون سا ایک مقبول ورژن کنٹرول سسٹم ہے؟",
+      "options": {
+        "en": ["Google Docs", "Adobe Acrobat", "Git", "Microsoft Excel"],
+        "ur": ["گوگل ڈوکس", "ایڈوب ایکروبیٹ", "گٹ", "مائیکروسافٹ ایکسل"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Git is a free and open-source distributed version control system for tracking changes in source code during software development.",
+      "explanation_ur": "Git ایک مفت اور اوپن سورس ڈسٹری بیوٹڈ ورژن کنٹرول سسٹم ہے جو سافٹ ویئر ڈویلپمنٹ کے دوران سورس کوڈ میں ہونے والی تبدیلیوں کو ٹریک کرنے کے لیے استعمال ہوتا ہے۔",
+      "hint": "It's often associated with platforms like GitHub.",
+      "hint_ur": "یہ اکثر گٹ ہب جیسے پلیٹ فارمز سے وابستہ ہوتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "In a web address, what does 'HTTP' stand for?",
+      "question_ur": "ویب ایڈریس میں، 'HTTP' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Hyperlink Transfer Protocol", "High-Text Translation Protocol", "Hypertext Transfer Protocol", "High-Level Transmission Protocol"],
+        "ur": ["ہائپر لنک ٹرانسفر پروٹوکول", "ہائی ٹیکسٹ ٹرانسلیشن پروٹوکول", "ہائپر ٹیکسٹ ٹرانسفر پروٹوکول", "ہائی لیول ٹرانسمیشن پروٹوکول"]
+      },
+      "correctAnswer": 2,
+      "explanation": "HTTP is the foundation of data communication for the World Wide Web.",
+      "explanation_ur": "HTTP ورلڈ وائڈ ویب کے لیے ڈیٹا مواصلات کی بنیاد ہے۔",
+      "hint": "It's the protocol for transmitting hypertext.",
+      "hint_ur": "یہ ہائپر ٹیکسٹ منتقل کرنے کے لیے پروٹوکول ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Which component of a computer system is responsible for performing arithmetic and logic operations?",
+      "question_ur": "کمپیوٹر سسٹم کا کون سا جزو ریاضی اور منطق کی کارروائیوں کو انجام دینے کا ذمہ دار ہے؟",
+      "options": {
+        "en": ["RAM", "Motherboard", "ALU (Arithmetic Logic Unit)", "Hard Drive"],
+        "ur": ["ریم", "مدر بورڈ", "ALU (Arithmetic Logic Unit)", "ہارڈ ڈرائیو"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The ALU is a digital circuit within the CPU that performs arithmetic and bitwise logic operations.",
+      "explanation_ur": "ALU CPU کے اندر ایک ڈیجیٹل سرکٹ ہے جو ریاضی اور بٹ وائز لاجک آپریشنز انجام دیتا ہے۔",
+      "hint": "The name itself describes its function.",
+      "hint_ur": "نام خود اس کے کام کو بیان کرتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "What is the term for a program that translates and executes code line by line?",
+      "question_ur": "ایک پروگرام کے لیے کیا اصطلاح ہے جو کوڈ کو لائن بہ لائن ترجمہ اور ایگزیکیوٹ کرتا ہے؟",
+      "options": {
+        "en": ["Compiler", "Debugger", "Linker", "Interpreter"],
+        "ur": ["کمپائلر", "ڈی بگر", "لنکر", "انٹرپریٹر"]
+      },
+      "correctAnswer": 3,
+      "explanation": "An interpreter reads and executes code line by line, unlike a compiler which translates the entire program at once.",
+      "explanation_ur": "ایک انٹرپریٹر کوڈ کو لائن بہ لائن پڑھتا اور ایگزیکیوٹ کرتا ہے، ایک کمپائلر کے برعکس جو پورے پروگرام کا ایک ساتھ ترجمہ کرتا ہے۔",
+      "hint": "It 'interprets' the code as it runs.",
+      "hint_ur": "یہ چلتے وقت کوڈ کی 'تفسیر' کرتا ہے۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "What is the purpose of a GPU (Graphics Processing Unit)?",
+      "question_ur": "ایک GPU (Graphics Processing Unit) کا کیا مقصد ہے؟",
+      "options": {
+        "en": ["To manage system memory", "To perform calculations for 3D graphics and visual effects", "To store permanent data", "To connect to the internet"],
+        "ur": ["سسٹم میموری کا انتظام کرنا", "3D گرافکس اور بصری اثرات کے لیے حساب کتاب کرنا", "مستقل ڈیٹا کو اسٹور کرنا", "انٹرنیٹ سے جڑنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A GPU is a specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer for output to a display device.",
+      "explanation_ur": "ایک GPU ایک خصوصی الیکٹرانک سرکٹ ہے جسے ڈسپلے ڈیوائس پر آؤٹ پٹ کے لیے فریم بفر میں تصاویر بنانے کو تیز کرنے کے لیے میموری کو تیزی سے ہیرا پھیری اور تبدیل کرنے کے لیے ڈیزائن کیا گیا ہے۔",
+      "hint": "Think about gaming and high-resolution video.",
+      "hint_ur": "گیمنگ اور ہائی ریزولوشن ویڈیو کے بارے میں سوچیں۔",
+      "timeLimit": 40
+    },
+    {
+      "id": 23,
+      "type": "true-false",
+      "question": "The hexadecimal number system uses a base of 10.",
+      "question_ur": "ہیگزا ڈیسیمل نمبر سسٹم 10 کی بنیاد استعمال کرتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "The hexadecimal number system uses a base of 16 (0-9 and A-F). The decimal system uses a base of 10.",
+      "explanation_ur": "ہیگزا ڈیسیمل نمبر سسٹم 16 کی بنیاد (0-9 اور A-F) استعمال کرتا ہے۔ ڈیسیمل سسٹم 10 کی بنیاد استعمال کرتا ہے۔",
+      "hint": "The prefix 'hexa-' means six, and 'deci-' means ten.",
+      "hint_ur": "سابقہ 'ہیگزا-' کا مطلب ہے چھ، اور 'ڈیسی-' کا مطلب ہے دس۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which technology is used for creating virtual currencies and decentralized ledgers?",
+      "question_ur": "ورچوئل کرنسیز اور وکندریقرت لیجر بنانے کے لیے کون سی ٹیکنالوجی استعمال ہوتی ہے؟",
+      "options": {
+        "en": ["Cloud Computing", "Machine Learning", "Blockchain", "Quantum Computing"],
+        "ur": ["کلاؤڈ کمپیوٹنگ", "مشین لرننگ", "بلاک چین", "کوانٹم کمپیوٹنگ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Blockchain is a decentralized, distributed digital ledger used to record transactions across many computers.",
+      "explanation_ur": "بلاک چین ایک وکندریقرت، تقسیم شدہ ڈیجیٹل لیجر ہے جو بہت سے کمپیوٹرز میں لین دین کو ریکارڈ کرنے کے لیے استعمال ہوتا ہے۔",
+      "hint": "It's the underlying technology for cryptocurrencies like Bitcoin.",
+      "hint_ur": "یہ بٹ کوائن جیسی کرپٹو کرنسیوں کے لیے بنیادی ٹیکنالوجی ہے۔",
+      "timeLimit": 45
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "What is the process of finding and fixing errors in a computer program called?",
+      "question_ur": "کمپیوٹر پروگرام میں غلطیوں کو تلاش کرنے اور انہیں ٹھیک کرنے کے عمل کو کیا کہتے ہیں؟",
+      "options": {
+        "en": ["Compiling", "Debugging", "Linking", "Executing"],
+        "ur": ["کمپائلنگ", "ڈی بگنگ", "لنکنگ", "ایگزیکیوٹنگ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Debugging is the process of identifying and removing errors from computer hardware or software.",
+      "explanation_ur": "ڈی بگنگ کمپیوٹر ہارڈ ویئر یا سافٹ ویئر سے غلطیوں کی شناخت اور انہیں ہٹانے کا عمل ہے۔",
+      "hint": "You're removing 'bugs' from the code.",
+      "hint_ur": "آپ کوڈ سے 'بگز' ہٹا رہے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "Which of these is a type of computer network that spans a large geographical area?",
+      "question_ur": "ان میں سے کون سا ایک قسم کا کمپیوٹر نیٹ ورک ہے جو ایک بڑے جغرافیائی علاقے پر پھیلا ہوا ہے؟",
+      "options": {
+        "en": ["LAN (Local Area Network)", "PAN (Personal Area Network)", "WAN (Wide Area Network)", "CAN (Campus Area Network)"],
+        "ur": ["LAN (لوکل ایریا نیٹ ورک)", "PAN (پرسنل ایریا نیٹ ورک)", "WAN (وائڈ ایریا نیٹ ورک)", "CAN (کیمپس ایریا نیٹ ورک)"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A WAN spans a large area, such as a state or country, connecting multiple smaller networks.",
+      "explanation_ur": "ایک WAN ایک بڑے علاقے پر پھیلا ہوا ہے، جیسے کہ ایک ریاست یا ملک، جو متعدد چھوٹے نیٹ ورکس کو جوڑتا ہے۔",
+      "hint": "The 'W' in the acronym stands for a term that means large.",
+      "hint_ur": "مخفف میں 'W' ایک ایسی اصطلاح ہے جس کا مطلب ہے بڑا۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 27,
+      "type": "true-false",
+      "question": "A 'pixel' is the smallest unit of a digital image or graphic that can be displayed and edited.",
+      "question_ur": "ایک 'پکسل' ڈیجیٹل تصویر یا گرافک کا سب سے چھوٹا یونٹ ہے جسے دکھایا اور ایڈٹ کیا جا سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "A pixel is a physical point in a raster image, or the smallest addressable element in a display device.",
+      "explanation_ur": "ایک پکسل ایک راسٹر تصویر میں ایک فزیکل پوائنٹ ہے، یا ڈسپلے ڈیوائس میں سب سے چھوٹا ایڈریس ایبل عنصر ہے۔",
+      "hint": "It's a combination of 'picture' and 'element.'",
+      "hint_ur": "یہ 'تصویر' اور 'عنصر' کا مجموعہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "Which of the following is a key characteristic of 'agile' software development?",
+      "question_ur": "درج ذیل میں سے کون سی 'چست' سافٹ ویئر ڈویلپمنٹ کی ایک اہم خصوصیت ہے؟",
+      "options": {
+        "en": ["Strict, long-term planning", "Adaptability and iterative development", "Minimal user involvement", "Single, large-scale project phase"],
+        "ur": ["سخت، طویل مدتی منصوبہ بندی", "مطابقت پذیری اور تکراری ترقی", "کم سے کم صارف کی شمولیت", "ایک، بڑے پیمانے پر پروجیکٹ کا مرحلہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Agile methodologies promote adaptive planning, evolutionary development, and early delivery of software.",
+      "explanation_ur": "چست طریقہ کار انکولی منصوبہ بندی، ارتقائی ترقی، اور سافٹ ویئر کی جلد فراہمی کو فروغ دیتے ہیں۔",
+      "hint": "It's a more flexible and responsive approach to development.",
+      "hint_ur": "یہ ترقی کے لیے زیادہ لچکدار اور ذمہ دارانہ نقطہ نظر ہے۔",
+      "timeLimit": 45
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "What is the primary function of a 'domain name system' (DNS)?",
+      "question_ur": "'ڈومین نیم سسٹم' (DNS) کا بنیادی کام کیا ہے؟",
+      "options": {
+        "en": ["To translate domain names into IP addresses", "To manage user accounts on a server", "To provide email services", "To secure a network connection"],
+        "ur": ["ڈومین ناموں کو IP پتوں میں ترجمہ کرنا", "سرور پر صارف کے اکاؤنٹس کا انتظام کرنا", "ای میل خدمات فراہم کرنا", "نیٹ ورک کنکشن کو محفوظ کرنا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "DNS is a hierarchical and decentralized naming system for computers and services, translating human-readable domain names into IP addresses.",
+      "explanation_ur": "DNS کمپیوٹرز اور خدمات کے لیے ایک درجہ بندی اور وکندریقرت نامی نظام ہے، جو انسان کے پڑھنے کے قابل ڈومین ناموں کا IP پتوں میں ترجمہ کرتا ہے۔",
+      "hint": "It's like an internet phonebook.",
+      "hint_ur": "یہ ایک انٹرنیٹ فون بک کی طرح ہے۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "Which of these is a low-level programming language?",
+      "question_ur": "ان میں سے کون سی ایک نچلی سطح کی پروگرامنگ زبان ہے؟",
+      "options": {
+        "en": ["Java", "Python", "Assembly Language", "JavaScript"],
+        "ur": ["جاوا", "پائتھن", "اسمبلی لینگویج", "جاوا اسکرپٹ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Low-level languages are closely tied to the hardware of the computer, with Assembly Language being a prime example.",
+      "explanation_ur": "نچلی سطح کی زبانیں کمپیوٹر کے ہارڈ ویئر سے گہرا تعلق رکھتی ہیں، اسمبلی لینگویج ایک بہترین مثال ہے۔",
+      "hint": "It uses mnemonics to represent machine code instructions.",
+      "hint_ur": "یہ مشین کوڈ کی ہدایات کی نمائندگی کرنے کے لیے نیمونکس استعمال کرتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 31,
+      "type": "true-false",
+      "question": "DDR4 is an older and slower type of RAM than DDR3.",
+      "question_ur": "DDR4، DDR3 سے ایک پرانی اور سست قسم کی RAM ہے۔",
+      "correctAnswer": false,
+      "explanation": "DDR4 is the successor to DDR3 and offers higher speeds and lower power consumption.",
+      "explanation_ur": "DDR4، DDR3 کا جانشین ہے اور تیز رفتار اور کم بجلی کی کھپت پیش کرتا ہے۔",
+      "hint": "The higher the number, the more recent the technology.",
+      "hint_ur": "نمبر جتنا زیادہ ہوگا، ٹیکنالوجی اتنی ہی حالیہ ہوگی۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "What is the term for the process of converting an analog signal into a digital signal?",
+      "question_ur": "اینالاگ سگنل کو ڈیجیٹل سگنل میں تبدیل کرنے کے عمل کو کیا کہتے ہیں؟",
+      "options": {
+        "en": ["Encoding", "Modulation", "Digitization", "Transduction"],
+        "ur": ["این کوڈنگ", "ماڈیولیشن", "ڈیجیٹلائزیشن", "ٹرانسڈکشن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Digitization is the process of converting information into a digital format.",
+      "explanation_ur": "ڈیجیٹلائزیشن معلومات کو ڈیجیٹل فارمیٹ میں تبدیل کرنے کا عمل ہے۔",
+      "hint": "The name sounds like 'digital.'",
+      "hint_ur": "نام 'ڈیجیٹل' جیسا لگتا ہے۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Which technology is primarily used for contactless payments and data transfer over short distances?",
+      "question_ur": "شارٹ فاصلے پر کنٹیکٹ لیس ادائیگیوں اور ڈیٹا کی منتقلی کے لیے کون سی ٹیکنالوجی بنیادی طور پر استعمال ہوتی ہے؟",
+      "options": {
+        "en": ["Bluetooth", "Wi-Fi", "NFC (Near-Field Communication)", "Ethernet"],
+        "ur": ["بلوٹوتھ", "وائی فائی", "NFC (نیئر فیلڈ کمیونیکیشن)", "ایتھرنیٹ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "NFC is a set of communication protocols that enables two electronic devices to establish communication by bringing them within a short distance of each other.",
+      "explanation_ur": "NFC کمیونیکیشن پروٹوکول کا ایک مجموعہ ہے جو دو الیکٹرانک آلات کو ایک دوسرے کے مختصر فاصلے کے اندر لا کر مواصلات قائم کرنے کے قابل بناتا ہے۔",
+      "hint": "Think about tapping your phone to pay for something.",
+      "hint_ur": "کسی چیز کی ادائیگی کے لیے اپنے فون کو ٹیپ کرنے کے بارے میں سوچیں۔",
+      "timeLimit": 40
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "What is a 'scripting language'?",
+      "question_ur": "'اسکرپٹنگ زبان' کیا ہے؟",
+      "options": {
+        "en": ["A language used for writing operating systems", "A language that requires a compiler", "A language that automates tasks and interacts with other programs", "A language for designing hardware circuits"],
+        "ur": ["آپریٹنگ سسٹم لکھنے کے لیے استعمال ہونے والی زبان", "ایک زبان جس کے لیے کمپائلر کی ضرورت ہوتی ہے", "ایک زبان جو کاموں کو خودکار کرتی ہے اور دوسرے پروگراموں کے ساتھ تعامل کرتی ہے", "ہارڈ ویئر سرکٹس ڈیزائن کرنے کے لیے ایک زبان"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Scripting languages are often interpreted and are used to automate tasks within a software environment.",
+      "explanation_ur": "اسکرپٹنگ زبانیں اکثر تشریح کی جاتی ہیں اور سافٹ ویئر کے ماحول میں کاموں کو خودکار کرنے کے لیے استعمال ہوتی ہیں۔",
+      "hint": "JavaScript is a very common example used for web pages.",
+      "hint_ur": "جاوا اسکرپٹ ویب صفحات کے لیے استعمال ہونے والی ایک بہت عام مثال ہے۔",
+      "timeLimit": 45
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "Which of these is a type of cyberattack that overloads a system with traffic to make it unavailable?",
+      "question_ur": "ان میں سے کون سی سائبر حملے کی ایک قسم ہے جو کسی سسٹم کو ٹریفک کے ساتھ اوورلوڈ کرتی ہے تاکہ اسے دستیاب نہ بنایا جا سکے؟",
+      "options": {
+        "en": ["Phishing", "Malware", "DDoS (Distributed Denial of Service)", "Trojan Horse"],
+        "ur": ["فشنگ", "میل ویئر", "DDoS (ڈسٹری بیوٹڈ ڈینائل آف سروس)", "ٹروجن ہارس"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A DDoS attack is a malicious attempt to disrupt the normal traffic of a targeted server, service, or network by overwhelming the target or its surrounding infrastructure with a flood of Internet traffic.",
+      "explanation_ur": "DDoS حملہ ایک بدنیتی پر مبنی کوشش ہے جو ایک ہدف بنائے گئے سرور، سروس، یا نیٹ ورک کی عام ٹریفک کو انٹرنیٹ ٹریفک کے سیلاب کے ساتھ ہدف یا اس کے آس پاس کے بنیادی ڈھانچے کو مغلوب کرکے خلل ڈالتی ہے۔",
+      "hint": "The 'DoS' in the name stands for 'denial of service.'",
+      "hint_ur": "نام میں 'DoS' کا مطلب ہے 'ڈینائل آف سروس۔'",
+      "timeLimit": 40
+    },
+    {
+      "id": 36,
+      "type": "true-false",
+      "question": "The 'cloud' in cloud computing refers to a specific physical location where all the data is stored.",
+      "question_ur": "کلاؤڈ کمپیوٹنگ میں 'کلاؤڈ' سے مراد ایک مخصوص جسمانی مقام ہے جہاں تمام ڈیٹا محفوظ ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "The 'cloud' is a metaphor for the internet and refers to a network of remote servers that store, manage, and process data.",
+      "explanation_ur": "'کلاؤڈ' انٹرنیٹ کے لیے ایک استعارہ ہے اور اس سے مراد دور دراز کے سرورز کا ایک نیٹ ورک ہے جو ڈیٹا کو ذخیرہ، انتظام اور پروسیس کرتا ہے۔",
+      "hint": "It's a distributed network, not a single place.",
+      "hint_ur": "یہ ایک تقسیم شدہ نیٹ ورک ہے، ایک واحد جگہ نہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "What is the primary purpose of a 'cache' in a computer system?",
+      "question_ur": "کمپیوٹر سسٹم میں 'کیش' کا بنیادی مقصد کیا ہے؟",
+      "options": {
+        "en": ["To permanently store large files", "To provide quick access to frequently used data", "To manage network connections", "To cool the CPU"],
+        "ur": ["بڑے فائلز کو مستقل طور پر ذخیرہ کرنا", "اکثر استعمال ہونے والے ڈیٹا تک فوری رسائی فراہم کرنا", "نیٹ ورک کنکشنز کا انتظام کرنا", "CPU کو ٹھنڈا کرنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A cache is a small, fast storage area that holds frequently accessed data so that it can be retrieved quickly.",
+      "explanation_ur": "کیش ایک چھوٹا، تیز اسٹوریج ایریا ہے جو اکثر استعمال ہونے والے ڈیٹا کو رکھتا ہے تاکہ اسے جلدی سے دوبارہ حاصل کیا جا سکے۔",
+      "hint": "It's like a temporary, high-speed storage for your CPU.",
+      "hint_ur": "یہ آپ کے CPU کے لیے ایک عارضی، تیز رفتار اسٹوریج کی طرح ہے۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "Which of the following is a key component of a 'relational database'?",
+      "question_ur": "درج ذیل میں سے کون سا 'ریلیشنل ڈیٹا بیس' کا ایک اہم جزو ہے؟",
+      "options": {
+        "en": ["Nodes", "Tables", "Blocks", "Files"],
+        "ur": ["نوڈز", "ٹیبلز", "بلاک", "فائلز"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A relational database organizes data into one or more tables (or 'relations') of columns and rows.",
+      "explanation_ur": "ایک ریلیشنل ڈیٹا بیس ڈیٹا کو ایک یا زیادہ ٹیبلز (یا 'ریلیشنز') میں کالموں اور قطاروں میں منظم کرتا ہے۔",
+      "hint": "Data is structured in rows and columns, similar to a spreadsheet.",
+      "hint_ur": "ڈیٹا کو قطاروں اور کالموں میں ترتیب دیا جاتا ہے، جو ایک اسپریڈ شیٹ کی طرح ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "What is the term for a single, unique value used to identify a record in a database table?",
+      "question_ur": "ڈیٹا بیس ٹیبل میں ریکارڈ کی شناخت کے لیے استعمال ہونے والی ایک واحد، منفرد قدر کی اصطلاح کیا ہے؟",
+      "options": {
+        "en": ["Foreign Key", "Index", "Primary Key", "Attribute"],
+        "ur": ["فارن کی", "انڈیکس", "پرائمری کی", "ایٹری بیوٹ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A primary key is a field in a table that uniquely identifies each row or record in the table.",
+      "explanation_ur": "ایک پرائمری کی ایک ٹیبل میں ایک فیلڈ ہے جو ٹیبل میں ہر قطار یا ریکارڈ کی منفرد شناخت کرتی ہے۔",
+      "hint": "It's the 'key' to finding a specific record.",
+      "hint_ur": "یہ ایک مخصوص ریکارڈ تلاش کرنے کی 'چابی' ہے۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 40,
+      "type": "true-false",
+      "question": "A 'Trojan horse' is a type of malicious software that appears to be legitimate.",
+      "question_ur": "ایک 'ٹروجن ہارس' بدنیتی پر مبنی سافٹ ویئر کی ایک قسم ہے جو جائز معلوم ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "A Trojan horse is a type of malware that is often disguised as legitimate software.",
+      "explanation_ur": "ٹروجن ہارس مالویئر کی ایک قسم ہے جو اکثر جائز سافٹ ویئر کے طور پر بھیس بدل کر آتا ہے۔",
+      "hint": "Think of the ancient Greek story.",
+      "hint_ur": "قدیم یونانی کہانی کے بارے میں سوچیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "Which of these is a type of hardware storage device that uses flash memory?",
+      "question_ur": "ان میں سے کون سا ایک قسم کا ہارڈ ویئر اسٹوریج ڈیوائس ہے جو فلیش میموری کا استعمال کرتا ہے؟",
+      "options": {
+        "en": ["Hard Disk Drive (HDD)", "Solid State Drive (SSD)", "Floppy Disk", "CD-ROM"],
+        "ur": ["ہارڈ ڈسک ڈرائیو (HDD)", "سالڈ اسٹیٹ ڈرائیو (SSD)", "فلاپی ڈسک", "سی ڈی روم"]
+      },
+      "correctAnswer": 1,
+      "explanation": "SSDs use flash memory to store data, providing much faster access times than traditional HDDs.",
+      "explanation_ur": "SSDs ڈیٹا کو ذخیرہ کرنے کے لیے فلیش میموری کا استعمال کرتے ہیں، جو روایتی HDDs کے مقابلے میں بہت تیز رسائی کا وقت فراہم کرتے ہیں۔",
+      "hint": "It has no moving parts, making it more durable and faster.",
+      "hint_ur": "اس میں کوئی حرکت پذیر حصہ نہیں ہوتا، جو اسے زیادہ پائیدار اور تیز بناتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "In the context of computer programming, what does 'API' stand for?",
+      "question_ur": "کمپیوٹر پروگرامنگ کے تناظر میں، 'API' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Application Programming Interface", "Advanced Peripheral Integration", "Automated Processing Instruction", "Application Program Integration"],
+        "ur": ["ایپلیکیشن پروگرامنگ انٹرفیس", "ایڈوانسڈ پیریفرل انٹیگریشن", "آٹومیٹڈ پروسیسنگ انسٹرکشن", "ایپلیکیشن پروگرام انٹیگریشن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "An API is a set of rules and protocols for building and interacting with software applications.",
+      "explanation_ur": "ایک API سافٹ ویئر ایپلی کیشنز کو بنانے اور ان کے ساتھ تعامل کرنے کے لیے قوانین اور پروٹوکول کا ایک سیٹ ہے۔",
+      "hint": "It's how different software components communicate with each other.",
+      "hint_ur": "یہ ہے کہ مختلف سافٹ ویئر اجزاء ایک دوسرے کے ساتھ کیسے بات چیت کرتے ہیں۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Which programming paradigm focuses on 'actors' that can change their own state and send messages to other actors?",
+      "question_ur": "کون سا پروگرامنگ پیراڈائم 'اداکاروں' پر مرکوز ہے جو اپنی حالت بدل سکتے ہیں اور دوسرے اداکاروں کو پیغامات بھیج سکتے ہیں؟",
+      "options": {
+        "en": ["Functional Programming", "Procedural Programming", "Object-Oriented Programming", "Actor Model"],
+        "ur": ["فنکشنل پروگرامنگ", "پروسیجرل پروگرامنگ", "آبجیکٹ اورینٹڈ پروگرامنگ", "ایکٹر ماڈل"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Actor Model is a mathematical model of concurrent computation that treats 'actors' as the universal primitives of concurrent computation.",
+      "explanation_ur": "ایکٹر ماڈل ہم وقتی کمپیوٹیشن کا ایک ریاضیاتی ماڈل ہے جو 'اداکاروں' کو ہم وقتی کمپیوٹیشن کے آفاقی قدیم کے طور پر سمجھتا ہے۔",
+      "hint": "The name is a direct clue.",
+      "hint_ur": "نام ایک براہ راست سراغ ہے۔",
+      "timeLimit": 40
+    },
+    {
+      "id": 44,
+      "type": "true-false",
+      "question": "Machine learning is a subfield of artificial intelligence (AI).",
+      "question_ur": "مشین لرننگ مصنوعی ذہانت (AI) کا ایک ذیلی شعبہ ہے۔",
+      "correctAnswer": true,
+      "explanation": "Machine learning is a field of AI that gives computers the ability to learn without being explicitly programmed.",
+      "explanation_ur": "مشین لرننگ AI کا ایک شعبہ ہے جو کمپیوٹرز کو واضح طور پر پروگرام کیے بغیر سیکھنے کی صلاحیت دیتا ہے۔",
+      "hint": "Think of it as the 'learning' part of AI.",
+      "hint_ur": "اسے AI کے 'سیکھنے' کے حصے کے طور پر سوچیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Which of the following is a command-line interface (CLI) operating system?",
+      "question_ur": "درج ذیل میں سے کون سا کمانڈ لائن انٹرفیس (CLI) آپریٹنگ سسٹم ہے؟",
+      "options": {
+        "en": ["Windows 10", "macOS", "MS-DOS", "Android"],
+        "ur": ["ونڈوز 10", "میک او ایس", "ایم ایس ڈاس", "اینڈرائیڈ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "MS-DOS is a command-line OS where users interact with the system by typing commands, unlike modern graphical user interfaces (GUIs).",
+      "explanation_ur": "MS-DOS ایک کمانڈ لائن OS ہے جہاں صارفین کمانڈز ٹائپ کرکے سسٹم کے ساتھ تعامل کرتے ہیں، جدید گرافیکل یوزر انٹرفیس (GUIs) کے برعکس۔",
+      "hint": "It was a popular OS before Windows became dominant.",
+      "hint_ur": "یہ ونڈوز کے غالب ہونے سے پہلے ایک مقبول OS تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "What is the term for a self-replicating malicious program that spreads to other computers?",
+      "question_ur": "ایک خود کو دوبارہ پیدا کرنے والے بدنیتی پر مبنی پروگرام کی اصطلاح کیا ہے جو دوسرے کمپیوٹرز میں پھیلتا ہے؟",
+      "options": {
+        "en": ["Spyware", "Adware", "Virus", "Worm"],
+        "ur": ["اسپائی ویئر", "ایڈویئر", "وائرس", "ورم"]
+      },
+      "correctAnswer": 3,
+      "explanation": "A worm is a standalone malware computer program that replicates itself in order to spread to other computers.",
+      "explanation_ur": "ایک ورم ایک اسٹینڈ اسٹون میلویئر کمپیوٹر پروگرام ہے جو دوسرے کمپیوٹرز میں پھیلنے کے لیے خود کو نقل کرتا ہے۔",
+      "hint": "It's named after a long, crawling creature.",
+      "hint_ur": "اس کا نام ایک لمبی، رینگنے والی مخلوق کے نام پر رکھا گیا ہے۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "In computer networking, what does 'DHCP' stand for?",
+      "question_ur": "کمپیوٹر نیٹ ورکنگ میں، 'DHCP' کا کیا مطلب ہے؟",
+      "options": {
+        "en": ["Dynamic Host Configuration Protocol", "Data Handling Control Protocol", "Distributed Hyperlink Communication Protocol", "Digital Host Connection Procedure"],
+        "ur": ["ڈائنامک ہوسٹ کنفیگریشن پروٹوکول", "ڈیٹا ہینڈلنگ کنٹرول پروٹوکول", "ڈسٹری بیوٹڈ ہائپر لنک کمیونیکیشن پروٹوکول", "ڈیجیٹل ہوسٹ کنکشن پروسیجر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "DHCP is a network management protocol used to dynamically assign IP addresses to devices on a network.",
+      "explanation_ur": "DHCP ایک نیٹ ورک مینجمنٹ پروٹوکول ہے جو نیٹ ورک پر موجود آلات کو IP ایڈریسز متحرک طور پر تفویض کرنے کے لیے استعمال ہوتا ہے۔",
+      "hint": "It helps a network 'configure' hosts automatically.",
+      "hint_ur": "یہ ایک نیٹ ورک کو ہوسٹس کو خود بخود 'کنفیگر' کرنے میں مدد کرتا ہے۔",
+      "timeLimit": 40
+    },
+    {
+      "id": 48,
+      "type": "true-false",
+      "question": "The 'Internet of Things' (IoT) refers to the interconnection of physical objects with the internet.",
+      "question_ur": "'انٹرنیٹ آف تھنگز' (IoT) سے مراد انٹرنیٹ کے ساتھ جسمانی اشیاء کا باہمی ربط ہے۔",
+      "correctAnswer": true,
+      "explanation": "IoT is the network of physical objects ('things') embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet.",
+      "explanation_ur": "IoT جسمانی اشیاء ('چیزوں') کا نیٹ ورک ہے جو سینسرز، سافٹ ویئر اور دیگر ٹیکنالوجیز کے ساتھ سرایت شدہ ہے جس کا مقصد انٹرنیٹ پر موجود دوسرے آلات اور سسٹم کے ساتھ ڈیٹا کو جوڑنا اور تبادلہ کرنا ہے۔",
+      "hint": "Think of smart devices like smart refrigerators and thermostats.",
+      "hint_ur": "اسمارٹ ڈیوائسز جیسے کہ سمارٹ فریج اور تھرموسٹیٹس کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "What is the main function of a 'kernel' in an operating system?",
+      "question_ur": "آپریٹنگ سسٹم میں 'کرنل' کا کیا کام ہے؟",
+      "options": {
+        "en": ["To run user applications", "To manage system resources and communication between hardware and software", "To provide a graphical user interface", "To connect to the internet"],
+        "ur": ["صارف کی ایپلی کیشنز چلانا", "سسٹم کے وسائل اور ہارڈ ویئر اور سافٹ ویئر کے درمیان مواصلات کا انتظام کرنا", "ایک گرافیکل یوزر انٹرفیس فراہم کرنا", "انٹرنیٹ سے جڑنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The kernel is the core component of an operating system, acting as a bridge between applications and the data processing at the hardware level.",
+      "explanation_ur": "کرنل آپریٹنگ سسٹم کا بنیادی جزو ہے، جو ایپلی کیشنز اور ہارڈ ویئر کی سطح پر ڈیٹا پروسیسنگ کے درمیان ایک پل کا کام کرتا ہے۔",
+      "hint": "It's at the very 'core' of the OS.",
+      "hint_ur": "یہ OS کے بالکل 'کور' پر ہے۔",
+      "timeLimit": 45
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "Which of these is a popular framework for building single-page applications (SPAs)?",
+      "question_ur": "ان میں سے کون سا سنگل پیج ایپلی کیشنز (SPAs) بنانے کے لیے ایک مقبول فریم ورک ہے؟",
+      "options": {
+        "en": ["jQuery", "React", "Ruby on Rails", "Django"],
+        "ur": ["jQuery", "ری ایکٹ", "روبی آن ریلز", "ڈجینگو"]
+      },
+      "correctAnswer": 1,
+      "explanation": "React is a JavaScript library for building user interfaces, commonly used for SPAs.",
+      "explanation_ur": "ری ایکٹ ایک جاوا اسکرپٹ لائبریری ہے جو یوزر انٹرفیس بنانے کے لیے استعمال ہوتی ہے، جو عام طور پر SPAs کے لیے استعمال ہوتی ہے۔",
+      "hint": "It was developed by Facebook.",
+      "hint_ur": "اسے فیس بک نے تیار کیا تھا۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 51,
+      "type": "true-false",
+      "question": "SQL is a programming language used for styling web pages.",
+      "question_ur": "SQL ایک پروگرامنگ زبان ہے جو ویب صفحات کو اسٹائل کرنے کے لیے استعمال ہوتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "SQL (Structured Query Language) is used for managing and querying relational databases. CSS is used for styling web pages.",
+      "explanation_ur": "SQL (Structured Query Language) ریلیشنل ڈیٹا بیس کا انتظام اور سوال کرنے کے لیے استعمال ہوتی ہے۔ CSS ویب صفحات کو اسٹائل کرنے کے لیے استعمال ہوتا ہے۔",
+      "hint": "The 'S' stands for 'Structured,' and it's for databases.",
+      "hint_ur": "'S' کا مطلب ہے 'سٹرکچرڈ'، اور یہ ڈیٹا بیس کے لیے ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "What is the purpose of 'BIOS' in a computer system?",
+      "question_ur": "کمپیوٹر سسٹم میں 'BIOS' کا کیا مقصد ہے؟",
+      "options": {
+        "en": ["To run the operating system", "To manage user files", "To initialize hardware and load the operating system", "To provide a graphical interface"],
+        "ur": ["آپریٹنگ سسٹم چلانا", "صارف کی فائلوں کا انتظام کرنا", "ہارڈ ویئر کو شروع کرنا اور آپریٹنگ سسٹم کو لوڈ کرنا", "ایک گرافیکل انٹرفیس فراہم کرنا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "BIOS (Basic Input/Output System) is firmware used to perform hardware initialization during the booting process.",
+      "explanation_ur": "BIOS (Basic Input/Output System) ایک فرم ویئر ہے جو بوٹنگ کے عمل کے دوران ہارڈ ویئر کو شروع کرنے کے لیے استعمال ہوتا ہے۔",
+      "hint": "It runs before the operating system even starts.",
+      "hint_ur": "یہ آپریٹنگ سسٹم کے شروع ہونے سے پہلے چلتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "Which of these is a type of cloud computing service model that provides virtualized computing resources over the internet?",
+      "question_ur": "ان میں سے کون سی کلاؤڈ کمپیوٹنگ سروس ماڈل کی ایک قسم ہے جو انٹرنیٹ پر ورچوئلائزڈ کمپیوٹنگ وسائل فراہم کرتی ہے؟",
+      "options": {
+        "en": ["SaaS (Software as a Service)", "PaaS (Platform as a Service)", "IaaS (Infrastructure as a Service)", "All of the above"],
+        "ur": ["SaaS (سافٹ ویئر بطور سروس)", "PaaS (پلیٹ فارم بطور سروس)", "IaaS (انفراسٹرکچر بطور سروس)", "مندرجہ بالا تمام"]
+      },
+      "correctAnswer": 3,
+      "explanation": "SaaS, PaaS, and IaaS are all standard cloud service models.",
+      "explanation_ur": "SaaS، PaaS اور IaaS سبھی معیاری کلاؤڈ سروس ماڈل ہیں۔",
+      "hint": "They represent different levels of abstraction in cloud services.",
+      "hint_ur": "وہ کلاؤڈ سروسز میں تجرید کی مختلف سطحوں کی نمائندگی کرتے ہیں۔",
+      "timeLimit": 40
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "What is the term for a program's ability to handle multiple tasks or processes at the same time?",
+      "question_ur": "ایک پروگرام کی بیک وقت متعدد کاموں یا عملوں کو سنبھالنے کی صلاحیت کی اصطلاح کیا ہے؟",
+      "options": {
+        "en": ["Concurrency", "Parallelism", "Multitasking", "All of the above"],
+        "ur": ["کنکرنسی", "پیراللزم", "ملٹی ٹاسکنگ", "مندرجہ بالا تمام"]
+      },
+      "correctAnswer": 3,
+      "explanation": "All of these terms relate to the ability of a system to handle multiple tasks, with subtle but important differences in their definitions.",
+      "explanation_ur": "یہ تمام اصطلاحات کسی سسٹم کی متعدد کاموں کو سنبھالنے کی صلاحیت سے متعلق ہیں، جن کی تعریفوں میں لطیف لیکن اہم فرق ہیں۔",
+      "hint": "The terms are often used interchangeably in general discussion, but they have distinct meanings in computer science.",
+      "hint_ur": "یہ اصطلاحات عام بحث میں اکثر ایک دوسرے کے بدلے استعمال ہوتی ہیں، لیکن کمپیوٹر سائنس میں ان کے الگ معنی ہیں۔",
+      "timeLimit": 45
+    },
+    {
+      "id": 55,
+      "type": "true-false",
+      "question": "A 'keylogger' is a type of malware that records the user's keystrokes.",
+      "question_ur": "ایک 'کیلاگر' میلویئر کی ایک قسم ہے جو صارف کے کی اسٹروکس کو ریکارڈ کرتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Keyloggers are a form of spyware that covertly monitor and log a user's keyboard input.",
+      "explanation_ur": "کیلاگر اسپائی ویئر کی ایک شکل ہے جو کسی صارف کے کی بورڈ ان پٹ کی خفیہ طور پر نگرانی اور لاگ کرتا ہے۔",
+      "hint": "The name directly describes its function.",
+      "hint_ur": "نام براہ راست اس کے کام کو بیان کرتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "What is the term for the process of using a mathematical formula to encrypt and decrypt data?",
+      "question_ur": "ڈیٹا کو خفیہ اور ڈکرپٹ کرنے کے لیے ایک ریاضیاتی فارمولا استعمال کرنے کے عمل کی اصطلاح کیا ہے؟",
+      "options": {
+        "en": ["Hacking", "Cryptanalysis", "Encryption", "Steganography"],
+        "ur": ["ہیکنگ", "کرپٹ تجزیہ", "انکرپشن", "سٹیگانوگرافی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Encryption is the process of encoding information so that only authorized parties can access it.",
+      "explanation_ur": "انکرپشن معلومات کو انکوڈ کرنے کا عمل ہے تاکہ صرف مجاز فریق ہی اس تک رسائی حاصل کر سکیں۔",
+      "hint": "You're converting plain text into a 'cipher' text.",
+      "hint_ur": "آپ سادہ متن کو 'سائفر' متن میں تبدیل کر رہے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "Which of these is a popular front-end framework for building user interfaces?",
+      "question_ur": "ان میں سے کون سا یوزر انٹرفیس بنانے کے لیے ایک مقبول فرنٹ اینڈ فریم ورک ہے؟",
+      "options": {
+        "en": ["Laravel", "Django", "Vue.js", "Flask"],
+        "ur": ["لاراول", "ڈجینگو", "وے ڈاٹ جے ایس", "فلاسک"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Vue.js, along with React and Angular, is a popular JavaScript framework for building user interfaces.",
+      "explanation_ur": "وے ڈاٹ جے ایس، ری ایکٹ اور اینگولر کے ساتھ، یوزر انٹرفیس بنانے کے لیے ایک مقبول جاوا اسکرپٹ فریم ورک ہے۔",
+      "hint": "It's known for its simplicity and progressive adoption.",
+      "hint_ur": "یہ اس کی سادگی اور ترقی پسند اپنانے کے لیے جانا جاتا ہے۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "What is the term for a program that runs on a client's computer and is designed to interact with a server?",
+      "question_ur": "ایک ایسے پروگرام کی اصطلاح کیا ہے جو کلائنٹ کے کمپیوٹر پر چلتا ہے اور اسے سرور کے ساتھ تعامل کرنے کے لیے ڈیزائن کیا گیا ہے؟",
+      "options": {
+        "en": ["Server-side script", "Web service", "Client-side application", "Database query"],
+        "ur": ["سرور سائڈ اسکرپٹ", "ویب سروس", "کلائنٹ سائڈ ایپلی کیشن", "ڈیٹا بیس کیووری"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A client-side application (or client) is a piece of software that runs on the user's local machine and requests data or services from a server.",
+      "explanation_ur": "ایک کلائنٹ سائڈ ایپلی کیشن (یا کلائنٹ) سافٹ ویئر کا ایک حصہ ہے جو صارف کی مقامی مشین پر چلتا ہے اور سرور سے ڈیٹا یا خدمات کی درخواست کرتا ہے۔",
+      "hint": "The 'client' is the user's device, like a web browser.",
+      "hint_ur": "کلائنٹ صارف کا آلہ ہے، جیسے ایک ویب براؤزر۔",
+      "timeLimit": 40
+    },
+    {
+      "id": 59,
+      "type": "true-false",
+      "question": "HTML is a programming language.",
+      "question_ur": "HTML ایک پروگرامنگ زبان ہے۔",
+      "correctAnswer": false,
+      "explanation": "HTML (HyperText Markup Language) is a markup language, not a programming language. It is used for structuring content on a web page, not for performing logic or computations.",
+      "explanation_ur": "HTML (HyperText Markup Language) ایک مارک اپ زبان ہے، پروگرامنگ زبان نہیں۔ یہ ویب صفحہ پر مواد کو ترتیب دینے کے لیے استعمال ہوتی ہے، منطق یا حساب کتاب کرنے کے لیے نہیں۔",
+      "hint": "The 'M' in the acronym stands for 'Markup.'",
+      "hint_ur": "مخفف میں 'M' کا مطلب ہے 'مارک اپ۔'",
+      "timeLimit": 25
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "What is the term for a computer network that connects devices within a limited area, such as a home or office?",
+      "question_ur": "ایک کمپیوٹر نیٹ ورک کی اصطلاح کیا ہے جو ایک محدود علاقے میں آلات کو جوڑتا ہے، جیسے کہ گھر یا دفتر؟",
+      "options": {
+        "en": ["WAN", "MAN", "LAN", "CAN"],
+        "ur": ["وین", "مین", "لین", "کین"]
+      },
+      "correctAnswer": 2,
+      "explanation": "LAN (Local Area Network) is a computer network that interconnects computers within a limited area.",
+      "explanation_ur": "LAN (لوکل ایریا نیٹ ورک) ایک کمپیوٹر نیٹ ورک ہے جو ایک محدود علاقے میں کمپیوٹرز کو آپس میں جوڑتا ہے۔",
+      "hint": "The 'L' in the acronym stands for 'local.'",
+      "hint_ur": "مخفف میں 'L' کا مطلب ہے 'لوکل۔'",
+      "timeLimit": 20
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "What is the purpose of a 'modem'?",
+      "question_ur": "'موڈیم' کا مقصد کیا ہے؟",
+      "options": {
+        "en": ["To store digital data", "To convert digital signals to analog and vice-versa", "To protect against viruses", "To display images on a monitor"],
+        "ur": ["ڈیجیٹل ڈیٹا کو ذخیرہ کرنا", "ڈیجیٹل سگنلز کو اینالاگ میں اور اس کے برعکس تبدیل کرنا", "وائرس سے بچانا", "مانیٹر پر تصاویر دکھانا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A modem (modulator-demodulator) is a device that modulates an analog carrier signal to encode digital information and also demodulates such a carrier signal to decode the transmitted information.",
+      "explanation_ur": "ایک موڈیم (ماڈیولیٹر-ڈیمڈیولیٹر) ایک ایسا آلہ ہے جو ڈیجیٹل معلومات کو انکوڈ کرنے کے لیے ایک اینالاگ کیریئر سگنل کو ماڈیولیٹ کرتا ہے اور منتقل شدہ معلومات کو ڈیکوڈ کرنے کے لیے ایسے کیریئر سگنل کو ڈیمڈیولیٹ بھی کرتا ہے۔",
+      "hint": "It allows a computer to communicate over telephone lines.",
+      "hint_ur": "یہ ایک کمپیوٹر کو ٹیلی فون لائنوں پر بات چیت کرنے کی اجازت دیتا ہے۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 62,
+      "type": "mcq",
+      "question": "Which of these is a popular server-side programming language?",
+      "question_ur": "ان میں سے کون سی ایک مقبول سرور سائڈ پروگرامنگ زبان ہے؟",
+      "options": {
+        "en": ["HTML", "CSS", "PHP", "JavaScript (client-side)"],
+        "ur": ["HTML", "CSS", "PHP", "جاوا اسکرپٹ (کلائنٹ سائڈ)"]
+      },
+      "correctAnswer": 2,
+      "explanation": "PHP is a general-purpose scripting language especially suited to web development and is executed on the server.",
+      "explanation_ur": "PHP ایک عام مقصد کی اسکرپٹنگ زبان ہے جو خاص طور پر ویب ڈویلپمنٹ کے لیے موزوں ہے اور سرور پر ایگزیکیوٹ ہوتی ہے۔",
+      "hint": "It's often used with the LAMP stack.",
+      "hint_ur": "یہ اکثر LAMP اسٹیک کے ساتھ استعمال ہوتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 63,
+      "type": "true-false",
+      "question": "An 'IP address' is a unique numerical label assigned to each device on a computer network.",
+      "question_ur": "ایک 'IP ایڈریس' ایک منفرد عددی لیبل ہے جو کمپیوٹر نیٹ ورک پر ہر ڈیوائس کو تفویض کیا جاتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "An IP address (Internet Protocol address) is a numerical label that identifies a device on a network.",
+      "explanation_ur": "ایک IP ایڈریس (انٹرنیٹ پروٹوکول ایڈریس) ایک عددی لیبل ہے جو نیٹ ورک پر ایک ڈیوائس کی شناخت کرتا ہے۔",
+      "hint": "It's how devices find each other on the internet.",
+      "hint_ur": "اس طرح ڈیوائسز ایک دوسرے کو انٹرنیٹ پر تلاش کرتی ہیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "question": "What is the term for a program that emulates the functionality of a physical machine or system?",
+      "question_ur": "ایک ایسے پروگرام کی اصطلاح کیا ہے جو ایک جسمانی مشین یا سسٹم کی فعالیت کی تقلید کرتا ہے؟",
+      "options": {
+        "en": ["Compiler", "Emulator", "Debugger", "Firewall"],
+        "ur": ["کمپائلر", "ایمولیٹر", "ڈی بگر", "فائر وال"]
+      },
+      "correctAnswer": 1,
+      "explanation": "An emulator is a hardware or software that enables one computer system to behave like another computer system.",
+      "explanation_ur": "ایک ایمولیٹر ایک ہارڈ ویئر یا سافٹ ویئر ہے جو ایک کمپیوٹر سسٹم کو دوسرے کمپیوٹر سسٹم کی طرح برتاؤ کرنے کے قابل بناتا ہے۔",
+      "hint": "It 'emulates' another system.",
+      "hint_ur": "یہ دوسرے سسٹم کی 'تقلید' کرتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "question": "Which of these is a type of data structure that follows the LIFO (Last-In, First-Out) principle?",
+      "question_ur": "ان میں سے کون سی ڈیٹا کی ساخت کی ایک قسم ہے جو LIFO (لاسٹ ان، فرسٹ آؤٹ) اصول کی پیروی کرتی ہے؟",
+      "options": {
+        "en": ["Queue", "Linked List", "Stack", "Array"],
+        "ur": ["کیو", "لنکڈ لسٹ", "اسٹیک", "ایرے"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A stack is a linear data structure that follows the LIFO principle. Think of a stack of plates, where you can only add or remove from the top.",
+      "explanation_ur": "ایک اسٹیک ایک لکیری ڈیٹا کی ساخت ہے جو LIFO اصول کی پیروی کرتی ہے۔ پلیٹوں کے ایک اسٹیک کے بارے میں سوچیں، جہاں آپ صرف اوپر سے شامل یا ہٹا سکتے ہیں۔",
+      "hint": "The name is a common term for a pile of objects.",
+      "hint_ur": "نام اشیاء کے ڈھیر کے لیے ایک عام اصطلاح ہے۔",
+      "timeLimit": 40
+    },
+    {
+      "id": 66,
+      "type": "mcq",
+      "question": "What is the primary function of a 'transistor' in a modern computer?",
+      "question_ur": "ایک جدید کمپیوٹر میں 'ٹرانزسٹر' کا بنیادی کام کیا ہے؟",
+      "options": {
+        "en": ["To store data permanently", "To act as an electronic switch and amplifier", "To cool the CPU", "To generate sound"],
+        "ur": ["ڈیٹا کو مستقل طور پر ذخیرہ کرنا", "ایک الیکٹرانک سوئچ اور ایمپلیفائر کے طور پر کام کرنا", "CPU کو ٹھنڈا کرنا", "آواز پیدا کرنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Transistors are the fundamental building blocks of modern electronic devices, acting as tiny electronic switches that can be turned on or off.",
+      "explanation_ur": "ٹرانزسٹر جدید الیکٹرانک آلات کے بنیادی تعمیراتی بلاکس ہیں، جو چھوٹے الیکٹرانک سوئچ کے طور پر کام کرتے ہیں جنہیں آن یا آف کیا جا سکتا ہے۔",
+      "hint": "It's the core component of microprocessors and memory chips.",
+      "hint_ur": "یہ مائکرو پروسیسرز اور میموری چپس کا بنیادی جزو ہے۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 67,
+      "type": "true-false",
+      "question": "A 'wiki' is a type of website where anyone can edit the content.",
+      "question_ur": "ایک 'وکی' ایک قسم کی ویب سائٹ ہے جہاں کوئی بھی مواد میں ترمیم کر سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "A wiki is a website that allows collaborative modification of its content and structure directly from the web browser.",
+      "explanation_ur": "ایک وکی ایک ایسی ویب سائٹ ہے جو ویب براؤزر سے براہ راست اس کے مواد اور ساخت میں اجتماعی ترمیم کی اجازت دیتی ہے۔",
+      "hint": "Wikipedia is the most famous example.",
+      "hint_ur": "وکیپیڈیا سب سے مشہور مثال ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 68,
+      "type": "mcq",
+      "question": "Which of these is a high-level, interpreted programming language known for its use in data science and artificial intelligence?",
+      "question_ur": "ان میں سے کون سی ایک اعلیٰ سطحی، تشریح شدہ پروگرامنگ زبان ہے جو ڈیٹا سائنس اور مصنوعی ذہانت میں اس کے استعمال کے لیے مشہور ہے؟",
+      "options": {
+        "en": ["C++", "Java", "Python", "Assembly Language"],
+        "ur": ["C++", "جاوا", "پائتھن", "اسمبلی لینگویج"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Python's simple syntax and extensive libraries make it a popular choice for data science and AI.",
+      "explanation_ur": "پائتھن کا سادہ نحو اور وسیع لائبریریاں اسے ڈیٹا سائنس اور AI کے لیے ایک مقبول انتخاب بناتی ہیں۔",
+      "hint": "Its name is a reference to a British comedy group.",
+      "hint_ur": "اس کا نام ایک برطانوی مزاحیہ گروپ کے حوالے سے ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "question": "What is the term for the set of instructions that a CPU can execute?",
+      "question_ur": "ان ہدایات کے سیٹ کی اصطلاح کیا ہے جو ایک CPU چلا سکتا ہے؟",
+      "options": {
+        "en": ["Algorithm", "Data Structure", "Instruction Set", "Compiler"],
+        "ur": ["الگورتھم", "ڈیٹا اسٹرکچر", "انسٹرکشن سیٹ", "کمپائلر"]
+      },
+      "correctAnswer": 2,
+      "explanation": "An instruction set is the set of all the instructions that a CPU can understand and execute.",
+      "explanation_ur": "ایک انسٹرکشن سیٹ ان تمام ہدایات کا سیٹ ہے جسے ایک CPU سمجھ سکتا ہے اور چلا سکتا ہے۔",
+      "hint": "It's the 'set' of 'instructions' for the CPU.",
+      "hint_ur": "یہ CPU کے لیے 'ہدایات' کا 'سیٹ' ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 70,
+      "type": "mcq",
+      "question": "Which of these is a standard for wireless communication over short distances?",
+      "question_ur": "ان میں سے کون سا شارٹ فاصلے پر وائرلیس مواصلات کے لیے ایک معیار ہے؟",
+      "options": {
+        "en": ["Ethernet", "Wi-Fi", "Fiber Optic", "Coaxial Cable"],
+        "ur": ["ایتھرنیٹ", "وائی فائی", "فائبر آپٹک", "کوایکسل کیبل"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Wi-Fi is a family of wireless network protocols, based on the IEEE 802.11 family of standards, which are commonly used for local area networking of devices and internet access.",
+      "explanation_ur": "Wi-Fi وائرلیس نیٹ ورک پروٹوکول کا ایک خاندان ہے، جو IEEE 802.11 فیملی کے معیارات پر مبنی ہے، جو عام طور پر ڈیوائسز کے مقامی ایریا نیٹ ورکنگ اور انٹرنیٹ تک رسائی کے لیے استعمال ہوتے ہیں۔",
+      "hint": "It's the most common way to connect to the internet wirelessly in a home or office.",
+      "hint_ur": "یہ گھر یا دفتر میں وائرلیس طور پر انٹرنیٹ سے جڑنے کا سب سے عام طریقہ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 71,
+      "type": "true-false",
+      "question": "Quantum computers use qubits instead of traditional bits.",
+      "question_ur": "کوانٹم کمپیوٹرز روایتی بٹس کی بجائے کیوبٹس استعمال کرتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "A qubit (quantum bit) is the basic unit of quantum information, similar to a bit in a conventional computer.",
+      "explanation_ur": "ایک کیوبٹ (کوانٹم بٹ) کوانٹم معلومات کی بنیادی اکائی ہے، جو ایک روایتی کمپیوٹر میں ایک بٹ کی طرح ہے۔",
+      "hint": "They can exist in multiple states at once.",
+      "hint_ur": "وہ ایک ہی وقت میں متعدد حالتوں میں موجود ہو سکتے ہیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 72,
+      "type": "mcq",
+      "question": "What is the term for a logical error in a program that causes it to produce an incorrect or unexpected result?",
+      "question_ur": "ایک پروگرام میں ایک منطقی غلطی کی اصطلاح کیا ہے جو اسے ایک غلط یا غیر متوقع نتیجہ پیدا کرنے کا سبب بنتی ہے؟",
+      "options": {
+        "en": ["Syntax Error", "Runtime Error", "Logical Error", "Compiler Error"],
+        "ur": ["سنٹیکس ایرر", "رن ٹائم ایرر", "لاجییکل ایرر", "کمپائلر ایرر"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A logical error is a bug in a program that causes it to operate incorrectly, but does not crash.",
+      "explanation_ur": "ایک منطقی غلطی ایک پروگرام میں ایک بگ ہے جو اسے غلط طریقے سے کام کرنے کا سبب بنتا ہے، لیکن کریش نہیں ہوتا۔",
+      "hint": "The code runs, but the outcome isn't what was intended.",
+      "hint_ur": "کوڈ چلتا ہے، لیکن نتیجہ وہ نہیں ہوتا جو مطلوب تھا۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "Which of these is a database model where data is organized into a tree-like structure?",
+      "question_ur": "ان میں سے کون سا ایک ڈیٹا بیس ماڈل ہے جہاں ڈیٹا کو درخت جیسی ساخت میں منظم کیا جاتا ہے؟",
+      "options": {
+        "en": ["Relational Model", "Network Model", "Hierarchical Model", "Object-Oriented Model"],
+        "ur": ["ریلیشنل ماڈل", "نیٹ ورک ماڈل", "ہیرارکیئل ماڈل", "آبجیکٹ اورینٹڈ ماڈل"]
+      },
+      "correctAnswer": 2,
+      "explanation": "In a hierarchical database model, data is organized into a tree-like structure, with each parent record having one or more child records.",
+      "explanation_ur": "ایک ہیرارکیئل ڈیٹا بیس ماڈل میں، ڈیٹا کو ایک درخت جیسی ساخت میں منظم کیا جاتا ہے، جس میں ہر پیرنٹ ریکارڈ کے ایک یا زیادہ چائلڈ ریکارڈ ہوتے ہیں۔",
+      "hint": "The name is a synonym for 'structured in levels.'",
+      "hint_ur": "نام 'سطحوں میں ترتیب' کے لیے ایک مترادف ہے۔",
+      "timeLimit": 40
+    },
+    {
+      "id": 74,
+      "type": "mcq",
+      "question": "What is the purpose of a 'hub' in a computer network?",
+      "question_ur": "کمپیوٹر نیٹ ورک میں 'ہب' کا کیا مقصد ہے؟",
+      "options": {
+        "en": ["To route data packets to specific destinations", "To connect multiple devices in a single network", "To secure the network connection", "To translate domain names"],
+        "ur": ["ڈیٹا پیکٹس کو مخصوص منزلوں تک روٹ کرنا", "ایک ہی نیٹ ورک میں متعدد آلات کو جوڑنا", "نیٹ ورک کنکشن کو محفوظ کرنا", "ڈومین ناموں کا ترجمہ کرنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A hub is a simple network device that connects multiple computers and other network devices, but it broadcasts all data to all connected devices.",
+      "explanation_ur": "ایک ہب ایک سادہ نیٹ ورک ڈیوائس ہے جو متعدد کمپیوٹرز اور دیگر نیٹ ورک ڈیوائسز کو جوڑتا ہے، لیکن یہ تمام ڈیٹا کو تمام منسلک آلات پر نشر کرتا ہے۔",
+      "hint": "It's less intelligent than a switch or a router.",
+      "hint_ur": "یہ ایک سوئچ یا راؤٹر سے کم ذہین ہے۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "question": "Which programming language is often used for creating macros and automating tasks in Microsoft Office applications?",
+      "question_ur": "مائیکروسافٹ آفس ایپلی کیشنز میں میکروز بنانے اور کاموں کو خودکار کرنے کے لیے کون سی پروگرامنگ زبان اکثر استعمال ہوتی ہے؟",
+      "options": {
+        "en": ["Python", "C#", "VBA (Visual Basic for Applications)", "JavaScript"],
+        "ur": ["پائتھن", "C#", "VBA (ویژول بیسک فار ایپلیکیشنز)", "جاوا اسکرپٹ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "VBA is a programming language that is an integral part of Microsoft Office programs, used for creating custom functions and automating tasks.",
+      "explanation_ur": "VBA ایک پروگرامنگ زبان ہے جو مائیکروسافٹ آفس پروگراموں کا ایک لازمی حصہ ہے، جو حسب ضرورت فنکشنز بنانے اور کاموں کو خودکار کرنے کے لیے استعمال ہوتی ہے۔",
+      "hint": "The name directly references its use in 'applications.'",
+      "hint_ur": "نام براہ راست 'ایپلی کیشنز' میں اس کے استعمال کا حوالہ دیتا ہے۔",
+      "timeLimit": 40
+    },
+    {
+      "id": 76,
+      "type": "true-false",
+      "question": "Binary is a number system with a base of 2, using only the digits 0 and 1.",
+      "question_ur": "بائنری ایک نمبر سسٹم ہے جس کی بنیاد 2 ہے، صرف ہندسے 0 اور 1 کا استعمال کرتے ہوئے",
+      "correctAnswer": true,
+      "explanation": "The binary number system is the foundation of all modern digital computers.",
+      "explanation_ur": "بائنری نمبر سسٹم تمام جدید ڈیجیٹل کمپیوٹرز کی بنیاد ہے۔",
+      "hint": "It's the language of computers.",
+      "hint_ur": "یہ کمپیوٹرز کی زبان ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "question": "What is the term for a program that translates a program written in a high-level language into machine code?",
+      "question_ur": "ایک ایسے پروگرام کی اصطلاح کیا ہے جو ایک اعلیٰ سطحی زبان میں لکھے گئے پروگرام کا مشین کوڈ میں ترجمہ کرتا ہے؟",
+      "options": {
+        "en": ["Interpreter", "Debugger", "Compiler", "Assembler"],
+        "ur": ["انٹرپریٹر", "ڈی بگر", "کمپائلر", "اسمبلر"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A compiler translates the entire source code into machine code before the program is executed.",
+      "explanation_ur": "ایک کمپائلر پروگرام کو ایگزیکیوٹ کرنے سے پہلے پورے سورس کوڈ کا مشین کوڈ میں ترجمہ کرتا ہے۔",
+      "hint": "It 'compiles' the whole program at once.",
+      "hint_ur": "یہ ایک ہی وقت میں پورے پروگرام کو 'کمپائل' کرتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 78,
+      "type": "mcq",
+      "question": "Which of these is a type of cyberattack that involves tricking users into clicking on a malicious link or downloading a malicious file?",
+      "question_ur": "ان میں سے کون سی سائبر حملے کی ایک قسم ہے جس میں صارفین کو ایک بدنیتی پر مبنی لنک پر کلک کرنے یا ایک بدنیتی پر مبنی فائل ڈاؤن لوڈ کرنے کا دھوکہ دینا شامل ہے؟",
+      "options": {
+        "en": ["DoS attack", "Phishing", "Ransomware", "Brute-force attack"],
+        "ur": ["DoS حملہ", "فشنگ", "رینسم ویئر", "بروٹ فورس حملہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Phishing is a social engineering attack that tricks users into giving up sensitive information.",
+      "explanation_ur": "فشنگ ایک سوشل انجینئرنگ حملہ ہے جو صارفین کو حساس معلومات دینے کے لیے دھوکہ دیتا ہے۔",
+      "hint": "The name sounds like 'fishing' for information.",
+      "hint_ur": "نام معلومات کے لیے 'ماہی گیری' جیسا لگتا ہے۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "What is the purpose of a 'CDN' (Content Delivery Network)?",
+      "question_ur": "ایک 'CDN' (کنٹینٹ ڈیلیوری نیٹ ورک) کا مقصد کیا ہے؟",
+      "options": {
+        "en": ["To manage user accounts", "To distribute web content to users based on their geographic location", "To secure a website", "To create a backup of website data"],
+        "ur": ["صارف کے اکاؤنٹس کا انتظام کرنا", "صارفین کو ان کے جغرافیائی محل وقوع کی بنیاد پر ویب مواد تقسیم کرنا", "ایک ویب سائٹ کو محفوظ کرنا", "ویب سائٹ کے ڈیٹا کا بیک اپ بنانا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A CDN is a geographically distributed network of proxy servers and their data centers, providing high availability and performance by distributing the service spatially.",
+      "explanation_ur": "ایک CDN پراکسی سرورز اور ان کے ڈیٹا سینٹرز کا ایک جغرافیائی طور پر تقسیم شدہ نیٹ ورک ہے، جو خدمت کو مقامی طور پر تقسیم کرکے اعلیٰ دستیابی اور کارکردگی فراہم کرتا ہے۔",
+      "hint": "It helps deliver content 'closer' to the user.",
+      "hint_ur": "یہ صارف کے 'قریب' مواد کی ترسیل میں مدد کرتا ہے۔",
+      "timeLimit": 40
+    },
+    {
+      "id": 80,
+      "type": "mcq",
+      "question": "Which of these is a type of memory that is used for short-term data storage and is erased when the computer is turned off?",
+      "question_ur": "ان میں سے کون سی میموری کی ایک قسم ہے جو مختصر مدت کے ڈیٹا اسٹوریج کے لیے استعمال ہوتی ہے اور کمپیوٹر بند ہونے پر مٹا دی جاتی ہے؟",
+      "options": {
+        "en": ["ROM", "HDD", "RAM", "SSD"],
+        "ur": ["روم", "ایچ ڈی ڈی", "ریم", "ایس ایس ڈی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "RAM (Random Access Memory) is a volatile form of memory, meaning its contents are lost when the power is off.",
+      "explanation_ur": "RAM (Random Access Memory) میموری کی ایک غیر مستحکم شکل ہے، جس کا مطلب ہے کہ بجلی بند ہونے پر اس کا مواد ضائع ہو جاتا ہے۔",
+      "hint": "It's the primary memory for your operating system and applications.",
+      "hint_ur": "یہ آپ کے آپریٹنگ سسٹم اور ایپلیکیشنز کے لیے بنیادی میموری ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 81,
+      "type": "true-false",
+      "question": "A 'linked list' is a data structure where elements are stored in contiguous memory locations.",
+      "question_ur": "ایک 'لنکڈ لسٹ' ایک ڈیٹا کی ساخت ہے جہاں عناصر کو ملحقہ میموری کے مقامات میں محفوظ کیا جاتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "In a linked list, elements are not stored at contiguous memory locations. Instead, each element (node) contains a pointer to the next element.",
+      "explanation_ur": "ایک لنکڈ لسٹ میں، عناصر کو ملحقہ میموری کے مقامات پر محفوظ نہیں کیا جاتا ہے۔ اس کے بجائے، ہر عنصر (نوڈ) میں اگلے عنصر کا ایک پوائنٹر ہوتا ہے۔",
+      "hint": "Arrays store elements contiguously; linked lists use pointers.",
+      "hint_ur": "ایریز عناصر کو ملحقہ طور پر ذخیرہ کرتے ہیں؛ لنکڈ لسٹس پوائنٹرز استعمال کرتی ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "question": "What is the term for the number of pixels on a screen, expressed as width x height?",
+      "question_ur": "ایک اسکرین پر پکسلز کی تعداد کے لیے کیا اصطلاح ہے، جو چوڑائی x اونچائی کے طور پر ظاہر ہوتی ہے؟",
+      "options": {
+        "en": ["Pixel density", "Aspect ratio", "Refresh rate", "Resolution"],
+        "ur": ["پکسل ڈینسٹی", "اسپیکٹ ریشو", "ریفریش ریٹ", "ریزولوشن"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Resolution is the number of distinct pixels in each dimension that can be displayed by a display device.",
+      "explanation_ur": "ریزولوشن ہر جہت میں الگ پکسلز کی تعداد ہے جو ایک ڈسپلے ڈیوائس کے ذریعہ دکھائے جا سکتے ہیں۔",
+      "hint": "A common example is 1920x1080.",
+      "hint_ur": "ایک عام مثال 1920x1080 ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "question": "Which of these is a programming language specifically designed for statistical analysis and graphics?",
+      "question_ur": "ان میں سے کون سی ایک پروگرامنگ زبان ہے جو خاص طور پر شماریاتی تجزیہ اور گرافکس کے لیے ڈیزائن کی گئی ہے؟",
+      "options": {
+        "en": ["Java", "R", "C++", "HTML"],
+        "ur": ["جاوا", "آر", "C++", "HTML"]
+      },
+      "correctAnswer": 1,
+      "explanation": "R is a programming language and free software environment for statistical computing and graphics.",
+      "explanation_ur": "R ایک پروگرامنگ زبان اور شماریاتی کمپیوٹنگ اور گرافکس کے لیے ایک مفت سافٹ ویئر ماحول ہے۔",
+      "hint": "Its name is a single letter.",
+      "hint_ur": "اس کا نام ایک ہی حرف ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 84,
+      "type": "mcq",
+      "question": "What is the term for a virtual representation of a computer system, often used to run different operating systems on a single machine?",
+      "question_ur": "ایک کمپیوٹر سسٹم کی مجازی نمائندگی کے لیے کیا اصطلاح ہے، جو اکثر ایک ہی مشین پر مختلف آپریٹنگ سسٹمز چلانے کے لیے استعمال ہوتی ہے؟",
+      "options": {
+        "en": ["Container", "Virtual Machine (VM)", "Sandbox", "Emulation"],
+        "ur": ["کنٹینر", "ورچوئل مشین (VM)", "سینڈباکس", "ایمولیشن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A virtual machine is an emulation of a computer system, providing the functionality of a physical computer.",
+      "explanation_ur": "ایک ورچوئل مشین ایک کمپیوٹر سسٹم کی ایک تقلید ہے، جو ایک جسمانی کمپیوٹر کی فعالیت فراہم کرتی ہے۔",
+      "hint": "It creates a 'virtual' environment.",
+      "hint_ur": "یہ ایک 'ورچوئل' ماحول پیدا کرتا ہے۔",
+      "timeLimit": 40
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "Which of these is a popular framework for building robust and scalable back-end web applications in Python?",
+      "question_ur": "ان میں سے کون سا پائتھن میں مضبوط اور قابل توسیع بیک اینڈ ویب ایپلی کیشنز بنانے کے لیے ایک مقبول فریم ورک ہے؟",
+      "options": {
+        "en": ["Flask", "React", "Angular", "Vue.js"],
+        "ur": ["فلاسک", "ری ایکٹ", "اینگولر", "وے ڈاٹ جے ایس"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Flask is a lightweight and flexible web framework for Python, often used for building smaller, simpler applications.",
+      "explanation_ur": "فلاسک پائتھن کے لیے ایک ہلکا پھلکا اور لچکدار ویب فریم ورک ہے، جو اکثر چھوٹی، سادہ ایپلی کیشنز بنانے کے لیے استعمال ہوتا ہے۔",
+      "hint": "Its name sounds like a container for liquids.",
+      "hint_ur": "اس کا نام مائع کے کنٹینر جیسا لگتا ہے۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 86,
+      "type": "true-false",
+      "question": "A 'pixel' is a vector graphic.",
+      "question_ur": "ایک 'پکسل' ایک ویکٹر گرافک ہے۔",
+      "correctAnswer": false,
+      "explanation": "A pixel is a component of a raster graphic. Vector graphics use mathematical equations to define lines, shapes, and colors.",
+      "explanation_ur": "ایک پکسل ایک راسٹر گرافک کا ایک جزو ہے۔ ویکٹر گرافکس لائنوں، شکلوں اور رنگوں کی وضاحت کے لیے ریاضیاتی مساوات کا استعمال کرتے ہیں۔",
+      "hint": "Raster graphics are made of pixels, while vector graphics are scalable.",
+      "hint_ur": "راسٹر گرافکس پکسلز سے بنے ہوتے ہیں، جبکہ ویکٹر گرافکس قابل توسیع ہوتے ہیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "question": "What is the term for a program that translates a program written in a low-level language into machine code?",
+      "question_ur": "ایک ایسے پروگرام کی اصطلاح کیا ہے جو ایک نچلی سطح کی زبان میں لکھے گئے پروگرام کا مشین کوڈ میں ترجمہ کرتا ہے؟",
+      "options": {
+        "en": ["Compiler", "Interpreter", "Linker", "Assembler"],
+        "ur": ["کمپائلر", "انٹرپریٹر", "لنکر", "اسمبلر"]
+      },
+      "correctAnswer": 3,
+      "explanation": "An assembler is a program that translates a program written in assembly language into machine code.",
+      "explanation_ur": "ایک اسمبلر ایک پروگرام ہے جو اسمبلی زبان میں لکھے گئے پروگرام کا مشین کوڈ میں ترجمہ کرتا ہے۔",
+      "hint": "It 'assembles' the low-level code.",
+      "hint_ur": "یہ نچلی سطح کے کوڈ کو 'اکٹھا' کرتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "question": "Which of these is a type of data structure that follows the FIFO (First-In, First-Out) principle?",
+      "question_ur": "ان میں سے کون سی ڈیٹا کی ساخت کی ایک قسم ہے جو FIFO (فرسٹ ان، فرسٹ آؤٹ) اصول کی پیروی کرتی ہے؟",
+      "options": {
+        "en": ["Stack", "Array", "Queue", "Tree"],
+        "ur": ["اسٹیک", "ایرے", "کیو", "ٹری"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A queue is a linear data structure that follows the FIFO principle. Think of a line of people waiting for a service.",
+      "explanation_ur": "ایک کیو ایک لکیری ڈیٹا کی ساخت ہے جو FIFO اصول کی پیروی کرتی ہے۔ کسی سروس کا انتظار کرنے والے لوگوں کی لائن کے بارے میں سوچیں۔",
+      "hint": "The name is a common term for a waiting line.",
+      "hint_ur": "نام انتظار کی لائن کے لیے ایک عام اصطلاح ہے۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "question": "What is the main function of a 'web server'?",
+      "question_ur": "ایک 'ویب سرور' کا بنیادی کام کیا ہے؟",
+      "options": {
+        "en": ["To run video games", "To host websites and deliver web content to users", "To create documents", "To manage user accounts"],
+        "ur": ["ویڈیو گیمز چلانا", "ویب سائٹس کی میزبانی کرنا اور صارفین کو ویب مواد فراہم کرنا", "دستاویزات بنانا", "صارف کے اکاؤنٹس کا انتظام کرنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "A web server is a computer program that stores web content and delivers it to users upon request.",
+      "explanation_ur": "ایک ویب سرور ایک کمپیوٹر پروگرام ہے جو ویب مواد کو ذخیرہ کرتا ہے اور درخواست پر اسے صارفین کو فراہم کرتا ہے۔",
+      "hint": "It 'serves' web pages to you.",
+      "hint_ur": "یہ آپ کو ویب صفحات 'فراہم' کرتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 90,
+      "type": "true-false",
+      "question": "A 'Trojan horse' is a type of virus that self-replicates.",
+      "question_ur": "ایک 'ٹروجن ہارس' ایک قسم کا وائرس ہے جو خود کو دوبارہ پیدا کرتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "A Trojan horse does not self-replicate. It is a type of malware that disguises itself as legitimate software to trick users.",
+      "explanation_ur": "ایک ٹروجن ہارس خود کو دوبارہ پیدا نہیں کرتا ہے۔ یہ ایک قسم کا میلویئر ہے جو صارفین کو دھوکہ دینے کے لیے خود کو جائز سافٹ ویئر کے طور پر بھیس بدلتا ہے۔",
+      "hint": "Worms and viruses are the ones that self-replicate.",
+      "hint_ur": "ورمز اور وائرس وہ ہیں جو خود کو دوبارہ پیدا کرتے ہیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "What is the term for a program that is designed to collect and send information about a user's activity without their knowledge?",
+      "question_ur": "ایک ایسے پروگرام کی اصطلاح کیا ہے جو صارف کی سرگرمی کے بارے میں معلومات ان کی معلومات کے بغیر جمع کرنے اور بھیجنے کے لیے ڈیزائن کیا گیا ہے؟",
+      "options": {
+        "en": ["Adware", "Spyware", "Ransomware", "Firmware"],
+        "ur": ["ایڈویئر", "اسپائی ویئر", "رینسم ویئر", "فرم ویئر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Spyware is a type of malware that is installed on a computer to secretly gather information about the user and their activities.",
+      "explanation_ur": "اسپائی ویئر میلویئر کی ایک قسم ہے جو کمپیوٹر پر صارف اور ان کی سرگرمیوں کے بارے میں خفیہ طور پر معلومات جمع کرنے کے لیے انسٹال کیا جاتا ہے۔",
+      "hint": "It's a type of 'spy' software.",
+      "hint_ur": "یہ ایک قسم کا 'جاسوس' سافٹ ویئر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 92,
+      "type": "mcq",
+      "question": "Which of these is a programming language developed by Microsoft for the .NET framework?",
+      "question_ur": "ان میں سے کون سی ایک پروگرامنگ زبان ہے جسے مائیکروسافٹ نے .NET فریم ورک کے لیے تیار کیا ہے؟",
+      "options": {
+        "en": ["Java", "C++", "C#", "Python"],
+        "ur": ["جاوا", "C++", "C#", "پائتھن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "C# (C-sharp) is a multi-paradigm programming language developed by Microsoft as part of its .NET initiative.",
+      "explanation_ur": "C# (سی شارپ) ایک کثیر پیراڈائم پروگرامنگ زبان ہے جسے مائیکروسافٹ نے اپنی .NET پہل کے حصے کے طور پر تیار کیا ہے۔",
+      "hint": "The name is a musical term.",
+      "hint_ur": "نام ایک موسیقی کی اصطلاح ہے۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "In a database, what is the term for a single, complete set of data (a row)?",
+      "question_ur": "ایک ڈیٹا بیس میں، ڈیٹا کے ایک واحد، مکمل سیٹ (ایک قطار) کے لیے کیا اصطلاح ہے؟",
+      "options": {
+        "en": ["Field", "Table", "Query", "Record"],
+        "ur": ["فیلڈ", "ٹیبل", "کیووری", "ریکارڈ"]
+      },
+      "correctAnswer": 3,
+      "explanation": "A record is a row in a database table, representing a single, implicit structured data item.",
+      "explanation_ur": "ایک ریکارڈ ایک ڈیٹا بیس ٹیبل میں ایک قطار ہے، جو ایک واحد، مضمر ساختہ ڈیٹا آئٹم کی نمائندگی کرتا ہے۔",
+      "hint": "Each row is a 'record' of information.",
+      "hint_ur": "ہر قطار معلومات کا ایک 'ریکارڈ' ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "question": "What is the process of breaking down a large problem into smaller, manageable sub-problems?",
+      "question_ur": "ایک بڑے مسئلے کو چھوٹے، قابل انتظام ذیلی مسائل میں توڑنے کے عمل کو کیا کہتے ہیں؟",
+      "options": {
+        "en": ["Abstraction", "Modularization", "Recursion", "Encapsulation"],
+        "ur": ["ایبسٹریکشن", "ماڈیولرائزیشن", "ریکرشن", "انکیپسولیشن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Modularization is the process of dividing a program into smaller, independent modules.",
+      "explanation_ur": "ماڈیولرائزیشن ایک پروگرام کو چھوٹے، آزاد ماڈیولز میں تقسیم کرنے کا عمل ہے۔",
+      "hint": "You're creating 'modules' of code.",
+      "hint_ur": "آپ کوڈ کے 'ماڈیولز' بنا رہے ہیں۔",
+      "timeLimit": 40
+    },
+    {
+      "id": 95,
+      "type": "true-false",
+      "question": "Solid-state drives (SSDs) have moving parts, while hard disk drives (HDDs) do not.",
+      "question_ur": "سولڈ اسٹیٹ ڈرائیوز (SSDs) میں حرکت پذیر حصے ہوتے ہیں، جبکہ ہارڈ ڈسک ڈرائیوز (HDDs) میں نہیں ہوتے۔",
+      "correctAnswer": false,
+      "explanation": "HDDs use spinning platters and read/write heads (moving parts), while SSDs use flash memory and have no moving parts.",
+      "explanation_ur": "HDDs گھومنے والے پلیٹرز اور ریڈ/رائٹ ہیڈز (حرکت پذیر حصے) استعمال کرتے ہیں، جبکہ SSDs فلیش میموری استعمال کرتے ہیں اور ان میں کوئی حرکت پذیر حصہ نہیں ہوتا۔",
+      "hint": "The 'solid-state' part of the name is a clue.",
+      "hint_ur": "نام کا 'سولڈ اسٹیٹ' حصہ ایک سراغ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 96,
+      "type": "mcq",
+      "question": "Which of these is a popular framework for building server-side applications in JavaScript?",
+      "question_ur": "ان میں سے کون سا جاوا اسکرپٹ میں سرور سائڈ ایپلی کیشنز بنانے کے لیے ایک مقبول فریم ورک ہے؟",
+      "options": {
+        "en": ["React", "Express.js", "Angular", "jQuery"],
+        "ur": ["ری ایکٹ", "ایکسپریس ڈاٹ جے ایس", "اینگولر", "جیکوئیری"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Express.js is a back-end web application framework for Node.js, used to build APIs and web applications.",
+      "explanation_ur": "ایکسپریس ڈاٹ جے ایس Node.js کے لیے ایک بیک اینڈ ویب ایپلی کیشن فریم ورک ہے، جو APIs اور ویب ایپلی کیشنز بنانے کے لیے استعمال ہوتا ہے۔",
+      "hint": "It's often used with Node.js.",
+      "hint_ur": "یہ اکثر Node.js کے ساتھ استعمال ہوتا ہے۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "question": "What is the term for a program that is installed on a computer to display unwanted advertisements?",
+      "question_ur": "ایک ایسے پروگرام کی اصطلاح کیا ہے جو کمپیوٹر پر ناپسندیدہ اشتہارات دکھانے کے لیے انسٹال کیا جاتا ہے؟",
+      "options": {
+        "en": ["Spyware", "Adware", "Ransomware", "Keylogger"],
+        "ur": ["اسپائی ویئر", "ایڈویئر", "رینسم ویئر", "کیلاگر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Adware is software that automatically displays or downloads unwanted advertisements when a user is online.",
+      "explanation_ur": "ایڈویئر ایک سافٹ ویئر ہے جو خود بخود ناپسندیدہ اشتہارات دکھاتا یا ڈاؤن لوڈ کرتا ہے جب صارف آن لائن ہوتا ہے۔",
+      "hint": "The name is a combination of 'advertisement' and 'software.'",
+      "hint_ur": "نام 'اشتہار' اور 'سافٹ ویئر' کا مجموعہ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 98,
+      "type": "mcq",
+      "question": "Which of these is a type of data structure where each element is a 'node' that contains data and a pointer to the next node?",
+      "question_ur": "ان میں سے کون سی ڈیٹا کی ساخت کی ایک قسم ہے جہاں ہر عنصر ایک 'نوڈ' ہے جس میں ڈیٹا اور اگلے نوڈ کا ایک پوائنٹر ہوتا ہے؟",
+      "options": {
+        "en": ["Array", "Stack", "Queue", "Linked List"],
+        "ur": ["ایرے", "اسٹیک", "کیو", "لنکڈ لسٹ"]
+      },
+      "correctAnswer": 3,
+      "explanation": "A linked list is a linear collection of data elements where the order is not given by their physical placement in memory.",
+      "explanation_ur": "ایک لنکڈ لسٹ ڈیٹا عناصر کا ایک لکیری مجموعہ ہے جہاں ترتیب میموری میں ان کی جسمانی جگہ سے نہیں دی جاتی ہے۔",
+      "hint": "The nodes are 'linked' together by pointers.",
+      "hint_ur": "نوڈس پوائنٹرز کے ذریعے آپس میں 'لنکڈ' ہوتے ہیں۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 99,
+      "type": "true-false",
+      "question": "The 'back-end' of a website is what the user sees and interacts with directly.",
+      "question_ur": "ایک ویب سائٹ کا 'بیک اینڈ' وہ ہے جو صارف براہ راست دیکھتا ہے اور اس کے ساتھ تعامل کرتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "The back-end is the server-side of a website. The front-end is what the user sees and interacts with.",
+      "explanation_ur": "بیک اینڈ ایک ویب سائٹ کا سرور سائڈ ہے۔ فرنٹ اینڈ وہ ہے جو صارف دیکھتا ہے اور اس کے ساتھ تعامل کرتا ہے۔",
+      "hint": "Think of it as the 'behind the scenes' part of a website.",
+      "hint_ur": "اسے ایک ویب سائٹ کے 'پردے کے پیچھے' والے حصے کے طور پر سوچیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 100,
+      "type": "mcq",
+      "question": "What is the term for a type of malware that encrypts a user's files and demands a ransom for their decryption?",
+      "question_ur": "میلویئر کی ایک قسم کی اصطلاح کیا ہے جو صارف کی فائلوں کو خفیہ کرتی ہے اور ان کی ڈکرپشن کے لیے تاوان کا مطالبہ کرتی ہے؟",
+      "options": {
+        "en": ["Adware", "Phishing", "Ransomware", "Spyware"],
+        "ur": ["ایڈویئر", "فشنگ", "رینسم ویئر", "اسپائی ویئر"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Ransomware is a type of malicious software that blocks access to a user's data and demands a ransom to restore it.",
+      "explanation_ur": "رینسم ویئر ایک قسم کا بدنیتی پر مبنی سافٹ ویئر ہے جو صارف کے ڈیٹا تک رسائی کو روکتا ہے اور اسے بحال کرنے کے لیے تاوان کا مطالبہ کرتا ہے۔",
+      "hint": "The name is a combination of 'ransom' and 'software.'",
+      "hint_ur": "نام 'تاوان' اور 'سافٹ ویئر' کا مجموعہ ہے۔",
+      "timeLimit": 35
+    },
+    {
+      "id": 101,
+      "type": "mcq",
+      "question": "Which programming language is a core component of the Android operating system?",
+      "question_ur": "کون سی پروگرامنگ زبان Android آپریٹنگ سسٹم کا ایک بنیادی جزو ہے؟",
+      "options": {
+        "en": ["Python", "C++", "Java", "Swift"],
+        "ur": ["پائتھن", "C++", "جاوا", "سوئفٹ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Java has been a foundational language for Android app development since its inception. While Kotlin is now the preferred language, Java remains a core component.",
+      "explanation_ur": "جاوا اس کے آغاز سے ہی اینڈرائیڈ ایپ ڈویلپمنٹ کے لیے ایک بنیادی زبان رہی ہے۔ اگرچہ کوٹلن اب ترجیحی زبان ہے، جاوا ایک بنیادی جزو ہے۔",
+      "hint": "It shares its name with a popular type of coffee.",
+      "hint_ur": "اس کا نام ایک مقبول قسم کی کافی سے ملتا جلتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 102,
+      "type": "true-false",
+      "question": "A 'firewall' is a hardware-only device that protects a network from unauthorized access.",
+      "question_ur": "ایک 'فائر وال' ایک ہارڈ ویئر پر مبنی ڈیوائس ہے جو نیٹ ورک کو غیر مجاز رسائی سے بچاتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "A firewall can be a hardware device, software, or a combination of both.",
+      "explanation_ur": "ایک فائر وال ایک ہارڈ ویئر ڈیوائس، سافٹ ویئر، یا دونوں کا مجموعہ ہو سکتا ہے۔",
+      "hint": "Many operating systems include a software-based firewall.",
+      "hint_ur": "بہت سے آپریٹنگ سسٹم میں ایک سافٹ ویئر پر مبنی فائر وال شامل ہوتا ہے۔",
+      "timeLimit": 25
+    }
+  ]
+}

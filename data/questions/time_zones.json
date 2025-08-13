@@ -1,0 +1,996 @@
+{
+  "meta": {
+    "category": "Time Zones",
+    "category_ur": "ٹائم زونز",
+    "description": "Test your knowledge of global time zones and related concepts",
+    "description_ur": "عالمی ٹائم زونز اور متعلقہ تصورات کا امتحان لیں",
+    "difficulty": "medium",
+    "image": "time_zones.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "How many time zones does Russia have?",
+      "question_ur": "روس کے کتنے ٹائم زونز ہیں؟",
+      "options": {
+        "en": ["8", "9", "10", "11"],
+        "ur": ["8", "9", "10", "11"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Russia spans 11 time zones, making it the country with the most time zones.",
+      "explanation_ur": "روس 11 ٹائم زونز پر محیط ہے، جو اسے سب سے زیادہ ٹائم زونز والا ملک بناتا ہے۔",
+      "hint": "It's the country with the most time zones",
+      "hint_ur": "یہ سب سے زیادہ ٹائم زونز والا ملک ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 2,
+      "type": "true-false",
+      "question": "All time zones are exactly one hour apart.",
+      "question_ur": "تمام ٹائم زونز بالکل ایک گھنٹے کے فاصلے پر ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Some time zones differ by 30 or 45 minutes from neighboring zones.",
+      "explanation_ur": "کچھ ٹائم زونز پڑوسی زونز سے 30 یا 45 منٹ کے فرق پر ہوتے ہیں۔",
+      "hint": "Think about India's time zone",
+      "hint_ur": "بھارت کے ٹائم زون کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which country first adopted standard time zones?",
+      "question_ur": "کونسا ملک سب سے پہلے معیاری ٹائم زونز اپنایا؟",
+      "options": {
+        "en": ["United States", "United Kingdom", "France", "Canada"],
+        "ur": ["ریاستہائے متحدہ", "برطانیہ", "فرانس", "کینیڈا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The United States adopted standard time zones on November 18, 1883.",
+      "explanation_ur": "ریاستہائے متحدہ نے 18 نومبر 1883 کو معیاری ٹائم زونز اپنائے۔",
+      "hint": "It was implemented by railroads",
+      "hint_ur": "یہ ریل روڈز نے نافذ کیا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "What is the time difference between UTC and Pakistan Standard Time?",
+      "question_ur": "UTC اور پاکستان معیاری وقت کے درمیان کیا فرق ہے؟",
+      "options": {
+        "en": ["UTC+3", "UTC+4", "UTC+5", "UTC+6"],
+        "ur": ["UTC+3", "UTC+4", "UTC+5", "UTC+6"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Pakistan Standard Time is UTC+5 throughout the year.",
+      "explanation_ur": "پاکستان معیاری وقت سال بھر UTC+5 ہوتا ہے۔",
+      "hint": "It doesn't observe daylight saving time",
+      "hint_ur": "یہ ڈے لائٹ سیونگ ٹائم نہیں اپناتا",
+      "timeLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "question": "China spans five geographical time zones but uses only one official time zone.",
+      "question_ur": "چین پانج جغرافیائی ٹائم زونز پر محیط ہے لیکن صرف ایک سرکاری ٹائم زون استعمال کرتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "China uses Beijing Time (UTC+8) nationwide despite its large geographical span.",
+      "explanation_ur": "چین وسیع جغرافیائی پھیلاؤ کے باوجود پورے ملک میں بیجنگ ٹائم (UTC+8) استعمال کرتا ہے۔",
+      "hint": "Consider the size of China",
+      "hint_ur": "چین کے سائز پر غور کریں",
+      "timeLimit": 25
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Which of these countries has the earliest time zone?",
+      "question_ur": "ان ممالک میں سے کس کا ٹائم زون سب سے پہلے آتا ہے؟",
+      "options": {
+        "en": ["Japan", "Australia", "New Zealand", "Fiji"],
+        "ur": ["جاپان", "آسٹریلیا", "نیوزی لینڈ", "فجی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "New Zealand (UTC+12/13) is the first to see a new day among these options.",
+      "explanation_ur": "نیوزی لینڈ (UTC+12/13) ان اختیارات میں سے نیا دن سب سے پہلے دیکھتا ہے۔",
+      "hint": "Think about the International Date Line",
+      "hint_ur": "بین الاقوامی تاریخ لائن کے بارے میں سوچیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "What is the standard time zone of Iceland?",
+      "question_ur": "آئس لینڈ کا معیاری ٹائم زون کیا ہے؟",
+      "options": {
+        "en": ["UTC", "UTC+1", "UTC+2", "UTC-1"],
+        "ur": ["UTC", "UTC+1", "UTC+2", "UTC-1"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Iceland uses UTC year-round and does not observe daylight saving time.",
+      "explanation_ur": "آئس لینڈ سال بھر UTC استعمال کرتا ہے اور ڈے لائٹ سیونگ ٹائم نہیں اپناتا۔",
+      "hint": "It's the same as the UK in winter",
+      "hint_ur": "یہ موسم سرما میں UK جیسا ہی ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 8,
+      "type": "true-false",
+      "question": "Arizona observes daylight saving time like most other US states.",
+      "question_ur": "اریزونا زیادہ تر دیگر امریکی ریاستوں کی طرح ڈے لائٹ سیونگ ٹائم اپناتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Arizona does not observe daylight saving time, except for the Navajo Nation within the state.",
+      "explanation_ur": "اریزونا ڈے لائٹ سیونگ ٹائم نہیں اپناتا، سوائے ریاست کے اندر ناواجو نیشن کے۔",
+      "hint": "Think about desert climates",
+      "hint_ur": "صحرائی موسم کے بارے میں سوچیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Which continent has the fewest time zones?",
+      "question_ur": "کونسا براعظم سب سے کم ٹائم زونز رکھتا ہے؟",
+      "options": {
+        "en": ["Africa", "Australia", "Antarctica", "South America"],
+        "ur": ["افریقہ", "آسٹریلیا", "انٹارکٹیکا", "جنوبی امریکہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Antarctica theoretically could have many time zones, but in practice uses just a few.",
+      "explanation_ur": "انٹارکٹیکا نظریاتی طور پر کئی ٹائم زونز رکھ سکتا ہے، لیکن عملی طور پر صرف چند استعمال کرتا ہے۔",
+      "hint": "It's the southernmost continent",
+      "hint_ur": "یہ سب سے جنوبی براعظم ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "What time zone is used at the North Pole?",
+      "question_ur": "شمالی قطب پر کونسا ٹائم زون استعمال ہوتا ہے؟",
+      "options": {
+        "en": ["UTC", "UTC+12", "Local solar time", "Any time zone can be used"],
+        "ur": ["UTC", "UTC+12", "مقامی شمسی وقت", "کوئی بھی ٹائم زون استعمال کیا جا سکتا ہے"]
+      },
+      "correctAnswer": 3,
+      "explanation": "All lines of longitude meet at the poles, so any time zone can technically be used.",
+      "explanation_ur": "طول البلد کی تمام لکیریں قطبین پر ملتی ہیں، اس لیے تکنیکی طور پر کوئی بھی ٹائم زون استعمال کیا جا سکتا ہے۔",
+      "hint": "Think about longitude lines at the poles",
+      "hint_ur": "قطبین پر طول البلد کی لکیروں کے بارے میں سوچیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "question": "The International Date Line follows exactly the 180° meridian.",
+      "question_ur": "بین الاقوامی تاریخ لائن بالکل 180° میریڈین پر ہے۔",
+      "correctAnswer": false,
+      "explanation": "The International Date Line deviates to accommodate political and geographical boundaries.",
+      "explanation_ur": "بین الاقوامی تاریخ لائن سیاسی اور جغرافیائی حدود کو ایڈجسٹ کرنے کے لیے انحراف کرتی ہے۔",
+      "hint": "Consider Pacific island nations",
+      "hint_ur": "پیسیفک جزیرہ ممالک پر غور کریں",
+      "timeLimit": 25
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Which US state has its own time zone (not shared with any other state)?",
+      "question_ur": "کونسی امریکی ریاست کا اپنا ٹائم زون ہے (جو کسی دوسری ریاست کے ساتھ شیئر نہیں ہوتا)؟",
+      "options": {
+        "en": ["Hawaii", "Alaska", "Arizona", "Indiana"],
+        "ur": ["ہوائی", "الاسکا", "اریزونا", "انڈیانا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Hawaii-Aleutian Time Zone (HST) is unique to Hawaii (except for the Aleutian Islands).",
+      "explanation_ur": "ہوائی-الیوشین ٹائم زون (HST) ہوائی کے لیے منفرد ہے (الیوشین جزائر کو چھوڑ کر)۔",
+      "hint": "Think of Pacific islands",
+      "hint_ur": "پیسیفک جزائر کے بارے میں سوچیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "What is the time difference between India Standard Time and Bangladesh Standard Time?",
+      "question_ur": "بھارتی معیاری وقت اور بنگلہ دیش معیاری وقت کے درمیان کیا فرق ہے؟",
+      "options": {
+        "en": ["30 minutes", "1 hour", "1.5 hours", "No difference"],
+        "ur": ["30 منٹ", "1 گھنٹہ", "1.5 گھنٹے", "کوئی فرق نہیں"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Bangladesh is 30 minutes ahead of India (UTC+6 vs UTC+5:30).",
+      "explanation_ur": "بنگلہ دیش بھارت سے 30 منٹ آگے ہے (UTC+6 بمقابلہ UTC+5:30)۔",
+      "hint": "India has a half-hour time zone",
+      "hint_ur": "بھارت کا آدھے گھنٹے کا ٹائم زون ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "question": "All European Union countries observe daylight saving time.",
+      "question_ur": "یورپی یونین کے تمام ممالک ڈے لائٹ سیونگ ٹائم اپناتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "While most EU countries observe DST, there are discussions about ending the practice.",
+      "explanation_ur": "اگرچہ زیادہ تر EU ممالک DST اپناتے ہیں، اس عمل کو ختم کرنے پر بات چیت ہو رہی ہے۔",
+      "hint": "Recent EU time zone changes",
+      "hint_ur": "حالیہ EU ٹائم زون تبدیلیاں",
+      "timeLimit": 30
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Which country has the most complicated time zone system with daylight saving variations?",
+      "question_ur": "کونسا ملک ڈے لائٹ سیونگ تغیرات کے ساتھ سب سے پیچیدہ ٹائم زون نظام رکھتا ہے؟",
+      "options": {
+        "en": ["Russia", "Australia", "United States", "Canada"],
+        "ur": ["روس", "آسٹریلیا", "ریاستہائے متحدہ", "کینیڈا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The US has multiple time zones with complex daylight saving rules that vary by state and region.",
+      "explanation_ur": "ریاستہائے متحدہ میں متعدد ٹائم زونز ہیں جن کے پیچیدہ ڈے لائٹ سیونگ قوانین ریاست اور خطے کے لحاظ سے مختلف ہوتے ہیں۔",
+      "hint": "Think about Arizona and Hawaii",
+      "hint_ur": "اریزونا اور ہوائی کے بارے میں سوچیں",
+      "timeLimit": 35
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "What is the time difference between UTC and Nepal Standard Time?",
+      "question_ur": "UTC اور نیپال معیاری وقت کے درمیان کیا فرق ہے؟",
+      "options": {
+        "en": ["UTC+5", "UTC+5:30", "UTC+5:45", "UTC+6"],
+        "ur": ["UTC+5", "UTC+5:30", "UTC+5:45", "UTC+6"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Nepal uses UTC+5:45, one of only two time zones with a 45-minute offset.",
+      "explanation_ur": "نیپال UTC+5:45 استعمال کرتا ہے، صرف دو ٹائم زونز میں سے ایک جو 45 منٹ کے آفسیٹ کے ساتھ ہے۔",
+      "hint": "It's one of two countries with a 45-minute offset",
+      "hint_ur": "یہ دو ممالک میں سے ایک ہے جس کا 45 منٹ کا آفسیٹ ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 17,
+      "type": "true-false",
+      "question": "Spain is in the wrong time zone and should be on the same time as the UK.",
+      "question_ur": "اسپین غلط ٹائم زون میں ہے اور اسے UK کے ساتھ ہی وقت پر ہونا چاہیے۔",
+      "correctAnswer": true,
+      "explanation": "Geographically, Spain should be in the same time zone as the UK but uses Central European Time due to historical reasons.",
+      "explanation_ur": "جغرافیائی طور پر، اسپین کو UK کے ساتھ ہی ٹائم زون میں ہونا چاہیے لیکن تاریخی وجوہات کی بنا پر وسطی یورپی وقت استعمال کرتا ہے۔",
+      "hint": "Consider Spain's longitude",
+      "hint_ur": "اسپین کے طول البلد پر غور کریں",
+      "timeLimit": 25
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Which of these countries does NOT observe daylight saving time?",
+      "question_ur": "ان ممالک میں سے کونسا ڈے لائٹ سیونگ ٹائم نہیں اپناتا؟",
+      "options": {
+        "en": ["Mexico", "Brazil", "Japan", "Chile"],
+        "ur": ["میکسیکو", "برازیل", "جاپان", "چلی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Japan does not observe daylight saving time, while the others do in some regions.",
+      "explanation_ur": "جاپان ڈے لائٹ سیونگ ٹائم نہیں اپناتا، جبکہ دیگر کچھ خطوں میں اپناتے ہیں۔",
+      "hint": "Asian country",
+      "hint_ur": "ایشیائی ملک",
+      "timeLimit": 30
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "What is unique about the Chatham Islands time zone?",
+      "question_ur": "چیتھم جزائر ٹائم زون کے بارے میں کیا منفرد ہے؟",
+      "options": {
+        "en": ["It's UTC+13:45", "It changes daily", "It's only used in winter", "It's the same as Hawaii"],
+        "ur": ["یہ UTC+13:45 ہے", "یہ روزانہ بدلتا ہے", "یہ صرف سردیوں میں استعمال ہوتا ہے", "یہ ہوائی جیسا ہی ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Chatham Islands in New Zealand use UTC+12:45 standard time and UTC+13:45 during daylight saving.",
+      "explanation_ur": "نیوزی لینڈ کے چیتھم جزائر UTC+12:45 معیاری وقت اور ڈے لائٹ سیونگ کے دوران UTC+13:45 استعمال کرتے ہیں۔",
+      "hint": "Think about unusual time zone offsets",
+      "hint_ur": "غیر معمولی ٹائم زون آفسیٹس کے بارے میں سوچیں",
+      "timeLimit": 35
+    },
+    {
+      "id": 20,
+      "type": "true-false",
+      "question": "All countries in the Middle East observe daylight saving time.",
+      "question_ur": "مشرق وسطیٰ کے تمام ممالک ڈے لائٹ سیونگ ٹائم اپناتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Many Middle Eastern countries do not observe DST, including Saudi Arabia and the UAE.",
+      "explanation_ur": "کئی مشرق وسطیٰ کے ممالک DST نہیں اپناتے، بشمول سعودی عرب اور UAE۔",
+      "hint": "Consider Gulf countries",
+      "hint_ur": "خلیجی ممالک پر غور کریں",
+      "timeLimit": 25
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Which African country has the most time zones?",
+      "question_ur": "کونسا افریقی ملک سب سے زیادہ ٹائم زونز رکھتا ہے؟",
+      "options": {
+        "en": ["South Africa", "Egypt", "Democratic Republic of Congo", "Algeria"],
+        "ur": ["جنوبی افریقہ", "مصر", "جمہوری جمہوریہ کانگو", "الجزائر"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Democratic Republic of Congo spans two time zones (UTC+1 and UTC+2), the most in Africa.",
+      "explanation_ur": "جمہوری جمہوریہ کانگو دو ٹائم زونز پر محیط ہے (UTC+1 اور UTC+2)، افریقہ میں سب سے زیادہ۔",
+      "hint": "It's a large country straddling the equator",
+      "hint_ur": "یہ خط استوا پر پھیلا ہوا ایک بڑا ملک ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "What is the time difference between Sydney and Perth during Australian summer?",
+      "question_ur": "آسٹریلوی گرمیوں میں سڈنی اور پرتھ کے درمیان کیا وقت کا فرق ہے؟",
+      "options": {
+        "en": ["1 hour", "2 hours", "3 hours", "No difference"],
+        "ur": ["1 گھنٹہ", "2 گھنٹے", "3 گھنٹے", "کوئی فرق نہیں"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Sydney is on daylight saving time (UTC+11) while Perth remains on standard time (UTC+8), creating a 3-hour difference.",
+      "explanation_ur": "سڈنی ڈے لائٹ سیونگ ٹائم پر ہوتا ہے (UTC+11) جبکہ پرتھ معیاری وقت پر رہتا ہے (UTC+8)، جس سے 3 گھنٹے کا فرق پیدا ہوتا ہے۔",
+      "hint": "Consider daylight saving in eastern Australia",
+      "hint_ur": "مشرقی آسٹریلیا میں ڈے لائٹ سیونگ پر غور کریں",
+      "timeLimit": 25
+    },
+    {
+      "id": 23,
+      "type": "true-false",
+      "question": "The Prime Meridian (0° longitude) always marks the boundary between time zones.",
+      "question_ur": "پرائم میریڈین (0° طول البلد) ہمیشہ ٹائم زونز کے درمیان حد کو نشان زد کرتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "The Prime Meridian is the reference for UTC, but time zone boundaries often follow political borders rather than strict longitude lines.",
+      "explanation_ur": "پرائم میریڈین UTC کا حوالہ ہے، لیکن ٹائم زون کی حدیں اکثر سخت طول البلد کی لکیروں کے بجائے سیاسی سرحدوں پر ہوتی ہیں۔",
+      "hint": "Think about time zones in Europe",
+      "hint_ur": "یورپ میں ٹائم زونز کے بارے میں سوچیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which of these US states has parts in two different time zones?",
+      "question_ur": "ان امریکی ریاستوں میں سے کس کے حصے دو مختلف ٹائم زونز میں ہیں؟",
+      "options": {
+        "en": ["Texas", "Florida", "Idaho", "All of the above"],
+        "ur": ["ٹیکساس", "فلوریڈا", "ایڈاہو", "مندرجہ بالا تمام"]
+      },
+      "correctAnswer": 3,
+      "explanation": "All these states have regions in different time zones due to their large east-west span.",
+      "explanation_ur": "ان تمام ریاستوں کے مشرق-مغرب کے وسیع پھیلاؤ کی وجہ سے مختلف ٹائم زونز میں خطے ہیں۔",
+      "hint": "Consider large states",
+      "hint_ur": "بڑی ریاستوں پر غور کریں",
+      "timeLimit": 30
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "What is the westernmost time zone in continuous use (not just for research stations)?",
+      "question_ur": "مسلسل استعمال میں سب سے مغربی ٹائم زون کونسا ہے (صرف تحقیقی اسٹیشنوں کے لیے نہیں)؟",
+      "options": {
+        "en": ["UTC-11", "UTC-10", "UTC-9", "UTC-8"],
+        "ur": ["UTC-11", "UTC-10", "UTC-9", "UTC-8"]
+      },
+      "correctAnswer": 0,
+      "explanation": "UTC-11 is used by American Samoa, making it the westernmost time zone in regular use.",
+      "explanation_ur": "UTC-11 امریکی ساموا کے ذریعے استعمال کیا جاتا ہے، جو اسے باقاعدہ استعمال میں سب سے مغربی ٹائم زون بناتا ہے۔",
+      "hint": "Think of Pacific territories",
+      "hint_ur": "پیسیفک علاقوں کے بارے میں سوچیں",
+      "timeLimit": 35
+    },
+    {
+      "id": 26,
+      "type": "true-false",
+      "question": "All of Brazil observes the same time zone.",
+      "question_ur": "برازیل کا تمام حصہ ایک ہی ٹائم زون میں ہے۔",
+      "correctAnswer": false,
+      "explanation": "Brazil spans four time zones due to its large east-west extent.",
+      "explanation_ur": "برازیل اپنے وسیع مشرق-مغرب کی وجہ سے چار ٹائم زونز پر محیط ہے۔",
+      "hint": "Consider Brazil's size",
+      "hint_ur": "برازیل کے سائز پر غور کریں",
+      "timeLimit": 25
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "Which country has the earliest time zone that observes daylight saving time?",
+      "question_ur": "کونسا ملک سب سے پہلے ٹائم زون رکھتا ہے جو ڈے لائٹ سیونگ ٹائم اپناتا ہے؟",
+      "options": {
+        "en": ["New Zealand", "Fiji", "Samoa", "Tonga"],
+        "ur": ["نیوزی لینڈ", "فجی", "ساموا", "ٹونگا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "New Zealand's Chatham Islands reach UTC+13:45 during daylight saving time, the earliest in the world.",
+      "explanation_ur": "نیوزی لینڈ کے چیتھم جزائر ڈے لائٹ سیونگ ٹائم کے دوران UTC+13:45 تک پہنچ جاتے ہیں، جو دنیا میں سب سے پہلے ہے۔",
+      "hint": "Think about the International Date Line",
+      "hint_ur": "بین الاقوامی تاریخ لائن کے بارے میں سوچیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "What is the standard time zone for most of Western Europe (excluding summer time)?",
+      "question_ur": "زیادہ تر مغربی یورپ کا معیاری ٹائم زون کیا ہے (گرمیوں کے وقت کو چھوڑ کر)؟",
+      "options": {
+        "en": ["UTC", "UTC+1", "UTC+2", "UTC-1"],
+        "ur": ["UTC", "UTC+1", "UTC+2", "UTC-1"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Western European Time is UTC+0, but most of Western Europe uses Central European Time (UTC+1) as standard time.",
+      "explanation_ur": "مغربی یورپی وقت UTC+0 ہے، لیکن زیادہ تر مغربی یورپ معیاری وقت کے طور پر وسطی یورپی وقت (UTC+1) استعمال کرتا ہے۔",
+      "hint": "Think about France and Germany",
+      "hint_ur": "فرانس اور جرمنی کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 29,
+      "type": "true-false",
+      "question": "All US states observe daylight saving time except for Hawaii and Arizona.",
+      "question_ur": "ہوائی اور اریزونا کو چھوڑ کر تمام امریکی ریاستیں ڈے لائٹ سیونگ ٹائم اپناتی ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Several US territories also don't observe DST, and parts of Arizona do observe it.",
+      "explanation_ur": "کئی امریکی علاقے بھی DST نہیں اپناتے، اور اریزونا کے کچھ حصے اسے اپناتے ہیں۔",
+      "hint": "Consider US territories",
+      "hint_ur": "امریکی علاقوں پر غور کریں",
+      "timeLimit": 30
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "Which of these time zones does NOT exist?",
+      "question_ur": "ان ٹائم زونز میں سے کونسا موجود نہیں ہے؟",
+      "options": {
+        "en": ["UTC+3:30", "UTC+4:30", "UTC+5:30", "UTC+6:30"],
+        "ur": ["UTC+3:30", "UTC+4:30", "UTC+5:30", "UTC+6:30"]
+      },
+      "correctAnswer": 0,
+      "explanation": "While UTC+3:30 exists (Iran), the question implies standard time zones - most offsets are whole or half hours.",
+      "explanation_ur": "اگرچہ UTC+3:30 موجود ہے (ایران)، سوال معیاری ٹائم زونز کا اشارہ دیتا ہے - زیادہ تر آفسیٹس پورے یا آدھے گھنٹے ہوتے ہیں۔",
+      "hint": "Think about standard time zone increments",
+      "hint_ur": "معیاری ٹائم زون اضافوں کے بارے میں سوچیں",
+      "timeLimit": 35
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "What is the time difference between India and Afghanistan?",
+      "question_ur": "بھارت اور افغانستان کے درمیان کیا وقت کا فرق ہے؟",
+      "options": {
+        "en": ["India is 30 minutes ahead", "India is 1 hour ahead", "Afghanistan is 30 minutes ahead", "Afghanistan is 1 hour ahead"],
+        "ur": ["بھارت 30 منٹ آگے ہے", "بھارت 1 گھنٹہ آگے ہے", "افغانستان 30 منٹ آگے ہے", "افغانستان 1 گھنٹہ آگے ہے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "India (UTC+5:30) is one hour ahead of Afghanistan (UTC+4:30).",
+      "explanation_ur": "بھارت (UTC+5:30) افغانستان (UTC+4:30) سے ایک گھنٹہ آگے ہے۔",
+      "hint": "Afghanistan has a 30-minute offset",
+      "hint_ur": "افغانستان کا 30 منٹ کا آفسیٹ ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 32,
+      "type": "true-false",
+      "question": "The International Date Line runs through the middle of Alaska.",
+      "question_ur": "بین الاقوامی تاریخ لائن الاسکا کے وسط سے گزرتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "The International Date Line runs through the Pacific Ocean, west of Alaska.",
+      "explanation_ur": "بین الاقوامی تاریخ لائن پیسیفک سمندر سے گزرتی ہے، الاسکا کے مغرب میں۔",
+      "hint": "Consider Alaska's location relative to the Pacific",
+      "hint_ur": "الاسکا کے محل وقوع کو پیسیفک کے نسبت سے دیکھیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Which European country uses UTC+2 as standard time?",
+      "question_ur": "کونسا یورپی ملک معیاری وقت کے طور پر UTC+2 استعمال کرتا ہے؟",
+      "options": {
+        "en": ["Greece", "Portugal", "Ireland", "Norway"],
+        "ur": ["یونان", "پرتگال", "آئرلینڈ", "ناروے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Greece uses Eastern European Time (UTC+2) as standard time.",
+      "explanation_ur": "یونان معیاری وقت کے طور پر مشرقی یورپی وقت (UTC+2) استعمال کرتا ہے۔",
+      "hint": "Southern European country",
+      "hint_ur": "جنوبی یورپی ملک",
+      "timeLimit": 25
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "What is the time difference between London and New York when both are on standard time?",
+      "question_ur": "لندن اور نیویارک کے درمیان کیا وقت کا فرق ہے جب دونوں معیاری وقت پر ہوں؟",
+      "options": {
+        "en": ["3 hours", "4 hours", "5 hours", "6 hours"],
+        "ur": ["3 گھنٹے", "4 گھنٹے", "5 گھنٹے", "6 گھنٹے"]
+      },
+      "correctAnswer": 2,
+      "explanation": "London (UTC+0) is 5 hours ahead of New York (UTC-5) during standard time.",
+      "explanation_ur": "لندن (UTC+0) معیاری وقت کے دوران نیویارک (UTC-5) سے 5 گھنٹے آگے ہے۔",
+      "hint": "New York is UTC-5 in winter",
+      "hint_ur": "نیویارک موسم سرما میں UTC-5 ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 35,
+      "type": "true-false",
+      "question": "All of Australia observes daylight saving time.",
+      "question_ur": "آسٹریلیا کا تمام حصہ ڈے لائٹ سیونگ ٹائم اپناتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Northern Territory, Queensland, and Western Australia do not observe daylight saving time.",
+      "explanation_ur": "شمالی علاقہ، کوئنز لینڈ، اور مغربی آسٹریلیا ڈے لائٹ سیونگ ٹائم نہیں اپناتے۔",
+      "hint": "Think about tropical regions of Australia",
+      "hint_ur": "آسٹریلیا کے گرم خطے کے علاقوں کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Which of these countries spans the most time zones?",
+      "question_ur": "ان ممالک میں سے کونسا سب سے زیادہ ٹائم زونز پر محیط ہے؟",
+      "options": {
+        "en": ["Canada", "China", "United States", "Brazil"],
+        "ur": ["کینیڈا", "چین", "ریاستہائے متحدہ", "برازیل"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The United States spans 9 time zones when including territories (6 for contiguous states).",
+      "explanation_ur": "ریاستہائے متحدہ 9 ٹائم زونز پر محیط ہے جب علاقوں کو شامل کیا جاتا ہے (مسلسل ریاستوں کے لیے 6)۔",
+      "hint": "Consider US territories in the Pacific",
+      "hint_ur": "پیسیفک میں امریکی علاقوں پر غور کریں",
+      "timeLimit": 30
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "What is the time difference between Pakistan and UAE?",
+      "question_ur": "پاکستان اور UAE کے درمیان کیا وقت کا فرق ہے؟",
+      "options": {
+        "en": ["Pakistan is 1 hour ahead", "UAE is 1 hour ahead", "Pakistan is 30 minutes ahead", "No difference"],
+        "ur": ["پاکستان 1 گھنٹہ آگے ہے", "UAE 1 گھنٹہ آگے ہے", "پاکستان 30 منٹ آگے ہے", "کوئی فرق نہیں"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Pakistan (UTC+5) is one hour ahead of UAE (UTC+4).",
+      "explanation_ur": "پاکستان (UTC+5) UAE (UTC+4) سے ایک گھنٹہ آگے ہے۔",
+      "hint": "UAE doesn't observe daylight saving",
+      "hint_ur": "UAE ڈے لائٹ سیونگ نہیں اپناتا",
+      "timeLimit": 25
+    },
+    {
+      "id": 38,
+      "type": "true-false",
+      "question": "The time in Venezuela is UTC-4:30.",
+      "question_ur": "وینزویلا میں وقت UTC-4:30 ہے۔",
+      "correctAnswer": true,
+      "explanation": "Venezuela uses UTC-4:30 as its standard time zone.",
+      "explanation_ur": "وینزویلا اپنے معیاری ٹائم زون کے طور پر UTC-4:30 استعمال کرتا ہے۔",
+      "hint": "One of few countries with a 30-minute offset from UTC-4",
+      "hint_ur": "UTC-4 سے 30 منٹ کے آفسیٹ والے چند ممالک میں سے ایک",
+      "timeLimit": 30
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "Which country first proposed the concept of standard time zones?",
+      "question_ur": "کونسے ملک نے معیاری ٹائم زونز کا تصور سب سے پہلے پیش کیا؟",
+      "options": {
+        "en": ["United States", "Canada", "United Kingdom", "New Zealand"],
+        "ur": ["ریاستہائے متحدہ", "کینیڈا", "برطانیہ", "نیوزی لینڈ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Sir Sandford Fleming from Canada first proposed worldwide standard time zones in 1879.",
+      "explanation_ur": "کینیڈا کے سر سینڈفورڈ فلیمنگ نے 1879 میں پہلی بار عالمی معیاری ٹائم زونز کا تصور پیش کیا۔",
+      "hint": "Think about railway time",
+      "hint_ur": "ریلوے وقت کے بارے میں سوچیں",
+      "timeLimit": 35
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "What is the time difference between Tokyo and Seoul during standard time?",
+      "question_ur": "معیاری وقت کے دوران ٹوکیو اور سیول کے درمیان کیا وقت کا فرق ہے؟",
+      "options": {
+        "en": ["No difference", "Seoul is 1 hour ahead", "Tokyo is 1 hour ahead", "Seoul is 30 minutes ahead"],
+        "ur": ["کوئی فرق نہیں", "سیول 1 گھنٹہ آگے ہے", "ٹوکیو 1 گھنٹہ آگے ہے", "سیول 30 منٹ آگے ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Both Japan and South Korea use UTC+9 as standard time.",
+      "explanation_ur": "جاپان اور جنوبی کوریا دونوں معیاری وقت کے طور پر UTC+9 استعمال کرتے ہیں۔",
+      "hint": "Both countries are in the same time zone",
+      "hint_ur": "دونوں ممالک ایک ہی ٹائم زون میں ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 41,
+      "type": "true-false",
+      "question": "All islands in the Caribbean observe the same time zone.",
+      "question_ur": "کیریبین کے تمام جزائر ایک ہی ٹائم زون میں ہیں۔",
+      "correctAnswer": false,
+      "explanation": "The Caribbean spans multiple time zones from UTC-4 to UTC-5.",
+      "explanation_ur": "کیریبین UTC-4 سے UTC-5 تک متعدد ٹائم زونز پر محیط ہے۔",
+      "hint": "Consider Cuba vs Aruba",
+      "hint_ur": "کیوبا بمقابلہ اروبا پر غور کریں",
+      "timeLimit": 30
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "Which of these countries has the latest local time (is most ahead) during their summer?",
+      "question_ur": "ان ممالک میں سے کس کا مقامی وقت ان کی گرمیوں میں سب سے زیادہ آگے ہوتا ہے؟",
+      "options": {
+        "en": ["Chile", "Australia", "New Zealand", "Russia"],
+        "ur": ["چلی", "آسٹریلیا", "نیوزی لینڈ", "روس"]
+      },
+      "correctAnswer": 2,
+      "explanation": "New Zealand reaches UTC+13 during daylight saving time, the most of these options.",
+      "explanation_ur": "نیوزی لینڈ ڈے لائٹ سیونگ ٹائم کے دوران UTC+13 تک پہنچ جاتا ہے، جو ان اختیارات میں سے سب سے زیادہ ہے۔",
+      "hint": "Think about the International Date Line",
+      "hint_ur": "بین الاقوامی تاریخ لائن کے بارے میں سوچیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "What is the standard time zone for most of Egypt?",
+      "question_ur": "زیادہ تر مصر کا معیاری ٹائم زون کیا ہے؟",
+      "options": {
+        "en": ["UTC+1", "UTC+2", "UTC+3", "UTC+4"],
+        "ur": ["UTC+1", "UTC+2", "UTC+3", "UTC+4"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Egypt uses Eastern European Time (UTC+2) as standard time.",
+      "explanation_ur": "مصر معیاری وقت کے طور پر مشرقی یورپی وقت (UTC+2) استعمال کرتا ہے۔",
+      "hint": "Same as Eastern Europe",
+      "hint_ur": "مشرقی یورپ جیسا ہی",
+      "timeLimit": 25
+    },
+    {
+      "id": 44,
+      "type": "true-false",
+      "question": "The time in Nepal is exactly one hour ahead of India.",
+      "question_ur": "نیپال میں وقت بھارت سے بالکل ایک گھنٹہ آگے ہے۔",
+      "correctAnswer": false,
+      "explanation": "Nepal is 15 minutes ahead of India (UTC+5:45 vs UTC+5:30).",
+      "explanation_ur": "نیپال بھارت سے 15 منٹ آگے ہے (UTC+5:45 بمقابلہ UTC+5:30)۔",
+      "hint": "Nepal has a 45-minute offset",
+      "hint_ur": "نیپال کا 45 منٹ کا آفسیٹ ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Which of these US states does NOT observe daylight saving time?",
+      "question_ur": "ان امریکی ریاستوں میں سے کونسی ڈے لائٹ سیونگ ٹائم نہیں اپناتی؟",
+      "options": {
+        "en": ["California", "Arizona", "Nevada", "Oregon"],
+        "ur": ["کیلیفورنیا", "اریزونا", "نیواڈا", "اوریگون"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Arizona (except Navajo Nation) does not observe daylight saving time.",
+      "explanation_ur": "اریزونا (ناواجو نیشن کو چھوڑ کر) ڈے لائٹ سیونگ ٹائم نہیں اپناتا۔",
+      "hint": "Think about desert states",
+      "hint_ur": "صحرائی ریاستوں کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "What is the time difference between Singapore and Malaysia?",
+      "question_ur": "سنگاپور اور ملائیشیا کے درمیان کیا وقت کا فرق ہے؟",
+      "options": {
+        "en": ["No difference", "Singapore is 30 minutes ahead", "Malaysia is 1 hour ahead", "Singapore is 1 hour ahead"],
+        "ur": ["کوئی فرق نہیں", "سنگاپور 30 منٹ آگے ہے", "ملائیشیا 1 گھنٹہ آگے ہے", "سنگاپور 1 گھنٹہ آگے ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Both Singapore and Malaysia use UTC+8 as standard time.",
+      "explanation_ur": "سنگاپور اور ملائیشیا دونوں معیاری وقت کے طور پر UTC+8 استعمال کرتے ہیں۔",
+      "hint": "They're in the same time zone",
+      "hint_ur": "وہ ایک ہی ٹائم زون میں ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 47,
+      "type": "true-false",
+      "question": "All of Indonesia observes the same time zone.",
+      "question_ur": "انڈونیشیا کا تمام حصہ ایک ہی ٹائم زون میں ہے۔",
+      "correctAnswer": false,
+      "explanation": "Indonesia spans three time zones (UTC+7 to UTC+9).",
+      "explanation_ur": "انڈونیشیا تین ٹائم زونز پر محیط ہے (UTC+7 سے UTC+9)۔",
+      "hint": "Consider Indonesia's geographical span",
+      "hint_ur": "انڈونیشیا کے جغرافیائی پھیلاؤ پر غور کریں",
+      "timeLimit": 25
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "Which country changed its time zone in 2011 to be closer to India?",
+      "question_ur": "کونسے ملک نے 2011 میں اپنا ٹائم زون بھارت کے قریب ہونے کے لیے تبدیل کیا؟",
+      "options": {
+        "en": ["Sri Lanka", "Nepal", "Bangladesh", "Pakistan"],
+        "ur": ["سری لنکا", "نیپال", "بنگلہ دیش", "پاکستان"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Sri Lanka changed from UTC+6 to UTC+5:30 in 2011 to align with India.",
+      "explanation_ur": "سری لنکا نے 2011 میں بھارت کے ساتھ ہم آہنگی کے لیے UTC+6 سے UTC+5:30 میں تبدیل کیا۔",
+      "hint": "An island nation south of India",
+      "hint_ur": "بھارت کے جنوب میں ایک جزیرہ ملک",
+      "timeLimit": 30
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "What is the standard time zone for most of Mexico?",
+      "question_ur": "زیادہ تر میکسیکو کا معیاری ٹائم زون کیا ہے؟",
+      "options": {
+        "en": ["UTC-5", "UTC-6", "UTC-7", "UTC-8"],
+        "ur": ["UTC-5", "UTC-6", "UTC-7", "UTC-8"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Most of Mexico uses Central Standard Time (UTC-6).",
+      "explanation_ur": "زیادہ تر میکسیکو وسطی معیاری وقت (UTC-6) استعمال کرتا ہے۔",
+      "hint": "Same as US Central Time",
+      "hint_ur": "امریکی وسطی وقت جیسا ہی",
+      "timeLimit": 25
+    },
+    {
+      "id": 50,
+      "type": "true-false",
+      "question": "The UK is always 5 hours ahead of New York.",
+      "question_ur": "UK ہمیشہ نیویارک سے 5 گھنٹے آگے ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "The time difference varies between 4-5 hours due to daylight saving time changes not always aligning.",
+      "explanation_ur": "وقت کا فرق 4-5 گھنٹے کے درمیان مختلف ہوتا ہے کیونکہ ڈے لائٹ سیونگ ٹائم کی تبدیلیاں ہمیشہ ہم آہنگ نہیں ہوتیں۔",
+      "hint": "Consider when daylight saving starts/ends in each country",
+      "hint_ur": "ہر ملک میں ڈے لائٹ سیونگ کے شروع/ختم ہونے پر غور کریں",
+      "timeLimit": 30
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "Which of these cities is in a different time zone than the others?",
+      "question_ur": "ان شہروں میں سے کونسا شہر دوسروں سے مختلف ٹائم زون میں ہے؟",
+      "options": {
+        "en": ["Denver", "Salt Lake City", "Phoenix", "Albuquerque"],
+        "ur": ["ڈینور", "سالٹ لیک سٹی", "فینکس", "البیکرکی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Phoenix (Mountain Standard Time, no DST) differs from others (Mountain Time with DST).",
+      "explanation_ur": "فینکس (ماؤنٹین معیاری وقت، کوئی DST نہیں) دوسروں سے مختلف ہے (ماؤنٹین ٹائم DST کے ساتھ)۔",
+      "hint": "Think about Arizona's time zone",
+      "hint_ur": "اریزونا کے ٹائم زون کے بارے میں سوچیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "What is the time difference between UTC and Iran Standard Time during winter?",
+      "question_ur": "موسم سرما میں UTC اور ایران معیاری وقت کے درمیان کیا وقت کا فرق ہے؟",
+      "options": {
+        "en": ["UTC+3", "UTC+3:30", "UTC+4", "UTC+4:30"],
+        "ur": ["UTC+3", "UTC+3:30", "UTC+4", "UTC+4:30"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Iran Standard Time is UTC+3:30 and does not observe daylight saving time.",
+      "explanation_ur": "ایران معیاری وقت UTC+3:30 ہے اور ڈے لائٹ سیونگ ٹائم نہیں اپناتا۔",
+      "hint": "Iran has a 30-minute offset",
+      "hint_ur": "ایران کا 30 منٹ کا آفسیٹ ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 53,
+      "type": "true-false",
+      "question": "All African countries observe daylight saving time.",
+      "question_ur": "تمام افریقی ممالک ڈے لائٹ سیونگ ٹائم اپناتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Most African countries near the equator do not observe daylight saving time.",
+      "explanation_ur": "خط استوا کے قریب زیادہ تر افریقی ممالک ڈے لائٹ سیونگ ٹائم نہیں اپناتے۔",
+      "hint": "Think about countries near the equator",
+      "hint_ur": "خط استوا کے قریب ممالک کے بارے میں سوچیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "Which country has the latest standard time (without daylight saving)?",
+      "question_ur": "کونسے ملک کا سب سے زیادہ معیاری وقت ہے (ڈے لائٹ سیونگ کے بغیر)؟",
+      "options": {
+        "en": ["Samoa", "Kiribati", "Fiji", "Tonga"],
+        "ur": ["ساموا", "کیریباتی", "فجی", "ٹونگا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Kiribati's Line Islands use UTC+14, the earliest time zone in the world.",
+      "explanation_ur": "کیریباتی کے لائن جزائر UTC+14 استعمال کرتے ہیں، جو دنیا کا سب سے زیادہ ٹائم زون ہے۔",
+      "hint": "Think about the International Date Line adjustment",
+      "hint_ur": "بین الاقوامی تاریخ لائن ایڈجسٹمنٹ کے بارے میں سوچیں",
+      "timeLimit": 35
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "What is the time difference between Moscow and London during Russian winter?",
+      "question_ur": "روسی موسم سرما میں ماسکو اور لندن کے درمیان کیا وقت کا فرق ہے؟",
+      "options": {
+        "en": ["1 hour", "2 hours", "3 hours", "4 hours"],
+        "ur": ["1 گھنٹہ", "2 گھنٹے", "3 گھنٹے", "4 گھنٹے"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Moscow (UTC+3) is 3 hours ahead of London (UTC+0) during winter.",
+      "explanation_ur": "موسکو (UTC+3) موسم سرما میں لندن (UTC+0) سے 3 گھنٹے آگے ہے۔",
+      "hint": "Russia doesn't observe daylight saving time anymore",
+      "hint_ur": "روس اب ڈے لائٹ سیونگ ٹائم نہیں اپناتا",
+      "timeLimit": 25
+    },
+    {
+      "id": 56,
+      "type": "true-false",
+      "question": "The time difference between New York and Los Angeles is always 3 hours.",
+      "question_ur": "نیویارک اور لاس اینجلس کے درمیان وقت کا فرق ہمیشہ 3 گھنٹے ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "The difference varies between 2-3 hours due to daylight saving time changes.",
+      "explanation_ur": "ڈے لائٹ سیونگ ٹائم کی تبدیلیوں کی وجہ سے فرق 2-3 گھنٹے کے درمیان مختلف ہوتا ہے۔",
+      "hint": "Consider when DST starts/ends in each time zone",
+      "hint_ur": "ہر ٹائم زون میں DST کے شروع/ختم ہونے پر غور کریں",
+      "timeLimit": 30
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "Which of these countries spans the fewest time zones?",
+      "question_ur": "ان ممالک میں سے کونسا سب سے کم ٹائم زونز پر محیط ہے؟",
+      "options": {
+        "en": ["Chile", "Indonesia", "Greenland", "Mexico"],
+        "ur": ["چلی", "انڈونیشیا", "گرین لینڈ", "میکسیکو"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Chile mainly uses one time zone (UTC-3/-4), while others span more.",
+      "explanation_ur": "چلی بنیادی طور پر ایک ٹائم زون استعمال کرتا ہے (UTC-3/-4)، جبکہ دیگر زیادہ پر محیط ہیں۔",
+      "hint": "Long, narrow country",
+      "hint_ur": "لمبا، تنگ ملک",
+      "timeLimit": 30
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "What is the time difference between India and Sri Lanka?",
+      "question_ur": "بھارت اور سری لنکا کے درمیان کیا وقت کا فرق ہے؟",
+      "options": {
+        "en": ["No difference", "India is 30 minutes ahead", "Sri Lanka is 30 minutes ahead", "India is 1 hour ahead"],
+        "ur": ["کوئی فرق نہیں", "بھارت 30 منٹ آگے ہے", "سری لنکا 30 منٹ آگے ہے", "بھارت 1 گھنٹہ آگے ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Both India and Sri Lanka use UTC+5:30 as standard time.",
+      "explanation_ur": "بھارت اور سری لنکا دونوں معیاری وقت کے طور پر UTC+5:30 استعمال کرتے ہیں۔",
+      "hint": "Sri Lanka changed its time zone in 2011",
+      "hint_ur": "سری لنکا نے 2011 میں اپنا ٹائم زون تبدیل کیا",
+      "timeLimit": 25
+    },
+    {
+      "id": 59,
+      "type": "true-false",
+      "question": "All of Europe observes daylight saving time.",
+      "question_ur": "تمام یورپ ڈے لائٹ سیونگ ٹائم اپناتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "While most of Europe observes DST, some regions like Belarus and Russia do not.",
+      "explanation_ur": "اگرچہ زیادہ تر یورپ DST اپناتا ہے، کچھ خطے جیسے بیلاروس اور روس نہیں اپناتے۔",
+      "hint": "Consider eastern European countries",
+      "hint_ur": "مشرقی یورپی ممالک پر غور کریں",
+      "timeLimit": 30
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "Which country first implemented daylight saving time?",
+      "question_ur": "کونسے ملک نے سب سے پہلے ڈے لائٹ سیونگ ٹائم نافذ کیا؟",
+      "options": {
+        "en": ["United States", "United Kingdom", "Germany", "Canada"],
+        "ur": ["ریاستہائے متحدہ", "برطانیہ", "جرمنی", "کینیڈا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Germany and Austria-Hungary were the first to implement DST in 1916 during WWI.",
+      "explanation_ur": "جرمنی اور آسٹریا-ہنگری نے 1916 میں پہلی جنگ عظیم کے دوران سب سے پہلے DST نافذ کیا۔",
+      "hint": "Implemented during World War I",
+      "hint_ur": "پہلی جنگ عظیم کے دوران نافذ کیا گیا",
+      "timeLimit": 35
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "What is the time difference between Dubai and Mumbai?",
+      "question_ur": "دبئی اور ممبئی کے درمیان کیا وقت کا فرق ہے؟",
+      "options": {
+        "en": ["Dubai is 1 hour behind", "Dubai is 30 minutes behind", "No difference", "Dubai is 1 hour ahead"],
+        "ur": ["دبئی 1 گھنٹہ پیچھے ہے", "دبئی 30 منٹ پیچھے ہے", "کوئی فرق نہیں", "دبئی 1 گھنٹہ آگے ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Dubai (UTC+4) is 1.5 hours behind Mumbai (UTC+5:30).",
+      "explanation_ur": "دبئی (UTC+4) ممبئی (UTC+5:30) سے 1.5 گھنٹے پیچھے ہے۔",
+      "hint": "India has a 30-minute offset",
+      "hint_ur": "بھارت کا 30 منٹ کا آفسیٹ ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 62,
+      "type": "true-false",
+      "question": "The entire continent of Australia is in the same time zone.",
+      "question_ur": "آسٹریلیا کا پورا براعظم ایک ہی ٹائم زون میں ہے۔",
+      "correctAnswer": false,
+      "explanation": "Australia spans three time zones (UTC+8 to UTC+10:30).",
+      "explanation_ur": "آسٹریلیا تین ٹائم زونز پر محیط ہے (UTC+8 سے UTC+10:30)۔",
+      "hint": "Consider Western Australia vs Eastern states",
+      "hint_ur": "مغربی آسٹریلیا بمقابلہ مشرقی ریاستوں پر غور کریں",
+      "timeLimit": 30
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "Which of these time zones does NOT have any permanent inhabitants?",
+      "question_ur": "ان ٹائم زونز میں سے کونسا کوئی مستقل باشندے نہیں رکھتا؟",
+      "options": {
+        "en": ["UTC+12", "UTC-12", "UTC+13", "UTC-11"],
+        "ur": ["UTC+12", "UTC-12", "UTC+13", "UTC-11"]
+      },
+      "correctAnswer": 1,
+      "explanation": "UTC-12 is only used by Baker Island and Howland Island, which are uninhabited.",
+      "explanation_ur": "UTC-12 صرف بیکر آئی لینڈ اور ہاولینڈ آئی لینڈ کے ذریعے استعمال کیا جاتا ہے، جو غیر آباد ہیں۔",
+      "hint": "Think about uninhabited Pacific islands",
+      "hint_ur": "غیر آباد پیسیفک جزائر کے بارے میں سوچیں",
+      "timeLimit": 35
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "question": "What is the time difference between Paris and Berlin during summer?",
+      "question_ur": "موسم گرما میں پیرس اور برلن کے درمیان کیا وقت کا فرق ہے؟",
+      "options": {
+        "en": ["No difference", "Paris is 1 hour ahead", "Berlin is 1 hour ahead", "Paris is 30 minutes ahead"],
+        "ur": ["کوئی فرق نہیں", "پیرس 1 گھنٹہ آگے ہے", "برلن 1 گھنٹہ آگے ہے", "پیرس 30 منٹ آگے ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Both Paris and Berlin are in the Central European Time zone (UTC+2 during summer).",
+      "explanation_ur": "پیرس اور برلن دونوں وسطی یورپی ٹائم زون میں ہیں (موسم گرما میں UTC+2)۔",
+      "hint": "Both are in the EU",
+      "hint_ur": "دونوں EU میں ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 65,
+      "type": "true-false",
+      "question": "Alaska spans four different time zones.",
+      "question_ur": "الاسکا چار مختلف ٹائم زونز پر محیط ہے۔",
+      "correctAnswer": true,
+      "explanation": "Alaska spans from UTC-9 to UTC-12 (including small islands).",
+      "explanation_ur": "الاسکا UTC-9 سے UTC-12 پر محیط ہے (چھوٹے جزائر سمیت)۔",
+      "hint": "Consider Alaska's westernmost islands",
+      "hint_ur": "الاسکا کے مغربی ترین جزائر پر غور کریں",
+      "timeLimit": 30
+    },
+    {
+      "id": 66,
+      "type": "mcq",
+      "question": "Which country has the most time zones including overseas territories?",
+      "question_ur": "کونسا ملک سمندر پار علاقوں سمیت سب سے زیادہ ٹائم زونز رکھتا ہے؟",
+      "options": {
+        "en": ["Russia", "United States", "France", "United Kingdom"],
+        "ur": ["روس", "ریاستہائے متحدہ", "فرانس", "برطانیہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "France spans 12 time zones due to its territories around the world.",
+      "explanation_ur": "فرانس دنیا بھر میں اپنے علاقوں کی وجہ سے 12 ٹائم زونز پر محیط ہے۔",
+      "hint": "Think about territories in the Pacific and Americas",
+      "hint_ur": "پیسیفک اور امریکاز میں علاقوں کے بارے میں سوچیں",
+      "timeLimit": 35
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "What is the time difference between UTC and Newfoundland Standard Time?",
+      "question_ur": "UTC اور نیوفاؤنڈ لینڈ معیاری وقت کے درمیان کیا وقت کا فرق ہے؟",
+      "options": {
+        "en": ["UTC-2:30", "UTC-3", "UTC-3:30", "UTC-4"],
+        "ur": ["UTC-2:30", "UTC-3", "UTC-3:30", "UTC-4"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Newfoundland Standard Time is UTC-3:30, one of the few 30-minute offset time zones.",
+      "explanation_ur": "نیوفاؤنڈ لینڈ معیاری وقت UTC-3:30 ہے، چند 30 منٹ کے آفسیٹ والے ٹائم زونز میں سے ایک۔",
+      "hint": "It's a Canadian province with a unique offset",
+      "hint_ur": "یہ ایک کینیڈین صوبہ ہے جس کا ایک منفرد آفسیٹ ہے",
+      "timeLimit": 30
+    }
+  ]
+}

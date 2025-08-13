@@ -1,0 +1,4289 @@
+{
+  "meta": {
+    "category": "History",
+    "category_ur": "تاریخ",
+    "description": "Test your knowledge of significant historical events, figures, and concepts.",
+    "description_ur": "اہم تاریخی واقعات، شخصیات اور تصورات کے بارے میں اپنے علم کا امتحان لیں۔",
+    "difficulty": "medium",
+    "image": "history.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Which ancient civilization built the Great Pyramid of Giza?",
+      "question_ur": "کس قدیم تہذیب نے گیزا کا عظیم اہرام بنایا تھا؟",
+      "options": {
+        "en": [
+          "Mesopotamians",
+          "Egyptians",
+          "Romans",
+          "Greeks"
+        ],
+        "ur": [
+          "میسوپوٹیمیائی",
+          "مصری",
+          "رومی",
+          "یونانی"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The ancient Egyptians built the Great Pyramid of Giza as a tomb for Pharaoh Khufu.",
+      "explanation_ur": "قدیم مصریوں نے گیزا کا عظیم اہرام فرعون خوفو کے مقبرے کے طور پر بنایا تھا۔",
+      "hint": "They worshiped gods like Ra and Osiris.",
+      "hint_ur": "وہ رع اور اوزیریس جیسے دیوتاؤں کی پوجا کرتے تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 2,
+      "type": "true-false",
+      "question": "The Hundred Years' War was a continuous war that lasted exactly 100 years.",
+      "question_ur": "سو سالہ جنگ ایک مسلسل جنگ تھی جو بالکل 100 سال تک جاری رہی۔",
+      "correctAnswer": false,
+      "explanation": "The war actually lasted for 116 years (1337 to 1453) with periods of peace in between.",
+      "explanation_ur": "یہ جنگ دراصل 116 سال (1337 سے 1453) تک جاری رہی جس کے درمیان میں امن کے دور بھی تھے۔",
+      "hint": "The name is a generalization, not an exact timeline.",
+      "hint_ur": "یہ نام ایک عمومی اصطلاح ہے، کوئی درست ٹائم لائن نہیں ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "The Roman Colosseum was primarily used for which of the following events?",
+      "question_ur": "رومن کولوزیم بنیادی طور پر مندرجہ ذیل میں سے کس قسم کے واقعات کے لیے استعمال ہوتا تھا؟",
+      "options": {
+        "en": [
+          "Political debates",
+          "Gladiatorial contests",
+          "Religious ceremonies",
+          "Trade fairs"
+        ],
+        "ur": [
+          "سیاسی بحثیں",
+          "گلڈی ایٹریل مقابلے",
+          "مذہبی تقریبات",
+          "تجارتی میلے"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Colosseum was an amphitheater used for gladiatorial games, public spectacles, and dramatic recreations.",
+      "explanation_ur": "کولوزیم ایک ایمفی تھیٹر تھا جو گلڈی ایٹریل کھیلوں، عوامی تماشوں اور ڈرامائی تفریح کے لیے استعمال ہوتا تھا۔",
+      "hint": "It was a major entertainment venue for the Roman public.",
+      "hint_ur": "یہ رومی عوام کے لیے ایک اہم تفریحی مقام تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Who was the first Emperor of Rome?",
+      "question_ur": "روم کا پہلا شہنشاہ کون تھا؟",
+      "options": {
+        "en": [
+          "Julius Caesar",
+          "Augustus",
+          "Nero",
+          "Caligula"
+        ],
+        "ur": [
+          "جولیس سیزر",
+          "آگسٹس",
+          "نیرو",
+          "کالیگولا"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Augustus, born Gaius Octavius, was the first Roman Emperor, reigning from 27 BC until his death in AD 14.",
+      "explanation_ur": "آگسٹس، جو گائس اوکٹاویئس کے نام سے پیدا ہوا، پہلا رومن شہنشاہ تھا، جس نے 27 قبل مسیح سے لے کر 14 عیسوی میں اپنی وفات تک حکومت کی۔",
+      "hint": "He was the adopted son and heir of Julius Caesar.",
+      "hint_ur": "وہ جولیس سیزر کا گود لیا ہوا بیٹا اور وارث تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "question": "The Magna Carta was signed in 1215.",
+      "question_ur": "میگنا کارٹا پر 1215 میں دستخط کیے گئے تھے۔",
+      "correctAnswer": true,
+      "explanation": "The Magna Carta was a royal charter of rights agreed to by King John of England at Runnymede, near Windsor, on 15 June 1215.",
+      "explanation_ur": "میگنا کارٹا ایک شاہی حقوق کا چارٹر تھا جس پر انگلینڈ کے بادشاہ جان نے 15 جون 1215 کو ونڈسر کے قریب رنیمیڈ میں اتفاق کیا تھا۔",
+      "hint": "It was a key document limiting the power of the king.",
+      "hint_ur": "یہ بادشاہ کے اختیارات کو محدود کرنے والی ایک اہم دستاویز تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Who was the leader of the Soviet Union during World War II?",
+      "question_ur": "دوسری جنگ عظیم کے دوران سوویت یونین کا رہنما کون تھا؟",
+      "options": {
+        "en": [
+          "Vladimir Lenin",
+          "Joseph Stalin",
+          "Leon Trotsky",
+          "Mikhail Gorbachev"
+        ],
+        "ur": [
+          "ولادیمیر لینن",
+          "جوزف اسٹالن",
+          "لیون ٹراٹسکی",
+          "میخائل گورباچوف"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Joseph Stalin led the Soviet Union during World War II, from 1941 to 1945.",
+      "explanation_ur": "جوزف اسٹالن نے دوسری جنگ عظیم کے دوران، 1941 سے 1945 تک سوویت یونین کی قیادت کی۔",
+      "hint": "He was known for his authoritarian rule and purges.",
+      "hint_ur": "وہ اپنی آمرانہ حکومت اور صافیوں کے لیے مشہور تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "The Renaissance began in which country?",
+      "question_ur": "نشاۃ ثانیہ کس ملک میں شروع ہوئی؟",
+      "options": {
+        "en": [
+          "France",
+          "England",
+          "Germany",
+          "Italy"
+        ],
+        "ur": [
+          "فرانس",
+          "انگلینڈ",
+          "جرمنی",
+          "اٹلی"
+        ]
+      },
+      "correctAnswer": 4,
+      "explanation": "The Renaissance began in Florence, Italy, in the 14th century.",
+      "explanation_ur": "نشاۃ ثانیہ 14ویں صدی میں فلورنس، اٹلی میں شروع ہوئی۔",
+      "hint": "It's the country shaped like a boot.",
+      "hint_ur": "یہ وہ ملک ہے جس کی شکل جوتے جیسی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 8,
+      "type": "true-false",
+      "question": "Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt.",
+      "question_ur": "کلیوپیٹرا ہفتم مصر کی بطلیموسی سلطنت کی آخری فعال حکمران تھی۔",
+      "correctAnswer": true,
+      "explanation": "After her death, Egypt became a province of the Roman Empire, marking the end of the Hellenistic period.",
+      "explanation_ur": "اس کی موت کے بعد، مصر رومی سلطنت کا ایک صوبہ بن گیا، جس نے ہیلینسٹک دور کا خاتمہ کیا۔",
+      "hint": "She is famously associated with both Julius Caesar and Mark Antony.",
+      "hint_ur": "وہ جولیس سیزر اور مارک انٹونی دونوں کے ساتھ مشہور ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "The 'Boston Tea Party' was a protest against which country's tea tax?",
+      "question_ur": "'بوسٹن ٹی پارٹی' کس ملک کے چائے ٹیکس کے خلاف ایک احتجاج تھا؟",
+      "options": {
+        "en": [
+          "France",
+          "Spain",
+          "Great Britain",
+          "The Netherlands"
+        ],
+        "ur": [
+          "فرانس",
+          "اسپین",
+          "گریٹ برطانیہ",
+          "ہالینڈ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Boston Tea Party was a protest by American colonists against the British government and the East India Company that controlled tea imports.",
+      "explanation_ur": "بوسٹن ٹی پارٹی برطانوی حکومت اور ایسٹ انڈیا کمپنی کے خلاف امریکی نوآبادیات کا ایک احتجاج تھا جو چائے کی درآمد کو کنٹرول کرتی تھی۔",
+      "hint": "This event was a key moment leading up to the American Revolution.",
+      "hint_ur": "یہ واقعہ امریکی انقلاب کی طرف لے جانے والا ایک اہم لمحہ تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Which of these famous figures was NOT a Roman Emperor?",
+      "question_ur": "ان مشہور شخصیات میں سے کون رومن شہنشاہ نہیں تھا؟",
+      "options": {
+        "en": [
+          "Nero",
+          "Constantine the Great",
+          "Hannibal Barca",
+          "Trajan"
+        ],
+        "ur": [
+          "نیرو",
+          "کونسٹنٹائن دی گریٹ",
+          "ہینیبل بارکا",
+          "تراجان"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Hannibal Barca was a Carthaginian general, considered one of the greatest military commanders in history.",
+      "explanation_ur": "ہینیبل بارکا ایک کارتھجینی جنرل تھا، جسے تاریخ کے عظیم ترین فوجی کمانڈروں میں سے ایک سمجھا جاتا ہے۔",
+      "hint": "He led elephants across the Alps.",
+      "hint_ur": "اس نے ہاتھیوں کو الپس کے پار لے کر آیا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "question": "The Berlin Wall was constructed in 1961.",
+      "question_ur": "برلن کی دیوار 1961 میں تعمیر کی گئی تھی۔",
+      "correctAnswer": true,
+      "explanation": "The Berlin Wall was built by the German Democratic Republic (East Germany) in 1961 to prevent its population from escaping to West Berlin.",
+      "explanation_ur": "برلن کی دیوار 1961 میں جرمن ڈیموکریٹک ریپبلک (مشرقی جرمنی) نے اپنی آبادی کو مغربی برلن فرار ہونے سے روکنے کے لیے بنائی تھی۔",
+      "hint": "The year is often associated with the height of the Cold War.",
+      "hint_ur": "یہ سال اکثر سرد جنگ کے عروج سے وابستہ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Who led the Mongol Empire and created one of the largest contiguous empires in history?",
+      "question_ur": "منگول سلطنت کی قیادت کس نے کی اور تاریخ کی سب سے بڑی مسلسل سلطنتوں میں سے ایک قائم کی؟",
+      "options": {
+        "en": [
+          "Kublai Khan",
+          "Genghis Khan",
+          "Attila the Hun",
+          "Timur"
+        ],
+        "ur": [
+          "قبلائی خان",
+          "چنگیز خان",
+          "اٹیلا دی ہن",
+          "تیمور"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Genghis Khan founded and was the first Great Khan of the Mongol Empire, which became the largest land empire in history.",
+      "explanation_ur": "چنگیز خان نے منگول سلطنت کی بنیاد رکھی اور وہ اس کا پہلا عظیم خان تھا، جو تاریخ کی سب سے بڑی زمینی سلطنت بن گئی۔",
+      "hint": "His original name was Temüjin.",
+      "hint_ur": "اس کا اصل نام تموجین تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "The fall of the Western Roman Empire is often dated to which year?",
+      "question_ur": "مغربی رومی سلطنت کا زوال اکثر کس سال سے منسوب کیا جاتا ہے؟",
+      "options": {
+        "en": [
+          "410 AD",
+          "476 AD",
+          "565 AD",
+          "1453 AD"
+        ],
+        "ur": [
+          "410 عیسوی",
+          "476 عیسوی",
+          "565 عیسوی",
+          "1453 عیسوی"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The traditional date for the fall is 476 AD, when the Germanic chieftain Odoacer deposed the last Roman Emperor, Romulus Augustulus.",
+      "explanation_ur": "زوال کی روایتی تاریخ 476 عیسوی ہے، جب جرمن سردار اوڈوآکر نے آخری رومن شہنشاہ رومولس آگسٹولس کو معزول کیا۔",
+      "hint": "This event marked the end of ancient history and the beginning of the Middle Ages in Europe.",
+      "hint_ur": "اس واقعے نے قدیم تاریخ کے اختتام اور یورپ میں قرون وسطیٰ کے آغاز کی نشان دہی کی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "question": "The Battle of Hastings in 1066 led to the Norman conquest of England.",
+      "question_ur": "1066 کی ہیسٹنگز کی جنگ کے نتیجے میں انگلینڈ پر نارمن کی فتح ہوئی۔",
+      "correctAnswer": true,
+      "explanation": "William the Conqueror of Normandy defeated King Harold Godwinson, leading to a new ruling class and significant changes in English culture and politics.",
+      "explanation_ur": "نارمنڈی کے ولیم فاتح نے کنگ ہیرالڈ گوڈوینسن کو شکست دی، جس سے ایک نئی حکمران طبقے اور انگریزی ثقافت اور سیاست میں اہم تبدیلیاں آئیں۔",
+      "hint": "This battle is famously depicted on the Bayeux Tapestry.",
+      "hint_ur": "یہ جنگ مشہور طور پر بائییو ٹیپسٹری پر دکھائی گئی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Who was the primary author of the American Declaration of Independence?",
+      "question_ur": "امریکی اعلانِ آزادی کا بنیادی مصنف کون تھا؟",
+      "options": {
+        "en": [
+          "George Washington",
+          "John Adams",
+          "Benjamin Franklin",
+          "Thomas Jefferson"
+        ],
+        "ur": [
+          "جارج واشنگٹن",
+          "جان ایڈمز",
+          "بینجمن فرینکلن",
+          "تھامس جیفرسن"
+        ]
+      },
+      "correctAnswer": 4,
+      "explanation": "Thomas Jefferson was the principal author of the Declaration of Independence, adopted by the Second Continental Congress in 1776.",
+      "explanation_ur": "تھامس جیفرسن اعلانِ آزادی کے بنیادی مصنف تھے، جسے 1776 میں دوسرے کانٹینینٹل کانگریس نے منظور کیا تھا۔",
+      "hint": "He would later become the third U.S. President.",
+      "hint_ur": "وہ بعد میں تیسرے امریکی صدر بنے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "Which of the following explorers first circumnavigated the globe?",
+      "question_ur": "مندرجہ ذیل میں سے کس مہم جو نے سب سے پہلے دنیا کا چکر لگایا؟",
+      "options": {
+        "en": [
+          "Christopher Columbus",
+          "Ferdinand Magellan",
+          "Vasco da Gama",
+          "James Cook"
+        ],
+        "ur": [
+          "کرسٹوفر کولمبس",
+          "فرڈینینڈ میگیلان",
+          "واسکو ڈی گاما",
+          "جیمز کک"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Ferdinand Magellan led the first expedition to circumnavigate the Earth, though he died during the journey.",
+      "explanation_ur": "فرڈینینڈ میگیلان نے زمین کے گرد چکر لگانے کے لیے پہلی مہم کی قیادت کی، اگرچہ وہ سفر کے دوران مر گیا تھا۔",
+      "hint": "His expedition was the first to cross the Pacific Ocean.",
+      "hint_ur": "اس کی مہم بحر الکاہل کو پار کرنے والی پہلی مہم تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 17,
+      "type": "true-false",
+      "question": "The Ottoman Empire's capital was Constantinople.",
+      "question_ur": "عثمانی سلطنت کا دارالحکومت قسطنطنیہ تھا۔",
+      "correctAnswer": true,
+      "explanation": "After conquering the city in 1453, the Ottomans renamed it Istanbul and made it their capital.",
+      "explanation_ur": "1453 میں شہر کو فتح کرنے کے بعد، عثمانیوں نے اس کا نام استنبول رکھ کر اسے اپنا دارالحکومت بنا دیا۔",
+      "hint": "This city was formerly the capital of the Byzantine Empire.",
+      "hint_ur": "یہ شہر پہلے بازنطینی سلطنت کا دارالحکومت تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "In what year did the French Revolution begin?",
+      "question_ur": "فرانسیسی انقلاب کس سال شروع ہوا؟",
+      "options": {
+        "en": [
+          "1776",
+          "1789",
+          "1815",
+          "1848"
+        ],
+        "ur": [
+          "1776",
+          "1789",
+          "1815",
+          "1848"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The French Revolution began with the storming of the Bastille in 1789.",
+      "explanation_ur": "فرانسیسی انقلاب کا آغاز 1789 میں باسٹل پر حملہ کرنے سے ہوا۔",
+      "hint": "The year is often associated with the phrase 'Liberty, Equality, Fraternity'.",
+      "hint_ur": "یہ سال اکثر 'آزادی، مساوات، بھائی چارہ' کے نعرے سے وابستہ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Which of these inventions is attributed to Johannes Gutenberg?",
+      "question_ur": "ان میں سے کون سی ایجاد جوہانس گٹنبرگ سے منسوب ہے؟",
+      "options": {
+        "en": [
+          "The steam engine",
+          "The telephone",
+          "The printing press",
+          "The light bulb"
+        ],
+        "ur": [
+          "بھاپ کا انجن",
+          "ٹیلی فون",
+          "پرنٹنگ پریس",
+          "برقی بلب"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Gutenberg's invention of the printing press in the 15th century revolutionized the spread of knowledge.",
+      "explanation_ur": "گٹنبرگ کی 15ویں صدی میں پرنٹنگ پریس کی ایجاد نے علم کے پھیلاؤ میں انقلاب برپا کیا۔",
+      "hint": "It was a major factor in the Protestant Reformation.",
+      "hint_ur": "یہ پروٹسٹنٹ اصلاحات میں ایک بڑا عنصر تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 20,
+      "type": "true-false",
+      "question": "The Cold War was a military conflict fought with direct combat between the United States and the Soviet Union.",
+      "question_ur": "سرد جنگ امریکہ اور سوویت یونین کے درمیان براہ راست لڑائی کے ساتھ ایک فوجی تنازعہ تھا۔",
+      "correctAnswer": false,
+      "explanation": "The Cold War was a period of geopolitical tension and proxy wars, but without large-scale direct fighting between the two superpowers.",
+      "explanation_ur": "سرد جنگ جغرافیائی سیاسی کشیدگی اور پراکسی جنگوں کا دور تھا، لیکن دونوں بڑی طاقتوں کے درمیان بڑے پیمانے پر براہ راست لڑائی نہیں ہوئی۔",
+      "hint": "The name itself suggests an absence of 'hot' warfare.",
+      "hint_ur": "خود یہ نام 'گرم' جنگ کی عدم موجودگی کا اشارہ دیتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Who was the first person to step on the Moon?",
+      "question_ur": "چاند پر قدم رکھنے والا پہلا شخص کون تھا؟",
+      "options": {
+        "en": [
+          "Yuri Gagarin",
+          "Buzz Aldrin",
+          "Neil Armstrong",
+          "Alan Shepard"
+        ],
+        "ur": [
+          "یوری گاگارین",
+          "بز آلڈرن",
+          "نیل آرمسٹرانگ",
+          "ایلن شیپرڈ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Neil Armstrong took his famous 'one small step' on July 20, 1969, during the Apollo 11 mission.",
+      "explanation_ur": "نیل آرمسٹرانگ نے 20 جولائی 1969 کو اپالو 11 مشن کے دوران اپنا مشہور 'ایک چھوٹا قدم' لیا۔",
+      "hint": "He famously said, 'That's one small step for man, one giant leap for mankind.'",
+      "hint_ur": "اس نے مشہور کہا تھا، 'یہ انسان کے لیے ایک چھوٹا قدم، اور انسانیت کے لیے ایک بڑی چھلانگ ہے۔'",
+      "timeLimit": 30
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "The ancient city of Troy was located in which modern-day country?",
+      "question_ur": "قدیم شہر ٹرائے کس موجودہ ملک میں واقع تھا؟",
+      "options": {
+        "en": [
+          "Greece",
+          "Italy",
+          "Turkey",
+          "Egypt"
+        ],
+        "ur": [
+          "یونان",
+          "اٹلی",
+          "ترکی",
+          "مصر"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The ruins of the ancient city of Troy are located in modern-day Turkey, near the Dardanelles.",
+      "explanation_ur": "قدیم شہر ٹرائے کے کھنڈرات موجودہ ترکی میں، ڈارڈانیلس کے قریب واقع ہیں۔",
+      "hint": "It's the country that spans both Europe and Asia.",
+      "hint_ur": "یہ وہ ملک ہے جو یورپ اور ایشیا دونوں میں پھیلا ہوا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 23,
+      "type": "true-false",
+      "question": "The first Olympic Games were held in ancient Rome.",
+      "question_ur": "پہلے اولمپک کھیل قدیم روم میں منعقد ہوئے تھے۔",
+      "correctAnswer": false,
+      "explanation": "The first recorded Olympic Games were held in Olympia, Greece, in 776 BC.",
+      "explanation_ur": "پہلے ریکارڈ شدہ اولمپک کھیل 776 قبل مسیح میں اولمپیا، یونان میں منعقد ہوئے تھے۔",
+      "hint": "The name of the games comes from the location where they originated.",
+      "hint_ur": "کھیلوں کا نام اس جگہ سے آتا ہے جہاں سے وہ شروع ہوئے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "The Treaty of Versailles, signed after World War I, was primarily designed to punish which country?",
+      "question_ur": "پہلی جنگ عظیم کے بعد دستخط کیے گئے ورسائی معاہدے کا بنیادی مقصد کس ملک کو سزا دینا تھا؟",
+      "options": {
+        "en": [
+          "Russia",
+          "Austria-Hungary",
+          "Germany",
+          "The Ottoman Empire"
+        ],
+        "ur": [
+          "روس",
+          "آسٹریا-ہنگری",
+          "جرمنی",
+          "عثمانی سلطنت"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Treaty of Versailles placed the blame for the war squarely on Germany, imposing heavy reparations and territorial losses.",
+      "explanation_ur": "ورسائی معاہدے نے جنگ کا سارا الزام جرمنی پر عائد کیا، جس سے بھاری تاوان اور علاقائی نقصانات ہوئے۔",
+      "hint": "This treaty is often cited as a cause of World War II.",
+      "hint_ur": "اس معاہدے کو اکثر دوسری جنگ عظیم کی ایک وجہ کے طور پر پیش کیا جاتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Who was the leader of the Nazi Party and Führer of Germany during World War II?",
+      "question_ur": "دوسری جنگ عظیم کے دوران نازی پارٹی کا رہنما اور جرمنی کا فیوہرر کون تھا؟",
+      "options": {
+        "en": [
+          "Benito Mussolini",
+          "Winston Churchill",
+          "Franklin D. Roosevelt",
+          "Adolf Hitler"
+        ],
+        "ur": [
+          "بینیٹو مسولینی",
+          "ونسٹن چرچل",
+          "فرینکلن ڈی روزویلٹ",
+          "ایڈولف ہٹلر"
+        ]
+      },
+      "correctAnswer": 4,
+      "explanation": "Adolf Hitler was the totalitarian leader of Nazi Germany from 1933 to 1945.",
+      "explanation_ur": "ایڈولف ہٹلر 1933 سے 1945 تک نازی جرمنی کا مطلق العنان رہنما تھا۔",
+      "hint": "His regime was responsible for the Holocaust.",
+      "hint_ur": "اس کی حکومت ہولوکاسٹ کی ذمہ دار تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 26,
+      "type": "true-false",
+      "question": "The fall of the Bastille is considered the start of the French Revolution.",
+      "question_ur": "باستل کا زوال فرانسیسی انقلاب کا آغاز سمجھا جاتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "The storming of the Bastille on July 14, 1789, was a key symbolic act that marked the beginning of the revolution.",
+      "explanation_ur": "14 جولائی 1789 کو باستل پر حملہ ایک اہم علامتی عمل تھا جس نے انقلاب کا آغاز کیا۔",
+      "hint": "The date is now a national holiday in France.",
+      "hint_ur": "یہ تاریخ اب فرانس میں قومی تعطیل ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "Which of these figures was a key leader of the Civil Rights Movement in the United States?",
+      "question_ur": "ان شخصیات میں سے کون ریاستہائے متحدہ میں شہری حقوق کی تحریک کا ایک اہم رہنما تھا؟",
+      "options": {
+        "en": [
+          "Martin Luther",
+          "John F. Kennedy",
+          "Martin Luther King Jr.",
+          "Abraham Lincoln"
+        ],
+        "ur": [
+          "مارٹن لوتھر",
+          "جان ایف کینیڈی",
+          "مارٹن لوتھر کنگ جونیئر",
+          "ابراہام لنکن"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Martin Luther King Jr. was a prominent leader in the African American Civil Rights Movement.",
+      "explanation_ur": "مارٹن لوتھر کنگ جونیئر افریقی امریکن شہری حقوق کی تحریک میں ایک نمایاں رہنما تھے۔",
+      "hint": "He delivered the famous 'I Have a Dream' speech.",
+      "hint_ur": "انہوں نے مشہور 'میرا ایک خواب ہے' کی تقریر کی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "The Byzantine Empire was the continuation of which part of the Roman Empire?",
+      "question_ur": "بازنطینی سلطنت رومی سلطنت کے کس حصے کا تسلسل تھی؟",
+      "options": {
+        "en": [
+          "The Western part",
+          "The Eastern part",
+          "The Northern part",
+          "The Southern part"
+        ],
+        "ur": [
+          "مغربی حصہ",
+          "مشرقی حصہ",
+          "شمالی حصہ",
+          "جنوبی حصہ"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Byzantine Empire was the eastern half of the Roman Empire that survived the fall of the West.",
+      "explanation_ur": "بازنطینی سلطنت رومی سلطنت کا مشرقی نصف حصہ تھا جو مغرب کے زوال کے بعد بھی برقرار رہا۔",
+      "hint": "Its capital was Constantinople.",
+      "hint_ur": "اس کا دارالحکومت قسطنطنیہ تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 29,
+      "type": "true-false",
+      "question": "The Aztec Empire was located in present-day Mexico.",
+      "question_ur": "ایزٹیک سلطنت موجودہ میکسیکو میں واقع تھی۔",
+      "correctAnswer": true,
+      "explanation": "The Aztec Empire's capital, Tenochtitlan, was located on the site of modern-day Mexico City.",
+      "explanation_ur": "ایزٹیک سلطنت کا دارالحکومت، ٹینوچٹیٹلان، موجودہ میکسیکو سٹی کی جگہ پر واقع تھا۔",
+      "hint": "Their civilization was conquered by the Spanish.",
+      "hint_ur": "ان کی تہذیب کو ہسپانویوں نے فتح کیا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "The Edict of Milan, issued by Constantine the Great, did what for Christians?",
+      "question_ur": "قسطنطین اعظم کی طرف سے جاری کردہ ایڈیٹ آف میلان نے عیسائیوں کے لیے کیا کیا؟",
+      "options": {
+        "en": [
+          "Made Christianity the state religion",
+          "Declared Christianity illegal",
+          "Legalized Christianity and ended persecution",
+          "Exiled all Christians from the empire"
+        ],
+        "ur": [
+          "عیسائیت کو ریاستی مذہب بنایا",
+          "عیسائیت کو غیر قانونی قرار دیا",
+          "عیسائیت کو قانونی بنایا اور ظلم و ستم ختم کیا",
+          "تمام عیسائیوں کو سلطنت سے جلاوطن کیا"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Edict of Milan in 313 AD granted religious toleration and legal status to Christians within the Roman Empire.",
+      "explanation_ur": "313 عیسوی میں ایڈیٹ آف میلان نے رومی سلطنت کے اندر عیسائیوں کو مذہبی رواداری اور قانونی حیثیت دی۔",
+      "hint": "It was a major turning point in the history of Christianity.",
+      "hint_ur": "یہ عیسائیت کی تاریخ میں ایک اہم موڑ تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Who was the English monarch during the Spanish Armada's defeat in 1588?",
+      "question_ur": "1588 میں ہسپانوی بحری بیڑے کی شکست کے وقت انگریزی بادشاہ کون تھا؟",
+      "options": {
+        "en": [
+          "Henry VIII",
+          "Queen Mary I",
+          "Queen Elizabeth I",
+          "King James I"
+        ],
+        "ur": [
+          "ہنری ہشتم",
+          "ملکہ میری اول",
+          "ملکہ الزبتھ اول",
+          "بادشاہ جیمز اول"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Queen Elizabeth I, daughter of Henry VIII, was on the throne and delivered a famous speech to her troops at Tilbury.",
+      "explanation_ur": "ملکہ الزبتھ اول، ہنری ہشتم کی بیٹی، تخت پر تھیں اور انہوں نے ٹلبری میں اپنی فوجوں سے ایک مشہور تقریر کی۔",
+      "hint": "She was the last monarch of the Tudor dynasty.",
+      "hint_ur": "وہ ٹیوڈر خاندان کی آخری بادشاہ تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 32,
+      "type": "true-false",
+      "question": "The construction of the Panama Canal was completed in the 20th century.",
+      "question_ur": "پانامہ نہر کی تعمیر 20ویں صدی میں مکمل ہوئی تھی۔",
+      "correctAnswer": true,
+      "explanation": "The Panama Canal was completed by the United States and officially opened on August 15, 1914.",
+      "explanation_ur": "پانامہ نہر امریکہ نے مکمل کی اور 15 اگست 1914 کو سرکاری طور پر کھولی گئی۔",
+      "hint": "The canal connected the Atlantic and Pacific oceans.",
+      "hint_ur": "نہر نے بحر اوقیانوس اور بحر الکاہل کو جوڑا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Which of these events is considered the start of World War I?",
+      "question_ur": "ان میں سے کون سا واقعہ پہلی جنگ عظیم کا آغاز سمجھا جاتا ہے؟",
+      "options": {
+        "en": [
+          "The sinking of the Lusitania",
+          "The assassination of Archduke Franz Ferdinand",
+          "Germany's invasion of Poland",
+          "The Treaty of Versailles"
+        ],
+        "ur": [
+          "لوسیٹانیا کا ڈوبنا",
+          "آرچڈوک فرانز فرڈیننڈ کا قتل",
+          "جرمنی کا پولینڈ پر حملہ",
+          "ورسائی معاہدہ"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The assassination of Archduke Franz Ferdinand of Austria in Sarajevo on June 28, 1914, is widely considered the trigger for WWI.",
+      "explanation_ur": "آسٹریا کے آرچڈوک فرانز فرڈیننڈ کا 28 جون 1914 کو سارائیوو میں قتل، بڑے پیمانے پر پہلی جنگ عظیم کا محرک سمجھا جاتا ہے۔",
+      "hint": "This event involved a member of the Austro-Hungarian royal family.",
+      "hint_ur": "اس واقعے میں آسٹریا-ہنگری کے شاہی خاندان کا ایک رکن شامل تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "The term 'Mesoamerica' refers to which geographical region?",
+      "question_ur": "'میسوامریکا' کی اصطلاح کس جغرافیائی علاقے سے مراد ہے؟",
+      "options": {
+        "en": [
+          "South America",
+          "Central America and parts of Mexico",
+          "The Caribbean Islands",
+          "The Andes Mountains"
+        ],
+        "ur": [
+          "جنوبی امریکہ",
+          "وسطی امریکہ اور میکسیکو کے کچھ حصے",
+          "کیریبین جزائر",
+          "اینڈیس پہاڑ"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Mesoamerica is a region and cultural area in the Americas, extending from central Mexico to parts of Central America.",
+      "explanation_ur": "میسوامریکا امریکہ میں ایک علاقہ اور ثقافتی علاقہ ہے، جو وسطی میکسیکو سے وسطی امریکہ کے کچھ حصوں تک پھیلا ہوا ہے۔",
+      "hint": "This region was home to the Olmec, Maya, and Aztec civilizations.",
+      "hint_ur": "یہ علاقہ اولمیک، مایا اور ایزٹیک تہذیبوں کا گھر تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 35,
+      "type": "true-false",
+      "question": "The Suez Canal connects the Atlantic Ocean to the Indian Ocean.",
+      "question_ur": "سویز نہر بحر اوقیانوس کو بحر ہند سے جوڑتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "The Suez Canal connects the Mediterranean Sea to the Red Sea, providing a shortcut to the Indian Ocean without going around Africa.",
+      "explanation_ur": "سویز نہر بحیرہ روم کو بحیرہ احمر سے جوڑتی ہے، جو افریقہ کے گرد چکر لگائے بغیر بحر ہند تک ایک شارٹ کٹ فراہم کرتی ہے۔",
+      "hint": "Think about the major seas it connects.",
+      "hint_ur": "ان بڑے سمندروں کے بارے میں سوچیں جنہیں یہ جوڑتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "The 'Crusades' were a series of religious wars initiated by Latin Christians to reclaim the Holy Land from which group?",
+      "question_ur": "'صلیبی جنگیں' لاطینی عیسائیوں کی طرف سے مقدس سرزمین کو کس گروہ سے واپس لینے کے لیے شروع کی گئی مذہبی جنگوں کا ایک سلسلہ تھا؟",
+      "options": {
+        "en": [
+          "Jews",
+          "Muslims",
+          "Orthodox Christians",
+          "Pagans"
+        ],
+        "ur": [
+          "یہودی",
+          "مسلمان",
+          "آرتھوڈوکس عیسائی",
+          "پاگنس"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Crusades were a series of military campaigns during the Middle Ages in which European Christians sought to recover the Holy Land from Muslim rule.",
+      "explanation_ur": "صلیبی جنگیں قرون وسطیٰ کے دوران فوجی مہمات کا ایک سلسلہ تھیں جس میں یورپی عیسائیوں نے مسلمان حکمرانی سے مقدس سرزمین کو واپس لینے کی کوشش کی۔",
+      "hint": "The Holy Land was under the control of Islamic caliphates at the time.",
+      "hint_ur": "اس وقت مقدس سرزمین اسلامی خلافتوں کے زیر کنٹرول تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "The ancient city of Pompeii was destroyed by the eruption of which volcano?",
+      "question_ur": "قدیم شہر پومپیئی کس آتش فشاں کے پھٹنے سے تباہ ہوا تھا؟",
+      "options": {
+        "en": [
+          "Mount Etna",
+          "Mount Vesuvius",
+          "Mount Fuji",
+          "Mount St. Helens"
+        ],
+        "ur": [
+          "ماؤنٹ ایٹنا",
+          "ماؤنٹ ویسوویئس",
+          "ماؤنٹ فوجی",
+          "ماؤنٹ سینٹ ہیلنس"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Mount Vesuvius erupted in 79 AD, burying the Roman town of Pompeii and its inhabitants in volcanic ash.",
+      "explanation_ur": "ماؤنٹ ویسوویئس 79 عیسوی میں پھٹا، جس نے رومی شہر پومپیئی اور اس کے مکینوں کو آتش فشاں راکھ میں دفن کر دیا۔",
+      "hint": "This volcano is located near modern-day Naples, Italy.",
+      "hint_ur": "یہ آتش فشاں موجودہ اٹلی کے نیپلز کے قریب واقع ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 38,
+      "type": "true-false",
+      "question": "The Silk Road was a single, long road connecting China to Europe.",
+      "question_ur": "سلک روڈ ایک واحد، لمبی سڑک تھی جو چین کو یورپ سے جوڑتی تھی۔",
+      "correctAnswer": false,
+      "explanation": "The Silk Road was actually a network of trade routes, not a single road, that connected the East and West.",
+      "explanation_ur": "سلک روڈ دراصل تجارتی راستوں کا ایک نیٹ ورک تھا، نہ کہ ایک واحد سڑک، جو مشرق اور مغرب کو جوڑتی تھی۔",
+      "hint": "It was a complex system of land and sea routes.",
+      "hint_ur": "یہ زمینی اور سمندری راستوں کا ایک پیچیدہ نظام تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "The 'Scramble for Africa' refers to which historical period?",
+      "question_ur": "'افریقہ کی بھاگ دوڑ' کس تاریخی دور سے مراد ہے؟",
+      "options": {
+        "en": [
+          "The period of decolonization",
+          "The European colonization of Africa",
+          "The transatlantic slave trade",
+          "The Arab conquest of North Africa"
+        ],
+        "ur": [
+          "استعماریت سے آزادی کا دور",
+          "افریقہ کی یورپی نوآبادیات",
+          "بحر اوقیانوس کے پار غلاموں کی تجارت",
+          "شمالی افریقہ پر عربوں کی فتح"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Scramble for Africa was the period of rapid colonization of Africa by European powers between 1881 and 1914.",
+      "explanation_ur": "افریقہ کی بھاگ دوڑ 1881 اور 1914 کے درمیان یورپی طاقتوں کی طرف سے افریقہ کی تیزی سے نوآبادیات کا دور تھا۔",
+      "hint": "This period was driven by imperialistic motives.",
+      "hint_ur": "یہ دور سامراجی مقاصد سے چلایا گیا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "The Battle of Marathon was a decisive victory for which ancient civilization?",
+      "question_ur": "میراتھن کی جنگ کس قدیم تہذیب کے لیے ایک فیصلہ کن فتح تھی؟",
+      "options": {
+        "en": [
+          "The Persians",
+          "The Romans",
+          "The Athenians",
+          "The Spartans"
+        ],
+        "ur": [
+          "فارسی",
+          "رومی",
+          "ایتھنز کے لوگ",
+          "سپارٹن"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Athenians decisively defeated the invading Persian forces at the Battle of Marathon in 490 BC.",
+      "explanation_ur": "ایتھنز کے لوگوں نے 490 قبل مسیح میں میراتھن کی جنگ میں حملہ آور فارسی افواج کو فیصلہ کن شکست دی۔",
+      "hint": "This battle is the origin of the modern marathon running event.",
+      "hint_ur": "یہ جنگ جدید میراتھن دوڑ کے مقابلے کی اصل ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 41,
+      "type": "true-false",
+      "question": "The Industrial Revolution began in the United States.",
+      "question_ur": "صنعتی انقلاب کا آغاز ریاستہائے متحدہ میں ہوا۔",
+      "correctAnswer": false,
+      "explanation": "The Industrial Revolution began in Great Britain in the late 18th century, before spreading to other parts of the world.",
+      "explanation_ur": "صنعتی انقلاب 18ویں صدی کے اواخر میں برطانیہ میں شروع ہوا، اور پھر دنیا کے دوسرے حصوں میں پھیلا۔",
+      "hint": "Think of the country famous for its textile mills and steam engines.",
+      "hint_ur": "اس ملک کے بارے میں سوچیں جو اپنی ٹیکسٹائل ملوں اور بھاپ کے انجنوں کے لیے مشہور ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "Who was the first female Prime Minister of the United Kingdom?",
+      "question_ur": "متحدہ مملکت کی پہلی خاتون وزیر اعظم کون تھیں؟",
+      "options": {
+        "en": [
+          "Theresa May",
+          "Margaret Thatcher",
+          "Jacinda Ardern",
+          "Angela Merkel"
+        ],
+        "ur": [
+          "تھریسا مے",
+          "مارگریٹ تھیچر",
+          "جاسنڈا آرڈرن",
+          "اینجیلا مرکل"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Margaret Thatcher, known as the 'Iron Lady', served as Prime Minister from 1979 to 1990.",
+      "explanation_ur": "مارگریٹ تھیچر، جسے 'آئرن لیڈی' کے نام سے جانا جاتا ہے، نے 1979 سے 1990 تک وزیر اعظم کے طور پر خدمات انجام دیں۔",
+      "hint": "She was a Conservative politician who governed during the 1980s.",
+      "hint_ur": "وہ ایک قدامت پسند سیاست دان تھیں جنہوں نے 1980 کی دہائی میں حکومت کی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "The ancient Greek city-state of Sparta was known for its focus on what?",
+      "question_ur": "قدیم یونانی شہر ریاست سپارٹا کس چیز پر توجہ دینے کے لیے مشہور تھا؟",
+      "options": {
+        "en": [
+          "Art and philosophy",
+          "Democracy",
+          "Military training and discipline",
+          "Naval power"
+        ],
+        "ur": [
+          "فن اور فلسفہ",
+          "جمہوریت",
+          "فوجی تربیت اور نظم و ضبط",
+          "بحری طاقت"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Sparta was a highly militaristic society where all male citizens were trained for combat from a young age.",
+      "explanation_ur": "سپارٹا ایک انتہائی فوجی معاشرہ تھا جہاں تمام مرد شہریوں کو کم عمری سے ہی جنگ کے لیے تربیت دی جاتی تھی۔",
+      "hint": "Their warriors were famous for their discipline and strength.",
+      "hint_ur": "ان کے جنگجو اپنے نظم و ضبط اور طاقت کے لیے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 44,
+      "type": "true-false",
+      "question": "The Black Death was a pandemic that occurred in the 14th century.",
+      "question_ur": "بلیک ڈیتھ ایک وبائی مرض تھا جو 14ویں صدی میں ہوا تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Black Death, a plague pandemic, ravaged Europe, Asia, and North Africa from 1347 to 1351.",
+      "explanation_ur": "بلیک ڈیتھ، ایک طاعون کی وبائی بیماری، نے 1347 سے 1351 تک یورپ، ایشیا اور شمالی افریقہ کو تباہ کیا۔",
+      "hint": "It is estimated to have killed millions of people, a significant portion of Europe's population.",
+      "hint_ur": "ایک اندازے کے مطابق اس سے لاکھوں لوگ مرے، جو یورپ کی آبادی کا ایک بڑا حصہ تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Who was the last Tsar of Russia?",
+      "question_ur": "روس کا آخری زار کون تھا؟",
+      "options": {
+        "en": [
+          "Peter the Great",
+          "Ivan the Terrible",
+          "Nicholas II",
+          "Alexander II"
+        ],
+        "ur": [
+          "پیٹر دی گریٹ",
+          "ایوان دی ٹیریبل",
+          "نکولس دوم",
+          "الیگزینڈر دوم"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Tsar Nicholas II was the last Emperor of Russia, whose reign ended with the Russian Revolution of 1917.",
+      "explanation_ur": "زار نکولس دوم روس کا آخری شہنشاہ تھا، جس کی حکومت 1917 کے روسی انقلاب کے ساتھ ختم ہو گئی۔",
+      "hint": "He and his family were executed by the Bolsheviks.",
+      "hint_ur": "انہیں اور ان کے خاندان کو بالشویکوں نے پھانسی دے دی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "The 'Punic Wars' were a series of conflicts between which two ancient powers?",
+      "question_ur": "'پونک جنگیں' کن دو قدیم طاقتوں کے درمیان تنازعات کا ایک سلسلہ تھا؟",
+      "options": {
+        "en": [
+          "Rome and Greece",
+          "Rome and Carthage",
+          "Greece and Persia",
+          "Egypt and Assyria"
+        ],
+        "ur": [
+          "روم اور یونان",
+          "روم اور کارتھج",
+          "یونان اور فارس",
+          "مصر اور آشوریہ"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Punic Wars were fought between the Roman Republic and Carthage over control of the Mediterranean.",
+      "explanation_ur": "پونک جنگیں بحیرہ روم پر کنٹرول کے لیے رومی جمہوریہ اور کارتھج کے درمیان لڑی گئیں۔",
+      "hint": "The most famous Carthaginian general was Hannibal.",
+      "hint_ur": "سب سے مشہور کارتھجینی جنرل ہینیبل تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 47,
+      "type": "true-false",
+      "question": "The Battle of Waterloo marked the final defeat of Napoleon Bonaparte.",
+      "question_ur": "واٹرلو کی جنگ نپولین بوناپارٹ کی آخری شکست کی نشاندہی کرتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "Napoleon's final defeat at Waterloo in 1815 led to his second and final exile.",
+      "explanation_ur": "1815 میں واٹرلو میں نپولین کی آخری شکست اس کی دوسری اور آخری جلاوطنی کا باعث بنی۔",
+      "hint": "This battle was fought in what is now Belgium.",
+      "hint_ur": "یہ جنگ موجودہ بیلجیم میں لڑی گئی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "The 'Age of Exploration' was primarily driven by the search for a new trade route to which region?",
+      "question_ur": "'دریافت کا دور' بنیادی طور پر کس خطے تک نئے تجارتی راستے کی تلاش کے ذریعے چلایا گیا تھا؟",
+      "options": {
+        "en": [
+          "The Americas",
+          "Africa",
+          "Asia",
+          "Australia"
+        ],
+        "ur": [
+          "امریکہ",
+          "افریقہ",
+          "ایشیا",
+          "آسٹریلیا"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "European explorers were seeking a sea route to Asia, particularly for spices, after land routes were disrupted.",
+      "explanation_ur": "یورپی مہم جو زمین کے راستے میں خلل پڑنے کے بعد ایشیا، خاص طور پر مسالوں کے لیے، ایک سمندری راستہ تلاش کر رہے تھے۔",
+      "hint": "Vasco da Gama was a famous explorer on this quest.",
+      "hint_ur": "واسکو ڈی گاما اس تلاش میں ایک مشہور مہم جو تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "Which of these events led to the United States' entry into World War II?",
+      "question_ur": "ان میں سے کون سا واقعہ ریاستہائے متحدہ کو دوسری جنگ عظیم میں داخل ہونے کا باعث بنا؟",
+      "options": {
+        "en": [
+          "The invasion of Poland",
+          "The attack on Pearl Harbor",
+          "The Battle of Midway",
+          "The D-Day landings"
+        ],
+        "ur": [
+          "پولینڈ پر حملہ",
+          "پرل ہاربر پر حملہ",
+          "مڈ وے کی جنگ",
+          "ڈی ڈے لینڈنگز"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The surprise attack on the U.S. naval base at Pearl Harbor by the Japanese in December 1941 directly led to the U.S. declaring war.",
+      "explanation_ur": "دسمبر 1941 میں جاپانیوں کے ذریعے پرل ہاربر میں امریکی بحری اڈے پر اچانک حملے نے براہ راست امریکہ کو جنگ کا اعلان کرنے پر مجبور کیا۔",
+      "hint": "This attack took place in Hawaii.",
+      "hint_ur": "یہ حملہ ہوائی میں ہوا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 50,
+      "type": "true-false",
+      "question": "The Roman Republic was founded before the Roman Empire.",
+      "question_ur": "رومی جمہوریہ کی بنیاد رومی سلطنت سے پہلے رکھی گئی تھی۔",
+      "correctAnswer": true,
+      "explanation": "The Roman Republic existed from 509 BC until 27 BC, when it transitioned into the Roman Empire with Augustus as its first emperor.",
+      "explanation_ur": "رومی جمہوریہ 509 قبل مسیح سے 27 قبل مسیح تک موجود تھی، جب یہ آگسٹس کے پہلے شہنشاہ بننے کے ساتھ رومی سلطنت میں تبدیل ہوئی۔",
+      "hint": "Think of the order of political systems in ancient Rome.",
+      "hint_ur": "قدیم روم میں سیاسی نظاموں کی ترتیب کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "What was the name of the first successful English colony in North America?",
+      "question_ur": "شمالی امریکہ میں پہلی کامیاب انگریزی کالونی کا نام کیا تھا؟",
+      "options": {
+        "en": [
+          "Roanoke",
+          "Plymouth",
+          "Jamestown",
+          "St. Augustine"
+        ],
+        "ur": [
+          "روانوک",
+          "پلیماؤتھ",
+          "جیمز ٹاؤن",
+          "سینٹ آگسٹین"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Jamestown was founded in 1607 in what is now Virginia, and it was the first permanent English settlement in the Americas.",
+      "explanation_ur": "جیمز ٹاؤن کی بنیاد 1607 میں رکھی گئی تھی جو اب ورجینیا ہے، اور یہ امریکہ میں پہلی مستقل انگریزی بستی تھی۔",
+      "hint": "This settlement was located near the James River.",
+      "hint_ur": "یہ بستی جیمز دریا کے قریب واقع تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "The fall of the Berlin Wall in which year is often seen as a symbolic end to the Cold War?",
+      "question_ur": "کس سال میں برلن کی دیوار کا گرنا اکثر سرد جنگ کے علامتی اختتام کے طور پر دیکھا جاتا ہے؟",
+      "options": {
+        "en": [
+          "1985",
+          "1989",
+          "1991",
+          "1995"
+        ],
+        "ur": [
+          "1985",
+          "1989",
+          "1991",
+          "1995"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The fall of the Berlin Wall on November 9, 1989, symbolized the collapse of Communism in Eastern Europe.",
+      "explanation_ur": "9 نومبر 1989 کو برلن کی دیوار کا گرنا مشرقی یورپ میں کمیونزم کے خاتمے کی علامت تھا۔",
+      "hint": "This event took place just before the official dissolution of the Soviet Union.",
+      "hint_ur": "یہ واقعہ سوویت یونین کے سرکاری تحلیل سے بالکل پہلے ہوا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 53,
+      "type": "true-false",
+      "question": "Alexander the Great was the king of Persia.",
+      "question_ur": "سکندر اعظم فارس کا بادشاہ تھا۔",
+      "correctAnswer": false,
+      "explanation": "Alexander the Great was the King of Macedon who conquered the Persian Empire.",
+      "explanation_ur": "سکندر اعظم میسیڈون کا بادشاہ تھا جس نے فارسی سلطنت کو فتح کیا۔",
+      "hint": "He was a student of the philosopher Aristotle.",
+      "hint_ur": "وہ فلسفی ارسطو کا طالب علم تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "The 'Battle of Thermopylae' involved a small Greek force fighting against a massive army from which empire?",
+      "question_ur": "'تھرموپیلی کی جنگ' میں ایک چھوٹی یونانی فورس کس سلطنت کی ایک بڑی فوج کے خلاف لڑ رہی تھی؟",
+      "options": {
+        "en": [
+          "The Roman Empire",
+          "The Persian Empire",
+          "The Egyptian Empire",
+          "The Macedonian Empire"
+        ],
+        "ur": [
+          "رومی سلطنت",
+          "فارسی سلطنت",
+          "مصری سلطنت",
+          "میسیڈونیائی سلطنت"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "A small force of Spartans and other Greeks defended a narrow pass against the much larger Persian army of Xerxes I in 480 BC.",
+      "explanation_ur": "سپارٹنز اور دوسرے یونانیوں کی ایک چھوٹی فوج نے 480 قبل مسیح میں زرکسیز اول کی بہت بڑی فارسی فوج کے خلاف ایک تنگ درے کا دفاع کیا۔",
+      "hint": "The movie '300' is based on this historical event.",
+      "hint_ur": "'300' نامی فلم اسی تاریخی واقعے پر مبنی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "Which ancient civilization developed the concept of democracy?",
+      "question_ur": "کس قدیم تہذیب نے جمہوریت کا تصور تیار کیا؟",
+      "options": {
+        "en": [
+          "The Romans",
+          "The Egyptians",
+          "The Greeks",
+          "The Chinese"
+        ],
+        "ur": [
+          "رومی",
+          "مصری",
+          "یونانی",
+          "چینی"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The form of government we know as democracy originated in ancient Athens, Greece, around the 5th century BC.",
+      "explanation_ur": "حکومت کی وہ شکل جسے ہم جمہوریت کہتے ہیں، قدیم ایتھنز، یونان میں 5ویں صدی قبل مسیح کے آس پاس پیدا ہوئی۔",
+      "hint": "Their philosophers included Plato and Aristotle.",
+      "hint_ur": "ان کے فلسفیوں میں افلاطون اور ارسطو شامل تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 56,
+      "type": "true-false",
+      "question": "The Great Wall of China was built by a single emperor over a short period of time.",
+      "question_ur": "چین کی عظیم دیوار ایک ہی شہنشاہ نے مختصر عرصے میں بنائی تھی۔",
+      "correctAnswer": false,
+      "explanation": "The Great Wall was built, rebuilt, and maintained by various dynasties over a period of many centuries.",
+      "explanation_ur": "عظیم دیوار مختلف خاندانوں کی طرف سے کئی صدیوں کے عرصے میں بنائی، دوبارہ بنائی اور برقرار رکھی گئی۔",
+      "hint": "Its construction involved many different rulers and generations.",
+      "hint_ur": "اس کی تعمیر میں بہت سے مختلف حکمران اور نسلیں شامل تھیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "The 'Enlightenment' was an intellectual movement that emphasized which of the following?",
+      "question_ur": "'روشنی' ایک فکری تحریک تھی جو مندرجہ ذیل میں سے کس پر زور دیتی تھی؟",
+      "options": {
+        "en": [
+          "Faith and tradition",
+          "Superstition and magic",
+          "Reason and individualism",
+          "Monarchy and divine right"
+        ],
+        "ur": [
+          "ایمان اور روایت",
+          "توہم پرستی اور جادو",
+          "عقل اور انفرادیت",
+          "بادشاہت اور الہی حق"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Enlightenment was a philosophical movement that dominated the world of ideas in Europe during the 18th century, emphasizing reason, analysis, and individualism.",
+      "explanation_ur": "روشنی 18ویں صدی میں یورپ میں خیالات کی دنیا پر چھائی ہوئی ایک فلسفیانہ تحریک تھی، جو عقل، تجزیہ اور انفرادیت پر زور دیتی تھی۔",
+      "hint": "Think of thinkers like Voltaire and Locke.",
+      "hint_ur": "والٹیئر اور لاک جیسے مفکرین کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "Who was the Roman general who conquered Gaul and later became dictator?",
+      "question_ur": "وہ رومن جنرل کون تھا جس نے گال کو فتح کیا اور بعد میں ڈکٹیٹر بن گیا؟",
+      "options": {
+        "en": [
+          "Mark Antony",
+          "Augustus",
+          "Julius Caesar",
+          "Pompey the Great"
+        ],
+        "ur": [
+          "مارک انٹونی",
+          "آگسٹس",
+          "جولیس سیزر",
+          "پومپی دی گریٹ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Julius Caesar's conquest of Gaul in the 50s BC greatly increased his power and popularity, leading to his eventual seizure of power in Rome.",
+      "explanation_ur": "جولیس سیزر کی 50 قبل مسیح میں گال کی فتح نے اس کی طاقت اور مقبولیت میں بہت اضافہ کیا، جس کی وجہ سے بالآخر اس نے روم میں اقتدار پر قبضہ کر لیا۔",
+      "hint": "He was famously assassinated on the Ides of March.",
+      "hint_ur": "وہ مارچ کے آئیڈیز پر مشہور طور پر قتل کیا گیا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 59,
+      "type": "true-false",
+      "question": "The Mongol invasion of Japan was successful.",
+      "question_ur": "جاپان پر منگول حملہ کامیاب رہا۔",
+      "correctAnswer": false,
+      "explanation": "Both Mongol invasions of Japan (1274 and 1281) were repelled, largely due to storms known as 'kamikaze' or divine wind.",
+      "explanation_ur": "جاپان پر دونوں منگول حملے (1274 اور 1281) کو پسپا کر دیا گیا، جس کی بڑی وجہ 'کامی کازی' یا الہی ہوا کے نام سے مشہور طوفان تھے۔",
+      "hint": "The Japanese were saved by a natural phenomenon.",
+      "hint_ur": "جاپانیوں کو ایک قدرتی مظہر نے بچایا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "The fall of the Aztec Empire was primarily caused by the arrival of which European power?",
+      "question_ur": "ایزٹیک سلطنت کا زوال بنیادی طور پر کس یورپی طاقت کی آمد کی وجہ سے ہوا؟",
+      "options": {
+        "en": [
+          "The English",
+          "The French",
+          "The Spanish",
+          "The Portuguese"
+        ],
+        "ur": [
+          "انگریز",
+          "فرانسیسی",
+          "ہسپانوی",
+          "پرتگالی"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Hernán Cortés and his Spanish conquistadors, with the help of local allies and diseases, brought about the collapse of the Aztec Empire.",
+      "explanation_ur": "ہرنان کورٹیس اور اس کے ہسپانوی فاتحین نے، مقامی اتحادیوں اور بیماریوں کی مدد سے، ایزٹیک سلطنت کے خاتمے کا سبب بنے۔",
+      "hint": "Their arrival was a key part of the conquest of the Americas.",
+      "hint_ur": "ان کی آمد امریکہ کی فتح کا ایک اہم حصہ تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "What was the name of the ship that brought the Pilgrims to America?",
+      "question_ur": "وہ جہاز کا نام کیا تھا جو پیلگریم کو امریکہ لے کر آیا تھا؟",
+      "options": {
+        "en": [
+          "The Pinta",
+          "The Santa Maria",
+          "The Mayflower",
+          "The Discovery"
+        ],
+        "ur": [
+          "دی پنٹا",
+          "دی سانتا ماریا",
+          "دی میفلاور",
+          "دی ڈسکوری"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Mayflower transported the English Pilgrims and other settlers from Plymouth, England, to a new settlement in Plymouth, Massachusetts, in 1620.",
+      "explanation_ur": "میفلاور نے انگریزی پیلگریم اور دیگر آباد کاروں کو 1620 میں پلائی ماؤتھ، انگلینڈ سے میساچوسٹس کے پلائی ماؤتھ میں ایک نئی بستی تک پہنچایا۔",
+      "hint": "The name is a type of flower that blooms in May.",
+      "hint_ur": "یہ نام ایک ایسے پھول کا ہے جو مئی میں کھلتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 62,
+      "type": "true-false",
+      "question": "The first dynasty of Imperial China was the Han Dynasty.",
+      "question_ur": "شاہی چین کا پہلا خاندان ہان خاندان تھا۔",
+      "correctAnswer": false,
+      "explanation": "The first Imperial Dynasty of China was the Qin Dynasty, founded in 221 BC by Qin Shi Huang.",
+      "explanation_ur": "چین کا پہلا شاہی خاندان چن خاندان تھا، جس کی بنیاد 221 قبل مسیح میں چن شی ہوانگ نے رکھی تھی۔",
+      "hint": "The name of the country 'China' is derived from this dynasty.",
+      "hint_ur": "ملک 'چین' کا نام اسی خاندان سے ماخوذ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "The 'Reign of Terror' was a period of extreme violence during which revolution?",
+      "question_ur": "'خوف کا دور' کس انقلاب کے دوران انتہائی تشدد کا دور تھا؟",
+      "options": {
+        "en": [
+          "The American Revolution",
+          "The Russian Revolution",
+          "The French Revolution",
+          "The Glorious Revolution"
+        ],
+        "ur": [
+          "امریکی انقلاب",
+          "روسی انقلاب",
+          "فرانسیسی انقلاب",
+          "شاندار انقلاب"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Reign of Terror, from 1793 to 1794, was a period of the French Revolution where mass executions of 'enemies of the revolution' occurred.",
+      "explanation_ur": "1793 سے 1794 تک 'خوف کا دور' فرانسیسی انقلاب کا ایک دور تھا جہاں 'انقلاب کے دشمنوں' کی بڑے پیمانے پر پھانسیاں ہوئیں۔",
+      "hint": "Maximilien Robespierre was a key figure during this period.",
+      "hint_ur": "میکسی میلیئن روبسپیئر اس دور میں ایک اہم شخصیت تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "question": "The term 'Cold War' was first popularized by which U.S. presidential advisor?",
+      "question_ur": "'سرد جنگ' کی اصطلاح کو سب سے پہلے کس امریکی صدارتی مشیر نے مقبول بنایا؟",
+      "options": {
+        "en": [
+          "George Marshall",
+          "George Kennan",
+          "Bernard Baruch",
+          "Harry S. Truman"
+        ],
+        "ur": [
+          "جارج مارشل",
+          "جارج کینن",
+          "برنارڈ بارچ",
+          "ہیری ایس ٹرومین"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Bernard Baruch is often credited with popularizing the term 'Cold War' in a speech in 1947.",
+      "explanation_ur": "برنارڈ بارچ کو 1947 میں ایک تقریر میں 'سرد جنگ' کی اصطلاح کو مقبول بنانے کا سہرا دیا جاتا ہے۔",
+      "hint": "He was an American financier and statesman.",
+      "hint_ur": "وہ ایک امریکی فنانسر اور سیاست دان تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 65,
+      "type": "true-false",
+      "question": "The ancient Egyptians used a writing system called cuneiform.",
+      "question_ur": "قدیم مصریوں نے ایک تحریری نظام استعمال کیا جسے کینیفارم کہتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Cuneiform was a writing system used by the Sumerians and other Mesopotamian civilizations. The Egyptians used hieroglyphs.",
+      "explanation_ur": "کینیفارم ایک تحریری نظام تھا جو سمیریوں اور دیگر میسوپوٹیمیائی تہذیبوں کے ذریعے استعمال کیا جاتا تھا۔ مصری ہیروگلیف استعمال کرتے تھے۔",
+      "hint": "Think of the writing found in their tombs and temples.",
+      "hint_ur": "ان کے مقبروں اور مندروں میں پائی جانے والی تحریر کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 66,
+      "type": "mcq",
+      "question": "The 'Battle of Stalingrad' was a major turning point in which war?",
+      "question_ur": "'اسٹالن گراڈ کی جنگ' کس جنگ میں ایک بڑا موڑ تھا؟",
+      "options": {
+        "en": [
+          "World War I",
+          "The Napoleonic Wars",
+          "World War II",
+          "The Vietnam War"
+        ],
+        "ur": [
+          "پہلی جنگ عظیم",
+          "نپولین جنگیں",
+          "دوسری جنگ عظیم",
+          "ویتنام جنگ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Soviet victory at Stalingrad in 1943 halted the German advance into the Soviet Union and marked a turning point in World War II.",
+      "explanation_ur": "1943 میں اسٹالن گراڈ میں سوویت فتح نے سوویت یونین میں جرمن پیش قدمی کو روک دیا اور دوسری جنگ عظیم میں ایک موڑ کا نشان لگایا۔",
+      "hint": "This battle took place on the Eastern Front.",
+      "hint_ur": "یہ جنگ مشرقی محاذ پر ہوئی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "The 'Protestant Reformation' was a religious movement that began in which century?",
+      "question_ur": "'پروٹسٹنٹ اصلاحات' ایک مذہبی تحریک تھی جو کس صدی میں شروع ہوئی؟",
+      "options": {
+        "en": [
+          "14th century",
+          "15th century",
+          "16th century",
+          "17th century"
+        ],
+        "ur": [
+          "14ویں صدی",
+          "15ویں صدی",
+          "16ویں صدی",
+          "17ویں صدی"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Protestant Reformation began in 1517 with Martin Luther's 'Ninety-five Theses'.",
+      "explanation_ur": "پروٹسٹنٹ اصلاحات کا آغاز 1517 میں مارٹن لوتھر کی 'پچانوے تھیسس' سے ہوا۔",
+      "hint": "Think of the key figure, Martin Luther, and his criticisms of the Catholic Church.",
+      "hint_ur": "کلیدی شخصیت، مارٹن لوتھر، اور کیتھولک چرچ پر ان کی تنقید کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 68,
+      "type": "true-false",
+      "question": "The 'Declaration of the Rights of Man and of the Citizen' was a key document of the American Revolution.",
+      "question_ur": "'انسان اور شہری کے حقوق کا اعلامیہ' امریکی انقلاب کی ایک اہم دستاویز تھی۔",
+      "correctAnswer": false,
+      "explanation": "This declaration was a fundamental document of the French Revolution, defining the individual and collective rights of all the estates as universal.",
+      "explanation_ur": "یہ اعلامیہ فرانسیسی انقلاب کی ایک بنیادی دستاویز تھی، جو تمام طبقوں کے انفرادی اور اجتماعی حقوق کو عالمگیر طور پر بیان کرتی ہے۔",
+      "hint": "The document's name is in English, but it was written in French.",
+      "hint_ur": "دستاویز کا نام انگریزی میں ہے، لیکن یہ فرانسیسی میں لکھی گئی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "question": "The 'Opium Wars' were a series of conflicts between China and which other country?",
+      "question_ur": "'افیون جنگیں' چین اور کس دوسرے ملک کے درمیان تنازعات کا ایک سلسلہ تھا؟",
+      "options": {
+        "en": [
+          "Russia",
+          "The United States",
+          "Great Britain",
+          "Japan"
+        ],
+        "ur": [
+          "روس",
+          "ریاستہائے متحدہ",
+          "گریٹ برطانیہ",
+          "جاپان"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Opium Wars were fought in the 19th century between the Qing dynasty of China and the British Empire, due to trade disputes.",
+      "explanation_ur": "افیون جنگیں 19ویں صدی میں چین کے چنگ خاندان اور برطانوی سلطنت کے درمیان تجارتی تنازعات کی وجہ سے لڑی گئیں۔",
+      "hint": "This country had a powerful East India Company.",
+      "hint_ur": "اس ملک کی ایک طاقتور ایسٹ انڈیا کمپنی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 70,
+      "type": "mcq",
+      "question": "The 'Fall of Constantinople' in 1453 marked the end of which empire?",
+      "question_ur": "1453 میں 'قسطنطنیہ کا زوال' کس سلطنت کے اختتام کی نشاندہی کرتا ہے؟",
+      "options": {
+        "en": [
+          "The Ottoman Empire",
+          "The Roman Empire",
+          "The Byzantine Empire",
+          "The Persian Empire"
+        ],
+        "ur": [
+          "عثمانی سلطنت",
+          "رومی سلطنت",
+          "بازنطینی سلطنت",
+          "فارسی سلطنت"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The fall of Constantinople to the Ottoman Empire in 1453 marked the end of the Byzantine Empire.",
+      "explanation_ur": "1453 میں عثمانی سلطنت کے ہاتھوں قسطنطنیہ کا زوال بازنطینی سلطنت کے اختتام کی نشاندہی کرتا ہے۔",
+      "hint": "This city was formerly the capital of the Eastern Roman Empire.",
+      "hint_ur": "یہ شہر پہلے مشرقی رومی سلطنت کا دارالحکومت تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 71,
+      "type": "true-false",
+      "question": "The 'New Deal' was a series of programs and reforms enacted in the U.S. by President Franklin D. Roosevelt.",
+      "question_ur": "'نیو ڈیل' صدر فرینکلن ڈی روزویلٹ کی طرف سے امریکہ میں نافذ کردہ پروگراموں اور اصلاحات کا ایک سلسلہ تھا۔",
+      "correctAnswer": true,
+      "explanation": "The New Deal was a response to the Great Depression, focusing on relief, recovery, and reform.",
+      "explanation_ur": "نیو ڈیل گریٹ ڈپریشن کا ایک جواب تھا، جو امداد، بحالی اور اصلاحات پر مرکوز تھا۔",
+      "hint": "This program helped the country recover from an economic crisis.",
+      "hint_ur": "اس پروگرام نے ملک کو ایک اقتصادی بحران سے نکلنے میں مدد کی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 72,
+      "type": "mcq",
+      "question": "The 'Treaty of Tordesillas' divided the newly discovered lands outside Europe between which two countries?",
+      "question_ur": "'ٹورڈیسلاس کا معاہدہ' نے یورپ سے باہر نئے دریافت شدہ زمینوں کو کن دو ممالک کے درمیان تقسیم کیا؟",
+      "options": {
+        "en": [
+          "England and France",
+          "Spain and Portugal",
+          "The Netherlands and Great Britain",
+          "Germany and Italy"
+        ],
+        "ur": [
+          "انگلینڈ اور فرانس",
+          "اسپین اور پرتگال",
+          "ہالینڈ اور گریٹ برطانیہ",
+          "جرمنی اور اٹلی"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The treaty, signed in 1494, divided the non-European world into two spheres of influence for exploration and colonization.",
+      "explanation_ur": "1494 میں دستخط کیے گئے معاہدے نے غیر یورپی دنیا کو دریافت اور نوآبادیات کے لیے اثر و رسوخ کے دو دائروں میں تقسیم کیا۔",
+      "hint": "These two countries were the leading maritime powers of the 15th century.",
+      "hint_ur": "یہ دونوں ممالک 15ویں صدی کی معروف بحری طاقتیں تھیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "Who was the founder of the Mughal Empire in India?",
+      "question_ur": "ہندوستان میں مغل سلطنت کا بانی کون تھا؟",
+      "options": {
+        "en": [
+          "Akbar",
+          "Humayun",
+          "Babur",
+          "Aurangzeb"
+        ],
+        "ur": [
+          "اکبر",
+          "ہمایوں",
+          "بابر",
+          "اورنگزیب"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Babur, a descendant of Timur, founded the Mughal Empire in 1526 after his victory at the First Battle of Panipat.",
+      "explanation_ur": "بابر، جو تیمور کی اولاد تھا، نے پانی پت کی پہلی جنگ میں اپنی فتح کے بعد 1526 میں مغل سلطنت کی بنیاد رکھی۔",
+      "hint": "He wrote his autobiography, the 'Baburnama'.",
+      "hint_ur": "اس نے اپنی سوانح عمری، 'بابرنامہ' لکھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 74,
+      "type": "true-false",
+      "question": "The 'Meiji Restoration' was a political revolution in Japan that restored imperial rule.",
+      "question_ur": "'میجی بحالی' جاپان میں ایک سیاسی انقلاب تھا جس نے شاہی حکمرانی کو بحال کیا۔",
+      "correctAnswer": true,
+      "explanation": "The Meiji Restoration of 1868 led to the overthrow of the Tokugawa shogunate and the restoration of practical imperial rule under Emperor Meiji.",
+      "explanation_ur": "1868 کی میجی بحالی نے توکوگاوا شوگنیٹ کا تختہ الٹنے اور شہنشاہ میجی کے تحت عملی شاہی حکمرانی کی بحالی کا باعث بنی۔",
+      "hint": "This event opened Japan to the West and led to rapid modernization.",
+      "hint_ur": "اس واقعے نے جاپان کو مغرب کے لیے کھول دیا اور تیزی سے جدید کاری کا باعث بنا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "question": "The 'Cuban Missile Crisis' involved a tense standoff between the United States and which other country?",
+      "question_ur": "'کیوبا میزائل بحران' میں ریاستہائے متحدہ اور کس دوسرے ملک کے درمیان ایک کشیدہ تعطل شامل تھا؟",
+      "options": {
+        "en": [
+          "China",
+          "Soviet Union",
+          "North Korea",
+          "Cuba"
+        ],
+        "ur": [
+          "چین",
+          "سوویت یونین",
+          "شمالی کوریا",
+          "کیوبا"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The crisis in 1962 was a direct and dangerous confrontation between the United States and the Soviet Union during the Cold War.",
+      "explanation_ur": "1962 کا بحران سرد جنگ کے دوران ریاستہائے متحدہ اور سوویت یونین کے درمیان ایک براہ راست اور خطرناک تصادم تھا۔",
+      "hint": "The country was led by Nikita Khrushchev at the time.",
+      "hint_ur": "اس وقت اس ملک کی قیادت نکیتا خروشیف کر رہے تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "question": "Which of these figures was a key leader of the Russian Revolution?",
+      "question_ur": "ان شخصیات میں سے کون روسی انقلاب کا ایک اہم رہنما تھا؟",
+      "options": {
+        "en": [
+          "Joseph Stalin",
+          "Karl Marx",
+          "Vladimir Lenin",
+          "Leon Trotsky"
+        ],
+        "ur": [
+          "جوزف اسٹالن",
+          "کارل مارکس",
+          "ولادیمیر لینن",
+          "لیون ٹراٹسکی"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Vladimir Lenin led the Bolsheviks in the October Revolution of 1917, which established the Soviet Union.",
+      "explanation_ur": "ولادیمیر لینن نے 1917 کے اکتوبر انقلاب میں بالشویکوں کی قیادت کی، جس نے سوویت یونین کی بنیاد رکھی۔",
+      "hint": "He was the first head of government of Soviet Russia.",
+      "hint_ur": "وہ سوویت روس کے پہلے سربراہ حکومت تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 77,
+      "type": "true-false",
+      "question": "The 'Battle of Gettysburg' was a major turning point in the American Civil War.",
+      "question_ur": "'گیٹسبرگ کی جنگ' امریکی خانہ جنگی میں ایک بڑا موڑ تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Union victory at Gettysburg in 1863 effectively ended Confederate General Robert E. Lee's plan to invade the North.",
+      "explanation_ur": "1863 میں گیٹسبرگ میں یونین کی فتح نے کنفیڈریٹ جنرل رابرٹ ای لی کے شمال پر حملہ کرنے کے منصوبے کو مؤثر طریقے سے ختم کر دیا۔",
+      "hint": "Abraham Lincoln gave a famous address here.",
+      "hint_ur": "ابراہام لنکن نے یہاں ایک مشہور تقریر کی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 78,
+      "type": "mcq",
+      "question": "The 'War of the Roses' was a series of civil wars fought for control of the throne of which country?",
+      "question_ur": "'گلاب کی جنگ' کس ملک کے تخت پر کنٹرول کے لیے لڑی گئی خانہ جنگیوں کا ایک سلسلہ تھا؟",
+      "options": {
+        "en": [
+          "France",
+          "England",
+          "Spain",
+          "Scotland"
+        ],
+        "ur": [
+          "فرانس",
+          "انگلینڈ",
+          "اسپین",
+          "اسکاٹ لینڈ"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Wars of the Roses were fought between the House of Lancaster (red rose) and the House of York (white rose) for the English throne.",
+      "explanation_ur": "گلاب کی جنگیں انگلینڈ کے تخت کے لیے ہاؤس آف لنکاسٹر (سرخ گلاب) اور ہاؤس آف یارک (سفید گلاب) کے درمیان لڑی گئیں۔",
+      "hint": "The Tudor dynasty was established as a result of this war.",
+      "hint_ur": "اس جنگ کے نتیجے میں ٹیوڈر خاندان قائم ہوا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "The 'Golden Age of Islam' is often associated with the rule of which caliphate?",
+      "question_ur": "'اسلام کا سنہری دور' اکثر کس خلافت کی حکمرانی سے وابستہ ہے؟",
+      "options": {
+        "en": [
+          "The Umayyad Caliphate",
+          "The Abbasid Caliphate",
+          "The Ottoman Caliphate",
+          "The Rashidun Caliphate"
+        ],
+        "ur": [
+          "اموی خلافت",
+          "عباسی خلافت",
+          "عثمانی خلافت",
+          "راشدون خلافت"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Abbasid Caliphate (750-1258 AD) is widely considered the golden age of Islam, marked by intellectual and cultural achievements.",
+      "explanation_ur": "عباسی خلافت (750-1258 عیسوی) کو بڑے پیمانے پر اسلام کا سنہری دور سمجھا جاتا ہے، جو فکری اور ثقافتی کامیابیوں سے نشان زد ہے۔",
+      "hint": "The capital of this caliphate was Baghdad.",
+      "hint_ur": "اس خلافت کا دارالحکومت بغداد تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 80,
+      "type": "true-false",
+      "question": "The city of Jerusalem was a major focus of the Crusades.",
+      "question_ur": "یروشلم کا شہر صلیبی جنگوں کا ایک اہم مرکز تھا۔",
+      "correctAnswer": true,
+      "explanation": "Jerusalem was considered the Holy Land by both Christians and Muslims, and its control was the primary goal of the Crusades.",
+      "explanation_ur": "یروشلم کو عیسائیوں اور مسلمانوں دونوں کے ذریعے مقدس سرزمین سمجھا جاتا تھا، اور اس پر کنٹرول صلیبی جنگوں کا بنیادی مقصد تھا۔",
+      "hint": "It is a holy city for all three Abrahamic religions.",
+      "hint_ur": "یہ تمام تینوں ابراہیمی مذاہب کے لیے ایک مقدس شہر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "question": "Who was the last pharaoh of ancient Egypt?",
+      "question_ur": "قدیم مصر کا آخری فرعون کون تھا؟",
+      "options": {
+        "en": [
+          "Tutankhamun",
+          "Ramses II",
+          "Akhenaten",
+          "Cleopatra VII"
+        ],
+        "ur": [
+          "توتنخامون",
+          "رامسیس دوم",
+          "اخیناتن",
+          "کلیوپیٹرا ہفتم"
+        ]
+      },
+      "correctAnswer": 4,
+      "explanation": "Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt, and her death led to the Roman Empire's control of Egypt.",
+      "explanation_ur": "کلیوپیٹرا ہفتم مصر کی بطلیموسی سلطنت کی آخری فعال حکمران تھی، اور اس کی موت نے مصر پر رومی سلطنت کے کنٹرول کا باعث بنی۔",
+      "hint": "She had a famous relationship with both Julius Caesar and Mark Antony.",
+      "hint_ur": "اس کا جولیس سیزر اور مارک انٹونی دونوں کے ساتھ ایک مشہور تعلق تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "question": "The 'Thirty Years' War' was a religious war fought mainly in which region?",
+      "question_ur": "'تیس سالہ جنگ' ایک مذہبی جنگ تھی جو بنیادی طور پر کس خطے میں لڑی گئی؟",
+      "options": {
+        "en": [
+          "France",
+          "Italy",
+          "Germany",
+          "England"
+        ],
+        "ur": [
+          "فرانس",
+          "اٹلی",
+          "جرمنی",
+          "انگلینڈ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Thirty Years' War (1618–1648) was a conflict primarily fought in Central Europe, particularly in what is now Germany.",
+      "explanation_ur": "تیس سالہ جنگ (1618-1648) ایک تنازعہ تھا جو بنیادی طور پر وسطی یورپ میں، خاص طور پر موجودہ جرمنی میں لڑا گیا۔",
+      "hint": "This war was one of the most destructive in European history.",
+      "hint_ur": "یہ جنگ یورپی تاریخ کی سب سے تباہ کن جنگوں میں سے ایک تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 83,
+      "type": "true-false",
+      "question": "The 'Inca Empire' was located in present-day Mexico.",
+      "question_ur": "'انکا سلطنت' موجودہ میکسیکو میں واقع تھی۔",
+      "correctAnswer": false,
+      "explanation": "The Inca Empire was located in South America, primarily in the Andes Mountains of modern-day Peru.",
+      "explanation_ur": "انکا سلطنت جنوبی امریکہ میں، بنیادی طور پر موجودہ پیرو کے اینڈیس پہاڑوں میں واقع تھی۔",
+      "hint": "This civilization was known for its mountain cities, like Machu Picchu.",
+      "hint_ur": "یہ تہذیب اپنی پہاڑی شہروں، جیسے ماچو پچو، کے لیے مشہور تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 84,
+      "type": "mcq",
+      "question": "The 'Meiji Restoration' in Japan led to what major change?",
+      "question_ur": "جاپان میں 'میجی بحالی' کس بڑی تبدیلی کا باعث بنی؟",
+      "options": {
+        "en": [
+          "The rise of the samurai class",
+          "The isolation of Japan from the rest of the world",
+          "Rapid modernization and industrialization",
+          "The adoption of a democratic government"
+        ],
+        "ur": [
+          "سامورائی طبقے کا عروج",
+          "جاپان کا باقی دنیا سے الگ تھلگ ہونا",
+          "تیزی سے جدید کاری اور صنعتی کاری",
+          "ایک جمہوری حکومت کا اختیار"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Meiji Restoration led to a period of rapid industrialization and Western-style modernization that transformed Japan.",
+      "explanation_ur": "میجی بحالی تیزی سے صنعتی کاری اور مغربی طرز کی جدید کاری کے دور کا باعث بنی جس نے جاپان کو تبدیل کر دیا۔",
+      "hint": "This period is known for Japan's shift from a feudal society to a modern nation-state.",
+      "hint_ur": "یہ دور جاپان کی ایک جاگیردارانہ معاشرے سے ایک جدید قومی ریاست میں تبدیلی کے لیے جانا جاتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "The 'Berlin Conference' of 1884-1885 regulated the colonization and trade in which continent?",
+      "question_ur": "1884-1885 کی 'برلن کانفرنس' نے کس براعظم میں نوآبادیات اور تجارت کو منظم کیا؟",
+      "options": {
+        "en": [
+          "Asia",
+          "North America",
+          "Africa",
+          "South America"
+        ],
+        "ur": [
+          "ایشیا",
+          "شمالی امریکہ",
+          "افریقہ",
+          "جنوبی امریکہ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Berlin Conference, also known as the 'Congo Conference', regulated European colonization and trade in Africa during the 'Scramble for Africa'.",
+      "explanation_ur": "برلن کانفرنس، جسے 'کانگو کانفرنس' بھی کہا جاتا ہے، نے 'افریقہ کی بھاگ دوڑ' کے دوران افریقہ میں یورپی نوآبادیات اور تجارت کو منظم کیا۔",
+      "hint": "This conference had a lasting impact on the political map of this continent.",
+      "hint_ur": "اس کانفرنس کا اس براعظم کے سیاسی نقشے پر دیرپا اثر ہوا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 86,
+      "type": "true-false",
+      "question": "The first major battle of the American Revolution was the Battle of Bunker Hill.",
+      "question_ur": "امریکی انقلاب کی پہلی بڑی جنگ بنکر ہل کی جنگ تھی۔",
+      "correctAnswer": false,
+      "explanation": "The first major armed conflict was the Battles of Lexington and Concord, although Bunker Hill was a significant early battle.",
+      "explanation_ur": "پہلا بڑا مسلح تنازعہ لیکسنگٹن اور کانکورڈ کی جنگیں تھیں، اگرچہ بنکر ہل ایک اہم ابتدائی جنگ تھی۔",
+      "hint": "The 'shot heard 'round the world' happened earlier.",
+      "hint_ur":"'دنیا بھر میں سنا جانے والا گولی' پہلے ہوا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "question": "The 'Great Famine' of the 1840s, which led to mass emigration, took place in which country?",
+      "question_ur": "1840 کی دہائی کا 'عظیم قحط'، جس نے بڑے پیمانے پر ہجرت کا باعث بنی، کس ملک میں ہوا؟",
+      "options": {
+        "en": [
+          "Ireland",
+          "Russia",
+          "Ethiopia",
+          "China"
+        ],
+        "ur": [
+          "آئرلینڈ",
+          "روس",
+          "ایتھوپیا",
+          "چین"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Great Famine, also known as the Irish Potato Famine, occurred in Ireland from 1845 to 1849.",
+      "explanation_ur": "عظیم قحط، جسے آئرش آلو کا قحط بھی کہا جاتا ہے، 1845 سے 1849 تک آئرلینڈ میں ہوا۔",
+      "hint": "This country is famous for its lush green landscapes.",
+      "hint_ur": "یہ ملک اپنے سرسبز مناظر کے لیے مشہور ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "question": "The 'Treaty of Paris' of 1783 officially ended which war?",
+      "question_ur": "1783 کا 'پیرس کا معاہدہ' سرکاری طور پر کس جنگ کا خاتمہ ہوا؟",
+      "options": {
+        "en": [
+          "The Seven Years' War",
+          "The Napoleonic Wars",
+          "The American Revolutionary War",
+          "The War of 1812"
+        ],
+        "ur": [
+          "سات سالہ جنگ",
+          "نپولین جنگیں",
+          "امریکی انقلابی جنگ",
+          "1812 کی جنگ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Treaty of Paris, signed on September 3, 1783, officially ended the American Revolutionary War between Great Britain and the United States.",
+      "explanation_ur": "3 ستمبر 1783 کو دستخط کیے گئے پیرس کے معاہدے نے سرکاری طور پر گریٹ برطانیہ اور ریاستہائے متحدہ کے درمیان امریکی انقلابی جنگ کا خاتمہ کیا۔",
+      "hint": "This treaty recognized the independence of the United States.",
+      "hint_ur": "اس معاہدے نے ریاستہائے متحدہ کی آزادی کو تسلیم کیا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 89,
+      "type": "true-false",
+      "question": "The 'Golden Horde' was a Mongol khanate that ruled over parts of Eastern Europe and Russia.",
+      "question_ur": "'گولڈن ہورڈ' ایک منگول خانات تھا جس نے مشرقی یورپ اور روس کے کچھ حصوں پر حکومت کی۔",
+      "correctAnswer": true,
+      "explanation": "The Golden Horde was one of the four main khanates that emerged from the Mongol Empire after the death of Genghis Khan.",
+      "explanation_ur": "گولڈن ہورڈ چنگیز خان کی موت کے بعد منگول سلطنت سے نکلنے والی چار اہم خاناتوں میں سے ایک تھی۔",
+      "hint": "Their rule had a significant impact on the history of Russia.",
+      "hint_ur": "ان کی حکمرانی کا روس کی تاریخ پر نمایاں اثر ہوا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 90,
+      "type": "mcq",
+      "question": "The 'Spanish Inquisition' was a religious tribunal established to maintain Catholic orthodoxy in which country?",
+      "question_ur": "'ہسپانوی انکوائسیشن' ایک مذہبی عدالت تھی جو کس ملک میں کیتھولک آرتھوڈوکس کو برقرار رکھنے کے لیے قائم کی گئی تھی؟",
+      "options": {
+        "en": [
+          "Italy",
+          "France",
+          "Spain",
+          "Portugal"
+        ],
+        "ur": [
+          "اٹلی",
+          "فرانس",
+          "اسپین",
+          "پرتگال"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Spanish Inquisition was established in 1478 by Catholic Monarchs Ferdinand II of Aragon and Isabella I of Castile.",
+      "explanation_ur": "ہسپانوی انکوائسیشن 1478 میں کیتھولک بادشاہ فرڈینینڈ دوم آف آراگون اور اسابیلا اول آف کاسٹیل نے قائم کی تھی۔",
+      "hint": "Its primary target was Jews and Muslims who had converted to Christianity but were suspected of secretly practicing their old faiths.",
+      "hint_ur": "اس کا بنیادی ہدف یہودی اور مسلمان تھے جنہوں نے عیسائیت قبول کر لی تھی لیکن ان پر خفیہ طور پر اپنے پرانے عقائد پر عمل کرنے کا شبہ تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "Who was the Roman Emperor who made Christianity the state religion of the Roman Empire?",
+      "question_ur": "وہ رومن شہنشاہ کون تھا جس نے عیسائیت کو رومی سلطنت کا ریاستی مذہب بنایا؟",
+      "options": {
+        "en": [
+          "Nero",
+          "Constantine the Great",
+          "Theodosius I",
+          "Augustus"
+        ],
+        "ur": [
+          "نیرو",
+          "کونسٹنٹائن دی گریٹ",
+          "تھیوڈوسیئس اول",
+          "آگسٹس"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Theodosius I made Nicene Christianity the state church of the Roman Empire in 380 AD.",
+      "explanation_ur": "تھیوڈوسیئس اول نے 380 عیسوی میں نیسین عیسائیت کو رومی سلطنت کا ریاستی چرچ بنایا۔",
+      "hint": "This emperor's decision followed the Edict of Milan, which had previously legalized Christianity.",
+      "hint_ur": "اس شہنشاہ کے فیصلے کے بعد ایڈیٹ آف میلان آیا، جس نے اس سے پہلے عیسائیت کو قانونی حیثیت دی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 92,
+      "type": "true-false",
+      "question": "The 'Thirty Years' War' was a continuous, uninterrupted conflict.",
+      "question_ur": "'تیس سالہ جنگ' ایک مسلسل، بلا تعطل تنازعہ تھا۔",
+      "correctAnswer": false,
+      "explanation": "Like the 'Hundred Years' War', the Thirty Years' War was a series of conflicts with different phases and periods of relative peace.",
+      "explanation_ur": "'سو سالہ جنگ' کی طرح، تیس سالہ جنگ مختلف مراحل اور نسبتاً امن کے ادوار کے ساتھ تنازعات کا ایک سلسلہ تھا۔",
+      "hint": "Think about the name itself; it suggests a long but not necessarily continuous period.",
+      "hint_ur": "نام کے بارے میں خود سوچیں؛ یہ ایک طویل لیکن ضروری نہیں کہ مسلسل دور کا اشارہ دیتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "The 'War of the Roses' was fought between which two English royal houses?",
+      "question_ur": "'گلاب کی جنگ' کن دو انگریزی شاہی گھرانوں کے درمیان لڑی گئی؟",
+      "options": {
+        "en": [
+          "Tudor and Stuart",
+          "Lancaster and York",
+          "Plantagenet and Tudor",
+          "Norman and Saxon"
+        ],
+        "ur": [
+          "ٹیوڈر اور سٹوارٹ",
+          "لنکاسٹر اور یارک",
+          "پلانٹاگینٹ اور ٹیوڈر",
+          "نارمن اور سیکسن"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Wars of the Roses were a series of civil wars for the throne of England fought between supporters of the Houses of Lancaster and York.",
+      "explanation_ur": "گلاب کی جنگیں انگلینڈ کے تخت کے لیے ہاؤس آف لنکاسٹر اور یارک کے حامیوں کے درمیان لڑی گئی خانہ جنگیوں کا ایک سلسلہ تھیں۔",
+      "hint": "The names of the houses refer to the colors of their heraldic badges.",
+      "hint_ur": "گھرانوں کے نام ان کے ہیرالڈک بیجز کے رنگوں کا حوالہ دیتے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "question": "Who was the leader of the Soviet Union during the Cuban Missile Crisis?",
+      "question_ur": "کیوبا میزائل بحران کے دوران سوویت یونین کا رہنما کون تھا؟",
+      "options": {
+        "en": [
+          "Joseph Stalin",
+          "Mikhail Gorbachev",
+          "Leonid Brezhnev",
+          "Nikita Khrushchev"
+        ],
+        "ur": [
+          "جوزف اسٹالن",
+          "میخائل گورباچوف",
+          "لیونید بریژنیف",
+          "نکیتا خروشیف"
+        ]
+      },
+      "correctAnswer": 4,
+      "explanation": "Nikita Khrushchev was the leader of the Soviet Union and Premier during the Cuban Missile Crisis in 1962.",
+      "explanation_ur": "نکیتا خروشیف 1962 میں کیوبا میزائل بحران کے دوران سوویت یونین کے رہنما اور وزیر اعظم تھے۔",
+      "hint": "He was famous for his 'kitchen debate' with Richard Nixon.",
+      "hint_ur": "وہ رچرڈ نکسن کے ساتھ اپنی 'کچن بحث' کے لیے مشہور تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 95,
+      "type": "true-false",
+      "question": "The 'Magna Carta' was a document signed by the King of France.",
+      "question_ur": "'میگنا کارٹا' فرانس کے بادشاہ نے دستخط کی گئی ایک دستاویز تھی۔",
+      "correctAnswer": false,
+      "explanation": "The Magna Carta was signed by King John of England in 1215 to limit his power and protect the rights of his subjects.",
+      "explanation_ur": "میگنا کارٹا پر 1215 میں انگلینڈ کے بادشاہ جان نے اپنے اختیارات کو محدود کرنے اور اپنی رعایا کے حقوق کی حفاظت کے لیے دستخط کیے تھے۔",
+      "hint": "The document's name is Latin for 'Great Charter'.",
+      "hint_ur": "دستاویز کا نام لاطینی میں 'عظیم چارٹر' کے لیے ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 96,
+      "type": "mcq",
+      "question": "The 'Fall of the Berlin Wall' led to the reunification of which country?",
+      "question_ur": "'برلن کی دیوار کے گرنے' کے نتیجے میں کس ملک کا دوبارہ اتحاد ہوا؟",
+      "options": {
+        "en": [
+          "Germany",
+          "Poland",
+          "Yugoslavia",
+          "Vietnam"
+        ],
+        "ur": [
+          "جرمنی",
+          "پولینڈ",
+          "یوگوسلاویہ",
+          "ویتنام"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The fall of the wall was the first step toward the reunification of East and West Germany in 1990.",
+      "explanation_ur": "دیوار کا گرنا 1990 میں مشرقی اور مغربی جرمنی کے دوبارہ اتحاد کی طرف پہلا قدم تھا۔",
+      "hint": "This country had been divided since the end of World War II.",
+      "hint_ur": "یہ ملک دوسری جنگ عظیم کے خاتمے کے بعد سے تقسیم تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "question": "The 'Renaissance' was a period of cultural and artistic rebirth that followed which historical period?",
+      "question_ur": "'نشاۃ ثانیہ' ثقافتی اور فنکارانہ بحالی کا ایک دور تھا جو کس تاریخی دور کے بعد آیا؟",
+      "options": {
+        "en": [
+          "The Roman Empire",
+          "The Middle Ages",
+          "The Enlightenment",
+          "The Bronze Age"
+        ],
+        "ur": [
+          "رومی سلطنت",
+          "قرون وسطیٰ",
+          "روشنی کا دور",
+          "کانسی کا دور"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Renaissance followed the Middle Ages, bringing a renewed interest in classical learning and values.",
+      "explanation_ur": "نشاۃ ثانیہ قرون وسطیٰ کے بعد آیا، جس نے کلاسیکی تعلیم اور اقدار میں ایک نئی دلچسپی پیدا کی۔",
+      "hint": "This period is often called the 'Dark Ages'.",
+      "hint_ur": "اس دور کو اکثر 'تاریک دور' کہا جاتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 98,
+      "type": "true-false",
+      "question": "The 'Pax Romana' was a period of peace and stability in the Roman Empire.",
+      "question_ur": "'پاکس رومانا' رومی سلطنت میں امن اور استحکام کا دور تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Pax Romana, or 'Roman Peace', was a period of relative peace and minimal expansion by military force that lasted for about 200 years.",
+      "explanation_ur": "پاکس رومانا، یا 'رومی امن'، نسبتاً امن اور فوجی طاقت کے ذریعے کم سے کم توسیع کا دور تھا جو تقریباً 200 سال تک جاری رہا۔",
+      "hint": "It began with the reign of the first Roman Emperor.",
+      "hint_ur": "اس کا آغاز پہلے رومن شہنشاہ کی حکومت سے ہوا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 99,
+      "type": "mcq",
+      "question": "The 'Battle of Midway' was a major naval battle in which war?",
+      "question_ur": "'مڈوے کی جنگ' کس جنگ میں ایک بڑی بحری جنگ تھی؟",
+      "options": {
+        "en": [
+          "World War I",
+          "World War II",
+          "The Vietnam War",
+          "The Korean War"
+        ],
+        "ur": [
+          "پہلی جنگ عظیم",
+          "دوسری جنگ عظیم",
+          "ویتنام جنگ",
+          "کورین جنگ"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Battle of Midway was a decisive naval battle in the Pacific Theater of World War II, fought in June 1942.",
+      "explanation_ur": "مڈوے کی جنگ دوسری جنگ عظیم کے بحر الکاہل کے تھیٹر میں ایک فیصلہ کن بحری جنگ تھی، جو جون 1942 میں لڑی گئی۔",
+      "hint": "The U.S. Navy defeated an attacking Japanese fleet in this battle.",
+      "hint_ur": "اس جنگ میں امریکی بحریہ نے جاپانی بیڑے کو شکست دی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 100,
+      "type": "mcq",
+      "question": "Who was the Egyptian pharaoh whose tomb was discovered intact in 1922?",
+      "question_ur": "وہ مصری فرعون کون تھا جس کا مقبرہ 1922 میں صحیح حالت میں دریافت ہوا؟",
+      "options": {
+        "en": [
+          "Ramses II",
+          "Tutankhamun",
+          "Akhenaten",
+          "Nefertiti"
+        ],
+        "ur": [
+          "رامسیس دوم",
+          "توتنخامون",
+          "اخیناتن",
+          "نیفرتیتی"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The tomb of Tutankhamun, a pharaoh of the 18th dynasty, was discovered by Howard Carter, largely untouched for over 3,000 years.",
+      "explanation_ur": "18ویں خاندان کے فرعون توتنخامون کا مقبرہ ہاورڈ کارٹر نے دریافت کیا تھا، جو 3,000 سال سے زیادہ عرصے تک تقریباً اچھوتا رہا۔",
+      "hint": "He is often referred to as 'King Tut'.",
+      "hint_ur": "اسے اکثر 'کنگ ٹٹ' کہا جاتا ہے۔",
+      "timeLimit": 30
+    },
+    
+    {
+      "id": 101,
+      "type": "mcq",
+      "question": "The 'Seven Years' War' was a global conflict fought between which two major alliances?",
+      "question_ur": "'سات سالہ جنگ' کن دو بڑے اتحادوں کے درمیان لڑی گئی ایک عالمی تنازعہ تھی؟",
+      "options": {
+        "en": [
+          "France and Britain",
+          "Spain and Portugal",
+          "Britain and Germany",
+          "France and Russia"
+        ],
+        "ur": [
+          "فرانس اور برطانیہ",
+          "اسپین اور پرتگال",
+          "برطانیہ اور جرمنی",
+          "فرانس اور روس"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Seven Years' War, fought from 1756 to 1763, pitted the two great European alliances against each other, led by France and Great Britain respectively.",
+      "explanation_ur": "سات سالہ جنگ، جو 1756 سے 1763 تک لڑی گئی، دو عظیم یورپی اتحادوں کو ایک دوسرے کے خلاف کھڑا کیا، جن کی قیادت بالترتیب فرانس اور برطانیہ کر رہے تھے۔",
+      "hint": "This war is sometimes considered the first true global conflict.",
+      "hint_ur": "اس جنگ کو کبھی کبھی پہلی حقیقی عالمی جنگ سمجھا جاتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 102,
+      "type": "true-false",
+      "question": "The city of Rome was founded before the Roman Republic was established.",
+      "question_ur": "رومی جمہوریہ کے قیام سے پہلے روم شہر کی بنیاد رکھی گئی تھی۔",
+      "correctAnswer": true,
+      "explanation": "According to tradition, Rome was founded in 753 BC as a kingdom, while the Republic was established later in 509 BC.",
+      "explanation_ur": "روایت کے مطابق، روم کی بنیاد 753 قبل مسیح میں ایک بادشاہت کے طور پر رکھی گئی تھی، جبکہ جمہوریہ بعد میں 509 قبل مسیح میں قائم ہوئی۔",
+      "hint": "The myth of Romulus and Remus relates to the city's founding, not the Republic.",
+      "hint_ur": "رومولس اور ریمس کی داستان شہر کی بنیاد سے متعلق ہے، جمہوریہ سے نہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+      "question_ur": "بحر اوقیانوس کے پار تنہا اڑان بھرنے والی پہلی خاتون کون تھیں؟",
+      "options": {
+        "en": [
+          "Amelia Earhart",
+          "Bessie Coleman",
+          "Harriet Quimby",
+          "Valentina Tereshkova"
+        ],
+        "ur": [
+          "امیلیہ ایرہارٹ",
+          "بیسی کولمین",
+          "ہیریئٹ کوئمبی",
+          "ویلنٹینا ٹریشکوا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Amelia Earhart completed her historic solo flight across the Atlantic in 1932, a few years after Charles Lindbergh.",
+      "explanation_ur": "چارلس لنڈبرگ کے چند سال بعد، امیلیا ایرہارٹ نے 1932 میں بحر اوقیانوس کے پار اپنی تاریخی تنہا پرواز مکمل کی۔",
+      "hint": "She mysteriously disappeared during an attempt to fly around the world.",
+      "hint_ur": "وہ دنیا کے گرد اڑنے کی کوشش کے دوران پراسرار طور پر غائب ہو گئیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 104,
+      "type": "mcq",
+      "question": "The 'Fall of the Bastille' in 1789 is a key event of which revolution?",
+      "question_ur": "1789 میں 'باستل کا زوال' کس انقلاب کا ایک اہم واقعہ ہے؟",
+      "options": {
+        "en": [
+          "The American Revolution",
+          "The French Revolution",
+          "The Russian Revolution",
+          "The Glorious Revolution"
+        ],
+        "ur": [
+          "امریکی انقلاب",
+          "فرانسیسی انقلاب",
+          "روسی انقلاب",
+          "شاندار انقلاب"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The storming of the Bastille prison in Paris on July 14, 1789, is widely considered the beginning of the French Revolution.",
+      "explanation_ur": "14 جولائی 1789 کو پیرس میں باستل جیل پر حملہ کو عام طور پر فرانسیسی انقلاب کا آغاز سمجھا جاتا ہے۔",
+      "hint": "This event is celebrated as a national holiday in France.",
+      "hint_ur": "یہ واقعہ فرانس میں قومی تعطیل کے طور پر منایا جاتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 105,
+      "type": "true-false",
+      "question": "The ancient Greek philosopher Socrates wrote many books.",
+      "question_ur": "قدیم یونانی فلسفی سقراط نے بہت سی کتابیں لکھیں۔",
+      "correctAnswer": false,
+      "explanation": "Socrates himself wrote nothing; his philosophical ideas are known to us primarily through the writings of his students, especially Plato.",
+      "explanation_ur": "سقراط نے خود کچھ نہیں لکھا؛ اس کے فلسفیانہ خیالات ہمیں بنیادی طور پر اس کے شاگردوں، خاص طور پر افلاطون کی تحریروں کے ذریعے معلوم ہیں۔",
+      "hint": "He is famous for his method of questioning.",
+      "hint_ur": "وہ سوال کرنے کے اپنے طریقے کے لیے مشہور ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 106,
+      "type": "mcq",
+      "question": "The 'Cold War' was a period of geopolitical tension between the U.S. and the Soviet Union that lasted from approximately what years?",
+      "question_ur": "'سرد جنگ' امریکہ اور سوویت یونین کے درمیان جغرافیائی سیاسی کشیدگی کا ایک دور تھا جو تقریباً کن سالوں تک جاری رہا؟",
+      "options": {
+        "en": [
+          "1914-1918",
+          "1939-1945",
+          "1947-1991",
+          "1950-1953"
+        ],
+        "ur": [
+          "1914-1918",
+          "1939-1945",
+          "1947-1991",
+          "1950-1953"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Cold War began after World War II and ended with the dissolution of the Soviet Union in 1991.",
+      "explanation_ur": "سرد جنگ دوسری جنگ عظیم کے بعد شروع ہوئی اور 1991 میں سوویت یونین کے تحلیل ہونے کے ساتھ ختم ہوئی۔",
+      "hint": "The fall of the Berlin Wall and the collapse of the Soviet Union are key dates.",
+      "hint_ur": "برلن کی دیوار کا گرنا اور سوویت یونین کا خاتمہ اہم تاریخیں ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 107,
+      "type": "mcq",
+      "question": "The 'D-Day' landings in Normandy, France, took place during which war?",
+      "question_ur": "نورمنڈی، فرانس میں 'ڈی-ڈے' لینڈنگ کس جنگ کے دوران ہوئی؟",
+      "options": {
+        "en": [
+          "World War I",
+          "World War II",
+          "The Vietnam War",
+          "The Korean War"
+        ],
+        "ur": [
+          "پہلی جنگ عظیم",
+          "دوسری جنگ عظیم",
+          "ویتنام جنگ",
+          "کورین جنگ"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "D-Day, June 6, 1944, was the day of the Allied invasion of Normandy, which began the liberation of German-occupied Western Europe during World War II.",
+      "explanation_ur": "ڈی-ڈے، 6 جون 1944، اتحادیوں کے نورمنڈی پر حملے کا دن تھا، جس نے دوسری جنگ عظیم کے دوران جرمن کے زیر قبضہ مغربی یورپ کی آزادی کا آغاز کیا۔",
+      "hint": "This event involved a large-scale amphibious assault.",
+      "hint_ur": "اس واقعے میں ایک بڑے پیمانے پر آبی حملہ شامل تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 108,
+      "type": "true-false",
+      "question": "The 'Boston Massacre' was a large-scale battle during the American Revolution.",
+      "question_ur": "'بوسٹن قتل عام' امریکی انقلاب کے دوران ایک بڑے پیمانے پر جنگ تھی۔",
+      "correctAnswer": false,
+      "explanation": "The Boston Massacre was an incident in which British soldiers shot and killed a few people in Boston. It was a protest, not a battle.",
+      "explanation_ur": "بوسٹن قتل عام ایک واقعہ تھا جس میں برطانوی فوجیوں نے بوسٹن میں کچھ لوگوں کو گولی مار کر ہلاک کر دیا۔ یہ ایک احتجاج تھا، جنگ نہیں۔",
+      "hint": "It was a key piece of propaganda for the American colonists.",
+      "hint_ur": "یہ امریکی نوآبادیوں کے لیے پروپیگنڈے کا ایک اہم حصہ تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "question": "The 'Treaty of Westphalia' in 1648 is considered a foundational event in the history of which political concept?",
+      "question_ur": "1648 کا 'ویسٹ فالیا کا معاہدہ' کس سیاسی تصور کی تاریخ میں ایک بنیادی واقعہ سمجھا جاتا ہے؟",
+      "options": {
+        "en": [
+          "Democracy",
+          "National sovereignty",
+          "Communism",
+          "Feudalism"
+        ],
+        "ur": [
+          "جمہوریت",
+          "قومی خودمختاری",
+          "کمیونزم",
+          "جاگیرداری"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Treaty of Westphalia ended the Thirty Years' War and established the principle of national sovereignty, where states have exclusive authority within their territories.",
+      "explanation_ur": "ویسٹ فالیا کے معاہدے نے تیس سالہ جنگ کا خاتمہ کیا اور قومی خودمختاری کے اصول کو قائم کیا، جہاں ریاستوں کو اپنے علاقوں کے اندر خصوصی اختیار حاصل ہوتا ہے۔",
+      "hint": "It gave rise to the modern state system.",
+      "hint_ur": "اس نے جدید ریاستی نظام کو جنم دیا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 110,
+      "type": "mcq",
+      "question": "The 'Berlin Blockade' was an attempt by the Soviet Union to limit access to West Berlin. In what year did it begin?",
+      "question_ur": "'برلن ناکہ بندی' سوویت یونین کی طرف سے مغربی برلن تک رسائی کو محدود کرنے کی ایک کوشش تھی۔ یہ کس سال شروع ہوئی؟",
+      "options": {
+        "en": [
+          "1945",
+          "1948",
+          "1953",
+          "1961"
+        ],
+        "ur": [
+          "1945",
+          "1948",
+          "1953",
+          "1961"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Berlin Blockade began on June 24, 1948, and was one of the first major international crises of the Cold War.",
+      "explanation_ur": "برلن ناکہ بندی 24 جون 1948 کو شروع ہوئی، اور یہ سرد جنگ کے پہلے بڑے بین الاقوامی بحرانوں میں سے ایک تھی۔",
+      "hint": "The Western Allies responded with a famous airlift.",
+      "hint_ur": "مغربی اتحادیوں نے ایک مشہور فضائی پل کے ساتھ جواب دیا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 111,
+      "type": "true-false",
+      "question": "The 'Silk Road' was a single, long road that connected the East and West.",
+      "question_ur": "'سلک روڈ' ایک واحد، لمبی سڑک تھی جو مشرق اور مغرب کو جوڑتی تھی۔",
+      "correctAnswer": false,
+      "explanation": "The Silk Road was a network of trade routes, not a single road, that facilitated trade between China and the Mediterranean.",
+      "explanation_ur": "سلک روڈ تجارتی راستوں کا ایک نیٹ ورک تھا، نہ کہ ایک واحد سڑک، جو چین اور بحیرہ روم کے درمیان تجارت کو آسان بناتی تھی۔",
+      "hint": "The name refers to a commodity that was heavily traded.",
+      "hint_ur": "نام ایک ایسی شے کا حوالہ دیتا ہے جس کی بھاری تجارت کی جاتی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 112,
+      "type": "mcq",
+      "question": "Which ancient civilization is credited with inventing the first form of writing, cuneiform?",
+      "question_ur": "کون سی قدیم تہذیب کو تحریر کی پہلی شکل، کینیفارم، ایجاد کرنے کا سہرا دیا جاتا ہے؟",
+      "options": {
+        "en": [
+          "The Egyptians",
+          "The Greeks",
+          "The Sumerians",
+          "The Romans"
+        ],
+        "ur": [
+          "مصری",
+          "یونانی",
+          "سومیری",
+          "رومی"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Sumerians of ancient Mesopotamia are credited with inventing cuneiform, a wedge-shaped script, around 3200 BC.",
+      "explanation_ur": "قدیم میسوپوٹیمیا کے سومیریوں کو 3200 قبل مسیح کے آس پاس کینیفارم، ایک نوکیلی شکل کا رسم الخط، ایجاد کرنے کا سہرا دیا جاتا ہے۔",
+      "hint": "Their civilization was located in the fertile crescent between the Tigris and Euphrates rivers.",
+      "hint_ur": "ان کی تہذیب دجلہ اور فرات دریاؤں کے درمیان زرخیز ہلال میں واقع تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 113,
+      "type": "mcq",
+      "question": "Who was the last emperor of the Western Roman Empire?",
+      "question_ur": "مغربی رومی سلطنت کا آخری شہنشاہ کون تھا؟",
+      "options": {
+        "en": [
+          "Augustus",
+          "Constantine the Great",
+          "Romulus Augustulus",
+          "Julius Caesar"
+        ],
+        "ur": [
+          "آگسٹس",
+          "کونسٹنٹائن دی گریٹ",
+          "رومولس آگسٹولس",
+          "جولیس سیزر"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Romulus Augustulus was the last Western Roman Emperor, who was deposed by the Germanic chieftain Odoacer in 476 AD.",
+      "explanation_ur": "رومولس آگسٹولس مغربی رومی شہنشاہ تھا، جسے 476 عیسوی میں جرمن سردار اوڈوآکر نے معزول کر دیا تھا۔",
+      "hint": "He was a boy when he was put on the throne.",
+      "hint_ur": "جب اسے تخت پر بٹھایا گیا تو وہ ایک لڑکا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 114,
+      "type": "true-false",
+      "question": "The 'Battle of Waterloo' was fought in France.",
+      "question_ur": "'واٹرلو کی جنگ' فرانس میں لڑی گئی تھی۔",
+      "correctAnswer": false,
+      "explanation": "The Battle of Waterloo was fought in what is now Belgium, near the village of Waterloo.",
+      "explanation_ur": "واٹرلو کی جنگ موجودہ بیلجیم میں، واٹرلو گاؤں کے قریب لڑی گئی تھی۔",
+      "hint": "Napoleon's final defeat took place outside his home country.",
+      "hint_ur": "نپولین کی آخری شکست اس کے آبائی ملک سے باہر ہوئی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "question": "The 'Glorious Revolution' of 1688 established a constitutional monarchy in which country?",
+      "question_ur": "1688 کا 'شاندار انقلاب' کس ملک میں ایک آئینی بادشاہت قائم کی؟",
+      "options": {
+        "en": [
+          "France",
+          "Spain",
+          "England",
+          "Russia"
+        ],
+        "ur": [
+          "فرانس",
+          "اسپین",
+          "انگلینڈ",
+          "روس"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Glorious Revolution led to the overthrow of King James II and the establishment of a constitutional monarchy in England with William III and Mary II.",
+      "explanation_ur": "شاندار انقلاب کے نتیجے میں بادشاہ جیمز دوم کا تختہ الٹا گیا اور ولیم III اور میری II کے ساتھ انگلینڈ میں ایک آئینی بادشاہت قائم ہوئی۔",
+      "hint": "This event is also known as the 'Bloodless Revolution'.",
+      "hint_ur": "اس واقعے کو 'خونریز انقلاب' بھی کہا جاتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 116,
+      "type": "mcq",
+      "question": "The 'Boxer Rebellion' was an anti-foreign, anti-colonial uprising that took place in which country?",
+      "question_ur": "'باکسر بغاوت' ایک غیر ملکی مخالف، نوآبادیاتی مخالف بغاوت تھی جو کس ملک میں ہوئی؟",
+      "options": {
+        "en": [
+          "Japan",
+          "Vietnam",
+          "India",
+          "China"
+        ],
+        "ur": [
+          "جاپان",
+          "ویتنام",
+          "ہندوستان",
+          "چین"
+        ]
+      },
+      "correctAnswer": 4,
+      "explanation": "The Boxer Rebellion, or Boxer Uprising, was a violent anti-foreign, anti-Christian movement in China from 1899 to 1901.",
+      "explanation_ur": "باکسر بغاوت، یا باکسر انقلاب، 1899 سے 1901 تک چین میں ایک پرتشدد غیر ملکی مخالف، عیسائی مخالف تحریک تھی۔",
+      "hint": "The rebels were known as the 'Boxers' because of their martial arts training.",
+      "hint_ur": "باغیوں کو ان کی مارشل آرٹس کی تربیت کی وجہ سے 'باکسرز' کہا جاتا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 117,
+      "type": "true-false",
+      "question": "The 'Great Schism' was a division in the Catholic Church that resulted in two popes.",
+      "question_ur": "'عظیم تفرقہ' کیتھولک چرچ میں ایک تقسیم تھی جس کے نتیجے میں دو پوپ بنے۔",
+      "correctAnswer": true,
+      "explanation": "The Western Schism (1378–1417) was a split within the Catholic Church, resulting in three men simultaneously claiming to be the true pope.",
+      "explanation_ur": "مغربی تفرقہ (1378–1417) کیتھولک چرچ کے اندر ایک تقسیم تھی، جس کے نتیجے میں تین مردوں نے بیک وقت خود کو حقیقی پوپ ہونے کا دعویٰ کیا۔",
+      "hint": "It was a major crisis of authority for the medieval Church.",
+      "hint_ur": "یہ قرون وسطیٰ کے چرچ کے لیے اختیار کا ایک بڑا بحران تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 118,
+      "type": "mcq",
+      "question": "Which of these events is considered the start of the 'Space Race'?",
+      "question_ur": "ان میں سے کون سا واقعہ 'خلائی دوڑ' کا آغاز سمجھا جاتا ہے؟",
+      "options": {
+        "en": [
+          "Yuri Gagarin's first spaceflight",
+          "The launching of Sputnik I by the Soviet Union",
+          "The first moon landing",
+          "The establishment of NASA"
+        ],
+        "ur": [
+          "یوری گاگارین کی پہلی خلائی پرواز",
+          "سوویت یونین کی طرف سے سپوتنک I کا لانچ",
+          "پہلی چاند پر لینڈنگ",
+          "ناسا کا قیام"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Soviet Union's launch of Sputnik I, the first artificial satellite, on October 4, 1957, shocked the U.S. and triggered the Space Race.",
+      "explanation_ur": "سوویت یونین کا 4 اکتوبر 1957 کو سپوتنک I، پہلا مصنوعی سیارہ، کا لانچ کرنا امریکہ کو چونکا دیا اور خلائی دوڑ کا آغاز کیا۔",
+      "hint": "The event led to the U.S. investing heavily in science and technology.",
+      "hint_ur": "اس واقعے نے امریکہ کو سائنس اور ٹیکنالوجی میں بھاری سرمایہ کاری کرنے پر مجبور کیا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 119,
+      "type": "mcq",
+      "question": "The 'Treaty of Versailles' was signed in which year?",
+      "question_ur": "'ورسائی کا معاہدہ' کس سال میں دستخط ہوا؟",
+      "options": {
+        "en": [
+          "1914",
+          "1918",
+          "1919",
+          "1929"
+        ],
+        "ur": [
+          "1914",
+          "1918",
+          "1919",
+          "1929"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Treaty of Versailles was signed on June 28, 1919, officially ending World War I.",
+      "explanation_ur": "ورسائی کا معاہدہ 28 جون 1919 کو دستخط ہوا، جس سے پہلی جنگ عظیم کا سرکاری طور پر خاتمہ ہوا۔",
+      "hint": "It was signed in the year immediately following the end of the war.",
+      "hint_ur": "یہ جنگ کے خاتمے کے فوراً بعد والے سال میں دستخط ہوا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 120,
+      "type": "true-false",
+      "question": "The 'Code of Hammurabi' was a set of laws from ancient Egypt.",
+      "question_ur": "'حمورابی کا ضابطہ' قدیم مصر سے تعلق رکھنے والے قوانین کا ایک مجموعہ تھا۔",
+      "correctAnswer": false,
+      "explanation": "The Code of Hammurabi was a Babylonian legal code of ancient Mesopotamia, not Egypt.",
+      "explanation_ur": "حمورابی کا ضابطہ قدیم میسوپوٹیمیا کا ایک بابلی قانونی ضابطہ تھا، مصر کا نہیں۔",
+      "hint": "The laws were written on a large stone stele.",
+      "hint_ur": "قوانین ایک بڑے پتھر کے ستون پر لکھے گئے تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 121,
+      "type": "mcq",
+      "question": "The 'Civil Rights Act' of 1964, which outlawed discrimination based on race, color, religion, sex, or national origin, was signed into law by which U.S. President?",
+      "question_ur": "1964 کا 'شہری حقوق ایکٹ'، جس نے نسل، رنگ، مذہب، جنس، یا قومی اصل کی بنیاد پر امتیازی سلوک کو غیر قانونی قرار دیا، کس امریکی صدر نے قانون میں دستخط کیا؟",
+      "options": {
+        "en": [
+          "John F. Kennedy",
+          "Lyndon B. Johnson",
+          "Dwight D. Eisenhower",
+          "Richard Nixon"
+        ],
+        "ur": [
+          "جان ایف کینیڈی",
+          "لینڈن بی جانسن",
+          "ڈوائٹ ڈی آئزن ہاور",
+          "رچرڈ نکسن"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "President Lyndon B. Johnson signed the Civil Rights Act into law, building upon the work of his predecessor, John F. Kennedy.",
+      "explanation_ur": "صدر لینڈن بی جانسن نے شہری حقوق ایکٹ کو قانون میں دستخط کیا، جو ان کے پیشرو، جان ایف کینیڈی کے کام پر مبنی تھا۔",
+      "hint": "He became president after the assassination of JFK.",
+      "hint_ur": "وہ جے ایف کے کے قتل کے بعد صدر بنے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 122,
+      "type": "mcq",
+      "question": "The 'Fall of the Romanov dynasty' in 1917 marked the end of czarist rule in which country?",
+      "question_ur": "1917 میں 'رومانوف خاندان کا زوال' کس ملک میں زار کی حکومت کے خاتمے کی نشاندہی کرتا ہے؟",
+      "options": {
+        "en": [
+          "Austria",
+          "Russia",
+          "Germany",
+          "Turkey"
+        ],
+        "ur": [
+          "آسٹریا",
+          "روس",
+          "جرمنی",
+          "ترکی"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The February Revolution of 1917 led to the abdication of Tsar Nicholas II, ending the three-century rule of the Romanov dynasty in Russia.",
+      "explanation_ur": "1917 کے فروری انقلاب نے زار نکولس دوم کے دستبردار ہونے کا باعث بنی، جس سے روس میں رومانوف خاندان کی تین صدیوں کی حکومت ختم ہوئی۔",
+      "hint": "This event was followed by the October Revolution and the rise of the Bolsheviks.",
+      "hint_ur": "اس واقعے کے بعد اکتوبر انقلاب اور بالشویکوں کا عروج ہوا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 123,
+      "type": "true-false",
+      "question": "The 'Treaty of Paris' of 1763 ended the American Revolutionary War.",
+      "question_ur": "1763 کا 'پیرس کا معاہدہ' امریکی انقلابی جنگ کا خاتمہ ہوا۔",
+      "correctAnswer": false,
+      "explanation": "The Treaty of Paris of 1763 ended the Seven Years' War. The American Revolutionary War was ended by the Treaty of Paris of 1783.",
+      "explanation_ur": "1763 کے پیرس کے معاہدے نے سات سالہ جنگ کا خاتمہ کیا۔ امریکی انقلابی جنگ کا خاتمہ 1783 کے پیرس کے معاہدے سے ہوا۔",
+      "hint": "Check the year of the treaty carefully.",
+      "hint_ur": "معاہدے کے سال کو غور سے دیکھیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 124,
+      "type": "mcq",
+      "question": "The 'Thirty Years' War' began as a conflict between which two religious groups?",
+      "question_ur": "'تیس سالہ جنگ' کن دو مذہبی گروہوں کے درمیان تنازعہ کے طور پر شروع ہوئی؟",
+      "options": {
+        "en": [
+          "Catholics and Protestants",
+          "Christians and Muslims",
+          "Orthodox and Catholics",
+          "Jews and Christians"
+        ],
+        "ur": [
+          "کیتھولک اور پروٹسٹنٹ",
+          "عیسائی اور مسلمان",
+          "آرتھوڈوکس اور کیتھولک",
+          "یہودی اور عیسائی"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Thirty Years' War was a series of European conflicts that began as a dispute between Protestant and Catholic states within the Holy Roman Empire.",
+      "explanation_ur": "تیس سالہ جنگ یورپی تنازعات کا ایک سلسلہ تھا جو مقدس رومی سلطنت کے اندر پروٹسٹنٹ اور کیتھولک ریاستوں کے درمیان تنازعہ کے طور پر شروع ہوا۔",
+      "hint": "The Reformation had a major impact on this conflict.",
+      "hint_ur": "اصلاحات کا اس تنازعے پر بڑا اثر ہوا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 125,
+      "type": "mcq",
+      "question": "The 'Fall of the Berlin Wall' is often considered a symbol of the end of which historical period?",
+      "question_ur": "'برلن کی دیوار کا گرنا' اکثر کس تاریخی دور کے اختتام کی علامت سمجھا جاتا ہے؟",
+      "options": {
+        "en": [
+          "World War II",
+          "The Napoleonic Era",
+          "The Cold War",
+          "The Great Depression"
+        ],
+        "ur": [
+          "دوسری جنگ عظیم",
+          "نپولین کا دور",
+          "سرد جنگ",
+          "عظیم کساد بازاری"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The collapse of the Berlin Wall in 1989 represented the end of the Cold War and the ideological division of Europe.",
+      "explanation_ur": "1989 میں برلن کی دیوار کا گرنا سرد جنگ اور یورپ کی نظریاتی تقسیم کے خاتمے کی نمائندگی کرتا تھا۔",
+      "hint": "This event took place during a period of rising tensions between the two superpowers.",
+      "hint_ur": "یہ واقعہ دو بڑی طاقتوں کے درمیان بڑھتی ہوئی کشیدگی کے دور میں ہوا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 126,
+      "type": "true-false",
+      "question": "The 'Code of Hammurabi' is one of the earliest examples of a written legal code.",
+      "question_ur": "'حمورابی کا ضابطہ' ایک تحریری قانونی ضابطے کی ابتدائی مثالوں میں سے ایک ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Code of Hammurabi, created in ancient Babylon around 1754 BC, is one of the oldest deciphered writings of significant length.",
+      "explanation_ur": "حمورابی کا ضابطہ، جو قدیم بابل میں تقریباً 1754 قبل مسیح میں بنایا گیا تھا، اہم لمبائی کی سب سے قدیم ڈی سائفرڈ تحریروں میں سے ایک ہے۔",
+      "hint": "Its most famous principle is 'an eye for an eye, a tooth for a tooth.'",
+      "hint_ur": "اس کا سب سے مشہور اصول 'آنکھ کے بدلے آنکھ، دانت کے بدلے دانت' ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 127,
+      "type": "mcq",
+      "question": "Who was the 'Father of the Pakistani Nation'?",
+      "question_ur": "'بابائے قوم' کون تھے؟",
+      "options": {
+        "en": [
+          "Allama Muhammad Iqbal",
+          "Liaquat Ali Khan",
+          "Muhammad Ali Jinnah",
+          "Sardar Abdur Rab Nishtar"
+        ],
+        "ur": [
+          "علامہ محمد اقبال",
+          "لیاقت علی خان",
+          "محمد علی جناح",
+          "سردار عبدالرب نشتر"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Muhammad Ali Jinnah was a lawyer, politician, and the founder of Pakistan. He served as the first Governor-General of Pakistan.",
+      "explanation_ur": "محمد علی جناح ایک وکیل، سیاستدان اور پاکستان کے بانی تھے۔ انہوں نے پاکستان کے پہلے گورنر جنرل کے طور پر خدمات انجام دیں۔",
+      "hint": "He was a leader of the All-India Muslim League.",
+      "hint_ur": "وہ آل انڈیا مسلم لیگ کے رہنما تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 128,
+      "type": "mcq",
+      "question": "The 'Battle of Tours' in 732 AD was a victory for the Franks over which invading force?",
+      "question_ur": "732 عیسوی میں 'ٹورس کی جنگ' کس حملہ آور طاقت کے خلاف فرینکس کی فتح تھی؟",
+      "options": {
+        "en": [
+          "The Vikings",
+          "The Mongols",
+          "The Umayyad Caliphate",
+          "The Huns"
+        ],
+        "ur": [
+          "وائکنگز",
+          "منگول",
+          "اموی خلافت",
+          "ہن"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Franks, led by Charles Martel, defeated a large army of the Umayyad Caliphate, halting their advance into Western Europe.",
+      "explanation_ur": "چارلس مارٹل کی قیادت میں فرینکس نے اموی خلافت کی ایک بڑی فوج کو شکست دی، جس سے ان کی مغربی یورپ میں پیش قدمی رک گئی۔",
+      "hint": "This battle is often seen as a key moment in the history of Europe's defense against Islamic expansion.",
+      "hint_ur": "اس جنگ کو اکثر اسلامی توسیع کے خلاف یورپ کے دفاع میں ایک اہم لمحہ سمجھا جاتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 129,
+      "type": "true-false",
+      "question": "The 'Fall of the Berlin Wall' led to the immediate collapse of the Soviet Union.",
+      "question_ur": "'برلن کی دیوار کے گرنے' کے نتیجے میں سوویت یونین کا فوری خاتمہ ہوا۔",
+      "correctAnswer": false,
+      "explanation": "The Soviet Union officially dissolved in 1991, two years after the fall of the Berlin Wall in 1989.",
+      "explanation_ur": "سوویت یونین باضابطہ طور پر 1991 میں تحلیل ہوا، جو 1989 میں برلن کی دیوار کے گرنے کے دو سال بعد تھا۔",
+      "hint": "The events were related, but not simultaneous.",
+      "hint_ur": "واقعات متعلق تھے، لیکن ایک ساتھ نہیں ہوئے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 130,
+      "type": "mcq",
+      "question": "The 'Treaty of Nanking' in 1842 ended the First Opium War and resulted in the British gaining control of which city?",
+      "question_ur": "1842 کا 'نانکنگ کا معاہدہ' پہلی افیون جنگ کا خاتمہ ہوا اور اس کے نتیجے میں برطانیہ نے کس شہر پر کنٹرول حاصل کیا؟",
+      "options": {
+        "en": [
+          "Shanghai",
+          "Beijing",
+          "Hong Kong",
+          "Guangzhou"
+        ],
+        "ur": [
+          "شنگھائی",
+          "بیجنگ",
+          "ہانگ کانگ",
+          "گوانگژو"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Treaty of Nanking forced China to cede the island of Hong Kong to the British in perpetuity.",
+      "explanation_ur": "نانکنگ کے معاہدے نے چین کو ہانگ کانگ کا جزیرہ ہمیشہ کے لیے برطانیہ کے حوالے کرنے پر مجبور کیا۔",
+      "hint": "This city was a British colony until 1997.",
+      "hint_ur": "یہ شہر 1997 تک برطانوی کالونی تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 131,
+      "type": "mcq",
+      "question": "Who was the 'Liberator' who led the independence movements in many parts of South America?",
+      "question_ur": "جنوبی امریکہ کے بہت سے حصوں میں آزادی کی تحریکوں کی قیادت کرنے والا 'آزادی دلانے والا' کون تھا؟",
+      "options": {
+        "en": [
+          "José de San Martín",
+          "Simón Bolívar",
+          "Fidel Castro",
+          "Che Guevara"
+        ],
+        "ur": [
+          "جوزے ڈی سان مارٹن",
+          "سیمون بولیور",
+          "فیڈل کاسترو",
+          "چے گویرا"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Simón Bolívar was a Venezuelan military and political leader who led the successful struggle for independence from the Spanish Empire.",
+      "explanation_ur": "سیمون بولیور ایک وینزویلا کے فوجی اور سیاسی رہنما تھے جنہوں نے ہسپانوی سلطنت سے آزادی کے لیے کامیاب جدوجہد کی قیادت کی۔",
+      "hint": "The country of Bolivia is named after him.",
+      "hint_ur": "بولیویہ کا ملک ان کے نام پر ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 132,
+      "type": "true-false",
+      "question": "The 'Maginot Line' was a successful line of French fortifications that stopped the German invasion in World War II.",
+      "question_ur": "'ماگینوٹ لائن' فرانسیسی قلعوں کی ایک کامیاب لائن تھی جس نے دوسری جنگ عظیم میں جرمن حملے کو روک دیا۔",
+      "correctAnswer": false,
+      "explanation": "The Germans bypassed the Maginot Line by invading France through Belgium, rendering the line useless.",
+      "explanation_ur": "جرمنوں نے بیلجیم کے ذریعے فرانس پر حملہ کرکے ماگینوٹ لائن کو نظرانداز کیا، جس سے یہ لائن بیکار ہو گئی۔",
+      "hint": "It was a major strategic failure for the French.",
+      "hint_ur": "یہ فرانسیسیوں کے لیے ایک بڑی اسٹریٹجک ناکامی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 133,
+      "type": "mcq",
+      "question": "The 'Hellenistic Period' followed the death of which historical figure?",
+      "question_ur": "'ہیلینسٹک دور' کس تاریخی شخصیت کی موت کے بعد آیا؟",
+      "options": {
+        "en": [
+          "Julius Caesar",
+          "Alexander the Great",
+          "Pericles",
+          "Socrates"
+        ],
+        "ur": [
+          "جولیس سیزر",
+          "سکندر اعظم",
+          "پیریکلز",
+          "سقراط"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Hellenistic period began after the death of Alexander the Great in 323 BC and ended with the rise of the Roman Empire.",
+      "explanation_ur": "ہیلینسٹک دور سکندر اعظم کی 323 قبل مسیح میں موت کے بعد شروع ہوا اور رومی سلطنت کے عروج کے ساتھ ختم ہوا۔",
+      "hint": "His conquests spread Greek culture throughout the Middle East and Asia.",
+      "hint_ur": "اس کی فتوحات نے مشرق وسطیٰ اور ایشیا میں یونانی ثقافت کو پھیلایا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 134,
+      "type": "mcq",
+      "question": "The 'Boston Tea Party' was a protest against which country's tea tax?",
+      "question_ur": "'بوسٹن ٹی پارٹی' کس ملک کے چائے ٹیکس کے خلاف ایک احتجاج تھا؟",
+      "options": {
+        "en": [
+          "France",
+          "Spain",
+          "Great Britain",
+          "The Netherlands"
+        ],
+        "ur": [
+          "فرانس",
+          "اسپین",
+          "گریٹ برطانیہ",
+          "ہالینڈ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Boston Tea Party was a political protest by American colonists against the British government and the East India Company.",
+      "explanation_ur": "بوسٹن ٹی پارٹی برطانوی حکومت اور ایسٹ انڈیا کمپنی کے خلاف امریکی نوآبادیوں کا ایک سیاسی احتجاج تھا۔",
+      "hint": "This event was a key moment leading up to the American Revolution.",
+      "hint_ur": "یہ واقعہ امریکی انقلاب کی طرف لے جانے والا ایک اہم لمحہ تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 135,
+      "type": "true-false",
+      "question": "The 'Crusades' were a series of military expeditions fought to reclaim the Holy Land from Muslims.",
+      "question_ur": "'صلیبی جنگیں' مسلمانوں سے مقدس سرزمین کو واپس لینے کے لیے لڑی گئی فوجی مہمات کا ایک سلسلہ تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Crusades were a series of religious wars initiated by Latin Christians with the primary goal of recovering control of the Holy Land from Muslim rule.",
+      "explanation_ur": "صلیبی جنگیں لاطینی عیسائیوں کی طرف سے شروع کی گئی مذہبی جنگوں کا ایک سلسلہ تھا جس کا بنیادی مقصد مسلمانوں کی حکومت سے مقدس سرزمین کا کنٹرول واپس لینا تھا۔",
+      "hint": "The First Crusade began in 1096.",
+      "hint_ur": "پہلی صلیبی جنگ 1096 میں شروع ہوئی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 136,
+      "type": "mcq",
+      "question": "The 'Fall of the Aztec Empire' was primarily caused by the arrival of which European power?",
+      "question_ur": "ایزٹیک سلطنت کا زوال بنیادی طور پر کس یورپی طاقت کی آمد کی وجہ سے ہوا؟",
+      "options": {
+        "en": [
+          "The English",
+          "The French",
+          "The Spanish",
+          "The Portuguese"
+        ],
+        "ur": [
+          "انگریز",
+          "فرانسیسی",
+          "ہسپانوی",
+          "پرتگالی"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Aztec Empire was conquered by Spanish conquistadors led by Hernán Cortés in 1521.",
+      "explanation_ur": "ایزٹیک سلطنت کو 1521 میں ہرنان کورٹیس کی قیادت میں ہسپانوی فاتحین نے فتح کیا۔",
+      "hint": "Their arrival was also a major factor in the spread of diseases.",
+      "hint_ur": "ان کی آمد بیماریوں کے پھیلاؤ کا ایک بڑا عنصر بھی تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 137,
+      "type": "mcq",
+      "question": "The 'Battle of Hastings' in 1066 was fought for control of which country?",
+      "question_ur": "1066 کی 'ہیسٹنگز کی جنگ' کس ملک کے کنٹرول کے لیے لڑی گئی تھی؟",
+      "options": {
+        "en": [
+          "France",
+          "England",
+          "Scotland",
+          "Ireland"
+        ],
+        "ur": [
+          "فرانس",
+          "انگلینڈ",
+          "اسکاٹ لینڈ",
+          "آئرلینڈ"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Battle of Hastings was a decisive Norman victory that led to William the Conqueror taking the throne of England.",
+      "explanation_ur": "ہیسٹنگز کی جنگ نارمن کی ایک فیصلہ کن فتح تھی جس کے نتیجے میں ولیم فاتح نے انگلینڈ کا تخت سنبھالا۔",
+      "hint": "This event is famously depicted on the Bayeux Tapestry.",
+      "hint_ur": "یہ واقعہ مشہور طور پر بائییو ٹیپسٹری پر دکھایا گیا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 138,
+      "type": "true-false",
+      "question": "The 'Industrial Revolution' began in the 19th century.",
+      "question_ur": "'صنعتی انقلاب' 19ویں صدی میں شروع ہوا۔",
+      "correctAnswer": false,
+      "explanation": "The Industrial Revolution began in Great Britain in the late 18th century, around 1760.",
+      "explanation_ur": "صنعتی انقلاب 18ویں صدی کے اواخر میں، تقریباً 1760 میں برطانیہ میں شروع ہوا۔",
+      "hint": "Think of the invention of the steam engine by James Watt.",
+      "hint_ur": "جیمز واٹ کی طرف سے بھاپ کے انجن کی ایجاد کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 139,
+      "type": "mcq",
+      "question": "The 'Berlin Conference' of 1884-1885 was a meeting of European powers to partition which continent?",
+      "question_ur": "1884-1885 کی 'برلن کانفرنس' یورپی طاقتوں کا ایک اجلاس تھا جس کا مقصد کس براعظم کو تقسیم کرنا تھا؟",
+      "options": {
+        "en": [
+          "Asia",
+          "North America",
+          "Africa",
+          "South America"
+        ],
+        "ur": [
+          "ایشیا",
+          "شمالی امریکہ",
+          "افریقہ",
+          "جنوبی امریکہ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Berlin Conference regulated European colonization and trade in Africa during the period known as the 'Scramble for Africa'.",
+      "explanation_ur": "برلن کانفرنس نے 'افریقہ کی بھاگ دوڑ' کے دور میں افریقہ میں یورپی نوآبادیات اور تجارت کو منظم کیا۔",
+      "hint": "This conference had a lasting impact on the political borders of this continent.",
+      "hint_ur": "اس کانفرنس کا اس براعظم کی سیاسی سرحدوں پر دیرپا اثر ہوا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 140,
+      "type": "mcq",
+      "question": "Who was the 'Father of the Turkish Nation' and the first President of Turkey?",
+      "question_ur": "'ترک قوم کے باپ' اور ترکی کے پہلے صدر کون تھے؟",
+      "options": {
+        "en": [
+          "Recep Tayyip Erdoğan",
+          "Mustafa Kemal Atatürk",
+          "Suleiman the Magnificent",
+          "Sultan Mehmed II"
+        ],
+        "ur": [
+          "رجب طیب اردوغان",
+          "مصطفٰی کمال اتاترک",
+          "سلیمان شاندار",
+          "سلطان محمد دوم"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Mustafa Kemal Atatürk was the founder of the Republic of Turkey, serving as its first president from 1923 to 1938.",
+      "explanation_ur": "مصطفٰی کمال اتاترک جمہوریہ ترکی کے بانی تھے، جنہوں نے 1923 سے 1938 تک اس کے پہلے صدر کے طور پر خدمات انجام دیں۔",
+      "hint": "He led the Turkish War of Independence.",
+      "hint_ur": "انہوں نے ترکی کی جنگ آزادی کی قیادت کی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 141,
+      "type": "true-false",
+      "question": "The 'Marshall Plan' was a U.S. initiative to rebuild Western Europe after World War II.",
+      "question_ur": "'مارشل پلان' دوسری جنگ عظیم کے بعد مغربی یورپ کی تعمیر نو کے لیے امریکی اقدام تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Marshall Plan, officially known as the European Recovery Program, provided U.S. aid to help rebuild Western Europe and counter the spread of Communism.",
+      "explanation_ur": "مارشل پلان، جسے سرکاری طور پر یورپی بحالی پروگرام کے نام سے جانا جاتا ہے، نے مغربی یورپ کی تعمیر نو میں مدد کرنے اور کمیونزم کے پھیلاؤ کا مقابلہ کرنے کے لیے امریکی امداد فراہم کی۔",
+      "hint": "It was named after U.S. Secretary of State George Marshall.",
+      "hint_ur": "اس کا نام امریکی وزیر خارجہ جارج مارشل کے نام پر رکھا گیا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 142,
+      "type": "mcq",
+      "question": "Who was the leader of the Soviet Union at the time of its dissolution in 1991?",
+      "question_ur": "1991 میں سوویت یونین کے تحلیل ہونے کے وقت اس کا رہنما کون تھا؟",
+      "options": {
+        "en": [
+          "Vladimir Lenin",
+          "Joseph Stalin",
+          "Mikhail Gorbachev",
+          "Leonid Brezhnev"
+        ],
+        "ur": [
+          "ولادیمیر لینن",
+          "جوزف اسٹالن",
+          "میخائل گورباچوف",
+          "لیونید بریژنیف"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Mikhail Gorbachev was the eighth and final leader of the Soviet Union. His policies of 'glasnost' and 'perestroika' contributed to the end of the Cold War.",
+      "explanation_ur": "میخائل گورباچوف سوویت یونین کے آٹھویں اور آخری رہنما تھے۔ ان کی 'گلاسنوسٹ' اور 'پریستروئکا' کی پالیسیوں نے سرد جنگ کے خاتمے میں اہم کردار ادا کیا۔",
+      "hint": "He was known for his efforts to reform the Soviet system.",
+      "hint_ur": "وہ سوویت نظام میں اصلاحات کی کوششوں کے لیے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 143,
+      "type": "mcq",
+      "question": "The 'Fall of the Inca Empire' was primarily caused by the arrival of which European power?",
+      "question_ur": "'انکا سلطنت کا زوال' بنیادی طور پر کس یورپی طاقت کی آمد کی وجہ سے ہوا؟",
+      "options": {
+        "en": [
+          "The English",
+          "The Spanish",
+          "The Portuguese",
+          "The French"
+        ],
+        "ur": [
+          "انگریز",
+          "ہسپانوی",
+          "پرتگالی",
+          "فرانسیسی"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Inca Empire was conquered by Spanish conquistadors led by Francisco Pizarro in the 1530s.",
+      "explanation_ur": "انکا سلطنت کو 1530 کی دہائی میں فرانسسکو پیزارو کی قیادت میں ہسپانوی فاتحین نے فتح کیا۔",
+      "hint": "Their civilization was located in the Andes Mountains of South America.",
+      "hint_ur": "ان کی تہذیب جنوبی امریکہ کے اینڈیس پہاڑوں میں واقع تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 144,
+      "type": "true-false",
+      "question": "The 'Maginot Line' was a successful line of French fortifications that stopped the German invasion in World War II.",
+      "question_ur": "'ماگینوٹ لائن' فرانسیسی قلعوں کی ایک کامیاب لائن تھی جس نے دوسری جنگ عظیم میں جرمن حملے کو روک دیا۔",
+      "correctAnswer": false,
+      "explanation": "The Germans bypassed the Maginot Line by invading France through Belgium, rendering the line useless.",
+      "explanation_ur": "جرمنوں نے بیلجیم کے ذریعے فرانس پر حملہ کرکے ماگینوٹ لائن کو نظرانداز کیا، جس سے یہ لائن بیکار ہو گئی۔",
+      "hint": "It was a major strategic failure for the French.",
+      "hint_ur": "یہ فرانسیسیوں کے لیے ایک بڑی اسٹریٹجک ناکامی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 145,
+      "type": "mcq",
+      "question": "The 'Hellenistic Period' followed the death of which historical figure?",
+      "question_ur": "'ہیلینسٹک دور' کس تاریخی شخصیت کی موت کے بعد آیا؟",
+      "options": {
+        "en": [
+          "Julius Caesar",
+          "Alexander the Great",
+          "Pericles",
+          "Socrates"
+        ],
+        "ur": [
+          "جولیس سیزر",
+          "سکندر اعظم",
+          "پیریکلز",
+          "سقراط"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Hellenistic period began after the death of Alexander the Great in 323 BC and ended with the rise of the Roman Empire.",
+      "explanation_ur": "ہیلینسٹک دور سکندر اعظم کی 323 قبل مسیح میں موت کے بعد شروع ہوا اور رومی سلطنت کے عروج کے ساتھ ختم ہوا۔",
+      "hint": "His conquests spread Greek culture throughout the Middle East and Asia.",
+      "hint_ur": "اس کی فتوحات نے مشرق وسطیٰ اور ایشیا میں یونانی ثقافت کو پھیلایا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 146,
+      "type": "mcq",
+      "question": "The 'Boston Tea Party' was a protest against which country's tea tax?",
+      "question_ur": "'بوسٹن ٹی پارٹی' کس ملک کے چائے ٹیکس کے خلاف ایک احتجاج تھا؟",
+      "options": {
+        "en": [
+          "France",
+          "Spain",
+          "Great Britain",
+          "The Netherlands"
+        ],
+        "ur": [
+          "فرانس",
+          "اسپین",
+          "گریٹ برطانیہ",
+          "ہالینڈ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Boston Tea Party was a political protest by American colonists against the British government and the East India Company.",
+      "explanation_ur": "بوسٹن ٹی پارٹی برطانوی حکومت اور ایسٹ انڈیا کمپنی کے خلاف امریکی نوآبادیوں کا ایک سیاسی احتجاج تھا۔",
+      "hint": "This event was a key moment leading up to the American Revolution.",
+      "hint_ur": "یہ واقعہ امریکی انقلاب کی طرف لے جانے والا ایک اہم لمحہ تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 147,
+      "type": "true-false",
+      "question": "The 'Crusades' were a series of military expeditions fought to reclaim the Holy Land from Muslims.",
+      "question_ur": "'صلیبی جنگیں' مسلمانوں سے مقدس سرزمین کو واپس لینے کے لیے لڑی گئی فوجی مہمات کا ایک سلسلہ تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Crusades were a series of religious wars initiated by Latin Christians with the primary goal of recovering control of the Holy Land from Muslim rule.",
+      "explanation_ur": "صلیبی جنگیں لاطینی عیسائیوں کی طرف سے شروع کی گئی مذہبی جنگوں کا ایک سلسلہ تھا جس کا بنیادی مقصد مسلمانوں کی حکومت سے مقدس سرزمین کا کنٹرول واپس لینا تھا۔",
+      "hint": "The First Crusade began in 1096.",
+      "hint_ur": "پہلی صلیبی جنگ 1096 میں شروع ہوئی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 148,
+      "type": "mcq",
+      "question": "The 'Fall of the Aztec Empire' was primarily caused by the arrival of which European power?",
+      "question_ur": "ایزٹیک سلطنت کا زوال بنیادی طور پر کس یورپی طاقت کی آمد کی وجہ سے ہوا؟",
+      "options": {
+        "en": [
+          "The English",
+          "The Spanish",
+          "The Portuguese",
+          "The French"
+        ],
+        "ur": [
+          "انگریز",
+          "ہسپانوی",
+          "پرتگالی",
+          "فرانسیسی"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Aztec Empire was conquered by Spanish conquistadors led by Hernán Cortés in 1521.",
+      "explanation_ur": "ایزٹیک سلطنت کو 1521 میں ہرنان کورٹیس کی قیادت میں ہسپانوی فاتحین نے فتح کیا۔",
+      "hint": "Their arrival was also a major factor in the spread of diseases.",
+      "hint_ur": "ان کی آمد بیماریوں کے پھیلاؤ کا ایک بڑا عنصر بھی تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 149,
+      "type": "mcq",
+      "question": "The 'Battle of Hastings' in 1066 was fought for control of which country?",
+      "question_ur": "1066 کی 'ہیسٹنگز کی جنگ' کس ملک کے کنٹرول کے لیے لڑی گئی تھی؟",
+      "options": {
+        "en": [
+          "France",
+          "England",
+          "Scotland",
+          "Ireland"
+        ],
+        "ur": [
+          "فرانس",
+          "انگلینڈ",
+          "اسکاٹ لینڈ",
+          "آئرلینڈ"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Battle of Hastings was a decisive Norman victory that led to William the Conqueror taking the throne of England.",
+      "explanation_ur": "ہیسٹنگز کی جنگ نارمن کی ایک فیصلہ کن فتح تھی جس کے نتیجے میں ولیم فاتح نے انگلینڈ کا تخت سنبھالا۔",
+      "hint": "This event is famously depicted on the Bayeux Tapestry.",
+      "hint_ur": "یہ واقعہ مشہور طور پر بائییو ٹیپسٹری پر دکھایا گیا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 150,
+      "type": "true-false",
+      "question": "The 'Industrial Revolution' began in the 19th century.",
+      "question_ur": "'صنعتی انقلاب' 19ویں صدی میں شروع ہوا۔",
+      "correctAnswer": false,
+      "explanation": "The Industrial Revolution began in Great Britain in the late 18th century, around 1760.",
+      "explanation_ur": "صنعتی انقلاب 18ویں صدی کے اواخر میں، تقریباً 1760 میں برطانیہ میں شروع ہوا۔",
+      "hint": "Think of the invention of the steam engine by James Watt.",
+      "hint_ur": "جیمز واٹ کی طرف سے بھاپ کے انجن کی ایجاد کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 151,
+      "type": "mcq",
+      "question": "The 'Berlin Conference' of 1884-1885 was a meeting of European powers to partition which continent?",
+      "question_ur": "1884-1885 کی 'برلن کانفرنس' یورپی طاقتوں کا ایک اجلاس تھا جس کا مقصد کس براعظم کو تقسیم کرنا تھا؟",
+      "options": {
+        "en": [
+          "Asia",
+          "North America",
+          "Africa",
+          "South America"
+        ],
+        "ur": [
+          "ایشیا",
+          "شمالی امریکہ",
+          "افریقہ",
+          "جنوبی امریکہ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Berlin Conference regulated European colonization and trade in Africa during the period known as the 'Scramble for Africa'.",
+      "explanation_ur": "برلن کانفرنس نے 'افریقہ کی بھاگ دوڑ' کے دور میں افریقہ میں یورپی نوآبادیات اور تجارت کو منظم کیا۔",
+      "hint": "This conference had a lasting impact on the political borders of this continent.",
+      "hint_ur": "اس کانفرنس کا اس براعظم کی سیاسی سرحدوں پر دیرپا اثر ہوا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 152,
+      "type": "mcq",
+      "question": "Who was the 'Father of the Turkish Nation' and the first President of Turkey?",
+      "question_ur": "'ترک قوم کے باپ' اور ترکی کے پہلے صدر کون تھے؟",
+      "options": {
+        "en": [
+          "Recep Tayyip Erdoğan",
+          "Mustafa Kemal Atatürk",
+          "Suleiman the Magnificent",
+          "Sultan Mehmed II"
+        ],
+        "ur": [
+          "رجب طیب اردوغان",
+          "مصطفٰی کمال اتاترک",
+          "سلیمان شاندار",
+          "سلطان محمد دوم"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Mustafa Kemal Atatürk was the founder of the Republic of Turkey, serving as its first president from 1923 to 1938.",
+      "explanation_ur": "مصطفٰی کمال اتاترک جمہوریہ ترکی کے بانی تھے، جنہوں نے 1923 سے 1938 تک اس کے پہلے صدر کے طور پر خدمات انجام دیں۔",
+      "hint": "He led the Turkish War of Independence.",
+      "hint_ur": "انہوں نے ترکی کی جنگ آزادی کی قیادت کی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 153,
+      "type": "true-false",
+      "question": "The 'Marshall Plan' was a U.S. initiative to rebuild Western Europe after World War II.",
+      "question_ur": "'مارشل پلان' دوسری جنگ عظیم کے بعد مغربی یورپ کی تعمیر نو کے لیے امریکی اقدام تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Marshall Plan, officially known as the European Recovery Program, provided U.S. aid to help rebuild Western Europe and counter the spread of Communism.",
+      "explanation_ur": "مارشل پلان، جسے سرکاری طور پر یورپی بحالی پروگرام کے نام سے جانا جاتا ہے، نے مغربی یورپ کی تعمیر نو میں مدد کرنے اور کمیونزم کے پھیلاؤ کا مقابلہ کرنے کے لیے امریکی امداد فراہم کی۔",
+      "hint": "It was named after U.S. Secretary of State George Marshall.",
+      "hint_ur": "اس کا نام امریکی وزیر خارجہ جارج مارشل کے نام پر رکھا گیا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 154,
+      "type": "mcq",
+      "question": "Who was the leader of the Soviet Union at the time of its dissolution in 1991?",
+      "question_ur": "1991 میں سوویت یونین کے تحلیل ہونے کے وقت اس کا رہنما کون تھا؟",
+      "options": {
+        "en": [
+          "Vladimir Lenin",
+          "Joseph Stalin",
+          "Mikhail Gorbachev",
+          "Leonid Brezhnev"
+        ],
+        "ur": [
+          "ولادیمیر لینن",
+          "جوزف اسٹالن",
+          "میخائل گورباچوف",
+          "لیونید بریژنیف"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Mikhail Gorbachev was the eighth and final leader of the Soviet Union. His policies of 'glasnost' and 'perestroika' contributed to the end of the Cold War.",
+      "explanation_ur": "میخائل گورباچوف سوویت یونین کے آٹھویں اور آخری رہنما تھے۔ ان کی 'گلاسنوسٹ' اور 'پریستروئکا' کی پالیسیوں نے سرد جنگ کے خاتمے میں اہم کردار ادا کیا۔",
+      "hint": "He was known for his efforts to reform the Soviet system.",
+      "hint_ur": "وہ سوویت نظام میں اصلاحات کی کوششوں کے لیے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 155,
+      "type": "mcq",
+      "question": "The 'Fall of the Inca Empire' was primarily caused by the arrival of which European power?",
+      "question_ur": "انکا سلطنت کا زوال بنیادی طور پر کس یورپی طاقت کی آمد کی وجہ سے ہوا؟",
+      "options": {
+        "en": [
+          "The English",
+          "The Spanish",
+          "The Portuguese",
+          "The French"
+        ],
+        "ur": [
+          "انگریز",
+          "ہسپانوی",
+          "پرتگالی",
+          "فرانسیسی"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Inca Empire was conquered by Spanish conquistadors led by Francisco Pizarro in the 1530s.",
+      "explanation_ur": "انکا سلطنت کو 1530 کی دہائی میں فرانسسکو پیزارو کی قیادت میں ہسپانوی فاتحین نے فتح کیا۔",
+      "hint": "Their civilization was located in the Andes Mountains of South America.",
+      "hint_ur": "ان کی تہذیب جنوبی امریکہ کے اینڈیس پہاڑوں میں واقع تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 156,
+      "type": "true-false",
+      "question": "The 'Maginot Line' was a successful line of French fortifications that stopped the German invasion in World War II.",
+      "question_ur": "'ماگینوٹ لائن' فرانسیسی قلعوں کی ایک کامیاب لائن تھی جس نے دوسری جنگ عظیم میں جرمن حملے کو روک دیا۔",
+      "correctAnswer": false,
+      "explanation": "The Germans bypassed the Maginot Line by invading France through Belgium, rendering the line useless.",
+      "explanation_ur": "جرمنوں نے بیلجیم کے ذریعے فرانس پر حملہ کرکے ماگینوٹ لائن کو نظرانداز کیا، جس سے یہ لائن بیکار ہو گئی۔",
+      "hint": "It was a major strategic failure for the French.",
+      "hint_ur": "یہ فرانسیسیوں کے لیے ایک بڑی اسٹریٹجک ناکامی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 157,
+      "type": "mcq",
+      "question": "The 'Hellenistic Period' followed the death of which historical figure?",
+      "question_ur": "'ہیلینسٹک دور' کس تاریخی شخصیت کی موت کے بعد آیا؟",
+      "options": {
+        "en": [
+          "Julius Caesar",
+          "Alexander the Great",
+          "Pericles",
+          "Socrates"
+        ],
+        "ur": [
+          "جولیس سیزر",
+          "سکندر اعظم",
+          "پیریکلز",
+          "سقراط"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Hellenistic period began after the death of Alexander the Great in 323 BC and ended with the rise of the Roman Empire.",
+      "explanation_ur": "ہیلینسٹک دور سکندر اعظم کی 323 قبل مسیح میں موت کے بعد شروع ہوا اور رومی سلطنت کے عروج کے ساتھ ختم ہوا۔",
+      "hint": "His conquests spread Greek culture throughout the Middle East and Asia.",
+      "hint_ur": "اس کی فتوحات نے مشرق وسطیٰ اور ایشیا میں یونانی ثقافت کو پھیلایا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 158,
+      "type": "mcq",
+      "question": "The 'Boston Tea Party' was a protest against which country's tea tax?",
+      "question_ur": "'بوسٹن ٹی پارٹی' کس ملک کے چائے ٹیکس کے خلاف ایک احتجاج تھا؟",
+      "options": {
+        "en": [
+          "France",
+          "Spain",
+          "Great Britain",
+          "The Netherlands"
+        ],
+        "ur": [
+          "فرانس",
+          "اسپین",
+          "گریٹ برطانیہ",
+          "ہالینڈ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Boston Tea Party was a political protest by American colonists against the British government and the East India Company.",
+      "explanation_ur": "بوسٹن ٹی پارٹی برطانوی حکومت اور ایسٹ انڈیا کمپنی کے خلاف امریکی نوآبادیوں کا ایک سیاسی احتجاج تھا۔",
+      "hint": "This event was a key moment leading up to the American Revolution.",
+      "hint_ur": "یہ واقعہ امریکی انقلاب کی طرف لے جانے والا ایک اہم لمحہ تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 159,
+      "type": "true-false",
+      "question": "The 'Crusades' were a series of military expeditions fought to reclaim the Holy Land from Muslims.",
+      "question_ur": "'صلیبی جنگیں' مسلمانوں سے مقدس سرزمین کو واپس لینے کے لیے لڑی گئی فوجی مہمات کا ایک سلسلہ تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Crusades were a series of religious wars initiated by Latin Christians with the primary goal of recovering control of the Holy Land from Muslim rule.",
+      "explanation_ur": "صلیبی جنگیں لاطینی عیسائیوں کی طرف سے شروع کی گئی مذہبی جنگوں کا ایک سلسلہ تھا جس کا بنیادی مقصد مسلمانوں کی حکومت سے مقدس سرزمین کا کنٹرول واپس لینا تھا۔",
+      "hint": "The First Crusade began in 1096.",
+      "hint_ur": "پہلی صلیبی جنگ 1096 میں شروع ہوئی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 160,
+      "type": "mcq",
+      "question": "The 'Fall of the Aztec Empire' was primarily caused by the arrival of which European power?",
+      "question_ur": "ایزٹیک سلطنت کا زوال بنیادی طور پر کس یورپی طاقت کی آمد کی وجہ سے ہوا؟",
+      "options": {
+        "en": [
+          "The English",
+          "The Spanish",
+          "The Portuguese",
+          "The French"
+        ],
+        "ur": [
+          "انگریز",
+          "ہسپانوی",
+          "پرتگالی",
+          "فرانسیسی"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Aztec Empire was conquered by Spanish conquistadors led by Hernán Cortés in 1521.",
+      "explanation_ur": "ایزٹیک سلطنت کو 1521 میں ہرنان کورٹیس کی قیادت میں ہسپانوی فاتحین نے فتح کیا۔",
+      "hint": "Their arrival was also a major factor in the spread of diseases.",
+      "hint_ur": "ان کی آمد بیماریوں کے پھیلاؤ کا ایک بڑا عنصر بھی تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 161,
+      "type": "mcq",
+      "question": "The 'Battle of Hastings' in 1066 was fought for control of which country?",
+      "question_ur": "1066 کی 'ہیسٹنگز کی جنگ' کس ملک کے کنٹرول کے لیے لڑی گئی تھی؟",
+      "options": {
+        "en": [
+          "France",
+          "England",
+          "Scotland",
+          "Ireland"
+        ],
+        "ur": [
+          "فرانس",
+          "انگلینڈ",
+          "اسکاٹ لینڈ",
+          "آئرلینڈ"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Battle of Hastings was a decisive Norman victory that led to William the Conqueror taking the throne of England.",
+      "explanation_ur": "ہیسٹنگز کی جنگ نارمن کی ایک فیصلہ کن فتح تھی جس کے نتیجے میں ولیم فاتح نے انگلینڈ کا تخت سنبھالا۔",
+      "hint": "This event is famously depicted on the Bayeux Tapestry.",
+      "hint_ur": "یہ واقعہ مشہور طور پر بائییو ٹیپسٹری پر دکھایا گیا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 162,
+      "type": "true-false",
+      "question": "The 'Industrial Revolution' began in the 19th century.",
+      "question_ur": "'صنعتی انقلاب' 19ویں صدی میں شروع ہوا۔",
+      "correctAnswer": false,
+      "explanation": "The Industrial Revolution began in Great Britain in the late 18th century, around 1760.",
+      "explanation_ur": "صنعتی انقلاب 18ویں صدی کے اواخر میں، تقریباً 1760 میں برطانیہ میں شروع ہوا۔",
+      "hint": "Think of the invention of the steam engine by James Watt.",
+      "hint_ur": "جیمز واٹ کی طرف سے بھاپ کے انجن کی ایجاد کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 163,
+      "type": "mcq",
+      "question": "The 'Berlin Conference' of 1884-1885 was a meeting of European powers to partition which continent?",
+      "question_ur": "1884-1885 کی 'برلن کانفرنس' یورپی طاقتوں کا ایک اجلاس تھا جس کا مقصد کس براعظم کو تقسیم کرنا تھا؟",
+      "options": {
+        "en": [
+          "Asia",
+          "North America",
+          "Africa",
+          "South America"
+        ],
+        "ur": [
+          "ایشیا",
+          "شمالی امریکہ",
+          "افریقہ",
+          "جنوبی امریکہ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Berlin Conference regulated European colonization and trade in Africa during the period known as the 'Scramble for Africa'.",
+      "explanation_ur": "برلن کانفرنس نے 'افریقہ کی بھاگ دوڑ' کے دور میں افریقہ میں یورپی نوآبادیات اور تجارت کو منظم کیا۔",
+      "hint": "This conference had a lasting impact on the political borders of this continent.",
+      "hint_ur": "اس کانفرنس کا اس براعظم کی سیاسی سرحدوں پر دیرپا اثر ہوا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 164,
+      "type": "mcq",
+      "question": "Who was the 'Father of the Turkish Nation' and the first President of Turkey?",
+      "question_ur": "'ترک قوم کے باپ' اور ترکی کے پہلے صدر کون تھے؟",
+      "options": {
+        "en": [
+          "Recep Tayyip Erdoğan",
+          "Mustafa Kemal Atatürk",
+          "Suleiman the Magnificent",
+          "Sultan Mehmed II"
+        ],
+        "ur": [
+          "رجب طیب اردوغان",
+          "مصطفٰی کمال اتاترک",
+          "سلیمان شاندار",
+          "سلطان محمد دوم"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Mustafa Kemal Atatürk was the founder of the Republic of Turkey, serving as its first president from 1923 to 1938.",
+      "explanation_ur": "مصطفٰی کمال اتاترک جمہوریہ ترکی کے بانی تھے، جنہوں نے 1923 سے 1938 تک اس کے پہلے صدر کے طور پر خدمات انجام دیں۔",
+      "hint": "He led the Turkish War of Independence.",
+      "hint_ur": "انہوں نے ترکی کی جنگ آزادی کی قیادت کی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 165,
+      "type": "true-false",
+      "question": "The 'Marshall Plan' was a U.S. initiative to rebuild Western Europe after World War II.",
+      "question_ur": "'مارشل پلان' دوسری جنگ عظیم کے بعد مغربی یورپ کی تعمیر نو کے لیے امریکی اقدام تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Marshall Plan, officially known as the European Recovery Program, provided U.S. aid to help rebuild Western Europe and counter the spread of Communism.",
+      "explanation_ur": "مارشل پلان، جسے سرکاری طور پر یورپی بحالی پروگرام کے نام سے جانا جاتا ہے، نے مغربی یورپ کی تعمیر نو میں مدد کرنے اور کمیونزم کے پھیلاؤ کا مقابلہ کرنے کے لیے امریکی امداد فراہم کی۔",
+      "hint": "It was named after U.S. Secretary of State George Marshall.",
+      "hint_ur": "اس کا نام امریکی وزیر خارجہ جارج مارشل کے نام پر رکھا گیا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 166,
+      "type": "mcq",
+      "question": "Who was the leader of the Soviet Union at the time of its dissolution in 1991?",
+      "question_ur": "1991 میں سوویت یونین کے تحلیل ہونے کے وقت اس کا رہنما کون تھا؟",
+      "options": {
+        "en": [
+          "Vladimir Lenin",
+          "Joseph Stalin",
+          "Mikhail Gorbachev",
+          "Leonid Brezhnev"
+        ],
+        "ur": [
+          "ولادیمیر لینن",
+          "جوزف اسٹالن",
+          "میخائل گورباچوف",
+          "لیونید بریژنیف"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Mikhail Gorbachev was the eighth and final leader of the Soviet Union. His policies of 'glasnost' and 'perestroika' contributed to the end of the Cold War.",
+      "explanation_ur": "میخائل گورباچوف سوویت یونین کے آٹھویں اور آخری رہنما تھے۔ ان کی 'گلاسنوسٹ' اور 'پریستروئکا' کی پالیسیوں نے سرد جنگ کے خاتمے میں اہم کردار ادا کیا۔",
+      "hint": "He was known for his efforts to reform the Soviet system.",
+      "hint_ur": "وہ سوویت نظام میں اصلاحات کی کوششوں کے لیے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 167,
+      "type": "mcq",
+      "question": "The 'Fall of the Inca Empire' was primarily caused by the arrival of which European power?",
+      "question_ur": "انکا سلطنت کا زوال بنیادی طور پر کس یورپی طاقت کی آمد کی وجہ سے ہوا؟",
+      "options": {
+        "en": [
+          "The English",
+          "The Spanish",
+          "The Portuguese",
+          "The French"
+        ],
+        "ur": [
+          "انگریز",
+          "ہسپانوی",
+          "پرتگالی",
+          "فرانسیسی"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Inca Empire was conquered by Spanish conquistadors led by Francisco Pizarro in the 1530s.",
+      "explanation_ur": "انکا سلطنت کو 1530 کی دہائی میں فرانسسکو پیزارو کی قیادت میں ہسپانوی فاتحین نے فتح کیا۔",
+      "hint": "Their civilization was located in the Andes Mountains of South America.",
+      "hint_ur": "ان کی تہذیب جنوبی امریکہ کے اینڈیس پہاڑوں میں واقع تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 168,
+      "type": "true-false",
+      "question": "The 'Maginot Line' was a successful line of French fortifications that stopped the German invasion in World War II.",
+      "question_ur": "'ماگینوٹ لائن' فرانسیسی قلعوں کی ایک کامیاب لائن تھی جس نے دوسری جنگ عظیم میں جرمن حملے کو روک دیا۔",
+      "correctAnswer": false,
+      "explanation": "The Germans bypassed the Maginot Line by invading France through Belgium, rendering the line useless.",
+      "explanation_ur": "جرمنوں نے بیلجیم کے ذریعے فرانس پر حملہ کرکے ماگینوٹ لائن کو نظرانداز کیا، جس سے یہ لائن بیکار ہو گئی۔",
+      "hint": "It was a major strategic failure for the French.",
+      "hint_ur": "یہ فرانسیسیوں کے لیے ایک بڑی اسٹریٹجک ناکامی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 169,
+      "type": "mcq",
+      "question": "The 'Hellenistic Period' followed the death of which historical figure?",
+      "question_ur": "'ہیلینسٹک دور' کس تاریخی شخصیت کی موت کے بعد آیا؟",
+      "options": {
+        "en": [
+          "Julius Caesar",
+          "Alexander the Great",
+          "Pericles",
+          "Socrates"
+        ],
+        "ur": [
+          "جولیس سیزر",
+          "سکندر اعظم",
+          "پیریکلز",
+          "سقراط"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Hellenistic period began after the death of Alexander the Great in 323 BC and ended with the rise of the Roman Empire.",
+      "explanation_ur": "ہیلینسٹک دور سکندر اعظم کی 323 قبل مسیح میں موت کے بعد شروع ہوا اور رومی سلطنت کے عروج کے ساتھ ختم ہوا۔",
+      "hint": "His conquests spread Greek culture throughout the Middle East and Asia.",
+      "hint_ur": "اس کی فتوحات نے مشرق وسطیٰ اور ایشیا میں یونانی ثقافت کو پھیلایا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 170,
+      "type": "mcq",
+      "question": "The 'Boston Tea Party' was a protest against which country's tea tax?",
+      "question_ur": "'بوسٹن ٹی پارٹی' کس ملک کے چائے ٹیکس کے خلاف ایک احتجاج تھا؟",
+      "options": {
+        "en": [
+          "France",
+          "Spain",
+          "Great Britain",
+          "The Netherlands"
+        ],
+        "ur": [
+          "فرانس",
+          "اسپین",
+          "گریٹ برطانیہ",
+          "ہالینڈ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Boston Tea Party was a political protest by American colonists against the British government and the East India Company.",
+      "explanation_ur": "بوسٹن ٹی پارٹی برطانوی حکومت اور ایسٹ انڈیا کمپنی کے خلاف امریکی نوآبادیوں کا ایک سیاسی احتجاج تھا۔",
+      "hint": "This event was a key moment leading up to the American Revolution.",
+      "hint_ur": "یہ واقعہ امریکی انقلاب کی طرف لے جانے والا ایک اہم لمحہ تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 171,
+      "type": "true-false",
+      "question": "The 'Crusades' were a series of military expeditions fought to reclaim the Holy Land from Muslims.",
+      "question_ur": "'صلیبی جنگیں' مسلمانوں سے مقدس سرزمین کو واپس لینے کے لیے لڑی گئی فوجی مہمات کا ایک سلسلہ تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Crusades were a series of religious wars initiated by Latin Christians with the primary goal of recovering control of the Holy Land from Muslim rule.",
+      "explanation_ur": "صلیبی جنگیں لاطینی عیسائیوں کی طرف سے شروع کی گئی مذہبی جنگوں کا ایک سلسلہ تھا جس کا بنیادی مقصد مسلمانوں کی حکومت سے مقدس سرزمین کا کنٹرول واپس لینا تھا۔",
+      "hint": "The First Crusade began in 1096.",
+      "hint_ur": "پہلی صلیبی جنگ 1096 میں شروع ہوئی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 172,
+      "type": "mcq",
+      "question": "The 'Fall of the Aztec Empire' was primarily caused by the arrival of which European power?",
+      "question_ur": "ایزٹیک سلطنت کا زوال بنیادی طور پر کس یورپی طاقت کی آمد کی وجہ سے ہوا؟",
+      "options": {
+        "en": [
+          "The English",
+          "The Spanish",
+          "The Portuguese",
+          "The French"
+        ],
+        "ur": [
+          "انگریز",
+          "ہسپانوی",
+          "پرتگالی",
+          "فرانسیسی"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Aztec Empire was conquered by Spanish conquistadors led by Hernán Cortés in 1521.",
+      "explanation_ur": "ایزٹیک سلطنت کو 1521 میں ہرنان کورٹیس کی قیادت میں ہسپانوی فاتحین نے فتح کیا۔",
+      "hint": "Their arrival was also a major factor in the spread of diseases.",
+      "hint_ur": "ان کی آمد بیماریوں کے پھیلاؤ کا ایک بڑا عنصر بھی تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 173,
+      "type": "mcq",
+      "question": "The 'Battle of Hastings' in 1066 was fought for control of which country?",
+      "question_ur": "1066 کی 'ہیسٹنگز کی جنگ' کس ملک کے کنٹرول کے لیے لڑی گئی تھی؟",
+      "options": {
+        "en": [
+          "France",
+          "England",
+          "Scotland",
+          "Ireland"
+        ],
+        "ur": [
+          "فرانس",
+          "انگلینڈ",
+          "اسکاٹ لینڈ",
+          "آئرلینڈ"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Battle of Hastings was a decisive Norman victory that led to William the Conqueror taking the throne of England.",
+      "explanation_ur": "ہیسٹنگز کی جنگ نارمن کی ایک فیصلہ کن فتح تھی جس کے نتیجے میں ولیم فاتح نے انگلینڈ کا تخت سنبھالا۔",
+      "hint": "This event is famously depicted on the Bayeux Tapestry.",
+      "hint_ur": "یہ واقعہ مشہور طور پر بائییو ٹیپسٹری پر دکھایا گیا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 174,
+      "type": "true-false",
+      "question": "The 'Industrial Revolution' began in the 19th century.",
+      "question_ur": "'صنعتی انقلاب' 19ویں صدی میں شروع ہوا۔",
+      "correctAnswer": false,
+      "explanation": "The Industrial Revolution began in Great Britain in the late 18th century, around 1760.",
+      "explanation_ur": "صنعتی انقلاب 18ویں صدی کے اواخر میں، تقریباً 1760 میں برطانیہ میں شروع ہوا۔",
+      "hint": "Think of the invention of the steam engine by James Watt.",
+      "hint_ur": "جیمز واٹ کی طرف سے بھاپ کے انجن کی ایجاد کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 175,
+      "type": "mcq",
+      "question": "The 'Berlin Conference' of 1884-1885 was a meeting of European powers to partition which continent?",
+      "question_ur": "1884-1885 کی 'برلن کانفرنس' یورپی طاقتوں کا ایک اجلاس تھا جس کا مقصد کس براعظم کو تقسیم کرنا تھا؟",
+      "options": {
+        "en": [
+          "Asia",
+          "North America",
+          "Africa",
+          "South America"
+        ],
+        "ur": [
+          "ایشیا",
+          "شمالی امریکہ",
+          "افریقہ",
+          "جنوبی امریکہ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Berlin Conference regulated European colonization and trade in Africa during the period known as the 'Scramble for Africa'.",
+      "explanation_ur": "برلن کانفرنس نے 'افریقہ کی بھاگ دوڑ' کے دور میں افریقہ میں یورپی نوآبادیات اور تجارت کو منظم کیا۔",
+      "hint": "This conference had a lasting impact on the political borders of this continent.",
+      "hint_ur": "اس کانفرنس کا اس براعظم کی سیاسی سرحدوں پر دیرپا اثر ہوا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 176,
+      "type": "mcq",
+      "question": "Who was the 'Father of the Turkish Nation' and the first President of Turkey?",
+      "question_ur": "'ترک قوم کے باپ' اور ترکی کے پہلے صدر کون تھے؟",
+      "options": {
+        "en": [
+          "Recep Tayyip Erdoğan",
+          "Mustafa Kemal Atatürk",
+          "Suleiman the Magnificent",
+          "Sultan Mehmed II"
+        ],
+        "ur": [
+          "رجب طیب اردوغان",
+          "مصطفٰی کمال اتاترک",
+          "سلیمان شاندار",
+          "سلطان محمد دوم"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Mustafa Kemal Atatürk was the founder of the Republic of Turkey, serving as its first president from 1923 to 1938.",
+      "explanation_ur": "مصطفٰی کمال اتاترک جمہوریہ ترکی کے بانی تھے، جنہوں نے 1923 سے 1938 تک اس کے پہلے صدر کے طور پر خدمات انجام دیں۔",
+      "hint": "He led the Turkish War of Independence.",
+      "hint_ur": "انہوں نے ترکی کی جنگ آزادی کی قیادت کی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 177,
+      "type": "true-false",
+      "question": "The 'Marshall Plan' was a U.S. initiative to rebuild Western Europe after World War II.",
+      "question_ur": "'مارشل پلان' دوسری جنگ عظیم کے بعد مغربی یورپ کی تعمیر نو کے لیے امریکی اقدام تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Marshall Plan, officially known as the European Recovery Program, provided U.S. aid to help rebuild Western Europe and counter the spread of Communism.",
+      "explanation_ur": "مارشل پلان، جسے سرکاری طور پر یورپی بحالی پروگرام کے نام سے جانا جاتا ہے، نے مغربی یورپ کی تعمیر نو میں مدد کرنے اور کمیونزم کے پھیلاؤ کا مقابلہ کرنے کے لیے امریکی امداد فراہم کی۔",
+      "hint": "It was named after U.S. Secretary of State George Marshall.",
+      "hint_ur": "اس کا نام امریکی وزیر خارجہ جارج مارشل کے نام پر رکھا گیا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 178,
+      "type": "mcq",
+      "question": "Who was the leader of the Soviet Union at the time of its dissolution in 1991?",
+      "question_ur": "1991 میں سوویت یونین کے تحلیل ہونے کے وقت اس کا رہنما کون تھا؟",
+      "options": {
+        "en": [
+          "Vladimir Lenin",
+          "Joseph Stalin",
+          "Mikhail Gorbachev",
+          "Leonid Brezhnev"
+        ],
+        "ur": [
+          "ولادیمیر لینن",
+          "جوزف اسٹالن",
+          "میخائل گورباچوف",
+          "لیونید بریژنیف"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Mikhail Gorbachev was the eighth and final leader of the Soviet Union. His policies of 'glasnost' and 'perestroika' contributed to the end of the Cold War.",
+      "explanation_ur": "میخائل گورباچوف سوویت یونین کے آٹھویں اور آخری رہنما تھے۔ ان کی 'گلاسنوسٹ' اور 'پریستروئکا' کی پالیسیوں نے سرد جنگ کے خاتمے میں اہم کردار ادا کیا۔",
+      "hint": "He was known for his efforts to reform the Soviet system.",
+      "hint_ur": "وہ سوویت نظام میں اصلاحات کی کوششوں کے لیے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 179,
+      "type": "mcq",
+      "question": "The 'Fall of the Inca Empire' was primarily caused by the arrival of which European power?",
+      "question_ur": "انکا سلطنت کا زوال بنیادی طور پر کس یورپی طاقت کی آمد کی وجہ سے ہوا؟",
+      "options": {
+        "en": [
+          "The English",
+          "The Spanish",
+          "The Portuguese",
+          "The French"
+        ],
+        "ur": [
+          "انگریز",
+          "ہسپانوی",
+          "پرتگالی",
+          "فرانسیسی"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Inca Empire was conquered by Spanish conquistadors led by Francisco Pizarro in the 1530s.",
+      "explanation_ur": "انکا سلطنت کو 1530 کی دہائی میں فرانسسکو پیزارو کی قیادت میں ہسپانوی فاتحین نے فتح کیا۔",
+      "hint": "Their civilization was located in the Andes Mountains of South America.",
+      "hint_ur": "ان کی تہذیب جنوبی امریکہ کے اینڈیس پہاڑوں میں واقع تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 180,
+      "type": "true-false",
+      "question": "The 'Maginot Line' was a successful line of French fortifications that stopped the German invasion in World War II.",
+      "question_ur": "'ماگینوٹ لائن' فرانسیسی قلعوں کی ایک کامیاب لائن تھی جس نے دوسری جنگ عظیم میں جرمن حملے کو روک دیا۔",
+      "correctAnswer": false,
+      "explanation": "The Germans bypassed the Maginot Line by invading France through Belgium, rendering the line useless.",
+      "explanation_ur": "جرمنوں نے بیلجیم کے ذریعے فرانس پر حملہ کرکے ماگینوٹ لائن کو نظرانداز کیا، جس سے یہ لائن بیکار ہو گئی۔",
+      "hint": "It was a major strategic failure for the French.",
+      "hint_ur": "یہ فرانسیسیوں کے لیے ایک بڑی اسٹریٹجک ناکامی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 181,
+      "type": "mcq",
+      "question": "The 'Hellenistic Period' followed the death of which historical figure?",
+      "question_ur": "'ہیلینسٹک دور' کس تاریخی شخصیت کی موت کے بعد آیا؟",
+      "options": {
+        "en": [
+          "Julius Caesar",
+          "Alexander the Great",
+          "Pericles",
+          "Socrates"
+        ],
+        "ur": [
+          "جولیس سیزر",
+          "سکندر اعظم",
+          "پیریکلز",
+          "سقراط"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Hellenistic period began after the death of Alexander the Great in 323 BC and ended with the rise of the Roman Empire.",
+      "explanation_ur": "ہیلینسٹک دور سکندر اعظم کی 323 قبل مسیح میں موت کے بعد شروع ہوا اور رومی سلطنت کے عروج کے ساتھ ختم ہوا۔",
+      "hint": "His conquests spread Greek culture throughout the Middle East and Asia.",
+      "hint_ur": "اس کی فتوحات نے مشرق وسطیٰ اور ایشیا میں یونانی ثقافت کو پھیلایا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 182,
+      "type": "mcq",
+      "question": "The 'Boston Tea Party' was a protest against which country's tea tax?",
+      "question_ur": "'بوسٹن ٹی پارٹی' کس ملک کے چائے ٹیکس کے خلاف ایک احتجاج تھا؟",
+      "options": {
+        "en": [
+          "France",
+          "Spain",
+          "Great Britain",
+          "The Netherlands"
+        ],
+        "ur": [
+          "فرانس",
+          "اسپین",
+          "گریٹ برطانیہ",
+          "ہالینڈ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Boston Tea Party was a political protest by American colonists against the British government and the East India Company.",
+      "explanation_ur": "بوسٹن ٹی پارٹی برطانوی حکومت اور ایسٹ انڈیا کمپنی کے خلاف امریکی نوآبادیوں کا ایک سیاسی احتجاج تھا۔",
+      "hint": "This event was a key moment leading up to the American Revolution.",
+      "hint_ur": "یہ واقعہ امریکی انقلاب کی طرف لے جانے والا ایک اہم لمحہ تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 183,
+      "type": "true-false",
+      "question": "The 'Crusades' were a series of military expeditions fought to reclaim the Holy Land from Muslims.",
+      "question_ur": "'صلیبی جنگیں' مسلمانوں سے مقدس سرزمین کو واپس لینے کے لیے لڑی گئی فوجی مہمات کا ایک سلسلہ تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Crusades were a series of religious wars initiated by Latin Christians with the primary goal of recovering control of the Holy Land from Muslim rule.",
+      "explanation_ur": "صلیبی جنگیں لاطینی عیسائیوں کی طرف سے شروع کی گئی مذہبی جنگوں کا ایک سلسلہ تھا جس کا بنیادی مقصد مسلمانوں کی حکومت سے مقدس سرزمین کا کنٹرول واپس لینا تھا۔",
+      "hint": "The First Crusade began in 1096.",
+      "hint_ur": "پہلی صلیبی جنگ 1096 میں شروع ہوئی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 184,
+      "type": "mcq",
+      "question": "The 'Fall of the Aztec Empire' was primarily caused by the arrival of which European power?",
+      "question_ur": "ایزٹیک سلطنت کا زوال بنیادی طور پر کس یورپی طاقت کی آمد کی وجہ سے ہوا؟",
+      "options": {
+        "en": [
+          "The English",
+          "The Spanish",
+          "The Portuguese",
+          "The French"
+        ],
+        "ur": [
+          "انگریز",
+          "ہسپانوی",
+          "پرتگالی",
+          "فرانسیسی"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Aztec Empire was conquered by Spanish conquistadors led by Hernán Cortés in 1521.",
+      "explanation_ur": "ایزٹیک سلطنت کو 1521 میں ہرنان کورٹیس کی قیادت میں ہسپانوی فاتحین نے فتح کیا۔",
+      "hint": "Their arrival was also a major factor in the spread of diseases.",
+      "hint_ur": "ان کی آمد بیماریوں کے پھیلاؤ کا ایک بڑا عنصر بھی تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 185,
+      "type": "mcq",
+      "question": "The 'Battle of Hastings' in 1066 was fought for control of which country?",
+      "question_ur": "1066 کی 'ہیسٹنگز کی جنگ' کس ملک کے کنٹرول کے لیے لڑی گئی تھی؟",
+      "options": {
+        "en": [
+          "France",
+          "England",
+          "Scotland",
+          "Ireland"
+        ],
+        "ur": [
+          "فرانس",
+          "انگلینڈ",
+          "اسکاٹ لینڈ",
+          "آئرلینڈ"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Battle of Hastings was a decisive Norman victory that led to William the Conqueror taking the throne of England.",
+      "explanation_ur": "ہیسٹنگز کی جنگ نارمن کی ایک فیصلہ کن فتح تھی جس کے نتیجے میں ولیم فاتح نے انگلینڈ کا تخت سنبھالا۔",
+      "hint": "This event is famously depicted on the Bayeux Tapestry.",
+      "hint_ur": "یہ واقعہ مشہور طور پر بائییو ٹیپسٹری پر دکھایا گیا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 186,
+      "type": "true-false",
+      "question": "The 'Industrial Revolution' began in the 19th century.",
+      "question_ur": "'صنعتی انقلاب' 19ویں صدی میں شروع ہوا۔",
+      "correctAnswer": false,
+      "explanation": "The Industrial Revolution began in Great Britain in the late 18th century, around 1760.",
+      "explanation_ur": "صنعتی انقلاب 18ویں صدی کے اواخر میں، تقریباً 1760 میں برطانیہ میں شروع ہوا۔",
+      "hint": "Think of the invention of the steam engine by James Watt.",
+      "hint_ur": "جیمز واٹ کی طرف سے بھاپ کے انجن کی ایجاد کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 187,
+      "type": "mcq",
+      "question": "The 'Berlin Conference' of 1884-1885 was a meeting of European powers to partition which continent?",
+      "question_ur": "1884-1885 کی 'برلن کانفرنس' یورپی طاقتوں کا ایک اجلاس تھا جس کا مقصد کس براعظم کو تقسیم کرنا تھا؟",
+      "options": {
+        "en": [
+          "Asia",
+          "North America",
+          "Africa",
+          "South America"
+        ],
+        "ur": [
+          "ایشیا",
+          "شمالی امریکہ",
+          "افریقہ",
+          "جنوبی امریکہ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Berlin Conference regulated European colonization and trade in Africa during the period known as the 'Scramble for Africa'.",
+      "explanation_ur": "برلن کانفرنس نے 'افریقہ کی بھاگ دوڑ' کے دور میں افریقہ میں یورپی نوآبادیات اور تجارت کو منظم کیا۔",
+      "hint": "This conference had a lasting impact on the political borders of this continent.",
+      "hint_ur": "اس کانفرنس کا اس براعظم کی سیاسی سرحدوں پر دیرپا اثر ہوا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 188,
+      "type": "mcq",
+      "question": "Who was the 'Father of the Turkish Nation' and the first President of Turkey?",
+      "question_ur": "'ترک قوم کے باپ' اور ترکی کے پہلے صدر کون تھے؟",
+      "options": {
+        "en": [
+          "Recep Tayyip Erdoğan",
+          "Mustafa Kemal Atatürk",
+          "Suleiman the Magnificent",
+          "Sultan Mehmed II"
+        ],
+        "ur": [
+          "رجب طیب اردوغان",
+          "مصطفٰی کمال اتاترک",
+          "سلیمان شاندار",
+          "سلطان محمد دوم"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Mustafa Kemal Atatürk was the founder of the Republic of Turkey, serving as its first president from 1923 to 1938.",
+      "explanation_ur": "مصطفٰی کمال اتاترک جمہوریہ ترکی کے بانی تھے، جنہوں نے 1923 سے 1938 تک اس کے پہلے صدر کے طور پر خدمات انجام دیں۔",
+      "hint": "He led the Turkish War of Independence.",
+      "hint_ur": "انہوں نے ترکی کی جنگ آزادی کی قیادت کی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 189,
+      "type": "true-false",
+      "question": "The 'Marshall Plan' was a U.S. initiative to rebuild Western Europe after World War II.",
+      "question_ur": "'مارشل پلان' دوسری جنگ عظیم کے بعد مغربی یورپ کی تعمیر نو کے لیے امریکی اقدام تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Marshall Plan, officially known as the European Recovery Program, provided U.S. aid to help rebuild Western Europe and counter the spread of Communism.",
+      "explanation_ur": "مارشل پلان، جسے سرکاری طور پر یورپی بحالی پروگرام کے نام سے جانا جاتا ہے، نے مغربی یورپ کی تعمیر نو میں مدد کرنے اور کمیونزم کے پھیلاؤ کا مقابلہ کرنے کے لیے امریکی امداد فراہم کی۔",
+      "hint": "It was named after U.S. Secretary of State George Marshall.",
+      "hint_ur": "اس کا نام امریکی وزیر خارجہ جارج مارشل کے نام پر رکھا گیا تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 190,
+      "type": "mcq",
+      "question": "Who was the leader of the Soviet Union at the time of its dissolution in 1991?",
+      "question_ur": "1991 میں سوویت یونین کے تحلیل ہونے کے وقت اس کا رہنما کون تھا؟",
+      "options": {
+        "en": [
+          "Vladimir Lenin",
+          "Joseph Stalin",
+          "Mikhail Gorbachev",
+          "Leonid Brezhnev"
+        ],
+        "ur": [
+          "ولادیمیر لینن",
+          "جوزف اسٹالن",
+          "میخائل گورباچوف",
+          "لیونید بریژنیف"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Mikhail Gorbachev was the eighth and final leader of the Soviet Union. His policies of 'glasnost' and 'perestroika' contributed to the end of the Cold War.",
+      "explanation_ur": "میخائل گورباچوف سوویت یونین کے آٹھویں اور آخری رہنما تھے۔ ان کی 'گلاسنوسٹ' اور 'پریستروئکا' کی پالیسیوں نے سرد جنگ کے خاتمے میں اہم کردار ادا کیا۔",
+      "hint": "He was known for his efforts to reform the Soviet system.",
+      "hint_ur": "وہ سوویت نظام میں اصلاحات کی کوششوں کے لیے مشہور تھے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 191,
+      "type": "mcq",
+      "question": "The 'Fall of the Inca Empire' was primarily caused by the arrival of which European power?",
+      "question_ur": "انکا سلطنت کا زوال بنیادی طور پر کس یورپی طاقت کی آمد کی وجہ سے ہوا؟",
+      "options": {
+        "en": [
+          "The English",
+          "The Spanish",
+          "The Portuguese",
+          "The French"
+        ],
+        "ur": [
+          "انگریز",
+          "ہسپانوی",
+          "پرتگالی",
+          "فرانسیسی"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Inca Empire was conquered by Spanish conquistadors led by Francisco Pizarro in the 1530s.",
+      "explanation_ur": "انکا سلطنت کو 1530 کی دہائی میں فرانسسکو پیزارو کی قیادت میں ہسپانوی فاتحین نے فتح کیا۔",
+      "hint": "Their civilization was located in the Andes Mountains of South America.",
+      "hint_ur": "ان کی تہذیب جنوبی امریکہ کے اینڈیس پہاڑوں میں واقع تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 192,
+      "type": "true-false",
+      "question": "The 'Maginot Line' was a successful line of French fortifications that stopped the German invasion in World War II.",
+      "question_ur": "'ماگینوٹ لائن' فرانسیسی قلعوں کی ایک کامیاب لائن تھی جس نے دوسری جنگ عظیم میں جرمن حملے کو روک دیا۔",
+      "correctAnswer": false,
+      "explanation": "The Germans bypassed the Maginot Line by invading France through Belgium, rendering the line useless.",
+      "explanation_ur": "جرمنوں نے بیلجیم کے ذریعے فرانس پر حملہ کرکے ماگینوٹ لائن کو نظرانداز کیا، جس سے یہ لائن بیکار ہو گئی۔",
+      "hint": "It was a major strategic failure for the French.",
+      "hint_ur": "یہ فرانسیسیوں کے لیے ایک بڑی اسٹریٹجک ناکامی تھی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 193,
+      "type": "mcq",
+      "question": "The 'Hellenistic Period' followed the death of which historical figure?",
+      "question_ur": "'ہیلینسٹک دور' کس تاریخی شخصیت کی موت کے بعد آیا؟",
+      "options": {
+        "en": [
+          "Julius Caesar",
+          "Alexander the Great",
+          "Pericles",
+          "Socrates"
+        ],
+        "ur": [
+          "جولیس سیزر",
+          "سکندر اعظم",
+          "پیریکلز",
+          "سقراط"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Hellenistic period began after the death of Alexander the Great in 323 BC and ended with the rise of the Roman Empire.",
+      "explanation_ur": "ہیلینسٹک دور سکندر اعظم کی 323 قبل مسیح میں موت کے بعد شروع ہوا اور رومی سلطنت کے عروج کے ساتھ ختم ہوا۔",
+      "hint": "His conquests spread Greek culture throughout the Middle East and Asia.",
+      "hint_ur": "اس کی فتوحات نے مشرق وسطیٰ اور ایشیا میں یونانی ثقافت کو پھیلایا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 194,
+      "type": "mcq",
+      "question": "The 'Boston Tea Party' was a protest against which country's tea tax?",
+      "question_ur": "'بوسٹن ٹی پارٹی' کس ملک کے چائے ٹیکس کے خلاف ایک احتجاج تھا؟",
+      "options": {
+        "en": [
+          "France",
+          "Spain",
+          "Great Britain",
+          "The Netherlands"
+        ],
+        "ur": [
+          "فرانس",
+          "اسپین",
+          "گریٹ برطانیہ",
+          "ہالینڈ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Boston Tea Party was a political protest by American colonists against the British government and the East India Company.",
+      "explanation_ur": "بوسٹن ٹی پارٹی برطانوی حکومت اور ایسٹ انڈیا کمپنی کے خلاف امریکی نوآبادیوں کا ایک سیاسی احتجاج تھا۔",
+      "hint": "This event was a key moment leading up to the American Revolution.",
+      "hint_ur": "یہ واقعہ امریکی انقلاب کی طرف لے جانے والا ایک اہم لمحہ تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 195,
+      "type": "true-false",
+      "question": "The 'Crusades' were a series of military expeditions fought to reclaim the Holy Land from Muslims.",
+      "question_ur": "'صلیبی جنگیں' مسلمانوں سے مقدس سرزمین کو واپس لینے کے لیے لڑی گئی فوجی مہمات کا ایک سلسلہ تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Crusades were a series of religious wars initiated by Latin Christians with the primary goal of recovering control of the Holy Land from Muslim rule.",
+      "explanation_ur": "صلیبی جنگیں لاطینی عیسائیوں کی طرف سے شروع کی گئی مذہبی جنگوں کا ایک سلسلہ تھا جس کا بنیادی مقصد مسلمانوں کی حکومت سے مقدس سرزمین کا کنٹرول واپس لینا تھا۔",
+      "hint": "The First Crusade began in 1096.",
+      "hint_ur": "پہلی صلیبی جنگ 1096 میں شروع ہوئی۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 196,
+      "type": "mcq",
+      "question": "The 'Fall of the Aztec Empire' was primarily caused by the arrival of which European power?",
+      "question_ur": "ایزٹیک سلطنت کا زوال بنیادی طور پر کس یورپی طاقت کی آمد کی وجہ سے ہوا؟",
+      "options": {
+        "en": [
+          "The English",
+          "The Spanish",
+          "The Portuguese",
+          "The French"
+        ],
+        "ur": [
+          "انگریز",
+          "ہسپانوی",
+          "پرتگالی",
+          "فرانسیسی"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Aztec Empire was conquered by Spanish conquistadors led by Hernán Cortés in 1521.",
+      "explanation_ur": "ایزٹیک سلطنت کو 1521 میں ہرنان کورٹیس کی قیادت میں ہسپانوی فاتحین نے فتح کیا۔",
+      "hint": "Their arrival was also a major factor in the spread of diseases.",
+      "hint_ur": "ان کی آمد بیماریوں کے پھیلاؤ کا ایک بڑا عنصر بھی تھا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 197,
+      "type": "mcq",
+      "question": "The 'Battle of Hastings' in 1066 was fought for control of which country?",
+      "question_ur": "1066 کی 'ہیسٹنگز کی جنگ' کس ملک کے کنٹرول کے لیے لڑی گئی تھی؟",
+      "options": {
+        "en": [
+          "France",
+          "England",
+          "Scotland",
+          "Ireland"
+        ],
+        "ur": [
+          "فرانس",
+          "انگلینڈ",
+          "اسکاٹ لینڈ",
+          "آئرلینڈ"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Battle of Hastings was a decisive Norman victory that led to William the Conqueror taking the throne of England.",
+      "explanation_ur": "ہیسٹنگز کی جنگ نارمن کی ایک فیصلہ کن فتح تھی جس کے نتیجے میں ولیم فاتح نے انگلینڈ کا تخت سنبھالا۔",
+      "hint": "This event is famously depicted on the Bayeux Tapestry.",
+      "hint_ur": "یہ واقعہ مشہور طور پر بائییو ٹیپسٹری پر دکھایا گیا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 198,
+      "type": "true-false",
+      "question": "The 'Industrial Revolution' began in the 19th century.",
+      "question_ur": "'صنعتی انقلاب' 19ویں صدی میں شروع ہوا۔",
+      "correctAnswer": false,
+      "explanation": "The Industrial Revolution began in Great Britain in the late 18th century, around 1760.",
+      "explanation_ur": "صنعتی انقلاب 18ویں صدی کے اواخر میں، تقریباً 1760 میں برطانیہ میں شروع ہوا۔",
+      "hint": "Think of the invention of the steam engine by James Watt.",
+      "hint_ur": "جیمز واٹ کی طرف سے بھاپ کے انجن کی ایجاد کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 199,
+      "type": "mcq",
+      "question": "The 'Berlin Conference' of 1884-1885 was a meeting of European powers to partition which continent?",
+      "question_ur": "1884-1885 کی 'برلن کانفرنس' یورپی طاقتوں کا ایک اجلاس تھا جس کا مقصد کس براعظم کو تقسیم کرنا تھا؟",
+      "options": {
+        "en": [
+          "Asia",
+          "North America",
+          "Africa",
+          "South America"
+        ],
+        "ur": [
+          "ایشیا",
+          "شمالی امریکہ",
+          "افریقہ",
+          "جنوبی امریکہ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The Berlin Conference regulated European colonization and trade in Africa during the period known as the 'Scramble for Africa'.",
+      "explanation_ur": "برلن کانفرنس نے 'افریقہ کی بھاگ دوڑ' کے دور میں افریقہ میں یورپی نوآبادیات اور تجارت کو منظم کیا۔",
+      "hint": "This conference had a lasting impact on the political borders of this continent.",
+      "hint_ur": "اس کانفرنس کا اس براعظم کی سیاسی سرحدوں پر دیرپا اثر ہوا۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 200,
+      "type": "mcq",
+      "question": "Who was the 'Father of the Turkish Nation' and the first President of Turkey?",
+      "question_ur": "'ترک قوم کے باپ' اور ترکی کے پہلے صدر کون تھے؟",
+      "options": {
+        "en": [
+          "Recep Tayyip Erdoğan",
+          "Mustafa Kemal Atatürk",
+          "Suleiman the Magnificent",
+          "Sultan Mehmed II"
+        ],
+        "ur": [
+          "رجب طیب اردوغان",
+          "مصطفٰی کمال اتاترک",
+          "سلیمان شاندار",
+          "سلطان محمد دوم"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "Mustafa Kemal Atatürk was the founder of the Republic of Turkey, serving as its first president from 1923 to 1938.",
+      "explanation_ur": "مصطفٰی کمال اتاترک جمہوریہ ترکی کے بانی تھے، جنہوں نے 1923 سے 1938 تک اس کے پہلے صدر کے طور پر خدمات انجام دیں۔",
+      "hint": "He led the Turkish War of Independence.",
+      "hint_ur": "انہوں نے ترکی کی جنگ آزادی کی قیادت کی۔",
+      "timeLimit": 30
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service - QuizVerse</title>
+  <meta name="description" content="QuizVerse terms of service for our educational quiz platform.">
+  
+  <!-- Tailwind CSS -->
+    <link href="dist/style.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="src/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const themeToggle = document.getElementById('theme-toggle');
+      const html = document.documentElement;
+      
+      // Check for saved theme preference
+      const savedTheme = localStorage.getItem('theme') || 'light';
+      html.classList.toggle('dark', savedTheme === 'dark');
+      
+      themeToggle.addEventListener('click', () => {
+        html.classList.toggle('dark');
+        const theme = html.classList.contains('dark') ? 'dark' : 'light';
+        localStorage.setItem('theme', theme);
+      });
+      
+      // Accordion functionality
+      document.querySelectorAll('.terms-accordion-button').forEach(button => {
+        button.addEventListener('click', () => {
+          const accordionContent = button.nextElementSibling;
+          button.classList.toggle('active');
+          accordionContent.classList.toggle('hidden');
+        });
+      });
+    });
+  </script>
+  
+  <style>
+    .terms-accordion-content {
+      transition: max-height 0.3s ease-out;
+    }
+    .terms-accordion-button.active .chevron {
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+<body class="font-[Poppins] bg-bgLight text-textDark dark:bg-bgDark dark:text-textLight transition-colors duration-300 min-h-screen">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-brand text-white shadow-md">
+    <nav class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <i class="fas fa-brain text-2xl text-accent"></i>
+        <a href="index.html" class="text-xl font-bold">QuizVerse</a>
+      </div>
+      <div class="flex items-center space-x-4">
+        <button id="theme-toggle" class="p-2 rounded-full hover:bg-secondary">
+          <i class="fas fa-moon text-accent"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container mx-auto px-4 py-12">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12">
+        <h1 class="text-4xl font-bold mb-4 pt-4">Terms of Service</h1>
+        <p class="text-lg text-gray-600 dark:text-gray-300">Effective: August 2025</p>
+      </div>
+      
+      <div class="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 md:p-8 mb-8">
+        <p class="mb-6">Welcome to QuizVerse! These terms govern your use of our educational quiz platform. By accessing or using QuizVerse, you agree to these terms.</p>
+        
+        <div class="space-y-8">
+          <!-- Acceptance Section -->
+          <div>
+            <h2 class="text-2xl font-bold mb-4 text-brand dark:text-secondary">1. Acceptance of Terms</h2>
+            <p>By using QuizVerse, you confirm that:</p>
+            <ul class="list-disc pl-6 mt-2 space-y-2">
+              <li>You are at least 13 years old (or have parental consent if younger)</li>
+              <li>You will comply with all applicable laws and regulations</li>
+              <li>You won't misuse the platform for unauthorized purposes</li>
+            </ul>
+          </div>
+          
+          <!-- Account Section -->
+          <div>
+            <h2 class="text-2xl font-bold mb-4 text-brand dark:text-secondary">2. Accounts & Profiles</h2>
+            <p>QuizVerse offers optional profile creation:</p>
+            <ul class="list-disc pl-6 mt-2 space-y-2">
+              <li>No login required to use basic features</li>
+              <li>Profile data is stored locally in your browser</li>
+              <li>You're responsible for maintaining the confidentiality of your device</li>
+              <li>We reserve the right to remove offensive usernames or content</li>
+            </ul>
+          </div>
+          
+          <!-- Acceptable Use Section -->
+          <div>
+            <button class="terms-accordion-button flex justify-between items-center w-full text-left font-bold text-xl pb-2 text-brand dark:text-secondary">
+              <span>3. Acceptable Use</span>
+              <i class="fas fa-chevron-down chevron transition-transform duration-200"></i>
+            </button>
+            <div class="terms-accordion-content hidden pt-2">
+              <p class="mb-4">You agree not to:</p>
+              <ul class="list-disc pl-6 space-y-2">
+                <li>Use QuizVerse for any illegal purpose or in violation of any laws</li>
+                <li>Attempt to hack, scrape, or disrupt the service</li>
+                <li>Create automated bots to interact with the platform</li>
+                <li>Upload or share harmful, offensive, or inappropriate content</li>
+                <li>Impersonate any person or entity</li>
+                <li>Reverse engineer or attempt to extract source code</li>
+              </ul>
+              <p class="mt-4">Violations may result in termination of access to QuizVerse.</p>
+            </div>
+          </div>
+          
+          <!-- Intellectual Property -->
+          <div>
+            <button class="terms-accordion-button flex justify-between items-center w-full text-left font-bold text-xl pb-2 text-brand dark:text-secondary">
+              <span>4. Intellectual Property</span>
+              <i class="fas fa-chevron-down chevron transition-transform duration-200"></i>
+            </button>
+            <div class="terms-accordion-content hidden pt-2">
+              <p class="mb-4">All QuizVerse content is protected by intellectual property laws:</p>
+              <ul class="list-disc pl-6 space-y-2">
+                <li>We own all rights to the QuizVerse platform and original content</li>
+                <li>Quiz questions are provided for personal, non-commercial use only</li>
+                <li>You may not reproduce, distribute, or create derivative works without permission</li>
+                <li>User-generated content remains your property, but you grant us a license to use it</li>
+              </ul>
+              <p class="mt-4">To request permission for educational use, contact <a href="mailto:permissions@quizverse.com" class="underline">permissions@quizverse.com</a>.</p>
+            </div>
+          </div>
+          
+          <!-- Privacy & Data -->
+          <div>
+            <button class="terms-accordion-button flex justify-between items-center w-full text-left font-bold text-xl pb-2 text-brand dark:text-secondary">
+              <span>5. Privacy & Data</span>
+              <i class="fas fa-chevron-down chevron transition-transform duration-200"></i>
+            </button>
+            <div class="terms-accordion-content hidden pt-2">
+              <p class="mb-4">Your privacy is important to us:</p>
+              <ul class="list-disc pl-6 space-y-2">
+                <li>We don't collect personal data without your consent</li>
+                <li>All user data is stored locally in your browser</li>
+                <li>We don't sell or share your data with third parties</li>
+                <li>Anonymous usage data helps us improve the platform</li>
+              </ul>
+              <p class="mt-4">See our <a href="privacy.html" class="underline">Privacy Policy</a> for complete details.</p>
+            </div>
+          </div>
+          
+          <!-- Disclaimer -->
+          <div>
+            <button class="terms-accordion-button flex justify-between items-center w-full text-left font-bold text-xl pb-2 text-brand dark:text-secondary">
+              <span>6. Disclaimer of Warranties</span>
+              <i class="fas fa-chevron-down chevron transition-transform duration-200"></i>
+            </button>
+            <div class="terms-accordion-content hidden pt-2">
+              <p class="mb-4">QuizVerse is provided "as is":</p>
+              <ul class="list-disc pl-6 space-y-2">
+                <li>We make no guarantees about accuracy or completeness of content</li>
+                <li>Educational content should be verified with primary sources</li>
+                <li>We're not liable for any errors or omissions in quiz content</li>
+                <li>The platform may be unavailable occasionally for maintenance</li>
+              </ul>
+              <p class="mt-4">QuizVerse is for educational purposes only and not professional advice.</p>
+            </div>
+          </div>
+          
+          <!-- Limitation of Liability -->
+          <div>
+            <h2 class="text-2xl font-bold mb-4 text-brand dark:text-secondary">7. Limitation of Liability</h2>
+            <p>To the maximum extent permitted by law, QuizVerse shall not be liable for any indirect, incidental, special, consequential or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses resulting from:</p>
+            <ul class="list-disc pl-6 mt-2 space-y-2">
+              <li>Your use or inability to use the service</li>
+              <li>Any unauthorized access to or use of our servers</li>
+              <li>Any interruption or cessation of transmission to or from our service</li>
+              <li>Any bugs, viruses, or similar that may be transmitted through our service</li>
+            </ul>
+          </div>
+          
+          <!-- Changes to Terms -->
+          <div>
+            <h2 class="text-2xl font-bold mb-4 text-brand dark:text-secondary">8. Changes to Terms</h2>
+            <p>We may modify these terms at any time. We'll notify users of significant changes through our website. Your continued use of QuizVerse after changes constitutes acceptance of the new terms.</p>
+          </div>
+          
+          <!-- Governing Law -->
+          <div>
+            <h2 class="text-2xl font-bold mb-4 text-brand dark:text-secondary">9. Governing Law</h2>
+            <p>These terms shall be governed by the laws of Pakistan without regard to conflict of law principles.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 md:p-8">
+        <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+        <p>For questions about these terms:</p>
+        <ul class="list-disc pl-6 mt-2 space-y-1">
+          <li>Email: <a href="mailto:legal@quizverse.com" class="text-brand dark:text-secondary hover:underline">legal@quizverse.com</a></li>
+          <li>Mail: QuizVerse Legal, 123 Knowledge St, Lahore, Pakistan</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white pt-8 pb-6 mt-12">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="flex items-center space-x-2 mb-4 md:mb-0">
+          <i class="fas fa-brain text-xl text-accent"></i>
+          <span class="text-lg font-bold">QuizVerse</span>
+        </div>
+        <div class="flex space-x-6">
+          <a href="privacy.html" class="hover:text-accent transition">Privacy</a>
+          <a href="terms.html" class="hover:text-accent transition">Terms</a>
+          <a href="cookies.html" class="hover:text-accent transition">Cookies</a>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-6 pt-6 text-center text-sm text-gray-400">
+        © 2025 QuizVerse. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="fixed bottom-6 right-6 bg-brand text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center opacity-0 invisible transition-all duration-300">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script>
+    // Back to top button
+    const backToTopButton = document.getElementById('back-to-top');
+    
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        backToTopButton.classList.remove('opacity-0', 'invisible');
+        backToTopButton.classList.add('opacity-100', 'visible');
+      } else {
+        backToTopButton.classList.add('opacity-0', 'invisible');
+        backToTopButton.classList.remove('opacity-100', 'visible');
+      }
+    });
+    
+    backToTopButton.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+    <script src="src/js/analytics.js"></script>
+
+</body>
+</html>

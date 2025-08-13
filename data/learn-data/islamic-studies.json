@@ -1,0 +1,187 @@
+{
+  "id": "islamic-studies",
+  "name": {
+    "en": "Islamic Studies",
+    "ur": "اسلامیات"
+  },
+  "description": {
+    "en": "Comprehensive guide to Islamic knowledge including Quran, Hadith, Fiqh, and Islamic history",
+    "ur": "قرآن، حدیث، فقہ اور اسلامی تاریخ سمیت اسلامی علم کی جامع رہنمائی"
+  },
+  "color": "islamic",
+  "icon": "mosque",
+  "sections": [
+    {
+      "id": "quran-studies",
+      "name": {
+        "en": "Quran Studies",
+        "ur": "قرآن کا مطالعہ"
+      },
+      "icon": "quran",
+      "content": {
+        "en": "<p>The Quran is the holy book of Islam, revealed to Prophet Muhammad (PBUH) over 23 years. It contains 114 chapters (Surahs) and is the primary source of Islamic teachings.</p>",
+        "ur": "<p class='urdu'>قرآن اسلام کی مقدس کتاب ہے جو 23 سالوں میں نبی محمد (صلی اللہ علیہ وسلم) پر نازل ہوئی۔ اس میں 114 سورتیں ہیں اور یہ اسلامی تعلیمات کا بنیادی ماخذ ہے۔</p>"
+      },
+      "subsections": [
+        {
+          "id": "major-themes",
+          "name": {
+            "en": "Major Themes",
+            "ur": "اہم موضوعات"
+          },
+          "content": {
+            "en": "<h3>Key Themes in the Quran</h3><ul><li>Tawhid (Oneness of God)</li><li>Prophethood</li><li>Day of Judgment</li><li>Divine Guidance</li><li>Moral Conduct</li></ul><img src='images/quran-themes.jpg' alt='Quran Themes' class='content-image'>",
+            "ur": "<h3 class='urdu'>قرآن میں اہم موضوعات</h3><ul class='urdu'><li>توحید (خدا کی وحدانیت)</li><li>نبوت</li><li>یوم حساب</li><li>الہی ہدایت</li><li>اخلاقی کردار</li></ul><img src='images/quran-themes.jpg' alt='قرآن کے موضوعات' class='content-image'>"
+          },
+          "references": [
+            {
+              "title": {
+                "en": "The Study Quran",
+                "ur": "سٹڈی قرآن"
+              },
+              "author": "Seyyed Hossein Nasr",
+              "url": "https://www.studyquran.org"
+            }
+          ]
+        },
+        {
+          "id": "memorization",
+          "name": {
+            "en": "Memorization Techniques",
+            "ur": "حفظ کے طریقے"
+          },
+          "content": {
+            "en": "<h3>Effective Quran Memorization</h3><table class='content-table'><thead><tr><th>Technique</th><th>Description</th></tr></thead><tbody><tr><td>Repetition</td><td>Repeat each verse multiple times</td></tr><tr><td>Understanding</td><td>Learn the meaning of verses</td></tr><tr><td>Consistency</td><td>Regular daily practice</td></tr></tbody></table>",
+            "ur": "<h3 class='urdu'>قرآن حفظ کرنے کے مؤثر طریقے</h3><table class='content-table urdu'><thead><tr><th>طریقہ</th><th>تفصیل</th></tr></thead><tbody><tr><td>تکرار</td><td>ہر آیت کو کئی بار دہرائیں</td></tr><tr><td>سمجھ</td><td>آیات کے معنی سیکھیں</td></tr><tr><td>مسلسل مشق</td><td>روزانہ باقاعدہ مشق</td></tr></tbody></table>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hadith",
+      "name": {
+        "en": "Hadith Sciences",
+        "ur": "حدیث کے علوم"
+      },
+      "icon": "book-open",
+      "content": {
+        "en": "<p>Hadith are the sayings, actions, and approvals of Prophet Muhammad (PBUH), which along with the Quran form the basis of Islamic law and guidance.</p><div class='grid grid-cols-1 md:grid-cols-2 gap-4'><div class='p-4 bg-brand/10 rounded-lg'><h3 class='font-bold'>Sahih Bukhari</h3><p>Considered the most authentic collection of hadith</p></div><div class='p-4 bg-brand/10 rounded-lg'><h3 class='font-bold'>Sahih Muslim</h3><p>Second most authentic hadith collection</p></div></div>",
+        "ur": "<p class='urdu'>حدیث نبی محمد (صلی اللہ علیہ وسلم) کے اقوال، افعال اور تصویبات ہیں، جو قرآن کے ساتھ مل کر اسلامی قانون اور رہنمائی کی بنیاد بنتی ہیں۔</p><div class='grid grid-cols-1 md:grid-cols-2 gap-4'><div class='p-4 bg-brand/10 rounded-lg'><h3 class='font-bold urdu'>صحیح بخاری</h3><p class='urdu'>حدیث کا سب سے مستند مجموعہ سمجھا جاتا ہے</p></div><div class='p-4 bg-brand/10 rounded-lg'><h3 class='font-bold urdu'>صحیح مسلم</h3><p class='urdu'>حدیث کا دوسرا سب سے مستند مجموعہ</p></div></div>"
+      },
+      "subsections": [
+        {
+          "id": "hadith-grading",
+          "name": {
+            "en": "Hadith Grading",
+            "ur": "حدیث کی درجہ بندی"
+          },
+          "content": {
+            "en": "<h3>Classification of Hadith</h3><ul><li><strong>Sahih:</strong> Authentic hadith</li><li><strong>Hasan:</strong> Good hadith</li><li><strong>Da'if:</strong> Weak hadith</li><li><strong>Mawdu':</strong> Fabricated hadith</li></ul>",
+            "ur": "<h3 class='urdu'>حدیث کی اقسام</h3><ul class='urdu'><li><strong>صحیح:</strong> مستند حدیث</li><li><strong>حسن:</strong> اچھی حدیث</li><li><strong>ضعیف:</strong> کمزور حدیث</li><li><strong>موضوع:</strong> گھڑی ہوئی حدیث</li></ul>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fiqh",
+      "name": {
+        "en": "Islamic Jurisprudence (Fiqh)",
+        "ur": "اسلامی فقہ"
+      },
+      "icon": "balance-scale",
+      "content": {
+        "en": "<p>Fiqh is Islamic jurisprudence that deals with the observance of rituals, morals, and social legislation in Islam.</p>",
+        "ur": "<p class='urdu'>فقہ اسلامی قانون ہے جو اسلام میں رسومات، اخلاقیات اور سماجی قانون سازی سے متعلق ہے۔</p>"
+      },
+      "subsections": [
+        {
+          "id": "schools-of-thought",
+          "name": {
+            "en": "Schools of Thought",
+            "ur": "مسالک"
+          },
+          "content": {
+            "en": "<h3>Major Schools of Islamic Law</h3><ol><li>Hanafi</li><li>Maliki</li><li>Shafi'i</li><li>Hanbali</li></ol>",
+            "ur": "<h3 class='urdu'>اسلامی قانون کے بڑے مسالک</h3><ol class='urdu'><li>حنفی</li><li>مالکی</li><li>شافعی</li><li>حنبلی</li></ol>"
+          }
+        },
+        {
+          "id": "prayer-rules",
+          "name": {
+            "en": "Rules of Prayer",
+            "ur": "نماز کے احکام"
+          },
+          "content": {
+            "en": "<h3>Essential Elements of Salah</h3><ul><li>Niyyah (Intention)</li><li>Takbiratul Ihram</li><li>Qiyam (Standing)</li><li>Ruku (Bowing)</li><li>Sujood (Prostration)</li></ul>",
+            "ur": "<h3 class='urdu'>نماز کے ارکان</h3><ul class='urdu'><li>نیت</li><li>تکبیر تحریمہ</li><li>قیام</li><li>رکوع</li><li>سجود</li></ul>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah",
+      "name": {
+        "en": "Prophet's Life (Seerah)",
+        "ur": "سیرت النبی"
+      },
+      "icon": "user",
+      "content": {
+        "en": "<p>The life and teachings of Prophet Muhammad (PBUH) provide the perfect example for Muslims to follow in all aspects of life.</p>",
+        "ur": "<p class='urdu'>نبی محمد (صلی اللہ علیہ وسلم) کی زندگی اور تعلیمات مسلمانوں کے لیے زندگی کے تمام پہلوؤں میں پیروی کرنے کا بہترین نمونہ فراہم کرتی ہیں۔</p>"
+      },
+      "subsections": [
+        {
+          "id": "early-life",
+          "name": {
+            "en": "Early Life",
+            "ur": "ابتدائی زندگی"
+          },
+          "content": {
+            "en": "<h3>Key Events</h3><ul><li>Born in Makkah in 570 CE</li><li>Orphaned at young age</li><li>Known as Al-Amin (The Trustworthy)</li><li>First revelation at age 40</li></ul><img src='images/makkah.jpg' alt='Makkah' class='content-image'>",
+            "ur": "<h3 class='urdu'>اہم واقعات</h3><ul class='urdu'><li>570 عیسوی میں مکہ میں پیدا ہوئے</li><li>چھوٹی عمر میں یتیم ہو گئے</li><li>الامین (قابل اعتماد) کے نام سے جانے جاتے تھے</li><li>40 سال کی عمر میں پہلی وحی نازل ہوئی</li></ul><img src='images/makkah.jpg' alt='مکہ' class='content-image'>"
+          }
+        },
+        {
+          "id": "migration",
+          "name": {
+            "en": "Migration to Madinah",
+            "ur": "مدینہ ہجرت"
+          },
+          "content": {
+            "en": "<p>The Hijrah (622 CE) marks the beginning of the Islamic calendar and was a turning point in Islamic history.</p>",
+            "ur": "<p class='urdu'>ہجرت (622 عیسوی) اسلامی کیلنڈر کا آغاز ہے اور اسلامی تاریخ میں ایک اہم موڑ تھا۔</p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "companions",
+      "name": {
+        "en": "Companions (Sahabah)",
+        "ur": "صحابہ کرام"
+      },
+      "icon": "users",
+      "content": {
+        "en": "<p>The companions of Prophet Muhammad (PBUH) played a vital role in preserving and spreading Islam.</p>",
+        "ur": "<p class='urdu'>نبی محمد (صلی اللہ علیہ وسلم) کے صحابہ نے اسلام کو محفوظ کرنے اور پھیلانے میں اہم کردار ادا کیا۔</p>"
+      },
+      "subsections": [
+        {
+          "id": "ten-promised-paradise",
+          "name": {
+            "en": "Ten Promised Paradise",
+            "ur": "عشرہ مبشرہ"
+          },
+          "content": {
+            "en": "<h3>The Ten Companions Promised Jannah</h3><ol><li>Abu Bakr As-Siddiq</li><li>Umar ibn Al-Khattab</li><li>Uthman ibn Affan</li><li>Ali ibn Abi Talib</li><li>Talhah ibn Ubaydullah</li><li>Zubayr ibn Al-Awwam</li><li>Abdur-Rahman ibn Awf</li><li>Sa'd ibn Abi Waqqas</li><li>Sa'id ibn Zayd</li><li>Abu Ubaydah ibn Al-Jarrah</li></ol>",
+            "ur": "<h3 class='urdu'>جنت کی بشارت پانے والے دس صحابہ</h3><ol class='urdu'><li>ابو بکر صدیق</li><li>عمر بن خطاب</li><li>عثمان بن عفان</li><li>علی بن ابی طالب</li><li>طلحہ بن عبیداللہ</li><li>زبیر بن عوام</li><li>عبدالرحمن بن عوف</li><li>سعد بن ابی وقاص</li><li>سعید بن زید</li><li>ابو عبیدہ بن جراح</li></ol>"
+          }
+        }
+      ]
+    }
+  ],
+  "tags": ["islam", "quran", "hadith", "fiqh", "seerah", "sahabah"],
+  "lastUpdated": "2023-08-15",
+  "resources": 120,
+  "views": 3500
+}

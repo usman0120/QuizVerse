@@ -1,0 +1,1908 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Content | QuizVerse</title>
+  <meta name="description" content="Interactive learning content with bilingual support">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+
+  <!-- Tailwind CSS -->
+  <link href="dist/style.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    .urdu {
+      font-family: 'Noto Nastaliq Urdu', serif;
+      direction: rtl;
+      text-align: right;
+    }
+
+    .sidebar-item.active {
+      background-color: #2D6A4F;
+      color: white;
+    }
+
+    .dark .sidebar-item.active {
+      background-color: #40916C;
+    }
+
+    .content-card {
+      transition: all 0.3s ease;
+    }
+
+    .content-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .highlighted {
+      background-color: rgba(255, 183, 3, 0.3);
+      border-left: 3px solid #FFB703;
+    }
+
+    .loading-spinner {
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .slide-in {
+      animation: slideIn 0.3s ease-out forwards;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(20px);
+        opacity: 0;
+      }
+
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    /* Category-specific colors */
+    .category-science {
+      --category-color: #0077B6;
+    }
+
+    .category-general {
+      --category-color: #F77F00;
+    }
+
+    .category-poetry {
+      --category-color: #D4A5A5;
+    }
+
+    .category-history {
+      --category-color: #7B5E57;
+    }
+
+    .category-islamic {
+      --category-color: #2A9D8F;
+    }
+
+    .category-tech {
+      --category-color: #3A0CA3;
+    }
+
+    .category-arts {
+      --category-color: #7209B7;
+    }
+
+    .category-kids {
+      --category-color: #90E0EF;
+    }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #2D6A4F;
+      border-radius: 4px;
+    }
+
+    .dark ::-webkit-scrollbar-track {
+      background: #374151;
+    }
+
+    .dark ::-webkit-scrollbar-thumb {
+      background: #40916C;
+    }
+
+    /* Image styling */
+    .content-image {
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin: 1rem auto;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Reference styling */
+    .reference-item {
+      border-left: 3px solid #2D6A4F;
+      padding-left: 1rem;
+      margin: 0.5rem 0;
+    }
+
+    .dark .reference-item {
+      border-left-color: #40916C;
+    }
+
+    /* Mobile menu animation */
+    .mobile-menu {
+      transition: all 0.3s ease;
+      max-height: 0;
+      overflow: hidden;
+    }
+
+    .mobile-menu.open {
+      max-height: 500px;
+    }
+
+    /* Language toggle */
+    .language-toggle {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 30px;
+    }
+
+    .language-toggle input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .language-slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #2D6A4F;
+      transition: .4s;
+      border-radius: 34px;
+    }
+
+    .language-slider:before {
+      position: absolute;
+      content: "";
+      height: 22px;
+      width: 22px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      transition: .4s;
+      border-radius: 50%;
+    }
+
+    input:checked+.language-slider {
+      background-color: #2D6A4F;
+    }
+
+    input:checked+.language-slider:before {
+      transform: translateX(30px);
+    }
+
+    .language-labels {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 8px;
+      pointer-events: none;
+    }
+
+    .language-labels span {
+      font-size: 12px;
+      font-weight: bold;
+      color: white;
+    }
+
+    /* Table styling */
+    .content-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+
+    .content-table th,
+    .content-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    .content-table th {
+      background-color: #2D6A4F;
+      color: white;
+    }
+
+    .content-table tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    .dark .content-table tr:nth-child(even) {
+      background-color: #374151;
+    }
+
+    /* Add these new mobile-specific styles */
+    @media (max-width: 768px) {
+
+      /* Adjust overall layout */
+      main {
+        flex-direction: column;
+      }
+
+
+      /* Adjust content area */
+      .content-area {
+        padding: 1rem;
+      }
+
+      /* Smaller fonts for mobile */
+      html {
+        font-size: 14px;
+      }
+
+      /* Compact header */
+      header {
+        padding: 0.5rem 1rem;
+      }
+
+      /* Adjust content cards */
+      .content-card {
+        padding: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      /* Subtopics grid becomes single column */
+      .subtopics-grid {
+        grid-template-columns: 1fr !important;
+        gap: 0.5rem;
+      }
+
+      /* Compact quick actions */
+      .quick-actions {
+        padding: 0.5rem;
+      }
+
+      .quick-actions button {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.8rem;
+      }
+
+      /* Adjust breadcrumbs */
+      #breadcrumbs {
+        margin-bottom: 0.5rem;
+        font-size: 0.8rem;
+      }
+
+      /* Smaller content title */
+      #content-title {
+        font-size: 1.25rem;
+      }
+
+      /* Compact meta info */
+      #content-meta span {
+        font-size: 0.7rem;
+        margin-right: 0.5rem;
+      }
+
+      /* Tool buttons */
+      .tool-buttons button {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+      }
+
+      /* References section */
+      #references-section {
+        margin-top: 1rem;
+      }
+
+      /* Notes section */
+      #notes-section {
+        margin-top: 1rem;
+      }
+
+      #notes-textarea {
+        height: 100px;
+      }
+
+      /* Mobile menu adjustments */
+      .mobile-menu {
+        max-height: 0;
+      }
+
+      .mobile-menu.open {
+        max-height: 300px;
+      }
+    }
+
+    /* Add this for bookmark/notes display */
+    .user-content-section {
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #f8f9fa;
+      border-radius: 0.5rem;
+    }
+
+    .user-content-section h2 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+      color: #2D6A4F;
+    }
+
+    .user-content-item {
+      padding: 0.75rem;
+      margin-bottom: 0.5rem;
+      background: white;
+      border-radius: 0.5rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 768px) {
+      .content-card {
+        padding: 1rem;
+        margin: 0.5rem 0;
+      }
+
+      .subtopics-grid {
+        grid-template-columns: 1fr !important;
+        gap: 0.5rem;
+      }
+
+      .sidebar {
+        position: fixed;
+        z-index: 40;
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+      }
+
+      .sidebar.open {
+        max-height: 80vh;
+        overflow-y: auto;
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-bgLight text-textDark dark:bg-bgDark dark:text-textLight transition-colors duration-300">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-brand text-white shadow-md dark:bg-gray-800">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <i class="fas fa-brain text-2xl text-accent"></i>
+        <a href="index.html" class="text-xl font-bold">QuizVerse</a>
+      </div>
+
+      <div class="hidden md:flex space-x-6">
+        <a href="index.html" class="hover:text-accent transition">Home</a>
+        <a href="quiz-categories.html" class="hover:text-accent transition">Quizzes</a>
+        <a href="learn-categories.html" class="hover:text-accent transition">Learning Hub</a>
+        <a href="personality.html" class="hover:text-accent transition">Personality Tests</a>
+      </div>
+
+      <div class="flex items-center space-x-4">
+        <!-- Language Toggle -->
+        <div class="flex items-center space-x-3 mr-4">
+          <span class="text-sm hidden md:block">English</span>
+          <label class="language-toggle">
+            <input type="checkbox" id="language-toggle">
+            <span class="language-slider"></span>
+            <div class="language-labels">
+              <span>EN</span>
+              <span>UR</span>
+            </div>
+          </label>
+          <span class="text-sm hidden md:block">Urdu</span>
+        </div>
+
+        <button id="theme-toggle" class="p-2 rounded-full hover:bg-secondary transition-colors"
+          aria-label="Toggle dark mode">
+          <i class="fas fa-moon dark:hidden"></i>
+          <i class="fas fa-sun hidden dark:block"></i>
+        </button>
+
+        <button id="mobile-menu-button" class="md:hidden p-2 rounded-full hover:bg-secondary">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu md:hidden hidden bg-secondary text-white px-4 py-2">
+      <div class="flex flex-col space-y-3">
+        <a href="index.html" class="hover:text-accent transition">Home</a>
+        <a href="quiz-categories.html" class="hover:text-accent transition">Quizzes</a>
+        <a href="learn-categories.html" class="hover:text-accent transition">Learning Hub</a>
+        <a href="personality.html" class="hover:text-accent transition">Personality Tests</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex flex-col md:flex-row min-h-screen">
+
+
+    <!-- Sidebar -->
+    <aside class="w-full md:w-64 bg-white dark:bg-gray-800 shadow-md md:min-h-screen p-4 overflow-y-auto">
+      <div class="mb-6">
+        <h2 class="text-xl font-bold mb-2" id="category-title">Category</h2>
+        <div class="relative">
+          <input type="text" id="content-search" placeholder="Search within category..."
+            class="w-full pl-10 pr-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary dark:bg-gray-700 dark:border-gray-600">
+          <div class="absolute left-3 top-2.5 text-gray-400">
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <h3 class="font-medium mb-2">Sections</h3>
+        <div id="sidebar-sections" class="space-y-1 max-h-96 overflow-y-auto">
+          <!-- Sections will be loaded here -->
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <h3 class="font-medium mb-2">Recently Viewed</h3>
+        <div id="recent-topics" class="space-y-1 max-h-48 overflow-y-auto">
+          <!-- Recent topics will be loaded here -->
+        </div>
+      </div>
+
+      <!-- Quick Actions -->
+      <div class="p-3 bg-gray-100 dark:bg-gray-700 rounded-lg">
+        <h3 class="font-medium mb-2">Quick Actions</h3>
+        <div class="flex flex-wrap gap-2">
+          <button id="bookmark-btn"
+            class="px-3 py-1 bg-gray-200 dark:bg-gray-600 rounded-full text-sm flex items-center">
+            <i class="far fa-bookmark mr-1"></i> <span>Bookmark</span>
+          </button>
+          <button id="quiz-btn" class="px-3 py-1 bg-gray-200 dark:bg-gray-600 rounded-full text-sm flex items-center">
+            <i class="fas fa-question-circle mr-1"></i> <span>Take Quiz</span>
+          </button>
+          <button id="notes-btn" class="px-3 py-1 bg-gray-200 dark:bg-gray-600 rounded-full text-sm flex items-center">
+            <i class="fas fa-edit mr-1"></i> <span>Add Notes</span>
+          </button>
+          <button id="view-saved-btn"
+            class="px-3 py-1 bg-gray-200 dark:bg-gray-600 rounded-full text-sm flex items-center">
+            <i class="fas fa-save mr-1"></i> <span>Saved Content</span>
+          </button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Content Area -->
+    <div class="flex-1 p-4 md:p-6 overflow-y-auto">
+      <div class="flex justify-between items-center mb-6">
+        <div>
+          <h1 id="content-title" class="text-2xl md:text-3xl font-bold"></h1>
+          <div id="content-meta" class="flex items-center text-sm text-gray-600 dark:text-gray-400 mt-1 space-x-3">
+            <!-- Meta info will be loaded here -->
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <button id="font-increase" class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700"
+            title="Increase font size">
+            <i class="fas fa-text-height"></i> +
+          </button>
+          <button id="font-decrease" class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700"
+            title="Decrease font size">
+            <i class="fas fa-text-height"></i> -
+          </button>
+          <button id="highlight-btn" class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700"
+            title="Highlight mode">
+            <i class="fas fa-highlighter"></i>
+          </button>
+          <button id="erase-highlights-btn" class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700"
+            title="Erase highlights">
+            <i class="fas fa-eraser"></i>
+          </button>
+        </div>
+      </div>
+
+      <div id="breadcrumbs" class="flex items-center text-sm text-gray-600 dark:text-gray-400 mb-6 flex-wrap">
+        <!-- Breadcrumbs will be loaded here -->
+      </div>
+
+      <div id="content-area" class="prose dark:prose-invert max-w-none">
+        <!-- Content will be loaded here -->
+      </div>
+
+      <div id="empty-state" class="hidden text-center py-12">
+        <div class="max-w-md mx-auto">
+          <i class="fas fa-book-open text-4xl text-gray-400 mb-4"></i>
+          <h3 class="text-xl font-bold mb-2" id="empty-state-title">No content found</h3>
+          <p class="text-gray-600 dark:text-gray-300 mb-6" id="empty-state-message">Try selecting a different section or
+            adjusting your search</p>
+          <button id="back-to-topics" class="px-4 py-2 bg-brand text-white rounded-lg hover:bg-brand-dark transition">
+            <i class="fas fa-arrow-left mr-2"></i> Back to Topics
+          </button>
+        </div>
+      </div>
+
+      <div id="loading-state" class="flex justify-center items-center py-12">
+        <div
+          class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-brand dark:border-secondary loading-spinner">
+        </div>
+      </div>
+
+      <!-- References Section -->
+      <div id="references-section" class="mt-12 hidden">
+        <h2 class="text-xl font-bold mb-4" id="references-title">References</h2>
+        <div id="references-content" class="space-y-2">
+          <!-- References will be loaded here -->
+        </div>
+      </div>
+
+      <!-- Notes Section -->
+      <div id="notes-section" class="mt-12 hidden">
+        <h2 class="text-xl font-bold mb-4" id="notes-title">Your Notes</h2>
+        <textarea id="notes-textarea" class="w-full h-40 p-4 border rounded-lg dark:bg-gray-800 dark:border-gray-700"
+          placeholder="Write your notes here..."></textarea>
+        <div class="flex justify-end mt-2">
+          <button id="save-notes-btn" class="px-4 py-2 bg-brand text-white rounded-lg hover:bg-brand-dark transition">
+            Save Notes
+          </button>
+        </div>
+      </div>
+      <!-- Add this new section for displaying bookmarks and notes -->
+      <div id="user-content-display" class="user-content-section hidden">
+        <h2 id="user-content-title">Your Saved Content</h2>
+        <div id="bookmarks-list" class="mb-6">
+          <h3 class="text-lg font-semibold mb-3 flex items-center">
+            <i class="fas fa-bookmark mr-2 text-brand"></i>
+            <span>Bookmarks</span>
+          </h3>
+          <div id="bookmarks-container" class="space-y-2">
+            <!-- Bookmarks will be loaded here -->
+          </div>
+        </div>
+
+        <div id="notes-list">
+          <h3 class="text-lg font-semibold mb-3 flex items-center">
+            <i class="fas fa-edit mr-2 text-brand"></i>
+            <span>Your Notes</span>
+          </h3>
+          <div id="notes-container" class="space-y-2">
+            <!-- Notes will be loaded here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-12">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <div class="flex items-center space-x-2 mb-4">
+            <i class="fas fa-brain text-2xl text-accent"></i>
+            <span class="text-xl font-bold">QuizVerse</span>
+          </div>
+          <p class="text-gray-400 mb-4">Your gateway to interactive learning and knowledge exploration.</p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="text-lg font-bold mb-4">Explore</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Topics</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Learning Paths</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Daily Challenges</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Knowledge Hub</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Community</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-bold mb-4">Resources</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Help Center</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Learning Tips</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Blog</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Webinars</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Educator Resources</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-bold mb-4">Get In Touch</h4>
+          <ul class="space-y-2">
+            <li class="flex items-start space-x-2">
+              <i class="fas fa-envelope mt-1 text-gray-400"></i>
+              <a href="mailto:info@quizverse.com"
+                class="text-gray-400 hover:text-white transition">info@quizverse.com</a>
+            </li>
+            <li class="flex items-start space-x-2">
+              <i class="fas fa-phone-alt mt-1 text-gray-400"></i>
+              <a href="tel:+1234567890" class="text-gray-400 hover:text-white transition">+1 (234) 567-890</a>
+            </li>
+            <li class="flex items-start space-x-2">
+              <i class="fas fa-map-marker-alt mt-1 text-gray-400"></i>
+              <span class="text-gray-400">123 Knowledge St, Learning City</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 pt-6 text-center text-gray-400 text-sm">
+        <p>© 2023 QuizVerse. All rights reserved. | <a href="#" class="hover:text-white transition">Privacy Policy</a> |
+          <a href="#" class="hover:text-white transition">Terms of Service</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- Feedback Toast -->
+  <div id="feedback-toast" class="fixed bottom-4 right-4 z-50 hidden">
+    <div class="bg-brand dark:bg-secondary text-white px-6 py-3 rounded-lg shadow-lg flex items-start max-w-xs">
+      <div class="mr-3 mt-0.5">
+        <i id="toast-icon" class="fas fa-check-circle"></i>
+      </div>
+      <div>
+        <h4 id="toast-title" class="font-bold mb-1">Success!</h4>
+        <p id="toast-message" class="text-sm">Your action was completed successfully.</p>
+      </div>
+      <button id="close-toast" class="ml-4 text-white/70 hover:text-white">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+  </div>
+
+  <script>
+    // Application State
+    const state = {
+      currentCategory: null,
+      currentSection: null,
+      currentSubsection: null,
+      isUrdu: false,
+      isDark: false,
+      fontSize: 16,
+      highlightedText: [],
+      recentTopics: [],
+      searchQuery: '',
+      highlightMode: false,
+      bookmarks: [],
+      notes: {}
+    };
+
+    // DOM Elements
+    const domElements = {
+      contentTitle: document.getElementById('content-title'),
+      contentMeta: document.getElementById('content-meta'),
+      categoryTitle: document.getElementById('category-title'),
+      contentArea: document.getElementById('content-area'),
+      emptyState: document.getElementById('empty-state'),
+      emptyStateTitle: document.getElementById('empty-state-title'),
+      emptyStateMessage: document.getElementById('empty-state-message'),
+      loadingState: document.getElementById('loading-state'),
+      sidebarSections: document.getElementById('sidebar-sections'),
+      recentTopics: document.getElementById('recent-topics'),
+      breadcrumbs: document.getElementById('breadcrumbs'),
+      contentSearch: document.getElementById('content-search'),
+      languageToggle: document.getElementById('language-toggle'),
+      themeToggle: document.getElementById('theme-toggle'),
+      fontIncrease: document.getElementById('font-increase'),
+      fontDecrease: document.getElementById('font-decrease'),
+      highlightBtn: document.getElementById('highlight-btn'),
+      feedbackToast: document.getElementById('feedback-toast'),
+      toastTitle: document.getElementById('toast-title'),
+      toastMessage: document.getElementById('toast-message'),
+      toastIcon: document.getElementById('toast-icon'),
+      closeToast: document.getElementById('close-toast'),
+      mobileMenuButton: document.getElementById('mobile-menu-button'),
+      mobileMenu: document.getElementById('mobile-menu'),
+      referencesSection: document.getElementById('references-section'),
+      referencesTitle: document.getElementById('references-title'),
+      referencesContent: document.getElementById('references-content'),
+      backToTopics: document.getElementById('back-to-topics'),
+      bookmarkBtn: document.getElementById('bookmark-btn'),
+      quizBtn: document.getElementById('quiz-btn'),
+      notesBtn: document.getElementById('notes-btn'),
+      notesSection: document.getElementById('notes-section'),
+      notesTitle: document.getElementById('notes-title'),
+      notesTextarea: document.getElementById('notes-textarea'),
+      saveNotesBtn: document.getElementById('save-notes-btn'),
+      mobileSidebarToggle: document.getElementById('mobile-sidebar-toggle'),
+      sidebarToggleText: document.getElementById('sidebar-toggle-text'),
+      sidebar: document.getElementById('sidebar'),
+      sidebarClose: document.getElementById('sidebar-close'),
+      viewSavedBtn: document.getElementById('view-saved-btn'),
+      eraseHighlightsBtn: document.getElementById('erase-highlights-btn'),
+      userContentDisplay: document.getElementById('user-content-display'),
+      userContentTitle: document.getElementById('user-content-title'),
+      bookmarksContainer: document.getElementById('bookmarks-container'),
+      notesContainer: document.getElementById('notes-container')
+
+
+    };
+
+    // Utility Functions
+    const utils = {
+      showLoading: () => {
+        domElements.loadingState.classList.remove('hidden');
+        domElements.contentArea.classList.add('hidden');
+        domElements.emptyState.classList.add('hidden');
+        domElements.referencesSection.classList.add('hidden');
+        domElements.notesSection.classList.add('hidden');
+      },
+
+      hideLoading: () => {
+        domElements.loadingState.classList.add('hidden');
+        domElements.contentArea.classList.remove('hidden');
+      },
+
+      showEmptyState: (title = null, message = null) => {
+        if (title) domElements.emptyStateTitle.textContent = title;
+        if (message) domElements.emptyStateMessage.textContent = message;
+        domElements.emptyState.classList.remove('hidden');
+        domElements.contentArea.classList.add('hidden');
+        domElements.loadingState.classList.add('hidden');
+        domElements.referencesSection.classList.add('hidden');
+        domElements.notesSection.classList.add('hidden');
+      },
+
+      hideEmptyState: () => {
+        domElements.emptyState.classList.add('hidden');
+        domElements.contentArea.classList.remove('hidden');
+      },
+
+      showFeedback: (message, type = 'success') => {
+        if (type === 'success') {
+          domElements.toastTitle.textContent = state.isUrdu ? 'کامیابی!' : 'Success!';
+          domElements.toastMessage.textContent = message;
+          domElements.toastIcon.className = 'fas fa-check-circle';
+          domElements.feedbackToast.className = 'fixed bottom-4 right-4 z-50 bg-brand dark:bg-secondary text-white px-6 py-3 rounded-lg shadow-lg flex items-start max-w-xs';
+        } else if (type === 'error') {
+          domElements.toastTitle.textContent = state.isUrdu ? 'اوہ!' : 'Oops!';
+          domElements.toastMessage.textContent = message;
+          domElements.toastIcon.className = 'fas fa-exclamation-circle';
+          domElements.feedbackToast.className = 'fixed bottom-4 right-4 z-50 bg-red-500 text-white px-6 py-3 rounded-lg shadow-lg flex items-start max-w-xs';
+        } else if (type === 'info') {
+          domElements.toastTitle.textContent = state.isUrdu ? 'معلومات' : 'Info';
+          domElements.toastMessage.textContent = message;
+          domElements.toastIcon.className = 'fas fa-info-circle';
+          domElements.feedbackToast.className = 'fixed bottom-4 right-4 z-50 bg-blue-500 text-white px-6 py-3 rounded-lg shadow-lg flex items-start max-w-xs';
+        }
+
+        domElements.feedbackToast.classList.remove('hidden');
+
+        setTimeout(() => {
+          domElements.feedbackToast.classList.add('hidden');
+        }, 5000);
+      },
+
+      debounce: (func, delay) => {
+        let timeoutId;
+        return function (...args) {
+          clearTimeout(timeoutId);
+          timeoutId = setTimeout(() => func.apply(this, args), delay);
+        };
+      },
+
+      getTranslatedText: (textObj) => {
+        if (!textObj) return '';
+        return state.isUrdu ? (textObj.ur || textObj.en) : textObj.en;
+      },
+
+      loadJSON: async (url) => {
+        try {
+          const response = await fetch(url);
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          const data = await response.json();
+          if (!data) throw new Error("Empty response");
+          return data;
+        } catch (error) {
+          console.error('Error loading JSON:', error);
+          utils.showFeedback(
+            state.isUrdu ? 'مواد لوڈ کرنے میں خرابی' : 'Error loading content',
+            'error'
+          );
+          return null;
+        }
+      },
+
+      updateFontSize: () => {
+        document.documentElement.style.fontSize = `${state.fontSize}px`;
+        localStorage.setItem('fontSize', state.fontSize.toString());
+      },
+
+      highlightText: (text, sectionId) => {
+        if (!text || !sectionId) return;
+
+        const highlight = {
+          text,
+          sectionId,
+          date: new Date().toISOString()
+        };
+
+        state.highlightedText.push(highlight);
+        localStorage.setItem('highlightedText', JSON.stringify(state.highlightedText));
+
+        utils.showFeedback(
+          state.isUrdu ?
+            'متن نمایاں کیا گیا' :
+            'Text highlighted'
+        );
+      },
+
+      copyToClipboard: (text) => {
+        if (!text) return;
+
+        navigator.clipboard.writeText(text).then(() => {
+          utils.showFeedback(
+            state.isUrdu ?
+              'متن کاپی ہو گیا' :
+              'Text copied to clipboard'
+          );
+        }).catch(err => {
+          console.error('Failed to copy text:', err);
+          utils.showFeedback(
+            state.isUrdu ?
+              'کاپی کرنے میں ناکام' :
+              'Failed to copy text',
+            'error'
+          );
+        });
+      },
+
+      toggleHighlightMode: () => {
+        state.highlightMode = !state.highlightMode;
+        if (state.highlightMode) {
+          domElements.highlightBtn.classList.add('bg-brand', 'text-white');
+          domElements.highlightBtn.classList.remove('hover:bg-gray-200', 'dark:hover:bg-gray-700');
+          document.body.style.cursor = 'text';
+          utils.showFeedback(
+            state.isUrdu ?
+              'ہائی لائٹ موڈ فعال ہے۔ متن منتخب کریں۔' :
+              'Highlight mode active. Select text to highlight.',
+            'info'
+          );
+        } else {
+          domElements.highlightBtn.classList.remove('bg-brand', 'text-white');
+          domElements.highlightBtn.classList.add('hover:bg-gray-200', 'dark:hover:bg-gray-700');
+          document.body.style.cursor = '';
+        }
+      },
+
+      toggleBookmark: () => {
+        if (!state.currentCategory || !state.currentSection) {
+          utils.showFeedback(
+            state.isUrdu ?
+              'بک مارک کرنے کے لیے کوئی مواد موجود نہیں ہے' :
+              'No content available to bookmark',
+            'error'
+          );
+          return;
+        }
+
+        const bookmarkId = `${state.currentCategory.id}-${state.currentSection.id}`;
+        const bookmarkIndex = state.bookmarks.findIndex(b => b.id === bookmarkId);
+
+        if (bookmarkIndex === -1) {
+          // Add bookmark
+          state.bookmarks.push({
+            id: bookmarkId,
+            categoryId: state.currentCategory.id,
+            categoryName: state.currentCategory.name,
+            sectionId: state.currentSection.id,
+            sectionName: state.currentSection.name,
+            date: new Date().toISOString()
+          });
+
+          domElements.bookmarkBtn.innerHTML = `<i class="fas fa-bookmark mr-1"></i> <span>${state.isUrdu ? 'بک مارک ہٹائیں' : 'Remove Bookmark'}</span>`;
+          utils.showFeedback(
+            state.isUrdu ?
+              'مواد بک مارک کی گئی' :
+              'Content bookmarked'
+          );
+        } else {
+          // Remove bookmark
+          state.bookmarks.splice(bookmarkIndex, 1);
+          domElements.bookmarkBtn.innerHTML = `<i class="far fa-bookmark mr-1"></i> <span>${state.isUrdu ? 'بک مارک کریں' : 'Bookmark'}</span>`;
+          utils.showFeedback(
+            state.isUrdu ?
+              'بک مارک ہٹا دی گئی' :
+              'Bookmark removed'
+          );
+        }
+
+        localStorage.setItem('bookmarks', JSON.stringify(state.bookmarks));
+      },
+
+      updateBookmarkButton: () => {
+        if (!state.currentCategory || !state.currentSection) {
+          domElements.bookmarkBtn.innerHTML = `<i class="far fa-bookmark mr-1"></i> <span>${state.isUrdu ? 'بک مارک کریں' : 'Bookmark'}</span>`;
+          return;
+        }
+
+        const bookmarkId = `${state.currentCategory.id}-${state.currentSection.id}`;
+        const isBookmarked = state.bookmarks.some(b => b.id === bookmarkId);
+
+        if (isBookmarked) {
+          domElements.bookmarkBtn.innerHTML = `<i class="fas fa-bookmark mr-1"></i> <span>${state.isUrdu ? 'بک مارک ہٹائیں' : 'Remove Bookmark'}</span>`;
+        } else {
+          domElements.bookmarkBtn.innerHTML = `<i class="far fa-bookmark mr-1"></i> <span>${state.isUrdu ? 'بک مارک کریں' : 'Bookmark'}</span>`;
+        }
+      },
+
+      shareContent: () => {
+        if (!state.currentCategory || !state.currentSection) {
+          utils.showFeedback(
+            state.isUrdu ?
+              'شیئر کرنے کے لیے کوئی مواد موجود نہیں ہے' :
+              'No content available to share',
+            'error'
+          );
+          return;
+        }
+
+        const title = state.currentSubsection ?
+          utils.getTranslatedText(state.currentSubsection.name) :
+          utils.getTranslatedText(state.currentSection.name);
+
+        const shareUrl = `${window.location.origin}${window.location.pathname}?topic=${state.currentCategory.id}&lang=${state.isUrdu ? 'ur' : 'en'}`;
+        const shareText = `${state.isUrdu ? 'دیکھیں' : 'Check out'}: ${utils.getTranslatedText(state.currentCategory.name)} - ${title}`;
+
+        if (navigator.share) {
+          navigator.share({
+            title: 'QuizVerse Learning Content',
+            text: shareText,
+            url: shareUrl
+          }).catch(err => {
+            console.log('Error sharing:', err);
+            utils.copyToClipboard(shareUrl);
+          });
+        } else {
+          utils.copyToClipboard(shareUrl);
+        }
+      },
+
+      loadNotes: () => {
+        if (!state.currentCategory || !state.currentSection) return;
+
+        const noteId = `${state.currentCategory.id}-${state.currentSection.id}`;
+        const savedNotes = localStorage.getItem('userNotes');
+
+        if (savedNotes) {
+          try {
+            state.notes = JSON.parse(savedNotes);
+            if (state.notes[noteId]) {
+              domElements.notesTextarea.value = state.notes[noteId];
+            } else {
+              domElements.notesTextarea.value = '';
+            }
+          } catch (e) {
+            console.error('Error parsing notes:', e);
+            state.notes = {};
+            domElements.notesTextarea.value = '';
+          }
+        } else {
+          state.notes = {};
+          domElements.notesTextarea.value = '';
+        }
+      },
+
+      saveNotes: () => {
+        if (!state.currentCategory || !state.currentSection) {
+          utils.showFeedback(
+            state.isUrdu ?
+              'نوٹس محفوظ کرنے کے لیے کوئی مواد موجود نہیں ہے' :
+              'No content available to save notes',
+            'error'
+          );
+          return;
+        }
+
+        const noteId = `${state.currentCategory.id}-${state.currentSection.id}`;
+        const noteContent = domElements.notesTextarea.value.trim();
+
+        state.notes[noteId] = noteContent;
+        localStorage.setItem('userNotes', JSON.stringify(state.notes));
+
+        utils.showFeedback(
+          state.isUrdu ?
+            'نوٹس محفوظ ہو گئے' :
+            'Notes saved successfully'
+        );
+      },
+
+      toggleNotes: () => {
+        if (!state.currentCategory || !state.currentSection) {
+          utils.showFeedback(
+            state.isUrdu ?
+              'نوٹس شامل کرنے کے لیے کوئی مواد موجود نہیں ہے' :
+              'No content available to add notes',
+            'error'
+          );
+          return;
+        }
+
+        domElements.notesSection.classList.toggle('hidden');
+        if (!domElements.notesSection.classList.contains('hidden')) {
+          utils.loadNotes();
+        }
+      },
+
+      showUserContent: () => {
+        domElements.userContentDisplay.classList.remove('hidden');
+        domElements.userContentTitle.textContent = state.isUrdu ? 'آپ کا محفوظ شدہ مواد' : 'Your Saved Content';
+
+        // Load bookmarks
+        core.displayUserBookmarks();
+
+        // Load notes
+        core.displayUserNotes();
+      },
+
+      hideUserContent: () => {
+        domElements.userContentDisplay.classList.add('hidden');
+      },
+
+      toggleUserContent: () => {
+        if (domElements.userContentDisplay.classList.contains('hidden')) {
+          utils.showUserContent();
+        } else {
+          utils.hideUserContent();
+        }
+      },
+
+      eraseHighlights: () => {
+        if (!state.currentSection) return;
+
+        const sectionId = state.currentSection.id;
+        state.highlightedText = state.highlightedText.filter(h => h.sectionId !== sectionId);
+        localStorage.setItem('highlightedText', JSON.stringify(state.highlightedText));
+
+        // Re-render content without highlights
+        if (state.currentSubsection) {
+          core.loadSubsection(state.currentSubsection.id);
+        } else {
+          core.loadSection(state.currentSection.id);
+        }
+
+        utils.showFeedback(
+          state.isUrdu ? 'ہائی لائٹس ہٹا دیے گئے' : 'Highlights erased'
+        );
+      }
+
+    };
+
+
+    // Core Functions
+    const core = {
+      init: () => {
+        // Parse URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const categoryId = urlParams.get('topic');
+        const lang = urlParams.get('lang');
+
+        // Set initial state
+        state.isUrdu = lang === 'ur';
+        if (domElements.languageToggle) {
+          domElements.languageToggle.checked = state.isUrdu;
+        }
+
+        // Load theme preference
+        core.loadThemePreference();
+
+        // Load font size
+        const savedFontSize = localStorage.getItem('fontSize');
+        if (savedFontSize) {
+          state.fontSize = parseInt(savedFontSize);
+          utils.updateFontSize();
+        }
+
+        // Load highlighted text
+        const savedHighlights = localStorage.getItem('highlightedText');
+        if (savedHighlights) {
+          try {
+            state.highlightedText = JSON.parse(savedHighlights);
+          } catch (e) {
+            console.error('Error parsing highlighted text:', e);
+            state.highlightedText = [];
+          }
+        }
+
+        // Load recent topics
+        const savedRecent = localStorage.getItem('recentTopics');
+        if (savedRecent) {
+          try {
+            state.recentTopics = JSON.parse(savedRecent);
+            core.displayRecentTopics();
+          } catch (e) {
+            console.error('Error parsing recent topics:', e);
+            state.recentTopics = [];
+          }
+        }
+
+        // Load bookmarks
+        const savedBookmarks = localStorage.getItem('bookmarks');
+        if (savedBookmarks) {
+          try {
+            state.bookmarks = JSON.parse(savedBookmarks);
+          } catch (e) {
+            console.error('Error parsing bookmarks:', e);
+            state.bookmarks = [];
+          }
+        }
+
+        // Load notes
+        const savedNotes = localStorage.getItem('userNotes');
+        if (savedNotes) {
+          try {
+            state.notes = JSON.parse(savedNotes);
+          } catch (e) {
+            console.error('Error parsing notes:', e);
+            state.notes = {};
+          }
+        }
+
+        // Load category if specified
+        if (categoryId) {
+          core.loadCategory(categoryId);
+        } else {
+          utils.showEmptyState(
+            state.isUrdu ? 'کوئی موضوع منتخب نہیں کیا گیا' : 'No topic selected',
+            state.isUrdu ? 'براہ کرم سیکھنے کے مرکز سے کوئی موضوع منتخب کریں' : 'Please select a topic from the learning hub'
+          );
+        }
+
+        // Set up event listeners
+        eventHandlers.setupEventListeners();
+      },
+
+      loadCategory: async (categoryId) => {
+        utils.showLoading();
+
+        try {
+          const categoryData = await utils.loadJSON(`data/learn-data/${categoryId}.json`);
+          if (!categoryData) {
+            utils.showEmptyState(
+              state.isUrdu ? 'مواد نہیں مل سکی' : 'Content not found',
+              state.isUrdu ? 'منتخب کردہ موضوع کے لیے مواد دستیاب نہیں ہے' : 'Content not available for the selected topic'
+            );
+            return;
+          }
+
+          state.currentCategory = categoryData;
+          core.displayCategory();
+
+          // Add to recent topics
+          const exists = state.recentTopics.some(topic => topic.id === categoryId);
+          if (!exists) {
+            state.recentTopics.unshift({
+              id: categoryId,
+              name: categoryData.name,
+              lastAccessed: new Date().toISOString()
+            });
+
+            if (state.recentTopics.length > 5) {
+              state.recentTopics.pop();
+            }
+
+            localStorage.setItem('recentTopics', JSON.stringify(state.recentTopics));
+            core.displayRecentTopics();
+          }
+        } catch (error) {
+          console.error('Error loading category:', error);
+          utils.showEmptyState(
+            state.isUrdu ? 'خرابی: مواد لوڈ نہیں ہو سکا' : 'Error: Could not load content',
+            state.isUrdu ? 'براہ کرم بعد میں کوشش کریں' : 'Please try again later'
+          );
+        }
+      },
+
+      displayCategory: () => {
+        if (!state.currentCategory) return;
+
+        // Update titles
+        domElements.categoryTitle.textContent = utils.getTranslatedText(state.currentCategory.name);
+        domElements.contentTitle.textContent = utils.getTranslatedText(state.currentCategory.name);
+
+        // Update meta info
+        domElements.contentMeta.innerHTML = `
+          <span><i class="fas fa-calendar-alt mr-1"></i> ${state.currentCategory.lastUpdated}</span>
+          <span><i class="fas fa-eye mr-1"></i> ${state.currentCategory.views.toLocaleString()} ${state.isUrdu ? 'دیکھے گئے' : 'views'}</span>
+          <span><i class="fas fa-tags mr-1"></i> ${state.currentCategory.tags.slice(0, 3).map(tag => tag).join(', ')}</span>
+        `;
+
+        // Display sidebar sections
+        domElements.sidebarSections.innerHTML = '';
+        state.currentCategory.sections.forEach(section => {
+          const sectionItem = document.createElement('div');
+          sectionItem.className = 'sidebar-item cursor-pointer px-3 py-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700 flex items-center';
+
+          // Add icon if available
+          if (section.icon) {
+            sectionItem.innerHTML = `
+              <i class="fas fa-${section.icon} mr-2"></i>
+              <span>${utils.getTranslatedText(section.name)}</span>
+            `;
+          } else {
+            sectionItem.textContent = utils.getTranslatedText(section.name);
+          }
+
+          sectionItem.dataset.sectionId = section.id;
+
+          sectionItem.addEventListener('click', () => {
+            core.loadSection(section.id);
+          });
+
+          domElements.sidebarSections.appendChild(sectionItem);
+        });
+
+        // Load first section by default
+        if (state.currentCategory.sections.length > 0) {
+          core.loadSection(state.currentCategory.sections[0].id);
+        }
+      },
+
+      loadSection: (sectionId) => {
+        if (!state.currentCategory) return;
+
+        const section = state.currentCategory.sections.find(s => s.id === sectionId);
+        if (!section) {
+          utils.showFeedback(
+            state.isUrdu ?
+              'سیکشن نہیں ملا' :
+              'Section not found',
+            'error'
+          );
+          return;
+        }
+
+        state.currentSection = section;
+        state.currentSubsection = null;
+
+        // Update active sidebar item
+        document.querySelectorAll('.sidebar-item').forEach(item => {
+          item.classList.remove('active');
+          if (item.dataset.sectionId === sectionId) {
+            item.classList.add('active');
+          }
+        });
+
+        // Update bookmark button
+        utils.updateBookmarkButton();
+
+        // Hide notes section when changing sections
+        domElements.notesSection.classList.add('hidden');
+
+        // Display section content
+        core.displaySectionContent();
+
+        // Scroll to top
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      },
+
+      loadSubsection: (subsectionId) => {
+        if (!state.currentSection || !state.currentSection.subsections) {
+          utils.showFeedback(
+            state.isUrdu ?
+              'ذیلی عنوانات دستیاب نہیں ہیں' :
+              'Subsections not available',
+            'error'
+          );
+          return;
+        }
+
+        const subsection = state.currentSection.subsections.find(s => s.id === subsectionId);
+        if (!subsection) {
+          utils.showFeedback(
+            state.isUrdu ?
+              'ذیلی عنوان نہیں ملا' :
+              'Subsection not found',
+            'error'
+          );
+          return;
+        }
+
+        utils.showLoading();
+        setTimeout(() => {
+          state.currentSubsection = subsection;
+          core.displaySectionContent();
+        }, 100);
+      },
+      displaySectionContent: () => {
+        if (!state.currentSection) return;
+        utils.showLoading();
+        setTimeout(() => {
+          // Update breadcrumbs
+          const categoryName = utils.getTranslatedText(state.currentCategory.name);
+          const sectionName = utils.getTranslatedText(state.currentSection.name);
+
+          domElements.breadcrumbs.innerHTML = `
+          <a href="learn-categories.html" class="hover:text-brand dark:hover:text-secondary">${state.isUrdu ? 'سیکھنے کا مرکز' : 'Learning Hub'}</a>
+          <span class="mx-2">/</span>
+          <a href="learn.html?topic=${state.currentCategory.id}&lang=${state.isUrdu ? 'ur' : 'en'}" class="hover:text-brand dark:hover:text-secondary">${categoryName}</a>
+          <span class="mx-2">/</span>
+          <span class="text-brand dark:text-secondary">${sectionName}</span>
+        `;
+
+          // Display content
+          if (state.currentSection.subsections && !state.currentSubsection) {
+            // Section has subsections - show list
+            let contentHTML = `
+            <div class="content-card bg-white dark:bg-gray-800 rounded-lg shadow-sm p-6 mb-6 slide-in">
+              <h2 class="text-xl font-bold mb-4">${sectionName}</h2>
+              ${state.currentSection.content ? `<div class="prose dark:prose-invert max-w-none mb-6">${utils.getTranslatedText(state.currentSection.content)}</div>` : ''}
+              
+              <h3 class="text-lg font-semibold mb-4">${state.isUrdu ? 'ذیلی موضوعات' : 'Subtopics'}</h3>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          `;
+
+            state.currentSection.subsections.forEach(subsection => {
+              contentHTML += `
+              <div class="p-4 border rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer" data-subsection-id="${subsection.id}">
+                <h4 class="font-medium mb-2">${utils.getTranslatedText(subsection.name)}</h4>
+                ${subsection.content ? `<p class="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">${utils.getTranslatedText(subsection.content).replace(/<[^>]*>/g, '').substring(0, 100)}...</p>` : ''}
+              </div>
+            `;
+            });
+
+            contentHTML += `
+              </div>
+            </div>
+          `;
+
+            domElements.contentArea.innerHTML = contentHTML;
+
+            // Add click event to subsections
+            document.querySelectorAll('[data-subsection-id]').forEach(item => {
+              item.addEventListener('click', () => {
+                core.loadSubsection(item.dataset.subsectionId);
+              });
+            });
+          }
+          else {
+            // Single section or subsection content
+            const content = state.currentSubsection ?
+              state.currentSubsection.content :
+              state.currentSection.content;
+
+            const title = state.currentSubsection ?
+              utils.getTranslatedText(state.currentSubsection.name) :
+              utils.getTranslatedText(state.currentSection.name);
+
+            domElements.contentArea.innerHTML = `
+            <div class="content-card bg-white dark:bg-gray-800 rounded-lg shadow-sm p-6 slide-in">
+              <h2 class="text-xl font-bold mb-4">${title}</h2>
+              <div class="prose dark:prose-invert max-w-none">${utils.getTranslatedText(content)}</div>
+              <div class="mt-6 flex justify-between items-center">
+                <div class="flex space-x-2">
+                  <button class="copy-btn px-3 py-1 bg-gray-200 dark:bg-gray-700 rounded text-sm flex items-center">
+                    <i class="fas fa-copy mr-1"></i> ${state.isUrdu ? 'کاپی کریں' : 'Copy'}
+                  </button>
+                  <button class="share-btn px-3 py-1 bg-gray-200 dark:bg-gray-700 rounded text-sm flex items-center">
+                    <i class="fas fa-share-alt mr-1"></i> ${state.isUrdu ? 'شیئر کریں' : 'Share'}
+                  </button>
+                </div>
+                ${state.currentSubsection ? `
+                  <button id="back-to-section" class="px-3 py-1 bg-gray-200 dark:bg-gray-700 rounded text-sm flex items-center">
+                    <i class="fas fa-arrow-left mr-1"></i> ${state.isUrdu ? 'بڑے موضوع پر واپس جائیں' : 'Back to main section'}
+                  </button>
+                ` : ''}
+              </div>
+            </div>
+          `;
+
+            // Add event listeners to buttons
+            document.querySelectorAll('.copy-btn').forEach(btn => {
+              btn.addEventListener('click', () => {
+                const contentText = state.currentSubsection ?
+                  state.currentSubsection.content.en.replace(/<[^>]*>/g, '') :
+                  state.currentSection.content.en.replace(/<[^>]*>/g, '');
+                utils.copyToClipboard(contentText);
+              });
+            });
+
+            document.querySelectorAll('.share-btn').forEach(btn => {
+              btn.addEventListener('click', utils.shareContent);
+            });
+
+            if (state.currentSubsection) {
+              document.getElementById('back-to-section').addEventListener('click', () => {
+                state.currentSubsection = null;
+                core.displaySectionContent();
+              });
+            }
+          }
+
+          // Highlight saved text
+          core.applyHighlights();
+
+          // Show references if available
+          core.displayReferences();
+
+          utils.hideLoading();
+        }, 300);
+      },
+
+      displayReferences: () => {
+        const references = state.currentSubsection ?
+          (state.currentSubsection.references || []) :
+          (state.currentSection.references || []);
+
+        if (references.length > 0) {
+          domElements.referencesSection.classList.remove('hidden');
+          domElements.referencesTitle.textContent = state.isUrdu ? 'حوالہ جات' : 'References';
+
+          let referencesHTML = '';
+          references.forEach(ref => {
+            referencesHTML += `
+              <div class="reference-item">
+                <p class="font-medium">${utils.getTranslatedText(ref.title)}</p>
+                ${ref.url ? `<a href="${ref.url}" target="_blank" rel="noopener noreferrer" class="text-sm text-brand dark:text-secondary hover:underline">${ref.url}</a>` : ''}
+                ${ref.author ? `<p class="text-sm text-gray-600 dark:text-gray-400">${state.isUrdu ? 'مصنف:' : 'Author:'} ${ref.author}</p>` : ''}
+              </div>
+            `;
+          });
+
+          domElements.referencesContent.innerHTML = referencesHTML;
+        } else {
+          domElements.referencesSection.classList.add('hidden');
+        }
+      },
+
+      displayRecentTopics: () => {
+        domElements.recentTopics.innerHTML = '';
+
+        state.recentTopics.forEach(topic => {
+          const topicItem = document.createElement('div');
+          topicItem.className = 'text-sm px-3 py-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700 cursor-pointer flex items-center';
+
+          topicItem.innerHTML = `
+            <i class="fas fa-history mr-2 text-gray-500"></i>
+            <span>${utils.getTranslatedText(topic.name)}</span>
+          `;
+
+          topicItem.addEventListener('click', () => {
+            window.location.href = `learn.html?topic=${topic.id}&lang=${state.isUrdu ? 'ur' : 'en'}`;
+          });
+
+          domElements.recentTopics.appendChild(topicItem);
+        });
+      },
+
+      applyHighlights: () => {
+        if (!state.currentSection || !state.highlightedText.length) return;
+
+        const sectionId = state.currentSection.id;
+        const highlightsForSection = state.highlightedText.filter(h => h.sectionId === sectionId);
+
+        if (!highlightsForSection.length) return;
+
+        let contentHtml = domElements.contentArea.innerHTML;
+
+        highlightsForSection.forEach(highlight => {
+          const escapedText = highlight.text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+          const regex = new RegExp(escapedText, 'gi');
+          contentHtml = contentHtml.replace(
+            regex,
+            match => `<span class="highlighted">${match}</span>`
+          );
+        });
+
+        domElements.contentArea.innerHTML = contentHtml;
+      },
+
+      searchContent: utils.debounce(() => {
+        const query = domElements.contentSearch.value.toLowerCase().trim();
+        state.searchQuery = query;
+
+        if (!query) {
+          if (state.currentSection) {
+            core.displaySectionContent();
+          } else if (state.currentCategory) {
+            core.displayCategory();
+          }
+          return;
+        }
+
+        if (!state.currentCategory) return;
+
+        let resultsHTML = '';
+        let hasResults = false;
+
+        // Search through all sections
+        state.currentCategory.sections.forEach(section => {
+          const sectionContent = utils.getTranslatedText(section.content).toLowerCase();
+          const sectionName = utils.getTranslatedText(section.name).toLowerCase();
+
+          if (sectionName.includes(query) || sectionContent.includes(query)) {
+            hasResults = true;
+            resultsHTML += `
+              <div class="content-card bg-white dark:bg-gray-800 rounded-lg shadow-sm p-6 mb-6">
+                <h2 class="text-xl font-bold mb-4">${utils.getTranslatedText(section.name)}</h2>
+                <div class="prose dark:prose-invert max-w-none">${utils.getTranslatedText(section.content)}</div>
+                <div class="mt-4 flex justify-end">
+                  <button class="view-section-btn px-3 py-1 bg-brand text-white rounded text-sm" data-section-id="${section.id}">
+                    ${state.isUrdu ? 'دیکھیں' : 'View'}
+                  </button>
+                </div>
+              </div>
+            `;
+          }
+
+          // Search subsections if they exist
+          if (section.subsections) {
+            section.subsections.forEach(subsection => {
+              const subsectionContent = utils.getTranslatedText(subsection.content).toLowerCase();
+              const subsectionName = utils.getTranslatedText(subsection.name).toLowerCase();
+
+              if (subsectionName.includes(query) || subsectionContent.includes(query)) {
+                hasResults = true;
+                resultsHTML += `
+                  <div class="content-card bg-white dark:bg-gray-800 rounded-lg shadow-sm p-6 mb-6">
+                    <h2 class="text-xl font-bold mb-4">${utils.getTranslatedText(subsection.name)}</h2>
+                    <div class="prose dark:prose-invert max-w-none">${utils.getTranslatedText(subsection.content)}</div>
+                    <div class="mt-4 flex justify-end">
+                      <button class="view-subsection-btn px-3 py-1 bg-brand text-white rounded text-sm" data-section-id="${section.id}" data-subsection-id="${subsection.id}">
+                        ${state.isUrdu ? 'دیکھیں' : 'View'}
+                      </button>
+                    </div>
+                  </div>
+                `;
+              }
+            });
+          }
+        });
+
+        if (hasResults) {
+          domElements.contentArea.innerHTML = resultsHTML;
+          utils.hideEmptyState();
+
+          // Add event listeners to view buttons
+          document.querySelectorAll('.view-section-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+              core.loadSection(btn.dataset.sectionId);
+            });
+          });
+
+          document.querySelectorAll('.view-subsection-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+              core.loadSection(btn.dataset.sectionId);
+              setTimeout(() => {
+                core.loadSubsection(btn.dataset.subsectionId);
+              }, 100);
+            });
+          });
+        } else {
+          utils.showEmptyState(
+            state.isUrdu ? 'کوئی نتائج نہیں ملا' : 'No results found',
+            state.isUrdu ? 'آپ کی تلاش سے کوئی مماثلت نہیں مل سکی' : 'No matches found for your search'
+          );
+        }
+      }, 300),
+
+      // Theme management
+      loadThemePreference: () => {
+        const savedTheme = localStorage.getItem('theme');
+        const osPreference = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+
+        if (savedTheme) {
+          document.documentElement.classList.toggle('dark', savedTheme === 'dark');
+        } else {
+          document.documentElement.classList.toggle('dark', osPreference === 'dark');
+        }
+
+        state.isDark = document.documentElement.classList.contains('dark');
+      },
+
+      toggleTheme: () => {
+        document.documentElement.classList.toggle('dark');
+        state.isDark = !state.isDark;
+        localStorage.setItem('theme', state.isDark ? 'dark' : 'light');
+
+        utils.showFeedback(
+          state.isUrdu ?
+            `${state.isDark ? 'ڈارک' : 'لائٹ'} موڈ میں تبدیل کیا گیا` :
+            `Switched to ${state.isDark ? 'dark' : 'light'} mode`,
+          'info'
+        );
+      },
+
+      // Language management
+      toggleLanguage: () => {
+        state.isUrdu = !state.isUrdu;
+        localStorage.setItem('preferredLanguage', state.isUrdu ? 'ur' : 'en');
+
+        // Update UI
+        if (state.currentCategory) {
+          domElements.categoryTitle.textContent = utils.getTranslatedText(state.currentCategory.name);
+          domElements.contentTitle.textContent = utils.getTranslatedText(state.currentCategory.name);
+
+          if (state.currentSection) {
+            core.displaySectionContent();
+          }
+        }
+
+        // Update search placeholder
+        domElements.contentSearch.placeholder = state.isUrdu ?
+          "مواد تلاش کریں..." :
+          "Search content...";
+
+        // Update empty state text
+        if (domElements.emptyState.classList.contains('hidden') === false) {
+          domElements.emptyStateTitle.textContent = state.isUrdu ? 'کوئی نتائج نہیں ملا' : 'No results found';
+          domElements.emptyStateMessage.textContent = state.isUrdu ?
+            'آپ کی تلاش سے کوئی مماثلت نہیں مل سکی' :
+            'No matches found for your search';
+        }
+
+        // Update buttons
+        utils.updateBookmarkButton();
+
+        utils.showFeedback(
+          state.isUrdu ?
+            'زبان اردو میں تبدیل کی گئی' :
+            'Language switched to English',
+          'info'
+        );
+      },
+
+      // Font size management
+      increaseFontSize: () => {
+        if (state.fontSize < 20) {
+          state.fontSize += 1;
+          utils.updateFontSize();
+          utils.showFeedback(
+            state.isUrdu ?
+              'فونٹ سائز بڑھایا گیا' :
+              'Font size increased'
+          );
+        } else {
+          utils.showFeedback(
+            state.isUrdu ?
+              'زیادہ سے زیادہ فونٹ سائز تک پہنچ گئے' :
+              'Maximum font size reached',
+            'info'
+          );
+        }
+      },
+
+      decreaseFontSize: () => {
+        if (state.fontSize > 12) {
+          state.fontSize -= 1;
+          utils.updateFontSize();
+          utils.showFeedback(
+            state.isUrdu ?
+              'فونٹ سائز کم کیا گیا' :
+              'Font size decreased'
+          );
+        } else {
+          utils.showFeedback(
+            state.isUrdu ?
+              'کم سے کم فونٹ سائز تک پہنچ گئے' :
+              'Minimum font size reached',
+            'info'
+          );
+        }
+      },
+
+      displayUserBookmarks: () => {
+        const container = document.getElementById('bookmarks-container');
+        if (!container) return;
+
+        if (!state.bookmarks.length) {
+          container.innerHTML = `
+      <p class="text-gray-500 text-sm">${state.isUrdu ? 'کوئی بک مارک نہیں ملا' : 'No bookmarks found'}</p>
+    `;
+          return;
+        }
+
+        let html = '';
+        state.bookmarks.forEach(bookmark => {
+          html += `
+            <div class="user-content-item">
+              <div class="flex justify-between items-start">
+                <div>
+                  <h4 class="font-medium">${utils.getTranslatedText(bookmark.categoryName)}</h4>
+                  <p class="text-sm text-gray-600 dark:text-gray-300">${utils.getTranslatedText(bookmark.sectionName)}</p>
+                </div>
+                <button class="view-bookmark-btn px-2 py-1 bg-gray-200 dark:bg-gray-700 rounded text-xs" 
+                        data-category-id="${bookmark.categoryId}" 
+                        data-section-id="${bookmark.sectionId}">
+                  ${state.isUrdu ? 'دیکھیں' : 'View'}
+                </button>
+              </div>
+            </div>
+          `;
+        });
+
+        document.getElementById('bookmarks-container').innerHTML = html;
+
+        // Add event listeners to view buttons
+        document.querySelectorAll('.view-bookmark-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            window.location.href = `learn.html?topic=${btn.dataset.categoryId}&lang=${state.isUrdu ? 'ur' : 'en'}#${btn.dataset.sectionId}`;
+          });
+        });
+      },
+
+      displayUserNotes: () => {
+        const notesWithContent = Object.entries(state.notes).filter(([_, content]) => content.trim() !== '');
+
+        if (!notesWithContent.length) {
+          document.getElementById('notes-container').innerHTML = `
+            <p class="text-gray-500 text-sm">${state.isUrdu ? 'کوئی نوٹس نہیں ملا' : 'No notes found'}</p>
+          `;
+          return;
+        }
+
+        let html = '';
+        notesWithContent.forEach(([noteId, content]) => {
+          const [categoryId, sectionId] = noteId.split('-');
+          const category = state.recentTopics.find(t => t.id === categoryId);
+          const categoryName = category ? category.name : { en: 'Unknown Category', ur: 'نامعلوم زمرہ' };
+
+          html += `
+            <div class="user-content-item">
+              <div class="flex justify-between items-start mb-2">
+                <h4 class="font-medium">${utils.getTranslatedText(categoryName)}</h4>
+                <button class="view-note-btn px-2 py-1 bg-gray-200 dark:bg-gray-700 rounded text-xs" 
+                        data-category-id="${categoryId}" 
+                        data-section-id="${sectionId}">
+                  ${state.isUrdu ? 'دیکھیں' : 'View'}
+                </button>
+              </div>
+              <p class="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">${content}</p>
+            </div>
+          `;
+        });
+
+        document.getElementById('notes-container').innerHTML = html;
+
+        // Add event listeners to view buttons
+        document.querySelectorAll('.view-note-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            window.location.href = `learn.html?topic=${btn.dataset.categoryId}&lang=${state.isUrdu ? 'ur' : 'en'}#${btn.dataset.sectionId}`;
+          });
+        });
+      },
+
+
+    };
+
+    // Event Handlers
+    const eventHandlers = {
+      setupEventListeners: () => {
+        // Language toggle
+        if (domElements.languageToggle) {
+          domElements.languageToggle.addEventListener('change', core.toggleLanguage);
+        }
+
+        // Theme toggle
+        domElements.themeToggle.addEventListener('click', core.toggleTheme);
+
+        // Search input
+        domElements.contentSearch.addEventListener('input', core.searchContent);
+
+        // Font size controls
+        domElements.fontIncrease.addEventListener('click', core.increaseFontSize);
+        domElements.fontDecrease.addEventListener('click', core.decreaseFontSize);
+
+        // Highlight button
+        domElements.highlightBtn.addEventListener('click', utils.toggleHighlightMode);
+
+        // Close toast
+        domElements.closeToast.addEventListener('click', () => {
+          domElements.feedbackToast.classList.add('hidden');
+        });
+
+        // Update mobile menu event listener to properly toggle
+        domElements.mobileMenuButton.addEventListener('click', (e) => {
+          e.stopPropagation();
+          domElements.mobileMenu.classList.toggle('hidden');
+          domElements.mobileMenu.classList.toggle('open');
+        });
+
+        // Text selection for highlighting
+        domElements.contentArea.addEventListener('mouseup', () => {
+          if (!state.highlightMode) return;
+
+          const selection = window.getSelection();
+          if (selection.toString().length > 3 && state.currentSection) {
+            utils.highlightText(selection.toString(), state.currentSection.id);
+            state.highlightMode = false;
+            domElements.highlightBtn.classList.remove('bg-brand', 'text-white');
+            domElements.highlightBtn.classList.add('hover:bg-gray-200', 'dark:hover:bg-gray-700');
+            document.body.style.cursor = '';
+          }
+        });
+
+        // Back to topics button
+        domElements.backToTopics.addEventListener('click', () => {
+          window.location.href = 'learning-categories.html';
+        });
+
+        // Bookmark button
+        domElements.bookmarkBtn.addEventListener('click', utils.toggleBookmark);
+
+        // Quiz button
+        domElements.quizBtn.addEventListener('click', (e) => {
+          if (state.currentCategory) {
+            e.preventDefault();
+            window.location.href = `quiz-categories.html?category=${state.currentCategory.id}&lang=${state.isUrdu ? 'ur' : 'en'}`;
+          }
+        });
+
+
+        // Notes button
+        domElements.notesBtn.addEventListener('click', utils.toggleNotes);
+
+        // Save notes button
+        domElements.saveNotesBtn.addEventListener('click', utils.saveNotes);
+
+        // Handle clicks outside mobile menu to close it
+        document.addEventListener('click', (e) => {
+          if (!domElements.mobileMenu.contains(e.target) &&
+            !domElements.mobileMenuButton.contains(e.target) &&
+            !domElements.mobileMenu.classList.contains('hidden')) {
+            domElements.mobileMenu.classList.add('hidden');
+            domElements.mobileMenu.classList.remove('open');
+          }
+        });
+
+        // Add new button for viewing bookmarks/notes
+        // You might want to add this button to your UI
+        document.getElementById('view-saved-btn').addEventListener('click', utils.toggleUserContent);
+        domElements.eraseHighlightsBtn.addEventListener('click', utils.eraseHighlights);
+      }
+    };
+
+    // Initialize the application
+    document.addEventListener('DOMContentLoaded', core.init);
+  </script>
+      <script src="/js/analytics.js"></script>
+
+</body>
+
+</html>

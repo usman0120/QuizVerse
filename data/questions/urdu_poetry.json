@@ -1,0 +1,3504 @@
+{
+  "meta": {
+    "category": "Urdu Poetry",
+    "category_ur": "اردو شاعری",
+    "description": "Test your knowledge of famous Urdu poets and their works",
+    "description_ur": "مشہور اردو شعراء اور ان کی تخلیقات کا امتحان لیں",
+    "difficulty": "medium",
+    "image": "urdu_poetry.jpg"
+  },
+  "questions": [
+    
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Who is known as the 'Poet of the East'?",
+      "question_ur": "'شاعر مشرق' کے نام سے کون جانا جاتا ہے؟",
+      "options": {
+        "en": ["Mirza Ghalib", "Allama Iqbal", "Faiz Ahmed Faiz", "Mir Taqi Mir"],
+        "ur": ["مرزا غالب", "علامہ اقبال", "فیض احمد فیض", "میر تقی میر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Allama Iqbal is referred to as 'Shair-e-Mashriq' (Poet of the East).",
+      "explanation_ur": "علامہ اقبال کو 'شاعر مشرق' کہا جاتا ہے۔",
+      "hint": "He wrote 'Lab Pe Aati Hai Dua'",
+      "hint_ur": "انہوں نے 'لب پہ آتی ہے دعا' لکھی تھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Which poet is known for his couplets (sher) in Urdu poetry?",
+      "question_ur": "اردو شاعری میں اپنے اشعار (شیر) کے لیے کون شاعر مشہور ہے؟",
+      "options": {
+        "en": ["Mirza Ghalib", "Josh Malihabadi", "Parveen Shakir", "Ahmed Faraz"],
+        "ur": ["مرزا غالب", "جوش ملیح آبادی", "پروین شاکر", "احمد فراز"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Mirza Ghalib is renowned for his profound and timeless couplets.",
+      "explanation_ur": "مرزا غالب اپنے گہرے اور لازوال اشعار کے لیے مشہور ہیں۔",
+      "hint": "His full name is Mirza Asadullah Baig Khan",
+      "hint_ur": "ان کا پورا نام مرزا اسد اللہ بیگ خان تھا",
+      "timeLimit": 25
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Who wrote the famous ghazal 'Ranjish Hi Sahi'?",
+      "question_ur": "مشہور غزل 'رنجش ہی سہی' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Ahmed Faraz", "Mehdi Hassan", "Hafeez Jalandhari"],
+        "ur": ["فیض احمد فیض", "احمد فراز", "مہدی حسن", "حفیظ جالندھری"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ahmed Faraz is the poet of this melancholic ghazal.",
+      "explanation_ur": "احمد فراز اس درد بھری غزل کے شاعر ہیں۔",
+      "hint": "He also wrote 'Ab Ke Hum Bichhde'",
+      "hint_ur": "انہوں نے 'اب کے ہم بچھڑے' بھی لکھی",
+      "timeLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Which female poet is known for her modern Urdu ghazals?",
+      "question_ur": "کون سی خاتون شاعرہ جدید اردو غزلوں کے لیے مشہور ہیں؟",
+      "options": {
+        "en": ["Parveen Shakir", "Kishwar Naheed", "Fahmida Riaz", "Ada Jafri"],
+        "ur": ["پروین شاکر", "کشور ناہید", "فہمیدہ ریاض", "ادا جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Parveen Shakir brought a fresh feminine perspective to Urdu poetry.",
+      "explanation_ur": "پروین شاکر نے اردو شاعری میں خواتین کے نقطہ نظر کو نیا انداز دیا۔",
+      "hint": "Her famous collection is 'Khushbu'",
+      "hint_ur": "ان کا مشہور مجموعہ 'خوشبو' ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Who composed the national anthem of Pakistan?",
+      "question_ur": "پاکستان کا قومی ترانہ کس نے لکھا؟",
+      "options": {
+        "en": ["Allama Iqbal", "Hafeez Jalandhari", "Faiz Ahmed Faiz", "Josh Malihabadi"],
+        "ur": ["علامہ اقبال", "حفیظ جالندھری", "فیض احمد فیض", "جوش ملیح آبادی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Hafeez Jalandhari wrote the lyrics of Pakistan's national anthem.",
+      "explanation_ur": "حفیظ جالندھری نے پاکستان کے قومی ترانے کے بول لکھے۔",
+      "hint": "He was born in Jalandhar, India",
+      "hint_ur": "وہ جالندھر، بھارت میں پیدا ہوئے تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Which poet is known as 'Shaayar-e-Inquilaab' (Poet of Revolution)?",
+      "question_ur": "کس شاعر کو 'شاعر انقلاب' کہا جاتا ہے؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Habib Jalib", "Ahmed Faraz", "Jaun Elia"],
+        "ur": ["فیض احمد فیض", "حبیب جالب", "احمد فراز", "جون ایلیا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Habib Jalib was known for his revolutionary poetry against oppression.",
+      "explanation_ur": "حبیب جالب ظلم کے خلاف انقلابی شاعری کے لیے مشہور تھے۔",
+      "hint": "He wrote 'Dastoor'",
+      "hint_ur": "انہوں نے 'دستور' لکھی",
+      "timeLimit": 25
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Who wrote 'Bazeecha-e-Atfal'?",
+      "question_ur": "'بازیچہ اطفال' کس نے لکھی؟",
+      "options": {
+        "en": ["Mirza Ghalib", "Allama Iqbal", "Mir Taqi Mir", "Daagh Dehlvi"],
+        "ur": ["مرزا غالب", "علامہ اقبال", "میر تقی میر", "داغ دہلوی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This philosophical poem about the world being a playground was written by Allama Iqbal.",
+      "explanation_ur": "دنیا کو بچوں کے کھیل کے میدان کے طور پر بیان کرنے والی یہ فلسفیانہ نظم علامہ اقبال نے لکھی۔",
+      "hint": "Part of 'Baal-e-Jibril' collection",
+      "hint_ur": "'بال جبریل' مجموعے کا حصہ",
+      "timeLimit": 30
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Which poet is known for his romantic poetry in Urdu?",
+      "question_ur": "اردو میں رومانوی شاعری کے لیے کون سا شاعر مشہور ہے؟",
+      "options": {
+        "en": ["Ahmed Faraz", "Mir Taqi Mir", "Momin Khan Momin", "All of the above"],
+        "ur": ["احمد فراز", "میر تقی میر", "مومن خان مومن", "تمام اوپر والے"]
+      },
+      "correctAnswer": 3,
+      "explanation": "All these poets made significant contributions to romantic Urdu poetry.",
+      "explanation_ur": "یہ تمام شعراء نے اردو رومانوی شاعری میں اہم کردار ادا کیا۔",
+      "hint": "Mir is called 'Khuda-e-Sukhan' (God of Poetry)",
+      "hint_ur": "میر کو 'خداے سخن' کہا جاتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Who wrote the famous verse 'Gulon mein rang bhare baad-e-naubahaar chale'?",
+      "question_ur": "'گلوں میں رنگ بھرے بادِ نو بہار چلے' کس نے لکھا؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Allama Iqbal", "Mirza Ghalib", "Daagh Dehlvi"],
+        "ur": ["فیض احمد فیض", "علامہ اقبال", "مرزا غالب", "داغ دہلوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is the opening verse of Faiz's famous ghazal.",
+      "explanation_ur": "یہ فیض کی مشہور غزل کا آغاز ہے۔",
+      "hint": "From the collection 'Naqsh-e-Faryadi'",
+      "hint_ur": "'نقش فریادی' مجموعے سے",
+      "timeLimit": 25
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Which poet is known for his satirical poetry?",
+      "question_ur": "طنزیہ شاعری کے لیے کون سا شاعر مشہور ہے؟",
+      "options": {
+        "en": ["Akbar Allahabadi", "Jaun Elia", "Anwar Masood", "All of the above"],
+        "ur": ["اکبر الہ آبادی", "جون ایلیا", "انور مسعود", "تمام اوپر والے"]
+      },
+      "correctAnswer": 3,
+      "explanation": "All these poets used satire effectively in their poetry.",
+      "explanation_ur": "ان تمام شعراء نے اپنی شاعری میں طنز کا مؤثر استعمال کیا۔",
+      "hint": "Akbar Allahabadi mocked modern education",
+      "hint_ur": "اکبر الہ آبادی نے جدید تعلیم پر طنز کیا",
+      "timeLimit": 20
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "Who wrote 'Diwan-e-Ghalib'?",
+      "question_ur": "'دیوان غالب' کس نے لکھا؟",
+      "options": {
+        "en": ["Mirza Ghalib", "Mir Taqi Mir", "Allama Iqbal", "Daagh Dehlvi"],
+        "ur": ["مرزا غالب", "میر تقی میر", "علامہ اقبال", "داغ دہلوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Diwan-e-Ghalib is the collection of poetry by Mirza Ghalib.",
+      "explanation_ur": "دیوان غالب مرزا غالب کا شعری مجموعہ ہے۔",
+      "hint": "Published in 1841",
+      "hint_ur": "1841 میں شائع ہوا",
+      "timeLimit": 15
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Which poet wrote 'Yeh Ishq Nahin Aasan'?",
+      "question_ur": "'یہ عشق نہیں آسان' کس نے لکھی؟",
+      "options": {
+        "en": ["Ahmed Faraz", "Faiz Ahmed Faiz", "Jaun Elia", "Amjad Islam Amjad"],
+        "ur": ["احمد فراز", "فیض احمد فیض", "جون ایلیا", "امجد اسلام امجد"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This famous ghazal was penned by Faiz Ahmed Faiz.",
+      "explanation_ur": "یہ مشہور غزل فیض احمد فیض نے لکھی۔",
+      "hint": "From collection 'Dast-e-Saba'",
+      "hint_ur": "'دست صبا' مجموعے سے",
+      "timeLimit": 20
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "Who is known as 'Khuda-e-Sukhan' (God of Poetry)?",
+      "question_ur": "'خداے سخن' کسے کہا جاتا ہے؟",
+      "options": {
+        "en": ["Mir Taqi Mir", "Mirza Ghalib", "Allama Iqbal", "Daagh Dehlvi"],
+        "ur": ["میر تقی میر", "مرزا غالب", "علامہ اقبال", "داغ دہلوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Mir Taqi Mir is honored with this title for his mastery over Urdu poetry.",
+      "explanation_ur": "میر تقی میر کو اردو شاعری پر ان کے عبور کی وجہ سے یہ خطاب دیا گیا۔",
+      "hint": "Lived during 18th century",
+      "hint_ur": "18ویں صدی میں رہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "Which poet wrote 'Sarfaroshi Ki Tamanna'?",
+      "question_ur": "'سر فروشی کی تمنا' کس نے لکھی؟",
+      "options": {
+        "en": ["Ram Prasad Bismil", "Josh Malihabadi", "Allama Iqbal", "Hasrat Mohani"],
+        "ur": ["رام پرساد بسمل", "جوش ملیح آبادی", "علامہ اقبال", "حسرت موہانی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Josh Malihabadi wrote this revolutionary poem during India's freedom struggle.",
+      "explanation_ur": "جوش ملیح آبادی نے ہندوستان کی آزادی کی جدوجہد کے دوران یہ انقلابی نظم لکھی۔",
+      "hint": "Known as 'Shayar-e-Inqilab'",
+      "hint_ur": "'شاعر انقلاب' کے نام سے مشہور",
+      "timeLimit": 30
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Who wrote 'Aaj Bazaar Mein Pa Bajola Chalo'?",
+      "question_ur": "'آج بازار میں پا بجولا چلو' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Habib Jalib", "Ahmed Faraz", "Jaun Elia"],
+        "ur": ["فیض احمد فیض", "حبیب جالب", "احمد فراز", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This revolutionary poem was written by Faiz Ahmed Faiz.",
+      "explanation_ur": "یہ انقلابی نظم فیض احمد فیض نے لکھی۔",
+      "hint": "From collection 'Dast-e-Saba'",
+      "hint_ur": "'دست صبا' مجموعے سے",
+      "timeLimit": 25
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "Which poet is famous for his 'Marsiya' writing?",
+      "question_ur": "مرثیہ نگاری کے لیے کون سا شاعر مشہور ہے؟",
+      "options": {
+        "en": ["Mir Anis", "Mirza Dabeer", "Josh Malihabadi", "Both 1 & 2"],
+        "ur": ["میر انیس", "مرزا دبیر", "جوش ملیح آبادی", "1 اور 2 دونوں"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Mir Anis and Mirza Dabeer are the two pillars of Marsiya writing in Urdu.",
+      "explanation_ur": "میر انیس اور مرزا دبیر اردو میں مرثیہ نگاری کے دو ستون ہیں۔",
+      "hint": "Related to Karbala elegies",
+      "hint_ur": "کربلا کے مرثیوں سے متعلق",
+      "timeLimit": 20
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "Who wrote 'Bang-e-Dra'?",
+      "question_ur": "'بانگ درا' کس نے لکھی؟",
+      "options": {
+        "en": ["Allama Iqbal", "Mirza Ghalib", "Faiz Ahmed Faiz", "Josh Malihabadi"],
+        "ur": ["علامہ اقبال", "مرزا غالب", "فیض احمد فیض", "جوش ملیح آبادی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Bang-e-Dra is the first Urdu poetry collection of Allama Iqbal.",
+      "explanation_ur": "بانگ درا علامہ اقبال کا پہلا اردو شعری مجموعہ ہے۔",
+      "hint": "Contains 'Lab Pe Aati Hai Dua'",
+      "hint_ur": "اس میں 'لب پہ آتی ہے دعا' شامل ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Which poet wrote 'Dil-e-Nadaan Tujhe Hua Kya Hai'?",
+      "question_ur": "'دل ناداں تجھے ہوا کیا ہے' کس نے لکھی؟",
+      "options": {
+        "en": ["Mirza Ghalib", "Mir Taqi Mir", "Daagh Dehlvi", "Momin Khan Momin"],
+        "ur": ["مرزا غالب", "میر تقی میر", "داغ دہلوی", "مومن خان مومن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This famous ghazal is from Mirza Ghalib's Diwan.",
+      "explanation_ur": "یہ مشہور غزل مرزا غالب کے دیوان سے ہے۔",
+      "hint": "Opening verse of a famous ghazal",
+      "hint_ur": "ایک مشہور غزل کا آغاز",
+      "timeLimit": 20
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Who is known for the couplet 'Hazaron khwahishen aisi ke har khwahish pe dam nikle'?",
+      "question_ur": "'ہزاروں خواہشیں ایسی کہ ہر خواہش پہ دم نکلے' کس کا شعر ہے؟",
+      "options": {
+        "en": ["Mirza Ghalib", "Allama Iqbal", "Faiz Ahmed Faiz", "Mir Taqi Mir"],
+        "ur": ["مرزا غالب", "علامہ اقبال", "فیض احمد فیض", "میر تقی میر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This is one of Ghalib's most famous couplets about human desires.",
+      "explanation_ur": "انسانی خواہشات پر غالب کا یہ مشہور شعر ہے۔",
+      "hint": "From Diwan-e-Ghalib",
+      "hint_ur": "دیوان غالب سے",
+      "timeLimit": 25
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Which poet wrote 'Sarhad Ke Is Paar Bhi, Us Paar Bhi'?",
+      "question_ur": "'سرحد کے اس پار بھی، اس پار بھی' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Ahmed Faraz", "Habib Jalib", "Jaun Elia"],
+        "ur": ["فیض احمد فیض", "احمد فراز", "حبیب جالب", "جون ایلیا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This famous poem about divided families was written by Ahmed Faraz.",
+      "explanation_ur": "تقسیم شدہ خاندانوں پر یہ مشہور نظم احمد فراز نے لکھی۔",
+      "hint": "About India-Pakistan partition",
+      "hint_ur": "ہندوستان پاکستان تقسیم کے بارے میں",
+      "timeLimit": 30
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Who wrote 'Shikwa' and 'Jawab-e-Shikwa'?",
+      "question_ur": "'شکوہ' اور 'جواب شکوہ' کس نے لکھے؟",
+      "options": {
+        "en": ["Allama Iqbal", "Mirza Ghalib", "Josh Malihabadi", "Hafeez Jalandhari"],
+        "ur": ["علامہ اقبال", "مرزا غالب", "جوش ملیح آبادی", "حفیظ جالندھری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "These philosophical poems are among Allama Iqbal's most famous works.",
+      "explanation_ur": "یہ فلسفیانہ نظمیں علامہ اقبال کی مشہور ترین تخلیقات میں شامل ہیں۔",
+      "hint": "Part of 'Bang-e-Dra'",
+      "hint_ur": "'بانگ درا' کا حصہ",
+      "timeLimit": 25
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "Which poet wrote 'Dasht-e-Tanhai'?",
+      "question_ur": "'دشت تنہائی' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Ahmed Faraz", "Jaun Elia", "Parveen Shakir"],
+        "ur": ["فیض احمد فیض", "احمد فراز", "جون ایلیا", "پروین شاکر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This famous ghazal about loneliness was written by Faiz Ahmed Faiz.",
+      "explanation_ur": "تنہائی پر یہ مشہور غزل فیض احمد فیض نے لکھی۔",
+      "hint": "From collection 'Dast-e-Saba'",
+      "hint_ur": "'دست صبا' مجموعے سے",
+      "timeLimit": 20
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Who is known for the couplet 'Mohabbat karne waley kam na honge'?",
+      "question_ur": "'محبت کرنے والے کم نہ ہوں گے' کس کا شعر ہے؟",
+      "options": {
+        "en": ["Momin Khan Momin", "Mirza Ghalib", "Daagh Dehlvi", "Mir Taqi Mir"],
+        "ur": ["مومن خان مومن", "مرزا غالب", "داغ دہلوی", "میر تقی میر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This famous romantic couplet is by Momin Khan Momin.",
+      "explanation_ur": "یہ مشہور رومانوی شعر مومن خان مومن کا ہے۔",
+      "hint": "19th century poet from Delhi",
+      "hint_ur": "19ویں صدی کے دہلی کے شاعر",
+      "timeLimit": 15
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which poet wrote 'Main Akela Hi Chala Tha Janib-e-Manzil'?",
+      "question_ur": "'میں اکیلا ہی چلا تھا جانب منزل' کس نے لکھی؟",
+      "options": {
+        "en": ["Allama Iqbal", "Josh Malihabadi", "Faiz Ahmed Faiz", "Jaun Elia"],
+        "ur": ["علامہ اقبال", "جوش ملیح آبادی", "فیض احمد فیض", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This motivational poem is from Allama Iqbal's collection 'Baal-e-Jibril'.",
+      "explanation_ur": "یہ حوصلہ افزا نظم علامہ اقبال کے مجموعہ 'بال جبریل' سے ہے۔",
+      "hint": "About self-discovery",
+      "hint_ur": "خود شناسی کے بارے میں",
+      "timeLimit": 20
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Who wrote 'Hum Dekhenge'?",
+      "question_ur": "'ہم دیکھیں گے' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Habib Jalib", "Ahmed Faraz", "Jaun Elia"],
+        "ur": ["فیض احمد فیض", "حبیب جالب", "احمد فراز", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This revolutionary poem predicting social change was written by Faiz.",
+      "explanation_ur": "سماجی تبدیلی کی پیش گوئی کرنے والی یہ انقلابی نظم فیض نے لکھی۔",
+      "hint": "Famous line: 'Lazim hai ke hum bhi dekhenge'",
+      "hint_ur": "مشہور مصرع: 'لازم ہے کہ ہم بھی دیکھیں گے'",
+      "timeLimit": 25
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "Which poet is known for 'Nazm' writing?",
+      "question_ur": "نظم نگاری کے لیے کون سا شاعر مشہور ہے؟",
+      "options": {
+        "en": ["Nazeer Akbarabadi", "Josh Malihabadi", "Akhtar ul Iman", "All of the above"],
+        "ur": ["نظیر اکبر آبادی", "جوش ملیح آبادی", "اختر الایمان", "تمام اوپر والے"]
+      },
+      "correctAnswer": 3,
+      "explanation": "All these poets made significant contributions to Urdu Nazm writing.",
+      "explanation_ur": "ان تمام شعراء نے اردو نظم نگاری میں اہم کردار ادا کیا۔",
+      "hint": "Nazeer wrote about common people",
+      "hint_ur": "نظیر نے عام لوگوں کے بارے میں لکھا",
+      "timeLimit": 20
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "Who wrote 'Aik Makra Aur Makhi'?",
+      "question_ur": "'ایک مکڑا اور مکھی' کس نے لکھی؟",
+      "options": {
+        "en": ["Nazeer Akbarabadi", "Akbar Allahabadi", "Allama Iqbal", "Mirza Ghalib"],
+        "ur": ["نظیر اکبر آبادی", "اکبر الہ آبادی", "علامہ اقبال", "مرزا غالب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This humorous poem about a spider and fly was written by Nazeer Akbarabadi.",
+      "explanation_ur": "مکڑے اور مکھی پر یہ مزاحیہ نظم نظیر اکبر آبادی نے لکھی۔",
+      "hint": "18th century poet",
+      "hint_ur": "18ویں صدی کے شاعر",
+      "timeLimit": 15
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "Which poet wrote 'Bol Ke Lab Azaad Hain Tere'?",
+      "question_ur": "'بول کہ لب آزاد ہیں تیرے' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Habib Jalib", "Ahmed Faraz", "Jaun Elia"],
+        "ur": ["فیض احمد فیض", "حبیب جالب", "احمد فراز", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This poem about freedom of expression was written by Faiz Ahmed Faiz.",
+      "explanation_ur": "اظہار رائے کی آزادی پر یہ نظم فیض احمد فیض نے لکھی۔",
+      "hint": "From collection 'Zindan Nama'",
+      "hint_ur": "'زنداں نامہ' مجموعے سے",
+      "timeLimit": 20
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "Who is known for the couplet 'Rahiye Ab Aisi Jagah Chal Kar'?",
+      "question_ur": "'رہیے اب ایسی جگہ چل کر' کس کا شعر ہے؟",
+      "options": {
+        "en": ["Mirza Ghalib", "Mir Taqi Mir", "Momin Khan Momin", "Daagh Dehlvi"],
+        "ur": ["مرزا غالب", "میر تقی میر", "مومن خان مومن", "داغ دہلوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This philosophical couplet about solitude is by Mirza Ghalib.",
+      "explanation_ur": "تنہائی پر یہ فلسفیانہ شعر مرزا غالب کا ہے۔",
+      "hint": "About living away from crowds",
+      "hint_ur": "ہجوم سے دور رہنے کے بارے میں",
+      "timeLimit": 25
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "Which poet wrote 'Awaz Do Hum Ek Hain'?",
+      "question_ur": "'آواز دو ہم ایک ہیں' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Habib Jalib", "Ahmed Faraz", "Jaun Elia"],
+        "ur": ["فیض احمد فیض", "حبیب جالب", "احمد فراز", "جون ایلیا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This revolutionary poem was written by Habib Jalib.",
+      "explanation_ur": "یہ انقلابی نظم حبیب جالب نے لکھی۔",
+      "hint": "About unity among people",
+      "hint_ur": "لوگوں میں اتحاد کے بارے میں",
+      "timeLimit": 20
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Iqbal'?",
+      "question_ur": "'کلیات اقبال' کس نے لکھی؟",
+      "options": {
+        "en": ["Allama Iqbal", "Mirza Ghalib", "Faiz Ahmed Faiz", "Josh Malihabadi"],
+        "ur": ["علامہ اقبال", "مرزا غالب", "فیض احمد فیض", "جوش ملیح آبادی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Iqbal is the complete collection of Allama Iqbal's poetry.",
+      "explanation_ur": "کلیات اقبال علامہ اقبال کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Includes Urdu and Persian poetry",
+      "hint_ur": "اردو اور فارسی شاعری شامل ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "Which poet wrote 'Zindagi Se Darti Ho'?",
+      "question_ur": "'زندگی سے ڈرتی ہو' کس نے لکھی؟",
+      "options": {
+        "en": ["Parveen Shakir", "Kishwar Naheed", "Fahmida Riaz", "Ada Jafri"],
+        "ur": ["پروین شاکر", "کشور ناہید", "فہمیدہ ریاض", "ادا جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This feminist poem was written by Parveen Shakir.",
+      "explanation_ur": "یہ نسوانی نظم پروین شاکر نے لکھی۔",
+      "hint": "From collection 'Khushbu'",
+      "hint_ur": "'خوشبو' مجموعے سے",
+      "timeLimit": 20
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Who wrote 'Kafiya' and 'Radif' in Urdu ghazals?",
+      "question_ur": "اردو غزل میں 'قافیہ' اور 'ردیف' کا تصور کس نے متعارف کرایا؟",
+      "options": {
+        "en": ["Amir Khusro", "Mir Taqi Mir", "Mirza Ghalib", "Wali Dakni"],
+        "ur": ["امیر خسرو", "میر تقی میر", "مرزا غالب", "ولی دکنی"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Wali Dakni introduced these structural elements in Urdu ghazals.",
+      "explanation_ur": "ولی دکنی نے اردو غزل میں یہ ساختی عناصر متعارف کرائے۔",
+      "hint": "Considered father of Urdu ghazal",
+      "hint_ur": "اردو غزل کا باپ سمجھے جاتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "Which poet wrote 'Main Ne Us Se Yeh Kaha'?",
+      "question_ur": "'میں نے اس سے یہ کہا' کس نے لکھی؟",
+      "options": {
+        "en": ["Jaun Elia", "Ahmed Faraz", "Faiz Ahmed Faiz", "Nazeer Akbarabadi"],
+        "ur": ["جون ایلیا", "احمد فراز", "فیض احمد فیض", "نظیر اکبر آبادی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This modern ghazal was written by Jaun Elia.",
+      "explanation_ur": "یہ جدید غزل جون ایلیا نے لکھی۔",
+      "hint": "From collection 'Shayad'",
+      "hint_ur": "'شاید' مجموعے سے",
+      "timeLimit": 20
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "Who wrote 'Naat' poetry in Urdu?",
+      "question_ur": "اردو میں 'نعت' شاعری کس نے لکھی؟",
+      "options": {
+        "en": ["Allama Iqbal", "Hafeez Jalandhari", "Akhtar ul Iman", "All of the above"],
+        "ur": ["علامہ اقبال", "حفیظ جالندھری", "اختر الایمان", "تمام اوپر والے"]
+      },
+      "correctAnswer": 3,
+      "explanation": "All these poets wrote Naat poetry praising Prophet Muhammad (PBUH).",
+      "explanation_ur": "ان تمام شعراء نے حضور نبی کریم ﷺ کی مدح میں نعتیں لکھیں۔",
+      "hint": "Iqbal's 'Shikwa' is controversial",
+      "hint_ur": "اقبال کا 'شکوہ' متنازع ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Which poet wrote 'Koi Umeed Bar Nahin Aati'?",
+      "question_ur": "'کوئی امید بر نہیں آتی' کس نے لکھی؟",
+      "options": {
+        "en": ["Mirza Ghalib", "Mir Taqi Mir", "Momin Khan Momin", "Daagh Dehlvi"],
+        "ur": ["مرزا غالب", "میر تقی میر", "مومن خان مومن", "داغ دہلوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This melancholic ghazal is from Mirza Ghalib's Diwan.",
+      "explanation_ur": "یہ درد بھری غزل مرزا غالب کے دیوان سے ہے۔",
+      "hint": "About hopelessness",
+      "hint_ur": "ناسرامیدی کے بارے میں",
+      "timeLimit": 25
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "Who wrote 'Dua' (Lab Pe Aati Hai Dua Ban Ke Tamanna Meri)?",
+      "question_ur": "'دعا' (لب پہ آتی ہے دعا بن کے تمنا میری) کس نے لکھی؟",
+      "options": {
+        "en": ["Allama Iqbal", "Hafeez Jalandhari", "Josh Malihabadi", "Akbar Allahabadi"],
+        "ur": ["علامہ اقبال", "حفیظ جالندھری", "جوش ملیح آبادی", "اکبر الہ آبادی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This famous prayer poem was written by Allama Iqbal for children.",
+      "explanation_ur": "یہ مشہور دعائیہ نظم علامہ اقبال نے بچوں کے لیے لکھی۔",
+      "hint": "From 'Bang-e-Dra'",
+      "hint_ur": "'بانگ درا' سے",
+      "timeLimit": 20
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "Which poet wrote 'Mushaira' poems?",
+      "question_ur": "'مشاعرہ' نظمیں کس نے لکھیں؟",
+      "options": {
+        "en": ["Nazeer Akbarabadi", "Akbar Allahabadi", "Anwar Masood", "All of the above"],
+        "ur": ["نظیر اکبر آبادی", "اکبر الہ آبادی", "انور مسعود", "تمام اوپر والے"]
+      },
+      "correctAnswer": 3,
+      "explanation": "All these poets wrote humorous poems about Mushaira culture.",
+      "explanation_ur": "ان تمام شعراء نے مشاعرے کی ثقافت پر مزاحیہ نظمیں لکھیں۔",
+      "hint": "Anwar Masood wrote in Punjabi/Urdu",
+      "hint_ur": "انور مسعود نے پنجابی/اردو میں لکھا",
+      "timeLimit": 15
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "Who wrote 'Ye Mera Chiragh'?",
+      "question_ur": "'یہ میرا چراغ' کس نے لکھی؟",
+      "options": {
+        "en": ["Parveen Shakir", "Kishwar Naheed", "Fahmida Riaz", "Ada Jafri"],
+        "ur": ["پروین شاکر", "کشور ناہید", "فہمیدہ ریاض", "ادا جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This feminist poem was written by Parveen Shakir.",
+      "explanation_ur": "یہ نسوانی نظم پروین شاکر نے لکھی۔",
+      "hint": "About a woman's identity",
+      "hint_ur": "عورت کی شناخت کے بارے میں",
+      "timeLimit": 20
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "Which poet wrote 'Aaj Ik Harf Ko'?",
+      "question_ur": "'آج اک حرف کو' کس نے لکھی؟",
+      "options": {
+        "en": ["Jaun Elia", "Ahmed Faraz", "Faiz Ahmed Faiz", "Habib Jalib"],
+        "ur": ["جون ایلیا", "احمد فراز", "فیض احمد فیض", "حبیب جالب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This modern ghazal was written by Jaun Elia.",
+      "explanation_ur": "یہ جدید غزل جون ایلیا نے لکھی۔",
+      "hint": "From collection 'Gumaan'",
+      "hint_ur": "'گمان' مجموعے سے",
+      "timeLimit": 25
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "Who wrote 'Tazkira' of Urdu poets?",
+      "question_ur": "اردو شعراء کے 'تذکرے' کس نے لکھے؟",
+      "options": {
+        "en": ["Mir Taqi Mir", "Mirza Ghalib", "Muhammad Husain Azad", "All of the above"],
+        "ur": ["میر تقی میر", "مرزا غالب", "محمد حسین آزاد", "تمام اوپر والے"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Muhammad Husain Azad wrote 'Aab-e-Hayat', an important tazkira of Urdu poets.",
+      "explanation_ur": "محمد حسین آزاد نے 'آب حیات' لکھا جو اردو شعراء کا اہم تذکرہ ہے۔",
+      "hint": "19th century literary historian",
+      "hint_ur": "19ویں صدی کے ادبی مؤرخ",
+      "timeLimit": 30
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kaghaz Ka Jahaaz'?",
+      "question_ur": "'کاغذ کا جہاز' کس نے لکھی؟",
+      "options": {
+        "en": ["Parveen Shakir", "Kishwar Naheed", "Fahmida Riaz", "Ada Jafri"],
+        "ur": ["پروین شاکر", "کشور ناہید", "فہمیدہ ریاض", "ادا جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This metaphorical poem was written by Parveen Shakir.",
+      "explanation_ur": "یہ استعاراتی نظم پروین شاکر نے لکھی۔",
+      "hint": "About fragile dreams",
+      "hint_ur": "نازک خوابوں کے بارے میں",
+      "timeLimit": 20
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Who wrote 'Dewar-e-Adab'?",
+      "question_ur": "'دیوار ادب' کس نے لکھی؟",
+      "options": {
+        "en": ["Jaun Elia", "Ahmed Faraz", "Faiz Ahmed Faiz", "Habib Jalib"],
+        "ur": ["جون ایلیا", "احمد فراز", "فیض احمد فیض", "حبیب جالب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This collection of critical essays was written by Jaun Elia.",
+      "explanation_ur": "تنقیدی مضامین کا یہ مجموعہ جون ایلیا نے لکھا۔",
+      "hint": "About literary criticism",
+      "hint_ur": "ادبی تنقید کے بارے میں",
+      "timeLimit": 25
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "Which poet wrote 'Aaj Ki Raat'?",
+      "question_ur": "'آج کی رات' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Ahmed Faraz", "Habib Jalib", "Jaun Elia"],
+        "ur": ["فیض احمد فیض", "احمد فراز", "حبیب جالب", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This romantic ghazal was written by Faiz Ahmed Faiz.",
+      "explanation_ur": "یہ رومانوی غزل فیض احمد فیض نے لکھی۔",
+      "hint": "From collection 'Dast-e-Saba'",
+      "hint_ur": "'دست صبا' مجموعے سے",
+      "timeLimit": 20
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Faiz'?",
+      "question_ur": "'کلیات فیض' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Ahmed Faraz", "Habib Jalib", "Jaun Elia"],
+        "ur": ["فیض احمد فیض", "احمد فراز", "حبیب جالب", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Faiz is the complete collection of Faiz Ahmed Faiz's poetry.",
+      "explanation_ur": "کلیات فیض فیض احمد فیض کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Includes all his poetry collections",
+      "hint_ur": "ان کے تمام شعری مجموعے شامل ہیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "Which poet wrote 'Bahaar Aayi'?",
+      "question_ur": "'بہار آئی' کس نے لکھی؟",
+      "options": {
+        "en": ["Nazeer Akbarabadi", "Akbar Allahabadi", "Allama Iqbal", "Mirza Ghalib"],
+        "ur": ["نظیر اکبر آبادی", "اکبر الہ آبادی", "علامہ اقبال", "مرزا غالب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This seasonal poem was written by Nazeer Akbarabadi.",
+      "explanation_ur": "یہ موسمی نظم نظیر اکبر آبادی نے لکھی۔",
+      "hint": "About spring season",
+      "hint_ur": "بہار کے موسم کے بارے میں",
+      "timeLimit": 20
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Who wrote 'Dastan-e-Ghadar'?",
+      "question_ur": "'داستان غدر' کس نے لکھی؟",
+      "options": {
+        "en": ["Josh Malihabadi", "Allama Iqbal", "Faiz Ahmed Faiz", "Hafeez Jalandhari"],
+        "ur": ["جوش ملیح آبادی", "علامہ اقبال", "فیض احمد فیض", "حفیظ جالندھری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This historical poem about 1857 rebellion was written by Josh Malihabadi.",
+      "explanation_ur": "1857 کی بغاوت پر یہ تاریخی نظم جوش ملیح آبادی نے لکھی۔",
+      "hint": "About India's first war of independence",
+      "hint_ur": "ہندوستان کی پہلی جنگ آزادی کے بارے میں",
+      "timeLimit": 30
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "Which poet wrote 'Mujh Se Pehli Si Mohabbat'?",
+      "question_ur": "'مجھ سے پہلی سی محبت' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Ahmed Faraz", "Habib Jalib", "Jaun Elia"],
+        "ur": ["فیض احمد فیض", "احمد فراز", "حبیب جالب", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This famous ghazal about lost love was written by Faiz Ahmed Faiz.",
+      "explanation_ur": "کھوئی ہوئی محبت پر یہ مشہور غزل فیض احمد فیض نے لکھی۔",
+      "hint": "From collection 'Naqsh-e-Faryadi'",
+      "hint_ur": "'نقش فریادی' مجموعے سے",
+      "timeLimit": 25
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Mir'?",
+      "question_ur": "'کلیات میر' کس نے لکھی؟",
+      "options": {
+        "en": ["Mir Taqi Mir", "Mirza Ghalib", "Allama Iqbal", "Daagh Dehlvi"],
+        "ur": ["میر تقی میر", "مرزا غالب", "علامہ اقبال", "داغ دہلوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Mir is the complete collection of Mir Taqi Mir's poetry.",
+      "explanation_ur": "کلیات میر میر تقی میر کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Considered father of Urdu ghazal",
+      "hint_ur": "اردو غزل کا باپ سمجھے جاتے ہیں",
+      "timeLimit": 20
+    },
+        {
+      "id": 51,
+      "type": "mcq",
+      "question": "Who wrote 'Dast-e-Tah-e-Sang'?",
+      "question_ur": "'دستِ تہِ سنگ' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Ahmed Faraz", "Habib Jalib", "Jaun Elia"],
+        "ur": ["فیض احمد فیض", "احمد فراز", "حبیب جالب", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This revolutionary poetry collection was written by Faiz Ahmed Faiz.",
+      "explanation_ur": "یہ انقلابی شعری مجموعہ فیض احمد فیض نے لکھا۔",
+      "hint": "Written during imprisonment",
+      "hint_ur": "قید کے دوران لکھا گیا",
+      "timeLimit": 25
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "Which poet is known as 'Firaq Gorakhpuri'?",
+      "question_ur": "'فراق گورکھپوری' کس شاعر کا لقب ہے؟",
+      "options": {
+        "en": ["Raghupati Sahay", "Ali Sardar Jafri", "Majaz Lakhnawi", "Nida Fazli"],
+        "ur": ["رگھوپتی سہائے", "علی سردار جعفری", "مجاز لکھنوی", "ندا فاضلی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Raghupati Sahay was popularly known by his pen name Firaq Gorakhpuri.",
+      "explanation_ur": "رگھوپتی سہائے اپنے قلمی نام فراق گورکھپوری سے مشہور تھے۔",
+      "hint": "Received Jnanpith Award",
+      "hint_ur": "جنناپیٹھ ایوارڈ یافتہ",
+      "timeLimit": 30
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "Who wrote 'Chup Raho'?",
+      "question_ur": "'چپ رہو' کس نے لکھی؟",
+      "options": {
+        "en": ["Jaun Elia", "Parveen Shakir", "Nida Fazli", "Kishwar Naheed"],
+        "ur": ["جون ایلیا", "پروین شاکر", "ندا فاضلی", "کشور ناہید"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This melancholic poem was written by Jaun Elia.",
+      "explanation_ur": "یہ درد بھری نظم جون ایلیا نے لکھی۔",
+      "hint": "From collection 'Shayad'",
+      "hint_ur": "'شاید' مجموعے سے",
+      "timeLimit": 20
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "Which poet wrote 'Sarhad'?",
+      "question_ur": "'سرحد' کس نے لکھی؟",
+      "options": {
+        "en": ["Ahmed Faraz", "Faiz Ahmed Faiz", "Habib Jalib", "Majrooh Sultanpuri"],
+        "ur": ["احمد فراز", "فیض احمد فیض", "حبیب جالب", "مجروح سلطانپوری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This famous poem about partition was written by Ahmed Faraz.",
+      "explanation_ur": "تقسیم پر یہ مشہور نظم احمد فراز نے لکھی۔",
+      "hint": "About India-Pakistan border",
+      "hint_ur": "ہندوستان پاکستان سرحد کے بارے میں",
+      "timeLimit": 25
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "Who is known for 'Insha Ji Utho'?",
+      "question_ur": "'انشاء جی اٹھو' کس کی مشہور تخلیق ہے؟",
+      "options": {
+        "en": ["Ibn-e-Insha", "Anwar Masood", "Habib Jalib", "Nazeer Akbarabadi"],
+        "ur": ["ابن انشا", "انور مسعود", "حبیب جالب", "نظیر اکبر آبادی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This humorous poem was written by Ibn-e-Insha.",
+      "explanation_ur": "یہ مزاحیہ نظم ابن انشا نے لکھی۔",
+      "hint": "About waking up late",
+      "hint_ur": "دیر سے اٹھنے کے بارے میں",
+      "timeLimit": 20
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kufr-e-Ishq'?",
+      "question_ur": "'کفرِ عشق' کس نے لکھی؟",
+      "options": {
+        "en": ["Hasrat Mohani", "Josh Malihabadi", "Allama Iqbal", "Jigar Moradabadi"],
+        "ur": ["حسرت موہانی", "جوش ملیح آبادی", "علامہ اقبال", "جگر مراد آبادی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This controversial ghazal was written by Hasrat Mohani.",
+      "explanation_ur": "یہ متنازع غزل حسرت موہانی نے لکھی۔",
+      "hint": "About divine love",
+      "hint_ur": "الہامی محبت کے بارے میں",
+      "timeLimit": 30
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "Who wrote 'Shola-e-Gul'?",
+      "question_ur": "'شعلہ گل' کس نے لکھی؟",
+      "options": {
+        "en": ["Majaz Lakhnawi", "Firaq Gorakhpuri", "Sahir Ludhianvi", "Ali Sardar Jafri"],
+        "ur": ["مجاز لکھنوی", "فراق گورکھپوری", "ساحر لدھیانوی", "علی سردار جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This romantic poetry collection was written by Majaz Lakhnawi.",
+      "explanation_ur": "یہ رومانوی شعری مجموعہ مجاز لکھنوی نے لکھا۔",
+      "hint": "Progressive Writers' Movement",
+      "hint_ur": "ترقی پسند مصنفین تحریک",
+      "timeLimit": 25
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "Which poet wrote 'Main Akela'?",
+      "question_ur": "'میں اکیلا' کس نے لکھی؟",
+      "options": {
+        "en": ["Jaun Elia", "Nida Fazli", "Ahmed Faraz", "Parveen Shakir"],
+        "ur": ["جون ایلیا", "ندا فاضلی", "احمد فراز", "پروین شاکر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "This famous poem about solitude was written by Nida Fazli.",
+      "explanation_ur": "تنہائی پر یہ مشہور نظم ندا فاضلی نے لکھی۔",
+      "hint": "Indian poet who migrated to Pakistan",
+      "hint_ur": "ہندوستان سے پاکستان منتقل ہونے والے شاعر",
+      "timeLimit": 20
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "Who is known for 'Baat Karni Mujhe Mushkil'?",
+      "question_ur": "'بات کرنی مجھے مشکل' کس کا مشہور شعر ہے؟",
+      "options": {
+        "en": ["Bahadur Shah Zafar", "Mirza Ghalib", "Mir Taqi Mir", "Momin Khan Momin"],
+        "ur": ["بہادر شاہ ظفر", "مرزا غالب", "میر تقی میر", "مومن خان مومن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This melancholic ghazal was written by Bahadur Shah Zafar.",
+      "explanation_ur": "یہ درد بھری غزل بہادر شاہ ظفر نے لکھی۔",
+      "hint": "Last Mughal emperor",
+      "hint_ur": "آخری مغل بادشاہ",
+      "timeLimit": 25
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "Which poet wrote 'Aawara'?",
+      "question_ur": "'آوارہ' کس نے لکھی؟",
+      "options": {
+        "en": ["Sahir Ludhianvi", "Majrooh Sultanpuri", "Javed Akhtar", "Gulzar"],
+        "ur": ["ساحر لدھیانوی", "مجروح سلطانپوری", "جاوید اختر", "گلزار"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This famous nazm was written by Sahir Ludhianvi.",
+      "explanation_ur": "یہ مشہور نظم ساحر لدھیانوی نے لکھی۔",
+      "hint": "Also wrote film songs",
+      "hint_ur": "فلمی نغمے بھی لکھے",
+      "timeLimit": 20
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Josh'?",
+      "question_ur": "'کلیات جوش' کس نے لکھی؟",
+      "options": {
+        "en": ["Josh Malihabadi", "Firaq Gorakhpuri", "Majaz Lakhnawi", "Ali Sardar Jafri"],
+        "ur": ["جوش ملیح آبادی", "فراق گورکھپوری", "مجاز لکھنوی", "علی سردار جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Josh is the complete collection of Josh Malihabadi's poetry.",
+      "explanation_ur": "کلیات جوش جوش ملیح آبادی کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Known as 'Shaayar-e-Inqilaab'",
+      "hint_ur": "'شاعر انقلاب' کے نام سے مشہور",
+      "timeLimit": 20
+    },
+    {
+      "id": 62,
+      "type": "mcq",
+      "question": "Which poet wrote 'Main Pal Do Pal Ka Shaayar Hoon'?",
+      "question_ur": "'میں پل دو پل کا شاعر ہوں' کس نے لکھی؟",
+      "options": {
+        "en": ["Sahir Ludhianvi", "Majrooh Sultanpuri", "Javed Akhtar", "Gulzar"],
+        "ur": ["ساحر لدھیانوی", "مجروح سلطانپوری", "جاوید اختر", "گلزار"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This famous self-reflective poem was written by Sahir Ludhianvi.",
+      "explanation_ur": "خود شناسی پر یہ مشہور نظم ساحر لدھیانوی نے لکھی۔",
+      "hint": "From film 'Kabhi Kabhie'",
+      "hint_ur": "فلم 'کبھی کبھی' سے",
+      "timeLimit": 25
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "Who wrote 'Dhoop Kinare'?",
+      "question_ur": "'دھوپ کنارے' کس نے لکھی؟",
+      "options": {
+        "en": ["Parveen Shakir", "Fahmida Riaz", "Kishwar Naheed", "Ada Jafri"],
+        "ur": ["پروین شاکر", "فہمیدہ ریاض", "کشور ناہید", "ادا جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This feminist poetry collection was written by Parveen Shakir.",
+      "explanation_ur": "یہ نسوانی شعری مجموعہ پروین شاکر نے لکھا۔",
+      "hint": "Published in 1980",
+      "hint_ur": "1980 میں شائع ہوا",
+      "timeLimit": 20
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "question": "Which poet wrote 'Taj Mahal'?",
+      "question_ur": "'تاج محل' کس نے لکھی؟",
+      "options": {
+        "en": ["Sahir Ludhianvi", "Josh Malihabadi", "Firaq Gorakhpuri", "Majaz Lakhnawi"],
+        "ur": ["ساحر لدھیانوی", "جوش ملیح آبادی", "فراق گورکھپوری", "مجاز لکھنوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This famous critique of Taj Mahal was written by Sahir Ludhianvi.",
+      "explanation_ur": "تاج محل پر یہ مشہور تنقیدی نظم ساحر لدھیانوی نے لکھی۔",
+      "hint": "About exploitation of workers",
+      "hint_ur": "مزدوروں کے استحصال کے بارے میں",
+      "timeLimit": 30
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "question": "Who wrote 'Kaghazi Hai Pairahan'?",
+      "question_ur": "'کاغذی ہے پیرہن' کس نے لکھی؟",
+      "options": {
+        "en": ["Jaun Elia", "Nida Fazli", "Ahmed Faraz", "Parveen Shakir"],
+        "ur": ["جون ایلیا", "ندا فاضلی", "احمد فراز", "پروین شاکر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This metaphorical poem was written by Jaun Elia.",
+      "explanation_ur": "یہ استعاراتی نظم جون ایلیا نے لکھی۔",
+      "hint": "About fragile human existence",
+      "hint_ur": "انسانی وجود کی نزاکت کے بارے میں",
+      "timeLimit": 25
+    },
+    {
+      "id": 66,
+      "type": "mcq",
+      "question": "Which poet wrote 'Main Bhi Insaan Hoon'?",
+      "question_ur": "'میں بھی انسان ہوں' کس نے لکھی؟",
+      "options": {
+        "en": ["Habib Jalib", "Faiz Ahmed Faiz", "Ahmed Faraz", "Jaun Elia"],
+        "ur": ["حبیب جالب", "فیض احمد فیض", "احمد فراز", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This socialist poem was written by Habib Jalib.",
+      "explanation_ur": "یہ اشتراکی نظم حبیب جالب نے لکھی۔",
+      "hint": "About human dignity",
+      "hint_ur": "انسانی وقار کے بارے میں",
+      "timeLimit": 20
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "Who wrote 'Ghalib-e-Khasta Ke Andaz-e-Bayan Aur'?",
+      "question_ur": "'غالب خستہ کے انداز بیاں اور' کس نے لکھی؟",
+      "options": {
+        "en": ["Mirza Ghalib", "Mir Taqi Mir", "Daagh Dehlvi", "Momin Khan Momin"],
+        "ur": ["مرزا غالب", "میر تقی میر", "داغ دہلوی", "مومن خان مومن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This famous ghazal about poetic style was written by Ghalib.",
+      "explanation_ur": "شعری انداز پر یہ مشہور غزل غالب نے لکھی۔",
+      "hint": "Self-referential ghazal",
+      "hint_ur": "خود حوالاتی غزل",
+      "timeLimit": 25
+    },
+    {
+      "id": 68,
+      "type": "mcq",
+      "question": "Which poet wrote 'Karbala Katha'?",
+      "question_ur": "'کربلا کتھا' کس نے لکھی؟",
+      "options": {
+        "en": ["Josh Malihabadi", "Nazeer Akbarabadi", "Mir Anis", "Mirza Dabeer"],
+        "ur": ["جوش ملیح آبادی", "نظیر اکبر آبادی", "میر انیس", "مرزا دبیر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This modern interpretation of Karbala was written by Josh Malihabadi.",
+      "explanation_ur": "کربلا کی جدید تشریح جوش ملیح آبادی نے لکھی۔",
+      "hint": "20th century interpretation",
+      "hint_ur": "بیسویں صدی کی تشریح",
+      "timeLimit": 30
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Daagh'?",
+      "question_ur": "'کلیات داغ' کس نے لکھی؟",
+      "options": {
+        "en": ["Daagh Dehlvi", "Mirza Ghalib", "Mir Taqi Mir", "Momin Khan Momin"],
+        "ur": ["داغ دہلوی", "مرزا غالب", "میر تقی میر", "مومن خان مومن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Daagh is the complete collection of Daagh Dehlvi's poetry.",
+      "explanation_ur": "کلیات داغ داغ دہلوی کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "19th century poet",
+      "hint_ur": "انیسویں صدی کے شاعر",
+      "timeLimit": 20
+    },
+    {
+      "id": 70,
+      "type": "mcq",
+      "question": "Which poet wrote 'Main Ne Kaha Phool Se'?",
+      "question_ur": "'میں نے کہا پھول سے' کس نے لکھی؟",
+      "options": {
+        "en": ["Parveen Shakir", "Fahmida Riaz", "Kishwar Naheed", "Ada Jafri"],
+        "ur": ["پروین شاکر", "فہمیدہ ریاض", "کشور ناہید", "ادا جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This feminist poem was written by Parveen Shakir.",
+      "explanation_ur": "یہ نسوانی نظم پروین شاکر نے لکھی۔",
+      "hint": "Dialogue with a flower",
+      "hint_ur": "پھول سے مکالمہ",
+      "timeLimit": 20
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "question": "Who wrote 'Bazm-e-Zindagi'?",
+      "question_ur": "'بزم زندگی' کس نے لکھی؟",
+      "options": {
+        "en": ["Jaun Elia", "Nida Fazli", "Ahmed Faraz", "Parveen Shakir"],
+        "ur": ["جون ایلیا", "ندا فاضلی", "احمد فراز", "پروین شاکر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This philosophical poetry collection was written by Jaun Elia.",
+      "explanation_ur": "یہ فلسفیانہ شعری مجموعہ جون ایلیا نے لکھا۔",
+      "hint": "About life's gatherings",
+      "hint_ur": "زندگی کی محفلوں کے بارے میں",
+      "timeLimit": 25
+    },
+    {
+      "id": 72,
+      "type": "mcq",
+      "question": "Which poet wrote 'Tasveer-e-Dard'?",
+      "question_ur": "'تصویر درد' کس نے لکھی؟",
+      "options": {
+        "en": ["Mir Taqi Mir", "Mirza Ghalib", "Daagh Dehlvi", "Momin Khan Momin"],
+        "ur": ["میر تقی میر", "مرزا غالب", "داغ دہلوی", "مومن خان مومن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This melancholic poetry collection was written by Mir Taqi Mir.",
+      "explanation_ur": "درد بھرا یہ شعری مجموعہ میر تقی میر نے لکھا۔",
+      "hint": "18th century collection",
+      "hint_ur": "اٹھارویں صدی کا مجموعہ",
+      "timeLimit": 30
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Firaq'?",
+      "question_ur": "'کلیات فراق' کس نے لکھی؟",
+      "options": {
+        "en": ["Firaq Gorakhpuri", "Josh Malihabadi", "Majaz Lakhnawi", "Ali Sardar Jafri"],
+        "ur": ["فراق گورکھپوری", "جوش ملیح آبادی", "مجاز لکھنوی", "علی سردار جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Firaq is the complete collection of Firaq Gorakhpuri's poetry.",
+      "explanation_ur": "کلیات فراق فراق گورکھپوری کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Received Padma Bhushan",
+      "hint_ur": "پدم بھوشن یافتہ",
+      "timeLimit": 20
+    },
+    {
+      "id": 74,
+      "type": "mcq",
+      "question": "Which poet wrote 'Aaj Ki Raat Badi Deewani Hai'?",
+      "question_ur": "'آج کی رات بڑی دیوانی ہے' کس نے لکھی؟",
+      "options": {
+        "en": ["Majrooh Sultanpuri", "Sahir Ludhianvi", "Javed Akhtar", "Gulzar"],
+        "ur": ["مجروح سلطانپوری", "ساحر لدھیانوی", "جاوید اختر", "گلزار"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This romantic song was written by Majrooh Sultanpuri.",
+      "explanation_ur": "یہ رومانوی گیت مجروح سلطانپوری نے لکھا۔",
+      "hint": "From film 'Dil Hi To Hai'",
+      "hint_ur": "فلم 'دل ہی تو ہے' سے",
+      "timeLimit": 25
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Majaz'?",
+      "question_ur": "'کلیات مجاز' کس نے لکھی؟",
+      "options": {
+        "en": ["Majaz Lakhnawi", "Firaq Gorakhpuri", "Josh Malihabadi", "Ali Sardar Jafri"],
+        "ur": ["مجاز لکھنوی", "فراق گورکھپوری", "جوش ملیح آبادی", "علی سردار جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Majaz is the complete collection of Majaz Lakhnawi's poetry.",
+      "explanation_ur": "کلیات مجاز مجاز لکھنوی کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Died young at 44",
+      "hint_ur": "44 سال کی کم عمری میں انتقال",
+      "timeLimit": 20
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "question": "Which poet wrote 'Main Hoon Don Quixote'?",
+      "question_ur": "'میں ہوں ڈان کئیکسوٹ' کس نے لکھی؟",
+      "options": {
+        "en": ["Jaun Elia", "Nida Fazli", "Ahmed Faraz", "Habib Jalib"],
+        "ur": ["جون ایلیا", "ندا فاضلی", "احمد فراز", "حبیب جالب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This philosophical poem was written by Jaun Elia.",
+      "explanation_ur": "یہ فلسفیانہ نظم جون ایلیا نے لکھی۔",
+      "hint": "About idealism vs reality",
+      "hint_ur": "مثالیں اور حقیقت کے تضاد پر",
+      "timeLimit": 30
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Jigar'?",
+      "question_ur": "'کلیات جگر' کس نے لکھی؟",
+      "options": {
+        "en": ["Jigar Moradabadi", "Firaq Gorakhpuri", "Josh Malihabadi", "Majaz Lakhnawi"],
+        "ur": ["جگر مراد آبادی", "فراق گورکھپوری", "جوش ملیح آبادی", "مجاز لکھنوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Jigar is the complete collection of Jigar Moradabadi's poetry.",
+      "explanation_ur": "کلیات جگر جگر مراد آبادی کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Known for romantic ghazals",
+      "hint_ur": "رومانوی غزلوں کے لیے مشہور",
+      "timeLimit": 25
+    },
+    {
+      "id": 78,
+      "type": "mcq",
+      "question": "Which poet wrote 'Main Tere Shehar Ka Musafir Hoon'?",
+      "question_ur": "'میں تیرے شہر کا مسافر ہوں' کس نے لکھی؟",
+      "options": {
+        "en": ["Nida Fazli", "Jaun Elia", "Ahmed Faraz", "Parveen Shakir"],
+        "ur": ["ندا فاضلی", "جون ایلیا", "احمد فراز", "پروین شاکر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This famous poem about alienation was written by Nida Fazli.",
+      "explanation_ur": "بیگانگی پر یہ مشہور نظم ندا فاضلی نے لکھی۔",
+      "hint": "About urban loneliness",
+      "hint_ur": "شہری تنہائی کے بارے میں",
+      "timeLimit": 20
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Hasrat'?",
+      "question_ur": "'کلیات حسرت' کس نے لکھی؟",
+      "options": {
+        "en": ["Hasrat Mohani", "Jigar Moradabadi", "Firaq Gorakhpuri", "Josh Malihabadi"],
+        "ur": ["حسرت موہانی", "جگر مراد آبادی", "فراق گورکھپوری", "جوش ملیح آبادی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Hasrat is the complete collection of Hasrat Mohani's poetry.",
+      "explanation_ur": "کلیات حسرت حسرت موہانی کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Also a freedom fighter",
+      "hint_ur": "آزادی پسند جنگجو بھی تھے",
+      "timeLimit": 20
+    },
+    {
+      "id": 80,
+      "type": "mcq",
+      "question": "Which poet wrote 'Main Akela Hi Chala Tha'?",
+      "question_ur": "'میں اکیلا ہی چلا تھا' کس نے لکھی؟",
+      "options": {
+        "en": ["Allama Iqbal", "Josh Malihabadi", "Faiz Ahmed Faiz", "Jaun Elia"],
+        "ur": ["علامہ اقبال", "جوش ملیح آبادی", "فیض احمد فیض", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This motivational poem was written by Allama Iqbal.",
+      "explanation_ur": "یہ حوصلہ افزا نظم علامہ اقبال نے لکھی۔",
+      "hint": "From 'Baal-e-Jibril'",
+      "hint_ur": "'بال جبریل' سے",
+      "timeLimit": 25
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Momin'?",
+      "question_ur": "'کلیات مومن' کس نے لکھی؟",
+      "options": {
+        "en": ["Momin Khan Momin", "Mirza Ghalib", "Mir Taqi Mir", "Daagh Dehlvi"],
+        "ur": ["مومن خان مومن", "مرزا غالب", "میر تقی میر", "داغ دہلوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Momin is the complete collection of Momin Khan Momin's poetry.",
+      "explanation_ur": "کلیات مومن مومن خان مومن کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Contemporary of Ghalib",
+      "hint_ur": "غالب کے ہم عصر",
+      "timeLimit": 20
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "question": "Which poet wrote 'Dil Ki Basti'?",
+      "question_ur": "'دل کی بستی' کس نے لکھی؟",
+      "options": {
+        "en": ["Parveen Shakir", "Fahmida Riaz", "Kishwar Naheed", "Ada Jafri"],
+        "ur": ["پروین شاکر", "فہمیدہ ریاض", "کشور ناہید", "ادا جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This poetry collection was written by Parveen Shakir.",
+      "explanation_ur": "یہ شعری مجموعہ پروین شاکر نے لکھا۔",
+      "hint": "About emotional landscapes",
+      "hint_ur": "جذباتی مناظر کے بارے میں",
+      "timeLimit": 20
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Ibn-e-Insha'?",
+      "question_ur": "'کلیات ابن انشا' کس نے لکھی؟",
+      "options": {
+        "en": ["Ibn-e-Insha", "Anwar Masood", "Habib Jalib", "Nazeer Akbarabadi"],
+        "ur": ["ابن انشا", "انور مسعود", "حبیب جالب", "نظیر اکبر آبادی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Ibn-e-Insha is the complete collection of Ibn-e-Insha's poetry.",
+      "explanation_ur": "کلیات ابن انشا ابن انشا کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Known for humorous poetry",
+      "hint_ur": "مزاحیہ شاعری کے لیے مشہور",
+      "timeLimit": 25
+    },
+    {
+      "id": 84,
+      "type": "mcq",
+      "question": "Which poet wrote 'Main Ne Lahu Pukara'?",
+      "question_ur": "'میں نے لہو پکارا' کس نے لکھی؟",
+      "options": {
+        "en": ["Habib Jalib", "Faiz Ahmed Faiz", "Ahmed Faraz", "Jaun Elia"],
+        "ur": ["حبیب جالب", "فیض احمد فیض", "احمد فراز", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This revolutionary poem was written by Habib Jalib.",
+      "explanation_ur": "یہ انقلابی نظم حبیب جالب نے لکھی۔",
+      "hint": "About workers' rights",
+      "hint_ur": "مزدوروں کے حقوق کے بارے میں",
+      "timeLimit": 30
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Nazeer'?",
+      "question_ur": "'کلیات نظیر' کس نے لکھی؟",
+      "options": {
+        "en": ["Nazeer Akbarabadi", "Akbar Allahabadi", "Mirza Ghalib", "Allama Iqbal"],
+        "ur": ["نظیر اکبر آبادی", "اکبر الہ آبادی", "مرزا غالب", "علامہ اقبال"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Nazeer is the complete collection of Nazeer Akbarabadi's poetry.",
+      "explanation_ur": "کلیات نظیر نظیر اکبر آبادی کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "18th century people's poet",
+      "hint_ur": "اٹھارویں صدی کے عوامی شاعر",
+      "timeLimit": 25
+    },
+    {
+      "id": 86,
+      "type": "mcq",
+      "question": "Which poet wrote 'Aaj Bazaar Mein'?",
+      "question_ur": "'آج بازار میں' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Habib Jalib", "Ahmed Faraz", "Jaun Elia"],
+        "ur": ["فیض احمد فیض", "حبیب جالب", "احمد فراز", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This famous revolutionary poem was written by Faiz Ahmed Faiz.",
+      "explanation_ur": "یہ مشہور انقلابی نظم فیض احمد فیض نے لکھی۔",
+      "hint": "About speaking truth to power",
+      "hint_ur": "طاقت کے سامنے سچ بولنے کے بارے میں",
+      "timeLimit": 30
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Sahir'?",
+      "question_ur": "'کلیات ساحر' کس نے لکھی؟",
+      "options": {
+        "en": ["Sahir Ludhianvi", "Majrooh Sultanpuri", "Javed Akhtar", "Gulzar"],
+        "ur": ["ساحر لدھیانوی", "مجروح سلطانپوری", "جاوید اختر", "گلزار"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Sahir is the complete collection of Sahir Ludhianvi's poetry.",
+      "explanation_ur": "کلیات ساحر ساحر لدھیانوی کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Includes film lyrics",
+      "hint_ur": "فلمی نغمے شامل ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "question": "Which poet wrote 'Main Tere Aane Se Pehle Bhi Tanha Tha'?",
+      "question_ur": "'میں تیرے آنے سے پہلے بھی تنہا تھا' کس نے لکھی؟",
+      "options": {
+        "en": ["Nida Fazli", "Jaun Elia", "Ahmed Faraz", "Parveen Shakir"],
+        "ur": ["ندا فاضلی", "جون ایلیا", "احمد فراز", "پروین شاکر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This philosophical poem was written by Nida Fazli.",
+      "explanation_ur": "یہ فلسفیانہ نظم ندا فاضلی نے لکھی۔",
+      "hint": "About existential loneliness",
+      "hint_ur": "وجودیاتی تنہائی کے بارے میں",
+      "timeLimit": 25
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Akbar'?",
+      "question_ur": "'کلیات اکبر' کس نے لکھی؟",
+      "options": {
+        "en": ["Akbar Allahabadi", "Nazeer Akbarabadi", "Mirza Ghalib", "Allama Iqbal"],
+        "ur": ["اکبر الہ آبادی", "نظیر اکبر آبادی", "مرزا غالب", "علامہ اقبال"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Akbar is the complete collection of Akbar Allahabadi's poetry.",
+      "explanation_ur": "کلیات اکبر اکبر الہ آبادی کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Known for satire",
+      "hint_ur": "طنز کے لیے مشہور",
+      "timeLimit": 20
+    },
+    {
+      "id": 90,
+      "type": "mcq",
+      "question": "Which poet wrote 'Main Tujh Se Juda Hoon'?",
+      "question_ur": "'میں تجھ سے جدا ہوں' کس نے لکھی؟",
+      "options": {
+        "en": ["Ahmed Faraz", "Faiz Ahmed Faiz", "Habib Jalib", "Jaun Elia"],
+        "ur": ["احمد فراز", "فیض احمد فیض", "حبیب جالب", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This famous ghazal about separation was written by Ahmed Faraz.",
+      "explanation_ur": "جدائی پر یہ مشہور غزل احمد فراز نے لکھی۔",
+      "hint": "From collection 'Tanha Tanha'",
+      "hint_ur": "'تنہا تنہا' مجموعے سے",
+      "timeLimit": 25
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Jaun'?",
+      "question_ur": "'کلیات جون' کس نے لکھی؟",
+      "options": {
+        "en": ["Jaun Elia", "Nida Fazli", "Ahmed Faraz", "Parveen Shakir"],
+        "ur": ["جون ایلیا", "ندا فاضلی", "احمد فراز", "پروین شاکر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Jaun is the complete collection of Jaun Elia's poetry.",
+      "explanation_ur": "کلیات جون جون ایلیا کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Includes 'Shayad', 'Gumaan' etc.",
+      "hint_ur": "'شاید'، 'گمان' وغیرہ شامل ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 92,
+      "type": "mcq",
+      "question": "Which poet wrote 'Main Ne Yeh Socha'?",
+      "question_ur": "'میں نے یہ سوچا' کس نے لکھی؟",
+      "options": {
+        "en": ["Parveen Shakir", "Fahmida Riaz", "Kishwar Naheed", "Ada Jafri"],
+        "ur": ["پروین شاکر", "فہمیدہ ریاض", "کشور ناہید", "ادا جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This feminist poem was written by Parveen Shakir.",
+      "explanation_ur": "یہ نسوانی نظم پروین شاکر نے لکھی۔",
+      "hint": "About women's thoughts",
+      "hint_ur": "خواتین کے خیالات کے بارے میں",
+      "timeLimit": 20
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Habib'?",
+      "question_ur": "'کلیات حبیب' کس نے لکھی؟",
+      "options": {
+        "en": ["Habib Jalib", "Faiz Ahmed Faiz", "Ahmed Faraz", "Jaun Elia"],
+        "ur": ["حبیب جالب", "فیض احمد فیض", "احمد فراز", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Habib is the complete collection of Habib Jalib's poetry.",
+      "explanation_ur": "کلیات حبیب حبیب جالب کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Includes revolutionary poetry",
+      "hint_ur": "انقلابی شاعری شامل ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "question": "Which poet wrote 'Main Tere Shehar Mein Aaya Hoon'?",
+      "question_ur": "'میں تیرے شہر میں آیا ہوں' کس نے لکھی؟",
+      "options": {
+        "en": ["Nida Fazli", "Jaun Elia", "Ahmed Faraz", "Parveen Shakir"],
+        "ur": ["ندا فاضلی", "جون ایلیا", "احمد فراز", "پروین شاکر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This famous poem about urban alienation was written by Nida Fazli.",
+      "explanation_ur": "شہری بیگانگی پر یہ مشہور نظم ندا فاضلی نے لکھی۔",
+      "hint": "About city life",
+      "hint_ur": "شہری زندگی کے بارے میں",
+      "timeLimit": 30
+    },
+    {
+      "id": 95,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Nida'?",
+      "question_ur": "'کلیات ندا' کس نے لکھی؟",
+      "options": {
+        "en": ["Nida Fazli", "Jaun Elia", "Ahmed Faraz", "Parveen Shakir"],
+        "ur": ["ندا فاضلی", "جون ایلیا", "احمد فراز", "پروین شاکر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Nida is the complete collection of Nida Fazli's poetry.",
+      "explanation_ur": "کلیات ندا ندا فاضلی کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Includes 'Mor Naach'",
+      "hint_ur": "'مور ناچ' شامل ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 96,
+      "type": "mcq",
+      "question": "Which poet wrote 'Main Ne Kaha Chand Se'?",
+      "question_ur": "'میں نے کہا چاند سے' کس نے لکھی؟",
+      "options": {
+        "en": ["Parveen Shakir", "Fahmida Riaz", "Kishwar Naheed", "Ada Jafri"],
+        "ur": ["پروین شاکر", "فہمیدہ ریاض", "کشور ناہید", "ادا جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This feminist poem was written by Parveen Shakir.",
+      "explanation_ur": "یہ نسوانی نظم پروین شاکر نے لکھی۔",
+      "hint": "Dialogue with the moon",
+      "hint_ur": "چاند سے مکالمہ",
+      "timeLimit": 25
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Parveen'?",
+      "question_ur": "'کلیات پروین' کس نے لکھی؟",
+      "options": {
+        "en": ["Parveen Shakir", "Fahmida Riaz", "Kishwar Naheed", "Ada Jafri"],
+        "ur": ["پروین شاکر", "فہمیدہ ریاض", "کشور ناہید", "ادا جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Parveen is the complete collection of Parveen Shakir's poetry.",
+      "explanation_ur": "کلیات پروین پروین شاکر کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Includes 'Khushbu', 'Inkar' etc.",
+      "hint_ur": "'خوشبو'، 'انکار' وغیرہ شامل ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 98,
+      "type": "mcq",
+      "question": "Which poet wrote 'Main Ne Kaha Suraj Se'?",
+      "question_ur": "'میں نے کہا سورج سے' کس نے لکھی؟",
+      "options": {
+        "en": ["Parveen Shakir", "Fahmida Riaz", "Kishwar Naheed", "Ada Jafri"],
+        "ur": ["پروین شاکر", "فہمیدہ ریاض", "کشور ناہید", "ادا جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This feminist poem was written by Parveen Shakir.",
+      "explanation_ur": "یہ نسوانی نظم پروین شاکر نے لکھی۔",
+      "hint": "Dialogue with the sun",
+      "hint_ur": "سورج سے مکالمہ",
+      "timeLimit": 20
+    },
+    {
+      "id": 99,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Kishwar'?",
+      "question_ur": "'کلیات کشور' کس نے لکھی؟",
+      "options": {
+        "en": ["Kishwar Naheed", "Fahmida Riaz", "Parveen Shakir", "Ada Jafri"],
+        "ur": ["کشور ناہید", "فہمیدہ ریاض", "پروین شاکر", "ادا جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Kishwar is the complete collection of Kishwar Naheed's poetry.",
+      "explanation_ur": "کلیات کشور کشور ناہید کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Includes 'Lab-e-Goya'",
+      "hint_ur": "'لب گویا' شامل ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 100,
+      "type": "mcq",
+      "question": "Which poet wrote 'Main Ne Kaha Baadal Se'?",
+      "question_ur": "'میں نے کہا بادل سے' کس نے لکھی؟",
+      "options": {
+        "en": ["Parveen Shakir", "Fahmida Riaz", "Kishwar Naheed", "Ada Jafri"],
+        "ur": ["پروین شاکر", "فہمیدہ ریاض", "کشور ناہید", "ادا جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This feminist poem was written by Parveen Shakir.",
+      "explanation_ur": "یہ نسوانی نظم پروین شاکر نے لکھی۔",
+      "hint": "Dialogue with clouds",
+      "hint_ur": "بادلوں سے مکالمہ",
+      "timeLimit": 20
+    },
+        {
+      "id": 101,
+      "type": "mcq",
+      "question": "Who wrote the famous verse 'Duniya ne tajrabat o hawaadis ke shakl mein jo kuch mujhe diya hai, woh lauta raha hoon main'?",
+      "question_ur": "'دنیا نے تجربات و حوادث کی شکل میں جو کچھ مجھے دیا ہے، وہ لوٹا رہا ہوں میں' کس کا مشہور شعر ہے؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Allama Iqbal", "Mirza Ghalib", "Josh Malihabadi"],
+        "ur": ["فیض احمد فیض", "علامہ اقبال", "مرزا غالب", "جوش ملیح آبادی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This famous verse about returning life's experiences was written by Faiz Ahmed Faiz.",
+      "explanation_ur": "زندگی کے تجربات لوٹانے پر یہ مشہور شعر فیض احمد فیض کا ہے۔",
+      "hint": "From collection 'Dast-e-Saba'",
+      "hint_ur": "'دست صبا' مجموعے سے",
+      "timeLimit": 30
+    },
+    {
+      "id": 102,
+      "type": "mcq",
+      "question": "Which poet is known for the couplet 'Hazaron saal nargis apni be-noori pe roti hai, bari mushkil se hota hai chaman mein deedawar paida'?",
+      "question_ur": "'ہزاروں سال نرگس اپنی بے نوری پہ روتی ہے، بڑی مشکل سے ہوتا ہے چمن میں دیدہ ور پیدا' کس کا شعر ہے؟",
+      "options": {
+        "en": ["Allama Iqbal", "Mirza Ghalib", "Mir Taqi Mir", "Momin Khan Momin"],
+        "ur": ["علامہ اقبال", "مرزا غالب", "میر تقی میر", "مومن خان مومن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This philosophical couplet about rare visionaries was written by Allama Iqbal.",
+      "explanation_ur": "نایاب بصیرت رکھنے والوں پر یہ فلسفیانہ شعر علامہ اقبال کا ہے۔",
+      "hint": "From 'Baal-e-Jibril'",
+      "hint_ur": "'بال جبریل' سے",
+      "timeLimit": 25
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "question": "Who wrote 'Shahr-e-Ashob' poetry depicting the decline of cities?",
+      "question_ur": "شہروں کے زوال کو بیان کرنے والی 'شہر آشوب' شاعری کس نے لکھی؟",
+      "options": {
+        "en": ["Mir Taqi Mir", "Mirza Ghalib", "Saadat Yaar Khan Rangin", "All of the above"],
+        "ur": ["میر تقی میر", "مرزا غالب", "سعادت یار خان رنگین", "تمام اوپر والے"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Several classical Urdu poets wrote Shahr-e-Ashob poetry lamenting urban decay.",
+      "explanation_ur": "کئی کلاسیکی اردو شعراء نے شہروں کے زوال پر شہر آشوب شاعری لکھی۔",
+      "hint": "Popular in 18th-19th century",
+      "hint_ur": "اٹھارویں-انیسویں صدی میں مقبول",
+      "timeLimit": 30
+    },
+    {
+      "id": 104,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Daagh'?",
+      "question_ur": "'کلیات داغ' کس نے لکھی؟",
+      "options": {
+        "en": ["Daagh Dehlvi", "Mirza Ghalib", "Mir Taqi Mir", "Bahadur Shah Zafar"],
+        "ur": ["داغ دہلوی", "مرزا غالب", "میر تقی میر", "بہادر شاہ ظفر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Daagh is the complete collection of Daagh Dehlvi's poetry.",
+      "explanation_ur": "کلیات داغ داغ دہلوی کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Known for romantic ghazals",
+      "hint_ur": "رومانوی غزلوں کے لیے مشہور",
+      "timeLimit": 20
+    },
+    {
+      "id": 105,
+      "type": "mcq",
+      "question": "Who wrote the famous 'Rubaiyat' in Urdu?",
+      "question_ur": "اردو میں مشہور 'رباعیات' کس نے لکھیں؟",
+      "options": {
+        "en": ["Allama Iqbal", "Mirza Ghalib", "Josh Malihabadi", "Firaq Gorakhpuri"],
+        "ur": ["علامہ اقبال", "مرزا غالب", "جوش ملیح آبادی", "فراق گورکھپوری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Allama Iqbal wrote philosophical 'Rubaiyat' in Urdu and Persian.",
+      "explanation_ur": "علامہ اقبال نے اردو اور فارسی میں فلسفیانہ رباعیات لکھیں۔",
+      "hint": "Part of 'Zabur-e-Ajam'",
+      "hint_ur": "'ضرب کلیم' کا حصہ",
+      "timeLimit": 25
+    },
+    {
+      "id": 106,
+      "type": "mcq",
+      "question": "Which poet is known for 'Tazmeen' writing (incorporating others' verses)?",
+      "question_ur": "'تضمین' نگاری (دوسروں کے اشعار شامل کرنے) کے لیے کون مشہور ہے؟",
+      "options": {
+        "en": ["Mirza Ghalib", "Mir Taqi Mir", "Momin Khan Momin", "All of the above"],
+        "ur": ["مرزا غالب", "میر تقی میر", "مومن خان مومن", "تمام اوپر والے"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Classical Urdu poets often practiced Tazmeen in their ghazals.",
+      "explanation_ur": "کلاسیکی اردو شعراء اکثر غزلوں میں تضمین کا استعمال کرتے تھے۔",
+      "hint": "Common in 18th-19th century",
+      "hint_ur": "اٹھارویں-انیسویں صدی میں عام",
+      "timeLimit": 30
+    },
+    {
+      "id": 107,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Majeed Amjad'?",
+      "question_ur": "'کلیات مجید امجد' کس نے لکھی؟",
+      "options": {
+        "en": ["Majeed Amjad", "Amjad Islam Amjad", "Ahmed Nadeem Qasmi", "Jon Elia"],
+        "ur": ["مجید امجد", "امجد اسلام امجد", "احمد ندیم قاسمی", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Majeed Amjad is the complete collection of this modern Urdu poet's works.",
+      "explanation_ur": "کلیات مجید امجد اس جدید اردو شاعر کی مکمل تخلیقات کا مجموعہ ہے۔",
+      "hint": "Pioneer of modern Urdu nazm",
+      "hint_ur": "جدید اردو نظم کے بانی",
+      "timeLimit": 25
+    },
+    {
+      "id": 108,
+      "type": "mcq",
+      "question": "Which poet wrote 'Shikwa-e-Hind'?",
+      "question_ur": "'شکوہ ہند' کس نے لکھی؟",
+      "options": {
+        "en": ["Josh Malihabadi", "Allama Iqbal", "Faiz Ahmed Faiz", "Akbar Allahabadi"],
+        "ur": ["جوش ملیح آبادی", "علامہ اقبال", "فیض احمد فیض", "اکبر الہ آبادی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Josh Malihabadi wrote 'Shikwa-e-Hind' about India's condition under British rule.",
+      "explanation_ur": "جوش ملیح آبادی نے برطانوی راج میں ہندوستان کی حالت پر 'شکوہ ہند' لکھی۔",
+      "hint": "Pre-independence poem",
+      "hint_ur": "آزادی سے پہلے کی نظم",
+      "timeLimit": 30
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "question": "Who is known for the couplet 'Mohabbat karne walon ka yahi anjaam hota hai, ya to marg-e-gham ya hijr-e-sham-e-ghariban hota hai'?",
+      "question_ur": "'محبت کرنے والوں کا یہی انجام ہوتا ہے، یا تو مرگ غم یا ہجر شام غریباں ہوتا ہے' کس کا شعر ہے؟",
+      "options": {
+        "en": ["Momin Khan Momin", "Mirza Ghalib", "Daagh Dehlvi", "Mir Taqi Mir"],
+        "ur": ["مومن خان مومن", "مرزا غالب", "داغ دہلوی", "میر تقی میر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This famous romantic couplet was written by Momin Khan Momin.",
+      "explanation_ur": "محبت کے انجام پر یہ مشہور رومانوی شعر مومن خان مومن کا ہے۔",
+      "hint": "Contemporary of Ghalib",
+      "hint_ur": "غالب کے ہم عصر",
+      "timeLimit": 25
+    },
+    {
+      "id": 110,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Qateel'?",
+      "question_ur": "'کلیات قتیل' کس نے لکھی؟",
+      "options": {
+        "en": ["Qateel Shifai", "Seemab Akbarabadi", "Jigar Moradabadi", "Firaq Gorakhpuri"],
+        "ur": ["قتیل شفائی", "سیماں اکبر آبادی", "جگر مراد آبادی", "فراق گورکھپوری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Qateel is the complete collection of Qateel Shifai's poetry.",
+      "explanation_ur": "کلیات قتیل قتیل شفائی کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Wrote famous film songs",
+      "hint_ur": "مشہور فلمی نغمے لکھے",
+      "timeLimit": 20
+    },
+    {
+      "id": 111,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Seemab'?",
+      "question_ur": "'کلیات سیماں' کس نے لکھی؟",
+      "options": {
+        "en": ["Seemab Akbarabadi", "Nazeer Akbarabadi", "Akbar Allahabadi", "Majaz Lakhnawi"],
+        "ur": ["سیماں اکبر آبادی", "نظیر اکبر آبادی", "اکبر الہ آبادی", "مجاز لکھنوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Seemab is the complete collection of Seemab Akbarabadi's poetry.",
+      "explanation_ur": "کلیات سیماں سیماں اکبر آبادی کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "20th century poet",
+      "hint_ur": "بیسویں صدی کے شاعر",
+      "timeLimit": 20
+    },
+    {
+      "id": 112,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Josh'?",
+      "question_ur": "'کلیات جوش' کس نے لکھی؟",
+      "options": {
+        "en": ["Josh Malihabadi", "Firaq Gorakhpuri", "Majaz Lakhnawi", "Ali Sardar Jafri"],
+        "ur": ["جوش ملیح آبادی", "فراق گورکھپوری", "مجاز لکھنوی", "علی سردار جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Josh is the complete collection of Josh Malihabadi's revolutionary poetry.",
+      "explanation_ur": "کلیات جوش جوش ملیح آبادی کی انقلابی شاعری کا مجموعہ ہے۔",
+      "hint": "Known as 'Shaayar-e-Inqilaab'",
+      "hint_ur": "'شاعر انقلاب' کے نام سے مشہور",
+      "timeLimit": 25
+    },
+    {
+      "id": 113,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Firaq'?",
+      "question_ur": "'کلیات فراق' کس نے لکھی؟",
+      "options": {
+        "en": ["Firaq Gorakhpuri", "Josh Malihabadi", "Majaz Lakhnawi", "Ali Sardar Jafri"],
+        "ur": ["فراق گورکھپوری", "جوش ملیح آبادی", "مجاز لکھنوی", "علی سردار جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Firaq is the complete collection of Firaq Gorakhpuri's romantic poetry.",
+      "explanation_ur": "کلیات فراق فراق گورکھپوری کی رومانوی شاعری کا مجموعہ ہے۔",
+      "hint": "Received Jnanpith Award",
+      "hint_ur": "جنناپیٹھ ایوارڈ یافتہ",
+      "timeLimit": 20
+    },
+    {
+      "id": 114,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Majaz'?",
+      "question_ur": "'کلیات مجاز' کس نے لکھی؟",
+      "options": {
+        "en": ["Majaz Lakhnawi", "Firaq Gorakhpuri", "Josh Malihabadi", "Ali Sardar Jafri"],
+        "ur": ["مجاز لکھنوی", "فراق گورکھپوری", "جوش ملیح آبادی", "علی سردار جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Majaz is the complete collection of Majaz Lakhnawi's progressive poetry.",
+      "explanation_ur": "کلیات مجاز مجاز لکھنوی کی ترقی پسند شاعری کا مجموعہ ہے۔",
+      "hint": "Died young at 44",
+      "hint_ur": "44 سال کی عمر میں انتقال",
+      "timeLimit": 25
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Sahir'?",
+      "question_ur": "'کلیات ساحر' کس نے لکھی؟",
+      "options": {
+        "en": ["Sahir Ludhianvi", "Majrooh Sultanpuri", "Javed Akhtar", "Gulzar"],
+        "ur": ["ساحر لدھیانوی", "مجروح سلطانپوری", "جاوید اختر", "گلزار"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Sahir is the complete collection of Sahir Ludhianvi's poetry including film lyrics.",
+      "explanation_ur": "کلیات ساحر ساحر لدھیانوی کی شاعری اور فلمی نغموں کا مجموعہ ہے۔",
+      "hint": "Wrote 'Pyaasa' songs",
+      "hint_ur": "'پیاسا' کے نغمے لکھے",
+      "timeLimit": 20
+    },
+    {
+      "id": 116,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Jaun'?",
+      "question_ur": "'کلیات جون' کس نے لکھی؟",
+      "options": {
+        "en": ["Jaun Elia", "Nida Fazli", "Ahmed Faraz", "Parveen Shakir"],
+        "ur": ["جون ایلیا", "ندا فاضلی", "احمد فراز", "پروین شاکر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Jaun is the complete collection of Jaun Elia's modern Urdu poetry.",
+      "explanation_ur": "کلیات جون جون ایلیا کی جدید اردو شاعری کا مجموعہ ہے۔",
+      "hint": "Includes 'Shayad', 'Gumaan' etc.",
+      "hint_ur": "'شاید'، 'گمان' وغیرہ شامل ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 117,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Nida'?",
+      "question_ur": "'کلیات ندا' کس نے لکھی؟",
+      "options": {
+        "en": ["Nida Fazli", "Jaun Elia", "Ahmed Faraz", "Parveen Shakir"],
+        "ur": ["ندا فاضلی", "جون ایلیا", "احمد فراز", "پروین شاکر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Nida is the complete collection of Nida Fazli's poetry.",
+      "explanation_ur": "کلیات ندا ندا فاضلی کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Includes 'Mor Naach'",
+      "hint_ur": "'مور ناچ' شامل ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 118,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Parveen'?",
+      "question_ur": "'کلیات پروین' کس نے لکھی؟",
+      "options": {
+        "en": ["Parveen Shakir", "Fahmida Riaz", "Kishwar Naheed", "Ada Jafri"],
+        "ur": ["پروین شاکر", "فہمیدہ ریاض", "کشور ناہید", "ادا جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Parveen is the complete collection of Parveen Shakir's feminist poetry.",
+      "explanation_ur": "کلیات پروین پروین شاکر کی نسوانی شاعری کا مجموعہ ہے۔",
+      "hint": "Includes 'Khushbu', 'Inkar' etc.",
+      "hint_ur": "'خوشبو'، 'انکار' وغیرہ شامل ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 119,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Faiz'?",
+      "question_ur": "'کلیات فیض' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Ahmed Faraz", "Habib Jalib", "Jaun Elia"],
+        "ur": ["فیض احمد فیض", "احمد فراز", "حبیب جالب", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Faiz is the complete collection of Faiz Ahmed Faiz's revolutionary poetry.",
+      "explanation_ur": "کلیات فیض فیض احمد فیض کی انقلابی شاعری کا مجموعہ ہے۔",
+      "hint": "Includes 'Dast-e-Saba', 'Zindan Nama' etc.",
+      "hint_ur": "'دست صبا'، 'زنداں نامہ' وغیرہ شامل ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 120,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Faraz'?",
+      "question_ur": "'کلیات فراز' کس نے لکھی؟",
+      "options": {
+        "en": ["Ahmed Faraz", "Faiz Ahmed Faiz", "Habib Jalib", "Jaun Elia"],
+        "ur": ["احمد فراز", "فیض احمد فیض", "حبیب جالب", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Faraz is the complete collection of Ahmed Faraz's romantic and protest poetry.",
+      "explanation_ur": "کلیات فراز احمد فراز کی رومانوی اور احتجاجی شاعری کا مجموعہ ہے۔",
+      "hint": "Includes 'Tanha Tanha', 'Dard Aashob' etc.",
+      "hint_ur": "'تنہا تنہا'، 'درد آشوب' وغیرہ شامل ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 121,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Jalib'?",
+      "question_ur": "'کلیات جالب' کس نے لکھی؟",
+      "options": {
+        "en": ["Habib Jalib", "Faiz Ahmed Faiz", "Ahmed Faraz", "Jaun Elia"],
+        "ur": ["حبیب جالب", "فیض احمد فیض", "احمد فراز", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Jalib is the complete collection of Habib Jalib's protest poetry.",
+      "explanation_ur": "کلیات جالب حبیب جالب کی احتجاجی شاعری کا مجموعہ ہے۔",
+      "hint": "Includes 'Dastoor', 'Zulmat Ko Zia' etc.",
+      "hint_ur": "'دستور'، 'ظلمت کو ضیا' وغیرہ شامل ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 122,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Iqbal' in Urdu?",
+      "question_ur": "اردو میں 'کلیات اقبال' کس نے لکھی؟",
+      "options": {
+        "en": ["Allama Iqbal", "Mirza Ghalib", "Josh Malihabadi", "Akbar Allahabadi"],
+        "ur": ["علامہ اقبال", "مرزا غالب", "جوش ملیح آبادی", "اکبر الہ آبادی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Iqbal in Urdu includes Allama Iqbal's complete Urdu poetry collections.",
+      "explanation_ur": "اردو کلیات اقبال میں علامہ اقبال کے تمام اردو شعری مجموعے شامل ہیں۔",
+      "hint": "Includes 'Bang-e-Dra', 'Baal-e-Jibril' etc.",
+      "hint_ur": "'بانگ درا'، 'بال جبریل' وغیرہ شامل ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 123,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Ghalib'?",
+      "question_ur": "'کلیات غالب' کس نے لکھی؟",
+      "options": {
+        "en": ["Mirza Ghalib", "Mir Taqi Mir", "Bahadur Shah Zafar", "Momin Khan Momin"],
+        "ur": ["مرزا غالب", "میر تقی میر", "بہادر شاہ ظفر", "مومن خان مومن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Ghalib includes the complete Urdu and Persian poetry of Mirza Ghalib.",
+      "explanation_ur": "کلیات غالب میں مرزا غالب کی اردو اور فارسی شاعری شامل ہے۔",
+      "hint": "Includes 'Diwan-e-Ghalib'",
+      "hint_ur": "'دیوان غالب' شامل ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 124,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Mir'?",
+      "question_ur": "'کلیات میر' کس نے لکھی؟",
+      "options": {
+        "en": ["Mir Taqi Mir", "Mirza Ghalib", "Daagh Dehlvi", "Momin Khan Momin"],
+        "ur": ["میر تقی میر", "مرزا غالب", "داغ دہلوی", "مومن خان مومن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Mir is the complete collection of Mir Taqi Mir's Urdu poetry.",
+      "explanation_ur": "کلیات میر میر تقی میر کی اردو شاعری کا مجموعہ ہے۔",
+      "hint": "Known as 'Khuda-e-Sukhan'",
+      "hint_ur": "'خداے سخن' کے نام سے مشہور",
+      "timeLimit": 25
+    },
+    {
+      "id": 125,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Daagh'?",
+      "question_ur": "'کلیات داغ' کس نے لکھی؟",
+      "options": {
+        "en": ["Daagh Dehlvi", "Mirza Ghalib", "Mir Taqi Mir", "Bahadur Shah Zafar"],
+        "ur": ["داغ دہلوی", "مرزا غالب", "میر تقی میر", "بہادر شاہ ظفر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Daagh is the complete collection of Daagh Dehlvi's romantic poetry.",
+      "explanation_ur": "کلیات داغ داغ دہلوی کی رومانوی شاعری کا مجموعہ ہے۔",
+      "hint": "19th century poet",
+      "hint_ur": "انیسویں صدی کے شاعر",
+      "timeLimit": 20
+    },
+    {
+      "id": 126,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Momin'?",
+      "question_ur": "'کلیات مومن' کس نے لکھی؟",
+      "options": {
+        "en": ["Momin Khan Momin", "Mirza Ghalib", "Mir Taqi Mir", "Daagh Dehlvi"],
+        "ur": ["مومن خان مومن", "مرزا غالب", "میر تقی میر", "داغ دہلوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Momin is the complete collection of Momin Khan Momin's poetry.",
+      "explanation_ur": "کلیات مومن مومن خان مومن کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Contemporary of Ghalib",
+      "hint_ur": "غالب کے ہم عصر",
+      "timeLimit": 25
+    },
+    {
+      "id": 127,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Zafar'?",
+      "question_ur": "'کلیات ظفر' کس نے لکھی؟",
+      "options": {
+        "en": ["Bahadur Shah Zafar", "Mirza Ghalib", "Mir Taqi Mir", "Daagh Dehlvi"],
+        "ur": ["بہادر شاہ ظفر", "مرزا غالب", "میر تقی میر", "داغ دہلوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Zafar is the complete collection of Bahadur Shah Zafar's melancholic poetry.",
+      "explanation_ur": "کلیات ظفر بہادر شاہ ظفر کی درد بھری شاعری کا مجموعہ ہے۔",
+      "hint": "Last Mughal emperor",
+      "hint_ur": "آخری مغل بادشاہ",
+      "timeLimit": 30
+    },
+    {
+      "id": 128,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Hali'?",
+      "question_ur": "'کلیات حالی' کس نے لکھی؟",
+      "options": {
+        "en": ["Altaf Hussain Hali", "Allama Iqbal", "Mohsin Kakorvi", "Akbar Allahabadi"],
+        "ur": ["الطاف حسین حالی", "علامہ اقبال", "محسن کاکوروی", "اکبر الہ آبادی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Hali is the complete collection of Altaf Hussain Hali's poetry and prose.",
+      "explanation_ur": "کلیات حالی الطاف حسین حالی کی شاعری اور نثر کا مجموعہ ہے۔",
+      "hint": "Wrote 'Muqaddama-e-Sher-o-Shairi'",
+      "hint_ur": "'مقدمہ شعر و شاعری' لکھی",
+      "timeLimit": 25
+    },
+    {
+      "id": 129,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Akbar'?",
+      "question_ur": "'کلیات اکبر' کس نے لکھی؟",
+      "options": {
+        "en": ["Akbar Allahabadi", "Nazeer Akbarabadi", "Mirza Ghalib", "Allama Iqbal"],
+        "ur": ["اکبر الہ آبادی", "نظیر اکبر آبادی", "مرزا غالب", "علامہ اقبال"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Akbar is the complete collection of Akbar Allahabadi's satirical poetry.",
+      "explanation_ur": "کلیات اکبر اکبر الہ آبادی کی طنزیہ شاعری کا مجموعہ ہے۔",
+      "hint": "Known for social satire",
+      "hint_ur": "سماجی طنز کے لیے مشہور",
+      "timeLimit": 20
+    },
+    {
+      "id": 130,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Nazeer'?",
+      "question_ur": "'کلیات نظیر' کس نے لکھی؟",
+      "options": {
+        "en": ["Nazeer Akbarabadi", "Akbar Allahabadi", "Mirza Ghalib", "Allama Iqbal"],
+        "ur": ["نظیر اکبر آبادی", "اکبر الہ آبادی", "مرزا غالب", "علامہ اقبال"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Nazeer is the complete collection of Nazeer Akbarabadi's people's poetry.",
+      "explanation_ur": "کلیات نظیر نظیر اکبر آبادی کی عوامی شاعری کا مجموعہ ہے۔",
+      "hint": "18th century poet of common people",
+      "hint_ur": "اٹھارویں صدی کے عوامی شاعر",
+      "timeLimit": 25
+    },
+    {
+      "id": 131,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Jigar'?",
+      "question_ur": "'کلیات جگر' کس نے لکھی؟",
+      "options": {
+        "en": ["Jigar Moradabadi", "Firaq Gorakhpuri", "Josh Malihabadi", "Majaz Lakhnawi"],
+        "ur": ["جگر مراد آبادی", "فراق گورکھپوری", "جوش ملیح آبادی", "مجاز لکھنوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Jigar is the complete collection of Jigar Moradabadi's romantic ghazals.",
+      "explanation_ur": "کلیات جگر جگر مراد آبادی کی رومانوی غزلوں کا مجموعہ ہے۔",
+      "hint": "Known as 'Shaayar-e-Ishq'",
+      "hint_ur": "'شاعر عشق' کے نام سے مشہور",
+      "timeLimit": 20
+    },
+    {
+      "id": 132,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Hasrat'?",
+      "question_ur": "'کلیات حسرت' کس نے لکھی؟",
+      "options": {
+        "en": ["Hasrat Mohani", "Jigar Moradabadi", "Firaq Gorakhpuri", "Josh Malihabadi"],
+        "ur": ["حسرت موہانی", "جگر مراد آبادی", "فراق گورکھپوری", "جوش ملیح آبادی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Hasrat is the complete collection of Hasrat Mohani's revolutionary poetry.",
+      "explanation_ur": "کلیات حسرت حسرت موہانی کی انقلابی شاعری کا مجموعہ ہے۔",
+      "hint": "Also a freedom fighter",
+      "hint_ur": "آزادی پسند جنگجو بھی تھے",
+      "timeLimit": 25
+    },
+    {
+      "id": 133,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Qateel'?",
+      "question_ur": "'کلیات قتیل' کس نے لکھی؟",
+      "options": {
+        "en": ["Qateel Shifai", "Seemab Akbarabadi", "Jigar Moradabadi", "Firaq Gorakhpuri"],
+        "ur": ["قتیل شفائی", "سیماں اکبر آبادی", "جگر مراد آبادی", "فراق گورکھپوری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Qateel is the complete collection of Qateel Shifai's poetry and film lyrics.",
+      "explanation_ur": "کلیات قتیل قتیل شفائی کی شاعری اور فلمی نغموں کا مجموعہ ہے۔",
+      "hint": "Wrote famous film songs",
+      "hint_ur": "مشہور فلمی نغمے لکھے",
+      "timeLimit": 20
+    },
+    {
+      "id": 134,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Seemab'?",
+      "question_ur": "'کلیات سیماں' کس نے لکھی؟",
+      "options": {
+        "en": ["Seemab Akbarabadi", "Nazeer Akbarabadi", "Akbar Allahabadi", "Majaz Lakhnawi"],
+        "ur": ["سیماں اکبر آبادی", "نظیر اکبر آبادی", "اکبر الہ آبادی", "مجاز لکھنوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Seemab is the complete collection of Seemab Akbarabadi's poetry.",
+      "explanation_ur": "کلیات سیماں سیماں اکبر آبادی کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "20th century poet",
+      "hint_ur": "بیسویں صدی کے شاعر",
+      "timeLimit": 25
+    },
+    {
+      "id": 135,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Majeed'?",
+      "question_ur": "'کلیات مجید' کس نے لکھی؟",
+      "options": {
+        "en": ["Majeed Amjad", "Amjad Islam Amjad", "Ahmed Nadeem Qasmi", "Jon Elia"],
+        "ur": ["مجید امجد", "امجد اسلام امجد", "احمد ندیم قاسمی", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Majeed is the complete collection of Majeed Amjad's modern Urdu poetry.",
+      "explanation_ur": "کلیات مجید مجید امجد کی جدید اردو شاعری کا مجموعہ ہے۔",
+      "hint": "Pioneer of modern Urdu nazm",
+      "hint_ur": "جدید اردو نظم کے بانی",
+      "timeLimit": 30
+    },
+    {
+      "id": 136,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Nadeem'?",
+      "question_ur": "'کلیات ندیم' کس نے لکھی؟",
+      "options": {
+        "en": ["Ahmed Nadeem Qasmi", "Majeed Amjad", "Amjad Islam Amjad", "Jon Elia"],
+        "ur": ["احمد ندیم قاسمی", "مجید امجد", "امجد اسلام امجد", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Nadeem is the complete collection of Ahmed Nadeem Qasmi's poetry and prose.",
+      "explanation_ur": "کلیات ندیم احمد ندیم قاسمی کی شاعری اور نثر کا مجموعہ ہے۔",
+      "hint": "Edited 'Funoon' magazine",
+      "hint_ur": "'فنون' میگزین کے مدیر",
+      "timeLimit": 25
+    },
+    {
+      "id": 137,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Amjad'?",
+      "question_ur": "'کلیات امجد' کس نے لکھی؟",
+      "options": {
+        "en": ["Amjad Islam Amjad", "Ahmed Nadeem Qasmi", "Majeed Amjad", "Jon Elia"],
+        "ur": ["امجد اسلام امجد", "احمد ندیم قاسمی", "مجید امجد", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Amjad is the complete collection of Amjad Islam Amjad's poetry.",
+      "explanation_ur": "کلیات امجد امجد اسلام امجد کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Wrote for TV dramas",
+      "hint_ur": "ٹی وی ڈراموں کے لیے لکھا",
+      "timeLimit": 20
+    },
+    {
+      "id": 138,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Kishwar'?",
+      "question_ur": "'کلیات کشور' کس نے لکھی؟",
+      "options": {
+        "en": ["Kishwar Naheed", "Fahmida Riaz", "Parveen Shakir", "Ada Jafri"],
+        "ur": ["کشور ناہید", "فہمیدہ ریاض", "پروین شاکر", "ادا جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Kishwar is the complete collection of Kishwar Naheed's feminist poetry.",
+      "explanation_ur": "کلیات کشور کشور ناہید کی نسوانی شاعری کا مجموعہ ہے۔",
+      "hint": "Includes 'Lab-e-Goya'",
+      "hint_ur": "'لب گویا' شامل ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 139,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Fahmida'?",
+      "question_ur": "'کلیات فہمیدہ' کس نے لکھی؟",
+      "options": {
+        "en": ["Fahmida Riaz", "Kishwar Naheed", "Parveen Shakir", "Ada Jafri"],
+        "ur": ["فہمیدہ ریاض", "کشور ناہید", "پروین شاکر", "ادا جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Fahmida is the complete collection of Fahmida Riaz's progressive poetry.",
+      "explanation_ur": "کلیات فہمیدہ فہمیدہ ریاض کی ترقی پسند شاعری کا مجموعہ ہے۔",
+      "hint": "Known for bold feminist themes",
+      "hint_ur": "جرأت مندانہ نسوانی موضوعات کے لیے مشہور",
+      "timeLimit": 20
+    },
+    {
+      "id": 140,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Ada'?",
+      "question_ur": "'کلیات ادا' کس نے لکھی؟",
+      "options": {
+        "en": ["Ada Jafri", "Fahmida Riaz", "Kishwar Naheed", "Parveen Shakir"],
+        "ur": ["ادا جعفری", "فہمیدہ ریاض", "کشور ناہید", "پروین شاکر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Ada is the complete collection of Ada Jafri's poetry.",
+      "explanation_ur": "کلیات ادا ادا جعفری کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "First major female Urdu poet",
+      "hint_ur": "پہلی بڑی اردو خاتون شاعرہ",
+      "timeLimit": 25
+    },
+    {
+      "id": 141,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Nasir'?",
+      "question_ur": "'کلیات ناصر' کس نے لکھی؟",
+      "options": {
+        "en": ["Nasir Kazmi", "Munir Niazi", "Ahmed Faraz", "Jaun Elia"],
+        "ur": ["ناصر کاظمی", "منیر نیازی", "احمد فراز", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Nasir is the complete collection of Nasir Kazmi's melancholic poetry.",
+      "explanation_ur": "کلیات ناصر ناصر کاظمی کی درد بھری شاعری کا مجموعہ ہے۔",
+      "hint": "Known for 'Dewar-e-Adab'",
+      "hint_ur": "'دیوار ادب' کے لیے مشہور",
+      "timeLimit": 20
+    },
+    {
+      "id": 142,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Munir'?",
+      "question_ur": "'کلیات منیر' کس نے لکھی؟",
+      "options": {
+        "en": ["Munir Niazi", "Nasir Kazmi", "Ahmed Faraz", "Jaun Elia"],
+        "ur": ["منیر نیازی", "ناصر کاظمی", "احمد فراز", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Munir is the complete collection of Munir Niazi's poetry.",
+      "explanation_ur": "کلیات منیر منیر نیازی کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Known for 'Jangal Mein Dhanak'",
+      "hint_ur": "'جنگل میں دھنک' کے لیے مشہور",
+      "timeLimit": 25
+    },
+    {
+      "id": 143,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Iftikhar'?",
+      "question_ur": "'کلیات افتخار' کس نے لکھی؟",
+      "options": {
+        "en": ["Iftikhar Arif", "Munir Niazi", "Nasir Kazmi", "Ahmed Faraz"],
+        "ur": ["افتخار عارف", "منیر نیازی", "ناصر کاظمی", "احمد فراز"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Iftikhar is the complete collection of Iftikhar Arif's poetry.",
+      "explanation_ur": "کلیات افتخار افتخار عارف کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Current head of Pakistan Academy of Letters",
+      "hint_ur": "پاکستان اکادمی ادبیات کے موجودہ سربراہ",
+      "timeLimit": 20
+    },
+    {
+      "id": 144,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Zehra'?",
+      "question_ur": "'کلیات زہرا' کس نے لکھی؟",
+      "options": {
+        "en": ["Zehra Nigah", "Fahmida Riaz", "Kishwar Naheed", "Parveen Shakir"],
+        "ur": ["زہرا نگاہ", "فہمیدہ ریاض", "کشور ناہید", "پروین شاکر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Zehra is the complete collection of Zehra Nigah's poetry.",
+      "explanation_ur": "کلیات زہرا زہرا نگاہ کی مکمل شاعری کا مجموعہ ہے۔",
+      "hint": "Known for partition poetry",
+      "hint_ur": "تقسیم پر شاعری کے لیے مشہور",
+      "timeLimit": 25
+    },
+    {
+      "id": 145,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Sahir'?",
+      "question_ur": "'کلیات ساحر' کس نے لکھی؟",
+      "options": {
+        "en": ["Sahir Ludhianvi", "Majrooh Sultanpuri", "Javed Akhtar", "Gulzar"],
+        "ur": ["ساحر لدھیانوی", "مجروح سلطانپوری", "جاوید اختر", "گلزار"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Sahir is the complete collection of Sahir Ludhianvi's poetry and film lyrics.",
+      "explanation_ur": "کلیات ساحر ساحر لدھیانوی کی شاعری اور فلمی نغموں کا مجموعہ ہے۔",
+      "hint": "Includes 'Talkhiyan'",
+      "hint_ur": "'تلخیاں' شامل ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 146,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Majrooh'?",
+      "question_ur": "'کلیات مجروح' کس نے لکھی؟",
+      "options": {
+        "en": ["Majrooh Sultanpuri", "Sahir Ludhianvi", "Javed Akhtar", "Gulzar"],
+        "ur": ["مجروح سلطانپوری", "ساحر لدھیانوی", "جاوید اختر", "گلزار"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Majrooh is the complete collection of Majrooh Sultanpuri's poetry and film lyrics.",
+      "explanation_ur": "کلیات مجروح مجروح سلطانپوری کی شاعری اور فلمی نغموں کا مجموعہ ہے۔",
+      "hint": "Wrote 'Chahunga Main Tujhe'",
+      "hint_ur": "'چاہوں گا میں تجھے' لکھا",
+      "timeLimit": 25
+    },
+    {
+      "id": 147,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Javed'?",
+      "question_ur": "'کلیات جاوید' کس نے لکھی؟",
+      "options": {
+        "en": ["Javed Akhtar", "Majrooh Sultanpuri", "Sahir Ludhianvi", "Gulzar"],
+        "ur": ["جاوید اختر", "مجروح سلطانپوری", "ساحر لدھیانوی", "گلزار"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Javed is the complete collection of Javed Akhtar's poetry and film lyrics.",
+      "explanation_ur": "کلیات جاوید جاوید اختر کی شاعری اور فلمی نغموں کا مجموعہ ہے۔",
+      "hint": "Son of Jan Nisar Akhtar",
+      "hint_ur": "جان نثار اختر کے بیٹے",
+      "timeLimit": 20
+    },
+    {
+      "id": 148,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Gulzar'?",
+      "question_ur": "'کلیات گلزار' کس نے لکھی؟",
+      "options": {
+        "en": ["Gulzar", "Javed Akhtar", "Majrooh Sultanpuri", "Sahir Ludhianvi"],
+        "ur": ["گلزار", "جاوید اختر", "مجروح سلطانپوری", "ساحر لدھیانوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Gulzar is the complete collection of Gulzar's poetry and film lyrics.",
+      "explanation_ur": "کلیات گلزار گلزار کی شاعری اور فلمی نغموں کا مجموعہ ہے۔",
+      "hint": "Known for minimalist style",
+      "hint_ur": "منیملسٹ انداز کے لیے مشہور",
+      "timeLimit": 25
+    },
+    {
+      "id": 149,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Anwar'?",
+      "question_ur": "'کلیات انور' کس نے لکھی؟",
+      "options": {
+        "en": ["Anwar Masood", "Ibn-e-Insha", "Habib Jalib", "Jaun Elia"],
+        "ur": ["انور مسعود", "ابن انشا", "حبیب جالب", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Anwar is the complete collection of Anwar Masood's humorous poetry.",
+      "explanation_ur": "کلیات انور انور مسعود کی مزاحیہ شاعری کا مجموعہ ہے۔",
+      "hint": "Writes in Punjabi/Urdu",
+      "hint_ur": "پنجابی/اردو میں لکھتے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 150,
+      "type": "mcq",
+      "question": "Which poet wrote 'Kulliyat-e-Ibn-e-Insha'?",
+      "question_ur": "'کلیات ابن انشا' کس نے لکھی؟",
+      "options": {
+        "en": ["Ibn-e-Insha", "Anwar Masood", "Habib Jalib", "Jaun Elia"],
+        "ur": ["ابن انشا", "انور مسعود", "حبیب جالب", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Kulliyat-e-Ibn-e-Insha is the complete collection of Ibn-e-Insha's humorous and travel poetry.",
+      "explanation_ur": "کلیات ابن انشا ابن انشا کی مزاحیہ اور سفرنامہ شاعری کا مجموعہ ہے۔",
+      "hint": "Wrote 'Insha Ji Utho'",
+      "hint_ur": "'انشاء جی اٹھو' لکھی",
+      "timeLimit": 25
+    },
+        {
+      "id": 151,
+      "type": "mcq",
+      "question": "Who is considered the first major female Urdu poet?",
+      "question_ur": "اردو کی پہلی بڑی خاتون شاعرہ کون سمجھی جاتی ہیں؟",
+      "options": {
+        "en": ["Ada Jafri", "Parveen Shakir", "Kishwar Naheed", "Fahmida Riaz"],
+        "ur": ["ادا جعفری", "پروین شاکر", "کشور ناہید", "فہمیدہ ریاض"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Ada Jafri is recognized as the first major female poet in Urdu literature.",
+      "explanation_ur": "ادا جعفری اردو ادب کی پہلی بڑی خاتون شاعرہ تسلیم کی جاتی ہیں۔",
+      "hint": "Born in 1924 in Badayun",
+      "hint_ur": "1924 میں بڈایوں میں پیدا ہوئیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 152,
+      "type": "mcq",
+      "question": "Which poet wrote 'Main Bhi Insaan Hoon' as a protest poem?",
+      "question_ur": "'میں بھی انسان ہوں' احتجاجی نظم کس نے لکھی؟",
+      "options": {
+        "en": ["Habib Jalib", "Faiz Ahmed Faiz", "Ahmed Faraz", "Jaun Elia"],
+        "ur": ["حبیب جالب", "فیض احمد فیض", "احمد فراز", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Habib Jalib wrote this powerful protest poem asserting human dignity.",
+      "explanation_ur": "انسانی وقار کے اثبات پر یہ طاقتور احتجاجی نظم حبیب جالب نے لکھی۔",
+      "hint": "Also wrote 'Dastoor'",
+      "hint_ur": "'دستور' بھی لکھی",
+      "timeLimit": 20
+    },
+    {
+      "id": 153,
+      "type": "mcq",
+      "question": "Who composed the famous ghazal 'Raqeeb Se'?",
+      "question_ur": "مشہور غزل 'رقیب سے' کس نے لکھی؟",
+      "options": {
+        "en": ["Momin Khan Momin", "Mirza Ghalib", "Daagh Dehlvi", "Mir Taqi Mir"],
+        "ur": ["مومن خان مومن", "مرزا غالب", "داغ دہلوی", "میر تقی میر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This romantic ghazal was penned by Momin Khan Momin.",
+      "explanation_ur": "یہ رومانوی غزل مومن خان مومن نے لکھی۔",
+      "hint": "Famous line: 'Tum mere paas hotey ho'",
+      "hint_ur": "مشہور مصرع: 'تم میرے پاس ہوتے ہو'",
+      "timeLimit": 25
+    },
+    {
+      "id": 154,
+      "type": "mcq",
+      "question": "Which poet is known for 'Shahr-e-Ashob' poetry about urban decay?",
+      "question_ur": "شہروں کے زوال پر 'شہر آشوب' شاعری کس کے لیے مشہور ہے؟",
+      "options": {
+        "en": ["Mir Taqi Mir", "Mirza Ghalib", "Saadat Yaar Khan Rangin", "All of the above"],
+        "ur": ["میر تقی میر", "مرزا غالب", "سعادت یار خان رنگین", "تمام اوپر والے"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Several classical poets wrote Shahr-e-Ashob lamenting the decline of cities.",
+      "explanation_ur": "کئی کلاسیکی شعراء نے شہروں کے زوال پر شہر آشوب لکھی۔",
+      "hint": "Popular in 18th-19th century",
+      "hint_ur": "اٹھارویں-انیسویں صدی میں مقبول",
+      "timeLimit": 30
+    },
+    {
+      "id": 155,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Nasir' containing melancholic poetry?",
+      "question_ur": "درد بھری شاعری پر مشتمل 'کلیات ناصر' کس نے لکھی؟",
+      "options": {
+        "en": ["Nasir Kazmi", "Munir Niazi", "Ahmed Faraz", "Jaun Elia"],
+        "ur": ["ناصر کاظمی", "منیر نیازی", "احمد فراز", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Nasir Kazmi's complete works feature his signature melancholic style.",
+      "explanation_ur": "ناصر کاظمی کی کلیات میں ان کا مخصوص درد بھرا انداز شامل ہے۔",
+      "hint": "Wrote 'Dewar-e-Adab'",
+      "hint_ur": "'دیوار ادب' لکھی",
+      "timeLimit": 25
+    },
+    {
+      "id": 156,
+      "type": "mcq",
+      "question": "Which poet composed 'Dasht-e-Tanhai' about loneliness?",
+      "question_ur": "تنہائی پر 'دشت تنہائی' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Ahmed Faraz", "Habib Jalib", "Jaun Elia"],
+        "ur": ["فیض احمد فیض", "احمد فراز", "حبیب جالب", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Faiz's 'Dasht-e-Tanhai' is a profound meditation on isolation.",
+      "explanation_ur": "فیض کی 'دشت تنہائی' تنہائی پر ایک گہرا مراقبہ ہے۔",
+      "hint": "From 'Dast-e-Saba' collection",
+      "hint_ur": "'دست صبا' مجموعے سے",
+      "timeLimit": 30
+    },
+    {
+      "id": 157,
+      "type": "mcq",
+      "question": "Who wrote the revolutionary poem 'Bol Ke Lab Azaad Hain Tere'?",
+      "question_ur": "انقلابی نظم 'بول کہ لب آزاد ہیں تیرے' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Habib Jalib", "Ahmed Faraz", "Jaun Elia"],
+        "ur": ["فیض احمد فیض", "حبیب جالب", "احمد فراز", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Faiz wrote this iconic poem about freedom of expression.",
+      "explanation_ur": "اظہار رائے کی آزادی پر یہ علامتی نظم فیض نے لکھی۔",
+      "hint": "Written in jail",
+      "hint_ur": "جیل میں لکھی گئی",
+      "timeLimit": 25
+    },
+    {
+      "id": 158,
+      "type": "mcq",
+      "question": "Which poet is known for 'Rubaiyat' in Urdu?",
+      "question_ur": "اردو میں 'رباعیات' کس کے لیے مشہور ہیں؟",
+      "options": {
+        "en": ["Allama Iqbal", "Mirza Ghalib", "Josh Malihabadi", "Firaq Gorakhpuri"],
+        "ur": ["علامہ اقبال", "مرزا غالب", "جوش ملیح آبادی", "فراق گورکھپوری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Iqbal's philosophical Rubaiyat are considered masterpieces.",
+      "explanation_ur": "اقبال کی فلسفیانہ رباعیات شاہکار سمجھی جاتی ہیں۔",
+      "hint": "Included in 'Zabur-e-Ajam'",
+      "hint_ur": "'ضرب کلیم' میں شامل",
+      "timeLimit": 20
+    },
+    {
+      "id": 159,
+      "type": "mcq",
+      "question": "Who composed 'Shikwa' and 'Jawab-e-Shikwa'?",
+      "question_ur": "'شکوہ' اور 'جواب شکوہ' کس نے لکھے؟",
+      "options": {
+        "en": ["Allama Iqbal", "Mirza Ghalib", "Josh Malihabadi", "Hafeez Jalandhari"],
+        "ur": ["علامہ اقبال", "مرزا غالب", "جوش ملیح آبادی", "حفیظ جالندھری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Iqbal's 'Shikwa' and 'Jawab-e-Shikwa' are philosophical dialogues with God.",
+      "explanation_ur": "اقبال کے 'شکوہ' اور 'جواب شکوہ' خدا کے ساتھ فلسفیانہ مکالمے ہیں۔",
+      "hint": "From 'Bang-e-Dra'",
+      "hint_ur": "'بانگ درا' سے",
+      "timeLimit": 30
+    },
+    {
+      "id": 160,
+      "type": "mcq",
+      "question": "Which poet wrote 'Aaj Bazaar Mein Pa-Bajolan Chalo'?",
+      "question_ur": "'آج بازار میں پابجولاں چلو' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Habib Jalib", "Ahmed Faraz", "Jaun Elia"],
+        "ur": ["فیض احمد فیض", "حبیب جالب", "احمد فراز", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Faiz's revolutionary poem about speaking truth to power.",
+      "explanation_ur": "طاقت کے سامنے سچ بولنے پر فیض کی انقلابی نظم۔",
+      "hint": "From 'Dast-e-Saba'",
+      "hint_ur": "'دست صبا' سے",
+      "timeLimit": 25
+    },
+    {
+      "id": 161,
+      "type": "mcq",
+      "question": "Who is known for the couplet 'Hazaron khwahishen aisi ke har khwahish pe dam nikle'?",
+      "question_ur": "'ہزاروں خواہشیں ایسی کہ ہر خواہش پہ دم نکلے' کس کا شعر ہے؟",
+      "options": {
+        "en": ["Mirza Ghalib", "Allama Iqbal", "Faiz Ahmed Faiz", "Mir Taqi Mir"],
+        "ur": ["مرزا غالب", "علامہ اقبال", "فیض احمد فیض", "میر تقی میر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Ghalib's famous couplet about endless human desires.",
+      "explanation_ur": "انسانی خواہشات پر غالب کا مشہور شعر۔",
+      "hint": "From Diwan-e-Ghalib",
+      "hint_ur": "دیوان غالب سے",
+      "timeLimit": 20
+    },
+    {
+      "id": 162,
+      "type": "mcq",
+      "question": "Which poet wrote 'Sarhad Ke Is Paar Bhi, Us Paar Bhi' about partition?",
+      "question_ur": "تقسیم پر 'سرحد کے اس پار بھی، اس پار بھی' کس نے لکھی؟",
+      "options": {
+        "en": ["Ahmed Faraz", "Faiz Ahmed Faiz", "Habib Jalib", "Jaun Elia"],
+        "ur": ["احمد فراز", "فیض احمد فیض", "حبیب جالب", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Ahmed Faraz's poignant poem about divided families.",
+      "explanation_ur": "تقسیم شدہ خاندانوں پر احمد فراز کی دردناک نظم۔",
+      "hint": "From 'Tanha Tanha'",
+      "hint_ur": "'تنہا تنہا' سے",
+      "timeLimit": 30
+    },
+    {
+      "id": 163,
+      "type": "mcq",
+      "question": "Who composed 'Lab Pe Aati Hai Dua Ban Ke Tamanna Meri'?",
+      "question_ur": "'لب پہ آتی ہے دعا بن کے تمنا میری' کس نے لکھی؟",
+      "options": {
+        "en": ["Allama Iqbal", "Hafeez Jalandhari", "Josh Malihabadi", "Akbar Allahabadi"],
+        "ur": ["علامہ اقبال", "حفیظ جالندھری", "جوش ملیح آبادی", "اکبر الہ آبادی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Iqbal's famous prayer poem for children.",
+      "explanation_ur": "بچوں کے لیے اقبال کی مشہور دعائیہ نظم۔",
+      "hint": "From 'Bang-e-Dra'",
+      "hint_ur": "'بانگ درا' سے",
+      "timeLimit": 20
+    },
+    {
+      "id": 164,
+      "type": "mcq",
+      "question": "Which poet wrote 'Ye Mera Chiragh' about women's identity?",
+      "question_ur": "عورت کی شناخت پر 'یہ میرا چراغ' کس نے لکھی؟",
+      "options": {
+        "en": ["Parveen Shakir", "Kishwar Naheed", "Fahmida Riaz", "Ada Jafri"],
+        "ur": ["پروین شاکر", "کشور ناہید", "فہمیدہ ریاض", "ادا جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Parveen Shakir's feminist poem asserting female identity.",
+      "explanation_ur": "نسوانی شناخت کے اثبات پر پروین شاکر کی نظم۔",
+      "hint": "From 'Khushbu' collection",
+      "hint_ur": "'خوشبو' مجموعے سے",
+      "timeLimit": 25
+    },
+    {
+      "id": 165,
+      "type": "mcq",
+      "question": "Who wrote 'Main Akela Hi Chala Tha Janib-e-Manzil'?",
+      "question_ur": "'میں اکیلا ہی چلا تھا جانب منزل' کس نے لکھی؟",
+      "options": {
+        "en": ["Allama Iqbal", "Josh Malihabadi", "Faiz Ahmed Faiz", "Jaun Elia"],
+        "ur": ["علامہ اقبال", "جوش ملیح آبادی", "فیض احمد فیض", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Iqbal's motivational poem about self-discovery.",
+      "explanation_ur": "خود شناسی پر اقبال کی حوصلہ افزا نظم۔",
+      "hint": "From 'Baal-e-Jibril'",
+      "hint_ur": "'بال جبریل' سے",
+      "timeLimit": 30
+    },
+    {
+      "id": 166,
+      "type": "mcq",
+      "question": "Which poet is known for 'Insha Ji Utho' humorous poetry?",
+      "question_ur": "'انشاء جی اٹھو' مزاحیہ شاعری کس کے لیے مشہور ہے؟",
+      "options": {
+        "en": ["Ibn-e-Insha", "Anwar Masood", "Habib Jalib", "Jaun Elia"],
+        "ur": ["ابن انشا", "انور مسعود", "حبیب جالب", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Ibn-e-Insha's humorous poem about waking up late.",
+      "explanation_ur": "دیر سے اٹھنے پر ابن انشا کی مزاحیہ نظم۔",
+      "hint": "Also wrote travelogues",
+      "hint_ur": "سفرنامے بھی لکھے",
+      "timeLimit": 20
+    },
+    {
+      "id": 167,
+      "type": "mcq",
+      "question": "Who composed 'Gulon Mein Rang Bhare'?",
+      "question_ur": "'گلوں میں رنگ بھرے' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Allama Iqbal", "Mirza Ghalib", "Daagh Dehlvi"],
+        "ur": ["فیض احمد فیض", "علامہ اقبال", "مرزا غالب", "داغ دہلوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Faiz's iconic ghazal opening with this verse.",
+      "explanation_ur": "فیض کی علامتی غزل جس کا آغاز اس شعر سے ہوتا ہے۔",
+      "hint": "From 'Naqsh-e-Faryadi'",
+      "hint_ur": "'نقش فریادی' سے",
+      "timeLimit": 25
+    },
+    {
+      "id": 168,
+      "type": "mcq",
+      "question": "Which poet wrote 'Dil-e-Nadaan Tujhe Hua Kya Hai'?",
+      "question_ur": "'دل ناداں تجھے ہوا کیا ہے' کس نے لکھی؟",
+      "options": {
+        "en": ["Mirza Ghalib", "Mir Taqi Mir", "Daagh Dehlvi", "Momin Khan Momin"],
+        "ur": ["مرزا غالب", "میر تقی میر", "داغ دہلوی", "مومن خان مومن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Ghalib's famous ghazal opening verse.",
+      "explanation_ur": "غالب کی مشہور غزل کا آغاز۔",
+      "hint": "From Diwan-e-Ghalib",
+      "hint_ur": "دیوان غالب سے",
+      "timeLimit": 20
+    },
+    {
+      "id": 169,
+      "type": "mcq",
+      "question": "Who is known as 'Khuda-e-Sukhan' (God of Poetry)?",
+      "question_ur": "'خداے سخن' کسے کہا جاتا ہے؟",
+      "options": {
+        "en": ["Mir Taqi Mir", "Mirza Ghalib", "Allama Iqbal", "Daagh Dehlvi"],
+        "ur": ["میر تقی میر", "مرزا غالب", "علامہ اقبال", "داغ دہلوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Mir Taqi Mir is honored with this title for his mastery over Urdu poetry.",
+      "explanation_ur": "میر تقی میر کو اردو شاعری پر ان کے عبور کی وجہ سے یہ خطاب دیا گیا۔",
+      "hint": "18th century poet",
+      "hint_ur": "اٹھارویں صدی کے شاعر",
+      "timeLimit": 25
+    },
+    {
+      "id": 170,
+      "type": "mcq",
+      "question": "Which poet wrote 'Bazeecha-e-Atfal' about the world as playground?",
+      "question_ur": "دنیا کو بچوں کے کھیل کے میدان کے طور پر بیان کرنے والی 'بازیچہ اطفال' کس نے لکھی؟",
+      "options": {
+        "en": ["Allama Iqbal", "Mirza Ghalib", "Mir Taqi Mir", "Daagh Dehlvi"],
+        "ur": ["علامہ اقبال", "مرزا غالب", "میر تقی میر", "داغ دہلوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Iqbal's philosophical poem viewing world as children's playground.",
+      "explanation_ur": "دنیا کو بچوں کے کھیل کے میدان کے طور پر دیکھنے والی اقبال کی فلسفیانہ نظم۔",
+      "hint": "From 'Baal-e-Jibril'",
+      "hint_ur": "'بال جبریل' سے",
+      "timeLimit": 30
+    },
+    {
+      "id": 171,
+      "type": "mcq",
+      "question": "Who composed 'Hum Dekhenge' about social revolution?",
+      "question_ur": "سماجی انقلاب پر 'ہم دیکھیں گے' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Habib Jalib", "Ahmed Faraz", "Jaun Elia"],
+        "ur": ["فیض احمد فیض", "حبیب جالب", "احمد فراز", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Faiz's revolutionary poem predicting social change.",
+      "explanation_ur": "سماجی تبدیلی کی پیش گوئی کرنے والی فیض کی انقلابی نظم۔",
+      "hint": "Famous line: 'Lazim hai ke hum bhi dekhenge'",
+      "hint_ur": "مشہور مصرع: 'لازم ہے کہ ہم بھی دیکھیں گے'",
+      "timeLimit": 25
+    },
+    {
+      "id": 172,
+      "type": "mcq",
+      "question": "Which poet wrote 'Mujh Se Pehli Si Mohabbat' about lost love?",
+      "question_ur": "کھوئی ہوئی محبت پر 'مجھ سے پہلی سی محبت' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Ahmed Faraz", "Habib Jalib", "Jaun Elia"],
+        "ur": ["فیض احمد فیض", "احمد فراز", "حبیب جالب", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Faiz's melancholic ghazal about love that cannot be reclaimed.",
+      "explanation_ur": "وہ محبت جو واپس نہیں مل سکتی، اس پر فیض کی درد بھری غزل۔",
+      "hint": "From 'Naqsh-e-Faryadi'",
+      "hint_ur": "'نقش فریادی' سے",
+      "timeLimit": 30
+    },
+    {
+      "id": 173,
+      "type": "mcq",
+      "question": "Who is known for 'Aaj Ik Harf Ko' modern ghazal?",
+      "question_ur": "جدید غزل 'آج اک حرف کو' کس کے لیے مشہور ہے؟",
+      "options": {
+        "en": ["Jaun Elia", "Ahmed Faraz", "Faiz Ahmed Faiz", "Habib Jalib"],
+        "ur": ["جون ایلیا", "احمد فراز", "فیض احمد فیض", "حبیب جالب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Jaun Elia's modern ghazal about the power of words.",
+      "explanation_ur": "الفاظ کی طاقت پر جون ایلیا کی جدید غزل۔",
+      "hint": "From 'Gumaan' collection",
+      "hint_ur": "'گمان' مجموعے سے",
+      "timeLimit": 25
+    },
+    {
+      "id": 174,
+      "type": "mcq",
+      "question": "Which poet wrote 'Zindagi Se Darti Ho' feminist poem?",
+      "question_ur": "نسوانی نظم 'زندگی سے ڈرتی ہو' کس نے لکھی؟",
+      "options": {
+        "en": ["Parveen Shakir", "Kishwar Naheed", "Fahmida Riaz", "Ada Jafri"],
+        "ur": ["پروین شاکر", "کشور ناہید", "فہمیدہ ریاض", "ادا جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Parveen Shakir's poem challenging women's fears.",
+      "explanation_ur": "خواتین کے خوفوں کو للکارنے والی پروین شاکر کی نظم۔",
+      "hint": "From 'Khushbu'",
+      "hint_ur": "'خوشبو' سے",
+      "timeLimit": 20
+    },
+    {
+      "id": 175,
+      "type": "mcq",
+      "question": "Who composed 'Awaz Do Hum Ek Hain' about unity?",
+      "question_ur": "اتحاد پر 'آواز دو ہم ایک ہیں' کس نے لکھی؟",
+      "options": {
+        "en": ["Habib Jalib", "Faiz Ahmed Faiz", "Ahmed Faraz", "Jaun Elia"],
+        "ur": ["حبیب جالب", "فیض احمد فیض", "احمد فراز", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Habib Jalib's poem emphasizing people's unity.",
+      "explanation_ur": "عوامی اتحاد پر زور دینے والی حبیب جالب کی نظم۔",
+      "hint": "Written during Zia era",
+      "hint_ur": "ضیاء دور میں لکھی گئی",
+      "timeLimit": 25
+    },
+    {
+      "id": 176,
+      "type": "mcq",
+      "question": "Which poet wrote 'Main Ne Us Se Yeh Kaha' modern ghazal?",
+      "question_ur": "جدید غزل 'میں نے اس سے یہ کہا' کس نے لکھی؟",
+      "options": {
+        "en": ["Jaun Elia", "Ahmed Faraz", "Faiz Ahmed Faiz", "Nazeer Akbarabadi"],
+        "ur": ["جون ایلیا", "احمد فراز", "فیض احمد فیض", "نظیر اکبر آبادی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Jaun Elia's contemporary ghazal about communication gaps.",
+      "explanation_ur": "مواصلاتی خلیج پر جون ایلیا کی معاصر غزل۔",
+      "hint": "From 'Shayad' collection",
+      "hint_ur": "'شاید' مجموعے سے",
+      "timeLimit": 30
+    },
+    {
+      "id": 177,
+      "type": "mcq",
+      "question": "Who is known for 'Kufr-e-Ishq' controversial ghazal?",
+      "question_ur": "متنازع غزل 'کفر عشق' کس کے لیے مشہور ہے؟",
+      "options": {
+        "en": ["Hasrat Mohani", "Josh Malihabadi", "Allama Iqbal", "Jigar Moradabadi"],
+        "ur": ["حسرت موہانی", "جوش ملیح آبادی", "علامہ اقبال", "جگر مراد آبادی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Hasrat Mohani's ghazal about divine love that caused controversy.",
+      "explanation_ur": "الہامی محبت پر حسرت موہانی کی متنازع غزل۔",
+      "hint": "Also a freedom fighter",
+      "hint_ur": "آزادی پسند جنگجو بھی تھے",
+      "timeLimit": 25
+    },
+    {
+      "id": 178,
+      "type": "mcq",
+      "question": "Which poet wrote 'Shola-e-Gul' romantic poetry collection?",
+      "question_ur": "رومانوی شعری مجموعہ 'شعلہ گل' کس نے لکھا؟",
+      "options": {
+        "en": ["Majaz Lakhnawi", "Firaq Gorakhpuri", "Sahir Ludhianvi", "Ali Sardar Jafri"],
+        "ur": ["مجاز لکھنوی", "فراق گورکھپوری", "ساحر لدھیانوی", "علی سردار جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Majaz Lakhnawi's famous romantic poetry collection.",
+      "explanation_ur": "مجاز لکھنوی کا مشہور رومانوی شعری مجموعہ۔",
+      "hint": "Progressive Writers' Movement",
+      "hint_ur": "ترقی پسند مصنفین تحریک",
+      "timeLimit": 20
+    },
+    {
+      "id": 179,
+      "type": "mcq",
+      "question": "Who composed 'Main Akela' poem about solitude?",
+      "question_ur": "تنہائی پر نظم 'میں اکیلا' کس نے لکھی؟",
+      "options": {
+        "en": ["Nida Fazli", "Jaun Elia", "Ahmed Faraz", "Parveen Shakir"],
+        "ur": ["ندا فاضلی", "جون ایلیا", "احمد فراز", "پروین شاکر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Nida Fazli's famous poem about urban loneliness.",
+      "explanation_ur": "شہری تنہائی پر ندا فاضلی کی مشہور نظم۔",
+      "hint": "Indian poet who migrated to Pakistan",
+      "hint_ur": "ہندوستان سے پاکستان منتقل ہونے والے شاعر",
+      "timeLimit": 25
+    },
+    {
+      "id": 180,
+      "type": "mcq",
+      "question": "Which poet wrote 'Baat Karni Mujhe Mushkil' melancholic ghazal?",
+      "question_ur": "درد بھری غزل 'بات کرنی مجھے مشکل' کس نے لکھی؟",
+      "options": {
+        "en": ["Bahadur Shah Zafar", "Mirza Ghalib", "Mir Taqi Mir", "Momin Khan Momin"],
+        "ur": ["بہادر شاہ ظفر", "مرزا غالب", "میر تقی میر", "مومن خان مومن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Bahadur Shah Zafar's ghazal about communication difficulties in exile.",
+      "explanation_ur": "جلاوطنی میں مواصلاتی دشواریوں پر بہادر شاہ ظفر کی غزل۔",
+      "hint": "Last Mughal emperor",
+      "hint_ur": "آخری مغل بادشاہ",
+      "timeLimit": 30
+    },
+    {
+      "id": 181,
+      "type": "mcq",
+      "question": "Who wrote 'Aawara' nazm about wanderers?",
+      "question_ur": "آوارہ لوگوں پر نظم 'آوارہ' کس نے لکھی؟",
+      "options": {
+        "en": ["Sahir Ludhianvi", "Majrooh Sultanpuri", "Javed Akhtar", "Gulzar"],
+        "ur": ["ساحر لدھیانوی", "مجروح سلطانپوری", "جاوید اختر", "گلزار"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Sahir Ludhianvi's famous nazm about social outcasts.",
+      "explanation_ur": "معاشرتی بے گھر لوگوں پر ساحر لدھیانوی کی مشہور نظم۔",
+      "hint": "From film 'Pyaasa'",
+      "hint_ur": "فلم 'پیاسا' سے",
+      "timeLimit": 25
+    },
+    {
+      "id": 182,
+      "type": "mcq",
+      "question": "Which poet is known for 'Main Pal Do Pal Ka Shaayar Hoon'?",
+      "question_ur": "'میں پل دو پل کا شاعر ہوں' کس کے لیے مشہور ہے؟",
+      "options": {
+        "en": ["Sahir Ludhianvi", "Majrooh Sultanpuri", "Javed Akhtar", "Gulzar"],
+        "ur": ["ساحر لدھیانوی", "مجروح سلطانپوری", "جاوید اختر", "گلزار"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Sahir's self-reflective poem about poetic mortality.",
+      "explanation_ur": "شاعری کی فنا پر ساحر کی خود شناسی نظم۔",
+      "hint": "From film 'Kabhi Kabhie'",
+      "hint_ur": "فلم 'کبھی کبھی' سے",
+      "timeLimit": 20
+    },
+    {
+      "id": 183,
+      "type": "mcq",
+      "question": "Who wrote 'Dhoop Kinare' feminist poetry collection?",
+      "question_ur": "نسوانی شعری مجموعہ 'دھوپ کنارے' کس نے لکھا؟",
+      "options": {
+        "en": ["Parveen Shakir", "Fahmida Riaz", "Kishwar Naheed", "Ada Jafri"],
+        "ur": ["پروین شاکر", "فہمیدہ ریاض", "کشور ناہید", "ادا جعفری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Parveen Shakir's collection bringing feminine perspective to Urdu poetry.",
+      "explanation_ur": "اردو شاعری میں نسوانی نقطہ نظر لانے والا پروین شاکر کا مجموعہ۔",
+      "hint": "Published in 1980",
+      "hint_ur": "1980 میں شائع ہوا",
+      "timeLimit": 25
+    },
+    {
+      "id": 184,
+      "type": "mcq",
+      "question": "Which poet composed 'Taj Mahal' critical nazm?",
+      "question_ur": "تنقیدی نظم 'تاج محل' کس نے لکھی؟",
+      "options": {
+        "en": ["Sahir Ludhianvi", "Josh Malihabadi", "Firaq Gorakhpuri", "Majaz Lakhnawi"],
+        "ur": ["ساحر لدھیانوی", "جوش ملیح آبادی", "فراق گورکھپوری", "مجاز لکھنوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Sahir's critique of Taj Mahal as monument of workers' exploitation.",
+      "explanation_ur": "تاج محل کو مزدوروں کے استحصال کی یادگار کے طور پر ساحر کی تنقید۔",
+      "hint": "From 'Talkhiyan'",
+      "hint_ur": "'تلخیاں' سے",
+      "timeLimit": 30
+    },
+    {
+      "id": 185,
+      "type": "mcq",
+      "question": "Who wrote 'Kaghazi Hai Pairahan' metaphorical poem?",
+      "question_ur": "استعاراتی نظم 'کاغذی ہے پیرہن' کس نے لکھی؟",
+      "options": {
+        "en": ["Jaun Elia", "Nida Fazli", "Ahmed Faraz", "Parveen Shakir"],
+        "ur": ["جون ایلیا", "ندا فاضلی", "احمد فراز", "پروین شاکر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Jaun Elia's poem about fragile human existence.",
+      "explanation_ur": "انسانی وجود کی نزاکت پر جون ایلیا کی نظم۔",
+      "hint": "From 'Gumaan'",
+      "hint_ur": "'گمان' سے",
+      "timeLimit": 25
+    },
+    {
+      "id": 186,
+      "type": "mcq",
+      "question": "Which poet is known for 'Rahiye Ab Aisi Jagah Chal Kar' couplet?",
+      "question_ur": "'رہیے اب ایسی جگہ چل کر' کس کا شعر ہے؟",
+      "options": {
+        "en": ["Mirza Ghalib", "Mir Taqi Mir", "Momin Khan Momin", "Daagh Dehlvi"],
+        "ur": ["مرزا غالب", "میر تقی میر", "مومن خان مومن", "داغ دہلوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Ghalib's couplet about living away from crowds.",
+      "explanation_ur": "ہجوم سے دور رہنے پر غالب کا شعر۔",
+      "hint": "Philosophical verse",
+      "hint_ur": "فلسفیانہ شعر",
+      "timeLimit": 20
+    },
+    {
+      "id": 187,
+      "type": "mcq",
+      "question": "Who wrote 'Aaj Ki Raat Badi Deewani Hai' romantic song?",
+      "question_ur": "رومانوی گیت 'آج کی رات بڑی دیوانی ہے' کس نے لکھا؟",
+      "options": {
+        "en": ["Majrooh Sultanpuri", "Sahir Ludhianvi", "Javed Akhtar", "Gulzar"],
+        "ur": ["مجروح سلطانپوری", "ساحر لدھیانوی", "جاوید اختر", "گلزار"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Majrooh Sultanpuri's iconic romantic film song.",
+      "explanation_ur": "مجروح سلطانپوری کا علامتی رومانوی فلمی گیت۔",
+      "hint": "From film 'Dil Hi To Hai'",
+      "hint_ur": "فلم 'دل ہی تو ہے' سے",
+      "timeLimit": 25
+    },
+    {
+      "id": 188,
+      "type": "mcq",
+      "question": "Which poet composed 'Main Hoon Don Quixote' philosophical poem?",
+      "question_ur": "فلسفیانہ نظم 'میں ہوں ڈان کئیکسوٹ' کس نے لکھی؟",
+      "options": {
+        "en": ["Jaun Elia", "Nida Fazli", "Ahmed Faraz", "Habib Jalib"],
+        "ur": ["جون ایلیا", "ندا فاضلی", "احمد فراز", "حبیب جالب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Jaun Elia's poem comparing himself to Don Quixote.",
+      "explanation_ur": "جون ایلیا کی اپنے آپ کو ڈان کئیکسوٹ سے تشبیہ دینے والی نظم۔",
+      "hint": "About idealism vs reality",
+      "hint_ur": "مثالیں اور حقیقت کے تضاد پر",
+      "timeLimit": 30
+    },
+    {
+      "id": 189,
+      "type": "mcq",
+      "question": "Who wrote 'Karbala Katha' modern interpretation?",
+      "question_ur": "جدید تشریح 'کربلا کتھا' کس نے لکھی؟",
+      "options": {
+        "en": ["Josh Malihabadi", "Nazeer Akbarabadi", "Mir Anis", "Mirza Dabeer"],
+        "ur": ["جوش ملیح آبادی", "نظیر اکبر آبادی", "میر انیس", "مرزا دبیر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Josh Malihabadi's 20th century interpretation of Karbala.",
+      "explanation_ur": "کربلا کی بیسویں صدی کی تشریح جوش ملیح آبادی نے لکھی۔",
+      "hint": "Modern Marsiya",
+      "hint_ur": "جدید مرثیہ",
+      "timeLimit": 25
+    },
+    {
+      "id": 190,
+      "type": "mcq",
+      "question": "Which poet is known for 'Tasveer-e-Dard' melancholic collection?",
+      "question_ur": "درد بھرا مجموعہ 'تصویر درد' کس کے لیے مشہور ہے؟",
+      "options": {
+        "en": ["Mir Taqi Mir", "Mirza Ghalib", "Daagh Dehlvi", "Momin Khan Momin"],
+        "ur": ["میر تقی میر", "مرزا غالب", "داغ دہلوی", "مومن خان مومن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Mir Taqi Mir's collection of melancholic poetry.",
+      "explanation_ur": "میر تقی میر کا درد بھرا شعری مجموعہ۔",
+      "hint": "18th century collection",
+      "hint_ur": "اٹھارویں صدی کا مجموعہ",
+      "timeLimit": 20
+    },
+    {
+      "id": 191,
+      "type": "mcq",
+      "question": "Who wrote 'Dewar-e-Adab' literary criticism?",
+      "question_ur": "ادبی تنقید 'دیوار ادب' کس نے لکھی؟",
+      "options": {
+        "en": ["Jaun Elia", "Ahmed Faraz", "Faiz Ahmed Faiz", "Habib Jalib"],
+        "ur": ["جون ایلیا", "احمد فراز", "فیض احمد فیض", "حبیب جالب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Jaun Elia's collection of critical essays on literature.",
+      "explanation_ur": "ادب پر جون ایلیا کے تنقیدی مضامین کا مجموعہ۔",
+      "hint": "Published posthumously",
+      "hint_ur": "وفات کے بعد شائع ہوا",
+      "timeLimit": 25
+    },
+    {
+      "id": 192,
+      "type": "mcq",
+      "question": "Which poet composed 'Aaj Ki Raat' romantic ghazal?",
+      "question_ur": "رومانوی غزل 'آج کی رات' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Ahmed Faraz", "Habib Jalib", "Jaun Elia"],
+        "ur": ["فیض احمد فیض", "احمد فراز", "حبیب جالب", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Faiz's romantic ghazal from 'Dast-e-Saba' collection.",
+      "explanation_ur": "'دست صبا' مجموعے سے فیض کی رومانوی غزل۔",
+      "hint": "Opening line: 'Aaj ki raat bahut ranges hai'",
+      "hint_ur": "آغاز: 'آج کی رات بہت رنگین ہے'",
+      "timeLimit": 30
+    },
+    {
+      "id": 193,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Majeed' modern Urdu poetry?",
+      "question_ur": "جدید اردو شاعری 'کلیات مجید' کس نے لکھی؟",
+      "options": {
+        "en": ["Majeed Amjad", "Amjad Islam Amjad", "Ahmed Nadeem Qasmi", "Jon Elia"],
+        "ur": ["مجید امجد", "امجد اسلام امجد", "احمد ندیم قاسمی", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Complete collection of Majeed Amjad's pioneering modern poetry.",
+      "explanation_ur": "جدید اردو نظم کے بانی مجید امجد کی مکمل شاعری۔",
+      "hint": "From Sahiwal",
+      "hint_ur": "ساہیوال سے تعلق",
+      "timeLimit": 25
+    },
+    {
+      "id": 194,
+      "type": "mcq",
+      "question": "Which poet is known for 'Bahaar Aayi' seasonal poem?",
+      "question_ur": "موسمی نظم 'بہار آئی' کس کے لیے مشہور ہے؟",
+      "options": {
+        "en": ["Nazeer Akbarabadi", "Akbar Allahabadi", "Allama Iqbal", "Mirza Ghalib"],
+        "ur": ["نظیر اکبر آبادی", "اکبر الہ آبادی", "علامہ اقبال", "مرزا غالب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Nazeer Akbarabadi's vivid poem about spring season.",
+      "explanation_ur": "بہار کے موسم پر نظیر اکبر آبادی کی رنگین نظم۔",
+      "hint": "18th century people's poet",
+      "hint_ur": "اٹھارویں صدی کے عوامی شاعر",
+      "timeLimit": 20
+    },
+    {
+      "id": 195,
+      "type": "mcq",
+      "question": "Who wrote 'Dastan-e-Ghadar' about 1857 rebellion?",
+      "question_ur": "1857 کی بغاوت پر 'داستان غدر' کس نے لکھی؟",
+      "options": {
+        "en": ["Josh Malihabadi", "Allama Iqbal", "Faiz Ahmed Faiz", "Hafeez Jalandhari"],
+        "ur": ["جوش ملیح آبادی", "علامہ اقبال", "فیض احمد فیض", "حفیظ جالندھری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Josh Malihabadi's historical poem about India's first war of independence.",
+      "explanation_ur": "ہندوستان کی پہلی جنگ آزادی پر جوش ملیح آبادی کی تاریخی نظم۔",
+      "hint": "Written in 1920s",
+      "hint_ur": "1920 کی دہائی میں لکھی گئی",
+      "timeLimit": 30
+    },
+    {
+      "id": 196,
+      "type": "mcq",
+      "question": "Which poet composed 'Main Tere Shehar Mein Aaya Hoon' about urban alienation?",
+      "question_ur": "شہری بیگانگی پر 'میں تیرے شہر میں آیا ہوں' کس نے لکھی؟",
+      "options": {
+        "en": ["Nida Fazli", "Jaun Elia", "Ahmed Faraz", "Parveen Shakir"],
+        "ur": ["ندا فاضلی", "جون ایلیا", "احمد فراز", "پروین شاکر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Nida Fazli's famous poem about alienation in cities.",
+      "explanation_ur": "شہروں میں بیگانگی پر ندا فاضلی کی مشہور نظم۔",
+      "hint": "About Mumbai/ Bombay",
+      "hint_ur": "ممبئی/بمبئی کے بارے میں",
+      "timeLimit": 25
+    },
+    {
+      "id": 197,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Zehra' feminist poetry?",
+      "question_ur": "نسوانی شاعری 'کلیات زہرا' کس نے لکھی؟",
+      "options": {
+        "en": ["Zehra Nigah", "Fahmida Riaz", "Kishwar Naheed", "Parveen Shakir"],
+        "ur": ["زہرا نگاہ", "فہمیدہ ریاض", "کشور ناہید", "پروین شاکر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Complete collection of Zehra Nigah's feminist poetry.",
+      "explanation_ur": "زہرا نگاہ کی نسوانی شاعری کا مکمل مجموعہ۔",
+      "hint": "Known for partition poetry",
+      "hint_ur": "تقسیم پر شاعری کے لیے مشہور",
+      "timeLimit": 20
+    },
+    {
+      "id": 198,
+      "type": "mcq",
+      "question": "Which poet is known for 'Main Tere Shehar Ka Musafir Hoon' about urban loneliness?",
+      "question_ur": "شہری تنہائی پر 'میں تیرے شہر کا مسافر ہوں' کس کے لیے مشہور ہے؟",
+      "options": {
+        "en": ["Nida Fazli", "Jaun Elia", "Ahmed Faraz", "Parveen Shakir"],
+        "ur": ["ندا فاضلی", "جون ایلیا", "احمد فراز", "پروین شاکر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Nida Fazli's poem about being a stranger in cities.",
+      "explanation_ur": "شہروں میں اجنبی ہونے پر ندا فاضلی کی نظم۔",
+      "hint": "About migrant experience",
+      "hint_ur": "مہاجر کے تجربے کے بارے میں",
+      "timeLimit": 25
+    },
+    {
+      "id": 199,
+      "type": "mcq",
+      "question": "Who wrote 'Kulliyat-e-Iftikhar' contemporary poetry?",
+      "question_ur": "معاصر شاعری 'کلیات افتخار' کس نے لکھی؟",
+      "options": {
+        "en": ["Iftikhar Arif", "Munir Niazi", "Nasir Kazmi", "Ahmed Faraz"],
+        "ur": ["افتخار عارف", "منیر نیازی", "ناصر کاظمی", "احمد فراز"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Complete collection of Iftikhar Arif's contemporary Urdu poetry.",
+      "explanation_ur": "افتخار عارف کی معاصر اردو شاعری کا مکمل مجموعہ۔",
+      "hint": "Current head of Pakistan Academy of Letters",
+      "hint_ur": "پاکستان اکادمی ادبیات کے موجودہ سربراہ",
+      "timeLimit": 20
+    },
+    {
+      "id": 200,
+      "type": "mcq",
+      "question": "Which poet composed 'Mor Naach' symbolic poem?",
+      "question_ur": "علامتی نظم 'مور ناچ' کس نے لکھی؟",
+      "questions_ur": "علامتی نظم 'مور ناچ' کس نے لکھی؟",
+      "options": {
+        "en": ["Nida Fazli", "Jaun Elia", "Ahmed Faraz", "Parveen Shakir"],
+        "ur": ["ندا فاضلی", "جون ایلیا", "احمد فراز", "پروین شاکر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Nida Fazli's symbolic poem about life's paradoxes.",
+      "explanation_ur": "زندگی کے تضادات پر ندا فاضلی کی علامتی نظم۔",
+      "hint": "Peacock as symbol",
+      "hint_ur": "مور بطور علامت",
+      "timeLimit": 25
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "Which poet wrote 'Aadmi Aadmi Se Milta Hai'?",
+      "question_ur": "'آدمی آدمی سے ملتا ہے' کس نے لکھی؟",
+      "options": {
+        "en": ["Habib Jalib", "Faiz Ahmed Faiz", "Ahmed Faraz", "Jaun Elia"],
+        "ur": ["حبیب جالب", "فیض احمد فیض", "احمد فراز", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "This socialist poem was written by Habib Jalib.",
+      "explanation_ur": "یہ اشتراکی نظم حبیب جالب نے لکھی۔",
+      "hint": "About human equality",
+      "hint_ur": "انسانی مساوات کے بارے میں",
+      "timeLimit": 20
+    },
+    {
+      "id": 201,
+      "type": "mcq",
+      "question": "Who is known as the 'Poet of the East'?",
+      "question_ur": "'شاعر مشرق' کے نام سے کون جانا جاتا ہے؟",
+      "options": {
+        "en": ["Mirza Ghalib", "Allama Iqbal", "Faiz Ahmed Faiz", "Mir Taqi Mir"],
+        "ur": ["مرزا غالب", "علامہ اقبال", "فیض احمد فیض", "میر تقی میر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Allama Iqbal is referred to as 'Shair-e-Mashriq' (Poet of the East).",
+      "explanation_ur": "علامہ اقبال کو 'شاعر مشرق' کہا جاتا ہے۔",
+      "hint": "He wrote 'Lab Pe Aati Hai Dua'",
+      "hint_ur": "انہوں نے 'لب پہ آتی ہے دعا' لکھی تھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 202,
+      "type": "fill-blanks",
+      "question": "Complete this famous verse by Mirza Ghalib: 'Hazaron khwahishen aisi ke har khwahish pe dam nikle...'",
+      "question_ur": "مرزا غالب کے اس مشہور شعر کو مکمل کریں: 'ہزاروں خواہشیں ایسی کہ ہر خواہش پہ دم نکلے...'",
+      "correctAnswer": "Bahut niklay mere armaan lekin phir bhi kam nikle",
+      "correctAnswer_ur": "بہت نکلے میرے ارماں لیکن پھر بھی کم نکلے",
+      "explanation": "This is one of Ghalib's most famous couplets about unfulfilled desires.",
+      "explanation_ur": "یہ غالب کے مشہور ترین اشعار میں سے ایک ہے جو نا پوری خواہشات کے بارے میں ہے۔",
+      "hint": "The next line starts with 'Bahut'",
+      "hint_ur": "اگلی لائن 'بہت' سے شروع ہوتی ہے",
+      "timeLimit": 45
+    },
+    {
+      "id": 203,
+      "type": "mcq",
+      "question": "Which poet is known as 'Khuda-e-Sukhan' (God of Poetry)?",
+      "question_ur": "'خداے سخن' کے نام سے کون جانا جاتا ہے؟",
+      "options": {
+        "en": ["Mir Taqi Mir", "Mirza Ghalib", "Josh Malihabadi", "Firaq Gorakhpuri"],
+        "ur": ["میر تقی میر", "مرزا غالب", "جوش ملیح آبادی", "فراق گورکھپوری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Mir Taqi Mir is honored with the title 'Khuda-e-Sukhan' for his contributions to Urdu poetry.",
+      "explanation_ur": "میر تقی میر کو اردو شاعری میں ان کے نمایاں کردار کی وجہ سے 'خداے سخن' کا لقب دیا جاتا ہے۔",
+      "hint": "He lived during the 18th century",
+      "hint_ur": "وہ اٹھارویں صدی میں رہتے تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 204,
+      "type": "fill-blanks",
+      "question": "Complete this verse by Allama Iqbal: 'Sitaaron se aage jahaan aur bhi hain...'",
+      "question_ur": "علامہ اقبال کے اس شعر کو مکمل کریں: 'ستاروں سے آگے جہاں اور بھی ہیں...'",
+      "correctAnswer": "Abhi ishq ke imtihaan aur bhi hain",
+      "correctAnswer_ur": "ابھی عشق کے امتحاں اور بھی ہیں",
+      "explanation": "This verse from Iqbal speaks about the endless challenges of love.",
+      "explanation_ur": "اقبال کا یہ شعر عشق کے لامتناہی امتحانات کے بارے میں ہے۔",
+      "hint": "The next line mentions 'ishq' (love)",
+      "hint_ur": "اگلی لائن میں 'عشق' کا ذکر ہے",
+      "timeLimit": 40
+    },
+    {
+      "id": 205,
+      "type": "mcq",
+      "question": "Who wrote the famous ghazal 'Ranjish hi sahi'?",
+      "question_ur": "مشہور غزل 'رنجش ہی سہی' کس نے لکھی؟",
+      "options": {
+        "en": ["Ahmed Faraz", "Faiz Ahmed Faiz", "Sahir Ludhianvi", "Jaun Elia"],
+        "ur": ["احمد فراز", "فیض احمد فیض", "ساحر لدھیانوی", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Ahmed Faraz wrote this iconic ghazal about love and separation.",
+      "explanation_ur": "احمد فراز نے محبت اور جدائی کے بارے میں یہ مشہور غزل لکھی۔",
+      "hint": "The first line is 'Ranjish hi sahi dil hi dukhane ke liye aa'",
+      "hint_ur": "پہلی لائن ہے 'رنجش ہی سہی دل ہی دکھانے کے لیے آ'",
+      "timeLimit": 30
+    },
+    {
+      "id": 206,
+      "type": "fill-blanks",
+      "question": "Complete this verse by Faiz Ahmed Faiz: 'Gulon mein rang bhare baad-e-naubahaar chale...'",
+      "question_ur": "فیض احمد فیض کے اس شعر کو مکمل کریں: 'گلوں میں رنگ بھرے بادِ نو بہار چلے...'",
+      "correctAnswer": "Chale bhi ao ke gulshan ka karobar chale",
+      "correctAnswer_ur": "چلے بھی آؤ کہ گلشن کا کاروبار چلے",
+      "explanation": "This famous verse by Faiz is about the transient nature of life and beauty.",
+      "explanation_ur": "فیض کا یہ مشہور شعر زندگی اور حسن کی عارضی نوعیت کے بارے میں ہے۔",
+      "hint": "The next line begins with 'Chale'",
+      "hint_ur": "اگلی لائن 'چلے' سے شروع ہوتی ہے",
+      "timeLimit": 45
+    },
+    {
+      "id": 207,
+      "type": "mcq",
+      "question": "Which poet is known for his revolutionary poetry and wrote 'Bol ke lab azaad hain tere'?",
+      "question_ur": "کون سا شاعر انقلابی شاعری کے لیے مشہور ہے جس نے 'بول کہ لب آزاد ہیں تیرے' لکھا؟",
+      "options": {
+        "en": ["Habib Jalib", "Faiz Ahmed Faiz", "Ahmed Faraz", "Muneer Niazi"],
+        "ur": ["حبیب جالب", "فیض احمد فیض", "احمد فراز", "منیر نیازی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Habib Jalib was known for his revolutionary poetry against oppression.",
+      "explanation_ur": "حبیب جالب ظلم کے خلاف اپنی انقلابی شاعری کے لیے مشہور تھے۔",
+      "hint": "He was a political activist",
+      "hint_ur": "وہ ایک سیاسی کارکن تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 208,
+      "type": "fill-blanks",
+      "question": "Complete this verse by Mir Taqi Mir: 'Dekha jo tujhko to ye haal hua...'",
+      "question_ur": "میر تقی میر کے اس شعر کو مکمل کریں: 'دیکھا جو تجھکو تو یہ حال ہوا...'",
+      "correctAnswer": "Jaise ki phool pe ho bahaar ka mala hua",
+      "correctAnswer_ur": "جیسے کہ پھول پہ ہو بہار کا ملا ہوا",
+      "explanation": "This verse by Mir describes the overwhelming effect of seeing the beloved.",
+      "explanation_ur": "میر کا یہ شعر محبوب کو دیکھنے کے گہرے اثر کو بیان کرتا ہے۔",
+      "hint": "The comparison is with a flower in spring",
+      "hint_ur": "موازنہ بہار میں کھلے پھول سے ہے",
+      "timeLimit": 40
+    },
+    {
+      "id": 209,
+      "type": "mcq",
+      "question": "Who wrote the famous nazm 'Subh-e-Azadi' (Morning of Freedom)?",
+      "question_ur": "مشہور نظم 'صبح آزادی' کس نے لکھی؟",
+      "options": {
+        "en": ["Faiz Ahmed Faiz", "Allama Iqbal", "Josh Malihabadi", "Sahir Ludhianvi"],
+        "ur": ["فیض احمد فیض", "علامہ اقبال", "جوش ملیح آبادی", "ساحر لدھیانوی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Faiz wrote 'Subh-e-Azadi' about the bittersweet reality of Pakistan's independence.",
+      "explanation_ur": "فیض نے 'صبح آزادی' پاکستان کی آزادی کے کڑوی میٹھی حقیقت کے بارے میں لکھی۔",
+      "hint": "The first line is 'Ye dagh dagh ujala'",
+      "hint_ur": "پہلی لائن ہے 'یہ داغ داغ اجالا'",
+      "timeLimit": 30
+    },
+    {
+      "id": 210,
+      "type": "fill-blanks",
+      "question": "Complete this verse by Allama Iqbal: 'Khudi ko kar buland itna ke har taqdeer se pehle...'",
+      "question_ur": "علامہ اقبال کے اس شعر کو مکمل کریں: 'خودی کو کر بلند اتنا کہ ہر تقدیر سے پہلے...'",
+      "correctAnswer": "Khuda bande se khud puche bata teri raza kya hai",
+      "correctAnswer_ur": "خدا بندے سے خود پوچھے بتا تیری رضا کیا ہے",
+      "explanation": "This verse from Iqbal's philosophy emphasizes self-realization.",
+      "explanation_ur": "اقبال کا یہ شعر خود شناسی پر زور دیتا ہے۔",
+      "hint": "The completion mentions 'Khuda' asking the individual",
+      "hint_ur": "تکمیل میں 'خدا' کا فرد سے پوچھنا شامل ہے",
+      "timeLimit": 45
+    },
+    {
+      "id": 211,
+      "type": "mcq",
+      "question": "Which poet was known as 'Shair-e-Inquilab' (Poet of Revolution)?",
+      "question_ur": "'شاعر انقلاب' کے نام سے کون جانا جاتا تھا؟",
+      "options": {
+        "en": ["Josh Malihabadi", "Faiz Ahmed Faiz", "Habib Jalib", "Jaun Elia"],
+        "ur": ["جوش ملیح آبادی", "فیض احمد فیض", "حبیب جالب", "جون ایلیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Josh Malihabadi earned this title for his revolutionary poetry during independence movement.",
+      "explanation_ur": "جوش ملیح آبادی کو آزادی کی تحریک کے دوران ان کی انقلابی شاعری کی وجہ سے یہ لقب ملا۔",
+      "hint": "He was born in Malihabad",
+      "hint_ur": "ان کی پیدائش ملیح آباد میں ہوئی تھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 212,
+      "type": "fill-blanks",
+      "question": "Complete this verse by Ahmed Faraz: 'Ab ke hum bichhde to shayad kabhi khwabon mein milen...'",
+      "question_ur": "احمد فراز کے اس شعر کو مکمل کریں: 'اب کے ہم بچھڑے تو شاید کبھی خوابوں میں ملیں...'",
+      "correctAnswer": "Jis tarah sookhe hue phool kitabon mein milen",
+      "correctAnswer_ur": "جس طرح سوکھے ہوئے پھول کتابوں میں ملیں",
+      "explanation": "This melancholic verse by Faraz compares separation to dried flowers in books.",
+      "explanation_ur": "فراز کا یہ غمگین شعر جدائی کا موازنہ کتابوں میں سوکھے پھولوں سے کرتا ہے۔",
+      "hint": "The comparison is with dried flowers",
+      "hint_ur": "موازنہ سوکھے ہوئے پھولوں سے ہے",
+      "timeLimit": 40
+    },
+    {
+      "id": 213,
+      "type": "mcq",
+      "question": "Who wrote the famous collection 'Bazeecha-e-Atfal'?",
+      "question_ur": "مشہور مجموعہ 'بازیچہ اطفال' کس نے لکھا؟",
+      "options": {
+        "en": ["Mirza Ghalib", "Allama Iqbal", "Nazeer Akbarabadi", "Daagh Dehlvi"],
+        "ur": ["مرزا غالب", "علامہ اقبال", "نظیر اکبر آبادی", "داغ دہلوی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Allama Iqbal wrote 'Bazeecha-e-Atfal' (Children's Playground) about the state of the Muslim world.",
+      "explanation_ur": "علامہ اقبال نے 'بازیچہ اطفال' مسلم دنیا کی حالت کے بارے میں لکھا۔",
+      "hint": "It's part of his 'Baal-e-Jibril' collection",
+      "hint_ur": "یہ ان کے مجموعہ 'بال جبریل' کا حصہ ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 214,
+      "type": "fill-blanks",
+      "question": "Complete this verse by Mirza Ghalib: 'Ishq par zor nahin hai ye wo aatish Ghalib...'",
+      "question_ur": "مرزا غالب کے اس شعر کو مکمل کریں: 'عشق پر زور نہیں ہے یہ وہ آتش غالب...'",
+      "correctAnswer": "Ke lagaye na lage aur bujhaye na bane",
+      "correctAnswer_ur": "کہ لگائے نہ لگے اور بجھائے نہ بنے",
+      "explanation": "Ghalib describes love as an uncontrollable fire in this couplet.",
+      "explanation_ur": "غالب اس شعر میں عشق کو ایک ناقابل کنٹرول آتش کے طور پر بیان کرتے ہیں۔",
+      "hint": "The completion talks about not being able to ignite or extinguish it",
+      "hint_ur": "تکمیل میں اسے جلانے یا بجھانے کے بارے میں بات کی گئی ہے",
+      "timeLimit": 45
+    },
+    {
+      "id": 215,
+      "type": "mcq",
+      "question": "Which poet was the mentor of Mirza Ghalib?",
+      "question_ur": "مرزا غالب کے استاد کون تھے؟",
+      "options": {
+        "en": ["Mir Taqi Mir", "Zauq", "Momin Khan Momin", "Sauda"],
+        "ur": ["میر تقی میر", "ذوق", "مومن خان مومن", "سودا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Sheikh Ibrahim Zauq was Ghalib's mentor and the court poet of Bahadur Shah Zafar.",
+      "explanation_ur": "شیخ ابراہیم ذوق غالب کے استاد اور بہادر شاہ ظفر کے درباری شاعر تھے۔",
+      "hint": "He was Bahadur Shah Zafar's ustad",
+      "hint_ur": "وہ بہادر شاہ ظفر کے استاد تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 216,
+      "type": "fill-blanks",
+      "question": "Complete this verse by Faiz Ahmed Faiz: 'Mujh se pehli si mohabbat mere mehboob na maang...'",
+      "question_ur": "فیض احمد فیض کے اس شعر کو مکمل کریں: 'مجھ سے پہلی سی محبت میرے محبوب نہ مانگ...'",
+      "correctAnswer": "Main ne samjha tha ke tu hai to darakhshaan hai hayaat",
+      "correctAnswer_ur": "میں نے سمجھا تھا کہ تو ہے تو درخشاں ہے حیات",
+      "explanation": "This famous ghazal by Faiz expresses the changing nature of love over time.",
+      "explanation_ur": "فیض کی یہ مشہور غزل وقت کے ساتھ محبت کی نوعیت میں تبدیلی کو بیان کرتی ہے۔",
+      "hint": "The next line begins with 'Main ne samjha tha'",
+      "hint_ur": "اگلی لائن 'میں نے سمجھا تھا' سے شروع ہوتی ہے",
+      "timeLimit": 40
+    },
+    {
+      "id": 217,
+      "type": "mcq",
+      "question": "Who wrote the famous 'Marsiya' (elegy) about Karbala?",
+      "question_ur": "کربلا کے بارے میں مشہور 'مرثیہ' کس نے لکھا؟",
+      "options": {
+        "en": ["Mir Anees", "Mirza Dabeer", "Josh Malihabadi", "Both 1 & 2"],
+        "ur": ["میر انیس", "مرزا دبیر", "جوش ملیح آبادی", "1 اور 2 دونوں"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Both Mir Anees and Mirza Dabeer are considered masters of Marsiya writing in Urdu.",
+      "explanation_ur": "میر انیس اور مرزا دبیر دونوں کو اردو میں مرثیہ نگاری کے استاد مانا جاتا ہے۔",
+      "hint": "They specialized in this poetic form",
+      "hint_ur": "وہ اس صنف شاعری میں مہارت رکھتے تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 218,
+      "type": "fill-blanks",
+      "question": "Complete this verse by Allama Iqbal: 'Tu shaheen hai parwaz hai kaam tera...'",
+      "question_ur": "علامہ اقبال کے اس شعر کو مکمل کریں: 'تو شاہین ہے پرواز ہے کام تیرا...'",
+      "correctAnswer": "Tere saamne aasmaan aur bhi hain",
+      "correctAnswer_ur": "تیرے سامنے آسمان اور بھی ہیں",
+      "explanation": "Iqbal uses the metaphor of a falcon to inspire ambition and higher goals.",
+      "explanation_ur": "اقبال نے شاہین کے استعارے سے بلند ہمتی اور اونچے مقاصد کی ترغیب دی ہے۔",
+      "hint": "The completion mentions more skies ahead",
+      "hint_ur": "تکمیل میں آگے مزید آسمانوں کا ذکر ہے",
+      "timeLimit": 35
+    },
+    {
+      "id": 219,
+      "type": "mcq",
+      "question": "Which poet wrote under the pen name 'Asad'?",
+      "question_ur": "کس شاعر نے 'اسد' تخلص استعمال کیا؟",
+      "options": {
+        "en": ["Mirza Ghalib", "Allama Iqbal", "Daagh Dehlvi", "Firaq Gorakhpuri"],
+        "ur": ["مرزا غالب", "علامہ اقبال", "داغ دہلوی", "فراق گورکھپوری"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Mirza Asadullah Khan Ghalib used 'Asad' as his pen name before adopting 'Ghalib'.",
+      "explanation_ur": "مرزا اسد اللہ خان غالب نے 'غالب' اپنانے سے پہلے 'اسد' تخلص استعمال کیا۔",
+      "hint": "His later takhallus means 'dominant'",
+      "hint_ur": "ان کا بعد کا تخلص 'غالب' کے معنی 'حاکم' کے ہیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 220,
+      "type": "fill-blanks",
+      "question": "Complete this verse by Jaun Elia: 'Ham ne jo tareekh likhi wo zindagi mitaye gi...'",
+      "question_ur": "جون ایلیا کے اس شعر کو مکمل کریں: 'ہم نے جو تاریخ لکھی وہ زندگی مٹائے گی...'",
+      "correctAnswer": "Ham ne jo geet sunaye wo zindagi sunaye gi",
+      "correctAnswer_ur": "ہم نے جو گیت سنائے وہ زندگی سنائے گی",
+      "explanation": "Jaun Elia's verse about how life ultimately judges our creations.",
+      "explanation_ur": "جون ایلیا کا یہ شعر کہ زندگی آخرکار ہماری تخلیقات کا فیصلہ کرے گی۔",
+      "hint": "The completion mentions 'geet' (songs)",
+      "hint_ur": "تکمیل میں 'گیت' کا ذکر ہے",
+      "timeLimit": 40
+    }
+  ]
+}

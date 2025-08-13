@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - QuizVerse</title>
+  <meta name="description" content="QuizVerse privacy policy explaining how we handle your data.">
+
+  <!-- Tailwind CSS -->
+    <link href="dist/style.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="src/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+  
+  <script>
+    // Simple theme switcher
+    document.addEventListener('DOMContentLoaded', function() {
+      const themeToggle = document.getElementById('theme-toggle');
+      const html = document.documentElement;
+      
+      // Check for saved theme preference
+      const savedTheme = localStorage.getItem('theme') || 'light';
+      html.classList.toggle('dark', savedTheme === 'dark');
+      
+      themeToggle.addEventListener('click', () => {
+        html.classList.toggle('dark');
+        const theme = html.classList.contains('dark') ? 'dark' : 'light';
+        localStorage.setItem('theme', theme);
+      });
+      
+      // Accordion functionality
+      document.querySelectorAll('.accordion-button').forEach(button => {
+        button.addEventListener('click', () => {
+          const accordionContent = button.nextElementSibling;
+          button.classList.toggle('active');
+          accordionContent.classList.toggle('hidden');
+        });
+      });
+    });
+  </script>
+  
+  <style>
+    .accordion-content {
+      transition: max-height 0.3s ease-out;
+    }
+    .accordion-button.active .chevron {
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+<body class="font-[Poppins] bg-bgLight text-textDark dark:bg-bgDark dark:text-textLight transition-colors duration-300 min-h-screen">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-brand text-white shadow-md">
+    <nav class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <i class="fas fa-brain text-2xl text-accent"></i>
+        <a href="index.html" class="text-xl font-bold">QuizVerse</a>
+      </div>
+      <div class="flex items-center space-x-4">
+        <button id="theme-toggle" class="p-2 rounded-full hover:bg-secondary">
+          <i class="fas fa-moon text-accent "></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container mx-auto px-4 py-12">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12">
+        <h1 class="text-4xl font-bold mb-4 pt-4">Privacy Policy</h1>
+        <p class="text-lg text-gray-600 dark:text-gray-300">Last updated: August 2025</p>
+      </div>
+      
+      <div class="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 md:p-8 mb-8">
+        <p class="mb-6">At QuizVerse, we take your privacy seriously. This policy explains what data we collect, how we use it, and your rights regarding your information.</p>
+        
+        <div class="space-y-6">
+          <!-- Data Collection Section -->
+          <div class="border-b border-gray-200 dark:border-gray-700 pb-6">
+            <button class="accordion-button flex justify-between items-center w-full text-left font-bold text-lg pb-2">
+              <span>What Data We Collect</span>
+              <i class="fas fa-chevron-down chevron transition-transform duration-200"></i>
+            </button>
+            <div class="accordion-content hidden pt-4">
+              <p class="mb-4">We collect minimal data to provide and improve our services:</p>
+              <ul class="list-disc pl-6 space-y-2">
+                <li><strong>Basic profile information</strong> - Only if you choose to create a profile (username, country, avatar)</li>
+                <li><strong>User progress</strong> - Quiz scores, completed challenges, and earned badges</li>
+                <li><strong>Usage data</strong> - Anonymous analytics about feature usage and quiz performance</li>
+                <li><strong>Browser information</strong> - Device type, browser version for compatibility purposes</li>
+              </ul>
+              <p class="mt-4">We do not collect personal identifiers like real names, addresses, or payment information.</p>
+            </div>
+          </div>
+          
+          <!-- Data Storage Section -->
+          <div class="border-b border-gray-200 dark:border-gray-700 pb-6">
+            <button class="accordion-button flex justify-between items-center w-full text-left font-bold text-lg pb-2">
+              <span>How Data Is Stored</span>
+              <i class="fas fa-chevron-down chevron transition-transform duration-200"></i>
+            </button>
+            <div class="accordion-content hidden pt-4">
+              <p class="mb-4">All user data is stored locally in your browser:</p>
+              <ul class="list-disc pl-6 space-y-2">
+                <li><strong>LocalStorage</strong> - For user preferences and progress</li>
+                <li><strong>IndexedDB</strong> - For larger datasets like quiz history</li>
+                <li><strong>SessionStorage</strong> - For temporary data during your visit</li>
+              </ul>
+              <p class="mt-4">We do not use cloud storage or servers to store your personal data. Clearing your browser data will reset your progress.</p>
+            </div>
+          </div>
+          
+          <!-- Tracking Section -->
+          <div class="border-b border-gray-200 dark:border-gray-700 pb-6">
+            <button class="accordion-button flex justify-between items-center w-full text-left font-bold text-lg pb-2">
+              <span>Tracking & Analytics</span>
+              <i class="fas fa-chevron-down chevron transition-transform duration-200"></i>
+            </button>
+            <div class="accordion-content hidden pt-4">
+              <p class="mb-4">We respect your privacy and avoid invasive tracking:</p>
+              <ul class="list-disc pl-6 space-y-2">
+                <li><strong>No third-party trackers</strong> - We don't use Google Analytics, Facebook Pixel, or similar services</li>
+                <li><strong>Anonymous usage data</strong> - Optional aggregated statistics about feature usage (toggle below)</li>
+                <li><strong>Cookie usage</strong> - Only for essential functions like maintaining login sessions</li>
+              </ul>
+              <div class="mt-4 p-4 bg-gray-100 dark:bg-gray-700 rounded-lg">
+                <div class="flex items-center justify-between">
+                  <span>Anonymous Usage Analytics</span>
+                  <label class="relative inline-flex items-center cursor-pointer">
+                    <input type="checkbox" value="" class="sr-only peer" id="analytics-toggle">
+                    <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer dark:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-500 peer-checked:bg-brand"></div>
+                  </label>
+                </div>
+                <p class="text-sm mt-2 text-gray-600 dark:text-gray-300">Help us improve by sharing anonymous usage data. You can change this anytime.</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Cookies Section -->
+          <div class="border-b border-gray-200 dark:border-gray-700 pb-6">
+            <button class="accordion-button flex justify-between items-center w-full text-left font-bold text-lg pb-2">
+              <span>Cookies Policy</span>
+              <i class="fas fa-chevron-down chevron transition-transform duration-200"></i>
+            </button>
+            <div class="accordion-content hidden pt-4">
+              <p class="mb-4">We use cookies responsibly:</p>
+              <ul class="list-disc pl-6 space-y-2">
+                <li><strong>Essential cookies</strong> - Required for basic functionality like maintaining your streak</li>
+                <li><strong>Preference cookies</strong> - Remember your theme choice and settings</li>
+                <li><strong>No tracking cookies</strong> - We don't use cookies for advertising or profiling</li>
+              </ul>
+              <p class="mt-4">You can manage cookie preferences on our <a href="cookies.html" class="text-brand dark:text-secondary hover:underline">Cookies Policy</a> page.</p>
+            </div>
+          </div>
+          
+          <!-- Children's Privacy -->
+          <div class="border-b border-gray-200 dark:border-gray-700 pb-6">
+            <button class="accordion-button flex justify-between items-center w-full text-left font-bold text-lg pb-2">
+              <span>Children's Privacy</span>
+              <i class="fas fa-chevron-down chevron transition-transform duration-200"></i>
+            </button>
+            <div class="accordion-content hidden pt-4">
+              <p class="mb-4">QuizVerse is COPPA-compliant and safe for children:</p>
+              <ul class="list-disc pl-6 space-y-2">
+                <li><strong>No personal data collection</strong> from children under 13</li>
+                <li><strong>Parental controls</strong> - Parents can reset local data by clearing browser storage</li>
+                <li><strong>Educational focus</strong> - All content is appropriate for young learners</li>
+                <li><strong>No targeted advertising</strong> - We don't serve ads or track children</li>
+              </ul>
+              <p class="mt-4">If you're a parent and have concerns, please contact us at <a href="mailto:privacy@quizverse.com" class="text-brand dark:text-secondary hover:underline">privacy@quizverse.com</a>.</p>
+            </div>
+          </div>
+          
+          <!-- Changes Section -->
+          <div>
+            <button class="accordion-button flex justify-between items-center w-full text-left font-bold text-lg pb-2">
+              <span>Policy Changes</span>
+              <i class="fas fa-chevron-down chevron transition-transform duration-200"></i>
+            </button>
+            <div class="accordion-content hidden pt-4">
+              <p>We may update this policy occasionally. Significant changes will be announced on our website. Your continued use of QuizVerse after changes constitutes acceptance of the updated policy.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 md:p-8">
+        <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+        <p>If you have questions about this privacy policy or your data:</p>
+        <ul class="list-disc pl-6 mt-2 space-y-1">
+          <li>Email: <a href="mailto:privacy@quizverse.com" class="text-brand dark:text-secondary hover:underline">privacy@quizverse.com</a></li>
+          <li>Mail: QuizVerse Privacy, 123 Knowledge St, Lahore, Pakistan</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white pt-8 pb-6 mt-12">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="flex items-center space-x-2 mb-4 md:mb-0">
+          <i class="fas fa-brain text-xl text-accent"></i>
+          <span class="text-lg font-bold">QuizVerse</span>
+        </div>
+        <div class="flex space-x-6">
+          <a href="privacy.html" class="hover:text-accent transition">Privacy</a>
+          <a href="terms.html" class="hover:text-accent transition">Terms</a>
+          <a href="cookies.html" class="hover:text-accent transition">Cookies</a>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-6 pt-6 text-center text-sm text-gray-400">
+        © 2025 QuizVerse. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="fixed bottom-6 right-6 bg-brand text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center opacity-0 invisible transition-all duration-300">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script>
+    // Back to top button
+    const backToTopButton = document.getElementById('back-to-top');
+    
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        backToTopButton.classList.remove('opacity-0', 'invisible');
+        backToTopButton.classList.add('opacity-100', 'visible');
+      } else {
+        backToTopButton.classList.add('opacity-0', 'invisible');
+        backToTopButton.classList.remove('opacity-100', 'visible');
+      }
+    });
+    
+    backToTopButton.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    
+    // Initialize analytics toggle from localStorage
+    const analyticsToggle = document.getElementById('analytics-toggle');
+    const savedAnalyticsPref = localStorage.getItem('analytics-pref') || 'true';
+    analyticsToggle.checked = savedAnalyticsPref === 'true';
+    
+    analyticsToggle.addEventListener('change', () => {
+      localStorage.setItem('analytics-pref', analyticsToggle.checked.toString());
+    });
+  </script>
+      <script src="src/js/analytics.js"></script>
+
+</body>
+</html>

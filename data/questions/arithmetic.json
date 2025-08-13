@@ -1,0 +1,1564 @@
+{
+  "meta": {
+    "category": "Arithmetic",
+    "category_ur": "حساب",
+    "description": "Basic arithmetic operations including addition, subtraction, multiplication and division",
+    "description_ur": "بنیادی حسابی عمل بشمول جمع، تفریق، ضرب اور تقسیم",
+    "difficulty": "easy",
+    "image": "arithmetic.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What is 2 + 2?",
+      "question_ur": "2 جمع 2 کیا ہے؟",
+      "options": {
+        "en": ["3", "4", "5", "6"],
+        "ur": ["3", "4", "5", "6"]
+      },
+      "correctAnswer": 1,
+      "explanation": "2 + 2 equals 4",
+      "explanation_ur": "2 جمع 2 برابر ہے 4",
+      "hint": "Count on your fingers",
+      "hint_ur": "اپنی انگلیوں پر گنتی کریں",
+      "timeLimit": 10
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "What is 5 - 3?",
+      "question_ur": "5 منفی 3 کیا ہے؟",
+      "options": {
+        "en": ["1", "2", "3", "4"],
+        "ur": ["1", "2", "3", "4"]
+      },
+      "correctAnswer": 1,
+      "explanation": "5 - 3 equals 2",
+      "explanation_ur": "5 منفی 3 برابر ہے 2",
+      "hint": "Count backwards from 5",
+      "hint_ur": "5 سے پیچھے کی طرف گنتی کریں",
+      "timeLimit": 10
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "What is 3 × 4?",
+      "question_ur": "3 ضرب 4 کیا ہے؟",
+      "options": {
+        "en": ["7", "12", "9", "15"],
+        "ur": ["7", "12", "9", "15"]
+      },
+      "correctAnswer": 1,
+      "explanation": "3 multiplied by 4 equals 12",
+      "explanation_ur": "3 ضرب 4 برابر ہے 12",
+      "hint": "Think of 3 groups of 4",
+      "hint_ur": "4 کے 3 گروپس کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "What is 10 ÷ 2?",
+      "question_ur": "10 تقسیم 2 کیا ہے؟",
+      "options": {
+        "en": ["3", "5", "4", "6"],
+        "ur": ["3", "5", "4", "6"]
+      },
+      "correctAnswer": 1,
+      "explanation": "10 divided by 2 equals 5",
+      "explanation_ur": "10 تقسیم 2 برابر ہے 5",
+      "hint": "How many 2s make 10?",
+      "hint_ur": "10 بنانے کے لیے کتنے 2 درکار ہیں؟",
+      "timeLimit": 15
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "question": "7 + 8 equals 15",
+      "question_ur": "7 جمع 8 برابر ہے 15",
+      "correctAnswer": true,
+      "explanation": "7 plus 8 is indeed 15",
+      "explanation_ur": "7 جمع 8 واقعی 15 ہے",
+      "hint": "Break it into 7+7+1",
+      "hint_ur": "اسے 7+7+1 میں توڑیں",
+      "timeLimit": 10
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "What is 9 - 5?",
+      "question_ur": "9 منفی 5 کیا ہے؟",
+      "options": {
+        "en": ["3", "4", "5", "6"],
+        "ur": ["3", "4", "5", "6"]
+      },
+      "correctAnswer": 1,
+      "explanation": "9 - 5 equals 4",
+      "explanation_ur": "9 منفی 5 برابر ہے 4",
+      "hint": "Count backwards from 9",
+      "hint_ur": "9 سے پیچھے کی طرف گنتی کریں",
+      "timeLimit": 10
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "What is 6 × 3?",
+      "question_ur": "6 ضرب 3 کیا ہے؟",
+      "options": {
+        "en": ["9", "12", "18", "15"],
+        "ur": ["9", "12", "18", "15"]
+      },
+      "correctAnswer": 2,
+      "explanation": "6 multiplied by 3 equals 18",
+      "explanation_ur": "6 ضرب 3 برابر ہے 18",
+      "hint": "Think of 6 groups of 3",
+      "hint_ur": "3 کے 6 گروپس کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "What is 20 ÷ 5?",
+      "question_ur": "20 تقسیم 5 کیا ہے؟",
+      "options": {
+        "en": ["3", "4", "5", "6"],
+        "ur": ["3", "4", "5", "6"]
+      },
+      "correctAnswer": 1,
+      "explanation": "20 divided by 5 equals 4",
+      "explanation_ur": "20 تقسیم 5 برابر ہے 4",
+      "hint": "How many 5s make 20?",
+      "hint_ur": "20 بنانے کے لیے کتنے 5 درکار ہیں؟",
+      "timeLimit": 15
+    },
+    {
+      "id": 9,
+      "type": "true-false",
+      "question": "12 - 7 equals 6",
+      "question_ur": "12 منفی 7 برابر ہے 6",
+      "correctAnswer": false,
+      "explanation": "12 minus 7 is actually 5",
+      "explanation_ur": "12 منفی 7 دراصل 5 ہے",
+      "hint": "Count backwards from 12",
+      "hint_ur": "12 سے پیچھے کی طرف گنتی کریں",
+      "timeLimit": 10
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "What is 15 + 7?",
+      "question_ur": "15 جمع 7 کیا ہے؟",
+      "options": {
+        "en": ["21", "22", "23", "24"],
+        "ur": ["21", "22", "23", "24"]
+      },
+      "correctAnswer": 1,
+      "explanation": "15 + 7 equals 22",
+      "explanation_ur": "15 جمع 7 برابر ہے 22",
+      "hint": "Break it into 15+5+2",
+      "hint_ur": "اسے 15+5+2 میں توڑیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "What is 11 - 9?",
+      "question_ur": "11 منفی 9 کیا ہے؟",
+      "options": {
+        "en": ["1", "2", "3", "4"],
+        "ur": ["1", "2", "3", "4"]
+      },
+      "correctAnswer": 1,
+      "explanation": "11 - 9 equals 2",
+      "explanation_ur": "11 منفی 9 برابر ہے 2",
+      "hint": "Count backwards from 11",
+      "hint_ur": "11 سے پیچھے کی طرف گنتی کریں",
+      "timeLimit": 10
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "What is 4 × 5?",
+      "question_ur": "4 ضرب 5 کیا ہے؟",
+      "options": {
+        "en": ["9", "16", "20", "25"],
+        "ur": ["9", "16", "20", "25"]
+      },
+      "correctAnswer": 2,
+      "explanation": "4 multiplied by 5 equals 20",
+      "explanation_ur": "4 ضرب 5 برابر ہے 20",
+      "hint": "Think of 4 groups of 5",
+      "hint_ur": "5 کے 4 گروپس کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "What is 18 ÷ 3?",
+      "question_ur": "18 تقسیم 3 کیا ہے؟",
+      "options": {
+        "en": ["5", "6", "7", "8"],
+        "ur": ["5", "6", "7", "8"]
+      },
+      "correctAnswer": 1,
+      "explanation": "18 divided by 3 equals 6",
+      "explanation_ur": "18 تقسیم 3 برابر ہے 6",
+      "hint": "How many 3s make 18?",
+      "hint_ur": "18 بنانے کے لیے کتنے 3 درکار ہیں؟",
+      "timeLimit": 15
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "question": "9 + 6 equals 16",
+      "question_ur": "9 جمع 6 برابر ہے 16",
+      "correctAnswer": false,
+      "explanation": "9 plus 6 is actually 15",
+      "explanation_ur": "9 جمع 6 دراصل 15 ہے",
+      "hint": "Break it into 10+5",
+      "hint_ur": "اسے 10+5 میں توڑیں",
+      "timeLimit": 10
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "What is 25 - 13?",
+      "question_ur": "25 منفی 13 کیا ہے؟",
+      "options": {
+        "en": ["10", "11", "12", "13"],
+        "ur": ["10", "11", "12", "13"]
+      },
+      "correctAnswer": 2,
+      "explanation": "25 - 13 equals 12",
+      "explanation_ur": "25 منفی 13 برابر ہے 12",
+      "hint": "Subtract 10 then subtract 3",
+      "hint_ur": "پہلے 10 منفی کریں پھر 3 منفی کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "What is 7 × 2?",
+      "question_ur": "7 ضرب 2 کیا ہے؟",
+      "options": {
+        "en": ["12", "14", "16", "18"],
+        "ur": ["12", "14", "16", "18"]
+      },
+      "correctAnswer": 1,
+      "explanation": "7 multiplied by 2 equals 14",
+      "explanation_ur": "7 ضرب 2 برابر ہے 14",
+      "hint": "Think of 7 groups of 2",
+      "hint_ur": "2 کے 7 گروپس کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "What is 16 ÷ 4?",
+      "question_ur": "16 تقسیم 4 کیا ہے؟",
+      "options": {
+        "en": ["3", "4", "5", "6"],
+        "ur": ["3", "4", "5", "6"]
+      },
+      "correctAnswer": 1,
+      "explanation": "16 divided by 4 equals 4",
+      "explanation_ur": "16 تقسیم 4 برابر ہے 4",
+      "hint": "How many 4s make 16?",
+      "hint_ur": "16 بنانے کے لیے کتنے 4 درکار ہیں؟",
+      "timeLimit": 15
+    },
+    {
+      "id": 18,
+      "type": "true-false",
+      "question": "8 + 9 equals 17",
+      "question_ur": "8 جمع 9 برابر ہے 17",
+      "correctAnswer": true,
+      "explanation": "8 plus 9 is indeed 17",
+      "explanation_ur": "8 جمع 9 واقعی 17 ہے",
+      "hint": "Break it into 8+8+1",
+      "hint_ur": "اسے 8+8+1 میں توڑیں",
+      "timeLimit": 10
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "What is 30 - 18?",
+      "question_ur": "30 منفی 18 کیا ہے؟",
+      "options": {
+        "en": ["10", "11", "12", "13"],
+        "ur": ["10", "11", "12", "13"]
+      },
+      "correctAnswer": 2,
+      "explanation": "30 - 18 equals 12",
+      "explanation_ur": "30 منفی 18 برابر ہے 12",
+      "hint": "Subtract 20 then add 2",
+      "hint_ur": "پہلے 20 منفی کریں پھر 2 جمع کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "What is 5 × 5?",
+      "question_ur": "5 ضرب 5 کیا ہے؟",
+      "options": {
+        "en": ["20", "25", "30", "35"],
+        "ur": ["20", "25", "30", "35"]
+      },
+      "correctAnswer": 1,
+      "explanation": "5 multiplied by 5 equals 25",
+      "explanation_ur": "5 ضرب 5 برابر ہے 25",
+      "hint": "Think of a square with 5 units on each side",
+      "hint_ur": "ایک مربع کے بارے میں سوچیں جس کی ہر طرف 5 یونٹس ہوں",
+      "timeLimit": 15
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "What is 12 + 15?",
+      "question_ur": "12 جمع 15 کیا ہے؟",
+      "options": {
+        "en": ["25", "26", "27", "28"],
+        "ur": ["25", "26", "27", "28"]
+      },
+      "correctAnswer": 2,
+      "explanation": "12 + 15 equals 27",
+      "explanation_ur": "12 جمع 15 برابر ہے 27",
+      "hint": "Add 10 first, then add 5",
+      "hint_ur": "پہلے 10 جمع کریں، پھر 5 جمع کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "What is 40 ÷ 8?",
+      "question_ur": "40 تقسیم 8 کیا ہے؟",
+      "options": {
+        "en": ["4", "5", "6", "7"],
+        "ur": ["4", "5", "6", "7"]
+      },
+      "correctAnswer": 1,
+      "explanation": "40 divided by 8 equals 5",
+      "explanation_ur": "40 تقسیم 8 برابر ہے 5",
+      "hint": "Think of how many 8s make 40",
+      "hint_ur": "سوچیں کہ 40 بنانے کے لیے کتنے 8 درکار ہیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 23,
+      "type": "true-false",
+      "question": "6 × 7 equals 42",
+      "question_ur": "6 ضرب 7 برابر ہے 42",
+      "correctAnswer": true,
+      "explanation": "6 multiplied by 7 is indeed 42",
+      "explanation_ur": "6 ضرب 7 واقعی 42 ہے",
+      "hint": "Think of 6 groups of 7",
+      "hint_ur": "7 کے 6 گروپس کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "What is 50 - 25?",
+      "question_ur": "50 منفی 25 کیا ہے؟",
+      "options": {
+        "en": ["20", "25", "30", "35"],
+        "ur": ["20", "25", "30", "35"]
+      },
+      "correctAnswer": 1,
+      "explanation": "50 - 25 equals 25",
+      "explanation_ur": "50 منفی 25 برابر ہے 25",
+      "hint": "Subtract 20 then subtract 5",
+      "hint_ur": "پہلے 20 منفی کریں پھر 5 منفی کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "What is 9 × 3?",
+      "question_ur": "9 ضرب 3 کیا ہے؟",
+      "options": {
+        "en": ["24", "27", "30", "33"],
+        "ur": ["24", "27", "30", "33"]
+      },
+      "correctAnswer": 1,
+      "explanation": "9 multiplied by 3 equals 27",
+      "explanation_ur": "9 ضرب 3 برابر ہے 27",
+      "hint": "Think of 10×3 minus 3",
+      "hint_ur": "10×3 منفی 3 کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 26,
+      "type": "true-false",
+      "question": "14 + 17 equals 30",
+      "question_ur": "14 جمع 17 برابر ہے 30",
+      "correctAnswer": false,
+      "explanation": "14 plus 17 is actually 31",
+      "explanation_ur": "14 جمع 17 دراصل 31 ہے",
+      "hint": "Break it into 10+10+4+7",
+      "hint_ur": "اسے 10+10+4+7 میں توڑیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "What is 36 ÷ 6?",
+      "question_ur": "36 تقسیم 6 کیا ہے؟",
+      "options": {
+        "en": ["5", "6", "7", "8"],
+        "ur": ["5", "6", "7", "8"]
+      },
+      "correctAnswer": 1,
+      "explanation": "36 divided by 6 equals 6",
+      "explanation_ur": "36 تقسیم 6 برابر ہے 6",
+      "hint": "Think of the 6 times table",
+      "hint_ur": "6 کے پہاڑے کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "What is 8 × 4?",
+      "question_ur": "8 ضرب 4 کیا ہے؟",
+      "options": {
+        "en": ["24", "28", "32", "36"],
+        "ur": ["24", "28", "32", "36"]
+      },
+      "correctAnswer": 2,
+      "explanation": "8 multiplied by 4 equals 32",
+      "explanation_ur": "8 ضرب 4 برابر ہے 32",
+      "hint": "Think of 8 groups of 4",
+      "hint_ur": "4 کے 8 گروپس کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "What is 45 - 19?",
+      "question_ur": "45 منفی 19 کیا ہے؟",
+      "options": {
+        "en": ["24", "25", "26", "27"],
+        "ur": ["24", "25", "26", "27"]
+      },
+      "correctAnswer": 2,
+      "explanation": "45 - 19 equals 26",
+      "explanation_ur": "45 منفی 19 برابر ہے 26",
+      "hint": "Subtract 20 then add 1",
+      "hint_ur": "پہلے 20 منفی کریں پھر 1 جمع کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 30,
+      "type": "true-false",
+      "question": "11 × 5 equals 55",
+      "question_ur": "11 ضرب 5 برابر ہے 55",
+      "correctAnswer": true,
+      "explanation": "11 multiplied by 5 is indeed 55",
+      "explanation_ur": "11 ضرب 5 واقعی 55 ہے",
+      "hint": "10×5 plus 1×5",
+      "hint_ur": "10×5 جمع 1×5",
+      "timeLimit": 15
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "What is 7 + 8 + 5?",
+      "question_ur": "7 جمع 8 جمع 5 کیا ہے؟",
+      "options": {
+        "en": ["18", "19", "20", "21"],
+        "ur": ["18", "19", "20", "21"]
+      },
+      "correctAnswer": 2,
+      "explanation": "7 + 8 + 5 equals 20",
+      "explanation_ur": "7 جمع 8 جمع 5 برابر ہے 20",
+      "hint": "Add two numbers first, then add the third",
+      "hint_ur": "پہلے دو نمبرز جمع کریں، پھر تیسرا جمع کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "What is 72 ÷ 9?",
+      "question_ur": "72 تقسیم 9 کیا ہے؟",
+      "options": {
+        "en": ["7", "8", "9", "10"],
+        "ur": ["7", "8", "9", "10"]
+      },
+      "correctAnswer": 1,
+      "explanation": "72 divided by 9 equals 8",
+      "explanation_ur": "72 تقسیم 9 برابر ہے 8",
+      "hint": "Think of the 9 times table",
+      "hint_ur": "9 کے پہاڑے کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 33,
+      "type": "true-false",
+      "question": "13 - 8 equals 6",
+      "question_ur": "13 منفی 8 برابر ہے 6",
+      "correctAnswer": false,
+      "explanation": "13 minus 8 is actually 5",
+      "explanation_ur": "13 منفی 8 دراصل 5 ہے",
+      "hint": "Count backwards from 13",
+      "hint_ur": "13 سے پیچھے کی طرف گنتی کریں",
+      "timeLimit": 10
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "What is 6 × 6?",
+      "question_ur": "6 ضرب 6 کیا ہے؟",
+      "options": {
+        "en": ["30", "36", "42", "48"],
+        "ur": ["30", "36", "42", "48"]
+      },
+      "correctAnswer": 1,
+      "explanation": "6 multiplied by 6 equals 36",
+      "explanation_ur": "6 ضرب 6 برابر ہے 36",
+      "hint": "Think of a square with 6 units on each side",
+      "hint_ur": "ایک مربع کے بارے میں سوچیں جس کی ہر طرف 6 یونٹس ہوں",
+      "timeLimit": 15
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "What is 100 - 45?",
+      "question_ur": "100 منفی 45 کیا ہے؟",
+      "options": {
+        "en": ["45", "50", "55", "60"],
+        "ur": ["45", "50", "55", "60"]
+      },
+      "correctAnswer": 2,
+      "explanation": "100 - 45 equals 55",
+      "explanation_ur": "100 منفی 45 برابر ہے 55",
+      "hint": "Subtract 50 then add 5",
+      "hint_ur": "پہلے 50 منفی کریں پھر 5 جمع کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 36,
+      "type": "true-false",
+      "question": "9 × 9 equals 81",
+      "question_ur": "9 ضرب 9 برابر ہے 81",
+      "correctAnswer": true,
+      "explanation": "9 multiplied by 9 is indeed 81",
+      "explanation_ur": "9 ضرب 9 واقعی 81 ہے",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "What is 15 + 25?",
+      "question_ur": "15 جمع 25 کیا ہے؟",
+      "options": {
+        "en": ["35", "40", "45", "50"],
+        "ur": ["35", "40", "45", "50"]
+      },
+      "correctAnswer": 1,
+      "explanation": "15 + 25 equals 40",
+      "explanation_ur": "15 جمع 25 برابر ہے 40",
+      "hint": "Add 10s first, then add 5s",
+      "hint_ur": "پہلے 10 جمع کریں، پھر 5 جمع کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "What is 64 ÷ 8?",
+      "question_ur": "64 تقسیم 8 کیا ہے؟",
+      "options": {
+        "en": ["7", "8", "9", "10"],
+        "ur": ["7", "8", "9", "10"]
+      },
+      "correctAnswer": 1,
+      "explanation": "64 divided by 8 equals 8",
+      "explanation_ur": "64 تقسیم 8 برابر ہے 8",
+      "hint": "Think of the 8 times table",
+      "hint_ur": "8 کے پہاڑے کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 39,
+      "type": "true-false",
+      "question": "17 + 19 equals 35",
+      "question_ur": "17 جمع 19 برابر ہے 35",
+      "correctAnswer": false,
+      "explanation": "17 plus 19 is actually 36",
+      "explanation_ur": "17 جمع 19 دراصل 36 ہے",
+      "hint": "Break it into 10+10+7+9",
+      "hint_ur": "اسے 10+10+7+9 میں توڑیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "What is 7 × 8?",
+      "question_ur": "7 ضرب 8 کیا ہے؟",
+      "options": {
+        "en": ["48", "54", "56", "64"],
+        "ur": ["48", "54", "56", "64"]
+      },
+      "correctAnswer": 2,
+      "explanation": "7 multiplied by 8 equals 56",
+      "explanation_ur": "7 ضرب 8 برابر ہے 56",
+      "hint": "Think of 7 groups of 8",
+      "hint_ur": "8 کے 7 گروپس کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "What is 90 - 35?",
+      "question_ur": "90 منفی 35 کیا ہے؟",
+      "options": {
+        "en": ["45", "50", "55", "60"],
+        "ur": ["45", "50", "55", "60"]
+      },
+      "correctAnswer": 2,
+      "explanation": "90 - 35 equals 55",
+      "explanation_ur": "90 منفی 35 برابر ہے 55",
+      "hint": "Subtract 30 then subtract 5",
+      "hint_ur": "پہلے 30 منفی کریں پھر 5 منفی کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 42,
+      "type": "true-false",
+      "question": "12 × 4 equals 48",
+      "question_ur": "12 ضرب 4 برابر ہے 48",
+      "correctAnswer": true,
+      "explanation": "12 multiplied by 4 is indeed 48",
+      "explanation_ur": "12 ضرب 4 واقعی 48 ہے",
+      "hint": "10×4 plus 2×4",
+      "hint_ur": "10×4 جمع 2×4",
+      "timeLimit": 15
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "What is 25 + 38?",
+      "question_ur": "25 جمع 38 کیا ہے؟",
+      "options": {
+        "en": ["53", "58", "63", "68"],
+        "ur": ["53", "58", "63", "68"]
+      },
+      "correctAnswer": 2,
+      "explanation": "25 + 38 equals 63",
+      "explanation_ur": "25 جمع 38 برابر ہے 63",
+      "hint": "Add 20+30 first, then add 5+8",
+      "hint_ur": "پہلے 20+30 جمع کریں، پھر 5+8 جمع کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "What is 81 ÷ 9?",
+      "question_ur": "81 تقسیم 9 کیا ہے؟",
+      "options": {
+        "en": ["8", "9", "10", "11"],
+        "ur": ["8", "9", "10", "11"]
+      },
+      "correctAnswer": 1,
+      "explanation": "81 divided by 9 equals 9",
+      "explanation_ur": "81 تقسیم 9 برابر ہے 9",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 45,
+      "type": "true-false",
+      "question": "14 × 5 equals 60",
+      "question_ur": "14 ضرب 5 برابر ہے 60",
+      "correctAnswer": false,
+      "explanation": "14 multiplied by 5 is actually 70",
+      "explanation_ur": "14 ضرب 5 دراصل 70 ہے",
+      "hint": "10×5 plus 4×5",
+      "hint_ur": "10×5 جمع 4×5",
+      "timeLimit": 15
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "What is 120 - 45?",
+      "question_ur": "120 منفی 45 کیا ہے؟",
+      "options": {
+        "en": ["65", "70", "75", "80"],
+        "ur": ["65", "70", "75", "80"]
+      },
+      "correctAnswer": 2,
+      "explanation": "120 - 45 equals 75",
+      "explanation_ur": "120 منفی 45 برابر ہے 75",
+      "hint": "Subtract 50 then add 5",
+      "hint_ur": "پہلے 50 منفی کریں پھر 5 جمع کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "What is 11 × 11?",
+      "question_ur": "11 ضرب 11 کیا ہے؟",
+      "options": {
+        "en": ["110", "111", "121", "131"],
+        "ur": ["110", "111", "121", "131"]
+      },
+      "correctAnswer": 2,
+      "explanation": "11 multiplied by 11 equals 121",
+      "explanation_ur": "11 ضرب 11 برابر ہے 121",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 48,
+      "type": "true-false",
+      "question": "150 ÷ 3 equals 50",
+      "question_ur": "150 تقسیم 3 برابر ہے 50",
+      "correctAnswer": true,
+      "explanation": "150 divided by 3 is indeed 50",
+      "explanation_ur": "150 تقسیم 3 واقعی 50 ہے",
+      "hint": "Think of 15÷3 then add a zero",
+      "hint_ur": "15÷3 کے بارے میں سوچیں پھر ایک صفر لگائیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "What is 45 + 55?",
+      "question_ur": "45 جمع 55 کیا ہے؟",
+      "options": {
+        "en": ["90", "95", "100", "105"],
+        "ur": ["90", "95", "100", "105"]
+      },
+      "correctAnswer": 2,
+      "explanation": "45 + 55 equals 100",
+      "explanation_ur": "45 جمع 55 برابر ہے 100",
+      "hint": "They make a complete hundred",
+      "hint_ur": "یہ ایک مکمل سو بناتے ہیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "What is 144 ÷ 12?",
+      "question_ur": "144 تقسیم 12 کیا ہے؟",
+      "options": {
+        "en": ["10", "11", "12", "13"],
+        "ur": ["10", "11", "12", "13"]
+      },
+      "correctAnswer": 2,
+      "explanation": "144 divided by 12 equals 12",
+      "explanation_ur": "144 تقسیم 12 برابر ہے 12",
+      "hint": "Think of the 12 times table",
+      "hint_ur": "12 کے پہاڑے کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 51,
+      "type": "true-false",
+      "question": "13 × 6 equals 78",
+      "question_ur": "13 ضرب 6 برابر ہے 78",
+      "correctAnswer": true,
+      "explanation": "13 multiplied by 6 is indeed 78",
+      "explanation_ur": "13 ضرب 6 واقعی 78 ہے",
+      "hint": "10×6 plus 3×6",
+      "hint_ur": "10×6 جمع 3×6",
+      "timeLimit": 15
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "What is 200 - 75?",
+      "question_ur": "200 منفی 75 کیا ہے؟",
+      "options": {
+        "en": ["115", "120", "125", "130"],
+        "ur": ["115", "120", "125", "130"]
+      },
+      "correctAnswer": 2,
+      "explanation": "200 - 75 equals 125",
+      "explanation_ur": "200 منفی 75 برابر ہے 125",
+      "hint": "Subtract 100 then add 25",
+      "hint_ur": "پہلے 100 منفی کریں پھر 25 جمع کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "What is 15 × 6?",
+      "question_ur": "15 ضرب 6 کیا ہے؟",
+      "options": {
+        "en": ["75", "80", "85", "90"],
+        "ur": ["75", "80", "85", "90"]
+      },
+      "correctAnswer": 3,
+      "explanation": "15 multiplied by 6 equals 90",
+      "explanation_ur": "15 ضرب 6 برابر ہے 90",
+      "hint": "10×6 plus 5×6",
+      "hint_ur": "10×6 جمع 5×6",
+      "timeLimit": 20
+    },
+    {
+      "id": 54,
+      "type": "true-false",
+      "question": "175 ÷ 5 equals 35",
+      "question_ur": "175 تقسیم 5 برابر ہے 35",
+      "correctAnswer": true,
+      "explanation": "175 divided by 5 is indeed 35",
+      "explanation_ur": "175 تقسیم 5 واقعی 35 ہے",
+      "hint": "Think of 150÷5 plus 25÷5",
+      "hint_ur": "150÷5 جمع 25÷5 کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "What is 65 + 47?",
+      "question_ur": "65 جمع 47 کیا ہے؟",
+      "options": {
+        "en": ["102", "107", "112", "117"],
+        "ur": ["102", "107", "112", "117"]
+      },
+      "correctAnswer": 2,
+      "explanation": "65 + 47 equals 112",
+      "explanation_ur": "65 جمع 47 برابر ہے 112",
+      "hint": "Add 60+40 first, then add 5+7",
+      "hint_ur": "پہلے 60+40 جمع کریں، پھر 5+7 جمع کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "What is 169 ÷ 13?",
+      "question_ur": "169 تقسیم 13 کیا ہے؟",
+      "options": {
+        "en": ["11", "12", "13", "14"],
+        "ur": ["11", "12", "13", "14"]
+      },
+      "correctAnswer": 2,
+      "explanation": "169 divided by 13 equals 13",
+      "explanation_ur": "169 تقسیم 13 برابر ہے 13",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 57,
+      "type": "true-false",
+      "question": "14 × 7 equals 98",
+      "question_ur": "14 ضرب 7 برابر ہے 98",
+      "correctAnswer": true,
+      "explanation": "14 multiplied by 7 is indeed 98",
+      "explanation_ur": "14 ضرب 7 واقعی 98 ہے",
+      "hint": "10×7 plus 4×7",
+      "hint_ur": "10×7 جمع 4×7",
+      "timeLimit": 20
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "What is 250 - 125?",
+      "question_ur": "250 منفی 125 کیا ہے؟",
+      "options": {
+        "en": ["115", "120", "125", "130"],
+        "ur": ["115", "120", "125", "130"]
+      },
+      "correctAnswer": 2,
+      "explanation": "250 - 125 equals 125",
+      "explanation_ur": "250 منفی 125 برابر ہے 125",
+      "hint": "Subtract 100 then subtract 25",
+      "hint_ur": "پہلے 100 منفی کریں پھر 25 منفی کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "What is 12 × 12?",
+      "question_ur": "12 ضرب 12 کیا ہے؟",
+      "options": {
+        "en": ["132", "134", "144", "154"],
+        "ur": ["132", "134", "144", "154"]
+      },
+      "correctAnswer": 2,
+      "explanation": "12 multiplied by 12 equals 144",
+      "explanation_ur": "12 ضرب 12 برابر ہے 144",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 60,
+      "type": "true-false",
+      "question": "225 ÷ 15 equals 15",
+      "question_ur": "225 تقسیم 15 برابر ہے 15",
+      "correctAnswer": true,
+      "explanation": "225 divided by 15 is indeed 15",
+      "explanation_ur": "225 تقسیم 15 واقعی 15 ہے",
+      "hint": "Think of 150÷15 plus 75÷15",
+      "hint_ur": "150÷15 جمع 75÷15 کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "What is 85 + 37?",
+      "question_ur": "85 جمع 37 کیا ہے؟",
+      "options": {
+        "en": ["112", "117", "122", "127"],
+        "ur": ["112", "117", "122", "127"]
+      },
+      "correctAnswer": 2,
+      "explanation": "85 + 37 equals 122",
+      "explanation_ur": "85 جمع 37 برابر ہے 122",
+      "hint": "Add 80+30 first, then add 5+7",
+      "hint_ur": "پہلے 80+30 جمع کریں، پھر 5+7 جمع کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 62,
+      "type": "mcq",
+      "question": "What is 196 ÷ 14?",
+      "question_ur": "196 تقسیم 14 کیا ہے؟",
+      "options": {
+        "en": ["12", "13", "14", "15"],
+        "ur": ["12", "13", "14", "15"]
+      },
+      "correctAnswer": 2,
+      "explanation": "196 divided by 14 equals 14",
+      "explanation_ur": "196 تقسیم 14 برابر ہے 14",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 63,
+      "type": "true-false",
+      "question": "15 × 8 equals 120",
+      "question_ur": "15 ضرب 8 برابر ہے 120",
+      "correctAnswer": true,
+      "explanation": "15 multiplied by 8 is indeed 120",
+      "explanation_ur": "15 ضرب 8 واقعی 120 ہے",
+      "hint": "10×8 plus 5×8",
+      "hint_ur": "10×8 جمع 5×8",
+      "timeLimit": 20
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "question": "What is 300 - 175?",
+      "question_ur": "300 منفی 175 کیا ہے؟",
+      "options": {
+        "en": ["115", "120", "125", "130"],
+        "ur": ["115", "120", "125", "130"]
+      },
+      "correctAnswer": 2,
+      "explanation": "300 - 175 equals 125",
+      "explanation_ur": "300 منفی 175 برابر ہے 125",
+      "hint": "Subtract 200 then add 25",
+      "hint_ur": "پہلے 200 منفی کریں پھر 25 جمع کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "question": "What is 13 × 13?",
+      "question_ur": "13 ضرب 13 کیا ہے؟",
+      "options": {
+        "en": ["159", "169", "179", "189"],
+        "ur": ["159", "169", "179", "189"]
+      },
+      "correctAnswer": 1,
+      "explanation": "13 multiplied by 13 equals 169",
+      "explanation_ur": "13 ضرب 13 برابر ہے 169",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 66,
+      "type": "true-false",
+      "question": "256 ÷ 16 equals 16",
+      "question_ur": "256 تقسیم 16 برابر ہے 16",
+      "correctAnswer": true,
+      "explanation": "256 divided by 16 is indeed 16",
+      "explanation_ur": "256 تقسیم 16 واقعی 16 ہے",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "What is 95 + 48?",
+      "question_ur": "95 جمع 48 کیا ہے؟",
+      "options": {
+        "en": ["133", "138", "143", "148"],
+        "ur": ["133", "138", "143", "148"]
+      },
+      "correctAnswer": 2,
+      "explanation": "95 + 48 equals 143",
+      "explanation_ur": "95 جمع 48 برابر ہے 143",
+      "hint": "Add 90+40 first, then add 5+8",
+      "hint_ur": "پہلے 90+40 جمع کریں، پھر 5+8 جمع کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 68,
+      "type": "mcq",
+      "question": "What is 225 ÷ 15?",
+      "question_ur": "225 تقسیم 15 کیا ہے؟",
+      "options": {
+        "en": ["13", "14", "15", "16"],
+        "ur": ["13", "14", "15", "16"]
+      },
+      "correctAnswer": 2,
+      "explanation": "225 divided by 15 equals 15",
+      "explanation_ur": "225 تقسیم 15 برابر ہے 15",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 69,
+      "type": "true-false",
+      "question": "16 × 7 equals 112",
+      "question_ur": "16 ضرب 7 برابر ہے 112",
+      "correctAnswer": true,
+      "explanation": "16 multiplied by 7 is indeed 112",
+      "explanation_ur": "16 ضرب 7 واقعی 112 ہے",
+      "hint": "10×7 plus 6×7",
+      "hint_ur": "10×7 جمع 6×7",
+      "timeLimit": 20
+    },
+    {
+      "id": 70,
+      "type": "mcq",
+      "question": "What is 400 - 225?",
+      "question_ur": "400 منفی 225 کیا ہے؟",
+      "options": {
+        "en": ["165", "170", "175", "180"],
+        "ur": ["165", "170", "175", "180"]
+      },
+      "correctAnswer": 2,
+      "explanation": "400 - 225 equals 175",
+      "explanation_ur": "400 منفی 225 برابر ہے 175",
+      "hint": "Subtract 200 then subtract 25",
+      "hint_ur": "پہلے 200 منفی کریں پھر 25 منفی کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "question": "What is 14 × 14?",
+      "question_ur": "14 ضرب 14 کیا ہے؟",
+      "options": {
+        "en": ["176", "186", "196", "206"],
+        "ur": ["176", "186", "196", "206"]
+      },
+      "correctAnswer": 2,
+      "explanation": "14 multiplied by 14 equals 196",
+      "explanation_ur": "14 ضرب 14 برابر ہے 196",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 72,
+      "type": "true-false",
+      "question": "289 ÷ 17 equals 17",
+      "question_ur": "289 تقسیم 17 برابر ہے 17",
+      "correctAnswer": true,
+      "explanation": "289 divided by 17 is indeed 17",
+      "explanation_ur": "289 تقسیم 17 واقعی 17 ہے",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "What is 125 + 88?",
+      "question_ur": "125 جمع 88 کیا ہے؟",
+      "options": {
+        "en": ["203", "208", "213", "218"],
+        "ur": ["203", "208", "213", "218"]
+      },
+      "correctAnswer": 2,
+      "explanation": "125 + 88 equals 213",
+      "explanation_ur": "125 جمع 88 برابر ہے 213",
+      "hint": "Add 120+80 first, then add 5+8",
+      "hint_ur": "پہلے 120+80 جمع کریں، پھر 5+8 جمع کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 74,
+      "type": "mcq",
+      "question": "What is 324 ÷ 18?",
+      "question_ur": "324 تقسیم 18 کیا ہے؟",
+      "options": {
+        "en": ["16", "17", "18", "19"],
+        "ur": ["16", "17", "18", "19"]
+      },
+      "correctAnswer": 2,
+      "explanation": "324 divided by 18 equals 18",
+      "explanation_ur": "324 تقسیم 18 برابر ہے 18",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 75,
+      "type": "true-false",
+      "question": "17 × 8 equals 136",
+      "question_ur": "17 ضرب 8 برابر ہے 136",
+      "correctAnswer": true,
+      "explanation": "17 multiplied by 8 is indeed 136",
+      "explanation_ur": "17 ضرب 8 واقعی 136 ہے",
+      "hint": "10×8 plus 7×8",
+      "hint_ur": "10×8 جمع 7×8",
+      "timeLimit": 20
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "question": "What is 500 - 325?",
+      "question_ur": "500 منفی 325 کیا ہے؟",
+      "options": {
+        "en": ["165", "170", "175", "180"],
+        "ur": ["165", "170", "175", "180"]
+      },
+      "correctAnswer": 2,
+      "explanation": "500 - 325 equals 175",
+      "explanation_ur": "500 منفی 325 برابر ہے 175",
+      "hint": "Subtract 300 then subtract 25",
+      "hint_ur": "پہلے 300 منفی کریں پھر 25 منفی کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "question": "What is 15 × 15?",
+      "question_ur": "15 ضرب 15 کیا ہے؟",
+      "options": {
+        "en": ["205", "215", "225", "235"],
+        "ur": ["205", "215", "225", "235"]
+      },
+      "correctAnswer": 2,
+      "explanation": "15 multiplied by 15 equals 225",
+      "explanation_ur": "15 ضرب 15 برابر ہے 225",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 78,
+      "type": "true-false",
+      "question": "361 ÷ 19 equals 19",
+      "question_ur": "361 تقسیم 19 برابر ہے 19",
+      "correctAnswer": true,
+      "explanation": "361 divided by 19 is indeed 19",
+      "explanation_ur": "361 تقسیم 19 واقعی 19 ہے",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "What is 150 + 175?",
+      "question_ur": "150 جمع 175 کیا ہے؟",
+      "options": {
+        "en": ["315", "320", "325", "330"],
+        "ur": ["315", "320", "325", "330"]
+      },
+      "correctAnswer": 2,
+      "explanation": "150 + 175 equals 325",
+      "explanation_ur": "150 جمع 175 برابر ہے 325",
+      "hint": "Add 100+100 first, then add 50+75",
+      "hint_ur": "پہلے 100+100 جمع کریں، پھر 50+75 جمع کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 80,
+      "type": "mcq",
+      "question": "What is 400 ÷ 20?",
+      "question_ur": "400 تقسیم 20 کیا ہے؟",
+      "options": {
+        "en": ["18", "19", "20", "21"],
+        "ur": ["18", "19", "20", "21"]
+      },
+      "correctAnswer": 2,
+      "explanation": "400 divided by 20 equals 20",
+      "explanation_ur": "400 تقسیم 20 برابر ہے 20",
+      "hint": "Think of 40÷2 then add a zero",
+      "hint_ur": "40÷2 کے بارے میں سوچیں پھر ایک صفر لگائیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 81,
+      "type": "true-false",
+      "question": "18 × 9 equals 162",
+      "question_ur": "18 ضرب 9 برابر ہے 162",
+      "correctAnswer": true,
+      "explanation": "18 multiplied by 9 is indeed 162",
+      "explanation_ur": "18 ضرب 9 واقعی 162 ہے",
+      "hint": "10×9 plus 8×9",
+      "hint_ur": "10×9 جمع 8×9",
+      "timeLimit": 20
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "question": "What is 600 - 425?",
+      "question_ur": "600 منفی 425 کیا ہے؟",
+      "options": {
+        "en": ["165", "170", "175", "180"],
+        "ur": ["165", "170", "175", "180"]
+      },
+      "correctAnswer": 2,
+      "explanation": "600 - 425 equals 175",
+      "explanation_ur": "600 منفی 425 برابر ہے 175",
+      "hint": "Subtract 400 then subtract 25",
+      "hint_ur": "پہلے 400 منفی کریں پھر 25 منفی کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "question": "What is 16 × 16?",
+      "question_ur": "16 ضرب 16 کیا ہے؟",
+      "options": {
+        "en": ["236", "246", "256", "266"],
+        "ur": ["236", "246", "256", "266"]
+      },
+      "correctAnswer": 2,
+      "explanation": "16 multiplied by 16 equals 256",
+      "explanation_ur": "16 ضرب 16 برابر ہے 256",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 84,
+      "type": "true-false",
+      "question": "441 ÷ 21 equals 21",
+      "question_ur": "441 تقسیم 21 برابر ہے 21",
+      "correctAnswer": true,
+      "explanation": "441 divided by 21 is indeed 21",
+      "explanation_ur": "441 تقسیم 21 واقعی 21 ہے",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "What is 225 + 175?",
+      "question_ur": "225 جمع 175 کیا ہے؟",
+      "options": {
+        "en": ["390", "395", "400", "405"],
+        "ur": ["390", "395", "400", "405"]
+      },
+      "correctAnswer": 2,
+      "explanation": "225 + 175 equals 400",
+      "explanation_ur": "225 جمع 175 برابر ہے 400",
+      "hint": "They make a complete four hundred",
+      "hint_ur": "یہ ایک مکمل چار سو بناتے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 86,
+      "type": "mcq",
+      "question": "What is 529 ÷ 23?",
+      "question_ur": "529 تقسیم 23 کیا ہے؟",
+      "options": {
+        "en": ["21", "22", "23", "24"],
+        "ur": ["21", "22", "23", "24"]
+      },
+      "correctAnswer": 2,
+      "explanation": "529 divided by 23 equals 23",
+      "explanation_ur": "529 تقسیم 23 برابر ہے 23",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 87,
+      "type": "true-false",
+      "question": "19 × 8 equals 152",
+      "question_ur": "19 ضرب 8 برابر ہے 152",
+      "correctAnswer": true,
+      "explanation": "19 multiplied by 8 is indeed 152",
+      "explanation_ur": "19 ضرب 8 واقعی 152 ہے",
+      "hint": "10×8 plus 9×8",
+      "hint_ur": "10×8 جمع 9×8",
+      "timeLimit": 20
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "question": "What is 700 - 525?",
+      "question_ur": "700 منفی 525 کیا ہے؟",
+      "options": {
+        "en": ["165", "170", "175", "180"],
+        "ur": ["165", "170", "175", "180"]
+      },
+      "correctAnswer": 2,
+      "explanation": "700 - 525 equals 175",
+      "explanation_ur": "700 منفی 525 برابر ہے 175",
+      "hint": "Subtract 500 then subtract 25",
+      "hint_ur": "پہلے 500 منفی کریں پھر 25 منفی کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "question": "What is 17 × 17?",
+      "question_ur": "17 ضرب 17 کیا ہے؟",
+      "options": {
+        "en": ["269", "279", "289", "299"],
+        "ur": ["269", "279", "289", "299"]
+      },
+      "correctAnswer": 2,
+      "explanation": "17 multiplied by 17 equals 289",
+      "explanation_ur": "17 ضرب 17 برابر ہے 289",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 90,
+      "type": "true-false",
+      "question": "576 ÷ 24 equals 24",
+      "question_ur": "576 تقسیم 24 برابر ہے 24",
+      "correctAnswer": true,
+      "explanation": "576 divided by 24 is indeed 24",
+      "explanation_ur": "576 تقسیم 24 واقعی 24 ہے",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "What is 250 + 275?",
+      "question_ur": "250 جمع 275 کیا ہے؟",
+      "options": {
+        "en": ["515", "520", "525", "530"],
+        "ur": ["515", "520", "525", "530"]
+      },
+      "correctAnswer": 2,
+      "explanation": "250 + 275 equals 525",
+      "explanation_ur": "250 جمع 275 برابر ہے 525",
+      "hint": "Add 200+200 first, then add 50+75",
+      "hint_ur": "پہلے 200+200 جمع کریں، پھر 50+75 جمع کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 92,
+      "type": "mcq",
+      "question": "What is 625 ÷ 25?",
+      "question_ur": "625 تقسیم 25 کیا ہے؟",
+      "options": {
+        "en": ["23", "24", "25", "26"],
+        "ur": ["23", "24", "25", "26"]
+      },
+      "correctAnswer": 2,
+      "explanation": "625 divided by 25 equals 25",
+      "explanation_ur": "625 تقسیم 25 برابر ہے 25",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 93,
+      "type": "true-false",
+      "question": "20 × 9 equals 180",
+      "question_ur": "20 ضرب 9 برابر ہے 180",
+      "correctAnswer": true,
+      "explanation": "20 multiplied by 9 is indeed 180",
+      "explanation_ur": "20 ضرب 9 واقعی 180 ہے",
+      "hint": "2×9 then add a zero",
+      "hint_ur": "2×9 پھر ایک صفر لگائیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "question": "What is 800 - 625?",
+      "question_ur": "800 منفی 625 کیا ہے؟",
+      "options": {
+        "en": ["165", "170", "175", "180"],
+        "ur": ["165", "170", "175", "180"]
+      },
+      "correctAnswer": 2,
+      "explanation": "800 - 625 equals 175",
+      "explanation_ur": "800 منفی 625 برابر ہے 175",
+      "hint": "Subtract 600 then subtract 25",
+      "hint_ur": "پہلے 600 منفی کریں پھر 25 منفی کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 95,
+      "type": "mcq",
+      "question": "What is 18 × 18?",
+      "question_ur": "18 ضرب 18 کیا ہے؟",
+      "options": {
+        "en": ["304", "314", "324", "334"],
+        "ur": ["304", "314", "324", "334"]
+      },
+      "correctAnswer": 2,
+      "explanation": "18 multiplied by 18 equals 324",
+      "explanation_ur": "18 ضرب 18 برابر ہے 324",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 96,
+      "type": "true-false",
+      "question": "729 ÷ 27 equals 27",
+      "question_ur": "729 تقسیم 27 برابر ہے 27",
+      "correctAnswer": true,
+      "explanation": "729 divided by 27 is indeed 27",
+      "explanation_ur": "729 تقسیم 27 واقعی 27 ہے",
+      "hint": "Think of the perfect cube",
+      "hint_ur": "مکمل کیوب کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "question": "What is 350 + 375?",
+      "question_ur": "350 جمع 375 کیا ہے؟",
+      "options": {
+        "en": ["715", "720", "725", "730"],
+        "ur": ["715", "720", "725", "730"]
+      },
+      "correctAnswer": 2,
+      "explanation": "350 + 375 equals 725",
+      "explanation_ur": "350 جمع 375 برابر ہے 725",
+      "hint": "Add 300+300 first, then add 50+75",
+      "hint_ur": "پہلے 300+300 جمع کریں، پھر 50+75 جمع کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 98,
+      "type": "mcq",
+      "question": "What is 784 ÷ 28?",
+      "question_ur": "784 تقسیم 28 کیا ہے؟",
+      "options": {
+        "en": ["26", "27", "28", "29"],
+        "ur": ["26", "27", "28", "29"]
+      },
+      "correctAnswer": 2,
+      "explanation": "784 divided by 28 equals 28",
+      "explanation_ur": "784 تقسیم 28 برابر ہے 28",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 99,
+      "type": "true-false",
+      "question": "21 × 8 equals 168",
+      "question_ur": "21 ضرب 8 برابر ہے 168",
+      "correctAnswer": true,
+      "explanation": "21 multiplied by 8 is indeed 168",
+      "explanation_ur": "21 ضرب 8 واقعی 168 ہے",
+      "hint": "20×8 plus 1×8",
+      "hint_ur": "20×8 جمع 1×8",
+      "timeLimit": 20
+    },
+    {
+      "id": 100,
+      "type": "mcq",
+      "question": "What is 900 - 725?",
+      "question_ur": "900 منفی 725 کیا ہے؟",
+      "options": {
+        "en": ["165", "170", "175", "180"],
+        "ur": ["165", "170", "175", "180"]
+      },
+      "correctAnswer": 2,
+      "explanation": "900 - 725 equals 175",
+      "explanation_ur": "900 منفی 725 برابر ہے 175",
+      "hint": "Subtract 700 then subtract 25",
+      "hint_ur": "پہلے 700 منفی کریں پھر 25 منفی کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 101,
+      "type": "mcq",
+      "question": "What is 19 × 19?",
+      "question_ur": "19 ضرب 19 کیا ہے؟",
+      "options": {
+        "en": ["341", "351", "361", "371"],
+        "ur": ["341", "351", "361", "371"]
+      },
+      "correctAnswer": 2,
+      "explanation": "19 multiplied by 19 equals 361",
+      "explanation_ur": "19 ضرب 19 برابر ہے 361",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 102,
+      "type": "true-false",
+      "question": "900 ÷ 30 equals 30",
+      "question_ur": "900 تقسیم 30 برابر ہے 30",
+      "correctAnswer": true,
+      "explanation": "900 divided by 30 is indeed 30",
+      "explanation_ur": "900 تقسیم 30 واقعی 30 ہے",
+      "hint": "Think of 9÷3 then add two zeros",
+      "hint_ur": "9÷3 کے بارے میں سوچیں پھر دو صفر لگائیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "question": "What is 475 + 425?",
+      "question_ur": "475 جمع 425 کیا ہے؟",
+      "options": {
+        "en": ["890", "895", "900", "905"],
+        "ur": ["890", "895", "900", "905"]
+      },
+      "correctAnswer": 2,
+      "explanation": "475 + 425 equals 900",
+      "explanation_ur": "475 جمع 425 برابر ہے 900",
+      "hint": "They make a complete nine hundred",
+      "hint_ur": "یہ ایک مکمل نو سو بناتے ہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 104,
+      "type": "mcq",
+      "question": "What is 961 ÷ 31?",
+      "question_ur": "961 تقسیم 31 کیا ہے؟",
+      "options": {
+        "en": ["29", "30", "31", "32"],
+        "ur": ["29", "30", "31", "32"]
+      },
+      "correctAnswer": 2,
+      "explanation": "961 divided by 31 equals 31",
+      "explanation_ur": "961 تقسیم 31 برابر ہے 31",
+      "hint": "Think of the perfect square",
+      "hint_ur": "مکمل مربع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 105,
+      "type": "true-false",
+      "question": "22 × 7 equals 154",
+      "question_ur": "22 ضرب 7 برابر ہے 154",
+      "correctAnswer": true,
+      "explanation": "22 multiplied by 7 is indeed 154",
+      "explanation_ur": "22 ضرب 7 واقعی 154 ہے",
+      "hint": "20×7 plus 2×7",
+      "hint_ur": "20×7 جمع 2×7",
+      "timeLimit": 20
+    }
+  ]
+}

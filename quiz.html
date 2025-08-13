@@ -1,0 +1,3937 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz | QuizVerse</title>
+  <meta name="description" content="Test your knowledge with interactive quizzes">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap">
+  <link rel="stylesheet" href="dist/style.css">
+  <link rel="stylesheet" href="src/index.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#2D6A4F',
+            secondary: '#40916C',
+            accent: '#FFB703',
+            textDark: '#1D1D1D',
+            textLight: '#FFFFFF',
+            bgLight: '#F9F9F9',
+            bgDark: '#121212',
+
+            // Category colors
+            science: '#0077B6',
+            general: '#F77F00',
+            poetry: '#D4A5A5',
+            history: '#7B5E57',
+            islamic: '#2A9D8F',
+            tech: '#3A0CA3',
+            arts: '#7209B7',
+            kids: '#90E0EF',
+            boys: '#5D737E',
+            girls: '#FFCDB2'
+          },
+          animation: {
+            'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            'bounce-slow': 'bounce 2s infinite'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    /* Urdu font for Urdu content */
+    .urdu {
+      font-family: 'Noto Nastaliq Urdu', 'Poppins', sans-serif;
+      direction: rtl;
+    }
+
+    /* Dark mode styles */
+    .dark {
+      --tw-bg-opacity: 1;
+      background-color: rgb(18 18 18 / var(--tw-bg-opacity));
+      --tw-text-opacity: 1;
+      color: rgb(255 255 255 / var(--tw-text-opacity));
+    }
+
+    .dark .dark\:bg-gray-800 {
+      --tw-bg-opacity: 1;
+      background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+    }
+
+    .dark .dark\:bg-gray-700 {
+      --tw-bg-opacity: 1;
+      background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+    }
+
+    .dark .dark\:bg-gray-600 {
+      --tw-bg-opacity: 1;
+      background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+    }
+
+    .dark .dark\:text-gray-300 {
+      --tw-text-opacity: 1;
+      color: rgb(209 213 219 / var(--tw-text-opacity));
+    }
+
+    .dark .dark\:text-gray-400 {
+      --tw-text-opacity: 1;
+      color: rgb(156 163 175 / var(--tw-text-opacity));
+    }
+
+    .dark .dark\:border-gray-600 {
+      --tw-border-opacity: 1;
+      border-color: rgb(75 85 99 / var(--tw-border-opacity));
+    }
+
+    .dark .dark\:hover\:bg-gray-600:hover {
+      --tw-bg-opacity: 1;
+      background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+    }
+
+    .dark .dark\:bg-green-900\/30 {
+      background-color: rgba(20 83 45 / 0.3);
+    }
+
+    .dark .dark\:bg-red-900\/30 {
+      background-color: rgba(127 29 29 / 0.3);
+    }
+
+    .dark .dark\:bg-yellow-900\/20 {
+      background-color: rgba(113 63 18 / 0.2);
+    }
+
+    .dark .dark\:focus\:ring-secondary:focus {
+      --tw-ring-color: #40916C;
+    }
+
+    /* Base styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .progress-ring__circle {
+      transition: stroke-dashoffset 0.35s;
+      transform: rotate(-90deg);
+      transform-origin: 50% 50%;
+    }
+
+    .category-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      opacity: 0.1;
+      z-index: 0;
+    }
+
+    /* Category-specific background colors */
+    .science-bg {
+      background-color: #0077B610;
+    }
+
+    .general-bg {
+      background-color: #F77F0010;
+    }
+
+    .history-bg {
+      background-color: #7B5E5710;
+    }
+
+    .islamic-bg {
+      background-color: #2A9D8F10;
+    }
+
+    .tech-bg {
+      background-color: #3A0CA310;
+    }
+
+    .arts-bg {
+      background-color: #7209B710;
+    }
+
+    .kids-bg {
+      background-color: #90E0EF10;
+    }
+
+    .poetry-bg {
+      background-color: #D4A5A510;
+    }
+
+    .pakistan-bg {
+      background-color: #046A3810;
+    }
+
+    .literature-bg {
+      background-color: #5E302310;
+    }
+
+    .math-bg {
+      background-color: #6A4C9310;
+    }
+
+    /* Animations */
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.05);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(0px);
+      }
+
+      50% {
+        transform: translateY(-10px);
+      }
+
+      100% {
+        transform: translateY(0px);
+      }
+    }
+
+    @keyframes shake {
+
+      0%,
+      100% {
+        transform: translateX(0);
+      }
+
+      20%,
+      60% {
+        transform: translateX(-5px);
+      }
+
+      40%,
+      80% {
+        transform: translateX(5px);
+      }
+    }
+
+    @keyframes streakGlow {
+      0% {
+        box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+      }
+
+      50% {
+        box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+      }
+
+      100% {
+        box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+      }
+    }
+
+    @keyframes confetti-fall {
+      0% {
+        transform: translateY(-10px) rotate(0deg);
+        opacity: 1;
+      }
+
+      100% {
+        transform: translateY(100vh) rotate(360deg);
+        opacity: 0;
+      }
+    }
+
+    .correct-pulse {
+      animation: pulse 0.5s ease-in-out;
+      background-color: #2D6A4F20;
+      border-left: 4px solid #2D6A4F;
+    }
+
+    .wrong-pulse {
+      animation: shake 0.5s ease-in-out;
+      background-color: #D6283920;
+      border-left: 4px solid #D62839;
+    }
+
+    .streak-glow {
+      animation: streakGlow 2s infinite;
+    }
+
+    .float-animation {
+      animation: float 3s ease-in-out infinite;
+    }
+
+    /* Confetti effect */
+    .confetti {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: #f00;
+      opacity: 0;
+    }
+
+    /* Modal transitions */
+    .modal-enter-active {
+      animation: fadeIn 0.3s;
+    }
+
+    .modal-exit-active {
+      animation: fadeOut 0.3s;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    @keyframes fadeOut {
+      from {
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      to {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+    }
+
+    /* Language toggle */
+    .language-toggle {
+      position: relative;
+      display: inline-block;
+      width: 80px;
+      height: 34px;
+    }
+
+    .language-toggle input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .language-slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #40916C;
+      transition: .4s;
+      border-radius: 34px;
+    }
+
+    .language-slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      transition: .4s;
+      border-radius: 50%;
+    }
+
+    .language-toggle input:checked+.language-slider {
+      background-color: #2A9D8F;
+    }
+
+    .language-toggle input:checked+.language-slider:before {
+      transform: translateX(46px);
+    }
+
+    .language-labels {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 10px;
+      pointer-events: none;
+    }
+
+    .language-labels span {
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    /* Quiz start modal enhancements */
+    .quiz-start-modal-content {
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .dark .quiz-start-modal-content {
+      background: linear-gradient(135deg, #2c3e50 0%, #4ca1af 100%);
+    }
+
+    .quiz-header {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .dark .quiz-header {
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    .quiz-rules {
+      max-height: 40vh;
+      overflow-y: auto;
+      padding-right: 8px;
+    }
+
+    .quiz-rules li {
+      transition: all 0.3s;
+    }
+
+    .quiz-rules li:hover {
+      transform: translateX(5px);
+    }
+
+    .start-quiz-btn {
+      background: linear-gradient(to right, #2D6A4F, #40916C);
+      transition: all 0.3s;
+      box-shadow: 0 4px 15px rgba(45, 106, 79, 0.4);
+    }
+
+    .start-quiz-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(45, 106, 79, 0.6);
+    }
+
+    /* Scrollbar styling */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+
+    .dark ::-webkit-scrollbar-track {
+      background: #2d3748;
+    }
+
+    .dark ::-webkit-scrollbar-thumb {
+      background: #4a5568;
+    }
+
+    .dark ::-webkit-scrollbar-thumb:hover {
+      background: #718096;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 640px) {
+      .quiz-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .quiz-controls {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .quiz-start-modal-content {
+        max-height: 80vh;
+      }
+
+      .quiz-rules {
+        max-height: 30vh;
+      }
+    }
+
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+      backdrop-filter: blur(5px);
+    }
+
+    .modal-overlay.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .modal-container {
+      background-color: white;
+      border-radius: 1rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      transform: translateY(20px);
+      opacity: 0;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+      width: 90%;
+      max-width: 28rem;
+      max-height: 90vh;
+      overflow-y: auto;
+      margin: 2rem;
+    }
+
+    .dark .modal-container {
+      background-color: #1f2937;
+    }
+
+    .modal-overlay.active .modal-container {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    /* Animation for modal content */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .modal-content-item {
+      animation: fadeIn 0.3s ease forwards;
+    }
+
+    .modal-content-item:nth-child(1) {
+      animation-delay: 0.1s;
+    }
+
+    .modal-content-item:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .modal-content-item:nth-child(3) {
+      animation-delay: 0.3s;
+    }
+
+    .modal-content-item:nth-child(4) {
+      animation-delay: 0.4s;
+    }
+
+    .modal-overlay {
+      z-index: 1000;
+    }
+
+    .modal-container {
+      z-index: 1001;
+    }
+
+    /* Ensure nothing appears above modals */
+    header,
+    footer {
+      z-index: 999;
+    }
+
+
+    /* Add this to your style section */
+    .profile-badge {
+      display: inline-flex;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 9999px;
+      padding: 0.5rem 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .profile-badge:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .profile-badge i {
+      margin-right: 0.5rem;
+    }
+
+    .profile-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 1rem;
+    }
+
+    .profile-grid-item {
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 0.5rem;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .profile-grid-item p:first-child {
+      font-size: 0.875rem;
+      color: rgba(255, 255, 255, 0.7);
+      margin-bottom: 0.25rem;
+    }
+
+    .profile-grid-item p:last-child {
+      font-weight: 500;
+    }
+
+    /* Add these styles to your CSS section */
+    #quiz-interface {
+      display: flex;
+      flex-direction: column;
+      height: calc(100vh - 70px);
+      /* Adjust based on your header height */
+      max-height: calc(100vh - 70px);
+      overflow: hidden;
+    }
+
+    #question-container {
+      flex: 1;
+      overflow-y: auto;
+      padding-bottom: 10px;
+      /* Space for sticky controls */
+    }
+
+    .quiz-controls-container {
+      position: sticky;
+      bottom: 0;
+      background: white;
+      padding: 1rem;
+      border-top: 1px solid #e5e7eb;
+      z-index: 10;
+    }
+
+    .dark .quiz-controls-container {
+      background: #1f2937;
+      border-top: 1px solid #374151;
+    }
+
+    /* Ensure question container has proper spacing */
+    #question-container>.relative {
+      padding-bottom: 0.3rem;
+    }
+
+    /* Adjust progress bar position */
+    #quiz-interface>.mb-8:first-child {
+      position: sticky;
+      top: 0;
+      background: white;
+      z-index: 10;
+      padding: 1rem 0;
+      margin-bottom: 0;
+    }
+
+    .dark #quiz-interface>.mb-8:first-child {
+      background: #1f2937;
+    }
+
+    /* Adjust feedback area margin */
+    #feedback-area {
+      margin-bottom: 80px;
+      /* Space for sticky controls */
+    }
+
+    .random-bg {
+      background-image: url('https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80');
+    }
+
+    .random-bg {
+      background-image: url('https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80');
+      background-size: cover;
+      background-position: center;
+      opacity: 0.1;
+    }
+
+    /* Ensure controls stay above content */
+.quiz-controls-container {
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dark .quiz-controls-container {
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Ensure options don't overlap controls */
+#mcq-options {
+  margin-bottom: 20px;
+}
+
+/* Improved Mobile Responsiveness */
+@media (max-width: 640px) {
+  /* Quiz Interface Layout */
+  #quiz-interface {
+    height: 100vh;
+    max-height: -webkit-fill-available;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  /* Header Section */
+  #quiz-interface > div:first-child {
+    padding: 0.5rem;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 20;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .dark #quiz-interface > div:first-child {
+    background: #1f2937;
+  }
+
+  /* Progress Bar */
+  .mb-4 {
+    margin-bottom: 0.5rem;
+    padding: 0 0.5rem;
+  }
+
+  /* Question Container */
+  #question-container {
+    flex: 1;
+    padding: 0.5rem;
+    overflow-y: auto;
+    margin-bottom: 0;
+  }
+
+  /* Question Text */
+  #question-text {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Options */
+  #mcq-options {
+    margin-bottom: 0.5rem;
+  }
+  
+  #mcq-options button {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* True/False Buttons */
+  #truefalse-options {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  #truefalse-options button {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  /* Fill Blank */
+  #fillblank-input {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  /* Controls Container */
+  .quiz-controls-container {
+    position: sticky;
+    bottom: 0;
+    padding: 0.75rem;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+  }
+
+  /* Feedback Area */
+  #feedback-area {
+    margin-bottom: 0;
+    padding: 0.5rem;
+  }
+
+  /* Adjust header elements */
+  #quiz-interface > div:first-child > div:first-child h1 {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  #quiz-interface > div:first-child > div:first-child p {
+    font-size: 0.8rem;
+  }
+  
+  #quiz-interface > div:first-child > div:last-child {
+    gap: 0.5rem;
+  }
+  
+  #quiz-interface > div:first-child > div:last-child > div {
+    font-size: 0.8rem;
+  }
+  
+  /* Question type badge */
+  #question-type-badge {
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 400px) {
+  #question-text {
+    font-size: 0.9rem;
+  }
+  
+  #mcq-options button,
+  #truefalse-options button {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .quiz-controls-container button {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 640px) {
+  #quiz-complete-modal {
+    align-items: flex-start;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    overflow-y: auto;
+  }
+
+  #quiz-complete-modal .modal-container {
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+
+  #quiz-complete-modal .grid {
+    grid-template-columns: 1fr;
+  }
+
+  #quiz-complete-modal .flex-col {
+    flex-direction: column;
+  }
+
+  #quiz-complete-modal .flex-col button {
+    margin-bottom: 0.5rem;
+  }
+}
+/* Urdu direction for quiz interface only */
+#quiz-interface.urdu {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Ensure other elements maintain LTR */
+header, 
+footer, 
+#quiz-start-modal, 
+#quiz-complete-modal, 
+#profile-modal {
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+/* Fix for RTL layout issues */
+#quiz-interface.urdu #mcq-options button {
+  text-align: right;
+}
+
+#quiz-interface.urdu .truefalse-btn {
+  flex-direction: row-reverse;
+}
+  </style>
+</head>
+
+<body class="bg-bgLight text-textDark transition-colors duration-300">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-primary text-white shadow-md">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <i class="fas fa-brain text-2xl text-accent"></i>
+        <a href="index.html" class="text-xl font-bold">QuizVerse</a>
+      </div>
+
+      <div class="hidden md:flex space-x-6">
+        <a href="index.html" class="hover:text-accent transition">Home</a>
+        <a href="learning-categories.html" class="hover:text-accent transition">Categories</a>
+                <a href="learning-categories.html" class="hover:text-accent transition">Learning Hub</a>
+<a href="flashcards.html" class="hover:text-accent transition">Flashcards</a>
+  <a href="personality.html" class="hover:text-accent transition">Personality Tests</a>
+      </div>
+
+      <div class="flex items-center space-x-4">
+
+        <button id="theme-toggle" class="p-2 rounded-full hover:bg-secondary transition-colors"
+          aria-label="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun hidden"></i>
+        </button>
+
+        <button id="mobile-menu-button" class="md:hidden p-2 rounded-full hover:bg-secondary">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <button data-action="sign-in"
+          class="hidden md:block bg-accent hover:bg-yellow-500 text-textDark font-medium px-4 py-2 rounded-lg transition">
+          Sign In
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="md:hidden hidden bg-secondary text-white px-4 py-2">
+      <div class="flex flex-col space-y-3">
+        <a href="index.html" class="hover:text-accent transition">Home</a>
+        <a href="learning-categories.html" class="hover:text-accent transition">Categories</a>
+                <a href="learning-categories.html" class="hover:text-accent transition">Learning Hub</a>
+<a href="flashcards.html" class="hover:text-accent transition">Flashcards</a>
+  <a href="personality.html" class="hover:text-accent transition">Personality Tests</a>
+        <button data-action="sign-in"
+          class="sign-in-btn bg-accent hover:bg-yellow-500 text-textDark font-medium px-4 py-2 rounded-lg transition">
+          Sign In
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Quiz Container -->
+  <main class="container mx-auto px-4 py-8 min-h-screen bg-white dark:bg-gray-800">
+    <!-- Quiz Start Modal -->
+    <div id="quiz-start-modal"
+      class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 modal-enter-active overflow-y-auto py-4">
+      <div class="quiz-start-modal-content rounded-xl max-w-2xl w-full mx-4 shadow-2xl overflow-hidden">
+        <div class="quiz-header flex justify-between items-center">
+          <div>
+            <h2 id="quiz-category-title" class="text-2xl font-bold"></h2>
+            <p class="text-sm opacity-80" id="quiz-difficulty">Medium Difficulty • 10 Questions</p>
+          </div>
+          <div id="quiz-language-display" class="text-sm px-3 py-1 rounded-full bg-white/20 backdrop-blur-sm">English
+          </div>
+        </div>
+
+        <div class="p-8 overflow-y-auto flex-grow">
+          <div class="mb-8">
+            <div class="flex items-center justify-between mb-4">
+              <h3 class="text-lg font-semibold flex items-center">
+                <i class="fas fa-trophy text-accent mr-2"></i>
+                <span id="quiz-rules-title">Quiz Rules</span>
+              </h3>
+              <div class="flex items-center">
+                <i class="fas fa-clock text-primary mr-1"></i>
+                <span id="quiz-time-estimate">2 min</span>
+              </div>
+            </div>
+
+            <ul class="quiz-rules space-y-3">
+              <li class="flex items-start p-3 rounded-lg bg-white/10 backdrop-blur-sm">
+                <div class="bg-primary text-white p-1 rounded-full mr-3">
+                  <i class="fas fa-check text-xs"></i>
+                </div>
+                <div>
+                  <span id="rule1" class="font-medium">10 questions to test your knowledge</span>
+                  <p class="text-sm opacity-80 mt-1">Covering various aspects of this topic</p>
+                </div>
+              </li>
+              <li class="flex items-start p-3 rounded-lg bg-white/10 backdrop-blur-sm">
+                <div class="bg-primary text-white p-1 rounded-full mr-3">
+                  <i class="fas fa-clock text-xs"></i>
+                </div>
+                <div>
+                  <span id="rule2" class="font-medium">Time limit: 1-2 minutes per question</span>
+                  <p class="text-sm opacity-80 mt-1">Think fast but stay accurate</p>
+                </div>
+              </li>
+              <li class="flex items-start p-3 rounded-lg bg-white/10 backdrop-blur-sm">
+                <div class="bg-primary text-white p-1 rounded-full mr-3">
+                  <i class="fas fa-lightbulb text-xs"></i>
+                </div>
+                <div>
+                  <span id="rule3" class="font-medium">Hints available after wrong answers</span>
+                  <p class="text-sm opacity-80 mt-1">3 hints per quiz to help you learn</p>
+                </div>
+              </li>
+              <li class="flex items-start p-3 rounded-lg bg-white/10 backdrop-blur-sm">
+                <div class="bg-primary text-white p-1 rounded-full mr-3">
+                  <i class="fas fa-chart-line text-xs"></i>
+                </div>
+                <div>
+                  <span id="rule4" class="font-medium">Progress tracked automatically</span>
+                  <p class="text-sm opacity-80 mt-1">See your improvement over time</p>
+                </div>
+              </li>
+              <li class="flex items-start p-3 rounded-lg bg-white/10 backdrop-blur-sm">
+                <div class="bg-primary text-white p-1 rounded-full mr-3">
+                  <i class="fas fa-smile text-xs"></i>
+                </div>
+                <div>
+                  <span id="rule5" class="font-medium">Stay focused & have fun!</span>
+                  <p class="text-sm opacity-80 mt-1">Learning should be enjoyable</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="p-8 pt-0">
+          <div class="flex flex-col sm:flex-row justify-between items-center gap-6">
+            <div class="flex flex-col space-y-4 w-full sm:w-auto">
+              <label class="flex items-center cursor-pointer">
+                <div class="relative">
+                  <input type="checkbox" id="sound-toggle" class="sr-only" checked>
+                  <div class="block bg-gray-300 w-12 h-6 rounded-full"></div>
+                  <div class="dot absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition"></div>
+                </div>
+                <div class="ml-3 text-sm font-medium" id="sound-label">
+                  Sound Effects
+                </div>
+              </label>
+
+              <label class="flex items-center cursor-pointer">
+                <div class="relative">
+                  <input type="checkbox" id="vibration-toggle" class="sr-only" checked>
+                  <div class="block bg-gray-300 w-12 h-6 rounded-full"></div>
+                  <div class="dot absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition"></div>
+                </div>
+                <div class="ml-3 text-sm font-medium" id="vibration-label">
+                  Vibration
+                </div>
+              </label>
+            </div>
+
+            <button id="start-quiz-btn"
+              class="start-quiz-btn text-white px-8 py-3 rounded-lg font-medium flex items-center justify-center w-full sm:w-auto">
+              <i class="fas fa-play mr-2"></i>
+              <span id="start-quiz-text">Start Quiz</span>
+              <i class="fas fa-arrow-right ml-2"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quiz Interface (hidden initially) -->
+    <div id="quiz-interface" class="hidden bg-white dark:bg-gray-800">
+      <!-- Quiz Header -->
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
+        <div class="mb-2 md:mb-0">
+          <h1 id="current-quiz-category" class="text-2xl font-bold text-gray-800 dark:text-white"></h1>
+          <p id="current-quiz-description" class="text-gray-600 dark:text-gray-300"></p>
+        </div>
+
+        <div class="flex items-center space-x-6">
+          <!-- Streak Counter -->
+          <div id="streak-counter" class="hidden bg-accent/10 text-accent px-3 py-1 rounded-full flex items-center">
+            <i class="fas fa-fire mr-1"></i>
+            <span id="streak-count">0</span>
+          </div>
+
+          <!-- Timer -->
+          <div class="flex items-center">
+            <i class="fas fa-clock text-primary mr-2"></i>
+            <span id="quiz-timer" class="font-medium text-gray-800 dark:text-white">02:00</span>
+          </div>
+
+          <!-- Progress -->
+          <div class="flex items-center">
+            <span id="current-question-num" class="font-medium text-gray-800 dark:text-white">1</span>
+            <span class="mx-1">/</span>
+            <span id="total-questions" class="text-gray-800 dark:text-white">10</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Progress Bar -->
+      <div class="mb-4">
+        <div class="flex justify-between text-sm text-gray-500 dark:text-gray-400 mb-1">
+          <span id="progress-text">Question 1 of 10</span>
+          <span id="progress-percent">10%</span>
+        </div>
+        <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
+          <div id="progress-bar" class="bg-primary h-2.5 rounded-full" style="width: 10%"></div>
+        </div>
+      </div>
+
+      <!-- Question Container -->
+      <div id="question-container"
+        class="bg-white dark:bg-gray-800 rounded-xl pl-6 pr-6 pt-4 pb-4 shadow-md mb-8 relative overflow-hidden">
+        <!-- Background for category -->
+        <div id="category-bg" class="category-bg"></div>
+
+        <!-- Question Content -->
+        <div class="relative z-10">
+          <!-- Question Type Badge -->
+          <div id="question-type-badge" class="inline-block text-xs font-medium px-2 py-1 rounded mb-4"></div>
+
+          <!-- Question Text -->
+          <h2 id="question-text" class="text-xl font-semibold mb-4 dark:text-white"></h2>
+
+          <!-- Options Container (for MCQ) -->
+          <div id="mcq-options" class="space-y-3 hidden">
+            <!-- Options will be inserted here by JavaScript -->
+          </div>
+
+          <!-- True/False Options -->
+          <div id="truefalse-options" class="flex space-x-4 hidden">
+            <button
+              class="truefalse-btn bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-medium flex-1 transition"
+              data-answer="true">
+              <i class="fas fa-check mr-2"></i>
+              <span id="true-text">True</span>
+            </button>
+            <button
+              class="truefalse-btn bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg font-medium flex-1 transition"
+              data-answer="false">
+              <i class="fas fa-times mr-2"></i>
+              <span id="false-text">False</span>
+            </button>
+          </div>
+
+          <!-- Fill in Blank Input -->
+          <div id="fillblank-container" class="hidden">
+            <input type="text" id="fillblank-input"
+              class="w-full p-4 border rounded-lg focus:ring-2 focus:ring-primary dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+              placeholder="Type your answer here...">
+            <button id="submit-fillblank"
+              class="mt-4 bg-primary hover:bg-green-700 text-white px-6 py-2 rounded-lg transition font-medium">
+              <span id="submit-answer-text">Submit Answer</span>
+            </button>
+          </div>
+
+          <!-- Matching Pairs (if implemented) -->
+          <div id="matching-container" class="hidden">
+            <!-- Would contain drag-and-drop or select pairs -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Quiz Controls -->
+      <div class="quiz-controls-container">
+        <div class="flex justify-between">
+          <button id="hint-btn"
+            class="bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded-lg transition font-medium flex items-center dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-200">
+            <i class="fas fa-lightbulb mr-2"></i>
+            <span id="hint-text">Hint</span>
+            <span id="hint-count" class="ml-2 bg-gray-300 px-2 py-0.5 rounded-full text-xs dark:bg-gray-600">3</span>
+          </button>
+
+          <div class="flex space-x-3">
+            <button id="skip-btn"
+              class="bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded-lg transition font-medium flex items-center dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-200">
+              <i class="fas fa-forward mr-2"></i>
+              <span id="skip-text">Skip</span>
+            </button>
+            <button id="next-btn"
+              class="bg-primary hover:bg-green-700 text-white px-6 py-2 rounded-lg transition font-medium hidden ">
+              <span id="next-text">Next Question</span>
+              <i class="fas fa-arrow-right ml-2"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feedback Area -->
+      <div id="feedback-area" class="mt-6 hidden">
+        <div id="correct-feedback"
+          class="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg mb-4 hidden dark:bg-green-900/30 dark:border-green-700">
+          <div class="flex items-start">
+            <i class="fas fa-check-circle text-green-500 mt-1 mr-3 text-xl dark:text-green-300"></i>
+            <div>
+              <h3 class="font-bold text-green-700 mb-1 dark:text-green-200" id="correct-text">Correct!</h3>
+              <p id="correct-explanation" class="text-green-700 dark:text-green-200"></p>
+            </div>
+          </div>
+        </div>
+
+        <div id="wrong-feedback"
+          class="bg-red-50 border-l-4 border-red-500 p-4 rounded-r-lg hidden dark:bg-red-900/30 dark:border-red-700">
+          <div class="flex items-start">
+            <i class="fas fa-times-circle text-red-500 mt-1 mr-3 text-xl dark:text-red-300"></i>
+            <div>
+              <h3 class="font-bold text-red-700 mb-1 dark:text-red-200" id="wrong-text">Incorrect!</h3>
+              <p id="wrong-explanation" class="text-red-700 dark:text-red-200"></p>
+              <div id="hint-display" class="mt-2 p-2 bg-yellow-50 rounded hidden dark:bg-yellow-900/20">
+                <i class="fas fa-lightbulb text-yellow-500 mr-2 dark:text-yellow-300"></i>
+                <span id="hint-content" class="text-yellow-700 dark:text-yellow-200"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quiz Complete Modal -->
+    <div id="quiz-complete-modal"
+      class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden overflow-y-auto py-4 ">
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-8 max-w-2xl w-full mx-4 shadow-2xl text-center">
+        <!-- Close button -->
+        <button onclick="closeModal('quiz-complete-modal')"
+          class="absolute top-20 right-12 text-white hover:text-gray-700 dark:hover:text-gray-300">
+          <i class="fas fa-times text-2xl"></i>
+        </button>
+
+        <div class="mb-6">
+          <div id="result-icon"
+            class="w-20 h-20 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center mx-auto mb-4 float-animation">
+            <i class="fas fa-trophy text-4xl text-green-500 dark:text-green-300"></i>
+          </div>
+          <h2 id="result-title" class="text-2xl font-bold mb-2 dark:text-white">Quiz Complete!</h2>
+          <p id="result-subtitle" class="text-gray-600 dark:text-gray-300">Great job completing the quiz</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+          <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg transform hover:scale-105 transition">
+            <div class="text-3xl font-bold text-green-500 dark:text-green-300 mb-1" id="correct-answers">8</div>
+            <div class="text-sm text-gray-600 dark:text-gray-300" id="correct-label">Correct</div>
+          </div>
+          <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg transform hover:scale-105 transition">
+            <div class="text-3xl font-bold text-red-500 dark:text-red-300 mb-1" id="wrong-answers">2</div>
+            <div class="text-sm text-gray-600 dark:text-gray-300" id="wrong-label">Wrong</div>
+          </div>
+          <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg transform hover:scale-105 transition">
+            <div class="text-3xl font-bold text-primary dark:text-green-300 mb-1" id="time-taken">1:40</div>
+            <div class="text-sm text-gray-600 dark:text-gray-300" id="time-label">Time</div>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <button id="retry-btn"
+            class="bg-gray-200 hover:bg-gray-300 text-gray-700 px-6 py-3 rounded-lg transition font-medium flex items-center justify-center dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-200">
+            <i class="fas fa-redo mr-2"></i>
+            <span id="retry-text">Retry Quiz</span>
+          </button>
+          <button id="download-btn"
+            class="bg-primary hover:bg-green-700 text-white px-6 py-3 rounded-lg transition font-medium flex items-center justify-center">
+            <i class="fas fa-download mr-2"></i>
+            <span id="download-text">Download Result</span>
+          </button>
+          <button id="learn-btn"
+            class="bg-accent hover:bg-yellow-500 text-textDark px-6 py-3 rounded-lg transition font-medium flex items-center justify-center">
+            <i class="fas fa-book mr-2"></i>
+            <span id="learn-text">Learn First</span>
+          </button>
+          <button id="categories-btn"
+            class="bg-gray-200 hover:bg-gray-300 text-gray-700 px-6 py-3 rounded-lg transition font-medium flex items-center justify-center dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-200">
+            <i class="fas fa-list mr-2"></i>
+            <span id="categories-text">Back to Categories</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Loading State -->
+    <div id="loading-state" class="flex flex-col items-center justify-center py-20">
+      <div class="w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin mb-4"></div>
+      <p id="loading-text" class="text-gray-600 dark:text-gray-300">Loading quiz questions...</p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-12">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <div class="flex items-center space-x-2 mb-4">
+            <i class="fas fa-brain text-2xl text-accent"></i>
+            <span class="text-xl font-bold">QuizVerse</span>
+          </div>
+          <p class="text-gray-400 mb-4">Your gateway to interactive learning and knowledge exploration.</p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="text-lg font-bold mb-4">Explore</h4>
+          <ul class="space-y-2">
+            <li><a href="categories.html" class="text-gray-400 hover:text-white transition">Categories</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Learning Paths</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Daily Challenges</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Knowledge Hub</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Community</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-bold mb-4">Resources</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Help Center</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Learning Tips</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Blog</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Webinars</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Educator Resources</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-bold mb-4">Get In Touch</h4>
+          <ul class="space-y-2">
+            <li class="flex items-start space-x-2">
+              <i class="fas fa-envelope mt-1 text-gray-400"></i>
+              <a href="mailto:info@quizverse.com"
+                class="text-gray-400 hover:text-white transition">info@quizverse.com</a>
+            </li>
+            <li class="flex items-start space-x-2">
+              <i class="fas fa-phone-alt mt-1 text-gray-400"></i>
+              <a href="tel:+1234567890" class="text-gray-400 hover:text-white transition">+1 (234) 567-890</a>
+            </li>
+            <li class="flex items-start space-x-2">
+              <i class="fas fa-map-marker-alt mt-1 text-gray-400"></i>
+              <span class="text-gray-400">123 Knowledge St, Learning City</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 pt-6 text-center text-gray-400 text-sm">
+        <p>© 2023 QuizVerse. All rights reserved. | <a href="#" class="hover:text-white transition">Privacy Policy</a> |
+          <a href="#" class="hover:text-white transition">Terms of Service</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- Add this modal HTML before the closing tag -->
+  <div id="profile-modal" class="modal-overlay hidden">
+    <div class="modal-container">
+      <div class="p-6">
+        <div class="flex justify-between items-center mb-4">
+          <h3 class="text-2xl font-bold text-brand dark:text-white">Create Your Profile</h3>
+          <button onclick="closeModal('profile-modal')"
+            class="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <form id="profile-form" class="space-y-4">
+          <div>
+            <label for="profile-name" class="block mb-2 mt-2 font-medium">Name</label>
+            <input type="text" id="profile-name" name="name" required minlength="2"
+              class="w-full bg-bgLight dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-brand"
+              placeholder="👤 Your name">
+            <div id="name-error" class="text-red-500 text-sm mt-1 hidden">Please enter a valid name (at least 2
+              characters)</div>
+          </div>
+
+          <div>
+            <label for="profile-country" class="block mb-2 mt-2 font-medium">Country</label>
+            <select id="profile-country" name="country" required
+              class="w-full bg-bgLight dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-brand">
+              <option value="">Select your country</option>
+              <option value="AF">Afghanistan</option>
+              <option value="AL">Albania</option>
+              <option value="DZ">Algeria</option>
+              <option value="AR">Argentina</option>
+              <option value="AU">Australia</option>
+              <option value="AT">Austria</option>
+              <option value="BH">Bahrain</option>
+              <option value="BD">Bangladesh</option>
+              <option value="BR">Brazil</option>
+              <option value="CA">Canada</option>
+              <option value="CN">China</option>
+              <option value="EG">Egypt</option>
+              <option value="FR">France</option>
+              <option value="DE">Germany</option>
+              <option value="IN">India</option>
+              <option value="ID">Indonesia</option>
+              <option value="IR">Iran</option>
+              <option value="IQ">Iraq</option>
+              <option value="IT">Italy</option>
+              <option value="JP">Japan</option>
+              <option value="JO">Jordan</option>
+              <option value="KW">Kuwait</option>
+              <option value="LB">Lebanon</option>
+              <option value="MY">Malaysia</option>
+              <option value="MX">Mexico</option>
+              <option value="MA">Morocco</option>
+              <option value="NP">Nepal</option>
+              <option value="PK">Pakistan</option>
+              <option value="PS">Palestine</option>
+              <option value="PH">Philippines</option>
+              <option value="QA">Qatar</option>
+              <option value="RU">Russia</option>
+              <option value="SA">Saudi Arabia</option>
+              <option value="SG">Singapore</option>
+              <option value="ZA">South Africa</option>
+              <option value="KR">South Korea</option>
+              <option value="ES">Spain</option>
+              <option value="LK">Sri Lanka</option>
+              <option value="SE">Sweden</option>
+              <option value="CH">Switzerland</option>
+              <option value="SY">Syria</option>
+              <option value="TH">Thailand</option>
+              <option value="TR">Turkey</option>
+              <option value="AE">United Arab Emirates</option>
+              <option value="GB">United Kingdom</option>
+              <option value="US">United States</option>
+              <option value="VN">Vietnam</option>
+              <option value="YE">Yemen</option>
+              <option value="ZW">Zimbabwe</option>
+            </select>
+            <div id="country-error" class="text-red-500 text-sm mt-1 hidden">Please select your country</div>
+          </div>
+
+          <div>
+            <label for="profile-age" class="block mb-2 mt-2 font-medium">Age</label>
+            <input type="number" id="profile-age" name="age" required min="5" max="99"
+              class="w-full bg-bgLight dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-brand"
+              placeholder="Your age">
+            <div id="age-error" class="text-red-500 text-sm mt-1 hidden">Please enter a valid age (5-99)</div>
+          </div>
+
+          <div>
+            <label for="profile-level" class="block mb-2 mt-2 font-medium">Level</label>
+            <select id="profile-level" name="level" required
+              class="w-full bg-bgLight dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-brand">
+              <option value="">Select your level</option>
+              <option value="student">Student</option>
+              <option value="kid">Kid</option>
+              <option value="adult">Adult</option>
+              <option value="teacher">Teacher</option>
+              <option value="pro">Pro Learner</option>
+              <option value="parent">Parent</option>
+              <option value="senior">Senior</option>
+            </select>
+            <div id="level-error" class="text-red-500 text-sm mt-1 hidden">Please select your level</div>
+          </div>
+
+          <div>
+            <label for="profile-gender" class="block mb-2 mt-2 font-medium">Gender</label>
+            <select id="profile-gender" name="gender" required
+              class="w-full bg-bgLight dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-brand">
+              <option value="">Select your gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+              <option value="prefer-not">Prefer not to say</option>
+            </select>
+            <div id="gender-error" class="text-red-500 text-sm mt-1 hidden">Please select your gender</option>
+            </div>
+
+            <div>
+              <label for="profile-email" class="block mb-2 mt-2 font-medium">Email (optional)</label>
+              <input type="email" id="profile-email" name="email"
+                class="w-full bg-bgLight dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-brand"
+                placeholder="📧 your@email.com">
+            </div>
+
+            <div>
+              <label for="profile-password" class="block mb-2 mt-2 font-medium">Create Password</label>
+              <input type="password" id="profile-password" name="password" minlength="6"
+                class="w-full bg-bgLight dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-brand"
+                placeholder="At least 6 characters" required>
+              <div id="password-error" class="text-red-500 text-sm mt-1 hidden">Password must be at least 6 characters
+              </div>
+            </div>
+
+            <div id="profile-success"
+              class="hidden p-3 mt-2 bg-green-500/20 rounded-lg text-green-700 dark:text-green-300 mb-4">
+              <i class="fas fa-check-circle mr-2"></i> Profile saved successfully!
+            </div>
+
+            <div id="profile-error"
+              class="hidden mt-2 p-3 bg-red-500/20 rounded-lg text-red-700 dark:text-red-300 mb-4">
+              <i class="fas fa-exclamation-circle mr-2"></i> There was an error saving your profile. Please try again.
+            </div>
+
+            <div class="flex flex-col sm:flex-row justify-between mt-4 gap-3">
+              <button type="button" onclick="skipProfile()"
+                class="px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700 transition">
+                Skip for Now
+              </button>
+              <button type="submit"
+                class="bg-brand hover:bg-secondary text-white px-4 py-2 rounded-lg transition flex-1">
+                Save and Continue <i class="fas fa-arrow-right ml-2"></i>
+              </button>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Confetti Container -->
+  <div id="confetti-container" class="fixed inset-0 pointer-events-none z-50 overflow-hidden hidden"></div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // DOM Elements
+      const elements = {
+        quizStartModal: document.getElementById('quiz-start-modal'),
+        quizCompleteModal: document.getElementById('quiz-complete-modal'),
+        quizCategoryTitle: document.getElementById('quiz-category-title'),
+        quizLanguageDisplay: document.getElementById('quiz-language-display'),
+        quizDifficulty: document.getElementById('quiz-difficulty'),
+        quizTimeEstimate: document.getElementById('quiz-time-estimate'),
+        currentQuizCategory: document.getElementById('current-quiz-category'),
+        currentQuizDescription: document.getElementById('current-quiz-description'),
+        quizInterface: document.getElementById('quiz-interface'),
+        loadingState: document.getElementById('loading-state'),
+        loadingText: document.getElementById('loading-text'),
+        questionContainer: document.getElementById('question-container'),
+        questionText: document.getElementById('question-text'),
+        questionTypeBadge: document.getElementById('question-type-badge'),
+        mcqOptions: document.getElementById('mcq-options'),
+        truefalseOptions: document.getElementById('truefalse-options'),
+        fillblankContainer: document.getElementById('fillblank-container'),
+        fillblankInput: document.getElementById('fillblank-input'),
+        submitFillblank: document.getElementById('submit-fillblank'),
+        matchingContainer: document.getElementById('matching-container'),
+        currentQuestionNum: document.getElementById('current-question-num'),
+        totalQuestions: document.getElementById('total-questions'),
+        progressBar: document.getElementById('progress-bar'),
+        progressText: document.getElementById('progress-text'),
+        progressPercent: document.getElementById('progress-percent'),
+        quizTimer: document.getElementById('quiz-timer'),
+        streakCounter: document.getElementById('streak-counter'),
+        streakCount: document.getElementById('streak-count'),
+        hintBtn: document.getElementById('hint-btn'),
+        hintCount: document.getElementById('hint-count'),
+        skipBtn: document.getElementById('skip-btn'),
+        nextBtn: document.getElementById('next-btn'),
+        feedbackArea: document.getElementById('feedback-area'),
+        correctFeedback: document.getElementById('correct-feedback'),
+        correctExplanation: document.getElementById('correct-explanation'),
+        wrongFeedback: document.getElementById('wrong-feedback'),
+        wrongExplanation: document.getElementById('wrong-explanation'),
+        hintDisplay: document.getElementById('hint-display'),
+        hintContent: document.getElementById('hint-content'),
+        correctAnswers: document.getElementById('correct-answers'),
+        wrongAnswers: document.getElementById('wrong-answers'),
+        timeTaken: document.getElementById('time-taken'),
+        resultIcon: document.getElementById('result-icon'),
+        resultTitle: document.getElementById('result-title'),
+        resultSubtitle: document.getElementById('result-subtitle'),
+        correctLabel: document.getElementById('correct-label'),
+        wrongLabel: document.getElementById('wrong-label'),
+        timeLabel: document.getElementById('time-label'),
+        startQuizBtn: document.getElementById('start-quiz-btn'),
+        retryBtn: document.getElementById('retry-btn'),
+        downloadBtn: document.getElementById('download-btn'),
+        learnBtn: document.getElementById('learn-btn'),
+        soundToggle: document.getElementById('sound-toggle'),
+        vibrationToggle: document.getElementById('vibration-toggle'),
+        soundLabel: document.getElementById('sound-label'),
+        vibrationLabel: document.getElementById('vibration-label'),
+        languageToggle: document.getElementById('language-toggle'),
+        trueText: document.getElementById('true-text'),
+        falseText: document.getElementById('false-text'),
+        submitAnswerText: document.getElementById('submit-answer-text'),
+        hintText: document.getElementById('hint-text'),
+        skipText: document.getElementById('skip-text'),
+        nextText: document.getElementById('next-text'),
+        correctText: document.getElementById('correct-text'),
+        wrongText: document.getElementById('wrong-text'),
+        retryText: document.getElementById('retry-text'),
+        downloadText: document.getElementById('download-text'),
+        learnText: document.getElementById('learn-text'),
+        startQuizText: document.getElementById('start-quiz-text'),
+        quizRulesTitle: document.getElementById('quiz-rules-title'),
+        rule1: document.getElementById('rule1'),
+        rule2: document.getElementById('rule2'),
+        rule3: document.getElementById('rule3'),
+        rule4: document.getElementById('rule4'),
+        rule5: document.getElementById('rule5'),
+        categoryBg: document.getElementById('category-bg'),
+        confettiContainer: document.getElementById('confetti-container'),
+        themeToggle: document.getElementById('theme-toggle'),
+        moonIcon: document.querySelector('#theme-toggle .fa-moon'),
+        sunIcon: document.querySelector('#theme-toggle .fa-sun'),
+        categoriesBtn: document.getElementById('categories-btn')
+      };
+
+      // Quiz State
+      const state = {
+        questions: [],
+        currentQuestionIndex: 0,
+        score: 0,
+        wrongAnswers: 0,
+        skippedQuestions: 0,
+        streak: 0,
+        timer: null,
+        timeRemaining: 0,
+        totalTime: 0,
+        startTime: null,
+        hintsUsed: 0,
+        maxHints: 3,
+        isUrdu: false,
+        soundEnabled: true,
+        vibrationEnabled: true,
+        quizData: null,
+        category: '',
+        quizType: '',
+        language: 'en',
+        isDarkMode: localStorage.getItem('darkMode') === 'true',
+        answeredQuestions: []
+      };
+
+      // Initialize the quiz
+      function initQuiz() {
+       // Sync dark mode with system preference and other pages
+  const savedMode = localStorage.getItem('theme');
+  const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  
+  // Determine initial dark mode state
+  state.isDarkMode = savedMode ? savedMode === 'dark' : systemPrefersDark;
+  
+  // Apply dark mode
+  if (state.isDarkMode) {
+    document.documentElement.classList.add('dark');
+    elements.moonIcon.classList.add('hidden');
+    elements.sunIcon.classList.remove('hidden');
+  } else {
+    document.documentElement.classList.remove('dark');
+    elements.moonIcon.classList.remove('hidden');
+    elements.sunIcon.classList.add('hidden');
+  }
+
+        // Parse URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        state.category = urlParams.get('cat') || 'general_knowledge';
+        state.quizType = urlParams.get('type') || 'mcq';
+        const langParam = urlParams.get('lang');
+        state.isRandom = urlParams.get('random') === 'true';
+        state.randomCategories = urlParams.get('cats') ? urlParams.get('cats').split(',') : [];
+
+        // Set language
+        if (langParam) {
+          state.language = langParam;
+          state.isUrdu = langParam === 'ur';
+          if (elements.languageToggle) {
+            elements.languageToggle.checked = state.isUrdu;
+          }
+        } else {
+          const savedLang = localStorage.getItem('preferredLanguage') ||
+            (navigator.language.startsWith('ur') ? 'ur' : 'en');
+          state.language = savedLang;
+          state.isUrdu = savedLang === 'ur';
+          if (elements.languageToggle) {
+            elements.languageToggle.checked = state.isUrdu;
+          }
+        }
+
+        // Update UI based on language
+        updateLanguageUI();
+        adjustQuizHeight()
+        adjustQuizLayout();
+
+
+        // Set category title
+        const categoryMap = {
+          'general_knowledge': 'General Knowledge',
+          'pakistan_studies': 'Pakistan Studies',
+          'science_nature': 'Science & Nature',
+          'technology': 'Technology',
+          'islamic_studies': 'Islamic Studies',
+          'urdu_poetry': 'Urdu Poetry',
+          'history': 'World History',
+          'math': 'Mathematics',
+          'arts_culture': 'Arts & Culture',
+          'kids': 'Kids Special',
+          'world_facts': 'World Facts',
+          'flags_countries': 'Flags & Countries',
+          'capitals': 'Capitals',
+          'nobel_prize': 'Nobel Prize',
+          'famous_landmarks': 'Famous Landmarks',
+          'inventions': 'Inventions',
+          'olympics': 'Olympics',
+          'currency': 'Currency',
+          'time_zones': 'Time Zones',
+          'space_galaxy': 'Space & Galaxy',
+          'physics': 'Physics',
+          'chemistry': 'Chemistry',
+          'biology': 'Biology',
+          'human_body': 'Human Body',
+          'environmental_science': 'Environmental Science',
+          'nature_life': 'Nature & Life',
+          'medical_fields': 'Medical Fields',
+          'geology': 'Geology',
+          'weather': 'Weather',
+          'computers': 'Computers',
+          'internet': 'Internet',
+          'mobile_technology': 'Mobile Technology',
+          'programming_basics': 'Programming Basics',
+          'ai_robotics': 'AI & Robotics',
+          'cyber_safety': 'Cyber Safety',
+          'web_development': 'Web Development',
+          'gadgets': 'Gadgets',
+          'tech_companies': 'Tech Companies',
+          'arithmetic': 'Arithmetic',
+          'algebra': 'Algebra',
+          'geometry': 'Geometry',
+          'mental_math': 'Mental Math',
+          'world_art': 'World Art',
+          'painting_design': 'Painting & Design',
+          'music': 'Music',
+          'theatre': 'Theatre',
+          'dance': 'Dance',
+          'film_cinema': 'Film & Cinema',
+          'photography': 'Photography',
+          'architecture': 'Architecture',
+          'fashion': 'Fashion',
+          'languages_literature': 'Languages & Literature',
+          'english_grammar': 'English Grammar',
+          'vocabulary': 'Vocabulary',
+          'famous_poets': 'Famous Poets',
+          'biographies': 'Biographies',
+          'proverbs_idioms': 'Proverbs & Idioms',
+          'world_literature': 'World Literature',
+          'storytelling': 'Storytelling',
+          'translation': 'Translation',
+          'quran_hadith': 'Quran & Hadith',
+          'islamic_history': 'Islamic History',
+          'prophets_stories': 'Prophets Stories',
+          'seerah': 'Seerah',
+          'islamic_ethics': 'Islamic Ethics',
+          'pillars_of_islam': 'Pillars of Islam',
+          'fiqh_basics': 'Fiqh Basics',
+          'sahabah': 'Sahabah',
+          'dua_azkar': 'Dua & Azkar',
+          'world_wars': 'World Wars',
+          'ancient_civilizations': 'Ancient Civilizations',
+          'mughals': 'Mughals',
+          'tareekh_e_pakistan': 'Tareekh-e-Pakistan',
+          'kids_special': 'Kids Special',
+          'animals': 'Animals',
+          'birds': 'Birds',
+          'shapes_colors': 'Shapes & Colors',
+          'riddles_rhymes': 'Riddles & Rhymes',
+          'life_skills': 'Life Skills',
+          'health_hygiene': 'Health & Hygiene',
+          'ethics_manners': 'Ethics & Manners',
+          'safety_tips': 'Safety Tips',
+          'time_management': 'Time Management',
+          'pakistani_special': 'Pakistani Special',
+          'national_heroes': 'National Heroes',
+          'geography_of_pakistan': 'Geography of Pakistan',
+          'pakistani_food': 'Pakistani Food',
+          'local_festivals': 'Local Festivals',
+          'fun_zone': 'Fun Zone',
+          'riddles': 'Riddles',
+          'would_you_rather': 'Would You Rather',
+          'true_false': 'True/False',
+          'fun_facts': 'Fun Facts',
+          'urdu_pakistan_special': 'Urdu Pakistan Special',
+          'urdu_poetry_ghazals_nazms': 'Urdu Poetry Ghazals & Nazms',
+          'tareekh_e_pakistan_2': 'Tareekh-e-Pakistan 2',
+          'urdu_shayari_quiz': 'Urdu Shayari Quiz',
+          'urdu_proverbs_meanings': 'Urdu Proverbs Meanings',
+          'nature_in_urdu_literature': 'Nature in Urdu Literature',
+          'urdu_riddles_idioms': 'Urdu Riddles & Idioms',
+          'pakistani_culture': 'Pakistani Culture',
+          'pakistani_constitution': 'Pakistani Constitution',
+          'pakistani_heroes': 'Pakistani Heroes'
+        };
+
+        const urduCategoryMap = {
+          'general_knowledge': 'عمومی معلومات',
+          'pakistan_studies': 'پاکستان اسٹڈیز',
+          'science_nature': 'سائنس اور فطرت',
+          'technology': 'ٹیکنالوجی',
+          'islamic_studies': 'اسلامیات',
+          'urdu_poetry': 'اردو شاعری',
+          'history': 'تاریخ',
+          'math': 'ریاضی',
+          'arts_culture': 'آرٹس اور ثقافت',
+          'kids': 'بچوں کا خصوصی',
+          'world_facts': 'دنیا کے حقائق',
+          'flags_countries': 'جھنڈے اور ممالک',
+          'capitals': 'دارالحکومت',
+          'nobel_prize': 'نوبل انعام',
+          'famous_landmarks': 'مشہور نشانات',
+          'inventions': 'ایجادات',
+          'olympics': 'اولمپکس',
+          'currency': 'کرنسی',
+          'time_zones': 'ٹائم زونز',
+          'space_galaxy': 'خلاء اور کہکشاں',
+          'physics': 'طبیعیات',
+          'chemistry': 'کیمسٹری',
+          'biology': 'حیاتیات',
+          'human_body': 'انسانی جسم',
+          'environmental_science': 'ماحولیاتی سائنس',
+          'nature_life': 'فطرت اور زندگی',
+          'medical_fields': 'طبی شعبے',
+          'geology': 'ارضیات',
+          'weather': 'موسم',
+          'computers': 'کمپیوٹرز',
+          'internet': 'انٹرنیٹ',
+          'mobile_technology': 'موبائل ٹیکنالوجی',
+          'programming_basics': 'پروگرامنگ کی بنیادیں',
+          'ai_robotics': 'مصنوعی ذہانت اور روبوٹکس',
+          'cyber_safety': 'سائبر سیفٹی',
+          'web_development': 'ویب ڈویلپمنٹ',
+          'gadgets': 'گیجٹس',
+          'tech_companies': 'ٹیک کمپنیاں',
+          'arithmetic': 'حساب',
+          'algebra': 'الجبرا',
+          'geometry': 'جیومیٹری',
+          'mental_math': 'ذہنی حساب',
+          'world_art': 'دنیا کا آرٹ',
+          'painting_design': 'پینٹنگ اور ڈیزائن',
+          'music': 'موسیقی',
+          'theatre': 'تھیٹر',
+          'dance': 'رقص',
+          'film_cinema': 'فلم اور سنیما',
+          'photography': 'فوٹوگرافی',
+          'architecture': 'فن تعمیر',
+          'fashion': 'فیشن',
+          'languages_literature': 'زبانیں اور ادب',
+          'english_grammar': 'انگریزی گرامر',
+          'vocabulary': 'ذخیرہ الفاظ',
+          'famous_poets': 'مشہور شعراء',
+          'biographies': 'سوانح حیات',
+          'proverbs_idioms': 'کہاوتیں اور محاورے',
+          'world_literature': 'دنیا کا ادب',
+          'storytelling': 'کہانی سنانا',
+          'translation': 'ترجمہ',
+          'quran_hadith': 'قرآن اور حدیث',
+          'islamic_history': 'اسلامی تاریخ',
+          'prophets_stories': 'انبیاء کی کہانیاں',
+          'seerah': 'سیرت',
+          'islamic_ethics': 'اسلامی اخلاقیات',
+          'pillars_of_islam': 'اسلام کے ارکان',
+          'fiqh_basics': 'فقہ کی بنیادیں',
+          'sahabah': 'صحابہ کرام',
+          'dua_azkar': 'دعائیں اور اذکار',
+          'world_wars': 'عالمی جنگیں',
+          'ancient_civilizations': 'قدیم تہذیبیں',
+          'mughals': 'مغلیہ سلطنت',
+          'tareekh_e_pakistan': 'تاریخ پاکستان',
+          'kids_special': 'بچوں کا خصوصی',
+          'animals': 'جانور',
+          'birds': 'پرندے',
+          'shapes_colors': 'شکلیں اور رنگ',
+          'riddles_rhymes': 'پہیلیاں اور نظمیں',
+          'life_skills': 'زندگی کی مہارتیں',
+          'health_hygiene': 'صحت اور صفائی',
+          'ethics_manners': 'اخلاق اور آداب',
+          'safety_tips': 'حفاظتی نکات',
+          'time_management': 'وقت کا انتظام',
+          'pakistani_special': 'پاکستانی خصوصی',
+          'national_heroes': 'قومی ہیروز',
+          'geography_of_pakistan': 'پاکستان کی جغرافیہ',
+          'pakistani_food': 'پاکستانی کھانا',
+          'local_festivals': 'مقامی تہوار',
+          'fun_zone': 'تفریحی زون',
+          'riddles': 'پہیلیاں',
+          'would_you_rather': 'آپ کیا کریں گے',
+          'true_false': 'صحیح/غلط',
+          'fun_facts': 'مزیدار حقائق',
+          'urdu_pakistan_special': 'اردو پاکستان خصوصی',
+          'urdu_poetry_ghazals_nazms': 'اردو شاعری غزلیں اور نظمیں',
+          'tareekh_e_pakistan_2': 'تاریخ پاکستان 2',
+          'urdu_shayari_quiz': 'اردو شاعری کوئز',
+          'urdu_proverbs_meanings': 'اردو کہاوتوں کے معنی',
+          'nature_in_urdu_literature': 'فطرت اردو ادب میں',
+          'urdu_riddles_idioms': 'اردو پہیلیاں اور محاورے',
+          'pakistani_culture': 'پاکستانی ثقافت',
+          'pakistani_constitution': 'پاکستانی آئین',
+          'pakistani_heroes': 'پاکستانی ہیروز'
+        };
+
+        // Set category title - modified for random quiz
+        if (state.isRandom) {
+          const categoryTitle = state.isUrdu ?
+            "بے ترتیب کوئز" :
+            "Random Quiz";
+
+          if (elements.quizCategoryTitle) {
+            elements.quizCategoryTitle.textContent = categoryTitle;
+          }
+          if (elements.currentQuizCategory) {
+            elements.currentQuizCategory.textContent = categoryTitle;
+            if (state.isUrdu) {
+              elements.currentQuizCategory.classList.add('urdu');
+            }
+          }
+        } else {
+          // Existing category title logic
+          const categoryTitle = state.isUrdu ?
+            (urduCategoryMap[state.category] || decodeURIComponent(state.category)) + ' کوئز' :
+            (categoryMap[state.category] || decodeURIComponent(state.category)) + ' Quiz';
+
+          if (elements.quizCategoryTitle) {
+            elements.quizCategoryTitle.textContent = categoryTitle;
+          }
+          if (elements.currentQuizCategory) {
+            elements.currentQuizCategory.textContent = categoryTitle;
+            if (state.isUrdu) {
+              elements.currentQuizCategory.classList.add('urdu');
+            }
+          }
+        }
+        // Set difficulty and time estimate
+        // Set difficulty and time estimate - same for random quiz
+        const difficulty = getDifficulty(state.isRandom ? 'medium' : state.category);
+        if (elements.quizDifficulty) {
+          elements.quizDifficulty.textContent = state.isUrdu ?
+            `${difficulty.urdu} • 10 سوالات` :
+            `${difficulty.english} • 10 Questions`;
+        }
+
+        if (elements.quizTimeEstimate) {
+          elements.quizTimeEstimate.textContent = state.isUrdu ?
+            `${difficulty.time} منٹ` :
+            `${difficulty.time} min`;
+        }
+
+        // Show loading state
+        if (elements.quizInterface) {
+          elements.quizInterface.classList.add('hidden');
+        }
+        if (elements.loadingState) {
+          elements.loadingState.classList.remove('hidden');
+        }
+
+        // Load quiz questions
+        loadQuizQuestions();
+      }
+
+      // Get difficulty level based on category
+      function getDifficulty(category) {
+        const difficulties = {
+          easy: { english: 'Easy', urdu: 'آسان', time: 1 },
+          medium: { english: 'Medium', urdu: 'درمیانی', time: 2 },
+          hard: { english: 'Hard', urdu: 'مشکل', time: 3 }
+        };
+
+        // Categorize difficulties
+        const easyCategories = ['kids', 'general_knowledge', 'arts_culture', 'fun_zone', 'riddles', 'fun_facts', 'animals', 'birds', 'shapes_colors'];
+        const hardCategories = ['math', 'science_nature', 'technology', 'history', 'physics', 'chemistry', 'programming_basics', 'algebra', 'geometry', 'islamic_studies'];
+
+        if (easyCategories.includes(category)) {
+          return difficulties.easy;
+        } else if (hardCategories.includes(category)) {
+          return difficulties.hard;
+        } else {
+          return difficulties.medium;
+        }
+      }
+
+
+      // Modified loadQuizQuestions function to handle random quiz
+      function loadQuizQuestions() {
+        if (state.isRandom) {
+          loadRandomQuizQuestions();
+        } else {
+          loadRegularQuizQuestions();
+        }
+      }
+
+      // Load quiz questions from JSON file
+      function loadRegularQuizQuestions() {
+        const filename = `${state.category}.json`;
+
+        fetch(`data/questions/${filename}`)
+          .then(response => {
+            if (!response.ok) {
+              throw new Error(`Failed to load questions (HTTP ${response.status})`);
+            }
+            return response.json();
+          })
+          .then(data => {
+            state.quizData = data;
+
+            // Filter questions by type if specified
+            state.questions = data.questions.filter(q => {
+              if (state.quizType === 'all') return true;
+              return q.type === state.quizType;
+            });
+
+            // If no questions found for the type, use all questions
+            if (state.questions.length === 0) {
+              state.questions = data.questions;
+            }
+
+            // Shuffle questions and take first 10
+            state.questions = shuffleArray(state.questions).slice(0, 10);
+
+            if (state.questions.length === 0) {
+              throw new Error('No questions found for this category');
+            }
+
+            // Set quiz description
+            if (elements.currentQuizDescription) {
+              const description = state.isUrdu ?
+                (state.quizData.meta.description_ur || state.quizData.meta.description) :
+                state.quizData.meta.description;
+              elements.currentQuizDescription.textContent = description;
+            }
+
+            // Set category background class
+            if (elements.categoryBg) {
+              const colorClasses = {
+                'general_knowledge': 'general-bg',
+                'pakistan_studies': 'pakistan-bg',
+                'science_nature': 'science-bg',
+                'technology': 'tech-bg',
+                'islamic_studies': 'islamic-bg',
+                'urdu_poetry': 'poetry-bg',
+                'history': 'history-bg',
+                'math': 'math-bg',
+                'arts_culture': 'arts-bg',
+                'kids': 'kids-bg',
+                'world_facts': 'general-bg',
+                'flags_countries': 'general-bg',
+                'capitals': 'general-bg',
+                'nobel_prize': 'history-bg',
+                'famous_landmarks': 'history-bg',
+                'inventions': 'science-bg',
+                'olympics': 'history-bg',
+                'currency': 'general-bg',
+                'time_zones': 'general-bg',
+                'space_galaxy': 'science-bg',
+                'physics': 'science-bg',
+                'chemistry': 'science-bg',
+                'biology': 'science-bg',
+                'human_body': 'science-bg',
+                'environmental_science': 'science-bg',
+                'nature_life': 'science-bg',
+                'medical_fields': 'science-bg',
+                'geology': 'science-bg',
+                'weather': 'science-bg',
+                'computers': 'tech-bg',
+                'internet': 'tech-bg',
+                'mobile_technology': 'tech-bg',
+                'programming_basics': 'tech-bg',
+                'ai_robotics': 'tech-bg',
+                'cyber_safety': 'tech-bg',
+                'web_development': 'tech-bg',
+                'gadgets': 'tech-bg',
+                'tech_companies': 'tech-bg',
+                'arithmetic': 'math-bg',
+                'algebra': 'math-bg',
+                'geometry': 'math-bg',
+                'mental_math': 'math-bg',
+                'world_art': 'arts-bg',
+                'painting_design': 'arts-bg',
+                'music': 'arts-bg',
+                'theatre': 'arts-bg',
+                'dance': 'arts-bg',
+                'film_cinema': 'arts-bg',
+                'photography': 'arts-bg',
+                'architecture': 'arts-bg',
+                'fashion': 'arts-bg',
+                'languages_literature': 'arts-bg',
+                'english_grammar': 'arts-bg',
+                'vocabulary': 'arts-bg',
+                'famous_poets': 'poetry-bg',
+                'biographies': 'history-bg',
+                'proverbs_idioms': 'arts-bg',
+                'world_literature': 'arts-bg',
+                'storytelling': 'arts-bg',
+                'translation': 'arts-bg',
+                'quran_hadith': 'islamic-bg',
+                'islamic_history': 'islamic-bg',
+                'prophets_stories': 'islamic-bg',
+                'seerah': 'islamic-bg',
+                'islamic_ethics': 'islamic-bg',
+                'pillars_of_islam': 'islamic-bg',
+                'fiqh_basics': 'islamic-bg',
+                'sahabah': 'islamic-bg',
+                'dua_azkar': 'islamic-bg',
+                'world_wars': 'history-bg',
+                'ancient_civilizations': 'history-bg',
+                'mughals': 'history-bg',
+                'tareekh_e_pakistan': 'pakistan-bg',
+                'kids_special': 'kids-bg',
+                'animals': 'kids-bg',
+                'birds': 'kids-bg',
+                'shapes_colors': 'kids-bg',
+                'riddles_rhymes': 'kids-bg',
+                'life_skills': 'kids-bg',
+                'health_hygiene': 'kids-bg',
+                'ethics_manners': 'kids-bg',
+                'safety_tips': 'kids-bg',
+                'time_management': 'kids-bg',
+                'pakistani_special': 'pakistan-bg',
+                'national_heroes': 'pakistan-bg',
+                'geography_of_pakistan': 'pakistan-bg',
+                'pakistani_food': 'pakistan-bg',
+                'local_festivals': 'pakistan-bg',
+                'fun_zone': 'kids-bg',
+                'riddles': 'kids-bg',
+                'would_you_rather': 'kids-bg',
+                'true_false': 'kids-bg',
+                'fun_facts': 'kids-bg',
+                'urdu_pakistan_special': 'pakistan-bg',
+                'urdu_poetry_ghazals_nazms': 'poetry-bg',
+                'tareekh_e_pakistan_2': 'pakistan-bg',
+                'urdu_shayari_quiz': 'poetry-bg',
+                'urdu_proverbs_meanings': 'poetry-bg',
+                'nature_in_urdu_literature': 'poetry-bg',
+                'urdu_riddles_idioms': 'poetry-bg',
+                'pakistani_culture': 'pakistan-bg',
+                'pakistani_constitution': 'pakistan-bg',
+                'pakistani_heroes': 'pakistan-bg'
+              };
+
+              elements.categoryBg.className = `category-bg ${colorClasses[state.category] || 'general-bg'}`;
+            }
+
+            // Update total questions display
+            if (elements.totalQuestions) {
+              elements.totalQuestions.textContent = state.questions.length;
+            }
+
+            // Hide loading state, show start modal
+            if (elements.loadingState) {
+              elements.loadingState.classList.add('hidden');
+            }
+            if (elements.quizStartModal) {
+              elements.quizStartModal.classList.remove('hidden');
+            }
+          })
+          .catch(error => {
+            console.error('Error loading quiz questions:', error);
+
+            // Create error message based on language
+            const errorMessage = state.isUrdu ?
+              'سوالات لوڈ کرنے میں خرابی۔ براہ کرم بعد میں کوشش کریں۔' :
+              'Error loading questions. Please try again later.';
+
+            const errorDetails = state.isUrdu ?
+              `خرابی: ${error.message}` :
+              `Error: ${error.message}`;
+
+            if (elements.loadingText) {
+              elements.loadingText.innerHTML = `
+            <div class="text-center">
+              <i class="fas fa-exclamation-triangle text-red-500 text-4xl mb-3"></i>
+              <p class="text-lg font-medium mb-2">${errorMessage}</p>
+              <p class="text-sm text-gray-500 dark:text-gray-400">${errorDetails}</p>
+            </div>
+          `;
+
+              // Add retry button
+              const retryBtn = document.createElement('button');
+              retryBtn.className = 'mt-4 bg-primary hover:bg-green-700 text-white px-4 py-2 rounded transition flex items-center justify-center mx-auto';
+              retryBtn.innerHTML = state.isUrdu ?
+                '<i class="fas fa-redo mr-2"></i> دوبارہ کوشش کریں' :
+                '<i class="fas fa-redo mr-2"></i> Try Again';
+              retryBtn.addEventListener('click', () => window.location.reload());
+              elements.loadingState.appendChild(retryBtn);
+
+              // Add home button
+              const homeBtn = document.createElement('a');
+              homeBtn.href = 'index.html';
+              homeBtn.className = 'mt-3 bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded transition flex items-center justify-center mx-auto dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-200';
+              homeBtn.innerHTML = state.isUrdu ?
+                '<i class="fas fa-home mr-2"></i> ہوم پیج پر جائیں' :
+                '<i class="fas fa-home mr-2"></i> Go to Homepage';
+              elements.loadingState.appendChild(homeBtn);
+            }
+          });
+      }
+
+      function loadRandomQuizQuestions() {
+        // Default categories if none specified
+        const categoriesToLoad = state.randomCategories.length > 0 ?
+          state.randomCategories :
+          ['general_knowledge', 'science_nature', 'history', 'technology'];
+
+        // Array to hold all promises for fetching categories
+        const fetchPromises = categoriesToLoad.map(category => {
+          return fetch(`data/questions/${category}.json`)
+            .then(response => {
+              if (!response.ok) {
+                throw new Error(`Failed to load ${category} questions`);
+              }
+              return response.json();
+            })
+            .then(data => {
+              // Filter questions by type if specified
+              let questions = data.questions.filter(q => {
+                if (state.quizType === 'all') return true;
+                return q.type === state.quizType;
+              });
+
+              // If no questions found for the type, use all questions
+              if (questions.length === 0) {
+                questions = data.questions;
+              }
+
+              return questions;
+            });
+        });
+
+        Promise.all(fetchPromises)
+          .then(results => {
+            // Combine all questions from different categories
+            const allQuestions = results.flat();
+
+            // Shuffle all questions and take first 10
+            state.questions = shuffleArray(allQuestions).slice(0, 10);
+
+            if (state.questions.length === 0) {
+              throw new Error('No questions found for random quiz');
+            }
+
+            // Set quiz description for random quiz
+            if (elements.currentQuizDescription) {
+              const description = state.isUrdu ?
+                'مختلف زمروں سے بے ترتیب سوالات کا ایک مجموعہ' :
+                'A random mix of questions from different categories';
+              elements.currentQuizDescription.textContent = description;
+            }
+
+            // Set category background class for random quiz
+            if (elements.categoryBg) {
+              elements.categoryBg.className = 'category-bg random-bg';
+            }
+
+            // Update total questions display
+            if (elements.totalQuestions) {
+              elements.totalQuestions.textContent = state.questions.length;
+            }
+
+            // Hide loading state, show start modal
+            if (elements.loadingState) {
+              elements.loadingState.classList.add('hidden');
+            }
+            if (elements.quizStartModal) {
+              elements.quizStartModal.classList.remove('hidden');
+            }
+          })
+          .catch(error => {
+            console.error('Error loading random quiz questions:', error);
+
+            const errorMessage = state.isUrdu ?
+              'بے ترتیب سوالات لوڈ کرنے میں خرابی۔ براہ کرم بعد میں کوشش کریں۔' :
+              'Error loading random questions. Please try again later.';
+
+            const errorDetails = state.isUrdu ?
+              `خرابی: ${error.message}` :
+              `Error: ${error.message}`;
+
+            if (elements.loadingText) {
+              elements.loadingText.innerHTML = `
+          <div class="text-center">
+            <i class="fas fa-exclamation-triangle text-red-500 text-4xl mb-3"></i>
+            <p class="text-lg font-medium mb-2">${errorMessage}</p>
+            <p class="text-sm text-gray-500 dark:text-gray-400">${errorDetails}</p>
+          </div>
+        `;
+
+              // Add retry button
+              const retryBtn = document.createElement('button');
+              retryBtn.className = 'mt-4 bg-primary hover:bg-green-700 text-white px-4 py-2 rounded transition flex items-center justify-center mx-auto';
+              retryBtn.innerHTML = state.isUrdu ?
+                '<i class="fas fa-redo mr-2"></i> دوبارہ کوشش کریں' :
+                '<i class="fas fa-redo mr-2"></i> Try Again';
+              retryBtn.addEventListener('click', () => window.location.reload());
+              elements.loadingState.appendChild(retryBtn);
+
+              // Add home button
+              const homeBtn = document.createElement('a');
+              homeBtn.href = 'index.html';
+              homeBtn.className = 'mt-3 bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded transition flex items-center justify-center mx-auto dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-200';
+              homeBtn.innerHTML = state.isUrdu ?
+                '<i class="fas fa-home mr-2"></i> ہوم پیج پر جائیں' :
+                '<i class="fas fa-home mr-2"></i> Go to Homepage';
+              elements.loadingState.appendChild(homeBtn);
+            }
+          });
+      }
+
+      // Start the quiz
+      function startQuiz() {
+        // Close start modal with animation
+        if (elements.quizStartModal) {
+          elements.quizStartModal.classList.add('modal-exit-active');
+          setTimeout(() => {
+            elements.quizStartModal.classList.add('hidden');
+            elements.quizStartModal.classList.remove('modal-exit-active');
+          }, 300);
+        }
+
+        // Initialize quiz state
+        state.currentQuestionIndex = 0;
+        state.score = 0;
+        state.wrongAnswers = 0;
+        state.skippedQuestions = 0;
+        state.streak = 0;
+        state.hintsUsed = 0;
+        state.startTime = new Date();
+        state.totalTime = calculateTotalTime();
+        state.timeRemaining = Math.min(state.totalTime, 100); // Max 100 seconds
+        state.answeredQuestions = [];
+
+        // Update UI
+        updateHintsDisplay();
+        updateStreakDisplay();
+        updateTimerDisplay();
+        if (elements.streakCounter) {
+          elements.streakCounter.classList.add('hidden');
+        }
+
+        // Start timer
+        state.timer = setInterval(updateTimer, 1000);
+
+        // Show first question with animation
+        setTimeout(() => {
+          if (elements.quizInterface) {
+            elements.quizInterface.classList.remove('hidden');
+            elements.quizInterface.classList.add('animate__animated', 'animate__fadeIn');
+          }
+          showQuestion();
+        }, 300);
+      }
+
+      // Update toggle button UI
+      function updateToggleButton(checkbox, labelElement, isEnabled, labelKey) {
+        if (!checkbox || !labelElement) return;
+
+        const toggleContainer = checkbox.closest('.relative') || checkbox.nextElementSibling;
+        if (!toggleContainer) return;
+
+        const dot = toggleContainer.querySelector('.dot');
+        if (!dot) return;
+
+        if (isEnabled) {
+          toggleContainer.classList.remove('bg-gray-300');
+          toggleContainer.classList.add('bg-primary');
+          dot.classList.remove('left-1');
+          dot.classList.add('left-7');
+          labelElement.textContent = state.isUrdu ?
+            (labelKey === 'sound-label' ? 'آواز کے اثرات' : 'کمپن') :
+            (labelKey === 'sound-label' ? 'Sound Effects' : 'Vibration');
+        } else {
+          toggleContainer.classList.add('bg-gray-300');
+          toggleContainer.classList.remove('bg-primary');
+          dot.classList.add('left-1');
+          dot.classList.remove('left-7');
+          labelElement.textContent = state.isUrdu ?
+            (labelKey === 'sound-label' ? 'آواز کے اثرات (بند)' : 'کمپن (بند)') :
+            (labelKey === 'sound-label' ? 'Sound Effects (Off)' : 'Vibration (Off)');
+        }
+      }
+
+      // Update timer display
+      function updateTimerDisplay() {
+        const minutes = Math.floor(state.timeRemaining / 60);
+        const seconds = state.timeRemaining % 60;
+        if (elements.quizTimer) {
+          elements.quizTimer.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+        }
+      }
+
+      // Show current question
+      function showQuestion() {
+        const question = state.questions[state.currentQuestionIndex];
+
+        // Update progress
+        elements.currentQuestionNum.textContent = state.currentQuestionIndex + 1;
+        const progressPercent = Math.floor(((state.currentQuestionIndex) / state.questions.length) * 100);
+        elements.progressBar.style.width = `${progressPercent}%`;
+        elements.progressPercent.textContent = `${progressPercent}%`;
+        elements.progressText.textContent = state.isUrdu ?
+          `سوال ${state.currentQuestionIndex + 1} میں سے ${state.questions.length}` :
+          `Question ${state.currentQuestionIndex + 1} of ${state.questions.length}`;
+
+        // Set question text with fade animation
+        elements.questionText.classList.add('animate__animated', 'animate__fadeIn');
+        setTimeout(() => {
+          elements.questionText.textContent = state.isUrdu ?
+            (question.question_ur || question.question) :
+            question.question;
+          elements.questionText.classList.remove('animate__animated', 'animate__fadeIn');
+          if (state.isUrdu) {
+            elements.questionText.classList.add('urdu');
+          } else {
+            elements.questionText.classList.remove('urdu');
+          }
+        }, 300);
+
+        // Set question type badge
+        elements.questionTypeBadge.textContent = getQuestionTypeLabel(question.type);
+
+        // Set color based on category
+        const colorClasses = {
+          'general_knowledge': 'bg-orange-500/10 text-orange-500 dark:bg-orange-900/20 dark:text-orange-300',
+          'pakistan_studies': 'bg-green-700/10 text-green-700 dark:bg-green-900/20 dark:text-green-300',
+          'science_nature': 'bg-blue-600/10 text-blue-600 dark:bg-blue-900/20 dark:text-blue-300',
+          'technology': 'bg-purple-600/10 text-purple-600 dark:bg-purple-900/20 dark:text-purple-300',
+          'islamic_studies': 'bg-emerald-600/10 text-emerald-600 dark:bg-emerald-900/20 dark:text-emerald-300',
+          'urdu_poetry': 'bg-red-300/10 text-red-600 dark:bg-red-900/20 dark:text-red-300',
+          'history': 'bg-amber-800/10 text-amber-800 dark:bg-amber-900/20 dark:text-amber-300',
+          'math': 'bg-indigo-600/10 text-indigo-600 dark:bg-indigo-900/20 dark:text-indigo-300',
+          'arts_culture': 'bg-purple-800/10 text-purple-800 dark:bg-purple-900/20 dark:text-purple-300',
+          'kids': 'bg-cyan-300/10 text-cyan-600 dark:bg-cyan-900/20 dark:text-cyan-300'
+        };
+
+        elements.questionTypeBadge.className = `inline-block text-xs font-medium px-2 py-1 rounded mb-4 ${colorClasses[state.category] || 'bg-orange-500/10 text-orange-500 dark:bg-orange-900/20 dark:text-orange-300'}`;
+
+        // Hide all question types first
+        elements.mcqOptions.classList.add('hidden');
+        elements.truefalseOptions.classList.add('hidden');
+        elements.fillblankContainer.classList.add('hidden');
+        elements.matchingContainer.classList.add('hidden');
+
+        // Show appropriate question type
+        switch (question.type) {
+          case 'mcq':
+            showMCQQuestion(question);
+            break;
+          case 'true-false':
+            showTrueFalseQuestion(question);
+            break;
+          case 'fill-blanks':
+            showFillBlankQuestion(question);
+            break;
+          case 'match':
+            showMatchingQuestion(question);
+            break;
+        }
+
+        // Reset feedback and next button
+        elements.feedbackArea.classList.add('hidden');
+        elements.correctFeedback.classList.add('hidden');
+        elements.wrongFeedback.classList.add('hidden');
+        elements.hintDisplay.classList.add('hidden');
+        elements.nextBtn.classList.add('hidden');
+
+        // Enable skip button if not last question
+        elements.skipBtn.disabled = state.currentQuestionIndex === state.questions.length - 1;
+      }
+
+      // Show MCQ question
+      function showMCQQuestion(question) {
+        elements.mcqOptions.classList.remove('hidden');
+        elements.mcqOptions.innerHTML = '';
+
+        const options = state.isUrdu ? question.options.ur : question.options.en;
+
+        options.forEach((option, index) => {
+          const optionBtn = document.createElement('button');
+          optionBtn.className = `w-full text-left p-4 rounded-lg border border-gray-200 hover:bg-gray-100 transition mb-2 flex items-center animate__animated animate__fadeInUp dark:border-gray-600 dark:hover:bg-gray-700 dark:bg-gray-800 dark:text-white`;
+          optionBtn.style.animationDelay = `${index * 0.1}s`;
+          optionBtn.innerHTML = `
+        <span class="w-6 h-6 rounded-full border border-gray-300 flex items-center justify-center mr-3 flex-shrink-0 dark:border-gray-500"></span>
+        <span class="${state.isUrdu ? 'urdu' : ''}">${option}</span>
+      `;
+          optionBtn.dataset.index = index;
+          optionBtn.addEventListener('click', () => checkAnswer(index));
+          elements.mcqOptions.appendChild(optionBtn);
+        });
+      }
+
+      // Show True/False question
+      function showTrueFalseQuestion(question) {
+        elements.truefalseOptions.classList.remove('hidden');
+
+        // Add animation
+        document.querySelectorAll('.truefalse-btn').forEach((btn, index) => {
+          btn.classList.add('animate__animated', 'animate__fadeIn');
+          btn.style.animationDelay = `${index * 0.2}s`;
+
+          // Clear previous event listeners
+          btn.replaceWith(btn.cloneNode(true));
+        });
+
+        // Add new event listeners
+        document.querySelectorAll('.truefalse-btn').forEach(btn => {
+          btn.addEventListener('click', function () {
+            checkAnswer(this.dataset.answer === 'true');
+          });
+        });
+      }
+
+      // Show Fill in Blank question
+      function showFillBlankQuestion(question) {
+        elements.fillblankContainer.classList.remove('hidden');
+        elements.fillblankContainer.classList.add('animate__animated', 'animate__fadeIn');
+        elements.fillblankInput.value = '';
+        elements.fillblankInput.className = 'w-full p-4 border rounded-lg focus:ring-2 focus:ring-primary dark:bg-gray-700 dark:border-gray-600 dark:text-white';
+        elements.fillblankInput.focus();
+
+        // Clear previous event listener
+        elements.submitFillblank.replaceWith(elements.submitFillblank.cloneNode(true));
+        elements.submitFillblank = document.getElementById('submit-fillblank');
+
+        // Add new event listener
+        elements.submitFillblank.addEventListener('click', function () {
+          checkAnswer(elements.fillblankInput.value.trim());
+        });
+
+        // Also allow Enter key to submit
+        elements.fillblankInput.addEventListener('keypress', function (e) {
+          if (e.key === 'Enter') {
+            checkAnswer(this.value.trim());
+          }
+        });
+      }
+
+      // Show Matching question (placeholder)
+      function showMatchingQuestion(question) {
+        elements.matchingContainer.classList.remove('hidden');
+        elements.matchingContainer.innerHTML = `
+      <div class="animate__animated animate__fadeIn">
+        <p class="text-gray-600 dark:text-gray-300 mb-4">${state.isUrdu ? 'ملانے والے سوالات جلد ہی دستیاب ہوں گے!' : 'Matching questions coming soon!'}</p>
+        <button class="bg-primary hover:bg-green-700 text-white px-4 py-2 rounded transition" onclick="skipQuestion()">
+          ${state.isUrdu ? 'اس سوال کو چھوڑیں' : 'Skip This Question'}
+        </button>
+      </div>
+    `;
+      }
+
+      // Check the user's answer
+      function checkAnswer(userAnswer) {
+        const question = state.questions[state.currentQuestionIndex];
+        let isCorrect = false;
+
+        // Determine if answer is correct based on question type
+        switch (question.type) {
+          case 'mcq':
+            isCorrect = parseInt(userAnswer) === question.correctAnswer;
+            break;
+          case 'true-false':
+            isCorrect = userAnswer === question.correctAnswer.toString();
+            break;
+          case 'fill-blanks':
+            // Case insensitive comparison for fill in blanks
+            const correctAnswer = state.isUrdu ?
+              (question.correctAnswer_ur || question.correctAnswer) :
+              question.correctAnswer;
+            isCorrect = userAnswer.toLowerCase() === correctAnswer.toLowerCase();
+            break;
+          case 'match':
+            isCorrect = false;
+            break;
+        }
+
+        // Record answered question
+        state.answeredQuestions.push({
+          question: state.isUrdu ? (question.question_ur || question.question) : question.question,
+          userAnswer,
+          correctAnswer: question.correctAnswer,
+          isCorrect,
+          explanation: state.isUrdu ? (question.explanation_ur || question.explanation) : question.explanation
+        });
+
+        // Update score and streak
+        if (isCorrect) {
+          state.score++;
+          state.streak++;
+
+          // Show correct feedback with animation
+          elements.correctFeedback.classList.remove('hidden');
+          elements.correctFeedback.classList.add('animate__animated', 'animate__fadeIn');
+          elements.wrongFeedback.classList.add('hidden');
+
+          const explanation = state.isUrdu ?
+            (question.explanation_ur || question.explanation || '') :
+            (question.explanation || '');
+          elements.correctExplanation.textContent = explanation;
+          if (state.isUrdu) {
+            elements.correctExplanation.classList.add('urdu');
+          } else {
+            elements.correctExplanation.classList.remove('urdu');
+          }
+
+          // Play sound and vibrate if enabled
+          if (state.soundEnabled) {
+            playSound('correct');
+          }
+          if (state.vibrationEnabled && navigator.vibrate) {
+            navigator.vibrate(100);
+          }
+
+          // Highlight correct answer for MCQ
+          if (question.type === 'mcq') {
+            const options = document.querySelectorAll('#mcq-options button');
+            options[question.correctAnswer].classList.add('bg-green-100', 'border-green-500', 'dark:bg-green-900/30', 'dark:border-green-700');
+          }
+
+          // Show confetti for streaks of 5 or more
+          if (state.streak % 5 === 0) {
+            showConfetti();
+          }
+        } else {
+          state.wrongAnswers++;
+          state.streak = 0;
+
+          // Show wrong feedback with animation
+          elements.wrongFeedback.classList.remove('hidden');
+          elements.wrongFeedback.classList.add('animate__animated', 'animate__fadeIn');
+          elements.correctFeedback.classList.add('hidden');
+
+          const explanation = state.isUrdu ?
+            (question.explanation_ur || question.explanation || '') :
+            (question.explanation || '');
+          elements.wrongExplanation.textContent = explanation;
+          if (state.isUrdu) {
+            elements.wrongExplanation.classList.add('urdu');
+          } else {
+            elements.wrongExplanation.classList.remove('urdu');
+          }
+
+          // Show hint if available
+          if (question.hint) {
+            elements.hintDisplay.classList.remove('hidden');
+            elements.hintContent.textContent = state.isUrdu ?
+              (question.hint_ur || question.hint) :
+              question.hint;
+            if (state.isUrdu) {
+              elements.hintContent.classList.add('urdu');
+            } else {
+              elements.hintContent.classList.remove('urdu');
+            }
+          }
+
+          // Highlight correct answer for MCQ
+          if (question.type === 'mcq') {
+            const options = document.querySelectorAll('#mcq-options button');
+            options[question.correctAnswer].classList.add('bg-green-100', 'border-green-500', 'dark:bg-green-900/30', 'dark:border-green-700');
+            options[userAnswer].classList.add('bg-red-100', 'border-red-500', 'dark:bg-red-900/30', 'dark:border-red-700');
+          }
+
+          // Play sound and vibrate if enabled
+          if (state.soundEnabled) {
+            playSound('wrong');
+          }
+          if (state.vibrationEnabled && navigator.vibrate) {
+            navigator.vibrate([100, 50, 100]);
+          }
+        }
+
+        // Update UI
+        elements.feedbackArea.classList.remove('hidden');
+        elements.nextBtn.classList.remove('hidden');
+        updateStreakDisplay();
+
+        // Disable all answer options
+        disableAnswerOptions();
+      }
+
+      // Play sound effect
+      function playSound(type) {
+        try {
+          const audio = new Audio(`assets/sounds/${type}.mp3`);
+          audio.volume = 0.5;
+          audio.play().catch(e => console.log('Audio play failed:', e));
+        } catch (e) {
+          console.error('Error playing sound:', e);
+        }
+      }
+
+      // Disable answer options after answering
+      function disableAnswerOptions() {
+        // For MCQ
+        document.querySelectorAll('#mcq-options button').forEach(btn => {
+          btn.disabled = true;
+        });
+
+        // For True/False
+        document.querySelectorAll('.truefalse-btn').forEach(btn => {
+          btn.disabled = true;
+        });
+
+        // For Fill in Blank
+        elements.fillblankInput.disabled = true;
+        elements.submitFillblank.disabled = true;
+      }
+
+      // Move to next question
+      function nextQuestion() {
+        state.currentQuestionIndex++;
+
+        if (state.currentQuestionIndex < state.questions.length) {
+          // Animate out current question
+          elements.questionContainer.classList.add('animate__animated', 'animate__fadeOut');
+
+          setTimeout(() => {
+            elements.questionContainer.classList.remove('animate__animated', 'animate__fadeOut');
+            showQuestion();
+          }, 300);
+        } else {
+          finishQuiz();
+        }
+      }
+
+      // Skip current question
+      function skipQuestion() {
+        state.skippedQuestions++;
+        state.streak = 0;
+        updateStreakDisplay();
+        nextQuestion();
+      }
+
+      // Use a hint
+      function useHint() {
+        if (state.hintsUsed < state.maxHints) {
+          state.hintsUsed++;
+          updateHintsDisplay();
+
+          // Show hint with animation
+          const question = state.questions[state.currentQuestionIndex];
+          if (question.hint) {
+            elements.hintDisplay.classList.remove('hidden');
+            elements.hintDisplay.classList.add('animate__animated', 'animate__fadeIn');
+            elements.hintContent.textContent = state.isUrdu ?
+              (question.hint_ur || question.hint) :
+              question.hint;
+            if (state.isUrdu) {
+              elements.hintContent.classList.add('urdu');
+            } else {
+              elements.hintContent.classList.remove('urdu');
+            }
+          }
+
+          // Play sound if enabled
+          if (state.soundEnabled) {
+            playSound('hint');
+          }
+        } else {
+          // Show error message
+          const errorMsg = document.createElement('div');
+          errorMsg.className = 'fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-red-500 text-white px-4 py-2 rounded shadow-lg animate__animated animate__fadeInUp';
+          errorMsg.textContent = state.isUrdu ?
+            'آپ نے تمام اشارے استعمال کر لیے ہیں!' :
+            'You have used all your hints!';
+          document.body.appendChild(errorMsg);
+
+          // Remove after 3 seconds
+          setTimeout(() => {
+            errorMsg.classList.add('animate__fadeOut');
+            setTimeout(() => errorMsg.remove(), 300);
+          }, 3000);
+        }
+      }
+
+      // Finish the quiz
+      function finishQuiz() {
+        clearInterval(state.timer);
+
+        // Calculate time taken
+        const endTime = new Date();
+        const timeDiff = (endTime - state.startTime) / 1000; // in seconds
+        const minutes = Math.floor(timeDiff / 60);
+        const seconds = Math.floor(timeDiff % 60);
+        const timeString = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+
+        // Update results
+        elements.correctAnswers.textContent = state.score;
+        elements.wrongAnswers.textContent = state.wrongAnswers;
+        elements.timeTaken.textContent = timeString;
+
+        // Set result title based on performance
+        const percentage = (state.score / state.questions.length) * 100;
+        if (percentage >= 90) {
+          elements.resultTitle.textContent = state.isUrdu ? 'بہترین کارکردگی!' : 'Outstanding!';
+          elements.resultSubtitle.textContent = state.isUrdu ?
+            'آپ نے تقریباً تمام سوالات کے صحیح جوابات دیے!' :
+            'You got almost all questions right!';
+          elements.resultIcon.innerHTML = '<i class="fas fa-trophy text-4xl text-yellow-400"></i>';
+          showConfetti();
+        } else if (percentage >= 70) {
+          elements.resultTitle.textContent = state.isUrdu ? 'بہت اچھا!' : 'Great Job!';
+          elements.resultSubtitle.textContent = state.isUrdu ?
+            'آپ نے زیادہ تر سوالات کے صحیح جوابات دیے!' :
+            'You got most questions right!';
+          elements.resultIcon.innerHTML = '<i class="fas fa-thumbs-up text-4xl text-green-500"></i>';
+          showConfetti();
+        } else if (percentage >= 50) {
+          elements.resultTitle.textContent = state.isUrdu ? 'اچھا!' : 'Good!';
+          elements.resultSubtitle.textContent = state.isUrdu ?
+            'آپ نے کچھ سوالات کے صحیح جوابات دیے!' :
+            'You got some questions right!';
+          elements.resultIcon.innerHTML = '<i class="fas fa-check-circle text-4xl text-blue-500"></i>';
+        } else {
+          elements.resultTitle.textContent = state.isUrdu ? 'کوشش جاری رکھیں!' : 'Keep Trying!';
+          elements.resultSubtitle.textContent = state.isUrdu ?
+            'مزید سیکھنے کے لیے "پہلے سیکھیں" پر جائیں' :
+            'Visit "Learn First" to improve your knowledge';
+          elements.resultIcon.innerHTML = '<i class="fas fa-book text-4xl text-primary"></i>';
+        }
+
+        // Update labels in Urdu if needed
+        if (state.isUrdu) {
+          elements.correctLabel.textContent = 'صحیح';
+          elements.wrongLabel.textContent = 'غلط';
+          elements.timeLabel.textContent = 'وقت';
+        } else {
+          elements.correctLabel.textContent = 'Correct';
+          elements.wrongLabel.textContent = 'Wrong';
+          elements.timeLabel.textContent = 'Time';
+        }
+
+        // Update user stats
+        updateUserStats(state.score, state.questions.length);
+
+        // Show complete modal with animation
+        elements.quizInterface.classList.add('hidden');
+        elements.quizCompleteModal.classList.remove('hidden');
+        elements.quizCompleteModal.classList.add('animate__animated', 'animate__fadeIn');
+      }
+
+      // Update user stats in local storage
+      function updateUserStats(score, totalQuestions) {
+        const profile = JSON.parse(localStorage.getItem('quizverse_profile')) || {};
+
+        if (!profile.quizStats) {
+          profile.quizStats = {
+            totalQuizzes: 0,
+            totalScore: 0,
+            totalQuestions: 0,
+            lastQuizDate: new Date().toISOString()
+          };
+        }
+
+        profile.quizStats.totalQuizzes += 1;
+        profile.quizStats.totalScore += score;
+        profile.quizStats.totalQuestions += totalQuestions;
+        profile.quizStats.lastQuizDate = new Date().toISOString();
+
+        localStorage.setItem('quizverse_profile', JSON.stringify(profile));
+      }
+
+      // Update timer
+      function updateTimer() {
+        state.timeRemaining--;
+
+        if (state.timeRemaining <= 0) {
+          clearInterval(state.timer);
+          finishQuiz();
+          return;
+        }
+
+        const minutes = Math.floor(state.timeRemaining / 60);
+        const seconds = state.timeRemaining % 60;
+        elements.quizTimer.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+
+        // Change color when time is running low
+        if (state.timeRemaining <= 30) {
+          elements.quizTimer.classList.add('text-red-500');
+
+          // Add pulse animation for last 10 seconds
+          if (state.timeRemaining <= 10) {
+            elements.quizTimer.classList.add('animate__animated', 'animate__pulse', 'animate__infinite');
+          }
+        } else {
+          elements.quizTimer.classList.remove('text-red-500', 'animate__animated', 'animate__pulse', 'animate__infinite');
+        }
+      }
+
+      // Calculate total time based on questions
+      function calculateTotalTime() {
+        return state.questions.reduce((total, question) => {
+          return total + (question.timeLimit || 15); // Default to 15 seconds if not specified
+        }, 0);
+      }
+
+      // Update streak display
+      function updateStreakDisplay() {
+        if (state.streak > 0) {
+          elements.streakCounter.classList.remove('hidden');
+          elements.streakCount.textContent = state.streak;
+
+          // Add glow effect for streaks of 3 or more
+          if (state.streak >= 3) {
+            elements.streakCounter.classList.add('streak-glow');
+          } else {
+            elements.streakCounter.classList.remove('streak-glow');
+          }
+        } else {
+          elements.streakCounter.classList.add('hidden');
+        }
+      }
+
+      // Update hints display
+      function updateHintsDisplay() {
+        const remainingHints = state.maxHints - state.hintsUsed;
+        elements.hintCount.textContent = remainingHints;
+
+        // Disable hint button if no hints left
+        elements.hintBtn.disabled = remainingHints <= 0;
+
+        // Change color when low on hints
+        if (remainingHints <= 1) {
+          elements.hintCount.classList.add('bg-red-500', 'text-white');
+          elements.hintCount.classList.remove('bg-gray-300');
+        } else {
+          elements.hintCount.classList.remove('bg-red-500', 'text-white');
+          elements.hintCount.classList.add('bg-gray-300');
+        }
+      }
+
+      // Show confetti animation
+      function showConfetti() {
+        if (!state.soundEnabled && !state.vibrationEnabled) return;
+
+        elements.confettiContainer.classList.remove('hidden');
+        elements.confettiContainer.innerHTML = '';
+
+        // Create confetti particles
+        for (let i = 0; i < 150; i++) {
+          const confetti = document.createElement('div');
+          confetti.className = 'confetti';
+
+          // Random properties
+          const colors = ['#f00', '#0f0', '#00f', '#ff0', '#f0f', '#0ff', '#ff8c00', '#ff1493', '#00bfff'];
+          const color = colors[Math.floor(Math.random() * colors.length)];
+          const size = Math.random() * 10 + 5;
+          const left = Math.random() * 100;
+          const animationDuration = Math.random() * 3 + 2;
+          const delay = Math.random() * 5;
+
+          confetti.style.backgroundColor = color;
+          confetti.style.width = `${size}px`;
+          confetti.style.height = `${size}px`;
+          confetti.style.left = `${left}%`;
+          confetti.style.top = '-10px';
+          confetti.style.transform = `rotate(${Math.random() * 360}deg)`;
+          confetti.style.animation = `confetti-fall ${animationDuration}s linear ${delay}s forwards`;
+          confetti.style.opacity = '1';
+
+          // Random shape
+          if (Math.random() > 0.5) {
+            confetti.style.borderRadius = '50%';
+          } else {
+            confetti.style.borderRadius = '0';
+          }
+
+          elements.confettiContainer.appendChild(confetti);
+        }
+
+        // Play celebration sound if enabled
+        if (state.soundEnabled) {
+          playSound('celebration');
+        }
+
+        // Remove confetti after animation
+        setTimeout(() => {
+          elements.confettiContainer.classList.add('hidden');
+        }, 7000);
+      }
+
+      // Download result as image
+      function downloadResult() {
+        // Get user profile
+        const profile = JSON.parse(localStorage.getItem('quizverse_profile')) || {};
+
+        // Create a canvas element
+        const canvas = document.createElement('canvas');
+        canvas.width = 1200;
+        canvas.height = 800;
+        const ctx = canvas.getContext('2d');
+
+        // Create a beautiful background gradient
+        const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+        gradient.addColorStop(0, '#2D6A4F');
+        gradient.addColorStop(1, '#40916C');
+        ctx.fillStyle = gradient;
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        // Add decorative elements
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
+        for (let i = 0; i < 50; i++) {
+          const x = Math.random() * canvas.width;
+          const y = Math.random() * canvas.height;
+          const size = Math.random() * 10 + 5;
+          ctx.beginPath();
+          ctx.arc(x, y, size, 0, Math.PI * 2);
+          ctx.fill();
+        }
+
+        // Add title
+        ctx.fillStyle = '#FFFFFF';
+        ctx.font = 'bold 48px "Playfair Display", serif';
+        ctx.textAlign = 'center';
+        ctx.fillText(state.isUrdu ? 'کوئز کا نتیجہ' : 'Quiz Result', canvas.width / 2, 100);
+
+        // Add user info if available
+        if (profile.name) {
+          ctx.font = '24px "Poppins", sans-serif';
+          ctx.fillText(state.isUrdu ?
+            `شرکت کنندہ: ${profile.name}` :
+            `Participant: ${profile.name}`, canvas.width / 2, 160);
+
+          if (profile.level) {
+            ctx.fillText(state.isUrdu ?
+              `درجہ: ${profile.level.replace('-', ' ')}` :
+              `Level: ${profile.level.replace('-', ' ')}`, canvas.width / 2, 200);
+          }
+        }
+
+        // Add certificate text
+        ctx.font = '24px "Poppins", sans-serif';
+        ctx.fillText(state.isUrdu ?
+          `${elements.currentQuizCategory.textContent}` :
+          `Category: ${elements.currentQuizCategory.textContent}`, canvas.width / 2, 250);
+
+        // Add score details
+        ctx.font = 'bold 36px "Poppins", sans-serif';
+        ctx.fillText(state.isUrdu ?
+          `آپ کا اسکور: ${state.score} / ${state.questions.length}` :
+          `Your Score: ${state.score} / ${state.questions.length}`, canvas.width / 2, 320);
+
+        // Add time taken
+        ctx.font = '28px "Poppins", sans-serif';
+        ctx.fillText(state.isUrdu ?
+          `وقت: ${elements.timeTaken.textContent}` :
+          `Time Taken: ${elements.timeTaken.textContent}`, canvas.width / 2, 380);
+
+        // Add performance message
+        const percentage = (state.score / state.questions.length) * 100;
+        let performanceMessage = '';
+        if (percentage >= 90) {
+          performanceMessage = state.isUrdu ? 'بہترین کارکردگی!' : 'Outstanding Performance!';
+        } else if (percentage >= 70) {
+          performanceMessage = state.isUrdu ? 'بہت اچھا!' : 'Great Job!';
+        } else if (percentage >= 50) {
+          performanceMessage = state.isUrdu ? 'اچھا!' : 'Good!';
+        } else {
+          performanceMessage = state.isUrdu ? 'کوشش جاری رکھیں!' : 'Keep Trying!';
+        }
+
+        ctx.font = 'italic 30px "Playfair Display", serif';
+        ctx.fillText(performanceMessage, canvas.width / 2, 450);
+
+        // Add date
+        const today = new Date();
+        const dateStr = today.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+        ctx.font = '20px "Poppins", sans-serif';
+        ctx.fillText(state.isUrdu ?
+          `تاریخ: ${dateStr}` :
+          `Date: ${dateStr}`, canvas.width / 2, 520);
+
+        // Add QuizVerse logo
+        ctx.font = 'bold 36px "Poppins", sans-serif';
+        ctx.fillText('QuizVerse', canvas.width / 2, 600);
+
+        // Convert canvas to image and download
+        canvas.toBlob(function (blob) {
+          const link = document.createElement('a');
+          link.download = `QuizResult_${state.category}_${dateStr.replace(/,/g, '')}.png`;
+          link.href = URL.createObjectURL(blob);
+          link.click();
+
+          // Show success message
+          const successMsg = document.createElement('div');
+          successMsg.className = 'fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-green-500 text-white px-4 py-2 rounded shadow-lg animate__animated animate__fadeInUp';
+          successMsg.textContent = state.isUrdu ?
+            'نتیجہ ڈاؤن لوڈ ہو گیا!' :
+            'Result downloaded successfully!';
+          document.body.appendChild(successMsg);
+
+          // Remove after 3 seconds
+          setTimeout(() => {
+            successMsg.classList.add('animate__fadeOut');
+            setTimeout(() => successMsg.remove(), 300);
+          }, 3000);
+        }, 'image/png');
+      }
+
+      // Redirect to learn page
+      function goToLearnPage() {
+        window.location.href = `learn.html?cat=${encodeURIComponent(state.category)}&lang=${state.language}`;
+      }
+
+      // Redirect to categories page
+      function goToCategoriesPage() {
+        window.location.href = `quiz-categories.html?lang=${state.language}`;
+      }
+
+      // Retry the quiz
+      function retryQuiz() {
+        window.location.reload();
+      }
+
+      // Toggle sound setting
+      function toggleSound() {
+        state.soundEnabled = !state.soundEnabled;
+        localStorage.setItem('soundEnabled', state.soundEnabled);
+        updateToggleButton(elements.soundToggle, elements.soundLabel, state.soundEnabled, 'sound-label');
+      }
+
+      // Toggle vibration setting
+      function toggleVibration() {
+        state.vibrationEnabled = !state.vibrationEnabled;
+        localStorage.setItem('vibrationEnabled', state.vibrationEnabled);
+        updateToggleButton(elements.vibrationToggle, elements.vibrationLabel, state.vibrationEnabled, 'vibration-label');
+      }
+
+      // Toggle language
+      function toggleLanguage() {
+        state.isUrdu = !state.isUrdu;
+        state.language = state.isUrdu ? 'ur' : 'en';
+        localStorage.setItem('preferredLanguage', state.language);
+
+        // Reload the current question to update language
+        if (state.currentQuestionIndex >= 0 && state.currentQuestionIndex < state.questions.length) {
+          showQuestion();
+        }
+
+        updateLanguageUI();
+      }
+
+      // Toggle dark mode
+function toggleDarkMode() {
+  state.isDarkMode = !state.isDarkMode;
+  
+  // Update UI
+  if (state.isDarkMode) {
+    document.documentElement.classList.add('dark');
+    elements.moonIcon.classList.add('hidden');
+    elements.sunIcon.classList.remove('hidden');
+  } else {
+    document.documentElement.classList.remove('dark');
+    elements.moonIcon.classList.remove('hidden');
+    elements.sunIcon.classList.add('hidden');
+  }
+  
+  // Save preference using same key as categories page
+  localStorage.setItem('theme', state.isDarkMode ? 'dark' : 'light');
+  
+  // Update dark mode on other pages through localStorage event
+  localStorage.setItem('darkModeToggled', Date.now());
+}
+
+      // Update all UI elements based on language
+      function updateLanguageUI() {
+        if (state.isUrdu) {
+          // Update UI texts in Urdu
+          document.body.classList.add('urdu');
+          elements.quizLanguageDisplay.textContent = 'اردو';
+          elements.quizLanguageDisplay.classList.add('urdu');
+          elements.trueText.textContent = 'صحیح';
+          elements.trueText.classList.add('urdu');
+          elements.falseText.textContent = 'غلط';
+          elements.falseText.classList.add('urdu');
+          elements.submitAnswerText.textContent = 'جواب جمع کریں';
+          elements.submitAnswerText.classList.add('urdu');
+          elements.hintText.textContent = 'اشارہ';
+          elements.hintText.classList.add('urdu');
+          elements.skipText.textContent = 'چھوڑیں';
+          elements.skipText.classList.add('urdu');
+          elements.nextText.textContent = 'اگلا سوال';
+          elements.nextText.classList.add('urdu');
+          elements.correctText.textContent = 'صحیح!';
+          elements.correctText.classList.add('urdu');
+          elements.wrongText.textContent = 'غلط!';
+          elements.wrongText.classList.add('urdu');
+          elements.retryText.textContent = 'دوبارہ کوشش کریں';
+          elements.retryText.classList.add('urdu');
+          elements.downloadText.textContent = 'نتیجہ ڈاؤن لوڈ کریں';
+          elements.downloadText.classList.add('urdu');
+          elements.learnText.textContent = 'پہلے سیکھیں';
+          elements.learnText.classList.add('urdu');
+          elements.startQuizText.textContent = 'کوئز شروع کریں';
+          elements.startQuizText.classList.add('urdu');
+          elements.fillblankInput.placeholder = 'اپنا جواب یہاں ٹائپ کریں...';
+          elements.fillblankInput.classList.add('urdu');
+
+          // Rules
+          elements.quizRulesTitle.textContent = 'کوئز کے قواعد';
+          elements.quizRulesTitle.classList.add('urdu');
+          elements.rule1.textContent = 'آپ کے علم کا امتحان لینے کے لیے 10 سوالات';
+          elements.rule1.classList.add('urdu');
+          elements.rule2.textContent = 'وقت کی حد: 1-2 منٹ (سوال کے لحاظ سے مختلف ہوتی ہے)';
+          elements.rule2.classList.add('urdu');
+          elements.rule3.textContent = 'غلط جوابات کے بعد اشارے دستیاب ہیں';
+          elements.rule3.classList.add('urdu');
+          elements.rule4.textContent = 'ترقی خود بخود ٹریک ہو جاتی ہے';
+          elements.rule4.classList.add('urdu');
+          elements.rule5.textContent = 'توجہ مرکوز کریں اور لطف اٹھائیں!';
+          elements.rule5.classList.add('urdu');
+
+          // Sound/Vibration labels
+          updateToggleButton(elements.soundToggle, elements.soundLabel, state.soundEnabled, 'sound-label');
+          updateToggleButton(elements.vibrationToggle, elements.vibrationLabel, state.vibrationEnabled, 'vibration-label');
+        } else {
+          // Update UI texts in English
+          document.body.classList.remove('urdu');
+          elements.quizLanguageDisplay.textContent = 'English';
+          elements.quizLanguageDisplay.classList.remove('urdu');
+          elements.trueText.textContent = 'True';
+          elements.trueText.classList.remove('urdu');
+          elements.falseText.textContent = 'False';
+          elements.falseText.classList.remove('urdu');
+          elements.submitAnswerText.textContent = 'Submit Answer';
+          elements.submitAnswerText.classList.remove('urdu');
+          elements.hintText.textContent = 'Hint';
+          elements.hintText.classList.remove('urdu');
+          elements.skipText.textContent = 'Skip';
+          elements.skipText.classList.remove('urdu');
+          elements.nextText.textContent = 'Next Question';
+          elements.nextText.classList.remove('urdu');
+          elements.correctText.textContent = 'Correct!';
+          elements.correctText.classList.remove('urdu');
+          elements.wrongText.textContent = 'Incorrect!';
+          elements.wrongText.classList.remove('urdu');
+          elements.retryText.textContent = 'Retry Quiz';
+          elements.retryText.classList.remove('urdu');
+          elements.downloadText.textContent = 'Download Result';
+          elements.downloadText.classList.remove('urdu');
+          elements.learnText.textContent = 'Learn First';
+          elements.learnText.classList.remove('urdu');
+          elements.startQuizText.textContent = 'Start Quiz';
+          elements.startQuizText.classList.remove('urdu');
+          elements.fillblankInput.placeholder = 'Type your answer here...';
+          elements.fillblankInput.classList.remove('urdu');
+
+          // Rules
+          elements.quizRulesTitle.textContent = 'Quiz Rules';
+          elements.quizRulesTitle.classList.remove('urdu');
+          elements.rule1.textContent = '10 questions to test your knowledge';
+          elements.rule1.classList.remove('urdu');
+          elements.rule2.textContent = 'Time limit: 1-2 minutes (varies by question)';
+          elements.rule2.classList.remove('urdu');
+          elements.rule3.textContent = 'Hints available after wrong answers';
+          elements.rule3.classList.remove('urdu');
+          elements.rule4.textContent = 'Progress tracked automatically';
+          elements.rule4.classList.remove('urdu');
+          elements.rule5.textContent = 'Stay focused & have fun!';
+          elements.rule5.classList.remove('urdu');
+
+          // Sound/Vibration labels
+          updateToggleButton(elements.soundToggle, elements.soundLabel, state.soundEnabled, 'sound-label');
+          updateToggleButton(elements.vibrationToggle, elements.vibrationLabel, state.vibrationEnabled, 'vibration-label');
+        }
+      }
+
+      // Get question type label
+      function getQuestionTypeLabel(type) {
+        if (state.isUrdu) {
+          switch (type) {
+            case 'mcq': return 'متعدد انتخابات';
+            case 'true-false': return 'صحیح/غلط';
+            case 'fill-blanks': return 'خالی جگہیں بھریں';
+            case 'match': return 'ملانا';
+            default: return type;
+          }
+        } else {
+          switch (type) {
+            case 'mcq': return 'Multiple Choice';
+            case 'true-false': return 'True/False';
+            case 'fill-blanks': return 'Fill in Blanks';
+            case 'match': return 'Matching';
+            default: return type;
+          }
+        }
+      }
+
+      // Utility function to shuffle array
+      function shuffleArray(array) {
+        const newArray = [...array];
+        for (let i = newArray.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+        }
+        return newArray;
+      }
+
+      // Event Listeners
+      if (elements.startQuizBtn) {
+        elements.startQuizBtn.addEventListener('click', startQuiz);
+      }
+      if (elements.nextBtn) {
+        elements.nextBtn.addEventListener('click', nextQuestion);
+      }
+      if (elements.skipBtn) {
+        elements.skipBtn.addEventListener('click', skipQuestion);
+      }
+      if (elements.hintBtn) {
+        elements.hintBtn.addEventListener('click', useHint);
+      }
+      if (elements.retryBtn) {
+        elements.retryBtn.addEventListener('click', retryQuiz);
+      }
+      if (elements.downloadBtn) {
+        elements.downloadBtn.addEventListener('click', downloadResult);
+      }
+      if (elements.learnBtn) {
+        elements.learnBtn.addEventListener('click', goToLearnPage);
+      }
+      if (elements.categoriesBtn) {
+        elements.categoriesBtn.addEventListener('click', goToCategoriesPage);
+      }
+      if (elements.languageToggle) {
+        elements.languageToggle.addEventListener('change', toggleLanguage);
+      }
+      if (elements.soundToggle) {
+        elements.soundToggle.addEventListener('change', toggleSound);
+      }
+      if (elements.vibrationToggle) {
+        elements.vibrationToggle.addEventListener('change', toggleVibration);
+      }
+      if (elements.themeToggle) {
+        elements.themeToggle.addEventListener('click', toggleDarkMode);
+      }
+
+      // Mobile menu toggle
+      const mobileMenuButton = document.getElementById('mobile-menu-button');
+      if (mobileMenuButton) {
+        mobileMenuButton.addEventListener('click', function () {
+          const menu = document.getElementById('mobile-menu');
+          if (menu) {
+            menu.classList.toggle('hidden');
+          }
+        });
+      }
+
+      // Initialize sound/vibration preferences
+      state.soundEnabled = localStorage.getItem('soundEnabled') !== 'false';
+      state.vibrationEnabled = localStorage.getItem('vibrationEnabled') !== 'false' && 'vibrate' in navigator;
+      if (elements.soundToggle) {
+        elements.soundToggle.checked = state.soundEnabled;
+      }
+      if (elements.vibrationToggle) {
+        elements.vibrationToggle.checked = state.vibrationEnabled;
+      }
+      updateToggleButton(elements.soundToggle, elements.soundLabel, state.soundEnabled, 'sound-label');
+      updateToggleButton(elements.vibrationToggle, elements.vibrationLabel, state.vibrationEnabled, 'vibration-label');
+
+      // Listen for dark mode changes from other pages
+      window.addEventListener('storage', function (event) {
+        if (event.key === 'darkModeToggled') {
+          const darkMode = localStorage.getItem('darkMode') === 'true';
+          if (darkMode !== state.isDarkMode) {
+            toggleDarkMode();
+          }
+        }
+      });
+
+      // Initialize the quiz
+      initQuiz();
+    });
+
+    // Enhanced Modal Functions
+    function openModal(modalId) {
+      const modal = document.getElementById(modalId);
+      if (!modal) {
+        console.error(`Modal with ID ${modalId} not found`);
+        return;
+      }
+
+      // Close any other open modals first
+      document.querySelectorAll('.modal-overlay:not(.hidden)').forEach(openModal => {
+        if (openModal.id !== modalId) {
+          openModal.classList.remove('active');
+          setTimeout(() => {
+            openModal.classList.add('hidden');
+          }, 300);
+        }
+      });
+
+      // Prepare to open new modal
+      document.body.style.overflow = 'hidden';
+      modal.classList.remove('hidden');
+
+      // Small delay to allow CSS transition
+      setTimeout(() => {
+        modal.classList.add('active');
+      }, 10);
+
+      // Focus management
+      const focusable = modal.querySelector('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+      if (focusable) focusable.focus();
+
+      // Keyboard event listener
+      const handleKeyDown = (e) => {
+        if (e.key === 'Escape') {
+          closeModal(modalId);
+        }
+
+        // Trap focus within modal
+        if (e.key === 'Tab') {
+          const focusableElements = modal.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+          const firstElement = focusableElements[0];
+          const lastElement = focusableElements[focusableElements.length - 1];
+
+          if (e.shiftKey && document.activeElement === firstElement) {
+            lastElement.focus();
+            e.preventDefault();
+          } else if (!e.shiftKey && document.activeElement === lastElement) {
+            firstElement.focus();
+            e.preventDefault();
+          }
+        }
+      };
+
+      modal._keydownHandler = handleKeyDown;
+      document.addEventListener('keydown', handleKeyDown);
+    }
+
+    function closeModal(modalId) {
+      const modal = document.getElementById(modalId);
+      if (!modal) return;
+
+      modal.classList.remove('active');
+      setTimeout(() => {
+        modal.classList.add('hidden');
+        document.body.style.overflow = '';
+      }, 300);
+
+      // Clean up event listeners
+      if (modal._keydownHandler) {
+        document.removeEventListener('keydown', modal._keydownHandler);
+        delete modal._keydownHandler;
+      }
+    }
+
+    // Profile form handling
+    document.addEventListener('DOMContentLoaded', function () {
+      // Check if profile exists
+      const profile = localStorage.getItem('quizverse_profile');
+      const profileSkipped = localStorage.getItem('quizverse_profile_skipped');
+
+      // Show profile modal if no profile exists and not skipped
+      if (!profile && !profileSkipped) {
+        setTimeout(() => openModal('profile-modal'), 1000);
+      }
+
+      // Update header button based on profile
+      updateHeaderButton();
+
+      // Profile form submission
+      const profileForm = document.getElementById('profile-form');
+      if (profileForm) {
+        profileForm.addEventListener('submit', function (e) {
+          e.preventDefault();
+
+          // Reset errors
+          document.querySelectorAll('[id$="-error"]').forEach(el => el.classList.add('hidden'));
+          document.getElementById('profile-success').classList.add('hidden');
+          document.getElementById('profile-error').classList.add('hidden');
+
+          // Validate form
+          let isValid = true;
+          const name = document.getElementById('profile-name').value.trim();
+          const country = document.getElementById('profile-country').value;
+          const age = document.getElementById('profile-age').value;
+          const level = document.getElementById('profile-level').value;
+          const gender = document.getElementById('profile-gender').value;
+          const password = document.getElementById('profile-password').value;
+
+          if (name.length < 2) {
+            document.getElementById('name-error').classList.remove('hidden');
+            isValid = false;
+          }
+
+          if (!country) {
+            document.getElementById('country-error').classList.remove('hidden');
+            isValid = false;
+          }
+
+          if (!age || age < 5 || age > 99) {
+            document.getElementById('age-error').classList.remove('hidden');
+            isValid = false;
+          }
+
+          if (!level) {
+            document.getElementById('level-error').classList.remove('hidden');
+            isValid = false;
+          }
+
+          if (!gender) {
+            document.getElementById('gender-error').classList.remove('hidden');
+            isValid = false;
+          }
+
+          if (password && password.length < 6) {
+            document.getElementById('password-error').classList.remove('hidden');
+            isValid = false;
+          }
+
+          if (isValid) {
+            // Save profile (update existing or create new)
+            const profileData = {
+              name,
+              country,
+              age,
+              level,
+              gender,
+              email: document.getElementById('profile-email').value.trim(),
+              password: password || null,
+              createdAt: localStorage.getItem('quizverse_profile') ?
+                JSON.parse(localStorage.getItem('quizverse_profile')).createdAt :
+                new Date().toISOString(),
+              quizStats: localStorage.getItem('quizverse_profile') ?
+                JSON.parse(localStorage.getItem('quizverse_profile')).quizStats || {
+                  totalQuizzes: 0,
+                  totalScore: 0,
+                  totalQuestions: 0,
+                  lastQuizDate: null
+                } : {
+                  totalQuizzes: 0,
+                  totalScore: 0,
+                  totalQuestions: 0,
+                  lastQuizDate: null
+                }
+            };
+
+            try {
+              localStorage.setItem('quizverse_profile', JSON.stringify(profileData));
+              localStorage.removeItem('quizverse_profile_skipped');
+
+              // Show success
+              document.getElementById('profile-success').classList.remove('hidden');
+
+              // Update header button
+              updateHeaderButton();
+
+              // Close modal after delay
+              setTimeout(() => {
+                closeModal('profile-modal');
+              }, 1500);
+            } catch (e) {
+              console.error('Error saving profile:', e);
+              document.getElementById('profile-error').classList.remove('hidden');
+            }
+          }
+        });
+      }
+
+      // Sign in/profile buttons in header
+      const signInButtons = document.querySelectorAll('[data-action="sign-in"]');
+      signInButtons.forEach(btn => {
+        btn.addEventListener('click', function (e) {
+          e.preventDefault();
+          if (localStorage.getItem('quizverse_profile')) {
+            // Show profile view/edit modal
+            openProfileView();
+          } else {
+            openModal('profile-modal');
+          }
+        });
+      });
+
+      // Close buttons in modals
+      document.querySelectorAll('[onclick^="closeModal"]').forEach(btn => {
+        const modalId = btn.getAttribute('onclick').match(/'([^']+)'/)[1];
+        btn.addEventListener('click', function (e) {
+          e.preventDefault();
+          closeModal(modalId);
+        });
+      });
+    });
+
+    function skipProfile() {
+      localStorage.setItem('quizverse_profile_skipped', 'true');
+      closeModal('profile-modal');
+    }
+
+    function updateHeaderButton() {
+      const profile = localStorage.getItem('quizverse_profile');
+      const signInButtons = document.querySelectorAll('[data-action="sign-in"]');
+
+      signInButtons.forEach(btn => {
+        if (profile) {
+          const profileData = JSON.parse(profile);
+          btn.innerHTML = `
+        <i class="fas fa-user-circle mr-2"></i>
+        ${profileData.name.split(' ')[0]}
+      `;
+          btn.classList.remove('bg-accent', 'text-textDark');
+          btn.classList.add('bg-white/10', 'text-white');
+        } else {
+          btn.innerHTML = 'Sign In';
+          btn.classList.add('bg-accent', 'text-textDark');
+          btn.classList.remove('bg-white/10', 'text-white');
+        }
+      });
+    }
+
+    function openProfileView() {
+      const profile = JSON.parse(localStorage.getItem('quizverse_profile'));
+      if (!profile) return;
+
+      // Gender display text
+      const genderDisplay = {
+        'male': 'Male',
+        'female': 'Female',
+        'other': 'Other',
+        'prefer-not': 'Prefer not to say'
+      };
+
+      // Create a comprehensive profile view modal
+      const profileHTML = `
+    <div class="space-y-6">
+      <div class="flex flex-col items-center justify-center mb-6">
+        <div class="w-24 h-24 rounded-full bg-brand/10 flex items-center justify-center text-4xl mb-4">
+          <i class="fas fa-user text-brand"></i>
+        </div>
+        <h3 class="text-xl font-bold">${profile.name}</h3>
+        <p class="text-gray-500">${profile.age} years • ${profile.country}</p>
+      </div>
+      
+      <div class="grid grid-cols-2 gap-4 mb-6">
+        <div class="bg-bgLight dark:bg-gray-700 p-3 rounded-lg">
+          <p class="text-sm text-gray-500">Level</p>
+          <p class="font-medium capitalize">${profile.level.replace('-', ' ')}</p>
+        </div>
+        <div class="bg-bgLight dark:bg-gray-700 p-3 rounded-lg">
+          <p class="text-sm text-gray-500">Gender</p>
+          <p class="font-medium">${genderDisplay[profile.gender] || profile.gender}</p>
+        </div>
+        <div class="bg-bgLight dark:bg-gray-700 p-3 rounded-lg">
+          <p class="text-sm text-gray-500">Member Since</p>
+          <p class="font-medium">${new Date(profile.createdAt).toLocaleDateString()}</p>
+        </div>
+        <div class="bg-bgLight dark:bg-gray-700 p-3 rounded-lg">
+          <p class="text-sm text-gray-500">Account</p>
+          <p class="font-medium">${profile.email ? 'Verified' : 'Guest'}</p>
+        </div>
+      </div>
+      
+      ${profile.quizStats ? `
+      <div class="bg-bgLight dark:bg-gray-700 p-4 rounded-lg mb-6">
+        <div class="flex justify-between items-center mb-3">
+          <h4 class="text-lg font-bold">Quiz Statistics</h4>
+          <div class="flex space-x-2">
+            <button onclick="downloadQuizStats()" class="text-xs bg-brand/10 hover:bg-brand/20 text-brand dark:text-brandLight px-2 py-1 rounded transition">
+              <i class="fas fa-download mr-1"></i> Download
+            </button>
+            <button onclick="confirmResetStats()" class="text-xs bg-red-500/10 hover:bg-red-500/20 text-red-500 dark:text-red-400 px-2 py-1 rounded transition">
+              <i class="fas fa-redo mr-1"></i> Reset
+            </button>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <div class="bg-white dark:bg-gray-800 p-2 rounded">
+            <p class="text-sm text-gray-500">Total Quizzes</p>
+            <p class="font-bold text-lg">${profile.quizStats.totalQuizzes}</p>
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-2 rounded">
+            <p class="text-sm text-gray-500">Total Score</p>
+            <p class="font-bold text-lg">${profile.quizStats.totalScore}</p>
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-2 rounded">
+            <p class="text-sm text-gray-500">Total Questions</p>
+            <p class="font-bold text-lg">${profile.quizStats.totalQuestions}</p>
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-2 rounded">
+            <p class="text-sm text-gray-500">Accuracy</p>
+            <p class="font-bold text-lg">${profile.quizStats.totalQuestions > 0 ? Math.round((profile.quizStats.totalScore / profile.quizStats.totalQuestions) * 100) : 0}%</p>
+          </div>
+        </div>
+        ${profile.quizStats.lastQuizDate ? `
+        <div class="mt-3 text-sm text-gray-500">
+          Last quiz taken: ${new Date(profile.quizStats.lastQuizDate).toLocaleString()}
+        </div>
+        ` : ''}
+      </div>
+      ` : ''}
+      
+      <div class="flex flex-col space-y-3">
+        <button onclick="openEditProfile()" class="w-full bg-brand hover:bg-secondary text-white dark:hover:bg-gray-600 px-4 py-2 rounded-lg transition">
+          <i class="fas fa-edit mr-2"></i> Edit Profile
+        </button>
+        <button onclick="closeModal('profile-view-modal')" class="w-full text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 px-4 py-2 rounded-lg transition">
+          Close
+        </button>
+      </div>
+    </div>
+  `;
+
+      // Create or update profile view modal
+      let profileViewModal = document.getElementById('profile-view-modal');
+      if (!profileViewModal) {
+        profileViewModal = document.createElement('div');
+        profileViewModal.id = 'profile-view-modal';
+        profileViewModal.className = 'modal-overlay hidden';
+        profileViewModal.innerHTML = `
+      <div class="modal-container">
+        <div class="p-6">
+          <div class="flex justify-between items-center mb-4">
+            <h3 class="text-2xl font-bold text-brand dark:text-white">Your Profile</h3>
+            <button onclick="closeModal('profile-view-modal')" class="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+          ${profileHTML}
+        </div>
+      </div>
+    `;
+        document.body.appendChild(profileViewModal);
+      } else {
+        const contentDiv = profileViewModal.querySelector('.modal-container > div');
+        if (contentDiv) {
+          contentDiv.innerHTML = `
+        <div class="flex justify-between items-center mb-4">
+          <h3 class="text-2xl font-bold text-brand dark:text-white">Your Profile</h3>
+          <button onclick="closeModal('profile-view-modal')" class="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        ${profileHTML}
+      `;
+        }
+      }
+
+      openModal('profile-view-modal');
+    }
+    function openEditProfile() {
+      const profile = JSON.parse(localStorage.getItem('quizverse_profile'));
+      if (!profile) return;
+
+      // Pre-fill the profile form with existing data
+      document.getElementById('profile-name').value = profile.name;
+      document.getElementById('profile-country').value = profile.country;
+      document.getElementById('profile-age').value = profile.age;
+      document.getElementById('profile-level').value = profile.level;
+      document.getElementById('profile-gender').value = profile.gender;
+      document.getElementById('profile-email').value = profile.email || '';
+      document.getElementById('profile-password').value = '';
+
+      // Close profile view modal and open edit modal
+      closeModal('profile-view-modal');
+      openModal('profile-modal');
+    }
+
+    // New functions for statistics handling
+    function confirmResetStats() {
+      const confirmModal = document.createElement('div');
+      confirmModal.id = 'confirm-reset-modal';
+      confirmModal.className = 'modal-overlay hidden';
+      confirmModal.innerHTML = `
+    <div class="modal-container max-w-md">
+      <div class="p-6">
+        <div class="flex justify-between items-center mb-4">
+          <h3 class="text-xl font-bold text-red-500">Reset Statistics</h3>
+          <button onclick="closeModal('confirm-reset-modal')" class="text-gray-500 hover:text-gray-700">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <p class="mb-6">Are you sure you want to reset all your quiz statistics? This action cannot be undone.</p>
+        <div class="flex justify-end space-x-3">
+          <button onclick="closeModal('confirm-reset-modal')" class="px-4 py-2 rounded-lg bg-gray-200 hover:bg-gray-300">
+            Cancel
+          </button>
+          <button onclick="resetQuizStats()" class="px-4 py-2 rounded-lg bg-red-500 hover:bg-red-600 text-white">
+            Reset Statistics
+          </button>
+        </div>
+      </div>
+    </div>
+  `;
+
+      document.body.appendChild(confirmModal);
+      openModal('confirm-reset-modal');
+    }
+
+    function resetQuizStats() {
+      const profile = JSON.parse(localStorage.getItem('quizverse_profile'));
+      if (!profile) return;
+
+      profile.quizStats = {
+        totalQuizzes: 0,
+        totalScore: 0,
+        totalQuestions: 0,
+        lastQuizDate: null
+      };
+
+      localStorage.setItem('quizverse_profile', JSON.stringify(profile));
+      closeModal('confirm-reset-modal');
+
+      // Show success message
+      const successMsg = document.createElement('div');
+      successMsg.className = 'fixed top-4 right-4 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg z-50';
+      successMsg.innerHTML = '<i class="fas fa-check-circle mr-2"></i> Statistics reset successfully!';
+      document.body.appendChild(successMsg);
+
+      setTimeout(() => {
+        successMsg.remove();
+        // Refresh profile view
+        openProfileView();
+      }, 2000);
+    }
+
+    function downloadQuizStats() {
+      const profile = JSON.parse(localStorage.getItem('quizverse_profile'));
+      if (!profile || !profile.quizStats) return;
+
+      // Calculate accuracy
+      const accuracy = profile.quizStats.totalQuestions > 0
+        ? Math.round((profile.quizStats.totalScore / profile.quizStats.totalQuestions) * 100)
+        : 0;
+
+      // Create a canvas for the image
+      const canvas = document.createElement('canvas');
+      canvas.width = 800;
+      canvas.height = 600;
+      const ctx = canvas.getContext('2d');
+
+      // Background gradient
+      const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+      gradient.addColorStop(0, '#4f46e5');
+      gradient.addColorStop(1, '#06b6d4');
+      ctx.fillStyle = gradient;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      // Add decorative elements
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
+      for (let i = 0; i < 5; i++) {
+        ctx.beginPath();
+        ctx.arc(
+          Math.random() * canvas.width,
+          Math.random() * canvas.height,
+          Math.random() * 50 + 20,
+          0,
+          Math.PI * 2
+        );
+        ctx.fill();
+      }
+
+      // Add logo or title
+      ctx.fillStyle = 'white';
+      ctx.font = 'bold 32px Arial';
+      ctx.textAlign = 'center';
+      ctx.fillText('QuizVerse Statistics', canvas.width / 2, 60);
+
+      // Add user info
+      ctx.font = '20px Arial';
+      ctx.fillText(`${profile.name}'s Quiz Performance`, canvas.width / 2, 100);
+
+      // Add stats boxes
+      const stats = [
+        { label: 'Total Quizzes', value: profile.quizStats.totalQuizzes },
+        { label: 'Total Score', value: profile.quizStats.totalScore },
+        { label: 'Total Questions', value: profile.quizStats.totalQuestions },
+        { label: 'Accuracy', value: `${accuracy}%` }
+      ];
+
+      ctx.font = 'bold 16px Arial';
+      ctx.textAlign = 'left';
+
+      stats.forEach((stat, index) => {
+        const x = index % 2 === 0 ? 100 : 450;
+        const y = 180 + Math.floor(index / 2) * 120;
+
+        // Stat box
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.2)';
+        ctx.roundRect(x, y, 250, 80, 10);
+        ctx.fill();
+
+        // Stat text
+        ctx.fillStyle = 'white';
+        ctx.fillText(stat.label, x + 20, y + 30);
+        ctx.font = 'bold 28px Arial';
+        ctx.fillText(stat.value.toString(), x + 20, y + 65);
+        ctx.font = 'bold 16px Arial';
+      });
+
+      // Add footer
+      ctx.font = '14px Arial';
+      ctx.textAlign = 'center';
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.7)';
+      ctx.fillText(`Generated on ${new Date().toLocaleDateString()}`, canvas.width / 2, 550);
+      ctx.fillText('quizverse.example.com', canvas.width / 2, 580);
+
+      // Convert to image and download
+      canvas.toBlob(blob => {
+        const link = document.createElement('a');
+        link.download = `quizverse-stats-${profile.name.replace(' ', '-')}.png`;
+        link.href = URL.createObjectURL(blob);
+        link.click();
+        URL.revokeObjectURL(link.href);
+      }, 'image/png', 1);
+    }
+
+    // Add this CSS dynamically to keep quiz interface properly sized
+    function adjustQuizHeight() {
+      const quizInterface = document.getElementById('quiz-interface');
+      if (quizInterface) {
+        // Calculate available height (viewport height minus header and some padding)
+        const headerHeight = document.querySelector('header')?.offsetHeight || 70;
+        const padding = 20;
+        const availableHeight = window.innerHeight - headerHeight - padding;
+
+        quizInterface.style.maxHeight = `${availableHeight}px`;
+        quizInterface.style.overflowY = 'auto';
+      }
+    }
+    // Add this function
+function adjustQuizLayout() {
+  const headerHeight = document.querySelector('header')?.offsetHeight || 70;
+  const quizInterface = document.getElementById('quiz-interface');
+  
+  if (quizInterface) {
+    if (window.innerWidth < 640) {
+      // Mobile layout - use auto height with padding for controls
+      quizInterface.style.height = 'auto';
+      quizInterface.style.maxHeight = 'none';
+    } else {
+      // Desktop layout - fixed height
+      quizInterface.style.height = `calc(100vh - ${headerHeight}px)`;
+    }
+  }
+}
+
+// Update these lines at the end of your script
+window.addEventListener('load', function() {
+  adjustQuizLayout();
+  adjustQuizHeight(); // Keep this if you need it for other purposes
+});
+
+window.addEventListener('resize', function() {
+  adjustQuizLayout();
+  adjustQuizHeight(); // Keep this if you need it for other purposes
+});
+  
+  // Add this event listener at the end of your script (around line 3315)
+window.addEventListener('storage', function(event) {
+  if (event.key === 'theme') {
+    const darkMode = event.newValue === 'dark';
+    if (darkMode !== state.isDarkMode) {
+      toggleDarkMode();
+    }
+  }
+});
+  
+  </script>
+  <script src="src/js/analytics.js"></script>
+
+</body>
+
+</html>

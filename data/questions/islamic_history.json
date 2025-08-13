@@ -1,0 +1,3092 @@
+{
+  "meta": {
+    "category": "Islamic History",
+    "category_ur": "اسلامی تاریخ",
+    "description": "Test your knowledge of Islamic history from the time of Prophet Muhammad (PBUH) to modern times",
+    "description_ur": "حضرت محمد صلی اللہ علیہ وسلم کے زمانے سے لے کر جدید دور تک اسلامی تاریخ کا امتحان لیں",
+    "difficulty": "medium",
+    "image": "islamic_history.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "In which year was Prophet Muhammad (PBUH) born?",
+      "question_ur": "حضرت محمد صلی اللہ علیہ وسلم کس سال پیدا ہوئے؟",
+      "options": {
+        "en": ["568 CE", "570 CE", "572 CE", "575 CE"],
+        "ur": ["568 عیسوی", "570 عیسوی", "572 عیسوی", "575 عیسوی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Prophet Muhammad (PBUH) was born in 570 CE in Mecca.",
+      "explanation_ur": "حضرت محمد صلی اللہ علیہ وسلم 570 عیسوی میں مکہ میں پیدا ہوئے۔",
+      "hint": "It was known as the Year of the Elephant",
+      "hint_ur": "اسے عام الفیل کہا جاتا ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "What was the name of Prophet Muhammad's (PBUH) father?",
+      "question_ur": "حضرت محمد صلی اللہ علیہ وسلم کے والد کا نام کیا تھا؟",
+      "options": {
+        "en": ["Abdul Muttalib", "Abdullah", "Abu Talib", "Abbas"],
+        "ur": ["عبدالمطلب", "عبداللہ", "ابو طالب", "عباس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Prophet Muhammad's (PBUH) father was Abdullah ibn Abdul Muttalib.",
+      "explanation_ur": "حضرت محمد صلی اللہ علیہ وسلم کے والد عبداللہ بن عبدالمطلب تھے۔",
+      "hint": "He died before the Prophet's birth",
+      "hint_ur": "وہ نبی کی پیدائش سے پہلے فوت ہو گئے تھے",
+      "timeLimit": 25
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "What was the name of Prophet Muhammad's (PBUH) mother?",
+      "question_ur": "حضرت محمد صلی اللہ علیہ وسلم کی والدہ کا نام کیا تھا؟",
+      "options": {
+        "en": ["Aminah", "Khadijah", "Fatimah", "Aisha"],
+        "ur": ["آمنہ", "خدیجہ", "فاطمہ", "عائشہ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Prophet Muhammad's (PBUH) mother was Aminah bint Wahb.",
+      "explanation_ur": "حضرت محمد صلی اللہ علیہ وسلم کی والدہ آمنہ بنت وہب تھیں۔",
+      "hint": "She died when the Prophet was six years old",
+      "hint_ur": "وہ نبی کی چھ سال کی عمر میں فوت ہو گئیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "At what age did Prophet Muhammad (PBUH) receive his first revelation?",
+      "question_ur": "حضرت محمد صلی اللہ علیہ وسلم کو کس عمر میں پہلی وحی آئی؟",
+      "options": {
+        "en": ["35 years", "40 years", "45 years", "50 years"],
+        "ur": ["35 سال", "40 سال", "45 سال", "50 سال"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Prophet Muhammad (PBUH) received his first revelation at the age of 40 in the cave of Hira.",
+      "explanation_ur": "حضرت محمد صلی اللہ علیہ وسلم کو 40 سال کی عمر میں غار حرا میں پہلی وحی آئی۔",
+      "hint": "It happened in the cave of Hira",
+      "hint_ur": "یہ غار حرا میں ہوا",
+      "timeLimit": 30
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Which angel brought the first revelation to Prophet Muhammad (PBUH)?",
+      "question_ur": "کس فرشتے نے حضرت محمد صلی اللہ علیہ وسلم کو پہلی وحی لائی؟",
+      "options": {
+        "en": ["Angel Michael", "Angel Gabriel", "Angel Raphael", "Angel Israfil"],
+        "ur": ["حضرت میکائیل", "حضرت جبرائیل", "حضرت رافائیل", "حضرت اسرافیل"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Angel Gabriel (Jibril) brought the first revelation to Prophet Muhammad (PBUH).",
+      "explanation_ur": "حضرت جبرائیل نے حضرت محمد صلی اللہ علیہ وسلم کو پہلی وحی لائی۔",
+      "hint": "Known as Jibril in Arabic",
+      "hint_ur": "عربی میں جبرائیل کہلاتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "What was the first word revealed in the Quran?",
+      "question_ur": "قرآن میں نازل ہونے والا پہلا لفظ کیا تھا؟",
+      "options": {
+        "en": ["Iqra (Read)", "Bismillah", "Alhamdulillah", "La ilaha illa Allah"],
+        "ur": ["اقرا (پڑھو)", "بسم اللہ", "الحمد للہ", "لا الہ الا اللہ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The first word revealed was 'Iqra' meaning 'Read' from Surah Al-Alaq.",
+      "explanation_ur": "پہلا نازل ہونے والا لفظ 'اقرا' تھا جس کا مطلب 'پڑھو' ہے سورہ العلق سے۔",
+      "hint": "It means 'Read' or 'Recite'",
+      "hint_ur": "اس کا مطلب 'پڑھو' یا 'تلاوت کرو' ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Who was the first person to accept Islam?",
+      "question_ur": "اسلام قبول کرنے والا پہلا شخص کون تھا؟",
+      "options": {
+        "en": ["Abu Bakr", "Ali ibn Abi Talib", "Khadijah", "Zaid ibn Harithah"],
+        "ur": ["ابو بکر", "علی ابن ابی طالب", "خدیجہ", "زید بن حارثہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Khadijah, the Prophet's wife, was the first person to accept Islam.",
+      "explanation_ur": "خدیجہ، نبی کی بیوی، اسلام قبول کرنے والی پہلی شخص تھیں۔",
+      "hint": "She was the Prophet's wife",
+      "hint_ur": "وہ نبی کی بیوی تھیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Who was the first man to accept Islam?",
+      "question_ur": "اسلام قبول کرنے والا پہلا مرد کون تھا؟",
+      "options": {
+        "en": ["Abu Bakr", "Umar ibn Khattab", "Ali ibn Abi Talib", "Uthman ibn Affan"],
+        "ur": ["ابو بکر", "عمر بن خطاب", "علی ابن ابی طالب", "عثمان بن عفان"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abu Bakr was the first adult man to accept Islam.",
+      "explanation_ur": "ابو بکر اسلام قبول کرنے والے پہلے بالغ مرد تھے۔",
+      "hint": "He became the first Caliph",
+      "hint_ur": "وہ پہلے خلیفہ بنے",
+      "timeLimit": 25
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "In which year did the Hijra (migration to Medina) take place?",
+      "question_ur": "ہجرت (مدینہ کی طرف) کس سال ہوئی؟",
+      "options": {
+        "en": ["620 CE", "622 CE", "624 CE", "626 CE"],
+        "ur": ["620 عیسوی", "622 عیسوی", "624 عیسوی", "626 عیسوی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Hijra took place in 622 CE, marking the beginning of the Islamic calendar.",
+      "explanation_ur": "ہجرت 622 عیسوی میں ہوئی، جو اسلامی کیلنڈر کی شروعات کا نشان ہے۔",
+      "hint": "It marks the start of the Islamic calendar",
+      "hint_ur": "یہ اسلامی کیلنڈر کی شروعات کا نشان ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "What was Medina called before the Prophet's arrival?",
+      "question_ur": "نبی کی آمد سے پہلے مدینہ کو کیا کہا جاتا تھا؟",
+      "options": {
+        "en": ["Yathrib", "Taif", "Khaybar", "Tabuk"],
+        "ur": ["یثرب", "طائف", "خیبر", "تبوک"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Medina was called Yathrib before Prophet Muhammad's (PBUH) arrival.",
+      "explanation_ur": "حضرت محمد صلی اللہ علیہ وسلم کی آمد سے پہلے مدینہ کو یثرب کہا جاتا تھا۔",
+      "hint": "It was renamed after the Prophet's arrival",
+      "hint_ur": "نبی کی آمد کے بعد اس کا نام تبدیل ہوا",
+      "timeLimit": 25
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "Which was the first battle fought by Muslims?",
+      "question_ur": "مسلمانوں کی طرف سے لڑی جانے والی پہلی جنگ کون سی تھی؟",
+      "options": {
+        "en": ["Battle of Badr", "Battle of Uhud", "Battle of Khandaq", "Battle of Hunayn"],
+        "ur": ["جنگ بدر", "جنگ احد", "جنگ خندق", "جنگ حنین"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Battle of Badr was the first major battle fought by Muslims in 624 CE.",
+      "explanation_ur": "جنگ بدر 624 عیسوی میں مسلمانوں کی طرف سے لڑی جانے والی پہلی بڑی جنگ تھی۔",
+      "hint": "It took place in 624 CE",
+      "hint_ur": "یہ 624 عیسوی میں ہوئی",
+      "timeLimit": 30
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "How many Muslims participated in the Battle of Badr?",
+      "question_ur": "جنگ بدر میں کتنے مسلمانوں نے حصہ لیا؟",
+      "options": {
+        "en": ["313", "700", "1000", "1500"],
+        "ur": ["313", "700", "1000", "1500"]
+      },
+      "correctAnswer": 0,
+      "explanation": "313 Muslims participated in the Battle of Badr against a much larger Meccan army.",
+      "explanation_ur": "313 مسلمانوں نے جنگ بدر میں مکی فوج کے مقابلے میں حصہ لیا۔",
+      "hint": "It was a small number against a larger army",
+      "hint_ur": "یہ بڑی فوج کے مقابلے میں چھوٹی تعداد تھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "In which year did the Battle of Uhud take place?",
+      "question_ur": "جنگ احد کس سال ہوئی؟",
+      "options": {
+        "en": ["624 CE", "625 CE", "626 CE", "627 CE"],
+        "ur": ["624 عیسوی", "625 عیسوی", "626 عیسوی", "627 عیسوی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Battle of Uhud took place in 625 CE, one year after the Battle of Badr.",
+      "explanation_ur": "جنگ احد 625 عیسوی میں ہوئی، جنگ بدر کے ایک سال بعد۔",
+      "hint": "It was one year after Badr",
+      "hint_ur": "یہ بدر کے ایک سال بعد ہوئی",
+      "timeLimit": 30
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "Who was known as 'Sayf Allah al-Maslul' (The Drawn Sword of Allah)?",
+      "question_ur": "کسے 'سیف اللہ المسلول' (اللہ کی کھینچی ہوئی تلوار) کہا جاتا تھا؟",
+      "options": {
+        "en": ["Ali ibn Abi Talib", "Khalid ibn Walid", "Hamza ibn Abdul Muttalib", "Sa'd ibn Abi Waqqas"],
+        "ur": ["علی ابن ابی طالب", "خالد بن ولید", "حمزہ بن عبدالمطلب", "سعد بن ابی وقاص"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Khalid ibn Walid was known as 'Sayf Allah al-Maslul' for his military prowess.",
+      "explanation_ur": "خالد بن ولید کو ان کی جنگی مہارت کے لیے 'سیف اللہ المسلول' کہا جاتا تھا۔",
+      "hint": "He was a great military commander",
+      "hint_ur": "وہ ایک عظیم فوجی کمانڈر تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "In which year was Mecca conquered by Muslims?",
+      "question_ur": "مسلمانوں نے مکہ کس سال فتح کیا؟",
+      "options": {
+        "en": ["628 CE", "629 CE", "630 CE", "631 CE"],
+        "ur": ["628 عیسوی", "629 عیسوی", "630 عیسوی", "631 عیسوی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Mecca was conquered by Muslims in 630 CE, known as the Conquest of Mecca.",
+      "explanation_ur": "مسلمانوں نے 630 عیسوی میں مکہ فتح کیا، جسے فتح مکہ کہا جاتا ہے۔",
+      "hint": "It was a peaceful conquest",
+      "hint_ur": "یہ ایک پرامن فتح تھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "What was the name of the treaty signed between Muslims and Meccans?",
+      "question_ur": "مسلمانوں اور مکیوں کے درمیان ہونے والے معاہدے کا نام کیا تھا؟",
+      "options": {
+        "en": ["Treaty of Hudaybiyyah", "Treaty of Medina", "Treaty of Badr", "Treaty of Uhud"],
+        "ur": ["صلح حدیبیہ", "معاہدہ مدینہ", "معاہدہ بدر", "معاہدہ احد"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Treaty of Hudaybiyyah was signed in 628 CE between Muslims and Meccans.",
+      "explanation_ur": "صلح حدیبیہ 628 عیسوی میں مسلمانوں اور مکیوں کے درمیان ہوئی۔",
+      "hint": "It was signed in 628 CE",
+      "hint_ur": "یہ 628 عیسوی میں ہوئی",
+      "timeLimit": 30
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "In which year did Prophet Muhammad (PBUH) pass away?",
+      "question_ur": "حضرت محمد صلی اللہ علیہ وسلم کس سال وفات پا گئے؟",
+      "options": {
+        "en": ["630 CE", "631 CE", "632 CE", "633 CE"],
+        "ur": ["630 عیسوی", "631 عیسوی", "632 عیسوی", "633 عیسوی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Prophet Muhammad (PBUH) passed away in 632 CE at the age of 63.",
+      "explanation_ur": "حضرت محمد صلی اللہ علیہ وسلم 632 عیسوی میں 63 سال کی عمر میں وفات پا گئے۔",
+      "hint": "He was 63 years old",
+      "hint_ur": "ان کی عمر 63 سال تھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Who was the first Caliph of Islam?",
+      "question_ur": "اسلام کے پہلے خلیفہ کون تھے؟",
+      "options": {
+        "en": ["Abu Bakr", "Umar ibn Khattab", "Uthman ibn Affan", "Ali ibn Abi Talib"],
+        "ur": ["ابو بکر", "عمر بن خطاب", "عثمان بن عفان", "علی ابن ابی طالب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abu Bakr was the first Caliph of Islam, ruling from 632-634 CE.",
+      "explanation_ur": "ابو بکر اسلام کے پہلے خلیفہ تھے، جنہوں نے 632-634 عیسوی تک حکومت کی۔",
+      "hint": "He was the Prophet's closest companion",
+      "hint_ur": "وہ نبی کے سب سے قریبی ساتھی تھے",
+      "timeLimit": 25
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "During whose caliphate was the Quran compiled into a single book?",
+      "question_ur": "کس خلیفہ کے دور میں قرآن کو ایک کتاب کی شکل میں جمع کیا گیا؟",
+      "options": {
+        "en": ["Abu Bakr", "Umar ibn Khattab", "Uthman ibn Affan", "Ali ibn Abi Talib"],
+        "ur": ["ابو بکر", "عمر بن خطاب", "عثمان بن عفان", "علی ابن ابی طالب"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Quran was compiled into a single standardized book during Uthman's caliphate.",
+      "explanation_ur": "عثمان کے دور خلافت میں قرآن کو ایک معیاری کتاب کی شکل میں جمع کیا گیا۔",
+      "hint": "He was the third Caliph",
+      "hint_ur": "وہ تیسرے خلیفہ تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Who was known as 'Al-Farooq' (The one who distinguishes between right and wrong)?",
+      "question_ur": "کسے 'الفاروق' (حق اور باطل میں فرق کرنے والا) کہا جاتا تھا؟",
+      "options": {
+        "en": ["Abu Bakr", "Umar ibn Khattab", "Uthman ibn Affan", "Ali ibn Abi Talib"],
+        "ur": ["ابو بکر", "عمر بن خطاب", "عثمان بن عفان", "علی ابن ابی طالب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Umar ibn Khattab was known as 'Al-Farooq' for his ability to distinguish between right and wrong.",
+      "explanation_ur": "عمر بن خطاب کو حق اور باطل میں فرق کرنے کی صلاحیت کے لیے 'الفاروق' کہا جاتا تھا۔",
+      "hint": "He was the second Caliph",
+      "hint_ur": "وہ دوسرے خلیفہ تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "During whose caliphate did the Islamic empire expand the most?",
+      "question_ur": "کس خلیفہ کے دور میں اسلامی سلطنت سب سے زیادہ پھیلی؟",
+      "options": {
+        "en": ["Abu Bakr", "Umar ibn Khattab", "Uthman ibn Affan", "Ali ibn Abi Talib"],
+        "ur": ["ابو بکر", "عمر بن خطاب", "عثمان بن عفان", "علی ابن ابی طالب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Islamic empire expanded the most during Umar ibn Khattab's caliphate.",
+      "explanation_ur": "عمر بن خطاب کے دور خلافت میں اسلامی سلطنت سب سے زیادہ پھیلی۔",
+      "hint": "He conquered Persia and Byzantine territories",
+      "hint_ur": "انہوں نے فارس اور بازنطینی علاقے فتح کیے",
+      "timeLimit": 30
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "Which Caliph was assassinated while praying in the mosque?",
+      "question_ur": "کس خلیفہ کو مسجد میں نماز پڑھتے وقت قتل کیا گیا؟",
+      "options": {
+        "en": ["Abu Bakr", "Umar ibn Khattab", "Uthman ibn Affan", "Ali ibn Abi Talib"],
+        "ur": ["ابو بکر", "عمر بن خطاب", "عثمان بن عفان", "علی ابن ابی طالب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Umar ibn Khattab was assassinated by Abu Lulu while leading the Fajr prayer.",
+      "explanation_ur": "عمر بن خطاب کو ابو لولو نے فجر کی نماز کی امامت کرتے وقت قتل کیا۔",
+      "hint": "He was stabbed during Fajr prayer",
+      "hint_ur": "انہیں فجر کی نماز کے دوران چھرا مارا گیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Who was the last of the Rightly-Guided Caliphs?",
+      "question_ur": "خلفائے راشدین میں سے آخری کون تھے؟",
+      "options": {
+        "en": ["Abu Bakr", "Umar ibn Khattab", "Uthman ibn Affan", "Ali ibn Abi Talib"],
+        "ur": ["ابو بکر", "عمر بن خطاب", "عثمان بن عفان", "علی ابن ابی طالب"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Ali ibn Abi Talib was the fourth and last of the Rightly-Guided Caliphs.",
+      "explanation_ur": "علی ابن ابی طالب چوتھے اور خلفائے راشدین میں سے آخری تھے۔",
+      "hint": "He was the Prophet's cousin and son-in-law",
+      "hint_ur": "وہ نبی کے چچا زاد بھائی اور داماد تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which dynasty came to power after the Rightly-Guided Caliphs?",
+      "question_ur": "خلفائے راشدین کے بعد کون سا خاندان اقتدار میں آیا؟",
+      "options": {
+        "en": ["Abbasid", "Umayyad", "Fatimid", "Ottoman"],
+        "ur": ["عباسی", "اموی", "فاطمی", "عثمانی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Umayyad dynasty came to power after the Rightly-Guided Caliphs in 661 CE.",
+      "explanation_ur": "اموی خاندان 661 عیسوی میں خلفائے راشدین کے بعد اقتدار میں آیا۔",
+      "hint": "They established their capital in Damascus",
+      "hint_ur": "انہوں نے دمشق میں اپنا دارالحکومت قائم کیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Who was the founder of the Umayyad dynasty?",
+      "question_ur": "اموی خاندان کا بانی کون تھا؟",
+      "options": {
+        "en": ["Muawiya I", "Yazid I", "Abdul Malik", "Walid I"],
+        "ur": ["معاویہ اول", "یزید اول", "عبدالملک", "ولید اول"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Muawiya I was the founder of the Umayyad dynasty and ruled from 661-680 CE.",
+      "explanation_ur": "معاویہ اول اموی خاندان کے بانی تھے اور انہوں نے 661-680 عیسوی تک حکومت کی۔",
+      "hint": "He was the governor of Syria",
+      "hint_ur": "وہ شام کے گورنر تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "What was the capital of the Umayyad Caliphate?",
+      "question_ur": "اموی خلافت کا دارالحکومت کیا تھا؟",
+      "options": {
+        "en": ["Mecca", "Medina", "Damascus", "Baghdad"],
+        "ur": ["مکہ", "مدینہ", "دمشق", "بغداد"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Damascus was the capital of the Umayyad Caliphate.",
+      "explanation_ur": "دمشق اموی خلافت کا دارالحکومت تھا۔",
+      "hint": "It's in modern-day Syria",
+      "hint_ur": "یہ موجودہ شام میں ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "During which Umayyad Caliph's reign did Muslims reach Spain?",
+      "question_ur": "کس اموی خلیفہ کے دور میں مسلمان اسپین پہنچے؟",
+      "options": {
+        "en": ["Muawiya I", "Abdul Malik", "Walid I", "Umar II"],
+        "ur": ["معاویہ اول", "عبدالملک", "ولید اول", "عمر دوم"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Muslims reached Spain during the reign of Walid I (705-715 CE).",
+      "explanation_ur": "ولید اول (705-715 عیسوی) کے دور میں مسلمان اسپین پہنچے۔",
+      "hint": "It happened in 711 CE",
+      "hint_ur": "یہ 711 عیسوی میں ہوا",
+      "timeLimit": 30
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "Who led the Muslim conquest of Spain?",
+      "question_ur": "اسپین کی مسلم فتح کی قیادت کس نے کی؟",
+      "options": {
+        "en": ["Tariq ibn Ziyad", "Musa ibn Nusayr", "Khalid ibn Walid", "Amr ibn al-As"],
+        "ur": ["طارق بن زیاد", "موسیٰ بن نصیر", "خالد بن ولید", "عمرو بن العاص"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Tariq ibn Ziyad led the Muslim conquest of Spain in 711 CE.",
+      "explanation_ur": "طارق بن زیاد نے 711 عیسوی میں اسپین کی مسلم فتح کی قیادت کی۔",
+      "hint": "Gibraltar is named after him",
+      "hint_ur": "جبرالٹر کا نام ان کے نام پر ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "Which dynasty overthrew the Umayyads?",
+      "question_ur": "کس خاندان نے امویوں کا تختہ الٹا؟",
+      "options": {
+        "en": ["Abbasid", "Fatimid", "Ayyubid", "Mamluk"],
+        "ur": ["عباسی", "فاطمی", "ایوبی", "ممالیک"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Abbasid dynasty overthrew the Umayyads in 750 CE.",
+      "explanation_ur": "عباسی خاندان نے 750 عیسوی میں امویوں کا تختہ الٹا۔",
+      "hint": "They established Baghdad as their capital",
+      "hint_ur": "انہوں نے بغداد کو اپنا دارالحکومت بنایا",
+      "timeLimit": 30
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "What was the capital of the Abbasid Caliphate?",
+      "question_ur": "عباسی خلافت کا دارالحکومت کیا تھا؟",
+      "options": {
+        "en": ["Damascus", "Cairo", "Baghdad", "Cordoba"],
+        "ur": ["دمشق", "قاہرہ", "بغداد", "قرطبہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Baghdad was the capital of the Abbasid Caliphate, founded in 762 CE.",
+      "explanation_ur": "بغداد عباسی خلافت کا دارالحکومت تھا، جو 762 عیسوی میں قائم ہوا۔",
+      "hint": "It was called the 'City of Peace'",
+      "hint_ur": "اسے 'مدینۃ السلام' کہا جاتا تھا",
+      "timeLimit": 25
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Who was the first Abbasid Caliph?",
+      "question_ur": "پہلا عباسی خلیفہ کون تھا؟",
+      "options": {
+        "en": ["Abu al-Abbas as-Saffah", "Al-Mansur", "Harun al-Rashid", "Al-Mamun"],
+        "ur": ["ابو العباس السفاح", "المنصور", "ہارون الرشید", "المامون"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abu al-Abbas as-Saffah was the first Abbasid Caliph (750-754 CE).",
+      "explanation_ur": "ابو العباس السفاح پہلا عباسی خلیفہ تھا (750-754 عیسوی)۔",
+      "hint": "His title means 'the Shedder of Blood'",
+      "hint_ur": "ان کے لقب کا مطلب 'خون بہانے والا' ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "Which Abbasid Caliph is famous in the Arabian Nights stories?",
+      "question_ur": "کون سا عباسی خلیفہ عربی راتوں کی کہانیوں میں مشہور ہے؟",
+      "options": {
+        "en": ["Al-Mansur", "Harun al-Rashid", "Al-Mamun", "Al-Mutawakkil"],
+        "ur": ["المنصور", "ہارون الرشید", "المامون", "المتوکل"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Harun al-Rashid is famous in the Arabian Nights (One Thousand and One Nights) stories.",
+      "explanation_ur": "ہارون الرشید عربی راتوں (ہزار ایک رات) کی کہانیوں میں مشہور ہیں۔",
+      "hint": "He ruled during the Islamic Golden Age",
+      "hint_ur": "انہوں نے اسلامی سنہری دور میں حکومت کی",
+      "timeLimit": 30
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "What was the House of Wisdom in Baghdad?",
+      "question_ur": "بغداد میں بیت الحکمہ کیا تھا؟",
+      "options": {
+        "en": ["A mosque", "A library and translation center", "A palace", "A military academy"],
+        "ur": ["ایک مسجد", "ایک کتب خانہ اور ترجمہ مرکز", "ایک محل", "ایک فوجی اکیڈمی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The House of Wisdom was a major library and translation center in Baghdad.",
+      "explanation_ur": "بیت الحکمہ بغداد میں ایک بڑا کتب خانہ اور ترجمہ مرکز تھا۔",
+      "hint": "It preserved and translated ancient texts",
+      "hint_ur": "اس نے قدیم متون کو محفوظ اور ترجمہ کیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "Who destroyed Baghdad and ended the Abbasid Caliphate?",
+      "question_ur": "کس نے بغداد کو تباہ کیا اور عباسی خلافت کا خاتمہ کیا؟",
+      "options": {
+        "en": ["Crusaders", "Mongols", "Ottomans", "Mamluks"],
+        "ur": ["صلیبی", "منگول", "عثمانی", "ممالیک"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Mongols under Hulagu Khan destroyed Baghdad in 1258 CE, ending the Abbasid Caliphate.",
+      "explanation_ur": "ہلاکو خان کی قیادت میں منگولوں نے 1258 عیسوی میں بغداد کو تباہ کیا اور عباسی خلافت کا خاتمہ کیا۔",
+      "hint": "It happened in 1258 CE",
+      "hint_ur": "یہ 1258 عیسوی میں ہوا",
+      "timeLimit": 30
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "What was Al-Andalus?",
+      "question_ur": "الاندلس کیا تھا؟",
+      "options": {
+        "en": ["Muslim Spain", "Muslim Sicily", "Muslim North Africa", "Muslim Egypt"],
+        "ur": ["مسلم اسپین", "مسلم صقلیہ", "مسلم شمالی افریقہ", "مسلم مصر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Al-Andalus was the name given to Muslim Spain from 711-1492 CE.",
+      "explanation_ur": "الاندلس 711-1492 عیسوی تک مسلم اسپین کو دیا گیا نام تھا۔",
+      "hint": "It lasted for nearly 800 years",
+      "hint_ur": "یہ تقریباً 800 سال تک قائم رہا",
+      "timeLimit": 30
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "What was the capital of Al-Andalus?",
+      "question_ur": "الاندلس کا دارالحکومت کیا تھا؟",
+      "options": {
+        "en": ["Seville", "Granada", "Cordoba", "Toledo"],
+        "ur": ["اشبیلیہ", "غرناطہ", "قرطبہ", "طلیطلہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Cordoba was the capital of Al-Andalus and a major center of learning.",
+      "explanation_ur": "قرطبہ الاندلس کا دارالحکومت اور علم کا بڑا مرکز تھا۔",
+      "hint": "It had a famous mosque-cathedral",
+      "hint_ur": "اس میں ایک مشہور مسجد-گرجا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "Who established the Umayyad Caliphate in Spain?",
+      "question_ur": "اسپین میں اموی خلافت کس نے قائم کی؟",
+      "options": {
+        "en": ["Abd al-Rahman I", "Abd al-Rahman II", "Abd al-Rahman III", "Al-Hakam I"],
+        "ur": ["عبدالرحمن اول", "عبدالرحمن دوم", "عبدالرحمن سوم", "الحکم اول"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abd al-Rahman I established the Umayyad Caliphate in Spain in 756 CE.",
+      "explanation_ur": "عبدالرحمن اول نے 756 عیسوی میں اسپین میں اموی خلافت قائم کی۔",
+      "hint": "He was called 'The Falcon of Andalus'",
+      "hint_ur": "انہیں 'صقر الاندلس' کہا جاتا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "When did the last Muslim kingdom in Spain fall?",
+      "question_ur": "اسپین میں آخری مسلم سلطنت کب ختم ہوئی؟",
+      "options": {
+        "en": ["1490", "1491", "1492", "1493"],
+        "ur": ["1490", "1491", "1492", "1493"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The last Muslim kingdom in Spain (Granada) fell in 1492 CE.",
+      "explanation_ur": "اسپین میں آخری مسلم سلطنت (غرناطہ) 1492 عیسوی میں ختم ہوئی۔",
+      "hint": "It was the same year Columbus reached America",
+      "hint_ur": "یہ وہی سال تھا جب کولمبس امریکہ پہنچا",
+      "timeLimit": 30
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "What was the name of the last Muslim kingdom in Spain?",
+      "question_ur": "اسپین میں آخری مسلم سلطنت کا نام کیا تھا؟",
+      "options": {
+        "en": ["Cordoba", "Seville", "Granada", "Valencia"],
+        "ur": ["قرطبہ", "اشبیلیہ", "غرناطہ", "والنسیا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Granada was the last Muslim kingdom in Spain, falling in 1492 CE.",
+      "explanation_ur": "غرناطہ اسپین میں آخری مسلم سلطنت تھی، جو 1492 عیسوی میں ختم ہوئی۔",
+      "hint": "The Alhambra palace is located there",
+      "hint_ur": "الحمرا محل وہاں واقع ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "Who were the Fatimids?",
+      "question_ur": "فاطمی کون تھے؟",
+      "options": {
+        "en": ["Sunni dynasty in Spain", "Shia dynasty in Egypt", "Sufi order in Persia", "Mongol rulers in Iraq"],
+        "ur": ["اسپین میں سنی خاندان", "مصر میں شیعہ خاندان", "فارس میں صوفی سلسلہ", "عراق میں منگول حکمران"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Fatimids were a Shia dynasty that ruled Egypt and North Africa from 909-1171 CE.",
+      "explanation_ur": "فاطمی ایک شیعہ خاندان تھا جس نے 909-1171 عیسوی تک مصر اور شمالی افریقہ پر حکومت کی۔",
+      "hint": "They founded Cairo",
+      "hint_ur": "انہوں نے قاہرہ کی بنیاد رکھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "What was the capital of the Fatimid Caliphate?",
+      "question_ur": "فاطمی خلافت کا دارالحکومت کیا تھا؟",
+      "options": {
+        "en": ["Alexandria", "Cairo", "Tunis", "Fez"],
+        "ur": ["اسکندریہ", "قاہرہ", "تونس", "فاس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Cairo was the capital of the Fatimid Caliphate, founded in 969 CE.",
+      "explanation_ur": "قاہرہ فاطمی خلافت کا دارالحکومت تھا، جو 969 عیسوی میں قائم ہوا۔",
+      "hint": "They called it 'Al-Qahirah'",
+      "hint_ur": "انہوں نے اسے 'القاہرہ' کہا",
+      "timeLimit": 30
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "Who founded Al-Azhar University?",
+      "question_ur": "الازہر یونیورسٹی کس نے قائم کی؟",
+      "options": {
+        "en": ["Abbasids", "Umayyads", "Fatimids", "Ayyubids"],
+        "ur": ["عباسی", "اموی", "فاطمی", "ایوبی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Al-Azhar University was founded by the Fatimids in Cairo in 970 CE.",
+      "explanation_ur": "الازہر یونیورسٹی فاطمیوں نے 970 عیسوی میں قاہرہ میں قائم کی۔",
+      "hint": "It's one of the oldest universities in the world",
+      "hint_ur": "یہ دنیا کی قدیم ترین یونیورسٹیوں میں سے ایک ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Who was Saladin (Salah ad-Din)?",
+      "question_ur": "صلاح الدین (صلادین) کون تھا؟",
+      "options": {
+        "en": ["Fatimid Caliph", "Ayyubid Sultan", "Abbasid general", "Mamluk ruler"],
+        "ur": ["فاطمی خلیفہ", "ایوبی سلطان", "عباسی جنرل", "ممالیک حکمران"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Saladin was an Ayyubid Sultan who recaptured Jerusalem from the Crusaders in 1187 CE.",
+      "explanation_ur": "صلاح الدین ایک ایوبی سلطان تھا جس نے 1187 عیسوی میں صلیبیوں سے یروشلم واپس لیا۔",
+      "hint": "He fought against the Crusaders",
+      "hint_ur": "اس نے صلیبیوں کے خلاف جنگ کی",
+      "timeLimit": 30
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "In which year did Saladin recapture Jerusalem?",
+      "question_ur": "صلاح الدین نے کس سال یروشلم واپس لیا؟",
+      "options": {
+        "en": ["1185", "1186", "1187", "1188"],
+        "ur": ["1185", "1186", "1187", "1188"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Saladin recaptured Jerusalem from the Crusaders in 1187 CE.",
+      "explanation_ur": "صلاح الدین نے 1187 عیسوی میں صلیبیوں سے یروشلم واپس لیا۔",
+      "hint": "It was during the Third Crusade period",
+      "hint_ur": "یہ تیسری صلیبی جنگ کے دور میں تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "What were the Crusades?",
+      "question_ur": "صلیبی جنگیں کیا تھیں؟",
+      "options": {
+        "en": ["Trade wars", "Religious wars", "Colonial wars", "Civil wars"],
+        "ur": ["تجارتی جنگیں", "مذہبی جنگیں", "نوآبادیاتی جنگیں", "خانہ جنگی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Crusades were religious wars fought between Christians and Muslims from 1095-1291 CE.",
+      "explanation_ur": "صلیبی جنگیں 1095-1291 عیسوی تک عیسائیوں اور مسلمانوں کے درمیان مذہبی جنگیں تھیں۔",
+      "hint": "They lasted for about 200 years",
+      "hint_ur": "یہ تقریباً 200 سال تک جاری رہیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "Who were the Mamluks?",
+      "question_ur": "ممالیک کون تھے؟",
+      "options": {
+        "en": ["Arab merchants", "Turkish slave soldiers", "Persian scholars", "Mongol warriors"],
+        "ur": ["عرب تاجر", "ترک غلام سپاہی", "فارسی علماء", "منگول جنگجو"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Mamluks were Turkish slave soldiers who became rulers of Egypt and Syria.",
+      "explanation_ur": "ممالیک ترک غلام سپاہی تھے جو مصر اور شام کے حکمران بنے۔",
+      "hint": "They defeated the Mongols and Crusaders",
+      "hint_ur": "انہوں نے منگولوں اور صلیبیوں کو شکست دی",
+      "timeLimit": 30
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Which Mamluk Sultan defeated the Mongols at Ain Jalut?",
+      "question_ur": "کس ممالیک سلطان نے عین جالوت میں منگولوں کو شکست دی؟",
+      "options": {
+        "en": ["Baibars", "Qutuz", "Barquq", "Qaytbay"],
+        "ur": ["بیبرس", "قطز", "برقوق", "قایتبای"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Sultan Qutuz defeated the Mongols at the Battle of Ain Jalut in 1260 CE.",
+      "explanation_ur": "سلطان قطز نے 1260 عیسوی میں عین جالوت کی جنگ میں منگولوں کو شکست دی۔",
+      "hint": "The battle took place in 1260 CE",
+      "hint_ur": "یہ جنگ 1260 عیسوی میں ہوئی",
+      "timeLimit": 30
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "Who was the founder of the Ottoman Empire?",
+      "question_ur": "عثمانی سلطنت کا بانی کون تھا؟",
+      "options": {
+        "en": ["Osman I", "Orhan I", "Murad I", "Bayezid I"],
+        "ur": ["عثمان اول", "اورخان اول", "مراد اول", "بایزید اول"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Osman I was the founder of the Ottoman Empire around 1299 CE.",
+      "explanation_ur": "عثمان اول تقریباً 1299 عیسوی میں عثمانی سلطنت کا بانی تھا۔",
+      "hint": "The empire is named after him",
+      "hint_ur": "سلطنت کا نام ان کے نام پر ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "Which Ottoman Sultan conquered Constantinople?",
+      "question_ur": "کس عثمانی سلطان نے قسطنطنیہ فتح کیا؟",
+      "options": {
+        "en": ["Murad II", "Mehmed II", "Bayezid II", "Selim I"],
+        "ur": ["مراد دوم", "محمد دوم", "بایزید دوم", "سلیم اول"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Mehmed II conquered Constantinople in 1453 CE, ending the Byzantine Empire.",
+      "explanation_ur": "محمد دوم نے 1453 عیسوی میں قسطنطنیہ فتح کیا، جس سے بازنطینی سلطنت کا خاتمہ ہوا۔",
+      "hint": "He was called 'The Conqueror'",
+      "hint_ur": "انہیں 'فاتح' کہا جاتا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "In which year was Constantinople conquered by the Ottomans?",
+      "question_ur": "عثمانیوں نے قسطنطنیہ کس سال فتح کیا؟",
+      "options": {
+        "en": ["1451", "1452", "1453", "1454"],
+        "ur": ["1451", "1452", "1453", "1454"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Constantinople was conquered by the Ottomans in 1453 CE.",
+      "explanation_ur": "عثمانیوں نے 1453 عیسوی میں قسطنطنیہ فتح کیا۔",
+      "hint": "It marked the end of the Byzantine Empire",
+      "hint_ur": "اس سے بازنطینی سلطنت کا خاتمہ ہوا",
+      "timeLimit": 30
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "What was Constantinople renamed to after the Ottoman conquest?",
+      "question_ur": "عثمانی فتح کے بعد قسطنطنیہ کا نام کیا رکھا گیا؟",
+      "options": {
+        "en": ["Ankara", "Istanbul", "Bursa", "Edirne"],
+        "ur": ["انقرہ", "استنبول", "برسا", "ادرنہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Constantinople was renamed Istanbul after the Ottoman conquest.",
+      "explanation_ur": "عثمانی فتح کے بعد قسطنطنیہ کا نام استنبول رکھا گیا۔",
+      "hint": "It became the Ottoman capital",
+      "hint_ur": "یہ عثمانی دارالحکومت بنا",
+      "timeLimit": 25
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "Which Ottoman Sultan was known as 'The Magnificent'?",
+      "question_ur": "کس عثمانی سلطان کو 'شاندار' کہا جاتا تھا؟",
+      "options": {
+        "en": ["Selim I", "Suleiman I", "Murad III", "Ahmed I"],
+        "ur": ["سلیم اول", "سلیمان اول", "مراد سوم", "احمد اول"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Suleiman I was known as 'The Magnificent' and ruled from 1520-1566 CE.",
+      "explanation_ur": "سلیمان اول کو 'شاندار' کہا جاتا تھا اور انہوں نے 1520-1566 عیسوی تک حکومت کی۔",
+      "hint": "He ruled during the Ottoman golden age",
+      "hint_ur": "انہوں نے عثمانی سنہری دور میں حکومت کی",
+      "timeLimit": 30
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "What was the elite military unit of the Ottoman Empire called?",
+      "question_ur": "عثمانی سلطنت کی اعلیٰ فوجی یونٹ کو کیا کہا جاتا تھا؟",
+      "options": {
+        "en": ["Sipahi", "Janissaries", "Akinci", "Azab"],
+        "ur": ["سپاہی", "جینیسری", "آکنجی", "عزب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Janissaries were the elite military unit of the Ottoman Empire.",
+      "explanation_ur": "جینیسری عثمانی سلطنت کی اعلیٰ فوجی یونٹ تھی۔",
+      "hint": "They were recruited through the devshirme system",
+      "hint_ur": "انہیں دیوشرمے نظام کے ذریعے بھرتی کیا جاتا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "Which battle marked the furthest Ottoman advance into Europe?",
+      "question_ur": "کون سی جنگ یورپ میں عثمانی پیش قدمی کی انتہا کا نشان تھی؟",
+      "options": {
+        "en": ["Battle of Mohacs", "Siege of Vienna", "Battle of Lepanto", "Battle of Kosovo"],
+        "ur": ["موہاکس کی جنگ", "ویانا کا محاصرہ", "لیپانٹو کی جنگ", "کوسووو کی جنگ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Siege of Vienna in 1683 marked the furthest Ottoman advance into Europe.",
+      "explanation_ur": "1683 میں ویانا کا محاصرہ یورپ میں عثمانی پیش قدمی کی انتہا کا نشان تھا۔",
+      "hint": "It happened in 1683",
+      "hint_ur": "یہ 1683 میں ہوا",
+      "timeLimit": 30
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "Who was Ibn Sina (Avicenna)?",
+      "question_ur": "ابن سینا (ایویسینا) کون تھا؟",
+      "options": {
+        "en": ["A historian", "A philosopher and physician", "A poet", "A military commander"],
+        "ur": ["ایک مؤرخ", "ایک فلسفی اور طبیب", "ایک شاعر", "ایک فوجی کمانڈر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ibn Sina was a famous Persian philosopher and physician of the Islamic Golden Age.",
+      "explanation_ur": "ابن سینا اسلامی سنہری دور کے مشہور فارسی فلسفی اور طبیب تھے۔",
+      "hint": "He wrote 'The Canon of Medicine'",
+      "hint_ur": "انہوں نے 'القانون فی الطب' لکھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "Who was Al-Khwarizmi?",
+      "question_ur": "الخوارزمی کون تھا؟",
+      "options": {
+        "en": ["A poet", "A mathematician", "A general", "A merchant"],
+        "ur": ["ایک شاعر", "ایک ریاضی دان", "ایک جنرل", "ایک تاجر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Al-Khwarizmi was a Persian mathematician who developed algebra.",
+      "explanation_ur": "الخوارزمی ایک فارسی ریاضی دان تھا جس نے الجبرا کو ترقی دی۔",
+      "hint": "The word 'algebra' comes from his work",
+      "hint_ur": "'الجبرا' کا لفظ ان کے کام سے آیا ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "Who was Al-Razi (Rhazes)?",
+      "question_ur": "الرازی (رازیس) کون تھا؟",
+      "options": {
+        "en": ["A philosopher", "A physician", "An astronomer", "A geographer"],
+        "ur": ["ایک فلسفی", "ایک طبیب", "ایک فلکیات دان", "ایک جغرافیہ دان"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Al-Razi was a Persian physician who made significant contributions to medicine.",
+      "explanation_ur": "الرازی ایک فارسی طبیب تھا جس نے طب میں اہم کردار ادا کیا۔",
+      "hint": "He distinguished between smallpox and measles",
+      "hint_ur": "انہوں نے چیچک اور خسرہ میں فرق کیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "Who was Ibn Rushd (Averroes)?",
+      "question_ur": "ابن رشد (ایورویس) کون تھا؟",
+      "options": {
+        "en": ["A Spanish Muslim philosopher", "An Egyptian historian", "A Syrian poet", "An Iraqi mathematician"],
+        "ur": ["ایک اسپینی مسلم فلسفی", "ایک مصری مؤرخ", "ایک شامی شاعر", "ایک عراقی ریاضی دان"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Ibn Rushd was a Spanish Muslim philosopher from Cordoba who commented on Aristotle.",
+      "explanation_ur": "ابن رشد قرطبہ کا ایک اسپینی مسلم فلسفی تھا جس نے ارسطو پر تبصرہ کیا۔",
+      "hint": "He lived in Al-Andalus",
+      "hint_ur": "وہ الاندلس میں رہتا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "Who was Al-Ghazali?",
+      "question_ur": "الغزالی کون تھا؟",
+      "options": {
+        "en": ["A Sufi mystic and theologian", "A military commander", "A merchant", "An architect"],
+        "ur": ["ایک صوفی عارف اور عالم دین", "ایک فوجی کمانڈر", "ایک تاجر", "ایک معمار"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Al-Ghazali was a prominent Sufi mystic and theologian who wrote 'The Revival of the Religious Sciences'.",
+      "explanation_ur": "الغزالی ایک نامور صوفی عارف اور عالم دین تھا جس نے 'احیاء علوم الدین' لکھی۔",
+      "hint": "He wrote 'Ihya Ulum al-Din'",
+      "hint_ur": "انہوں نے 'احیاء علوم الدین' لکھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "Who was Ibn Khaldun?",
+      "question_ur": "ابن خلدون کون تھا؟",
+      "options": {
+        "en": ["A historian and sociologist", "A physician", "A poet", "A mathematician"],
+        "ur": ["ایک مؤرخ اور سماجیات دان", "ایک طبیب", "ایک شاعر", "ایک ریاضی دان"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Ibn Khaldun was a historian and sociologist who wrote the Muqaddimah.",
+      "explanation_ur": "ابن خلدون ایک مؤرخ اور سماجیات دان تھا جس نے مقدمہ لکھا۔",
+      "hint": "He's considered the father of sociology",
+      "hint_ur": "انہیں سماجیات کا باپ سمجھا جاتا ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 61,
+      "type": "true-false",
+      "question": "The Islamic calendar is based on the lunar year.",
+      "question_ur": "اسلامی کیلنڈر قمری سال پر مبنی ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Islamic calendar is indeed based on the lunar year, consisting of 12 lunar months.",
+      "explanation_ur": "اسلامی کیلنڈر واقعی قمری سال پر مبنی ہے، جو 12 قمری مہینوں پر مشتمل ہے۔",
+      "hint": "It follows the moon phases",
+      "hint_ur": "یہ چاند کی کلاؤں کی پیروی کرتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 62,
+      "type": "true-false",
+      "question": "The Hijra marks the beginning of the Islamic calendar.",
+      "question_ur": "ہجرت اسلامی کیلنڈر کی شروعات کا نشان ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Hijra (migration to Medina) in 622 CE marks the beginning of the Islamic calendar.",
+      "explanation_ur": "622 عیسوی میں ہجرت (مدینہ کی طرف) اسلامی کیلنڈر کی شروعات کا نشان ہے۔",
+      "hint": "It happened in 622 CE",
+      "hint_ur": "یہ 622 عیسوی میں ہوا",
+      "timeLimit": 25
+    },
+    {
+      "id": 63,
+      "type": "true-false",
+      "question": "The Battle of Badr was fought during Ramadan.",
+      "question_ur": "جنگ بدر رمضان میں لڑی گئی تھی۔",
+      "correctAnswer": true,
+      "explanation": "The Battle of Badr was indeed fought during the month of Ramadan in 624 CE.",
+      "explanation_ur": "جنگ بدر واقعی 624 عیسوی میں رمضان کے مہینے میں لڑی گئی تھی۔",
+      "hint": "It was the 17th of Ramadan",
+      "hint_ur": "یہ 17 رمضان کو تھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 64,
+      "type": "true-false",
+      "question": "The Umayyad Caliphate was the first Islamic dynasty.",
+      "question_ur": "اموی خلافت پہلا اسلامی خاندان تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Umayyad Caliphate was indeed the first Islamic dynasty, established in 661 CE.",
+      "explanation_ur": "اموی خلافت واقعی پہلا اسلامی خاندان تھا، جو 661 عیسوی میں قائم ہوا۔",
+      "hint": "It came after the Rightly-Guided Caliphs",
+      "hint_ur": "یہ خلفائے راشدین کے بعد آیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 65,
+      "type": "true-false",
+      "question": "Baghdad was built by the Umayyads.",
+      "question_ur": "بغداد امویوں نے بنایا تھا۔",
+      "correctAnswer": false,
+      "explanation": "Baghdad was built by the Abbasids, not the Umayyads. It was founded in 762 CE.",
+      "explanation_ur": "بغداد عباسیوں نے بنایا تھا، امویوں نے نہیں۔ یہ 762 عیسوی میں قائم ہوا۔",
+      "hint": "It was the Abbasid capital",
+      "hint_ur": "یہ عباسی دارالحکومت تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 66,
+      "type": "true-false",
+      "question": "The Mongols destroyed the House of Wisdom in Baghdad.",
+      "question_ur": "منگولوں نے بغداد میں بیت الحکمہ کو تباہ کیا۔",
+      "correctAnswer": true,
+      "explanation": "The Mongols destroyed the House of Wisdom when they conquered Baghdad in 1258 CE.",
+      "explanation_ur": "منگولوں نے 1258 عیسوی میں بغداد فتح کرتے وقت بیت الحکمہ کو تباہ کیا۔",
+      "hint": "It happened during the fall of Baghdad",
+      "hint_ur": "یہ بغداد کے زوال کے دوران ہوا",
+      "timeLimit": 30
+    },
+    {
+      "id": 67,
+      "type": "true-false",
+      "question": "Al-Andalus lasted for over 700 years.",
+      "question_ur": "الاندلس 700 سال سے زیادہ قائم رہا۔",
+      "correctAnswer": true,
+      "explanation": "Al-Andalus lasted from 711 to 1492 CE, which is about 781 years.",
+      "explanation_ur": "الاندلس 711 سے 1492 عیسوی تک قائم رہا، جو تقریباً 781 سال ہے۔",
+      "hint": "From 711 to 1492 CE",
+      "hint_ur": "711 سے 1492 عیسوی تک",
+      "timeLimit": 30
+    },
+    {
+      "id": 68,
+      "type": "true-false",
+      "question": "The Fatimids were a Sunni dynasty.",
+      "question_ur": "فاطمی ایک سنی خاندان تھا۔",
+      "correctAnswer": false,
+      "explanation": "The Fatimids were a Shia dynasty, not Sunni. They ruled Egypt and North Africa.",
+      "explanation_ur": "فاطمی ایک شیعہ خاندان تھا، سنی نہیں۔ انہوں نے مصر اور شمالی افریقہ پر حکومت کی۔",
+      "hint": "They were rivals of the Abbasids",
+      "hint_ur": "وہ عباسیوں کے حریف تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 69,
+      "type": "true-false",
+      "question": "Saladin was a Kurdish leader.",
+      "question_ur": "صلاح الدین ایک کرد رہنما تھا۔",
+      "correctAnswer": true,
+      "explanation": "Saladin was indeed of Kurdish origin, though he was born in Tikrit, Iraq.",
+      "explanation_ur": "صلاح الدین واقعی کرد النسل تھا، اگرچہ وہ تکریت، عراق میں پیدا ہوا تھا۔",
+      "hint": "He was born in Tikrit",
+      "hint_ur": "وہ تکریت میں پیدا ہوا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 70,
+      "type": "true-false",
+      "question": "The Ottoman Empire lasted for over 600 years.",
+      "question_ur": "عثمانی سلطنت 600 سال سے زیادہ قائم رہی۔",
+      "correctAnswer": true,
+      "explanation": "The Ottoman Empire lasted from 1299 to 1922 CE, which is about 623 years.",
+      "explanation_ur": "عثمانی سلطنت 1299 سے 1922 عیسوی تک قائم رہی، جو تقریباً 623 سال ہے۔",
+      "hint": "It ended after World War I",
+      "hint_ur": "یہ پہلی جنگ عظیم کے بعد ختم ہوئی",
+      "timeLimit": 30
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "question": "Who was the first person to be martyred in Islam?",
+      "question_ur": "اسلام میں شہید ہونے والا پہلا شخص کون تھا؟",
+      "options": {
+        "en": ["Sumayya bint Khayyat", "Yasir ibn Amir", "Bilal ibn Rabah", "Ammar ibn Yasir"],
+        "ur": ["سمیہ بنت خیاط", "یاسر بن عامر", "بلال بن رباح", "عمار بن یاسر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Sumayya bint Khayyat was the first person to be martyred in Islam.",
+      "explanation_ur": "سمیہ بنت خیاط اسلام میں شہید ہونے والی پہلی شخص تھیں۔",
+      "hint": "She was Ammar ibn Yasir's mother",
+      "hint_ur": "وہ عمار بن یاسر کی والدہ تھیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 72,
+      "type": "mcq",
+      "question": "What was the name of the Prophet's horse?",
+      "question_ur": "نبی کے گھوڑے کا نام کیا تھا؟",
+      "options": {
+        "en": ["Buraq", "Duldul", "Sakb", "Murtajaz"],
+        "ur": ["براق", "دلدل", "سکب", "مرتجز"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Prophet's horse was named Sakb.",
+      "explanation_ur": "نبی کے گھوڑے کا نام سکب تھا۔",
+      "hint": "Buraq was the heavenly mount for Isra and Mi'raj",
+      "hint_ur": "براق اسراء و معراج کے لیے آسمانی سواری تھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "Who was known as 'The Lion of Allah'?",
+      "question_ur": "کسے 'اسد اللہ' کہا جاتا تھا؟",
+      "options": {
+        "en": ["Ali ibn Abi Talib", "Hamza ibn Abdul Muttalib", "Khalid ibn Walid", "Sa'd ibn Abi Waqqas"],
+        "ur": ["علی ابن ابی طالب", "حمزہ بن عبدالمطلب", "خالد بن ولید", "سعد بن ابی وقاص"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Hamza ibn Abdul Muttalib was known as 'Asad Allah' (The Lion of Allah).",
+      "explanation_ur": "حمزہ بن عبدالمطلب کو 'اسد اللہ' (اللہ کا شیر) کہا جاتا تھا۔",
+      "hint": "He was the Prophet's uncle",
+      "hint_ur": "وہ نبی کے چچا تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 74,
+      "type": "mcq",
+      "question": "In which battle was Hamza ibn Abdul Muttalib martyred?",
+      "question_ur": "حمزہ بن عبدالمطلب کس جنگ میں شہید ہوئے؟",
+      "options": {
+        "en": ["Battle of Badr", "Battle of Uhud", "Battle of Khandaq", "Battle of Khaybar"],
+        "ur": ["جنگ بدر", "جنگ احد", "جنگ خندق", "جنگ خیبر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Hamza ibn Abdul Muttalib was martyred in the Battle of Uhud.",
+      "explanation_ur": "حمزہ بن عبدالمطلب جنگ احد میں شہید ہوئے۔",
+      "hint": "He was killed by Wahshi",
+      "hint_ur": "انہیں وحشی نے قتل کیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "question": "Who was the first Muezzin (caller to prayer) in Islam?",
+      "question_ur": "اسلام میں پہلا مؤذن (اذان دینے والا) کون تھا؟",
+      "options": {
+        "en": ["Bilal ibn Rabah", "Abdullah ibn Umm Maktum", "Sa'd ibn Abi Waqqas", "Abu Bakr"],
+        "ur": ["بلال بن رباح", "عبداللہ بن ام مکتوم", "سعد بن ابی وقاص", "ابو بکر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Bilal ibn Rabah was the first Muezzin in Islam.",
+      "explanation_ur": "بلال بن رباح اسلام میں پہلے مؤذن تھے۔",
+      "hint": "He was a former slave from Abyssinia",
+      "hint_ur": "وہ حبشہ کا سابق غلام تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "question": "What was the name of the document that established the first Islamic state in Medina?",
+      "question_ur": "مدینہ میں پہلی اسلامی ریاست قائم کرنے والے دستاویز کا نام کیا تھا؟",
+      "options": {
+        "en": ["Constitution of Medina", "Treaty of Hudaybiyyah", "Charter of Mecca", "Pact of Najran"],
+        "ur": ["دستور مدینہ", "صلح حدیبیہ", "میثاق مکہ", "معاہدہ نجران"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Constitution of Medina established the first Islamic state and defined the rights and duties of all citizens.",
+      "explanation_ur": "دستور مدینہ نے پہلی اسلامی ریاست قائم کی اور تمام شہریوں کے حقوق و فرائض کا تعین کیا۔",
+      "hint": "It was also called the Charter of Medina",
+      "hint_ur": "اسے میثاق مدینہ بھی کہا جاتا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "question": "Who was the scribe who wrote down the Quranic revelations?",
+      "question_ur": "کون سا کاتب تھا جو قرآنی وحی لکھتا تھا؟",
+      "options": {
+        "en": ["Zaid ibn Thabit", "Abdullah ibn Masud", "Ubayy ibn Ka'b", "All of the above"],
+        "ur": ["زید بن ثابت", "عبداللہ بن مسعود", "ابی بن کعب", "اوپر کے تمام"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Multiple companions served as scribes for the Quranic revelations, including Zaid ibn Thabit, Abdullah ibn Masud, and Ubayy ibn Ka'b.",
+      "explanation_ur": "متعدد صحابہ نے قرآنی وحی کے کاتب کا کام کیا، جن میں زید بن ثابت، عبداللہ بن مسعود، اور ابی بن کعب شامل ہیں۔",
+      "hint": "Several companions had this honor",
+      "hint_ur": "کئی صحابہ کو یہ اعزاز حاصل تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 78,
+      "type": "mcq",
+      "question": "Which companion was known as 'The Truthful' (As-Siddiq)?",
+      "question_ur": "کس صحابی کو 'صدیق' کہا جاتا تھا؟",
+      "options": {
+        "en": ["Abu Bakr", "Umar ibn Khattab", "Uthman ibn Affan", "Ali ibn Abi Talib"],
+        "ur": ["ابو بکر", "عمر بن خطاب", "عثمان بن عفان", "علی ابن ابی طالب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abu Bakr was known as 'As-Siddiq' (The Truthful) for his unwavering faith.",
+      "explanation_ur": "ابو بکر کو ان کے غیر متزلزل ایمان کے لیے 'الصدیق' (سچا) کہا جاتا تھا۔",
+      "hint": "He immediately believed in the Night Journey",
+      "hint_ur": "انہوں نے فوری طور پر اسراء پر یقین کیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "Who was known as 'Dhun-Nurayn' (Possessor of Two Lights)?",
+      "question_ur": "کسے 'ذو النورین' (دو نوروں والا) کہا جاتا تھا؟",
+      "options": {
+        "en": ["Abu Bakr", "Umar ibn Khattab", "Uthman ibn Affan", "Ali ibn Abi Talib"],
+        "ur": ["ابو بکر", "عمر بن خطاب", "عثمان بن عفان", "علی ابن ابی طالب"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Uthman ibn Affan was called 'Dhun-Nurayn' because he married two daughters of the Prophet.",
+      "explanation_ur": "عثمان بن عفان کو 'ذو النورین' کہا جاتا تھا کیونکہ انہوں نے نبی کی دو بیٹیوں سے شادی کی تھی۔",
+      "hint": "He married Ruqayyah and Umm Kulthum",
+      "hint_ur": "انہوں نے رقیہ اور ام کلثوم سے شادی کی",
+      "timeLimit": 30
+    },
+    {
+      "id": 80,
+      "type": "mcq",
+      "question": "Which battle is known as the 'Battle of the Trench'?",
+      "question_ur": "کون سی جنگ 'خندق کی جنگ' کے نام سے مشہور ہے؟",
+      "options": {
+        "en": ["Battle of Badr", "Battle of Uhud", "Battle of Khandaq", "Battle of Khaybar"],
+        "ur": ["جنگ بدر", "جنگ احد", "جنگ خندق", "جنگ خیبر"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Battle of Khandaq is known as the 'Battle of the Trench' because Muslims dug a trench around Medina.",
+      "explanation_ur": "جنگ خندق کو 'خندق کی جنگ' کہا جاتا ہے کیونکہ مسلمانوں نے مدینہ کے گرد خندق کھودی تھی۔",
+      "hint": "It was Salman al-Farisi's idea",
+      "hint_ur": "یہ سلمان فارسی کا خیال تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "question": "Who suggested digging the trench in the Battle of Khandaq?",
+      "question_ur": "جنگ خندق میں خندق کھودنے کا مشورہ کس نے دیا؟",
+      "options": {
+        "en": ["Abu Bakr", "Umar ibn Khattab", "Salman al-Farisi", "Ali ibn Abi Talib"],
+        "ur": ["ابو بکر", "عمر بن خطاب", "سلمان فارسی", "علی ابن ابی طالب"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Salman al-Farisi suggested digging the trench, a Persian military tactic.",
+      "explanation_ur": "سلمان فارسی نے خندق کھودنے کا مشورہ دیا، جو ایک فارسی فوجی حکمت عملی تھی۔",
+      "hint": "He was from Persia",
+      "hint_ur": "وہ فارس سے تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "question": "What was the name of the Jewish tribe that broke their treaty during the Battle of Khandaq?",
+      "question_ur": "جنگ خندق کے دوران کون سے یہودی قبیلے نے اپنا معاہدہ توڑا؟",
+      "options": {
+        "en": ["Banu Qaynuqa", "Banu Nadir", "Banu Qurayza", "Banu Hashim"],
+        "ur": ["بنو قینقاع", "بنو نضیر", "بنو قریظہ", "بنو ہاشم"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Banu Qurayza broke their treaty with Muslims during the Battle of Khandaq.",
+      "explanation_ur": "بنو قریظہ نے جنگ خندق کے دوران مسلمانوں کے ساتھ اپنا معاہدہ توڑا۔",
+      "hint": "They were judged by Sa'd ibn Mu'adh",
+      "hint_ur": "ان کا فیصلہ سعد بن معاذ نے کیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "question": "In which year did the Battle of Khaybar take place?",
+      "question_ur": "جنگ خیبر کس سال ہوئی؟",
+      "options": {
+        "en": ["626 CE", "627 CE", "628 CE", "629 CE"],
+        "ur": ["626 عیسوی", "627 عیسوی", "628 عیسوی", "629 عیسوی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Battle of Khaybar took place in 628 CE.",
+      "explanation_ur": "جنگ خیبر 628 عیسوی میں ہوئی۔",
+      "hint": "It was after the Treaty of Hudaybiyyah",
+      "hint_ur": "یہ صلح حدیبیہ کے بعد ہوئی",
+      "timeLimit": 30
+    },
+    {
+      "id": 84,
+      "type": "mcq",
+      "question": "Who was the Jewish leader at Khaybar who challenged the Muslims to single combat?",
+      "question_ur": "خیبر میں کون سا یہودی رہنما تھا جس نے مسلمانوں کو مبارزت کے لیے للکارا؟",
+      "options": {
+        "en": ["Marhab", "Kinana", "Sallam", "Yasir"],
+        "ur": ["مرحب", "کنانہ", "سلام", "یاسر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Marhab was the Jewish warrior who challenged Muslims to single combat at Khaybar.",
+      "explanation_ur": "مرحب وہ یہودی جنگجو تھا جس نے خیبر میں مسلمانوں کو مبارزت کے لیے للکارا۔",
+      "hint": "He was defeated by Ali ibn Abi Talib",
+      "hint_ur": "اسے علی ابن ابی طالب نے شکست دی",
+      "timeLimit": 30
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "What was the Farewell Pilgrimage?",
+      "question_ur": "حجۃ الوداع کیا تھا؟",
+      "options": {
+        "en": ["The Prophet's first pilgrimage", "The Prophet's last pilgrimage", "A pilgrimage to Jerusalem", "A pilgrimage to Medina"],
+        "ur": ["نبی کا پہلا حج", "نبی کا آخری حج", "یروشلم کا حج", "مدینہ کا حج"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Farewell Pilgrimage was Prophet Muhammad's (PBUH) last pilgrimage to Mecca in 632 CE.",
+      "explanation_ur": "حجۃ الوداع 632 عیسوی میں حضرت محمد صلی اللہ علیہ وسلم کا مکہ کا آخری حج تھا۔",
+      "hint": "He delivered his final sermon there",
+      "hint_ur": "انہوں نے وہاں اپنا آخری خطبہ دیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 86,
+      "type": "mcq",
+      "question": "Where did the Prophet deliver his Farewell Sermon?",
+      "question_ur": "نبی نے اپنا خطبہ حجۃ الوداع کہاں دیا؟",
+      "options": {
+        "en": ["Mount Arafat", "Mount Safa", "Mount Marwa", "Mount Uhud"],
+        "ur": ["جبل عرفات", "جبل صفا", "جبل مروہ", "جبل احد"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Prophet delivered his Farewell Sermon at Mount Arafat during the Farewell Pilgrimage.",
+      "explanation_ur": "نبی نے حجۃ الوداع کے دوران جبل عرفات پر اپنا خطبہ وداع دیا۔",
+      "hint": "It's part of the Hajj rituals",
+      "hint_ur": "یہ حج کے مناسک کا حصہ ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "question": "Who was appointed as the commander of Usama's army before the Prophet's death?",
+      "question_ur": "نبی کی وفات سے پہلے اسامہ کی فوج کا کمانڈر کسے مقرر کیا گیا؟",
+      "options": {
+        "en": ["Usama ibn Zaid", "Khalid ibn Walid", "Abu Bakr", "Umar ibn Khattab"],
+        "ur": ["اسامہ بن زید", "خالد بن ولید", "ابو بکر", "عمر بن خطاب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Usama ibn Zaid was appointed as the commander of the army sent to Syria before the Prophet's death.",
+      "explanation_ur": "اسامہ بن زید کو نبی کی وفات سے پہلے شام بھیجی جانے والی فوج کا کمانڈر مقرر کیا گیا۔",
+      "hint": "He was very young at the time",
+      "hint_ur": "وہ اس وقت بہت کم عمر تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "question": "What were the Ridda Wars?",
+      "question_ur": "جنگ ردہ کیا تھی؟",
+      "options": {
+        "en": ["Wars against Persia", "Wars against Byzantium", "Wars against apostate tribes", "Wars against Mecca"],
+        "ur": ["فارس کے خلاف جنگیں", "بازنطین کے خلاف جنگیں", "مرتد قبائل کے خلاف جنگیں", "مکہ کے خلاف جنگیں"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Ridda Wars were fought against Arabian tribes that apostatized after the Prophet's death.",
+      "explanation_ur": "جنگ ردہ ان عربی قبائل کے خلاف لڑی گئی جو نبی کی وفات کے بعد مرتد ہو گئے تھے۔",
+      "hint": "They happened during Abu Bakr's caliphate",
+      "hint_ur": "یہ ابو بکر کے دور خلافت میں ہوئیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "question": "Who was Musaylima?",
+      "question_ur": "مسیلمہ کون تھا؟",
+      "options": {
+        "en": ["A companion of the Prophet", "A false prophet", "A Byzantine general", "A Persian king"],
+        "ur": ["نبی کا ایک صحابی", "ایک جھوٹا نبی", "ایک بازنطینی جنرل", "ایک فارسی بادشاہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Musaylima was a false prophet who claimed prophethood and was defeated in the Ridda Wars.",
+      "explanation_ur": "مسیلمہ ایک جھوٹا نبی تھا جس نے نبوت کا دعویٰ کیا اور جنگ ردہ میں شکست کھائی۔",
+      "hint": "He was called 'Musaylima the Liar'",
+      "hint_ur": "اسے 'مسیلمہ کذاب' کہا جاتا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 90,
+      "type": "mcq",
+      "question": "Who killed Musaylima in the Battle of Yamama?",
+      "question_ur": "جنگ یمامہ میں مسیلمہ کو کس نے قتل کیا؟",
+      "options": {
+        "en": ["Khalid ibn Walid", "Wahshi", "Zaid ibn Harithah", "Abu Dujana"],
+        "ur": ["خالد بن ولید", "وحشی", "زید بن حارثہ", "ابو دجانہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Wahshi, who had previously killed Hamza, killed Musaylima in the Battle of Yamama.",
+      "explanation_ur": "وحشی، جس نے پہلے حمزہ کو قتل کیا تھا، نے جنگ یمامہ میں مسیلمہ کو قتل کیا۔",
+      "hint": "He had killed Hamza earlier",
+      "hint_ur": "اس نے پہلے حمزہ کو قتل کیا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "Which Persian general converted to Islam and became a companion?",
+      "question_ur": "کون سا فارسی جنرل اسلام لایا اور صحابی بنا؟",
+      "options": {
+        "en": ["Hormuz", "Rustam", "Firuz", "None of the above"],
+        "ur": ["ہرمز", "رستم", "فیروز", "اوپر میں سے کوئی نہیں"]
+      },
+      "correctAnswer": 3,
+      "explanation": "None of the major Persian generals mentioned converted to Islam during the Prophet's time.",
+      "explanation_ur": "مذکورہ بڑے فارسی جنرلوں میں سے کوئی بھی نبی کے زمانے میں اسلام نہیں لایا۔",
+      "hint": "They were defeated in later conquests",
+      "hint_ur": "وہ بعد کی فتوحات میں شکست کھا گئے",
+      "timeLimit": 30
+    },
+    {
+      "id": 92,
+      "type": "mcq",
+      "question": "Who was the Byzantine Emperor during the early Islamic conquests?",
+      "question_ur": "ابتدائی اسلامی فتوحات کے دوران بازنطینی شہنشاہ کون تھا؟",
+      "options": {
+        "en": ["Justinian", "Heraclius", "Constantine", "Theodosius"],
+        "ur": ["جسٹینین", "ہرقل", "کانسٹنٹائن", "تھیوڈوسیس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Heraclius was the Byzantine Emperor during the early Islamic conquests.",
+      "explanation_ur": "ہرقل ابتدائی اسلامی فتوحات کے دوران بازنطینی شہنشاہ تھا۔",
+      "hint": "He received a letter from the Prophet",
+      "hint_ur": "اسے نبی کا خط ملا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "Which battle ended Persian rule in Iraq?",
+      "question_ur": "کون سی جنگ نے عراق میں فارسی حکومت کا خاتمہ کیا؟",
+      "options": {
+        "en": ["Battle of Chains", "Battle of Qadisiyyah", "Battle of Firad", "Battle of Ullais"],
+        "ur": ["جنگ زنجیر", "جنگ قادسیہ", "جنگ فراض", "جنگ اُلیس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Battle of Qadisiyyah in 636 CE ended Persian rule in Iraq.",
+      "explanation_ur": "636 عیسوی میں جنگ قادسیہ نے عراق میں فارسی حکومت کا خاتمہ کیا۔",
+      "hint": "Sa'd ibn Abi Waqqas led the Muslim army",
+      "hint_ur": "سعد بن ابی وقاص نے مسلم فوج کی قیادت کی",
+      "timeLimit": 30
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "question": "Who conquered Egypt for the Muslims?",
+      "question_ur": "مسلمانوں کے لیے مصر کس نے فتح کیا؟",
+      "options": {
+        "en": ["Khalid ibn Walid", "Amr ibn al-As", "Abu Ubaidah", "Sa'd ibn Abi Waqqas"],
+        "ur": ["خالد بن ولید", "عمرو بن العاص", "ابو عبیدہ", "سعد بن ابی وقاص"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Amr ibn al-As conquered Egypt for the Muslims in 641 CE.",
+      "explanation_ur": "عمرو بن العاص نے 641 عیسوی میں مسلمانوں کے لیے مصر فتح کیا۔",
+      "hint": "He founded Fustat (Old Cairo)",
+      "hint_ur": "اس نے فسطاط (پرانا قاہرہ) کی بنیاد رکھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 95,
+      "type": "mcq",
+      "question": "What was the capital of Egypt before Cairo?",
+      "question_ur": "قاہرہ سے پہلے مصر کا دارالحکومت کیا تھا؟",
+      "options": {
+        "en": ["Alexandria", "Memphis", "Fustat", "Thebes"],
+        "ur": ["اسکندریہ", "میمفس", "فسطاط", "تھیبس"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Fustat was the capital of Egypt before Cairo was founded by the Fatimids.",
+      "explanation_ur": "فاطمیوں کی طرف سے قاہرہ کی بنیاد سے پہلے فسطاط مصر کا دارالحکومت تھا۔",
+      "hint": "It was founded by Amr ibn al-As",
+      "hint_ur": "اس کی بنیاد عمرو بن العاص نے رکھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 96,
+      "type": "mcq",
+      "question": "Which Caliph established the first Islamic navy?",
+      "question_ur": "کس خلیفہ نے پہلی اسلامی بحریہ قائم کی؟",
+      "options": {
+        "en": ["Abu Bakr", "Umar ibn Khattab", "Uthman ibn Affan", "Ali ibn Abi Talib"],
+        "ur": ["ابو بکر", "عمر بن خطاب", "عثمان بن عفان", "علی ابن ابی طالب"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Uthman ibn Affan established the first Islamic navy to conquer Cyprus.",
+      "explanation_ur": "عثمان بن عفان نے قبرص فتح کرنے کے لیے پہلی اسلامی بحریہ قائم کی۔",
+      "hint": "It was used to conquer Cyprus",
+      "hint_ur": "اسے قبرص فتح کرنے کے لیے استعمال کیا گیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "question": "Who was the first Muslim to conquer an island?",
+      "question_ur": "جزیرہ فتح کرنے والا پہلا مسلمان کون تھا؟",
+      "options": {
+        "en": ["Muawiya", "Amr ibn al-As", "Abdullah ibn Sa'd", "Yazid ibn Abi Sufyan"],
+        "ur": ["معاویہ", "عمرو بن العاص", "عبداللہ بن سعد", "یزید بن ابی سفیان"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Muawiya conquered Cyprus, making it the first island conquered by Muslims.",
+      "explanation_ur": "معاویہ نے قبرص فتح کیا، جو مسلمانوں کی طرف سے فتح ہونے والا پہلا جزیرہ تھا۔",
+      "hint": "He was the governor of Syria",
+      "hint_ur": "وہ شام کا گورنر تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 98,
+      "type": "mcq",
+      "question": "What was the first major civil war in Islamic history?",
+      "question_ur": "اسلامی تاریخ میں پہلی بڑی خانہ جنگی کیا تھی؟",
+      "options": {
+        "en": ["First Fitna", "Second Fitna", "Ridda Wars", "Battle of Siffin"],
+        "ur": ["پہلا فتنہ", "دوسرا فتنہ", "جنگ ردہ", "جنگ صفین"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The First Fitna was the first major civil war in Islamic history during Ali's caliphate.",
+      "explanation_ur": "پہلا فتنہ علی کے دور خلافت میں اسلامی تاریخ کی پہلی بڑی خانہ جنگی تھی۔",
+      "hint": "It happened during Ali's caliphate",
+      "hint_ur": "یہ علی کے دور خلافت میں ہوا",
+      "timeLimit": 30
+    },
+    {
+      "id": 99,
+      "type": "mcq",
+      "question": "Where was Ali ibn Abi Talib assassinated?",
+      "question_ur": "علی ابن ابی طالب کو کہاں قتل کیا گیا؟",
+      "options": {
+        "en": ["Medina", "Mecca", "Kufa", "Damascus"],
+        "ur": ["مدینہ", "مکہ", "کوفہ", "دمشق"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Ali ibn Abi Talib was assassinated in Kufa while praying in the mosque.",
+      "explanation_ur": "علی ابن ابی طالب کو کوفہ میں مسجد میں نماز پڑھتے وقت قتل کیا گیا۔",
+      "hint": "He was killed by Ibn Muljam",
+      "hint_ur": "انہیں ابن ملجم نے قتل کیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 100,
+      "type": "mcq",
+      "question": "Who was Ibn Muljam?",
+      "question_ur": "ابن ملجم کون تھا؟",
+      "options": {
+        "en": ["A Umayyad supporter", "A Kharijite", "A Persian agent", "A Byzantine spy"],
+        "ur": ["ایک اموی حامی", "ایک خارجی", "ایک فارسی ایجنٹ", "ایک بازنطینی جاسوس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ibn Muljam was a Kharijite who assassinated Ali ibn Abi Talib.",
+      "explanation_ur": "ابن ملجم ایک خارجی تھا جس نے علی ابن ابی طالب کو قتل کیا۔",
+      "hint": "The Kharijites opposed both Ali and Muawiya",
+      "hint_ur": "خوارج علی اور معاویہ دونوں کے مخالف تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 101,
+      "type": "mcq",
+      "question": "What was the Battle of Camel (Jamal) about?",
+      "question_ur": "جنگ جمل کیا تھی؟",
+      "options": {
+        "en": ["A battle against Persians", "A civil war between Ali and Aisha", "A battle against Byzantines", "A battle against apostates"],
+        "ur": ["فارسیوں کے خلاف جنگ", "علی اور عائشہ کے درمیان خانہ جنگی", "بازنطینیوں کے خلاف جنگ", "مرتدوں کے خلاف جنگ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Battle of Camel was a civil war between Ali and Aisha, Talha, and Zubayr.",
+      "explanation_ur": "جنگ جمل علی اور عائشہ، طلحہ، اور زبیر کے درمیان خانہ جنگی تھی۔",
+      "hint": "Aisha rode a camel in the battle",
+      "hint_ur": "عائشہ جنگ میں اونٹ پر سوار تھیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 102,
+      "type": "mcq",
+      "question": "Where did the Battle of Siffin take place?",
+      "question_ur": "جنگ صفین کہاں ہوئی؟",
+      "options": {
+        "en": ["Iraq", "Syria", "Egypt", "Arabia"],
+        "ur": ["عراق", "شام", "مصر", "عربستان"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Battle of Siffin took place in Syria between Ali and Muawiya.",
+      "explanation_ur": "جنگ صفین شام میں علی اور معاویہ کے درمیان ہوئی۔",
+      "hint": "It was on the banks of the Euphrates",
+      "hint_ur": "یہ دریائے فرات کے کنارے ہوئی",
+      "timeLimit": 30
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "question": "What ended the Battle of Siffin?",
+      "question_ur": "جنگ صفین کا خاتمہ کیسے ہوا؟",
+      "options": {
+        "en": ["Ali's victory", "Muawiya's victory", "Arbitration", "Divine intervention"],
+        "ur": ["علی کی فتح", "معاویہ کی فتح", "ثالثی", "الہی مداخلت"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Battle of Siffin ended with arbitration when Muawiya's forces raised Qurans on spears.",
+      "explanation_ur": "جنگ صفین کا خاتمہ ثالثی سے ہوا جب معاویہ کی فوج نے نیزوں پر قرآن اٹھائے۔",
+      "hint": "Qurans were raised on spears",
+      "hint_ur": "نیزوں پر قرآن اٹھائے گئے",
+      "timeLimit": 30
+    },
+    {
+      "id": 104,
+      "type": "mcq",
+      "question": "Who were the Kharijites?",
+      "question_ur": "خوارج کون تھے؟",
+      "options": {
+        "en": ["Supporters of Ali", "Supporters of Muawiya", "A sect that broke away from Ali", "Persian converts"],
+        "ur": ["علی کے حامی", "معاویہ کے حامی", "علی سے الگ ہونے والا فرقہ", "فارسی مسلمان"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Kharijites were a sect that broke away from Ali after he accepted arbitration.",
+      "explanation_ur": "خوارج ایک فرقہ تھا جو علی کی ثالثی قبول کرنے کے بعد ان سے الگ ہو گیا۔",
+      "hint": "They opposed the arbitration",
+      "hint_ur": "وہ ثالثی کے مخالف تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 105,
+      "type": "mcq",
+      "question": "What was the slogan of the Kharijites?",
+      "question_ur": "خوارج کا نعرہ کیا تھا؟",
+      "options": {
+        "en": ["La hukma illa lillah (No judgment but Allah's)", "Ali is the rightful Caliph", "Muawiya is the true leader", "Unity is strength"],
+        "ur": ["لا حکم الا للہ (اللہ کے سوا کوئی حکم نہیں)", "علی حقیقی خلیفہ ہے", "معاویہ سچا رہنما ہے", "اتحاد میں طاقت ہے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Kharijites' slogan was 'La hukma illa lillah' (No judgment but Allah's).",
+      "explanation_ur": "خوارج کا نعرہ 'لا حکم الا للہ' (اللہ کے سوا کوئی حکم نہیں) تھا۔",
+      "hint": "They rejected human arbitration",
+      "hint_ur": "انہوں نے انسانی ثالثی کو مسترد کیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 106,
+      "type": "mcq",
+      "question": "Who was Hassan ibn Ali?",
+      "question_ur": "حسن بن علی کون تھا؟",
+      "options": {
+        "en": ["Ali's son and briefly a Caliph", "Muawiya's son", "A Kharijite leader", "A Byzantine general"],
+        "ur": ["علی کا بیٹا اور مختصر وقت کے لیے خلیفہ", "معاویہ کا بیٹا", "خوارج کا رہنما", "بازنطینی جنرل"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Hassan ibn Ali was Ali's son who briefly became Caliph after his father's assassination.",
+      "explanation_ur": "حسن بن علی علی کا بیٹا تھا جو اپنے والد کے قتل کے بعد مختصر وقت کے لیے خلیفہ بنا۔",
+      "hint": "He abdicated in favor of Muawiya",
+      "hint_ur": "اس نے معاویہ کے حق میں دستبرداری کی",
+      "timeLimit": 30
+    },
+    {
+      "id": 107,
+      "type": "mcq",
+      "question": "What was the 'Year of Unity' (Am al-Jama'ah)?",
+      "question_ur": "'عام الجماعہ' (اتحاد کا سال) کیا تھا؟",
+      "options": {
+        "en": ["The year Hassan abdicated to Muawiya", "The year of the Prophet's death", "The year of Hijra", "The year of conquest of Mecca"],
+        "ur": ["وہ سال جب حسن نے معاویہ کے حق میں دستبرداری کی", "نبی کی وفات کا سال", "ہجرت کا سال", "فتح مکہ کا سال"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The 'Year of Unity' was 661 CE when Hassan abdicated in favor of Muawiya, ending the civil war.",
+      "explanation_ur": "'عام الجماعہ' 661 عیسوی تھا جب حسن نے معاویہ کے حق میں دستبرداری کی، جس سے خانہ جنگی کا خاتمہ ہوا۔",
+      "hint": "It ended the First Fitna",
+      "hint_ur": "اس سے پہلے فتنے کا خاتمہ ہوا",
+      "timeLimit": 30
+    },
+    {
+      "id": 108,
+      "type": "mcq",
+      "question": "Who was Yazid I?",
+      "question_ur": "یزید اول کون تھا؟",
+      "options": {
+        "en": ["Muawiya's son and second Umayyad Caliph", "Ali's son", "A Kharijite leader", "A Persian general"],
+        "ur": ["معاویہ کا بیٹا اور دوسرا اموی خلیفہ", "علی کا بیٹا", "خوارج کا رہنما", "فارسی جنرل"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Yazid I was Muawiya's son and the second Umayyad Caliph who ruled from 680-683 CE.",
+      "explanation_ur": "یزید اول معاویہ کا بیٹا اور دوسرا اموی خلیفہ تھا جس نے 680-683 عیسوی تک حکومت کی۔",
+      "hint": "The Battle of Karbala happened during his reign",
+      "hint_ur": "اس کے دور میں جنگ کربلا ہوئی",
+      "timeLimit": 30
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "question": "What happened at Karbala?",
+      "question_ur": "کربلا میں کیا ہوا؟",
+      "options": {
+        "en": ["Hussein was killed by Yazid's forces", "A great victory for Muslims", "The founding of a new city", "A peace treaty was signed"],
+        "ur": ["حسین کو یزید کی فوج نے قتل کیا", "مسلمانوں کی عظیم فتح", "نئے شہر کی بنیاد", "امن معاہدہ ہوا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "At Karbala in 680 CE, Hussein ibn Ali was killed by Yazid's forces.",
+      "explanation_ur": "680 عیسوی میں کربلا میں حسین بن علی کو یزید کی فوج نے قتل کیا۔",
+      "hint": "It's commemorated during Muharram",
+      "hint_ur": "اس کی یاد محرم میں منائی جاتی ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 110,
+      "type": "mcq",
+      "question": "In which year did the Battle of Karbala take place?",
+      "question_ur": "جنگ کربلا کس سال ہوئی؟",
+      "options": {
+        "en": ["679 CE", "680 CE", "681 CE", "682 CE"],
+        "ur": ["679 عیسوی", "680 عیسوی", "681 عیسوی", "682 عیسوی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Battle of Karbala took place in 680 CE on the 10th of Muharram.",
+      "explanation_ur": "جنگ کربلا 680 عیسوی میں 10 محرم کو ہوئی۔",
+      "hint": "It was on the 10th of Muharram",
+      "hint_ur": "یہ 10 محرم کو ہوئی",
+      "timeLimit": 30
+    },
+    {
+      "id": 111,
+      "type": "mcq",
+      "question": "Who was Abdullah ibn Zubayr?",
+      "question_ur": "عبداللہ بن زبیر کون تھا؟",
+      "options": {
+        "en": ["A rival Caliph who controlled Mecca", "An Umayyad prince", "A Kharijite leader", "A Persian general"],
+        "ur": ["ایک حریف خلیفہ جس نے مکہ پر قبضہ کیا", "ایک اموی شہزادہ", "خوارج کا رہنما", "فارسی جنرل"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abdullah ibn Zubayr was a rival Caliph who controlled Mecca and Medina during the Second Fitna.",
+      "explanation_ur": "عبداللہ بن زبیر ایک حریف خلیفہ تھا جس نے دوسرے فتنے کے دوران مکہ اور مدینہ پر قبضہ کیا۔",
+      "hint": "He was killed when Mecca was besieged",
+      "hint_ur": "مکہ کے محاصرے کے دوران وہ مارا گیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 112,
+      "type": "mcq",
+      "question": "Which Umayyad Caliph built the Dome of the Rock?",
+      "question_ur": "کس اموی خلیفہ نے قبۃ الصخرہ بنایا؟",
+      "options": {
+        "en": ["Muawiya I", "Yazid I", "Abdul Malik", "Walid I"],
+        "ur": ["معاویہ اول", "یزید اول", "عبدالملک", "ولید اول"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Abdul Malik built the Dome of the Rock in Jerusalem in 691 CE.",
+      "explanation_ur": "عبدالملک نے 691 عیسوی میں یروشلم میں قبۃ الصخرہ بنایا۔",
+      "hint": "It's in Jerusalem",
+      "hint_ur": "یہ یروشلم میں ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 113,
+      "type": "mcq",
+      "question": "What was the first major architectural monument built by Muslims?",
+      "question_ur": "مسلمانوں کی طرف سے بنایا گیا پہلا بڑا تعمیراتی یادگار کیا تھا؟",
+      "options": {
+        "en": ["Great Mosque of Damascus", "Dome of the Rock", "Al-Aqsa Mosque", "Great Mosque of Cordoba"],
+        "ur": ["دمشق کی جامع مسجد", "قبۃ الصخرہ", "مسجد اقصیٰ", "قرطبہ کی جامع مسجد"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Dome of the Rock, built in 691 CE, was the first major architectural monument built by Muslims.",
+      "explanation_ur": "691 عیسوی میں بنایا گیا قبۃ الصخرہ مسلمانوں کا پہلا بڑا تعمیراتی یادگار تھا۔",
+      "hint": "It was built by Abdul Malik",
+      "hint_ur": "اسے عبدالملک نے بنایا",
+      "timeLimit": 30
+    },
+    {
+      "id": 114,
+      "type": "mcq",
+      "question": "Which Umayyad Caliph was known for his piety and justice?",
+      "question_ur": "کون سا اموی خلیفہ اپنی تقویٰ اور انصاف کے لیے مشہور تھا؟",
+      "options": {
+        "en": ["Muawiya I", "Yazid I", "Umar II", "Hisham"],
+        "ur": ["معاویہ اول", "یزید اول", "عمر دوم", "ہشام"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Umar II (Umar ibn Abdul Aziz) was known for his piety and justice, often called the fifth Rightly-Guided Caliph.",
+      "explanation_ur": "عمر دوم (عمر بن عبدالعزیز) اپنی تقویٰ اور انصاف کے لیے مشہور تھا، اسے اکثر پانچواں خلیفہ راشد کہا جاتا ہے۔",
+      "hint": "He's sometimes called the fifth Rightly-Guided Caliph",
+      "hint_ur": "اسے کبھی کبھی پانچواں خلیفہ راشد کہا جاتا ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "question": "What was the Umayyad policy towards non-Arab Muslims?",
+      "question_ur": "غیر عرب مسلمانوں کے بارے میں اموی پالیسی کیا تھی؟",
+      "options": {
+        "en": ["Complete equality", "They were treated as second-class citizens", "They were expelled", "They were enslaved"],
+        "ur": ["مکمل برابری", "انہیں دوسرے درجے کے شہری سمجھا جاتا تھا", "انہیں نکال دیا گیا", "انہیں غلام بنایا گیا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Umayyads generally treated non-Arab Muslims (mawali) as second-class citizens, which caused resentment.",
+      "explanation_ur": "امویوں نے عام طور پر غیر عرب مسلمانوں (موالی) کو دوسرے درجے کے شہری سمجھا، جس سے ناراضگی پیدا ہوئی۔",
+      "hint": "This policy contributed to their downfall",
+      "hint_ur": "اس پالیسی نے ان کے زوال میں حصہ ڈالا",
+      "timeLimit": 30
+    },
+    {
+      "id": 116,
+      "type": "mcq",
+      "question": "Who was Abu Muslim?",
+      "question_ur": "ابو مسلم کون تھا؟",
+      "options": {
+        "en": ["An Umayyad general", "An Abbasid revolutionary", "A Kharijite leader", "A Byzantine spy"],
+        "ur": ["ایک اموی جنرل", "ایک عباسی انقلابی", "خوارج کا رہنما", "بازنطینی جاسوس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Abu Muslim was an Abbasid revolutionary who led the revolt against the Umayyads in Khurasan.",
+      "explanation_ur": "ابو مسلم ایک عباسی انقلابی تھا جس نے خراسان میں امویوں کے خلاف بغاوت کی قیادت کی۔",
+      "hint": "He led the revolt in Khurasan",
+      "hint_ur": "اس نے خراسان میں بغاوت کی قیادت کی",
+      "timeLimit": 30
+    },
+    {
+      "id": 117,
+      "type": "mcq",
+      "question": "Where did the Abbasid revolution begin?",
+      "question_ur": "عباسی انقلاب کہاں سے شروع ہوا؟",
+      "options": {
+        "en": ["Iraq", "Syria", "Khurasan", "Egypt"],
+        "ur": ["عراق", "شام", "خراسان", "مصر"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Abbasid revolution began in Khurasan (eastern Iran/Afghanistan) in 747 CE.",
+      "explanation_ur": "عباسی انقلاب 747 عیسوی میں خراسان (مشرقی ایران/افغانستان) سے شروع ہوا۔",
+      "hint": "It's in modern-day eastern Iran and Afghanistan",
+      "hint_ur": "یہ موجودہ مشرقی ایران اور افغانستان میں ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 118,
+      "type": "mcq",
+      "question": "What was the Battle of Zab?",
+      "question_ur": "جنگ زاب کیا تھی؟",
+      "options": {
+        "en": ["The final battle that ended Umayyad rule", "A battle against Byzantines", "A battle against Persians", "A civil war within the Abbasids"],
+        "ur": ["آخری جنگ جس نے اموی حکومت کا خاتمہ کیا", "بازنطینیوں کے خلاف جنگ", "فارسیوں کے خلاف جنگ", "عباسیوں کے اندر خانہ جنگی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Battle of Zab in 750 CE was the final battle that ended Umayyad rule and established Abbasid power.",
+      "explanation_ur": "750 عیسوی میں جنگ زاب آخری جنگ تھی جس نے اموی حکومت کا خاتمہ کیا اور عباسی اقتدار قائم کیا۔",
+      "hint": "It happened in 750 CE",
+      "hint_ur": "یہ 750 عیسوی میں ہوئی",
+      "timeLimit": 30
+    },
+    {
+      "id": 119,
+      "type": "mcq",
+      "question": "Who was the last Umayyad Caliph?",
+      "question_ur": "آخری اموی خلیفہ کون تھا؟",
+      "options": {
+        "en": ["Yazid III", "Ibrahim", "Marwan II", "Walid II"],
+        "ur": ["یزید سوم", "ابراہیم", "مروان دوم", "ولید دوم"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Marwan II was the last Umayyad Caliph, killed in 750 CE after the Battle of Zab.",
+      "explanation_ur": "مروان دوم آخری اموی خلیفہ تھا، جو 750 عیسوی میں جنگ زاب کے بعد مارا گیا۔",
+      "hint": "He was killed in Egypt",
+      "hint_ur": "وہ مصر میں مارا گیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 120,
+      "type": "mcq",
+      "question": "Who escaped the Abbasid massacre of the Umayyads?",
+      "question_ur": "امویوں کے عباسی قتل عام سے کون بچا؟",
+      "options": {
+        "en": ["Abd al-Rahman I", "Yazid III", "Walid II", "Hisham"],
+        "ur": ["عبدالرحمن اول", "یزید سوم", "ولید دوم", "ہشام"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abd al-Rahman I escaped the Abbasid massacre and later established the Umayyad Caliphate in Spain.",
+      "explanation_ur": "عبدالرحمن اول عباسی قتل عام سے بچا اور بعد میں اسپین میں اموی خلافت قائم کی۔",
+      "hint": "He founded the Umayyad Caliphate in Spain",
+      "hint_ur": "اس نے اسپین میں اموی خلافت کی بنیاد رکھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 121,
+      "type": "true-false",
+      "question": "The Abbasids claimed descent from Abbas, the Prophet's uncle.",
+      "question_ur": "عباسیوں نے عباس، نبی کے چچا سے نسب کا دعویٰ کیا۔",
+      "correctAnswer": true,
+      "explanation": "The Abbasids claimed legitimacy through their descent from Abbas ibn Abdul Muttalib, the Prophet's uncle.",
+      "explanation_ur": "عباسیوں نے عباس بن عبدالمطلب، نبی کے چچا سے نسب کے ذریعے جواز کا دعویٰ کیا۔",
+      "hint": "Abbas was the Prophet's uncle",
+      "hint_ur": "عباس نبی کے چچا تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 122,
+      "type": "true-false",
+      "question": "The Abbasids moved the capital from Damascus to Baghdad.",
+      "question_ur": "عباسیوں نے دارالحکومت دمشق سے بغداد منتقل کیا۔",
+      "correctAnswer": true,
+      "explanation": "The Abbasids moved the capital from Damascus (Umayyad capital) to Baghdad in 762 CE.",
+      "explanation_ur": "عباسیوں نے 762 عیسوی میں دارالحکومت دمشق (اموی دارالحکومت) سے بغداد منتقل کیا۔",
+      "hint": "Baghdad was founded in 762 CE",
+      "hint_ur": "بغداد 762 عیسوی میں قائم ہوا",
+      "timeLimit": 30
+    },
+    {
+      "id": 123,
+      "type": "true-false",
+      "question": "The Islamic Golden Age occurred during the Abbasid period.",
+      "question_ur": "اسلامی سنہری دور عباسی دور میں ہوا۔",
+      "correctAnswer": true,
+      "explanation": "The Islamic Golden Age, characterized by great advances in science, philosophy, and arts, occurred during the Abbasid period.",
+      "explanation_ur": "اسلامی سنہری دور، جو سائنس، فلسفہ، اور فنون میں عظیم ترقی کا دور تھا، عباسی دور میں ہوا۔",
+      "hint": "It was the peak of Islamic civilization",
+      "hint_ur": "یہ اسلامی تہذیب کا عروج تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 124,
+      "type": "true-false",
+      "question": "Paper was introduced to the Islamic world from China.",
+      "question_ur": "کاغذ چین سے اسلامی دنیا میں آیا۔",
+      "correctAnswer": true,
+      "explanation": "Paper was introduced to the Islamic world from China through the Battle of Talas in 751 CE.",
+      "explanation_ur": "751 عیسوی میں جنگ طلاس کے ذریعے کاغذ چین سے اسلامی دنیا میں آیا۔",
+      "hint": "It came through the Battle of Talas",
+      "hint_ur": "یہ جنگ طلاس کے ذریعے آیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 125,
+      "type": "true-false",
+      "question": "The Abbasids were more inclusive of non-Arab Muslims than the Umayyads.",
+      "question_ur": "عباسی غیر عرب مسلمانوں کے ساتھ امویوں سے زیادہ شامل کرنے والے تھے۔",
+      "correctAnswer": true,
+      "explanation": "The Abbasids were generally more inclusive of non-Arab Muslims (mawali) compared to the Umayyads.",
+      "explanation_ur": "عباسی عام طور پر امویوں کے مقابلے میں غیر عرب مسلمانوں (موالی) کو زیادہ شامل کرتے تھے۔",
+      "hint": "This helped them gain support for their revolution",
+      "hint_ur": "اس سے انہیں اپنے انقلاب کے لیے حمایت حاصل کرنے میں مدد ملی",
+      "timeLimit": 30
+    },
+    {
+      "id": 126,
+      "type": "mcq",
+      "question": "Who was Al-Mamun?",
+      "question_ur": "المامون کون تھا؟",
+      "options": {
+        "en": ["The 7th Abbasid Caliph", "An Umayyad prince", "A Fatimid ruler", "A Mamluk sultan"],
+        "ur": ["ساتواں عباسی خلیفہ", "ایک اموی شہزادہ", "فاطمی حکمران", "ممالیک سلطان"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Al-Mamun was the 7th Abbasid Caliph who ruled from 813-833 CE and promoted learning.",
+      "explanation_ur": "المامون ساتواں عباسی خلیفہ تھا جس نے 813-833 عیسوی تک حکومت کی اور علم کو فروغ دیا۔",
+      "hint": "He established the House of Wisdom",
+      "hint_ur": "اس نے بیت الحکمہ قائم کیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 127,
+      "type": "mcq",
+      "question": "What was the Mihna?",
+      "question_ur": "محنہ کیا تھا؟",
+      "options": {
+        "en": ["A theological inquisition", "A military campaign", "A trade agreement", "A peace treaty"],
+        "ur": ["ایک مذہبی تفتیش", "ایک فوجی مہم", "تجارتی معاہدہ", "امن معاہدہ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Mihna was a theological inquisition initiated by Al-Mamun regarding the nature of the Quran.",
+      "explanation_ur": "محنہ المامون کی طرف سے قرآن کی نوعیت کے بارے میں شروع کی گئی مذہبی تفتیش تھی۔",
+      "hint": "It was about whether the Quran was created or eternal",
+      "hint_ur": "یہ اس بارے میں تھا کہ قرآن مخلوق ہے یا ازلی",
+      "timeLimit": 30
+    },
+    {
+      "id": 128,
+      "type": "mcq",
+      "question": "Who was Ahmad ibn Hanbal?",
+      "question_ur": "احمد بن حنبل کون تھا؟",
+      "options": {
+        "en": ["A scholar who opposed the Mihna", "An Abbasid general", "A Fatimid caliph", "A Sufi mystic"],
+        "ur": ["ایک عالم جس نے محنہ کی مخالفت کی", "ایک عباسی جنرل", "فاطمی خلیفہ", "صوفی عارف"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Ahmad ibn Hanbal was a prominent Islamic scholar who opposed the Mihna and was imprisoned for his beliefs.",
+      "explanation_ur": "احمد بن حنبل ایک نامور اسلامی عالم تھا جس نے محنہ کی مخالفت کی اور اپنے عقائد کی وجہ سے قید کیا گیا۔",
+      "hint": "He founded the Hanbali school of jurisprudence",
+      "hint_ur": "اس نے حنبلی فقہی مذہب کی بنیاد رکھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 129,
+      "type": "mcq",
+      "question": "What were the four main schools of Islamic jurisprudence (madhabs)?",
+      "question_ur": "اسلامی فقہ کے چار بنیادی مذاہب (مذاہب) کیا تھے؟",
+      "options": {
+        "en": ["Hanafi, Maliki, Shafi'i, Hanbali", "Sunni, Shia, Sufi, Kharijite", "Umayyad, Abbasid, Fatimid, Ottoman", "Arabic, Persian, Turkish, Mongol"],
+        "ur": ["حنفی، مالکی، شافعی، حنبلی", "سنی، شیعہ، صوفی، خارجی", "اموی، عباسی، فاطمی، عثمانی", "عربی، فارسی، ترکی، منگول"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The four main schools of Islamic jurisprudence are Hanafi, Maliki, Shafi'i, and Hanbali.",
+      "explanation_ur": "اسلامی فقہ کے چار بنیادی مذاہب حنفی، مالکی، شافعی، اور حنبلی ہیں۔",
+      "hint": "They are named after their founders",
+      "hint_ur": "ان کے نام ان کے بانیوں کے نام پر ہیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 130,
+      "type": "mcq",
+      "question": "Who founded the Hanafi school of jurisprudence?",
+      "question_ur": "حنفی فقہی مذہب کا بانی کون تھا؟",
+      "options": {
+        "en": ["Abu Hanifa", "Malik ibn Anas", "Al-Shafi'i", "Ahmad ibn Hanbal"],
+        "ur": ["ابو حنیفہ", "مالک بن انس", "الشافعی", "احمد بن حنبل"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abu Hanifa founded the Hanafi school of jurisprudence, the most widely followed madhab today.",
+      "explanation_ur": "ابو حنیفہ نے حنفی فقہی مذہب کی بنیاد رکھی، جو آج سب سے زیادہ پیروی کیا جانے والا مذہب ہے۔",
+      "hint": "It's the most widely followed madhab",
+      "hint_ur": "یہ سب سے زیادہ پیروی کیا جانے والا مذہب ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 131,
+      "type": "mcq",
+      "question": "Which school of jurisprudence is predominant in North and West Africa?",
+      "question_ur": "شمالی اور مغربی افریقہ میں کون سا فقہی مذہب غالب ہے؟",
+      "options": {
+        "en": ["Hanafi", "Maliki", "Shafi'i", "Hanbali"],
+        "ur": ["حنفی", "مالکی", "شافعی", "حنبلی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Maliki school of jurisprudence is predominant in North and West Africa.",
+      "explanation_ur": "مالکی فقہی مذہب شمالی اور مغربی افریقہ میں غالب ہے۔",
+      "hint": "It was founded by Malik ibn Anas",
+      "hint_ur": "اس کی بنیاد مالک بن انس نے رکھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 132,
+      "type": "mcq",
+      "question": "What was the role of the Vizier in the Abbasid administration?",
+      "question_ur": "عباسی انتظامیہ میں وزیر کا کردار کیا تھا؟",
+      "options": {
+        "en": ["Chief minister and administrator", "Military commander", "Religious leader", "Tax collector"],
+        "ur": ["وزیر اعظم اور منتظم", "فوجی کمانڈر", "مذہبی رہنما", "ٹیکس جمع کرنے والا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Vizier was the chief minister and administrator in the Abbasid government, second only to the Caliph.",
+      "explanation_ur": "وزیر عباسی حکومت میں وزیر اعظم اور منتظم تھا، خلیفہ کے بعد دوسرے نمبر پر۔",
+      "hint": "The position was adopted from Persian administration",
+      "hint_ur": "یہ عہدہ فارسی انتظامیہ سے اپنایا گیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 133,
+      "type": "mcq",
+      "question": "Who were the Barmakids?",
+      "question_ur": "برامکہ کون تھے؟",
+      "options": {
+        "en": ["A powerful Persian family of viziers", "Arab tribal leaders", "Turkish military commanders", "Byzantine diplomats"],
+        "ur": ["وزیروں کا ایک طاقتور فارسی خاندان", "عرب قبائلی رہنما", "ترک فوجی کمانڈر", "بازنطینی سفارت کار"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Barmakids were a powerful Persian family who served as viziers under the early Abbasids.",
+      "explanation_ur": "برامکہ ایک طاقتور فارسی خاندان تھا جس نے ابتدائی عباسیوں کے تحت وزیر کا کام کیا۔",
+      "hint": "They were eventually purged by Harun al-Rashid",
+      "hint_ur": "آخر کار ہارون الرشید نے انہیں ختم کر دیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 134,
+      "type": "mcq",
+      "question": "What was the Bayt al-Mal?",
+      "question_ur": "بیت المال کیا تھا؟",
+      "options": {
+        "en": ["The state treasury", "A mosque", "A library", "A military academy"],
+        "ur": ["ریاستی خزانہ", "ایک مسجد", "ایک کتب خانہ", "فوجی اکیڈمی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Bayt al-Mal was the state treasury that managed the financial affairs of the Islamic state.",
+      "explanation_ur": "بیت المال ریاستی خزانہ تھا جو اسلامی ریاست کے مالی معاملات کا انتظام کرتا تھا۔",
+      "hint": "It collected and distributed state funds",
+      "hint_ur": "یہ ریاستی فنڈز جمع اور تقسیم کرتا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 135,
+      "type": "mcq",
+      "question": "What was the main source of revenue for the early Islamic state?",
+      "question_ur": "ابتدائی اسلامی ریاست کی آمدنی کا بنیادی ذریعہ کیا تھا؟",
+      "options": {
+        "en": ["Zakat and Jizya", "Trade taxes", "Land taxes", "All of the above"],
+        "ur": ["زکوٰۃ اور جزیہ", "تجارتی ٹیکس", "زمینی ٹیکس", "اوپر کے تمام"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The early Islamic state's revenue came from various sources including Zakat, Jizya, trade taxes, and land taxes.",
+      "explanation_ur": "ابتدائی اسلامی ریاست کی آمدنی مختلف ذرائع سے آتی تھی جن میں زکوٰۃ، جزیہ، تجارتی ٹیکس، اور زمینی ٹیکس شامل تھے۔",
+      "hint": "Multiple taxation systems were used",
+      "hint_ur": "متعدد ٹیکس نظام استعمال کیے جاتے تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 136,
+      "type": "mcq",
+      "question": "What was Jizya?",
+      "question_ur": "جزیہ کیا تھا؟",
+      "options": {
+        "en": ["A tax on non-Muslims", "A tax on Muslims", "A trade tax", "A land tax"],
+        "ur": ["غیر مسلموں پر ٹیکس", "مسلمانوں پر ٹیکس", "تجارتی ٹیکس", "زمینی ٹیکس"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Jizya was a tax levied on non-Muslims in exchange for protection and exemption from military service.",
+      "explanation_ur": "جزیہ غیر مسلموں پر تحفظ اور فوجی خدمت سے استثنیٰ کے بدلے لگایا جانے والا ٹیکس تھا۔",
+      "hint": "It was paid in exchange for protection",
+      "hint_ur": "یہ تحفظ کے بدلے ادا کیا جاتا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 137,
+      "type": "mcq",
+      "question": "What was the Diwan?",
+      "question_ur": "دیوان کیا تھا؟",
+      "options": {
+        "en": ["Government administrative office", "A type of poetry", "A military unit", "A religious court"],
+        "ur": ["حکومتی انتظامی دفتر", "شاعری کی ایک قسم", "فوجی یونٹ", "مذہبی عدالت"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Diwan was a government administrative office that managed various state affairs like military, finance, and correspondence.",
+      "explanation_ur": "دیوان ایک حکومتی انتظامی دفتر تھا جو فوجی، مالی، اور خط و کتابت جیسے مختلف ریاستی معاملات کا انتظام کرتا تھا۔",
+      "hint": "Different diwans handled different government functions",
+      "hint_ur": "مختلف دیوان مختلف حکومتی کام سنبھالتے تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 138,
+      "type": "mcq",
+      "question": "Who established the postal system (Barid) in the Islamic world?",
+      "question_ur": "اسلامی دنیا میں ڈاک نظام (برید) کس نے قائم کیا؟",
+      "options": {
+        "en": ["Umar ibn Khattab", "Muawiya I", "Abdul Malik", "Harun al-Rashid"],
+        "ur": ["عمر بن خطاب", "معاویہ اول", "عبدالملک", "ہارون الرشید"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Muawiya I established the postal system (Barid) in the Islamic world, adapting it from Byzantine and Persian systems.",
+      "explanation_ur": "معاویہ اول نے اسلامی دنیا میں ڈاک نظام (برید) قائم کیا، جسے بازنطینی اور فارسی نظاموں سے اپنایا گیا۔",
+      "hint": "It was adapted from Byzantine and Persian systems",
+      "hint_ur": "یہ بازنطینی اور فارسی نظاموں سے اپنایا گیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 139,
+      "type": "mcq",
+      "question": "What was the main purpose of the Hisbah institution?",
+      "question_ur": "حسبہ ادارے کا بنیادی مقصد کیا تھا؟",
+      "options": {
+        "en": ["Market supervision and moral policing", "Military training", "Religious education", "Tax collection"],
+        "ur": ["بازار کی نگرانی اور اخلاقی پولیسنگ", "فوجی تربیت", "مذہبی تعلیم", "ٹیکس جمع کرنا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Hisbah institution was responsible for market supervision, ensuring fair trade, and moral policing in Islamic cities.",
+      "explanation_ur": "حسبہ ادارہ اسلامی شہروں میں بازار کی نگرانی، منصفانہ تجارت کو یقینی بنانے، اور اخلاقی پولیسنگ کا ذمہ دار تھا۔",
+      "hint": "The official was called Muhtasib",
+      "hint_ur": "اس عہدیدار کو محتسب کہا جاتا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 140,
+      "type": "mcq",
+      "question": "What was the Shura in early Islamic governance?",
+      "question_ur": "ابتدائی اسلامی حکمرانی میں شوریٰ کیا تھا؟",
+      "options": {
+        "en": ["Consultative council", "Military unit", "Tax office", "Religious court"],
+        "ur": ["مشاورتی کونسل", "فوجی یونٹ", "ٹیکس آفس", "مذہبی عدالت"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Shura was a consultative council where the Caliph would seek advice from senior companions and scholars.",
+      "explanation_ur": "شوریٰ ایک مشاورتی کونسل تھی جہاں خلیفہ بزرگ صحابہ اور علماء سے مشورہ لیتا تھا۔",
+      "hint": "It means consultation in Arabic",
+      "hint_ur": "عربی میں اس کا مطلب مشورہ ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 141,
+      "type": "mcq",
+      "question": "Who was Al-Tabari?",
+      "question_ur": "الطبری کون تھا؟",
+      "options": {
+        "en": ["A historian and Quranic commentator", "A military general", "A merchant", "A poet"],
+        "ur": ["ایک مؤرخ اور قرآنی مفسر", "فوجی جنرل", "تاجر", "شاعر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Al-Tabari was a famous historian and Quranic commentator who wrote 'The History of Prophets and Kings'.",
+      "explanation_ur": "الطبری ایک مشہور مؤرخ اور قرآنی مفسر تھا جس نے 'تاریخ الرسل والملوک' لکھی۔",
+      "hint": "He wrote a famous commentary on the Quran",
+      "hint_ur": "اس نے قرآن کی مشہور تفسیر لکھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 142,
+      "type": "mcq",
+      "question": "Who was Al-Mas'udi?",
+      "question_ur": "المسعودی کون تھا؟",
+      "options": {
+        "en": ["A historian and geographer", "A mathematician", "A physician", "A philosopher"],
+        "ur": ["ایک مؤرخ اور جغرافیہ دان", "ریاضی دان", "طبیب", "فلسفی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Al-Mas'udi was a historian and geographer who wrote 'Meadows of Gold', an important historical work.",
+      "explanation_ur": "المسعودی ایک مؤرخ اور جغرافیہ دان تھا جس نے 'مروج الذہب' لکھی، جو ایک اہم تاریخی کام ہے۔",
+      "hint": "He wrote 'Meadows of Gold'",
+      "hint_ur": "اس نے 'مروج الذہب' لکھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 143,
+      "type": "mcq",
+      "question": "What was the main contribution of Al-Kindi to Islamic scholarship?",
+      "question_ur": "اسلامی علمی کام میں الکندی کا بنیادی کردار کیا تھا؟",
+      "options": {
+        "en": ["Philosophy and translation of Greek works", "Medicine", "Mathematics", "Astronomy"],
+        "ur": ["فلسفہ اور یونانی کاموں کا ترجمہ", "طب", "ریاضی", "فلکیات"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Al-Kindi was known as the 'Philosopher of the Arabs' and played a key role in translating and preserving Greek philosophical works.",
+      "explanation_ur": "الکندی کو 'فیلسوف العرب' کہا جاتا تھا اور یونانی فلسفی کاموں کے ترجمے اور تحفظ میں اہم کردار ادا کیا۔",
+      "hint": "He was called the 'Philosopher of the Arabs'",
+      "hint_ur": "اسے 'فیلسوف العرب' کہا جاتا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 144,
+      "type": "mcq",
+      "question": "Who was Al-Farabi?",
+      "question_ur": "الفارابی کون تھا؟",
+      "options": {
+        "en": ["A philosopher known as the 'Second Teacher'", "A historian", "A poet", "A military commander"],
+        "ur": ["ایک فلسفی جو 'معلم ثانی' کے نام سے مشہور تھا", "مؤرخ", "شاعر", "فوجی کمانڈر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Al-Farabi was a philosopher known as the 'Second Teacher' (after Aristotle) who wrote about the ideal state.",
+      "explanation_ur": "الفارابی ایک فلسفی تھا جو 'معلم ثانی' (ارسطو کے بعد) کے نام سے مشہور تھا اور اس نے مثالی ریاست کے بارے میں لکھا۔",
+      "hint": "Aristotle was considered the 'First Teacher'",
+      "hint_ur": "ارسطو کو 'معلم اول' سمجھا جاتا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 145,
+      "type": "mcq",
+      "question": "What was Al-Azhar originally built as?",
+      "question_ur": "الازہر اصل میں کیا بنایا گیا تھا؟",
+      "options": {
+        "en": ["A mosque", "A university", "A palace", "A library"],
+        "ur": ["مسجد", "یونیورسٹی", "محل", "کتب خانہ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Al-Azhar was originally built as a mosque by the Fatimids in 970 CE, later becoming a center of learning.",
+      "explanation_ur": "الازہر اصل میں 970 عیسوی میں فاطمیوں کی طرف سے مسجد کے طور پر بنایا گیا، بعد میں یہ علم کا مرکز بنا۔",
+      "hint": "It later became a famous university",
+      "hint_ur": "بعد میں یہ مشہور یونیورسٹی بنی",
+      "timeLimit": 30
+    },
+    {
+      "id": 146,
+      "type": "mcq",
+      "question": "What was the main language of scholarship in the early Islamic world?",
+      "question_ur": "ابتدائی اسلامی دنیا میں علمی کام کی بنیادی زبان کیا تھی؟",
+      "options": {
+        "en": ["Arabic", "Persian", "Greek", "Latin"],
+        "ur": ["عربی", "فارسی", "یونانی", "لاطینی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Arabic was the main language of scholarship in the early Islamic world, as it was the language of the Quran and Islamic law.",
+      "explanation_ur": "عربی ابتدائی اسلامی دنیا میں علمی کام کی بنیادی زبان تھی، کیونکہ یہ قرآن اور اسلامی قانون کی زبان تھی۔",
+      "hint": "It was the language of the Quran",
+      "hint_ur": "یہ قرآن کی زبان تھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 147,
+      "type": "mcq",
+      "question": "What was the Translation Movement?",
+      "question_ur": "تحریک ترجمہ کیا تھی؟",
+      "options": {
+        "en": ["The systematic translation of Greek and other works into Arabic", "A military campaign", "A religious reform movement", "A trade expansion"],
+        "ur": ["یونانی اور دیگر کاموں کا عربی میں منظم ترجمہ", "فوجی مہم", "مذہبی اصلاحی تحریک", "تجارتی توسیع"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Translation Movement was the systematic effort to translate Greek, Persian, and Indian works into Arabic during the Abbasid period.",
+      "explanation_ur": "تحریک ترجمہ عباسی دور میں یونانی، فارسی، اور ہندی کاموں کو عربی میں ترجمہ کرنے کی منظم کوشش تھی۔",
+      "hint": "It preserved many ancient works",
+      "hint_ur": "اس نے بہت سے قدیم کاموں کو محفوظ کیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 148,
+      "type": "mcq",
+      "question": "Who was Hunayn ibn Ishaq?",
+      "question_ur": "حنین بن اسحاق کون تھا؟",
+      "options": {
+        "en": ["A famous translator of Greek medical texts", "A military general", "A poet", "A merchant"],
+        "ur": ["یونانی طبی متون کا مشہور مترجم", "فوجی جنرل", "شاعر", "تاجر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Hunayn ibn Ishaq was a famous translator who translated many Greek medical and philosophical texts into Arabic.",
+      "explanation_ur": "حنین بن اسحاق ایک مشہور مترجم تھا جس نے بہت سے یونانی طبی اور فلسفی متون کا عربی میں ترجمہ کیا۔",
+      "hint": "He was a Nestorian Christian",
+      "hint_ur": "وہ نسطوری عیسائی تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 149,
+      "type": "mcq",
+      "question": "What was the main contribution of Islamic scholars to mathematics?",
+      "question_ur": "ریاضی میں اسلامی علماء کا بنیادی کردار کیا تھا؟",
+      "options": {
+        "en": ["Development of algebra and decimal system", "Geometry only", "Arithmetic only", "Trigonometry only"],
+        "ur": ["الجبرا اور اعشاریہ نظام کی ترقی", "صرف ہندسہ", "صرف حساب", "صرف مثلثیات"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Islamic scholars made significant contributions to mathematics, particularly in developing algebra and advancing the decimal system.",
+      "explanation_ur": "اسلامی علماء نے ریاضی میں اہم کردار ادا کیا، خاص طور پر الجبرا کی ترقی اور اعشاریہ نظام کو آگے بڑھانے میں۔",
+      "hint": "Al-Khwarizmi developed algebra",
+      "hint_ur": "الخوارزمی نے الجبرا کو ترقی دی",
+      "timeLimit": 30
+    },
+    {
+      "id": 150,
+      "type": "mcq",
+      "question": "Who was Al-Battani?",
+      "question_ur": "البتانی کون تھا؟",
+      "options": {
+        "en": ["An astronomer", "A physician", "A philosopher", "A historian"],
+        "ur": ["فلکیات دان", "طبیب", "فلسفی", "مؤرخ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Al-Battani was a famous astronomer who made accurate observations and corrections to Ptolemy's astronomical work.",
+      "explanation_ur": "البتانی ایک مشہور فلکیات دان تھا جس نے درست مشاہدات کیے اور بطلیموس کے فلکیاتی کام میں اصلاحات کیں۔",
+      "hint": "He corrected Ptolemy's work",
+      "hint_ur": "اس نے بطلیموس کے کام میں اصلاح کی",
+      "timeLimit": 30
+    },
+    {
+      "id": 151,
+      "type": "true-false",
+      "question": "The astrolabe was invented by Islamic scholars.",
+      "question_ur": "اسطرلاب اسلامی علماء نے ایجاد کیا تھا۔",
+      "correctAnswer": false,
+      "explanation": "The astrolabe was not invented by Islamic scholars, but they significantly improved and perfected it.",
+      "explanation_ur": "اسطرلاب اسلامی علماء نے ایجاد نہیں کیا تھا، لیکن انہوں نے اسے نمایاں طور پر بہتر اور مکمل کیا۔",
+      "hint": "They improved an existing Greek instrument",
+      "hint_ur": "انہوں نے موجودہ یونانی آلے کو بہتر بنایا",
+      "timeLimit": 30
+    },
+    {
+      "id": 152,
+      "type": "true-false",
+      "question": "Islamic hospitals were the first to have medical schools attached to them.",
+      "question_ur": "اسلامی ہسپتال پہلے تھے جن کے ساتھ طبی اسکول منسلک تھے۔",
+      "correctAnswer": true,
+      "explanation": "Islamic hospitals (bimaristans) were indeed the first to have medical schools attached, providing practical medical education.",
+      "explanation_ur": "اسلامی ہسپتال (بیمارستان) واقعی پہلے تھے جن کے ساتھ طبی اسکول منسلک تھے، جو عملی طبی تعلیم فراہم کرتے تھے۔",
+      "hint": "They were called bimaristans",
+      "hint_ur": "انہیں بیمارستان کہا جاتا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 153,
+      "type": "true-false",
+      "question": "The number zero was introduced to Europe through Islamic scholars.",
+      "question_ur": "صفر کا عدد اسلامی علماء کے ذریعے یورپ میں آیا۔",
+      "correctAnswer": true,
+      "explanation": "The concept of zero, originally from India, was transmitted to Europe through Islamic mathematical works.",
+      "explanation_ur": "صفر کا تصور، جو اصل میں ہندوستان سے تھا، اسلامی ریاضی کے کاموں کے ذریعے یورپ میں پہنچا۔",
+      "hint": "It originally came from India",
+      "hint_ur": "یہ اصل میں ہندوستان سے آیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 154,
+      "type": "true-false",
+      "question": "Islamic scholars believed the Earth was flat.",
+      "question_ur": "اسلامی علماء کا خیال تھا کہ زمین چپٹی ہے۔",
+      "correctAnswer": false,
+      "explanation": "Islamic scholars generally accepted that the Earth was spherical, following Greek astronomical knowledge.",
+      "explanation_ur": "اسلامی علماء عام طور پر یہ مانتے تھے کہ زمین کروی ہے، یونانی فلکیاتی علم کی پیروی کرتے ہوئے۔",
+      "hint": "They followed Greek astronomical knowledge",
+      "hint_ur": "وہ یونانی فلکیاتی علم کی پیروی کرتے تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 155,
+      "type": "true-false",
+      "question": "The first pharmacies in the world were established in the Islamic world.",
+      "question_ur": "دنیا کی پہلی دواخانے اسلامی دنیا میں قائم ہوئے۔",
+      "correctAnswer": true,
+      "explanation": "The first pharmacies as separate institutions from hospitals were indeed established in the Islamic world during the 8th century.",
+      "explanation_ur": "ہسپتالوں سے الگ ادارے کے طور پر پہلی دواخانے واقعی 8ویں صدی میں اسلامی دنیا میں قائم ہوئے۔",
+      "hint": "They were separate from hospitals",
+      "hint_ur": "یہ ہسپتالوں سے الگ تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 156,
+      "type": "mcq",
+      "question": "What was the Reconquista?",
+      "question_ur": "ریکونکوسٹا کیا تھا؟",
+      "options": {
+        "en": ["Christian reconquest of Spain", "Muslim conquest of Spain", "A trade agreement", "A peace treaty"],
+        "ur": ["اسپین کی عیسائی دوبارہ فتح", "اسپین کی مسلم فتح", "تجارتی معاہدہ", "امن معاہدہ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Reconquista was the gradual Christian reconquest of the Iberian Peninsula from Muslim rule, lasting from 718-1492 CE.",
+      "explanation_ur": "ریکونکوسٹا جزیرہ نما آئبیریا کی مسلم حکومت سے بتدریج عیسائی دوبارہ فتح تھی، جو 718-1492 عیسوی تک جاری رہی۔",
+      "hint": "It lasted nearly 800 years",
+      "hint_ur": "یہ تقریباً 800 سال تک جاری رہی",
+      "timeLimit": 30
+    },
+    {
+      "id": 157,
+      "type": "mcq",
+      "question": "Which was the first major city reconquered by Christians in Spain?",
+      "question_ur": "اسپین میں عیسائیوں کی طرف سے دوبارہ فتح ہونے والا پہلا بڑا شہر کون سا تھا؟",
+      "options": {
+        "en": ["Toledo", "Cordoba", "Seville", "Valencia"],
+        "ur": ["طلیطلہ", "قرطبہ", "اشبیلیہ", "والنسیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Toledo was reconquered by Alfonso VI of León and Castile in 1085 CE, marking a major victory for the Christians.",
+      "explanation_ur": "طلیطلہ کو 1085 عیسوی میں لیون اور کاسٹیل کے الفونسو ششم نے دوبارہ فتح کیا، جو عیسائیوں کے لیے ایک بڑی فتح تھی۔",
+      "hint": "It was conquered in 1085 CE",
+      "hint_ur": "یہ 1085 عیسوی میں فتح ہوا",
+      "timeLimit": 30
+    },
+    {
+      "id": 158,
+      "type": "mcq",
+      "question": "What were the Taifa kingdoms?",
+      "question_ur": "طوائف الملوکی ریاستیں کیا تھیں؟",
+      "options": {
+        "en": ["Small Muslim kingdoms after the fall of the Caliphate of Cordoba", "Christian kingdoms", "Berber tribes", "Trading companies"],
+        "ur": ["خلافت قرطبہ کے زوال کے بعد چھوٹی مسلم ریاستیں", "عیسائی ریاستیں", "بربر قبائل", "تجارتی کمپنیاں"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Taifa kingdoms were small Muslim kingdoms that emerged after the fall of the Caliphate of Cordoba in 1031 CE.",
+      "explanation_ur": "طوائف الملوکی ریاستیں چھوٹی مسلم ریاستیں تھیں جو 1031 عیسوی میں خلافت قرطبہ کے زوال کے بعد ابھریں۔",
+      "hint": "They were often at war with each other",
+      "hint_ur": "وہ اکثر آپس میں جنگ کرتی رہتی تھیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 159,
+      "type": "mcq",
+      "question": "Who were the Almoravids?",
+      "question_ur": "المرابطون کون تھے؟",
+      "options": {
+        "en": ["A Berber dynasty from North Africa", "Spanish Christians", "Turkish warriors", "Arab merchants"],
+        "ur": ["شمالی افریقہ کا بربر خاندان", "اسپینی عیسائی", "ترک جنگجو", "عرب تاجر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Almoravids were a Berber dynasty from North Africa who conquered much of Al-Andalus in the 11th century.",
+      "explanation_ur": "المرابطون شمالی افریقہ کا ایک بربر خاندان تھا جس نے 11ویں صدی میں الاندلس کا بیشتر حصہ فتح کیا۔",
+      "hint": "They came from Morocco",
+      "hint_ur": "وہ مراکش سے آئے",
+      "timeLimit": 30
+    },
+    {
+      "id": 160,
+      "type": "mcq",
+      "question": "Who were the Almohads?",
+      "question_ur": "الموحدون کون تھے؟",
+      "options": {
+        "en": ["A Berber dynasty that replaced the Almoravids", "Christian crusaders", "Mongol invaders", "Persian merchants"],
+        "ur": ["بربر خاندان جس نے المرابطون کی جگہ لی", "عیسائی صلیبی", "منگول حملہ آور", "فارسی تاجر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Almohads were a Berber dynasty that replaced the Almoravids and ruled Al-Andalus and North Africa in the 12th-13th centuries.",
+      "explanation_ur": "الموحدون ایک بربر خاندان تھا جس نے المرابطون کی جگہ لی اور 12ویں-13ویں صدی میں الاندلس اور شمالی افریقہ پر حکومت کی۔",
+      "hint": "They were more orthodox in their beliefs",
+      "hint_ur": "وہ اپنے عقائد میں زیادہ قدامت پسند تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 161,
+      "type": "mcq",
+      "question": "What was the Battle of Las Navas de Tolosa?",
+      "question_ur": "لاس ناواس دے تولوسا کی جنگ کیا تھی؟",
+      "options": {
+        "en": ["A decisive Christian victory over the Almohads", "A Muslim victory", "A naval battle", "A siege"],
+        "ur": ["الموحدون پر عیسائیوں کی فیصلہ کن فتح", "مسلمانوں کی فتح", "بحری جنگ", "محاصرہ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Battle of Las Navas de Tolosa in 1212 CE was a decisive Christian victory that marked the beginning of the end for Muslim rule in Spain.",
+      "explanation_ur": "1212 عیسوی میں لاس ناواس دے تولوسا کی جنگ عیسائیوں کی فیصلہ کن فتح تھی جس نے اسپین میں مسلم حکومت کے خاتمے کی شروعات کی۔",
+      "hint": "It happened in 1212 CE",
+      "hint_ur": "یہ 1212 عیسوی میں ہوئی",
+      "timeLimit": 30
+    },
+    {
+      "id": 162,
+      "type": "mcq",
+      "question": "What was the Alhambra?",
+      "question_ur": "الحمرا کیا تھا؟",
+      "options": {
+        "en": ["A palace complex in Granada", "A mosque in Cordoba", "A fortress in Seville", "A library in Toledo"],
+        "ur": ["غرناطہ میں محلاتی کمپلیکس", "قرطبہ میں مسجد", "اشبیلیہ میں قلعہ", "طلیطلہ میں کتب خانہ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Alhambra was a magnificent palace complex built by the Nasrid dynasty in Granada, representing the pinnacle of Islamic architecture in Spain.",
+      "explanation_ur": "الحمرا غرناطہ میں نصری خاندان کی طرف سے بنایا گیا ایک شاندار محلاتی کمپلیکس تھا، جو اسپین میں اسلامی فن تعمیر کا عروج تھا۔",
+      "hint": "It was built by the Nasrids",
+      "hint_ur": "یہ نصریوں نے بنایا",
+      "timeLimit": 30
+    },
+    {
+      "id": 163,
+      "type": "mcq",
+      "question": "Who were the Mudéjars?",
+      "question_ur": "مدجن کون تھے؟",
+      "options": {
+        "en": ["Muslims living under Christian rule", "Christian converts to Islam", "Jewish merchants", "Berber warriors"],
+        "ur": ["عیسائی حکومت کے تحت رہنے والے مسلمان", "اسلام قبول کرنے والے عیسائی", "یہودی تاجر", "بربر جنگجو"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Mudéjars were Muslims who remained in Christian-conquered territories and were allowed to practice their religion under certain conditions.",
+      "explanation_ur": "مدجن وہ مسلمان تھے جو عیسائیوں کی فتح شدہ علاقوں میں رہے اور انہیں مخصوص شرائط کے تحت اپنا مذہب ادا کرنے کی اجازت تھی۔",
+      "hint": "They were allowed to practice Islam initially",
+      "hint_ur": "انہیں ابتدائی طور پر اسلام پر عمل کرنے کی اجازت تھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 164,
+      "type": "mcq",
+      "question": "What were the Moriscos?",
+      "question_ur": "موریسکو کون تھے؟",
+      "options": {
+        "en": ["Muslims forced to convert to Christianity", "Christian pilgrims", "Jewish refugees", "Berber merchants"],
+        "ur": ["عیسائیت قبول کرنے پر مجبور کیے گئے مسلمان", "عیسائی زائرین", "یہودی پناہ گزین", "بربر تاجر"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Moriscos were Muslims who were forced to convert to Christianity but often continued to practice Islam secretly.",
+      "explanation_ur": "موریسکو وہ مسلمان تھے جو عیسائیت قبول کرنے پر مجبور کیے گئے لیکن اکثر خفیہ طور پر اسلام پر عمل کرتے رہے۔",
+      "hint": "They often practiced Islam in secret",
+      "hint_ur": "وہ اکثر خفیہ طور پر اسلام پر عمل کرتے تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 165,
+      "type": "mcq",
+      "question": "When were the Moriscos finally expelled from Spain?",
+      "question_ur": "موریسکو کو آخر کار اسپین سے کب نکالا گیا؟",
+      "options": {
+        "en": ["1492", "1502", "1609-1614", "1620"],
+        "ur": ["1492", "1502", "1609-1614", "1620"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Moriscos were finally expelled from Spain between 1609-1614 under Philip III.",
+      "explanation_ur": "موریسکو کو آخر کار 1609-1614 کے درمیان فلپ سوم کے تحت اسپین سے نکال دیا گیا۔",
+      "hint": "It was over a century after the fall of Granada",
+      "hint_ur": "یہ غرناطہ کے زوال کے ایک صدی بعد تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 166,
+      "type": "mcq",
+      "question": "What was the Spanish Inquisition primarily aimed at?",
+      "question_ur": "ہسپانوی تفتیش کا بنیادی مقصد کیا تھا؟",
+      "options": {
+        "en": ["Ensuring religious orthodoxy among converts", "Military conquest", "Trade regulation", "Tax collection"],
+        "ur": ["مذہب تبدیل کرنے والوں میں مذہبی قدامت پسندی کو یقینی بنانا", "فوجی فتح", "تجارتی ضابطہ", "ٹیکس جمع کرنا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Spanish Inquisition was primarily aimed at ensuring religious orthodoxy, particularly among Jewish and Muslim converts to Christianity.",
+      "explanation_ur": "ہسپانوی تفتیش کا بنیادی مقصد مذہبی قدامت پسندی کو یقینی بنانا تھا، خاص طور پر یہودی اور مسلم عیسائیت قبول کرنے والوں میں۔",
+      "hint": "It targeted converts to Christianity",
+      "hint_ur": "اس کا نشانہ عیسائیت قبول کرنے والے تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 167,
+      "type": "mcq",
+      "question": "What was convivencia in medieval Spain?",
+      "question_ur": "قرون وسطیٰ کے اسپین میں کونویوینسیا کیا تھا؟",
+      "options": {
+        "en": ["Coexistence of Muslims, Christians, and Jews", "A military alliance", "A trade agreement", "A religious ceremony"],
+        "ur": ["مسلمان، عیسائی، اور یہودیوں کا بقائے باہمی", "فوجی اتحاد", "تجارتی معاہدہ", "مذہبی تقریب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Convivencia refers to the period of coexistence between Muslims, Christians, and Jews in medieval Spain, particularly in Al-Andalus.",
+      "explanation_ur": "کونویوینسیا قرون وسطیٰ کے اسپین، خاص طور پر الاندلس میں مسلمان، عیسائی، اور یہودیوں کے بقائے باہمی کے دور کو کہتے ہیں۔",
+      "hint": "It was a period of relative tolerance",
+      "hint_ur": "یہ نسبتی رواداری کا دور تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 168,
+      "type": "mcq",
+      "question": "Who was Averroes (Ibn Rushd) in relation to Christian Europe?",
+      "question_ur": "عیسائی یورپ کے حوالے سے ایورویس (ابن رشد) کون تھا؟",
+      "options": {
+        "en": ["A philosopher whose works influenced Christian scholasticism", "A military commander", "A merchant", "A diplomat"],
+        "ur": ["ایک فلسفی جس کے کاموں نے عیسائی علمیت کو متاثر کیا", "فوجی کمانڈر", "تاجر", "سفارت کار"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Averroes (Ibn Rushd) was a Muslim philosopher whose commentaries on Aristotle greatly influenced Christian scholastic thought in medieval Europe.",
+      "explanation_ur": "ایورویس (ابن رشد) ایک مسلم فلسفی تھا جس کی ارسطو پر تبصروں نے قرون وسطیٰ کے یورپ میں عیسائی علمی فکر کو بہت متاثر کیا۔",
+      "hint": "Thomas Aquinas was influenced by his work",
+      "hint_ur": "تھامس ایکویناس اس کے کام سے متاثر تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 169,
+      "type": "mcq",
+      "question": "What was the School of Translators of Toledo?",
+      "question_ur": "طلیطلہ کا مترجمین کا اسکول کیا تھا؟",
+      "options": {
+        "en": ["A center for translating Arabic works into Latin", "A military academy", "A religious seminary", "A trade school"],
+        "ur": ["عربی کاموں کو لاطینی میں ترجمہ کرنے کا مرکز", "فوجی اکیڈمی", "مذہبی سیمینری", "تجارتی اسکول"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The School of Translators of Toledo was a center where Arabic works were translated into Latin, helping transmit Islamic knowledge to Christian Europe.",
+      "explanation_ur": "طلیطلہ کا مترجمین کا اسکول ایک مرکز تھا جہاں عربی کاموں کا لاطینی میں ترجمہ کیا جاتا تھا، جس سے اسلامی علم عیسائی یورپ میں منتقل ہونے میں مدد ملی۔",
+      "hint": "It helped transmit Islamic knowledge to Europe",
+      "hint_ur": "اس نے اسلامی علم کو یورپ میں منتقل کرنے میں مدد کی",
+      "timeLimit": 30
+    },
+    {
+      "id": 170,
+      "type": "mcq",
+      "question": "What was the main architectural legacy of Muslims in Spain?",
+      "question_ur": "اسپین میں مسلمانوں کی بنیادی تعمیراتی میراث کیا تھی؟",
+      "options": {
+        "en": ["Horseshoe arches and intricate geometric patterns", "Gothic cathedrals", "Roman amphitheaters", "Byzantine domes"],
+        "ur": ["گھوڑے کی نال کی شکل کے محراب اور پیچیدہ ہندسی نقوش", "گوتھک گرجا گھر", "رومی کولوزیم", "بازنطینی گنبد"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The main architectural legacy of Muslims in Spain includes horseshoe arches, intricate geometric patterns, and elaborate tilework.",
+      "explanation_ur": "اسپین میں مسلمانوں کی بنیادی تعمیراتی میراث میں گھوڑے کی نال کی شکل کے محراب، پیچیدہ ہندسی نقوش، اور تفصیلی ٹائل ورک شامل ہے۔",
+      "hint": "The Mezquita of Cordoba is a famous example",
+      "hint_ur": "قرطبہ کی مسجد ایک مشہور مثال ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 171,
+      "type": "true-false",
+      "question": "The Ottomans conquered Constantinople in 1453 CE.",
+      "question_ur": "عثمانیوں نے 1453 عیسوی میں قسطنطنیہ فتح کیا۔",
+      "correctAnswer": true,
+      "explanation": "The Ottomans under Mehmed II conquered Constantinople in 1453 CE, ending the Byzantine Empire.",
+      "explanation_ur": "محمد دوم کی قیادت میں عثمانیوں نے 1453 عیسوی میں قسطنطنیہ فتح کیا، جس سے بازنطینی سلطنت کا خاتمہ ہوا۔",
+      "hint": "It ended the Byzantine Empire",
+      "hint_ur": "اس سے بازنطینی سلطنت کا خاتمہ ہوا",
+      "timeLimit": 30
+    },
+    {
+      "id": 172,
+      "type": "true-false",
+      "question": "The Ottoman Empire reached its peak under Suleiman the Magnificent.",
+      "question_ur": "عثمانی سلطنت سلیمان شاندار کے تحت اپنے عروج پر پہنچی۔",
+      "correctAnswer": true,
+      "explanation": "The Ottoman Empire reached its territorial and cultural peak during the reign of Suleiman the Magnificent (1520-1566 CE).",
+      "explanation_ur": "عثمانی سلطنت سلیمان شاندار (1520-1566 عیسوی) کے دور حکومت میں اپنے علاقائی اور ثقافتی عروج پر پہنچی۔",
+      "hint": "He ruled from 1520-1566 CE",
+      "hint_ur": "اس نے 1520-1566 عیسوی تک حکومت کی",
+      "timeLimit": 30
+    },
+    {
+      "id": 173,
+      "type": "true-false",
+      "question": "The Safavid Empire was a Sunni Muslim empire.",
+      "question_ur": "صفوی سلطنت ایک سنی مسلم سلطنت تھی۔",
+      "correctAnswer": false,
+      "explanation": "The Safavid Empire was a Shia Muslim empire that ruled Persia from 1501-1736 CE.",
+      "explanation_ur": "صفوی سلطنت ایک شیعہ مسلم سلطنت تھی جس نے 1501-1736 عیسوی تک فارس پر حکومت کی۔",
+      "hint": "They made Shia Islam the state religion of Persia",
+      "hint_ur": "انہوں نے شیعہ اسلام کو فارس کا ریاستی مذہب بنایا",
+      "timeLimit": 30
+    },
+    {
+      "id": 174,
+      "type": "true-false",
+      "question": "The Mughal Empire was founded by Babur.",
+      "question_ur": "مغل سلطنت کی بنیاد بابر نے رکھی۔",
+      "correctAnswer": true,
+      "explanation": "The Mughal Empire was founded by Babur in 1526 CE after his victory at the Battle of Panipat.",
+      "explanation_ur": "مغل سلطنت کی بنیاد بابر نے 1526 عیسوی میں جنگ پانی پت میں فتح کے بعد رکھی۔",
+      "hint": "He won the Battle of Panipat in 1526",
+      "hint_ur": "اس نے 1526 میں جنگ پانی پت جیتی",
+      "timeLimit": 30
+    },
+    {
+      "id": 175,
+      "type": "true-false",
+      "question": "The Taj Mahal was built by Shah Jahan.",
+      "question_ur": "تاج محل شاہ جہان نے بنایا تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Taj Mahal was built by Mughal Emperor Shah Jahan as a mausoleum for his wife Mumtaz Mahal.",
+      "explanation_ur": "تاج محل مغل شہنشاہ شاہ جہان نے اپنی بیوی ممتاز محل کے لیے مقبرے کے طور پر بنایا تھا۔",
+      "hint": "It was built for his wife Mumtaz Mahal",
+      "hint_ur": "یہ اس کی بیوی ممتاز محل کے لیے بنایا گیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 176,
+      "type": "mcq",
+      "question": "Who was the founder of the Safavid Empire?",
+      "question_ur": "صفوی سلطنت کا بانی کون تھا؟",
+      "options": {
+        "en": ["Shah Ismail I", "Shah Abbas I", "Shah Tahmasp", "Shah Safi"],
+        "ur": ["شاہ اسماعیل اول", "شاہ عباس اول", "شاہ تہماسپ", "شاہ صافی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Shah Ismail I founded the Safavid Empire in 1501 CE and established Shia Islam as the state religion.",
+      "explanation_ur": "شاہ اسماعیل اول نے 1501 عیسوی میں صفوی سلطنت کی بنیاد رکھی اور شیعہ اسلام کو ریاستی مذہب بنایا۔",
+      "hint": "He established Shia Islam as the state religion",
+      "hint_ur": "اس نے شیعہ اسلام کو ریاستی مذہب بنایا",
+      "timeLimit": 30
+    },
+    {
+      "id": 177,
+      "type": "mcq",
+      "question": "What was the capital of the Safavid Empire?",
+      "question_ur": "صفوی سلطنت کا دارالحکومت کیا تھا؟",
+      "options": {
+        "en": ["Tehran", "Isfahan", "Shiraz", "Tabriz"],
+        "ur": ["تہران", "اصفہان", "شیراز", "تبریز"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Isfahan was the capital of the Safavid Empire, especially during the reign of Shah Abbas I.",
+      "explanation_ur": "اصفہان صفوی سلطنت کا دارالحکومت تھا، خاص طور پر شاہ عباس اول کے دور میں۔",
+      "hint": "It was called 'Half the World'",
+      "hint_ur": "اسے 'نصف جہان' کہا جاتا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 178,
+      "type": "mcq",
+      "question": "Who was Akbar the Great?",
+      "question_ur": "اکبر اعظم کون تھا؟",
+      "options": {
+        "en": ["The third Mughal Emperor", "An Ottoman Sultan", "A Safavid Shah", "A Mamluk ruler"],
+        "ur": ["تیسرا مغل شہنشاہ", "عثمانی سلطان", "صفوی شاہ", "ممالیک حکمران"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Akbar the Great was the third Mughal Emperor who ruled from 1556-1605 CE and expanded the empire significantly.",
+      "explanation_ur": "اکبر اعظم تیسرا مغل شہنشاہ تھا جس نے 1556-1605 عیسوی تک حکومت کی اور سلطنت کو نمایاں طور پر وسعت دی۔",
+      "hint": "He was known for his religious tolerance",
+      "hint_ur": "وہ اپنی مذہبی رواداری کے لیے مشہور تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 179,
+      "type": "mcq",
+      "question": "What was Din-i Ilahi?",
+      "question_ur": "دین الٰہی کیا تھا؟",
+      "options": {
+        "en": ["A syncretic religion created by Akbar", "A military order", "A trade guild", "A court ceremony"],
+        "ur": ["اکبر کی طرف سے بنایا گیا ملاپ مذہب", "فوجی حکم", "تجارتی گلڈ", "دربار کی تقریب"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Din-i Ilahi was a syncretic religion created by Akbar that attempted to merge elements from various religions.",
+      "explanation_ur": "دین الٰہی اکبر کی طرف سے بنایا گیا ملاپ مذہب تھا جس میں مختلف مذاہب کے عناصر کو ملانے کی کوشش کی گئی۔",
+      "hint": "It combined elements from different religions",
+      "hint_ur": "اس میں مختلف مذاہب کے عناصر شامل تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 180,
+      "type": "mcq",
+      "question": "Who was the last effective Mughal Emperor?",
+      "question_ur": "آخری مؤثر مغل شہنشاہ کون تھا؟",
+      "options": {
+        "en": ["Shah Jahan", "Aurangzeb", "Bahadur Shah I", "Muhammad Shah"],
+        "ur": ["شاہ جہان", "اورنگ زیب", "بہادر شاہ اول", "محمد شاہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Aurangzeb was generally considered the last effective Mughal Emperor, ruling from 1658-1707 CE.",
+      "explanation_ur": "اورنگ زیب کو عام طور پر آخری مؤثر مغل شہنشاہ سمجھا جاتا ہے، جس نے 1658-1707 عیسوی تک حکومت کی۔",
+      "hint": "The empire declined after his death",
+      "hint_ur": "اس کی موت کے بعد سلطنت کا زوال ہوا",
+      "timeLimit": 30
+    },
+    {
+      "id": 181,
+      "type": "mcq",
+      "question": "What was the devshirme system in the Ottoman Empire?",
+      "question_ur": "عثمانی سلطنت میں دیوشرمے نظام کیا تھا؟",
+      "options": {
+        "en": ["Recruitment of Christian boys for government service", "A tax system", "A trade regulation", "A military strategy"],
+        "ur": ["حکومتی خدمت کے لیے عیسائی لڑکوں کی بھرتی", "ٹیکس نظام", "تجارتی ضابطہ", "فوجی حکمت عملی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The devshirme system was the Ottoman practice of recruiting Christian boys, converting them to Islam, and training them for government and military service.",
+      "explanation_ur": "دیوشرمے نظام عثمانی رواج تھا جس میں عیسائی لڑکوں کو بھرتی کیا جاتا، انہیں اسلام میں داخل کیا جاتا، اور حکومتی و فوجی خدمت کے لیے تربیت دی جاتی تھی۔",
+      "hint": "Many Janissaries came from this system",
+      "hint_ur": "بہت سے جینیسری اس نظام سے آئے",
+      "timeLimit": 30
+    },
+    {
+      "id": 182,
+      "type": "mcq",
+      "question": "What was the millet system in the Ottoman Empire?",
+      "question_ur": "عثمانی سلطنت میں ملت نظام کیا تھا؟",
+      "options": {
+        "en": ["Autonomous religious communities", "Military units", "Trade guilds", "Administrative provinces"],
+        "ur": ["خود مختار مذہبی برادریاں", "فوجی یونٹس", "تجارتی گلڈز", "انتظامی صوبے"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The millet system allowed non-Muslim religious communities in the Ottoman Empire to govern themselves according to their own laws.",
+      "explanation_ur": "ملت نظام نے عثمانی سلطنت میں غیر مسلم مذہبی برادریوں کو اپنے قوانین کے مطابق خود پر حکومت کرنے کی اجازت دی۔",
+      "hint": "It gave autonomy to religious minorities",
+      "hint_ur": "اس نے مذہبی اقلیتوں کو خودمختاری دی",
+      "timeLimit": 30
+    },
+    {
+      "id": 183,
+      "type": "mcq",
+      "question": "What was the main cause of the decline of the Ottoman Empire?",
+      "question_ur": "عثمانی سلطنت کے زوال کی بنیادی وجہ کیا تھی؟",
+      "options": {
+        "en": ["Multiple factors including military, economic, and administrative problems", "A single decisive battle", "Natural disasters", "Religious conflicts only"],
+        "ur": ["فوجی، اقتصادی، اور انتظامی مسائل سمیت متعدد عوامل", "ایک فیصلہ کن جنگ", "قدرتی آفات", "صرف مذہبی تنازعات"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The decline of the Ottoman Empire was due to multiple factors including military obsolescence, economic problems, administrative corruption, and European technological advancement.",
+      "explanation_ur": "عثمانی سلطنت کا زوال متعدد عوامل کی وجہ سے ہوا جن میں فوجی پرانا پن، اقتصادی مسائل، انتظامی بدعنوانی، اور یورپی تکنیکی ترقی شامل ہے۔",
+      "hint": "It was a gradual process over centuries",
+      "hint_ur": "یہ صدیوں پر محیط بتدریج عمل تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 184,
+      "type": "mcq",
+      "question": "When did the Ottoman Empire officially end?",
+      "question_ur": "عثمانی سلطنت کا باضابطہ خاتمہ کب ہوا؟",
+      "options": {
+        "en": ["1918", "1920", "1922", "1924"],
+        "ur": ["1918", "1920", "1922", "1924"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Ottoman Empire officially ended in 1922 when the sultanate was abolished, though the caliphate continued until 1924.",
+      "explanation_ur": "عثمانی سلطنت کا باضابطہ خاتمہ 1922 میں ہوا جب سلطنت ختم کر دی گئی، اگرچہ خلافت 1924 تک جاری رہی۔",
+      "hint": "The Republic of Turkey was established",
+      "hint_ur": "ترکی کی جمہوریہ قائم ہوئی",
+      "timeLimit": 30
+    },
+    {
+      "id": 185,
+      "type": "mcq",
+      "question": "Who abolished the Ottoman Caliphate?",
+      "question_ur": "عثمانی خلافت کو کس نے ختم کیا؟",
+      "options": {
+        "en": ["Mustafa Kemal Atatürk", "Enver Pasha", "Talaat Pasha", "Mehmed VI"],
+        "ur": ["مصطفیٰ کمال اتاترک", "انور پاشا", "طلعت پاشا", "محمد ششم"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Mustafa Kemal Atatürk abolished the Ottoman Caliphate in 1924 as part of his modernization reforms in Turkey.",
+      "explanation_ur": "مصطفیٰ کمال اتاترک نے 1924 میں ترکی میں اپنی جدیدیت کی اصلاحات کے حصے کے طور پر عثمانی خلافت کو ختم کیا۔",
+      "hint": "He founded modern Turkey",
+      "hint_ur": "اس نے جدید ترکی کی بنیاد رکھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 186,
+      "type": "mcq",
+      "question": "What was the Tanzimat period?",
+      "question_ur": "تنظیمات کا دور کیا تھا؟",
+      "options": {
+        "en": ["Ottoman reform period in the 19th century", "A military campaign", "A religious movement", "A trade agreement"],
+        "ur": ["19ویں صدی میں عثمانی اصلاحات کا دور", "فوجی مہم", "مذہبی تحریک", "تجارتی معاہدہ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Tanzimat was a period of reform in the Ottoman Empire from 1839-1876 aimed at modernizing the state.",
+      "explanation_ur": "تنظیمات 1839-1876 تک عثمانی سلطنت میں اصلاحات کا دور تھا جس کا مقصد ریاست کو جدید بنانا تھا۔",
+      "hint": "It aimed to modernize the Ottoman state",
+      "hint_ur": "اس کا مقصد عثمانی ریاست کو جدید بنانا تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 187,
+      "type": "mcq",
+      "question": "What was the Young Turk movement?",
+      "question_ur": "نوجوان ترک تحریک کیا تھی؟",
+      "options": {
+        "en": ["A reform movement in the late Ottoman Empire", "A military unit", "A religious sect", "A trade organization"],
+        "ur": ["آخری عثمانی سلطنت میں اصلاحی تحریک", "فوجی یونٹ", "مذہبی فرقہ", "تجارتی تنظیم"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Young Turk movement was a reform movement in the late Ottoman Empire that sought to modernize and democratize the state.",
+      "explanation_ur": "نوجوان ترک تحریک آخری عثمانی سلطنت میں ایک اصلاحی تحریک تھی جو ریاست کو جدید اور جمہوری بنانے کی کوشش کرتی تھی۔",
+      "hint": "They came to power in 1908",
+      "hint_ur": "وہ 1908 میں اقتدار میں آئے",
+      "timeLimit": 30
+    },
+    {
+      "id": 188,
+      "type": "mcq",
+      "question": "What was the main contribution of Islamic civilization to world history?",
+      "question_ur": "عالمی تاریخ میں اسلامی تہذیب کا بنیادی کردار کیا تھا؟",
+      "options": {
+        "en": ["Preservation and advancement of knowledge", "Military conquests only", "Trade expansion only", "Religious conversion only"],
+        "ur": ["علم کا تحفظ اور ترقی", "صرف فوجی فتوحات", "صرف تجارتی توسیع", "صرف مذہبی تبدیلی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Islamic civilization's main contribution was the preservation, translation, and advancement of knowledge from various cultures, leading to significant developments in science, philosophy, and arts.",
+      "explanation_ur": "اسلامی تہذیب کا بنیادی کردار مختلف ثقافتوں کے علم کا تحفظ، ترجمہ، اور ترقی تھا، جس سے سائنس، فلسفہ، اور فنون میں اہم پیش رفت ہوئی۔",
+      "hint": "They preserved Greek, Persian, and Indian knowledge",
+      "hint_ur": "انہوں نے یونانی، فارسی، اور ہندی علم کو محفوظ کیا",
+      "timeLimit": 30
+    },
+    {
+      "id": 189,
+      "type": "mcq",
+      "question": "What was the impact of the Mongol invasions on the Islamic world?",
+      "question_ur": "اسلامی دنیا پر منگول حملوں کا کیا اثر تھا؟",
+      "options": {
+        "en": ["Destruction of major centers of learning and political fragmentation", "Complete islamization of the Mongols", "Strengthening of the Abbasid Caliphate", "Expansion of Islamic territories"],
+        "ur": ["علم کے بڑے مراکز کی تباہی اور سیاسی بکھراؤ", "منگولوں کا مکمل اسلامی کرن", "عباسی خلافت کا مضبوط ہونا", "اسلامی علاقوں کی توسیع"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Mongol invasions caused massive destruction to Islamic centers of learning like Baghdad and led to political fragmentation of the Islamic world.",
+      "explanation_ur": "منگول حملوں نے بغداد جیسے اسلامی علمی مراکز کو بڑی تباہی پہنچائی اور اسلامی دنیا کا سیاسی بکھراؤ کیا۔",
+      "hint": "Baghdad was destroyed in 1258 CE",
+      "hint_ur": "بغداد 1258 عیسوی میں تباہ ہوا",
+      "timeLimit": 30
+    },
+    {
+      "id": 190,
+      "type": "mcq",
+      "question": "What was the role of trade in the spread of Islam?",
+      "question_ur": "اسلام کے پھیلاؤ میں تجارت کا کردار کیا تھا؟",
+      "options": {
+        "en": ["It was a major peaceful means of spreading Islam", "It had no role", "It only spread through conquest", "It was limited to Arabia"],
+        "ur": ["یہ اسلام کے پھیلاؤ کا بڑا پرامن ذریعہ تھا", "اس کا کوئی کردار نہیں تھا", "یہ صرف فتح کے ذریعے پھیلا", "یہ صرف عربستان تک محدود تھا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Trade was a major peaceful means of spreading Islam, as Muslim merchants carried their faith to Southeast Asia, Africa, and other regions.",
+      "explanation_ur": "تجارت اسلام کے پھیلاؤ کا بڑا پرامن ذریعہ تھا، کیونکہ مسلم تاجر اپنے ایمان کو جنوب مشرقی ایشیا، افریقہ، اور دیگر علاقوں میں لے گئے۔",
+      "hint": "Muslim merchants spread Islam to many regions",
+      "hint_ur": "مسلم تاجروں نے بہت سے علاقوں میں اسلام پھیلایا",
+      "timeLimit": 30
+    },
+    {
+      "id": 191,
+      "type": "true-false",
+      "question": "The Islamic Golden Age lasted from the 8th to the 13th century.",
+      "question_ur": "اسلامی سنہری دور 8ویں سے 13ویں صدی تک جاری رہا۔",
+      "correctAnswer": true,
+      "explanation": "The Islamic Golden Age is generally considered to have lasted from the 8th to the 13th century, coinciding with the Abbasid period.",
+      "explanation_ur": "اسلامی سنہری دور عام طور پر 8ویں سے 13ویں صدی تک جاری رہا، جو عباسی دور کے ساتھ موافق ہے۔",
+      "hint": "It coincided with the Abbasid Caliphate",
+      "hint_ur": "یہ عباسی خلافت کے ساتھ موافق تھا",
+      "timeLimit": 30
+    },
+    {
+      "id": 192,
+      "type": "true-false",
+      "question": "All Islamic empires were Arab-dominated.",
+      "question_ur": "تمام اسلامی سلطنتیں عرب غلبے والی تھیں۔",
+      "correctAnswer": false,
+      "explanation": "Not all Islamic empires were Arab-dominated. The Ottomans were Turkish, the Safavids were Persian, and the Mughals were of Central Asian origin.",
+      "explanation_ur": "تمام اسلامی سلطنتیں عرب غلبے والی نہیں تھیں۔ عثمانی ترک تھے، صفوی فارسی تھے، اور مغل وسطی ایشیائی النسل تھے۔",
+      "hint": "Turks, Persians, and others also ruled Islamic empires",
+      "hint_ur": "ترک، فارسی، اور دیگر نے بھی اسلامی سلطنتوں پر حکومت کی",
+      "timeLimit": 30
+    },
+    {
+      "id": 193,
+      "type": "true-false",
+      "question": "Islamic law (Sharia) was the only legal system in all Islamic states.",
+      "question_ur": "اسلامی قانون (شریعت) تمام اسلامی ریاستوں میں واحد قانونی نظام تھا۔",
+      "correctAnswer": false,
+      "explanation": "While Islamic law was important, many Islamic states also incorporated local customs, administrative laws, and other legal traditions alongside Sharia.",
+      "explanation_ur": "اگرچہ اسلامی قانون اہم تھا، بہت سی اسلامی ریاستوں نے شریعت کے ساتھ ساتھ مقامی رسوم، انتظامی قوانین، اور دیگر قانونی روایات کو بھی شامل کیا۔",
+      "hint": "Many states had mixed legal systems",
+      "hint_ur": "بہت سی ریاستوں میں مخلوط قانونی نظام تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 194,
+      "type": "true-false",
+      "question": "Women had no rights in Islamic societies throughout history.",
+      "question_ur": "تاریخ بھر میں اسلامی معاشروں میں خواتین کے کوئی حقوق نہیں تھے۔",
+      "correctAnswer": false,
+      "explanation": "This is false. Women in Islamic societies had various rights including property rights, inheritance rights, and in some periods and places, significant political influence.",
+      "explanation_ur": "یہ غلط ہے۔ اسلامی معاشروں میں خواتین کے مختلف حقوق تھے جن میں املاک کے حقوق، وراثت کے حقوق، اور کچھ ادوار اور جگہوں میں اہم سیاسی اثر و رسوخ شامل ہے۔",
+      "hint": "Some women even ruled as sultans",
+      "hint_ur": "کچھ خواتین نے سلطان کے طور پر بھی حکومت کی",
+      "timeLimit": 30
+    },
+    {
+      "id": 195,
+      "type": "true-false",
+      "question": "The Islamic world was completely isolated from other civilizations.",
+      "question_ur": "اسلامی دنیا دیگر تہذیبوں سے مکمل طور پر الگ تھی۔",
+      "correctAnswer": false,
+      "explanation": "This is false. The Islamic world was highly connected through trade, diplomacy, and cultural exchange with Byzantine, Chinese, Indian, and other civilizations.",
+      "explanation_ur": "یہ غلط ہے۔ اسلامی دنیا بازنطینی، چینی، ہندی، اور دیگر تہذیبوں کے ساتھ تجارت، سفارت کاری، اور ثقافتی تبادلے کے ذریعے بہت جڑی ہوئی تھی۔",
+      "hint": "Muslims were active in international trade and diplomacy",
+      "hint_ur": "مسلمان بین الاقوامی تجارت اور سفارت کاری میں فعال تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 196,
+      "type": "mcq",
+      "question": "What was the primary language of administration in the Mughal Empire?",
+      "question_ur": "مغل سلطنت میں انتظامیہ کی بنیادی زبان کیا تھی؟",
+      "options": {
+        "en": ["Persian", "Arabic", "Turkish", "Urdu"],
+        "ur": ["فارسی", "عربی", "ترکی", "اردو"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Persian was the primary language of administration in the Mughal Empire, inherited from earlier Islamic traditions in India.",
+      "explanation_ur": "فارسی مغل سلطنت میں انتظامیہ کی بنیادی زبان تھی، جو ہندوستان میں پہلی اسلامی روایات سے وراثت میں ملی۔",
+      "hint": "It was also used in the Delhi Sultanate",
+      "hint_ur": "یہ دہلی سلطنت میں بھی استعمال ہوتی تھی",
+      "timeLimit": 30
+    },
+    {
+      "id": 197,
+      "type": "mcq",
+      "question": "What was the Silk Road's importance to Islamic civilization?",
+      "question_ur": "اسلامی تہذیب کے لیے شاہراہ ریشم کی اہمیت کیا تھی؟",
+      "options": {
+        "en": ["It facilitated trade and cultural exchange", "It was only used for military purposes", "It had no significance", "It was controlled by non-Muslims only"],
+        "ur": ["اس نے تجارت اور ثقافتی تبادلے کو آسان بنایا", "یہ صرف فوجی مقاصد کے لیے استعمال ہوتا تھا", "اس کی کوئی اہمیت نہیں تھی", "یہ صرف غیر مسلموں کے کنٹرول میں تھا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The Silk Road was crucial for Islamic civilization as it facilitated trade, cultural exchange, and the spread of ideas between East and West.",
+      "explanation_ur": "شاہراہ ریشم اسلامی تہذیب کے لیے انتہائی اہم تھا کیونکہ اس نے مشرق اور مغرب کے درمیان تجارت، ثقافتی تبادلے، اور خیالات کے پھیلاؤ کو آسان بنایا۔",
+      "hint": "Muslim merchants were major players on the Silk Road",
+      "hint_ur": "مسلم تاجر شاہراہ ریشم پر بڑے کھلاڑی تھے",
+      "timeLimit": 30
+    },
+    {
+      "id": 198,
+      "type": "mcq",
+      "question": "What was the main reason for the success of early Islamic conquests?",
+      "question_ur": "ابتدائی اسلامی فتوحات کی کامیابی کی بنیادی وجہ کیا تھی؟",
+      "options": {
+        "en": ["Combination of military skill, religious motivation, and political circumstances", "Superior numbers only", "Advanced technology only", "Divine intervention only"],
+        "ur": ["فوجی مہارت، مذہبی محرک، اور سیاسی حالات کا امتزاج", "صرف برتر تعداد", "صرف جدید ٹیکنالوجی", "صرف الہی مداخلت"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The success of early Islamic conquests was due to a combination of factors including military skill, religious motivation, political circumstances, and the weakness of opposing empires.",
+      "explanation_ur": "ابتدائی اسلامی فتوحات کی کامیابی فوجی مہارت، مذہبی محرک، سیاسی حالات، اور مخالف سلطنتوں کی کمزوری سمیت متعدد عوامل کا نتیجہ تھی۔",
+      "hint": "Multiple factors contributed to their success",
+      "hint_ur": "متعدد عوامل نے ان کی کامیابی میں حصہ ڈالا",
+      "timeLimit": 30
+    },
+    {
+      "id": 199,
+      "type": "mcq",
+      "question": "What was the lasting impact of Islamic rule in India?",
+      "question_ur": "ہندوستان میں اسلامی حکومت کا دیرپا اثر کیا تھا؟",
+      "options": {
+        "en": ["Cultural synthesis and architectural legacy", "Complete islamization", "Destruction of all Hindu traditions", "No lasting impact"],
+        "ur": ["ثقافتی امتزاج اور تعمیراتی میراث", "مکمل اسلامی کرن", "تمام ہندو روایات کی تباہی", "کوئی دیرپا اثر نہیں"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Islamic rule in India led to cultural synthesis, creating new art forms, architecture, languages (like Urdu), and a rich composite culture.",
+      "explanation_ur": "ہندوستان میں اسلامی حکومت نے ثقافتی امتزاج کو جن دیا، نئے فنی شکل، فن تعمیر، زبانیں (جیسے اردو)، اور ایک بھرپور مرکب ثقافت پیدا کی۔",
+      "hint": "It created a composite Indo-Islamic culture",
+      "hint_ur": "اس نے ہند-اسلامی مرکب ثقافت پیدا کی",
+      "timeLimit": 30
+    },
+    {
+      "id": 200,
+      "type": "mcq",
+      "question": "What is the significance of Islamic history in world civilization?",
+      "question_ur": "عالمی تہذیب میں اسلامی تاریخ کی کیا اہمیت ہے؟",
+      "options": {
+        "en": ["Bridge between ancient and modern civilizations", "Only religious significance", "Only military significance", "No significant impact"],
+        "ur": ["قدیم اور جدید تہذیبوں کے درمیان پل", "صرف مذہبی اہمیت", "صرف فوجی اہمیت", "کوئی اہم اثر نہیں"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Islamic history served as a crucial bridge between ancient and modern civilizations, preserving and transmitting knowledge while making original contributions to human progress.",
+      "explanation_ur": "اسلامی تاریخ نے قدیم اور جدید تہذیبوں کے درمیان ایک اہم پل کا کام کیا، علم کو محفوظ اور منتقل کرتے ہوئے انسانی ترقی میں اصل کردار ادا کیا۔",
+      "hint": "It preserved and advanced human knowledge",
+      "hint_ur": "اس نے انسانی علم کو محفوظ اور آگے بڑھایا",
+      "timeLimit": 30
+    }
+  ]
+}

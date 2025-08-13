@@ -1,0 +1,1796 @@
+{
+  "meta": {
+    "category": "Ancient Civilizations",
+    "category_ur": "قدیم تہذیبیں",
+    "description": "Test your knowledge of ancient civilizations from around the world",
+    "description_ur": "دنیا بھر کی قدیم تہذیبوں کا امتحان لیں",
+    "difficulty": "medium",
+    "image": "ancient_civilizations.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Which ancient civilization built the pyramids of Giza?",
+      "question_ur": "گیزا کے اہرام کس قدیم تہذیب نے بنائے تھے؟",
+      "options": {
+        "en": ["Mesopotamians", "Ancient Egyptians", "Indus Valley", "Ancient Chinese"],
+        "ur": ["میسوپوٹیمیا", "قدیم مصری", "وادی سندھ", "قدیم چینی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Ancient Egyptians built the pyramids as tombs for pharaohs.",
+      "explanation_ur": "قدیم مصریوں نے فراعنہ کی قبروں کے طور پر اہرام بنائے تھے۔",
+      "hint": "Think of mummies and pharaohs",
+      "hint_ur": "ممیوں اور فراعنہ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 2,
+      "type": "true-false",
+      "question": "The Indus Valley civilization had advanced urban planning with grid systems.",
+      "question_ur": "وادی سندھ کی تہذیب میں گرڈ سسٹم کے ساتھ جدید شہری منصوبہ بندی تھی۔",
+      "correctAnswer": true,
+      "explanation": "The cities of Mohenjo-Daro and Harappa had sophisticated grid layouts.",
+      "explanation_ur": "موہنجو دارو اور ہڑپہ کے شہروں میں جدید گرڈ ترتیب تھی۔",
+      "hint": "Consider their drainage systems",
+      "hint_ur": "ان کے نکاسی آب کے نظام پر غور کریں",
+      "timeLimit": 25
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which ancient civilization developed cuneiform writing?",
+      "question_ur": "کس قدیم تہذیب نے کیونیفارم لکھائی تیار کی؟",
+      "options": {
+        "en": ["Ancient Greece", "Mesopotamia", "Ancient Rome", "Mayans"],
+        "ur": ["قدیم یونان", "میسوپوٹیمیا", "قدیم روم", "مایا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Cuneiform is one of the earliest systems of writing, developed by the Sumerians in Mesopotamia.",
+      "explanation_ur": "کیونیفارم تحریر کے ابتدائی نظاموں میں سے ایک ہے، جسے میسوپوٹیمیا میں سومیریوں نے تیار کیا تھا۔",
+      "hint": "Think of wedge-shaped characters",
+      "hint_ur": "ویج کی شکل کے حروف کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "The ancient city of Troy was located in which modern-day country?",
+      "question_ur": "قدیم شہر ٹرائی کس جدید ملک میں واقع تھا؟",
+      "options": {
+        "en": ["Greece", "Italy", "Turkey", "Egypt"],
+        "ur": ["یونان", "اٹلی", "ترکی", "مصر"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The archaeological site of Troy is located in Hisarlik in modern-day Turkey.",
+      "explanation_ur": "ٹرائی کی آثار قدیمہ کی جگہ موجودہ ترکی کے ہسارلک میں واقع ہے۔",
+      "hint": "Think of the Trojan War",
+      "hint_ur": "ٹروجن جنگ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "question": "The ancient Mayans had a concept of zero in their number system.",
+      "question_ur": "قدیم مایا کے عددی نظام میں صفر کا تصور تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Mayans developed the concept of zero independently around 4th century CE.",
+      "explanation_ur": "مایا نے چوتھی صدی عیسوی میں صفر کا تصور آزادانہ طور پر تیار کیا تھا۔",
+      "hint": "Consider their advanced calendar system",
+      "hint_ur": "ان کے جدید کیلنڈر نظام پر غور کریں",
+      "timeLimit": 25
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Which ancient civilization built Machu Picchu?",
+      "question_ur": "ماچو پیچو کس قدیم تہذیب نے بنایا تھا؟",
+      "options": {
+        "en": ["Aztecs", "Mayans", "Incas", "Olmecs"],
+        "ur": ["ایزٹیک", "مایا", "انکا", "اولمیک"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Machu Picchu was built by the Inca civilization in the 15th century.",
+      "explanation_ur": "ماچو پیچو 15ویں صدی میں انکا تہذیب نے بنایا تھا۔",
+      "hint": "Think of the Andes mountains",
+      "hint_ur": "اینڈیز پہاڑوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "The Code of Hammurabi originated in which ancient civilization?",
+      "question_ur": "ہمورابی کا ضابطہ کس قدیم تہذیب میں شروع ہوا؟",
+      "options": {
+        "en": ["Ancient Egypt", "Babylon", "Ancient India", "Ancient China"],
+        "ur": ["قدیم مصر", "بابل", "قدیم ہندوستان", "قدیم چین"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Code of Hammurabi was created by the Babylonian king Hammurabi around 1754 BCE.",
+      "explanation_ur": "ہمورابی کا ضابطہ بابلی بادشاہ ہمورابی نے تقریباً 1754 قبل مسیح میں بنایا تھا۔",
+      "hint": "One of the earliest law codes",
+      "hint_ur": "قدیم ترین قانونی ضابطوں میں سے ایک",
+      "timeLimit": 20
+    },
+    {
+      "id": 8,
+      "type": "true-false",
+      "question": "The ancient Phoenicians were known for their development of the first alphabet.",
+      "question_ur": "قدیم فونیقی اپنی پہلی حروف تہجی کی ترقی کے لیے جانے جاتے تھے۔",
+      "correctAnswer": true,
+      "explanation": "The Phoenician alphabet is considered the ancestor of nearly all modern alphabets.",
+      "explanation_ur": "فونیقی حروف تہجی کو تقریباً تمام جدید حروف تہجی کا جد امجد سمجھا جاتا ہے۔",
+      "hint": "Think of maritime traders",
+      "hint_ur": "بحری تاجروں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Which ancient civilization constructed the Great Wall?",
+      "question_ur": "کس قدیم تہذیب نے عظیم دیوار تعمیر کی؟",
+      "options": {
+        "en": ["Japanese", "Mongolian", "Chinese", "Korean"],
+        "ur": ["جاپانی", "منگول", "چینی", "کوریائی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Great Wall was built by various Chinese dynasties over centuries.",
+      "explanation_ur": "عظیم دیوار صدیوں سے مختلف چینی خاندانوں نے بنائی تھی۔",
+      "hint": "Think of northern invaders",
+      "hint_ur": "شمالی حملہ آوروں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "The ancient Olympic Games originated in:",
+      "question_ur": "قدیم اولمپک کھیلوں کی شروعات کہاں ہوئی؟",
+      "options": {
+        "en": ["Rome", "Sparta", "Athens", "Olympia"],
+        "ur": ["روم", "سپارٹا", "ایتھنز", "اولمپیا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The ancient Olympic Games were held in Olympia, Greece from 776 BCE.",
+      "explanation_ur": "قدیم اولمپک کھیل 776 قبل مسیح سے اولمپیا، یونان میں منعقد ہوئے تھے۔",
+      "hint": "Think of Zeus",
+      "hint_ur": "زیوس کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "question": "The ancient city of Carthage was located in what is now Tunisia.",
+      "question_ur": "قدیم شہر کارتھج موجودہ تیونس میں واقع تھا۔",
+      "correctAnswer": true,
+      "explanation": "Carthage was a Phoenician city-state in North Africa, near modern Tunis.",
+      "explanation_ur": "کارتھج شمالی افریقہ میں ایک فونیقی شہر ریاست تھی، موجودہ تیونس کے قریب۔",
+      "hint": "Think of Hannibal",
+      "hint_ur": "ہنی بال کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Which ancient civilization developed the concept of democracy?",
+      "question_ur": "کس قدیم تہذیب نے جمہوریت کا تصور تیار کیا؟",
+      "options": {
+        "en": ["Ancient Rome", "Ancient Egypt", "Ancient Greece", "Persian Empire"],
+        "ur": ["قدیم روم", "قدیم مصر", "قدیم یونان", "فارسی سلطنت"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Athenian democracy developed in ancient Greece around 5th century BCE.",
+      "explanation_ur": "ایتھنیائی جمہوریت قدیم یونان میں تقریباً پانچویں صدی قبل مسیح میں تیار ہوئی۔",
+      "hint": "Think of city-states",
+      "hint_ur": "شہری ریاستوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "The Rosetta Stone was key to deciphering which ancient writing system?",
+      "question_ur": "روزیٹا اسٹون کس قدیم تحریری نظام کو سمجھنے کے لیے اہم تھا؟",
+      "options": {
+        "en": ["Cuneiform", "Hieroglyphics", "Linear B", "Sanskrit"],
+        "ur": ["کیونیفارم", "ہائیروگلیفس", "لکیری بی", "سنسکرت"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Rosetta Stone contained the same text in Greek, Demotic, and Hieroglyphics.",
+      "explanation_ur": "روزیٹا اسٹون میں یونانی، ڈیموٹک اور ہائیروگلیفس میں ایک ہی متن تھا۔",
+      "hint": "Think of Napoleon's discovery",
+      "hint_ur": "نیپولین کی دریافت کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "question": "The ancient Minoan civilization was located on the island of Crete.",
+      "question_ur": "قدیم مینوئن تہذیب کریٹ جزیرے پر واقع تھی۔",
+      "correctAnswer": true,
+      "explanation": "The Minoans flourished on Crete from approximately 2700 to 1450 BCE.",
+      "explanation_ur": "مینوئن تقریباً 2700 سے 1450 قبل مسیح تک کریٹ پر پھلے پھولے۔",
+      "hint": "Think of the Minotaur myth",
+      "hint_ur": "مینوٹور کی خرافات کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Which ancient civilization built the ziggurats?",
+      "question_ur": "زیگورات کس قدیم تہذیب نے بنائے تھے؟",
+      "options": {
+        "en": ["Ancient Egyptians", "Mesopotamians", "Mayans", "Ancient Chinese"],
+        "ur": ["قدیم مصری", "میسوپوٹیمیا", "مایا", "قدیم چینی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ziggurats were massive structures built in ancient Mesopotamia as temples.",
+      "explanation_ur": "زیگورات قدیم میسوپوٹیمیا میں مندروں کے طور پر بنائے گئے بڑے ڈھانچے تھے۔",
+      "hint": "Think of stepped pyramids",
+      "hint_ur": "زینے دار اہرام کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "The ancient city of Petra was the capital of which civilization?",
+      "question_ur": "قدیم شہر پیٹرا کس تہذیب کا دارالحکومت تھا؟",
+      "options": {
+        "en": ["Nabataeans", "Assyrians", "Hittites", "Phoenicians"],
+        "ur": ["نبطی", "اشوری", "ہیتی", "فونیقی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Petra was the capital of the Nabataean Kingdom around 4th century BCE.",
+      "explanation_ur": "پیٹرا چوتھی صدی قبل مسیح کے قریب نبطی بادشاہت کا دارالحکومت تھا۔",
+      "hint": "Think of rock-cut architecture",
+      "hint_ur": "چٹان سے تراشے ہوئے فن تعمیر کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 17,
+      "type": "true-false",
+      "question": "The ancient Etruscans greatly influenced Roman civilization.",
+      "question_ur": "قدیم ایٹرسکن نے رومی تہذیب پر بہت اثر ڈالا۔",
+      "correctAnswer": true,
+      "explanation": "The Etruscans influenced Roman architecture, religion, and the toga.",
+      "explanation_ur": "ایٹرسکن نے رومی فن تعمیر، مذہب اور ٹوگا پر اثر ڈالا۔",
+      "hint": "Think of pre-Roman Italy",
+      "hint_ur": "پیش رومی اٹلی کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Which ancient civilization invented paper?",
+      "question_ur": "کس قدیم تہذیب نے کاغذ ایجاد کیا؟",
+      "options": {
+        "en": ["Ancient Greeks", "Ancient Egyptians", "Ancient Chinese", "Mesopotamians"],
+        "ur": ["قدیم یونانی", "قدیم مصری", "قدیم چینی", "میسوپوٹیمیا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Paper was invented in China during the Han Dynasty (202 BCE - 220 CE).",
+      "explanation_ur": "کاغذ ہان خاندان (202 قبل مسیح - 220 عیسوی) کے دوران چین میں ایجاد ہوا تھا۔",
+      "hint": "Think of Cai Lun",
+      "hint_ur": "تسائی لون کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "The ancient Hanging Gardens were said to be in which city?",
+      "question_ur": "قدیم معلق باغ کس شہر میں ہونے کا کہا جاتا ہے؟",
+      "options": {
+        "en": ["Athens", "Babylon", "Memphis", "Nineveh"],
+        "ur": ["ایتھنز", "بابل", "میمفس", "نینوا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Hanging Gardens of Babylon were one of the Seven Wonders of the Ancient World.",
+      "explanation_ur": "بابل کے معلق باغ قدیم دنیا کے سات عجائبات میں سے ایک تھے۔",
+      "hint": "Think of Nebuchadnezzar II",
+      "hint_ur": "نبوکد نضر دوم کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 20,
+      "type": "true-false",
+      "question": "The ancient Aksumite civilization was located in South America.",
+      "question_ur": "قدیم اکسمائٹ تہذیب جنوبی امریکہ میں واقع تھی۔",
+      "correctAnswer": false,
+      "explanation": "The Aksumite civilization was located in what is now Ethiopia and Eritrea.",
+      "explanation_ur": "اکسمائٹ تہذیب موجودہ ایتھوپیا اور اریٹیریا میں واقع تھی۔",
+      "hint": "Think of African civilizations",
+      "hint_ur": "افریقی تہذیبوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Which ancient civilization built Stonehenge?",
+      "question_ur": "سٹون ہینج کس قدیم تہذیب نے بنایا تھا؟",
+      "options": {
+        "en": ["Celts", "Druids", "Neolithic Britons", "Vikings"],
+        "ur": ["سیلٹ", "ڈروئیڈ", "نیولیتھک برطانوی", "وائکنگ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Stonehenge was constructed by Neolithic people between 3000 and 2000 BCE.",
+      "explanation_ur": "سٹون ہینج نیولیتھک لوگوں نے 3000 سے 2000 قبل مسیح کے درمیان تعمیر کیا تھا۔",
+      "hint": "Think of prehistoric Britain",
+      "hint_ur": "پیش تاریخی برطانیہ کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "The ancient Silk Road primarily connected which two civilizations?",
+      "question_ur": "قدیم شاہراہ ریشم بنیادی طور پر کون سی دو تہذیبوں کو جوڑتی تھی؟",
+      "options": {
+        "en": ["Rome and Egypt", "China and Rome", "India and Persia", "Greece and China"],
+        "ur": ["روم اور مصر", "چین اور روم", "ہندوستان اور فارس", "یونان اور چین"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Silk Road connected China with the Roman Empire for trade.",
+      "explanation_ur": "شاہراہ ریشم چین کو رومی سلطنت سے تجارت کے لیے جوڑتی تھی۔",
+      "hint": "Think of luxury goods trade",
+      "hint_ur": "عیش و آرام کی اشیاء کی تجارت کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 23,
+      "type": "true-false",
+      "question": "The ancient city of Timbuktu was a major center of Islamic learning.",
+      "question_ur": "قدیم شہر ٹمبکٹو اسلامی تعلیم کا ایک بڑا مرکز تھا۔",
+      "correctAnswer": true,
+      "explanation": "Timbuktu in the Mali Empire housed the famous Sankore University.",
+      "explanation_ur": "مالی سلطنت میں ٹمبکٹو مشہور سانکور یونیورسٹی کا گھر تھا۔",
+      "hint": "Think of Mansa Musa",
+      "hint_ur": "منسا موسٰی کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which ancient civilization developed the concept of Yin and Yang?",
+      "question_ur": "کس قدیم تہذیب نے یِن اور یانگ کا تصور تیار کیا؟",
+      "options": {
+        "en": ["Ancient India", "Ancient China", "Ancient Japan", "Ancient Korea"],
+        "ur": ["قدیم ہندوستان", "قدیم چین", "قدیم جاپان", "قدیم کوریا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Yin and Yang originated in ancient Chinese philosophy.",
+      "explanation_ur": "یین اور یانگ قدیم چینی فلسفہ میں شروع ہوئے۔",
+      "hint": "Think of Taoism",
+      "hint_ur": "تاؤ مت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "The ancient city of Angkor was the center of which empire?",
+      "question_ur": "قدیم شہر انگکور کس سلطنت کا مرکز تھا؟",
+      "options": {
+        "en": ["Khmer", "Maurya", "Gupta", "Chola"],
+        "ur": ["خمیر", "موریہ", "گپتا", "چولا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Angkor was the capital city of the Khmer Empire (9th to 15th centuries).",
+      "explanation_ur": "انگکور خمیر سلطنت (9ویں سے 15ویں صدی) کا دارالحکومت شہر تھا۔",
+      "hint": "Think of Cambodia",
+      "hint_ur": "کمبوڈیا کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 26,
+      "type": "true-false",
+      "question": "The ancient Olmec civilization is considered the 'mother culture' of Mesoamerica.",
+      "question_ur": "قدیم اولمیک تہذیب کو میسوامریکہ کی 'ماں ثقافت' سمجھا جاتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Olmecs (1200-400 BCE) influenced later Mesoamerican civilizations.",
+      "explanation_ur": "اولمیک (1200-400 قبل مسیح) نے بعد کی میسوامریکی تہذیبوں کو متاثر کیا۔",
+      "hint": "Think of colossal heads",
+      "hint_ur": "بڑے پیمانے پر سر کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "Which ancient civilization first used the wheel?",
+      "question_ur": "کس قدیم تہذیب نے پہیے کا پہلی بار استعمال کیا؟",
+      "options": {
+        "en": ["Ancient Egyptians", "Mesopotamians", "Ancient Chinese", "Indus Valley"],
+        "ur": ["قدیم مصری", "میسوپوٹیمیا", "قدیم چینی", "وادی سندھ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The wheel was invented in ancient Mesopotamia around 3500 BCE.",
+      "explanation_ur": "پہیہ تقریباً 3500 قبل مسیح میں قدیم میسوپوٹیمیا میں ایجاد ہوا تھا۔",
+      "hint": "Think of early pottery wheels",
+      "hint_ur": "ابتدائی پوٹری وہیلز کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "The ancient Library of Alexandria was located in which civilization?",
+      "question_ur": "قدیم لائبریری آف اسکندریہ کس تہذیب میں واقع تھی؟",
+      "options": {
+        "en": ["Ancient Greek", "Roman", "Ptolemaic Egypt", "Byzantine"],
+        "ur": ["قدیم یونانی", "رومی", "بطلیموسی مصر", "بازنطینی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Library was part of the Musaeum in Ptolemaic Alexandria, Egypt.",
+      "explanation_ur": "لائبریری بطلیموسی اسکندریہ، مصر میں میوزیم کا حصہ تھی۔",
+      "hint": "Think of Hellenistic Egypt",
+      "hint_ur": "ہیلینسٹک مصر کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 29,
+      "type": "true-false",
+      "question": "The ancient Spartans were known for their emphasis on military training.",
+      "question_ur": "قدیم سپارٹن اپنی فوجی تربیت پر زور دینے کے لیے جانے جاتے تھے۔",
+      "correctAnswer": true,
+      "explanation": "Spartan boys began military training at age 7 in the agoge system.",
+      "explanation_ur": "سپارٹن لڑکوں نے 7 سال کی عمر میں اگوگے نظام میں فوجی تربیت شروع کی۔",
+      "hint": "Think of the Battle of Thermopylae",
+      "hint_ur": "تھرموپائلے کی جنگ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "Which ancient civilization created the first known writing system in the Americas?",
+      "question_ur": "کس قدیم تہذیب نے امریکہ میں پہلا معلوم تحریری نظام بنایا؟",
+      "options": {
+        "en": ["Olmec", "Maya", "Aztec", "Inca"],
+        "ur": ["اولمیک", "مایا", "ایزٹیک", "انکا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Maya developed the most sophisticated writing system in pre-Columbian Americas.",
+      "explanation_ur": "مایا نے پری کولمبیائی امریکہ میں سب سے جدید تحریری نظام تیار کیا۔",
+      "hint": "Think of glyphs",
+      "hint_ur": "گلفس کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "The ancient city of Persepolis was the ceremonial capital of which empire?",
+      "question_ur": "قدیم شہر پرسے پولس کس سلطنت کا رسمی دارالحکومت تھا؟",
+      "options": {
+        "en": ["Assyrian", "Babylonian", "Achaemenid Persian", "Sasanian"],
+        "ur": ["اشوری", "بابلی", "ہخامنشی فارسی", "ساسانی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Persepolis was built by Darius I as the ceremonial capital of the Achaemenid Empire.",
+      "explanation_ur": "پرسے پولس ڈاریئس اول نے ہخامنشی سلطنت کے رسمی دارالحکومت کے طور پر بنایا تھا۔",
+      "hint": "Think of Alexander the Great's conquest",
+      "hint_ur": "سکندر اعظم کی فتح کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 32,
+      "type": "true-false",
+      "question": "The ancient Harappan civilization had no known writing system.",
+      "question_ur": "قدیم ہڑپہ تہذیب کا کوئی معلوم تحریری نظام نہیں تھا۔",
+      "correctAnswer": false,
+      "explanation": "The Harappans used the still undeciphered Indus script.",
+      "explanation_ur": "ہڑپہ والوں نے ابھی تک غیر مرموز وادی سندھ کی اسکرپٹ کا استعمال کیا۔",
+      "hint": "Think of seals with symbols",
+      "hint_ur": "علامتوں والی مہروں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Which ancient civilization first developed the arch in architecture?",
+      "question_ur": "کس قدیم تہذیب نے فن تعمیر میں محراب پہلی بار تیار کی؟",
+      "options": {
+        "en": ["Ancient Greeks", "Ancient Romans", "Mesopotamians", "Ancient Egyptians"],
+        "ur": ["قدیم یونانی", "قدیم رومی", "میسوپوٹیمیا", "قدیم مصری"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The arch was first developed in Mesopotamia, though Romans perfected its use.",
+      "explanation_ur": "محراب پہلی بار میسوپوٹیمیا میں تیار ہوئی تھی، حالانکہ رومیوں نے اس کے استعمال کو کامل بنایا۔",
+      "hint": "Think of ziggurats",
+      "hint_ur": "زیگورات کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "The ancient Moche civilization flourished in which modern country?",
+      "question_ur": "قدیم موچے تہذیب کس جدید ملک میں پھلی پھولی؟",
+      "options": {
+        "en": ["Mexico", "Peru", "Guatemala", "Colombia"],
+        "ur": ["میکسیکو", "پیرو", "گوئٹے مالا", "کولمبیا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Moche culture developed in northern Peru (100-700 CE).",
+      "explanation_ur": "موچے ثقافت شمالی پیرو (100-700 عیسوی) میں تیار ہوئی۔",
+      "hint": "Think of the Lord of Sipán",
+      "hint_ur": "لارڈ آف سیپان کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 35,
+      "type": "true-false",
+      "question": "The ancient Assyrians were known for their brutal warfare tactics.",
+      "question_ur": "قدیم اشوری اپنی ظالمانہ جنگ کی حکمت عملی کے لیے جانے جاتے تھے۔",
+      "correctAnswer": true,
+      "explanation": "The Assyrians used terror tactics like impaling enemies to discourage resistance.",
+      "explanation_ur": "اشوریوں نے مزاحمت کو حوصلہ شکنی کرنے کے لیے دشمنوں کو سولی دینے جیسی دہشت گردی کی حکمت عملی استعمال کی۔",
+      "hint": "Think of siege warfare",
+      "hint_ur": "محاصرے کی جنگ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Which ancient civilization built the Terracotta Army?",
+      "question_ur": "مٹی کے سپاہیوں کی فوج کس قدیم تہذیب نے بنائی؟",
+      "options": {
+        "en": ["Han Dynasty", "Qin Dynasty", "Shang Dynasty", "Zhou Dynasty"],
+        "ur": ["ہان خاندان", "چن خاندان", "شنگ خاندان", "ژو خاندان"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Terracotta Army was created for Qin Shi Huang, first emperor of China.",
+      "explanation_ur": "مٹی کے سپاہیوں کی فوج چین کے پہلے شہنشاہ چن شی ہوانگ کے لیے بنائی گئی تھی۔",
+      "hint": "Think of the first emperor's tomb",
+      "hint_ur": "پہلے شہنشاہ کی قبر کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "The ancient city of Babylon was located near which modern city?",
+      "question_ur": "قدیم شہر بابل کس جدید شہر کے قریب واقع تھا؟",
+      "options": {
+        "en": ["Baghdad", "Cairo", "Damascus", "Tehran"],
+        "ur": ["بغداد", "قاہرہ", "دمشق", "تہران"]
+      },
+      "correctAnswer": 0,
+      "explanation": "The ruins of Babylon are located about 85 km south of Baghdad, Iraq.",
+      "explanation_ur": "بابل کے کھنڈرات عراق کے بغداد سے تقریباً 85 کلومیٹر جنوب میں واقع ہیں۔",
+      "hint": "Think of the Euphrates River",
+      "hint_ur": "دریائے فرات کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 38,
+      "type": "true-false",
+      "question": "The ancient Phoenicians originated from what is now Lebanon.",
+      "question_ur": "قدیم فونیقی موجودہ لبنان سے شروع ہوئے تھے۔",
+      "correctAnswer": true,
+      "explanation": "Phoenician city-states like Tyre and Sidon were located in modern Lebanon.",
+      "explanation_ur": "فونیقی شہری ریاستیں جیسے ٹائر اور صیدون موجودہ لبنان میں واقع تھیں۔",
+      "hint": "Think of the cedar trade",
+      "hint_ur": "دیودار کی تجارت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "Which ancient civilization developed the concept of zero in mathematics?",
+      "question_ur": "کس قدیم تہذیب نے ریاضی میں صفر کا تصور تیار کیا؟",
+      "options": {
+        "en": ["Ancient Greeks", "Ancient Egyptians", "Ancient Indians", "Babylonians"],
+        "ur": ["قدیم یونانی", "قدیم مصری", "قدیم ہندوستانی", "بابلی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The concept of zero as a number originated in ancient India.",
+      "explanation_ur": "صفر کا تصور بطور عدد قدیم ہندوستان میں شروع ہوا۔",
+      "hint": "Think of Aryabhata",
+      "hint_ur": "آریہ بھٹ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 40,
+      "type": "true-false",
+      "question": "The ancient Nazca Lines are located in Chile.",
+      "question_ur": "قدیم نازکا لائنز چلی میں واقع ہیں۔",
+      "correctAnswer": false,
+      "explanation": "The Nazca Lines are located in the Nazca Desert of southern Peru.",
+      "explanation_ur": "نازکا لائنز جنوبی پیرو کے نازکا صحرا میں واقع ہیں۔",
+      "hint": "Think of geoglyphs",
+      "hint_ur": "جیوگلفس کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "The ancient city of Carthage was founded by which civilization?",
+      "question_ur": "قدیم شہر کارتھج کس تہذیب نے قائم کیا؟",
+      "options": {
+        "en": ["Romans", "Greeks", "Phoenicians", "Egyptians"],
+        "ur": ["رومی", "یونانی", "فونیقی", "مصری"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Carthage was founded by Phoenician colonists from Tyre in the 9th century BCE.",
+      "explanation_ur": "کارتھج 9ویں صدی قبل مسیح میں ٹائر کے فونیقی نوآبادیوں نے قائم کیا تھا۔",
+      "hint": "Think of Dido",
+      "hint_ur": "ڈیڈو کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "Which ancient civilization built the city of Teotihuacan?",
+      "question_ur": "شہر ٹیوٹیہواکان کس قدیم تہذیب نے بنایا؟",
+      "options": {
+        "en": ["Aztecs", "Mayans", "Toltecs", "Unknown (possibly multi-ethnic)"],
+        "ur": ["ایزٹیک", "مایا", "ٹولٹیک", "نامعلوم (ممکنہ طور پر کثیر نسلی)"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The builders of Teotihuacan remain unknown, though it was later adopted by Aztecs.",
+      "explanation_ur": "ٹیوٹیہواکان کے بنانے والے نامعلوم ہیں، حالانکہ اسے بعد میں ایزٹیک نے اپنایا تھا۔",
+      "hint": "Think of the Pyramid of the Sun",
+      "hint_ur": "پیرامڈ آف دی سن کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 43,
+      "type": "true-false",
+      "question": "The ancient Sumerians lived in city-states rather than a unified empire.",
+      "question_ur": "قدیم سومیری ایک متحد سلطنت کے بجائے شہری ریاستوں میں رہتے تھے۔",
+      "correctAnswer": true,
+      "explanation": "Sumer consisted of independent city-states like Ur, Uruk, and Lagash.",
+      "explanation_ur": "سومیر آزاد شہری ریاستوں جیسے ار، ارک اور لاگاش پر مشتمل تھا۔",
+      "hint": "Think of early Mesopotamia",
+      "hint_ur": "ابتدائی میسوپوٹیمیا کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "The ancient Silk Road connected China with which sea?",
+      "question_ur": "قدیم شاہراہ ریشم چین کو کس سمندر سے جوڑتی تھی؟",
+      "options": {
+        "en": ["Red Sea", "Mediterranean", "Black Sea", "Arabian Sea"],
+        "ur": ["بحیرہ احمر", "بحیرہ روم", "بحیرہ اسود", "بحیرہ عرب"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Silk Road extended from China to the Mediterranean ports like Antioch.",
+      "explanation_ur": "شاہراہ ریشم چین سے بحیرہ روم کے بندرگاہوں جیسے انطاکیہ تک پھیلی ہوئی تھی۔",
+      "hint": "Think of Roman trade",
+      "hint_ur": "رومی تجارت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Which ancient civilization first domesticated the horse?",
+      "question_ur": "کس قدیم تہذیب نے گھوڑے کو پہلی بار پالا؟",
+      "options": {
+        "en": ["Ancient Egyptians", "Scythians", "Botai culture", "Hittites"],
+        "ur": ["قدیم مصری", "سکیتھی", "بوٹائی ثقافت", "ہیتی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Botai culture of northern Kazakhstan domesticated horses around 3500 BCE.",
+      "explanation_ur": "شمالی قازقستان کی بوٹائی ثقافت نے تقریباً 3500 قبل مسیح میں گھوڑوں کو پالا۔",
+      "hint": "Think of Central Asian steppes",
+      "hint_ur": "وسطی ایشیائی اسٹیپس کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 46,
+      "type": "true-false",
+      "question": "The ancient city of Pompeii was destroyed by an earthquake.",
+      "question_ur": "قدیم شہر پومپی ایک زلزلے سے تباہ ہو گیا تھا۔",
+      "correctAnswer": false,
+      "explanation": "Pompeii was buried by the eruption of Mount Vesuvius in 79 CE.",
+      "explanation_ur": "پومپی 79 عیسوی میں ماؤنٹ ویسوویئس کے پھٹنے سے دب گیا تھا۔",
+      "hint": "Think of volcanic ash",
+      "hint_ur": "آتش فشاں راکھ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Which ancient civilization built the Great Zimbabwe ruins?",
+      "question_ur": "عظیم زمبابوے کے کھنڈرات کس قدیم تہذیب نے بنائے؟",
+      "options": {
+        "en": ["Bantu", "Zulu", "Shona", "Swahili"],
+        "ur": ["بانتو", "زولو", "شونا", "سواحلی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Great Zimbabwe was built by the Shona people between 11th-15th centuries.",
+      "explanation_ur": "عظیم زمبابوے 11ویں-15ویں صدیوں کے درمیان شونا لوگوں نے بنایا تھا۔",
+      "hint": "Think of southern Africa",
+      "hint_ur": "جنوبی افریقہ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "The ancient Hittites were known for their work with which metal?",
+      "question_ur": "قدیم ہیتی کس دھات کے ساتھ اپنے کام کے لیے جانے جاتے تھے؟",
+      "options": {
+        "en": ["Gold", "Bronze", "Iron", "Silver"],
+        "ur": ["سونے", "کانسی", "لوہے", "چاندی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Hittites were early innovators in iron smelting technology.",
+      "explanation_ur": "ہیتی لوہے کے پگھلنے کی ٹیکنالوجی میں ابتدائی جدت پسند تھے۔",
+      "hint": "Think of Anatolia",
+      "hint_ur": "اناطولیہ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 49,
+      "type": "true-false",
+      "question": "The ancient city of Jericho is considered one of the oldest continuously inhabited cities.",
+      "question_ur": "قدیم شہر یریحو کو مسلسل آباد قدیم ترین شہروں میں سے ایک سمجھا جاتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Jericho has evidence of settlement dating back to 9000 BCE.",
+      "explanation_ur": "یریحو میں 9000 قبل مسیح کی آبادکاری کے ثبوت موجود ہیں۔",
+      "hint": "Think of the Fertile Crescent",
+      "hint_ur": "زرخیز ہلال کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "Which ancient civilization created the first known calendar?",
+      "question_ur": "کس قدیم تہذیب نے پہلا معلوم کیلنڈر بنایا؟",
+      "options": {
+        "en": ["Sumerians", "Ancient Egyptians", "Mayans", "Babylonians"],
+        "ur": ["سومیری", "قدیم مصری", "مایا", "بابلی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The ancient Egyptians created a 365-day solar calendar around 3000 BCE.",
+      "explanation_ur": "قدیم مصریوں نے تقریباً 3000 قبل مسیح میں 365 دنوں کا شمسی کیلنڈر بنایا۔",
+      "hint": "Think of the Nile floods",
+      "hint_ur": "نیل کی سیلاب کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "The ancient city of Mohenjo-Daro was part of which civilization?",
+      "question_ur": "قدیم شہر موہنجو دارو کس تہذیب کا حصہ تھا؟",
+      "options": {
+        "en": ["Mesopotamian", "Indus Valley", "Ancient Chinese", "Aryan"],
+        "ur": ["میسوپوٹیمیا", "وادی سندھ", "قدیم چینی", "آریائی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Mohenjo-Daro was one of the largest cities of the Indus Valley Civilization.",
+      "explanation_ur": "موہنجو دارو وادی سندھ کی تہذیب کے سب سے بڑے شہروں میں سے ایک تھا۔",
+      "hint": "Think of modern Pakistan",
+      "hint_ur": "جدید پاکستان کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 52,
+      "type": "true-false",
+      "question": "The ancient Mycenaeans spoke an early form of Latin.",
+      "question_ur": "قدیم مائسینیائی لاطینی کی ابتدائی شکل بولتے تھے۔",
+      "correctAnswer": false,
+      "explanation": "The Mycenaeans spoke an early form of Greek (Linear B script).",
+      "explanation_ur": "مائسینیائی یونانی کی ابتدائی شکل بولتے تھے (لکیری بی اسکرپٹ)۔",
+      "hint": "Think of Homer's epics",
+      "hint_ur": "ہومر کے مہاکاویوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "Which ancient civilization built the city of Palmyra?",
+      "question_ur": "شہر پالمیرا کس قدیم تہذیب نے بنایا؟",
+      "options": {
+        "en": ["Romans", "Greeks", "Arabs", "Arameans"],
+        "ur": ["رومی", "یونانی", "عرب", "آرامی"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Palmyra began as a caravan city built by the Arameans before Roman influence.",
+      "explanation_ur": "پالمیرا ایک قافلہ شہر کے طور پر شروع ہوا جسے رومی اثر سے پہلے آرامیوں نے بنایا تھا۔",
+      "hint": "Think of the Syrian desert",
+      "hint_ur": "شامی صحرا کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "The ancient Epic of Gilgamesh originated in which civilization?",
+      "question_ur": "قدیم مہاکاوی گلگامش کس تہذیب میں شروع ہوا؟",
+      "options": {
+        "en": ["Ancient Egyptian", "Sumerian", "Babylonian", "Hittite"],
+        "ur": ["قدیم مصری", "سومیری", "بابلی", "ہیتی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The Epic of Gilgamesh was first written in Sumerian cuneiform.",
+      "explanation_ur": "مہاکاوی گلگامش پہلی بار سومیری کیونیفارم میں لکھا گیا تھا۔",
+      "hint": "Think of Uruk",
+      "hint_ur": "ارک کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 55,
+      "type": "true-false",
+      "question": "The ancient Chavin civilization was located in the Andes mountains.",
+      "question_ur": "قدیم چاوین تہذیب اینڈیز پہاڑوں میں واقع تھی۔",
+      "correctAnswer": true,
+      "explanation": "The Chavín culture developed in the northern Andean highlands of Peru.",
+      "explanation_ur": "چاوین ثقافت پیرو کے شمالی اینڈین پہاڑی علاقوں میں تیار ہوئی۔",
+      "hint": "Think of early Andean art",
+      "hint_ur": "ابتدائی اینڈین آرٹ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "Which ancient civilization first used paper money?",
+      "question_ur": "کس قدیم تہذیب نے کاغذی رقم کا پہلی بار استعمال کیا؟",
+      "options": {
+        "en": ["Ancient Romans", "Song Dynasty China", "Tang Dynasty China", "Gupta India"],
+        "ur": ["قدیم رومی", "سونگ خاندان چین", "تانگ خاندان چین", "گپتا ہندوستان"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Tang Dynasty introduced paper money in the 7th century CE.",
+      "explanation_ur": "تانگ خاندان نے 7ویں صدی عیسوی میں کاغذی رقم متعارف کرائی۔",
+      "hint": "Think of flying cash",
+      "hint_ur": "اڑتی ہوئی نقدی کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "The ancient city of Nineveh was the capital of which empire?",
+      "question_ur": "قدیم شہر نینوا کس سلطنت کا دارالحکومت تھا؟",
+      "options": {
+        "en": ["Babylonian", "Assyrian", "Persian", "Hittite"],
+        "ur": ["بابلی", "اشوری", "فارسی", "ہیتی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Nineveh was the capital of the Neo-Assyrian Empire.",
+      "explanation_ur": "نینوا نیو-اشوری سلطنت کا دارالحکومت تھا۔",
+      "hint": "Think of the Library of Ashurbanipal",
+      "hint_ur": "اشوربنیپال کی لائبریری کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 58,
+      "type": "true-false",
+      "question": "The ancient city of Tikal was a Mayan city-state.",
+      "question_ur": "قدیم شہر ٹیکل ایک مایا شہری ریاست تھا۔",
+      "correctAnswer": true,
+      "explanation": "Tikal was one of the most powerful Mayan city-states during the Classic period.",
+      "explanation_ur": "ٹیکل کلاسک دور کے دوران سب سے طاقتور مایا شہری ریاستوں میں سے ایک تھا۔",
+      "hint": "Think of Guatemala",
+      "hint_ur": "گوئٹے مالا کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "Which ancient civilization first developed the compass?",
+      "question_ur": "کس قدیم تہذیب نے کمپاس پہلی بار تیار کیا؟",
+      "options": {
+        "en": ["Ancient Greeks", "Ancient Chinese", "Vikings", "Phoenicians"],
+        "ur": ["قدیم یونانی", "قدیم چینی", "وائکنگ", "فونیقی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The first magnetic compasses were developed in Han Dynasty China (206 BCE-220 CE).",
+      "explanation_ur": "پہلے مقناطیسی کمپاس ہان خاندان چین (206 قبل مسیح-220 عیسوی) میں تیار ہوئے۔",
+      "hint": "Think of lodestone",
+      "hint_ur": "لوڈ اسٹون کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 60,
+      "type": "true-false",
+      "question": "The ancient Anasazi civilization built cliff dwellings in North America.",
+      "question_ur": "قدیم اناسازی تہذیب نے شمالی امریکہ میں چٹان کے مکانات بنائے۔",
+      "correctAnswer": true,
+      "explanation": "The Ancestral Puebloans (Anasazi) built impressive cliff dwellings in the Southwest.",
+      "explanation_ur": "انسٹریول پیوبلوانز (اناسازی) نے جنوب مغرب میں متاثر کن چٹان کے مکانات بنائے۔",
+      "hint": "Think of Mesa Verde",
+      "hint_ur": "میسا ویرڈے کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "The ancient city of Ur was an important center of which civilization?",
+      "question_ur": "قدیم شہر ار کس تہذیب کا ایک اہم مرکز تھا؟",
+      "options": {
+        "en": ["Egyptian", "Sumerian", "Indus Valley", "Hittite"],
+        "ur": ["مصری", "سومیری", "وادی سندھ", "ہیتی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ur was an important Sumerian city-state in ancient Mesopotamia.",
+      "explanation_ur": "ار قدیم میسوپوٹیمیا میں ایک اہم سومیری شہری ریاست تھا۔",
+      "hint": "Think of the Ziggurat of Ur",
+      "hint_ur": "ار کے زیگورات کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 62,
+      "type": "mcq",
+      "question": "Which ancient civilization first developed the concept of democracy?",
+      "question_ur": "کس قدیم تہذیب نے جمہوریت کا تصور پہلی بار تیار کیا؟",
+      "options": {
+        "en": ["Ancient Romans", "Ancient Egyptians", "Ancient Athenians", "Persians"],
+        "ur": ["قدیم رومی", "قدیم مصری", "قدیم ایتھنیائی", "فارسی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Athenian democracy developed in ancient Greece in the 5th century BCE.",
+      "explanation_ur": "ایتھنیائی جمہوریت قدیم یونان میں پانچویں صدی قبل مسیح میں تیار ہوئی۔",
+      "hint": "Think of Cleisthenes",
+      "hint_ur": "کلیس تھینیس کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 63,
+      "type": "true-false",
+      "question": "The ancient city of Knossos was the center of Minoan civilization.",
+      "question_ur": "قدیم شہر نوسوس مینوئن تہذیب کا مرکز تھا۔",
+      "correctAnswer": true,
+      "explanation": "Knossos on Crete was the political and ceremonial center of Minoan culture.",
+      "explanation_ur": "کریٹ پر نوسوس مینوئن ثقافت کا سیاسی اور رسمی مرکز تھا۔",
+      "hint": "Think of the Minotaur's labyrinth",
+      "hint_ur": "مینوٹور کی بھول بھلیاں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "question": "Which ancient civilization built the Nazca Lines?",
+      "question_ur": "نازکا لائنز کس قدیم تہذیب نے بنائیں؟",
+      "options": {
+        "en": ["Inca", "Moche", "Nazca", "Wari"],
+        "ur": ["انکا", "موچے", "نازکا", "واری"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The Nazca culture created the geoglyphs between 500 BCE and 500 CE.",
+      "explanation_ur": "نازکا ثقافت نے 500 قبل مسیح سے 500 عیسوی کے درمیان جیوگلفس بنائے۔",
+      "hint": "Think of southern Peru",
+      "hint_ur": "جنوبی پیرو کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "question": "The ancient city of Susa was an important center of which empire?",
+      "question_ur": "قدیم شہر سوسا کس سلطنت کا ایک اہم مرکز تھا؟",
+      "options": {
+        "en": ["Assyrian", "Babylonian", "Persian", "Hittite"],
+        "ur": ["اشوری", "بابلی", "فارسی", "ہیتی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Susa was one of the capitals of the Achaemenid Persian Empire.",
+      "explanation_ur": "سوسا ہخامنشی فارسی سلطنت کے دارالحکومتوں میں سے ایک تھا۔",
+      "hint": "Think of the Royal Road",
+      "hint_ur": "شاہی سڑک کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 66,
+      "type": "true-false",
+      "question": "The ancient Harappans had a standardized system of weights and measures.",
+      "question_ur": "قدیم ہڑپہ والوں کے پاس وزن اور پیمائش کا معیاری نظام تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Indus Valley Civilization used precise standardized weights for trade.",
+      "explanation_ur": "وادی سندھ کی تہذیب تجارت کے لیے درست معیاری وزن استعمال کرتی تھی۔",
+      "hint": "Think of cubical weights",
+      "hint_ur": "کیوبیکل وزن کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "Which ancient civilization first domesticated maize (corn)?",
+      "question_ur": "کس قدیم تہذیب نے مکئی (کارن) کو پہلی بار پالا؟",
+      "options": {
+        "en": ["Aztecs", "Mayans", "Olmecs", "Ancient Mexicans (likely multiple groups)"],
+        "ur": ["ایزٹیک", "مایا", "اولمیک", "قدیم میکسیکن (ممکنہ طور پر متعدد گروہ)"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Maize was domesticated in Mexico around 9000 years ago by ancient peoples.",
+      "explanation_ur": "مکئی کو تقریباً 9000 سال پہلے میکسیکو میں قدیم لوگوں نے پالا تھا۔",
+      "hint": "Think of teosinte",
+      "hint_ur": "ٹیوسنٹے کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 68,
+      "type": "mcq",
+      "question": "The ancient city of Babylon reached its peak under which ruler?",
+      "question_ur": "قدیم شہر بابل کس حکمران کے تحت اپنے عروج پر پہنچا؟",
+      "options": {
+        "en": ["Hammurabi", "Nebuchadnezzar II", "Sargon", "Ashurbanipal"],
+        "ur": ["ہمورابی", "نبوکد نضر دوم", "سرگون", "اشوربنیپال"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Nebuchadnezzar II (605-562 BCE) built Babylon's famous Ishtar Gate and Hanging Gardens.",
+      "explanation_ur": "نبوکد نضر دوم (605-562 قبل مسیح) نے بابل کے مشہور ایشتار گیٹ اور معلق باغات بنائے۔",
+      "hint": "Think of the Neo-Babylonian Empire",
+      "hint_ur": "نیو-بابلی سلطنت کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 69,
+      "type": "true-false",
+      "question": "The ancient Phoenicians circumnavigated Africa.",
+      "question_ur": "قدیم فونیقیوں نے افریقہ کا چکر لگایا۔",
+      "correctAnswer": true,
+      "explanation": "According to Herodotus, Phoenician sailors circumnavigated Africa around 600 BCE.",
+      "explanation_ur": "ہیروڈوٹس کے مطابق، فونیقی ملاحوں نے تقریباً 600 قبل مسیح میں افریقہ کا چکر لگایا۔",
+      "hint": "Think of Egyptian pharaoh Necho II",
+      "hint_ur": "مصری فرعون نیکو دوم کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 70,
+      "type": "mcq",
+      "question": "Which ancient civilization built the city of Caral?",
+      "question_ur": "شہر کارال کس قدیم تہذیب نے بنایا؟",
+      "options": {
+        "en": ["Norte Chico", "Moche", "Chavin", "Inca"],
+        "ur": ["نورٹے چیکو", "موچے", "چاوین", "انکا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Caral is the oldest known city in the Americas, built by the Norte Chico civilization.",
+      "explanation_ur": "کارال امریکہ کا سب سے قدیم معلوم شہر ہے، جسے نورٹے چیکو تہذیب نے بنایا تھا۔",
+      "hint": "Think of Peru's Supe Valley",
+      "hint_ur": "پیرو کی سوپے وادی کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "question": "The ancient city of Uruk was important to which civilization?",
+      "question_ur": "قدیم شہر ارک کس تہذیب کے لیے اہم تھا؟",
+      "options": {
+        "en": ["Egyptian", "Sumerian", "Assyrian", "Hittite"],
+        "ur": ["مصری", "سومیری", "اشوری", "ہیتی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Uruk was one of the most important cities of ancient Sumer.",
+      "explanation_ur": "ارک قدیم سومیر کے سب سے اہم شہروں میں سے ایک تھا۔",
+      "hint": "Think of Gilgamesh",
+      "hint_ur": "گلگامش کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 72,
+      "type": "true-false",
+      "question": "The ancient city of Constantinople was originally called Byzantium.",
+      "question_ur": "قدیم شہر قسطنطنیہ کو اصل میں بازنطیم کہا جاتا تھا۔",
+      "correctAnswer": true,
+      "explanation": "The city was renamed Constantinople when refounded by Constantine in 330 CE.",
+      "explanation_ur": "شہر کا نام قسطنطنیہ رکھا گیا جب 330 عیسوی میں قسطنطین نے اسے دوبارہ بنایا۔",
+      "hint": "Think of the Bosporus",
+      "hint_ur": "باسفورس کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "Which ancient civilization built the city of Chan Chan?",
+      "question_ur": "شہر چان چان کس قدیم تہذیب نے بنایا؟",
+      "options": {
+        "en": ["Inca", "Chimu", "Moche", "Nazca"],
+        "ur": ["انکا", "چیمو", "موچے", "نازکا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Chan Chan was the capital of the Chimú civilization before the Inca conquest.",
+      "explanation_ur": "چان چان انکا کی فتح سے پہلے چیمو تہذیب کا دارالحکومت تھا۔",
+      "hint": "Think of adobe architecture",
+      "hint_ur": "ایڈوب فن تعمیر کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 74,
+      "type": "mcq",
+      "question": "The ancient Silk Road connected China with which Roman city?",
+      "question_ur": "قدیم شاہراہ ریشم چین کو کس رومی شہر سے جوڑتی تھی؟",
+      "options": {
+        "en": ["Rome", "Constantinople", "Antioch", "Alexandria"],
+        "ur": ["روم", "قسطنطنیہ", "انطاکیہ", "اسکندریہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Antioch in Syria was the western terminus of the Silk Road in Roman times.",
+      "explanation_ur": "شام کا انطاکیہ رومی زمانے میں شاہراہ ریشم کا مغربی اختتام تھا۔",
+      "hint": "Think of the Mediterranean trade",
+      "hint_ur": "بحیرہ روم کی تجارت کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 75,
+      "type": "true-false",
+      "question": "The ancient city of Teotihuacan had a population of over 100,000 at its peak.",
+      "question_ur": "قدیم شہر ٹیوٹیہواکان کی آبادی اپنے عروج پر 100,000 سے زیادہ تھی۔",
+      "correctAnswer": true,
+      "explanation": "Teotihuacan was one of the largest cities in the ancient world at its height.",
+      "explanation_ur": "ٹیوٹیہواکان قدیم دنیا کے سب سے بڑے شہروں میں سے ایک تھا۔",
+      "hint": "Think of the Avenue of the Dead",
+      "hint_ur": "ایونیو آف دی ڈیڈ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "question": "Which ancient civilization built the city of Hattusa?",
+      "question_ur": "شہر ہتوسا کس قدیم تہذیب نے بنایا؟",
+      "options": {
+        "en": ["Assyrians", "Hittites", "Persians", "Phoenicians"],
+        "ur": ["اشوری", "ہیتی", "فارسی", "فونیقی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Hattusa was the capital of the Hittite Empire in Anatolia.",
+      "explanation_ur": "ہتوسا اناطولیہ میں ہیتی سلطنت کا دارالحکومت تھا۔",
+      "hint": "Think of lion gates",
+      "hint_ur": "شیر کے دروازوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "question": "The ancient city of Memphis was the capital of which civilization?",
+      "question_ur": "قدیم شہر میمفس کس تہذیب کا دارالحکومت تھا؟",
+      "options": {
+        "en": ["Mesopotamian", "Ancient Egyptian", "Nubian", "Carthaginian"],
+        "ur": ["میسوپوٹیمیا", "قدیم مصری", "نوبیائی", "کارتھجینی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Memphis served as the capital of Ancient Egypt during the Old Kingdom.",
+      "explanation_ur": "میمفس قدیم مصر کا پرانا بادشاہت کے دوران دارالحکومت تھا۔",
+      "hint": "Think of the god Ptah",
+      "hint_ur": "دیوتا پتاح کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 78,
+      "type": "true-false",
+      "question": "The ancient Shang Dynasty of China left written records on oracle bones.",
+      "question_ur": "چین کے قدیم شنگ خاندان نے اوریکل ہڈیوں پر تحریری ریکارڈ چھوڑے۔",
+      "correctAnswer": true,
+      "explanation": "Shang Dynasty diviners wrote questions on ox bones and turtle shells.",
+      "explanation_ur": "شنگ خاندان کے پیش گوؤں نے بیل کی ہڈیوں اور کچھوے کے خولوں پر سوالات لکھے۔",
+      "hint": "Think of early Chinese writing",
+      "hint_ur": "ابتدائی چینی تحریر کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "Which ancient civilization built the city of Taxila?",
+      "question_ur": "شہر ٹیکسلا کس قدیم تہذیب نے بنایا؟",
+      "options": {
+        "en": ["Mauryan", "Gupta", "Gandhara", "Indus Valley"],
+        "ur": ["موریہ", "گپتا", "گندھارا", "وادی سندھ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Taxila was an important city of the ancient Gandhara civilization.",
+      "explanation_ur": "ٹیکسلا قدیم گندھارا تہذیب کا ایک اہم شہر تھا۔",
+      "hint": "Think of the Silk Road junction",
+      "hint_ur": "شاہراہ ریشم کے جنکشن کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 80,
+      "type": "true-false",
+      "question": "The ancient city of Mohenjo-Daro had a sophisticated drainage system.",
+      "question_ur": "قدیم شہر موہنجو دارو کا ایک جدید نکاسی آب کا نظام تھا۔",
+      "correctAnswer": true,
+      "explanation": "Mohenjo-Daro had covered drains and a municipal water supply system.",
+      "explanation_ur": "موہنجو دارو میں ڈھکے ہوئے نالے اور میونسپل پانی کی فراہمی کا نظام تھا۔",
+      "hint": "Think of urban planning",
+      "hint_ur": "شہری منصوبہ بندی کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "question": "The ancient city of Palenque was a major center of which civilization?",
+      "question_ur": "قدیم شہر پالنکے کس تہذیب کا ایک بڑا مرکز تھا؟",
+      "options": {
+        "en": ["Aztec", "Olmec", "Maya", "Toltec"],
+        "ur": ["ایزٹیک", "اولمیک", "مایا", "ٹولٹیک"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Palenque was an important Maya city-state in what is now Chiapas, Mexico.",
+      "explanation_ur": "پالنکے ایک اہم مایا شہری ریاست تھی جو موجودہ چیاپاس، میکسیکو میں ہے۔",
+      "hint": "Think of King Pakal",
+      "hint_ur": "کنگ پاکال کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "question": "Which ancient civilization built the city of Ctesiphon?",
+      "question_ur": "شہر کٹیسیفون کس قدیم تہذیب نے بنایا؟",
+      "options": {
+        "en": ["Byzantine", "Parthian", "Roman", "Seleucid"],
+        "ur": ["بازنطینی", "پارتھی", "رومی", "سیلیوسیڈ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ctesiphon was the capital of the Parthian and later Sassanian Empires.",
+      "explanation_ur": "کٹیسیفون پارتی اور بعد میں ساسانی سلطنتوں کا دارالحکومت تھا۔",
+      "hint": "Think of the Arch of Ctesiphon",
+      "hint_ur": "کٹیسیفون کے آرچ کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 83,
+      "type": "true-false",
+      "question": "The ancient city of Leptis Magna was an important Roman city in North Africa.",
+      "question_ur": "قدیم شہر لیپٹس میگنا شمالی افریقہ میں ایک اہم رومی شہر تھا۔",
+      "correctAnswer": true,
+      "explanation": "Leptis Magna in modern Libya was a prominent city of Roman Africa.",
+      "explanation_ur": "جدید لیبیا میں لیپٹس میگنا رومی افریقہ کا ایک ممتاز شہر تھا۔",
+      "hint": "Think of Emperor Septimius Severus",
+      "hint_ur": "شہنشاہ سیپٹیمیس سیویرس کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 84,
+      "type": "mcq",
+      "question": "The ancient city of Eridu was considered sacred by which civilization?",
+      "question_ur": "قدیم شہر ایریڈو کو کس تہذیب نے مقدس سمجھا؟",
+      "options": {
+        "en": ["Egyptian", "Sumerian", "Assyrian", "Babylonian"],
+        "ur": ["مصری", "سومیری", "اشوری", "بابلی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Eridu was the first city in Sumerian mythology, home of the god Enki.",
+      "explanation_ur": "ایریڈو سومیری داستانوں میں پہلا شہر تھا، دیوتا اینکی کا گھر۔",
+      "hint": "Think of the Abzu",
+      "hint_ur": "ابزو کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "Which ancient civilization built the city of Great Zimbabwe?",
+      "question_ur": "عظیم زمبابوے شہر کس قدیم تہذیب نے بنایا؟",
+      "options": {
+        "en": ["Zulu", "Shona", "Bantu", "Swahili"],
+        "ur": ["زولو", "شونا", "بانتو", "سواحلی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Great Zimbabwe was built by the Shona people between the 11th-15th centuries.",
+      "explanation_ur": "عظیم زمبابوے شونا لوگوں نے 11ویں-15ویں صدیوں کے درمیان بنایا تھا۔",
+      "hint": "Think of stone ruins",
+      "hint_ur": "پتھر کے کھنڈرات کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 86,
+      "type": "true-false",
+      "question": "The ancient city of Jericho had walls before the development of agriculture.",
+      "question_ur": "قدیم شہر یریحو کی دیواریں زراعت کی ترقی سے پہلے تھیں۔",
+      "correctAnswer": true,
+      "explanation": "Jericho's earliest walls date to around 8000 BCE, before full agriculture developed.",
+      "explanation_ur": "یریحو کی ابتدائی دیواریں تقریباً 8000 قبل مسیح کی ہیں، مکمل زراعت کی ترقی سے پہلے۔",
+      "hint": "Think of Neolithic settlements",
+      "hint_ur": "نیولیتھک بستیوں کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "question": "The ancient city of Meroë was the capital of which kingdom?",
+      "question_ur": "قدیم شہر میروی کس بادشاہت کا دارالحکومت تھا؟",
+      "options": {
+        "en": ["Aksum", "Kush", "Nubia", "Punt"],
+        "ur": ["اکسم", "کش", "نوبیا", "پنٹ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Meroë was the capital of the Kingdom of Kush (now Sudan) from about 590 BCE.",
+      "explanation_ur": "میروی تقریباً 590 قبل مسیح سے کش کی بادشاہت (اب سوڈان) کا دارالحکومت تھا۔",
+      "hint": "Think of pyramids in Sudan",
+      "hint_ur": "سوڈان میں اہرام کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "question": "Which ancient civilization built the city of Chichen Itza?",
+      "question_ur": "شہر چچن اٹزا کس قدیم تہذیب نے بنایا؟",
+      "options": {
+        "en": ["Aztec", "Maya", "Toltec", "Olmec"],
+        "ur": ["ایزٹیک", "مایا", "ٹولٹیک", "اولمیک"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Chichen Itza was a major Maya city with later Toltec influences.",
+      "explanation_ur": "چچن اٹزا ایک اہم مایا شہر تھا جس پر بعد میں ٹولٹیک کے اثرات تھے۔",
+      "hint": "Think of the Kukulkan pyramid",
+      "hint_ur": "کوکولکان پیرامڈ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 89,
+      "type": "true-false",
+      "question": "The ancient city of Ur was the birthplace of Abraham according to tradition.",
+      "question_ur": "روایت کے مطابق قدیم شہر ار حضرت ابراہیم کی جائے پیدائش تھا۔",
+      "correctAnswer": true,
+      "explanation": "Biblical tradition identifies Ur as Abraham's birthplace before he went to Canaan.",
+      "explanation_ur": "بائبلی روایت ار کو ابراہیم کی جائے پیدائش کے طور پر شناخت کرتی ہے اس سے پہلے کہ وہ کنعان گیا۔",
+      "hint": "Think of Mesopotamian origins",
+      "hint_ur": "میسوپوٹیمیا کی ابتدا کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 90,
+      "type": "mcq",
+      "question": "The ancient city of Sardis was the capital of which kingdom?",
+      "question_ur": "قدیم شہر سارڈیس کس بادشاہت کا دارالحکومت تھا؟",
+      "options": {
+        "en": ["Lydia", "Phrygia", "Troy", "Ionia"],
+        "ur": ["لڈیا", "فریجیا", "ٹرائی", "آئونیا"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Sardis was the capital of the ancient Lydian kingdom in western Anatolia.",
+      "explanation_ur": "سارڈیس مغربی اناطولیہ میں قدیم لڈیان بادشاہت کا دارالحکومت تھا۔",
+      "hint": "Think of King Croesus",
+      "hint_ur": "کنگ کریسس کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "Which ancient civilization built the city of Copán?",
+      "question_ur": "شہر کوپان کس قدیم تہذیب نے بنایا؟",
+      "options": {
+        "en": ["Aztec", "Maya", "Inca", "Olmec"],
+        "ur": ["ایزٹیک", "مایا", "انکا", "اولمیک"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Copán was an important Maya city-state in modern Honduras.",
+      "explanation_ur": "کوپان جدید ہونڈوراس میں ایک اہم مایا شہری ریاست تھا۔",
+      "hint": "Think of hieroglyphic stairway",
+      "hint_ur": "ہائیروگلیفک زینے کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 92,
+      "type": "true-false",
+      "question": "The ancient city of Carthage was destroyed and then rebuilt by the Romans.",
+      "question_ur": "قدیم شہر کارتھج کو رومیوں نے تباہ کر دیا اور پھر دوبارہ تعمیر کیا۔",
+      "correctAnswer": true,
+      "explanation": "After destroying Carthage in 146 BCE, Romans rebuilt it as a colony under Augustus.",
+      "explanation_ur": "146 قبل مسیح میں کارتھج کو تباہ کرنے کے بعد، رومیوں نے اسے آگسٹس کے تحت ایک کالونی کے طور پر دوبارہ تعمیر کیا۔",
+      "hint": "Think of salt on fields",
+      "hint_ur": "کھیتوں پر نمک کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "The ancient city of Pataliputra was the capital of which empire?",
+      "question_ur": "قدیم شہر پاٹلی پترا کس سلطنت کا دارالحکومت تھا؟",
+      "options": {
+        "en": ["Gupta", "Maurya", "Chola", "Kushan"],
+        "ur": ["گپتا", "موریہ", "چولا", "کشن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Pataliputra (modern Patna) was the Mauryan capital under Ashoka.",
+      "explanation_ur": "پاٹلی پترا (جدید پٹنہ) اشوک کے تحت موریہ کا دارالحکومت تھا۔",
+      "hint": "Think of the Ganges River",
+      "hint_ur": "دریائے گنگا کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "question": "Which ancient civilization built the city of Tikal?",
+      "question_ur": "شہر ٹیکل کس قدیم تہذیب نے بنایا؟",
+      "options": {
+        "en": ["Aztec", "Maya", "Inca", "Olmec"],
+        "ur": ["ایزٹیک", "مایا", "انکا", "اولمیک"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Tikal was one of the most powerful Maya city-states during the Classic period.",
+      "explanation_ur": "ٹیکل کلاسک دور کے دوران سب سے طاقتور مایا شہری ریاستوں میں سے ایک تھا۔",
+      "hint": "Think of Guatemala's rainforest",
+      "hint_ur": "گوئٹے مالا کے بارانی جنگل کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 95,
+      "type": "true-false",
+      "question": "The ancient city of Babylon was located on the banks of the Tigris River.",
+      "question_ur": "قدیم شہر بابل دریائے دجلہ کے کنارے واقع تھا۔",
+      "correctAnswer": false,
+      "explanation": "Babylon was located on the Euphrates River, about 50 miles south of Baghdad.",
+      "explanation_ur": "بابل دریائے فرات پر واقع تھا، بغداد سے تقریباً 50 میل جنوب میں۔",
+      "hint": "Think of Mesopotamia's two rivers",
+      "hint_ur": "میسوپوٹیمیا کے دو دریاؤں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 96,
+      "type": "mcq",
+      "question": "The ancient city of Anuradhapura was the capital of which civilization?",
+      "question_ur": "قدیم شہر انورادھاپورا کس تہذیب کا دارالحکومت تھا؟",
+      "options": {
+        "en": ["Khmer", "Chola", "Sinhalese", "Pallava"],
+        "ur": ["خمیر", "چولا", "سنہالی", "پلاوا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Anuradhapura was the capital of ancient Sri Lanka for over a millennium.",
+      "explanation_ur": "انورادھاپورا ایک ہزار سال سے زیادہ عرصے تک قدیم سری لنکا کا دارالحکومت تھا۔",
+      "hint": "Think of Sri Lanka",
+      "hint_ur": "سری لنکا کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "question": "Which ancient civilization built the city of Calakmul?",
+      "question_ur": "شہر کالاکمل کس قدیم تہذیب نے بنایا؟",
+      "options": {
+        "en": ["Aztec", "Maya", "Toltec", "Olmec"],
+        "ur": ["ایزٹیک", "مایا", "ٹولٹیک", "اولمیک"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Calakmul was a powerful Maya city that rivaled Tikal.",
+      "explanation_ur": "کالاکمل ایک طاقتور مایا شہر تھا جو ٹیکل کا حریف تھا۔",
+      "hint": "Think of the Snake Kingdom",
+      "hint_ur": "سانپ کی بادشاہت کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 98,
+      "type": "true-false",
+      "question": "The ancient city of Ugarit had the first known alphabet.",
+      "question_ur": "قدیم شہر اوگاریت میں پہلا معلوم حروف تہجی تھا۔",
+      "correctAnswer": true,
+      "explanation": "Ugaritic cuneiform alphabet from around 1400 BCE is the first known alphabet.",
+      "explanation_ur": "تقریباً 1400 قبل مسیح کا اوگاریٹک کیونیفارم حروف تہجی پہلا معلوم حروف تہجی ہے۔",
+      "hint": "Think of Syria's coast",
+      "hint_ur": "شام کے ساحل کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 99,
+      "type": "mcq",
+      "question": "The ancient city of Nimrud was the capital of which empire?",
+      "question_ur": "قدیم شہر نمرود کس سلطنت کا دارالحکومت تھا؟",
+      "options": {
+        "en": ["Babylonian", "Assyrian", "Hittite", "Persian"],
+        "ur": ["بابلی", "اشوری", "ہیتی", "فارسی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Nimrud (Kalhu) was an important Assyrian capital under Ashurnasirpal II.",
+      "explanation_ur": "نمرود (کلحو) اشورناسیرپال دوم کے تحت ایک اہم اشوری دارالحکومت تھا۔",
+      "hint": "Think of colossal lamassu statues",
+      "hint_ur": "بڑے پیمانے پر لاماسو مجسمے کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 100,
+      "type": "mcq",
+      "question": "Which ancient civilization built the city of Cahokia?",
+      "question_ur": "شہر کاہوکیا کس قدیم تہذیب نے بنایا؟",
+      "options": {
+        "en": ["Aztec", "Mississippian", "Anasazi", "Iroquois"],
+        "ur": ["ایزٹیک", "مسسیپی", "اناسازی", "ایراکوئس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Cahokia was the largest urban center of the Mississippian culture.",
+      "explanation_ur": "کاہوکیا مسسیپی ثقافت کا سب سے بڑا شہری مرکز تھا۔",
+      "hint": "Think of Monk's Mound",
+      "hint_ur": "مونک کے ٹیلے کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 101,
+      "type": "true-false",
+      "question": "The ancient city of Harappa gave its name to the entire Indus Valley Civilization.",
+      "question_ur": "قدیم شہر ہڑپہ نے اپنا نام پوری وادی سندھ کی تہذیب کو دیا۔",
+      "correctAnswer": true,
+      "explanation": "The Indus Valley Civilization is also called the Harappan Civilization.",
+      "explanation_ur": "وادی سندھ کی تہذیب کو ہڑپہ تہذیب بھی کہا جاتا ہے۔",
+      "hint": "Think of the first discovery site",
+      "hint_ur": "پہلی دریافت کی جگہ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 102,
+      "type": "mcq",
+      "question": "The ancient city of Susa was an important center of which empire?",
+      "question_ur": "قدیم شہر سوسا کس سلطنت کا ایک اہم مرکز تھا؟",
+      "options": {
+        "en": ["Assyrian", "Babylonian", "Persian", "Hittite"],
+        "ur": ["اشوری", "بابلی", "فارسی", "ہیتی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Susa was one of the capitals of the Achaemenid Persian Empire.",
+      "explanation_ur": "سوسا ہخامنشی فارسی سلطنت کے دارالحکومتوں میں سے ایک تھا۔",
+      "hint": "Think of Darius I",
+      "hint_ur": "ڈاریئس اول کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "question": "Which ancient civilization built the city of Copán?",
+      "question_ur": "شہر کوپان کس قدیم تہذیب نے بنایا؟",
+      "options": {
+        "en": ["Aztec", "Maya", "Inca", "Olmec"],
+        "ur": ["ایزٹیک", "مایا", "انکا", "اولمیک"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Copán was an important Maya city known for its sculptures and hieroglyphs.",
+      "explanation_ur": "کوپان ایک اہم مایا شہر تھا جو اپنے مجسموں اور ہائیروگلیفس کے لیے جانا جاتا تھا۔",
+      "hint": "Think of Honduras",
+      "hint_ur": "ہونڈوراس کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 104,
+      "type": "true-false",
+      "question": "The ancient city of Mohenjo-Daro had a Great Bath.",
+      "question_ur": "قدیم شہر موہنجو دارو میں ایک عظیم غسل خانہ تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Great Bath is one of Mohenjo-Daro's most famous structures.",
+      "explanation_ur": "عظیم غسل خانہ موہنجو دارو کے سب سے مشہور ڈھانچوں میں سے ایک ہے۔",
+      "hint": "Think of public waterworks",
+      "hint_ur": "عوامی واٹر ورکس کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 105,
+      "type": "mcq",
+      "question": "The ancient city of Hattusa was the capital of which civilization?",
+      "question_ur": "قدیم شہر ہتوسا کس تہذیب کا دارالحکومت تھا؟",
+      "options": {
+        "en": ["Assyrian", "Hittite", "Persian", "Phoenician"],
+        "ur": ["اشوری", "ہیتی", "فارسی", "فونیقی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Hattusa was the capital of the Hittite Empire in Anatolia.",
+      "explanation_ur": "ہتوسا اناطولیہ میں ہیتی سلطنت کا دارالحکومت تھا۔",
+      "hint": "Think of lion gates",
+      "hint_ur": "شیر کے دروازوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 106,
+      "type": "mcq",
+      "question": "Which ancient civilization built the city of Palenque?",
+      "question_ur": "شہر پالنکے کس قدیم تہذیب نے بنایا؟",
+      "options": {
+        "en": ["Aztec", "Maya", "Inca", "Olmec"],
+        "ur": ["ایزٹیک", "مایا", "انکا", "اولمیک"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Palenque was a Maya city-state known for its beautiful architecture.",
+      "explanation_ur": "پالنکے ایک مایا شہری ریاست تھی جو اپنے خوبصورت فن تعمیر کے لیے مشہور تھی۔",
+      "hint": "Think of the Temple of Inscriptions",
+      "hint_ur": "کتبات کے مندر کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 107,
+      "type": "true-false",
+      "question": "The ancient city of Petra was the capital of the Nabataean Kingdom.",
+      "question_ur": "قدیم شہر پیٹرا نبطی بادشاہت کا دارالحکومت تھا۔",
+      "correctAnswer": true,
+      "explanation": "Petra flourished as the Nabataean capital from around 400 BCE to 106 CE.",
+      "explanation_ur": "پیٹرا تقریباً 400 قبل مسیح سے 106 عیسوی تک نبطی دارالحکومت کے طور پر پھلا پھولا۔",
+      "hint": "Think of rock-cut architecture",
+      "hint_ur": "چٹان سے تراشے ہوئے فن تعمیر کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 108,
+      "type": "mcq",
+      "question": "The ancient city of Ur was an important center of which civilization?",
+      "question_ur": "قدیم شہر ار کس تہذیب کا ایک اہم مرکز تھا؟",
+      "options": {
+        "en": ["Egyptian", "Sumerian", "Indus Valley", "Hittite"],
+        "ur": ["مصری", "سومیری", "وادی سندھ", "ہیتی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ur was a major Sumerian city-state in ancient Mesopotamia.",
+      "explanation_ur": "ار قدیم میسوپوٹیمیا میں ایک اہم سومیری شہری ریاست تھا۔",
+      "hint": "Think of the Ziggurat of Ur",
+      "hint_ur": "ار کے زیگورات کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "question": "Which ancient civilization built the city of Tikal?",
+      "question_ur": "شہر ٹیکل کس قدیم تہذیب نے بنایا؟",
+      "options": {
+        "en": ["Aztec", "Maya", "Inca", "Olmec"],
+        "ur": ["ایزٹیک", "مایا", "انکا", "اولمیک"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Tikal was one of the most powerful Maya city-states during the Classic period.",
+      "explanation_ur": "ٹیکل کلاسک دور کے دوران سب سے طاقتور مایا شہری ریاستوں میں سے ایک تھا۔",
+      "hint": "Think of Guatemala's rainforest",
+      "hint_ur": "گوئٹے مالا کے بارانی جنگل کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 110,
+      "type": "true-false",
+      "question": "The ancient city of Babylon was located on the banks of the Tigris River.",
+      "question_ur": "قدیم شہر بابل دریائے دجلہ کے کنارے واقع تھا۔",
+      "correctAnswer": false,
+      "explanation": "Babylon was located on the Euphrates River, about 50 miles south of Baghdad.",
+      "explanation_ur": "بابل دریائے فرات پر واقع تھا، بغداد سے تقریباً 50 میل جنوب میں۔",
+      "hint": "Think of Mesopotamia's two rivers",
+      "hint_ur": "میسوپوٹیمیا کے دو دریاؤں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 111,
+      "type": "mcq",
+      "question": "The ancient city of Anuradhapura was the capital of which civilization?",
+      "question_ur": "قدیم شہر انورادھاپورا کس تہذیب کا دارالحکومت تھا؟",
+      "options": {
+        "en": ["Khmer", "Chola", "Sinhalese", "Pallava"],
+        "ur": ["خمیر", "چولا", "سنہالی", "پلاوا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Anuradhapura was the capital of ancient Sri Lanka for over a millennium.",
+      "explanation_ur": "انورادھاپورا ایک ہزار سال سے زیادہ عرصے تک قدیم سری لنکا کا دارالحکومت تھا۔",
+      "hint": "Think of Sri Lanka",
+      "hint_ur": "سری لنکا کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 112,
+      "type": "mcq",
+      "question": "Which ancient civilization built the city of Calakmul?",
+      "question_ur": "شہر کالاکمل کس قدیم تہذیب نے بنایا؟",
+      "options": {
+        "en": ["Aztec", "Maya", "Toltec", "Olmec"],
+        "ur": ["ایزٹیک", "مایا", "ٹولٹیک", "اولمیک"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Calakmul was a powerful Maya city that rivaled Tikal.",
+      "explanation_ur": "کالاکمل ایک طاقتور مایا شہر تھا جو ٹیکل کا حریف تھا۔",
+      "hint": "Think of the Snake Kingdom",
+      "hint_ur": "سانپ کی بادشاہت کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 113,
+      "type": "true-false",
+      "question": "The ancient city of Ugarit had the first known alphabet.",
+      "question_ur": "قدیم شہر اوگاریت میں پہلا معلوم حروف تہجی تھا۔",
+      "correctAnswer": true,
+      "explanation": "Ugaritic cuneiform alphabet from around 1400 BCE is the first known alphabet.",
+      "explanation_ur": "تقریباً 1400 قبل مسیح کا اوگاریٹک کیونیفارم حروف تہجی پہلا معلوم حروف تہجی ہے۔",
+      "hint": "Think of Syria's coast",
+      "hint_ur": "شام کے ساحل کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 114,
+      "type": "mcq",
+      "question": "The ancient city of Nimrud was the capital of which empire?",
+      "question_ur": "قدیم شہر نمرود کس سلطنت کا دارالحکومت تھا؟",
+      "options": {
+        "en": ["Babylonian", "Assyrian", "Hittite", "Persian"],
+        "ur": ["بابلی", "اشوری", "ہیتی", "فارسی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Nimrud (Kalhu) was an important Assyrian capital under Ashurnasirpal II.",
+      "explanation_ur": "نمرود (کلحو) اشورناسیرپال دوم کے تحت ایک اہم اشوری دارالحکومت تھا۔",
+      "hint": "Think of colossal lamassu statues",
+      "hint_ur": "بڑے پیمانے پر لاماسو مجسمے کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "question": "Which ancient civilization built the city of Cahokia?",
+      "question_ur": "شہر کاہوکیا کس قدیم تہذیب نے بنایا؟",
+      "options": {
+        "en": ["Aztec", "Mississippian", "Anasazi", "Iroquois"],
+        "ur": ["ایزٹیک", "مسسیپی", "اناسازی", "ایراکوئس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Cahokia was the largest urban center of the Mississippian culture.",
+      "explanation_ur": "کاہوکیا مسسیپی ثقافت کا سب سے بڑا شہری مرکز تھا۔",
+      "hint": "Think of Monk's Mound",
+      "hint_ur": "مونک کے ٹیلے کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 116,
+      "type": "true-false",
+      "question": "The ancient city of Harappa gave its name to the entire Indus Valley Civilization.",
+      "question_ur": "قدیم شہر ہڑپہ نے اپنا نام پوری وادی سندھ کی تہذیب کو دیا۔",
+      "correctAnswer": true,
+      "explanation": "The Indus Valley Civilization is also called the Harappan Civilization.",
+      "explanation_ur": "وادی سندھ کی تہذیب کو ہڑپہ تہذیب بھی کہا جاتا ہے۔",
+      "hint": "Think of the first discovery site",
+      "hint_ur": "پہلی دریافت کی جگہ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 117,
+      "type": "mcq",
+      "question": "The ancient city of Susa was an important center of which empire?",
+      "question_ur": "قدیم شہر سوسا کس سلطنت کا ایک اہم مرکز تھا؟",
+      "options": {
+        "en": ["Assyrian", "Babylonian", "Persian", "Hittite"],
+        "ur": ["اشوری", "بابلی", "فارسی", "ہیتی"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Susa was one of the capitals of the Achaemenid Persian Empire.",
+      "explanation_ur": "سوسا ہخامنشی فارسی سلطنت کے دارالحکومتوں میں سے ایک تھا۔",
+      "hint": "Think of Darius I",
+      "hint_ur": "ڈاریئس اول کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 118,
+      "type": "mcq",
+      "question": "Which ancient civilization built the city of Copán?",
+      "question_ur": "شہر کوپان کس قدیم تہذیب نے بنایا؟",
+      "options": {
+        "en": ["Aztec", "Maya", "Inca", "Olmec"],
+        "ur": ["ایزٹیک", "مایا", "انکا", "اولمیک"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Copán was an important Maya city known for its sculptures and hieroglyphs.",
+      "explanation_ur": "کوپان ایک اہم مایا شہر تھا جو اپنے مجسموں اور ہائیروگلیفس کے لیے جانا جاتا تھا۔",
+      "hint": "Think of Honduras",
+      "hint_ur": "ہونڈوراس کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 119,
+      "type": "true-false",
+      "question": "The ancient city of Mohenjo-Daro had a Great Bath.",
+      "question_ur": "قدیم شہر موہنجو دارو میں ایک عظیم غسل خانہ تھا۔",
+      "correctAnswer": true,
+      "explanation": "The Great Bath is one of Mohenjo-Daro's most famous structures.",
+      "explanation_ur": "عظیم غسل خانہ موہنجو دارو کے سب سے مشہور ڈھانچوں میں سے ایک ہے۔",
+      "hint": "Think of public waterworks",
+      "hint_ur": "عوامی واٹر ورکس کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 120,
+      "type": "mcq",
+      "question": "The ancient city of Hattusa was the capital of which civilization?",
+      "question_ur": "قدیم شہر ہتوسا کس تہذیب کا دارالحکومت تھا؟",
+      "options": {
+        "en": ["Assyrian", "Hittite", "Persian", "Phoenician"],
+        "ur": ["اشوری", "ہیتی", "فارسی", "فونیقی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Hattusa was the capital of the Hittite Empire in Anatolia.",
+      "explanation_ur": "ہتوسا اناطولیہ میں ہیتی سلطنت کا دارالحکومت تھا۔",
+      "hint": "Think of lion gates",
+      "hint_ur": "شیر کے دروازوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 121,
+      "type": "mcq",
+      "question": "Which ancient civilization built the city of Palenque?",
+      "question_ur": "شہر پالنکے کس قدیم تہذیب نے بنایا؟",
+      "options": {
+        "en": ["Aztec", "Maya", "Inca", "Olmec"],
+        "ur": ["ایزٹیک", "مایا", "انکا", "اولمیک"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Palenque was a Maya city-state known for its beautiful architecture.",
+      "explanation_ur": "پالنکے ایک مایا شہری ریاست تھی جو اپنے خوبصورت فن تعمیر کے لیے مشہور تھی۔",
+      "hint": "Think of the Temple of Inscriptions",
+      "hint_ur": "کتبات کے مندر کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 122,
+      "type": "true-false",
+      "question": "The ancient city of Petra was the capital of the Nabataean Kingdom.",
+      "question_ur": "قدیم شہر پیٹرا نبطی بادشاہت کا دارالحکومت تھا۔",
+      "correctAnswer": true,
+      "explanation": "Petra flourished as the Nabataean capital from around 400 BCE to 106 CE.",
+      "explanation_ur": "پیٹرا تقریباً 400 قبل مسیح سے 106 عیسوی تک نبطی دارالحکومت کے طور پر پھلا پھولا۔",
+      "hint": "Think of rock-cut architecture",
+      "hint_ur": "چٹان سے تراشے ہوئے فن تعمیر کے بارے میں سوچیں",
+      "timeLimit": 20
+    }
+  ]
+}

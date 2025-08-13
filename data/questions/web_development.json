@@ -1,0 +1,2572 @@
+{
+  "meta": {
+    "category": "Web Development",
+    "category_ur": "ویب ڈویلپمنٹ",
+    "description": "Test your knowledge of web development concepts and technologies",
+    "description_ur": "ویب ڈویلپمنٹ کے تصورات اور ٹیکنالوجیز کا امتحان لیں",
+    "difficulty": "medium",
+    "image": "web_development.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What does HTML stand for?",
+      "question_ur": "HTML کا مطلب کیا ہے؟",
+      "options": {
+        "en": [
+          "Hyper Text Markup Language",
+          "High Tech Modern Language",
+          "Hyperlinks and Text Markup Language",
+          "Home Tool Markup Language"
+        ],
+        "ur": [
+          "ہائپر ٹیکسٹ مارکاپ لینگویج",
+          "ہائی ٹیک موڈرن لینگویج",
+          "ہائپرلنکس اینڈ ٹیکسٹ مارکاپ لینگویج",
+          "ہوم ٹول مارکاپ لینگویج"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "HTML stands for Hyper Text Markup Language, the standard markup language for creating web pages.",
+      "explanation_ur": "HTML کا مطلب ہائپر ٹیکسٹ مارکاپ لینگویج ہے، جو ویب صفحات بنانے کے لیے معیاری مارکاپ زبان ہے۔",
+      "hint": "Think about what HTML is primarily used for",
+      "hint_ur": "سوچیں کہ HTML بنیادی طور پر کس کے لیے استعمال ہوتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 2,
+      "type": "true-false",
+      "question": "JavaScript is the same as Java.",
+      "question_ur": "جاوا اسکرپٹ اور جاوا ایک ہی ہیں۔",
+      "correctAnswer": false,
+      "explanation": "JavaScript and Java are completely different programming languages with different purposes and syntax.",
+      "explanation_ur": "جاوا اسکرپٹ اور جاوا مکمل طور پر مختلف پروگرامنگ زبانیں ہیں جن کے مقاصد اور نحو مختلف ہیں۔",
+      "hint": "Consider their origins and primary uses",
+      "hint_ur": "ان کے ماخذ اور بنیادی استعمال پر غور کریں",
+      "timeLimit": 15
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which CSS property is used to change the text color of an element?",
+      "question_ur": "عنصر کے ٹیکسٹ کا رنگ تبدیل کرنے کے لیے کون سی CSS پراپرٹی استعمال ہوتی ہے؟",
+      "options": {
+        "en": [
+          "text-color",
+          "font-color",
+          "color",
+          "text-style"
+        ],
+        "ur": [
+          "ٹیکسٹ-کلر",
+          "فونٹ-کلر",
+          "کلر",
+          "ٹیکسٹ-سٹائل"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The 'color' property in CSS is used to set the color of the text content of an element.",
+      "explanation_ur": "CSS میں 'کلر' پراپرٹی عنصر کے ٹیکسٹ مواد کا رنگ سیٹ کرنے کے لیے استعمال ہوتی ہے۔",
+      "hint": "It's the most straightforward property name for this purpose",
+      "hint_ur": "یہ اس مقصد کے لیے سب سے سیدھا پراپرٹی نام ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "What does the 'C' stand for in CSS?",
+      "question_ur": "CSS میں 'C' کا مطلب کیا ہے؟",
+      "options": {
+        "en": [
+          "Computer",
+          "Cascading",
+          "Creative",
+          "Color"
+        ],
+        "ur": [
+          "کمپیوٹر",
+          "کیسکیڈنگ",
+          "کریئیٹو",
+          "کلر"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "CSS stands for Cascading Style Sheets, where 'Cascading' refers to how styles are applied.",
+      "explanation_ur": "CSS کا مطلب کیسکیڈنگ سٹائل شیٹس ہے، جہاں 'کیسکیڈنگ' اس بات کی طرف اشارہ کرتا ہے کہ سٹائلز کیسے لاگو ہوتے ہیں۔",
+      "hint": "Think about how styles can override each other",
+      "hint_ur": "سوچیں کہ سٹائلز ایک دوسرے کو کیسے اوور رائیڈ کر سکتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 5,
+      "type": "true-false",
+      "question": "React is a JavaScript framework.",
+      "question_ur": "ری ایکٹ ایک جاوا اسکرپٹ فریم ورک ہے۔",
+      "correctAnswer": false,
+      "explanation": "React is a JavaScript library, not a framework. The key difference is that libraries are called by your code, while frameworks call your code.",
+      "explanation_ur": "ری ایکٹ ایک جاوا اسکرپٹ لائبریری ہے، فریم ورک نہیں۔ بنیادی فرق یہ ہے کہ لائبریریز کو آپ کا کوڈ کال کرتا ہے، جبکہ فریم ورک آپ کے کوڈ کو کال کرتے ہیں۔",
+      "hint": "Consider the difference between libraries and frameworks",
+      "hint_ur": "لائبریریوں اور فریم ورکس کے درمیان فرق پر غور کریں",
+      "timeLimit": 30
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Which HTML tag is used to create a hyperlink?",
+      "question_ur": "ہائپر لنک بنانے کے لیے کون سا HTML ٹیگ استعمال ہوتا ہے؟",
+      "options": {
+        "en": [
+          "<link>",
+          "<a>",
+          "<href>",
+          "<hyperlink>"
+        ],
+        "ur": [
+          "<لنک>",
+          "<اے>",
+          "<ایچ ری ایف>",
+          "<ہائپرلنک>"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The <a> tag defines a hyperlink, which is used to link from one page to another.",
+      "explanation_ur": "<a> ٹیگ ایک ہائپر لنک کی وضاحت کرتا ہے، جو ایک صفحے سے دوسرے صفحے سے لنک کرنے کے لیے استعمال ہوتا ہے۔",
+      "hint": "It's the shortest option",
+      "hint_ur": "یہ سب سے مختصر آپشن ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "What does API stand for?",
+      "question_ur": "API کا مطلب کیا ہے؟",
+      "options": {
+        "en": [
+          "Automated Programming Interface",
+          "Application Programming Interface",
+          "Advanced Programming Interface",
+          "All-Purpose Interface"
+        ],
+        "ur": [
+          "آٹومیٹڈ پروگرامنگ انٹرفیس",
+          "ایپلیکیشن پروگرامنگ انٹرفیس",
+          "ایڈوانسڈ پروگرامنگ انٹرفیس",
+          "آل پرپز انٹرفیس"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "API stands for Application Programming Interface, which is a set of protocols and tools for building software applications.",
+      "explanation_ur": "API کا مطلب ایپلیکیشن پروگرامنگ انٹرفیس ہے، جو سافٹ ویئر ایپلیکیشنز بنانے کے لیے پروٹوکولز اور ٹولز کا ایک سیٹ ہے۔",
+      "hint": "Think about what connects different applications",
+      "hint_ur": "سوچیں کہ مختلف ایپلیکیشنز کو کیا جوڑتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 8,
+      "type": "true-false",
+      "question": "LocalStorage and sessionStorage are exactly the same.",
+      "question_ur": "لوکل اسٹوریج اور سیشن اسٹوریج بالکل ایک جیسے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "While both are web storage APIs, localStorage persists until explicitly cleared, while sessionStorage is cleared when the page session ends.",
+      "explanation_ur": "اگرچہ دونوں ویب اسٹوریج APIs ہیں، localStorage واضح طور پر صاف ہونے تک برقرار رہتا ہے، جبکہ سیشن اسٹوریج صفحے کے سیشن کے ختم ہونے پر صاف ہو جاتا ہے۔",
+      "hint": "Consider their persistence duration",
+      "hint_ur": "ان کی پائیداری کی مدت پر غور کریں",
+      "timeLimit": 30
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Which of these is NOT a JavaScript framework or library?",
+      "question_ur": "مندرجہ ذیل میں سے کون سی جاوا اسکرپٹ فریم ورک یا لائبریری نہیں ہے؟",
+      "options": {
+        "en": [
+          "Angular",
+          "React",
+          "Vue",
+          "Django"
+        ],
+        "ur": [
+          "اینگولر",
+          "ری ایکٹ",
+          "ویو",
+          "جانگو"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Django is a Python web framework, not a JavaScript framework or library.",
+      "explanation_ur": "جانگو ایک پائتھون ویب فریم ورک ہے، جاوا اسکرپٹ فریم ورک یا لائبریری نہیں۔",
+      "hint": "One of these is based on Python",
+      "hint_ur": "ان میں سے ایک پائتھون پر مبنی ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "What does the 'DOCTYPE' declaration do in HTML?",
+      "question_ur": "HTML میں 'DOCTYPE' ڈیکلیریشن کیا کرتا ہے؟",
+      "options": {
+        "en": [
+          "Defines the document type and version of HTML",
+          "Links to external stylesheets",
+          "Creates a new document type",
+          "Validates the HTML code"
+        ],
+        "ur": [
+          "دستاویز کی قسم اور HTML کا ورژن بیان کرتا ہے",
+          "بیرونی سٹائل شیٹس سے لنک کرتا ہے",
+          "ایک نئی دستاویز کی قسم بناتا ہے",
+          "HTML کوڈ کی توثیق کرتا ہے"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The DOCTYPE declaration tells the web browser which version of HTML the page is written in.",
+      "explanation_ur": "DOCTYPE ڈیکلیریشن ویب براؤزر کو بتاتا ہے کہ صفحہ HTML کے کس ورژن میں لکھا گیا ہے۔",
+      "hint": "It's about document standards",
+      "hint_ur": "یہ دستاویز کے معیارات کے بارے میں ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "question": "CSS Grid and Flexbox are the same layout system.",
+      "question_ur": "CSS گرڈ اور فلیکس باکس ایک ہی لیآؤٹ سسٹم ہیں۔",
+      "correctAnswer": false,
+      "explanation": "While both are CSS layout systems, Grid is two-dimensional (rows and columns) while Flexbox is one-dimensional (either rows or columns).",
+      "explanation_ur": "اگرچہ دونوں CSS لیآؤٹ سسٹمز ہیں، گرڈ دو جہتی (قطاریں اور کالم) ہے جبکہ فلیکس باکس ایک جہتی (یا تو قطاریں یا کالم) ہے۔",
+      "hint": "Consider their dimensional approaches",
+      "hint_ur": "ان کے جہتی طریقہ کار پر غور کریں",
+      "timeLimit": 30
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Which HTTP status code means 'Not Found'?",
+      "question_ur": "کون سا HTTP سٹیٹس کوڈ 'نہیں ملا' کا مطلب دیتا ہے؟",
+      "options": {
+        "en": [
+          "200",
+          "301",
+          "404",
+          "500"
+        ],
+        "ur": [
+          "200",
+          "301",
+          "404",
+          "500"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "The 404 status code indicates that the server cannot find the requested resource.",
+      "explanation_ur": "404 سٹیٹس کوڈ اشارہ کرتا ہے کہ سرور درخواست کردہ وسائل نہیں ڈھونڈ سکتا۔",
+      "hint": "It's one of the most recognizable error codes",
+      "hint_ur": "یہ سب سے زیادہ پہچانے جانے والے ایرر کوڈز میں سے ایک ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "question": "TypeScript is a superset of JavaScript.",
+      "question_ur": "ٹائپ اسکرپٹ جاوا اسکرپٹ کا ایک سپر سیٹ ہے۔",
+      "correctAnswer": true,
+      "explanation": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript, adding optional static typing.",
+      "explanation_ur": "ٹائپ اسکرپٹ جاوا اسکرپٹ کا ایک ٹائپڈ سپر سیٹ ہے جو سادہ جاوا اسکرپٹ میں کمپائل ہوتا ہے، اختیاری جامد ٹائپنگ شامل کرتا ہے۔",
+      "hint": "It adds features to JavaScript",
+      "hint_ur": "یہ جاوا اسکرپٹ میں خصوصیات شامل کرتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Which method is used to select an element by its ID in JavaScript?",
+      "question_ur": "جاوا اسکرپٹ میں ID کے ذریعے عنصر منتخب کرنے کے لیے کون سا طریقہ استعمال ہوتا ہے؟",
+      "options": {
+        "en": [
+          "document.querySelector()",
+          "document.getElementById()",
+          "document.getElementsByClassName()",
+          "document.findElementById()"
+        ],
+        "ur": [
+          "ڈاکیومنٹ.کوئری سلیکٹر()",
+          "ڈاکیومنٹ.گیٹ ایلیمنٹ بائی آئی ڈی()",
+          "ڈاکیومنٹ.گیٹ ایلیمنٹس بائی کلاس نیم()",
+          "ڈاکیومنٹ.فائنڈ ایلیمنٹ بائی آئی ڈی()"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "getElementById() is the method specifically designed to select an element by its ID attribute.",
+      "explanation_ur": "گیٹ ایلیمنٹ بائی آئی ڈی() وہ طریقہ ہے جو خاص طور پر ID اٹریبیوٹ کے ذریعے عنصر منتخب کرنے کے لیے ڈیزائن کیا گیا ہے۔",
+      "hint": "The method name includes what it selects by",
+      "hint_ur": "طریقہ کے نام میں شامل ہے کہ یہ کس چیز کے ذریعے منتخب کرتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "What is the purpose of the 'viewport' meta tag?",
+      "question_ur": "'ویوپورٹ' میٹا ٹیگ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To define the website's color scheme",
+          "To control layout on mobile browsers",
+          "To add a favicon to the page",
+          "To specify the website's author"
+        ],
+        "ur": [
+          "ویب سائٹ کے رنگ کے اسکیم کی وضاحت کرنے کے لیے",
+          "موبائل براؤزرز پر لیآؤٹ کو کنٹرول کرنے کے لیے",
+          "صفحے پر فیوکون شامل کرنے کے لیے",
+          "ویب سائٹ کے مصنف کی وضاحت کرنے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The viewport meta tag controls the page's dimensions and scaling on mobile devices.",
+      "explanation_ur": "ویوپورٹ میٹا ٹیگ موبائل ڈیوائسز پر صفحے کے طول و عرض اور اسکیلنگ کو کنٹرول کرتا ہے۔",
+      "hint": "It's crucial for responsive design",
+      "hint_ur": "یہ رسپانسو ڈیزائن کے لیے اہم ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 17,
+      "type": "true-false",
+      "question": "All HTML elements are block-level by default.",
+      "question_ur": "تمام HTML عناصر ڈیفالٹ کی طرف سے بلاک لیول ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "HTML elements can be block-level or inline by default. For example, <div> is block-level while <span> is inline.",
+      "explanation_ur": "HTML عناصر ڈیفالٹ کی طرف سے بلاک لیول یا ان لائن ہو سکتے ہیں۔ مثال کے طور پر، <div> بلاک لیول ہے جبکہ <span> ان لائن ہے۔",
+      "hint": "Consider common inline elements like spans and links",
+      "hint_ur": "عام ان لائن عناصر جیسے سپینز اور لنکس پر غور کریں",
+      "timeLimit": 30
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid CSS position property value?",
+      "question_ur": "مندرجہ ذیل میں سے کون سی CSS پوزیشن پراپرٹی کی درست ویلیو نہیں ہے؟",
+      "options": {
+        "en": [
+          "static",
+          "relative",
+          "fixed",
+          "center"
+        ],
+        "ur": [
+          "سٹیٹک",
+          "ریلیٹو",
+          "فکسڈ",
+          "سنٹر"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "'center' is not a valid value for the position property. Valid values are static, relative, absolute, fixed, and sticky.",
+      "explanation_ur": "'سنٹر' پوزیشن پراپرٹی کے لیے درست ویلیو نہیں ہے۔ درست ویلیوز سٹیٹک، ریلیٹو، مطلق، فکسڈ، اور اسٹکی ہیں۔",
+      "hint": "Think about how elements are positioned, not aligned",
+      "hint_ur": "سوچیں کہ عناصر کیسے پوزیشن ہوتے ہیں، ترتیب نہیں دیے جاتے",
+      "timeLimit": 20
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "What does the 'B' stand for in BEM methodology?",
+      "question_ur": "BEM طریقہ کار میں 'B' کا مطلب کیا ہے؟",
+      "options": {
+        "en": [
+          "Basic",
+          "Block",
+          "Border",
+          "Body"
+        ],
+        "ur": [
+          "بنیادی",
+          "بلاک",
+          "بارڈر",
+          "باڈی"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "BEM stands for Block, Element, Modifier - a popular CSS naming methodology.",
+      "explanation_ur": "BEM کا مطلب بلاک، ایلیمنٹ، موڈیفائر ہے - ایک مقبول CSS نام دینے کا طریقہ کار۔",
+      "hint": "It's the first letter of the methodology's name",
+      "hint_ur": "یہ طریقہ کار کے نام کا پہلا حرف ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 20,
+      "type": "true-false",
+      "question": "The 'z-index' property works on all HTML elements by default.",
+      "question_ur": "'z-index' پراپرٹی ڈیفالٹ کی طرف سے تمام HTML عناصر پر کام کرتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "The z-index property only works on positioned elements (relative, absolute, fixed, or sticky).",
+      "explanation_ur": "z-index پراپرٹی صرف پوزیشن والے عناصر (ریلیٹو، مطلق، فکسڈ، یا اسٹکی) پر کام کرتی ہے۔",
+      "hint": "Consider which elements can be layered",
+      "hint_ur": "سوچیں کہ کون سے عناصر پرتیں بنا سکتے ہیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Which of these is NOT a JavaScript data type?",
+      "question_ur": "مندرجہ ذیل میں سے کون سی جاوا اسکرپٹ ڈیٹا ٹائپ نہیں ہے؟",
+      "options": {
+        "en": [
+          "boolean",
+          "number",
+          "character",
+          "object"
+        ],
+        "ur": [
+          "بولین",
+          "نمبر",
+          "کریکٹر",
+          "آبجیکٹ"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "JavaScript doesn't have a separate 'character' type - it uses strings for character data.",
+      "explanation_ur": "جاوا اسکرپٹ میں الگ 'کریکٹر' ٹائپ نہیں ہوتی - یہ کریکٹر ڈیٹا کے لیے سٹرنگز استعمال کرتا ہے۔",
+      "hint": "JavaScript handles single characters differently than some other languages",
+      "hint_ur": "جاوا اسکرپٹ کچھ دیگر زبانوں کے مقابلے میں سنگل کریکٹرز کو مختلف طریقے سے ہینڈل کرتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "What is the purpose of the 'defer' attribute in a script tag?",
+      "question_ur": "اسکرپٹ ٹیگ میں 'ڈیفر' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To delay script execution until after parsing",
+          "To make the script asynchronous",
+          "To disable the script",
+          "To repeat the script execution"
+        ],
+        "ur": [
+          "اسکرپٹ کی عملدرآمد کو پارسنگ کے بعد تک مؤخر کرنے کے لیے",
+          "اسکرپٹ کو غیر متوازی بنانے کے لیے",
+          "اسکرپٹ کو غیر فعال کرنے کے لیے",
+          "اسکرپٹ کی عملدرآمد کو دہرانے کے لیے"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The 'defer' attribute makes the script execute only after the HTML document has been fully parsed.",
+      "explanation_ur": "'ڈیفر' اٹریبیوٹ اسکرپٹ کو صرف اس وقت عملدرآمد کرنے دیتا ہے جب HTML دستاویز مکمل طور پر پارس ہو چکی ہو۔",
+      "hint": "It's about timing relative to document parsing",
+      "hint_ur": "یہ دستاویز کی پارسنگ کے لحاظ سے وقت کے بارے میں ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 23,
+      "type": "true-false",
+      "question": "The '=== operator in JavaScript performs type coercion.",
+      "question_ur": "جاوا اسکرپٹ میں '===' آپریٹر ٹائپ کوآرسیشن انجام دیتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "The '===' operator is the strict equality operator that does NOT perform type coercion (unlike '==').",
+      "explanation_ur": "'===' آپریٹر سخت مساواتی آپریٹر ہے جو ٹائپ کوآرسیشن انجام نہیں دیتا ('==' کے برعکس)۔",
+      "hint": "It's the stricter comparison operator",
+      "hint_ur": "یہ زیادہ سخت موازنہ کرنے والا آپریٹر ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which CSS selector has the highest specificity?",
+      "question_ur": "کون سا CSS سلیکٹر سب سے زیادہ اسپیسفکٹی رکھتا ہے؟",
+      "options": {
+        "en": [
+          "Class selector (.class)",
+          "ID selector (#id)",
+          "Element selector (div)",
+          "Universal selector (*)"
+        ],
+        "ur": [
+          "کلاس سلیکٹر (.کلاس)",
+          "ID سلیکٹر (#آئی ڈی)",
+          "عنصر سلیکٹر (ڈیو)",
+          "یونیورسل سلیکٹر (*)"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "ID selectors have the highest specificity in CSS, followed by class selectors, then element selectors.",
+      "explanation_ur": "CSS میں ID سلیکٹرز کی سب سے زیادہ اسپیسفکٹی ہوتی ہے، اس کے بعد کلاس سلیکٹرز، پھر عنصر سلیکٹرز آتے ہیں۔",
+      "hint": "Think about the most unique way to select an element",
+      "hint_ur": "عنصر کو منتخب کرنے کے سب سے منفرد طریقے کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "What is the purpose of the 'key' prop in React?",
+      "question_ur": "ری ایکٹ میں 'کی' پروپ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To encrypt component data",
+          "To help React identify which items have changed",
+          "To create keyboard shortcuts",
+          "To lock the component from updates"
+        ],
+        "ur": [
+          "کمپوننٹ ڈیٹا کو خفیہ کرنے کے لیے",
+          "ری ایکٹ کو یہ شناخت کرنے میں مدد کرنے کے لیے کہ کون سی اشیاء تبدیل ہوئی ہیں",
+          "کی بورڈ شارٹ کٹس بنانے کے لیے",
+          "کمپوننٹ کو اپ ڈیٹس سے لاک کرنے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'key' prop helps React identify which items have changed, are added, or are removed in lists.",
+      "explanation_ur": "'کی' پروپ ری ایکٹ کو یہ شناخت کرنے میں مدد کرتا ہے کہ فہرستوں میں کون سی اشیاء تبدیل ہوئی ہیں، شامل کی گئی ہیں یا ہٹائی گئی ہیں۔",
+      "hint": "It's important for list rendering performance",
+      "hint_ur": "یہ فہرست رینڈرنگ کی کارکردگی کے لیے اہم ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 26,
+      "type": "true-false",
+      "question": "The 'border-box' value for box-sizing includes padding and border in the element's total width and height.",
+      "question_ur": "باکس سائزنگ کے لیے 'بارڈر باکس' ویلیو عنصر کی کل چوڑائی اور اونچائی میں پیڈنگ اور بارڈر شامل کرتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "With 'box-sizing: border-box', padding and border are included in the element's specified width and height.",
+      "explanation_ur": "'باکس سائزنگ: بارڈر باکس' کے ساتھ، پیڈنگ اور بارڈر عنصر کی مخصوص چوڑائی اور اونچائی میں شامل ہوتے ہیں۔",
+      "hint": "It's the more intuitive box model",
+      "hint_ur": "یہ زیادہ بدیہی باکس ماڈل ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "Which HTTP method is used to send data to a server to create a resource?",
+      "question_ur": "وسائل بنانے کے لیے سرور کو ڈیٹا بھیجنے کے لیے کون سا HTTP طریقہ استعمال ہوتا ہے؟",
+      "options": {
+        "en": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ],
+        "ur": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The POST method is used to send data to a server to create a new resource.",
+      "explanation_ur": "POST طریقہ سرور کو ڈیٹا بھیجنے کے لیے استعمال ہوتا ہے تاکہ نیا وسائل بنایا جا سکے۔",
+      "hint": "It's not for retrieving data",
+      "hint_ur": "یہ ڈیٹا حاصل کرنے کے لیے نہیں ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "What does CORS stand for?",
+      "question_ur": "CORS کا مطلب کیا ہے؟",
+      "options": {
+        "en": [
+          "Cross-Origin Resource Sharing",
+          "Centralized Origin Resource System",
+          "Common Origin Request Standard",
+          "Cross-Origin Request Security"
+        ],
+        "ur": [
+          "کراس اورجین ریسورس شیئرنگ",
+          "سنٹرلائزڈ اورجین ریسورس سسٹم",
+          "کامن اورجین ریکویسٹ سٹینڈرڈ",
+          "کراس اورجین ریکویسٹ سیکورٹی"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "CORS stands for Cross-Origin Resource Sharing, a mechanism that allows restricted resources to be requested from another domain.",
+      "explanation_ur": "CORS کا مطلب کراس اورجین ریسورس شیئرنگ ہے، ایک میکانزم جو کسی دوسرے ڈومین سے محدود وسائل کی درخواست کی اجازت دیتا ہے۔",
+      "hint": "It's about sharing between different origins",
+      "hint_ur": "یہ مختلف ماخذوں کے درمیان اشتراک کے بارے میں ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 29,
+      "type": "true-false",
+      "question": "The 'async' attribute guarantees that scripts will execute in the order they appear in the HTML.",
+      "question_ur": "'async' اٹریبیوٹ یقینی بناتا ہے کہ اسکرپٹس HTML میں ظاہر ہونے کے ترتیب میں عملدرآمد کریں گی۔",
+      "correctAnswer": false,
+      "explanation": "The 'async' attribute allows scripts to execute as soon as they're loaded, potentially out of order.",
+      "explanation_ur": "'async' اٹریبیوٹ اسکرپٹس کو جلد از جلد لوڈ ہوتے ہی عملدرآمد کرنے دیتا ہے، ممکنہ طور پر ترتیب سے باہر۔",
+      "hint": "Async is about loading without blocking",
+      "hint_ur": "Async بلاک کیے بغیر لوڈنگ کے بارے میں ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid JavaScript variable declaration keyword?",
+      "question_ur": "مندرجہ ذیل میں سے کون سی جاوا اسکرپٹ متغیر ڈیکلیریشن کی درست کلیدی لفظ نہیں ہے؟",
+      "options": {
+        "en": [
+          "var",
+          "let",
+          "const",
+          "def"
+        ],
+        "ur": [
+          "ور",
+          "لیٹ",
+          "کنسٹ",
+          "ڈیف"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "'def' is not a JavaScript variable declaration keyword. The valid ones are var, let, and const.",
+      "explanation_ur": "'ڈیف' جاوا اسکرپٹ متغیر ڈیکلیریشن کی کلیدی لفظ نہیں ہے۔ درست ور، لیٹ، اور کنسٹ ہیں۔",
+      "hint": "One of these might be from Python",
+      "hint_ur": "ان میں سے ایک پائتھون سے ہو سکتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "What is the purpose of the 'use strict' directive in JavaScript?",
+      "question_ur": "جاوا اسکرپٹ میں 'یوز سٹرکٹ' ہدایت کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To enable strict mode which catches common coding errors",
+          "To make the code run faster",
+          "To restrict the code to specific browsers",
+          "To automatically format the code"
+        ],
+        "ur": [
+          "سخت موڈ کو فعال کرنے کے لیے جو عام کوڈنگ غلطیوں کو پکڑتا ہے",
+          "کوڈ کو تیز چلانے کے لیے",
+          "کوڈ کو مخصوص براؤزرز تک محدود کرنے کے لیے",
+          "کوڈ کو خود بخود فارمیٹ کرنے کے لیے"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "'use strict' enables strict mode which helps catch common coding errors and prevents the use of potentially problematic features.",
+      "explanation_ur": "'یوز سٹرکٹ' سخت موڈ کو فعال کرتا ہے جو عام کوڈنگ غلطیوں کو پکڑنے میں مدد کرتا ہے اور ممکنہ طور پر مسئلہ پیدا کرنے والی خصوصیات کے استعمال کو روکتا ہے۔",
+      "hint": "It's about enforcing stricter parsing and error handling",
+      "hint_ur": "یہ زیادہ سخت پارسنگ اور غلطی ہینڈلنگ کو نافذ کرنے کے بارے میں ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 32,
+      "type": "true-false",
+      "question": "All CSS animations require JavaScript to work.",
+      "question_ur": "تمام CSS اینیمیشنز کو کام کرنے کے لیے جاوا اسکرپٹ کی ضرورت ہوتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "CSS animations can work without JavaScript, using @keyframes and animation properties.",
+      "explanation_ur": "CSS اینیمیشنز @keyframes اور اینیمیشن پراپرٹیز کا استعمال کرتے ہوئے جاوا اسکرپٹ کے بغیر کام کر سکتی ہیں۔",
+      "hint": "CSS has its own animation system",
+      "hint_ur": "CSS کا اپنا اینیمیشن سسٹم ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Which HTML5 tag is used to draw graphics via scripting?",
+      "question_ur": "اسکرپٹنگ کے ذریعے گرافکس بنانے کے لیے کون سا HTML5 ٹیگ استعمال ہوتا ہے؟",
+      "options": {
+        "en": [
+          "<svg>",
+          "<canvas>",
+          "<graphics>",
+          "<draw>"
+        ],
+        "ur": [
+          "<svg>",
+          "<canvas>",
+          "<graphics>",
+          "<draw>"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The <canvas> tag is used to draw graphics via JavaScript in HTML5.",
+      "explanation_ur": "<canvas> ٹیگ HTML5 میں جاوا اسکرپٹ کے ذریعے گرافکس بنانے کے لیے استعمال ہوتا ہے۔",
+      "hint": "Think of an artist's canvas",
+      "hint_ur": "ایک مصور کے کینوس کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 35,
+      "type": "true-false",
+      "question": "The 'localStorage' object has an expiration time.",
+      "question_ur": "'localStorage' آبجیکٹ کی ایک میعاد ختم ہونے کا وقت ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "localStorage persists until explicitly cleared by the user or the web app, unlike sessionStorage which clears when the session ends.",
+      "explanation_ur": "localStorage صارف یا ویب ایپ کی طرف سے واضح طور پر صاف ہونے تک برقرار رہتا ہے، sessionStorage کے برعکس جو سیشن ختم ہونے پر صاف ہو جاتا ہے۔",
+      "hint": "Compare it with sessionStorage",
+      "hint_ur": "اس کا sessionStorage سے موازنہ کریں",
+      "timeLimit": 30
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid HTTP request method?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا درست HTTP درخواست کا طریقہ نہیں ہے؟",
+      "options": {
+        "en": [
+          "GET",
+          "POST",
+          "FETCH",
+          "DELETE"
+        ],
+        "ur": [
+          "GET",
+          "POST",
+          "FETCH",
+          "DELETE"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "FETCH is not an HTTP method. The standard methods include GET, POST, PUT, DELETE, HEAD, OPTIONS, etc.",
+      "explanation_ur": "FETCH ایک HTTP طریقہ نہیں ہے۔ معیاری طریقوں میں GET، POST، PUT، DELETE، HEAD، OPTIONS وغیرہ شامل ہیں۔",
+      "hint": "It's a JavaScript API name",
+      "hint_ur": "یہ ایک جاوا اسکرپٹ API کا نام ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "What does the 'this' keyword refer to in JavaScript?",
+      "question_ur": "جاوا اسکرپٹ میں 'this' کلیدی لفظ کس کی طرف اشارہ کرتا ہے؟",
+      "options": {
+        "en": [
+          "The current function",
+          "The global window object",
+          "The object that the function is a property of",
+          "It depends on the execution context"
+        ],
+        "ur": [
+          "موجودہ فنکشن",
+          "گلوبل ونڈو آبجیکٹ",
+          "وہ آبجیکٹ جس کی فنکشن ایک پراپرٹی ہے",
+          "یہ عملدرآمد کے سیاق و سباق پر منحصر ہے"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The value of 'this' depends on how a function is called (its execution context).",
+      "explanation_ur": "'this' کی ویلیو اس بات پر منحصر ہے کہ فنکشن کو کیسے بلایا جاتا ہے (اس کا عملدرآمد کا سیاق و سباق)۔",
+      "hint": "It's context-dependent",
+      "hint_ur": "یہ سیاق و سباق پر منحصر ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 38,
+      "type": "true-false",
+      "question": "CSS custom properties (variables) can be modified using JavaScript.",
+      "question_ur": "CSS کسٹم پراپرٹیز (متغیرات) کو جاوا اسکرپٹ کا استعمال کرتے ہوئے تبدیل کیا جا سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "CSS variables can be accessed and modified using JavaScript through the getPropertyValue() and setProperty() methods.",
+      "explanation_ur": "CSS متغیرات کو getPropertyValue() اور setProperty() طریقوں کے ذریعے جاوا اسکرپٹ سے رسائی حاصل کی جا سکتی ہے اور انہیں تبدیل کیا جا سکتا ہے۔",
+      "hint": "Think about dynamic theming",
+      "hint_ur": "متحرک تھیمنگ کے بارے میں سوچیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid CSS unit?",
+      "question_ur": "مندرجہ ذیل میں سے کون سی درست CSS یونٹ نہیں ہے؟",
+      "options": {
+        "en": [
+          "px",
+          "em",
+          "vw",
+          "pp"
+        ],
+        "ur": [
+          "px",
+          "em",
+          "vw",
+          "pp"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "'pp' is not a valid CSS unit. Valid units include px, em, rem, vw, vh, %, and others.",
+      "explanation_ur": "'pp' درست CSS یونٹ نہیں ہے۔ درست یونٹس میں px، em، rem، vw، vh، %، اور دیگر شامل ہیں۔",
+      "hint": "Think about print-related units",
+      "hint_ur": "پرنٹ سے متعلق یونٹس کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "What is the purpose of the 'rel' attribute in a link tag?",
+      "question_ur": "لنک ٹیگ میں 'rel' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To specify the relationship between documents",
+          "To reload the page",
+          "To redirect to another page",
+          "To refresh the stylesheet"
+        ],
+        "ur": [
+          "دستاویزات کے درمیان تعلق کی وضاحت کرنے کے لیے",
+          "صفحے کو دوبارہ لوڈ کرنے کے لیے",
+          "کسی دوسرے صفحے پر ری ڈائریکٹ کرنے کے لیے",
+          "سٹائل شیٹ کو ریفریش کرنے کے لیے"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The 'rel' attribute specifies the relationship between the current document and the linked document.",
+      "explanation_ur": "'rel' اٹریبیوٹ موجودہ دستاویز اور لنک شدہ دستاویز کے درمیان تعلق کی وضاحت کرتا ہے۔",
+      "hint": "It defines how documents are related",
+      "hint_ur": "یہ وضاحت کرتا ہے کہ دستاویزات کس طرح متعلق ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 41,
+      "type": "true-false",
+      "question": "The 'map' method in JavaScript modifies the original array.",
+      "question_ur": "جاوا اسکرپٹ میں 'map' طریقہ اصل سرے کو تبدیل کرتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "The map() method creates a new array with the results of calling a function on every element, without modifying the original array.",
+      "explanation_ur": "map() طریقہ ہر عنصر پر ایک فنکشن کو کال کرنے کے نتائج کے ساتھ ایک نیا سرا بناتا ہے، اصل سرے کو تبدیل کیے بغیر۔",
+      "hint": "It's a non-mutating method",
+      "hint_ur": "یہ ایک غیر تغیر پذیر طریقہ ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid position value in CSS?",
+      "question_ur": "مندرجہ ذیل میں سے کون سی CSS میں پوزیشن کی درست ویلیو نہیں ہے؟",
+      "options": {
+        "en": [
+          "static",
+          "relative",
+          "center",
+          "sticky"
+        ],
+        "ur": [
+          "static",
+          "relative",
+          "center",
+          "sticky"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "'center' is not a valid position value. Valid values are static, relative, absolute, fixed, and sticky.",
+      "explanation_ur": "'center' پوزیشن کی درست ویلیو نہیں ہے۔ درست ویلیوز static، relative، absolute، fixed، اور sticky ہیں۔",
+      "hint": "It's an alignment value, not positioning",
+      "hint_ur": "یہ ایک ترتیب کی ویلیو ہے، پوزیشننگ نہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "What is the purpose of the 'aria-' attributes in HTML?",
+      "question_ur": "HTML میں 'aria-' اٹریبیوٹس کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add animations",
+          "To improve accessibility",
+          "To enhance SEO",
+          "To add custom data"
+        ],
+        "ur": [
+          "اینیمیشنز شامل کرنے کے لیے",
+          "رسائی کو بہتر بنانے کے لیے",
+          "SEO کو بڑھانے کے لیے",
+          "کسٹم ڈیٹا شامل کرنے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "ARIA (Accessible Rich Internet Applications) attributes improve accessibility for people with disabilities.",
+      "explanation_ur": "ARIA (رسائی پذیر امیر انٹرنیٹ ایپلیکیشنز) اٹریبیوٹس معذور افراد کے لیے رسائی کو بہتر بناتے ہیں۔",
+      "hint": "They help assistive technologies",
+      "hint_ur": "یہ معاون ٹیکنالوجیز کی مدد کرتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 44,
+      "type": "true-false",
+      "question": "The 'reduce' method in JavaScript can only return a single value.",
+      "question_ur": "جاوا اسکرپٹ میں 'reduce' طریقہ صرف ایک ہی ویلیو واپس کر سکتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "While reduce() is often used to return a single value, it can actually return any type including arrays or objects.",
+      "explanation_ur": "اگرچہ reduce() اکثر ایک ہی ویلیو واپس کرنے کے لیے استعمال ہوتا ہے، یہ اصل میں کسی بھی قسم کو واپس کر سکتا ہے جس میں سرے یا آبجیکٹ شامل ہیں۔",
+      "hint": "It's more flexible than people think",
+      "hint_ur": "یہ لوگوں کے خیال سے زیادہ لچکدار ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Which of these is NOT a JavaScript framework?",
+      "question_ur": "مندرجہ ذیل میں سے کون سی جاوا اسکرپٹ فریم ورک نہیں ہے؟",
+      "options": {
+        "en": [
+          "Angular",
+          "Laravel",
+          "Vue",
+          "Svelte"
+        ],
+        "ur": [
+          "اینگولر",
+          "لاراول",
+          "ویو",
+          "سویلٹ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "Laravel is a PHP framework, not a JavaScript framework.",
+      "explanation_ur": "لاراول ایک PHP فریم ورک ہے، جاوا اسکرپٹ فریم ورک نہیں۔",
+      "hint": "It's a backend framework",
+      "hint_ur": "یہ ایک بیک اینڈ فریم ورک ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "What is the purpose of the 'head' tag in HTML?",
+      "question_ur": "HTML میں 'head' ٹیگ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To contain the main content of the page",
+          "To hold metadata and links to resources",
+          "To create a header section",
+          "To define a heading"
+        ],
+        "ur": [
+          "صفحے کے اہم مواد پر مشتمل ہونے کے لیے",
+          "میٹا ڈیٹا اور وسائل کے لنکس رکھنے کے لیے",
+          "ہیڈر سیکشن بنانے کے لیے",
+          "ہیڈنگ کی وضاحت کرنے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The <head> element contains meta information about the document, links to stylesheets, scripts, and other resources.",
+      "explanation_ur": "<head> عنصر دستاویز کے بارے میں میٹا معلومات، سٹائل شیٹس، اسکرپٹس اور دیگر وسائل کے لنکس پر مشتمل ہوتا ہے۔",
+      "hint": "It's not visible on the page itself",
+      "hint_ur": "یہ صفحے پر خود نظر نہیں آتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 47,
+      "type": "true-false",
+      "question": "The 'fetch' API in JavaScript is promise-based.",
+      "question_ur": "جاوا اسکرپٹ میں 'fetch' API پرامس پر مبنی ہے۔",
+      "correctAnswer": true,
+      "explanation": "The Fetch API returns Promises, allowing for cleaner asynchronous code than traditional callback approaches.",
+      "explanation_ur": "Fetch API پرامیسز واپس کرتا ہے، جو روایتی کال بیک طریقوں سے زیادہ صاف غیر متوازی کوڈ کی اجازت دیتا ہے۔",
+      "hint": "It's a modern alternative to XMLHttpRequest",
+      "hint_ur": "یہ XMLHttpRequest کا ایک جدید متبادل ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "Which CSS property is used to create space between elements' borders?",
+      "question_ur": "عناصر کے بارڈرز کے درمیان جگہ بنانے کے لیے کون سی CSS پراپرٹی استعمال ہوتی ہے؟",
+      "options": {
+        "en": [
+          "padding",
+          "margin",
+          "border-spacing",
+          "gap"
+        ],
+        "ur": [
+          "پیڈنگ",
+          "مارجن",
+          "بارڈر سپیسنگ",
+          "گیپ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The margin property creates space around elements, outside of any defined borders.",
+      "explanation_ur": "مارجن پراپرٹی عناصر کے ارد گرد جگہ بناتی ہے، کسی بھی بیان کردہ بارڈرز کے باہر۔",
+      "hint": "It's outside the border",
+      "hint_ur": "یہ بارڈر کے باہر ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 50,
+      "type": "true-false",
+      "question": "The 'forEach' method in JavaScript can be used with objects.",
+      "question_ur": "جاوا اسکرپٹ میں 'forEach' طریقہ آبجیکٹس کے ساتھ استعمال کیا جا سکتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "forEach is an array method and cannot be directly used with objects. You would need to use Object.keys() or similar first.",
+      "explanation_ur": "forEach ایک سرے کا طریقہ ہے اور براہ راست آبجیکٹس کے ساتھ استعمال نہیں کیا جا سکتا۔ آپ کو پہلے Object.keys() یا اسی طرح کا استعمال کرنے کی ضرورت ہوگی۔",
+      "hint": "It's an array method",
+      "hint_ur": "یہ ایک سرے کا طریقہ ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid semantic HTML5 element?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا درست معنوی HTML5 عنصر نہیں ہے؟",
+      "options": {
+        "en": [
+          "<article>",
+          "<section>",
+          "<div>",
+          "<main>"
+        ],
+        "ur": [
+          "<article>",
+          "<section>",
+          "<div>",
+          "<main>"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "<div> is a generic container without semantic meaning, while the others are semantic HTML5 elements.",
+      "explanation_ur": "<div> ایک عام کنٹینر ہے جس کا کوئی معنوی مطلب نہیں ہے، جبکہ دیگر معنوی HTML5 عناصر ہیں۔",
+      "hint": "It's the most generic container",
+      "hint_ur": "یہ سب سے زیادہ عام کنٹینر ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "What is the purpose of the 'async' attribute in a script tag?",
+      "question_ur": "اسکرپٹ ٹیگ میں 'async' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To make the script execute immediately",
+          "To make the script execute asynchronously",
+          "To delay the script execution",
+          "To prevent the script from executing"
+        ],
+        "ur": [
+          "اسکرپٹ کو فوری طور پر عملدرآمد کرنے کے لیے",
+          "اسکرپٹ کو غیر متوازی طور پر عملدرآمد کرنے کے لیے",
+          "اسکرپٹ کی عملدرآمد کو مؤخر کرنے کے لیے",
+          "اسکرپٹ کی عملدرآمد کو روکنے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'async' attribute allows the script to be executed asynchronously as soon as it's available, without blocking document parsing.",
+      "explanation_ur": "'async' اٹریبیوٹ اسکرپٹ کو دستاویز کی پارسنگ کو بلاک کیے بغیر غیر متوازی طور پر عملدرآمد کرنے کی اجازت دیتا ہے جیسے ہی یہ دستیاب ہو۔",
+      "hint": "It's about non-blocking loading",
+      "hint_ur": "یہ نان بلاکنگ لوڈنگ کے بارے میں ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 53,
+      "type": "true-false",
+      "question": "The 'border-radius' property can create circular elements.",
+      "question_ur": "'border-radius' پراپرٹی سرکلر عناصر بنا سکتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "Setting border-radius to 50% on a square element will create a perfect circle.",
+      "explanation_ur": "مربع عنصر پر border-radius کو 50% پر سیٹ کرنا ایک کامل دائرہ بنائے گا۔",
+      "hint": "Think about rounding corners to their maximum",
+      "hint_ur": "کونوں کو ان کی زیادہ سے زیادہ حد تک گول کرنے کے بارے میں سوچیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid way to include CSS in HTML?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا HTML میں CSS شامل کرنے کا درست طریقہ نہیں ہے؟",
+      "options": {
+        "en": [
+          "Inline styles",
+          "Internal style sheet",
+          "External style sheet",
+          "JavaScript injection"
+        ],
+        "ur": [
+          "ان لائن سٹائلز",
+          "انٹرنل سٹائل شیٹ",
+          "ایکسٹرنل سٹائل شیٹ",
+          "جاوا اسکرپٹ انجیکشن"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "While JavaScript can modify styles, it's not considered a valid way to include CSS in HTML. The standard methods are inline, internal, and external.",
+      "explanation_ur": "اگرچہ جاوا اسکرپٹ سٹائلز کو تبدیل کر سکتا ہے، اسے HTML میں CSS شامل کرنے کا درست طریقہ نہیں سمجھا جاتا ہے۔ معیاری طریقے ان لائن، انٹرنل اور ایکسٹرنل ہیں۔",
+      "hint": "It's a programming approach, not a standard inclusion method",
+      "hint_ur": "یہ ایک پروگرامنگ کا طریقہ ہے، معیاری شمولیت کا طریقہ نہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "What is the purpose of the 'meta' tag in HTML?",
+      "question_ur": "HTML میں 'meta' ٹیگ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To create metadata about the HTML document",
+          "To add multimedia content",
+          "To style the document",
+          "To add scripting functionality"
+        ],
+        "ur": [
+          "HTML دستاویز کے بارے میں میٹا ڈیٹا بنانے کے لیے",
+          "ملٹی میڈیا مواد شامل کرنے کے لیے",
+          "دستاویز کو سٹائل کرنے کے لیے",
+          "اسکرپٹنگ کی فعالیت شامل کرنے کے لیے"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The <meta> tag provides metadata about the HTML document, such as character encoding, viewport settings, and descriptions.",
+      "explanation_ur": "<meta> ٹیگ HTML دستاویز کے بارے میں میٹا ڈیٹا فراہم کرتا ہے، جیسے کہ کریکٹر انکوڈنگ، ویوپورٹ سیٹنگز، اور تفصیلات۔",
+      "hint": "It's about document information",
+      "hint_ur": "یہ دستاویز کی معلومات کے بارے میں ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 56,
+      "type": "true-false",
+      "question": "The 'filter' property in CSS can only apply blur effects.",
+      "question_ur": "CSS میں 'filter' پراپرٹی صرف بلور اثرات لاگو کر سکتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "The filter property can apply various effects including blur, brightness, contrast, grayscale, and more.",
+      "explanation_ur": "filter پراپرٹی بلور، برائٹنیس، کنٹراسٹ، گرے اسکیل اور دیگر سمیت مختلف اثرات لاگو کر سکتی ہے۔",
+      "hint": "It's more versatile than just blur",
+      "hint_ur": "یہ صرف بلور سے زیادہ ورسٹائل ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "Which of these is NOT a JavaScript falsy value?",
+      "question_ur": "مندرجہ ذیل میں سے کون سی جاوا اسکرپٹ falsy ویلیو نہیں ہے؟",
+      "options": {
+        "en": [
+          "0",
+          "'' (empty string)",
+          "null",
+          "'0'"
+        ],
+        "ur": [
+          "0",
+          "'' (خالی سٹرنگ)",
+          "null",
+          "'0'"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "The string '0' is truthy in JavaScript, while 0, empty string, and null are falsy.",
+      "explanation_ur": "سٹرنگ '0' جاوا اسکرپٹ میں truthy ہے، جبکہ 0، خالی سٹرنگ، اور null falsy ہیں۔",
+      "hint": "It's a string containing a falsy number",
+      "hint_ur": "یہ ایک سٹرنگ ہے جس میں ایک falsy نمبر ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 59,
+      "type": "true-false",
+      "question": "The 'slice' method in JavaScript modifies the original array.",
+      "question_ur": "جاوا اسکرپٹ میں 'slice' طریقہ اصل سرے کو تبدیل کرتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "slice() returns a shallow copy of a portion of an array without modifying the original array.",
+      "explanation_ur": "slice() اصل سرے کو تبدیل کیے بغیر سرے کے ایک حصے کی ایک سطحی کاپی واپس کرتا ہے۔",
+      "hint": "It's a non-mutating method",
+      "hint_ur": "یہ ایک غیر تغیر پذیر طریقہ ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid CSS selector?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا درست CSS سلیکٹر نہیں ہے؟",
+      "options": {
+        "en": [
+          "Element selector (p)",
+          "ID selector (#id)",
+          "Class selector (.class)",
+          "Value selector (=value)"
+        ],
+        "ur": [
+          "عنصر سلیکٹر (p)",
+          "ID سلیکٹر (#id)",
+          "کلاس سلیکٹر (.class)",
+          "ویلیو سلیکٹر (=value)"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "'=value' is not a valid CSS selector. Valid selectors include element, ID, class, attribute, and pseudo-class selectors.",
+      "explanation_ur": "'=value' درست CSS سلیکٹر نہیں ہے۔ درست سلیکٹرز میں عنصر، ID، کلاس، اٹریبیوٹ، اور سیوڈو کلاس سلیکٹرز شامل ہیں۔",
+      "hint": "It looks like an assignment operator",
+      "hint_ur": "یہ ایک تفویض آپریٹر کی طرح لگتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 62,
+      "type": "true-false",
+      "question": "The 'splice' method in JavaScript modifies the original array.",
+      "question_ur": "جاوا اسکرپٹ میں 'splice' طریقہ اصل سرے کو تبدیل کرتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "splice() changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.",
+      "explanation_ur": "splice() موجودہ عناصر کو ہٹا کر یا تبدیل کرکے اور/یا نئے عناصر کو شامل کرکے سرے کے مواد کو تبدیل کرتا ہے۔",
+      "hint": "It's a mutating method",
+      "hint_ur": "یہ ایک تغیر پذیر طریقہ ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid way to create a JavaScript object?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا جاوا اسکرپٹ آبجیکٹ بنانے کا درست طریقہ نہیں ہے؟",
+      "options": {
+        "en": [
+          "Object literal syntax",
+          "Constructor function",
+          "Class syntax",
+          "Object.create() with a string"
+        ],
+        "ur": [
+          "آبجیکٹ لٹرل نحو",
+          "کنسٹرکٹر فنکشن",
+          "کلاس نحو",
+          "Object.create() سٹرنگ کے ساتھ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Object.create() requires a prototype object as its first argument, not a string.",
+      "explanation_ur": "Object.create() کو اپنے پہلے دلیل کے طور پر ایک پروٹوٹائپ آبجیکٹ کی ضرورت ہوتی ہے، سٹرنگ نہیں۔",
+      "hint": "Object.create needs a prototype",
+      "hint_ur": "Object.create کو ایک پروٹوٹائپ کی ضرورت ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 65,
+      "type": "true-false",
+      "question": "The 'map' method in JavaScript can be used to transform an array's elements.",
+      "question_ur": "جاوا اسکرپٹ میں 'map' طریقہ سرے کے عناصر کو تبدیل کرنے کے لیے استعمال کیا جا سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "map() creates a new array with the results of calling a provided function on every element in the calling array.",
+      "explanation_ur": "map() کال کرنے والے سرے میں ہر عنصر پر ایک فراہم کردہ فنکشن کو کال کرنے کے نتائج کے ساتھ ایک نیا سرا بناتا ہے۔",
+      "hint": "It's for transforming data",
+      "hint_ur": "یہ ڈیٹا کو تبدیل کرنے کے لیے ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 66,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid CSS display property value?",
+      "question_ur": "مندرجہ ذیل میں سے کون سی CSS ڈسپلے پراپرٹی کی درست ویلیو نہیں ہے؟",
+      "options": {
+        "en": [
+          "block",
+          "inline",
+          "table",
+          "visible"
+        ],
+        "ur": [
+          "block",
+          "inline",
+          "table",
+          "visible"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "'visible' is not a valid display value. Valid values include block, inline, flex, grid, table, and none.",
+      "explanation_ur": "'visible' ڈسپلے کی درست ویلیو نہیں ہے۔ درست ویلیوز میں block، inline، flex، grid، table، اور none شامل ہیں۔",
+      "hint": "It's a visibility property value, not display",
+      "hint_ur": "یہ وزیبلٹی پراپرٹی ویلیو ہے، ڈسپلے نہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 68,
+      "type": "true-false",
+      "question": "The 'filter' method in JavaScript modifies the original array.",
+      "question_ur": "جاوا اسکرپٹ میں 'filter' طریقہ اصل سرے کو تبدیل کرتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "filter() creates a new array with all elements that pass the test implemented by the provided function, without modifying the original array.",
+      "explanation_ur": "filter() اصل سرے کو تبدیل کیے بغیر فراہم کردہ فنکشن کے ذریعے نافذ کردہ ٹیسٹ کو پاس کرنے والے تمام عناصر کے ساتھ ایک نیا سرا بناتا ہے۔",
+      "hint": "It's a non-mutating method",
+      "hint_ur": "یہ ایک غیر تغیر پذیر طریقہ ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid JavaScript loop?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا درست جاوا اسکرپٹ لوپ نہیں ہے؟",
+      "options": {
+        "en": [
+          "for",
+          "while",
+          "do...while",
+          "repeat...until"
+        ],
+        "ur": [
+          "for",
+          "while",
+          "do...while",
+          "repeat...until"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "JavaScript doesn't have a 'repeat...until' loop. It has for, while, and do...while loops.",
+      "explanation_ur": "جاوا اسکرپٹ میں 'repeat...until' لوپ نہیں ہے۔ اس میں for، while، اور do...while لوپس ہیں۔",
+      "hint": "It's from other programming languages",
+      "hint_ur": "یہ دیگر پروگرامنگ زبانوں سے ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 70,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 71,
+      "type": "true-false",
+      "question": "The 'reduce' method in JavaScript always returns a single value.",
+      "question_ur": "جاوا اسکرپٹ میں 'reduce' طریقہ ہمیشہ ایک ہی ویلیو واپس کرتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "While reduce() is often used to return a single value, it can actually return any type including arrays or objects.",
+      "explanation_ur": "اگرچہ reduce() اکثر ایک ہی ویلیو واپس کرنے کے لیے استعمال ہوتا ہے، یہ اصل میں کسی بھی قسم کو واپس کر سکتا ہے جس میں سرے یا آبجیکٹ شامل ہیں۔",
+      "hint": "It's more flexible than people think",
+      "hint_ur": "یہ لوگوں کے خیال سے زیادہ لچکدار ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 72,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid way to declare a JavaScript function?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا جاوا اسکرپٹ فنکشن ڈیکلیر کرنے کا درست طریقہ نہیں ہے؟",
+      "options": {
+        "en": [
+          "Function declaration",
+          "Function expression",
+          "Arrow function",
+          "Function definition"
+        ],
+        "ur": [
+          "فنکشن ڈیکلیریشن",
+          "فنکشن ایکسپریشن",
+          "ایرو فنکشن",
+          "فنکشن ڈیفینیشن"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "'Function definition' is not a JavaScript term. The valid ways are function declaration, function expression, and arrow function.",
+      "explanation_ur": "'فنکشن ڈیفینیشن' جاوا اسکرپٹ کی اصطلاح نہیں ہے۔ درست طریقے فنکشن ڈیکلیریشن، فنکشن ایکسپریشن، اور ایرو فنکشن ہیں۔",
+      "hint": "It's not a standard JavaScript term",
+      "hint_ur": "یہ ایک معیاری جاوا اسکرپٹ اصطلاح نہیں ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 74,
+      "type": "true-false",
+      "question": "The 'every' method in JavaScript tests whether all elements pass a test.",
+      "question_ur": "جاوا اسکرپٹ میں 'every' طریقہ جانچتا ہے کہ آیا تمام عناصر ایک ٹیسٹ پاس کرتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "every() tests whether all elements in the array pass the test implemented by the provided function.",
+      "explanation_ur": "every() جانچتا ہے کہ آیا سرے میں تمام عناصر فراہم کردہ فنکشن کے ذریعے نافذ کردہ ٹیسٹ کو پاس کرتے ہیں۔",
+      "hint": "It's about universal quantification",
+      "hint_ur": "یہ عالمگیر مقدار کے بارے میں ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid CSS position property value?",
+      "question_ur": "مندرجہ ذیل میں سے کون سی CSS پوزیشن پراپرٹی کی درست ویلیو نہیں ہے؟",
+      "options": {
+        "en": [
+          "static",
+          "relative",
+          "center",
+          "sticky"
+        ],
+        "ur": [
+          "static",
+          "relative",
+          "center",
+          "sticky"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "'center' is not a valid position value. Valid values are static, relative, absolute, fixed, and sticky.",
+      "explanation_ur": "'center' پوزیشن کی درست ویلیو نہیں ہے۔ درست ویلیوز static، relative، absolute، fixed، اور sticky ہیں۔",
+      "hint": "It's an alignment value, not positioning",
+      "hint_ur": "یہ ایک ترتیب کی ویلیو ہے، پوزیشننگ نہیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 77,
+      "type": "true-false",
+      "question": "The 'some' method in JavaScript tests whether at least one element passes a test.",
+      "question_ur": "جاوا اسکرپٹ میں 'some' طریقہ جانچتا ہے کہ آیا کم از کم ایک عنصر ٹیسٹ پاس کرتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "some() tests whether at least one element in the array passes the test implemented by the provided function.",
+      "explanation_ur": "some() جانچتا ہے کہ آیا سرے میں کم از کم ایک عنصر فراہم کردہ فنکشن کے ذریعے نافذ کردہ ٹیسٹ کو پاس کرتا ہے۔",
+      "hint": "It's about existential quantification",
+      "hint_ur": "یہ وجودی مقدار کے بارے میں ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 78,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid JavaScript event?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا درست جاوا اسکرپٹ ایونٹ نہیں ہے؟",
+      "options": {
+        "en": [
+          "click",
+          "mouseover",
+          "keypress",
+          "elementchange"
+        ],
+        "ur": [
+          "click",
+          "mouseover",
+          "keypress",
+          "elementchange"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "'elementchange' is not a standard JavaScript event. Valid events include click, mouseover, keypress, change, etc.",
+      "explanation_ur": "'elementchange' ایک معیاری جاوا اسکرپٹ ایونٹ نہیں ہے۔ درست ایونٹس میں click، mouseover، keypress، change، وغیرہ شامل ہیں۔",
+      "hint": "It sounds similar to a real event",
+      "hint_ur": "یہ ایک حقیقی ایونٹ کی طرح لگتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 80,
+      "type": "true-false",
+      "question": "The 'find' method in JavaScript returns the first element that satisfies a test.",
+      "question_ur": "جاوا اسکرپٹ میں 'find' طریقہ پہلا عنصر واپس کرتا ہے جو ایک ٹیسٹ کو پورا کرتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "find() returns the value of the first element in the array that satisfies the provided testing function.",
+      "explanation_ur": "find() سرے میں پہلے عنصر کی ویلیو واپس کرتا ہے جو فراہم کردہ جانچنے والی فنکشن کو پورا کرتا ہے۔",
+      "hint": "It finds the first match",
+      "hint_ur": "یہ پہلا میچ ڈھونڈتا ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid JavaScript operator?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا درست جاوا اسکرپٹ آپریٹر نہیں ہے؟",
+      "options": {
+        "en": [
+          "===",
+          "!==",
+          "===",
+          "<>>"
+        ],
+        "ur": [
+          "===",
+          "!==",
+          "===",
+          "<>>"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "'<>>' is not a valid JavaScript operator. Valid operators include ===, !==, ==, !=, <, >, etc.",
+      "explanation_ur": "'<>>' درست جاوا اسکرپٹ آپریٹر نہیں ہے۔ درست آپریٹرز میں ===، !==، ==، !=، <، >، وغیرہ شامل ہیں۔",
+      "hint": "It's not a standard comparison operator",
+      "hint_ur": "یہ ایک معیاری موازنہ کرنے والا آپریٹر نہیں ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 83,
+      "type": "true-false",
+      "question": "The 'includes' method in JavaScript can be used with both strings and arrays.",
+      "question_ur": "جاوا اسکرپٹ میں 'includes' طریقہ سٹرنگز اور سرے دونوں کے ساتھ استعمال کیا جا سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "includes() is available for both strings (to check for substrings) and arrays (to check for element existence).",
+      "explanation_ur": "includes() سٹرنگز (ذیلی سٹرنگز کی جانچ کے لیے) اور سرے (عنصر کی موجودگی کی جانچ کے لیے) دونوں کے لیے دستیاب ہے۔",
+      "hint": "It's a versatile method",
+      "hint_ur": "یہ ایک ورسٹائل طریقہ ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 84,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid JavaScript data structure?",
+      "question_ur": "مندرجہ ذیل میں سے کون سی درست جاوا اسکرپٹ ڈیٹا ڈھانچہ نہیں ہے؟",
+      "options": {
+        "en": [
+          "Array",
+          "Object",
+          "Set",
+          "Tuple"
+        ],
+        "ur": [
+          "سرا",
+          "آبجیکٹ",
+          "سیٹ",
+          "ٹپل"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "JavaScript doesn't have a built-in Tuple type (though arrays can be used similarly). It has Array, Object, Set, Map, etc.",
+      "explanation_ur": "جاوا اسکرپٹ میں ایک بلٹ ان ٹپل قسم نہیں ہے (حالانکہ سرے اسی طرح استعمال کیے جا سکتے ہیں)۔ اس میں سرا، آبجیکٹ، سیٹ، میپ، وغیرہ شامل ہیں۔",
+      "hint": "It's from other programming languages",
+      "hint_ur": "یہ دیگر پروگرامنگ زبانوں سے ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 86,
+      "type": "true-false",
+      "question": "The 'Array.from()' method can create an array from array-like objects.",
+      "question_ur": "'Array.from()' طریقہ سرے جیسے آبجیکٹس سے ایک سرا بنا سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Array.from() creates a new Array instance from an array-like or iterable object (like NodeList or arguments).",
+      "explanation_ur": "Array.from() سرے جیسے یا قابل تکرار آبجیکٹ (جیسے NodeList یا arguments) سے ایک نیا سرا مثال بناتا ہے۔",
+      "hint": "It's useful for converting collections",
+      "hint_ur": "یہ مجموعوں کو تبدیل کرنے کے لیے مفید ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid way to create a React component?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا ری ایکٹ کمپوننٹ بنانے کا درست طریقہ نہیں ہے؟",
+      "options": {
+        "en": [
+          "Class component",
+          "Function component",
+          "Object component",
+          "Arrow function component"
+        ],
+        "ur": [
+          "کلاس کمپوننٹ",
+          "فنکشن کمپوننٹ",
+          "آبجیکٹ کمپوننٹ",
+          "ایرو فنکشن کمپوننٹ"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "React components can be created as class components or function components (including arrow functions), but not as plain objects.",
+      "explanation_ur": "ری ایکٹ کمپوننٹس کو کلاس کمپوننٹس یا فنکشن کمپوننٹس (ایرو فنکشنز سمیت) کے طور پر بنایا جا سکتا ہے، لیکن سادہ آبجیکٹس کے طور پر نہیں۔",
+      "hint": "React has specific component types",
+      "hint_ur": "ری ایکٹ کے مخصوص کمپوننٹ اقسام ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 89,
+      "type": "true-false",
+      "question": "The 'useState' hook in React can only be used with primitive values.",
+      "question_ur": "ری ایکٹ میں 'useState' ہک صرف ابتدائی اقدار کے ساتھ استعمال کیا جا سکتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "useState can be used with any value type - primitives, objects, or arrays.",
+      "explanation_ur": "useState کسی بھی ویلیو قسم کے ساتھ استعمال کیا جا سکتا ہے - ابتدائی، آبجیکٹس، یا سرے۔",
+      "hint": "It's more flexible than people think",
+      "hint_ur": "یہ لوگوں کے خیال سے زیادہ لچکدار ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 90,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid React hook?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا درست ری ایکٹ ہک نہیں ہے؟",
+      "options": {
+        "en": [
+          "useState",
+          "useEffect",
+          "useContext",
+          "useComponent"
+        ],
+        "ur": [
+          "useState",
+          "useEffect",
+          "useContext",
+          "useComponent"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "'useComponent' is not a valid React hook. The core hooks are useState, useEffect, useContext, useReducer, etc.",
+      "explanation_ur": "'useComponent' درست ری ایکٹ ہک نہیں ہے۔ بنیادی ہکس useState، useEffect، useContext، useReducer، وغیرہ ہیں۔",
+      "hint": "It's not in the core React API",
+      "hint_ur": "یہ بنیادی ری ایکٹ API میں نہیں ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 92,
+      "type": "true-false",
+      "question": "The 'useEffect' hook in React can mimic componentDidMount behavior.",
+      "question_ur": "ری ایکٹ میں 'useEffect' ہک componentDidMount رویے کی نقل کر سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "useEffect with an empty dependency array ([]) runs only once after the initial render, similar to componentDidMount.",
+      "explanation_ur": "useEffect ایک خالی انحصار سرے ([]) کے ساتھ صرف ایک بار ابتدائی رینڈر کے بعد چلتا ہے، componentDidMount کی طرح۔",
+      "hint": "Think about dependency arrays",
+      "hint_ur": "انحصار سرے کے بارے میں سوچیں",
+      "timeLimit": 30
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid way to handle events in React?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا ری ایکٹ میں ایونٹس کو ہینڈل کرنے کا درست طریقہ نہیں ہے؟",
+      "options": {
+        "en": [
+          "Inline arrow function",
+          "Class method",
+          "Function component method",
+          "HTML onclick attribute"
+        ],
+        "ur": [
+          "ان لائن ایرو فنکشن",
+          "کلاس طریقہ",
+          "فنکشن کمپوننٹ طریقہ",
+          "HTML onclick اٹریبیوٹ"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "React uses synthetic events, not HTML onclick attributes. Events are handled with onClick props and functions.",
+      "explanation_ur": "ری ایکٹ مصنوعی ایونٹس استعمال کرتا ہے، HTML onclick اٹریبیوٹس نہیں۔ ایونٹس onClick پروپس اور فنکشنز کے ساتھ ہینڈل کیے جاتے ہیں۔",
+      "hint": "React has its own event system",
+      "hint_ur": "ری ایکٹ کا اپنا ایونٹ سسٹم ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 95,
+      "type": "true-false",
+      "question": "The 'useReducer' hook in React is more complex than useState but useful for complex state logic.",
+      "question_ur": "ری ایکٹ میں 'useReducer' ہک useState سے زیادہ پیچیدہ ہے لیکن پیچیدہ اسٹیٹ منطق کے لیے مفید ہے۔",
+      "correctAnswer": true,
+      "explanation": "useReducer is usually preferable to useState when you have complex state logic or when the next state depends on the previous one.",
+      "explanation_ur": "useReducer عام طور پر useState سے ترجیحی ہوتا ہے جب آپ کے پاس پیچیدہ اسٹیٹ منطق ہو یا جب اگلی اسٹیٹ پچھلی پر منحصر ہو۔",
+      "hint": "It's inspired by Redux",
+      "hint_ur": "یہ ریڈکس سے متاثر ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 96,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid React lifecycle method?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا درست ری ایکٹ لائف سائیکل طریقہ نہیں ہے؟",
+      "options": {
+        "en": [
+          "componentDidMount",
+          "componentWillUpdate",
+          "componentShouldRender",
+          "componentDidUpdate"
+        ],
+        "ur": [
+          "componentDidMount",
+          "componentWillUpdate",
+          "componentShouldRender",
+          "componentDidUpdate"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "'componentShouldRender' is not a valid lifecycle method. The correct one is shouldComponentUpdate.",
+      "explanation_ur": "'componentShouldRender' درست لائف سائیکل طریقہ نہیں ہے۔ درست shouldComponentUpdate ہے۔",
+      "hint": "It's close to a real method name",
+      "hint_ur": "یہ ایک حقیقی طریقہ کے نام کے قریب ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 98,
+      "type": "true-false",
+      "question": "The 'useMemo' hook in React is used to optimize performance by memoizing expensive calculations.",
+      "question_ur": "ری ایکٹ میں 'useMemo' ہک مہنگی حساب کتاب کو میمورائز کرکے کارکردگی کو بہتر بنانے کے لیے استعمال ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "useMemo returns a memoized value, recomputing only when dependencies change, which helps optimize performance.",
+      "explanation_ur": "useMemo ایک میمورائزڈ ویلیو واپس کرتا ہے، صرف اس وقت دوبارہ حساب لگاتا ہے جب انحصار تبدیل ہوتا ہے، جو کارکردگی کو بہتر بنانے میں مدد کرتا ہے۔",
+      "hint": "It's about performance optimization",
+      "hint_ur": "یہ کارکردگی کی اصلاح کے بارے میں ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 99,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid way to pass data in React?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا ری ایکٹ میں ڈیٹا پاس کرنے کا درست طریقہ نہیں ہے؟",
+      "options": {
+        "en": [
+          "Props",
+          "Context",
+          "State",
+          "Globals"
+        ],
+        "ur": [
+          "پروپس",
+          "کونٹیکسٹ",
+          "اسٹیٹ",
+          "گلوبلز"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "While you can use global variables, it's not a recommended way to pass data in React. The preferred methods are props, context, and state.",
+      "explanation_ur": "اگرچہ آپ گلوبل متغیرات استعمال کر سکتے ہیں، یہ ری ایکٹ میں ڈیٹا پاس کرنے کا ایک تجویز کردہ طریقہ نہیں ہے۔ ترجیحی طریقے پروپس، کونٹیکسٹ، اور اسٹیٹ ہیں۔",
+      "hint": "React has specific data flow patterns",
+      "hint_ur": "ری ایکٹ کے مخصوص ڈیٹا فلو پیٹرنز ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 100,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 101,
+      "type": "true-false",
+      "question": "The 'useCallback' hook in React is used to memoize functions to prevent unnecessary re-renders.",
+      "question_ur": "ری ایکٹ میں 'useCallback' ہک غیر ضروری دوبارہ رینڈرز کو روکنے کے لیے فنکشنز کو میمورائز کرنے کے لیے استعمال ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "useCallback returns a memoized version of the callback that only changes if one of the dependencies has changed.",
+      "explanation_ur": "useCallback کال بیک کا ایک میمورائزڈ ورژن واپس کرتا ہے جو صرف اس صورت میں تبدیل ہوتا ہے جب انحصار میں سے ایک تبدیل ہوا ہو۔",
+      "hint": "It's about function reference stability",
+      "hint_ur": "یہ فنکشن حوالہ استحکام کے بارے میں ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 102,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid React optimization technique?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا درست ری ایکٹ اصلاح کا طریقہ نہیں ہے؟",
+      "options": {
+        "en": [
+          "React.memo",
+          "useMemo",
+          "useCallback",
+          "useOptimize"
+        ],
+        "ur": [
+          "React.memo",
+          "useMemo",
+          "useCallback",
+          "useOptimize"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "'useOptimize' is not a valid React hook. The optimization hooks are React.memo, useMemo, and useCallback.",
+      "explanation_ur": "'useOptimize' درست ری ایکٹ ہک نہیں ہے۔ اصلاح کے ہکس React.memo، useMemo، اور useCallback ہیں۔",
+      "hint": "It sounds like a real optimization hook",
+      "hint_ur": "یہ ایک حقیقی اصلاح ہک کی طرح لگتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 104,
+      "type": "true-false",
+      "question": "The 'useRef' hook in React can persist values across renders without causing re-renders.",
+      "question_ur": "ری ایکٹ میں 'useRef' ہک دوبارہ رینڈرز کا سبب بنے بغیر رینڈرز میں اقدار کو برقرار رکھ سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "useRef returns a mutable ref object whose .current property is initialized to the passed argument and persists across renders.",
+      "explanation_ur": "useRef ایک تغیر پذیر ref آبجیکٹ واپس کرتا ہے جس کی .current پراپرٹی پاس کی گئی دلیل سے شروع کی جاتی ہے اور رینڈرز میں برقرار رہتی ہے۔",
+      "hint": "It's useful for accessing DOM elements too",
+      "hint_ur": "یہ DOM عناصر تک رسائی کے لیے بھی مفید ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 105,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid React router component?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا درست ری ایکٹ روٹر کمپوننٹ نہیں ہے؟",
+      "options": {
+        "en": [
+          "BrowserRouter",
+          "Route",
+          "Link",
+          "NavigateTo"
+        ],
+        "ur": [
+          "BrowserRouter",
+          "Route",
+          "Link",
+          "NavigateTo"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "'NavigateTo' is not a React Router component. The correct component for navigation is 'Navigate' (v6) or 'Redirect' (v5).",
+      "explanation_ur": "'NavigateTo' ری ایکٹ روٹر کمپوننٹ نہیں ہے۔ نیویگیشن کے لیے درست کمپوننٹ 'Navigate' (v6) یا 'Redirect' (v5) ہے۔",
+      "hint": "It's close to real navigation components",
+      "hint_ur": "یہ حقیقی نیویگیشن کمپوننٹس کے قریب ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 106,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 107,
+      "type": "true-false",
+      "question": "The 'useContext' hook in React can replace Redux in all applications.",
+      "question_ur": "ری ایکٹ میں 'useContext' ہک تمام ایپلیکیشنز میں ریڈکس کو تبدیل کر سکتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "While useContext can replace Redux in simple cases, Redux provides additional features like middleware, devtools, and predictable state management for complex applications.",
+      "explanation_ur": "اگرچہ useContext سادہ معاملات میں ریڈکس کو تبدیل کر سکتا ہے، ریڈکس پیچیدہ ایپلیکیشنز کے لیے مڈل ویئر، ڈیو ٹولز، اور قابل پیشگوئی اسٹیٹ مینجمنٹ جیسی اضافی خصوصیات فراہم کرتا ہے۔",
+      "hint": "Consider the complexity of state management",
+      "hint_ur": "اسٹیٹ مینجمنٹ کی پیچیدگی پر غور کریں",
+      "timeLimit": 30
+    },
+    {
+      "id": 108,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid CSS Grid property?",
+      "question_ur": "مندرجہ ذیل میں سے کون سی درست CSS گرڈ پراپرٹی نہیں ہے؟",
+      "options": {
+        "en": [
+          "grid-template-columns",
+          "grid-gap",
+          "grid-align",
+          "grid-auto-rows"
+        ],
+        "ur": [
+          "grid-template-columns",
+          "grid-gap",
+          "grid-align",
+          "grid-auto-rows"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "'grid-align' is not a valid CSS Grid property. Valid properties include grid-template-columns, grid-gap (now gap), and grid-auto-rows.",
+      "explanation_ur": "'grid-align' درست CSS گرڈ پراپرٹی نہیں ہے۔ درست پراپرٹیز میں grid-template-columns، grid-gap (اب gap)، اور grid-auto-rows شامل ہیں۔",
+      "hint": "It sounds like a flexbox property",
+      "hint_ur": "یہ ایک فلیکس باکس پراپرٹی کی طرح لگتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 110,
+      "type": "true-false",
+      "question": "The 'useLayoutEffect' hook in React fires synchronously after all DOM mutations.",
+      "question_ur": "ری ایکٹ میں 'useLayoutEffect' ہک تمام DOM تغیرات کے بعد ہم آہنگی سے فائر ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "useLayoutEffect fires synchronously after all DOM mutations, before the browser has a chance to paint.",
+      "explanation_ur": "useLayoutEffect تمام DOM تغیرات کے بعد، براؤزر کے پینٹ کرنے کے موقع ملنے سے پہلے ہم آہنگی سے فائر ہوتا ہے۔",
+      "hint": "It's similar to componentDidMount and componentDidUpdate",
+      "hint_ur": "یہ componentDidMount اور componentDidUpdate سے ملتا جلتا ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 111,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid way to create a React component?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا ری ایکٹ کمپوننٹ بنانے کا درست طریقہ نہیں ہے؟",
+      "options": {
+        "en": [
+          "Class component extending React.Component",
+          "Function component with hooks",
+          "Object with render method",
+          "Arrow function component"
+        ],
+        "ur": [
+          "کلاس کمپوننٹ React.Component کو بڑھاتے ہوئے",
+          "ہکس کے ساتھ فنکشن کمپوننٹ",
+          "رینڈر طریقہ کے ساتھ آبجیکٹ",
+          "ایرو فنکشن کمپوننٹ"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "React components must be either classes extending React.Component or functions (including arrow functions), not plain objects.",
+      "explanation_ur": "ری ایکٹ کمپوننٹس یا تو کلاسز ہونے چاہئیں جو React.Component کو بڑھاتی ہوں یا فنکشنز (ایرو فنکشنز سمیت)، سادہ آبجیکٹس نہیں۔",
+      "hint": "React has specific component requirements",
+      "hint_ur": "ری ایکٹ کے مخصوص کمپوننٹ تقاضے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 112,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 113,
+      "type": "true-false",
+      "question": "The 'useImperativeHandle' hook in React is used to customize the instance value exposed to parent components.",
+      "question_ur": "ری ایکٹ میں 'useImperativeHandle' ہک والدین کمپوننٹس کو بے نقاب ہونے والی مثال کی ویلیو کو حسب ضرورت بنانے کے لیے استعمال ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "useImperativeHandle customizes the instance value that is exposed when using ref with forwardRef.",
+      "explanation_ur": "useImperativeHandle مثال کی ویلیو کو حسب ضرورت بناتا ہے جو ref کو forwardRef کے ساتھ استعمال کرتے وقت بے نقاب ہوتی ہے۔",
+      "hint": "It's used with forwardRef",
+      "hint_ur": "یہ forwardRef کے ساتھ استعمال ہوتا ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 114,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid CSS Flexbox property?",
+      "question_ur": "مندرجہ ذیل میں سے کون سی درست CSS فلیکس باکس پراپرٹی نہیں ہے؟",
+      "options": {
+        "en": [
+          "flex-direction",
+          "flex-wrap",
+          "flex-align",
+          "justify-content"
+        ],
+        "ur": [
+          "flex-direction",
+          "flex-wrap",
+          "flex-align",
+          "justify-content"
+        ]
+      },
+      "correctAnswer": 2,
+      "explanation": "'flex-align' is not a valid Flexbox property. Valid properties include flex-direction, flex-wrap, and justify-content.",
+      "explanation_ur": "'flex-align' درست فلیکس باکس پراپرٹی نہیں ہے۔ درست پراپرٹیز میں flex-direction، flex-wrap، اور justify-content شامل ہیں۔",
+      "hint": "It's similar to align-items",
+      "hint_ur": "یہ align-items سے ملتا جلتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 116,
+      "type": "true-false",
+      "question": "The 'useDebugValue' hook in React is used to display custom labels in React DevTools.",
+      "question_ur": "ری ایکٹ میں 'useDebugValue' ہک ری ایکٹ ڈیو ٹولز میں حسب ضرورت لیبلز ظاہر کرنے کے لیے استعمال ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "useDebugValue can be used to display a label for custom hooks in React DevTools.",
+      "explanation_ur": "useDebugValue کو ری ایکٹ ڈیو ٹولز میں حسب ضرورت ہکس کے لیے لیبل ظاہر کرنے کے لیے استعمال کیا جا سکتا ہے۔",
+      "hint": "It's for developer tools",
+      "hint_ur": "یہ ڈویلپر ٹولز کے لیے ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 117,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid way to optimize React performance?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا ری ایکٹ کارکردگی کو بہتر بنانے کا درست طریقہ نہیں ہے؟",
+      "options": {
+        "en": [
+          "Using React.memo",
+          "Using useMemo",
+          "Using useCallback",
+          "Using useOptimization"
+        ],
+        "ur": [
+          "React.memo کا استعمال",
+          "useMemo کا استعمال",
+          "useCallback کا استعمال",
+          "useOptimization کا استعمال"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "'useOptimization' is not a valid React hook. The valid optimization techniques are React.memo, useMemo, and useCallback.",
+      "explanation_ur": "'useOptimization' درست ری ایکٹ ہک نہیں ہے۔ درست اصلاح کے طریقے React.memo، useMemo، اور useCallback ہیں۔",
+      "hint": "It sounds like a real optimization hook",
+      "hint_ur": "یہ ایک حقیقی اصلاح ہک کی طرح لگتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 118,
+      "type": "mcq",
+      "question": "What is the purpose of the 'alt' attribute in an image tag?",
+      "question_ur": "امیج ٹیگ میں 'alt' اٹریبیوٹ کا مقصد کیا ہے؟",
+      "options": {
+        "en": [
+          "To add a title to the image",
+          "To provide alternative text for screen readers",
+          "To align the image",
+          "To add a border to the image"
+        ],
+        "ur": [
+          "تصویر کو عنوان دینے کے لیے",
+          "اسکرین ریڈرز کے لیے متبادل متن فراہم کرنے کے لیے",
+          "تصویر کو ترتیب دینے کے لیے",
+          "تصویر کو بورڈر دینے کے لیے"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed, important for accessibility and SEO.",
+      "explanation_ur": "'alt' اٹریبیوٹ تصویر کے لیے متبادل متن فراہم کرتا ہے اگر یہ ظاہر نہیں ہو سکتی، رسائی اور SEO کے لیے اہم ہے۔",
+      "hint": "It's important for accessibility",
+      "hint_ur": "یہ رسائی کے لیے اہم ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 119,
+      "type": "true-false",
+      "question": "The 'useTransition' hook in React is used to mark some state updates as non-urgent.",
+      "question_ur": "ری ایکٹ میں 'useTransition' ہک کچھ اسٹیٹ اپ ڈیٹس کو غیر فوری کے طور پر نشان زد کرنے کے لیے استعمال ہوتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "useTransition lets you mark some state updates as transitions, making them non-urgent and allowing more important updates to happen first.",
+      "explanation_ur": "useTransition آپ کو کچھ اسٹیٹ اپ ڈیٹس کو ٹرانزیشنز کے طور پر نشان زد کرنے دیتا ہے، انہیں غیر فوری بناتا ہے اور زیادہ اہم اپ ڈیٹس کو پہلے ہونے کی اجازت دیتا ہے۔",
+      "hint": "It's part of Concurrent Features",
+      "hint_ur": "یہ کنکورنٹ فیچرز کا حصہ ہے",
+      "timeLimit": 30
+    },
+    {
+      "id": 120,
+      "type": "mcq",
+      "question": "Which of these is NOT a valid way to handle forms in React?",
+      "question_ur": "مندرجہ ذیل میں سے کون سا ری ایکٹ میں فارمز کو ہینڈل کرنے کا درست طریقہ نہیں ہے؟",
+      "options": {
+        "en": [
+          "Controlled components",
+          "Uncontrolled components",
+          "Formik library",
+          "Direct DOM manipulation"
+        ],
+        "ur": [
+          "کنٹرولڈ کمپوننٹس",
+          "ان کنٹرولڈ کمپوننٹس",
+          "فارمک لائبریری",
+          "براہ راست DOM مینپولیشن"
+        ]
+      },
+      "correctAnswer": 3,
+      "explanation": "Direct DOM manipulation is not the React way to handle forms. The preferred methods are controlled components, uncontrolled components, or libraries like Formik.",
+      "explanation_ur": "براہ راست DOM مینپولیشن ری ایکٹ کا فارمز کو ہینڈل کرنے کا طریقہ نہیں ہے۔ ترجیحی طریقے کنٹرولڈ کمپوننٹس، ان کنٹرولڈ کمپوننٹس، یا فارمک جیسی لائبریریز ہیں۔",
+      "hint": "React avoids direct DOM manipulation",
+      "hint_ur": "ری ایکٹ براہ راست DOM مینپولیشن سے گریز کرتا ہے",
+      "timeLimit": 25
+    }
+  ]
+}

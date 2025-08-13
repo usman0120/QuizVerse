@@ -1,0 +1,72 @@
+{
+  "id": "science-nature",
+  "name": {
+    "en": "Science & Nature",
+    "ur": "سائنس اور فطرت"
+  },
+  "description": {
+    "en": "Explore the wonders of science and the natural world",
+    "ur": "سائنس اور قدرتی دنیا کے عجائبات کو دریافت کریں"
+  },
+  "color": "science",
+  "icon": "atom",
+  "sections": [
+    {
+      "id": "intro",
+      "name": {
+        "en": "Introduction",
+        "ur": "تعارف"
+      },
+      "content": {
+        "en": "<p>Science is the systematic study of the structure and behavior of the physical and natural world through observation and experiment. Nature refers to the phenomena of the physical world collectively, including plants, animals, the landscape, and other features and products of the earth.</p>",
+        "ur": "<p class='urdu'>سائنس مشاہدے اور تجربے کے ذریعے جسمانی اور قدرتی دنیا کے ڈھانچے اور رویے کا منظم مطالعہ ہے۔ فطرت سے مراد جسمانی دنیا کے اجتماعی مظاہر ہیں، جس میں پودے، جانور، منظر نامہ اور زمین کی دیگر خصوصیات اور مصنوعات شامل ہیں۔</p>"
+      }
+    },
+    {
+      "id": "topics",
+      "name": {
+        "en": "Topics",
+        "ur": "موضوعات"
+      },
+      "subsections": [
+        {
+          "id": "physics-basics",
+          "name": {
+            "en": "Physics Basics",
+            "ur": "طبیعیات کے بنیادی اصول"
+          },
+          "content": {
+            "en": "<p>Physics is the natural science that studies matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force.</p><h3>Key Concepts:</h3><ul><li>Newton's Laws of Motion</li><li>Thermodynamics</li><li>Electromagnetism</li></ul>",
+            "ur": "<p class='urdu'>طبیعیات ایک قدرتی سائنس ہے جو مادے، اس کے بنیادی اجزاء، خلاء اور وقت کے ذریعے اس کی حرکت اور رویے، اور توانائی اور قوت سے متعلق ہستیوں کا مطالعہ کرتی ہے۔</p><h3 class='urdu'>کلیدی تصورات:</h3><ul class='urdu'><li>نیوٹن کے قوانین حرکت</li><li>حرحرکیات</li><li>برقی مقناطیسیت</li></ul>"
+          }
+        },
+        {
+          "id": "biology-basics",
+          "name": {
+            "en": "Biology Basics",
+            "ur": "حیاتیات کے بنیادی اصول"
+          },
+          "content": {
+            "en": "<p>Biology is the scientific study of life. It is a natural science with a broad scope but has several unifying themes that tie it together as a single, coherent field.</p><h3>Key Concepts:</h3><ul><li>Cell Theory</li><li>Evolution</li><li>Genetics</li></ul>",
+            "ur": "<p class='urdu'>حیاتیات زندگی کا سائنسی مطالعہ ہے۔ یہ ایک وسیع دائرہ کار کے ساتھ ایک قدرتی سائنس ہے لیکن اس میں کئی متحد موضوعات ہیں جو اسے ایک مربوط میدان کے طور پر جوڑتے ہیں۔</p><h3 class='urdu'>کلیدی تصورات:</h3><ul class='urdu'><li>سیل تھیوری</li><li>ارتقاء</li><li>جینیات</li></ul>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fun-facts",
+      "name": {
+        "en": "Fun Facts",
+        "ur": "دلچسپ حقائق"
+      },
+      "content": {
+        "en": "<div class='grid grid-cols-1 md:grid-cols-2 gap-4'><div class='p-4 bg-brand/10 rounded-lg'><h3 class='font-bold'>Human Body</h3><p>The human body has enough DNA to stretch from the sun to Pluto and back — 17 times!</p></div><div class='p-4 bg-brand/10 rounded-lg'><h3 class='font-bold'>Space</h3><p>A day on Venus is longer than a year on Venus.</p></div></div>",
+        "ur": "<div class='grid grid-cols-1 md:grid-cols-2 gap-4'><div class='p-4 bg-brand/10 rounded-lg'><h3 class='font-bold urdu'>انسانی جسم</h3><p class='urdu'>انسانی جسم میں اتنا ڈی این اے ہے کہ وہ سورج سے پلوٹو تک اور واپس 17 بار جا سکتا ہے!</p></div><div class='p-4 bg-brand/10 rounded-lg'><h3 class='font-bold urdu'>خلاء</h3><p class='urdu'>زہرہ پر ایک دن زہرہ پر ایک سال سے زیادہ طویل ہوتا ہے۔</p></div></div>"
+      }
+    }
+  ],
+  "tags": ["science", "nature", "physics", "biology", "education"],
+  "lastUpdated": "2023-07-15",
+  "resources": 45,
+  "views": 1250
+}

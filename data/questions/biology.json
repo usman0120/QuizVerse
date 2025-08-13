@@ -1,0 +1,3682 @@
+{
+  "meta": {
+    "category": "biology",
+    "category_ur": "حیاتیات",
+    "description": "Test your knowledge of core biology facts — cells, genetics, ecology, anatomy and more.",
+    "description_ur": "خلیات، وراثت، ماحولیاتی علوم، جسمانیات اور مزید کے بنیادی حیاتیاتی حقائق کا امتحان لیں۔",
+    "difficulty": "easy-medium",
+    "image": "biology.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What is the basic structural and functional unit of life?",
+      "question_ur": "زندگی کی بنیادی ساختی اور فعالی اکائی کیا ہے؟",
+      "options": {
+        "en": ["Tissue", "Organ", "Cell", "Molecule"],
+        "ur": ["بافت", "عضو", "خلیہ", "مالیکیول"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Cells are the smallest units that carry out all life processes.",
+      "explanation_ur": "خلیے وہ سب سے چھوٹی اکائیاں ہیں جو تمام حیاتیاتی عمل انجام دیتی ہیں۔",
+      "hint": "Think small — the building block of organisms.",
+      "hint_ur": "چھوٹے کے بارے میں سوچیں — جانداروں کی بنیادی بلاک۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Which organelle is known as the powerhouse of the cell?",
+      "question_ur": "کس اعضا کو خلیے کی 'طاقت گھر' کہا جاتا ہے؟",
+      "options": {
+        "en": ["Nucleus", "Mitochondrion", "Ribosome", "Golgi apparatus"],
+        "ur": ["نیوکلیئس", "مائٹوکانڈریا", "ربوسوم", "گولجی جسم"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Mitochondria generate most of the cell's ATP through respiration.",
+      "explanation_ur": "مائٹوکانڈریا سانس کے ذریعے خلیے کا زیادہ تر ATP پیدا کرتے ہیں۔",
+      "hint": "Energy production site.",
+      "hint_ur": "توانائی پیدا کرنے کی جگہ۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which macromolecule is primarily responsible for storing genetic information?",
+      "question_ur": "کون سا میکرو مولیکیول جینیاتی معلومات ذخیرہ کرنے کے لیے ذمہ دار ہے؟",
+      "options": {
+        "en": ["Carbohydrates", "Proteins", "DNA", "Lipids"],
+        "ur": ["کاربوہائیڈریٹس", "پروٹین", "ڈی این اے", "لیمپس"]
+      },
+      "correctAnswer": 2,
+      "explanation": "DNA (deoxyribonucleic acid) stores hereditary information in organisms.",
+      "explanation_ur": "ڈی این اے (ڈِی آکسی رائبونوکلِک ایسڈ) جانداروں میں وراثتی معلومات ذخیرہ کرتا ہے۔",
+      "hint": "Double helix molecule.",
+      "hint_ur": "ڈبل ہیلکس مالیکیول۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 4,
+      "type": "true-false",
+      "question": "Photosynthesis occurs mainly in the mitochondria of plant cells.",
+      "question_ur": "فوٹوسنتھیسز پودوں کے خلیوں میں زیادہ تر مائٹوکانڈریا میں ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Photosynthesis occurs in chloroplasts, not mitochondria.",
+      "explanation_ur": "فوٹوسنتھیسز کلوروپلاست میں ہوتا ہے، مائٹوکانڈریا میں نہیں۔",
+      "hint": "Organelles with chlorophyll.",
+      "hint_ur": "کلوروفل والے اعضا کے بارے میں سوچیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Which blood cells carry oxygen throughout the body?",
+      "question_ur": "کون سی خون کی خلیات پورے جسم میں آکسیجن پہنچاتی ہیں؟",
+      "options": {
+        "en": ["White blood cells", "Platelets", "Red blood cells", "Plasma cells"],
+        "ur": ["سفید خلیات", "پلٹ لیٹس", "سرخ خلیات", "پلازما خلیات"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Red blood cells contain hemoglobin which binds and transports oxygen.",
+      "explanation_ur": "سرخ خلیات میں ہیموگلوبن ہوتا ہے جو آکسیجن باندھ کر منتقل کرتا ہے۔",
+      "hint": "They are rich in hemoglobin and lack nuclei in mammals.",
+      "hint_ur": "یہ ہیموگلوبن میں بھرپور ہوتے ہیں اور حیوانات میں نیوکلیئس نہیں رکھتے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "What process produces gametes (sperm and egg) with half the chromosome number?",
+      "question_ur": "کون سا عمل ایسے گیمیٹس (نر و مادہ) پیدا کرتا ہے جن میں کروموسوم کی تعداد آدھی ہوتی ہے؟",
+      "options": {
+        "en": ["Mitosis", "Meiosis", "Binary fission", "Budding"],
+        "ur": ["مائٹوسس", "مائیوسس", "بائنری فشن", "َبڈنگ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Meiosis reduces chromosome number by half to form haploid gametes.",
+      "explanation_ur": "مائیوسس کروموسوم کی تعداد آدھی کر کے ہاپلوئڈ گیمیٹس بناتا ہے۔",
+      "hint": "Includes two successive divisions (meiosis I and II).",
+      "hint_ur": "اس میں دو مسلسل تقسیمیں شامل ہوتی ہیں (مائیوسس I اور II).",
+      "timeLimit": 35
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Which molecule carries amino acids to the ribosome during translation?",
+      "question_ur": "کون سا مالیکیول پروٹین کی ترکیب (ترجمہ) کے دوران امینو ایسڈز کو ربوسوم تک پہنچاتا ہے؟",
+      "options": {
+        "en": ["mRNA", "tRNA", "rRNA", "DNA"],
+        "ur": ["mRNA", "tRNA", "rRNA", "ڈی این اے"]
+      },
+      "correctAnswer": 1,
+      "explanation": "tRNA (transfer RNA) brings specific amino acids to the ribosome matching codons on mRNA.",
+      "explanation_ur": "tRNA مخصوص امینو ایسڈز کو mRNA کے کوڈون سے میل کھاتے ہوئے ربوسوم تک لاتا ہے۔",
+      "hint": "It's the adapter molecule with an anticodon.",
+      "hint_ur": "یہ ایک اڈاپٹر مالیکیول ہے جس میں اینٹی کوڈون ہوتا ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 8,
+      "type": "true-false",
+      "question": "Antibiotics are effective against viruses.",
+      "question_ur": "اینٹی بایوٹکس وائرس کے خلاف مؤثر ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Antibiotics target bacteria; they do not work against viruses.",
+      "explanation_ur": "اینٹی بایوٹکس بیکٹیریا کو ہدف بناتی ہیں؛ یہ وائرس کے خلاف مؤثر نہیں ہوتیں۔",
+      "hint": "Different treatments for bacteria vs viruses.",
+      "hint_ur": "بیکٹیریا اور وائرس کے مختلف علاج ہوتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Which blood vessel carries blood away from the heart?",
+      "question_ur": "کون سی شریان دل سے خون لے جاتی ہے؟",
+      "options": {
+        "en": ["Vein", "Capillary", "Artery", "Venule"],
+        "ur": ["ورین", "کیپلیری", "شریان", "وینول"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Arteries carry blood away from the heart; veins return it to the heart.",
+      "explanation_ur": "شریانیں دل سے خون لے جاتی ہیں؛ رگیں اسے دل کی طرف واپس لاتی ہیں۔",
+      "hint": "Think aorta as the main example.",
+      "hint_ur": "مین شریان 'آؤرٹا' کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Which kingdom do mushrooms belong to?",
+      "question_ur": "کھمبی کس بادشاہت (kingdom) سے تعلق رکھتی ہے؟",
+      "options": {
+        "en": ["Plantae", "Animalia", "Fungi", "Protista"],
+        "ur": ["پلانٹیئی", "اینملیا", "فنجي", "پروٹسٹا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Mushrooms are fungi; they obtain nutrients by absorption and have chitin in cell walls.",
+      "explanation_ur": "کھمبی فنجي ہیں؛ یہ جذب کرکے غذائیت حاصل کرتی ہیں اور ان کی خلیائی دیوار میں کیٹن ہوتا ہے۔",
+      "hint": "Not plants; they digest externally.",
+      "hint_ur": "یہ پودے نہیں ہیں؛ یہ باہر سے ہضم کرتے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "What pigment gives plants their green color?",
+      "question_ur": "پودوں کو سبز رنگ دینے والا رنگین مادہ کون سا ہے؟",
+      "options": {
+        "en": ["Chlorophyll", "Carotene", "Anthocyanin", "Melanin"],
+        "ur": ["کلوروفل", "کیروٹین", "اینتو سائینن", "میلین"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Chlorophyll absorbs light for photosynthesis and reflects green wavelengths.",
+      "explanation_ur": "کلوروفل روشنی کو فوتوسنتھیسز کے لیے جذب کرتا ہے اور سبز طول موج کو منعکس کرتا ہے۔",
+      "hint": "Located in chloroplasts.",
+      "hint_ur": "کلوروپلاسٹ میں واقع ہوتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "question": "All prokaryotes lack a membrane-bound nucleus.",
+      "question_ur": "تمام پروکاریوٹس میں جھلی بند نیوکلیئس نہیں ہوتا۔",
+      "correctAnswer": true,
+      "explanation": "Prokaryotes (bacteria and archaea) have no membrane-bound nucleus; DNA is in the nucleoid.",
+      "explanation_ur": "پروکاریوٹس (بیکٹیریا اور آرکیا) میں جھلی بند نیوکلیئس نہیں ہوتا؛ ڈی این اے نیوکلوئڈ میں ہوتا ہے۔",
+      "hint": "Prokaryote vs eukaryote distinction.",
+      "hint_ur": "پروکاریوٹس اور یوکاریوٹس کا فرق ذہن میں رکھیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "Which organ filters waste from human blood to form urine?",
+      "question_ur": "کون سا عضو انسانی خون سے فضلات فلٹر کر کے پیشاب بناتا ہے؟",
+      "options": {
+        "en": ["Liver", "Kidney", "Pancreas", "Spleen"],
+        "ur": ["جگر", "گردہ", "لبلبہ", "پلِیّا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Kidneys filter blood, remove waste and excess water, and produce urine.",
+      "explanation_ur": "گردے خون کو فلٹر کرتے ہیں، فضلات اور اضافی پانی نکالتے ہیں اور پیشاب بناتے ہیں۔",
+      "hint": "Bean-shaped paired organs.",
+      "hint_ur": "بیین کی شکل کے جوڑے والے عضو کے بارے میں سوچیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "Which process moves water across a semipermeable membrane from low solute to high solute?",
+      "question_ur": "کون سا عمل نیم نفوذ پذیر جھلی کے پار پانی کو کم محلول سے زیادہ محلول کی طرف منتقل کرتا ہے؟",
+      "options": {
+        "en": ["Diffusion", "Osmosis", "Active transport", "Facilitated diffusion"],
+        "ur": ["تفریق", "اوسموسس", "سرگرم نقل و حمل", "مدد یافتہ تفریق"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Osmosis is the diffusion of water across a semipermeable membrane toward higher solute concentration.",
+      "explanation_ur": "اوسموسس پانی کا نیم نفوذ پذیر جھلی کے پار زیادہ محلول کی طرف منتقلی ہے۔",
+      "hint": "Water-only movement.",
+      "hint_ur": "صرف پانی کی نقل و حمل کے بارے میں سوچیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "In humans, which organ is primarily responsible for insulin production?",
+      "question_ur": "انسانوں میں انسولین کی بنیادی پیداوار کس عضو میں ہوتی ہے؟",
+      "options": {
+        "en": ["Thyroid", "Liver", "Pancreas", "Adrenal gland"],
+        "ur": ["تھائرائڈ", "جگر", "لبلبہ", "ایڈرینل گلینڈ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The pancreas produces insulin in beta cells of the islets of Langerhans.",
+      "explanation_ur": "لبلبہ میں لانگرہانس کے آئسلٹس کے بیٹا خلیے انسولین بناتے ہیں۔",
+      "hint": "Regulates blood glucose.",
+      "hint_ur": "خون میں شکر کو کنٹرول کرتا ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "What term describes organisms that make their own food using sunlight?",
+      "question_ur": "ان اجسام کو کیا کہتے ہیں جو سورج کی روشنی استعمال کر کے اپنی خوراک بناتے ہیں؟",
+      "options": {
+        "en": ["Heterotrophs", "Decomposers", "Autotrophs", "Parasites"],
+        "ur": ["ہیٹروٹروف", "نمازِن", "آٹو ٹروف", "پیرا سائٹس"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Autotrophs (like plants and some bacteria) synthesize organic compounds from inorganic sources using light or chemicals.",
+      "explanation_ur": "آٹو ٹروف (پودے اور کچھ بیکٹیریا) روشنی یا کیمیائی توانائی استعمال کر کے غیر نامیاتی مادوں سے نامیاتی مرکبات بناتے ہیں۔",
+      "hint": "Self-feeders.",
+      "hint_ur": "اپنے لیے خوراک بنانے والے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 17,
+      "type": "true-false",
+      "question": "DNA replication occurs before cell division.",
+      "question_ur": "خلیائی تقسیم سے قبل ڈی این اے کی نقول تیار ہوتی ہیں۔",
+      "correctAnswer": true,
+      "explanation": "DNA must be replicated during S phase of the cell cycle so each daughter cell gets a copy.",
+      "explanation_ur": "ہر بیٹی خلیے کو ڈی این اے کی نقل دینے کے لیے خلیائی چکر کے S مرحلے میں ڈی این اے کی نقول بنائی جاتی ہیں۔",
+      "hint": "S phase in cell cycle.",
+      "hint_ur": "خلیائی چکر کا S مرحلہ ذہن میں رکھیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Which macromolecule forms cell membranes in a bilayer?",
+      "question_ur": "کون سا میکرو مولیکیول خلیائی جھلیوں کو بائلئیر میں بناتا ہے؟",
+      "options": {
+        "en": ["Carbohydrates", "Phospholipids", "DNA", "Polysaccharides"],
+        "ur": ["کاربوہائیڈریٹس", "فاسفولِپڈز", "ڈی این اے", "پولِی سَیکرائیڈز"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Phospholipids arrange into a bilayer with hydrophobic tails inward and hydrophilic heads outward.",
+      "explanation_ur": "فاسفولِپڈز ہائیڈروفوبک دموں کو اندر اور ہائیڈروفِیلِک سر کو باہر رکھ کر بائلئیر بناتے ہیں۔",
+      "hint": "Amphipathic molecules.",
+      "hint_ur": "دونوں خواص رکھنے والے مالیکیول۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Which human gland is primarily responsible for the 'fight or flight' response?",
+      "question_ur": "کس انسانی غدود 'فائٹ اور فلائٹ' (لڑائی یا فرار) کے ردِعمل کے لیے بنیادی ذمہ دار ہے؟",
+      "options": {
+        "en": ["Pituitary gland", "Adrenal gland", "Thyroid gland", "Pancreas"],
+        "ur": ["پِٹیوٹری گلینڈ", "ایڈرینل گلینڈ", "تھائرائڈ گلینڈ", "لبلبہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Adrenal glands release adrenaline (epinephrine) that mediates the acute stress response.",
+      "explanation_ur": "ایڈرینل گلینڈ ایڈرینالین (ایپینیفرین) خارج کرتا ہے جو فوری دباؤ کے ردِعمل میں کردار ادا کرتا ہے۔",
+      "hint": "Produces adrenaline and cortisol.",
+      "hint_ur": "ایڈرینالین اور کارٹیسول بناتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Which structure in plants transports water from roots to leaves?",
+      "question_ur": "پودوں میں کون سی ساخت جڑوں سے پتوں تک پانی پہنچاتی ہے؟",
+      "options": {
+        "en": ["Phloem", "Xylem", "Cambium", "Stomata"],
+        "ur": ["فلوئم", "زائلیم", "کیمبیئم", "اسٹومیٹا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Xylem conducts water and dissolved minerals upward from roots to shoots and leaves.",
+      "explanation_ur": "زائلیم جڑوں سے اوپر کی طرف پانی اور محلول معدنیات کو منتقل کرتا ہے۔",
+      "hint": "Think 'upward' transport of water.",
+      "hint_ur": "پانی کی اوپر کی ترسیل کے بارے میں سوچیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Which term describes a species' role and position in its environment?",
+      "question_ur": "کس اصطلاح سے کسی نوع کے ماحولیاتی کردار اور مقام کو بیان کیا جاتا ہے؟",
+      "options": {
+        "en": ["Biome", "Habitat", "Niche", "Trophic level"],
+        "ur": ["بایوم", "مسکن", "نِچ", "خوراکی سطح"]
+      },
+      "correctAnswer": 2,
+      "explanation": "A niche includes the species' role, resources used, and interactions with others.",
+      "explanation_ur": "نِچ میں نوع کا کردار، استعمال ہونے والے وسائل اور دوسروں کے ساتھ تعاملات شامل ہوتے ہیں۔",
+      "hint": "Not just where it lives but how it lives.",
+      "hint_ur": "محض رہائش نہیں بلکہ وہ کیسے زندہ رہتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 22,
+      "type": "true-false",
+      "question": "Enzymes increase the activation energy required for biochemical reactions.",
+      "question_ur": "انزائم حیاتی کیمیائی ردِعمل کے لیے درکار فعال توانائی (activation energy) کو بڑھاتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Enzymes lower activation energy, thereby speeding up reactions.",
+      "explanation_ur": "انزائم فعال توانائی کو کم کرتے ہیں، اس طرح ردِعمل تیز ہوتے ہیں۔",
+      "hint": "Think catalysts.",
+      "hint_ur": "کَٹلِسٹ (تحریک کنندہ) کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Which RNA carries genetic information from DNA to the ribosome?",
+      "question_ur": "کون سا آر این اے جینیاتی معلومات ڈی این اے سے ربوسوم تک لے جاتا ہے؟",
+      "options": {
+        "en": ["tRNA", "mRNA", "rRNA", "siRNA"],
+        "ur": ["tRNA", "mRNA", "rRNA", "siRNA"]
+      },
+      "correctAnswer": 1,
+      "explanation": "mRNA (messenger RNA) is transcribed from DNA and translated into protein at ribosomes.",
+      "explanation_ur": "mRNA (میسنجر آر این اے) ڈی این اے سے نقل لکھا جاتا ہے اور ربوسوم پر پروٹین میں ترجمہ ہوتا ہے۔",
+      "hint": "Messenger molecule.",
+      "hint_ur": "پیغام رسان مالیکیول۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which kingdom includes single-celled eukaryotes like amoebae?",
+      "question_ur": "کس بادشاہت میں اکیلے خلیے والے یوکاریوٹ جیسے ایمیبا شامل ہیں؟",
+      "options": {
+        "en": ["Fungi", "Protista", "Bacteria", "Plantae"],
+        "ur": ["فنجي", "پروٹسٹا", "بیکٹیریا", "پلانٹیئی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Protista (or protists) include many single-celled eukaryotes such as amoebae and paramecia.",
+      "explanation_ur": "پروٹسٹا میں متعدد ایک خلیے والے یوکاریوٹس شامل ہیں جیسے ایمیبا اور پیریمیشیا۔",
+      "hint": "Neither plant, animal, nor fungi.",
+      "hint_ur": "نہ پودا، نہ حیوان، نہ فنجي۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Which blood type is known as the universal donor (for red blood cells)?",
+      "question_ur": "کس خون کے گروپ کو عام عطیہ کنندہ (ریڈ بلڈ سیلز کے لیے) کہا جاتا ہے؟",
+      "options": {
+        "en": ["A", "B", "AB", "O negative"],
+        "ur": ["A", "B", "AB", "O- (او نیگیٹو)"]
+      },
+      "correctAnswer": 3,
+      "explanation": "O negative red blood cells lack A/B and Rh antigens, making them compatible for most recipients.",
+      "explanation_ur": "O نیگیٹو سرخ خلیات میں A/B اور Rh اینٹی جین کم ہوتے ہیں، اس لیے یہ زیادہ تر وصول کنندگان کے لیے موزوں ہوتے ہیں۔",
+      "hint": "No A, no B, Rh negative.",
+      "hint_ur": "A نہیں، B نہیں، Rh منفی۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 26,
+      "type": "true-false",
+      "question": "Viruses are considered living organisms by all biologists.",
+      "question_ur": "وائرسز کو تمام حیاتیات دان زندہ مخلوق سمجھتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "There is debate: viruses lack metabolism and cannot reproduce independently, so many biologists do not classify them as fully living.",
+      "explanation_ur": "بحث جاری ہے: وائرس میٹابولزم نہیں رکھتے اور خود پیداوار نہیں کر سکتے، اس لیے کئی حیاتیات دان انہیں مکمل طور پر زندہ مخلوق نہیں مانتے۔",
+      "hint": "They require host cells to replicate.",
+      "hint_ur": "انہیں نقل کے لیے میزبان خلیوں کی ضرورت ہوتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "Which structure allows gas exchange in leaves?",
+      "question_ur": "پتوں میں گیسوں کے تبادلے کی اجازت دینے والی ساخت کون سی ہے؟",
+      "options": {
+        "en": ["Stomata", "Xylem", "Phloem", "Palisade layer"],
+        "ur": ["اسٹومیٹا", "زائلیم", "فلوئم", "پیلسیڈ طبقہ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Stomata are pores on the leaf surface controlled by guard cells that allow CO2 in and O2 out.",
+      "explanation_ur": "اسٹومیٹا پتے کی سطح پر مسام ہیں جنہیں گارڈ خلیے کنٹرول کرتے ہیں اور یہ CO2 کو اندر اور O2 کو باہر آنے دیتے ہیں۔",
+      "hint": "Also involved in transpiration.",
+      "hint_ur": "ٹرانسپیریشن میں بھی حصہ لیتے ہیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "Which term describes organisms that eat both plants and animals?",
+      "question_ur": "ان جانداروں کو کیا کہتے ہیں جو پودے اور جانور دونوں کھاتے ہیں؟",
+      "options": {
+        "en": ["Herbivores", "Carnivores", "Omnivores", "Detritivores"],
+        "ur": ["جانوارن خور", "گوشت خور", "جامع خور", "تفریقی خور"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Omnivores consume both plant and animal matter (e.g., humans, bears).",
+      "explanation_ur": "جامع خور پودوں اور جانوروں دونوں کی چیزیں کھاتے ہیں (مثلاً انسان، ریچھ)۔",
+      "hint": "Eat 'all' types of food.",
+      "hint_ur": "ہر قسم کی خوراک کھاتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "What is the primary function of white blood cells (leukocytes)?",
+      "question_ur": "سفید خون کے خلیات (لیوکوسائٹس) کا بنیادی کام کیا ہے؟",
+      "options": {
+        "en": ["Carry oxygen", "Clot blood", "Fight infection", "Carry nutrients"],
+        "ur": ["آکسیجن پہنچانا", "خون کو جمنے دینا", "انفیکشن سے لڑنا", "غذائیت پہنچانا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "White blood cells are key components of the immune system that defend against pathogens.",
+      "explanation_ur": "سفید خلیات مدافعتی نظام کے اہم جزو ہیں جو جراثیم کے خلاف دفاع کرتے ہیں۔",
+      "hint": "Immune defenders.",
+      "hint_ur": "مدافعتی محافظ۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "Which process describes the loss of water vapor from plant leaves?",
+      "question_ur": "پودوں کے پتوں سے پانی کے بخارات کا نکلنا کس عمل کو کہتے ہیں؟",
+      "options": {
+        "en": ["Transpiration", "Evaporation", "Condensation", "Sublimation"],
+        "ur": ["ٹرانسپیریشن", "بھاپ بننا", "کثیف ہونا", "سبلائمیشن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Transpiration is the loss of water vapor from aerial parts of plants, mainly through stomata.",
+      "explanation_ur": "ٹرانسپیریشن پودوں کے ہوائی حصوں سے پانی کے بخارات کا اخراج ہے، خاص طور پر اسٹومیٹا کے ذریعے۔",
+      "hint": "Linked to xylem water movement and stomata.",
+      "hint_ur": "زائلیم پانی کی نقل و حرکت اور اسٹومیٹا سے منسلک ہے۔",
+      "timeLimit": 25
+    },
+    
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Which organelle is responsible for protein synthesis in cells?",
+      "question_ur": "کس اعضا کا خلیے میں پروٹین بنانے کے لیے ذمہ دار ہے؟",
+      "options": {
+        "en": ["Lysosome", "Ribosome", "Chloroplast", "Nucleus"],
+        "ur": ["لائسوسوم", "ربوسوم", "کلوروپلاسٹ", "نیوکلیئس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ribosomes assemble amino acids into proteins according to mRNA instructions.",
+      "explanation_ur": "ربوسوم mRNA کی ہدایات کے مطابق امینو ایسڈز کو پروٹین میں جوڑتے ہیں۔",
+      "hint": "Can be free in cytoplasm or bound to ER.",
+      "hint_ur": "سائٹوپلازم میں آزاد یا ای آر سے جُڑے ہو سکتے ہیں۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 32,
+      "type": "true-false",
+      "question": "All fungi are multicellular organisms.",
+      "question_ur": "تمام فنجائی کثیر خلوی جاندار ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Some fungi, like yeast, are unicellular.",
+      "explanation_ur": "کچھ فنجائی جیسے خمیریہ ایک خلوی ہوتے ہیں۔",
+      "hint": "Think of yeast in bread-making.",
+      "hint_ur": "روٹی بنانے میں استعمال ہونے والے خمیریے کو یاد کریں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Which part of the brain controls balance and coordination?",
+      "question_ur": "دماغ کا کون سا حصہ توازن اور ہم آہنگی کو کنٹرول کرتا ہے؟",
+      "options": {
+        "en": ["Cerebrum", "Cerebellum", "Medulla oblongata", "Hypothalamus"],
+        "ur": ["سیریبرم", "سیریبیلم", "میڈولا اوبلونگاٹا", "ہائپو تھیلمس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The cerebellum helps coordinate voluntary movements and maintain balance.",
+      "explanation_ur": "سیریبیلم رضاکارانہ حرکتوں کو ہم آہنگ کرنے اور توازن برقرار رکھنے میں مدد کرتا ہے۔",
+      "hint": "Located at the back of the brain under the cerebrum.",
+      "hint_ur": "دماغ کے پچھلے حصے میں سیریبرم کے نیچے ہوتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "Which vitamin is produced in the skin when exposed to sunlight?",
+      "question_ur": "سورج کی روشنی کے اثر سے جلد میں کون سا وٹامن پیدا ہوتا ہے؟",
+      "options": {
+        "en": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+        "ur": ["وٹامن A", "وٹامن C", "وٹامن D", "وٹامن K"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Vitamin D is synthesized in the skin from cholesterol when exposed to UVB light.",
+      "explanation_ur": "وٹامن D جلد میں کولیسٹرول سے UVB روشنی کے تحت بنتا ہے۔",
+      "hint": "Important for calcium absorption.",
+      "hint_ur": "کیلشیم کے جذب کے لیے اہم۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "Which blood component is primarily responsible for clotting?",
+      "question_ur": "خون کے جمنے کے لیے بنیادی طور پر کون سا جز ذمہ دار ہے؟",
+      "options": {
+        "en": ["Plasma", "White blood cells", "Platelets", "Red blood cells"],
+        "ur": ["پلازما", "سفید خلیات", "پلیٹ لیٹس", "سرخ خلیات"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Platelets help form blood clots to stop bleeding.",
+      "explanation_ur": "پلیٹ لیٹس خون کے جمنے میں مدد کرتے ہیں تاکہ خون بہنا بند ہو جائے۔",
+      "hint": "Small, disc-shaped cell fragments.",
+      "hint_ur": "چھوٹے، ڈسک نما خلیاتی ذرات۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 36,
+      "type": "true-false",
+      "question": "Chloroplasts are found in animal cells.",
+      "question_ur": "کلوروپلاسٹ حیوانی خلیوں میں پائے جاتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Chloroplasts are found in plant cells and some protists, not in animals.",
+      "explanation_ur": "کلوروپلاسٹ پودوں اور کچھ پروٹسٹس کے خلیوں میں پائے جاتے ہیں، جانوروں میں نہیں۔",
+      "hint": "Think green cells that photosynthesize.",
+      "hint_ur": "سبز خلیوں کو یاد کریں جو فوٹوسنتھیسز کرتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "Which process converts glucose into energy in the presence of oxygen?",
+      "question_ur": "کون سا عمل آکسیجن کی موجودگی میں گلوکوز کو توانائی میں تبدیل کرتا ہے؟",
+      "options": {
+        "en": ["Photosynthesis", "Aerobic respiration", "Fermentation", "Glycolysis"],
+        "ur": ["فوٹوسنتھیسز", "ایروبک تنفس", "فرمینٹیشن", "گلیکولائسز"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Aerobic respiration produces ATP by breaking down glucose in the presence of oxygen.",
+      "explanation_ur": "ایروبک تنفس گلوکوز کو آکسیجن کے ساتھ توڑ کر ATP پیدا کرتا ہے۔",
+      "hint": "Occurs in mitochondria.",
+      "hint_ur": "مائٹوکانڈریا میں ہوتا ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "Which term refers to the study of heredity?",
+      "question_ur": "کس اصطلاح سے وراثت کے مطالعہ کو کہا جاتا ہے؟",
+      "options": {
+        "en": ["Ecology", "Genetics", "Cytology", "Physiology"],
+        "ur": ["اکولوجی", "جینیٹکس", "سائٹولوجی", "فزیولوجی"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Genetics is the study of genes, heredity, and genetic variation.",
+      "explanation_ur": "جینیٹکس جینز، وراثت اور جینیاتی تغیرات کا مطالعہ ہے۔",
+      "hint": "Founded by Gregor Mendel.",
+      "hint_ur": "گریگر مینڈل کے کام سے شروع ہوا۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 39,
+      "type": "true-false",
+      "question": "DNA is made up of nucleotides containing sugar, phosphate, and nitrogen base.",
+      "question_ur": "ڈی این اے نیوکلیوٹائڈز پر مشتمل ہوتا ہے جن میں شکر، فاسفیٹ اور نائٹروجن بیس شامل ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "DNA nucleotides have a deoxyribose sugar, a phosphate group, and one of four nitrogen bases.",
+      "explanation_ur": "ڈی این اے کے نیوکلیوٹائڈز میں ڈی آکسی رائبوز شکر، فاسفیٹ گروپ اور چار نائٹروجن بیس میں سے ایک شامل ہوتا ہے۔",
+      "hint": "Think of the ladder-like structure.",
+      "hint_ur": "سیڑھی نما ساخت کو یاد کریں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "Which type of blood vessel connects arteries to veins?",
+      "question_ur": "کون سی خون کی نالی شریانوں کو رگوں سے جوڑتی ہے؟",
+      "options": {
+        "en": ["Capillaries", "Arterioles", "Venules", "Lymph vessels"],
+        "ur": ["کیپلیریز", "آرٹیریولز", "وینولز", "لمف نالیاں"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Capillaries are tiny vessels where exchange of gases, nutrients, and wastes occurs.",
+      "explanation_ur": "کیپلیریز چھوٹی نالیاں ہیں جہاں گیسوں، غذائیت اور فضلات کا تبادلہ ہوتا ہے۔",
+      "hint": "Smallest blood vessels.",
+      "hint_ur": "سب سے چھوٹی خون کی نالیاں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "Which gas do plants release during photosynthesis?",
+      "question_ur": "پودے فوٹوسنتھیسز کے دوران کون سی گیس خارج کرتے ہیں؟",
+      "options": {
+        "en": ["Carbon dioxide", "Oxygen", "Nitrogen", "Methane"],
+        "ur": ["کاربن ڈائی آکسائیڈ", "آکسیجن", "نائٹروجن", "میٹھین"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Oxygen is released as a by-product of photosynthesis when water molecules are split.",
+      "explanation_ur": "جب پانی کے مالیکیول ٹوٹتے ہیں تو فوٹوسنتھیسز کے دوران آکسیجن بطور ضمنی پیداوار خارج ہوتی ہے۔",
+      "hint": "Essential for animal life.",
+      "hint_ur": "جانوروں کی زندگی کے لیے ضروری۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 42,
+      "type": "true-false",
+      "question": "Bacteria can reproduce by binary fission.",
+      "question_ur": "بیکٹیریا بائنری فشن کے ذریعے پیدا ہو سکتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Binary fission is a simple form of asexual reproduction in bacteria.",
+      "explanation_ur": "بائنری فشن بیکٹیریا میں غیر جنسی تولید کی ایک سادہ شکل ہے۔",
+      "hint": "One cell splits into two identical cells.",
+      "hint_ur": "ایک خلیہ دو یکساں خلیوں میں تقسیم ہو جاتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Which organ is responsible for detoxifying harmful substances in the body?",
+      "question_ur": "جسم میں نقصان دہ مادوں کو زہریلا ختم کرنے کے لیے کون سا عضو ذمہ دار ہے؟",
+      "options": {
+        "en": ["Kidney", "Liver", "Lungs", "Spleen"],
+        "ur": ["گردہ", "جگر", "پھیپھڑے", "پلِیّا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The liver processes toxins and drugs, making them less harmful.",
+      "explanation_ur": "جگر زہریلے مادوں اور ادویات کو کم نقصان دہ بنا دیتا ہے۔",
+      "hint": "Also produces bile.",
+      "hint_ur": "صفرا بھی پیدا کرتا ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "Which part of a plant absorbs water and minerals from the soil?",
+      "question_ur": "پودے کا کون سا حصہ مٹی سے پانی اور معدنیات جذب کرتا ہے؟",
+      "options": {
+        "en": ["Leaves", "Roots", "Stem", "Flowers"],
+        "ur": ["پتے", "جڑیں", "تنا", "پھول"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Roots take up water and minerals and anchor the plant.",
+      "explanation_ur": "جڑیں پانی اور معدنیات جذب کرتی ہیں اور پودے کو جمی رکھتی ہیں۔",
+      "hint": "Underground structure.",
+      "hint_ur": "زمین کے نیچے موجود ساخت۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 45,
+      "type": "true-false",
+      "question": "All viruses have both DNA and RNA.",
+      "question_ur": "تمام وائرسز میں ڈی این اے اور آر این اے دونوں ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Viruses have either DNA or RNA as genetic material, never both.",
+      "explanation_ur": "وائرسز میں یا تو ڈی این اے ہوتا ہے یا آر این اے، دونوں کبھی نہیں۔",
+      "hint": "Choose one nucleic acid.",
+      "hint_ur": "ایک نیوکلیک ایسڈ کا انتخاب کریں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "Which type of cell division produces identical daughter cells?",
+      "question_ur": "کون سی خلیاتی تقسیم یکساں بیٹی خلیے پیدا کرتی ہے؟",
+      "options": {
+        "en": ["Mitosis", "Meiosis", "Binary fission", "Budding"],
+        "ur": ["مائٹوسس", "مائیوسس", "بائنری فشن", "بڈنگ"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Mitosis produces two genetically identical daughter cells.",
+      "explanation_ur": "مائٹوسس دو جینیاتی طور پر یکساں بیٹی خلیے پیدا کرتا ہے۔",
+      "hint": "Used for growth and repair.",
+      "hint_ur": "نشوونما اور مرمت کے لیے استعمال ہوتا ہے۔",
+      "timeLimit": 25
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Which molecule is the main source of energy for cellular activities?",
+      "question_ur": "خلیاتی سرگرمیوں کے لیے توانائی کا بنیادی ذریعہ کون سا مالیکیول ہے؟",
+      "options": {
+        "en": ["Glucose", "ATP", "DNA", "Oxygen"],
+        "ur": ["گلوکوز", "ATP", "ڈی این اے", "آکسیجن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "ATP (adenosine triphosphate) is the energy currency of the cell.",
+      "explanation_ur": "ATP (ایڈینوسین ٹرائی فاسفیٹ) خلیے کی توانائی کا کرنسی ہے۔",
+      "hint": "Produced in mitochondria.",
+      "hint_ur": "مائٹوکانڈریا میں پیدا ہوتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 48,
+      "type": "true-false",
+      "question": "The human heart has four chambers.",
+      "question_ur": "انسانی دل میں چار خانہ ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "The heart has two atria and two ventricles.",
+      "explanation_ur": "دل میں دو ایٹریا اور دو وینٹریکلز ہوتے ہیں۔",
+      "hint": "Two upper, two lower.",
+      "hint_ur": "دو اوپر، دو نیچے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "Which part of the neuron receives signals from other neurons?",
+      "question_ur": "نیوران کا کون سا حصہ دوسرے نیوران سے سگنل وصول کرتا ہے؟",
+      "options": {
+        "en": ["Axon", "Dendrites", "Cell body", "Myelin sheath"],
+        "ur": ["ایکسون", "ڈینڈرائٹس", "سیل باڈی", "مایلین شیٹھ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Dendrites receive incoming signals and transmit them to the cell body.",
+      "explanation_ur": "ڈینڈرائٹس آنے والے سگنلز وصول کرتے ہیں اور انہیں سیل باڈی تک پہنچاتے ہیں۔",
+      "hint": "Tree-branch-like structures.",
+      "hint_ur": "درخت کی شاخوں جیسی ساختیں۔",
+      "timeLimit": 25
+    },
+    
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "What is the basic unit of life?",
+      "question_ur": "زندگی کی بنیادی اکائی کیا ہے؟",
+      "options": {
+        "en": ["Atom", "Cell", "Molecule", "Organ"],
+        "ur": ["ایٹم", "خلیہ", "مالیکیول", "عضو"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The cell is the smallest unit that can live on its own and makes up all living organisms.",
+      "explanation_ur": "خلیہ سب سے چھوٹی اکائی ہے جو اپنے طور پر زندہ رہ سکتا ہے اور تمام جانداروں کو بناتا ہے۔",
+      "hint": "Think about what makes up all living things",
+      "hint_ur": "وہ چیز سوچیں جو تمام جانداروں کو بناتی ہے",
+      "timeLimit": 15
+    },
+    {
+      "id": 51,
+      "type": "true-false",
+      "question": "Mitochondria are known as the powerhouse of the cell.",
+      "question_ur": "مائٹوکونڈریا کو خلیے کا پاور ہاؤس کہا جاتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Mitochondria generate most of the chemical energy needed to power the cell's biochemical reactions.",
+      "explanation_ur": "مائٹوکونڈریا خلیے کے حیاتی کیمیائی رد عمل کو طاقت دینے کے لیے زیادہ تر کیمیائی توانائی پیدا کرتا ہے۔",
+      "hint": "Think about energy production in cells",
+      "hint_ur": "خلیوں میں توانائی کی پیداوار کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "Which of these is not a blood type?",
+      "question_ur": "ان میں سے کون سا خون کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["A", "B", "AB", "AC"],
+        "ur": ["اے", "بی", "اے بی", "اے سی"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The main blood types are A, B, AB, and O. AC is not a blood type.",
+      "explanation_ur": "خون کی اہم اقسام اے، بی، اے بی اور او ہیں۔ اے سی خون کی قسم نہیں ہے۔",
+      "hint": "Consider the standard blood group system",
+      "hint_ur": "معیاری خون کے گروپ کے نظام پر غور کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "What part of the plant conducts photosynthesis?",
+      "question_ur": "پودے کا کون سا حصہ فوٹو سنتھیسس کرتا ہے؟",
+      "options": {
+        "en": ["Root", "Stem", "Leaf", "Flower"],
+        "ur": ["جڑ", "تنا", "پتا", "پھول"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Leaves contain chlorophyll which captures sunlight for photosynthesis.",
+      "explanation_ur": "پتوں میں کلوروفیل ہوتا ہے جو فوٹو سنتھیسس کے لیے سورج کی روشنی کو جذب کرتا ہے۔",
+      "hint": "Think about which part is green",
+      "hint_ur": "اس حصے کے بارے میں سوچیں جو سبز ہوتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 54,
+      "type": "true-false",
+      "question": "All bacteria are harmful to humans.",
+      "question_ur": "تمام بیکٹیریا انسانوں کے لیے نقصان دہ ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Many bacteria are beneficial, such as those in our gut that aid digestion.",
+      "explanation_ur": "بہت سے بیکٹیریا فائدہ مند ہیں، جیسے ہماری آنتوں میں موجود وہ جو ہاضمے میں مدد کرتے ہیں۔",
+      "hint": "Consider probiotic foods",
+      "hint_ur": "پروبائیوٹک غذاؤں پر غور کریں",
+      "timeLimit": 20
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "Which organ pumps blood throughout the body?",
+      "question_ur": "کون سا عضو پورے جسم میں خون پمپ کرتا ہے؟",
+      "options": {
+        "en": ["Liver", "Heart", "Lung", "Kidney"],
+        "ur": ["جگر", "دل", "پھیپھڑا", "گردہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The heart is the muscular organ that pumps blood through the circulatory system.",
+      "explanation_ur": "دل پٹھوں کا وہ عضو ہے جو دوران نظام کے ذریعے خون پمپ کرتا ہے۔",
+      "hint": "Think about Valentine's Day symbol",
+      "hint_ur": "ویلنٹائن ڈے کے علامت کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 56,
+      "type": "mcq",
+      "question": "What is the largest organ of the human body?",
+      "question_ur": "انسانی جسم کا سب سے بڑا عضو کون سا ہے؟",
+      "options": {
+        "en": ["Liver", "Brain", "Skin", "Large intestine"],
+        "ur": ["جگر", "دماغ", "جلد", "بڑی آنت"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The skin is the body's largest organ, with a surface area of about 20 square feet.",
+      "explanation_ur": "جلد جسم کا سب سے بڑا عضو ہے، جس کا سطحی رقبہ تقریباً 20 مربع فٹ ہوتا ہے۔",
+      "hint": "It covers your entire body",
+      "hint_ur": "یہ آپ کے پورے جسم کو ڈھانپتی ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 57,
+      "type": "true-false",
+      "question": "DNA stands for Deoxyribonucleic Acid.",
+      "question_ur": "ڈی این اے کا مطلب ڈی آکسی رائبو نیوکلیک ایسڈ ہے۔",
+      "correctAnswer": true,
+      "explanation": "DNA is the molecule that carries genetic instructions in all living organisms.",
+      "explanation_ur": "ڈی این اے وہ مالیکیول ہے جو تمام جانداروں میں جینیاتی ہدایات لے کر جاتا ہے۔",
+      "hint": "Think about genetic material",
+      "hint_ur": "جینیاتی مواد کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "Which of these is not part of the central nervous system?",
+      "question_ur": "ان میں سے کون سا مرکزی اعصابی نظام کا حصہ نہیں ہے؟",
+      "options": {
+        "en": ["Brain", "Spinal cord", "Nerves", "All are part of CNS"],
+        "ur": ["دماغ", "ریڑھ کی ہڈی", "اعصاب", "سب سی این ایس کا حصہ ہیں"]
+      },
+      "correctAnswer": 2,
+      "explanation": "While nerves are part of the nervous system, only the brain and spinal cord make up the central nervous system (CNS).",
+      "explanation_ur": "اگرچہ اعصاب اعصابی نظام کا حصہ ہیں، صرف دماغ اور ریڑھ کی ہڈی مرکزی اعصابی نظام (سی این ایس) بناتے ہیں۔",
+      "hint": "CNS consists of the main processing centers",
+      "hint_ur": "سی این ایس میں مرکزی پروسیسنگ یونٹس شامل ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "What gas do plants absorb from the atmosphere?",
+      "question_ur": "پودے فضا سے کون سی گیس جذب کرتے ہیں؟",
+      "options": {
+        "en": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+        "ur": ["آکسیجن", "نائٹروجن", "کاربن ڈائی آکسائیڈ", "ہائیڈروجن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Plants absorb CO2 during photosynthesis to produce oxygen and glucose.",
+      "explanation_ur": "پودے فوٹو سنتھیسس کے دوران CO2 جذب کرتے ہیں تاکہ آکسیجن اور گلوکوز پیدا کریں۔",
+      "hint": "Think about what plants need for photosynthesis",
+      "hint_ur": "اس کے بارے میں سوچیں کہ پودوں کو فوٹو سنتھیسس کے لیے کس چیز کی ضرورت ہوتی ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 60,
+      "type": "true-false",
+      "question": "The human body has four lungs.",
+      "question_ur": "انسانی جسم کے چار پھیپھڑے ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Humans have two lungs - a right lung and a left lung.",
+      "explanation_ur": "انسانوں کے دو پھیپھڑے ہوتے ہیں - ایک دایاں پھیپھڑا اور ایک بایاں پھیپھڑا۔",
+      "hint": "Count your own breathing organs",
+      "hint_ur": "اپنے سانس لینے والے اعضاء کو گنیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "Which of these is not a type of white blood cell?",
+      "question_ur": "ان میں سے کون سا سفید خون کے خلیے کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Neutrophil", "Lymphocyte", "Erythrocyte", "Monocyte"],
+        "ur": ["نیوٹروفیل", "لمفوسائٹ", "اریتھروسائٹ", "مونوسائٹ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Erythrocytes are red blood cells, not white blood cells.",
+      "explanation_ur": "اریتھروسائٹس سرخ خون کے خلیے ہیں، سفید خون کے خلیے نہیں۔",
+      "hint": "Think about the color of blood cells",
+      "hint_ur": "خون کے خلیوں کے رنگ کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 62,
+      "type": "mcq",
+      "question": "What is the primary function of red blood cells?",
+      "question_ur": "سرخ خون کے خلیوں کا بنیادی کام کیا ہے؟",
+      "options": {
+        "en": ["Fight infection", "Transport oxygen", "Produce hormones", "Digest food"],
+        "ur": ["انفیکشن سے لڑنا", "آکسیجن کی ترسیل", "ہارمونز پیدا کرنا", "کھانا ہضم کرنا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Red blood cells contain hemoglobin which carries oxygen from the lungs to the body's tissues.",
+      "explanation_ur": "سرخ خون کے خلیوں میں ہیموگلوبن ہوتا ہے جو پھیپھڑوں سے جسم کے بافتوں تک آکسیجن پہنچاتا ہے۔",
+      "hint": "Think about what gives blood its red color",
+      "hint_ur": "اس کے بارے میں سوچیں جو خون کو اس کا سرخ رنگ دیتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 63,
+      "type": "true-false",
+      "question": "The femur is the longest bone in the human body.",
+      "question_ur": "فیمر انسانی جسم کی سب سے لمبی ہڈی ہے۔",
+      "correctAnswer": true,
+      "explanation": "The femur (thigh bone) is typically about a quarter of a person's height.",
+      "explanation_ur": "فیمر (ران کی ہڈی) عام طور پر انسان کی اونچائی کا تقریباً ایک چوتھائی ہوتی ہے۔",
+      "hint": "Think about your thigh bone",
+      "hint_ur": "اپنی ران کی ہڈی کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 64,
+      "type": "mcq",
+      "question": "Which part of the brain controls balance and coordination?",
+      "question_ur": "دماغ کا کون سا حصہ توازن اور ہم آہنگی کو کنٹرول کرتا ہے؟",
+      "options": {
+        "en": ["Cerebrum", "Cerebellum", "Brain stem", "Hypothalamus"],
+        "ur": ["سیریبرم", "سیریبیلم", "برین سٹیم", "ہائپوتھیلمس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The cerebellum, located at the back of the brain, coordinates voluntary movements and maintains balance.",
+      "explanation_ur": "سیریبیلم، جو دماغ کے پچھلے حصے میں ہوتا ہے، رضاکارانہ حرکات کو مربوط کرتا ہے اور توازن برقرار رکھتا ہے۔",
+      "hint": "It's sometimes called the 'little brain'",
+      "hint_ur": "اسے کبھی کبھی 'چھوٹا دماغ' کہا جاتا ہے",
+      "timeLimit": 25
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "question": "What is the process by which plants lose water through their leaves?",
+      "question_ur": "وہ عمل کیا ہے جس کے ذریعے پودے اپنے پتوں سے پانی کھوتے ہیں؟",
+      "options": {
+        "en": ["Photosynthesis", "Transpiration", "Respiration", "Germination"],
+        "ur": ["فوٹو سنتھیسس", "ٹرانسپیریشن", "سانس لینا", "انکرن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Transpiration is the evaporation of water from plant leaves, helping to draw water up from the roots.",
+      "explanation_ur": "ٹرانسپیریشن پودوں کے پتوں سے پانی کے بخارات بننے کا عمل ہے، جو جڑوں سے پانی اوپر کھینچنے میں مدد کرتا ہے۔",
+      "hint": "Think about plant 'sweating'",
+      "hint_ur": "پودوں کے 'پسینے' کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 66,
+      "type": "true-false",
+      "question": "All mammals lay eggs.",
+      "question_ur": "تمام ممالیہ انڈے دیتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Most mammals give live birth. Only monotremes (like platypus) lay eggs.",
+      "explanation_ur": "زیادہ تر ممالیہ زندہ بچے پیدا کرتے ہیں۔ صرف مونوٹریمز (جیسے پلیٹیپس) انڈے دیتے ہیں۔",
+      "hint": "Think about how humans are born",
+      "hint_ur": "اس کے بارے میں سوچیں کہ انسان کیسے پیدا ہوتے ہیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "Which of these is not a primary taste sensation?",
+      "question_ur": "ان میں سے کون سا ذائقہ کا بنیادی احساس نہیں ہے؟",
+      "options": {
+        "en": ["Sweet", "Sour", "Spicy", "Bitter"],
+        "ur": ["میٹھا", "کھٹا", "مسالہ دار", "کڑوا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The five primary tastes are sweet, sour, salty, bitter, and umami. Spicy is a pain sensation, not a taste.",
+      "explanation_ur": "ذائقے کی پانچ بنیادی اقسام میٹھا، کھٹا، نمکین، کڑوا اور اومامی ہیں۔ مسالہ دار درد کا احساس ہے، ذائقہ نہیں۔",
+      "hint": "Think about taste buds' basic functions",
+      "hint_ur": "ذائقہ کی کلیوں کے بنیادی افعال کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 68,
+      "type": "mcq",
+      "question": "What is the name of the pigment that gives plants their green color?",
+      "question_ur": "اس رنگدات کا نام کیا ہے جو پودوں کو ان کا سبز رنگ دیتی ہے؟",
+      "options": {
+        "en": ["Melanin", "Chlorophyll", "Hemoglobin", "Carotene"],
+        "ur": ["میلانن", "کلوروفیل", "ہیموگلوبن", "کیروٹین"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Chlorophyll absorbs sunlight for photosynthesis and reflects green light.",
+      "explanation_ur": "کلوروفیل فوٹو سنتھیسس کے لیے سورج کی روشنی جذب کرتا ہے اور سبز روشنی کو منعکس کرتا ہے۔",
+      "hint": "Think about photosynthesis",
+      "hint_ur": "فوٹو سنتھیسس کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 69,
+      "type": "true-false",
+      "question": "Bones are alive and contain living cells.",
+      "question_ur": "ہڈیاں زندہ ہوتی ہیں اور ان میں زندہ خلیے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Bones contain living cells that constantly rebuild the bone matrix.",
+      "explanation_ur": "ہڈیوں میں زندہ خلیے ہوتے ہیں جو مسلسل ہڈی کے میٹرکس کو دوبارہ بناتے ہیں۔",
+      "hint": "Think about bone growth and healing",
+      "hint_ur": "ہڈی کی نشوونما اور شفا یابی کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 70,
+      "type": "mcq",
+      "question": "Which organ produces insulin?",
+      "question_ur": "انسولین کون سا عضو پیدا کرتا ہے؟",
+      "options": {
+        "en": ["Liver", "Pancreas", "Stomach", "Kidney"],
+        "ur": ["جگر", "لبلبہ", "معدہ", "گردہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The pancreas contains islet cells that produce insulin to regulate blood sugar.",
+      "explanation_ur": "لبلبہ میں جزیرہ خلیے ہوتے ہیں جو خون میں شکر کو کنٹرول کرنے کے لیے انسولین پیدا کرتے ہیں۔",
+      "hint": "Think about diabetes",
+      "hint_ur": "ذیابیطس کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "question": "What is the scientific study of plants called?",
+      "question_ur": "پودوں کے سائنسی مطالعہ کو کیا کہتے ہیں؟",
+      "options": {
+        "en": ["Zoology", "Botany", "Ecology", "Genetics"],
+        "ur": ["حیوانیات", "نباتیات", "ماحولیات", "جینیات"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Botany is the branch of biology that deals with plant life.",
+      "explanation_ur": "نباتیات حیاتیات کی وہ شاخ ہے جو پودوں کی زندگی سے متعلق ہے۔",
+      "hint": "Think about plant scientists",
+      "hint_ur": "پودوں کے سائنسدانوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 72,
+      "type": "true-false",
+      "question": "The human body has more bacterial cells than human cells.",
+      "question_ur": "انسانی جسم میں انسانی خلیوں سے زیادہ بیکٹیریل خلیے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "The human microbiome contains about 10 times more bacterial cells than human cells.",
+      "explanation_ur": "انسانی مائکرو بایوم میں انسانی خلیوں سے تقریباً 10 گنا زیادہ بیکٹیریل خلیے ہوتے ہیں۔",
+      "hint": "Think about gut bacteria",
+      "hint_ur": "آنتوں کے بیکٹیریا کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "Which of these is not a type of muscle tissue?",
+      "question_ur": "ان میں سے کون سا پٹھوں کے ٹشو کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Skeletal", "Cardiac", "Smooth", "Elastic"],
+        "ur": ["اسکیلیٹل", "کارڈیک", "ہموار", "لچکدار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three types of muscle tissue are skeletal, cardiac, and smooth. Elastic is not a muscle type.",
+      "explanation_ur": "پٹھوں کے ٹشو کی تین اقسام اسکیلیٹل، کارڈیک اور ہموار ہیں۔ لچکدار پٹھوں کی قسم نہیں ہے۔",
+      "hint": "Think about where muscles are found",
+      "hint_ur": "اس کے بارے میں سوچیں کہ پٹھے کہاں پائے جاتے ہیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 74,
+      "type": "mcq",
+      "question": "What is the largest part of the human brain?",
+      "question_ur": "انسانی دماغ کا سب سے بڑا حصہ کون سا ہے؟",
+      "options": {
+        "en": ["Cerebellum", "Brain stem", "Cerebrum", "Thalamus"],
+        "ur": ["سیریبیلم", "برین سٹیم", "سیریبرم", "تھیلمس"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The cerebrum makes up about 85% of the brain's weight and is responsible for higher functions.",
+      "explanation_ur": "سیریبرم دماغ کے وزن کا تقریباً 85% بنتا ہے اور اعلیٰ افعال کے لیے ذمہ دار ہے۔",
+      "hint": "Think about conscious thought",
+      "hint_ur": "ہوشیار سوچ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 75,
+      "type": "true-false",
+      "question": "Viruses are considered living organisms.",
+      "question_ur": "وائرسز کو زندہ جاندار سمجھا جاتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Viruses are not considered living because they cannot reproduce or carry out metabolic processes without a host.",
+      "explanation_ur": "وائرسز کو زندہ نہیں سمجھا جاتا کیونکہ یہ میزبان کے بغیر دوبارہ پیدا نہیں ہو سکتے یا تحولاتی عمل انجام نہیں دے سکتے۔",
+      "hint": "Think about what defines life",
+      "hint_ur": "زندگی کی تعریف کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "question": "Which of these is not a function of the liver?",
+      "question_ur": "ان میں سے کون سا جگر کا فعل نہیں ہے؟",
+      "options": {
+        "en": ["Detoxification", "Bile production", "Blood filtration", "Oxygen exchange"],
+        "ur": ["زہر زدائی", "پت کی پیداوار", "خون کی فلٹریشن", "آکسیجن کا تبادلہ"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The liver performs many functions but oxygen exchange occurs in the lungs.",
+      "explanation_ur": "جگر بہت سے افعال انجام دیتا ہے لیکن آکسیجن کا تبادلہ پھیپھڑوں میں ہوتا ہے۔",
+      "hint": "Think about respiratory vs digestive system",
+      "hint_ur": "نظام تنفس مقابل نظام انہضام کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "question": "What is the process by which cells divide to create new cells?",
+      "question_ur": "وہ عمل کیا ہے جس کے ذریعے خلیے تقسیم ہو کر نئے خلیے بناتے ہیں؟",
+      "options": {
+        "en": ["Osmosis", "Mitosis", "Diffusion", "Respiration"],
+        "ur": ["اوسموسس", "مائیٹوسس", "ڈفیوژن", "سانس لینا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Mitosis is the process of cell division that results in two genetically identical daughter cells.",
+      "explanation_ur": "مائیٹوسس خلیے کی تقسیم کا عمل ہے جس کے نتیجے میں دو جینیاتی طور پر یکساں دختری خلیے بنتے ہیں۔",
+      "hint": "Think about cell reproduction",
+      "hint_ur": "خلیے کی تولید کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 78,
+      "type": "true-false",
+      "question": "All birds can fly.",
+      "question_ur": "تمام پرندے اڑ سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Some birds like penguins and ostriches cannot fly, though they are still classified as birds.",
+      "explanation_ur": "کچھ پرندے جیسے پینگوئن اور شترمرغ اڑ نہیں سکتے، حالانکہ انہیں اب بھی پرندوں کے طور پر درجہ بندی کیا جاتا ہے۔",
+      "hint": "Think about flightless birds",
+      "hint_ur": "اڑنے سے قاصر پرندوں کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "Which of these is not a type of RNA?",
+      "question_ur": "ان میں سے کون سا آر این اے کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["mRNA", "tRNA", "rRNA", "zRNA"],
+        "ur": ["ایم آر این اے", "ٹی آر این اے", "آر آر این اے", "زیڈ آر این اے"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three main types of RNA are messenger RNA (mRNA), transfer RNA (tRNA), and ribosomal RNA (rRNA). zRNA doesn't exist.",
+      "explanation_ur": "آر این اے کی تین اہم اقسام میسنجر آر این اے (ایم آر این اے)، ٹرانسفر آر این اے (ٹی آر این اے)، اور رائبوسومل آر این اے (آر آر این اے) ہیں۔ زیڈ آر این اے موجود نہیں ہے۔",
+      "hint": "Think about protein synthesis",
+      "hint_ur": "پروٹین سنتھیسس کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 80,
+      "type": "mcq",
+      "question": "What is the name of the tube that carries air to the lungs?",
+      "question_ur": "اس ٹیوب کا نام کیا ہے جو ہوا کو پھیپھڑوں تک پہنچاتی ہے؟",
+      "options": {
+        "en": ["Esophagus", "Trachea", "Bronchus", "Ureter"],
+        "ur": ["غذائی نالی", "ٹریکیا", "برونکس", "یوریٹر"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The trachea (windpipe) carries air to the bronchi which lead to the lungs.",
+      "explanation_ur": "ٹریکیا (ونڈ پائپ) ہوا کو برونکی تک پہنچاتی ہے جو پھیپھڑوں تک جاتی ہیں۔",
+      "hint": "Think about the 'windpipe'",
+      "hint_ur": "'ونڈ پائپ' کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 81,
+      "type": "true-false",
+      "question": "The human skeleton is made up of exactly 200 bones.",
+      "question_ur": "انسانی ڈھانچہ بالکل 200 ہڈیوں سے بنا ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "An adult human has 206 bones, while babies have about 300 that fuse together as they grow.",
+      "explanation_ur": "ایک بالغ انسان میں 206 ہڈیاں ہوتی ہیں، جبکہ بچوں میں تقریباً 300 ہوتی ہیں جو بڑھنے کے ساتھ ساتھ آپس میں جڑ جاتی ہیں۔",
+      "hint": "The number is slightly higher",
+      "hint_ur": "تعداد تھوڑی سی زیادہ ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 82,
+      "type": "mcq",
+      "question": "Which of these is not a function of the kidney?",
+      "question_ur": "ان میں سے کون سا گردے کا فعل نہیں ہے؟",
+      "options": {
+        "en": ["Filter blood", "Produce urine", "Regulate blood pressure", "Produce bile"],
+        "ur": ["خون کو فلٹر کرنا", "پیشاب پیدا کرنا", "بلڈ پریشر کو ریگولیٹ کرنا", "پت پیدا کرنا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The kidneys filter blood, produce urine, and help regulate blood pressure, but bile is produced by the liver.",
+      "explanation_ur": "گردے خون کو فلٹر کرتے ہیں، پیشاب پیدا کرتے ہیں، اور بلڈ پریشر کو کنٹرول کرنے میں مدد کرتے ہیں، لیکن پت جگر پیدا کرتا ہے۔",
+      "hint": "Think about digestive vs excretory system",
+      "hint_ur": "نظام انہضام مقابل نظام اخراج کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "question": "What is the name of the protein that carries oxygen in red blood cells?",
+      "question_ur": "اس پروٹین کا نام کیا ہے جو سرخ خون کے خلیوں میں آکسیجن لے کر جاتا ہے؟",
+      "options": {
+        "en": ["Insulin", "Hemoglobin", "Collagen", "Keratin"],
+        "ur": ["انسولین", "ہیموگلوبن", "کولاجن", "کیراٹن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Hemoglobin binds oxygen in the lungs and releases it in tissues throughout the body.",
+      "explanation_ur": "ہیموگلوبن پھیپھڑوں میں آکسیجن کو باندھتا ہے اور جسم کے بافتوں میں اسے چھوڑتا ہے۔",
+      "hint": "Think about what makes blood red",
+      "hint_ur": "اس کے بارے میں سوچیں جو خون کو سرخ بناتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 84,
+      "type": "true-false",
+      "question": "The human body has four chambers in the heart.",
+      "question_ur": "انسانی جسم کے دل میں چار خانے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "The heart has two atria (upper chambers) and two ventricles (lower chambers).",
+      "explanation_ur": "دل میں دو ایٹریا (اوپری خانے) اور دو ویںٹریکلز (نیچے کے خانے) ہوتے ہیں۔",
+      "hint": "Think about heart anatomy",
+      "hint_ur": "دل کی ساخت کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "Which of these is not a component of the digestive system?",
+      "question_ur": "ان میں سے کون سا نظام انہضام کا حصہ نہیں ہے؟",
+      "options": {
+        "en": ["Stomach", "Liver", "Kidney", "Small intestine"],
+        "ur": ["معدہ", "جگر", "گردہ", "چھوٹی آنت"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The kidney is part of the urinary system, not the digestive system.",
+      "explanation_ur": "گردہ پیشاب کے نظام کا حصہ ہے، نظام انہضام کا نہیں۔",
+      "hint": "Think about waste elimination vs digestion",
+      "hint_ur": "فضلہ کے اخراج مقابل ہضم کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 86,
+      "type": "mcq",
+      "question": "What is the name of the process by which plants make their own food?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے اپنا کھانا خود بناتے ہیں؟",
+      "options": {
+        "en": ["Respiration", "Transpiration", "Photosynthesis", "Germination"],
+        "ur": ["سانس لینا", "ٹرانسپیریشن", "فوٹو سنتھیسس", "انکرن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Photosynthesis converts sunlight, water and carbon dioxide into glucose and oxygen.",
+      "explanation_ur": "فوٹو سنتھیسس سورج کی روشنی، پانی اور کاربن ڈائی آکسائیڈ کو گلوکوز اور آکسیجن میں تبدیل کرتا ہے۔",
+      "hint": "Think about sunlight conversion",
+      "hint_ur": "سورج کی روشنی کی تبدیلی کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 87,
+      "type": "true-false",
+      "question": "All fungi are plants.",
+      "question_ur": "تمام فنجائی پودے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Fungi were once classified as plants but are now in their own kingdom as they don't photosynthesize.",
+      "explanation_ur": "فنجائی کو کبھی پودوں کے طور پر درجہ بندی کیا جاتا تھا لیکن اب اپنی بادشاہی میں ہیں کیونکہ یہ فوٹو سنتھیسس نہیں کرتے۔",
+      "hint": "Think about mushrooms",
+      "hint_ur": "مشرووم کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "question": "Which of these is not a type of blood vessel?",
+      "question_ur": "ان میں سے کون سی خون کی رگ کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Artery", "Vein", "Capillary", "Nephron"],
+        "ur": ["شریان", "ورید", "کیپلری", "نیفرون"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Nephrons are functional units in the kidney, not blood vessels.",
+      "explanation_ur": "نیفرون گردے میں فعال اکائیاں ہیں، خون کی رگیں نہیں۔",
+      "hint": "Think about kidney structure",
+      "hint_ur": "گردے کی ساخت کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "question": "What is the name of the male reproductive cell?",
+      "question_ur": "مرد تولیدی خلیے کا نام کیا ہے؟",
+      "options": {
+        "en": ["Ovum", "Sperm", "Zygote", "Embryo"],
+        "ur": ["بیضہ", "نطفہ", "زیگوٹ", "جنین"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Sperm is the male gamete that fertilizes the female ovum (egg).",
+      "explanation_ur": "نطفہ مرد گیمیٹ ہے جو مادہ بیضہ (انڈے) کو فرٹیلائز کرتا ہے۔",
+      "hint": "Think about fertilization",
+      "hint_ur": "فرٹیلائزیشن کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 90,
+      "type": "true-false",
+      "question": "The human body has more than 600 muscles.",
+      "question_ur": "انسانی جسم میں 600 سے زیادہ پٹھے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "The exact count varies but the human body has between 640-850 muscles depending on classification.",
+      "explanation_ur": "عین تعداد مختلف ہوتی ہے لیکن انسانی جسم میں درجہ بندی کے لحاظ سے 640-850 پٹھے ہوتے ہیں۔",
+      "hint": "Think about all the small muscles",
+      "hint_ur": "تمام چھوٹے پٹھوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "Which of these is not a bone in the human arm?",
+      "question_ur": "ان میں سے کون سی انسانی بازو کی ہڈی نہیں ہے؟",
+      "options": {
+        "en": ["Humerus", "Ulna", "Tibia", "Radius"],
+        "ur": ["ہیومرس", "النا", "ٹیبیا", "ریڈیس"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The tibia is the shinbone in the leg, not part of the arm.",
+      "explanation_ur": "ٹیبیا ٹانگ میں شین ہڈی ہے، بازو کا حصہ نہیں۔",
+      "hint": "Think about leg bones",
+      "hint_ur": "ٹانگ کی ہڈیوں کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 92,
+      "type": "mcq",
+      "question": "What is the name of the process by which plants release water vapor?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے پانی کے بخارات خارج کرتے ہیں؟",
+      "options": {
+        "en": ["Photosynthesis", "Respiration", "Transpiration", "Germination"],
+        "ur": ["فوٹو سنتھیسس", "سانس لینا", "ٹرانسپیریشن", "انکرن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Transpiration is the evaporation of water from plant surfaces, mainly through stomata in leaves.",
+      "explanation_ur": "ٹرانسپیریشن پودوں کی سطحوں سے پانی کے بخارات بننے کا عمل ہے، بنیادی طور پر پتوں میں موجود سٹوماٹا کے ذریعے۔",
+      "hint": "Think about plant 'sweating'",
+      "hint_ur": "پودوں کے 'پسینے' کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 93,
+      "type": "true-false",
+      "question": "The human eye can see millions of colors.",
+      "question_ur": "انسانی آنکھ لاکھوں رنگ دیکھ سکتی ہے۔",
+      "correctAnswer": true,
+      "explanation": "The average human eye can distinguish about 1 million to 10 million different colors.",
+      "explanation_ur": "عام انسانی آنکھ تقریباً 1 ملین سے 10 ملین مختلف رنگوں میں تمیز کر سکتی ہے۔",
+      "hint": "Think about color perception",
+      "hint_ur": "رنگ کی ادراک کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "question": "Which of these is not a type of neuron?",
+      "question_ur": "ان میں سے کون سا نیورون کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Sensory", "Motor", "Interneuron", "Myoneuron"],
+        "ur": ["حسی", "موٹر", "انٹرنیورون", "مائیونیورون"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three main types are sensory, motor, and interneurons. Myoneuron is not a real term.",
+      "explanation_ur": "تین اہم اقسام حسی، موٹر، اور انٹرنیورون ہیں۔ مائیونیورون ایک حقیقی اصطلاح نہیں ہے۔",
+      "hint": "Think about nervous system functions",
+      "hint_ur": "اعصابی نظام کے افعال کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 95,
+      "type": "mcq",
+      "question": "What is the name of the pigment that gives human skin its color?",
+      "question_ur": "اس رنگدات کا نام کیا ہے جو انسانی جلد کو اس کا رنگ دیتی ہے؟",
+      "options": {
+        "en": ["Hemoglobin", "Melanin", "Keratin", "Collagen"],
+        "ur": ["ہیموگلوبن", "میلانن", "کیراٹن", "کولاجن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Melanin is produced by melanocytes and determines skin, hair, and eye color.",
+      "explanation_ur": "میلانن میلانوسائٹس کے ذریعے پیدا ہوتا ہے اور جلد، بالوں اور آنکھوں کے رنگ کا تعین کرتا ہے۔",
+      "hint": "Think about sun exposure effects",
+      "hint_ur": "سورج کی روشنی کے اثرات کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 96,
+      "type": "true-false",
+      "question": "All mammals give live birth.",
+      "question_ur": "تمام ممالیہ زندہ بچے پیدا کرتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Most mammals give live birth but monotremes (like platypus) lay eggs.",
+      "explanation_ur": "زیادہ تر ممالیہ زندہ بچے پیدا کرتے ہیں لیکن مونوٹریمز (جیسے پلیٹیپس) انڈے دیتے ہیں۔",
+      "hint": "Think about exceptions",
+      "hint_ur": "استثناء کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "question": "Which of these is not a part of the female reproductive system?",
+      "question_ur": "ان میں سے کون سا مادہ تولیدی نظام کا حصہ نہیں ہے؟",
+      "options": {
+        "en": ["Ovary", "Uterus", "Vas deferens", "Fallopian tube"],
+        "ur": ["بیضہ دان", "بچہ دانی", "واس ڈیفرنس", "فیلوپین ٹیوب"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The vas deferens is part of the male reproductive system that carries sperm.",
+      "explanation_ur": "واس ڈیفرنس مرد تولیدی نظام کا حصہ ہے جو نطفہ لے کر جاتا ہے۔",
+      "hint": "Think about male anatomy",
+      "hint_ur": "مرد کی ساخت کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 98,
+      "type": "mcq",
+      "question": "What is the name of the process by which cells engulf large particles?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے خلیے بڑے ذرات نگل لیتے ہیں؟",
+      "options": {
+        "en": ["Diffusion", "Osmosis", "Phagocytosis", "Mitosis"],
+        "ur": ["ڈفیوژن", "اوسموسس", "فیگوسائٹوسس", "مائیٹوسس"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Phagocytosis ('cell eating') is how immune cells like macrophages engulf pathogens.",
+      "explanation_ur": "فیگوسائٹوسس ('خلیے کا کھانا') وہ طریقہ ہے جس کے ذریعے مدافعتی خلیے جیسے میکروفیجز پیتھوجینز کو نگل لیتے ہیں۔",
+      "hint": "Think about immune system functions",
+      "hint_ur": "مدافعتی نظام کے افعال کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 99,
+      "type": "true-false",
+      "question": "The human body continues to grow new brain cells throughout life.",
+      "question_ur": "انسانی جسم زندگی بھر نئے دماغی خلیے بناتا رہتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "Neurogenesis (growth of new neurons) occurs throughout life, though at a slower rate in adults.",
+      "explanation_ur": "نیوروجینیسس (نئے نیورون کی نشوونما) زندگی بھر ہوتی ہے، حالانکہ بالغوں میں کم شرح سے۔",
+      "hint": "Think about brain plasticity",
+      "hint_ur": "دماغی پلاسٹیسٹی کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    
+    {
+      "id": 100,
+      "type": "mcq",
+      "question": "Which of these is not a type of joint in the human body?",
+      "question_ur": "ان میں سے کون سا انسانی جسم میں جوڑ کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Ball and socket", "Hinge", "Pivot", "Elastic"],
+        "ur": ["بال اور ساکٹ", "ہنج", "پیوٹ", "لچکدار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three main types are ball-and-socket, hinge, and pivot joints. Elastic is not a joint type.",
+      "explanation_ur": "تین اہم اقسام بال اینڈ ساکٹ، ہنج اور پیوٹ جوڑ ہیں۔ لچکدار جوڑ کی قسم نہیں ہے۔",
+      "hint": "Think about bone connections",
+      "hint_ur": "ہڈیوں کے جوڑ کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 101,
+      "type": "true-false",
+      "question": "The human body has more than 1000 different enzymes.",
+      "question_ur": "انسانی جسم میں 1000 سے زیادہ مختلف انزائمز ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Scientists have identified over 5,000 enzymes in the human body, with estimates of up to 25,000.",
+      "explanation_ur": "سائنسدانوں نے انسانی جسم میں 5,000 سے زیادہ انزائمز کی شناخت کی ہے، اور اندازے 25,000 تک ہیں۔",
+      "hint": "Think about metabolic reactions",
+      "hint_ur": "تحولاتی رد عمل کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 102,
+      "type": "mcq",
+      "question": "What is the name of the fluid that surrounds and protects the brain?",
+      "question_ur": "اس سیال کا نام کیا ہے جو دماغ کے ارد گرد ہوتا ہے اور اس کی حفاظت کرتا ہے؟",
+      "options": {
+        "en": ["Plasma", "Lymph", "Cerebrospinal fluid", "Synovial fluid"],
+        "ur": ["پلازما", "لمف", "سیریبرواسپائنل سیال", "سائنوویل سیال"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Cerebrospinal fluid cushions the brain and spinal cord within their bony structures.",
+      "explanation_ur": "سیریبرواسپائنل سیال دماغ اور ریڑھ کی ہڈی کو ان کی ہڈیوں کی ساخت میں محفوظ رکھتا ہے۔",
+      "hint": "Think about brain protection",
+      "hint_ur": "دماغ کی حفاظت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "question": "Which of these is not a function of the lymphatic system?",
+      "question_ur": "ان میں سے کون سا لمفی نظام کا فعل نہیں ہے؟",
+      "options": {
+        "en": ["Fluid balance", "Immune defense", "Oxygen transport", "Fat absorption"],
+        "ur": ["سیال توازن", "مدافعتی دفاع", "آکسیجن کی ترسیل", "چربی جذب کرنا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The lymphatic system maintains fluid balance, absorbs fats, and supports immunity but doesn't transport oxygen.",
+      "explanation_ur": "لمفی نظام سیال توازن برقرار رکھتا ہے، چربی جذب کرتا ہے، اور مدافعت کو سپورٹ کرتا ہے لیکن آکسیجن کی ترسیل نہیں کرتا۔",
+      "hint": "Think about blood vs lymph",
+      "hint_ur": "خون بمقابلہ لمف کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 104,
+      "type": "true-false",
+      "question": "All animals have a backbone.",
+      "question_ur": "تمام جانوروں کی ریڑھ کی ہڈی ہوتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "Only vertebrates have backbones. Invertebrates (about 97% of animals) lack backbones.",
+      "explanation_ur": "صرف ریڑھ کی ہڈی والے جانوروں میں ریڑھ کی ہڈی ہوتی ہے۔ غیر ریڑھ والے جانور (تقریباً 97% جانور) میں ریڑھ کی ہڈی نہیں ہوتی۔",
+      "hint": "Think about insects and worms",
+      "hint_ur": "کیڑے اور کیچوے کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 105,
+      "type": "mcq",
+      "question": "What is the name of the process by which plants bend toward light?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے روشنی کی طرف جھکتے ہیں؟",
+      "options": {
+        "en": ["Gravitropism", "Phototropism", "Thigmotropism", "Hydrotropism"],
+        "ur": ["گریویٹروپزم", "فوٹوٹروپزم", "تھگموٹروپزم", "ہائیڈروٹروپزم"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Phototropism is growth toward light, controlled by the hormone auxin.",
+      "explanation_ur": "فوٹوٹروپزم روشنی کی طرف نشوونما ہے، جو ہارمون آکسن کے ذریعے کنٹرول ہوتا ہے۔",
+      "hint": "Think about light-directed growth",
+      "hint_ur": "روشنی کی ہدایت کردہ نشوونما کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 106,
+      "type": "mcq",
+      "question": "Which of these is not a component of DNA?",
+      "question_ur": "ان میں سے کون سا ڈی این اے کا جزو نہیں ہے؟",
+      "options": {
+        "en": ["Phosphate", "Deoxyribose", "Nitrogenous base", "Ribose"],
+        "ur": ["فاسفیٹ", "ڈی آکسی رائبوز", "نائٹروجنیس بیس", "رائبوز"]
+      },
+      "correctAnswer": 3,
+      "explanation": "DNA contains phosphate, deoxyribose sugar, and nitrogenous bases (A,T,C,G) but not ribose.",
+      "explanation_ur": "ڈی این اے میں فاسفیٹ، ڈی آکسی رائبوز شوگر، اور نائٹروجنیس بیس (اے، ٹی، سی، جی) ہوتے ہیں لیکن رائبوز نہیں ہوتا۔",
+      "hint": "Think about DNA vs RNA sugars",
+      "hint_ur": "ڈی این اے بمقابلہ آر این اے شکر کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 107,
+      "type": "true-false",
+      "question": "All viruses have DNA as their genetic material.",
+      "question_ur": "تمام وائرسز کا جینیاتی مواد ڈی این اے ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Viruses can have either DNA or RNA as their genetic material.",
+      "explanation_ur": "وائرسز کا جینیاتی مواد ڈی این اے یا آر این اے ہو سکتا ہے۔",
+      "hint": "Think about different virus types",
+      "hint_ur": "مختلف وائرس کی اقسام کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 108,
+      "type": "mcq",
+      "question": "What is the name of the pigment that makes carrots orange?",
+      "question_ur": "اس رنگدات کا نام کیا ہے جو گاجر کو نارنجی بناتا ہے؟",
+      "options": {
+        "en": ["Chlorophyll", "Melanin", "Beta-carotene", "Hemoglobin"],
+        "ur": ["کلوروفیل", "میلانن", "بیٹا کیروٹین", "ہیموگلوبن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Beta-carotene is an orange pigment that the body can convert to vitamin A.",
+      "explanation_ur": "بیٹا کیروٹین ایک نارنجی رنگدات ہے جسے جسم وٹامن اے میں تبدیل کر سکتا ہے۔",
+      "hint": "Think about vitamin A precursors",
+      "hint_ur": "وٹامن اے کے پیش رو کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "question": "Which of these is not a type of tissue in the human body?",
+      "question_ur": "ان میں سے کون سا انسانی جسم میں ٹشو کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Epithelial", "Connective", "Muscular", "Vascular"],
+        "ur": ["اپیتھیلئل", "کنیکٹو", "مسکیولر", "واسکولر"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The four basic tissue types are epithelial, connective, muscle, and nervous. Vascular refers to blood vessels.",
+      "explanation_ur": "چار بنیادی ٹشو اقسام اپیتھیلئل، کنیکٹو، مسل اور اعصابی ہیں۔ واسکولر خون کی رگوں سے مراد ہے۔",
+      "hint": "Think about basic tissue classifications",
+      "hint_ur": "بنیادی ٹشو کی درجہ بندی کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 110,
+      "type": "true-false",
+      "question": "The human liver can regenerate itself completely.",
+      "question_ur": "انسانی جگر خود کو مکمل طور پر دوبارہ پیدا کر سکتا ہے۔",
+      "correctAnswer": true,
+      "explanation": "The liver can regenerate up to 75% of its mass through hepatocyte proliferation.",
+      "explanation_ur": "جگر ہیپاٹو سائٹ کی تکثیر کے ذریعے اپنے بڑے پیمانے کا 75% تک دوبارہ پیدا کر سکتا ہے۔",
+      "hint": "Think about liver transplants",
+      "hint_ur": "جگر کی پیوند کاری کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 111,
+      "type": "mcq",
+      "question": "What is the name of the protein that makes up hair and nails?",
+      "question_ur": "اس پروٹین کا نام کیا ہے جو بالوں اور ناخنوں کو بناتا ہے؟",
+      "options": {
+        "en": ["Collagen", "Keratin", "Elastin", "Myosin"],
+        "ur": ["کولاجن", "کیراٹن", "ایلاسٹن", "مائیوسن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Keratin is a tough, fibrous protein that forms the structure of hair, nails, and the outer skin layer.",
+      "explanation_ur": "کیراٹن ایک سخت، ریشہ دار پروٹین ہے جو بالوں، ناخنوں اور بیرونی جلد کی تہہ کی ساخت بناتا ہے۔",
+      "hint": "Think about structural proteins",
+      "hint_ur": "ساختی پروٹین کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 112,
+      "type": "mcq",
+      "question": "Which of these is not a function of the skeletal system?",
+      "question_ur": "ان میں سے کون سا ڈھانچے کے نظام کا فعل نہیں ہے؟",
+      "options": {
+        "en": ["Support", "Movement", "Protection", "Hormone production"],
+        "ur": ["سہارا", "حرکت", "تحفظ", "ہارمون کی پیداوار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "While bones store minerals and produce blood cells, they don't produce hormones as a primary function.",
+      "explanation_ur": "اگرچہ ہڈیاں معدنیات ذخیرہ کرتی ہیں اور خون کے خلیے بناتی ہیں، لیکن یہ بنیادی فعل کے طور پر ہارمون پیدا نہیں کرتیں۔",
+      "hint": "Think about endocrine system functions",
+      "hint_ur": "اینڈوکرائن نظام کے افعال کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 113,
+      "type": "true-false",
+      "question": "All bacteria are microscopic.",
+      "question_ur": "تمام بیکٹیریا خوردبین ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Most bacteria are microscopic, but some like Thiomargarita namibiensis can be seen with the naked eye.",
+      "explanation_ur": "زیادہ تر بیکٹیریا خوردبین ہوتے ہیں، لیکن کچھ جیسے تھیومارگاریٹا نامیبینسس ننگی آنکھ سے دیکھے جا سکتے ہیں۔",
+      "hint": "Think about extreme environments",
+      "hint_ur": "انتہائی ماحول کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 114,
+      "type": "mcq",
+      "question": "What is the name of the process by which plants take in water through their roots?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے اپنی جڑوں کے ذریعے پانی لیتے ہیں؟",
+      "options": {
+        "en": ["Transpiration", "Photosynthesis", "Osmosis", "Respiration"],
+        "ur": ["ٹرانسپیریشن", "فوٹو سنتھیسس", "اوسموسس", "سانس لینا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Osmosis allows water to move from soil into root hairs through semi-permeable membranes.",
+      "explanation_ur": "اوسموسس پانی کو نیم پارگدار جھلیوں کے ذریعے مٹی سے جڑ کے بالوں میں منتقل ہونے دیتا ہے۔",
+      "hint": "Think about water movement",
+      "hint_ur": "پانی کی حرکت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "question": "Which of these is not a part of the human ear?",
+      "question_ur": "ان میں سے کون سا انسانی کان کا حصہ نہیں ہے؟",
+      "options": {
+        "en": ["Cochlea", "Tympanum", "Retina", "Eustachian tube"],
+        "ur": ["کوکلیا", "ٹمپینم", "ریٹنا", "یوسٹیشین ٹیوب"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The retina is part of the eye, not the ear. It contains light-sensitive cells.",
+      "explanation_ur": "ریٹنا آنکھ کا حصہ ہے، کان کا نہیں۔ اس میں روشنی کے لیے حساس خلیے ہوتے ہیں۔",
+      "hint": "Think about sensory organs",
+      "hint_ur": "حسی اعضاء کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 116,
+      "type": "true-false",
+      "question": "All plants perform photosynthesis.",
+      "question_ur": "تمام پودے فوٹو سنتھیسس کرتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Some plants like the Indian pipe (Monotropa uniflora) are parasitic and don't photosynthesize.",
+      "explanation_ur": "کچھ پودے جیسے انڈین پائپ (مونوٹروپا یونی فلورا) پرجیوی ہوتے ہیں اور فوٹو سنتھیسس نہیں کرتے۔",
+      "hint": "Think about non-green plants",
+      "hint_ur": "غیر سبز پودوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 117,
+      "type": "mcq",
+      "question": "What is the name of the process by which glucose is broken down for energy?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے گلوکوز کو توانائی کے لیے توڑا جاتا ہے؟",
+      "options": {
+        "en": ["Photosynthesis", "Respiration", "Transpiration", "Fermentation"],
+        "ur": ["فوٹو سنتھیسس", "سانس لینا", "ٹرانسپیریشن", "فرمنٹیشن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Cellular respiration breaks down glucose to produce ATP energy in cells.",
+      "explanation_ur": "سیلولر ریسپیریشن گلوکوز کو توڑ کر خلیوں میں اے ٹی پی توانائی پیدا کرتی ہے۔",
+      "hint": "Think about energy production",
+      "hint_ur": "توانائی کی پیداوار کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 118,
+      "type": "mcq",
+      "question": "Which of these is not a type of plant tissue?",
+      "question_ur": "ان میں سے کون سا پودے کے ٹشو کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Dermal", "Vascular", "Ground", "Neural"],
+        "ur": ["ڈرمل", "واسکولر", "گراؤنڈ", "اعصابی"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three plant tissue systems are dermal, vascular, and ground. Neural is animal tissue.",
+      "explanation_ur": "پودوں کے ٹشو کے تین نظام ڈرمل، واسکولر اور گراؤنڈ ہیں۔ اعصابی جانوروں کا ٹشو ہے۔",
+      "hint": "Think about plant structure",
+      "hint_ur": "پودوں کی ساخت کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 119,
+      "type": "true-false",
+      "question": "The human body produces all essential amino acids.",
+      "question_ur": "انسانی جسم تمام ضروری امینو ایسڈز پیدا کرتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Humans must obtain 9 essential amino acids from food as the body cannot synthesize them.",
+      "explanation_ur": "انسانوں کو 9 ضروری امینو ایسڈز غذا سے حاصل کرنا پڑتے ہیں کیونکہ جسم انہیں ترکیب نہیں کر سکتا۔",
+      "hint": "Think about protein building blocks",
+      "hint_ur": "پروٹین کے بلڈنگ بلاکس کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 120,
+      "type": "mcq",
+      "question": "What is the name of the male reproductive part of a flower?",
+      "question_ur": "پھول کے مرد تولیدی حصے کا نام کیا ہے؟",
+      "options": {
+        "en": ["Pistil", "Stamen", "Ovary", "Stigma"],
+        "ur": ["پسٹل", "اسٹیمن", "اووری", "اسٹگما"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The stamen produces pollen (male gametes) and consists of anther and filament.",
+      "explanation_ur": "اسٹیمن جرثومہ (مرد گیمیٹ) پیدا کرتا ہے اور اینتھر اور فلامنٹ پر مشتمل ہوتا ہے۔",
+      "hint": "Think about pollen production",
+      "hint_ur": "جرثومہ کی پیداوار کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 121,
+      "type": "mcq",
+      "question": "Which of these is not a function of the stomach?",
+      "question_ur": "ان میں سے کون سا معدے کا فعل نہیں ہے؟",
+      "options": {
+        "en": ["Mechanical digestion", "Chemical digestion", "Nutrient absorption", "Food storage"],
+        "ur": ["میکانی ہضم", "کیمیائی ہضم", "غذائی اجزاء جذب کرنا", "خوراک ذخیرہ کرنا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Most nutrient absorption occurs in the small intestine, not the stomach.",
+      "explanation_ur": "زیادہ تر غذائی اجزاء چھوٹی آنت میں جذب ہوتے ہیں، معدے میں نہیں۔",
+      "hint": "Think about digestive process sequence",
+      "hint_ur": "ہاضمے کے عمل کے تسلسل کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 122,
+      "type": "true-false",
+      "question": "All mammals have hair at some point in their life.",
+      "question_ur": "تمام ممالیہ اپنی زندگی کے کسی نہ کسی مرحلے پر بال رکھتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Hair is one of the defining characteristics of mammals, even if just present in embryonic stages.",
+      "explanation_ur": "بال ممالیہ کی تعریف کرنے والی خصوصیات میں سے ایک ہے، چاہے صرف جنین کے مراحل میں موجود ہو۔",
+      "hint": "Think about mammalian features",
+      "hint_ur": "ممالیہ کی خصوصیات کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 123,
+      "type": "mcq",
+      "question": "What is the name of the process by which water moves across a membrane?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پانی جھلی کے پار منتقل ہوتا ہے؟",
+      "options": {
+        "en": ["Diffusion", "Osmosis", "Active transport", "Endocytosis"],
+        "ur": ["ڈفیوژن", "اوسموسس", "ایکٹو ٹرانسپورٹ", "اینڈوسائٹوسس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Osmosis is the passive movement of water across a semi-permeable membrane.",
+      "explanation_ur": "اوسموسس پانی کا نیم پارگدار جھلی کے پار غیر فعال حرکت ہے۔",
+      "hint": "Think about water concentration gradients",
+      "hint_ur": "پانی کی حراستی ڈھلوان کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 124,
+      "type": "mcq",
+      "question": "Which of these is not a type of symbiotic relationship?",
+      "question_ur": "ان میں سے کون سا باہمی رشتے کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Mutualism", "Commensalism", "Parasitism", "Autotrophism"],
+        "ur": ["باہمی مفاد", "کمینسلزم", "پیراسائٹزم", "آٹوٹروفزم"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Autotrophism refers to self-feeding organisms, not a symbiotic relationship between species.",
+      "explanation_ur": "آٹوٹروفزم خود کھلانے والے جانداروں سے مراد ہے، نہ کہ انواع کے درمیان باہمی رشتہ۔",
+      "hint": "Think about organism interactions",
+      "hint_ur": "جانداروں کے تعاملات کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 125,
+      "type": "true-false",
+      "question": "The human body has more bacterial cells than human cells.",
+      "question_ur": "انسانی جسم میں انسانی خلیوں سے زیادہ بیکٹیریل خلیے ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "The human microbiome contains about 10 times more bacterial cells than human cells.",
+      "explanation_ur": "انسانی مائکرو بایوم میں انسانی خلیوں سے تقریباً 10 گنا زیادہ بیکٹیریل خلیے ہوتے ہیں۔",
+      "hint": "Think about gut bacteria",
+      "hint_ur": "آنتوں کے بیکٹیریا کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 126,
+      "type": "mcq",
+      "question": "What is the name of the structure that connects muscles to bones?",
+      "question_ur": "اس ڈھانچے کا نام کیا ہے جو پٹھوں کو ہڈیوں سے جوڑتا ہے؟",
+      "options": {
+        "en": ["Ligament", "Tendon", "Cartilage", "Fascia"],
+        "ur": ["لگامنٹ", "ٹینڈن", "کارٹلیج", "فیسیا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Tendons are tough fibrous tissues that connect muscles to bones to enable movement.",
+      "explanation_ur": "ٹینڈن سخت ریشہ دار ٹشو ہیں جو پٹھوں کو ہڈیوں سے جوڑتے ہیں تاکہ حرکت ممکن ہو سکے۔",
+      "hint": "Think about muscle attachments",
+      "hint_ur": "پٹھوں کے منسلکات کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 127,
+      "type": "mcq",
+      "question": "Which of these is not a function of the skin?",
+      "question_ur": "ان میں سے کون سا جلد کا فعل نہیں ہے؟",
+      "options": {
+        "en": ["Protection", "Sensation", "Temperature regulation", "Oxygen transport"],
+        "ur": ["تحفظ", "احساس", "درجہ حرارت کا ضابطہ", "آکسیجن کی ترسیل"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The skin protects, senses, and regulates temperature but doesn't transport oxygen.",
+      "explanation_ur": "جلد تحفظ کرتی ہے، محسوس کرتی ہے، اور درجہ حرارت کو ریگولیٹ کرتی ہے لیکن آکسیجن کی ترسیل نہیں کرتی۔",
+      "hint": "Think about respiratory system functions",
+      "hint_ur": "نظام تنفس کے افعال کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 128,
+      "type": "true-false",
+      "question": "All fish have scales.",
+      "question_ur": "تمام مچھلیوں کے پول ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Some fish like catfish and lampreys lack scales or have modified scale structures.",
+      "explanation_ur": "کچھ مچھلیاں جیسے کیٹ فش اور لیمپریز میں پول نہیں ہوتے یا ان کی ترمیم شدہ پول ساخت ہوتی ہے۔",
+      "hint": "Think about diverse fish species",
+      "hint_ur": "متنوع مچھلیوں کی انواع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 129,
+      "type": "mcq",
+      "question": "What is the name of the process by which plants respond to gravity?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے کشش ثقل کے جواب دیتے ہیں؟",
+      "options": {
+        "en": ["Phototropism", "Gravitropism", "Thigmotropism", "Hydrotropism"],
+        "ur": ["فوٹوٹروپزم", "گریویٹروپزم", "تھگموٹروپزم", "ہائیڈروٹروپزم"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Gravitropism causes roots to grow downward and stems to grow upward in response to gravity.",
+      "explanation_ur": "گریویٹروپزم جڑوں کو نیچے کی طرف اور تنوں کو کشش ثقل کے جواب میں اوپر کی طرف بڑھنے کا سبب بنتا ہے۔",
+      "hint": "Think about root growth direction",
+      "hint_ur": "جڑ کی نشوونما کی سمت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 130,
+      "type": "mcq",
+      "question": "Which of these is not a type of plant hormone?",
+      "question_ur": "ان میں سے کون سا پودے کے ہارمون کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Auxin", "Gibberellin", "Insulin", "Cytokinin"],
+        "ur": ["آکسن", "گبریلن", "انسولین", "سائٹوکائنن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Insulin is an animal hormone that regulates blood sugar, not a plant hormone.",
+      "explanation_ur": "انسولین ایک جانوروں کا ہارمون ہے جو خون میں شکر کو کنٹرول کرتا ہے، پودوں کا ہارمون نہیں۔",
+      "hint": "Think about animal vs plant hormones",
+      "hint_ur": "جانوروں بمقابلہ پودوں کے ہارمونز کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 131,
+      "type": "true-false",
+      "question": "All animals have a heart.",
+      "question_ur": "تمام جانوروں کا دل ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Simple animals like jellyfish and sponges lack hearts and circulate fluids by other means.",
+      "explanation_ur": "سادہ جانور جیسے جیلی فش اور اسفنج میں دل نہیں ہوتا اور وہ سیال کو دوسرے ذرائع سے گردش کرتے ہیں۔",
+      "hint": "Think about primitive organisms",
+      "hint_ur": "قدیم جانداروں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 132,
+      "type": "mcq",
+      "question": "What is the name of the structure where photosynthesis occurs in plant cells?",
+      "question_ur": "اس ڈھانچے کا نام کیا ہے جہاں پودوں کے خلیوں میں فوٹو سنتھیسس ہوتا ہے؟",
+      "options": {
+        "en": ["Mitochondria", "Chloroplast", "Nucleus", "Vacuole"],
+        "ur": ["مائٹوکونڈریا", "کلوروپلاسٹ", "مرکزہ", "خلیے کا خالیہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Chloroplasts contain chlorophyll and are the sites of photosynthesis in plant cells.",
+      "explanation_ur": "کلوروپلاسٹ میں کلوروفیل ہوتا ہے اور یہ پودوں کے خلیوں میں فوٹو سنتھیسس کے مقامات ہیں۔",
+      "hint": "Think about green organelles",
+      "hint_ur": "سبز عضویات کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 133,
+      "type": "mcq",
+      "question": "Which of these is not a component of the human respiratory system?",
+      "question_ur": "ان میں سے کون سا انسانی نظام تنفس کا جزو نہیں ہے؟",
+      "options": {
+        "en": ["Trachea", "Bronchi", "Alveoli", "Esophagus"],
+        "ur": ["ٹریکیا", "برونکی", "الویولی", "غذائی نالی"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The esophagus is part of the digestive system, carrying food to the stomach.",
+      "explanation_ur": "غذائی نالی نظام انہضام کا حصہ ہے، جو کھانا معدے تک پہنچاتی ہے۔",
+      "hint": "Think about breathing vs swallowing",
+      "hint_ur": "سانس لینے بمقابلہ نگلنے کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 134,
+      "type": "true-false",
+      "question": "All plants produce flowers.",
+      "question_ur": "تمام پودے پھول پیدا کرتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Only angiosperms produce flowers. Gymnosperms, ferns, and mosses don't produce flowers.",
+      "explanation_ur": "صرف اینجیوسپرمز پھول پیدا کرتے ہیں۔ جمنا سپرمز، فرنز، اور موسز پھول پیدا نہیں کرتے۔",
+      "hint": "Think about conifers and ferns",
+      "hint_ur": "کونیفر اور فرن کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 135,
+      "type": "mcq",
+      "question": "What is the name of the process by which cells engulf liquid particles?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے خلیے مائع ذرات نگل لیتے ہیں؟",
+      "options": {
+        "en": ["Phagocytosis", "Pinocytosis", "Exocytosis", "Osmosis"],
+        "ur": ["فیگوسائٹوسس", "پنوسائٹوسس", "ایکسوسائٹوسس", "اوسموسس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Pinocytosis ('cell drinking') is the uptake of liquid droplets by the cell membrane.",
+      "explanation_ur": "پنوسائٹوسس ('خلیے کا پینا') سیل جھلی کے ذریعے مائع قطرے کا اپٹیک ہے۔",
+      "hint": "Think about liquid uptake",
+      "hint_ur": "مائع اپٹیک کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 136,
+      "type": "mcq",
+      "question": "Which of these is not a type of plant root system?",
+      "question_ur": "ان میں سے کون سا پودے کی جڑ کا نظام نہیں ہے؟",
+      "options": {
+        "en": ["Taproot", "Fibrous", "Adventitious", "Vascular"],
+        "ur": ["ٹیپ روٹ", "فائبرس", "ایڈونٹیشس", "واسکولر"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Vascular refers to the transport system in plants, not a type of root system.",
+      "explanation_ur": "واسکولر پودوں میں ٹرانسپورٹ سسٹم سے مراد ہے، جڑ کے نظام کی قسم نہیں۔",
+      "hint": "Think about root structures",
+      "hint_ur": "جڑ کی ساخت کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 137,
+      "type": "true-false",
+      "question": "All animals have brains.",
+      "question_ur": "تمام جانوروں کے دماغ ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Simple animals like jellyfish and sponges lack true brains, having only nerve nets or no nervous system.",
+      "explanation_ur": "سادہ جانور جیسے جیلی فش اور اسفنج میں حقیقی دماغ نہیں ہوتا، ان میں صرف اعصابی جال یا کوئی اعصابی نظام نہیں ہوتا۔",
+      "hint": "Think about primitive nervous systems",
+      "hint_ur": "قدیم اعصابی نظام کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 138,
+      "type": "mcq",
+      "question": "What is the name of the female reproductive part of a flower?",
+      "question_ur": "پھول کے مادہ تولیدی حصے کا نام کیا ہے؟",
+      "options": {
+        "en": ["Stamen", "Pistil", "Anther", "Filament"],
+        "ur": ["اسٹیمن", "پسٹل", "اینٹر", "فلامنٹ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The pistil consists of stigma, style, and ovary where seeds develop after pollination.",
+      "explanation_ur": "پسٹل اسٹگما، سٹائل اور اووری پر مشتمل ہوتا ہے جہاں پولینیشن کے بعد بیج بنتے ہیں۔",
+      "hint": "Think about seed development",
+      "hint_ur": "بیج کی نشوونما کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 139,
+      "type": "mcq",
+      "question": "Which of these is not a function of the large intestine?",
+      "question_ur": "ان میں سے کون سا بڑی آنت کا فعل نہیں ہے؟",
+      "options": {
+        "en": ["Water absorption", "Vitamin absorption", "Waste storage", "Nutrient digestion"],
+        "ur": ["پانی جذب کرنا", "وٹامن جذب کرنا", "فضلہ ذخیرہ کرنا", "غذائی اجزاء ہضم کرنا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Most nutrient digestion occurs in the small intestine before reaching the large intestine.",
+      "explanation_ur": "زیادہ تر غذائی اجزاء کا ہضم چھوٹی آنت میں بڑی آنت تک پہنچنے سے پہلے ہو جاتا ہے۔",
+      "hint": "Think about digestive sequence",
+      "hint_ur": "ہاضمے کے تسلسل کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 140,
+      "type": "true-false",
+      "question": "All reptiles are cold-blooded.",
+      "question_ur": "تمام رینگنے والے جانور خون کے سرد ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Reptiles are ectothermic (cold-blooded), relying on external heat sources to regulate body temperature.",
+      "explanation_ur": "رینگنے والے جانور ایکٹوتھرمک (سرد خون والے) ہوتے ہیں، جو جسم کے درجہ حرارت کو کنٹرول کرنے کے لیے بیرونی حرارت کے ذرائع پر انحصار کرتے ہیں۔",
+      "hint": "Think about temperature regulation",
+      "hint_ur": "درجہ حرارت کے ضابطہ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 141,
+      "type": "mcq",
+      "question": "What is the name of the process by which plants respond to touch?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے چھونے کے جواب دیتے ہیں؟",
+      "options": {
+        "en": ["Phototropism", "Gravitropism", "Thigmotropism", "Hydrotropism"],
+        "ur": ["فوٹوٹروپزم", "گریویٹروپزم", "تھگموٹروپزم", "ہائیڈروٹروپزم"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Thigmotropism is directional growth response to touch, seen in climbing plants like vines.",
+      "explanation_ur": "تھگموٹروپزم چھونے کے لیے سمت دار نشوونما کا جواب ہے، جو بیلوں جیسے چڑھنے والے پودوں میں دیکھا جاتا ہے۔",
+      "hint": "Think about climbing plants",
+      "hint_ur": "چڑھنے والے پودوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 142,
+      "type": "mcq",
+      "question": "Which of these is not a type of plant adaptation to dry environments?",
+      "question_ur": "ان میں سے کون سا خشک ماحول کے لیے پودوں کا موافقت نہیں ہے؟",
+      "options": {
+        "en": ["Thick cuticle", "Reduced leaves", "Deep roots", "Broad leaves"],
+        "ur": ["موٹی کیوٹیکل", "کم پتے", "گہری جڑیں", "چوڑے پتے"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Broad leaves increase water loss, while the other options help conserve water in dry conditions.",
+      "explanation_ur": "چوڑے پتے پانی کے اخراج کو بڑھاتے ہیں، جبکہ دیگر اختیارات خشک حالات میں پانی کے تحفظ میں مدد کرتے ہیں۔",
+      "hint": "Think about water conservation",
+      "hint_ur": "پانی کے تحفظ کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 143,
+      "type": "true-false",
+      "question": "All birds lay eggs.",
+      "question_ur": "تمام پرندے انڈے دیتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "All living bird species are oviparous (egg-laying), with no known exceptions.",
+      "explanation_ur": "زندہ پرندوں کی تمام انواع اوویپیرس (انڈے دینے والی) ہیں، کوئی معلوم مستثنیات نہیں ہیں۔",
+      "hint": "Think about bird reproduction",
+      "hint_ur": "پرندوں کی تولید کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 144,
+      "type": "mcq",
+      "question": "What is the name of the structure that connects bones to other bones?",
+      "question_ur": "اس ڈھانچے کا نام کیا ہے جو ہڈیوں کو دوسری ہڈیوں سے جوڑتا ہے؟",
+      "options": {
+        "en": ["Tendon", "Ligament", "Cartilage", "Fascia"],
+        "ur": ["ٹینڈن", "لگامنٹ", "کارٹلیج", "فیسیا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ligaments are tough bands of connective tissue that connect bones at joints.",
+      "explanation_ur": "لگامنٹ کنیکٹو ٹشو کی سخت پٹیاں ہیں جو جوڑوں پر ہڈیوں کو جوڑتی ہیں۔",
+      "hint": "Think about joint stability",
+      "hint_ur": "جوڑ کی استحکام کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 145,
+      "type": "mcq",
+      "question": "Which of these is not a function of the spleen?",
+      "question_ur": "ان میں سے کون سا تلی کا فعل نہیں ہے؟",
+      "options": {
+        "en": ["Filter blood", "Store platelets", "Produce bile", "Fight infection"],
+        "ur": ["خون کو فلٹر کرنا", "پلیٹلیٹس ذخیرہ کرنا", "پت پیدا کرنا", "انفیکشن سے لڑنا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The spleen filters blood, stores platelets, and supports immunity but doesn't produce bile.",
+      "explanation_ur": "تلی خون کو فلٹر کرتی ہے، پلیٹلیٹس ذخیرہ کرتی ہے، اور مدافعت کو سپورٹ کرتی ہے لیکن پت پیدا نہیں کرتی۔",
+      "hint": "Think about liver functions",
+      "hint_ur": "جگر کے افعال کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 146,
+      "type": "true-false",
+      "question": "All amphibians can live both on land and in water.",
+      "question_ur": "تمام جل تھلیل زمین اور پانی دونوں میں رہ سکتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Amphibians typically have aquatic larval stages and terrestrial adult stages, though some are fully aquatic.",
+      "explanation_ur": "جل تھلیل میں عام طور پر آبی لاروا مراحل اور زمینی بالغ مراحل ہوتے ہیں، حالانکہ کچھ مکمل طور پر آبی ہوتے ہیں۔",
+      "hint": "Think about frog life cycles",
+      "hint_ur": "مینڈک کی زندگی کے چکر کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 147,
+      "type": "mcq",
+      "question": "What is the name of the process by which plants lose leaves seasonally?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے موسمی طور پر پتے کھوتے ہیں؟",
+      "options": {
+        "en": ["Abscission", "Transpiration", "Senescence", "Dormancy"],
+        "ur": ["ایجیژن", "ٹرانسپیریشن", "بڑھاپا", "خوابیدگی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abscission is the controlled shedding of leaves, flowers, or fruit through specialized cell layers.",
+      "explanation_ur": "ایجیژن خصوصی خلیوں کی تہوں کے ذریعے پتوں، پھولوں یا پھلوں کو کنٹرول شدہ طریقے سے گرنے کا عمل ہے۔",
+      "hint": "Think about autumn leaf fall",
+      "hint_ur": "خزاں میں پتے گرنے کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 148,
+      "type": "mcq",
+      "question": "Which of these is not a type of plant propagation?",
+      "question_ur": "ان میں سے کون سا پودوں کی افزائش کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Seeds", "Cuttings", "Grafting", "Transpiration"],
+        "ur": ["بیج", "کٹنگز", "گرفٹنگ", "ٹرانسپیریشن"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Transpiration is water loss from leaves, not a method of plant reproduction or propagation.",
+      "explanation_ur": "ٹرانسپیریشن پتوں سے پانی کا اخراج ہے، پودوں کی تولید یا افزائش کا طریقہ نہیں۔",
+      "hint": "Think about plant reproduction methods",
+      "hint_ur": "پودوں کی تولید کے طریقوں کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 149,
+      "type": "true-false",
+      "question": "All mammals have sweat glands.",
+      "question_ur": "تمام ممالیہ میں پسینے کی غدود ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Some mammals like whales and porpoises lack sweat glands, having other cooling mechanisms.",
+      "explanation_ur": "کچھ ممالیہ جیسے وہیل اور پورپوئز میں پسینے کی غدود نہیں ہوتے، ان کے پاس دیگر ٹھنڈا کرنے کے طریقے ہوتے ہیں۔",
+      "hint": "Think about aquatic mammals",
+      "hint_ur": "آبی ممالیہ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    
+    {
+      "id": 150,
+      "type": "mcq",
+      "question": "Which of these is not a type of blood cell?",
+      "question_ur": "ان میں سے کون سا خون کے خلیے کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Erythrocyte", "Leukocyte", "Thrombocyte", "Osteocyte"],
+        "ur": ["اریتھروسائٹ", "لیوکوسائٹ", "تھرومبوسائٹ", "اوسٹیوسائٹ"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Osteocytes are bone cells, not blood cells. The three blood cell types are red blood cells (erythrocytes), white blood cells (leukocytes), and platelets (thrombocytes).",
+      "explanation_ur": "اوسٹیوسائٹس ہڈیوں کے خلیے ہیں، خون کے خلیے نہیں۔ خون کے خلیوں کی تین اقسام سرخ خون کے خلیے (اریتھروسائٹس)، سفید خون کے خلیے (لیوکوسائٹس) اور پلیٹلیٹس (تھرومبوسائٹس) ہیں۔",
+      "hint": "Think about bone vs blood components",
+      "hint_ur": "ہڈی بمقابلہ خون کے اجزاء کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 151,
+      "type": "true-false",
+      "question": "All mammals have mammary glands.",
+      "question_ur": "تمام ممالیہ میں ممالی غدود ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Mammary glands that produce milk are a defining characteristic of all mammals, including males (though usually non-functional).",
+      "explanation_ur": "دودھ پیدا کرنے والے ممالی غدود تمام ممالیہ کی تعریف کرنے والی خصوصیت ہیں، بشمول نر (اگرچہ عام طور پر غیر فعال)",
+      "hint": "Think about what defines mammals",
+      "hint_ur": "اس کے بارے میں سوچیں جو ممالیہ کی تعریف کرتا ہے",
+      "timeLimit": 20
+    },
+    {
+      "id": 152,
+      "type": "mcq",
+      "question": "What is the name of the pigment that makes leaves appear green?",
+      "question_ur": "اس رنگدات کا نام کیا ہے جو پتوں کو سبز دکھاتی ہے؟",
+      "options": {
+        "en": ["Chlorophyll", "Carotene", "Xanthophyll", "Anthocyanin"],
+        "ur": ["کلوروفیل", "کیروٹین", "زینتھوفیل", "انتھوسیانن"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Chlorophyll is the green pigment in plant cells that absorbs sunlight for photosynthesis.",
+      "explanation_ur": "کلوروفیل پودوں کے خلیوں میں سبز رنگدات ہے جو فوٹو سنتھیسس کے لیے سورج کی روشنی جذب کرتی ہے۔",
+      "hint": "Think about photosynthesis",
+      "hint_ur": "فوٹو سنتھیسس کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 153,
+      "type": "mcq",
+      "question": "Which of these is not a function of the hypothalamus?",
+      "question_ur": "ان میں سے کون سا ہائپوتھیلمس کا فعل نہیں ہے؟",
+      "options": {
+        "en": ["Body temperature regulation", "Hunger and thirst control", "Emotional responses", "Oxygen transport"],
+        "ur": ["جسم کے درجہ حرارت کا ضابطہ", "بھوک اور پیاس کا کنٹرول", "جذباتی رد عمل", "آکسیجن کی ترسیل"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The hypothalamus regulates many autonomic processes but doesn't directly participate in oxygen transport.",
+      "explanation_ur": "ہائپوتھیلمس بہت سے خودکار عمل کو کنٹرول کرتا ہے لیکن براہ راست آکسیجن کی ترسیل میں حصہ نہیں لیتا۔",
+      "hint": "Think about brain vs blood functions",
+      "hint_ur": "دماغ بمقابلہ خون کے افعال کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 154,
+      "type": "true-false",
+      "question": "All fish breathe through gills.",
+      "question_ur": "تمام مچھلیاں گلپھڑوں سے سانس لیتی ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Some fish like lungfish can breathe air through lungs, and some can breathe through their skin.",
+      "explanation_ur": "کچھ مچھلیاں جیسے لنگ فش پھیپھڑوں کے ذریعے ہوا میں سانس لے سکتی ہیں، اور کچھ اپنی جلد کے ذریعے سانس لے سکتی ہیں۔",
+      "hint": "Think about unusual fish adaptations",
+      "hint_ur": "غیر معمولی مچھلی کی موافقت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 155,
+      "type": "mcq",
+      "question": "What is the name of the process by which plants convert light energy to chemical energy?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے روشنی کی توانائی کو کیمیائی توانائی میں تبدیل کرتے ہیں؟",
+      "options": {
+        "en": ["Respiration", "Photosynthesis", "Transpiration", "Fermentation"],
+        "ur": ["سانس لینا", "فوٹو سنتھیسس", "ٹرانسپیریشن", "فرمنٹیشن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Photosynthesis converts solar energy into chemical energy stored in glucose molecules.",
+      "explanation_ur": "فوٹو سنتھیسس شمسی توانائی کو گلوکوز مالیکیولز میں ذخیرہ شدہ کیمیائی توانائی میں تبدیل کرتا ہے۔",
+      "hint": "Think about plant energy production",
+      "hint_ur": "پودوں کی توانائی کی پیداوار کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 156,
+      "type": "mcq",
+      "question": "Which of these is not a component of the cell membrane?",
+      "question_ur": "ان میں سے کون سا سیل جھلی کا جزو نہیں ہے؟",
+      "options": {
+        "en": ["Phospholipids", "Proteins", "Carbohydrates", "DNA"],
+        "ur": ["فاسفولیپڈز", "پروٹینز", "کاربوہائیڈریٹس", "ڈی این اے"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Cell membranes consist of phospholipids, proteins, and carbohydrates but don't contain DNA.",
+      "explanation_ur": "سیل جھلی فاسفولیپڈز، پروٹینز اور کاربوہائیڈریٹس پر مشتمل ہوتی ہے لیکن ڈی این اے نہیں ہوتا۔",
+      "hint": "Think about membrane structure vs genetic material",
+      "hint_ur": "جھلی کی ساخت بمقابلہ جینیاتی مواد کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 157,
+      "type": "true-false",
+      "question": "All plants have roots.",
+      "question_ur": "تمام پودوں کی جڑیں ہوتی ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Some primitive plants like mosses and liverworts have rhizoids instead of true roots.",
+      "explanation_ur": "کچھ قدیم پودے جیسے موسز اور لیورورٹس میں حقیقی جڑوں کے بجائے رائزائڈز ہوتے ہیں۔",
+      "hint": "Think about non-vascular plants",
+      "hint_ur": "غیر واسکولر پودوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 158,
+      "type": "mcq",
+      "question": "What is the name of the process by which pollen is transferred to the stigma?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے جرثومہ اسٹگما تک منتقل ہوتا ہے؟",
+      "options": {
+        "en": ["Germination", "Pollination", "Fertilization", "Transpiration"],
+        "ur": ["انکرن", "پولینیشن", "فرٹیلائزیشن", "ٹرانسپیریشن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Pollination is the transfer of pollen from anther to stigma, enabling plant reproduction.",
+      "explanation_ur": "پولینیشن اینتھر سے اسٹگما تک جرثومہ کی منتقلی ہے، جو پودوں کی تولید کو ممکن بناتی ہے۔",
+      "hint": "Think about flower reproduction",
+      "hint_ur": "پھولوں کی تولید کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 159,
+      "type": "mcq",
+      "question": "Which of these is not a type of plant movement?",
+      "question_ur": "ان میں سے کون سا پودوں کی حرکت کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Phototropism", "Thigmotropism", "Gravitropism", "Hemotropism"],
+        "ur": ["فوٹوٹروپزم", "تھگموٹروپزم", "گریویٹروپزم", "ہیموٹروپزم"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Hemotropism is not a real term. The other options describe plant responses to light, touch, and gravity.",
+      "explanation_ur": "ہیموٹروپزم ایک حقیقی اصطلاح نہیں ہے۔ دیگر اختیارات پودوں کے روشنی، چھونے اور کشش ثقل کے جوابات بیان کرتے ہیں۔",
+      "hint": "Think about plant responses to stimuli",
+      "hint_ur": "پودوں کے محرکات کے جوابات کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 160,
+      "type": "true-false",
+      "question": "All animals have a circulatory system.",
+      "question_ur": "تمام جانوروں کا دوران نظام ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Simple animals like sponges and jellyfish rely on diffusion rather than a circulatory system.",
+      "explanation_ur": "سادہ جانور جیسے اسفنج اور جیلی فش دوران نظام کے بجائے ڈفیوژن پر انحصار کرتے ہیں۔",
+      "hint": "Think about primitive organisms",
+      "hint_ur": "قدیم جانداروں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 161,
+      "type": "mcq",
+      "question": "What is the name of the process by which cells become specialized?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے خلیے مخصوص ہو جاتے ہیں؟",
+      "options": {
+        "en": ["Mitosis", "Meiosis", "Differentiation", "Osmosis"],
+        "ur": ["مائیٹوسس", "میوسس", "تفریق", "اوسموسس"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Cell differentiation is the process by which generic cells become specialized cell types.",
+      "explanation_ur": "سیل تفریق وہ عمل ہے جس کے ذریعے عام خلیے مخصوص خلیوں کی اقسام بن جاتے ہیں۔",
+      "hint": "Think about stem cells",
+      "hint_ur": "اسٹیم سیلز کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 162,
+      "type": "mcq",
+      "question": "Which of these is not a function of the pancreas?",
+      "question_ur": "ان میں سے کون سا لبلبہ کا فعل نہیں ہے؟",
+      "options": {
+        "en": ["Produce insulin", "Produce glucagon", "Produce digestive enzymes", "Filter blood"],
+        "ur": ["انسولین پیدا کرنا", "گلوکاگون پیدا کرنا", "ہاضمے کے انزائمز پیدا کرنا", "خون کو فلٹر کرنا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The pancreas has endocrine (hormone) and exocrine (digestive) functions but doesn't filter blood.",
+      "explanation_ur": "لبلبہ میں اینڈوکرائن (ہارمون) اور ایکزوکرائن (ہاضمہ) افعال ہوتے ہیں لیکن یہ خون کو فلٹر نہیں کرتا۔",
+      "hint": "Think about kidney functions",
+      "hint_ur": "گردے کے افعال کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 163,
+      "type": "true-false",
+      "question": "All bacteria are prokaryotes.",
+      "question_ur": "تمام بیکٹیریا پروکیریوٹس ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Bacteria lack membrane-bound organelles and a nucleus, making them prokaryotic organisms.",
+      "explanation_ur": "بیکٹیریا میں جھلی سے بند عضویات اور مرکزہ نہیں ہوتا، جو انہیں پروکیریوٹک جاندار بناتا ہے۔",
+      "hint": "Think about cell organization",
+      "hint_ur": "خلیے کی تنظیم کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 164,
+      "type": "mcq",
+      "question": "What is the name of the process by which plants release water vapor?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے پانی کے بخارات خارج کرتے ہیں؟",
+      "options": {
+        "en": ["Photosynthesis", "Respiration", "Transpiration", "Germination"],
+        "ur": ["فوٹو سنتھیسس", "سانس لینا", "ٹرانسپیریشن", "انکرن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Transpiration is the evaporation of water from plant surfaces, mainly through stomata in leaves.",
+      "explanation_ur": "ٹرانسپیریشن پودوں کی سطحوں سے پانی کے بخارات بننے کا عمل ہے، بنیادی طور پر پتوں میں موجود سٹوماٹا کے ذریعے۔",
+      "hint": "Think about plant 'sweating'",
+      "hint_ur": "پودوں کے 'پسینے' کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 165,
+      "type": "mcq",
+      "question": "Which of these is not a part of the human eye?",
+      "question_ur": "ان میں سے کون سا انسانی آنکھ کا حصہ نہیں ہے؟",
+      "options": {
+        "en": ["Cornea", "Retina", "Cochlea", "Iris"],
+        "ur": ["کارنیا", "ریٹنا", "کوکلیا", "عنبیہ"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The cochlea is part of the inner ear, not the eye. It's responsible for hearing.",
+      "explanation_ur": "کوکلیا اندرونی کان کا حصہ ہے، آنکھ کا نہیں۔ یہ سننے کے لیے ذمہ دار ہے۔",
+      "hint": "Think about sensory organs",
+      "hint_ur": "حسی اعضاء کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 166,
+      "type": "true-false",
+      "question": "All fungi are multicellular.",
+      "question_ur": "تمام فنجائی کثیر خلوی ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "While many fungi are multicellular (like mushrooms), yeasts are unicellular fungi.",
+      "explanation_ur": "اگرچہ بہت سے فنجائی کثیر خلوی ہوتے ہیں (جیسے مشروم)، خمیر یک خلوی فنجائی ہوتے ہیں۔",
+      "hint": "Think about baker's yeast",
+      "hint_ur": "بیکر کے خمیر کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 167,
+      "type": "mcq",
+      "question": "What is the name of the process by which plants grow toward light?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے روشنی کی طرف بڑھتے ہیں؟",
+      "options": {
+        "en": ["Gravitropism", "Phototropism", "Thigmotropism", "Hydrotropism"],
+        "ur": ["گریویٹروپزم", "فوٹوٹروپزم", "تھگموٹروپزم", "ہائیڈروٹروپزم"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Phototropism is directional growth in response to light, controlled by the hormone auxin.",
+      "explanation_ur": "فوٹوٹروپزم روشنی کے جواب میں سمت دار نشوونما ہے، جو ہارمون آکسن کے ذریعے کنٹرول ہوتا ہے۔",
+      "hint": "Think about window plants",
+      "hint_ur": "کھڑکی کے پودوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 168,
+      "type": "mcq",
+      "question": "Which of these is not a type of plant vascular tissue?",
+      "question_ur": "ان میں سے کون سا پودوں کے واسکولر ٹشو کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Xylem", "Phloem", "Cambium", "Epidermis"],
+        "ur": ["زائلم", "فلوئم", "کیمبیئم", "ایپیڈرمس"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The epidermis is the outer protective layer, not vascular tissue. Xylem and phloem transport water and nutrients.",
+      "explanation_ur": "ایپیڈرمس بیرونی حفاظتی پرت ہے، واسکولر ٹشو نہیں۔ زائلم اور فلوئم پانی اور غذائی اجزاء کی ترسیل کرتے ہیں۔",
+      "hint": "Think about transport tissues",
+      "hint_ur": "ٹرانسپورٹ ٹشوز کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 169,
+      "type": "true-false",
+      "question": "All animals have bilateral symmetry.",
+      "question_ur": "تمام جانوروں میں دو طرفہ توازن ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "While many animals are bilaterally symmetrical, some like jellyfish have radial symmetry, and sponges are asymmetrical.",
+      "explanation_ur": "اگرچہ بہت سے جانور دو طرفہ متناسب ہوتے ہیں، کچھ جیسے جیلی فش میں شعاعی توازن ہوتا ہے، اور اسفنج غیر متناسب ہوتے ہیں۔",
+      "hint": "Think about body plans",
+      "hint_ur": "جسم کے منصوبوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 170,
+      "type": "mcq",
+      "question": "What is the name of the male reproductive part of a flower?",
+      "question_ur": "پھول کے مرد تولیدی حصے کا نام کیا ہے؟",
+      "options": {
+        "en": ["Pistil", "Stamen", "Ovary", "Stigma"],
+        "ur": ["پسٹل", "اسٹیمن", "اووری", "اسٹگما"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The stamen consists of anther and filament, producing pollen (male gametes).",
+      "explanation_ur": "اسٹیمن اینتھر اور فلامنٹ پر مشتمل ہوتا ہے، جو جرثومہ (مرد گیمیٹ) پیدا کرتا ہے۔",
+      "hint": "Think about pollen production",
+      "hint_ur": "جرثومہ کی پیداوار کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 171,
+      "type": "mcq",
+      "question": "Which of these is not a function of the large intestine?",
+      "question_ur": "ان میں سے کون سا بڑی آنت کا فعل نہیں ہے؟",
+      "options": {
+        "en": ["Water absorption", "Vitamin absorption", "Waste storage", "Protein digestion"],
+        "ur": ["پانی جذب کرنا", "وٹامن جذب کرنا", "فضلہ ذخیرہ کرنا", "پروٹین ہضم کرنا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Protein digestion occurs mainly in the stomach and small intestine, not the large intestine.",
+      "explanation_ur": "پروٹین کا ہضم بنیادی طور پر معدے اور چھوٹی آنت میں ہوتا ہے، بڑی آنت میں نہیں۔",
+      "hint": "Think about digestive sequence",
+      "hint_ur": "ہاضمے کے تسلسل کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 172,
+      "type": "true-false",
+      "question": "All reptiles lay eggs.",
+      "question_ur": "تمام رینگنے والے جانور انڈے دیتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "While most reptiles are oviparous (egg-laying), some like boa constrictors are viviparous (live-bearing).",
+      "explanation_ur": "اگرچہ زیادہ تر رینگنے والے جانور اوویپیرس (انڈے دینے والے) ہوتے ہیں، کچھ جیسے بوا کنسٹرکٹرز ویویپیرس (زندہ بچے دینے والے) ہوتے ہیں۔",
+      "hint": "Think about snake reproduction",
+      "hint_ur": "سانپ کی تولید کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 173,
+      "type": "mcq",
+      "question": "What is the name of the process by which water moves across a membrane?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پانی جھلی کے پار منتقل ہوتا ہے؟",
+      "options": {
+        "en": ["Diffusion", "Osmosis", "Active transport", "Endocytosis"],
+        "ur": ["ڈفیوژن", "اوسموسس", "ایکٹو ٹرانسپورٹ", "اینڈوسائٹوسس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Osmosis is the passive movement of water across a semi-permeable membrane from low to high solute concentration.",
+      "explanation_ur": "اوسموسس پانی کا نیم پارگدار جھلی کے پار کم سے زیادہ گھلے ہوئے مادے کی حراستی کی طرف غیر فعال حرکت ہے۔",
+      "hint": "Think about concentration gradients",
+      "hint_ur": "حراستی ڈھلوان کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 174,
+      "type": "mcq",
+      "question": "Which of these is not a type of symbiotic relationship?",
+      "question_ur": "ان میں سے کون سا باہمی رشتے کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Mutualism", "Commensalism", "Parasitism", "Autotrophism"],
+        "ur": ["باہمی مفاد", "کمینسلزم", "پیراسائٹزم", "آٹوٹروفزم"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Autotrophism refers to self-feeding organisms (like plants), not a relationship between species.",
+      "explanation_ur": "آٹوٹروفزم خود کھلانے والے جانداروں (جیسے پودے) سے مراد ہے، نہ کہ انواع کے درمیان تعلق۔",
+      "hint": "Think about organism interactions",
+      "hint_ur": "جانداروں کے تعاملات کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 175,
+      "type": "true-false",
+      "question": "All birds can fly.",
+      "question_ur": "تمام پرندے اڑ سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Flightless birds like ostriches, emus, and penguins cannot fly, though they are still classified as birds.",
+      "explanation_ur": "اڑنے سے قاصر پرندے جیسے شترمرغ، ایموز اور پینگوئن اڑ نہیں سکتے، حالانکہ انہیں اب بھی پرندوں کے طور پر درجہ بندی کیا جاتا ہے۔",
+      "hint": "Think about large ground birds",
+      "hint_ur": "بڑے زمینی پرندوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 176,
+      "type": "mcq",
+      "question": "What is the name of the structure that connects muscles to bones?",
+      "question_ur": "اس ڈھانچے کا نام کیا ہے جو پٹھوں کو ہڈیوں سے جوڑتا ہے؟",
+      "options": {
+        "en": ["Ligament", "Tendon", "Cartilage", "Fascia"],
+        "ur": ["لگامنٹ", "ٹینڈن", "کارٹلیج", "فیسیا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Tendons are tough fibrous connective tissues that transmit muscle force to bones.",
+      "explanation_ur": "ٹینڈن سخت ریشہ دار کنیکٹو ٹشوز ہیں جو پٹھوں کی قوت کو ہڈیوں تک منتقل کرتے ہیں۔",
+      "hint": "Think about muscle attachments",
+      "hint_ur": "پٹھوں کے منسلکات کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 177,
+      "type": "mcq",
+      "question": "Which of these is not a function of the skin?",
+      "question_ur": "ان میں سے کون سا جلد کا فعل نہیں ہے؟",
+      "options": {
+        "en": ["Protection", "Sensation", "Temperature regulation", "Oxygen transport"],
+        "ur": ["تحفظ", "احساس", "درجہ حرارت کا ضابطہ", "آکسیجن کی ترسیل"]
+      },
+      "correctAnswer": 3,
+      "explanation": "While skin protects, senses, and regulates temperature, oxygen transport occurs in the circulatory system.",
+      "explanation_ur": "اگرچہ جلد تحفظ کرتی ہے، محسوس کرتی ہے، اور درجہ حرارت کو کنٹرول کرتی ہے، آکسیجن کی ترسیل دوران نظام میں ہوتی ہے۔",
+      "hint": "Think about respiratory functions",
+      "hint_ur": "تنفسی افعال کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 178,
+      "type": "true-false",
+      "question": "All amphibians live both in water and on land.",
+      "question_ur": "تمام جل تھلیل پانی اور زمین دونوں پر رہتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "While most amphibians have aquatic larval stages, some species are entirely aquatic or terrestrial as adults.",
+      "explanation_ur": "اگرچہ زیادہ تر جل تھلیل میں آبی لاروا مراحل ہوتے ہیں، کچھ انواع بالغوں کے طور پر مکمل طور پر آبی یا زمینی ہوتی ہیں۔",
+      "hint": "Think about salamanders",
+      "hint_ur": "سیلمینڈرز کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 179,
+      "type": "mcq",
+      "question": "What is the name of the process by which plants respond to gravity?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے کشش ثقل کے جواب دیتے ہیں؟",
+      "options": {
+        "en": ["Phototropism", "Gravitropism", "Thigmotropism", "Hydrotropism"],
+        "ur": ["فوٹوٹروپزم", "گریویٹروپزم", "تھگموٹروپزم", "ہائیڈروٹروپزم"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Gravitropism causes roots to grow downward (positive) and stems upward (negative) in response to gravity.",
+      "explanation_ur": "گریویٹروپزم جڑوں کو نیچے کی طرف (مثبت) اور تنوں کو کشش ثقل کے جواب میں اوپر کی طرف (منفی) بڑھنے کا سبب بنتا ہے۔",
+      "hint": "Think about root growth direction",
+      "hint_ur": "جڑ کی نشوونما کی سمت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 180,
+      "type": "mcq",
+      "question": "Which of these is not a type of plant hormone?",
+      "question_ur": "ان میں سے کون سا پودے کے ہارمون کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Auxin", "Gibberellin", "Insulin", "Cytokinin"],
+        "ur": ["آکسن", "گبریلن", "انسولین", "سائٹوکائنن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Insulin is an animal hormone that regulates blood sugar, not a plant growth regulator.",
+      "explanation_ur": "انسولین ایک جانوروں کا ہارمون ہے جو خون میں شکر کو کنٹرول کرتا ہے، پودوں کی نشوونما کا ریگولیٹر نہیں۔",
+      "hint": "Think about animal vs plant hormones",
+      "hint_ur": "جانوروں بمقابلہ پودوں کے ہارمونز کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 181,
+      "type": "true-false",
+      "question": "All animals have a complete digestive system with two openings.",
+      "question_ur": "تمام جانوروں میں دو سوراخوں والا مکمل نظام انہضام ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Some simple animals like jellyfish and flatworms have a gastrovascular cavity with just one opening.",
+      "explanation_ur": "کچھ سادہ جانور جیسے جیلی فش اور فلیٹ ورموں میں صرف ایک سوراخ کے ساتھ گیسٹرو ویسکولر گہا ہوتی ہے۔",
+      "hint": "Think about primitive digestive systems",
+      "hint_ur": "قدیم نظام انہضام کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 182,
+      "type": "mcq",
+      "question": "What is the name of the structure where photosynthesis occurs in plant cells?",
+      "question_ur": "اس ڈھانچے کا نام کیا ہے جہاں پودوں کے خلیوں میں فوٹو سنتھیسس ہوتا ہے؟",
+      "options": {
+        "en": ["Mitochondria", "Chloroplast", "Nucleus", "Vacuole"],
+        "ur": ["مائٹوکونڈریا", "کلوروپلاسٹ", "مرکزہ", "خلیے کا خالیہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Chloroplasts contain chlorophyll and are the sites of photosynthesis in plant cells.",
+      "explanation_ur": "کلوروپلاسٹ میں کلوروفیل ہوتا ہے اور یہ پودوں کے خلیوں میں فوٹو سنتھیسس کے مقامات ہیں۔",
+      "hint": "Think about green organelles",
+      "hint_ur": "سبز عضویات کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 183,
+      "type": "mcq",
+      "question": "Which of these is not a component of the human respiratory system?",
+      "question_ur": "ان میں سے کون سا انسانی نظام تنفس کا جزو نہیں ہے؟",
+      "options": {
+        "en": ["Trachea", "Bronchi", "Alveoli", "Esophagus"],
+        "ur": ["ٹریکیا", "برونکی", "الویولی", "غذائی نالی"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The esophagus is part of the digestive system, carrying food to the stomach, not involved in respiration.",
+      "explanation_ur": "غذائی نالی نظام انہضام کا حصہ ہے، جو کھانا معدے تک پہنچاتی ہے، سانس لینے میں شامل نہیں ہوتی۔",
+      "hint": "Think about swallowing vs breathing",
+      "hint_ur": "نگلنے بمقابلہ سانس لینے کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 184,
+      "type": "true-false",
+      "question": "All plants produce seeds.",
+      "question_ur": "تمام پودے بیج پیدا کرتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Non-vascular plants (like mosses) and seedless vascular plants (like ferns) reproduce via spores, not seeds.",
+      "explanation_ur": "غیر واسکولر پودے (جیسے موسز) اور بیج سے پاک واسکولر پودے (جیسے فرنز) بیجوں کے بجائے سپورز کے ذریعے دوبارہ پیدا کرتے ہیں۔",
+      "hint": "Think about primitive plants",
+      "hint_ur": "قدیم پودوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 185,
+      "type": "mcq",
+      "question": "What is the name of the process by which cells engulf liquid particles?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے خلیے مائع ذرات نگل لیتے ہیں؟",
+      "options": {
+        "en": ["Phagocytosis", "Pinocytosis", "Exocytosis", "Osmosis"],
+        "ur": ["فیگوسائٹوسس", "پنوسائٹوسس", "ایکسوسائٹوسس", "اوسموسس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Pinocytosis ('cell drinking') is the uptake of extracellular fluid containing dissolved substances.",
+      "explanation_ur": "پنوسائٹوسس ('خلیے کا پینا') تحلیل شدہ مادوں پر مشتمل خارج خلوی سیال کا اپٹیک ہے۔",
+      "hint": "Think about liquid uptake",
+      "hint_ur": "مائع اپٹیک کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 186,
+      "type": "mcq",
+      "question": "Which of these is not a type of plant root system?",
+      "question_ur": "ان میں سے کون سا پودے کی جڑ کا نظام نہیں ہے؟",
+      "options": {
+        "en": ["Taproot", "Fibrous", "Adventitious", "Vascular"],
+        "ur": ["ٹیپ روٹ", "فائبرس", "ایڈونٹیشس", "واسکولر"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Vascular refers to the transport system (xylem and phloem), not a classification of root systems.",
+      "explanation_ur": "واسکولر ٹرانسپورٹ سسٹم (زائلم اور فلوئم) سے مراد ہے، جڑ کے نظام کی درجہ بندی نہیں۔",
+      "hint": "Think about root structures",
+      "hint_ur": "جڑ کی ساخت کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 187,
+      "type": "true-false",
+      "question": "All animals have a nervous system.",
+      "question_ur": "تمام جانوروں کا اعصابی نظام ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Sponges (Porifera) lack true nervous systems, though they can respond to some stimuli.",
+      "explanation_ur": "اسفنج (پوریفرا) میں حقیقی اعصابی نظام نہیں ہوتا، حالانکہ وہ کچھ محرکات کا جواب دے سکتے ہیں۔",
+      "hint": "Think about simplest animals",
+      "hint_ur": "سب سے سادہ جانوروں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 188,
+      "type": "mcq",
+      "question": "What is the name of the female reproductive part of a flower?",
+      "question_ur": "پھول کے مادہ تولیدی حصے کا نام کیا ہے؟",
+      "options": {
+        "en": ["Stamen", "Pistil", "Anther", "Filament"],
+        "ur": ["اسٹیمن", "پسٹل", "اینٹر", "فلامنٹ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The pistil (or carpel) consists of stigma, style, and ovary where fertilization occurs.",
+      "explanation_ur": "پسٹل (یا کارپل) اسٹگما، سٹائل اور اووری پر مشتمل ہوتا ہے جہاں فرٹیلائزیشن ہوتی ہے۔",
+      "hint": "Think about seed development",
+      "hint_ur": "بیج کی نشوونما کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 189,
+      "type": "mcq",
+      "question": "Which of these is not a function of the large intestine?",
+      "question_ur": "ان میں سے کون سا بڑی آنت کا فعل نہیں ہے؟",
+      "options": {
+        "en": ["Water absorption", "Vitamin absorption", "Waste storage", "Protein digestion"],
+        "ur": ["پانی جذب کرنا", "وٹامن جذب کرنا", "فضلہ ذخیرہ کرنا", "پروٹین ہضم کرنا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Protein digestion occurs earlier in the digestive tract (stomach and small intestine).",
+      "explanation_ur": "پروٹین کا ہضم ہاضمہ نالی میں پہلے ہی ہو جاتا ہے (معدہ اور چھوٹی آنت)",
+      "hint": "Think about digestive sequence",
+      "hint_ur": "ہاضمے کے تسلسل کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 190,
+      "type": "true-false",
+      "question": "All reptiles are cold-blooded.",
+      "question_ur": "تمام رینگنے والے جانور خون کے سرد ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Reptiles are ectothermic (cold-blooded), relying on external heat sources to regulate body temperature.",
+      "explanation_ur": "رینگنے والے جانور ایکٹوتھرمک (سرد خون والے) ہوتے ہیں، جو جسم کے درجہ حرارت کو کنٹرول کرنے کے لیے بیرونی حرارت کے ذرائع پر انحصار کرتے ہیں۔",
+      "hint": "Think about temperature regulation",
+      "hint_ur": "درجہ حرارت کے ضابطہ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 191,
+      "type": "mcq",
+      "question": "What is the name of the process by which plants respond to touch?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے چھونے کے جواب دیتے ہیں؟",
+      "options": {
+        "en": ["Phototropism", "Gravitropism", "Thigmotropism", "Hydrotropism"],
+        "ur": ["فوٹوٹروپزم", "گریویٹروپزم", "تھگموٹروپزم", "ہائیڈروٹروپزم"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Thigmotropism is directional growth response to touch, seen in climbing plants like vines.",
+      "explanation_ur": "تھگموٹروپزم چھونے کے لیے سمت دار نشوونما کا جواب ہے، جو بیلوں جیسے چڑھنے والے پودوں میں دیکھا جاتا ہے۔",
+      "hint": "Think about sensitive plants",
+      "hint_ur": "حساس پودوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 192,
+      "type": "mcq",
+      "question": "Which of these is not a type of plant adaptation to dry environments?",
+      "question_ur": "ان میں سے کون سا خشک ماحول کے لیے پودوں کا موافقت نہیں ہے؟",
+      "options": {
+        "en": ["Thick cuticle", "Reduced leaves", "Deep roots", "Broad leaves"],
+        "ur": ["موٹی کیوٹیکل", "کم پتے", "گہری جڑیں", "چوڑے پتے"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Broad leaves increase water loss through transpiration, while the other adaptations help conserve water.",
+      "explanation_ur": "چوڑے پتے ٹرانسپیریشن کے ذریعے پانی کے اخراج کو بڑھاتے ہیں، جبکہ دیگر موافقت پانی کے تحفظ میں مدد کرتی ہیں۔",
+      "hint": "Think about desert plants",
+      "hint_ur": "صحرائی پودوں کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 193,
+      "type": "true-false",
+      "question": "All birds have feathers.",
+      "question_ur": "تمام پرندوں کے پر ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Feathers are a defining characteristic of all bird species, even flightless ones.",
+      "explanation_ur": "پر تمام پرندوں کی انواع کی تعریف کرنے والی خصوصیت ہیں، یہاں تک کہ اڑنے سے قاصر پرندوں کے بھی۔",
+      "hint": "Think about bird classification",
+      "hint_ur": "پرندوں کی درجہ بندی کے بارے میں سوچیں",
+      "timeLimit": 15
+    },
+    {
+      "id": 194,
+      "type": "mcq",
+      "question": "What is the name of the structure that connects bones to other bones?",
+      "question_ur": "اس ڈھانچے کا نام کیا ہے جو ہڈیوں کو دوسری ہڈیوں سے جوڑتا ہے؟",
+      "options": {
+        "en": ["Tendon", "Ligament", "Cartilage", "Fascia"],
+        "ur": ["ٹینڈن", "لگامنٹ", "کارٹلیج", "فیسیا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ligaments are tough bands of connective tissue that connect bones at joints, providing stability.",
+      "explanation_ur": "لگامنٹ کنیکٹو ٹشو کی سخت پٹیاں ہیں جو جوڑوں پر ہڈیوں کو جوڑتی ہیں، استحکام فراہم کرتی ہیں۔",
+      "hint": "Think about joint connections",
+      "hint_ur": "جوڑ کے کنکشن کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 195,
+      "type": "mcq",
+      "question": "Which of these is not a function of the spleen?",
+      "question_ur": "ان میں سے کون سا تلی کا فعل نہیں ہے؟",
+      "options": {
+        "en": ["Filter blood", "Store platelets", "Produce bile", "Fight infection"],
+        "ur": ["خون کو فلٹر کرنا", "پلیٹلیٹس ذخیرہ کرنا", "پت پیدا کرنا", "انفیکشن سے لڑنا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Bile is produced by the liver, not the spleen. The spleen filters blood and supports immunity.",
+      "explanation_ur": "پت جگر پیدا کرتا ہے، تلی نہیں۔ تلی خون کو فلٹر کرتی ہے اور مدافعت کو سپورٹ کرتی ہے۔",
+      "hint": "Think about digestive functions",
+      "hint_ur": "ہاضمے کے افعال کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 196,
+      "type": "true-false",
+      "question": "All amphibians undergo metamorphosis.",
+      "question_ur": "تمام جل تھلیل میٹامورفوسس سے گزرتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Some salamanders (like axolotls) exhibit neoteny, retaining larval features throughout life without full metamorphosis.",
+      "explanation_ur": "کچھ سیلمینڈرز (جیسے ایکسولوٹلز) نیوٹینی کا مظاہرہ کرتے ہیں، جو مکمل میٹامورفوسس کے بغیر زندگی بھر لاروا کی خصوصیات برقرار رکھتے ہیں۔",
+      "hint": "Think about unusual amphibians",
+      "hint_ur": "غیر معمولی جل تھلیل کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 197,
+      "type": "mcq",
+      "question": "What is the name of the process by which plants lose leaves seasonally?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے موسمی طور پر پتے کھوتے ہیں؟",
+      "options": {
+        "en": ["Abscission", "Transpiration", "Senescence", "Dormancy"],
+        "ur": ["ایجیژن", "ٹرانسپیریشن", "بڑھاپا", "خوابیدگی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abscission involves hormonal changes that create a separation layer at the base of leaves/petals/fruits.",
+      "explanation_ur": "ایجیژن میں ہارمونل تبدیلیاں شامل ہوتی ہیں جو پتوں/پنکھڑیوں/پھلوں کے نیچے ایک علیحدہ پرت بناتی ہیں۔",
+      "hint": "Think about autumn leaf drop",
+      "hint_ur": "خزاں میں پتے گرنے کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 198,
+      "type": "mcq",
+      "question": "Which of these is not a type of plant propagation?",
+      "question_ur": "ان میں سے کون سا پودوں کی افزائش کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Seeds", "Cuttings", "Grafting", "Transpiration"],
+        "ur": ["بیج", "کٹنگز", "گرفٹنگ", "ٹرانسپیریشن"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Transpiration is water movement through plants, not a method of reproduction or propagation.",
+      "explanation_ur": "ٹرانسپیریشن پودوں کے ذریعے پانی کی حرکت ہے، تولید یا افزائش کا طریقہ نہیں۔",
+      "hint": "Think about plant reproduction",
+      "hint_ur": "پودوں کی تولید کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 199,
+      "type": "true-false",
+      "question": "All mammals have sweat glands.",
+      "question_ur": "تمام ممالیہ میں پسینے کی غدود ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Some mammals like whales, dolphins, and porpoises lack sweat glands entirely.",
+      "explanation_ur": "کچھ ممالیہ جیسے وہیل، ڈولفن اور پورپوئز میں مکمل طور پر پسینے کی غدود نہیں ہوتے۔",
+      "hint": "Think about aquatic mammals",
+      "hint_ur": "آبی ممالیہ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    
+    {
+      "id": 200,
+      "type": "mcq",
+      "question": "Which of these is not a type of RNA?",
+      "question_ur": "ان میں سے کون سا آر این اے کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["mRNA", "tRNA", "rRNA", "zRNA"],
+        "ur": ["ایم آر این اے", "ٹی آر این اے", "آر آر این اے", "زیڈ آر این اے"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The three main types are messenger RNA (mRNA), transfer RNA (tRNA), and ribosomal RNA (rRNA). zRNA doesn't exist.",
+      "explanation_ur": "تین اہم اقسام میسنجر آر این اے (ایم آر این اے)، ٹرانسفر آر این اے (ٹی آر این اے) اور رائبوسومل آر این اے (آر آر این اے) ہیں۔ زیڈ آر این اے موجود نہیں ہے۔",
+      "hint": "Think about protein synthesis",
+      "hint_ur": "پروٹین سنتھیسس کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 201,
+      "type": "true-false",
+      "question": "All enzymes are proteins.",
+      "question_ur": "تمام انزائمز پروٹین ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "While most enzymes are proteins, some RNA molecules called ribozymes also have catalytic activity.",
+      "explanation_ur": "اگرچہ زیادہ تر انزائمز پروٹین ہوتے ہیں، کچھ آر این اے مالیکیولز جنہیں رائبوزائمز کہا جاتا ہے ان میں بھی کیٹیلیٹک سرگرمی ہوتی ہے۔",
+      "hint": "Think about RNA functions",
+      "hint_ur": "آر این اے کے افعال کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 202,
+      "type": "mcq",
+      "question": "What is the name of the process by which plants grow toward light?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے روشنی کی طرف بڑھتے ہیں؟",
+      "options": {
+        "en": ["Gravitropism", "Phototropism", "Thigmotropism", "Hydrotropism"],
+        "ur": ["گریویٹروپزم", "فوٹوٹروپزم", "تھگموٹروپزم", "ہائیڈروٹروپزم"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Phototropism is controlled by the hormone auxin which causes cells on the shaded side to elongate more.",
+      "explanation_ur": "فوٹوٹروپزم ہارمون آکسن کے ذریعے کنٹرول ہوتا ہے جو سایہ دار طرف کے خلیوں کو زیادہ لمبا ہونے کا سبب بنتا ہے۔",
+      "hint": "Think about window plants",
+      "hint_ur": "کھڑکی کے پودوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 203,
+      "type": "mcq",
+      "question": "Which of these is not a function of the liver?",
+      "question_ur": "ان میں سے کون سا جگر کا فعل نہیں ہے؟",
+      "options": {
+        "en": ["Bile production", "Detoxification", "Glycogen storage", "Oxygen transport"],
+        "ur": ["پت کی پیداوار", "زہر زدائی", "گلیکوجن ذخیرہ کرنا", "آکسیجن کی ترسیل"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The liver performs many metabolic functions but oxygen transport is handled by red blood cells.",
+      "explanation_ur": "جگر بہت سے تحولاتی افعال انجام دیتا ہے لیکن آکسیجن کی ترسیل سرخ خون کے خلیوں کے ذریعے ہوتی ہے۔",
+      "hint": "Think about blood functions",
+      "hint_ur": "خون کے افعال کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 204,
+      "type": "true-false",
+      "question": "All animals have a backbone.",
+      "question_ur": "تمام جانوروں کی ریڑھ کی ہڈی ہوتی ہے۔",
+      "correctAnswer": false,
+      "explanation": "Invertebrates (about 97% of animal species) lack backbones, including insects, worms, and mollusks.",
+      "explanation_ur": "غیر ریڑھ والے جانور (تقریباً 97% جانوروں کی انواع) میں ریڑھ کی ہڈی نہیں ہوتی، بشمول کیڑے، کیچوے اور مولسکس۔",
+      "hint": "Think about insect anatomy",
+      "hint_ur": "کیڑوں کی ساخت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 205,
+      "type": "mcq",
+      "question": "What is the name of the pigment that makes carrots orange?",
+      "question_ur": "اس رنگدات کا نام کیا ہے جو گاجر کو نارنجی بناتا ہے؟",
+      "options": {
+        "en": ["Chlorophyll", "Melanin", "Beta-carotene", "Hemoglobin"],
+        "ur": ["کلوروفیل", "میلانن", "بیٹا کیروٹین", "ہیموگلوبن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Beta-carotene is an orange pigment that the body converts to vitamin A, important for vision.",
+      "explanation_ur": "بیٹا کیروٹین ایک نارنجی رنگدات ہے جسے جسم وٹامن اے میں تبدیل کرتا ہے، جو نظر کے لیے اہم ہے۔",
+      "hint": "Think about vitamin A sources",
+      "hint_ur": "وٹامن اے کے ذرائع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 206,
+      "type": "mcq",
+      "question": "Which of these is not a component of cell membranes?",
+      "question_ur": "ان میں سے کون سا سیل جھلی کا جزو نہیں ہے؟",
+      "options": {
+        "en": ["Phospholipids", "Proteins", "Cholesterol", "Cellulose"],
+        "ur": ["فاسفولیپڈز", "پروٹینز", "کولیسٹرول", "سیلیولوز"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Cellulose is a plant cell wall component, not found in animal cell membranes which contain phospholipids, proteins and cholesterol.",
+      "explanation_ur": "سیلیولوز پودوں کے خلیوں کی دیوار کا جزو ہے، جانوروں کے خلیوں کی جھلی میں نہیں پایا جاتا جس میں فاسفولیپڈز، پروٹینز اور کولیسٹرول ہوتا ہے۔",
+      "hint": "Think about plant vs animal cells",
+      "hint_ur": "پودوں بمقابلہ جانوروں کے خلیوں کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 207,
+      "type": "true-false",
+      "question": "All plants perform photosynthesis.",
+      "question_ur": "تمام پودے فوٹو سنتھیسس کرتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Some parasitic plants like dodder lack chlorophyll and obtain nutrients from host plants instead of photosynthesizing.",
+      "explanation_ur": "کچھ پرجیوی پودے جیسے ڈوڈر میں کلوروفیل نہیں ہوتا اور وہ فوٹو سنتھیسس کرنے کے بجائے میزبان پودوں سے غذائی اجزاء حاصل کرتے ہیں۔",
+      "hint": "Think about non-green plants",
+      "hint_ur": "غیر سبز پودوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 208,
+      "type": "mcq",
+      "question": "What is the name of the process by which cells engulf large particles?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے خلیے بڑے ذرات نگل لیتے ہیں؟",
+      "options": {
+        "en": ["Diffusion", "Osmosis", "Phagocytosis", "Pinocytosis"],
+        "ur": ["ڈفیوژن", "اوسموسس", "فیگوسائٹوسس", "پنوسائٹوسس"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Phagocytosis ('cell eating') is how immune cells like macrophages engulf pathogens or debris.",
+      "explanation_ur": "فیگوسائٹوسس ('خلیے کا کھانا') وہ طریقہ ہے جس کے ذریعے مدافعتی خلیے جیسے میکروفیجز پیتھوجینز یا ملبے کو نگل لیتے ہیں۔",
+      "hint": "Think about immune responses",
+      "hint_ur": "مدافعتی رد عمل کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 209,
+      "type": "mcq",
+      "question": "Which of these is not a type of plant tissue?",
+      "question_ur": "ان میں سے کون سا پودے کے ٹشو کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Dermal", "Vascular", "Ground", "Neural"],
+        "ur": ["ڈرمل", "واسکولر", "گراؤنڈ", "اعصابی"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Neural tissue is found in animals. Plants have dermal (outer protective), vascular (transport), and ground (basic) tissues.",
+      "explanation_ur": "اعصابی ٹشو جانوروں میں پایا جاتا ہے۔ پودوں میں ڈرمل (بیرونی تحفظی)، واسکولر (ٹرانسپورٹ) اور گراؤنڈ (بنیادی) ٹشوز ہوتے ہیں۔",
+      "hint": "Think about animal vs plant tissues",
+      "hint_ur": "جانوروں بمقابلہ پودوں کے ٹشوز کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 210,
+      "type": "true-false",
+      "question": "All mammals give birth to live young.",
+      "question_ur": "تمام ممالیہ زندہ بچے پیدا کرتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Monotremes like the platypus and echidna are egg-laying mammals, though they do produce milk.",
+      "explanation_ur": "مونوٹریمز جیسے پلیٹیپس اور ایکڈنا انڈے دینے والے ممالیہ ہیں، حالانکہ وہ دودھ پیدا کرتے ہیں۔",
+      "hint": "Think about unusual mammals",
+      "hint_ur": "غیر معمولی ممالیہ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 211,
+      "type": "mcq",
+      "question": "What is the name of the protein that makes up hair and nails?",
+      "question_ur": "اس پروٹین کا نام کیا ہے جو بالوں اور ناخنوں کو بناتا ہے؟",
+      "options": {
+        "en": ["Collagen", "Keratin", "Elastin", "Myosin"],
+        "ur": ["کولاجن", "کیراٹن", "ایلاسٹن", "مائیوسن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Keratin is a tough, fibrous structural protein that also forms the outer layer of skin.",
+      "explanation_ur": "کیراٹن ایک سخت، ریشہ دار ساختی پروٹین ہے جو جلد کی بیرونی تہہ بھی بناتا ہے۔",
+      "hint": "Think about structural proteins",
+      "hint_ur": "ساختی پروٹین کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 212,
+      "type": "mcq",
+      "question": "Which of these is not a function of the skeletal system?",
+      "question_ur": "ان میں سے کون سا ڈھانچے کے نظام کا فعل نہیں ہے؟",
+      "options": {
+        "en": ["Support", "Movement", "Protection", "Hormone production"],
+        "ur": ["سہارا", "حرکت", "تحفظ", "ہارمون کی پیداوار"]
+      },
+      "correctAnswer": 3,
+      "explanation": "While bones store minerals and produce blood cells, they don't produce hormones as a primary function.",
+      "explanation_ur": "اگرچہ ہڈیاں معدنیات ذخیرہ کرتی ہیں اور خون کے خلیے بناتی ہیں، لیکن یہ بنیادی فعل کے طور پر ہارمون پیدا نہیں کرتیں۔",
+      "hint": "Think about endocrine system",
+      "hint_ur": "اینڈوکرائن نظام کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 213,
+      "type": "true-false",
+      "question": "All bacteria are harmful to humans.",
+      "question_ur": "تمام بیکٹیریا انسانوں کے لیے نقصان دہ ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Many bacteria are beneficial, including gut microbiota that aid digestion and produce vitamins.",
+      "explanation_ur": "بہت سے بیکٹیریا فائدہ مند ہوتے ہیں، بشمول آنتوں کے مائکروبائیوٹا جو ہاضمے میں مدد کرتے ہیں اور وٹامنز پیدا کرتے ہیں۔",
+      "hint": "Think about probiotics",
+      "hint_ur": "پروبائیوٹکس کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 214,
+      "type": "mcq",
+      "question": "What is the name of the process by which plants take in water through their roots?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے اپنی جڑوں کے ذریعے پانی لیتے ہیں؟",
+      "options": {
+        "en": ["Transpiration", "Photosynthesis", "Osmosis", "Respiration"],
+        "ur": ["ٹرانسپیریشن", "فوٹو سنتھیسس", "اوسموسس", "سانس لینا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Osmosis allows water to move from soil into root hairs through semi-permeable membranes.",
+      "explanation_ur": "اوسموسس پانی کو نیم پارگدار جھلیوں کے ذریعے مٹی سے جڑ کے بالوں میں منتقل ہونے دیتا ہے۔",
+      "hint": "Think about water movement",
+      "hint_ur": "پانی کی حرکت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 215,
+      "type": "mcq",
+      "question": "Which of these is not a part of the human ear?",
+      "question_ur": "ان میں سے کون سا انسانی کان کا حصہ نہیں ہے؟",
+      "options": {
+        "en": ["Cochlea", "Tympanum", "Retina", "Eustachian tube"],
+        "ur": ["کوکلیا", "ٹمپینم", "ریٹنا", "یوسٹیشین ٹیوب"]
+      },
+      "correctAnswer": 2,
+      "explanation": "The retina is part of the eye, containing photoreceptors for vision. The cochlea is the hearing organ in the inner ear.",
+      "explanation_ur": "ریٹنا آنکھ کا حصہ ہے، جس میں نظر کے لیے فوٹو ریسیپٹرز ہوتے ہیں۔ کوکلیا اندرونی کان میں سننے کا عضو ہے۔",
+      "hint": "Think about sensory organs",
+      "hint_ur": "حسی اعضاء کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 216,
+      "type": "true-false",
+      "question": "All fungi are decomposers.",
+      "question_ur": "تمام فنجائی تحلیل کرنے والے ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "While many fungi are decomposers, some form mutualistic relationships (like mycorrhizae with plants) or are parasites.",
+      "explanation_ur": "اگرچہ بہت سے فنجائی تحلیل کرنے والے ہوتے ہیں، کچھ باہمی رشتہ بناتے ہیں (جیسے پودوں کے ساتھ مائیکوریزا) یا پرجیوی ہوتے ہیں۔",
+      "hint": "Think about fungal diversity",
+      "hint_ur": "فنجائی کی تنوع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 217,
+      "type": "mcq",
+      "question": "What is the name of the process by which glucose is broken down for energy?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے گلوکوز کو توانائی کے لیے توڑا جاتا ہے؟",
+      "options": {
+        "en": ["Photosynthesis", "Respiration", "Transpiration", "Fermentation"],
+        "ur": ["فوٹو سنتھیسس", "سانس لینا", "ٹرانسپیریشن", "فرمنٹیشن"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Cellular respiration breaks down glucose to produce ATP, the cell's energy currency.",
+      "explanation_ur": "سیلولر ریسپیریشن گلوکوز کو توڑ کر اے ٹی پی پیدا کرتی ہے، جو خلیے کی توانائی کی کرنسی ہے۔",
+      "hint": "Think about energy production",
+      "hint_ur": "توانائی کی پیداوار کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 218,
+      "type": "mcq",
+      "question": "Which of these is not a type of plant vascular tissue?",
+      "question_ur": "ان میں سے کون سا پودوں کے واسکولر ٹشو کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Xylem", "Phloem", "Cambium", "Epidermis"],
+        "ur": ["زائلم", "فلوئم", "کیمبیئم", "ایپیڈرمس"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The epidermis is the outer protective layer. Xylem transports water, phloem transports sugars, and cambium is growth tissue.",
+      "explanation_ur": "ایپیڈرمس بیرونی حفاظتی پرت ہے۔ زائلم پانی کی ترسیل کرتا ہے، فلوئم شکر کی ترسیل کرتا ہے، اور کیمبیئم نشوونما کا ٹشو ہے۔",
+      "hint": "Think about transport tissues",
+      "hint_ur": "ٹرانسپورٹ ٹشوز کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 219,
+      "type": "true-false",
+      "question": "All animals have bilateral symmetry.",
+      "question_ur": "تمام جانوروں میں دو طرفہ توازن ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "While many animals are bilaterally symmetrical, cnidarians (like jellyfish) have radial symmetry, and sponges are asymmetrical.",
+      "explanation_ur": "اگرچہ بہت سے جانور دو طرفہ متناسب ہوتے ہیں، نائڈیرینز (جیسے جیلی فش) میں شعاعی توازن ہوتا ہے، اور اسفنج غیر متناسب ہوتے ہیں۔",
+      "hint": "Think about simple animals",
+      "hint_ur": "سادہ جانوروں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 220,
+      "type": "mcq",
+      "question": "What is the name of the male reproductive part of a flower?",
+      "question_ur": "پھول کے مرد تولیدی حصے کا نام کیا ہے؟",
+      "options": {
+        "en": ["Pistil", "Stamen", "Ovary", "Stigma"],
+        "ur": ["پسٹل", "اسٹیمن", "اووری", "اسٹگما"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The stamen consists of anther (pollen producer) and filament (stalk). The pistil is the female reproductive part.",
+      "explanation_ur": "اسٹیمن اینتھر (جرثومہ پیدا کرنے والا) اور فلامنٹ (ڈنٹھل) پر مشتمل ہوتا ہے۔ پسٹل مادہ تولیدی حصہ ہے۔",
+      "hint": "Think about pollen production",
+      "hint_ur": "جرثومہ کی پیداوار کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 221,
+      "type": "mcq",
+      "question": "Which of these is not a function of the stomach?",
+      "question_ur": "ان میں سے کون سا معدے کا فعل نہیں ہے؟",
+      "options": {
+        "en": ["Mechanical digestion", "Chemical digestion", "Nutrient absorption", "Food storage"],
+        "ur": ["میکانی ہضم", "کیمیائی ہضم", "غذائی اجزاء جذب کرنا", "خوراک ذخیرہ کرنا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Most nutrient absorption occurs in the small intestine. The stomach mainly digests and stores food temporarily.",
+      "explanation_ur": "زیادہ تر غذائی اجزاء چھوٹی آنت میں جذب ہوتے ہیں۔ معدہ بنیادی طور پر کھانا ہضم کرتا ہے اور عارضی طور پر ذخیرہ کرتا ہے۔",
+      "hint": "Think about digestive sequence",
+      "hint_ur": "ہاضمے کے تسلسل کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 222,
+      "type": "true-false",
+      "question": "All mammals have hair at some point in their life.",
+      "question_ur": "تمام ممالیہ اپنی زندگی کے کسی نہ کسی مرحلے پر بال رکھتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Hair is a defining mammalian characteristic, present even if only during embryonic development.",
+      "explanation_ur": "بال ممالیہ کی تعریف کرنے والی خصوصیت ہے، چاہے صرف جنین کی نشوونما کے دوران موجود ہو۔",
+      "hint": "Think about mammalian features",
+      "hint_ur": "ممالیہ کی خصوصیات کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 223,
+      "type": "mcq",
+      "question": "What is the name of the process by which water moves across a membrane?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پانی جھلی کے پار منتقل ہوتا ہے؟",
+      "options": {
+        "en": ["Diffusion", "Osmosis", "Active transport", "Endocytosis"],
+        "ur": ["ڈفیوژن", "اوسموسس", "ایکٹو ٹرانسپورٹ", "اینڈوسائٹوسس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Osmosis is the passive movement of water across a semi-permeable membrane toward higher solute concentration.",
+      "explanation_ur": "اوسموسس پانی کی نیم پارگدار جھلی کے پار زیادہ گھلے ہوئے مادے کی حراستی کی طرف غیر فعال حرکت ہے۔",
+      "hint": "Think about concentration gradients",
+      "hint_ur": "حراستی ڈھلوان کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 224,
+      "type": "mcq",
+      "question": "Which of these is not a type of symbiotic relationship?",
+      "question_ur": "ان میں سے کون سا باہمی رشتے کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Mutualism", "Commensalism", "Parasitism", "Autotrophism"],
+        "ur": ["باہمی مفاد", "کمینسلزم", "پیراسائٹزم", "آٹوٹروفزم"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Autotrophism refers to self-feeding organisms (like plants), not an interaction between species.",
+      "explanation_ur": "آٹوٹروفزم خود کھلانے والے جانداروں (جیسے پودے) سے مراد ہے، نہ کہ انواع کے درمیان تعامل۔",
+      "hint": "Think about organism interactions",
+      "hint_ur": "جانداروں کے تعاملات کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 225,
+      "type": "true-false",
+      "question": "All birds can fly.",
+      "question_ur": "تمام پرندے اڑ سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Flightless birds like ostriches, emus, kiwis, and penguins have adapted to life without flight.",
+      "explanation_ur": "اڑنے سے قاصر پرندے جیسے شترمرغ، ایموز، کیویز اور پینگوئن اڑان کے بغیر زندگی کے لیے موافقت اختیار کر چکے ہیں۔",
+      "hint": "Think about ground-dwelling birds",
+      "hint_ur": "زمین پر رہنے والے پرندوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 226,
+      "type": "mcq",
+      "question": "What is the name of the structure that connects muscles to bones?",
+      "question_ur": "اس ڈھانچے کا نام کیا ہے جو پٹھوں کو ہڈیوں سے جوڑتا ہے؟",
+      "options": {
+        "en": ["Ligament", "Tendon", "Cartilage", "Fascia"],
+        "ur": ["لگامنٹ", "ٹینڈن", "کارٹلیج", "فیسیا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Tendons are tough fibrous connective tissues that transmit muscle force to bones to enable movement.",
+      "explanation_ur": "ٹینڈن سخت ریشہ دار کنیکٹو ٹشوز ہیں جو حرکت کو ممکن بنانے کے لیے پٹھوں کی قوت کو ہڈیوں تک منتقل کرتے ہیں۔",
+      "hint": "Think about muscle attachments",
+      "hint_ur": "پٹھوں کے منسلکات کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 227,
+      "type": "mcq",
+      "question": "Which of these is not a function of the skin?",
+      "question_ur": "ان میں سے کون سا جلد کا فعل نہیں ہے؟",
+      "options": {
+        "en": ["Protection", "Sensation", "Temperature regulation", "Oxygen transport"],
+        "ur": ["تحفظ", "احساس", "درجہ حرارت کا ضابطہ", "آکسیجن کی ترسیل"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The skin protects, senses, and regulates temperature but doesn't transport oxygen (a circulatory system function).",
+      "explanation_ur": "جلد تحفظ کرتی ہے، محسوس کرتی ہے، اور درجہ حرارت کو کنٹرول کرتی ہے لیکن آکسیجن کی ترسیل نہیں کرتی (دوران نظام کا فعل)۔",
+      "hint": "Think about respiratory system",
+      "hint_ur": "نظام تنفس کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 228,
+      "type": "true-false",
+      "question": "All amphibians live both in water and on land.",
+      "question_ur": "تمام جل تھلیل پانی اور زمین دونوں پر رہتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Some amphibians are entirely aquatic (like axolotls) or terrestrial (some salamanders), lacking the typical water-land life cycle.",
+      "explanation_ur": "کچھ جل تھلیل مکمل طور پر آبی (جیسے ایکسولوٹلز) یا زمینی (کچھ سیلمینڈرز) ہوتے ہیں، جن میں عام پانی-زمین کی زندگی کا چکر نہیں ہوتا۔",
+      "hint": "Think about amphibian diversity",
+      "hint_ur": "جل تھلیل کی تنوع کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 229,
+      "type": "mcq",
+      "question": "What is the name of the process by which plants respond to gravity?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے کشش ثقل کے جواب دیتے ہیں؟",
+      "options": {
+        "en": ["Phototropism", "Gravitropism", "Thigmotropism", "Hydrotropism"],
+        "ur": ["فوٹوٹروپزم", "گریویٹروپزم", "تھگموٹروپزم", "ہائیڈروٹروپزم"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Gravitropism causes roots to grow downward (positive) and stems upward (negative) in response to gravity.",
+      "explanation_ur": "گریویٹروپزم جڑوں کو نیچے کی طرف (مثبت) اور تنوں کو کشش ثقل کے جواب میں اوپر کی طرف (منفی) بڑھنے کا سبب بنتا ہے۔",
+      "hint": "Think about root growth direction",
+      "hint_ur": "جڑ کی نشوونما کی سمت کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 230,
+      "type": "mcq",
+      "question": "Which of these is not a type of plant hormone?",
+      "question_ur": "ان میں سے کون سا پودے کے ہارمون کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Auxin", "Gibberellin", "Insulin", "Cytokinin"],
+        "ur": ["آکسن", "گبریلن", "انسولین", "سائٹوکائنن"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Insulin is an animal hormone. Plant hormones include auxins, gibberellins, cytokinins, abscisic acid, and ethylene.",
+      "explanation_ur": "انسولین ایک جانوروں کا ہارمون ہے۔ پودوں کے ہارمونز میں آکسینز، گبریلنز، سائٹوکائننز، ایبسیسک ایسڈ اور ایتھیلین شامل ہیں۔",
+      "hint": "Think about animal vs plant hormones",
+      "hint_ur": "جانوروں بمقابلہ پودوں کے ہارمونز کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 231,
+      "type": "true-false",
+      "question": "All animals have a complete digestive system with two openings.",
+      "question_ur": "تمام جانوروں میں دو سوراخوں والا مکمل نظام انہضام ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Simple animals like cnidarians and flatworms have a gastrovascular cavity with a single opening serving as both mouth and anus.",
+      "explanation_ur": "سادہ جانور جیسے نائڈیرینز اور فلیٹ ورموں میں ایک گیسٹرو ویسکولر گہا ہوتی ہے جس میں ایک ہی سوراخ ہوتا ہے جو منہ اور مقعد دونوں کا کام کرتا ہے۔",
+      "hint": "Think about simple digestive systems",
+      "hint_ur": "سادہ نظام انہضام کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 232,
+      "type": "mcq",
+      "question": "What is the name of the structure where photosynthesis occurs in plant cells?",
+      "question_ur": "اس ڈھانچے کا نام کیا ہے جہاں پودوں کے خلیوں میں فوٹو سنتھیسس ہوتا ہے؟",
+      "options": {
+        "en": ["Mitochondria", "Chloroplast", "Nucleus", "Vacuole"],
+        "ur": ["مائٹوکونڈریا", "کلوروپلاسٹ", "مرکزہ", "خلیے کا خالیہ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Chloroplasts contain chlorophyll and other pigments that capture light energy for photosynthesis.",
+      "explanation_ur": "کلوروپلاسٹ میں کلوروفیل اور دیگر رنگدات ہوتے ہیں جو فوٹو سنتھیسس کے لیے روشنی کی توانائی کو پکڑتے ہیں۔",
+      "hint": "Think about green organelles",
+      "hint_ur": "سبز عضویات کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 233,
+      "type": "mcq",
+      "question": "Which of these is not a component of the human respiratory system?",
+      "question_ur": "ان میں سے کون سا انسانی نظام تنفس کا جزو نہیں ہے؟",
+      "options": {
+        "en": ["Trachea", "Bronchi", "Alveoli", "Esophagus"],
+        "ur": ["ٹریکیا", "برونکی", "الویولی", "غذائی نالی"]
+      },
+      "correctAnswer": 3,
+      "explanation": "The esophagus is part of the digestive system. The trachea, bronchi, and alveoli are all respiratory structures.",
+      "explanation_ur": "غذائی نالی نظام انہضام کا حصہ ہے۔ ٹریکیا، برونکی اور الویولی تمام تنفسی ڈھانچے ہیں۔",
+      "hint": "Think about breathing vs swallowing",
+      "hint_ur": "سانس لینے بمقابلہ نگلنے کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 234,
+      "type": "true-false",
+      "question": "All plants produce flowers.",
+      "question_ur": "تمام پودے پھول پیدا کرتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Only angiosperms (flowering plants) produce flowers. Gymnosperms, ferns, mosses, and algae don't produce flowers.",
+      "explanation_ur": "صرف اینجیوسپرمز (پھولدار پودے) پھول پیدا کرتے ہیں۔ جمنا سپرمز، فرنز، موسز اور طحالب پھول پیدا نہیں کرتے۔",
+      "hint": "Think about non-flowering plants",
+      "hint_ur": "غیر پھولدار پودوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 235,
+      "type": "mcq",
+      "question": "What is the name of the process by which cells engulf liquid particles?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے خلیے مائع ذرات نگل لیتے ہیں؟",
+      "options": {
+        "en": ["Phagocytosis", "Pinocytosis", "Exocytosis", "Osmosis"],
+        "ur": ["فیگوسائٹوسس", "پنوسائٹوسس", "ایکسوسائٹوسس", "اوسموسس"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Pinocytosis ('cell drinking') is the uptake of extracellular fluid containing dissolved substances.",
+      "explanation_ur": "پنوسائٹوسس ('خلیے کا پینا') تحلیل شدہ مادوں پر مشتمل خارج خلوی سیال کا اپٹیک ہے۔",
+      "hint": "Think about liquid uptake",
+      "hint_ur": "مائع اپٹیک کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 236,
+      "type": "mcq",
+      "question": "Which of these is not a type of plant root system?",
+      "question_ur": "ان میں سے کون سا پودے کی جڑ کا نظام نہیں ہے؟",
+      "options": {
+        "en": ["Taproot", "Fibrous", "Adventitious", "Vascular"],
+        "ur": ["ٹیپ روٹ", "فائبرس", "ایڈونٹیشس", "واسکولر"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Vascular refers to transport tissues (xylem/phloem). Root systems are classified as taproot, fibrous, or adventitious.",
+      "explanation_ur": "واسکولر ٹرانسپورٹ ٹشوز (زائلم/فلوئم) سے مراد ہے۔ جڑ کے نظام کو ٹیپ روٹ، فائبرس یا ایڈونٹیشس کے طور پر درجہ بندی کیا جاتا ہے۔",
+      "hint": "Think about root classifications",
+      "hint_ur": "جڑ کی درجہ بندی کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 237,
+      "type": "true-false",
+      "question": "All animals have a nervous system.",
+      "question_ur": "تمام جانوروں کا اعصابی نظام ہوتا ہے۔",
+      "correctAnswer": false,
+      "explanation": "Sponges (Porifera) lack true nervous systems, though they can respond to some environmental stimuli.",
+      "explanation_ur": "اسفنج (پوریفرا) میں حقیقی اعصابی نظام نہیں ہوتا، حالانکہ وہ کچھ ماحولیاتی محرکات کا جواب دے سکتے ہیں۔",
+      "hint": "Think about simplest animals",
+      "hint_ur": "سب سے سادہ جانوروں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 238,
+      "type": "mcq",
+      "question": "What is the name of the female reproductive part of a flower?",
+      "question_ur": "پھول کے مادہ تولیدی حصے کا نام کیا ہے؟",
+      "options": {
+        "en": ["Stamen", "Pistil", "Anther", "Filament"],
+        "ur": ["اسٹیمن", "پسٹل", "اینٹر", "فلامنٹ"]
+      },
+      "correctAnswer": 1,
+      "explanation": "The pistil consists of stigma (pollen receptor), style, and ovary (contains ovules).",
+      "explanation_ur": "پسٹل اسٹگما (جرثومہ وصول کرنے والا)، سٹائل اور اووری (بیضہ پر مشتمل) پر مشتمل ہوتا ہے۔",
+      "hint": "Think about seed development",
+      "hint_ur": "بیج کی نشوونما کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 239,
+      "type": "mcq",
+      "question": "Which of these is not a function of the large intestine?",
+      "question_ur": "ان میں سے کون سا بڑی آنت کا فعل نہیں ہے؟",
+      "options": {
+        "en": ["Water absorption", "Vitamin absorption", "Waste storage", "Protein digestion"],
+        "ur": ["پانی جذب کرنا", "وٹامن جذب کرنا", "فضلہ ذخیرہ کرنا", "پروٹین ہضم کرنا"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Protein digestion occurs in the stomach and small intestine. The large intestine mainly absorbs water and forms feces.",
+      "explanation_ur": "پروٹین کا ہضم معدہ اور چھوٹی آنت میں ہوتا ہے۔ بڑی آنت بنیادی طور پر پانی جذب کرتی ہے اور فضلہ بناتی ہے۔",
+      "hint": "Think about digestive sequence",
+      "hint_ur": "ہاضمے کے تسلسل کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 240,
+      "type": "true-false",
+      "question": "All reptiles are cold-blooded.",
+      "question_ur": "تمام رینگنے والے جانور خون کے سرد ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Reptiles are ectothermic (cold-blooded), relying on external heat sources to regulate their body temperature.",
+      "explanation_ur": "رینگنے والے جانور ایکٹوتھرمک (سرد خون والے) ہوتے ہیں، جو اپنے جسم کے درجہ حرارت کو کنٹرول کرنے کے لیے بیرونی حرارت کے ذرائع پر انحصار کرتے ہیں۔",
+      "hint": "Think about temperature regulation",
+      "hint_ur": "درجہ حرارت کے ضابطہ کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 241,
+      "type": "mcq",
+      "question": "What is the name of the process by which plants respond to touch?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے چھونے کے جواب دیتے ہیں؟",
+      "options": {
+        "en": ["Phototropism", "Gravitropism", "Thigmotropism", "Hydrotropism"],
+        "ur": ["فوٹوٹروپزم", "گریویٹروپزم", "تھگموٹروپزم", "ہائیڈروٹروپزم"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Thigmotropism is seen in climbing plants like vines that grow around supports they touch.",
+      "explanation_ur": "تھگموٹروپزم چڑھنے والے پودوں جیسے بیلوں میں دیکھا جاتا ہے جو ان کے چھونے والے سہاروں کے گرد بڑھتے ہیں۔",
+      "hint": "Think about climbing plants",
+      "hint_ur": "چڑھنے والے پودوں کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 242,
+      "type": "mcq",
+      "question": "Which of these is not a type of plant adaptation to dry environments?",
+      "question_ur": "ان میں سے کون سا خشک ماحول کے لیے پودوں کا موافقت نہیں ہے؟",
+      "options": {
+        "en": ["Thick cuticle", "Reduced leaves", "Deep roots", "Broad leaves"],
+        "ur": ["موٹی کیوٹیکل", "کم پتے", "گہری جڑیں", "چوڑے پتے"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Broad leaves increase water loss. Desert plants typically have small or needle-like leaves to conserve water.",
+      "explanation_ur": "چوڑے پتے پانی کے اخراج کو بڑھاتے ہیں۔ صحرائی پودوں میں عام طور پر پانی بچانے کے لیے چھوٹے یا سوئی جیسے پتے ہوتے ہیں۔",
+      "hint": "Think about desert plants",
+      "hint_ur": "صحرائی پودوں کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 243,
+      "type": "true-false",
+      "question": "All birds have feathers.",
+      "question_ur": "تمام پرندوں کے پر ہوتے ہیں۔",
+      "correctAnswer": true,
+      "explanation": "Feathers are a defining characteristic of all birds, used for flight, insulation, and display.",
+      "explanation_ur": "پر تمام پرندوں کی تعریف کرنے والی خصوصیت ہیں، جو پرواز، موصلیت اور ڈسپلے کے لیے استعمال ہوتے ہیں۔",
+      "hint": "Think about bird classification",
+      "hint_ur": "پرندوں کی درجہ بندی کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 244,
+      "type": "mcq",
+      "question": "What is the name of the structure that connects bones to other bones?",
+      "question_ur": "اس ڈھانچے کا نام کیا ہے جو ہڈیوں کو دوسری ہڈیوں سے جوڑتا ہے؟",
+      "options": {
+        "en": ["Tendon", "Ligament", "Cartilage", "Fascia"],
+        "ur": ["ٹینڈن", "لگامنٹ", "کارٹلیج", "فیسیا"]
+      },
+      "correctAnswer": 1,
+      "explanation": "Ligaments are tough bands of connective tissue that connect bones at joints, providing stability.",
+      "explanation_ur": "لگامنٹ کنیکٹو ٹشو کی سخت پٹیاں ہیں جو جوڑوں پر ہڈیوں کو جوڑتی ہیں، استحکام فراہم کرتی ہیں۔",
+      "hint": "Think about joint stability",
+      "hint_ur": "جوڑ کی استحکام کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 245,
+      "type": "mcq",
+      "question": "Which of these is not a function of the spleen?",
+      "question_ur": "ان میں سے کون سا تلی کا فعل نہیں ہے؟",
+      "options": {
+        "en": ["Filter blood", "Store platelets", "Produce bile", "Fight infection"],
+        "ur": ["خون کو فلٹر کرنا", "پلیٹلیٹس ذخیرہ کرنا", "پت پیدا کرنا", "انفیکشن سے لڑنا"]
+      },
+      "correctAnswer": 2,
+      "explanation": "Bile is produced by the liver. The spleen filters blood, stores platelets, and supports immune function.",
+      "explanation_ur": "پت جگر پیدا کرتا ہے۔ تلی خون کو فلٹر کرتی ہے، پلیٹلیٹس ذخیرہ کرتی ہے، اور مدافعتی فعل کو سپورٹ کرتی ہے۔",
+      "hint": "Think about digestive vs lymphatic",
+      "hint_ur": "ہاضمہ بمقابلہ لمفی کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 246,
+      "type": "true-false",
+      "question": "All amphibians undergo metamorphosis.",
+      "question_ur": "تمام جل تھلیل میٹامورفوسس سے گزرتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Some salamanders (like axolotls) exhibit neoteny, retaining larval features throughout life without undergoing full metamorphosis.",
+      "explanation_ur": "کچھ سیلمینڈرز (جیسے ایکسولوٹلز) نیوٹینی کا مظاہرہ کرتے ہیں، جو مکمل میٹامورفوسس سے گزرے بغیر زندگی بھر لاروا کی خصوصیات برقرار رکھتے ہیں۔",
+      "hint": "Think about unusual amphibians",
+      "hint_ur": "غیر معمولی جل تھلیل کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 247,
+      "type": "mcq",
+      "question": "What is the name of the process by which plants lose leaves seasonally?",
+      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے موسمی طور پر پتے کھوتے ہیں؟",
+      "options": {
+        "en": ["Abscission", "Transpiration", "Senescence", "Dormancy"],
+        "ur": ["ایجیژن", "ٹرانسپیریشن", "بڑھاپا", "خوابیدگی"]
+      },
+      "correctAnswer": 0,
+      "explanation": "Abscission involves hormonal changes that create a separation layer at the base of leaves/petals/fruits.",
+      "explanation_ur": "ایجیژن میں ہارمونل تبدیلیاں شامل ہوتی ہیں جو پتوں/پنکھڑیوں/پھلوں کے نیچے ایک علیحدہ پرت بناتی ہیں۔",
+      "hint": "Think about autumn leaf drop",
+      "hint_ur": "خزاں میں پتے گرنے کے بارے میں سوچیں",
+      "timeLimit": 20
+    },
+    {
+      "id": 248,
+      "type": "mcq",
+      "question": "Which of these is not a type of plant propagation?",
+      "question_ur": "ان میں سے کون سا پودوں کی افزائش کی قسم نہیں ہے؟",
+      "options": {
+        "en": ["Seeds", "Cuttings", "Grafting", "Transpiration"],
+        "ur": ["بیج", "کٹنگز", "گرفٹنگ", "ٹرانسپیریشن"]
+      },
+      "correctAnswer": 3,
+      "explanation": "Transpiration is water movement through plants, not a method of reproduction or propagation.",
+      "explanation_ur": "ٹرانسپیریشن پودوں کے ذریعے پانی کی حرکت ہے، تولید یا افزائش کا طریقہ نہیں۔",
+      "hint": "Think about plant reproduction",
+      "hint_ur": "پودوں کی تولید کے بارے میں سوچیں",
+      "timeLimit": 25
+    },
+    {
+      "id": 249,
+      "type": "true-false",
+      "question": "All mammals have sweat glands.",
+      "question_ur": "تمام ممالیہ میں پسینے کی غدود ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Some aquatic mammals like whales and dolphins lack sweat glands, having other cooling mechanisms.",
+      "explanation_ur": "کچھ آبی ممالیہ جیسے وہیل اور ڈولفن میں پسینے کی غدود نہیں ہوتے، ان کے پاس دیگر ٹھنڈا کرنے کے طریقے ہوتے ہیں۔",
+      "hint": "Think about marine mammals",
+      "hint_ur": "سمندری ممالیہ کے بارے میں سوچیں",
+      "timeLimit": 20
+    }
+
+  ]
+}

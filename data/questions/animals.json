@@ -1,0 +1,2292 @@
+{
+  "meta": {
+    "category": "Animals",
+    "category_ur": "جانور",
+    "description": "Test your knowledge about animals from around the world",
+    "description_ur": "دنیا بھر کے جانوروں کے بارے میں اپنا علم آزمائیں",
+    "difficulty": "easy",
+    "image": "animals.jpg"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Which animal is known as the King of the Jungle?",
+      "question_ur": "کون سا جانور جنگل کا بادشاہ کہلاتا ہے؟",
+      "options": {
+        "en": [
+          "Tiger",
+          "Lion",
+          "Elephant",
+          "Leopard"
+        ],
+        "ur": [
+          "ببر شیر",
+          "شیر",
+          "ہاتھی",
+          "چیتا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The lion is called the King of the Jungle because of its majestic appearance and position in the food chain.",
+      "explanation_ur": "شیر کو اس کی شاندار شکل اور خوراک کے سلسلے میں اعلیٰ مقام کی وجہ سے جنگل کا بادشاہ کہا جاتا ہے۔",
+      "hint": "It has a big mane.",
+      "hint_ur": "اس کی بڑی ایال ہوتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 2,
+      "type": "true-false",
+      "question": "A dolphin is a mammal.",
+      "question_ur": "ڈولفن ایک ممالیہ جانور ہے۔",
+      "correctAnswer": true,
+      "explanation": "Dolphins are warm-blooded mammals that give birth to live young and breathe air.",
+      "explanation_ur": "ڈولفن گرم خون والے ممالیہ جانور ہیں جو زندہ بچے جنم دیتے ہیں اور ہوا میں سانس لیتے ہیں۔",
+      "hint": "It feeds milk to its young.",
+      "hint_ur": "یہ اپنے بچوں کو دودھ پلاتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to mimic human speech?",
+      "question_ur": "کون سا پرندہ انسانی آواز کی نقل کرنے کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Parrot",
+          "Crow",
+          "Owl",
+          "Peacock"
+        ],
+        "ur": [
+          "طوطا",
+          "کوا",
+          "الو",
+          "مور"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Parrots are famous for their ability to mimic human speech and sounds.",
+      "explanation_ur": "طوطے انسانی آواز اور دیگر آوازوں کی نقل کرنے کی صلاحیت رکھتے ہیں۔",
+      "hint": "It is a colorful bird.",
+      "hint_ur": "یہ ایک رنگ برنگا پرندہ ہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 4,
+      "type": "true-false",
+      "question": "Sharks are mammals.",
+      "question_ur": "شارک ممالیہ ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Sharks are fish, not mammals; they lay eggs or give live birth but do not produce milk.",
+      "explanation_ur": "شارک مچھلی ہیں، ممالیہ نہیں؛ وہ انڈے دیتی ہیں یا زندہ بچے جنم دیتی ہیں لیکن دودھ نہیں دیتیں۔",
+      "hint": "They have gills to breathe.",
+      "hint_ur": "وہ سانس لینے کے لیے گلپھڑے رکھتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Which animal is known for having a long neck?",
+      "question_ur": "کون سا جانور اپنی لمبی گردن کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Ostrich",
+          "Camel",
+          "Alpaca"
+        ],
+        "ur": [
+          "زرافہ",
+          "شتر مرغ",
+          "اونٹ",
+          "الپاکا"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The giraffe has the longest neck of any land animal.",
+      "explanation_ur": "زرافے کی گردن سب سے لمبی ہوتی ہے۔",
+      "hint": "It eats leaves from tall trees.",
+      "hint_ur": "یہ اونچے درختوں کے پتے کھاتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 6,
+      "type": "true-false",
+      "question": "Bats are blind.",
+      "question_ur": "چمگادڑ اندھے ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Bats are not blind; they can see, but they also use echolocation to navigate in the dark.",
+      "explanation_ur": "چمگادڑ اندھے نہیں ہوتے؛ وہ دیکھ سکتے ہیں لیکن اندھیرے میں راستہ معلوم کرنے کے لیے ایچولوکیشن استعمال کرتے ہیں۔",
+      "hint": "Think about their night hunting ability.",
+      "hint_ur": "ان کی رات میں شکار کرنے کی صلاحیت کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Which is the largest land animal?",
+      "question_ur": "سب سے بڑا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Elephant",
+          "Hippopotamus",
+          "Rhinoceros"
+        ],
+        "ur": [
+          "زرافہ",
+          "ہاتھی",
+          "دریائی گھوڑا",
+          "گینڈا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The African elephant is the largest land animal on Earth.",
+      "explanation_ur": "افریقی ہاتھی زمین کا سب سے بڑا زمینی جانور ہے۔",
+      "hint": "It has a trunk.",
+      "hint_ur": "اس کی لمبی سونڈ ہوتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 8,
+      "type": "true-false",
+      "question": "Penguins can fly.",
+      "question_ur": "پینگوئن اڑ سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Penguins cannot fly; they are excellent swimmers adapted to life in the water.",
+      "explanation_ur": "پینگوئن نہیں اڑ سکتے؛ وہ بہترین تیراک ہیں جو پانی میں زندگی کے لیے موزوں ہیں۔",
+      "hint": "Think about their wings.",
+      "hint_ur": "ان کے پروں کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Which animal is the fastest land animal?",
+      "question_ur": "سب سے تیز دوڑنے والا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Horse",
+          "Cheetah",
+          "Leopard",
+          "Ostrich"
+        ],
+        "ur": [
+          "گھوڑا",
+          "چیتا",
+          "چیتا نما بلی",
+          "شتر مرغ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The cheetah is the fastest land animal, reaching speeds up to 70 mph.",
+      "explanation_ur": "چیتا سب سے تیز دوڑنے والا زمینی جانور ہے جو 70 میل فی گھنٹہ تک کی رفتار حاصل کر سکتا ہے۔",
+      "hint": "It has black tear-like marks on its face.",
+      "hint_ur": "اس کے چہرے پر آنسو جیسے سیاہ نشانات ہوتے ہیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 10,
+      "type": "true-false",
+      "question": "Camels can store water in their humps.",
+      "question_ur": "اونٹ اپنے کوہان میں پانی ذخیرہ کر سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Camels store fat in their humps, not water; water is stored in their bloodstream.",
+      "explanation_ur": "اونٹ اپنے کوہان میں چربی ذخیرہ کرتے ہیں، پانی نہیں؛ پانی ان کے خون میں ذخیرہ ہوتا ہے۔",
+      "hint": "Think about fat, not water.",
+      "hint_ur": "پانی نہیں بلکہ چربی کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "Which animal is known as the King of the Jungle?",
+      "question_ur": "کون سا جانور جنگل کا بادشاہ کہلاتا ہے؟",
+      "options": {
+        "en": [
+          "Tiger",
+          "Lion",
+          "Elephant",
+          "Leopard"
+        ],
+        "ur": [
+          "ببر شیر",
+          "شیر",
+          "ہاتھی",
+          "چیتا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The lion is called the King of the Jungle because of its majestic appearance and position in the food chain.",
+      "explanation_ur": "شیر کو اس کی شاندار شکل اور خوراک کے سلسلے میں اعلیٰ مقام کی وجہ سے جنگل کا بادشاہ کہا جاتا ہے۔",
+      "hint": "It has a big mane.",
+      "hint_ur": "اس کی بڑی ایال ہوتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "question": "A dolphin is a mammal.",
+      "question_ur": "ڈولفن ایک ممالیہ جانور ہے۔",
+      "correctAnswer": true,
+      "explanation": "Dolphins are warm-blooded mammals that give birth to live young and breathe air.",
+      "explanation_ur": "ڈولفن گرم خون والے ممالیہ جانور ہیں جو زندہ بچے جنم دیتے ہیں اور ہوا میں سانس لیتے ہیں۔",
+      "hint": "It feeds milk to its young.",
+      "hint_ur": "یہ اپنے بچوں کو دودھ پلاتی ہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to mimic human speech?",
+      "question_ur": "کون سا پرندہ انسانی آواز کی نقل کرنے کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Parrot",
+          "Crow",
+          "Owl",
+          "Peacock"
+        ],
+        "ur": [
+          "طوطا",
+          "کوا",
+          "الو",
+          "مور"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Parrots are famous for their ability to mimic human speech and sounds.",
+      "explanation_ur": "طوطے انسانی آواز اور دیگر آوازوں کی نقل کرنے کی صلاحیت رکھتے ہیں۔",
+      "hint": "It is a colorful bird.",
+      "hint_ur": "یہ ایک رنگ برنگا پرندہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "question": "Sharks are mammals.",
+      "question_ur": "شارک ممالیہ ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Sharks are fish, not mammals; they lay eggs or give live birth but do not produce milk.",
+      "explanation_ur": "شارک مچھلی ہیں، ممالیہ نہیں؛ وہ انڈے دیتی ہیں یا زندہ بچے جنم دیتی ہیں لیکن دودھ نہیں دیتیں۔",
+      "hint": "They have gills to breathe.",
+      "hint_ur": "وہ سانس لینے کے لیے گلپھڑے رکھتے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Which animal is known for having a long neck?",
+      "question_ur": "کون سا جانور اپنی لمبی گردن کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Ostrich",
+          "Camel",
+          "Alpaca"
+        ],
+        "ur": [
+          "زرافہ",
+          "شتر مرغ",
+          "اونٹ",
+          "الپاکا"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The giraffe has the longest neck of any land animal.",
+      "explanation_ur": "زرافے کی گردن سب سے لمبی ہوتی ہے۔",
+      "hint": "It eats leaves from tall trees.",
+      "hint_ur": "یہ اونچے درختوں کے پتے کھاتا ہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 16,
+      "type": "true-false",
+      "question": "Bats are blind.",
+      "question_ur": "چمگادڑ اندھے ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Bats are not blind; they can see, but they also use echolocation to navigate in the dark.",
+      "explanation_ur": "چمگادڑ اندھے نہیں ہوتے؛ وہ دیکھ سکتے ہیں لیکن اندھیرے میں راستہ معلوم کرنے کے لیے ایچولوکیشن استعمال کرتے ہیں۔",
+      "hint": "Think about their night hunting ability.",
+      "hint_ur": "ان کی رات میں شکار کرنے کی صلاحیت کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "Which is the largest land animal?",
+      "question_ur": "سب سے بڑا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Elephant",
+          "Hippopotamus",
+          "Rhinoceros"
+        ],
+        "ur": [
+          "زرافہ",
+          "ہاتھی",
+          "دریائی گھوڑا",
+          "گینڈا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The African elephant is the largest land animal on Earth.",
+      "explanation_ur": "افریقی ہاتھی زمین کا سب سے بڑا زمینی جانور ہے۔",
+      "hint": "It has a trunk.",
+      "hint_ur": "اس کی لمبی سونڈ ہوتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 18,
+      "type": "true-false",
+      "question": "Penguins can fly.",
+      "question_ur": "پینگوئن اڑ سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Penguins cannot fly; they are excellent swimmers adapted to life in the water.",
+      "explanation_ur": "پینگوئن نہیں اڑ سکتے؛ وہ بہترین تیراک ہیں جو پانی میں زندگی کے لیے موزوں ہیں۔",
+      "hint": "Think about their wings.",
+      "hint_ur": "ان کے پروں کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Which animal is the fastest land animal?",
+      "question_ur": "سب سے تیز دوڑنے والا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Horse",
+          "Cheetah",
+          "Leopard",
+          "Ostrich"
+        ],
+        "ur": [
+          "گھوڑا",
+          "چیتا",
+          "چیتا نما بلی",
+          "شتر مرغ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The cheetah is the fastest land animal, reaching speeds up to 70 mph.",
+      "explanation_ur": "چیتا سب سے تیز دوڑنے والا زمینی جانور ہے جو 70 میل فی گھنٹہ تک کی رفتار حاصل کر سکتا ہے۔",
+      "hint": "It has black tear-like marks on its face.",
+      "hint_ur": "اس کے چہرے پر آنسو جیسے سیاہ نشانات ہوتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 20,
+      "type": "true-false",
+      "question": "Camels can store water in their humps.",
+      "question_ur": "اونٹ اپنے کوہان میں پانی ذخیرہ کر سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Camels store fat in their humps, not water; water is stored in their bloodstream.",
+      "explanation_ur": "اونٹ اپنے کوہان میں چربی ذخیرہ کرتے ہیں، پانی نہیں؛ پانی ان کے خون میں ذخیرہ ہوتا ہے۔",
+      "hint": "Think about fat, not water.",
+      "hint_ur": "پانی نہیں بلکہ چربی کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Which animal is known as the King of the Jungle?",
+      "question_ur": "کون سا جانور جنگل کا بادشاہ کہلاتا ہے؟",
+      "options": {
+        "en": [
+          "Tiger",
+          "Lion",
+          "Elephant",
+          "Leopard"
+        ],
+        "ur": [
+          "ببر شیر",
+          "شیر",
+          "ہاتھی",
+          "چیتا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The lion is called the King of the Jungle because of its majestic appearance and position in the food chain.",
+      "explanation_ur": "شیر کو اس کی شاندار شکل اور خوراک کے سلسلے میں اعلیٰ مقام کی وجہ سے جنگل کا بادشاہ کہا جاتا ہے۔",
+      "hint": "It has a big mane.",
+      "hint_ur": "اس کی بڑی ایال ہوتی ہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 22,
+      "type": "true-false",
+      "question": "A dolphin is a mammal.",
+      "question_ur": "ڈولفن ایک ممالیہ جانور ہے۔",
+      "correctAnswer": true,
+      "explanation": "Dolphins are warm-blooded mammals that give birth to live young and breathe air.",
+      "explanation_ur": "ڈولفن گرم خون والے ممالیہ جانور ہیں جو زندہ بچے جنم دیتے ہیں اور ہوا میں سانس لیتے ہیں۔",
+      "hint": "It feeds milk to its young.",
+      "hint_ur": "یہ اپنے بچوں کو دودھ پلاتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to mimic human speech?",
+      "question_ur": "کون سا پرندہ انسانی آواز کی نقل کرنے کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Parrot",
+          "Crow",
+          "Owl",
+          "Peacock"
+        ],
+        "ur": [
+          "طوطا",
+          "کوا",
+          "الو",
+          "مور"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Parrots are famous for their ability to mimic human speech and sounds.",
+      "explanation_ur": "طوطے انسانی آواز اور دیگر آوازوں کی نقل کرنے کی صلاحیت رکھتے ہیں۔",
+      "hint": "It is a colorful bird.",
+      "hint_ur": "یہ ایک رنگ برنگا پرندہ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 24,
+      "type": "true-false",
+      "question": "Sharks are mammals.",
+      "question_ur": "شارک ممالیہ ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Sharks are fish, not mammals; they lay eggs or give live birth but do not produce milk.",
+      "explanation_ur": "شارک مچھلی ہیں، ممالیہ نہیں؛ وہ انڈے دیتی ہیں یا زندہ بچے جنم دیتی ہیں لیکن دودھ نہیں دیتیں۔",
+      "hint": "They have gills to breathe.",
+      "hint_ur": "وہ سانس لینے کے لیے گلپھڑے رکھتے ہیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Which animal is known for having a long neck?",
+      "question_ur": "کون سا جانور اپنی لمبی گردن کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Ostrich",
+          "Camel",
+          "Alpaca"
+        ],
+        "ur": [
+          "زرافہ",
+          "شتر مرغ",
+          "اونٹ",
+          "الپاکا"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The giraffe has the longest neck of any land animal.",
+      "explanation_ur": "زرافے کی گردن سب سے لمبی ہوتی ہے۔",
+      "hint": "It eats leaves from tall trees.",
+      "hint_ur": "یہ اونچے درختوں کے پتے کھاتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 26,
+      "type": "true-false",
+      "question": "Bats are blind.",
+      "question_ur": "چمگادڑ اندھے ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Bats are not blind; they can see, but they also use echolocation to navigate in the dark.",
+      "explanation_ur": "چمگادڑ اندھے نہیں ہوتے؛ وہ دیکھ سکتے ہیں لیکن اندھیرے میں راستہ معلوم کرنے کے لیے ایچولوکیشن استعمال کرتے ہیں۔",
+      "hint": "Think about their night hunting ability.",
+      "hint_ur": "ان کی رات میں شکار کرنے کی صلاحیت کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "Which is the largest land animal?",
+      "question_ur": "سب سے بڑا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Elephant",
+          "Hippopotamus",
+          "Rhinoceros"
+        ],
+        "ur": [
+          "زرافہ",
+          "ہاتھی",
+          "دریائی گھوڑا",
+          "گینڈا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The African elephant is the largest land animal on Earth.",
+      "explanation_ur": "افریقی ہاتھی زمین کا سب سے بڑا زمینی جانور ہے۔",
+      "hint": "It has a trunk.",
+      "hint_ur": "اس کی لمبی سونڈ ہوتی ہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 28,
+      "type": "true-false",
+      "question": "Penguins can fly.",
+      "question_ur": "پینگوئن اڑ سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Penguins cannot fly; they are excellent swimmers adapted to life in the water.",
+      "explanation_ur": "پینگوئن نہیں اڑ سکتے؛ وہ بہترین تیراک ہیں جو پانی میں زندگی کے لیے موزوں ہیں۔",
+      "hint": "Think about their wings.",
+      "hint_ur": "ان کے پروں کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "Which animal is the fastest land animal?",
+      "question_ur": "سب سے تیز دوڑنے والا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Horse",
+          "Cheetah",
+          "Leopard",
+          "Ostrich"
+        ],
+        "ur": [
+          "گھوڑا",
+          "چیتا",
+          "چیتا نما بلی",
+          "شتر مرغ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The cheetah is the fastest land animal, reaching speeds up to 70 mph.",
+      "explanation_ur": "چیتا سب سے تیز دوڑنے والا زمینی جانور ہے جو 70 میل فی گھنٹہ تک کی رفتار حاصل کر سکتا ہے۔",
+      "hint": "It has black tear-like marks on its face.",
+      "hint_ur": "اس کے چہرے پر آنسو جیسے سیاہ نشانات ہوتے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 30,
+      "type": "true-false",
+      "question": "Camels can store water in their humps.",
+      "question_ur": "اونٹ اپنے کوہان میں پانی ذخیرہ کر سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Camels store fat in their humps, not water; water is stored in their bloodstream.",
+      "explanation_ur": "اونٹ اپنے کوہان میں چربی ذخیرہ کرتے ہیں، پانی نہیں؛ پانی ان کے خون میں ذخیرہ ہوتا ہے۔",
+      "hint": "Think about fat, not water.",
+      "hint_ur": "پانی نہیں بلکہ چربی کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Which animal is known as the King of the Jungle?",
+      "question_ur": "کون سا جانور جنگل کا بادشاہ کہلاتا ہے؟",
+      "options": {
+        "en": [
+          "Tiger",
+          "Lion",
+          "Elephant",
+          "Leopard"
+        ],
+        "ur": [
+          "ببر شیر",
+          "شیر",
+          "ہاتھی",
+          "چیتا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The lion is called the King of the Jungle because of its majestic appearance and position in the food chain.",
+      "explanation_ur": "شیر کو اس کی شاندار شکل اور خوراک کے سلسلے میں اعلیٰ مقام کی وجہ سے جنگل کا بادشاہ کہا جاتا ہے۔",
+      "hint": "It has a big mane.",
+      "hint_ur": "اس کی بڑی ایال ہوتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 32,
+      "type": "true-false",
+      "question": "A dolphin is a mammal.",
+      "question_ur": "ڈولفن ایک ممالیہ جانور ہے۔",
+      "correctAnswer": true,
+      "explanation": "Dolphins are warm-blooded mammals that give birth to live young and breathe air.",
+      "explanation_ur": "ڈولفن گرم خون والے ممالیہ جانور ہیں جو زندہ بچے جنم دیتے ہیں اور ہوا میں سانس لیتے ہیں۔",
+      "hint": "It feeds milk to its young.",
+      "hint_ur": "یہ اپنے بچوں کو دودھ پلاتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to mimic human speech?",
+      "question_ur": "کون سا پرندہ انسانی آواز کی نقل کرنے کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Parrot",
+          "Crow",
+          "Owl",
+          "Peacock"
+        ],
+        "ur": [
+          "طوطا",
+          "کوا",
+          "الو",
+          "مور"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Parrots are famous for their ability to mimic human speech and sounds.",
+      "explanation_ur": "طوطے انسانی آواز اور دیگر آوازوں کی نقل کرنے کی صلاحیت رکھتے ہیں۔",
+      "hint": "It is a colorful bird.",
+      "hint_ur": "یہ ایک رنگ برنگا پرندہ ہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 34,
+      "type": "true-false",
+      "question": "Sharks are mammals.",
+      "question_ur": "شارک ممالیہ ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Sharks are fish, not mammals; they lay eggs or give live birth but do not produce milk.",
+      "explanation_ur": "شارک مچھلی ہیں، ممالیہ نہیں؛ وہ انڈے دیتی ہیں یا زندہ بچے جنم دیتی ہیں لیکن دودھ نہیں دیتیں۔",
+      "hint": "They have gills to breathe.",
+      "hint_ur": "وہ سانس لینے کے لیے گلپھڑے رکھتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "Which animal is known for having a long neck?",
+      "question_ur": "کون سا جانور اپنی لمبی گردن کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Ostrich",
+          "Camel",
+          "Alpaca"
+        ],
+        "ur": [
+          "زرافہ",
+          "شتر مرغ",
+          "اونٹ",
+          "الپاکا"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The giraffe has the longest neck of any land animal.",
+      "explanation_ur": "زرافے کی گردن سب سے لمبی ہوتی ہے۔",
+      "hint": "It eats leaves from tall trees.",
+      "hint_ur": "یہ اونچے درختوں کے پتے کھاتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 36,
+      "type": "true-false",
+      "question": "Bats are blind.",
+      "question_ur": "چمگادڑ اندھے ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Bats are not blind; they can see, but they also use echolocation to navigate in the dark.",
+      "explanation_ur": "چمگادڑ اندھے نہیں ہوتے؛ وہ دیکھ سکتے ہیں لیکن اندھیرے میں راستہ معلوم کرنے کے لیے ایچولوکیشن استعمال کرتے ہیں۔",
+      "hint": "Think about their night hunting ability.",
+      "hint_ur": "ان کی رات میں شکار کرنے کی صلاحیت کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "Which is the largest land animal?",
+      "question_ur": "سب سے بڑا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Elephant",
+          "Hippopotamus",
+          "Rhinoceros"
+        ],
+        "ur": [
+          "زرافہ",
+          "ہاتھی",
+          "دریائی گھوڑا",
+          "گینڈا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The African elephant is the largest land animal on Earth.",
+      "explanation_ur": "افریقی ہاتھی زمین کا سب سے بڑا زمینی جانور ہے۔",
+      "hint": "It has a trunk.",
+      "hint_ur": "اس کی لمبی سونڈ ہوتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 38,
+      "type": "true-false",
+      "question": "Penguins can fly.",
+      "question_ur": "پینگوئن اڑ سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Penguins cannot fly; they are excellent swimmers adapted to life in the water.",
+      "explanation_ur": "پینگوئن نہیں اڑ سکتے؛ وہ بہترین تیراک ہیں جو پانی میں زندگی کے لیے موزوں ہیں۔",
+      "hint": "Think about their wings.",
+      "hint_ur": "ان کے پروں کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "Which animal is the fastest land animal?",
+      "question_ur": "سب سے تیز دوڑنے والا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Horse",
+          "Cheetah",
+          "Leopard",
+          "Ostrich"
+        ],
+        "ur": [
+          "گھوڑا",
+          "چیتا",
+          "چیتا نما بلی",
+          "شتر مرغ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The cheetah is the fastest land animal, reaching speeds up to 70 mph.",
+      "explanation_ur": "چیتا سب سے تیز دوڑنے والا زمینی جانور ہے جو 70 میل فی گھنٹہ تک کی رفتار حاصل کر سکتا ہے۔",
+      "hint": "It has black tear-like marks on its face.",
+      "hint_ur": "اس کے چہرے پر آنسو جیسے سیاہ نشانات ہوتے ہیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 40,
+      "type": "true-false",
+      "question": "Camels can store water in their humps.",
+      "question_ur": "اونٹ اپنے کوہان میں پانی ذخیرہ کر سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Camels store fat in their humps, not water; water is stored in their bloodstream.",
+      "explanation_ur": "اونٹ اپنے کوہان میں چربی ذخیرہ کرتے ہیں، پانی نہیں؛ پانی ان کے خون میں ذخیرہ ہوتا ہے۔",
+      "hint": "Think about fat, not water.",
+      "hint_ur": "پانی نہیں بلکہ چربی کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "Which animal is known as the King of the Jungle?",
+      "question_ur": "کون سا جانور جنگل کا بادشاہ کہلاتا ہے؟",
+      "options": {
+        "en": [
+          "Tiger",
+          "Lion",
+          "Elephant",
+          "Leopard"
+        ],
+        "ur": [
+          "ببر شیر",
+          "شیر",
+          "ہاتھی",
+          "چیتا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The lion is called the King of the Jungle because of its majestic appearance and position in the food chain.",
+      "explanation_ur": "شیر کو اس کی شاندار شکل اور خوراک کے سلسلے میں اعلیٰ مقام کی وجہ سے جنگل کا بادشاہ کہا جاتا ہے۔",
+      "hint": "It has a big mane.",
+      "hint_ur": "اس کی بڑی ایال ہوتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 42,
+      "type": "true-false",
+      "question": "A dolphin is a mammal.",
+      "question_ur": "ڈولفن ایک ممالیہ جانور ہے۔",
+      "correctAnswer": true,
+      "explanation": "Dolphins are warm-blooded mammals that give birth to live young and breathe air.",
+      "explanation_ur": "ڈولفن گرم خون والے ممالیہ جانور ہیں جو زندہ بچے جنم دیتے ہیں اور ہوا میں سانس لیتے ہیں۔",
+      "hint": "It feeds milk to its young.",
+      "hint_ur": "یہ اپنے بچوں کو دودھ پلاتی ہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to mimic human speech?",
+      "question_ur": "کون سا پرندہ انسانی آواز کی نقل کرنے کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Parrot",
+          "Crow",
+          "Owl",
+          "Peacock"
+        ],
+        "ur": [
+          "طوطا",
+          "کوا",
+          "الو",
+          "مور"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Parrots are famous for their ability to mimic human speech and sounds.",
+      "explanation_ur": "طوطے انسانی آواز اور دیگر آوازوں کی نقل کرنے کی صلاحیت رکھتے ہیں۔",
+      "hint": "It is a colorful bird.",
+      "hint_ur": "یہ ایک رنگ برنگا پرندہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 44,
+      "type": "true-false",
+      "question": "Sharks are mammals.",
+      "question_ur": "شارک ممالیہ ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Sharks are fish, not mammals; they lay eggs or give live birth but do not produce milk.",
+      "explanation_ur": "شارک مچھلی ہیں، ممالیہ نہیں؛ وہ انڈے دیتی ہیں یا زندہ بچے جنم دیتی ہیں لیکن دودھ نہیں دیتیں۔",
+      "hint": "They have gills to breathe.",
+      "hint_ur": "وہ سانس لینے کے لیے گلپھڑے رکھتے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Which animal is known for having a long neck?",
+      "question_ur": "کون سا جانور اپنی لمبی گردن کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Ostrich",
+          "Camel",
+          "Alpaca"
+        ],
+        "ur": [
+          "زرافہ",
+          "شتر مرغ",
+          "اونٹ",
+          "الپاکا"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The giraffe has the longest neck of any land animal.",
+      "explanation_ur": "زرافے کی گردن سب سے لمبی ہوتی ہے۔",
+      "hint": "It eats leaves from tall trees.",
+      "hint_ur": "یہ اونچے درختوں کے پتے کھاتا ہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 46,
+      "type": "true-false",
+      "question": "Bats are blind.",
+      "question_ur": "چمگادڑ اندھے ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Bats are not blind; they can see, but they also use echolocation to navigate in the dark.",
+      "explanation_ur": "چمگادڑ اندھے نہیں ہوتے؛ وہ دیکھ سکتے ہیں لیکن اندھیرے میں راستہ معلوم کرنے کے لیے ایچولوکیشن استعمال کرتے ہیں۔",
+      "hint": "Think about their night hunting ability.",
+      "hint_ur": "ان کی رات میں شکار کرنے کی صلاحیت کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Which is the largest land animal?",
+      "question_ur": "سب سے بڑا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Elephant",
+          "Hippopotamus",
+          "Rhinoceros"
+        ],
+        "ur": [
+          "زرافہ",
+          "ہاتھی",
+          "دریائی گھوڑا",
+          "گینڈا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The African elephant is the largest land animal on Earth.",
+      "explanation_ur": "افریقی ہاتھی زمین کا سب سے بڑا زمینی جانور ہے۔",
+      "hint": "It has a trunk.",
+      "hint_ur": "اس کی لمبی سونڈ ہوتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 48,
+      "type": "true-false",
+      "question": "Penguins can fly.",
+      "question_ur": "پینگوئن اڑ سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Penguins cannot fly; they are excellent swimmers adapted to life in the water.",
+      "explanation_ur": "پینگوئن نہیں اڑ سکتے؛ وہ بہترین تیراک ہیں جو پانی میں زندگی کے لیے موزوں ہیں۔",
+      "hint": "Think about their wings.",
+      "hint_ur": "ان کے پروں کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "Which animal is the fastest land animal?",
+      "question_ur": "سب سے تیز دوڑنے والا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Horse",
+          "Cheetah",
+          "Leopard",
+          "Ostrich"
+        ],
+        "ur": [
+          "گھوڑا",
+          "چیتا",
+          "چیتا نما بلی",
+          "شتر مرغ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The cheetah is the fastest land animal, reaching speeds up to 70 mph.",
+      "explanation_ur": "چیتا سب سے تیز دوڑنے والا زمینی جانور ہے جو 70 میل فی گھنٹہ تک کی رفتار حاصل کر سکتا ہے۔",
+      "hint": "It has black tear-like marks on its face.",
+      "hint_ur": "اس کے چہرے پر آنسو جیسے سیاہ نشانات ہوتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 50,
+      "type": "true-false",
+      "question": "Camels can store water in their humps.",
+      "question_ur": "اونٹ اپنے کوہان میں پانی ذخیرہ کر سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Camels store fat in their humps, not water; water is stored in their bloodstream.",
+      "explanation_ur": "اونٹ اپنے کوہان میں چربی ذخیرہ کرتے ہیں، پانی نہیں؛ پانی ان کے خون میں ذخیرہ ہوتا ہے۔",
+      "hint": "Think about fat, not water.",
+      "hint_ur": "پانی نہیں بلکہ چربی کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "Which animal is known as the King of the Jungle?",
+      "question_ur": "کون سا جانور جنگل کا بادشاہ کہلاتا ہے؟",
+      "options": {
+        "en": [
+          "Tiger",
+          "Lion",
+          "Elephant",
+          "Leopard"
+        ],
+        "ur": [
+          "ببر شیر",
+          "شیر",
+          "ہاتھی",
+          "چیتا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The lion is called the King of the Jungle because of its majestic appearance and position in the food chain.",
+      "explanation_ur": "شیر کو اس کی شاندار شکل اور خوراک کے سلسلے میں اعلیٰ مقام کی وجہ سے جنگل کا بادشاہ کہا جاتا ہے۔",
+      "hint": "It has a big mane.",
+      "hint_ur": "اس کی بڑی ایال ہوتی ہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 52,
+      "type": "true-false",
+      "question": "A dolphin is a mammal.",
+      "question_ur": "ڈولفن ایک ممالیہ جانور ہے۔",
+      "correctAnswer": true,
+      "explanation": "Dolphins are warm-blooded mammals that give birth to live young and breathe air.",
+      "explanation_ur": "ڈولفن گرم خون والے ممالیہ جانور ہیں جو زندہ بچے جنم دیتے ہیں اور ہوا میں سانس لیتے ہیں۔",
+      "hint": "It feeds milk to its young.",
+      "hint_ur": "یہ اپنے بچوں کو دودھ پلاتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to mimic human speech?",
+      "question_ur": "کون سا پرندہ انسانی آواز کی نقل کرنے کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Parrot",
+          "Crow",
+          "Owl",
+          "Peacock"
+        ],
+        "ur": [
+          "طوطا",
+          "کوا",
+          "الو",
+          "مور"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Parrots are famous for their ability to mimic human speech and sounds.",
+      "explanation_ur": "طوطے انسانی آواز اور دیگر آوازوں کی نقل کرنے کی صلاحیت رکھتے ہیں۔",
+      "hint": "It is a colorful bird.",
+      "hint_ur": "یہ ایک رنگ برنگا پرندہ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 54,
+      "type": "true-false",
+      "question": "Sharks are mammals.",
+      "question_ur": "شارک ممالیہ ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Sharks are fish, not mammals; they lay eggs or give live birth but do not produce milk.",
+      "explanation_ur": "شارک مچھلی ہیں، ممالیہ نہیں؛ وہ انڈے دیتی ہیں یا زندہ بچے جنم دیتی ہیں لیکن دودھ نہیں دیتیں۔",
+      "hint": "They have gills to breathe.",
+      "hint_ur": "وہ سانس لینے کے لیے گلپھڑے رکھتے ہیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "Which animal is known for having a long neck?",
+      "question_ur": "کون سا جانور اپنی لمبی گردن کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Ostrich",
+          "Camel",
+          "Alpaca"
+        ],
+        "ur": [
+          "زرافہ",
+          "شتر مرغ",
+          "اونٹ",
+          "الپاکا"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The giraffe has the longest neck of any land animal.",
+      "explanation_ur": "زرافے کی گردن سب سے لمبی ہوتی ہے۔",
+      "hint": "It eats leaves from tall trees.",
+      "hint_ur": "یہ اونچے درختوں کے پتے کھاتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 56,
+      "type": "true-false",
+      "question": "Bats are blind.",
+      "question_ur": "چمگادڑ اندھے ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Bats are not blind; they can see, but they also use echolocation to navigate in the dark.",
+      "explanation_ur": "چمگادڑ اندھے نہیں ہوتے؛ وہ دیکھ سکتے ہیں لیکن اندھیرے میں راستہ معلوم کرنے کے لیے ایچولوکیشن استعمال کرتے ہیں۔",
+      "hint": "Think about their night hunting ability.",
+      "hint_ur": "ان کی رات میں شکار کرنے کی صلاحیت کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "Which is the largest land animal?",
+      "question_ur": "سب سے بڑا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Elephant",
+          "Hippopotamus",
+          "Rhinoceros"
+        ],
+        "ur": [
+          "زرافہ",
+          "ہاتھی",
+          "دریائی گھوڑا",
+          "گینڈا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The African elephant is the largest land animal on Earth.",
+      "explanation_ur": "افریقی ہاتھی زمین کا سب سے بڑا زمینی جانور ہے۔",
+      "hint": "It has a trunk.",
+      "hint_ur": "اس کی لمبی سونڈ ہوتی ہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 58,
+      "type": "true-false",
+      "question": "Penguins can fly.",
+      "question_ur": "پینگوئن اڑ سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Penguins cannot fly; they are excellent swimmers adapted to life in the water.",
+      "explanation_ur": "پینگوئن نہیں اڑ سکتے؛ وہ بہترین تیراک ہیں جو پانی میں زندگی کے لیے موزوں ہیں۔",
+      "hint": "Think about their wings.",
+      "hint_ur": "ان کے پروں کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "Which animal is the fastest land animal?",
+      "question_ur": "سب سے تیز دوڑنے والا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Horse",
+          "Cheetah",
+          "Leopard",
+          "Ostrich"
+        ],
+        "ur": [
+          "گھوڑا",
+          "چیتا",
+          "چیتا نما بلی",
+          "شتر مرغ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The cheetah is the fastest land animal, reaching speeds up to 70 mph.",
+      "explanation_ur": "چیتا سب سے تیز دوڑنے والا زمینی جانور ہے جو 70 میل فی گھنٹہ تک کی رفتار حاصل کر سکتا ہے۔",
+      "hint": "It has black tear-like marks on its face.",
+      "hint_ur": "اس کے چہرے پر آنسو جیسے سیاہ نشانات ہوتے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 60,
+      "type": "true-false",
+      "question": "Camels can store water in their humps.",
+      "question_ur": "اونٹ اپنے کوہان میں پانی ذخیرہ کر سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Camels store fat in their humps, not water; water is stored in their bloodstream.",
+      "explanation_ur": "اونٹ اپنے کوہان میں چربی ذخیرہ کرتے ہیں، پانی نہیں؛ پانی ان کے خون میں ذخیرہ ہوتا ہے۔",
+      "hint": "Think about fat, not water.",
+      "hint_ur": "پانی نہیں بلکہ چربی کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 61,
+      "type": "mcq",
+      "question": "Which animal is known as the King of the Jungle?",
+      "question_ur": "کون سا جانور جنگل کا بادشاہ کہلاتا ہے؟",
+      "options": {
+        "en": [
+          "Tiger",
+          "Lion",
+          "Elephant",
+          "Leopard"
+        ],
+        "ur": [
+          "ببر شیر",
+          "شیر",
+          "ہاتھی",
+          "چیتا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The lion is called the King of the Jungle because of its majestic appearance and position in the food chain.",
+      "explanation_ur": "شیر کو اس کی شاندار شکل اور خوراک کے سلسلے میں اعلیٰ مقام کی وجہ سے جنگل کا بادشاہ کہا جاتا ہے۔",
+      "hint": "It has a big mane.",
+      "hint_ur": "اس کی بڑی ایال ہوتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 62,
+      "type": "true-false",
+      "question": "A dolphin is a mammal.",
+      "question_ur": "ڈولفن ایک ممالیہ جانور ہے۔",
+      "correctAnswer": true,
+      "explanation": "Dolphins are warm-blooded mammals that give birth to live young and breathe air.",
+      "explanation_ur": "ڈولفن گرم خون والے ممالیہ جانور ہیں جو زندہ بچے جنم دیتے ہیں اور ہوا میں سانس لیتے ہیں۔",
+      "hint": "It feeds milk to its young.",
+      "hint_ur": "یہ اپنے بچوں کو دودھ پلاتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 63,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to mimic human speech?",
+      "question_ur": "کون سا پرندہ انسانی آواز کی نقل کرنے کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Parrot",
+          "Crow",
+          "Owl",
+          "Peacock"
+        ],
+        "ur": [
+          "طوطا",
+          "کوا",
+          "الو",
+          "مور"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Parrots are famous for their ability to mimic human speech and sounds.",
+      "explanation_ur": "طوطے انسانی آواز اور دیگر آوازوں کی نقل کرنے کی صلاحیت رکھتے ہیں۔",
+      "hint": "It is a colorful bird.",
+      "hint_ur": "یہ ایک رنگ برنگا پرندہ ہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 64,
+      "type": "true-false",
+      "question": "Sharks are mammals.",
+      "question_ur": "شارک ممالیہ ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Sharks are fish, not mammals; they lay eggs or give live birth but do not produce milk.",
+      "explanation_ur": "شارک مچھلی ہیں، ممالیہ نہیں؛ وہ انڈے دیتی ہیں یا زندہ بچے جنم دیتی ہیں لیکن دودھ نہیں دیتیں۔",
+      "hint": "They have gills to breathe.",
+      "hint_ur": "وہ سانس لینے کے لیے گلپھڑے رکھتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 65,
+      "type": "mcq",
+      "question": "Which animal is known for having a long neck?",
+      "question_ur": "کون سا جانور اپنی لمبی گردن کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Ostrich",
+          "Camel",
+          "Alpaca"
+        ],
+        "ur": [
+          "زرافہ",
+          "شتر مرغ",
+          "اونٹ",
+          "الپاکا"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The giraffe has the longest neck of any land animal.",
+      "explanation_ur": "زرافے کی گردن سب سے لمبی ہوتی ہے۔",
+      "hint": "It eats leaves from tall trees.",
+      "hint_ur": "یہ اونچے درختوں کے پتے کھاتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 66,
+      "type": "true-false",
+      "question": "Bats are blind.",
+      "question_ur": "چمگادڑ اندھے ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Bats are not blind; they can see, but they also use echolocation to navigate in the dark.",
+      "explanation_ur": "چمگادڑ اندھے نہیں ہوتے؛ وہ دیکھ سکتے ہیں لیکن اندھیرے میں راستہ معلوم کرنے کے لیے ایچولوکیشن استعمال کرتے ہیں۔",
+      "hint": "Think about their night hunting ability.",
+      "hint_ur": "ان کی رات میں شکار کرنے کی صلاحیت کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 67,
+      "type": "mcq",
+      "question": "Which is the largest land animal?",
+      "question_ur": "سب سے بڑا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Elephant",
+          "Hippopotamus",
+          "Rhinoceros"
+        ],
+        "ur": [
+          "زرافہ",
+          "ہاتھی",
+          "دریائی گھوڑا",
+          "گینڈا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The African elephant is the largest land animal on Earth.",
+      "explanation_ur": "افریقی ہاتھی زمین کا سب سے بڑا زمینی جانور ہے۔",
+      "hint": "It has a trunk.",
+      "hint_ur": "اس کی لمبی سونڈ ہوتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 68,
+      "type": "true-false",
+      "question": "Penguins can fly.",
+      "question_ur": "پینگوئن اڑ سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Penguins cannot fly; they are excellent swimmers adapted to life in the water.",
+      "explanation_ur": "پینگوئن نہیں اڑ سکتے؛ وہ بہترین تیراک ہیں جو پانی میں زندگی کے لیے موزوں ہیں۔",
+      "hint": "Think about their wings.",
+      "hint_ur": "ان کے پروں کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 69,
+      "type": "mcq",
+      "question": "Which animal is the fastest land animal?",
+      "question_ur": "سب سے تیز دوڑنے والا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Horse",
+          "Cheetah",
+          "Leopard",
+          "Ostrich"
+        ],
+        "ur": [
+          "گھوڑا",
+          "چیتا",
+          "چیتا نما بلی",
+          "شتر مرغ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The cheetah is the fastest land animal, reaching speeds up to 70 mph.",
+      "explanation_ur": "چیتا سب سے تیز دوڑنے والا زمینی جانور ہے جو 70 میل فی گھنٹہ تک کی رفتار حاصل کر سکتا ہے۔",
+      "hint": "It has black tear-like marks on its face.",
+      "hint_ur": "اس کے چہرے پر آنسو جیسے سیاہ نشانات ہوتے ہیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 70,
+      "type": "true-false",
+      "question": "Camels can store water in their humps.",
+      "question_ur": "اونٹ اپنے کوہان میں پانی ذخیرہ کر سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Camels store fat in their humps, not water; water is stored in their bloodstream.",
+      "explanation_ur": "اونٹ اپنے کوہان میں چربی ذخیرہ کرتے ہیں، پانی نہیں؛ پانی ان کے خون میں ذخیرہ ہوتا ہے۔",
+      "hint": "Think about fat, not water.",
+      "hint_ur": "پانی نہیں بلکہ چربی کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "question": "Which animal is known as the King of the Jungle?",
+      "question_ur": "کون سا جانور جنگل کا بادشاہ کہلاتا ہے؟",
+      "options": {
+        "en": [
+          "Tiger",
+          "Lion",
+          "Elephant",
+          "Leopard"
+        ],
+        "ur": [
+          "ببر شیر",
+          "شیر",
+          "ہاتھی",
+          "چیتا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The lion is called the King of the Jungle because of its majestic appearance and position in the food chain.",
+      "explanation_ur": "شیر کو اس کی شاندار شکل اور خوراک کے سلسلے میں اعلیٰ مقام کی وجہ سے جنگل کا بادشاہ کہا جاتا ہے۔",
+      "hint": "It has a big mane.",
+      "hint_ur": "اس کی بڑی ایال ہوتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 72,
+      "type": "true-false",
+      "question": "A dolphin is a mammal.",
+      "question_ur": "ڈولفن ایک ممالیہ جانور ہے۔",
+      "correctAnswer": true,
+      "explanation": "Dolphins are warm-blooded mammals that give birth to live young and breathe air.",
+      "explanation_ur": "ڈولفن گرم خون والے ممالیہ جانور ہیں جو زندہ بچے جنم دیتے ہیں اور ہوا میں سانس لیتے ہیں۔",
+      "hint": "It feeds milk to its young.",
+      "hint_ur": "یہ اپنے بچوں کو دودھ پلاتی ہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to mimic human speech?",
+      "question_ur": "کون سا پرندہ انسانی آواز کی نقل کرنے کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Parrot",
+          "Crow",
+          "Owl",
+          "Peacock"
+        ],
+        "ur": [
+          "طوطا",
+          "کوا",
+          "الو",
+          "مور"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Parrots are famous for their ability to mimic human speech and sounds.",
+      "explanation_ur": "طوطے انسانی آواز اور دیگر آوازوں کی نقل کرنے کی صلاحیت رکھتے ہیں۔",
+      "hint": "It is a colorful bird.",
+      "hint_ur": "یہ ایک رنگ برنگا پرندہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 74,
+      "type": "true-false",
+      "question": "Sharks are mammals.",
+      "question_ur": "شارک ممالیہ ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Sharks are fish, not mammals; they lay eggs or give live birth but do not produce milk.",
+      "explanation_ur": "شارک مچھلی ہیں، ممالیہ نہیں؛ وہ انڈے دیتی ہیں یا زندہ بچے جنم دیتی ہیں لیکن دودھ نہیں دیتیں۔",
+      "hint": "They have gills to breathe.",
+      "hint_ur": "وہ سانس لینے کے لیے گلپھڑے رکھتے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "question": "Which animal is known for having a long neck?",
+      "question_ur": "کون سا جانور اپنی لمبی گردن کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Ostrich",
+          "Camel",
+          "Alpaca"
+        ],
+        "ur": [
+          "زرافہ",
+          "شتر مرغ",
+          "اونٹ",
+          "الپاکا"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The giraffe has the longest neck of any land animal.",
+      "explanation_ur": "زرافے کی گردن سب سے لمبی ہوتی ہے۔",
+      "hint": "It eats leaves from tall trees.",
+      "hint_ur": "یہ اونچے درختوں کے پتے کھاتا ہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 76,
+      "type": "true-false",
+      "question": "Bats are blind.",
+      "question_ur": "چمگادڑ اندھے ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Bats are not blind; they can see, but they also use echolocation to navigate in the dark.",
+      "explanation_ur": "چمگادڑ اندھے نہیں ہوتے؛ وہ دیکھ سکتے ہیں لیکن اندھیرے میں راستہ معلوم کرنے کے لیے ایچولوکیشن استعمال کرتے ہیں۔",
+      "hint": "Think about their night hunting ability.",
+      "hint_ur": "ان کی رات میں شکار کرنے کی صلاحیت کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "question": "Which is the largest land animal?",
+      "question_ur": "سب سے بڑا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Elephant",
+          "Hippopotamus",
+          "Rhinoceros"
+        ],
+        "ur": [
+          "زرافہ",
+          "ہاتھی",
+          "دریائی گھوڑا",
+          "گینڈا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The African elephant is the largest land animal on Earth.",
+      "explanation_ur": "افریقی ہاتھی زمین کا سب سے بڑا زمینی جانور ہے۔",
+      "hint": "It has a trunk.",
+      "hint_ur": "اس کی لمبی سونڈ ہوتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 78,
+      "type": "true-false",
+      "question": "Penguins can fly.",
+      "question_ur": "پینگوئن اڑ سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Penguins cannot fly; they are excellent swimmers adapted to life in the water.",
+      "explanation_ur": "پینگوئن نہیں اڑ سکتے؛ وہ بہترین تیراک ہیں جو پانی میں زندگی کے لیے موزوں ہیں۔",
+      "hint": "Think about their wings.",
+      "hint_ur": "ان کے پروں کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "question": "Which animal is the fastest land animal?",
+      "question_ur": "سب سے تیز دوڑنے والا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Horse",
+          "Cheetah",
+          "Leopard",
+          "Ostrich"
+        ],
+        "ur": [
+          "گھوڑا",
+          "چیتا",
+          "چیتا نما بلی",
+          "شتر مرغ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The cheetah is the fastest land animal, reaching speeds up to 70 mph.",
+      "explanation_ur": "چیتا سب سے تیز دوڑنے والا زمینی جانور ہے جو 70 میل فی گھنٹہ تک کی رفتار حاصل کر سکتا ہے۔",
+      "hint": "It has black tear-like marks on its face.",
+      "hint_ur": "اس کے چہرے پر آنسو جیسے سیاہ نشانات ہوتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 80,
+      "type": "true-false",
+      "question": "Camels can store water in their humps.",
+      "question_ur": "اونٹ اپنے کوہان میں پانی ذخیرہ کر سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Camels store fat in their humps, not water; water is stored in their bloodstream.",
+      "explanation_ur": "اونٹ اپنے کوہان میں چربی ذخیرہ کرتے ہیں، پانی نہیں؛ پانی ان کے خون میں ذخیرہ ہوتا ہے۔",
+      "hint": "Think about fat, not water.",
+      "hint_ur": "پانی نہیں بلکہ چربی کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 81,
+      "type": "mcq",
+      "question": "Which animal is known as the King of the Jungle?",
+      "question_ur": "کون سا جانور جنگل کا بادشاہ کہلاتا ہے؟",
+      "options": {
+        "en": [
+          "Tiger",
+          "Lion",
+          "Elephant",
+          "Leopard"
+        ],
+        "ur": [
+          "ببر شیر",
+          "شیر",
+          "ہاتھی",
+          "چیتا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The lion is called the King of the Jungle because of its majestic appearance and position in the food chain.",
+      "explanation_ur": "شیر کو اس کی شاندار شکل اور خوراک کے سلسلے میں اعلیٰ مقام کی وجہ سے جنگل کا بادشاہ کہا جاتا ہے۔",
+      "hint": "It has a big mane.",
+      "hint_ur": "اس کی بڑی ایال ہوتی ہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 82,
+      "type": "true-false",
+      "question": "A dolphin is a mammal.",
+      "question_ur": "ڈولفن ایک ممالیہ جانور ہے۔",
+      "correctAnswer": true,
+      "explanation": "Dolphins are warm-blooded mammals that give birth to live young and breathe air.",
+      "explanation_ur": "ڈولفن گرم خون والے ممالیہ جانور ہیں جو زندہ بچے جنم دیتے ہیں اور ہوا میں سانس لیتے ہیں۔",
+      "hint": "It feeds milk to its young.",
+      "hint_ur": "یہ اپنے بچوں کو دودھ پلاتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 83,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to mimic human speech?",
+      "question_ur": "کون سا پرندہ انسانی آواز کی نقل کرنے کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Parrot",
+          "Crow",
+          "Owl",
+          "Peacock"
+        ],
+        "ur": [
+          "طوطا",
+          "کوا",
+          "الو",
+          "مور"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Parrots are famous for their ability to mimic human speech and sounds.",
+      "explanation_ur": "طوطے انسانی آواز اور دیگر آوازوں کی نقل کرنے کی صلاحیت رکھتے ہیں۔",
+      "hint": "It is a colorful bird.",
+      "hint_ur": "یہ ایک رنگ برنگا پرندہ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 84,
+      "type": "true-false",
+      "question": "Sharks are mammals.",
+      "question_ur": "شارک ممالیہ ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Sharks are fish, not mammals; they lay eggs or give live birth but do not produce milk.",
+      "explanation_ur": "شارک مچھلی ہیں، ممالیہ نہیں؛ وہ انڈے دیتی ہیں یا زندہ بچے جنم دیتی ہیں لیکن دودھ نہیں دیتیں۔",
+      "hint": "They have gills to breathe.",
+      "hint_ur": "وہ سانس لینے کے لیے گلپھڑے رکھتے ہیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "Which animal is known for having a long neck?",
+      "question_ur": "کون سا جانور اپنی لمبی گردن کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Ostrich",
+          "Camel",
+          "Alpaca"
+        ],
+        "ur": [
+          "زرافہ",
+          "شتر مرغ",
+          "اونٹ",
+          "الپاکا"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The giraffe has the longest neck of any land animal.",
+      "explanation_ur": "زرافے کی گردن سب سے لمبی ہوتی ہے۔",
+      "hint": "It eats leaves from tall trees.",
+      "hint_ur": "یہ اونچے درختوں کے پتے کھاتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 86,
+      "type": "true-false",
+      "question": "Bats are blind.",
+      "question_ur": "چمگادڑ اندھے ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Bats are not blind; they can see, but they also use echolocation to navigate in the dark.",
+      "explanation_ur": "چمگادڑ اندھے نہیں ہوتے؛ وہ دیکھ سکتے ہیں لیکن اندھیرے میں راستہ معلوم کرنے کے لیے ایچولوکیشن استعمال کرتے ہیں۔",
+      "hint": "Think about their night hunting ability.",
+      "hint_ur": "ان کی رات میں شکار کرنے کی صلاحیت کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "question": "Which is the largest land animal?",
+      "question_ur": "سب سے بڑا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Elephant",
+          "Hippopotamus",
+          "Rhinoceros"
+        ],
+        "ur": [
+          "زرافہ",
+          "ہاتھی",
+          "دریائی گھوڑا",
+          "گینڈا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The African elephant is the largest land animal on Earth.",
+      "explanation_ur": "افریقی ہاتھی زمین کا سب سے بڑا زمینی جانور ہے۔",
+      "hint": "It has a trunk.",
+      "hint_ur": "اس کی لمبی سونڈ ہوتی ہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 88,
+      "type": "true-false",
+      "question": "Penguins can fly.",
+      "question_ur": "پینگوئن اڑ سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Penguins cannot fly; they are excellent swimmers adapted to life in the water.",
+      "explanation_ur": "پینگوئن نہیں اڑ سکتے؛ وہ بہترین تیراک ہیں جو پانی میں زندگی کے لیے موزوں ہیں۔",
+      "hint": "Think about their wings.",
+      "hint_ur": "ان کے پروں کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "question": "Which animal is the fastest land animal?",
+      "question_ur": "سب سے تیز دوڑنے والا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Horse",
+          "Cheetah",
+          "Leopard",
+          "Ostrich"
+        ],
+        "ur": [
+          "گھوڑا",
+          "چیتا",
+          "چیتا نما بلی",
+          "شتر مرغ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The cheetah is the fastest land animal, reaching speeds up to 70 mph.",
+      "explanation_ur": "چیتا سب سے تیز دوڑنے والا زمینی جانور ہے جو 70 میل فی گھنٹہ تک کی رفتار حاصل کر سکتا ہے۔",
+      "hint": "It has black tear-like marks on its face.",
+      "hint_ur": "اس کے چہرے پر آنسو جیسے سیاہ نشانات ہوتے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 90,
+      "type": "true-false",
+      "question": "Camels can store water in their humps.",
+      "question_ur": "اونٹ اپنے کوہان میں پانی ذخیرہ کر سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Camels store fat in their humps, not water; water is stored in their bloodstream.",
+      "explanation_ur": "اونٹ اپنے کوہان میں چربی ذخیرہ کرتے ہیں، پانی نہیں؛ پانی ان کے خون میں ذخیرہ ہوتا ہے۔",
+      "hint": "Think about fat, not water.",
+      "hint_ur": "پانی نہیں بلکہ چربی کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "Which animal is known as the King of the Jungle?",
+      "question_ur": "کون سا جانور جنگل کا بادشاہ کہلاتا ہے؟",
+      "options": {
+        "en": [
+          "Tiger",
+          "Lion",
+          "Elephant",
+          "Leopard"
+        ],
+        "ur": [
+          "ببر شیر",
+          "شیر",
+          "ہاتھی",
+          "چیتا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The lion is called the King of the Jungle because of its majestic appearance and position in the food chain.",
+      "explanation_ur": "شیر کو اس کی شاندار شکل اور خوراک کے سلسلے میں اعلیٰ مقام کی وجہ سے جنگل کا بادشاہ کہا جاتا ہے۔",
+      "hint": "It has a big mane.",
+      "hint_ur": "اس کی بڑی ایال ہوتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 92,
+      "type": "true-false",
+      "question": "A dolphin is a mammal.",
+      "question_ur": "ڈولفن ایک ممالیہ جانور ہے۔",
+      "correctAnswer": true,
+      "explanation": "Dolphins are warm-blooded mammals that give birth to live young and breathe air.",
+      "explanation_ur": "ڈولفن گرم خون والے ممالیہ جانور ہیں جو زندہ بچے جنم دیتے ہیں اور ہوا میں سانس لیتے ہیں۔",
+      "hint": "It feeds milk to its young.",
+      "hint_ur": "یہ اپنے بچوں کو دودھ پلاتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to mimic human speech?",
+      "question_ur": "کون سا پرندہ انسانی آواز کی نقل کرنے کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Parrot",
+          "Crow",
+          "Owl",
+          "Peacock"
+        ],
+        "ur": [
+          "طوطا",
+          "کوا",
+          "الو",
+          "مور"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Parrots are famous for their ability to mimic human speech and sounds.",
+      "explanation_ur": "طوطے انسانی آواز اور دیگر آوازوں کی نقل کرنے کی صلاحیت رکھتے ہیں۔",
+      "hint": "It is a colorful bird.",
+      "hint_ur": "یہ ایک رنگ برنگا پرندہ ہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 94,
+      "type": "true-false",
+      "question": "Sharks are mammals.",
+      "question_ur": "شارک ممالیہ ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Sharks are fish, not mammals; they lay eggs or give live birth but do not produce milk.",
+      "explanation_ur": "شارک مچھلی ہیں، ممالیہ نہیں؛ وہ انڈے دیتی ہیں یا زندہ بچے جنم دیتی ہیں لیکن دودھ نہیں دیتیں۔",
+      "hint": "They have gills to breathe.",
+      "hint_ur": "وہ سانس لینے کے لیے گلپھڑے رکھتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 95,
+      "type": "mcq",
+      "question": "Which animal is known for having a long neck?",
+      "question_ur": "کون سا جانور اپنی لمبی گردن کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Ostrich",
+          "Camel",
+          "Alpaca"
+        ],
+        "ur": [
+          "زرافہ",
+          "شتر مرغ",
+          "اونٹ",
+          "الپاکا"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The giraffe has the longest neck of any land animal.",
+      "explanation_ur": "زرافے کی گردن سب سے لمبی ہوتی ہے۔",
+      "hint": "It eats leaves from tall trees.",
+      "hint_ur": "یہ اونچے درختوں کے پتے کھاتا ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 96,
+      "type": "true-false",
+      "question": "Bats are blind.",
+      "question_ur": "چمگادڑ اندھے ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Bats are not blind; they can see, but they also use echolocation to navigate in the dark.",
+      "explanation_ur": "چمگادڑ اندھے نہیں ہوتے؛ وہ دیکھ سکتے ہیں لیکن اندھیرے میں راستہ معلوم کرنے کے لیے ایچولوکیشن استعمال کرتے ہیں۔",
+      "hint": "Think about their night hunting ability.",
+      "hint_ur": "ان کی رات میں شکار کرنے کی صلاحیت کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "question": "Which is the largest land animal?",
+      "question_ur": "سب سے بڑا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Elephant",
+          "Hippopotamus",
+          "Rhinoceros"
+        ],
+        "ur": [
+          "زرافہ",
+          "ہاتھی",
+          "دریائی گھوڑا",
+          "گینڈا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The African elephant is the largest land animal on Earth.",
+      "explanation_ur": "افریقی ہاتھی زمین کا سب سے بڑا زمینی جانور ہے۔",
+      "hint": "It has a trunk.",
+      "hint_ur": "اس کی لمبی سونڈ ہوتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 98,
+      "type": "true-false",
+      "question": "Penguins can fly.",
+      "question_ur": "پینگوئن اڑ سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Penguins cannot fly; they are excellent swimmers adapted to life in the water.",
+      "explanation_ur": "پینگوئن نہیں اڑ سکتے؛ وہ بہترین تیراک ہیں جو پانی میں زندگی کے لیے موزوں ہیں۔",
+      "hint": "Think about their wings.",
+      "hint_ur": "ان کے پروں کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 99,
+      "type": "mcq",
+      "question": "Which animal is the fastest land animal?",
+      "question_ur": "سب سے تیز دوڑنے والا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Horse",
+          "Cheetah",
+          "Leopard",
+          "Ostrich"
+        ],
+        "ur": [
+          "گھوڑا",
+          "چیتا",
+          "چیتا نما بلی",
+          "شتر مرغ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The cheetah is the fastest land animal, reaching speeds up to 70 mph.",
+      "explanation_ur": "چیتا سب سے تیز دوڑنے والا زمینی جانور ہے جو 70 میل فی گھنٹہ تک کی رفتار حاصل کر سکتا ہے۔",
+      "hint": "It has black tear-like marks on its face.",
+      "hint_ur": "اس کے چہرے پر آنسو جیسے سیاہ نشانات ہوتے ہیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 100,
+      "type": "true-false",
+      "question": "Camels can store water in their humps.",
+      "question_ur": "اونٹ اپنے کوہان میں پانی ذخیرہ کر سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Camels store fat in their humps, not water; water is stored in their bloodstream.",
+      "explanation_ur": "اونٹ اپنے کوہان میں چربی ذخیرہ کرتے ہیں، پانی نہیں؛ پانی ان کے خون میں ذخیرہ ہوتا ہے۔",
+      "hint": "Think about fat, not water.",
+      "hint_ur": "پانی نہیں بلکہ چربی کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 101,
+      "type": "mcq",
+      "question": "Which animal is known as the King of the Jungle?",
+      "question_ur": "کون سا جانور جنگل کا بادشاہ کہلاتا ہے؟",
+      "options": {
+        "en": [
+          "Tiger",
+          "Lion",
+          "Elephant",
+          "Leopard"
+        ],
+        "ur": [
+          "ببر شیر",
+          "شیر",
+          "ہاتھی",
+          "چیتا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The lion is called the King of the Jungle because of its majestic appearance and position in the food chain.",
+      "explanation_ur": "شیر کو اس کی شاندار شکل اور خوراک کے سلسلے میں اعلیٰ مقام کی وجہ سے جنگل کا بادشاہ کہا جاتا ہے۔",
+      "hint": "It has a big mane.",
+      "hint_ur": "اس کی بڑی ایال ہوتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 102,
+      "type": "true-false",
+      "question": "A dolphin is a mammal.",
+      "question_ur": "ڈولفن ایک ممالیہ جانور ہے۔",
+      "correctAnswer": true,
+      "explanation": "Dolphins are warm-blooded mammals that give birth to live young and breathe air.",
+      "explanation_ur": "ڈولفن گرم خون والے ممالیہ جانور ہیں جو زندہ بچے جنم دیتے ہیں اور ہوا میں سانس لیتے ہیں۔",
+      "hint": "It feeds milk to its young.",
+      "hint_ur": "یہ اپنے بچوں کو دودھ پلاتی ہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to mimic human speech?",
+      "question_ur": "کون سا پرندہ انسانی آواز کی نقل کرنے کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Parrot",
+          "Crow",
+          "Owl",
+          "Peacock"
+        ],
+        "ur": [
+          "طوطا",
+          "کوا",
+          "الو",
+          "مور"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Parrots are famous for their ability to mimic human speech and sounds.",
+      "explanation_ur": "طوطے انسانی آواز اور دیگر آوازوں کی نقل کرنے کی صلاحیت رکھتے ہیں۔",
+      "hint": "It is a colorful bird.",
+      "hint_ur": "یہ ایک رنگ برنگا پرندہ ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 104,
+      "type": "true-false",
+      "question": "Sharks are mammals.",
+      "question_ur": "شارک ممالیہ ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Sharks are fish, not mammals; they lay eggs or give live birth but do not produce milk.",
+      "explanation_ur": "شارک مچھلی ہیں، ممالیہ نہیں؛ وہ انڈے دیتی ہیں یا زندہ بچے جنم دیتی ہیں لیکن دودھ نہیں دیتیں۔",
+      "hint": "They have gills to breathe.",
+      "hint_ur": "وہ سانس لینے کے لیے گلپھڑے رکھتے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 105,
+      "type": "mcq",
+      "question": "Which animal is known for having a long neck?",
+      "question_ur": "کون سا جانور اپنی لمبی گردن کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Ostrich",
+          "Camel",
+          "Alpaca"
+        ],
+        "ur": [
+          "زرافہ",
+          "شتر مرغ",
+          "اونٹ",
+          "الپاکا"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The giraffe has the longest neck of any land animal.",
+      "explanation_ur": "زرافے کی گردن سب سے لمبی ہوتی ہے۔",
+      "hint": "It eats leaves from tall trees.",
+      "hint_ur": "یہ اونچے درختوں کے پتے کھاتا ہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 106,
+      "type": "true-false",
+      "question": "Bats are blind.",
+      "question_ur": "چمگادڑ اندھے ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Bats are not blind; they can see, but they also use echolocation to navigate in the dark.",
+      "explanation_ur": "چمگادڑ اندھے نہیں ہوتے؛ وہ دیکھ سکتے ہیں لیکن اندھیرے میں راستہ معلوم کرنے کے لیے ایچولوکیشن استعمال کرتے ہیں۔",
+      "hint": "Think about their night hunting ability.",
+      "hint_ur": "ان کی رات میں شکار کرنے کی صلاحیت کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 107,
+      "type": "mcq",
+      "question": "Which is the largest land animal?",
+      "question_ur": "سب سے بڑا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Elephant",
+          "Hippopotamus",
+          "Rhinoceros"
+        ],
+        "ur": [
+          "زرافہ",
+          "ہاتھی",
+          "دریائی گھوڑا",
+          "گینڈا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The African elephant is the largest land animal on Earth.",
+      "explanation_ur": "افریقی ہاتھی زمین کا سب سے بڑا زمینی جانور ہے۔",
+      "hint": "It has a trunk.",
+      "hint_ur": "اس کی لمبی سونڈ ہوتی ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 108,
+      "type": "true-false",
+      "question": "Penguins can fly.",
+      "question_ur": "پینگوئن اڑ سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Penguins cannot fly; they are excellent swimmers adapted to life in the water.",
+      "explanation_ur": "پینگوئن نہیں اڑ سکتے؛ وہ بہترین تیراک ہیں جو پانی میں زندگی کے لیے موزوں ہیں۔",
+      "hint": "Think about their wings.",
+      "hint_ur": "ان کے پروں کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 109,
+      "type": "mcq",
+      "question": "Which animal is the fastest land animal?",
+      "question_ur": "سب سے تیز دوڑنے والا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Horse",
+          "Cheetah",
+          "Leopard",
+          "Ostrich"
+        ],
+        "ur": [
+          "گھوڑا",
+          "چیتا",
+          "چیتا نما بلی",
+          "شتر مرغ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The cheetah is the fastest land animal, reaching speeds up to 70 mph.",
+      "explanation_ur": "چیتا سب سے تیز دوڑنے والا زمینی جانور ہے جو 70 میل فی گھنٹہ تک کی رفتار حاصل کر سکتا ہے۔",
+      "hint": "It has black tear-like marks on its face.",
+      "hint_ur": "اس کے چہرے پر آنسو جیسے سیاہ نشانات ہوتے ہیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 110,
+      "type": "true-false",
+      "question": "Camels can store water in their humps.",
+      "question_ur": "اونٹ اپنے کوہان میں پانی ذخیرہ کر سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Camels store fat in their humps, not water; water is stored in their bloodstream.",
+      "explanation_ur": "اونٹ اپنے کوہان میں چربی ذخیرہ کرتے ہیں، پانی نہیں؛ پانی ان کے خون میں ذخیرہ ہوتا ہے۔",
+      "hint": "Think about fat, not water.",
+      "hint_ur": "پانی نہیں بلکہ چربی کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 111,
+      "type": "mcq",
+      "question": "Which animal is known as the King of the Jungle?",
+      "question_ur": "کون سا جانور جنگل کا بادشاہ کہلاتا ہے؟",
+      "options": {
+        "en": [
+          "Tiger",
+          "Lion",
+          "Elephant",
+          "Leopard"
+        ],
+        "ur": [
+          "ببر شیر",
+          "شیر",
+          "ہاتھی",
+          "چیتا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The lion is called the King of the Jungle because of its majestic appearance and position in the food chain.",
+      "explanation_ur": "شیر کو اس کی شاندار شکل اور خوراک کے سلسلے میں اعلیٰ مقام کی وجہ سے جنگل کا بادشاہ کہا جاتا ہے۔",
+      "hint": "It has a big mane.",
+      "hint_ur": "اس کی بڑی ایال ہوتی ہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 112,
+      "type": "true-false",
+      "question": "A dolphin is a mammal.",
+      "question_ur": "ڈولفن ایک ممالیہ جانور ہے۔",
+      "correctAnswer": true,
+      "explanation": "Dolphins are warm-blooded mammals that give birth to live young and breathe air.",
+      "explanation_ur": "ڈولفن گرم خون والے ممالیہ جانور ہیں جو زندہ بچے جنم دیتے ہیں اور ہوا میں سانس لیتے ہیں۔",
+      "hint": "It feeds milk to its young.",
+      "hint_ur": "یہ اپنے بچوں کو دودھ پلاتی ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 113,
+      "type": "mcq",
+      "question": "Which bird is known for its ability to mimic human speech?",
+      "question_ur": "کون سا پرندہ انسانی آواز کی نقل کرنے کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Parrot",
+          "Crow",
+          "Owl",
+          "Peacock"
+        ],
+        "ur": [
+          "طوطا",
+          "کوا",
+          "الو",
+          "مور"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "Parrots are famous for their ability to mimic human speech and sounds.",
+      "explanation_ur": "طوطے انسانی آواز اور دیگر آوازوں کی نقل کرنے کی صلاحیت رکھتے ہیں۔",
+      "hint": "It is a colorful bird.",
+      "hint_ur": "یہ ایک رنگ برنگا پرندہ ہے۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 114,
+      "type": "true-false",
+      "question": "Sharks are mammals.",
+      "question_ur": "شارک ممالیہ ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Sharks are fish, not mammals; they lay eggs or give live birth but do not produce milk.",
+      "explanation_ur": "شارک مچھلی ہیں، ممالیہ نہیں؛ وہ انڈے دیتی ہیں یا زندہ بچے جنم دیتی ہیں لیکن دودھ نہیں دیتیں۔",
+      "hint": "They have gills to breathe.",
+      "hint_ur": "وہ سانس لینے کے لیے گلپھڑے رکھتے ہیں۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "question": "Which animal is known for having a long neck?",
+      "question_ur": "کون سا جانور اپنی لمبی گردن کے لیے مشہور ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Ostrich",
+          "Camel",
+          "Alpaca"
+        ],
+        "ur": [
+          "زرافہ",
+          "شتر مرغ",
+          "اونٹ",
+          "الپاکا"
+        ]
+      },
+      "correctAnswer": 0,
+      "explanation": "The giraffe has the longest neck of any land animal.",
+      "explanation_ur": "زرافے کی گردن سب سے لمبی ہوتی ہے۔",
+      "hint": "It eats leaves from tall trees.",
+      "hint_ur": "یہ اونچے درختوں کے پتے کھاتا ہے۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 116,
+      "type": "true-false",
+      "question": "Bats are blind.",
+      "question_ur": "چمگادڑ اندھے ہوتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Bats are not blind; they can see, but they also use echolocation to navigate in the dark.",
+      "explanation_ur": "چمگادڑ اندھے نہیں ہوتے؛ وہ دیکھ سکتے ہیں لیکن اندھیرے میں راستہ معلوم کرنے کے لیے ایچولوکیشن استعمال کرتے ہیں۔",
+      "hint": "Think about their night hunting ability.",
+      "hint_ur": "ان کی رات میں شکار کرنے کی صلاحیت کے بارے میں سوچیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 117,
+      "type": "mcq",
+      "question": "Which is the largest land animal?",
+      "question_ur": "سب سے بڑا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Giraffe",
+          "Elephant",
+          "Hippopotamus",
+          "Rhinoceros"
+        ],
+        "ur": [
+          "زرافہ",
+          "ہاتھی",
+          "دریائی گھوڑا",
+          "گینڈا"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The African elephant is the largest land animal on Earth.",
+      "explanation_ur": "افریقی ہاتھی زمین کا سب سے بڑا زمینی جانور ہے۔",
+      "hint": "It has a trunk.",
+      "hint_ur": "اس کی لمبی سونڈ ہوتی ہے۔",
+      "timeLimit": 15
+    },
+    {
+      "id": 118,
+      "type": "true-false",
+      "question": "Penguins can fly.",
+      "question_ur": "پینگوئن اڑ سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Penguins cannot fly; they are excellent swimmers adapted to life in the water.",
+      "explanation_ur": "پینگوئن نہیں اڑ سکتے؛ وہ بہترین تیراک ہیں جو پانی میں زندگی کے لیے موزوں ہیں۔",
+      "hint": "Think about their wings.",
+      "hint_ur": "ان کے پروں کے بارے میں سوچیں۔",
+      "timeLimit": 20
+    },
+    {
+      "id": 119,
+      "type": "mcq",
+      "question": "Which animal is the fastest land animal?",
+      "question_ur": "سب سے تیز دوڑنے والا زمینی جانور کون سا ہے؟",
+      "options": {
+        "en": [
+          "Horse",
+          "Cheetah",
+          "Leopard",
+          "Ostrich"
+        ],
+        "ur": [
+          "گھوڑا",
+          "چیتا",
+          "چیتا نما بلی",
+          "شتر مرغ"
+        ]
+      },
+      "correctAnswer": 1,
+      "explanation": "The cheetah is the fastest land animal, reaching speeds up to 70 mph.",
+      "explanation_ur": "چیتا سب سے تیز دوڑنے والا زمینی جانور ہے جو 70 میل فی گھنٹہ تک کی رفتار حاصل کر سکتا ہے۔",
+      "hint": "It has black tear-like marks on its face.",
+      "hint_ur": "اس کے چہرے پر آنسو جیسے سیاہ نشانات ہوتے ہیں۔",
+      "timeLimit": 30
+    },
+    {
+      "id": 120,
+      "type": "true-false",
+      "question": "Camels can store water in their humps.",
+      "question_ur": "اونٹ اپنے کوہان میں پانی ذخیرہ کر سکتے ہیں۔",
+      "correctAnswer": false,
+      "explanation": "Camels store fat in their humps, not water; water is stored in their bloodstream.",
+      "explanation_ur": "اونٹ اپنے کوہان میں چربی ذخیرہ کرتے ہیں، پانی نہیں؛ پانی ان کے خون میں ذخیرہ ہوتا ہے۔",
+      "hint": "Think about fat, not water.",
+      "hint_ur": "پانی نہیں بلکہ چربی کے بارے میں سوچیں۔",
+      "timeLimit": 15
+    }
+  ]
+}
