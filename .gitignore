@@ -2,12 +2,9 @@
 ---
 
 ## 📄 `.gitignore`
-```gitignore
+gitignore
 # Node dependencies
 node_modules/
-
-# Build output
-dist/
 
 # Logs
 npm-debug.log*
