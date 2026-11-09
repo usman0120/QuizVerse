@@ -1,0 +1,14 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function owner(uid) { return request.auth != null && request.auth.uid == uid; }
+    match /users/{uid} {
+      allow read: if owner(uid);
+      // Profile writes go through validated server APIs, including leaderboard opt-out.
+      allow write: if false;
+      match /{document=**} { allow read: if owner(uid); allow write: if false; }
+    }
+    // Public data is exposed through a limited API, never unrestricted collection access.
+    match /{document=**} { allow read, write: if false; }
+  }
+}

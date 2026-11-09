@@ -1,29 +1,18 @@
-
----
-
-## 📄 `.gitignore`
-gitignore
-# Node dependencies
 node_modules/
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# System files
+.next/
+out/
+coverage/
+test-results/
+playwright-report/
+*.tsbuildinfo
+next-env.d.ts
+*.log
+.env*
+!.env.example
+*service-account*.json
+firebase-debug.log*
+.firebase/
+.vercel/
 .DS_Store
 Thumbs.db
-
-# Env files
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# VS Code settings
 .vscode/
-
-# Tailwind build artifacts
-*.css.map

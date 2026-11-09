@@ -1,0 +1,14 @@
+export type Language = 'en' | 'ur';
+export type Profile = { displayName: string; language: Language; theme: 'system' | 'light' | 'dark'; publicLeaderboard: boolean };
+export type Stats = { quizzes: number; correct: number; total: number; xp: number; streak: number; lastActivity: string };
+export type FlashProgress = { learned: string[]; difficult: string[] };
+export type PublicQuestion = { id: string; type: 'mcq' | 'true-false' | 'fill-blanks'; text: string; options: string[]; hint: string; timeLimit: number };
+export type QuizSession = { token: string; title: string; questions: PublicQuestion[]; timed: boolean; language: Language };
+export type Review = { text: string; answer: string; submitted: string; correct: boolean; explanation: string };
+export type QuizResult = { id: string; kind: 'quiz' | 'personality'; title: string; correct: number; total: number; percentage: number; xp: number; ranked: boolean; completedAt: string; review: Review[]; personality?: { title: string; description: string; emoji: string }; saved: boolean };
+export type HistoryItem = Omit<QuizResult, 'review'>;
+export type Category = { id: string; name: string; nameUr: string; description: string; descriptionUr: string; difficulty: string; count: number };
+export type PersonalitySummary = { id: string; title: string; titleUr: string; description: string; descriptionUr: string; count: number };
+export type FlashDeck = { id: string; title: string; category: string; difficulty: string; description: string; cards: { id: string; front: string; back: string; hint?: string; example?: string; image?: string | null }[] };
+export const defaultProfile: Profile = { displayName: 'Quiz explorer', language: 'en', theme: 'system', publicLeaderboard: false };
+export const defaultStats: Stats = { quizzes: 0, correct: 0, total: 0, xp: 0, streak: 0, lastActivity: '' };
