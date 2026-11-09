@@ -8,7 +8,6 @@
     "image": "urdu_poetry.jpg"
   },
   "questions": [
-    
     {
       "id": 1,
       "type": "mcq",
@@ -793,7 +792,7 @@
       "hint_ur": "اردو غزل کا باپ سمجھے جاتے ہیں",
       "timeLimit": 20
     },
-        {
+    {
       "id": 51,
       "type": "mcq",
       "question": "Who wrote 'Dast-e-Tah-e-Sang'?",
@@ -1593,7 +1592,7 @@
       "hint_ur": "بادلوں سے مکالمہ",
       "timeLimit": 20
     },
-        {
+    {
       "id": 101,
       "type": "mcq",
       "question": "Who wrote the famous verse 'Duniya ne tajrabat o hawaadis ke shakl mein jo kuch mujhe diya hai, woh lauta raha hoon main'?",
@@ -1848,22 +1847,6 @@
       "hint": "Includes 'Shayad', 'Gumaan' etc.",
       "hint_ur": "'شاید'، 'گمان' وغیرہ شامل ہیں",
       "timeLimit": 25
-    },
-    {
-      "id": 117,
-      "type": "mcq",
-      "question": "Who wrote 'Kulliyat-e-Nida'?",
-      "question_ur": "'کلیات ندا' کس نے لکھی؟",
-      "options": {
-        "en": ["Nida Fazli", "Jaun Elia", "Ahmed Faraz", "Parveen Shakir"],
-        "ur": ["ندا فاضلی", "جون ایلیا", "احمد فراز", "پروین شاکر"]
-      },
-      "correctAnswer": 0,
-      "explanation": "Kulliyat-e-Nida is the complete collection of Nida Fazli's poetry.",
-      "explanation_ur": "کلیات ندا ندا فاضلی کی مکمل شاعری کا مجموعہ ہے۔",
-      "hint": "Includes 'Mor Naach'",
-      "hint_ur": "'مور ناچ' شامل ہے",
-      "timeLimit": 20
     },
     {
       "id": 118,
@@ -2393,7 +2376,7 @@
       "hint_ur": "'انشاء جی اٹھو' لکھی",
       "timeLimit": 25
     },
-        {
+    {
       "id": 151,
       "type": "mcq",
       "question": "Who is considered the first major female Urdu poet?",
@@ -3209,22 +3192,6 @@
       "hint": "About human equality",
       "hint_ur": "انسانی مساوات کے بارے میں",
       "timeLimit": 20
-    },
-    {
-      "id": 201,
-      "type": "mcq",
-      "question": "Who is known as the 'Poet of the East'?",
-      "question_ur": "'شاعر مشرق' کے نام سے کون جانا جاتا ہے؟",
-      "options": {
-        "en": ["Mirza Ghalib", "Allama Iqbal", "Faiz Ahmed Faiz", "Mir Taqi Mir"],
-        "ur": ["مرزا غالب", "علامہ اقبال", "فیض احمد فیض", "میر تقی میر"]
-      },
-      "correctAnswer": 1,
-      "explanation": "Allama Iqbal is referred to as 'Shair-e-Mashriq' (Poet of the East).",
-      "explanation_ur": "علامہ اقبال کو 'شاعر مشرق' کہا جاتا ہے۔",
-      "hint": "He wrote 'Lab Pe Aati Hai Dua'",
-      "hint_ur": "انہوں نے 'لب پہ آتی ہے دعا' لکھی تھی",
-      "timeLimit": 30
     },
     {
       "id": 202,

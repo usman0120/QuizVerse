@@ -13,6 +13,7 @@ import {
 } from "firebase/firestore";
 import { firebaseServices, friendlyError } from "@/lib/firebase";
 import { storageKey } from "@/lib/progress";
+import { clearScopeDrafts, scopeDrafts } from "@/lib/drafts";
 import { calculateStreak } from "@/lib/quiz";
 import type { Profile, QuizResult } from "@/lib/types";
 import { useApp } from "./provider";
@@ -24,23 +25,32 @@ export function Account() {
   const [draft, setDraft] = useState<Profile>(app.profile);
   const [message, setMessage] = useState("");
   const [busy, setBusy] = useState(false);
+  const [visibleResults, setVisibleResults] = useState(50);
   const results = app
     .list<QuizResult>("result:")
     .sort((a, b) => b.date.localeCompare(a.date));
   const streak = calculateStreak(app.list<string>("activity:"));
   async function logout() {
-    if (
-      app.sync !== "Synced" &&
-      !window.confirm(
-        "Cloud changes may not be synced. Export your data first. Signing out clears this account's device cache and could discard pending changes. Continue?",
-      )
-    )
-      return;
     setBusy(true);
     const uid = app.user?.uid;
     try {
+      try {
+        if (Object.keys(scopeDrafts(uid)).length)
+          throw new Error(
+            "Unsaved note drafts are stored on this device. Export them before signing out.",
+          );
+        await app.flushSync();
+      } catch (e) {
+        if (
+          !window.confirm(
+            `${friendlyError(e)} Signing out clears this account's cache and drafts. Cancel to export first, or OK to discard unsynced device data and sign out.`,
+          )
+        )
+          return;
+      }
       await signOut(firebaseServices().auth);
       if (uid) localStorage.removeItem(storageKey(uid));
+      clearScopeDrafts(uid);
       setMessage(
         "Signed out. Your account cache was removed from this device. Cloud progress is retained.",
       );
@@ -219,6 +229,7 @@ export function Account() {
                   {
                     exportedAt: new Date().toISOString(),
                     entries: app.entries,
+                    drafts: scopeDrafts(app.user?.uid),
                   },
                   null,
                   2,
@@ -244,7 +255,7 @@ export function Account() {
           </p>
         )}
         <div className="grid gap-3">
-          {results.slice(0, 100).map((r) => (
+          {results.slice(0, visibleResults).map((r) => (
             <div
               key={r.id}
               className="grid grid-cols-[1fr_auto] gap-4 items-center bg-bgLight dark:bg-gray-700 rounded-lg p-4"
@@ -261,6 +272,14 @@ export function Account() {
             </div>
           ))}
         </div>
+        {visibleResults < results.length && (
+          <button
+            className="btn-secondary mt-5"
+            onClick={() => setVisibleResults(visibleResults + 50)}
+          >
+            Show more results ({results.length - visibleResults} remaining)
+          </button>
+        )}
       </section>
       <section className="panel mt-8">
         <h2 className="text-xl font-bold mb-4">Data controls</h2>
@@ -283,6 +302,7 @@ export function Account() {
               for (const key of Object.keys(app.entries))
                 if (!["profile", "settings"].includes(key))
                   app.set(key, null, true);
+              clearScopeDrafts(app.user?.uid);
               setMessage(
                 "Progress cleared locally. Deletion markers sync when connected; published scores are managed separately.",
               );
@@ -329,7 +349,12 @@ export function Account() {
             className="grid gap-4"
             onSubmit={(e) => {
               e.preventDefault();
-              app.set("profile", draft);
+              if (!app.set("profile", draft)) {
+                setMessage(
+                  "Your account changed. Reopen your profile before saving.",
+                );
+                return;
+              }
               setEditing(false);
               setMessage("Profile saved.");
             }}

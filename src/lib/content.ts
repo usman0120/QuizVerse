@@ -88,10 +88,18 @@ export const getQuizData = cache(async () => {
 });
 export const getQuizCategories = async () =>
   (await getQuizData()).map((x) => x.category);
-export const getQuestions = async (ids: string[]) =>
-  (await getQuizData())
+export const getQuestions = async (ids: string[]) => {
+  const seen = new Set<string>();
+  return (await getQuizData())
     .filter((x) => ids.includes(x.category.id))
-    .flatMap((x) => x.questions);
+    .flatMap((x) => x.questions)
+    .filter((question) => {
+      const key = `${question.type}:${question.question.normalize("NFKC").trim().toLowerCase().replace(/\s+/g, " ")}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+};
 export function cleanContent(html: string) {
   return sanitizeHtml(html, {
     allowedTags: [
@@ -104,13 +112,21 @@ export function cleanContent(html: string) {
     allowedAttributes: {
       "*": ["class"],
       a: ["href", "title"],
-      img: ["src", "alt"],
+      img: ["src", "alt", "loading", "referrerpolicy"],
     },
     allowedSchemes: ["https"],
+    allowProtocolRelative: false,
     transformTags: {
       img: (tagName, attribs) =>
         /^https:\/\//.test(attribs.src || "")
-          ? { tagName, attribs: { ...attribs, loading: "lazy" } }
+          ? {
+              tagName,
+              attribs: {
+                ...attribs,
+                loading: "lazy",
+                referrerpolicy: "no-referrer",
+              },
+            }
           : { tagName: "span", attribs: {} },
     },
   });

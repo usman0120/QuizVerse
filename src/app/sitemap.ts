@@ -1,10 +1,7 @@
 import type { MetadataRoute } from "next";
+import { siteUrl } from "@/lib/site";
 export default function sitemap(): MetadataRoute.Sitemap {
-  const site =
-    process.env.NEXT_PUBLIC_SITE_URL ||
-    (process.env.VERCEL_PROJECT_PRODUCTION_URL
-      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-      : "");
+  const site = siteUrl;
   if (!site) return [];
   return [
     "",

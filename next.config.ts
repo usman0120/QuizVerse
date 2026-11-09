@@ -21,11 +21,18 @@ const config: NextConfig = {
   poweredByHeader: false,
   outputFileTracingIncludes: { "/**": ["./data/**/*.json"] },
   async redirects() {
-    return Object.entries(routes).map(([name, destination]) => ({
-      source: `/${name}.html`,
-      destination,
-      permanent: true,
-    }));
+    return [
+      {
+        source: "/icon.svg",
+        destination: "/brand/quizverse-mark.svg",
+        permanent: true,
+      },
+      ...Object.entries(routes).map(([name, destination]) => ({
+        source: `/${name}.html`,
+        destination,
+        permanent: true,
+      })),
+    ];
   },
   async headers() {
     return [

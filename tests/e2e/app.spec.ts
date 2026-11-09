@@ -1,4 +1,96 @@
 import { test, expect } from "@playwright/test";
+test("unsaved notes survive topic changes and reload without being auto-published", async ({
+  page,
+}) => {
+  await page.goto("/learn?cat=science-nature&topic=intro");
+  await page.getByRole("button", { name: "Notes", exact: true }).click();
+  await page.getByLabel("Your notes").fill("Recover this unsaved draft.");
+  await page
+    .getByRole("navigation", { name: "Learning sections" })
+    .getByRole("button", { name: "Physics Basics", exact: true })
+    .click();
+  await page
+    .getByRole("navigation", { name: "Learning sections" })
+    .getByRole("button", { name: "Introduction", exact: true })
+    .click();
+  await page.getByRole("button", { name: "Notes", exact: true }).click();
+  await expect(page.getByLabel("Your notes")).toHaveValue(
+    "Recover this unsaved draft.",
+  );
+  await page.reload();
+  await page.getByRole("button", { name: "Notes", exact: true }).click();
+  await expect(page.getByLabel("Your notes")).toHaveValue(
+    "Recover this unsaved draft.",
+  );
+  expect(
+    await page.evaluate(
+      () =>
+        JSON.parse(localStorage.getItem("quizverse:v2:guest") || "{}")[
+          "note:science-nature:intro"
+        ],
+    ),
+  ).toBeUndefined();
+  await page.getByRole("button", { name: "Save notes" }).click();
+  await page.reload();
+  await page.getByRole("button", { name: "Notes", exact: true }).click();
+  await expect(page.getByLabel("Your notes")).toHaveValue(
+    "Recover this unsaved draft.",
+  );
+});
+test("new logo renders, favicon matches, and clock endpoint is uncached", async ({
+  page,
+  request,
+}) => {
+  await page.goto("/");
+  const logo = page
+    .getByRole("link", { name: "QuizVerse home" })
+    .locator("img");
+  await expect(logo).toHaveAttribute("src", "/brand/quizverse-mark.svg");
+  await expect(logo).toBeVisible();
+  await expect(page.locator('link[rel="icon"]').first()).toHaveAttribute(
+    "href",
+    /quizverse-mark\.svg/,
+  );
+  await page.setViewportSize({ width: 360, height: 800 });
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth > innerWidth,
+    ),
+  ).toBe(false);
+  await page.screenshot({
+    path: test.info().outputPath("quizverse-logo-mobile.png"),
+  });
+  const time = await request.get("/api/time");
+  expect(time.status()).toBe(200);
+  expect(time.headers()["cache-control"]).toContain("no-store");
+  expect(Math.abs((await time.json()).serverTime - Date.now())).toBeLessThan(
+    10000,
+  );
+});
+test("a malformed cache entry cannot crash the profile page or expose stored passwords", async ({
+  page,
+}) => {
+  await page.addInitScript(() => {
+    localStorage.setItem(
+      "quizverse:v2:guest",
+      JSON.stringify({
+        malformed: "invalid",
+        profile: {
+          updatedAt: 1,
+          value: { name: "Safe Learner", password: "must-be-stripped" },
+        },
+        "result:broken": { updatedAt: 2, value: null },
+      }),
+    );
+  });
+  await page.goto("/account");
+  await expect(
+    page.getByRole("heading", { name: "Safe Learner", exact: true }),
+  ).toBeVisible();
+  expect(
+    await page.evaluate(() => localStorage.getItem("quizverse:v2:guest")),
+  ).not.toContain("must-be-stripped");
+});
 test("timed quiz expires once and keeps a usable Next action", async ({
   page,
 }) => {
@@ -43,12 +135,9 @@ test("unavailable categories explain the problem and auth UI does not save passw
 }) => {
   await page.goto("/quiz?cat=not-real");
   await expect(
-    page
-      .getByRole("status")
-      .filter({
-        hasText:
-          "No questions are available for this category or question type.",
-      }),
+    page.getByRole("status").filter({
+      hasText: "No questions are available for this category or question type.",
+    }),
   ).toBeVisible();
   await page.goto("/auth");
   await expect(

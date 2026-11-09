@@ -506,6 +506,16 @@ export function QuizPlayer({
               {text(question, "explanation") ||
                 `Answer: ${String(language === "ur" ? question.correctAnswer_ur || question.correctAnswer : question.correctAnswer)}`}
             </p>
+            {question.source?.url?.startsWith("https://") && (
+              <a
+                className="inline-block mt-2 text-sm underline"
+                href={question.source.url}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Source: {question.source.title}
+              </a>
+            )}
           </div>
         )}
         {showHint && (

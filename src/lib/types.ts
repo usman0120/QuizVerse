@@ -14,6 +14,7 @@ export interface Question {
   hint?: string;
   hint_ur?: string;
   timeLimit: number;
+  source?: { title: string; url: string };
 }
 export interface QuizCategory {
   id: string;

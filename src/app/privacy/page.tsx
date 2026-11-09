@@ -24,6 +24,12 @@ export default function Page() {
         </p>
         <h2>Browser storage and synchronization</h2>
         <p>
+          Unsaved note drafts stay on this device, separated by account. They
+          are not sent to Firestore until you choose Save. Your data export
+          includes these drafts. Signing out checks pending writes and warns
+          before discarding unsaved device data.
+        </p>
+        <p>
           Local browser storage keeps guest progress and a per-account cache.
           Firebase maintains authentication state. Signing out removes the
           current account’s local progress cache, but not cloud data. On a

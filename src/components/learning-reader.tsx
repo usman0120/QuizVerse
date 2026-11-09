@@ -1,7 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
+import {
+  draftKey,
+  parseDraft,
+  readDraftRaw,
+  subscribeDrafts,
+  writeDraft,
+} from "@/lib/drafts";
 import type { LearningCategory, LearningTopic } from "@/lib/types";
 import { localDay } from "@/lib/quiz";
 import { useApp } from "./provider";
@@ -170,7 +177,14 @@ function LearningArticle({
   const contentRef = useRef<HTMLDivElement>(null);
   const key = `${category.id}:${topic.id}`;
   const note = app.get<Note | null>(`note:${key}`, null);
-  const [draft, setDraft] = useState(note?.text || "");
+  const deviceDraftKey = draftKey(app.user?.uid, key);
+  const draftRaw = useSyncExternalStore(
+    subscribeDrafts,
+    () => readDraftRaw(deviceDraftKey),
+    () => null,
+  );
+  const savedDraft = parseDraft(draftRaw);
+  const draft = savedDraft?.text ?? note?.text ?? "";
   const [editing, setEditing] = useState(false);
   const [message, setMessage] = useState("");
   const bookmarked = app.get<Bookmark | null>(`bookmark:${key}`, null);
@@ -295,6 +309,17 @@ function LearningArticle({
         ref={contentRef}
         style={{ fontSize: app.settings.fontSize }}
         className={`learning-content prose dark:prose-invert max-w-none ${language === "ur" && topic.content.ur ? "urdu" : ""}`}
+        onErrorCapture={(event) => {
+          const image = event.target;
+          if (!(image instanceof HTMLImageElement) || image.dataset.failed)
+            return;
+          image.dataset.failed = "true";
+          image.hidden = true;
+          const fallback = document.createElement("span");
+          fallback.className = "block rounded-lg bg-brand/10 p-4 text-sm";
+          fallback.textContent = `${image.alt || "Article illustration"} — image unavailable`;
+          image.after(fallback);
+        }}
         dangerouslySetInnerHTML={{ __html: content }}
       />
       <div className="flex flex-wrap gap-3 mt-8">
@@ -327,7 +352,6 @@ function LearningArticle({
         <button
           className="btn-secondary"
           onClick={() => {
-            if (!editing) setDraft(note?.text || "");
             setEditing(!editing);
           }}
         >
@@ -374,13 +398,31 @@ function LearningArticle({
       ) : null}
       {editing && (
         <section className="mt-8">
+          {savedDraft && (
+            <Notice>
+              Unsaved draft recovered on this device. Choose Save to sync it.
+            </Notice>
+          )}
           <label className="font-bold">
             Your notes
             <textarea
               className="field min-h-40 font-normal"
+              disabled={!app.ready}
               value={draft}
               maxLength={10000}
-              onChange={(e) => setDraft(e.target.value)}
+              onChange={(e) => {
+                const stored = writeDraft(deviceDraftKey, {
+                  text: e.target.value,
+                  baseUpdatedAt:
+                    savedDraft?.baseUpdatedAt ??
+                    app.entries[`note:${key}`]?.updatedAt ??
+                    0,
+                });
+                if (!stored)
+                  setMessage(
+                    "Browser storage is full or blocked. This draft is kept in this tab only; save/export before closing or reloading.",
+                  );
+              }}
               placeholder="Write your thoughts about this topic…"
             />
           </label>
@@ -388,7 +430,18 @@ function LearningArticle({
             <button
               className="btn"
               onClick={() => {
-                app.set(
+                const currentVersion =
+                  app.entries[`note:${key}`]?.updatedAt || 0;
+                if (
+                  savedDraft &&
+                  currentVersion > savedDraft.baseUpdatedAt &&
+                  note?.text !== draft &&
+                  !window.confirm(
+                    "This note changed on another device or tab while you were editing. Your draft is safe here. Replace the saved version with this draft?",
+                  )
+                )
+                  return;
+                const saved = app.set(
                   `note:${key}`,
                   draft.trim()
                     ? {
@@ -400,6 +453,13 @@ function LearningArticle({
                     : null,
                   !draft.trim(),
                 );
+                if (!saved) {
+                  setMessage(
+                    "Your account changed. The draft has been retained; sign in to the original account to save it.",
+                  );
+                  return;
+                }
+                writeDraft(deviceDraftKey, null);
                 setEditing(false);
                 setMessage(
                   "Notes saved on this device. Signed-in notes also sync to Firestore.",
@@ -411,7 +471,7 @@ function LearningArticle({
             <button
               className="btn-secondary"
               onClick={() => {
-                setDraft(note?.text || "");
+                writeDraft(deviceDraftKey, null);
                 setEditing(false);
               }}
             >

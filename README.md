@@ -29,6 +29,7 @@ Firebase web-app configuration is public client configuration, **not an authoriz
 
 1. In Firebase project `quizverse-84090`, enable **Google** and **Email/Password** in Authentication.
 2. Add the production Vercel/custom domain and `localhost` to **Authentication → Settings → Authorized domains**. Add preview domains only if previews need sign-in.
+   The current production host is `quiz-verse-nine.vercel.app`; Google sign-in requires this exact hostname in the authorized-domain list (without `https://` or a trailing slash).
 3. Enable Firestore. Publish `firestore.rules`. If this project is shared with another app, merge the two explicit QuizVerse paths into its existing rules; do not overwrite unrelated rules blindly.
 4. Firebase CLI alternative, after logging in: `firebase deploy --only firestore:rules --project quizverse-84090`.
 
@@ -68,6 +69,11 @@ Old `.html` URLs redirect to the corresponding Next routes and retain query para
 - Shared dark theme, Urdu/RTL preferences, responsive navigation, and scoped data controls.
 - Real, opt-in **casual** leaderboard; scores are client-reported, not competitive/verified.
 - Guest/account caches are isolated. Guest import is explicit. Deletion markers keep cleared progress from reappearing on other devices.
+- Unsaved notes recover on this device after navigation/reload; exports include drafts. Sign-out waits for pending writes before clearing the account cache.
+- Sync timestamps use the app's uncached `/api/time` endpoint to tolerate an incorrect device clock. No additional backend service or Firebase Admin credential is needed.
+- A local vector QuizVerse logo and matching favicon replace the emoji icon.
+
+Exact-only source cleanup and editorial reports: [Content review](docs/CONTENT_REVIEW.md). Run `npm run audit:content` to generate the report without changing content; `npm run clean:content` removes only complete duplicates except ID.
 
 ## Checks
 

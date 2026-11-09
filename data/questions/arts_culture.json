@@ -1373,22 +1373,6 @@
       "timeLimit": 30
     },
     {
-      "id": 94,
-      "type": "mcq",
-      "question": "Which famous composer wrote 'The Four Seasons'?",
-      "question_ur": "مشہور موسیقار 'دی فور سیزنز' کس نے لکھا؟",
-      "options": {
-        "en": ["Johann Sebastian Bach", "Wolfgang Amadeus Mozart", "Antonio Vivaldi", "Ludwig van Beethoven"],
-        "ur": ["جوہان سیبسٹین باخ", "ولف گینگ امیڈیوس موزارٹ", "اینٹونیو ویوالڈی", "لوڈوگ وان بیٹھوون"]
-      },
-      "correctAnswer": 2,
-      "explanation": "Vivaldi composed this set of four violin concertos in 1723.",
-      "explanation_ur": "ویوالڈی نے وایلن کے چار کنسرٹو کا یہ سیٹ 1723 میں ترتیب دیا تھا۔",
-      "hint": "Italian Baroque composer",
-      "hint_ur": "اطالوی باروک موسیقار",
-      "timeLimit": 25
-    },
-    {
       "id": 95,
       "type": "true-false",
       "question": "The character Hercules is from Greek mythology.",

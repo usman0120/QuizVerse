@@ -11,10 +11,12 @@
     "start": "next start",
     "typecheck": "next typegen && tsc --noEmit",
     "lint": "eslint .",
-    "test": "tsx --test tests/quiz.test.ts tests/progress.test.ts tests/content.test.ts",
+    "test": "tsx --test tests/quiz.test.ts tests/progress.test.ts tests/content.test.ts tests/reliability.test.ts tests/content-cleanup.test.mjs",
     "test:rules:unit": "tsx --test tests/firestore.rules.test.ts",
     "test:rules": "firebase emulators:exec --only firestore --project demo-quizverse \"npm run test:rules:unit\"",
     "test:e2e": "playwright test",
+    "audit:content": "node scripts/audit-content.mjs",
+    "clean:content": "node scripts/audit-content.mjs --apply",
     "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"tests/**/*.ts\" *.ts *.mjs *.js README.md docs/*.md",
     "check": "npm run lint && npm run typecheck && npm test && npm run build"
   },

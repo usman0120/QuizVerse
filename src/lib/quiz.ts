@@ -59,11 +59,13 @@ export function normalizeQuestions(
           ? source.correctAnswer - answerIndexBase
           : source.correctAnswer,
     };
-    if (!q.question?.trim()) return [];
+    if (typeof q.question !== "string" || !q.question.trim()) return [];
     if (!["mcq", "true-false", "fill-blanks"].includes(q.type)) return [];
     if (
       q.type === "mcq" &&
       (!Array.isArray(q.options?.en) ||
+        q.options.en.length < 2 ||
+        !q.options.en.every((option) => typeof option === "string") ||
         !Number.isInteger(q.correctAnswer) ||
         Number(q.correctAnswer) < 0 ||
         Number(q.correctAnswer) >= q.options.en.length)

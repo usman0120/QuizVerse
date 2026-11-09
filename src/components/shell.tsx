@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useApp } from "./provider";
 import { CONTACT_URL, Icon, Text } from "./ui";
+import { Brand } from "./brand";
 
 const nav = [
   ["/", "Home", "ہوم"],
@@ -24,11 +25,10 @@ export function Header() {
       <div className="container mx-auto px-4 py-3 flex justify-between items-center gap-3">
         <Link
           href="/"
-          className="flex items-center gap-2 font-bold text-xl shrink-0"
+          className="flex items-center gap-2 font-bold text-base sm:text-xl shrink-0"
           aria-label="QuizVerse home"
         >
-          <Icon name="brain" className="text-2xl text-accent" />
-          QuizVerse
+          <Brand />
         </Link>
         <nav
           aria-label="Main navigation"
@@ -120,8 +120,7 @@ export function Footer() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
           <div>
             <h2 className="text-xl font-bold mb-4">
-              <Icon name="brain" className="text-accent me-2" />
-              QuizVerse
+              <Brand />
             </h2>
             <p className="text-gray-300 text-sm">
               Learn, challenge yourself, and have fun with free English and Urdu

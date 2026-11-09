@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { AppProvider } from "@/components/provider";
 import { Header, Footer, BackToTop } from "@/components/shell";
+import { siteUrl } from "@/lib/site";
 import "@fontsource/poppins/400.css";
 import "@fontsource/poppins/500.css";
 import "@fontsource/poppins/600.css";
@@ -12,11 +13,6 @@ import "@fontsource/noto-nastaliq-urdu/700.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./globals.css";
 
-const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ||
-  (process.env.VERCEL_PROJECT_PRODUCTION_URL
-    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-    : undefined);
 export const metadata: Metadata = {
   ...(siteUrl ? { metadataBase: new URL(siteUrl) } : {}),
   title: {
@@ -25,7 +21,7 @@ export const metadata: Metadata = {
   },
   description:
     "Free English and Urdu quizzes, a learning hub, personality tests, and flashcards. Play as a guest or sign in to sync your progress.",
-  icons: { icon: "/icon.svg" },
+  icons: { icon: { url: "/brand/quizverse-mark.svg", type: "image/svg+xml" } },
 };
 export default function RootLayout({
   children,

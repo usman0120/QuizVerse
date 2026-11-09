@@ -1,0 +1,5510 @@
+{
+  "policy": "Remove exact complete-question duplicates only, ignoring ID. Preserve all differing versions.",
+  "files": [
+    {
+      "file": "data/questions/ai_robotics.json",
+      "original": 189,
+      "remaining": 189,
+      "removed": [],
+      "variants": [
+        {
+          "question": "Which programming language is most popular for AI development?",
+          "ids": [
+            5,
+            70,
+            165
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "AI cannot be used in agriculture.",
+          "ids": [
+            19,
+            95,
+            168
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the main advantage of collaborative robots (cobots)?",
+          "ids": [
+            28,
+            90
+          ],
+          "answerConflict": true
+        },
+        {
+          "question": "What does 'ASIMO', Honda's humanoid robot, stand for?",
+          "ids": [
+            120,
+            121
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Machine learning is a subset of artificial intelligence.",
+          "ids": [
+            144,
+            184
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What does 'SLAM' stand for in robotics?",
+          "ids": [
+            157,
+            190
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/algebra.json",
+      "original": 110,
+      "remaining": 109,
+      "removed": [
+        {
+          "id": 97,
+          "retainedId": 49,
+          "fingerprint": "d44593efbdc8fdb9247ea2c3558ffbae2d3a43cf6dc37299d176a7439dabf582"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "file": "data/questions/ancient_civilizations.json",
+      "original": 122,
+      "remaining": 108,
+      "removed": [
+        {
+          "id": 109,
+          "retainedId": 94,
+          "fingerprint": "1d6ae0c76bb8ff50e8b84ffe351938c318247ea9cbc071d22a9f38ce19ba98d4"
+        },
+        {
+          "id": 110,
+          "retainedId": 95,
+          "fingerprint": "42a63a5cfcbeb55fdf4049bc40f744417b887cd768ebeaf79fd73c7472a4cabd"
+        },
+        {
+          "id": 111,
+          "retainedId": 96,
+          "fingerprint": "efd7e0ad106a14eab8ea73150e62e69798d084a4451c9ae87952ca2b1aba9181"
+        },
+        {
+          "id": 112,
+          "retainedId": 97,
+          "fingerprint": "8b52f954b1ea1b6d5eaabee85411e72c332ee5c0d53496938869bc51a9eb5a71"
+        },
+        {
+          "id": 113,
+          "retainedId": 98,
+          "fingerprint": "9f57e1de0efdadca2361855f3a488ea78b0ea4bc696936fbaba59f07cf49606c"
+        },
+        {
+          "id": 114,
+          "retainedId": 99,
+          "fingerprint": "ae873635ebe4c767698f9b43e2a661cec3463e48b42090ace03076ff6f0e43b4"
+        },
+        {
+          "id": 115,
+          "retainedId": 100,
+          "fingerprint": "a5b8c7fede5a8766068a1f5dd519363aee821c3319af6c001c228eba942dc1ca"
+        },
+        {
+          "id": 116,
+          "retainedId": 101,
+          "fingerprint": "32b804d1b06db5a02d86f47d48093efab58df9466f2d7d4d9cfbc763c3e04f6a"
+        },
+        {
+          "id": 117,
+          "retainedId": 102,
+          "fingerprint": "3598e1b36bb6d64e126c2d7021bdbb83d082423757d69ba2fea73a190de8689c"
+        },
+        {
+          "id": 118,
+          "retainedId": 103,
+          "fingerprint": "815ecfd8e152a5e8663a8a25e8954c748418b2138d3725a60b37cc811eff64cb"
+        },
+        {
+          "id": 119,
+          "retainedId": 104,
+          "fingerprint": "c2d78545a3fd3311fc1e1221621d7f8e434635d730f3f8b3c22c518ac5fdfcd0"
+        },
+        {
+          "id": 120,
+          "retainedId": 105,
+          "fingerprint": "f4058647138cfe2d96c3bda3e3d1963ccb3e811d9eb5bcba56b8f55d19a60fe5"
+        },
+        {
+          "id": 121,
+          "retainedId": 106,
+          "fingerprint": "1553d02a12357af55d20731db42104679d892fa2e073f0afaf3cf1bddff19073"
+        },
+        {
+          "id": 122,
+          "retainedId": 107,
+          "fingerprint": "61e06e2a4e0be836ac51f59b7847a283a47626e97575cd1cb888827d2612c123"
+        }
+      ],
+      "variants": [
+        {
+          "question": "The ancient city of Ur was an important center of which civilization?",
+          "ids": [
+            61,
+            108
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "The ancient city of Susa was an important center of which empire?",
+          "ids": [
+            65,
+            102
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which ancient civilization built the city of Copán?",
+          "ids": [
+            91,
+            103
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/animals.json",
+      "original": 120,
+      "remaining": 30,
+      "removed": [
+        {
+          "id": 31,
+          "retainedId": 1,
+          "fingerprint": "46534a2b5532f3d8d007f6cd53e5c45cacb0f933675051b4e6149cde51f56d91"
+        },
+        {
+          "id": 32,
+          "retainedId": 2,
+          "fingerprint": "4e0f43c3dc9eb8875acabeb0326e5e42a6dfce3e86dffe8030308506f21278e3"
+        },
+        {
+          "id": 33,
+          "retainedId": 3,
+          "fingerprint": "d59485df410faa72d86784436fd73fbab74ea242382f930f6b87c029699094ae"
+        },
+        {
+          "id": 34,
+          "retainedId": 4,
+          "fingerprint": "05f3291575b8c3aed2a6430c083d267110c48831798b5e0c49253561ea216157"
+        },
+        {
+          "id": 35,
+          "retainedId": 5,
+          "fingerprint": "f121e55d860d85b045b292c6bf2e255ec3ba0ef8e08db54d0b9265869e466cb9"
+        },
+        {
+          "id": 36,
+          "retainedId": 6,
+          "fingerprint": "327862690cc2a95bf7167f738416ede16b493e67b2df19dd3a6380ce6c3a8ded"
+        },
+        {
+          "id": 37,
+          "retainedId": 7,
+          "fingerprint": "c706aaf23339e5ccda241fbcbabd21e9f7b00f6fd548353ee6e9a61706b8e952"
+        },
+        {
+          "id": 38,
+          "retainedId": 8,
+          "fingerprint": "73932cb5ddaf5cf0852f2a4dd01f7ca7c0d88df4273a5cf73af6f49b91bba109"
+        },
+        {
+          "id": 39,
+          "retainedId": 9,
+          "fingerprint": "bc4b09e1eae65f977e10b0aadb9f34c7b997e79772e96a5b0fbcdef7a0c6d1d7"
+        },
+        {
+          "id": 40,
+          "retainedId": 10,
+          "fingerprint": "0f344efb26674f16913c44134ee789ceca09c66e66e7121bd7d9e117af1d0132"
+        },
+        {
+          "id": 41,
+          "retainedId": 11,
+          "fingerprint": "f117962eee1e5c94319ef50924963f4fcdde79f88de138dfc9b16d5b3bc88689"
+        },
+        {
+          "id": 42,
+          "retainedId": 12,
+          "fingerprint": "4d2d57f3163a4ba15a788295018f0cfb8a096f253b322f2910fe36d9c936089c"
+        },
+        {
+          "id": 43,
+          "retainedId": 13,
+          "fingerprint": "bf1d6f41ce032653a1884108ad8eb6aecc0ad6684a4eb29cecbcb8ff10fa69c3"
+        },
+        {
+          "id": 44,
+          "retainedId": 14,
+          "fingerprint": "52a838ce96045aa05f5450c1a3375bbe5618164e377cbcf8b5f7d3019cdc7a87"
+        },
+        {
+          "id": 45,
+          "retainedId": 15,
+          "fingerprint": "e7084ed5d7774e57c668a6896355eacf863ffb2574d9b2b943f449e9484c6e4e"
+        },
+        {
+          "id": 46,
+          "retainedId": 16,
+          "fingerprint": "bdff2d99077356ba63b368b397508ff8c140d643e12f5797db5777602d634322"
+        },
+        {
+          "id": 47,
+          "retainedId": 17,
+          "fingerprint": "36b672ef48815378c1fac0d1e7167338073882176c5e4fe8469a3a760c87569b"
+        },
+        {
+          "id": 48,
+          "retainedId": 18,
+          "fingerprint": "8fa74e8de2f02d33d26d7527390730358560c0bd2131fad708f7d6f43ab7dcc9"
+        },
+        {
+          "id": 49,
+          "retainedId": 19,
+          "fingerprint": "06a7239defa82b61e2dfef81274b64893e151085c32fe5314e0dd4e0d8244100"
+        },
+        {
+          "id": 50,
+          "retainedId": 20,
+          "fingerprint": "d14349100973cf30e65971312254739f95460e40c102918f5a837dcf11b85fa0"
+        },
+        {
+          "id": 51,
+          "retainedId": 21,
+          "fingerprint": "dda9e2619f256731706b06ddb8ec8ea78dc8ff599677cb4301c3b5a3176580b1"
+        },
+        {
+          "id": 52,
+          "retainedId": 22,
+          "fingerprint": "21b622a723ee199a0029ac6b39e107230569797a0911b2ff59899eac708d4814"
+        },
+        {
+          "id": 53,
+          "retainedId": 23,
+          "fingerprint": "7226b77b5eb1b99d198c5b5df8667eb9be85f55ea0d36cba91fa867d48e2e13d"
+        },
+        {
+          "id": 54,
+          "retainedId": 24,
+          "fingerprint": "50c935705a4faf56bf638d67dfb6f8c76e3b2ddcdc846c5fb35bfcdb7cbe37f1"
+        },
+        {
+          "id": 55,
+          "retainedId": 25,
+          "fingerprint": "e3f1f475394e8dd77a43ef94c9a288ad3184bf0557c958be652e635682e6bef1"
+        },
+        {
+          "id": 56,
+          "retainedId": 26,
+          "fingerprint": "9f37bfbac9ea900d8c86c93fdeb5dac27503aced6a6541b37211bfcddd3b24e3"
+        },
+        {
+          "id": 57,
+          "retainedId": 27,
+          "fingerprint": "10af86e9232719b49e78486d18cf093e83972ebe9eb22cb9452156f4d798fe7b"
+        },
+        {
+          "id": 58,
+          "retainedId": 28,
+          "fingerprint": "a5a2ffcc07962e1916d5053bf7cb91d6fab9268267838bea180bae25fa99ebf5"
+        },
+        {
+          "id": 59,
+          "retainedId": 29,
+          "fingerprint": "f9d53d2d745a1597de355942898417358c8cf5037c13f1ed4a3b423958cef54d"
+        },
+        {
+          "id": 60,
+          "retainedId": 30,
+          "fingerprint": "15ea751c4d79d9752021d245f0582c2b8c23aebe6283af2d9af60cac0ac3fe57"
+        },
+        {
+          "id": 61,
+          "retainedId": 1,
+          "fingerprint": "46534a2b5532f3d8d007f6cd53e5c45cacb0f933675051b4e6149cde51f56d91"
+        },
+        {
+          "id": 62,
+          "retainedId": 2,
+          "fingerprint": "4e0f43c3dc9eb8875acabeb0326e5e42a6dfce3e86dffe8030308506f21278e3"
+        },
+        {
+          "id": 63,
+          "retainedId": 3,
+          "fingerprint": "d59485df410faa72d86784436fd73fbab74ea242382f930f6b87c029699094ae"
+        },
+        {
+          "id": 64,
+          "retainedId": 4,
+          "fingerprint": "05f3291575b8c3aed2a6430c083d267110c48831798b5e0c49253561ea216157"
+        },
+        {
+          "id": 65,
+          "retainedId": 5,
+          "fingerprint": "f121e55d860d85b045b292c6bf2e255ec3ba0ef8e08db54d0b9265869e466cb9"
+        },
+        {
+          "id": 66,
+          "retainedId": 6,
+          "fingerprint": "327862690cc2a95bf7167f738416ede16b493e67b2df19dd3a6380ce6c3a8ded"
+        },
+        {
+          "id": 67,
+          "retainedId": 7,
+          "fingerprint": "c706aaf23339e5ccda241fbcbabd21e9f7b00f6fd548353ee6e9a61706b8e952"
+        },
+        {
+          "id": 68,
+          "retainedId": 8,
+          "fingerprint": "73932cb5ddaf5cf0852f2a4dd01f7ca7c0d88df4273a5cf73af6f49b91bba109"
+        },
+        {
+          "id": 69,
+          "retainedId": 9,
+          "fingerprint": "bc4b09e1eae65f977e10b0aadb9f34c7b997e79772e96a5b0fbcdef7a0c6d1d7"
+        },
+        {
+          "id": 70,
+          "retainedId": 10,
+          "fingerprint": "0f344efb26674f16913c44134ee789ceca09c66e66e7121bd7d9e117af1d0132"
+        },
+        {
+          "id": 71,
+          "retainedId": 11,
+          "fingerprint": "f117962eee1e5c94319ef50924963f4fcdde79f88de138dfc9b16d5b3bc88689"
+        },
+        {
+          "id": 72,
+          "retainedId": 12,
+          "fingerprint": "4d2d57f3163a4ba15a788295018f0cfb8a096f253b322f2910fe36d9c936089c"
+        },
+        {
+          "id": 73,
+          "retainedId": 13,
+          "fingerprint": "bf1d6f41ce032653a1884108ad8eb6aecc0ad6684a4eb29cecbcb8ff10fa69c3"
+        },
+        {
+          "id": 74,
+          "retainedId": 14,
+          "fingerprint": "52a838ce96045aa05f5450c1a3375bbe5618164e377cbcf8b5f7d3019cdc7a87"
+        },
+        {
+          "id": 75,
+          "retainedId": 15,
+          "fingerprint": "e7084ed5d7774e57c668a6896355eacf863ffb2574d9b2b943f449e9484c6e4e"
+        },
+        {
+          "id": 76,
+          "retainedId": 16,
+          "fingerprint": "bdff2d99077356ba63b368b397508ff8c140d643e12f5797db5777602d634322"
+        },
+        {
+          "id": 77,
+          "retainedId": 17,
+          "fingerprint": "36b672ef48815378c1fac0d1e7167338073882176c5e4fe8469a3a760c87569b"
+        },
+        {
+          "id": 78,
+          "retainedId": 18,
+          "fingerprint": "8fa74e8de2f02d33d26d7527390730358560c0bd2131fad708f7d6f43ab7dcc9"
+        },
+        {
+          "id": 79,
+          "retainedId": 19,
+          "fingerprint": "06a7239defa82b61e2dfef81274b64893e151085c32fe5314e0dd4e0d8244100"
+        },
+        {
+          "id": 80,
+          "retainedId": 20,
+          "fingerprint": "d14349100973cf30e65971312254739f95460e40c102918f5a837dcf11b85fa0"
+        },
+        {
+          "id": 81,
+          "retainedId": 21,
+          "fingerprint": "dda9e2619f256731706b06ddb8ec8ea78dc8ff599677cb4301c3b5a3176580b1"
+        },
+        {
+          "id": 82,
+          "retainedId": 22,
+          "fingerprint": "21b622a723ee199a0029ac6b39e107230569797a0911b2ff59899eac708d4814"
+        },
+        {
+          "id": 83,
+          "retainedId": 23,
+          "fingerprint": "7226b77b5eb1b99d198c5b5df8667eb9be85f55ea0d36cba91fa867d48e2e13d"
+        },
+        {
+          "id": 84,
+          "retainedId": 24,
+          "fingerprint": "50c935705a4faf56bf638d67dfb6f8c76e3b2ddcdc846c5fb35bfcdb7cbe37f1"
+        },
+        {
+          "id": 85,
+          "retainedId": 25,
+          "fingerprint": "e3f1f475394e8dd77a43ef94c9a288ad3184bf0557c958be652e635682e6bef1"
+        },
+        {
+          "id": 86,
+          "retainedId": 26,
+          "fingerprint": "9f37bfbac9ea900d8c86c93fdeb5dac27503aced6a6541b37211bfcddd3b24e3"
+        },
+        {
+          "id": 87,
+          "retainedId": 27,
+          "fingerprint": "10af86e9232719b49e78486d18cf093e83972ebe9eb22cb9452156f4d798fe7b"
+        },
+        {
+          "id": 88,
+          "retainedId": 28,
+          "fingerprint": "a5a2ffcc07962e1916d5053bf7cb91d6fab9268267838bea180bae25fa99ebf5"
+        },
+        {
+          "id": 89,
+          "retainedId": 29,
+          "fingerprint": "f9d53d2d745a1597de355942898417358c8cf5037c13f1ed4a3b423958cef54d"
+        },
+        {
+          "id": 90,
+          "retainedId": 30,
+          "fingerprint": "15ea751c4d79d9752021d245f0582c2b8c23aebe6283af2d9af60cac0ac3fe57"
+        },
+        {
+          "id": 91,
+          "retainedId": 1,
+          "fingerprint": "46534a2b5532f3d8d007f6cd53e5c45cacb0f933675051b4e6149cde51f56d91"
+        },
+        {
+          "id": 92,
+          "retainedId": 2,
+          "fingerprint": "4e0f43c3dc9eb8875acabeb0326e5e42a6dfce3e86dffe8030308506f21278e3"
+        },
+        {
+          "id": 93,
+          "retainedId": 3,
+          "fingerprint": "d59485df410faa72d86784436fd73fbab74ea242382f930f6b87c029699094ae"
+        },
+        {
+          "id": 94,
+          "retainedId": 4,
+          "fingerprint": "05f3291575b8c3aed2a6430c083d267110c48831798b5e0c49253561ea216157"
+        },
+        {
+          "id": 95,
+          "retainedId": 5,
+          "fingerprint": "f121e55d860d85b045b292c6bf2e255ec3ba0ef8e08db54d0b9265869e466cb9"
+        },
+        {
+          "id": 96,
+          "retainedId": 6,
+          "fingerprint": "327862690cc2a95bf7167f738416ede16b493e67b2df19dd3a6380ce6c3a8ded"
+        },
+        {
+          "id": 97,
+          "retainedId": 7,
+          "fingerprint": "c706aaf23339e5ccda241fbcbabd21e9f7b00f6fd548353ee6e9a61706b8e952"
+        },
+        {
+          "id": 98,
+          "retainedId": 8,
+          "fingerprint": "73932cb5ddaf5cf0852f2a4dd01f7ca7c0d88df4273a5cf73af6f49b91bba109"
+        },
+        {
+          "id": 99,
+          "retainedId": 9,
+          "fingerprint": "bc4b09e1eae65f977e10b0aadb9f34c7b997e79772e96a5b0fbcdef7a0c6d1d7"
+        },
+        {
+          "id": 100,
+          "retainedId": 10,
+          "fingerprint": "0f344efb26674f16913c44134ee789ceca09c66e66e7121bd7d9e117af1d0132"
+        },
+        {
+          "id": 101,
+          "retainedId": 11,
+          "fingerprint": "f117962eee1e5c94319ef50924963f4fcdde79f88de138dfc9b16d5b3bc88689"
+        },
+        {
+          "id": 102,
+          "retainedId": 12,
+          "fingerprint": "4d2d57f3163a4ba15a788295018f0cfb8a096f253b322f2910fe36d9c936089c"
+        },
+        {
+          "id": 103,
+          "retainedId": 13,
+          "fingerprint": "bf1d6f41ce032653a1884108ad8eb6aecc0ad6684a4eb29cecbcb8ff10fa69c3"
+        },
+        {
+          "id": 104,
+          "retainedId": 14,
+          "fingerprint": "52a838ce96045aa05f5450c1a3375bbe5618164e377cbcf8b5f7d3019cdc7a87"
+        },
+        {
+          "id": 105,
+          "retainedId": 15,
+          "fingerprint": "e7084ed5d7774e57c668a6896355eacf863ffb2574d9b2b943f449e9484c6e4e"
+        },
+        {
+          "id": 106,
+          "retainedId": 16,
+          "fingerprint": "bdff2d99077356ba63b368b397508ff8c140d643e12f5797db5777602d634322"
+        },
+        {
+          "id": 107,
+          "retainedId": 17,
+          "fingerprint": "36b672ef48815378c1fac0d1e7167338073882176c5e4fe8469a3a760c87569b"
+        },
+        {
+          "id": 108,
+          "retainedId": 18,
+          "fingerprint": "8fa74e8de2f02d33d26d7527390730358560c0bd2131fad708f7d6f43ab7dcc9"
+        },
+        {
+          "id": 109,
+          "retainedId": 19,
+          "fingerprint": "06a7239defa82b61e2dfef81274b64893e151085c32fe5314e0dd4e0d8244100"
+        },
+        {
+          "id": 110,
+          "retainedId": 20,
+          "fingerprint": "d14349100973cf30e65971312254739f95460e40c102918f5a837dcf11b85fa0"
+        },
+        {
+          "id": 111,
+          "retainedId": 21,
+          "fingerprint": "dda9e2619f256731706b06ddb8ec8ea78dc8ff599677cb4301c3b5a3176580b1"
+        },
+        {
+          "id": 112,
+          "retainedId": 22,
+          "fingerprint": "21b622a723ee199a0029ac6b39e107230569797a0911b2ff59899eac708d4814"
+        },
+        {
+          "id": 113,
+          "retainedId": 23,
+          "fingerprint": "7226b77b5eb1b99d198c5b5df8667eb9be85f55ea0d36cba91fa867d48e2e13d"
+        },
+        {
+          "id": 114,
+          "retainedId": 24,
+          "fingerprint": "50c935705a4faf56bf638d67dfb6f8c76e3b2ddcdc846c5fb35bfcdb7cbe37f1"
+        },
+        {
+          "id": 115,
+          "retainedId": 25,
+          "fingerprint": "e3f1f475394e8dd77a43ef94c9a288ad3184bf0557c958be652e635682e6bef1"
+        },
+        {
+          "id": 116,
+          "retainedId": 26,
+          "fingerprint": "9f37bfbac9ea900d8c86c93fdeb5dac27503aced6a6541b37211bfcddd3b24e3"
+        },
+        {
+          "id": 117,
+          "retainedId": 27,
+          "fingerprint": "10af86e9232719b49e78486d18cf093e83972ebe9eb22cb9452156f4d798fe7b"
+        },
+        {
+          "id": 118,
+          "retainedId": 28,
+          "fingerprint": "a5a2ffcc07962e1916d5053bf7cb91d6fab9268267838bea180bae25fa99ebf5"
+        },
+        {
+          "id": 119,
+          "retainedId": 29,
+          "fingerprint": "f9d53d2d745a1597de355942898417358c8cf5037c13f1ed4a3b423958cef54d"
+        },
+        {
+          "id": 120,
+          "retainedId": 30,
+          "fingerprint": "15ea751c4d79d9752021d245f0582c2b8c23aebe6283af2d9af60cac0ac3fe57"
+        }
+      ],
+      "variants": [
+        {
+          "question": "Which animal is known as the King of the Jungle?",
+          "ids": [
+            1,
+            11,
+            21
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "A dolphin is a mammal.",
+          "ids": [
+            2,
+            12,
+            22
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which bird is known for its ability to mimic human speech?",
+          "ids": [
+            3,
+            13,
+            23
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Sharks are mammals.",
+          "ids": [
+            4,
+            14,
+            24
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which animal is known for having a long neck?",
+          "ids": [
+            5,
+            15,
+            25
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Bats are blind.",
+          "ids": [
+            6,
+            16,
+            26
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which is the largest land animal?",
+          "ids": [
+            7,
+            17,
+            27
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Penguins can fly.",
+          "ids": [
+            8,
+            18,
+            28
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which animal is the fastest land animal?",
+          "ids": [
+            9,
+            19,
+            29
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Camels can store water in their humps.",
+          "ids": [
+            10,
+            20,
+            30
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/arithmetic.json",
+      "original": 105,
+      "remaining": 105,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/arts_culture.json",
+      "original": 100,
+      "remaining": 99,
+      "removed": [
+        {
+          "id": 94,
+          "retainedId": 64,
+          "fingerprint": "1ed244b4a4c4977a9c6d931de0483c33230b6491aad1070885e5b3019fbac15e"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "file": "data/questions/biographies.json",
+      "original": 120,
+      "remaining": 30,
+      "removed": [
+        {
+          "id": 31,
+          "retainedId": 1,
+          "fingerprint": "bf0ffe72a298629d8944acf8a2da4b6bd95a84b2470bfece0ffa1a19595434a4"
+        },
+        {
+          "id": 32,
+          "retainedId": 2,
+          "fingerprint": "10e81ea9563ca2881bb58139df4293b2ab84563f4c672aefcb67af562a486bd0"
+        },
+        {
+          "id": 33,
+          "retainedId": 3,
+          "fingerprint": "3dd3a0a65095e2bfcded6d1292456b55f5ff6b89e111b624bbf42b7d785b12b0"
+        },
+        {
+          "id": 34,
+          "retainedId": 4,
+          "fingerprint": "2ae4759c62bc84e93346958decad2065f54bac79e37df72f260bfeebe4b2cdb8"
+        },
+        {
+          "id": 35,
+          "retainedId": 5,
+          "fingerprint": "e0cdbea2879ab802f585b4e4166f73875c19ef99501cecd19f36be49e08cec60"
+        },
+        {
+          "id": 36,
+          "retainedId": 6,
+          "fingerprint": "97dd2a90841d485b7306f2dc7a0599d9a873ee276e3d7c6638824335e6033f0a"
+        },
+        {
+          "id": 37,
+          "retainedId": 7,
+          "fingerprint": "1102a79dc64e593269c78839b5c1fb394d0b1e129da80905388c5d6293c20b9d"
+        },
+        {
+          "id": 38,
+          "retainedId": 8,
+          "fingerprint": "5f221c24efd3ed24656f26a7dbdc7a9c5adef1f75fe5cce3e29f64bf15e6ac70"
+        },
+        {
+          "id": 39,
+          "retainedId": 9,
+          "fingerprint": "7df63c9847ee29161133d633c7f4389f82e27a783211d3604eccfd9ed622d4d0"
+        },
+        {
+          "id": 40,
+          "retainedId": 10,
+          "fingerprint": "8c098353504eaf0ae2cb1369bd09ee0c45474371b560d805dc2c2d691e837b00"
+        },
+        {
+          "id": 41,
+          "retainedId": 11,
+          "fingerprint": "89b6906d4f15cdbd59cf0153998ed9229df21cd66cc6102dd44331d8348212c6"
+        },
+        {
+          "id": 42,
+          "retainedId": 12,
+          "fingerprint": "076d093306c2dc606856377bc95793089f5f1a6f09b04af6146968306b7a6a8d"
+        },
+        {
+          "id": 43,
+          "retainedId": 13,
+          "fingerprint": "a97d27b295796b3c6a932dfd551907ac7a1475ef148797821a2ca206b5dd0f59"
+        },
+        {
+          "id": 44,
+          "retainedId": 14,
+          "fingerprint": "b4ac281b0331c256e8f6613becd5d2b78134883d15ff4fc13c068f19d0b907c2"
+        },
+        {
+          "id": 45,
+          "retainedId": 15,
+          "fingerprint": "f07ec35b83fe6670f32226f89a383045398f208d41aca02e41a207850a96b705"
+        },
+        {
+          "id": 46,
+          "retainedId": 16,
+          "fingerprint": "4b3a151817b6ed532772d331cf099ccb2f620d0894b7a61975f5f288be484e70"
+        },
+        {
+          "id": 47,
+          "retainedId": 17,
+          "fingerprint": "258ecdcff7fa3e8b491afc7aff2a87f27b26d5ed90439edc3a8070c8f087532e"
+        },
+        {
+          "id": 48,
+          "retainedId": 18,
+          "fingerprint": "19aa171bbe72ba0cb5781bfa1cf9dd344786b620dda8d3fc590ee0aebb322e7a"
+        },
+        {
+          "id": 49,
+          "retainedId": 19,
+          "fingerprint": "8d96ba55934537e0f21ec74dd5d7414667661d1df67f75e13ad61269b650ed23"
+        },
+        {
+          "id": 50,
+          "retainedId": 20,
+          "fingerprint": "9aeaccca2fb2fabc83b15ab6926217d9fabe36c2f5d26697bfe101742bb6cc22"
+        },
+        {
+          "id": 51,
+          "retainedId": 21,
+          "fingerprint": "2071d59a074445046df621453d6f23aa8a04daecbe636fde234da8446f374dd3"
+        },
+        {
+          "id": 52,
+          "retainedId": 22,
+          "fingerprint": "0f72fe38620e4cf787d85bcc600b47fb696813ef8840ddf2116a69254b1c595a"
+        },
+        {
+          "id": 53,
+          "retainedId": 23,
+          "fingerprint": "05f84e51da96b02d4c9dd3085b14ca62ea009896ede80bef9dd0da01fd93b35a"
+        },
+        {
+          "id": 54,
+          "retainedId": 24,
+          "fingerprint": "325f197dc24e36484e8ff9296ee4eae6ff28f127be3a1f76ae2231fa225cf0bb"
+        },
+        {
+          "id": 55,
+          "retainedId": 25,
+          "fingerprint": "6d43f79ab8e57a700103144c5e89cbd0428804af2b8640d8644431f6e8beca5d"
+        },
+        {
+          "id": 56,
+          "retainedId": 26,
+          "fingerprint": "d01bf1eec671fc7f72fa03f534f11214568446207797f822c8050d5ed890fd62"
+        },
+        {
+          "id": 57,
+          "retainedId": 27,
+          "fingerprint": "c6ab86a9121483b125fe2b0bf3d5a7a39de5c351f8d956749a70da00b3e6a5ab"
+        },
+        {
+          "id": 58,
+          "retainedId": 28,
+          "fingerprint": "be292cc53d0e8e8079e13ede52e51b28590d01e7a5a142a6876ac39e6fc3aa1b"
+        },
+        {
+          "id": 59,
+          "retainedId": 29,
+          "fingerprint": "38db97f8ff9d19554f57c2632a51b28a8148e1699ab49a45fba5e005800e112d"
+        },
+        {
+          "id": 60,
+          "retainedId": 30,
+          "fingerprint": "cb29fcb214226bd9f66f828b03937a66eba0dde031aebb3884fc8511eebe11f7"
+        },
+        {
+          "id": 61,
+          "retainedId": 1,
+          "fingerprint": "bf0ffe72a298629d8944acf8a2da4b6bd95a84b2470bfece0ffa1a19595434a4"
+        },
+        {
+          "id": 62,
+          "retainedId": 2,
+          "fingerprint": "10e81ea9563ca2881bb58139df4293b2ab84563f4c672aefcb67af562a486bd0"
+        },
+        {
+          "id": 63,
+          "retainedId": 3,
+          "fingerprint": "3dd3a0a65095e2bfcded6d1292456b55f5ff6b89e111b624bbf42b7d785b12b0"
+        },
+        {
+          "id": 64,
+          "retainedId": 4,
+          "fingerprint": "2ae4759c62bc84e93346958decad2065f54bac79e37df72f260bfeebe4b2cdb8"
+        },
+        {
+          "id": 65,
+          "retainedId": 5,
+          "fingerprint": "e0cdbea2879ab802f585b4e4166f73875c19ef99501cecd19f36be49e08cec60"
+        },
+        {
+          "id": 66,
+          "retainedId": 6,
+          "fingerprint": "97dd2a90841d485b7306f2dc7a0599d9a873ee276e3d7c6638824335e6033f0a"
+        },
+        {
+          "id": 67,
+          "retainedId": 7,
+          "fingerprint": "1102a79dc64e593269c78839b5c1fb394d0b1e129da80905388c5d6293c20b9d"
+        },
+        {
+          "id": 68,
+          "retainedId": 8,
+          "fingerprint": "5f221c24efd3ed24656f26a7dbdc7a9c5adef1f75fe5cce3e29f64bf15e6ac70"
+        },
+        {
+          "id": 69,
+          "retainedId": 9,
+          "fingerprint": "7df63c9847ee29161133d633c7f4389f82e27a783211d3604eccfd9ed622d4d0"
+        },
+        {
+          "id": 70,
+          "retainedId": 10,
+          "fingerprint": "8c098353504eaf0ae2cb1369bd09ee0c45474371b560d805dc2c2d691e837b00"
+        },
+        {
+          "id": 71,
+          "retainedId": 11,
+          "fingerprint": "89b6906d4f15cdbd59cf0153998ed9229df21cd66cc6102dd44331d8348212c6"
+        },
+        {
+          "id": 72,
+          "retainedId": 12,
+          "fingerprint": "076d093306c2dc606856377bc95793089f5f1a6f09b04af6146968306b7a6a8d"
+        },
+        {
+          "id": 73,
+          "retainedId": 13,
+          "fingerprint": "a97d27b295796b3c6a932dfd551907ac7a1475ef148797821a2ca206b5dd0f59"
+        },
+        {
+          "id": 74,
+          "retainedId": 14,
+          "fingerprint": "b4ac281b0331c256e8f6613becd5d2b78134883d15ff4fc13c068f19d0b907c2"
+        },
+        {
+          "id": 75,
+          "retainedId": 15,
+          "fingerprint": "f07ec35b83fe6670f32226f89a383045398f208d41aca02e41a207850a96b705"
+        },
+        {
+          "id": 76,
+          "retainedId": 16,
+          "fingerprint": "4b3a151817b6ed532772d331cf099ccb2f620d0894b7a61975f5f288be484e70"
+        },
+        {
+          "id": 77,
+          "retainedId": 17,
+          "fingerprint": "258ecdcff7fa3e8b491afc7aff2a87f27b26d5ed90439edc3a8070c8f087532e"
+        },
+        {
+          "id": 78,
+          "retainedId": 18,
+          "fingerprint": "19aa171bbe72ba0cb5781bfa1cf9dd344786b620dda8d3fc590ee0aebb322e7a"
+        },
+        {
+          "id": 79,
+          "retainedId": 19,
+          "fingerprint": "8d96ba55934537e0f21ec74dd5d7414667661d1df67f75e13ad61269b650ed23"
+        },
+        {
+          "id": 80,
+          "retainedId": 20,
+          "fingerprint": "9aeaccca2fb2fabc83b15ab6926217d9fabe36c2f5d26697bfe101742bb6cc22"
+        },
+        {
+          "id": 81,
+          "retainedId": 21,
+          "fingerprint": "2071d59a074445046df621453d6f23aa8a04daecbe636fde234da8446f374dd3"
+        },
+        {
+          "id": 82,
+          "retainedId": 22,
+          "fingerprint": "0f72fe38620e4cf787d85bcc600b47fb696813ef8840ddf2116a69254b1c595a"
+        },
+        {
+          "id": 83,
+          "retainedId": 23,
+          "fingerprint": "05f84e51da96b02d4c9dd3085b14ca62ea009896ede80bef9dd0da01fd93b35a"
+        },
+        {
+          "id": 84,
+          "retainedId": 24,
+          "fingerprint": "325f197dc24e36484e8ff9296ee4eae6ff28f127be3a1f76ae2231fa225cf0bb"
+        },
+        {
+          "id": 85,
+          "retainedId": 25,
+          "fingerprint": "6d43f79ab8e57a700103144c5e89cbd0428804af2b8640d8644431f6e8beca5d"
+        },
+        {
+          "id": 86,
+          "retainedId": 26,
+          "fingerprint": "d01bf1eec671fc7f72fa03f534f11214568446207797f822c8050d5ed890fd62"
+        },
+        {
+          "id": 87,
+          "retainedId": 27,
+          "fingerprint": "c6ab86a9121483b125fe2b0bf3d5a7a39de5c351f8d956749a70da00b3e6a5ab"
+        },
+        {
+          "id": 88,
+          "retainedId": 28,
+          "fingerprint": "be292cc53d0e8e8079e13ede52e51b28590d01e7a5a142a6876ac39e6fc3aa1b"
+        },
+        {
+          "id": 89,
+          "retainedId": 29,
+          "fingerprint": "38db97f8ff9d19554f57c2632a51b28a8148e1699ab49a45fba5e005800e112d"
+        },
+        {
+          "id": 90,
+          "retainedId": 30,
+          "fingerprint": "cb29fcb214226bd9f66f828b03937a66eba0dde031aebb3884fc8511eebe11f7"
+        },
+        {
+          "id": 91,
+          "retainedId": 1,
+          "fingerprint": "bf0ffe72a298629d8944acf8a2da4b6bd95a84b2470bfece0ffa1a19595434a4"
+        },
+        {
+          "id": 92,
+          "retainedId": 2,
+          "fingerprint": "10e81ea9563ca2881bb58139df4293b2ab84563f4c672aefcb67af562a486bd0"
+        },
+        {
+          "id": 93,
+          "retainedId": 3,
+          "fingerprint": "3dd3a0a65095e2bfcded6d1292456b55f5ff6b89e111b624bbf42b7d785b12b0"
+        },
+        {
+          "id": 94,
+          "retainedId": 4,
+          "fingerprint": "2ae4759c62bc84e93346958decad2065f54bac79e37df72f260bfeebe4b2cdb8"
+        },
+        {
+          "id": 95,
+          "retainedId": 5,
+          "fingerprint": "e0cdbea2879ab802f585b4e4166f73875c19ef99501cecd19f36be49e08cec60"
+        },
+        {
+          "id": 96,
+          "retainedId": 6,
+          "fingerprint": "97dd2a90841d485b7306f2dc7a0599d9a873ee276e3d7c6638824335e6033f0a"
+        },
+        {
+          "id": 97,
+          "retainedId": 7,
+          "fingerprint": "1102a79dc64e593269c78839b5c1fb394d0b1e129da80905388c5d6293c20b9d"
+        },
+        {
+          "id": 98,
+          "retainedId": 8,
+          "fingerprint": "5f221c24efd3ed24656f26a7dbdc7a9c5adef1f75fe5cce3e29f64bf15e6ac70"
+        },
+        {
+          "id": 99,
+          "retainedId": 9,
+          "fingerprint": "7df63c9847ee29161133d633c7f4389f82e27a783211d3604eccfd9ed622d4d0"
+        },
+        {
+          "id": 100,
+          "retainedId": 10,
+          "fingerprint": "8c098353504eaf0ae2cb1369bd09ee0c45474371b560d805dc2c2d691e837b00"
+        },
+        {
+          "id": 101,
+          "retainedId": 11,
+          "fingerprint": "89b6906d4f15cdbd59cf0153998ed9229df21cd66cc6102dd44331d8348212c6"
+        },
+        {
+          "id": 102,
+          "retainedId": 12,
+          "fingerprint": "076d093306c2dc606856377bc95793089f5f1a6f09b04af6146968306b7a6a8d"
+        },
+        {
+          "id": 103,
+          "retainedId": 13,
+          "fingerprint": "a97d27b295796b3c6a932dfd551907ac7a1475ef148797821a2ca206b5dd0f59"
+        },
+        {
+          "id": 104,
+          "retainedId": 14,
+          "fingerprint": "b4ac281b0331c256e8f6613becd5d2b78134883d15ff4fc13c068f19d0b907c2"
+        },
+        {
+          "id": 105,
+          "retainedId": 15,
+          "fingerprint": "f07ec35b83fe6670f32226f89a383045398f208d41aca02e41a207850a96b705"
+        },
+        {
+          "id": 106,
+          "retainedId": 16,
+          "fingerprint": "4b3a151817b6ed532772d331cf099ccb2f620d0894b7a61975f5f288be484e70"
+        },
+        {
+          "id": 107,
+          "retainedId": 17,
+          "fingerprint": "258ecdcff7fa3e8b491afc7aff2a87f27b26d5ed90439edc3a8070c8f087532e"
+        },
+        {
+          "id": 108,
+          "retainedId": 18,
+          "fingerprint": "19aa171bbe72ba0cb5781bfa1cf9dd344786b620dda8d3fc590ee0aebb322e7a"
+        },
+        {
+          "id": 109,
+          "retainedId": 19,
+          "fingerprint": "8d96ba55934537e0f21ec74dd5d7414667661d1df67f75e13ad61269b650ed23"
+        },
+        {
+          "id": 110,
+          "retainedId": 20,
+          "fingerprint": "9aeaccca2fb2fabc83b15ab6926217d9fabe36c2f5d26697bfe101742bb6cc22"
+        },
+        {
+          "id": 111,
+          "retainedId": 21,
+          "fingerprint": "2071d59a074445046df621453d6f23aa8a04daecbe636fde234da8446f374dd3"
+        },
+        {
+          "id": 112,
+          "retainedId": 22,
+          "fingerprint": "0f72fe38620e4cf787d85bcc600b47fb696813ef8840ddf2116a69254b1c595a"
+        },
+        {
+          "id": 113,
+          "retainedId": 23,
+          "fingerprint": "05f84e51da96b02d4c9dd3085b14ca62ea009896ede80bef9dd0da01fd93b35a"
+        },
+        {
+          "id": 114,
+          "retainedId": 24,
+          "fingerprint": "325f197dc24e36484e8ff9296ee4eae6ff28f127be3a1f76ae2231fa225cf0bb"
+        },
+        {
+          "id": 115,
+          "retainedId": 25,
+          "fingerprint": "6d43f79ab8e57a700103144c5e89cbd0428804af2b8640d8644431f6e8beca5d"
+        },
+        {
+          "id": 116,
+          "retainedId": 26,
+          "fingerprint": "d01bf1eec671fc7f72fa03f534f11214568446207797f822c8050d5ed890fd62"
+        },
+        {
+          "id": 117,
+          "retainedId": 27,
+          "fingerprint": "c6ab86a9121483b125fe2b0bf3d5a7a39de5c351f8d956749a70da00b3e6a5ab"
+        },
+        {
+          "id": 118,
+          "retainedId": 28,
+          "fingerprint": "be292cc53d0e8e8079e13ede52e51b28590d01e7a5a142a6876ac39e6fc3aa1b"
+        },
+        {
+          "id": 119,
+          "retainedId": 29,
+          "fingerprint": "38db97f8ff9d19554f57c2632a51b28a8148e1699ab49a45fba5e005800e112d"
+        },
+        {
+          "id": 120,
+          "retainedId": 30,
+          "fingerprint": "cb29fcb214226bd9f66f828b03937a66eba0dde031aebb3884fc8511eebe11f7"
+        }
+      ],
+      "variants": [
+        {
+          "question": "Who was the first President of the United States?",
+          "ids": [
+            1,
+            11,
+            21
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Mahatma Gandhi was born in South Africa.",
+          "ids": [
+            2,
+            12,
+            22
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who was known as the Iron Lady?",
+          "ids": [
+            3,
+            13,
+            23
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "William Shakespeare wrote 'The Odyssey'.",
+          "ids": [
+            4,
+            14,
+            24
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who was the first woman to win a Nobel Prize?",
+          "ids": [
+            5,
+            15,
+            25
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Albert Einstein developed the theory of relativity.",
+          "ids": [
+            6,
+            16,
+            26
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who discovered penicillin?",
+          "ids": [
+            7,
+            17,
+            27
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Neil Armstrong was the first man on the Moon.",
+          "ids": [
+            8,
+            18,
+            28
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who painted the Mona Lisa?",
+          "ids": [
+            9,
+            19,
+            29
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Mother Teresa won the Nobel Peace Prize.",
+          "ids": [
+            10,
+            20,
+            30
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/biology.json",
+      "original": 249,
+      "remaining": 240,
+      "removed": [
+        {
+          "id": 125,
+          "retainedId": 72,
+          "fingerprint": "c12cb2f595c2d6d6b6649192269cd4dd8f2419b1c13496f66ad991e4906f4fe5"
+        },
+        {
+          "id": 164,
+          "retainedId": 92,
+          "fingerprint": "f8c93fa181e6166bf10bd5ba11c566615086ab66d644edf525d78891bf81c4c9"
+        },
+        {
+          "id": 182,
+          "retainedId": 132,
+          "fingerprint": "c73e41dd99a64751a2425b81f169af0445bf0b7a41d3b0f2ff40b1d4c28594ca"
+        },
+        {
+          "id": 190,
+          "retainedId": 140,
+          "fingerprint": "90db669ea03de377ceea4aea9b89fbdb3820abd1eed3b954f4c398bd186bfc25"
+        },
+        {
+          "id": 214,
+          "retainedId": 114,
+          "fingerprint": "a5a78192af8c5df3bbf01ef3d4357291196de69012eb1d7ec6629b7e57ea4667"
+        },
+        {
+          "id": 229,
+          "retainedId": 179,
+          "fingerprint": "f12c086ae4ba863adc253ac342b5bd6eda5d55d36d3736927cfc9a51fb30fc9e"
+        },
+        {
+          "id": 235,
+          "retainedId": 185,
+          "fingerprint": "7064b2dec4b48d030225681c1909164111010d46d453ba70dc4e4dfa31c137bc"
+        },
+        {
+          "id": 247,
+          "retainedId": 197,
+          "fingerprint": "eba05ada0b860092c92e64298abef7bd7cdab7fbfa9bad81fb7cfde2fc2dc62d"
+        },
+        {
+          "id": 248,
+          "retainedId": 198,
+          "fingerprint": "63482e89278714cc67007e45af2d01b4ce470e62c2473fae66c140e57e6b6964"
+        }
+      ],
+      "variants": [
+        {
+          "question": "Which part of the brain controls balance and coordination?",
+          "ids": [
+            33,
+            64
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All bacteria are harmful to humans.",
+          "ids": [
+            54,
+            213
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a function of the liver?",
+          "ids": [
+            76,
+            203
+          ],
+          "answerConflict": true
+        },
+        {
+          "question": "All birds can fly.",
+          "ids": [
+            78,
+            175,
+            225
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a type of RNA?",
+          "ids": [
+            79,
+            200
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the process by which cells engulf large particles?",
+          "ids": [
+            98,
+            208
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All animals have a backbone.",
+          "ids": [
+            104,
+            204
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the pigment that makes carrots orange?",
+          "ids": [
+            108,
+            205
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the protein that makes up hair and nails?",
+          "ids": [
+            111,
+            211
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a function of the skeletal system?",
+          "ids": [
+            112,
+            212
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a part of the human ear?",
+          "ids": [
+            115,
+            215
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All plants perform photosynthesis.",
+          "ids": [
+            116,
+            207
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the process by which glucose is broken down for energy?",
+          "ids": [
+            117,
+            217
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a type of plant tissue?",
+          "ids": [
+            118,
+            209
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the male reproductive part of a flower?",
+          "ids": [
+            120,
+            170,
+            220
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a function of the stomach?",
+          "ids": [
+            121,
+            221
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All mammals have hair at some point in their life.",
+          "ids": [
+            122,
+            222
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the process by which water moves across a membrane?",
+          "ids": [
+            123,
+            173,
+            223
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a type of symbiotic relationship?",
+          "ids": [
+            124,
+            174,
+            224
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the structure that connects muscles to bones?",
+          "ids": [
+            126,
+            176,
+            226
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a function of the skin?",
+          "ids": [
+            127,
+            177,
+            227
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the process by which plants respond to gravity?",
+          "ids": [
+            129,
+            179
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a type of plant hormone?",
+          "ids": [
+            130,
+            180,
+            230
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the structure where photosynthesis occurs in plant cells?",
+          "ids": [
+            132,
+            232
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a component of the human respiratory system?",
+          "ids": [
+            133,
+            183,
+            233
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All plants produce flowers.",
+          "ids": [
+            134,
+            234
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the process by which cells engulf liquid particles?",
+          "ids": [
+            135,
+            185
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a type of plant root system?",
+          "ids": [
+            136,
+            186,
+            236
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the female reproductive part of a flower?",
+          "ids": [
+            138,
+            188,
+            238
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a function of the large intestine?",
+          "ids": [
+            139,
+            171,
+            189,
+            239
+          ],
+          "answerConflict": true
+        },
+        {
+          "question": "All reptiles are cold-blooded.",
+          "ids": [
+            140,
+            240
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the process by which plants respond to touch?",
+          "ids": [
+            141,
+            191,
+            241
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a type of plant adaptation to dry environments?",
+          "ids": [
+            142,
+            192,
+            242
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the structure that connects bones to other bones?",
+          "ids": [
+            144,
+            194,
+            244
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a function of the spleen?",
+          "ids": [
+            145,
+            195,
+            245
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the process by which plants lose leaves seasonally?",
+          "ids": [
+            147,
+            197
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a type of plant propagation?",
+          "ids": [
+            148,
+            198
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All mammals have sweat glands.",
+          "ids": [
+            149,
+            199,
+            249
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the process by which plants grow toward light?",
+          "ids": [
+            167,
+            202
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a type of plant vascular tissue?",
+          "ids": [
+            168,
+            218
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All animals have bilateral symmetry.",
+          "ids": [
+            169,
+            219
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All amphibians live both in water and on land.",
+          "ids": [
+            178,
+            228
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All animals have a complete digestive system with two openings.",
+          "ids": [
+            181,
+            231
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All animals have a nervous system.",
+          "ids": [
+            187,
+            237
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All birds have feathers.",
+          "ids": [
+            193,
+            243
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All amphibians undergo metamorphosis.",
+          "ids": [
+            196,
+            246
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/birds.json",
+      "original": 95,
+      "remaining": 95,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/capitals.json",
+      "original": 96,
+      "remaining": 96,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/chemistry.json",
+      "original": 100,
+      "remaining": 100,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/computers.json",
+      "original": 102,
+      "remaining": 102,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/cyber_safety.json",
+      "original": 96,
+      "remaining": 96,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/famous_poets.json",
+      "original": 120,
+      "remaining": 2,
+      "removed": [
+        {
+          "id": 3,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 4,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 5,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 6,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 7,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 8,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 9,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 10,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 11,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 12,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 13,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 14,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 15,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 16,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 17,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 18,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 19,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 20,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 21,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 22,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 23,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 24,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 25,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 26,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 27,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 28,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 29,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 30,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 31,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 32,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 33,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 34,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 35,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 36,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 37,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 38,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 39,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 40,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 41,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 42,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 43,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 44,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 45,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 46,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 47,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 48,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 49,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 50,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 51,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 52,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 53,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 54,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 55,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 56,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 57,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 58,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 59,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 60,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 61,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 62,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 63,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 64,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 65,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 66,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 67,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 68,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 69,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 70,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 71,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 72,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 73,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 74,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 75,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 76,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 77,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 78,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 79,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 80,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 81,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 82,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 83,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 84,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 85,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 86,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 87,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 88,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 89,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 90,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 91,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 92,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 93,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 94,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 95,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 96,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 97,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 98,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 99,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 100,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 101,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 102,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 103,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 104,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 105,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 106,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 107,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 108,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 109,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 110,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 111,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 112,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 113,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 114,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 115,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 116,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 117,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 118,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        },
+        {
+          "id": 119,
+          "retainedId": 1,
+          "fingerprint": "a249a4785320c157d91f91244877309683ead473f332d7ce2a763617691d0572"
+        },
+        {
+          "id": 120,
+          "retainedId": 2,
+          "fingerprint": "79216ffa3a53986de62068a46f3b10a206b9f9dcff5214051f3a528077930972"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "file": "data/questions/general_knowledge.json",
+      "original": 220,
+      "remaining": 111,
+      "removed": [
+        {
+          "id": 80,
+          "retainedId": 40,
+          "fingerprint": "7909d2099a30727bb72f776d19df90d9837205d6a31cda7735df79271b78e9eb"
+        },
+        {
+          "id": 95,
+          "retainedId": 70,
+          "fingerprint": "048cbdbbe645ebb7387d6435613d8379cf90ce9225be00e516c56567c76b7bc4"
+        },
+        {
+          "id": 96,
+          "retainedId": 61,
+          "fingerprint": "67135317569d7e9e12ae661dfad9e7cb1be6a3ed1d17290ae37e007638e8acb9"
+        },
+        {
+          "id": 97,
+          "retainedId": 62,
+          "fingerprint": "23a31ea068cc6045e5974841f9df14b7b1f688767753c3428f7a25363dacb5f8"
+        },
+        {
+          "id": 98,
+          "retainedId": 63,
+          "fingerprint": "ebf0efe1e4b098dca0e360271797fcb8de8667b74eb039e8c6fee2fe1a05b1df"
+        },
+        {
+          "id": 99,
+          "retainedId": 64,
+          "fingerprint": "6785659a5d3d9410e54c8a7d3d2186e2e8d2a676b73afae9365fce763fc34ecf"
+        },
+        {
+          "id": 100,
+          "retainedId": 65,
+          "fingerprint": "84214c5e52d6e6584cb7b1444e59bdcec6c10edc1f5b84c20fca74835dba9309"
+        },
+        {
+          "id": 101,
+          "retainedId": 66,
+          "fingerprint": "2b04354ec2719d1205acf7eaaff823e508ace0b842c9bcb8b6983df134f5f844"
+        },
+        {
+          "id": 102,
+          "retainedId": 67,
+          "fingerprint": "24ed5a0344a1c08e37f806e56a110e5ca2e0f259fc11e276af379796e2ccfc69"
+        },
+        {
+          "id": 103,
+          "retainedId": 68,
+          "fingerprint": "871bcd5744aeb7b5bb73c37797330f570981b4873df0cab9d9e3182824930bcd"
+        },
+        {
+          "id": 104,
+          "retainedId": 69,
+          "fingerprint": "2ccdd48cecd60d47b6f29727835e3845eea270bab4be7967f482acde0ac3ddce"
+        },
+        {
+          "id": 105,
+          "retainedId": 70,
+          "fingerprint": "048cbdbbe645ebb7387d6435613d8379cf90ce9225be00e516c56567c76b7bc4"
+        },
+        {
+          "id": 106,
+          "retainedId": 71,
+          "fingerprint": "e795f5b41facd6b1548e33cbe1ead80ce834cd41c2e1a20e91c3e90653aabaf6"
+        },
+        {
+          "id": 107,
+          "retainedId": 72,
+          "fingerprint": "db2526f54789e31770776bbde4bff713655e99a20ab02b2618545431671ea194"
+        },
+        {
+          "id": 108,
+          "retainedId": 73,
+          "fingerprint": "5888429ce549adfbe13b253551039de56bd974f3adedb3e9769052b3144a7461"
+        },
+        {
+          "id": 109,
+          "retainedId": 74,
+          "fingerprint": "e235af502e9306ca8de3fc10ef273607b3c1d1ab9e9b579179461cb244e99a2f"
+        },
+        {
+          "id": 110,
+          "retainedId": 75,
+          "fingerprint": "46da81fb116b81d2c51b9a4eaa752c6cd5445b24068f51a59c5d248498f4c7c2"
+        },
+        {
+          "id": 111,
+          "retainedId": 76,
+          "fingerprint": "2469d6a5f4a5c87233bc0137d13dd665f731e0cd63ec062b3c5d724ac33e09dd"
+        },
+        {
+          "id": 112,
+          "retainedId": 77,
+          "fingerprint": "b3e97e51805bf4ec34f17a6d2fa2a7067dd2cba4f12b77b66f1747b7671b299c"
+        },
+        {
+          "id": 113,
+          "retainedId": 78,
+          "fingerprint": "d503f1e2c3d53dce1717ad65c132ae8e22dc123a6aed6cd488e6956936674f6e"
+        },
+        {
+          "id": 114,
+          "retainedId": 79,
+          "fingerprint": "2e483c7e5aa924652844e7d153680d5e4ef4cc8fcccaa6cc3844d193bdf4b3a6"
+        },
+        {
+          "id": 115,
+          "retainedId": 40,
+          "fingerprint": "7909d2099a30727bb72f776d19df90d9837205d6a31cda7735df79271b78e9eb"
+        },
+        {
+          "id": 116,
+          "retainedId": 81,
+          "fingerprint": "bdd0c2ecd478e5e1027bb4c5702d8518c9c1af49b2bfa580b3edd34feb004d3c"
+        },
+        {
+          "id": 117,
+          "retainedId": 82,
+          "fingerprint": "3d5c0f1d9c3435cbd462ea2d6c573a62e7c89e5e2e9274f29938ff4af2b4022d"
+        },
+        {
+          "id": 118,
+          "retainedId": 83,
+          "fingerprint": "379c1b42fd93035e78120197582658749d9915a706424778f5aad6405c2097f8"
+        },
+        {
+          "id": 119,
+          "retainedId": 84,
+          "fingerprint": "23d4d2248e1357d5d1e1d9640e9f1a96d2c0c203527cd9965d20f2a4be5a7dca"
+        },
+        {
+          "id": 120,
+          "retainedId": 85,
+          "fingerprint": "0401f3d2e0168ebe0fcae3d1f757cb855b58bcdf7ebfae12aed0c59041355551"
+        },
+        {
+          "id": 121,
+          "retainedId": 86,
+          "fingerprint": "7f260d4fd3df6fc92e97d4a2bd32ca6db4dcdf287e11987eda5f0d0ee80f70b7"
+        },
+        {
+          "id": 122,
+          "retainedId": 87,
+          "fingerprint": "91cdf02ab4ad3b863853f675931ac0774bc7429ee2499483bb22e007a2cff9ab"
+        },
+        {
+          "id": 123,
+          "retainedId": 88,
+          "fingerprint": "a4f1c2bf121133947bf1ee932e193be06c57fc8cd9ce28fde782071f0e03cdd4"
+        },
+        {
+          "id": 124,
+          "retainedId": 89,
+          "fingerprint": "57de4f4378838db62aad37fe3adf97c34c63faeeee06798482c1d9c6bd552451"
+        },
+        {
+          "id": 125,
+          "retainedId": 90,
+          "fingerprint": "85a30a5a4d6dd7f6ebed2567c33ac751b8daeb716d877b01209f6c2b0ef43952"
+        },
+        {
+          "id": 126,
+          "retainedId": 91,
+          "fingerprint": "eea38c41dde0078c6b23444f2bc2678939c7261be6b539de3b7f240cb2819fc1"
+        },
+        {
+          "id": 127,
+          "retainedId": 92,
+          "fingerprint": "55cfaea06f314ad67cb1bd01f699127322de418bdadf971526708c98037b20a5"
+        },
+        {
+          "id": 128,
+          "retainedId": 93,
+          "fingerprint": "3aaf457c0d287772b3ddc24a470bdea67eff6cff9c61eedb3bdd764c2f15f50a"
+        },
+        {
+          "id": 129,
+          "retainedId": 94,
+          "fingerprint": "825a35b650f450fbe68b471a988ace9ab6d568dfe4ad7d1dca7ef2caadbabbe7"
+        },
+        {
+          "id": 130,
+          "retainedId": 70,
+          "fingerprint": "048cbdbbe645ebb7387d6435613d8379cf90ce9225be00e516c56567c76b7bc4"
+        },
+        {
+          "id": 131,
+          "retainedId": 61,
+          "fingerprint": "67135317569d7e9e12ae661dfad9e7cb1be6a3ed1d17290ae37e007638e8acb9"
+        },
+        {
+          "id": 132,
+          "retainedId": 62,
+          "fingerprint": "23a31ea068cc6045e5974841f9df14b7b1f688767753c3428f7a25363dacb5f8"
+        },
+        {
+          "id": 133,
+          "retainedId": 63,
+          "fingerprint": "ebf0efe1e4b098dca0e360271797fcb8de8667b74eb039e8c6fee2fe1a05b1df"
+        },
+        {
+          "id": 134,
+          "retainedId": 64,
+          "fingerprint": "6785659a5d3d9410e54c8a7d3d2186e2e8d2a676b73afae9365fce763fc34ecf"
+        },
+        {
+          "id": 135,
+          "retainedId": 65,
+          "fingerprint": "84214c5e52d6e6584cb7b1444e59bdcec6c10edc1f5b84c20fca74835dba9309"
+        },
+        {
+          "id": 136,
+          "retainedId": 66,
+          "fingerprint": "2b04354ec2719d1205acf7eaaff823e508ace0b842c9bcb8b6983df134f5f844"
+        },
+        {
+          "id": 137,
+          "retainedId": 67,
+          "fingerprint": "24ed5a0344a1c08e37f806e56a110e5ca2e0f259fc11e276af379796e2ccfc69"
+        },
+        {
+          "id": 138,
+          "retainedId": 68,
+          "fingerprint": "871bcd5744aeb7b5bb73c37797330f570981b4873df0cab9d9e3182824930bcd"
+        },
+        {
+          "id": 139,
+          "retainedId": 69,
+          "fingerprint": "2ccdd48cecd60d47b6f29727835e3845eea270bab4be7967f482acde0ac3ddce"
+        },
+        {
+          "id": 140,
+          "retainedId": 70,
+          "fingerprint": "048cbdbbe645ebb7387d6435613d8379cf90ce9225be00e516c56567c76b7bc4"
+        },
+        {
+          "id": 141,
+          "retainedId": 71,
+          "fingerprint": "e795f5b41facd6b1548e33cbe1ead80ce834cd41c2e1a20e91c3e90653aabaf6"
+        },
+        {
+          "id": 142,
+          "retainedId": 72,
+          "fingerprint": "db2526f54789e31770776bbde4bff713655e99a20ab02b2618545431671ea194"
+        },
+        {
+          "id": 143,
+          "retainedId": 73,
+          "fingerprint": "5888429ce549adfbe13b253551039de56bd974f3adedb3e9769052b3144a7461"
+        },
+        {
+          "id": 144,
+          "retainedId": 74,
+          "fingerprint": "e235af502e9306ca8de3fc10ef273607b3c1d1ab9e9b579179461cb244e99a2f"
+        },
+        {
+          "id": 145,
+          "retainedId": 75,
+          "fingerprint": "46da81fb116b81d2c51b9a4eaa752c6cd5445b24068f51a59c5d248498f4c7c2"
+        },
+        {
+          "id": 146,
+          "retainedId": 76,
+          "fingerprint": "2469d6a5f4a5c87233bc0137d13dd665f731e0cd63ec062b3c5d724ac33e09dd"
+        },
+        {
+          "id": 147,
+          "retainedId": 77,
+          "fingerprint": "b3e97e51805bf4ec34f17a6d2fa2a7067dd2cba4f12b77b66f1747b7671b299c"
+        },
+        {
+          "id": 148,
+          "retainedId": 78,
+          "fingerprint": "d503f1e2c3d53dce1717ad65c132ae8e22dc123a6aed6cd488e6956936674f6e"
+        },
+        {
+          "id": 149,
+          "retainedId": 79,
+          "fingerprint": "2e483c7e5aa924652844e7d153680d5e4ef4cc8fcccaa6cc3844d193bdf4b3a6"
+        },
+        {
+          "id": 150,
+          "retainedId": 40,
+          "fingerprint": "7909d2099a30727bb72f776d19df90d9837205d6a31cda7735df79271b78e9eb"
+        },
+        {
+          "id": 151,
+          "retainedId": 81,
+          "fingerprint": "bdd0c2ecd478e5e1027bb4c5702d8518c9c1af49b2bfa580b3edd34feb004d3c"
+        },
+        {
+          "id": 152,
+          "retainedId": 82,
+          "fingerprint": "3d5c0f1d9c3435cbd462ea2d6c573a62e7c89e5e2e9274f29938ff4af2b4022d"
+        },
+        {
+          "id": 153,
+          "retainedId": 83,
+          "fingerprint": "379c1b42fd93035e78120197582658749d9915a706424778f5aad6405c2097f8"
+        },
+        {
+          "id": 154,
+          "retainedId": 84,
+          "fingerprint": "23d4d2248e1357d5d1e1d9640e9f1a96d2c0c203527cd9965d20f2a4be5a7dca"
+        },
+        {
+          "id": 155,
+          "retainedId": 85,
+          "fingerprint": "0401f3d2e0168ebe0fcae3d1f757cb855b58bcdf7ebfae12aed0c59041355551"
+        },
+        {
+          "id": 156,
+          "retainedId": 86,
+          "fingerprint": "7f260d4fd3df6fc92e97d4a2bd32ca6db4dcdf287e11987eda5f0d0ee80f70b7"
+        },
+        {
+          "id": 157,
+          "retainedId": 87,
+          "fingerprint": "91cdf02ab4ad3b863853f675931ac0774bc7429ee2499483bb22e007a2cff9ab"
+        },
+        {
+          "id": 158,
+          "retainedId": 88,
+          "fingerprint": "a4f1c2bf121133947bf1ee932e193be06c57fc8cd9ce28fde782071f0e03cdd4"
+        },
+        {
+          "id": 159,
+          "retainedId": 89,
+          "fingerprint": "57de4f4378838db62aad37fe3adf97c34c63faeeee06798482c1d9c6bd552451"
+        },
+        {
+          "id": 160,
+          "retainedId": 90,
+          "fingerprint": "85a30a5a4d6dd7f6ebed2567c33ac751b8daeb716d877b01209f6c2b0ef43952"
+        },
+        {
+          "id": 161,
+          "retainedId": 91,
+          "fingerprint": "eea38c41dde0078c6b23444f2bc2678939c7261be6b539de3b7f240cb2819fc1"
+        },
+        {
+          "id": 162,
+          "retainedId": 92,
+          "fingerprint": "55cfaea06f314ad67cb1bd01f699127322de418bdadf971526708c98037b20a5"
+        },
+        {
+          "id": 163,
+          "retainedId": 93,
+          "fingerprint": "3aaf457c0d287772b3ddc24a470bdea67eff6cff9c61eedb3bdd764c2f15f50a"
+        },
+        {
+          "id": 164,
+          "retainedId": 94,
+          "fingerprint": "825a35b650f450fbe68b471a988ace9ab6d568dfe4ad7d1dca7ef2caadbabbe7"
+        },
+        {
+          "id": 165,
+          "retainedId": 70,
+          "fingerprint": "048cbdbbe645ebb7387d6435613d8379cf90ce9225be00e516c56567c76b7bc4"
+        },
+        {
+          "id": 166,
+          "retainedId": 61,
+          "fingerprint": "67135317569d7e9e12ae661dfad9e7cb1be6a3ed1d17290ae37e007638e8acb9"
+        },
+        {
+          "id": 167,
+          "retainedId": 62,
+          "fingerprint": "23a31ea068cc6045e5974841f9df14b7b1f688767753c3428f7a25363dacb5f8"
+        },
+        {
+          "id": 168,
+          "retainedId": 63,
+          "fingerprint": "ebf0efe1e4b098dca0e360271797fcb8de8667b74eb039e8c6fee2fe1a05b1df"
+        },
+        {
+          "id": 169,
+          "retainedId": 64,
+          "fingerprint": "6785659a5d3d9410e54c8a7d3d2186e2e8d2a676b73afae9365fce763fc34ecf"
+        },
+        {
+          "id": 170,
+          "retainedId": 65,
+          "fingerprint": "84214c5e52d6e6584cb7b1444e59bdcec6c10edc1f5b84c20fca74835dba9309"
+        },
+        {
+          "id": 171,
+          "retainedId": 66,
+          "fingerprint": "2b04354ec2719d1205acf7eaaff823e508ace0b842c9bcb8b6983df134f5f844"
+        },
+        {
+          "id": 172,
+          "retainedId": 67,
+          "fingerprint": "24ed5a0344a1c08e37f806e56a110e5ca2e0f259fc11e276af379796e2ccfc69"
+        },
+        {
+          "id": 173,
+          "retainedId": 68,
+          "fingerprint": "871bcd5744aeb7b5bb73c37797330f570981b4873df0cab9d9e3182824930bcd"
+        },
+        {
+          "id": 174,
+          "retainedId": 69,
+          "fingerprint": "2ccdd48cecd60d47b6f29727835e3845eea270bab4be7967f482acde0ac3ddce"
+        },
+        {
+          "id": 175,
+          "retainedId": 70,
+          "fingerprint": "048cbdbbe645ebb7387d6435613d8379cf90ce9225be00e516c56567c76b7bc4"
+        },
+        {
+          "id": 176,
+          "retainedId": 71,
+          "fingerprint": "e795f5b41facd6b1548e33cbe1ead80ce834cd41c2e1a20e91c3e90653aabaf6"
+        },
+        {
+          "id": 177,
+          "retainedId": 72,
+          "fingerprint": "db2526f54789e31770776bbde4bff713655e99a20ab02b2618545431671ea194"
+        },
+        {
+          "id": 178,
+          "retainedId": 73,
+          "fingerprint": "5888429ce549adfbe13b253551039de56bd974f3adedb3e9769052b3144a7461"
+        },
+        {
+          "id": 179,
+          "retainedId": 74,
+          "fingerprint": "e235af502e9306ca8de3fc10ef273607b3c1d1ab9e9b579179461cb244e99a2f"
+        },
+        {
+          "id": 180,
+          "retainedId": 75,
+          "fingerprint": "46da81fb116b81d2c51b9a4eaa752c6cd5445b24068f51a59c5d248498f4c7c2"
+        },
+        {
+          "id": 181,
+          "retainedId": 76,
+          "fingerprint": "2469d6a5f4a5c87233bc0137d13dd665f731e0cd63ec062b3c5d724ac33e09dd"
+        },
+        {
+          "id": 182,
+          "retainedId": 77,
+          "fingerprint": "b3e97e51805bf4ec34f17a6d2fa2a7067dd2cba4f12b77b66f1747b7671b299c"
+        },
+        {
+          "id": 183,
+          "retainedId": 78,
+          "fingerprint": "d503f1e2c3d53dce1717ad65c132ae8e22dc123a6aed6cd488e6956936674f6e"
+        },
+        {
+          "id": 184,
+          "retainedId": 79,
+          "fingerprint": "2e483c7e5aa924652844e7d153680d5e4ef4cc8fcccaa6cc3844d193bdf4b3a6"
+        },
+        {
+          "id": 185,
+          "retainedId": 40,
+          "fingerprint": "7909d2099a30727bb72f776d19df90d9837205d6a31cda7735df79271b78e9eb"
+        },
+        {
+          "id": 186,
+          "retainedId": 81,
+          "fingerprint": "bdd0c2ecd478e5e1027bb4c5702d8518c9c1af49b2bfa580b3edd34feb004d3c"
+        },
+        {
+          "id": 187,
+          "retainedId": 82,
+          "fingerprint": "3d5c0f1d9c3435cbd462ea2d6c573a62e7c89e5e2e9274f29938ff4af2b4022d"
+        },
+        {
+          "id": 188,
+          "retainedId": 83,
+          "fingerprint": "379c1b42fd93035e78120197582658749d9915a706424778f5aad6405c2097f8"
+        },
+        {
+          "id": 189,
+          "retainedId": 84,
+          "fingerprint": "23d4d2248e1357d5d1e1d9640e9f1a96d2c0c203527cd9965d20f2a4be5a7dca"
+        },
+        {
+          "id": 190,
+          "retainedId": 85,
+          "fingerprint": "0401f3d2e0168ebe0fcae3d1f757cb855b58bcdf7ebfae12aed0c59041355551"
+        },
+        {
+          "id": 191,
+          "retainedId": 86,
+          "fingerprint": "7f260d4fd3df6fc92e97d4a2bd32ca6db4dcdf287e11987eda5f0d0ee80f70b7"
+        },
+        {
+          "id": 192,
+          "retainedId": 87,
+          "fingerprint": "91cdf02ab4ad3b863853f675931ac0774bc7429ee2499483bb22e007a2cff9ab"
+        },
+        {
+          "id": 193,
+          "retainedId": 88,
+          "fingerprint": "a4f1c2bf121133947bf1ee932e193be06c57fc8cd9ce28fde782071f0e03cdd4"
+        },
+        {
+          "id": 194,
+          "retainedId": 89,
+          "fingerprint": "57de4f4378838db62aad37fe3adf97c34c63faeeee06798482c1d9c6bd552451"
+        },
+        {
+          "id": 195,
+          "retainedId": 90,
+          "fingerprint": "85a30a5a4d6dd7f6ebed2567c33ac751b8daeb716d877b01209f6c2b0ef43952"
+        },
+        {
+          "id": 196,
+          "retainedId": 91,
+          "fingerprint": "eea38c41dde0078c6b23444f2bc2678939c7261be6b539de3b7f240cb2819fc1"
+        },
+        {
+          "id": 197,
+          "retainedId": 92,
+          "fingerprint": "55cfaea06f314ad67cb1bd01f699127322de418bdadf971526708c98037b20a5"
+        },
+        {
+          "id": 198,
+          "retainedId": 93,
+          "fingerprint": "3aaf457c0d287772b3ddc24a470bdea67eff6cff9c61eedb3bdd764c2f15f50a"
+        },
+        {
+          "id": 199,
+          "retainedId": 94,
+          "fingerprint": "825a35b650f450fbe68b471a988ace9ab6d568dfe4ad7d1dca7ef2caadbabbe7"
+        },
+        {
+          "id": 200,
+          "retainedId": 70,
+          "fingerprint": "048cbdbbe645ebb7387d6435613d8379cf90ce9225be00e516c56567c76b7bc4"
+        },
+        {
+          "id": 201,
+          "retainedId": 1,
+          "fingerprint": "c82e2195c49fc3d28fcb0567f4ff9712bb3552b4fec147e85d1b01c27fa20b75"
+        },
+        {
+          "id": 202,
+          "retainedId": 2,
+          "fingerprint": "4cbfb44164393dcf739b6f803df31a6b275da37209997d4f7212f19ed6d0362d"
+        }
+      ],
+      "variants": [
+        {
+          "question": "Which planet is known as the Red Planet?",
+          "ids": [
+            3,
+            206
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which country is home to the kangaroo?",
+          "ids": [
+            6,
+            210
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "The Nile is the longest river in the world.",
+          "ids": [
+            7,
+            217
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a primary color?",
+          "ids": [
+            9,
+            214
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Lightning never strikes the same place twice.",
+          "ids": [
+            12,
+            209
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which planet is closest to the Sun?",
+          "ids": [
+            16,
+            216
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the largest mammal in the world?",
+          "ids": [
+            18,
+            208
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the largest desert in the world?",
+          "ids": [
+            33,
+            218
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the largest organ in the human body?",
+          "ids": [
+            58,
+            212
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/history.json",
+      "original": 200,
+      "remaining": 145,
+      "removed": [
+        {
+          "id": 144,
+          "retainedId": 132,
+          "fingerprint": "86eae4edb1d1992116578789c95fdd6a110d6403e71bad4b955c9317f27d903b"
+        },
+        {
+          "id": 145,
+          "retainedId": 133,
+          "fingerprint": "bc11faedc2e81e618a6ea0b5136497c36f7e151686b8d9b7eeedce6dff616cb3"
+        },
+        {
+          "id": 146,
+          "retainedId": 134,
+          "fingerprint": "0ec484f168ea70fc9a584d422dd53144b980a90aed87b9a05c96b434570db9e9"
+        },
+        {
+          "id": 147,
+          "retainedId": 135,
+          "fingerprint": "ec312d8509dc83b1950b244db5e081fb8ae12edaedcb54cd84284ecd7d3b14f7"
+        },
+        {
+          "id": 149,
+          "retainedId": 137,
+          "fingerprint": "39b3bebfc8bfa90d99f92bd88be0759c125af14d12e5c7a4fc829b128bbcf9b5"
+        },
+        {
+          "id": 150,
+          "retainedId": 138,
+          "fingerprint": "2d1087e9b28a02b6fe18b58d5129da4561d6b29d31cea6c41f304a9096ca6649"
+        },
+        {
+          "id": 151,
+          "retainedId": 139,
+          "fingerprint": "4e4b03b107d2cf5f95dc841711c3c0abd001ae85e51e73138849040624e033e2"
+        },
+        {
+          "id": 152,
+          "retainedId": 140,
+          "fingerprint": "4ca95624f1a8a9584c888f5bb3f8f160caf30c8eb94e8eb1babd6edbdf10c3df"
+        },
+        {
+          "id": 153,
+          "retainedId": 141,
+          "fingerprint": "80306f0f7866c7bf92b4b977e5e02305c0e7d523a7a6f828947644311f380df1"
+        },
+        {
+          "id": 154,
+          "retainedId": 142,
+          "fingerprint": "c7d14002e8214273edb6a7a40b3e605c5b0fab8efe6f143bbee1cef8348f87e8"
+        },
+        {
+          "id": 156,
+          "retainedId": 132,
+          "fingerprint": "86eae4edb1d1992116578789c95fdd6a110d6403e71bad4b955c9317f27d903b"
+        },
+        {
+          "id": 157,
+          "retainedId": 133,
+          "fingerprint": "bc11faedc2e81e618a6ea0b5136497c36f7e151686b8d9b7eeedce6dff616cb3"
+        },
+        {
+          "id": 158,
+          "retainedId": 134,
+          "fingerprint": "0ec484f168ea70fc9a584d422dd53144b980a90aed87b9a05c96b434570db9e9"
+        },
+        {
+          "id": 159,
+          "retainedId": 135,
+          "fingerprint": "ec312d8509dc83b1950b244db5e081fb8ae12edaedcb54cd84284ecd7d3b14f7"
+        },
+        {
+          "id": 160,
+          "retainedId": 148,
+          "fingerprint": "83e67ededb957bb7691822fbe4cdedada18680f4ea9df824016017c90013de40"
+        },
+        {
+          "id": 161,
+          "retainedId": 137,
+          "fingerprint": "39b3bebfc8bfa90d99f92bd88be0759c125af14d12e5c7a4fc829b128bbcf9b5"
+        },
+        {
+          "id": 162,
+          "retainedId": 138,
+          "fingerprint": "2d1087e9b28a02b6fe18b58d5129da4561d6b29d31cea6c41f304a9096ca6649"
+        },
+        {
+          "id": 163,
+          "retainedId": 139,
+          "fingerprint": "4e4b03b107d2cf5f95dc841711c3c0abd001ae85e51e73138849040624e033e2"
+        },
+        {
+          "id": 164,
+          "retainedId": 140,
+          "fingerprint": "4ca95624f1a8a9584c888f5bb3f8f160caf30c8eb94e8eb1babd6edbdf10c3df"
+        },
+        {
+          "id": 165,
+          "retainedId": 141,
+          "fingerprint": "80306f0f7866c7bf92b4b977e5e02305c0e7d523a7a6f828947644311f380df1"
+        },
+        {
+          "id": 166,
+          "retainedId": 142,
+          "fingerprint": "c7d14002e8214273edb6a7a40b3e605c5b0fab8efe6f143bbee1cef8348f87e8"
+        },
+        {
+          "id": 167,
+          "retainedId": 155,
+          "fingerprint": "1dca815aa69bb2b3029f6442ae53379391f767292095cf491f34aa957ec89f83"
+        },
+        {
+          "id": 168,
+          "retainedId": 132,
+          "fingerprint": "86eae4edb1d1992116578789c95fdd6a110d6403e71bad4b955c9317f27d903b"
+        },
+        {
+          "id": 169,
+          "retainedId": 133,
+          "fingerprint": "bc11faedc2e81e618a6ea0b5136497c36f7e151686b8d9b7eeedce6dff616cb3"
+        },
+        {
+          "id": 170,
+          "retainedId": 134,
+          "fingerprint": "0ec484f168ea70fc9a584d422dd53144b980a90aed87b9a05c96b434570db9e9"
+        },
+        {
+          "id": 171,
+          "retainedId": 135,
+          "fingerprint": "ec312d8509dc83b1950b244db5e081fb8ae12edaedcb54cd84284ecd7d3b14f7"
+        },
+        {
+          "id": 172,
+          "retainedId": 148,
+          "fingerprint": "83e67ededb957bb7691822fbe4cdedada18680f4ea9df824016017c90013de40"
+        },
+        {
+          "id": 173,
+          "retainedId": 137,
+          "fingerprint": "39b3bebfc8bfa90d99f92bd88be0759c125af14d12e5c7a4fc829b128bbcf9b5"
+        },
+        {
+          "id": 174,
+          "retainedId": 138,
+          "fingerprint": "2d1087e9b28a02b6fe18b58d5129da4561d6b29d31cea6c41f304a9096ca6649"
+        },
+        {
+          "id": 175,
+          "retainedId": 139,
+          "fingerprint": "4e4b03b107d2cf5f95dc841711c3c0abd001ae85e51e73138849040624e033e2"
+        },
+        {
+          "id": 176,
+          "retainedId": 140,
+          "fingerprint": "4ca95624f1a8a9584c888f5bb3f8f160caf30c8eb94e8eb1babd6edbdf10c3df"
+        },
+        {
+          "id": 177,
+          "retainedId": 141,
+          "fingerprint": "80306f0f7866c7bf92b4b977e5e02305c0e7d523a7a6f828947644311f380df1"
+        },
+        {
+          "id": 178,
+          "retainedId": 142,
+          "fingerprint": "c7d14002e8214273edb6a7a40b3e605c5b0fab8efe6f143bbee1cef8348f87e8"
+        },
+        {
+          "id": 179,
+          "retainedId": 155,
+          "fingerprint": "1dca815aa69bb2b3029f6442ae53379391f767292095cf491f34aa957ec89f83"
+        },
+        {
+          "id": 180,
+          "retainedId": 132,
+          "fingerprint": "86eae4edb1d1992116578789c95fdd6a110d6403e71bad4b955c9317f27d903b"
+        },
+        {
+          "id": 181,
+          "retainedId": 133,
+          "fingerprint": "bc11faedc2e81e618a6ea0b5136497c36f7e151686b8d9b7eeedce6dff616cb3"
+        },
+        {
+          "id": 182,
+          "retainedId": 134,
+          "fingerprint": "0ec484f168ea70fc9a584d422dd53144b980a90aed87b9a05c96b434570db9e9"
+        },
+        {
+          "id": 183,
+          "retainedId": 135,
+          "fingerprint": "ec312d8509dc83b1950b244db5e081fb8ae12edaedcb54cd84284ecd7d3b14f7"
+        },
+        {
+          "id": 184,
+          "retainedId": 148,
+          "fingerprint": "83e67ededb957bb7691822fbe4cdedada18680f4ea9df824016017c90013de40"
+        },
+        {
+          "id": 185,
+          "retainedId": 137,
+          "fingerprint": "39b3bebfc8bfa90d99f92bd88be0759c125af14d12e5c7a4fc829b128bbcf9b5"
+        },
+        {
+          "id": 186,
+          "retainedId": 138,
+          "fingerprint": "2d1087e9b28a02b6fe18b58d5129da4561d6b29d31cea6c41f304a9096ca6649"
+        },
+        {
+          "id": 187,
+          "retainedId": 139,
+          "fingerprint": "4e4b03b107d2cf5f95dc841711c3c0abd001ae85e51e73138849040624e033e2"
+        },
+        {
+          "id": 188,
+          "retainedId": 140,
+          "fingerprint": "4ca95624f1a8a9584c888f5bb3f8f160caf30c8eb94e8eb1babd6edbdf10c3df"
+        },
+        {
+          "id": 189,
+          "retainedId": 141,
+          "fingerprint": "80306f0f7866c7bf92b4b977e5e02305c0e7d523a7a6f828947644311f380df1"
+        },
+        {
+          "id": 190,
+          "retainedId": 142,
+          "fingerprint": "c7d14002e8214273edb6a7a40b3e605c5b0fab8efe6f143bbee1cef8348f87e8"
+        },
+        {
+          "id": 191,
+          "retainedId": 155,
+          "fingerprint": "1dca815aa69bb2b3029f6442ae53379391f767292095cf491f34aa957ec89f83"
+        },
+        {
+          "id": 192,
+          "retainedId": 132,
+          "fingerprint": "86eae4edb1d1992116578789c95fdd6a110d6403e71bad4b955c9317f27d903b"
+        },
+        {
+          "id": 193,
+          "retainedId": 133,
+          "fingerprint": "bc11faedc2e81e618a6ea0b5136497c36f7e151686b8d9b7eeedce6dff616cb3"
+        },
+        {
+          "id": 194,
+          "retainedId": 134,
+          "fingerprint": "0ec484f168ea70fc9a584d422dd53144b980a90aed87b9a05c96b434570db9e9"
+        },
+        {
+          "id": 195,
+          "retainedId": 135,
+          "fingerprint": "ec312d8509dc83b1950b244db5e081fb8ae12edaedcb54cd84284ecd7d3b14f7"
+        },
+        {
+          "id": 196,
+          "retainedId": 148,
+          "fingerprint": "83e67ededb957bb7691822fbe4cdedada18680f4ea9df824016017c90013de40"
+        },
+        {
+          "id": 197,
+          "retainedId": 137,
+          "fingerprint": "39b3bebfc8bfa90d99f92bd88be0759c125af14d12e5c7a4fc829b128bbcf9b5"
+        },
+        {
+          "id": 198,
+          "retainedId": 138,
+          "fingerprint": "2d1087e9b28a02b6fe18b58d5129da4561d6b29d31cea6c41f304a9096ca6649"
+        },
+        {
+          "id": 199,
+          "retainedId": 139,
+          "fingerprint": "4e4b03b107d2cf5f95dc841711c3c0abd001ae85e51e73138849040624e033e2"
+        },
+        {
+          "id": 200,
+          "retainedId": 140,
+          "fingerprint": "4ca95624f1a8a9584c888f5bb3f8f160caf30c8eb94e8eb1babd6edbdf10c3df"
+        }
+      ],
+      "variants": [
+        {
+          "question": "The 'Boston Tea Party' was a protest against which country's tea tax?",
+          "ids": [
+            9,
+            134
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "The 'Fall of the Aztec Empire' was primarily caused by the arrival of which European power?",
+          "ids": [
+            136,
+            148
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "The 'Fall of the Inca Empire' was primarily caused by the arrival of which European power?",
+          "ids": [
+            143,
+            155
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/islamic_history.json",
+      "original": 200,
+      "remaining": 200,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/islamic_studies.json",
+      "original": 128,
+      "remaining": 107,
+      "removed": [
+        {
+          "id": 108,
+          "retainedId": 53,
+          "fingerprint": "5f509fda4c17d4c5dda6e76f5bbada5a24e71a3284ad227bf831ff59f266fd8d"
+        },
+        {
+          "id": 109,
+          "retainedId": 54,
+          "fingerprint": "c17d84ae8084600a5b57c2189ab62ac42cba104c706248157d38edff9a58b991"
+        },
+        {
+          "id": 110,
+          "retainedId": 67,
+          "fingerprint": "e542eb2e266c1fc37a2af2b361cd20f5654399c49369c0be3e766dc043727295"
+        },
+        {
+          "id": 111,
+          "retainedId": 68,
+          "fingerprint": "9d7dc6e430c7463fa57f42349971aeda4b74d2d1a1fd485a8393e23531f19941"
+        },
+        {
+          "id": 112,
+          "retainedId": 69,
+          "fingerprint": "0f1c1071cf6ac33c221d0e945d5c4337e6716b485cbb044210659fe3a004d3d3"
+        },
+        {
+          "id": 113,
+          "retainedId": 70,
+          "fingerprint": "3a07eb2037e521c098eb5e6cdff0a2132af44cc6a0ac336d23389eb1f33b1ed6"
+        },
+        {
+          "id": 114,
+          "retainedId": 71,
+          "fingerprint": "319eeaa29d9effb856dccc6cbc4c1af83575fad11faac8b0b4f57f69f35e6030"
+        },
+        {
+          "id": 115,
+          "retainedId": 72,
+          "fingerprint": "165e6d7483f533e9370e0640fa8b23b6d876dec564b95c96d10b923a23cf69b7"
+        },
+        {
+          "id": 116,
+          "retainedId": 73,
+          "fingerprint": "7c265c8df4a6196b4cd1f28ff87abbcc86fd4ab5a4680a52674b921582d17e03"
+        },
+        {
+          "id": 117,
+          "retainedId": 74,
+          "fingerprint": "1bd2725d4ecde1dc7798229ffba87f40e906d1e85da8d7b26325d8da26383a3d"
+        },
+        {
+          "id": 118,
+          "retainedId": 75,
+          "fingerprint": "5bab6d651faf04bf22f117ca972d2ce0c0b60f820572e4e4f4315d6f642979d5"
+        },
+        {
+          "id": 119,
+          "retainedId": 76,
+          "fingerprint": "2cdbd2e6fc21fc8ad288572e5596bbd0df2beb150dd3ac7780d492a6998b4001"
+        },
+        {
+          "id": 120,
+          "retainedId": 77,
+          "fingerprint": "70ab8e9cac2db3b0b89b3c49a3379f9796f79c05e1db8869505cae49bbdaf55f"
+        },
+        {
+          "id": 121,
+          "retainedId": 78,
+          "fingerprint": "4b65f4f978d02d213d0a99186d91aedbc043f695519ff61ae38a6abcc7605077"
+        },
+        {
+          "id": 122,
+          "retainedId": 79,
+          "fingerprint": "c44d97d8a3e55a244fe59a93b8680a1eab586cb8d3257d1c4968117ce7403291"
+        },
+        {
+          "id": 123,
+          "retainedId": 80,
+          "fingerprint": "0b7615cd42d747db48e98d78ee019fb67407144e39f89a4aaab4296c88b6db96"
+        },
+        {
+          "id": 124,
+          "retainedId": 81,
+          "fingerprint": "f2f5bde2d813ef1f4fff5186b040ae144f0f9ba828939158d3753523af7add5c"
+        },
+        {
+          "id": 125,
+          "retainedId": 82,
+          "fingerprint": "e73991e96ed31e5bda9540eabe6183270f9464e637e83805d82d771a1c248907"
+        },
+        {
+          "id": 126,
+          "retainedId": 83,
+          "fingerprint": "f1c12d3a7fc9df70a0e238f3218917057beefb738c121771d20ebef1ade8e003"
+        },
+        {
+          "id": 127,
+          "retainedId": 84,
+          "fingerprint": "2eb33556240c2d193cd33a45e5bef18b650f0b76fd872d73463a4402bc36038f"
+        },
+        {
+          "id": 128,
+          "retainedId": 85,
+          "fingerprint": "a381e6a73675759863f7d4c545cdd32f9741b17e2e7fc676e60104b895288806"
+        }
+      ],
+      "variants": [
+        {
+          "question": "Which companion was the first martyr in Islam?",
+          "ids": [
+            18,
+            103
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which prophet is known as 'Khalilullah' (Friend of Allah)?",
+          "ids": [
+            21,
+            85
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "How many times is the Basmala ('Bismillah...') repeated in the Quran?",
+          "ids": [
+            37,
+            107
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/kids_special.json",
+      "original": 200,
+      "remaining": 200,
+      "removed": [],
+      "variants": [
+        {
+          "question": "What is the opposite of 'hot'?",
+          "ids": [
+            13,
+            199
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/life_skills.json",
+      "original": 94,
+      "remaining": 94,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/math.json",
+      "original": 199,
+      "remaining": 198,
+      "removed": [
+        {
+          "id": 166,
+          "retainedId": 96,
+          "fingerprint": "cc0952727173fe58abf5d8d718c35f106254056837d9eebd3ff7bb2c29c137c9"
+        }
+      ],
+      "variants": [
+        {
+          "question": "What is the value of 5! (5 factorial)?",
+          "ids": [
+            75,
+            175
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the Roman numeral for 50?",
+          "ids": [
+            77,
+            177
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All integers are whole numbers.",
+          "ids": [
+            79,
+            179
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/sahabah.json",
+      "original": 194,
+      "remaining": 56,
+      "removed": [
+        {
+          "id": 3,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 4,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 5,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 6,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 7,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 8,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 9,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 10,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 11,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 12,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 13,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 14,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 15,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 16,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 17,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 18,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 19,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 20,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 21,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 22,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 23,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 24,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 25,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 26,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 27,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 28,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 29,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 30,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 31,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 32,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 33,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 34,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 35,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 36,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 37,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 38,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 39,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 40,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 41,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 42,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 43,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 44,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 45,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 46,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 47,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 48,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 49,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 50,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 51,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 52,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 53,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 54,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 55,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 56,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 57,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 58,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 59,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 60,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 61,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 62,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 63,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 64,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 65,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 66,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 67,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 68,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 69,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 70,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 71,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 72,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 73,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 74,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 75,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 76,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 77,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 78,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 79,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 80,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 81,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 82,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 83,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 84,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 85,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 86,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 87,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 88,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 89,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 90,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 91,
+          "retainedId": 1,
+          "fingerprint": "373fc73f7b8927eebde03bd631cae76e2ba02c0b656af9b6f4393cb9dd9f7718"
+        },
+        {
+          "id": 92,
+          "retainedId": 2,
+          "fingerprint": "b1292cf9b34c9dff3dbeb7f1865a58a19acba6db7f20eee68ac59cef021c5f57"
+        },
+        {
+          "id": 152,
+          "retainedId": 140,
+          "fingerprint": "cd5fd0ae3410e3a6ee26726b968437b85b87b08855c6d770b9cc29bdf941d68c"
+        },
+        {
+          "id": 154,
+          "retainedId": 146,
+          "fingerprint": "1af0ff06e4c9dc12d85cb2a35959b757fe928faeb739e97bdbd56e539b188bb1"
+        },
+        {
+          "id": 155,
+          "retainedId": 111,
+          "fingerprint": "e2cdeb92d3907fb9827c16f51d171922683a9e1ca69888c6f05780aa77da66cd"
+        },
+        {
+          "id": 157,
+          "retainedId": 95,
+          "fingerprint": "417e4976ae235651e869b36e6110b9e806a5b1a7b0e9a5d7541221c41d13aa07"
+        },
+        {
+          "id": 158,
+          "retainedId": 94,
+          "fingerprint": "2a5b45ab76f17270d58ba1ba709e1fc7976b1699314d9791499fe96fa58c7b84"
+        },
+        {
+          "id": 161,
+          "retainedId": 99,
+          "fingerprint": "679321d112226c3c17570026f830c7bfc5b2e3d33c8917b6f99e4ab45fe03be9"
+        },
+        {
+          "id": 162,
+          "retainedId": 116,
+          "fingerprint": "d55a3bbd975ba9875b1fe19ce4f8d7998060506cf31c81d5715cefd7d6099102"
+        },
+        {
+          "id": 163,
+          "retainedId": 117,
+          "fingerprint": "1ba1b6182608c25b727da8c9e5dd0cbea8b123a2bee981726532a23b8d10d850"
+        },
+        {
+          "id": 164,
+          "retainedId": 118,
+          "fingerprint": "c242f5fbd6ee82d6a8cfc15b7121958462ae28c50bf35f0784983a3e3290f248"
+        },
+        {
+          "id": 165,
+          "retainedId": 119,
+          "fingerprint": "37ae951712bfe234695299d5df4c98bf4fd1a4fc1d5453c36d36acd7d4420bb9"
+        },
+        {
+          "id": 166,
+          "retainedId": 120,
+          "fingerprint": "bbb8ee76d021034e15f6a44d1590239f0fb92410f22086a74a4651d4b3de9265"
+        },
+        {
+          "id": 167,
+          "retainedId": 121,
+          "fingerprint": "839842247e0a9966aaaf6d55c5b5ff1b0e99f9523679716a4d02324cb25ac985"
+        },
+        {
+          "id": 168,
+          "retainedId": 122,
+          "fingerprint": "d9c56b9973d612c288ef8ef29d8eaf0d9db6951b5622a3e61673bdc6cb06bcb7"
+        },
+        {
+          "id": 169,
+          "retainedId": 123,
+          "fingerprint": "43244b6e71dc15ca1f7181b260d07b618831c4f0e29e36bd35d8996e894f9e53"
+        },
+        {
+          "id": 170,
+          "retainedId": 124,
+          "fingerprint": "78c6d1fe36d530b2d1dd042ed241a2e5d391cf94685b14fef08426bea01c7f86"
+        },
+        {
+          "id": 171,
+          "retainedId": 125,
+          "fingerprint": "74d6519cba0028bf7d5fa26f2f017b266aecbb49fc56c9e90203e780c2de391a"
+        },
+        {
+          "id": 172,
+          "retainedId": 126,
+          "fingerprint": "d77a2b4f4e23b5e93e6269e635f0322adb488fda095ffe245651d80a6a2162e9"
+        },
+        {
+          "id": 173,
+          "retainedId": 127,
+          "fingerprint": "d3ff4c349e3124925e9c34243384be4bd06476af059375a25e1718e627d8c58e"
+        },
+        {
+          "id": 174,
+          "retainedId": 128,
+          "fingerprint": "9be8991783d9c9e6d8a7aa71b4eb6008b95e0aecf600c56f8ef855fd70d123f2"
+        },
+        {
+          "id": 175,
+          "retainedId": 129,
+          "fingerprint": "c785cf1e72082888087327dc8b09b50d902f79d91c6f0d85efb22b20db896efa"
+        },
+        {
+          "id": 176,
+          "retainedId": 130,
+          "fingerprint": "5836bc04e0e35f271b3057f6e23853f17c8a7a121c781223db92e6b8eb5164ce"
+        },
+        {
+          "id": 177,
+          "retainedId": 131,
+          "fingerprint": "49c6f539e9550f2f4ef776edd368931fe215337885c9048cead72f2646f2016f"
+        },
+        {
+          "id": 178,
+          "retainedId": 132,
+          "fingerprint": "1a10e34e087b021093a66b31a6392f1952c1fa9b418e496c4acaf763e9c17cfc"
+        },
+        {
+          "id": 179,
+          "retainedId": 133,
+          "fingerprint": "6f723ac28ccc6de71d7cefc2931d8a471773ea07b6ced38085cd69483e426871"
+        },
+        {
+          "id": 180,
+          "retainedId": 134,
+          "fingerprint": "9cf6696b4551bcba2ab1ff48c3fad865b28009a306bbdd9b78ff8204c58b85b8"
+        },
+        {
+          "id": 181,
+          "retainedId": 135,
+          "fingerprint": "b8b7ff45db2a63ccdb915f9bcdd31a74e51ca2ec61a18330ac8fdedd01f5cca9"
+        },
+        {
+          "id": 182,
+          "retainedId": 136,
+          "fingerprint": "49da2998dd17282c70be0ed89a396a54617ad676939ce3ff0074925f66c99bbc"
+        },
+        {
+          "id": 183,
+          "retainedId": 137,
+          "fingerprint": "177527d881a8c487c20443350745dfb8d9edc56c1e1967515a1d968e6c7bf3f7"
+        },
+        {
+          "id": 184,
+          "retainedId": 138,
+          "fingerprint": "e639ffe584ed7987d70c34a3d080a1763c414640e71c2cfc93392238ebb75e44"
+        },
+        {
+          "id": 186,
+          "retainedId": 140,
+          "fingerprint": "cd5fd0ae3410e3a6ee26726b968437b85b87b08855c6d770b9cc29bdf941d68c"
+        },
+        {
+          "id": 187,
+          "retainedId": 141,
+          "fingerprint": "9326fdd083ec2a1abf8c2a292b136c757e9f6b1148db429949f9ae1526e997aa"
+        },
+        {
+          "id": 188,
+          "retainedId": 142,
+          "fingerprint": "f9aa8e3fd96cc5c8e943fbd81379ea24823ffa77063d006f0b9a6bffc62bb815"
+        },
+        {
+          "id": 189,
+          "retainedId": 143,
+          "fingerprint": "33a0dc5268ef4f19666f4a65488d2b85f3d1c94a4f9921fc18ca91643283d779"
+        },
+        {
+          "id": 190,
+          "retainedId": 144,
+          "fingerprint": "a892850f1256dda305032ba4aecb4e6ad8a43604648f297cff3e2d89f91c9e0b"
+        },
+        {
+          "id": 191,
+          "retainedId": 145,
+          "fingerprint": "ae72e65e375d3ecb65f47af417c1d1fd7a402e065d3b3e8acf704c3c218b7535"
+        },
+        {
+          "id": 192,
+          "retainedId": 146,
+          "fingerprint": "1af0ff06e4c9dc12d85cb2a35959b757fe928faeb739e97bdbd56e539b188bb1"
+        },
+        {
+          "id": 193,
+          "retainedId": 147,
+          "fingerprint": "dc4cd4a8d1138e8d30cb3ead5e1f4f18b6cfd8f60649c61983e74b6d72ff6779"
+        },
+        {
+          "id": 194,
+          "retainedId": 148,
+          "fingerprint": "5a32db762868bde979999f1652052d763f13fad0cbd1d49dab67fd38f0f55a92"
+        },
+        {
+          "id": 195,
+          "retainedId": 149,
+          "fingerprint": "846afdd1b4f12042b213fe212aa61d9f736e93f85fcdf57f359c789bff90b6dd"
+        },
+        {
+          "id": 196,
+          "retainedId": 150,
+          "fingerprint": "a608e3b3f8330f5c55cd3e943af4916194bc8ff495efd0aece0adcfe4cbaf061"
+        },
+        {
+          "id": 197,
+          "retainedId": 151,
+          "fingerprint": "e2b2f19e3c93ae0241f3f982f91c05af47b0998d4d037e7fb066f3ec8131a3fc"
+        },
+        {
+          "id": 198,
+          "retainedId": 140,
+          "fingerprint": "cd5fd0ae3410e3a6ee26726b968437b85b87b08855c6d770b9cc29bdf941d68c"
+        },
+        {
+          "id": 199,
+          "retainedId": 153,
+          "fingerprint": "f9fd803c3c758de6edbad5e0239cac4cfc9dcb3a04d7e4ce8b72cd4f59b71d9b"
+        },
+        {
+          "id": 200,
+          "retainedId": 146,
+          "fingerprint": "1af0ff06e4c9dc12d85cb2a35959b757fe928faeb739e97bdbd56e539b188bb1"
+        },
+        {
+          "id": 201,
+          "retainedId": 111,
+          "fingerprint": "e2cdeb92d3907fb9827c16f51d171922683a9e1ca69888c6f05780aa77da66cd"
+        },
+        {
+          "id": 202,
+          "retainedId": 156,
+          "fingerprint": "752b6576af6998e0fe93537bae1291f5870c637380f844fe8d4eac4e6f5fa353"
+        },
+        {
+          "id": 203,
+          "retainedId": 95,
+          "fingerprint": "417e4976ae235651e869b36e6110b9e806a5b1a7b0e9a5d7541221c41d13aa07"
+        },
+        {
+          "id": 204,
+          "retainedId": 94,
+          "fingerprint": "2a5b45ab76f17270d58ba1ba709e1fc7976b1699314d9791499fe96fa58c7b84"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "file": "data/questions/time_zones.json",
+      "original": 67,
+      "remaining": 67,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/urdu_poetry.json",
+      "original": 220,
+      "remaining": 218,
+      "removed": [
+        {
+          "id": 117,
+          "retainedId": 95,
+          "fingerprint": "963ebd0f012b2caff1d2adb72763e869836b8dc3b7c85febefb95920a57244bf"
+        },
+        {
+          "id": 201,
+          "retainedId": 1,
+          "fingerprint": "a7a30b420e4682de07fb1eefe9d796d79e381363c588824befc37f103845c83c"
+        }
+      ],
+      "variants": [
+        {
+          "question": "Who wrote the famous ghazal 'Ranjish Hi Sahi'?",
+          "ids": [
+            3,
+            205
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who is known as 'Khuda-e-Sukhan' (God of Poetry)?",
+          "ids": [
+            13,
+            169
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which poet wrote 'Dil-e-Nadaan Tujhe Hua Kya Hai'?",
+          "ids": [
+            18,
+            168
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who is known for the couplet 'Hazaron khwahishen aisi ke har khwahish pe dam nikle'?",
+          "ids": [
+            19,
+            161
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who wrote 'Kulliyat-e-Faiz'?",
+          "ids": [
+            45,
+            119
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who wrote 'Kulliyat-e-Daagh'?",
+          "ids": [
+            69,
+            125
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who wrote 'Kulliyat-e-Firaq'?",
+          "ids": [
+            73,
+            113
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who wrote 'Kulliyat-e-Jigar'?",
+          "ids": [
+            77,
+            131
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who wrote 'Kulliyat-e-Sahir'?",
+          "ids": [
+            87,
+            115,
+            145
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who wrote 'Kulliyat-e-Akbar'?",
+          "ids": [
+            89,
+            129
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/urdu_proverbs_meanings.json",
+      "original": 125,
+      "remaining": 57,
+      "removed": [
+        {
+          "id": 48,
+          "retainedId": 27,
+          "fingerprint": "c6d8957fe81b3324bc776398a9f7fa135d56025037e4c8c6d5f79010a357fbf8"
+        },
+        {
+          "id": 49,
+          "retainedId": 28,
+          "fingerprint": "da2ed99f8d8a95f7539359d3bda6140df1af5c8b60ee63cb4a0b35bc363f00e9"
+        },
+        {
+          "id": 59,
+          "retainedId": 38,
+          "fingerprint": "0f146ef54cc2763d15c7fdba5b674dc04aa78b41b8ca7f64e0658a8651a86fe1"
+        },
+        {
+          "id": 61,
+          "retainedId": 40,
+          "fingerprint": "42f0d6c882312641cc584db22b3062dde92d98eafb0b4aff758348820440126f"
+        },
+        {
+          "id": 62,
+          "retainedId": 41,
+          "fingerprint": "cb1e76a181164dfd7c15b5a704c58ca0a469e3c9d36c31afeffd85d587617b0a"
+        },
+        {
+          "id": 63,
+          "retainedId": 42,
+          "fingerprint": "141da0de33e2330cbbc2acd95fa525bde5b611e442fa4418c0a1f38c2fca5fa9"
+        },
+        {
+          "id": 64,
+          "retainedId": 43,
+          "fingerprint": "eab274fd85f256c6082b7a894e6e726d4f9a359b0840c785304ee8a6998be17e"
+        },
+        {
+          "id": 65,
+          "retainedId": 44,
+          "fingerprint": "65e46abdc141532884bfc2c0a044b90b4f068f89eef349f799452d0062dae5ed"
+        },
+        {
+          "id": 66,
+          "retainedId": 45,
+          "fingerprint": "e2b517d3087d5b64fe7cfd46d21f5927965999cec5314fcf2e93bea176d3db8e"
+        },
+        {
+          "id": 67,
+          "retainedId": 46,
+          "fingerprint": "268c81493ed7b4196a5754f31f921c0b45fccd688886f43b018066fbff812cb0"
+        },
+        {
+          "id": 68,
+          "retainedId": 47,
+          "fingerprint": "1998bbfcea405fec2adb329516a941316bc08f7207d1e5bcc03f92388c95994f"
+        },
+        {
+          "id": 69,
+          "retainedId": 27,
+          "fingerprint": "c6d8957fe81b3324bc776398a9f7fa135d56025037e4c8c6d5f79010a357fbf8"
+        },
+        {
+          "id": 70,
+          "retainedId": 28,
+          "fingerprint": "da2ed99f8d8a95f7539359d3bda6140df1af5c8b60ee63cb4a0b35bc363f00e9"
+        },
+        {
+          "id": 71,
+          "retainedId": 50,
+          "fingerprint": "4935edee97c132067443b2974c17ee44793ad6d3cc0b698a134a0813edbd6a60"
+        },
+        {
+          "id": 72,
+          "retainedId": 51,
+          "fingerprint": "2070b5dd581b9c98ac7c0f518fd2f90e9de8d84128026b5929496d54553b8463"
+        },
+        {
+          "id": 73,
+          "retainedId": 52,
+          "fingerprint": "3f0f2746a957dc75100e83effb8f8a4eae2e47c456bfea889f9eab836e170acb"
+        },
+        {
+          "id": 74,
+          "retainedId": 53,
+          "fingerprint": "5f70f996f388c5396773617849cb12c33ea7b753f0fc5c769bccc1888bd3e918"
+        },
+        {
+          "id": 75,
+          "retainedId": 54,
+          "fingerprint": "a0df0e1bc620c8f70edae1c713d70e742fc9caf374090da95798c13a81be3fc2"
+        },
+        {
+          "id": 76,
+          "retainedId": 55,
+          "fingerprint": "8b136681688e88321cf9e16452e34bdd6f22439835001755e15d11ee64130205"
+        },
+        {
+          "id": 77,
+          "retainedId": 56,
+          "fingerprint": "1ff389cff50e875c8c581d0abc2215edebf643c4fa1eca932a83c79cb3795462"
+        },
+        {
+          "id": 78,
+          "retainedId": 57,
+          "fingerprint": "3a379aee67052d67452484c890677e0db62b62aa7e0daf14b528e6e534385fc2"
+        },
+        {
+          "id": 79,
+          "retainedId": 58,
+          "fingerprint": "81886feb0ac886840502c54a3b5989172c0511694c298afb5df25dfeb0a062bf"
+        },
+        {
+          "id": 80,
+          "retainedId": 38,
+          "fingerprint": "0f146ef54cc2763d15c7fdba5b674dc04aa78b41b8ca7f64e0658a8651a86fe1"
+        },
+        {
+          "id": 81,
+          "retainedId": 60,
+          "fingerprint": "0dc6f0e7b3ddf34605303527f34106140eef3dd9f0dd6959c3370dbf5e8ad22d"
+        },
+        {
+          "id": 82,
+          "retainedId": 40,
+          "fingerprint": "42f0d6c882312641cc584db22b3062dde92d98eafb0b4aff758348820440126f"
+        },
+        {
+          "id": 83,
+          "retainedId": 41,
+          "fingerprint": "cb1e76a181164dfd7c15b5a704c58ca0a469e3c9d36c31afeffd85d587617b0a"
+        },
+        {
+          "id": 84,
+          "retainedId": 42,
+          "fingerprint": "141da0de33e2330cbbc2acd95fa525bde5b611e442fa4418c0a1f38c2fca5fa9"
+        },
+        {
+          "id": 85,
+          "retainedId": 43,
+          "fingerprint": "eab274fd85f256c6082b7a894e6e726d4f9a359b0840c785304ee8a6998be17e"
+        },
+        {
+          "id": 86,
+          "retainedId": 44,
+          "fingerprint": "65e46abdc141532884bfc2c0a044b90b4f068f89eef349f799452d0062dae5ed"
+        },
+        {
+          "id": 87,
+          "retainedId": 45,
+          "fingerprint": "e2b517d3087d5b64fe7cfd46d21f5927965999cec5314fcf2e93bea176d3db8e"
+        },
+        {
+          "id": 88,
+          "retainedId": 46,
+          "fingerprint": "268c81493ed7b4196a5754f31f921c0b45fccd688886f43b018066fbff812cb0"
+        },
+        {
+          "id": 89,
+          "retainedId": 47,
+          "fingerprint": "1998bbfcea405fec2adb329516a941316bc08f7207d1e5bcc03f92388c95994f"
+        },
+        {
+          "id": 90,
+          "retainedId": 27,
+          "fingerprint": "c6d8957fe81b3324bc776398a9f7fa135d56025037e4c8c6d5f79010a357fbf8"
+        },
+        {
+          "id": 91,
+          "retainedId": 28,
+          "fingerprint": "da2ed99f8d8a95f7539359d3bda6140df1af5c8b60ee63cb4a0b35bc363f00e9"
+        },
+        {
+          "id": 92,
+          "retainedId": 50,
+          "fingerprint": "4935edee97c132067443b2974c17ee44793ad6d3cc0b698a134a0813edbd6a60"
+        },
+        {
+          "id": 93,
+          "retainedId": 51,
+          "fingerprint": "2070b5dd581b9c98ac7c0f518fd2f90e9de8d84128026b5929496d54553b8463"
+        },
+        {
+          "id": 94,
+          "retainedId": 52,
+          "fingerprint": "3f0f2746a957dc75100e83effb8f8a4eae2e47c456bfea889f9eab836e170acb"
+        },
+        {
+          "id": 95,
+          "retainedId": 53,
+          "fingerprint": "5f70f996f388c5396773617849cb12c33ea7b753f0fc5c769bccc1888bd3e918"
+        },
+        {
+          "id": 96,
+          "retainedId": 54,
+          "fingerprint": "a0df0e1bc620c8f70edae1c713d70e742fc9caf374090da95798c13a81be3fc2"
+        },
+        {
+          "id": 97,
+          "retainedId": 55,
+          "fingerprint": "8b136681688e88321cf9e16452e34bdd6f22439835001755e15d11ee64130205"
+        },
+        {
+          "id": 98,
+          "retainedId": 56,
+          "fingerprint": "1ff389cff50e875c8c581d0abc2215edebf643c4fa1eca932a83c79cb3795462"
+        },
+        {
+          "id": 99,
+          "retainedId": 57,
+          "fingerprint": "3a379aee67052d67452484c890677e0db62b62aa7e0daf14b528e6e534385fc2"
+        },
+        {
+          "id": 100,
+          "retainedId": 58,
+          "fingerprint": "81886feb0ac886840502c54a3b5989172c0511694c298afb5df25dfeb0a062bf"
+        },
+        {
+          "id": 101,
+          "retainedId": 38,
+          "fingerprint": "0f146ef54cc2763d15c7fdba5b674dc04aa78b41b8ca7f64e0658a8651a86fe1"
+        },
+        {
+          "id": 102,
+          "retainedId": 60,
+          "fingerprint": "0dc6f0e7b3ddf34605303527f34106140eef3dd9f0dd6959c3370dbf5e8ad22d"
+        },
+        {
+          "id": 103,
+          "retainedId": 40,
+          "fingerprint": "42f0d6c882312641cc584db22b3062dde92d98eafb0b4aff758348820440126f"
+        },
+        {
+          "id": 104,
+          "retainedId": 41,
+          "fingerprint": "cb1e76a181164dfd7c15b5a704c58ca0a469e3c9d36c31afeffd85d587617b0a"
+        },
+        {
+          "id": 105,
+          "retainedId": 42,
+          "fingerprint": "141da0de33e2330cbbc2acd95fa525bde5b611e442fa4418c0a1f38c2fca5fa9"
+        },
+        {
+          "id": 106,
+          "retainedId": 43,
+          "fingerprint": "eab274fd85f256c6082b7a894e6e726d4f9a359b0840c785304ee8a6998be17e"
+        },
+        {
+          "id": 107,
+          "retainedId": 44,
+          "fingerprint": "65e46abdc141532884bfc2c0a044b90b4f068f89eef349f799452d0062dae5ed"
+        },
+        {
+          "id": 108,
+          "retainedId": 45,
+          "fingerprint": "e2b517d3087d5b64fe7cfd46d21f5927965999cec5314fcf2e93bea176d3db8e"
+        },
+        {
+          "id": 109,
+          "retainedId": 46,
+          "fingerprint": "268c81493ed7b4196a5754f31f921c0b45fccd688886f43b018066fbff812cb0"
+        },
+        {
+          "id": 110,
+          "retainedId": 47,
+          "fingerprint": "1998bbfcea405fec2adb329516a941316bc08f7207d1e5bcc03f92388c95994f"
+        },
+        {
+          "id": 111,
+          "retainedId": 27,
+          "fingerprint": "c6d8957fe81b3324bc776398a9f7fa135d56025037e4c8c6d5f79010a357fbf8"
+        },
+        {
+          "id": 112,
+          "retainedId": 28,
+          "fingerprint": "da2ed99f8d8a95f7539359d3bda6140df1af5c8b60ee63cb4a0b35bc363f00e9"
+        },
+        {
+          "id": 113,
+          "retainedId": 50,
+          "fingerprint": "4935edee97c132067443b2974c17ee44793ad6d3cc0b698a134a0813edbd6a60"
+        },
+        {
+          "id": 114,
+          "retainedId": 51,
+          "fingerprint": "2070b5dd581b9c98ac7c0f518fd2f90e9de8d84128026b5929496d54553b8463"
+        },
+        {
+          "id": 115,
+          "retainedId": 52,
+          "fingerprint": "3f0f2746a957dc75100e83effb8f8a4eae2e47c456bfea889f9eab836e170acb"
+        },
+        {
+          "id": 116,
+          "retainedId": 53,
+          "fingerprint": "5f70f996f388c5396773617849cb12c33ea7b753f0fc5c769bccc1888bd3e918"
+        },
+        {
+          "id": 117,
+          "retainedId": 54,
+          "fingerprint": "a0df0e1bc620c8f70edae1c713d70e742fc9caf374090da95798c13a81be3fc2"
+        },
+        {
+          "id": 118,
+          "retainedId": 55,
+          "fingerprint": "8b136681688e88321cf9e16452e34bdd6f22439835001755e15d11ee64130205"
+        },
+        {
+          "id": 119,
+          "retainedId": 56,
+          "fingerprint": "1ff389cff50e875c8c581d0abc2215edebf643c4fa1eca932a83c79cb3795462"
+        },
+        {
+          "id": 120,
+          "retainedId": 57,
+          "fingerprint": "3a379aee67052d67452484c890677e0db62b62aa7e0daf14b528e6e534385fc2"
+        },
+        {
+          "id": 121,
+          "retainedId": 58,
+          "fingerprint": "81886feb0ac886840502c54a3b5989172c0511694c298afb5df25dfeb0a062bf"
+        },
+        {
+          "id": 122,
+          "retainedId": 38,
+          "fingerprint": "0f146ef54cc2763d15c7fdba5b674dc04aa78b41b8ca7f64e0658a8651a86fe1"
+        },
+        {
+          "id": 123,
+          "retainedId": 60,
+          "fingerprint": "0dc6f0e7b3ddf34605303527f34106140eef3dd9f0dd6959c3370dbf5e8ad22d"
+        },
+        {
+          "id": 124,
+          "retainedId": 40,
+          "fingerprint": "42f0d6c882312641cc584db22b3062dde92d98eafb0b4aff758348820440126f"
+        },
+        {
+          "id": 125,
+          "retainedId": 41,
+          "fingerprint": "cb1e76a181164dfd7c15b5a704c58ca0a469e3c9d36c31afeffd85d587617b0a"
+        }
+      ],
+      "variants": [
+        {
+          "question": "What does 'Ram naam satya hai' signify?",
+          "ids": [
+            25,
+            46
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the meaning of 'Sabr ka phal meetha hota hai'?",
+          "ids": [
+            26,
+            47
+          ],
+          "answerConflict": true
+        },
+        {
+          "question": "What is the meaning of 'Waqt se pehle aur muqaddar se zyada kisi ko kuch nahi milta'?",
+          "ids": [
+            29,
+            50
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What does 'Aam ke aam, guthliyon ke daam' mean?",
+          "ids": [
+            31,
+            52
+          ],
+          "answerConflict": true
+        },
+        {
+          "question": "What is the meaning of 'Bachay ki jaan lein to pyaar na aaye'?",
+          "ids": [
+            32,
+            53
+          ],
+          "answerConflict": true
+        },
+        {
+          "question": "What does 'Dhande ki naani bhi nahi' mean?",
+          "ids": [
+            34,
+            55
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the meaning of 'Ek anar sau bimar'?",
+          "ids": [
+            35,
+            56
+          ],
+          "answerConflict": true
+        },
+        {
+          "question": "What does 'Hathi chale bazaar, kutte bhonke hazaar' mean?",
+          "ids": [
+            37,
+            58
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/web_development.json",
+      "original": 120,
+      "remaining": 97,
+      "removed": [
+        {
+          "id": 34,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 49,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 58,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 61,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 64,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 67,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 70,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 73,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 76,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 79,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 82,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 85,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 88,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 91,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 94,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 97,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 100,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 103,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 106,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 109,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 112,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 115,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        },
+        {
+          "id": 118,
+          "retainedId": 13,
+          "fingerprint": "a7a2607afe635ef735de7df5cb5c2e2de21ab7d91728d2cd2a8e974c8e1108e7"
+        }
+      ],
+      "variants": [
+        {
+          "question": "Which of these is NOT a valid CSS position property value?",
+          "ids": [
+            18,
+            75
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is NOT a valid way to create a React component?",
+          "ids": [
+            87,
+            111
+          ],
+          "answerConflict": true
+        }
+      ]
+    },
+    {
+      "file": "data/questions/world_facts.json",
+      "original": 200,
+      "remaining": 76,
+      "removed": [
+        {
+          "id": 75,
+          "retainedId": 25,
+          "fingerprint": "2911b9c5223769106c41f232a430a93aa963e996370969ec7299e743a72be915"
+        },
+        {
+          "id": 76,
+          "retainedId": 10,
+          "fingerprint": "52971bef86ce17e32066042ca2256ca0a6ad0517c41f873a330129946b08f3c1"
+        },
+        {
+          "id": 77,
+          "retainedId": 41,
+          "fingerprint": "930aa5639e709910b662bb6b0af06d8fdc0407e7ce52656261b9548b0fdab805"
+        },
+        {
+          "id": 78,
+          "retainedId": 42,
+          "fingerprint": "dcb5af8d76342b9cd01c91b13a708c93f10db8d9d3b6266d5f0741b49dd1fc46"
+        },
+        {
+          "id": 79,
+          "retainedId": 5,
+          "fingerprint": "0bcb2e0338acec8c361d1532192dacb6b1770ec60e04ff414122dec230a6a627"
+        },
+        {
+          "id": 80,
+          "retainedId": 6,
+          "fingerprint": "b68f56a245755b997ae6076c2dd5ed0657d85a4feca29035cd05dfff38581d3c"
+        },
+        {
+          "id": 81,
+          "retainedId": 7,
+          "fingerprint": "1715fe8f660a5ee17ed30127b683871c4632e8ef7e5cd6e27a077cc5e9190a34"
+        },
+        {
+          "id": 82,
+          "retainedId": 8,
+          "fingerprint": "3ca2acc42e44c335ebb6667acc1c85a0c5ea5bfdeaf0978a672ae9cde52eb649"
+        },
+        {
+          "id": 83,
+          "retainedId": 9,
+          "fingerprint": "2286ae4e16308bd071570d1b944b1bca1c4d8cdb4032be9df93b6d6e6e3098e4"
+        },
+        {
+          "id": 84,
+          "retainedId": 10,
+          "fingerprint": "52971bef86ce17e32066042ca2256ca0a6ad0517c41f873a330129946b08f3c1"
+        },
+        {
+          "id": 85,
+          "retainedId": 11,
+          "fingerprint": "37b8aaf7be703400b1427315e66835d8b74b8df723380688247965086f3bbb2b"
+        },
+        {
+          "id": 86,
+          "retainedId": 12,
+          "fingerprint": "ebadd02fb79979008739e5af464778ca238d824cd1113280be6c27336094c23b"
+        },
+        {
+          "id": 87,
+          "retainedId": 13,
+          "fingerprint": "2f3bf926d806d9338079b03213b3016018d731daf9b26cca6253813a86985b8a"
+        },
+        {
+          "id": 88,
+          "retainedId": 14,
+          "fingerprint": "da13496e08b04d7c9a4cfdfb64f079041f5596bcba9179b4bc3dfb7606e074b5"
+        },
+        {
+          "id": 89,
+          "retainedId": 15,
+          "fingerprint": "0c330cd8426074a972434d3944d0875e3ed21d097a115fe081d64298b50c3546"
+        },
+        {
+          "id": 90,
+          "retainedId": 16,
+          "fingerprint": "97955af31c3b474f8a5723a1638a7e6f5c73a15ae28afe25e41332f1df29cec0"
+        },
+        {
+          "id": 91,
+          "retainedId": 17,
+          "fingerprint": "1e54c1713aa55b218f55631129557741387210cc2ec672b62b9cee1dcc0ef808"
+        },
+        {
+          "id": 92,
+          "retainedId": 18,
+          "fingerprint": "e4f767e8759d05b58e404c4930ecd4f25a727c99e3dfb1bd45d154f37413a405"
+        },
+        {
+          "id": 93,
+          "retainedId": 19,
+          "fingerprint": "011f8046b70b65172f01280988ee3d5595c68ac4b2a7a7d8f9ef37c9a46886cf"
+        },
+        {
+          "id": 94,
+          "retainedId": 20,
+          "fingerprint": "ed7a8d818ee23e65a26990e70209f6e3c206fbe3663fe62940226acf1cca078e"
+        },
+        {
+          "id": 95,
+          "retainedId": 21,
+          "fingerprint": "41bd0fc70893790d9df9748d5e1633909a60ceb9714d1fa119ee2d43ce66ddc9"
+        },
+        {
+          "id": 96,
+          "retainedId": 22,
+          "fingerprint": "57e6241f38bd5e763c47280320240f601f50e92af95e4a89f1c5d1775fbfd462"
+        },
+        {
+          "id": 97,
+          "retainedId": 23,
+          "fingerprint": "15878f1f4da004678499906f5aaa69a6eb24ca55ff691468fd850eb475df8b4e"
+        },
+        {
+          "id": 98,
+          "retainedId": 24,
+          "fingerprint": "113b74ede05dc75150739db38ca69c2f42e0d2a7a95dc1241973e514918c13d3"
+        },
+        {
+          "id": 99,
+          "retainedId": 25,
+          "fingerprint": "2911b9c5223769106c41f232a430a93aa963e996370969ec7299e743a72be915"
+        },
+        {
+          "id": 100,
+          "retainedId": 26,
+          "fingerprint": "9dc80dbd323b7307340e61bc881b6f83082c5bc97c02e1bdb3d350c41b09771f"
+        },
+        {
+          "id": 103,
+          "retainedId": 47,
+          "fingerprint": "0cd8c2632188c6a4d7ca79b0ebe9570d1a047376b941372d44d959a2427ce661"
+        },
+        {
+          "id": 104,
+          "retainedId": 48,
+          "fingerprint": "945af7f46768ed051f1eb7abeb5b1d006964271c598bcc5b57f5887e9aef3c18"
+        },
+        {
+          "id": 105,
+          "retainedId": 49,
+          "fingerprint": "359521d0ef10ca4260ca866528e2bf179a220b806d051a3b8b8ef52d98febbb1"
+        },
+        {
+          "id": 106,
+          "retainedId": 50,
+          "fingerprint": "d197a474de843bde42e3f51b9bde395f6e4474e643d095bd8bc3933fea0124f5"
+        },
+        {
+          "id": 107,
+          "retainedId": 51,
+          "fingerprint": "95519a65e34e39848655f8f0d529c30f8b72097cfb7ea9b87476a7e6a1b05d1b"
+        },
+        {
+          "id": 108,
+          "retainedId": 52,
+          "fingerprint": "6407d45aec409fbd652365666a46e797acb7e3bda2d8ed57cfa506898a255264"
+        },
+        {
+          "id": 109,
+          "retainedId": 53,
+          "fingerprint": "1590eaf9b396eede54eb89aea5c46fe1c4bec99173d31b2a29aa7491bdc4dd88"
+        },
+        {
+          "id": 110,
+          "retainedId": 54,
+          "fingerprint": "aa47f654227d1504ddfd8908b45b004c3f06c2855dc384adb8b457465fb904b8"
+        },
+        {
+          "id": 111,
+          "retainedId": 55,
+          "fingerprint": "898296cfdfdb7aacc8bebececc49c7ac81b5cffb383a88689fc43e5819ea7f12"
+        },
+        {
+          "id": 112,
+          "retainedId": 56,
+          "fingerprint": "097d3704ef447a569a8557ddc90923ff573330e390a430d7f3714ffab5ad2db9"
+        },
+        {
+          "id": 113,
+          "retainedId": 57,
+          "fingerprint": "dcfcd18b7981eded3930df3fbd265fed37e94ef063e5c78362450e4bb39a5fc7"
+        },
+        {
+          "id": 114,
+          "retainedId": 58,
+          "fingerprint": "f18a71cdd0b79caa3bc53fbb3dca26dfe68e52a89ffd41cd9e46bf29288592a6"
+        },
+        {
+          "id": 115,
+          "retainedId": 59,
+          "fingerprint": "29ea3cbccc98e12d78a42bb0047b3a9399174f83eceeb8da84dc5e12fe5010bb"
+        },
+        {
+          "id": 116,
+          "retainedId": 60,
+          "fingerprint": "fce8b7182d377b53ec9155f85528025750cc52d7806427ee34f90755477c2d7d"
+        },
+        {
+          "id": 117,
+          "retainedId": 61,
+          "fingerprint": "14c698fae58d9cc9a587624e9b468d576114d4b6c4eb645fbbdb39f6dcd765aa"
+        },
+        {
+          "id": 118,
+          "retainedId": 62,
+          "fingerprint": "1a912de48cf50f29a8a32e7a63ce030d0683cb5c79b550a4cdb587b50721b422"
+        },
+        {
+          "id": 119,
+          "retainedId": 63,
+          "fingerprint": "ae6404b1d1b37249769283c0eb03a54532b962f914bae16b05a91e84dd268575"
+        },
+        {
+          "id": 120,
+          "retainedId": 64,
+          "fingerprint": "c4a9639c2c962f76688087999466cb551e528c72dde052e09c9cf9cf4c6d3d44"
+        },
+        {
+          "id": 121,
+          "retainedId": 65,
+          "fingerprint": "fd04922e7b90badfbb2d3cfec1bbf6d0e0be851122803bc44338cea791a50183"
+        },
+        {
+          "id": 122,
+          "retainedId": 66,
+          "fingerprint": "011843a8dd48c4c599da57f9cfb7c5f56568c86c31e0edc7f0b4c4c662911b27"
+        },
+        {
+          "id": 123,
+          "retainedId": 67,
+          "fingerprint": "21221469601ea776952d47acc8c3b80d57c6260eafc86bcd84f93439b9a20e72"
+        },
+        {
+          "id": 124,
+          "retainedId": 68,
+          "fingerprint": "4cc6d46f278387cb59c300a78ecb4d2b66d434fb7f90dd004fd7a1a4f455ba88"
+        },
+        {
+          "id": 125,
+          "retainedId": 69,
+          "fingerprint": "b6839d34e33f3a532a77d65d9790934840cd73e4220c0438aebb7cdfb417cb15"
+        },
+        {
+          "id": 126,
+          "retainedId": 70,
+          "fingerprint": "aa84500bea88b8b7c68a5282e9d84c5e068f8a01e8522e63f9bd7e9967defb23"
+        },
+        {
+          "id": 127,
+          "retainedId": 71,
+          "fingerprint": "644e58ee8d6af2161c4c87e7a477d96ca1f1a378ddcd776c8c497954c6d3fb57"
+        },
+        {
+          "id": 128,
+          "retainedId": 72,
+          "fingerprint": "21a18c32d7f8ff01e09830c14eda1ae7d690527b147d075e888feffcfc23d611"
+        },
+        {
+          "id": 129,
+          "retainedId": 73,
+          "fingerprint": "a38e97960e111635fb5948776188662b9af8a77b6df59777595b096dbc0a9d60"
+        },
+        {
+          "id": 130,
+          "retainedId": 74,
+          "fingerprint": "5579008af9142d8441dfddcfacbab92bd8be05ba3bc9038089ef2d7daf36a890"
+        },
+        {
+          "id": 131,
+          "retainedId": 25,
+          "fingerprint": "2911b9c5223769106c41f232a430a93aa963e996370969ec7299e743a72be915"
+        },
+        {
+          "id": 132,
+          "retainedId": 10,
+          "fingerprint": "52971bef86ce17e32066042ca2256ca0a6ad0517c41f873a330129946b08f3c1"
+        },
+        {
+          "id": 133,
+          "retainedId": 41,
+          "fingerprint": "930aa5639e709910b662bb6b0af06d8fdc0407e7ce52656261b9548b0fdab805"
+        },
+        {
+          "id": 134,
+          "retainedId": 42,
+          "fingerprint": "dcb5af8d76342b9cd01c91b13a708c93f10db8d9d3b6266d5f0741b49dd1fc46"
+        },
+        {
+          "id": 135,
+          "retainedId": 5,
+          "fingerprint": "0bcb2e0338acec8c361d1532192dacb6b1770ec60e04ff414122dec230a6a627"
+        },
+        {
+          "id": 136,
+          "retainedId": 6,
+          "fingerprint": "b68f56a245755b997ae6076c2dd5ed0657d85a4feca29035cd05dfff38581d3c"
+        },
+        {
+          "id": 137,
+          "retainedId": 7,
+          "fingerprint": "1715fe8f660a5ee17ed30127b683871c4632e8ef7e5cd6e27a077cc5e9190a34"
+        },
+        {
+          "id": 138,
+          "retainedId": 8,
+          "fingerprint": "3ca2acc42e44c335ebb6667acc1c85a0c5ea5bfdeaf0978a672ae9cde52eb649"
+        },
+        {
+          "id": 139,
+          "retainedId": 9,
+          "fingerprint": "2286ae4e16308bd071570d1b944b1bca1c4d8cdb4032be9df93b6d6e6e3098e4"
+        },
+        {
+          "id": 140,
+          "retainedId": 10,
+          "fingerprint": "52971bef86ce17e32066042ca2256ca0a6ad0517c41f873a330129946b08f3c1"
+        },
+        {
+          "id": 141,
+          "retainedId": 11,
+          "fingerprint": "37b8aaf7be703400b1427315e66835d8b74b8df723380688247965086f3bbb2b"
+        },
+        {
+          "id": 142,
+          "retainedId": 12,
+          "fingerprint": "ebadd02fb79979008739e5af464778ca238d824cd1113280be6c27336094c23b"
+        },
+        {
+          "id": 143,
+          "retainedId": 13,
+          "fingerprint": "2f3bf926d806d9338079b03213b3016018d731daf9b26cca6253813a86985b8a"
+        },
+        {
+          "id": 144,
+          "retainedId": 14,
+          "fingerprint": "da13496e08b04d7c9a4cfdfb64f079041f5596bcba9179b4bc3dfb7606e074b5"
+        },
+        {
+          "id": 145,
+          "retainedId": 15,
+          "fingerprint": "0c330cd8426074a972434d3944d0875e3ed21d097a115fe081d64298b50c3546"
+        },
+        {
+          "id": 146,
+          "retainedId": 16,
+          "fingerprint": "97955af31c3b474f8a5723a1638a7e6f5c73a15ae28afe25e41332f1df29cec0"
+        },
+        {
+          "id": 147,
+          "retainedId": 17,
+          "fingerprint": "1e54c1713aa55b218f55631129557741387210cc2ec672b62b9cee1dcc0ef808"
+        },
+        {
+          "id": 148,
+          "retainedId": 18,
+          "fingerprint": "e4f767e8759d05b58e404c4930ecd4f25a727c99e3dfb1bd45d154f37413a405"
+        },
+        {
+          "id": 149,
+          "retainedId": 19,
+          "fingerprint": "011f8046b70b65172f01280988ee3d5595c68ac4b2a7a7d8f9ef37c9a46886cf"
+        },
+        {
+          "id": 150,
+          "retainedId": 20,
+          "fingerprint": "ed7a8d818ee23e65a26990e70209f6e3c206fbe3663fe62940226acf1cca078e"
+        },
+        {
+          "id": 151,
+          "retainedId": 21,
+          "fingerprint": "41bd0fc70893790d9df9748d5e1633909a60ceb9714d1fa119ee2d43ce66ddc9"
+        },
+        {
+          "id": 152,
+          "retainedId": 22,
+          "fingerprint": "57e6241f38bd5e763c47280320240f601f50e92af95e4a89f1c5d1775fbfd462"
+        },
+        {
+          "id": 153,
+          "retainedId": 23,
+          "fingerprint": "15878f1f4da004678499906f5aaa69a6eb24ca55ff691468fd850eb475df8b4e"
+        },
+        {
+          "id": 154,
+          "retainedId": 24,
+          "fingerprint": "113b74ede05dc75150739db38ca69c2f42e0d2a7a95dc1241973e514918c13d3"
+        },
+        {
+          "id": 155,
+          "retainedId": 25,
+          "fingerprint": "2911b9c5223769106c41f232a430a93aa963e996370969ec7299e743a72be915"
+        },
+        {
+          "id": 156,
+          "retainedId": 26,
+          "fingerprint": "9dc80dbd323b7307340e61bc881b6f83082c5bc97c02e1bdb3d350c41b09771f"
+        },
+        {
+          "id": 157,
+          "retainedId": 27,
+          "fingerprint": "01811250a7841ff1b4524ce5c179f4e9ae6323b58188180ec3b8235dfdf78946"
+        },
+        {
+          "id": 158,
+          "retainedId": 28,
+          "fingerprint": "470b1362841ac7bc83befd807e51b5ad1b6ae2b4be271d503d921a388583e316"
+        },
+        {
+          "id": 159,
+          "retainedId": 29,
+          "fingerprint": "d90d15ef542031b8edb534e2bb67386b8f749d15fd6644067430db9a96d530b0"
+        },
+        {
+          "id": 160,
+          "retainedId": 30,
+          "fingerprint": "3eca115e22d3f431e78a1e5df03cfbf0d467dc4de112b0f12caa344d86f8ea7d"
+        },
+        {
+          "id": 161,
+          "retainedId": 31,
+          "fingerprint": "bf3dda7216a416ea96ae27a97b9d5c75e209d49dff93d12d70b665da2d412fc8"
+        },
+        {
+          "id": 162,
+          "retainedId": 32,
+          "fingerprint": "c579c60ca5a6a665613d2c80370e865b0dd4ff2350f8fb428c9bcb9cc8b07e8d"
+        },
+        {
+          "id": 163,
+          "retainedId": 33,
+          "fingerprint": "02df87d414ba0891c3b73167b22604e0e204ea6a5f68f7b432786b490154c724"
+        },
+        {
+          "id": 164,
+          "retainedId": 34,
+          "fingerprint": "116e0b23a837ddf011fd5b5ee3c5cff3f33c956f4c962ee7b9bf7fce2e96ade0"
+        },
+        {
+          "id": 165,
+          "retainedId": 35,
+          "fingerprint": "dffcf36733e9537060b4013c25894466c46600992730ed6b58c0d602bc67a41e"
+        },
+        {
+          "id": 166,
+          "retainedId": 36,
+          "fingerprint": "6680cdf474ea95ecea9e55fa38e8cdc5a0eb07c8320231328300568182f0361a"
+        },
+        {
+          "id": 167,
+          "retainedId": 37,
+          "fingerprint": "e6fa2c946a352fbec324197b20fdd42d2a2d5f9163eaee75278d72eb16013f1a"
+        },
+        {
+          "id": 168,
+          "retainedId": 38,
+          "fingerprint": "af56c08311e108f26c392a7e7f4b36505c879464e96c14024da783e38d01a66b"
+        },
+        {
+          "id": 169,
+          "retainedId": 39,
+          "fingerprint": "e5cefebdee2be0f0d9e994a29bbb416d552acea55aff75e494db9656549df756"
+        },
+        {
+          "id": 170,
+          "retainedId": 40,
+          "fingerprint": "a687972d618c0c32ba6655de77c6eda20c438af54eaa85c1428fe5f82ac82890"
+        },
+        {
+          "id": 171,
+          "retainedId": 41,
+          "fingerprint": "930aa5639e709910b662bb6b0af06d8fdc0407e7ce52656261b9548b0fdab805"
+        },
+        {
+          "id": 172,
+          "retainedId": 42,
+          "fingerprint": "dcb5af8d76342b9cd01c91b13a708c93f10db8d9d3b6266d5f0741b49dd1fc46"
+        },
+        {
+          "id": 173,
+          "retainedId": 43,
+          "fingerprint": "b447b21df0f30b7c110537bc43f6d10d0186a83a6fbac2024106fceebdd4c7df"
+        },
+        {
+          "id": 174,
+          "retainedId": 44,
+          "fingerprint": "1b8ec8b3697f5e74eae0f204058fe7e9a417c965bf75cf5fd70933888dbdae9c"
+        },
+        {
+          "id": 175,
+          "retainedId": 45,
+          "fingerprint": "e62711cb8b8193e692eefd71d56813974262307bf9a3f5faae59069b6e1a7043"
+        },
+        {
+          "id": 176,
+          "retainedId": 46,
+          "fingerprint": "31567f2ecc3eb0e463142101a02d7eeed6fbd2e1142742836c1a60432f6c1fe6"
+        },
+        {
+          "id": 177,
+          "retainedId": 47,
+          "fingerprint": "0cd8c2632188c6a4d7ca79b0ebe9570d1a047376b941372d44d959a2427ce661"
+        },
+        {
+          "id": 178,
+          "retainedId": 48,
+          "fingerprint": "945af7f46768ed051f1eb7abeb5b1d006964271c598bcc5b57f5887e9aef3c18"
+        },
+        {
+          "id": 179,
+          "retainedId": 49,
+          "fingerprint": "359521d0ef10ca4260ca866528e2bf179a220b806d051a3b8b8ef52d98febbb1"
+        },
+        {
+          "id": 180,
+          "retainedId": 50,
+          "fingerprint": "d197a474de843bde42e3f51b9bde395f6e4474e643d095bd8bc3933fea0124f5"
+        },
+        {
+          "id": 181,
+          "retainedId": 51,
+          "fingerprint": "95519a65e34e39848655f8f0d529c30f8b72097cfb7ea9b87476a7e6a1b05d1b"
+        },
+        {
+          "id": 182,
+          "retainedId": 52,
+          "fingerprint": "6407d45aec409fbd652365666a46e797acb7e3bda2d8ed57cfa506898a255264"
+        },
+        {
+          "id": 183,
+          "retainedId": 53,
+          "fingerprint": "1590eaf9b396eede54eb89aea5c46fe1c4bec99173d31b2a29aa7491bdc4dd88"
+        },
+        {
+          "id": 184,
+          "retainedId": 54,
+          "fingerprint": "aa47f654227d1504ddfd8908b45b004c3f06c2855dc384adb8b457465fb904b8"
+        },
+        {
+          "id": 185,
+          "retainedId": 55,
+          "fingerprint": "898296cfdfdb7aacc8bebececc49c7ac81b5cffb383a88689fc43e5819ea7f12"
+        },
+        {
+          "id": 186,
+          "retainedId": 56,
+          "fingerprint": "097d3704ef447a569a8557ddc90923ff573330e390a430d7f3714ffab5ad2db9"
+        },
+        {
+          "id": 187,
+          "retainedId": 57,
+          "fingerprint": "dcfcd18b7981eded3930df3fbd265fed37e94ef063e5c78362450e4bb39a5fc7"
+        },
+        {
+          "id": 188,
+          "retainedId": 58,
+          "fingerprint": "f18a71cdd0b79caa3bc53fbb3dca26dfe68e52a89ffd41cd9e46bf29288592a6"
+        },
+        {
+          "id": 189,
+          "retainedId": 59,
+          "fingerprint": "29ea3cbccc98e12d78a42bb0047b3a9399174f83eceeb8da84dc5e12fe5010bb"
+        },
+        {
+          "id": 190,
+          "retainedId": 60,
+          "fingerprint": "fce8b7182d377b53ec9155f85528025750cc52d7806427ee34f90755477c2d7d"
+        },
+        {
+          "id": 191,
+          "retainedId": 61,
+          "fingerprint": "14c698fae58d9cc9a587624e9b468d576114d4b6c4eb645fbbdb39f6dcd765aa"
+        },
+        {
+          "id": 192,
+          "retainedId": 62,
+          "fingerprint": "1a912de48cf50f29a8a32e7a63ce030d0683cb5c79b550a4cdb587b50721b422"
+        },
+        {
+          "id": 193,
+          "retainedId": 63,
+          "fingerprint": "ae6404b1d1b37249769283c0eb03a54532b962f914bae16b05a91e84dd268575"
+        },
+        {
+          "id": 194,
+          "retainedId": 64,
+          "fingerprint": "c4a9639c2c962f76688087999466cb551e528c72dde052e09c9cf9cf4c6d3d44"
+        },
+        {
+          "id": 195,
+          "retainedId": 65,
+          "fingerprint": "fd04922e7b90badfbb2d3cfec1bbf6d0e0be851122803bc44338cea791a50183"
+        },
+        {
+          "id": 196,
+          "retainedId": 66,
+          "fingerprint": "011843a8dd48c4c599da57f9cfb7c5f56568c86c31e0edc7f0b4c4c662911b27"
+        },
+        {
+          "id": 197,
+          "retainedId": 67,
+          "fingerprint": "21221469601ea776952d47acc8c3b80d57c6260eafc86bcd84f93439b9a20e72"
+        },
+        {
+          "id": 198,
+          "retainedId": 68,
+          "fingerprint": "4cc6d46f278387cb59c300a78ecb4d2b66d434fb7f90dd004fd7a1a4f455ba88"
+        },
+        {
+          "id": 199,
+          "retainedId": 69,
+          "fingerprint": "b6839d34e33f3a532a77d65d9790934840cd73e4220c0438aebb7cdfb417cb15"
+        },
+        {
+          "id": 200,
+          "retainedId": 70,
+          "fingerprint": "aa84500bea88b8b7c68a5282e9d84c5e068f8a01e8522e63f9bd7e9967defb23"
+        }
+      ],
+      "variants": [
+        {
+          "question": "The capital of Russia is Moscow.",
+          "ids": [
+            46,
+            102
+          ],
+          "answerConflict": false
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "original": 3891,
+    "remaining": 3027,
+    "exactDuplicates": 864,
+    "variantGroups": 115
+  }
+}

@@ -109,8 +109,8 @@ export function Media({
   alt: string;
   className?: string;
 }) {
-  const [failed, setFailed] = useState(false);
-  if (!src || !src.startsWith("https://") || failed)
+  const [failedSrc, setFailedSrc] = useState<string | null>(null);
+  if (!src || !src.startsWith("https://") || failedSrc === src)
     return (
       <div
         role="img"
@@ -123,11 +123,12 @@ export function Media({
   return (
     <img
       src={src}
+      key={src}
       alt={alt}
       loading="lazy"
       referrerPolicy="no-referrer"
       className={className}
-      onError={() => setFailed(true)}
+      onError={() => setFailedSrc(src)}
     />
   );
 }

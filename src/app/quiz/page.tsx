@@ -1,5 +1,6 @@
 import { QuizPlayer } from "@/components/quiz-player";
 import { getQuizCategories, getQuestions } from "@/lib/content";
+import { shuffle } from "@/lib/quiz";
 export const metadata = { title: "Quiz Player" };
 export default async function Page({
   searchParams,
@@ -24,9 +25,11 @@ export default async function Page({
         ? categories.filter((c) => c.group === alias[cat]).map((c) => c.id)
         : [cat];
   const type = typeof params.type === "string" ? params.type : "all";
-  const questions = (await getQuestions(ids)).filter(
+  const matching = (await getQuestions(ids)).filter(
     (q) => type === "all" || q.type === type,
   );
+  // Keep random-quiz payloads bounded rather than sending the entire collection.
+  const questions = shuffle(matching).slice(0, 50);
   const title =
     params.random === "true"
       ? "Random Quiz"

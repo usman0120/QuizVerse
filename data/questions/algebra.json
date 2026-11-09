@@ -1377,22 +1377,6 @@
       "timeLimit": 50
     },
     {
-      "id": 97,
-      "type": "mcq",
-      "question": "What is the number of Sylow 2-subgroups in the symmetric group S₄?",
-      "question_ur": "سیمیٹرک گروپ S₄ میں سیلو 2-ذیلی گروپس کی تعداد کیا ہے؟",
-      "options": {
-        "en": ["1", "3", "6", "8"],
-        "ur": ["1", "3", "6", "8"]
-      },
-      "correctAnswer": 1,
-      "explanation": "S₄ has 3 Sylow 2-subgroups, each isomorphic to D₄ (dihedral group of order 8).",
-      "explanation_ur": "S₄ میں 3 سیلو 2-ذیلی گروپس ہیں، ہر ایک D₄ (آرڈر 8 کا ڈیہیڈرل گروپ) کے ساتھ آئیسومورفک ہے۔",
-      "hint": "Use Sylow's theorems and consider the symmetries of a square",
-      "hint_ur": "سیلو کے نظریات استعمال کریں اور مربع کی سیمیٹریز پر غور کریں",
-      "timeLimit": 55
-    },
-    {
       "id": 98,
       "type": "true-false",
       "question": "Every non-zero finite-dimensional division algebra over ℝ is isomorphic to ℝ, ℂ, or ℍ (quaternions).",

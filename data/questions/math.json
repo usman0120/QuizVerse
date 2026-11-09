@@ -8,7 +8,6 @@
     "image": "math.jpg"
   },
   "questions": [
-    
     {
       "id": 1,
       "type": "mcq",
@@ -1465,7 +1464,6 @@
       "hint_ur": "چاروں اطراف کو جمع کریں",
       "timeLimit": 20
     },
-    
     {
       "id": 100,
       "type": "mcq",
@@ -2202,7 +2200,6 @@
       "hint_ur": "تینوں اطراف برابر ہوتے ہیں",
       "timeLimit": 20
     },
-    
     {
       "id": 150,
       "type": "mcq",
@@ -2438,22 +2435,6 @@
       "hint": "Find common denominator (8)",
       "hint_ur": "مشترکہ نسب نما (8) تلاش کریں",
       "timeLimit": 25
-    },
-    {
-      "id": 166,
-      "type": "mcq",
-      "question": "What is 25% of 80?",
-      "question_ur": "80 کا 25% کیا ہے؟",
-      "options": {
-        "en": ["15", "20", "25", "30"],
-        "ur": ["15", "20", "25", "30"]
-      },
-      "correctAnswer": 1,
-      "explanation": "25% of 80 = 0.25 × 80 = 20",
-      "explanation_ur": "80 کا 25% = 0.25 × 80 = 20",
-      "hint": "25% is the same as 1/4",
-      "hint_ur": "25% 1/4 کے برابر ہے",
-      "timeLimit": 20
     },
     {
       "id": 167,
@@ -2939,6 +2920,5 @@
       "hint_ur": "مسدس کے 6 اطراف ہوتے ہیں",
       "timeLimit": 20
     }
-
   ]
 }

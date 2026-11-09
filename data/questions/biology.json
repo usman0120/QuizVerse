@@ -464,7 +464,6 @@
       "hint_ur": "زائلیم پانی کی نقل و حرکت اور اسٹومیٹا سے منسلک ہے۔",
       "timeLimit": 25
     },
-    
     {
       "id": 31,
       "type": "mcq",
@@ -745,7 +744,6 @@
       "hint_ur": "درخت کی شاخوں جیسی ساختیں۔",
       "timeLimit": 25
     },
-    
     {
       "id": 50,
       "type": "mcq",
@@ -1478,7 +1476,6 @@
       "hint_ur": "دماغی پلاسٹیسٹی کے بارے میں سوچیں",
       "timeLimit": 20
     },
-    
     {
       "id": 100,
       "type": "mcq",
@@ -1848,18 +1845,6 @@
       "timeLimit": 25
     },
     {
-      "id": 125,
-      "type": "true-false",
-      "question": "The human body has more bacterial cells than human cells.",
-      "question_ur": "انسانی جسم میں انسانی خلیوں سے زیادہ بیکٹیریل خلیے ہوتے ہیں۔",
-      "correctAnswer": true,
-      "explanation": "The human microbiome contains about 10 times more bacterial cells than human cells.",
-      "explanation_ur": "انسانی مائکرو بایوم میں انسانی خلیوں سے تقریباً 10 گنا زیادہ بیکٹیریل خلیے ہوتے ہیں۔",
-      "hint": "Think about gut bacteria",
-      "hint_ur": "آنتوں کے بیکٹیریا کے بارے میں سوچیں",
-      "timeLimit": 20
-    },
-    {
       "id": 126,
       "type": "mcq",
       "question": "What is the name of the structure that connects muscles to bones?",
@@ -2211,7 +2196,6 @@
       "hint_ur": "آبی ممالیہ کے بارے میں سوچیں",
       "timeLimit": 20
     },
-    
     {
       "id": 150,
       "type": "mcq",
@@ -2414,22 +2398,6 @@
       "explanation_ur": "بیکٹیریا میں جھلی سے بند عضویات اور مرکزہ نہیں ہوتا، جو انہیں پروکیریوٹک جاندار بناتا ہے۔",
       "hint": "Think about cell organization",
       "hint_ur": "خلیے کی تنظیم کے بارے میں سوچیں",
-      "timeLimit": 20
-    },
-    {
-      "id": 164,
-      "type": "mcq",
-      "question": "What is the name of the process by which plants release water vapor?",
-      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے پانی کے بخارات خارج کرتے ہیں؟",
-      "options": {
-        "en": ["Photosynthesis", "Respiration", "Transpiration", "Germination"],
-        "ur": ["فوٹو سنتھیسس", "سانس لینا", "ٹرانسپیریشن", "انکرن"]
-      },
-      "correctAnswer": 2,
-      "explanation": "Transpiration is the evaporation of water from plant surfaces, mainly through stomata in leaves.",
-      "explanation_ur": "ٹرانسپیریشن پودوں کی سطحوں سے پانی کے بخارات بننے کا عمل ہے، بنیادی طور پر پتوں میں موجود سٹوماٹا کے ذریعے۔",
-      "hint": "Think about plant 'sweating'",
-      "hint_ur": "پودوں کے 'پسینے' کے بارے میں سوچیں",
       "timeLimit": 20
     },
     {
@@ -2681,22 +2649,6 @@
       "timeLimit": 20
     },
     {
-      "id": 182,
-      "type": "mcq",
-      "question": "What is the name of the structure where photosynthesis occurs in plant cells?",
-      "question_ur": "اس ڈھانچے کا نام کیا ہے جہاں پودوں کے خلیوں میں فوٹو سنتھیسس ہوتا ہے؟",
-      "options": {
-        "en": ["Mitochondria", "Chloroplast", "Nucleus", "Vacuole"],
-        "ur": ["مائٹوکونڈریا", "کلوروپلاسٹ", "مرکزہ", "خلیے کا خالیہ"]
-      },
-      "correctAnswer": 1,
-      "explanation": "Chloroplasts contain chlorophyll and are the sites of photosynthesis in plant cells.",
-      "explanation_ur": "کلوروپلاسٹ میں کلوروفیل ہوتا ہے اور یہ پودوں کے خلیوں میں فوٹو سنتھیسس کے مقامات ہیں۔",
-      "hint": "Think about green organelles",
-      "hint_ur": "سبز عضویات کے بارے میں سوچیں",
-      "timeLimit": 20
-    },
-    {
       "id": 183,
       "type": "mcq",
       "question": "Which of these is not a component of the human respiratory system?",
@@ -2799,18 +2751,6 @@
       "hint": "Think about digestive sequence",
       "hint_ur": "ہاضمے کے تسلسل کے بارے میں سوچیں",
       "timeLimit": 25
-    },
-    {
-      "id": 190,
-      "type": "true-false",
-      "question": "All reptiles are cold-blooded.",
-      "question_ur": "تمام رینگنے والے جانور خون کے سرد ہوتے ہیں۔",
-      "correctAnswer": true,
-      "explanation": "Reptiles are ectothermic (cold-blooded), relying on external heat sources to regulate body temperature.",
-      "explanation_ur": "رینگنے والے جانور ایکٹوتھرمک (سرد خون والے) ہوتے ہیں، جو جسم کے درجہ حرارت کو کنٹرول کرنے کے لیے بیرونی حرارت کے ذرائع پر انحصار کرتے ہیں۔",
-      "hint": "Think about temperature regulation",
-      "hint_ur": "درجہ حرارت کے ضابطہ کے بارے میں سوچیں",
-      "timeLimit": 20
     },
     {
       "id": 191,
@@ -2944,7 +2884,6 @@
       "hint_ur": "آبی ممالیہ کے بارے میں سوچیں",
       "timeLimit": 20
     },
-    
     {
       "id": 200,
       "type": "mcq",
@@ -3147,22 +3086,6 @@
       "explanation_ur": "بہت سے بیکٹیریا فائدہ مند ہوتے ہیں، بشمول آنتوں کے مائکروبائیوٹا جو ہاضمے میں مدد کرتے ہیں اور وٹامنز پیدا کرتے ہیں۔",
       "hint": "Think about probiotics",
       "hint_ur": "پروبائیوٹکس کے بارے میں سوچیں",
-      "timeLimit": 20
-    },
-    {
-      "id": 214,
-      "type": "mcq",
-      "question": "What is the name of the process by which plants take in water through their roots?",
-      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے اپنی جڑوں کے ذریعے پانی لیتے ہیں؟",
-      "options": {
-        "en": ["Transpiration", "Photosynthesis", "Osmosis", "Respiration"],
-        "ur": ["ٹرانسپیریشن", "فوٹو سنتھیسس", "اوسموسس", "سانس لینا"]
-      },
-      "correctAnswer": 2,
-      "explanation": "Osmosis allows water to move from soil into root hairs through semi-permeable membranes.",
-      "explanation_ur": "اوسموسس پانی کو نیم پارگدار جھلیوں کے ذریعے مٹی سے جڑ کے بالوں میں منتقل ہونے دیتا ہے۔",
-      "hint": "Think about water movement",
-      "hint_ur": "پانی کی حرکت کے بارے میں سوچیں",
       "timeLimit": 20
     },
     {
@@ -3370,22 +3293,6 @@
       "timeLimit": 20
     },
     {
-      "id": 229,
-      "type": "mcq",
-      "question": "What is the name of the process by which plants respond to gravity?",
-      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے کشش ثقل کے جواب دیتے ہیں؟",
-      "options": {
-        "en": ["Phototropism", "Gravitropism", "Thigmotropism", "Hydrotropism"],
-        "ur": ["فوٹوٹروپزم", "گریویٹروپزم", "تھگموٹروپزم", "ہائیڈروٹروپزم"]
-      },
-      "correctAnswer": 1,
-      "explanation": "Gravitropism causes roots to grow downward (positive) and stems upward (negative) in response to gravity.",
-      "explanation_ur": "گریویٹروپزم جڑوں کو نیچے کی طرف (مثبت) اور تنوں کو کشش ثقل کے جواب میں اوپر کی طرف (منفی) بڑھنے کا سبب بنتا ہے۔",
-      "hint": "Think about root growth direction",
-      "hint_ur": "جڑ کی نشوونما کی سمت کے بارے میں سوچیں",
-      "timeLimit": 20
-    },
-    {
       "id": 230,
       "type": "mcq",
       "question": "Which of these is not a type of plant hormone?",
@@ -3455,22 +3362,6 @@
       "explanation_ur": "صرف اینجیوسپرمز (پھولدار پودے) پھول پیدا کرتے ہیں۔ جمنا سپرمز، فرنز، موسز اور طحالب پھول پیدا نہیں کرتے۔",
       "hint": "Think about non-flowering plants",
       "hint_ur": "غیر پھولدار پودوں کے بارے میں سوچیں",
-      "timeLimit": 20
-    },
-    {
-      "id": 235,
-      "type": "mcq",
-      "question": "What is the name of the process by which cells engulf liquid particles?",
-      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے خلیے مائع ذرات نگل لیتے ہیں؟",
-      "options": {
-        "en": ["Phagocytosis", "Pinocytosis", "Exocytosis", "Osmosis"],
-        "ur": ["فیگوسائٹوسس", "پنوسائٹوسس", "ایکسوسائٹوسس", "اوسموسس"]
-      },
-      "correctAnswer": 1,
-      "explanation": "Pinocytosis ('cell drinking') is the uptake of extracellular fluid containing dissolved substances.",
-      "explanation_ur": "پنوسائٹوسس ('خلیے کا پینا') تحلیل شدہ مادوں پر مشتمل خارج خلوی سیال کا اپٹیک ہے۔",
-      "hint": "Think about liquid uptake",
-      "hint_ur": "مائع اپٹیک کے بارے میں سوچیں",
       "timeLimit": 20
     },
     {
@@ -3634,38 +3525,6 @@
       "timeLimit": 20
     },
     {
-      "id": 247,
-      "type": "mcq",
-      "question": "What is the name of the process by which plants lose leaves seasonally?",
-      "question_ur": "اس عمل کا نام کیا ہے جس کے ذریعے پودے موسمی طور پر پتے کھوتے ہیں؟",
-      "options": {
-        "en": ["Abscission", "Transpiration", "Senescence", "Dormancy"],
-        "ur": ["ایجیژن", "ٹرانسپیریشن", "بڑھاپا", "خوابیدگی"]
-      },
-      "correctAnswer": 0,
-      "explanation": "Abscission involves hormonal changes that create a separation layer at the base of leaves/petals/fruits.",
-      "explanation_ur": "ایجیژن میں ہارمونل تبدیلیاں شامل ہوتی ہیں جو پتوں/پنکھڑیوں/پھلوں کے نیچے ایک علیحدہ پرت بناتی ہیں۔",
-      "hint": "Think about autumn leaf drop",
-      "hint_ur": "خزاں میں پتے گرنے کے بارے میں سوچیں",
-      "timeLimit": 20
-    },
-    {
-      "id": 248,
-      "type": "mcq",
-      "question": "Which of these is not a type of plant propagation?",
-      "question_ur": "ان میں سے کون سا پودوں کی افزائش کی قسم نہیں ہے؟",
-      "options": {
-        "en": ["Seeds", "Cuttings", "Grafting", "Transpiration"],
-        "ur": ["بیج", "کٹنگز", "گرفٹنگ", "ٹرانسپیریشن"]
-      },
-      "correctAnswer": 3,
-      "explanation": "Transpiration is water movement through plants, not a method of reproduction or propagation.",
-      "explanation_ur": "ٹرانسپیریشن پودوں کے ذریعے پانی کی حرکت ہے، تولید یا افزائش کا طریقہ نہیں۔",
-      "hint": "Think about plant reproduction",
-      "hint_ur": "پودوں کی تولید کے بارے میں سوچیں",
-      "timeLimit": 25
-    },
-    {
       "id": 249,
       "type": "true-false",
       "question": "All mammals have sweat glands.",
@@ -3677,6 +3536,5 @@
       "hint_ur": "سمندری ممالیہ کے بارے میں سوچیں",
       "timeLimit": 20
     }
-
   ]
 }

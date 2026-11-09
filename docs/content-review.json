@@ -1,0 +1,3075 @@
+{
+  "policy": "Remove exact complete-question duplicates only, ignoring ID. Preserve all differing versions.",
+  "files": [
+    {
+      "file": "data/questions/ai_robotics.json",
+      "original": 189,
+      "remaining": 189,
+      "removed": [],
+      "variants": [
+        {
+          "question": "Which programming language is most popular for AI development?",
+          "ids": [
+            5,
+            70,
+            165
+          ],
+          "differingFields": [
+            "question_ur",
+            "options",
+            "correctAnswer",
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 5,
+              "answer": "Python"
+            },
+            {
+              "id": 70,
+              "answer": "Python"
+            },
+            {
+              "id": 165,
+              "answer": "Python"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "AI cannot be used in agriculture.",
+          "ids": [
+            19,
+            95,
+            168
+          ],
+          "differingFields": [
+            "question_ur",
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 19,
+              "answer": "false"
+            },
+            {
+              "id": 95,
+              "answer": "false"
+            },
+            {
+              "id": 168,
+              "answer": "false"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the main advantage of collaborative robots (cobots)?",
+          "ids": [
+            28,
+            90
+          ],
+          "differingFields": [
+            "question_ur",
+            "options",
+            "correctAnswer",
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 28,
+              "answer": "They work alongside humans safely"
+            },
+            {
+              "id": 90,
+              "answer": "They work safely alongside humans"
+            }
+          ],
+          "answerConflict": true
+        },
+        {
+          "question": "What does 'ASIMO', Honda's humanoid robot, stand for?",
+          "ids": [
+            120,
+            121
+          ],
+          "differingFields": [
+            "question_ur",
+            "options",
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 120,
+              "answer": "Advanced Step in Innovative Mobility"
+            },
+            {
+              "id": 121,
+              "answer": "Advanced Step in Innovative Mobility"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Machine learning is a subset of artificial intelligence.",
+          "ids": [
+            144,
+            184
+          ],
+          "differingFields": [
+            "question_ur",
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 144,
+              "answer": "true"
+            },
+            {
+              "id": 184,
+              "answer": "true"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What does 'SLAM' stand for in robotics?",
+          "ids": [
+            157,
+            190
+          ],
+          "differingFields": [
+            "question_ur",
+            "options",
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 157,
+              "answer": "Simultaneous Localization and Mapping"
+            },
+            {
+              "id": 190,
+              "answer": "Simultaneous Localization and Mapping"
+            }
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/algebra.json",
+      "original": 109,
+      "remaining": 109,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/ancient_civilizations.json",
+      "original": 108,
+      "remaining": 108,
+      "removed": [],
+      "variants": [
+        {
+          "question": "The ancient city of Ur was an important center of which civilization?",
+          "ids": [
+            61,
+            108
+          ],
+          "differingFields": [
+            "explanation"
+          ],
+          "answers": [
+            {
+              "id": 61,
+              "answer": "Sumerian"
+            },
+            {
+              "id": 108,
+              "answer": "Sumerian"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "The ancient city of Susa was an important center of which empire?",
+          "ids": [
+            65,
+            102
+          ],
+          "differingFields": [
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 65,
+              "answer": "Persian"
+            },
+            {
+              "id": 102,
+              "answer": "Persian"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which ancient civilization built the city of Copán?",
+          "ids": [
+            91,
+            103
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 91,
+              "answer": "Maya"
+            },
+            {
+              "id": 103,
+              "answer": "Maya"
+            }
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/animals.json",
+      "original": 30,
+      "remaining": 30,
+      "removed": [],
+      "variants": [
+        {
+          "question": "Which animal is known as the King of the Jungle?",
+          "ids": [
+            1,
+            11,
+            21
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 1,
+              "answer": "Lion"
+            },
+            {
+              "id": 11,
+              "answer": "Lion"
+            },
+            {
+              "id": 21,
+              "answer": "Lion"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "A dolphin is a mammal.",
+          "ids": [
+            2,
+            12,
+            22
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 2,
+              "answer": "true"
+            },
+            {
+              "id": 12,
+              "answer": "true"
+            },
+            {
+              "id": 22,
+              "answer": "true"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which bird is known for its ability to mimic human speech?",
+          "ids": [
+            3,
+            13,
+            23
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 3,
+              "answer": "Parrot"
+            },
+            {
+              "id": 13,
+              "answer": "Parrot"
+            },
+            {
+              "id": 23,
+              "answer": "Parrot"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Sharks are mammals.",
+          "ids": [
+            4,
+            14,
+            24
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 4,
+              "answer": "false"
+            },
+            {
+              "id": 14,
+              "answer": "false"
+            },
+            {
+              "id": 24,
+              "answer": "false"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which animal is known for having a long neck?",
+          "ids": [
+            5,
+            15,
+            25
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 5,
+              "answer": "Giraffe"
+            },
+            {
+              "id": 15,
+              "answer": "Giraffe"
+            },
+            {
+              "id": 25,
+              "answer": "Giraffe"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Bats are blind.",
+          "ids": [
+            6,
+            16,
+            26
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 6,
+              "answer": "false"
+            },
+            {
+              "id": 16,
+              "answer": "false"
+            },
+            {
+              "id": 26,
+              "answer": "false"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which is the largest land animal?",
+          "ids": [
+            7,
+            17,
+            27
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 7,
+              "answer": "Elephant"
+            },
+            {
+              "id": 17,
+              "answer": "Elephant"
+            },
+            {
+              "id": 27,
+              "answer": "Elephant"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Penguins can fly.",
+          "ids": [
+            8,
+            18,
+            28
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 8,
+              "answer": "false"
+            },
+            {
+              "id": 18,
+              "answer": "false"
+            },
+            {
+              "id": 28,
+              "answer": "false"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which animal is the fastest land animal?",
+          "ids": [
+            9,
+            19,
+            29
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 9,
+              "answer": "Cheetah"
+            },
+            {
+              "id": 19,
+              "answer": "Cheetah"
+            },
+            {
+              "id": 29,
+              "answer": "Cheetah"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Camels can store water in their humps.",
+          "ids": [
+            10,
+            20,
+            30
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 10,
+              "answer": "false"
+            },
+            {
+              "id": 20,
+              "answer": "false"
+            },
+            {
+              "id": 30,
+              "answer": "false"
+            }
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/arithmetic.json",
+      "original": 105,
+      "remaining": 105,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/arts_culture.json",
+      "original": 99,
+      "remaining": 99,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/biographies.json",
+      "original": 30,
+      "remaining": 30,
+      "removed": [],
+      "variants": [
+        {
+          "question": "Who was the first President of the United States?",
+          "ids": [
+            1,
+            11,
+            21
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 1,
+              "answer": "George Washington"
+            },
+            {
+              "id": 11,
+              "answer": "George Washington"
+            },
+            {
+              "id": 21,
+              "answer": "George Washington"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Mahatma Gandhi was born in South Africa.",
+          "ids": [
+            2,
+            12,
+            22
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 2,
+              "answer": "false"
+            },
+            {
+              "id": 12,
+              "answer": "false"
+            },
+            {
+              "id": 22,
+              "answer": "false"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who was known as the Iron Lady?",
+          "ids": [
+            3,
+            13,
+            23
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 3,
+              "answer": "Margaret Thatcher"
+            },
+            {
+              "id": 13,
+              "answer": "Margaret Thatcher"
+            },
+            {
+              "id": 23,
+              "answer": "Margaret Thatcher"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "William Shakespeare wrote 'The Odyssey'.",
+          "ids": [
+            4,
+            14,
+            24
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 4,
+              "answer": "false"
+            },
+            {
+              "id": 14,
+              "answer": "false"
+            },
+            {
+              "id": 24,
+              "answer": "false"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who was the first woman to win a Nobel Prize?",
+          "ids": [
+            5,
+            15,
+            25
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 5,
+              "answer": "Marie Curie"
+            },
+            {
+              "id": 15,
+              "answer": "Marie Curie"
+            },
+            {
+              "id": 25,
+              "answer": "Marie Curie"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Albert Einstein developed the theory of relativity.",
+          "ids": [
+            6,
+            16,
+            26
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 6,
+              "answer": "true"
+            },
+            {
+              "id": 16,
+              "answer": "true"
+            },
+            {
+              "id": 26,
+              "answer": "true"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who discovered penicillin?",
+          "ids": [
+            7,
+            17,
+            27
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 7,
+              "answer": "Alexander Fleming"
+            },
+            {
+              "id": 17,
+              "answer": "Alexander Fleming"
+            },
+            {
+              "id": 27,
+              "answer": "Alexander Fleming"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Neil Armstrong was the first man on the Moon.",
+          "ids": [
+            8,
+            18,
+            28
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 8,
+              "answer": "true"
+            },
+            {
+              "id": 18,
+              "answer": "true"
+            },
+            {
+              "id": 28,
+              "answer": "true"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who painted the Mona Lisa?",
+          "ids": [
+            9,
+            19,
+            29
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 9,
+              "answer": "Leonardo da Vinci"
+            },
+            {
+              "id": 19,
+              "answer": "Leonardo da Vinci"
+            },
+            {
+              "id": 29,
+              "answer": "Leonardo da Vinci"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Mother Teresa won the Nobel Peace Prize.",
+          "ids": [
+            10,
+            20,
+            30
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 10,
+              "answer": "true"
+            },
+            {
+              "id": 20,
+              "answer": "true"
+            },
+            {
+              "id": 30,
+              "answer": "true"
+            }
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/biology.json",
+      "original": 240,
+      "remaining": 240,
+      "removed": [],
+      "variants": [
+        {
+          "question": "Which part of the brain controls balance and coordination?",
+          "ids": [
+            33,
+            64
+          ],
+          "differingFields": [
+            "options",
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 33,
+              "answer": "Cerebellum"
+            },
+            {
+              "id": 64,
+              "answer": "Cerebellum"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All bacteria are harmful to humans.",
+          "ids": [
+            54,
+            213
+          ],
+          "differingFields": [
+            "question_ur",
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 54,
+              "answer": "false"
+            },
+            {
+              "id": 213,
+              "answer": "false"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a function of the liver?",
+          "ids": [
+            76,
+            203
+          ],
+          "differingFields": [
+            "options",
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 76,
+              "answer": "Oxygen exchange"
+            },
+            {
+              "id": 203,
+              "answer": "Oxygen transport"
+            }
+          ],
+          "answerConflict": true
+        },
+        {
+          "question": "All birds can fly.",
+          "ids": [
+            78,
+            175,
+            225
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 78,
+              "answer": "false"
+            },
+            {
+              "id": 175,
+              "answer": "false"
+            },
+            {
+              "id": 225,
+              "answer": "false"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a type of RNA?",
+          "ids": [
+            79,
+            200
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 79,
+              "answer": "zRNA"
+            },
+            {
+              "id": 200,
+              "answer": "zRNA"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the process by which cells engulf large particles?",
+          "ids": [
+            98,
+            208
+          ],
+          "differingFields": [
+            "options",
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 98,
+              "answer": "Phagocytosis"
+            },
+            {
+              "id": 208,
+              "answer": "Phagocytosis"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All animals have a backbone.",
+          "ids": [
+            104,
+            204
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 104,
+              "answer": "false"
+            },
+            {
+              "id": 204,
+              "answer": "false"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the pigment that makes carrots orange?",
+          "ids": [
+            108,
+            205
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 108,
+              "answer": "Beta-carotene"
+            },
+            {
+              "id": 205,
+              "answer": "Beta-carotene"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the protein that makes up hair and nails?",
+          "ids": [
+            111,
+            211
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 111,
+              "answer": "Keratin"
+            },
+            {
+              "id": 211,
+              "answer": "Keratin"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a function of the skeletal system?",
+          "ids": [
+            112,
+            212
+          ],
+          "differingFields": [
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 112,
+              "answer": "Hormone production"
+            },
+            {
+              "id": 212,
+              "answer": "Hormone production"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a part of the human ear?",
+          "ids": [
+            115,
+            215
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 115,
+              "answer": "Retina"
+            },
+            {
+              "id": 215,
+              "answer": "Retina"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All plants perform photosynthesis.",
+          "ids": [
+            116,
+            207
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 116,
+              "answer": "false"
+            },
+            {
+              "id": 207,
+              "answer": "false"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the process by which glucose is broken down for energy?",
+          "ids": [
+            117,
+            217
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 117,
+              "answer": "Respiration"
+            },
+            {
+              "id": 217,
+              "answer": "Respiration"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a type of plant tissue?",
+          "ids": [
+            118,
+            209
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 118,
+              "answer": "Neural"
+            },
+            {
+              "id": 209,
+              "answer": "Neural"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the male reproductive part of a flower?",
+          "ids": [
+            120,
+            170,
+            220
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 120,
+              "answer": "Stamen"
+            },
+            {
+              "id": 170,
+              "answer": "Stamen"
+            },
+            {
+              "id": 220,
+              "answer": "Stamen"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a function of the stomach?",
+          "ids": [
+            121,
+            221
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 121,
+              "answer": "Nutrient absorption"
+            },
+            {
+              "id": 221,
+              "answer": "Nutrient absorption"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All mammals have hair at some point in their life.",
+          "ids": [
+            122,
+            222
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 122,
+              "answer": "true"
+            },
+            {
+              "id": 222,
+              "answer": "true"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the process by which water moves across a membrane?",
+          "ids": [
+            123,
+            173,
+            223
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 123,
+              "answer": "Osmosis"
+            },
+            {
+              "id": 173,
+              "answer": "Osmosis"
+            },
+            {
+              "id": 223,
+              "answer": "Osmosis"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a type of symbiotic relationship?",
+          "ids": [
+            124,
+            174,
+            224
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 124,
+              "answer": "Autotrophism"
+            },
+            {
+              "id": 174,
+              "answer": "Autotrophism"
+            },
+            {
+              "id": 224,
+              "answer": "Autotrophism"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the structure that connects muscles to bones?",
+          "ids": [
+            126,
+            176,
+            226
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 126,
+              "answer": "Tendon"
+            },
+            {
+              "id": 176,
+              "answer": "Tendon"
+            },
+            {
+              "id": 226,
+              "answer": "Tendon"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a function of the skin?",
+          "ids": [
+            127,
+            177,
+            227
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 127,
+              "answer": "Oxygen transport"
+            },
+            {
+              "id": 177,
+              "answer": "Oxygen transport"
+            },
+            {
+              "id": 227,
+              "answer": "Oxygen transport"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the process by which plants respond to gravity?",
+          "ids": [
+            129,
+            179
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 129,
+              "answer": "Gravitropism"
+            },
+            {
+              "id": 179,
+              "answer": "Gravitropism"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a type of plant hormone?",
+          "ids": [
+            130,
+            180,
+            230
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 130,
+              "answer": "Insulin"
+            },
+            {
+              "id": 180,
+              "answer": "Insulin"
+            },
+            {
+              "id": 230,
+              "answer": "Insulin"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the structure where photosynthesis occurs in plant cells?",
+          "ids": [
+            132,
+            232
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 132,
+              "answer": "Chloroplast"
+            },
+            {
+              "id": 232,
+              "answer": "Chloroplast"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a component of the human respiratory system?",
+          "ids": [
+            133,
+            183,
+            233
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 133,
+              "answer": "Esophagus"
+            },
+            {
+              "id": 183,
+              "answer": "Esophagus"
+            },
+            {
+              "id": 233,
+              "answer": "Esophagus"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All plants produce flowers.",
+          "ids": [
+            134,
+            234
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 134,
+              "answer": "false"
+            },
+            {
+              "id": 234,
+              "answer": "false"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the process by which cells engulf liquid particles?",
+          "ids": [
+            135,
+            185
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 135,
+              "answer": "Pinocytosis"
+            },
+            {
+              "id": 185,
+              "answer": "Pinocytosis"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a type of plant root system?",
+          "ids": [
+            136,
+            186,
+            236
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 136,
+              "answer": "Vascular"
+            },
+            {
+              "id": 186,
+              "answer": "Vascular"
+            },
+            {
+              "id": 236,
+              "answer": "Vascular"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the female reproductive part of a flower?",
+          "ids": [
+            138,
+            188,
+            238
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 138,
+              "answer": "Pistil"
+            },
+            {
+              "id": 188,
+              "answer": "Pistil"
+            },
+            {
+              "id": 238,
+              "answer": "Pistil"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a function of the large intestine?",
+          "ids": [
+            139,
+            171,
+            189,
+            239
+          ],
+          "differingFields": [
+            "options",
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 139,
+              "answer": "Nutrient digestion"
+            },
+            {
+              "id": 171,
+              "answer": "Protein digestion"
+            },
+            {
+              "id": 189,
+              "answer": "Protein digestion"
+            },
+            {
+              "id": 239,
+              "answer": "Protein digestion"
+            }
+          ],
+          "answerConflict": true
+        },
+        {
+          "question": "All reptiles are cold-blooded.",
+          "ids": [
+            140,
+            240
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 140,
+              "answer": "true"
+            },
+            {
+              "id": 240,
+              "answer": "true"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the process by which plants respond to touch?",
+          "ids": [
+            141,
+            191,
+            241
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 141,
+              "answer": "Thigmotropism"
+            },
+            {
+              "id": 191,
+              "answer": "Thigmotropism"
+            },
+            {
+              "id": 241,
+              "answer": "Thigmotropism"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a type of plant adaptation to dry environments?",
+          "ids": [
+            142,
+            192,
+            242
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 142,
+              "answer": "Broad leaves"
+            },
+            {
+              "id": 192,
+              "answer": "Broad leaves"
+            },
+            {
+              "id": 242,
+              "answer": "Broad leaves"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the structure that connects bones to other bones?",
+          "ids": [
+            144,
+            194,
+            244
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 144,
+              "answer": "Ligament"
+            },
+            {
+              "id": 194,
+              "answer": "Ligament"
+            },
+            {
+              "id": 244,
+              "answer": "Ligament"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a function of the spleen?",
+          "ids": [
+            145,
+            195,
+            245
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 145,
+              "answer": "Produce bile"
+            },
+            {
+              "id": 195,
+              "answer": "Produce bile"
+            },
+            {
+              "id": 245,
+              "answer": "Produce bile"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the process by which plants lose leaves seasonally?",
+          "ids": [
+            147,
+            197
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint"
+          ],
+          "answers": [
+            {
+              "id": 147,
+              "answer": "Abscission"
+            },
+            {
+              "id": 197,
+              "answer": "Abscission"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a type of plant propagation?",
+          "ids": [
+            148,
+            198
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 148,
+              "answer": "Transpiration"
+            },
+            {
+              "id": 198,
+              "answer": "Transpiration"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All mammals have sweat glands.",
+          "ids": [
+            149,
+            199,
+            249
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 149,
+              "answer": "false"
+            },
+            {
+              "id": 199,
+              "answer": "false"
+            },
+            {
+              "id": 249,
+              "answer": "false"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the name of the process by which plants grow toward light?",
+          "ids": [
+            167,
+            202
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 167,
+              "answer": "Phototropism"
+            },
+            {
+              "id": 202,
+              "answer": "Phototropism"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a type of plant vascular tissue?",
+          "ids": [
+            168,
+            218
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 168,
+              "answer": "Epidermis"
+            },
+            {
+              "id": 218,
+              "answer": "Epidermis"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All animals have bilateral symmetry.",
+          "ids": [
+            169,
+            219
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 169,
+              "answer": "false"
+            },
+            {
+              "id": 219,
+              "answer": "false"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All amphibians live both in water and on land.",
+          "ids": [
+            178,
+            228
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 178,
+              "answer": "false"
+            },
+            {
+              "id": 228,
+              "answer": "false"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All animals have a complete digestive system with two openings.",
+          "ids": [
+            181,
+            231
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 181,
+              "answer": "false"
+            },
+            {
+              "id": 231,
+              "answer": "false"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All animals have a nervous system.",
+          "ids": [
+            187,
+            237
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 187,
+              "answer": "false"
+            },
+            {
+              "id": 237,
+              "answer": "false"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All birds have feathers.",
+          "ids": [
+            193,
+            243
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 193,
+              "answer": "true"
+            },
+            {
+              "id": 243,
+              "answer": "true"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All amphibians undergo metamorphosis.",
+          "ids": [
+            196,
+            246
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 196,
+              "answer": "false"
+            },
+            {
+              "id": 246,
+              "answer": "false"
+            }
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/birds.json",
+      "original": 95,
+      "remaining": 95,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/capitals.json",
+      "original": 96,
+      "remaining": 96,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/chemistry.json",
+      "original": 100,
+      "remaining": 100,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/computers.json",
+      "original": 102,
+      "remaining": 102,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/cyber_safety.json",
+      "original": 96,
+      "remaining": 96,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/famous_poets.json",
+      "original": 2,
+      "remaining": 2,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/general_knowledge.json",
+      "original": 111,
+      "remaining": 111,
+      "removed": [],
+      "variants": [
+        {
+          "question": "Which planet is known as the Red Planet?",
+          "ids": [
+            3,
+            206
+          ],
+          "differingFields": [
+            "question_ur",
+            "options",
+            "explanation",
+            "explanation_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 3,
+              "answer": "Mars"
+            },
+            {
+              "id": 206,
+              "answer": "Mars"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which country is home to the kangaroo?",
+          "ids": [
+            6,
+            210
+          ],
+          "differingFields": [
+            "options",
+            "hint",
+            "hint_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 6,
+              "answer": "Australia"
+            },
+            {
+              "id": 210,
+              "answer": "Australia"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "The Nile is the longest river in the world.",
+          "ids": [
+            7,
+            217
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 7,
+              "answer": "true"
+            },
+            {
+              "id": 217,
+              "answer": "true"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is not a primary color?",
+          "ids": [
+            9,
+            214
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 9,
+              "answer": "Green"
+            },
+            {
+              "id": 214,
+              "answer": "Green"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Lightning never strikes the same place twice.",
+          "ids": [
+            12,
+            209
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 12,
+              "answer": "false"
+            },
+            {
+              "id": 209,
+              "answer": "false"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which planet is closest to the Sun?",
+          "ids": [
+            16,
+            216
+          ],
+          "differingFields": [
+            "question_ur",
+            "options",
+            "explanation",
+            "explanation_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 16,
+              "answer": "Mercury"
+            },
+            {
+              "id": 216,
+              "answer": "Mercury"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the largest mammal in the world?",
+          "ids": [
+            18,
+            208
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 18,
+              "answer": "Blue Whale"
+            },
+            {
+              "id": 208,
+              "answer": "Blue Whale"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the largest desert in the world?",
+          "ids": [
+            33,
+            218
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 33,
+              "answer": "Antarctic"
+            },
+            {
+              "id": 218,
+              "answer": "Antarctic"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the largest organ in the human body?",
+          "ids": [
+            58,
+            212
+          ],
+          "differingFields": [
+            "options",
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 58,
+              "answer": "Skin"
+            },
+            {
+              "id": 212,
+              "answer": "Skin"
+            }
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/history.json",
+      "original": 145,
+      "remaining": 145,
+      "removed": [],
+      "variants": [
+        {
+          "question": "The 'Boston Tea Party' was a protest against which country's tea tax?",
+          "ids": [
+            9,
+            134
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 9,
+              "answer": "Great Britain"
+            },
+            {
+              "id": 134,
+              "answer": "Great Britain"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "The 'Fall of the Aztec Empire' was primarily caused by the arrival of which European power?",
+          "ids": [
+            136,
+            148
+          ],
+          "differingFields": [
+            "options",
+            "correctAnswer"
+          ],
+          "answers": [
+            {
+              "id": 136,
+              "answer": "The Spanish"
+            },
+            {
+              "id": 148,
+              "answer": "The Spanish"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "The 'Fall of the Inca Empire' was primarily caused by the arrival of which European power?",
+          "ids": [
+            143,
+            155
+          ],
+          "differingFields": [
+            "question_ur"
+          ],
+          "answers": [
+            {
+              "id": 143,
+              "answer": "The Spanish"
+            },
+            {
+              "id": 155,
+              "answer": "The Spanish"
+            }
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/islamic_history.json",
+      "original": 200,
+      "remaining": 200,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/islamic_studies.json",
+      "original": 107,
+      "remaining": 107,
+      "removed": [],
+      "variants": [
+        {
+          "question": "Which companion was the first martyr in Islam?",
+          "ids": [
+            18,
+            103
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 18,
+              "answer": "Sumayyah bint Khayyat (RA)"
+            },
+            {
+              "id": 103,
+              "answer": "Sumayyah bint Khayyat (RA)"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which prophet is known as 'Khalilullah' (Friend of Allah)?",
+          "ids": [
+            21,
+            85
+          ],
+          "differingFields": [
+            "options",
+            "correctAnswer",
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 21,
+              "answer": "Prophet Ibrahim (AS)"
+            },
+            {
+              "id": 85,
+              "answer": "Prophet Ibrahim (AS)"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "How many times is the Basmala ('Bismillah...') repeated in the Quran?",
+          "ids": [
+            37,
+            107
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 37,
+              "answer": "114"
+            },
+            {
+              "id": 107,
+              "answer": "114"
+            }
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/kids_special.json",
+      "original": 200,
+      "remaining": 200,
+      "removed": [],
+      "variants": [
+        {
+          "question": "What is the opposite of 'hot'?",
+          "ids": [
+            13,
+            199
+          ],
+          "differingFields": [
+            "options",
+            "correctAnswer",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 13,
+              "answer": "Cold"
+            },
+            {
+              "id": 199,
+              "answer": "Cold"
+            }
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/life_skills.json",
+      "original": 94,
+      "remaining": 94,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/math.json",
+      "original": 198,
+      "remaining": 198,
+      "removed": [],
+      "variants": [
+        {
+          "question": "What is the value of 5! (5 factorial)?",
+          "ids": [
+            75,
+            175
+          ],
+          "differingFields": [
+            "options",
+            "correctAnswer",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 75,
+              "answer": "120"
+            },
+            {
+              "id": 175,
+              "answer": "120"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the Roman numeral for 50?",
+          "ids": [
+            77,
+            177
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 77,
+              "answer": "L"
+            },
+            {
+              "id": 177,
+              "answer": "L"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "All integers are whole numbers.",
+          "ids": [
+            79,
+            179
+          ],
+          "differingFields": [
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 79,
+              "answer": "false"
+            },
+            {
+              "id": 179,
+              "answer": "false"
+            }
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/sahabah.json",
+      "original": 56,
+      "remaining": 56,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/time_zones.json",
+      "original": 67,
+      "remaining": 67,
+      "removed": [],
+      "variants": []
+    },
+    {
+      "file": "data/questions/urdu_poetry.json",
+      "original": 218,
+      "remaining": 218,
+      "removed": [],
+      "variants": [
+        {
+          "question": "Who wrote the famous ghazal 'Ranjish Hi Sahi'?",
+          "ids": [
+            3,
+            205
+          ],
+          "differingFields": [
+            "question",
+            "options",
+            "correctAnswer",
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 3,
+              "answer": "Ahmed Faraz"
+            },
+            {
+              "id": 205,
+              "answer": "Ahmed Faraz"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who is known as 'Khuda-e-Sukhan' (God of Poetry)?",
+          "ids": [
+            13,
+            169
+          ],
+          "differingFields": [
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 13,
+              "answer": "Mir Taqi Mir"
+            },
+            {
+              "id": 169,
+              "answer": "Mir Taqi Mir"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which poet wrote 'Dil-e-Nadaan Tujhe Hua Kya Hai'?",
+          "ids": [
+            18,
+            168
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 18,
+              "answer": "Mirza Ghalib"
+            },
+            {
+              "id": 168,
+              "answer": "Mirza Ghalib"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who is known for the couplet 'Hazaron khwahishen aisi ke har khwahish pe dam nikle'?",
+          "ids": [
+            19,
+            161
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 19,
+              "answer": "Mirza Ghalib"
+            },
+            {
+              "id": 161,
+              "answer": "Mirza Ghalib"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who wrote 'Kulliyat-e-Faiz'?",
+          "ids": [
+            45,
+            119
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 45,
+              "answer": "Faiz Ahmed Faiz"
+            },
+            {
+              "id": 119,
+              "answer": "Faiz Ahmed Faiz"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who wrote 'Kulliyat-e-Daagh'?",
+          "ids": [
+            69,
+            125
+          ],
+          "differingFields": [
+            "options",
+            "explanation",
+            "explanation_ur"
+          ],
+          "answers": [
+            {
+              "id": 69,
+              "answer": "Daagh Dehlvi"
+            },
+            {
+              "id": 125,
+              "answer": "Daagh Dehlvi"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who wrote 'Kulliyat-e-Firaq'?",
+          "ids": [
+            73,
+            113
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 73,
+              "answer": "Firaq Gorakhpuri"
+            },
+            {
+              "id": 113,
+              "answer": "Firaq Gorakhpuri"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who wrote 'Kulliyat-e-Jigar'?",
+          "ids": [
+            77,
+            131
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 77,
+              "answer": "Jigar Moradabadi"
+            },
+            {
+              "id": 131,
+              "answer": "Jigar Moradabadi"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who wrote 'Kulliyat-e-Sahir'?",
+          "ids": [
+            87,
+            115,
+            145
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 87,
+              "answer": "Sahir Ludhianvi"
+            },
+            {
+              "id": 115,
+              "answer": "Sahir Ludhianvi"
+            },
+            {
+              "id": 145,
+              "answer": "Sahir Ludhianvi"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Who wrote 'Kulliyat-e-Akbar'?",
+          "ids": [
+            89,
+            129
+          ],
+          "differingFields": [
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 89,
+              "answer": "Akbar Allahabadi"
+            },
+            {
+              "id": 129,
+              "answer": "Akbar Allahabadi"
+            }
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/urdu_proverbs_meanings.json",
+      "original": 57,
+      "remaining": 57,
+      "removed": [],
+      "variants": [
+        {
+          "question": "What does 'Ram naam satya hai' signify?",
+          "ids": [
+            25,
+            46
+          ],
+          "differingFields": [
+            "options",
+            "hint"
+          ],
+          "answers": [
+            {
+              "id": 25,
+              "answer": "Death is ultimate truth"
+            },
+            {
+              "id": 46,
+              "answer": "Death is ultimate truth"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the meaning of 'Sabr ka phal meetha hota hai'?",
+          "ids": [
+            26,
+            47
+          ],
+          "differingFields": [
+            "options",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 26,
+              "answer": "Patience bears sweet fruit"
+            },
+            {
+              "id": 47,
+              "answer": "Fruit of patience is sweet"
+            }
+          ],
+          "answerConflict": true
+        },
+        {
+          "question": "What is the meaning of 'Waqt se pehle aur muqaddar se zyada kisi ko kuch nahi milta'?",
+          "ids": [
+            29,
+            50
+          ],
+          "differingFields": [
+            "options",
+            "hint",
+            "hint_ur",
+            "timeLimit"
+          ],
+          "answers": [
+            {
+              "id": 29,
+              "answer": "No one gets anything before time or beyond fate"
+            },
+            {
+              "id": 50,
+              "answer": "No one gets anything before time or beyond fate"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What does 'Aam ke aam, guthliyon ke daam' mean?",
+          "ids": [
+            31,
+            52
+          ],
+          "differingFields": [
+            "options",
+            "correctAnswer",
+            "hint"
+          ],
+          "answers": [
+            {
+              "id": 31,
+              "answer": "Getting benefits from both main product and byproducts"
+            },
+            {
+              "id": 52,
+              "answer": "Profit from both main and byproducts"
+            }
+          ],
+          "answerConflict": true
+        },
+        {
+          "question": "What is the meaning of 'Bachay ki jaan lein to pyaar na aaye'?",
+          "ids": [
+            32,
+            53
+          ],
+          "differingFields": [
+            "options",
+            "correctAnswer",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 32,
+              "answer": "Excessive strictness kills affection"
+            },
+            {
+              "id": 53,
+              "answer": "Excessive punishment kills love"
+            }
+          ],
+          "answerConflict": true
+        },
+        {
+          "question": "What does 'Dhande ki naani bhi nahi' mean?",
+          "ids": [
+            34,
+            55
+          ],
+          "differingFields": [
+            "options",
+            "correctAnswer",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 34,
+              "answer": "Complete ignorance about a profession"
+            },
+            {
+              "id": 55,
+              "answer": "Complete ignorance about a profession"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "What is the meaning of 'Ek anar sau bimar'?",
+          "ids": [
+            35,
+            56
+          ],
+          "differingFields": [
+            "options",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 35,
+              "answer": "Limited resources, many claimants"
+            },
+            {
+              "id": 56,
+              "answer": "Limited resource, many claimants"
+            }
+          ],
+          "answerConflict": true
+        },
+        {
+          "question": "What does 'Hathi chale bazaar, kutte bhonke hazaar' mean?",
+          "ids": [
+            37,
+            58
+          ],
+          "differingFields": [
+            "options"
+          ],
+          "answers": [
+            {
+              "id": 37,
+              "answer": "Important people work while others just talk"
+            },
+            {
+              "id": 58,
+              "answer": "Important people work while others just talk"
+            }
+          ],
+          "answerConflict": false
+        }
+      ]
+    },
+    {
+      "file": "data/questions/web_development.json",
+      "original": 97,
+      "remaining": 97,
+      "removed": [],
+      "variants": [
+        {
+          "question": "Which of these is NOT a valid CSS position property value?",
+          "ids": [
+            18,
+            75
+          ],
+          "differingFields": [
+            "options",
+            "correctAnswer",
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 18,
+              "answer": "center"
+            },
+            {
+              "id": 75,
+              "answer": "center"
+            }
+          ],
+          "answerConflict": false
+        },
+        {
+          "question": "Which of these is NOT a valid way to create a React component?",
+          "ids": [
+            87,
+            111
+          ],
+          "differingFields": [
+            "options",
+            "explanation",
+            "explanation_ur",
+            "hint",
+            "hint_ur"
+          ],
+          "answers": [
+            {
+              "id": 87,
+              "answer": "Object component"
+            },
+            {
+              "id": 111,
+              "answer": "Object with render method"
+            }
+          ],
+          "answerConflict": true
+        }
+      ]
+    },
+    {
+      "file": "data/questions/world_facts.json",
+      "original": 76,
+      "remaining": 76,
+      "removed": [],
+      "variants": [
+        {
+          "question": "The capital of Russia is Moscow.",
+          "ids": [
+            46,
+            102
+          ],
+          "differingFields": [
+            "explanation"
+          ],
+          "answers": [
+            {
+              "id": 46,
+              "answer": "true"
+            },
+            {
+              "id": 102,
+              "answer": "true"
+            }
+          ],
+          "answerConflict": false
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "original": 3027,
+    "remaining": 3027,
+    "exactDuplicates": 0,
+    "variantGroups": 115
+  }
+}

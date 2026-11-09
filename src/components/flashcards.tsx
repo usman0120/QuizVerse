@@ -36,20 +36,25 @@ export function Flashcards({ decks }: { decks: Deck[] }) {
     ? app.get<CardProgress | null>(`card:${card.id}`, null)
     : null;
   const selectedId = selected?.id;
-  const saveEntry = app.set;
+  const recordStudy = app.recordStudy;
   useEffect(() => {
     if (!selectedId) return;
-    const id = crypto.randomUUID();
-    let total = 0;
-    let last = Date.now();
+    let pending = 0;
+    let last = performance.now();
+    let running = !document.hidden;
     const save = () => {
-      const now = Date.now();
-      if (!document.hidden) total += (now - last) / 1000;
+      const now = performance.now();
+      if (running) pending += (now - last) / 1000;
       last = now;
-      if (total > 0) saveEntry(`study:${id}`, Math.floor(total));
+      const seconds = Math.floor(pending);
+      if (seconds > 0) {
+        recordStudy(seconds);
+        pending -= seconds;
+      }
     };
     const visibility = () => {
-      last = Date.now();
+      save();
+      running = !document.hidden;
     };
     const interval = setInterval(save, 30000);
     document.addEventListener("visibilitychange", visibility);
@@ -60,7 +65,7 @@ export function Flashcards({ decks }: { decks: Deck[] }) {
       document.removeEventListener("visibilitychange", visibility);
       window.removeEventListener("pagehide", save);
     };
-  }, [selectedId, saveEntry]);
+  }, [selectedId, recordStudy]);
   function open(deck: Deck) {
     const cards = dueOnly
       ? deck.cards.filter((c) => {
