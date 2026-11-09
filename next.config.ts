@@ -4,8 +4,6 @@ const routes: Record<string, string> = {
   index: "/",
   "quiz-categories": "/quizzes",
   quiz: "/quiz",
-  "learning-categories": "/learning",
-  learn: "/learn",
   flashcards: "/flashcards",
   personality: "/personality",
   about: "/about",

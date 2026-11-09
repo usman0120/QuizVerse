@@ -28,7 +28,7 @@ test("remote snapshot wins equal timestamp collisions", () => {
   );
   assert.equal(merged.note.value, "server winner");
 });
-test("legacy migration strips plaintext passwords and recognizes notes/bookmarks/history", () => {
+test("legacy migration strips passwords, archives retired records, and recognizes personality history", () => {
   const storage = new Map<string, string>([
     [
       "quizverse_profile",
@@ -75,10 +75,14 @@ test("legacy migration strips plaintext passwords and recognizes notes/bookmarks
     undefined,
   );
   assert.equal(
-    (entries["note:science-nature:intro"].value as { text: string }).text,
+    (entries["legacy:userNotes"].value as Record<string, string>)[
+      "science-nature-intro"
+    ],
     "My note",
   );
-  assert.ok(entries["bookmark:science-nature:intro"]);
+  assert.ok(entries["legacy:bookmarks"]);
+  assert.equal(entries["note:science-nature:intro"], undefined);
+  assert.equal(entries["bookmark:science-nature:intro"], undefined);
   assert.ok(entries["personality:legacy-0"]);
   storage.set(storageKey(), "{}");
   assert.deepEqual(migrateLegacy(), {});

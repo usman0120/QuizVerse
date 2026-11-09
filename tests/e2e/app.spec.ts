@@ -1,41 +1,33 @@
 import { test, expect } from "@playwright/test";
-test("unsaved notes survive topic changes and reload without being auto-published", async ({
+test("retired module routes return 404 and no links remain on active pages", async ({
   page,
+  request,
 }) => {
-  await page.goto("/learn?cat=science-nature&topic=intro");
-  await page.getByRole("button", { name: "Notes", exact: true }).click();
-  await page.getByLabel("Your notes").fill("Recover this unsaved draft.");
-  await page
-    .getByRole("navigation", { name: "Learning sections" })
-    .getByRole("button", { name: "Physics Basics", exact: true })
-    .click();
-  await page
-    .getByRole("navigation", { name: "Learning sections" })
-    .getByRole("button", { name: "Introduction", exact: true })
-    .click();
-  await page.getByRole("button", { name: "Notes", exact: true }).click();
-  await expect(page.getByLabel("Your notes")).toHaveValue(
-    "Recover this unsaved draft.",
-  );
-  await page.reload();
-  await page.getByRole("button", { name: "Notes", exact: true }).click();
-  await expect(page.getByLabel("Your notes")).toHaveValue(
-    "Recover this unsaved draft.",
-  );
-  expect(
-    await page.evaluate(
-      () =>
-        JSON.parse(localStorage.getItem("quizverse:v2:guest") || "{}")[
-          "note:science-nature:intro"
-        ],
-    ),
-  ).toBeUndefined();
-  await page.getByRole("button", { name: "Save notes" }).click();
-  await page.reload();
-  await page.getByRole("button", { name: "Notes", exact: true }).click();
-  await expect(page.getByLabel("Your notes")).toHaveValue(
-    "Recover this unsaved draft.",
-  );
+  for (const route of [
+    "/learning",
+    "/learn?cat=science-nature",
+    "/learning-categories.html",
+    "/learn.html",
+  ]) {
+    expect((await request.get(route, { maxRedirects: 0 })).status()).toBe(404);
+  }
+  for (const route of [
+    "/",
+    "/quizzes",
+    "/flashcards",
+    "/personality",
+    "/account",
+    "/about",
+    "/auth",
+  ]) {
+    await page.goto(route);
+    await expect(
+      page.locator('a[href^="/learning"], a[href^="/learn?"]'),
+    ).toHaveCount(0);
+    await expect(page.locator("#learning-hub")).toHaveCount(0);
+  }
+  const sitemap = await request.get("/sitemap.xml");
+  expect(await sitemap.text()).not.toContain("/learning");
 });
 test("new logo renders, favicon matches, and clock endpoint is uncached", async ({
   page,
@@ -165,9 +157,9 @@ test("homepage design, working CTA, and mobile navigation", async ({
   await page.getByRole("button", { name: "Toggle navigation" }).click();
   await page
     .getByRole("navigation", { name: "Mobile navigation" })
-    .getByRole("link", { name: "Learning Hub" })
+    .getByRole("link", { name: "Flashcards" })
     .click();
-  await expect(page).toHaveURL(/\/learning/);
+  await expect(page).toHaveURL(/\/flashcards/);
   expect(errors).toEqual([]);
   expect(
     await page.evaluate(
@@ -211,24 +203,9 @@ test("theme and Urdu persist across routes and reload", async ({ page }) => {
   await expect(page.locator("html")).toHaveClass(/dark/);
   await page.getByRole("button", { name: "Switch to Urdu" }).click();
   await expect(page.locator("html")).toHaveAttribute("dir", "rtl");
-  await page.goto("/learning");
+  await page.goto("/flashcards");
   await expect(page.locator("html")).toHaveAttribute("lang", "ur");
   await expect(page.locator("html")).toHaveClass(/dark/);
-});
-test("learning notes and bookmarks survive reload", async ({ page }) => {
-  await page.goto("/learn?cat=science-nature&topic=intro");
-  await page.getByRole("button", { name: "Bookmark", exact: true }).click();
-  await page.getByRole("button", { name: "Notes", exact: true }).click();
-  await page.getByLabel("Your notes").fill("A useful study note.");
-  await page.getByRole("button", { name: "Save notes" }).click();
-  await page.reload();
-  await expect(
-    page.getByRole("button", { name: "Remove bookmark" }),
-  ).toBeVisible();
-  await page.getByRole("button", { name: "Notes", exact: true }).click();
-  await expect(page.getByLabel("Your notes")).toHaveValue(
-    "A useful study note.",
-  );
 });
 test("flashcard mastery uses stable IDs even after shuffle", async ({
   page,
@@ -275,12 +252,8 @@ test("old URLs keep queries, contact redirects, and unavailable content fails gr
   expect(contact.headers().location).toBe(
     "https://usman-portfolio-silk.vercel.app/contact",
   );
-  const legacyLearn = await request.get("/learn?topic=islamic-studies");
-  expect(legacyLearn.status()).toBe(200);
-  expect(await legacyLearn.text()).toContain("Quran Studies");
-  const unknown = await request.get("/learn?cat=not-real");
-  // Next returns 200 if the loading boundary has already begun streaming.
-  expect([200, 404]).toContain(unknown.status());
+  const unknown = await request.get("/not-a-real-route");
+  expect(unknown.status()).toBe(404);
   const missingHtml = await unknown.text();
   expect(missingHtml).toContain("Page not found");
   expect(missingHtml).toMatch(/name="robots" content="noindex"/);

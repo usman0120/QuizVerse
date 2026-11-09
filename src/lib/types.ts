@@ -27,24 +27,6 @@ export interface QuizCategory {
   color: string;
   icon: string;
 }
-export interface LearningTopic {
-  id: string;
-  name: Localized;
-  content: Localized;
-  references?: { title: Localized; author?: string; url?: string }[];
-  parent?: string;
-}
-export interface LearningCategory {
-  id: string;
-  name: Localized;
-  description: Localized;
-  tags: string[];
-  group: string;
-  color: string;
-  icon: string;
-  image?: string;
-  topics: LearningTopic[];
-}
 export interface Flashcard {
   id: string;
   front: string;

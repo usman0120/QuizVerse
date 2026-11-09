@@ -27,14 +27,6 @@ test("all nonempty quiz banks parse and have playable, unique questions", async 
   }
   assert.equal(banks, 27);
 });
-test("all 24 learning files retain their content", async () => {
-  const files = await readdir("data/learn-data");
-  assert.equal(files.length, 24);
-  for (const file of files) {
-    const data = JSON.parse(await readFile(`data/learn-data/${file}`, "utf8"));
-    assert.ok(Array.isArray(data) ? data.length : data.sections?.length, file);
-  }
-});
 test("all 23 personality quizzes have valid scoring targets and nonempty results", async () => {
   const quizzes = Object.values(
     JSON.parse(await readFile("data/personality-quiz-data.json", "utf8")),

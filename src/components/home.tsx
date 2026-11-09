@@ -6,7 +6,6 @@ import { calculateStreak } from "@/lib/quiz";
 import { quotes } from "@/lib/quotes";
 import type {
   Deck,
-  LearningCategory,
   PersonalityQuiz,
   Question,
   QuizCategory,
@@ -19,14 +18,12 @@ import { CONTACT_URL, downloadCard, Icon, Media, Notice, Text } from "./ui";
 
 export function Home({
   categories,
-  learning,
   decks,
   personality,
   daily,
   quoteIndex,
 }: {
   categories: QuizCategory[];
-  learning: LearningCategory[];
   decks: Deck[];
   personality: PersonalityQuiz[];
   daily: Question[];
@@ -77,12 +74,6 @@ export function Home({
               <Link href="/quizzes" className="btn-accent">
                 <Text en="Start Quiz Now" ur="اب کوئز شروع کریں" />
                 <Icon name="arrow-right" />
-              </Link>
-              <Link
-                href="/learning"
-                className="inline-flex justify-center items-center gap-2 border-2 border-accent text-accent rounded-lg px-6 py-3 font-bold hover:bg-white/10"
-              >
-                Gain Knowledge First <Icon name="chalkboard-teacher" />
               </Link>
             </div>
           </div>
@@ -257,48 +248,6 @@ export function Home({
         </div>
       </section>
       <section
-        id="learning-hub"
-        className="section bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-gray-800 dark:to-gray-900"
-      >
-        <div className="container mx-auto px-4">
-          {headings(
-            "Learning Hub",
-            "Expand your knowledge with English and Urdu learning resources.",
-          )}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {learning.slice(0, 4).map((c) => (
-              <Link
-                key={c.id}
-                href={`/learn?cat=${c.id}`}
-                className="relative rounded-xl shadow-lg hover:shadow-xl p-6 transition-shadow"
-                style={{ backgroundColor: `${c.color}15` }}
-              >
-                <div
-                  className="w-14 h-14 rounded-xl flex items-center justify-center mb-4"
-                  style={{ color: c.color, backgroundColor: `${c.color}20` }}
-                >
-                  <Icon name={c.icon} className="text-2xl" />
-                </div>
-                <h3 className="text-xl font-bold mb-3">
-                  <Text {...c.name} />
-                </h3>
-                <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">
-                  {c.topics.length} topics to explore
-                </p>
-                <span className="text-brand dark:text-secondary">
-                  Start Learning →
-                </span>
-              </Link>
-            ))}
-          </div>
-          <div className="text-center mt-10">
-            <Link className="btn rounded-full px-6 py-3" href="/learning">
-              Explore All Learning Categories →
-            </Link>
-          </div>
-        </div>
-      </section>
-      <section
         id="flashcards"
         className="section bg-gradient-to-br from-brand/5 to-secondary/5 dark:from-gray-800 dark:to-gray-900"
       >
@@ -446,12 +395,11 @@ export function Home({
       </section>
       <section className="section bg-gradient-to-r from-brand to-secondary text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-8">Your Learning Journey</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold mb-8">Your QuizVerse Progress</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {[
               [results.length, "Quizzes completed"],
               [streak, "Day streak"],
-              [app.list("bookmark:").length, "Bookmarks"],
               [app.list("quote:").filter(Boolean).length, "Favorite quotes"],
             ].map(([value, label]) => (
               <div key={label}>

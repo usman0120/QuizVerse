@@ -1,6 +1,8 @@
 # QuizVerse
 
-English and Urdu quizzes, personality tests, flashcards, and a learning hub. Migrated from the original static project to **Next.js, TypeScript, Firebase Auth, and Cloud Firestore**, deployed on **Vercel**.
+English and Urdu quizzes, personality tests, quotes, and flashcards. Migrated from the original static project to **Next.js, TypeScript, Firebase Auth, and Cloud Firestore**, deployed on **Vercel**.
+
+The Learning Hub has been removed. Its routes and legacy HTML URLs return 404; its navigation, homepage section, article data, note editor, and quiz-result links are no longer part of the app. Existing users' saved records are preserved for data exports, not automatically purged or recreated.
 
 ## Run locally
 
@@ -35,10 +37,10 @@ Firebase web-app configuration is public client configuration, **not an authoriz
 
 Collections:
 
-- `quizverse_users/{uid}/entries/{encodedKey}`: private profile, settings, results, notes, bookmarks, highlights, flashcard progress, activity, and sync markers.
+- `quizverse_users/{uid}/entries/{encodedKey}`: private profile, settings, results, flashcard progress, activity, favorites, and sync markers. Records from retired features are retained for export, not recreated by active flows.
 - `quizverse_scores/{uid_resultId}`: opt-in casual public scores. No private profile fields.
 
-Content stays in `data/`: **27 playable quiz banks**, **24 learning categories**, flashcard decks, and **23 personality quizzes**. New content is published through Git; no admin panel is included.
+Content stays in `data/`: **27 playable quiz banks**, flashcard decks, and **23 personality quizzes**. New content is published through Git; no admin panel is included.
 
 ## Vercel deployment
 
@@ -63,13 +65,12 @@ Old `.html` URLs redirect to the corresponding Next routes and retain query para
 - Guest play with local progress; optional Google or email accounts.
 - Timed/untimed quizzes, MCQ/true-false/fill-blanks, hints, skips, result review, sharing, and JSON/image downloads.
 - Deterministic daily challenge; no external trivia API dependency.
-- Learning sections/subtopics, search, bookmarks, notes, text highlights, font controls, and references.
 - Flashcard text/image/mixed modes, shuffle, learned/difficult flags, due-card review, and progress statistics.
 - All original personality quizzes with corrected scoring and result history.
 - Shared dark theme, Urdu/RTL preferences, responsive navigation, and scoped data controls.
 - Real, opt-in **casual** leaderboard; scores are client-reported, not competitive/verified.
 - Guest/account caches are isolated. Guest import is explicit. Deletion markers keep cleared progress from reappearing on other devices.
-- Unsaved notes recover on this device after navigation/reload; exports include drafts. Sign-out waits for pending writes before clearing the account cache.
+- Sign-out waits for pending writes before clearing the account cache. Exports preserve historical data from retired features.
 - Sync timestamps use the app's uncached `/api/time` endpoint to tolerate an incorrect device clock. No additional backend service or Firebase Admin credential is needed.
 - A local vector QuizVerse logo and matching favicon replace the emoji icon.
 

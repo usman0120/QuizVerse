@@ -8,8 +8,8 @@ export default function Page() {
         <p>Last updated: November 9, 2026.</p>
         <h2>Using QuizVerse</h2>
         <p>
-          QuizVerse provides educational and entertainment quizzes, learning
-          articles, and flashcards. Use the platform responsibly, keep account
+          QuizVerse provides educational and entertainment quizzes, personality
+          tests, and flashcards. Use the platform responsibly, keep account
           credentials private, and do not submit abusive public display names or
           attempt to access other users’ data.
         </p>
@@ -25,8 +25,8 @@ export default function Page() {
         <p>
           Accounts are optional. Guest progress is local to a browser and can be
           lost if storage is cleared. Signed-in progress depends on Firebase
-          availability, connectivity, and permissions. Export important notes or
-          results. Never put sensitive information in a public display name.
+          availability, connectivity, and permissions. Export important progress
+          or results. Never put sensitive information in a public display name.
         </p>
         <h2>Ownership</h2>
         <p>

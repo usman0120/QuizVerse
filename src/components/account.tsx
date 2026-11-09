@@ -12,8 +12,11 @@ import {
   writeBatch,
 } from "firebase/firestore";
 import { firebaseServices, friendlyError } from "@/lib/firebase";
-import { storageKey } from "@/lib/progress";
-import { clearScopeDrafts, scopeDrafts } from "@/lib/drafts";
+import {
+  storageKey,
+  readRetiredDeviceData,
+  clearRetiredDeviceData,
+} from "@/lib/progress";
 import { calculateStreak } from "@/lib/quiz";
 import type { Profile, QuizResult } from "@/lib/types";
 import { useApp } from "./provider";
@@ -35,22 +38,22 @@ export function Account() {
     const uid = app.user?.uid;
     try {
       try {
-        if (Object.keys(scopeDrafts(uid)).length)
+        if (Object.keys(readRetiredDeviceData(uid)).length)
           throw new Error(
-            "Unsaved note drafts are stored on this device. Export them before signing out.",
+            "Data from a retired feature remains on this device. Export it before signing out.",
           );
         await app.flushSync();
       } catch (e) {
         if (
           !window.confirm(
-            `${friendlyError(e)} Signing out clears this account's cache and drafts. Cancel to export first, or OK to discard unsynced device data and sign out.`,
+            `${friendlyError(e)} Signing out clears this account's device cache. Cancel to export first, or OK to discard unsynced device data and sign out.`,
           )
         )
           return;
       }
       await signOut(firebaseServices().auth);
       if (uid) localStorage.removeItem(storageKey(uid));
-      clearScopeDrafts(uid);
+      clearRetiredDeviceData(uid);
       setMessage(
         "Signed out. Your account cache was removed from this device. Cloud progress is retained.",
       );
@@ -202,12 +205,11 @@ export function Account() {
           </>
         )}
       </section>
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 mb-8">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 mb-8">
         {[
           [results.length, "Quizzes completed"],
           [results.reduce((n, r) => n + r.score, 0), "Correct answers"],
           [streak, "Day streak"],
-          [app.list("bookmark:").length, "Bookmarks"],
         ].map(([value, label]) => (
           <div className="panel text-center" key={label}>
             <p className="text-3xl text-brand dark:text-secondary font-bold mb-2">
@@ -229,7 +231,7 @@ export function Account() {
                   {
                     exportedAt: new Date().toISOString(),
                     entries: app.entries,
-                    drafts: scopeDrafts(app.user?.uid),
+                    legacyDeviceData: readRetiredDeviceData(app.user?.uid),
                   },
                   null,
                   2,
@@ -284,8 +286,8 @@ export function Account() {
       <section className="panel mt-8">
         <h2 className="text-xl font-bold mb-4">Data controls</h2>
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
-          Clearing progress removes quiz history, notes, bookmarks, highlights,
-          and flashcard records. Empty deletion markers are retained for
+          Clearing progress removes quiz history, flashcard records, and
+          retained legacy data. Empty deletion markers are retained for
           cross-device consistency. Profile and settings are kept.
         </p>
         <div className="flex flex-wrap gap-3">
@@ -295,14 +297,14 @@ export function Account() {
             onClick={() => {
               if (
                 !window.confirm(
-                  "Clear all saved learning and quiz progress? Export your data first if needed.",
+                  "Clear all saved QuizVerse progress? Export your data first if needed.",
                 )
               )
                 return;
               for (const key of Object.keys(app.entries))
                 if (!["profile", "settings"].includes(key))
                   app.set(key, null, true);
-              clearScopeDrafts(app.user?.uid);
+              clearRetiredDeviceData(app.user?.uid);
               setMessage(
                 "Progress cleared locally. Deletion markers sync when connected; published scores are managed separately.",
               );

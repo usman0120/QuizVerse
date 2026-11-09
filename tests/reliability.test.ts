@@ -6,16 +6,11 @@ import {
   migrateLegacy,
   storageKey,
   restoreQuoteFavorites,
+  readRetiredDeviceData,
+  clearRetiredDeviceData,
+  isRetiredProgressKey,
 } from "../src/lib/progress";
 import { quotes } from "../src/lib/quotes";
-import {
-  draftKey,
-  parseDraft,
-  readDraftRaw,
-  scopeDrafts,
-  writeDraft,
-  clearScopeDrafts,
-} from "../src/lib/drafts";
 
 test("sync clock ignores incorrect and changing device time after server calibration", () => {
   let monotonic = 0;
@@ -43,7 +38,7 @@ test("bad cache records do not discard valid progress; profiles never contain pa
     broken: "not an entry",
     note: { updatedAt: 1, value: "safe" },
     profile: { updatedAt: 2, value: { name: "Learner", password: "secret" } },
-    settings: { updatedAt: 3, value: { language: "invalid", fontSize: -50 } },
+    settings: { updatedAt: 3, value: { language: "invalid" } },
     "result:x": { updatedAt: 4, value: null },
   });
   assert.equal(entries.note.value, "safe");
@@ -52,7 +47,6 @@ test("bad cache records do not discard valid progress; profiles never contain pa
   assert.deepEqual(entries.settings.value, {
     theme: "light",
     language: "en",
-    fontSize: 14,
     sound: true,
     vibration: true,
   });
@@ -79,31 +73,28 @@ test("legacy passwords are scrubbed even when v2 progress already exists", () =>
     undefined,
   );
 });
-test("note drafts remain isolated, recoverable, and clearable with blocked storage", () => {
+test("retired device exports and clearing remain scoped to the current account", () => {
+  const records = new Map([
+    ["quizverse:draft:alice:topic", JSON.stringify({ text: "Archived data" })],
+    ["quizverse:draft:bob:topic", JSON.stringify({ text: "Other account" })],
+  ]);
   Object.defineProperty(globalThis, "localStorage", {
     configurable: true,
     value: {
-      getItem: () => {
-        throw new Error("blocked");
-      },
-      setItem: () => {
-        throw new Error("blocked");
-      },
-      removeItem: () => {
-        throw new Error("blocked");
-      },
       get length() {
-        throw new Error("blocked");
+        return records.size;
       },
+      key: (i: number) => [...records.keys()][i],
+      getItem: (key: string) => records.get(key) ?? null,
+      removeItem: (key: string) => records.delete(key),
     },
   });
-  const key = draftKey("alice", "science:intro");
-  writeDraft(key, { text: "An unsaved note", baseUpdatedAt: 5 });
-  assert.equal(parseDraft(readDraftRaw(key))?.text, "An unsaved note");
-  assert.equal(readDraftRaw(draftKey("bob", "science:intro")), null);
-  assert.equal(Object.keys(scopeDrafts("alice")).length, 1);
-  clearScopeDrafts("alice");
-  assert.equal(readDraftRaw(key), null);
+  assert.equal(Object.keys(readRetiredDeviceData("alice")).length, 1);
+  clearRetiredDeviceData("alice");
+  assert.equal(records.has("quizverse:draft:alice:topic"), false);
+  assert.equal(records.has("quizverse:draft:bob:topic"), true);
+  assert.equal(isRetiredProgressKey("note:old-topic"), true);
+  assert.equal(isRetiredProgressKey("result:current-quiz"), false);
 });
 test("recognized old favorites are restored without undoing an explicit removal", () => {
   const entries = {

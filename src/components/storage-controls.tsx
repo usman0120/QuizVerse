@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { useApp } from "./provider";
-import { clearScopeDrafts } from "@/lib/drafts";
+import { clearRetiredDeviceData } from "@/lib/progress";
 import { Notice } from "./ui";
 const legacyKeys = [
   "quizverse_profile",
@@ -48,7 +48,7 @@ export function StorageControls() {
             Object.keys(app.entries)
               .filter((k) => k !== "settings")
               .forEach((k) => app.set(k, null, true));
-            clearScopeDrafts();
+            clearRetiredDeviceData();
             try {
               legacyKeys.forEach((key) => localStorage.removeItem(key));
               setMessage(

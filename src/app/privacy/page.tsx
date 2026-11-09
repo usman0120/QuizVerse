@@ -11,23 +11,24 @@ export default function Page() {
         <p>
           Guest progress stays in your browser. When you sign in, Firebase
           Authentication manages your account and Firestore stores your private
-          QuizVerse profile, quiz results, notes, bookmarks, highlights,
-          preferences, and flashcard progress. Country, age, education level,
-          and gender are optional. QuizVerse never stores passwords in profiles.
+          QuizVerse profile, quiz results, preferences, and flashcard progress.
+          Country, age, education level, and gender are optional. QuizVerse
+          never stores passwords in profiles.
         </p>
         <h2>Public results</h2>
         <p>
           Publishing a casual score is optional. Only your display name, quiz
           title/category, score, question count, time taken, and submission date
-          are published. Email, age, gender, country, and private notes are not
-          included. Scores are client-reported and not verified.
+          are published. Email, age, gender, country, and private account data
+          are not included. Scores are client-reported and not verified.
         </p>
         <h2>Browser storage and synchronization</h2>
         <p>
-          Unsaved note drafts stay on this device, separated by account. They
-          are not sent to Firestore until you choose Save. Your data export
-          includes these drafts. Signing out checks pending writes and warns
-          before discarding unsaved device data.
+          The article-and-note feature has been retired. Previously stored
+          records are retained for private data exports rather than
+          automatically purged from user accounts. New app flows do not create
+          or re-sync those retired records. Signing out checks pending writes
+          and warns before discarding unsynced device data.
         </p>
         <p>
           Local browser storage keeps guest progress and a per-account cache.
@@ -56,7 +57,7 @@ export default function Page() {
         </p>
         <h2>Your controls</h2>
         <p>
-          You can export your data, clear private learning progress, and remove
+          You can export your data, clear private QuizVerse progress, and remove
           your published scores on the <Link href="/account">profile page</Link>
           . Profile edits replace former profile values. For account deletion or
           other privacy requests, contact the developer. Local guest storage can

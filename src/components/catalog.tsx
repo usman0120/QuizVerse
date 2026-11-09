@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import type { LearningCategory, QuizCategory } from "@/lib/types";
+import type { QuizCategory } from "@/lib/types";
 import { useApp } from "./provider";
-import { Icon, Media, Notice, PageHeading, Text } from "./ui";
+import { Icon, Notice, PageHeading, Text } from "./ui";
 
 export function QuizCatalog({ categories }: { categories: QuizCategory[] }) {
   const { settings, ready } = useApp();
@@ -139,105 +139,6 @@ export function QuizCatalog({ categories }: { categories: QuizCategory[] }) {
               <Icon name="arrow-right" />
             </Link>
           </article>
-        ))}
-      </div>
-    </div>
-  );
-}
-export function LearningCatalog({
-  categories,
-}: {
-  categories: LearningCategory[];
-}) {
-  const [search, setSearch] = useState("");
-  const [group, setGroup] = useState("");
-  const filtered = categories.filter(
-    (c) =>
-      `${c.name.en} ${c.name.ur || ""} ${c.tags.join(" ")} ${c.group}`
-        .toLowerCase()
-        .includes(search.toLowerCase()) &&
-      (!group || c.group === group),
-  );
-  return (
-    <div className="page">
-      <PageHeading
-        title={{ en: "Learning Hub", ur: "مطالعہ کا مرکز" }}
-        description={{
-          en: "Explore mini-articles, fun facts, biographies, and English & Urdu learning resources.",
-        }}
-      />
-      <div className="panel mb-8 grid sm:grid-cols-3 gap-4">
-        <label>
-          Search topics
-          <input
-            className="field"
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            placeholder="Search by topic or tag…"
-          />
-        </label>
-        <label>
-          Category
-          <select
-            className="field"
-            value={group}
-            onChange={(e) => setGroup(e.target.value)}
-          >
-            <option value="">All categories</option>
-            {[...new Set(categories.map((c) => c.group))].map((g) => (
-              <option key={g}>{g}</option>
-            ))}
-          </select>
-        </label>
-        <button
-          className="btn-secondary self-end"
-          onClick={() => {
-            setSearch("");
-            setGroup("");
-          }}
-        >
-          Reset filters
-        </button>
-      </div>
-      <p className="mb-5" aria-live="polite">
-        {filtered.length} learning categories
-      </p>
-      {!filtered.length && (
-        <Notice>No topics found. Try a different keyword.</Notice>
-      )}
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-        {filtered.map((c) => (
-          <Link
-            key={c.id}
-            href={`/learn?cat=${c.id}`}
-            className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow border border-gray-200 dark:border-gray-700"
-          >
-            {c.image ? (
-              <Media
-                src={c.image}
-                alt={c.name.en}
-                className="h-40 w-full object-cover"
-              />
-            ) : (
-              <div
-                className="h-40 flex items-center justify-center"
-                style={{ backgroundColor: `${c.color}20`, color: c.color }}
-              >
-                <Icon name={c.icon} className="text-5xl" />
-              </div>
-            )}
-            <div className="p-6">
-              <h2 className="text-xl font-bold mb-3">
-                <Text {...c.name} />
-              </h2>
-              <p className="text-gray-500 dark:text-gray-400 text-sm mb-4">
-                {c.topics.length} topics · {c.tags.join(", ")}
-              </p>
-              <span className="font-medium text-brand dark:text-secondary">
-                <Text en="Start Learning" ur="مطالعہ شروع کریں" /> →
-              </span>
-            </div>
-          </Link>
         ))}
       </div>
     </div>

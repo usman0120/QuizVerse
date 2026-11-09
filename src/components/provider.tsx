@@ -25,6 +25,7 @@ import {
   readEntries,
   storageKey,
   validateEntries,
+  isRetiredProgressKey,
 } from "@/lib/progress";
 import type { Entries, Entry, Language, Profile } from "@/lib/types";
 
@@ -33,14 +34,12 @@ export interface Settings {
   language: Language;
   sound: boolean;
   vibration: boolean;
-  fontSize: number;
 }
 const defaults: Settings = {
   theme: "light",
   language: "en",
   sound: true,
   vibration: true,
-  fontSize: 18,
 };
 const guest: Profile = {
   name: "Guest",
@@ -97,6 +96,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const upload = useCallback((key: string, entry: Entry) => {
+    if (isRetiredProgressKey(key) && !entry.deleted) return;
     const uid = activeUid.current;
     if (
       !uid ||
@@ -231,6 +231,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
             // Only repair unacknowledged, far-future local timestamps. Server
             // records are never rewritten merely because a device clock differs.
             for (const [key, entry] of Object.entries(local)) {
+              if (isRetiredProgressKey(key) && !entry.deleted) continue;
               if (
                 !snapshot.metadata.fromCache &&
                 entry.updatedAt > clock.current.now() + 300000 &&
@@ -329,6 +330,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
 
   const set = useCallback(
     (key: string, value: unknown, deleted = false) => {
+      if (isRetiredProgressKey(key) && !deleted) return false;
       // A timer/editor from the previous account must not write into a new one.
       if (activeUid.current !== user?.uid) return false;
       const entry: Entry = {
@@ -405,7 +407,8 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   const importGuest = () => {
     if (!user) return;
     for (const [key, entry] of Object.entries(readEntries())) {
-      if (!entries[key] && !entry.deleted) set(key, entry.value);
+      if (!entries[key] && !entry.deleted && !isRetiredProgressKey(key))
+        set(key, entry.value);
     }
   };
   async function flushSync() {

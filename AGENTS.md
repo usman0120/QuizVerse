@@ -6,4 +6,4 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 <!-- END:nextjs-agent-rules -->
 
-QuizVerse uses Firebase Auth and Firestore only. Content stays in JSON. Keep the Learning Hub, quotes, and guest progress; do not add an admin panel or internal contact forms. Contact links use the owner's portfolio. Run `npm run check`, browser tests, and Firestore emulator tests before publishing changes to account/progress flows. See `docs/AUDIT.md` for limitations.
+QuizVerse uses Firebase Auth and Firestore only. Content stays in JSON. The owner removed the Learning Hub module; do not restore its routes, links, or editor. Keep quizzes, flashcards, personality tests, quotes, and guest progress. Do not add an admin panel or internal contact forms. Contact links use the owner's portfolio. Run `npm run check`, browser tests, and Firestore emulator tests before publishing changes to account/progress flows. See `docs/AUDIT.md` for limitations.

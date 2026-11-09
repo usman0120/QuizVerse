@@ -373,12 +373,6 @@ export function QuizPlayer({
                 Public scores are client-reported and not verified. No age,
                 email, or country is published.
               </p>
-              <Link
-                className="btn-secondary mt-4"
-                href={`/learn?cat=${category.replaceAll("_", "-")}`}
-              >
-                Learn about this topic
-              </Link>
               <details className="text-start mt-8">
                 <summary className="cursor-pointer font-bold">
                   Review your answers

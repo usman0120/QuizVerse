@@ -81,7 +81,7 @@ export function AuthForm() {
           ur: mode === "register" ? "اکاؤنٹ بنائیں" : "لاگ اِن کریں",
         }}
         description={{
-          en: "Sign in to sync your quizzes, notes, bookmarks, and flashcard progress across devices.",
+          en: "Sign in to sync your quizzes, preferences, and flashcard progress across devices.",
         }}
       />
       <section className="panel">

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     template: "%s | QuizVerse",
   },
   description:
-    "Free English and Urdu quizzes, a learning hub, personality tests, and flashcards. Play as a guest or sign in to sync your progress.",
+    "Free English and Urdu quizzes, personality tests, and flashcards. Play as a guest or sign in to sync your progress.",
   icons: { icon: { url: "/brand/quizverse-mark.svg", type: "image/svg+xml" } },
 };
 export default function RootLayout({

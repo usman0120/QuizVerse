@@ -2,25 +2,14 @@ import "server-only";
 import { cache } from "react";
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
-import sanitizeHtml from "sanitize-html";
 import { normalizeQuestions } from "./quiz";
-import type {
-  Deck,
-  LearningCategory,
-  LearningTopic,
-  Localized,
-  PersonalityQuiz,
-  QuizCategory,
-  Question,
-} from "./types";
+import type { Deck, PersonalityQuiz, QuizCategory, Question } from "./types";
 
 const root = path.join(process.cwd(), "data");
 const readJson = async (file: string) => {
   const text = (await readFile(path.join(root, file), "utf8")).trim();
   return text ? JSON.parse(text) : null;
 };
-const localized = (value: string | Localized | undefined): Localized =>
-  typeof value === "string" ? { en: value } : value || { en: "" };
 const themes = {
   science: { group: "Science & Nature", color: "#0077B6", icon: "flask" },
   tech: { group: "Technology", color: "#3A0CA3", icon: "laptop-code" },
@@ -100,89 +89,6 @@ export const getQuestions = async (ids: string[]) => {
       return true;
     });
 };
-export function cleanContent(html: string) {
-  return sanitizeHtml(html, {
-    allowedTags: [
-      ...sanitizeHtml.defaults.allowedTags,
-      "img",
-      "h1",
-      "h2",
-      "mark",
-    ],
-    allowedAttributes: {
-      "*": ["class"],
-      a: ["href", "title"],
-      img: ["src", "alt", "loading", "referrerpolicy"],
-    },
-    allowedSchemes: ["https"],
-    allowProtocolRelative: false,
-    transformTags: {
-      img: (tagName, attribs) =>
-        /^https:\/\//.test(attribs.src || "")
-          ? {
-              tagName,
-              attribs: {
-                ...attribs,
-                loading: "lazy",
-                referrerpolicy: "no-referrer",
-              },
-            }
-          : { tagName: "span", attribs: {} },
-    },
-  });
-}
-export const getLearningCategories = cache(
-  async (): Promise<LearningCategory[]> => {
-    const files = await readdir(path.join(root, "learn-data"));
-    return Promise.all(
-      files
-        .filter((f) => f.endsWith(".json"))
-        .map(async (file) => {
-          const data = await readJson(`learn-data/${file}`);
-          const id = file.replace(".json", "");
-          const topics: LearningTopic[] = [];
-          function addTopic(
-            raw: {
-              id: string;
-              name?: Localized;
-              title?: string;
-              content?: string | Localized;
-              references?: LearningTopic["references"];
-              subsections?: Parameters<typeof addTopic>[0][];
-            },
-            parent?: string,
-          ) {
-            const content = localized(raw.content);
-            topics.push({
-              id: raw.id,
-              name: localized(raw.name || raw.title),
-              content: {
-                en: cleanContent(content.en),
-                ...(content.ur ? { ur: cleanContent(content.ur) } : {}),
-              },
-              ...(raw.references ? { references: raw.references } : {}),
-              ...(parent ? { parent } : {}),
-            });
-            raw.subsections?.forEach((child) => addTopic(child, raw.id));
-          }
-          if (Array.isArray(data)) data.forEach((item) => addTopic(item));
-          else
-            data.sections?.forEach((section: Parameters<typeof addTopic>[0]) =>
-              addTopic(section),
-            );
-          return {
-            id,
-            name: localized(data.name || data[0]?.category || id),
-            description: localized(data.description || data[0]?.content || ""),
-            tags: data.tags || data[0]?.tags || [],
-            topics,
-            ...theme(id),
-            ...(data[0]?.image ? { image: data[0].image } : {}),
-          };
-        }),
-    );
-  },
-);
 export const getDecks = cache(async (): Promise<Deck[]> => {
   const data = await readJson("flashcards.json");
   return data.decks.map((deck: Deck) => ({

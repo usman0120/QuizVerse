@@ -10,7 +10,6 @@ import { Brand } from "./brand";
 const nav = [
   ["/", "Home", "ہوم"],
   ["/quizzes", "Quizzes", "کوئز"],
-  ["/learning", "Learning Hub", "مطالعہ"],
   ["/flashcards", "Flashcards", "فلیش کارڈز"],
   ["/personality", "Personality Tests", "شخصیت"],
   ["/leaderboard", "Leaderboard", "لیڈر بورڈ"],
@@ -130,11 +129,13 @@ export function Footer() {
           <div>
             <h2 className="font-bold mb-3">Explore</h2>
             <div className="grid gap-2 text-gray-300">
-              {nav.slice(1, 6).map(([href, en, ur]) => (
-                <Link key={href} href={href}>
-                  <Text en={en} ur={ur} />
-                </Link>
-              ))}
+              {nav
+                .filter(([href]) => !["/", "/about"].includes(href))
+                .map(([href, en, ur]) => (
+                  <Link key={href} href={href}>
+                    <Text en={en} ur={ur} />
+                  </Link>
+                ))}
             </div>
           </div>
           <div>

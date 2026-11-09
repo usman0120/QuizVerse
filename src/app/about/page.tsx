@@ -72,7 +72,7 @@ export default function Page() {
               [
                 "book-open",
                 "Beyond Quizzes",
-                "Articles, flashcards, bookmarks, notes, and personality quizzes.",
+                "Flashcards, personality quizzes, daily challenges, and progress tracking.",
               ],
               [
                 "cloud",
@@ -120,7 +120,7 @@ export default function Page() {
               ],
               [
                 "Development",
-                "Build the original HTML, Tailwind CSS, and JavaScript website, adding quizzes, flashcards, and a learning hub.",
+                "Build the original HTML, Tailwind CSS, and JavaScript website, adding quizzes and flashcards.",
               ],
               [
                 "The Next Chapter",

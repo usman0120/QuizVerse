@@ -2,6 +2,36 @@ import type { Entries, Entry } from "./types";
 import { quotes } from "./quotes";
 
 export const STORAGE_PREFIX = "quizverse:v2:";
+// Export-only compatibility for removed features; never recreate their records.
+export function isRetiredProgressKey(key: string) {
+  return /^(note:|bookmark:|highlight:|recent:|legacyNote:|legacy:(userNotes|bookmarks|highlightedText|recentTopics)$)/.test(
+    key,
+  );
+}
+export function readRetiredDeviceData(uid?: string): Record<string, unknown> {
+  const prefix = `quizverse:draft:${encodeURIComponent(uid || "guest")}:`;
+  const values: Record<string, unknown> = {};
+  try {
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      if (!key?.startsWith(prefix)) continue;
+      const raw = localStorage.getItem(key);
+      try {
+        values[key] = JSON.parse(raw || "null");
+      } catch {
+        values[key] = raw;
+      }
+    }
+  } catch {
+    /* Existing device data remains untouched if storage is unavailable. */
+  }
+  return values;
+}
+export function clearRetiredDeviceData(uid?: string) {
+  Object.keys(readRetiredDeviceData(uid)).forEach((key) =>
+    localStorage.removeItem(key),
+  );
+}
 export function mergeEntries(local: Entries, remote: Entries): Entries {
   const merged = { ...local };
   for (const [key, entry] of Object.entries(remote)) {
@@ -66,10 +96,6 @@ export function validateEntries(data: unknown): Entries {
                 language: record.language === "ur" ? "ur" : "en",
                 sound: record.sound !== false,
                 vibration: record.vibration !== false,
-                fontSize: Math.max(
-                  14,
-                  Math.min(30, Number(record.fontSize) || 18),
-                ),
               },
             },
           ],
@@ -95,25 +121,11 @@ export function validateEntries(data: unknown): Entries {
       )
         return [];
       if (
-        /^(note|bookmark|recent):/.test(key) &&
-        (!record ||
-          !["categoryId", "topicId", "title"].every(
-            (field) => typeof record[field] === "string",
-          ) ||
-          (key.startsWith("note:") && typeof record.text !== "string"))
-      )
-        return [];
-      if (
         key.startsWith("card:") &&
         (!record ||
           typeof record.learned !== "boolean" ||
           typeof record.difficult !== "boolean" ||
           typeof record.dueAt !== "string")
-      )
-        return [];
-      if (
-        key.startsWith("highlight:") &&
-        (!Array.isArray(v) || !v.every((item) => typeof item === "string"))
       )
         return [];
       if (
@@ -184,62 +196,7 @@ export function migrateLegacy(): Entries {
     language: language === "ur" ? "ur" : "en",
     sound: localStorage.getItem("soundEnabled") !== "false",
     vibration: localStorage.getItem("vibrationEnabled") !== "false",
-    fontSize: Number(localStorage.getItem("fontSize")) || 18,
   });
-  const notes = parse("userNotes");
-  if (notes && typeof notes === "object") {
-    const ids = [
-      "science-nature",
-      "islamic-studies",
-      "ancient-civilizations",
-      "english-grammar",
-      "ethics-manners",
-      "famous-poets",
-      "human-body",
-      "kids-animals",
-      "kids-shapes",
-      "national-heroes",
-      "pakistani-culture",
-      "pakistani-food",
-      "prophets-stories",
-      "quran-hadith",
-      "safety-tips",
-      "tareekh-e-pakistan",
-      "urdu-literature",
-      "urdu-poetry",
-      "urdu-proverbs",
-      "biology",
-      "history",
-      "mughals",
-      "physics",
-      "sahabah",
-    ];
-    for (const [key, value] of Object.entries(notes)) {
-      const categoryId = ids.find((id) => key.startsWith(`${id}-`));
-      if (categoryId && typeof value === "string") {
-        const topicId = key.slice(categoryId.length + 1);
-        set(`note:${categoryId}:${topicId}`, {
-          categoryId,
-          topicId,
-          title: topicId,
-          text: value,
-        });
-      } else set(`legacyNote:${key}`, value);
-    }
-  }
-  const bookmarks = parse("bookmarks");
-  if (Array.isArray(bookmarks))
-    for (const item of bookmarks) {
-      if (item.categoryId && item.sectionId)
-        set(`bookmark:${item.categoryId}:${item.sectionId}`, {
-          categoryId: item.categoryId,
-          topicId: item.sectionId,
-          title:
-            typeof item.sectionName === "string"
-              ? item.sectionName
-              : item.sectionName?.en || item.sectionId,
-        });
-    }
   const history = parse("quizHistory");
   if (Array.isArray(history))
     history.forEach((item, i) => {
@@ -253,6 +210,7 @@ export function migrateLegacy(): Entries {
         });
     });
   for (const key of [
+    "userNotes",
     "bookmarks",
     "highlightedText",
     "learnedCards",
