@@ -1,121 +1,104 @@
-# 🎯 QuizVerse – Interactive Quiz & Learning Hub
+# QuizVerse
 
-**QuizVerse** is a modern, feature-rich, and educational web platform for quizzes, learning, and fun challenges.  
-It is built using **HTML**, **CSS/TailwindCSS**, and **JavaScript** with **no backend dependencies** – making it lightweight, fast, and easily deployable.
+English and Urdu quizzes, personality tests, flashcards, and a learning hub. Migrated from the original static project to **Next.js, TypeScript, Firebase Auth, and Cloud Firestore**, deployed on **Vercel**.
 
----
+## Run locally
 
-## 📌 Features
+Use Node.js **22 or 24 LTS** (Vercel should use the same major version).
 
-### 🧠 Quizzes
-- Multiple quiz categories (General Knowledge, Science, History, Sports, etc.)
-- Personality quizzes with conditional logic
-- Timed and non-timed modes
-- Fun & interactive design with animations
+```sh
+npm ci
+```
 
-### 📚 Learning Hub
-- Learning categories (Mini-articles, Fun Facts, Biographies, Urdu + English content)
-- Sidebar navigation with dynamic content loading
-- Search by tags & keywords
-- Rich content with free images and infographics
+Copy `.env.example` to `.env.local`, populate the six Firebase web-app values, then:
 
-### 🎮 Flashcards Mode
-- Self-paced memorization tool
-- Multiple modes: Text, Image, or Mixed
-- Shuffle & Mark-as-Learned options
-- Progress tracking
+```sh
+npm run dev
+```
 
-### 🏆 Leaderboard
-- Local leaderboard for top quiz scores
-- Confetti celebration for top scorer
-- Reset & filter options
+Open `http://localhost:3000`. Production:
 
-### 💫 Engagement Features
-- Streak tracking
-- Profile modal (Name, Country, Level, Age, Gender)
-- Sharing results
-- Error handling and smooth UI/UX
+```sh
+npm run build
+npm start
+```
 
----
+Firebase web-app configuration is public client configuration, **not an authorization boundary**. Firestore rules protect data. Never commit private keys, service account credentials, or local environment files. No Firebase Admin key or Storage service is needed by this app.
 
-## 📂 Folder Structure
+## Firebase setup
 
-QuizVerse/
-│
-├── assets/ # Images, sounds, and media
-│ ├── images/
-│ └── sounds/
-│
-├── data/ # JSON data files for quizzes and learning content
-│ ├── learn-data/
-│ ├── questions/
-│ ├── flashcards.json
-│ └── personality-quiz-data.json
-│
-├── dist/ # Build output (if used for deployment)
-│
-├── src/ # JavaScript source files
-│ └── js/
-│ ├── analytics.js
-│ └── main.js
-│
-├── index.css # Main CSS file (Tailwind compiled)
-├── index.html # Homepage
-├── about.html # About page
-├── contact.html # Contact page
-├── cookies.html # Cookies policy
-├── flashcards.html # Flashcards mode
-├── learn.html # Learning page
-├── learning-categories.html # Learning category list
-├── personality.html # Personality quizzes
-├── privacy.html # Privacy policy
-├── quiz.html # Quiz player
-├── quiz-categories.html # Quiz category list
-├── terms.html # Terms of service
-│
-├── package.json
-├── package-lock.json
-├── postcss.config.js
-├── tailwind.config.js
-├── README.md # Project documentation
-└── .gitignore # Git ignore file
+1. In Firebase project `quizverse-84090`, enable **Google** and **Email/Password** in Authentication.
+2. Add the production Vercel/custom domain and `localhost` to **Authentication → Settings → Authorized domains**. Add preview domains only if previews need sign-in.
+3. Enable Firestore. Publish `firestore.rules`. If this project is shared with another app, merge the two explicit QuizVerse paths into its existing rules; do not overwrite unrelated rules blindly.
+4. Firebase CLI alternative, after logging in: `firebase deploy --only firestore:rules --project quizverse-84090`.
 
+Collections:
 
----
+- `quizverse_users/{uid}/entries/{encodedKey}`: private profile, settings, results, notes, bookmarks, highlights, flashcard progress, activity, and sync markers.
+- `quizverse_scores/{uid_resultId}`: opt-in casual public scores. No private profile fields.
 
-## 🚀 Installation & Usage
+Content stays in `data/`: **27 playable quiz banks**, **24 learning categories**, flashcard decks, and **23 personality quizzes**. New content is published through Git; no admin panel is included.
 
-1. **Clone the Repository**
-   git clone https://github.com/usman0120/quizverse.git
-   cd quizverse
+## Vercel deployment
 
-Install Dependencies
+The GitHub repository is connected to Vercel. `vercel.json` identifies Next.js, uses `npm ci`, `npm run build`, and the configured `.next-build` output directory.
 
-Only required if you're using TailwindCSS build tools.
-npm install
-Run Locally
+1. In Vercel, set the framework to **Next.js**, repository root as the root directory, and Node **22 or 24**.
+2. Add these variables for **Production** and any required **Preview** environment:
+   - `NEXT_PUBLIC_FIREBASE_API_KEY`
+   - `NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN`
+   - `NEXT_PUBLIC_FIREBASE_PROJECT_ID`
+   - `NEXT_PUBLIC_FIREBASE_APP_ID`
+   - `NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET` (configuration only; Storage is not used)
+   - `NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID` (configuration only; Messaging is not used)
+3. Optionally set `NEXT_PUBLIC_SITE_URL` to your final HTTPS domain for canonical metadata/sitemap.
+4. Rebuild after changing `NEXT_PUBLIC_*` variables: Next.js includes these values at build time.
+5. Push to `main` to trigger the connected production deployment.
 
-Open index.html directly in your browser
-Or use Live Server in VS Code for hot reload
-Build TailwindCSS (if editing styles)
-npx tailwindcss -i ./index.css -o ./dist/output.css --watch
-🛠️ Tech Stack
-HTML5
-TailwindCSS
-JavaScript (Vanilla)
-Free Public APIs (Wikipedia API, Pixabay Images, etc. – No sign-up required)
+Old `.html` URLs redirect to the corresponding Next routes and retain query parameters. All contact/suggestion/report links open [Usman's portfolio contact form](https://usman-portfolio-silk.vercel.app/contact).
 
-📌 Roadmap
- Add multiplayer quiz mode
- Add offline mode with service workers
- Expand learning content
- Add PWA support for mobile
+## Features and data behavior
 
-📄 Copyright Notice
-© 2025 QuizVerse. All rights reserved. 
-No part of this website, including its design, code, or content, may be copied, reproduced, distributed, or published in any form or by any means without the prior written permission of the copyright owner.
-Violators will be subject to legal action under applicable copyright laws.
+- Guest play with local progress; optional Google or email accounts.
+- Timed/untimed quizzes, MCQ/true-false/fill-blanks, hints, skips, result review, sharing, and JSON/image downloads.
+- Deterministic daily challenge; no external trivia API dependency.
+- Learning sections/subtopics, search, bookmarks, notes, text highlights, font controls, and references.
+- Flashcard text/image/mixed modes, shuffle, learned/difficult flags, due-card review, and progress statistics.
+- All original personality quizzes with corrected scoring and result history.
+- Shared dark theme, Urdu/RTL preferences, responsive navigation, and scoped data controls.
+- Real, opt-in **casual** leaderboard; scores are client-reported, not competitive/verified.
+- Guest/account caches are isolated. Guest import is explicit. Deletion markers keep cleared progress from reappearing on other devices.
 
-👨‍💻 Author
-Developed by Usman Ahmad
-For contributions, feel free to open a Pull Request or Issue.
+## Checks
+
+```sh
+npm run check
+npm audit
+npx playwright install chromium
+npm run test:e2e
+```
+
+Firestore rules tests require Java 21+ and Firebase CLI:
+
+```sh
+npm install -g firebase-tools
+npm run test:rules
+```
+
+They use the local `demo-quizverse` project on port 18088, not production.
+
+See [the full audit](docs/AUDIT.md) for removed files, fixed bugs, known limitations, and outstanding content-review work.
+
+## Source layout
+
+```text
+src/app/          Next.js routes, metadata, styles
+src/components/   Feature components and shared account/progress provider
+src/lib/          Content normalization, quiz logic, Firebase and sync utilities
+data/             Original version-controlled educational content
+tests/            Unit, browser, and Firestore emulator tests
+docs/AUDIT.md     Migration findings and remaining issues
+firestore.rules   Owner-only progress and bounded casual score permissions
+```
+
+© QuizVerse. Developed by Usman Ahmad. Original ownership and third-party material licenses remain applicable.

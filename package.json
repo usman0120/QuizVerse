@@ -1,12 +1,58 @@
 {
-  "name": "tailwind-starter",
+  "name": "quizverse",
   "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "scripts": {
-    "build": "tailwindcss -i ./src/index.css -o ./dist/style.css --watch"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "next typegen && tsc --noEmit",
+    "lint": "eslint .",
+    "test": "tsx --test tests/quiz.test.ts tests/progress.test.ts tests/content.test.ts",
+    "test:rules:unit": "tsx --test tests/firestore.rules.test.ts",
+    "test:rules": "firebase emulators:exec --only firestore --project demo-quizverse \"npm run test:rules:unit\"",
+    "test:e2e": "playwright test",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"tests/**/*.ts\" *.ts *.mjs *.js README.md docs/*.md",
+    "check": "npm run lint && npm run typecheck && npm test && npm run build"
   },
   "devDependencies": {
+    "@firebase/rules-unit-testing": "^6.0.0",
+    "@playwright/test": "^1.65.0",
+    "@tailwindcss/typography": "^0.5.20",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/sanitize-html": "^2.16.2",
     "autoprefixer": "^10.4.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.5",
     "postcss": "^8.4.0",
-    "tailwindcss": "^3.4.17"
+    "prettier": "^3.9.10",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.23.15",
+    "typescript": "~5.9.3"
+  },
+  "overrides": {
+    "@grpc/grpc-js": "^1.14.7",
+    "glob": "^14.0.4",
+    "minimatch": "^11.0.1",
+    "postcss-selector-parser": "^6.1.5"
+  },
+  "dependencies": {
+    "@fontsource/noto-nastaliq-urdu": "^5.3.0",
+    "@fontsource/playfair-display": "^5.3.0",
+    "@fontsource/poppins": "^5.3.0",
+    "@fortawesome/fontawesome-free": "^7.3.1",
+    "canvas-confetti": "^1.9.4",
+    "firebase": "^13.2.0",
+    "next": "^16.4.5",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "sanitize-html": "^2.18.1",
+    "server-only": "^0.0.1"
   }
 }

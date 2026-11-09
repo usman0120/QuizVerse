@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-bgLight text-textDark dark:bg-bgDark dark:text-white font-poppins;
+  }
+  button,
+  a,
+  input,
+  select,
+  textarea {
+    @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-secondary;
+  }
+  button:disabled {
+    @apply opacity-50 cursor-not-allowed;
+  }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+  }
+  [lang="ur"] h1,
+  [lang="ur"] h2,
+  [lang="ur"] h3,
+  .urdu {
+    font-family: "Noto Nastaliq Urdu", serif;
+    line-height: 2.2;
+  }
+  img {
+    max-width: 100%;
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2d6a4f;
+    border-radius: 4px;
+  }
+}
+@layer components {
+  .page {
+    @apply container mx-auto px-4 py-12 min-h-[65vh];
+  }
+  .panel {
+    @apply bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-200 dark:border-gray-700;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-brand hover:bg-secondary text-white font-medium px-4 py-2 transition-colors;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 px-4 py-2 transition-colors;
+  }
+  .btn-accent {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-accent hover:bg-yellow-500 text-textDark font-bold px-6 py-3 transition-colors;
+  }
+  .icon-btn {
+    @apply rounded-full p-2 hover:bg-black/10;
+  }
+  .field {
+    @apply block w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 px-4 py-2 mt-2 text-textDark dark:text-white;
+  }
+  .answer {
+    @apply w-full text-start rounded-lg border-2 border-gray-200 dark:border-gray-600 p-4 bg-bgLight dark:bg-gray-700 hover:border-brand transition-colors;
+  }
+  .answer-selected {
+    @apply border-brand bg-brand/10 dark:border-secondary;
+  }
+  .section {
+    @apply py-16;
+  }
+  .section-title {
+    @apply text-3xl font-bold mb-3 text-brand dark:text-secondary;
+  }
+}
+.skip-link {
+  position: fixed;
+  top: -100px;
+  left: 1rem;
+  z-index: 100;
+  padding: 0.8rem;
+  background: white;
+  color: #2d6a4f;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+.flip-card {
+  perspective: 1000px;
+}
+.flip-inner {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+.flip-inner.flipped {
+  transform: rotateY(180deg);
+}
+.flip-face {
+  backface-visibility: hidden;
+}
+.flip-back {
+  transform: rotateY(180deg);
+}
+.learning-content img {
+  border-radius: 0.75rem;
+  max-height: 400px;
+  object-fit: cover;
+}
+.learning-content table {
+  display: block;
+  overflow: auto;
+}
+.learning-content mark {
+  background: #ffb703;
+  color: #1d1d1d;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

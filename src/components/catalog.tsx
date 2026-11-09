@@ -1,0 +1,245 @@
+"use client";
+
+import Link from "next/link";
+import { useState } from "react";
+import type { LearningCategory, QuizCategory } from "@/lib/types";
+import { useApp } from "./provider";
+import { Icon, Media, Notice, PageHeading, Text } from "./ui";
+
+export function QuizCatalog({ categories }: { categories: QuizCategory[] }) {
+  const { settings, ready } = useApp();
+  const [search, setSearch] = useState("");
+  const [group, setGroup] = useState("");
+  const [difficulty, setDifficulty] = useState("");
+  const [type, setType] = useState("all");
+  const filtered = categories.filter(
+    (c) =>
+      `${c.name.en} ${c.name.ur || ""} ${c.description.en} ${c.group}`
+        .toLowerCase()
+        .includes(search.toLowerCase()) &&
+      (!group || c.group === group) &&
+      (!difficulty || c.difficulty === difficulty) &&
+      (type === "all" || c.types.includes(type as "mcq")),
+  );
+  return (
+    <div className="page">
+      <PageHeading
+        title={{ en: "Quiz Categories", ur: "کوئز کے زمرے" }}
+        description={{
+          en: "Find your next challenge. Choose a topic, question type, and difficulty.",
+          ur: "اپنا اگلا چیلنج تلاش کریں۔ موضوع، سوال کی قسم اور مشکل کا انتخاب کریں۔",
+        }}
+      />
+      <div className="panel mb-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <label>
+          Search
+          <input
+            className="field"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="Topics and keywords…"
+          />
+        </label>
+        <label>
+          Category
+          <select
+            className="field"
+            value={group}
+            onChange={(e) => setGroup(e.target.value)}
+          >
+            <option value="">All categories</option>
+            {[...new Set(categories.map((c) => c.group))].map((g) => (
+              <option key={g}>{g}</option>
+            ))}
+          </select>
+        </label>
+        <label>
+          Difficulty
+          <select
+            className="field"
+            value={difficulty}
+            onChange={(e) => setDifficulty(e.target.value)}
+          >
+            <option value="">All difficulties</option>
+            {[...new Set(categories.map((c) => c.difficulty))].map((d) => (
+              <option key={d}>{d}</option>
+            ))}
+          </select>
+        </label>
+        <label>
+          Question type
+          <select
+            className="field"
+            value={type}
+            onChange={(e) => setType(e.target.value)}
+          >
+            <option value="all">All types</option>
+            <option value="mcq">Multiple choice</option>
+            <option value="true-false">True / False</option>
+            <option value="fill-blanks">Fill in the blank</option>
+          </select>
+        </label>
+      </div>
+      <div className="flex flex-wrap gap-3 justify-between mb-6">
+        <p aria-live="polite">{filtered.length} playable categories</p>
+        <div className="flex gap-3">
+          <button
+            className="btn-secondary"
+            onClick={() => {
+              setSearch("");
+              setGroup("");
+              setDifficulty("");
+              setType("all");
+            }}
+          >
+            Reset filters
+          </button>
+          <Link
+            className="btn"
+            href={`/quiz?random=true&type=${type}${filtered.length ? `&cats=${filtered.map((c) => c.id).join(",")}` : ""}`}
+          >
+            <Icon name="random" />
+            Random Quiz
+          </Link>
+        </div>
+      </div>
+      {!filtered.length && (
+        <Notice>
+          No categories match these filters. Try a broader search.
+        </Notice>
+      )}
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        {filtered.map((c) => (
+          <article
+            className="panel flex flex-col hover:shadow-lg transition-shadow"
+            key={c.id}
+            style={{ borderTop: `4px solid ${c.color}` }}
+          >
+            <div
+              className="w-14 h-14 rounded-xl flex items-center justify-center mb-4"
+              style={{ backgroundColor: `${c.color}15`, color: c.color }}
+            >
+              <Icon name={c.icon} className="text-2xl" />
+            </div>
+            <h2 className="text-xl font-bold mb-2">
+              <Text {...c.name} />
+            </h2>
+            <p className="text-sm text-gray-600 dark:text-gray-300 mb-4 flex-1">
+              <Text {...c.description} />
+            </p>
+            <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+              {c.count} unique questions · {c.difficulty}
+            </p>
+            <Link
+              className="btn"
+              href={`/quiz?cat=${c.id}&type=${type}&lang=${settings.language}`}
+              aria-disabled={!ready}
+            >
+              <Text en="Start Quiz" ur="کوئز شروع کریں" />
+              <Icon name="arrow-right" />
+            </Link>
+          </article>
+        ))}
+      </div>
+    </div>
+  );
+}
+export function LearningCatalog({
+  categories,
+}: {
+  categories: LearningCategory[];
+}) {
+  const [search, setSearch] = useState("");
+  const [group, setGroup] = useState("");
+  const filtered = categories.filter(
+    (c) =>
+      `${c.name.en} ${c.name.ur || ""} ${c.tags.join(" ")} ${c.group}`
+        .toLowerCase()
+        .includes(search.toLowerCase()) &&
+      (!group || c.group === group),
+  );
+  return (
+    <div className="page">
+      <PageHeading
+        title={{ en: "Learning Hub", ur: "مطالعہ کا مرکز" }}
+        description={{
+          en: "Explore mini-articles, fun facts, biographies, and English & Urdu learning resources.",
+        }}
+      />
+      <div className="panel mb-8 grid sm:grid-cols-3 gap-4">
+        <label>
+          Search topics
+          <input
+            className="field"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="Search by topic or tag…"
+          />
+        </label>
+        <label>
+          Category
+          <select
+            className="field"
+            value={group}
+            onChange={(e) => setGroup(e.target.value)}
+          >
+            <option value="">All categories</option>
+            {[...new Set(categories.map((c) => c.group))].map((g) => (
+              <option key={g}>{g}</option>
+            ))}
+          </select>
+        </label>
+        <button
+          className="btn-secondary self-end"
+          onClick={() => {
+            setSearch("");
+            setGroup("");
+          }}
+        >
+          Reset filters
+        </button>
+      </div>
+      <p className="mb-5" aria-live="polite">
+        {filtered.length} learning categories
+      </p>
+      {!filtered.length && (
+        <Notice>No topics found. Try a different keyword.</Notice>
+      )}
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        {filtered.map((c) => (
+          <Link
+            key={c.id}
+            href={`/learn?cat=${c.id}`}
+            className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow border border-gray-200 dark:border-gray-700"
+          >
+            {c.image ? (
+              <Media
+                src={c.image}
+                alt={c.name.en}
+                className="h-40 w-full object-cover"
+              />
+            ) : (
+              <div
+                className="h-40 flex items-center justify-center"
+                style={{ backgroundColor: `${c.color}20`, color: c.color }}
+              >
+                <Icon name={c.icon} className="text-5xl" />
+              </div>
+            )}
+            <div className="p-6">
+              <h2 className="text-xl font-bold mb-3">
+                <Text {...c.name} />
+              </h2>
+              <p className="text-gray-500 dark:text-gray-400 text-sm mb-4">
+                {c.topics.length} topics · {c.tags.join(", ")}
+              </p>
+              <span className="font-medium text-brand dark:text-secondary">
+                <Text en="Start Learning" ur="مطالعہ شروع کریں" /> →
+              </span>
+            </div>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+}
