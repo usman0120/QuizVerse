@@ -3,7 +3,7 @@ import { cache } from "react";
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import { normalizeQuestions } from "./quiz";
-import type { Deck, PersonalityQuiz, QuizCategory, Question } from "./types";
+import type { PersonalityQuiz, QuizCategory, Question } from "./types";
 
 const root = path.join(process.cwd(), "data");
 const readJson = async (file: string) => {
@@ -89,16 +89,6 @@ export const getQuestions = async (ids: string[]) => {
       return true;
     });
 };
-export const getDecks = cache(async (): Promise<Deck[]> => {
-  const data = await readJson("flashcards.json");
-  return data.decks.map((deck: Deck) => ({
-    ...deck,
-    cards: deck.cards.map((card, index) => ({
-      ...card,
-      id: `${deck.id}:${index}`,
-    })),
-  }));
-});
 export const getPersonalityQuizzes = cache(
   async (): Promise<PersonalityQuiz[]> =>
     Object.values(await readJson("personality-quiz-data.json")),

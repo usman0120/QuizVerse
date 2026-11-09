@@ -11,7 +11,7 @@
     "start": "next start",
     "typecheck": "next typegen && tsc --noEmit",
     "lint": "eslint .",
-    "test": "tsx --test tests/quiz.test.ts tests/progress.test.ts tests/content.test.ts tests/reliability.test.ts tests/content-cleanup.test.mjs",
+    "test": "tsx --test tests/quiz.test.ts tests/progress.test.ts tests/content.test.ts tests/reliability.test.ts tests/content-cleanup.test.mjs tests/language.test.ts",
     "test:rules:unit": "tsx --test tests/firestore.rules.test.ts",
     "test:rules": "firebase emulators:exec --only firestore --project demo-quizverse \"npm run test:rules:unit\"",
     "test:e2e": "playwright test",
@@ -45,7 +45,6 @@
   },
   "dependencies": {
     "@fontsource/noto-nastaliq-urdu": "^5.3.0",
-    "@fontsource/playfair-display": "^5.3.0",
     "@fontsource/poppins": "^5.3.0",
     "@fortawesome/fontawesome-free": "^7.3.1",
     "canvas-confetti": "^1.9.4",

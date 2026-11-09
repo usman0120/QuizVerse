@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { Localized } from "@/lib/types";
 import { useApp } from "./provider";
+import { contentLocale } from "@/lib/language";
 
 export const CONTACT_URL = "https://usman-portfolio-silk.vercel.app/contact";
 export function Icon({
@@ -14,25 +15,38 @@ export function Icon({
 }) {
   return <i aria-hidden="true" className={`fas fa-${name} ${className}`} />;
 }
-export function Text({ en, ur }: Localized) {
+export function ContentText({
+  en,
+  ur,
+  className = "",
+}: Localized & { className?: string }) {
   const { settings } = useApp();
-  return <>{settings.language === "ur" ? ur || en : en}</>;
+  const content = contentLocale(en, ur, settings.language);
+  return (
+    <span
+      lang={content.lang}
+      dir={content.dir}
+      className={`block ${content.lang === "ur" ? "urdu" : ""} ${className}`}
+    >
+      {content.text}
+    </span>
+  );
 }
 export function PageHeading({
   title,
   description,
 }: {
-  title: Localized;
-  description?: Localized;
+  title: string;
+  description?: string;
 }) {
   return (
     <div className="text-center mb-10">
       <h1 className="text-3xl md:text-4xl font-bold text-brand dark:text-secondary mb-4">
-        <Text {...title} />
+        {title}
       </h1>
       {description && (
         <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-          <Text {...description} />
+          {description}
         </p>
       )}
     </div>

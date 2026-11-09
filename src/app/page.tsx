@@ -1,6 +1,5 @@
 import { Home } from "@/components/home";
 import {
-  getDecks,
   getPersonalityQuizzes,
   getQuestions,
   getQuizCategories,
@@ -9,9 +8,8 @@ import { seededRandom, shuffle } from "@/lib/quiz";
 // UTC daily content is deterministic across users; Vercel refreshes this page hourly.
 export const revalidate = 3600;
 export default async function Page() {
-  const [categories, decks, personality, questions] = await Promise.all([
+  const [categories, personality, questions] = await Promise.all([
     getQuizCategories(),
-    getDecks(),
     getPersonalityQuizzes(),
     getQuestions(["general_knowledge"]),
   ]);
@@ -38,7 +36,6 @@ export default async function Page() {
   return (
     <Home
       categories={featured}
-      decks={decks}
       personality={personality}
       daily={daily}
       quoteIndex={Math.floor(seededRandom(`quote:${seed}`)() * 100)}

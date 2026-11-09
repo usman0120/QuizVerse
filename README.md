@@ -1,8 +1,10 @@
 # QuizVerse
 
-English and Urdu quizzes, personality tests, quotes, and flashcards. Migrated from the original static project to **Next.js, TypeScript, Firebase Auth, and Cloud Firestore**, deployed on **Vercel**.
+English and Urdu quizzes, personality tests, and quotes. Migrated from the original static project to **Next.js, TypeScript, Firebase Auth, and Cloud Firestore**, deployed on **Vercel**.
 
-The Learning Hub has been removed. Its routes and legacy HTML URLs return 404; its navigation, homepage section, article data, note editor, and quiz-result links are no longer part of the app. Existing users' saved records are preserved for data exports, not automatically purged or recreated.
+The Learning Hub and flashcards modules have been removed. Their routes and legacy HTML URLs return 404; their navigation, homepage sections, data, editors, and module links are no longer part of the app. Existing users' saved records are preserved for data exports, not automatically purged or recreated.
+
+The interface stays **English and left-to-right**. The **UR / EN** control changes only quiz/category cards, questions, answers, hints, explanations, and personality content, with scoped Urdu RTL rendering. Navigation, section headings, buttons, settings, and footer labels stay English. The footer lists every current page/module and working feature shortcut.
 
 ## Run locally
 
@@ -37,10 +39,10 @@ Firebase web-app configuration is public client configuration, **not an authoriz
 
 Collections:
 
-- `quizverse_users/{uid}/entries/{encodedKey}`: private profile, settings, results, flashcard progress, activity, favorites, and sync markers. Records from retired features are retained for export, not recreated by active flows.
+- `quizverse_users/{uid}/entries/{encodedKey}`: private profile, settings, results, activity, favorites, and sync markers. Records from retired features are retained for export, not recreated by active flows.
 - `quizverse_scores/{uid_resultId}`: opt-in casual public scores. No private profile fields.
 
-Content stays in `data/`: **27 playable quiz banks**, flashcard decks, and **23 personality quizzes**. New content is published through Git; no admin panel is included.
+Content stays in `data/`: **27 playable quiz banks** and **23 personality quizzes**. New content is published through Git; no admin panel is included.
 
 ## Vercel deployment
 
@@ -65,9 +67,8 @@ Old `.html` URLs redirect to the corresponding Next routes and retain query para
 - Guest play with local progress; optional Google or email accounts.
 - Timed/untimed quizzes, MCQ/true-false/fill-blanks, hints, skips, result review, sharing, and JSON/image downloads.
 - Deterministic daily challenge; no external trivia API dependency.
-- Flashcard text/image/mixed modes, shuffle, learned/difficult flags, due-card review, and progress statistics.
 - All original personality quizzes with corrected scoring and result history.
-- Shared dark theme, Urdu/RTL preferences, responsive navigation, and scoped data controls.
+- Shared dark theme, content-only English/Urdu preferences, English responsive navigation, and scoped data controls.
 - Real, opt-in **casual** leaderboard; scores are client-reported, not competitive/verified.
 - Guest/account caches are isolated. Guest import is explicit. Deletion markers keep cleared progress from reappearing on other devices.
 - Sign-out waits for pending writes before clearing the account cache. Exports preserve historical data from retired features.

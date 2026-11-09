@@ -5,7 +5,6 @@ import { useState } from "react";
 import { calculateStreak } from "@/lib/quiz";
 import { quotes } from "@/lib/quotes";
 import type {
-  Deck,
   PersonalityQuiz,
   Question,
   QuizCategory,
@@ -14,17 +13,22 @@ import type {
 import { useApp } from "./provider";
 import { QuizPlayer } from "./quiz-player";
 import { Leaderboard } from "./leaderboard";
-import { CONTACT_URL, downloadCard, Icon, Media, Notice, Text } from "./ui";
+import {
+  CONTACT_URL,
+  downloadCard,
+  Icon,
+  Media,
+  Notice,
+  ContentText,
+} from "./ui";
 
 export function Home({
   categories,
-  decks,
   personality,
   daily,
   quoteIndex,
 }: {
   categories: QuizCategory[];
-  decks: Deck[];
   personality: PersonalityQuiz[];
   daily: Question[];
   quoteIndex: number;
@@ -63,7 +67,7 @@ export function Home({
         <div className="container mx-auto px-4 grid md:grid-cols-2 items-center gap-12">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              <Text en="Test Your Knowledge with" ur="اپنے علم کا امتحان لیں" />{" "}
+              Test Your Knowledge with{" "}
               <span className="text-accent">QuizVerse</span>
             </h1>
             <p className="text-lg mb-6">
@@ -72,7 +76,7 @@ export function Home({
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/quizzes" className="btn-accent">
-                <Text en="Start Quiz Now" ur="اب کوئز شروع کریں" />
+                Start Quiz Now
                 <Icon name="arrow-right" />
               </Link>
             </div>
@@ -86,7 +90,10 @@ export function Home({
               aria-hidden="true"
               className="absolute -bottom-6 -end-6 w-32 h-32 bg-accent rounded-full opacity-20 animate-pulse"
             />
-            <div className="relative bg-white/10 backdrop-blur-sm rounded-xl p-6 shadow-xl border border-white/20">
+            <div
+              id="daily-challenge"
+              className="relative bg-white/10 backdrop-blur-sm rounded-xl p-6 shadow-xl border border-white/20"
+            >
               <QuizPlayer
                 questions={daily}
                 category="daily"
@@ -232,7 +239,7 @@ export function Home({
                   <Icon name={c.icon} className="text-2xl" />
                 </div>
                 <h3 className="font-bold">
-                  <Text {...c.name} />
+                  <ContentText {...c.name} />
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
                   {c.count} questions
@@ -243,46 +250,6 @@ export function Home({
           <div className="text-center mt-8">
             <Link href="/quizzes" className="btn rounded-full px-6 py-3">
               View All Categories →
-            </Link>
-          </div>
-        </div>
-      </section>
-      <section
-        id="flashcards"
-        className="section bg-gradient-to-br from-brand/5 to-secondary/5 dark:from-gray-800 dark:to-gray-900"
-      >
-        <div className="container mx-auto px-4">
-          {headings(
-            "Flashcards",
-            "Master key concepts with our interactive flashcard system.",
-          )}
-          <div className="flex gap-6 overflow-x-auto snap-x pb-8 max-w-5xl mx-auto">
-            {decks.slice(0, 4).map((d) => (
-              <article
-                key={d.id}
-                className="snap-center shrink-0 w-72 h-96 rounded-2xl shadow-xl bg-white dark:bg-gray-800 overflow-hidden"
-              >
-                <div className="h-1/2 bg-gradient-to-r from-brand to-secondary flex items-center justify-center">
-                  <Icon name="brain" className="text-6xl text-white" />
-                </div>
-                <div className="p-6 flex flex-col h-1/2">
-                  <h3 className="text-xl font-bold mb-3">{d.title}</h3>
-                  <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">
-                    {d.cards.length} cards · {d.category}
-                  </p>
-                  <Link
-                    href="/flashcards#decks"
-                    className="mt-auto text-brand dark:text-secondary font-medium"
-                  >
-                    Study Now →
-                  </Link>
-                </div>
-              </article>
-            ))}
-          </div>
-          <div className="text-center mt-6">
-            <Link href="/flashcards" className="btn rounded-full px-6 py-3">
-              Browse All Flashcard Decks →
             </Link>
           </div>
         </div>
@@ -301,7 +268,7 @@ export function Home({
               <Link
                 key={q.id}
                 href="/personality"
-                className="relative group rounded-2xl shadow-xl overflow-hidden h-96"
+                className="relative group block rounded-2xl shadow-xl overflow-hidden min-h-96"
               >
                 <Media
                   src={q.image}
@@ -309,9 +276,13 @@ export function Home({
                   className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-brand/60 to-secondary/95" />
-                <div className="relative h-full flex flex-col justify-end p-6 text-white">
-                  <h3 className="text-2xl font-bold mb-3">{q.title}</h3>
-                  <p className="mb-4 opacity-90">{q.description}</p>
+                <div className="relative min-h-96 h-full flex flex-col justify-end p-6 text-white">
+                  <h3 className="text-2xl font-bold mb-3">
+                    <ContentText en={q.title} ur={q.title_ur} />
+                  </h3>
+                  <p className="mb-4 opacity-90">
+                    <ContentText en={q.description} ur={q.description_ur} />
+                  </p>
                   <span className="font-medium">Take the Test →</span>
                 </div>
               </Link>
@@ -345,7 +316,7 @@ export function Home({
               [
                 "chart-line",
                 "Progress Tracking",
-                "Track your results, flashcard mastery, and study streak.",
+                "Track your quiz results, history, and activity streak.",
               ],
               [
                 "cloud",

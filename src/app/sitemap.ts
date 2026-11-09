@@ -6,7 +6,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     "",
     "/quizzes",
-    "/flashcards",
     "/personality",
     "/leaderboard",
     "/about",

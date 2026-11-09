@@ -4,7 +4,7 @@ import { quotes } from "./quotes";
 export const STORAGE_PREFIX = "quizverse:v2:";
 // Export-only compatibility for removed features; never recreate their records.
 export function isRetiredProgressKey(key: string) {
-  return /^(note:|bookmark:|highlight:|recent:|legacyNote:|legacy:(userNotes|bookmarks|highlightedText|recentTopics)$)/.test(
+  return /^(note:|bookmark:|highlight:|recent:|card:|study:|legacyNote:|legacy:(userNotes|bookmarks|highlightedText|recentTopics|learnedCards|difficultCards|flashcardStreak|lastStudyDate|totalStudyTime)$)/.test(
     key,
   );
 }
@@ -118,19 +118,6 @@ export function validateEntries(data: unknown): Entries {
           !["id", "date", "title", "result"].every(
             (field) => typeof record[field] === "string",
           ))
-      )
-        return [];
-      if (
-        key.startsWith("card:") &&
-        (!record ||
-          typeof record.learned !== "boolean" ||
-          typeof record.difficult !== "boolean" ||
-          typeof record.dueAt !== "string")
-      )
-        return [];
-      if (
-        key.startsWith("study:") &&
-        (typeof v !== "number" || !Number.isFinite(v) || v < 0)
       )
         return [];
       if (key.startsWith("activity:") && typeof v !== "string") return [];

@@ -71,18 +71,14 @@ export function AuthForm() {
   return (
     <div className="page max-w-xl">
       <PageHeading
-        title={{
-          en:
-            mode === "register"
-              ? "Create Your Account"
-              : mode === "reset"
-                ? "Reset Your Password"
-                : "Welcome Back",
-          ur: mode === "register" ? "اکاؤنٹ بنائیں" : "لاگ اِن کریں",
-        }}
-        description={{
-          en: "Sign in to sync your quizzes, preferences, and flashcard progress across devices.",
-        }}
+        title={
+          mode === "register"
+            ? "Create Your Account"
+            : mode === "reset"
+              ? "Reset Your Password"
+              : "Welcome Back"
+        }
+        description="Sign in to sync your quiz results, favorites, and preferences across devices."
       />
       <section className="panel">
         {app.user ? (

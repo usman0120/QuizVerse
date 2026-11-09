@@ -11,6 +11,7 @@ import {
   Media,
   Notice,
   PageHeading,
+  ContentText,
   shareText,
 } from "./ui";
 
@@ -27,8 +28,6 @@ export function Personality({ quizzes }: { quizzes: PersonalityQuiz[] }) {
   const history = app
     .list<PersonalityResult>("personality:")
     .sort((a, b) => b.date.localeCompare(a.date));
-  const localized = (en: string, ur?: string) =>
-    app.settings.language === "ur" ? ur || en : en;
   function start(selected: PersonalityQuiz) {
     setQuiz(selected);
     setIndex(0);
@@ -67,13 +66,8 @@ export function Personality({ quizzes }: { quizzes: PersonalityQuiz[] }) {
   return (
     <div className="page">
       <PageHeading
-        title={{
-          en: "Discover Your Personality",
-          ur: "اپنی شخصیت دریافت کریں",
-        }}
-        description={{
-          en: "Fun personality quizzes based on your choices. For entertainment and reflection, not scientific or psychological assessment.",
-        }}
+        title="Discover Your Personality"
+        description="Fun personality quizzes based on your choices. For entertainment and reflection, not scientific or psychological assessment."
       />
       {quiz ? (
         <div className="max-w-4xl mx-auto">
@@ -90,7 +84,7 @@ export function Personality({ quizzes }: { quizzes: PersonalityQuiz[] }) {
             <section className="panel text-center">
               <div className="text-6xl mb-5">{match.emoji}</div>
               <h2 className="text-3xl font-bold mb-4">
-                {localized(match.title, match.title_ur)}
+                <ContentText en={match.title} ur={match.title_ur} />
               </h2>
               <Media
                 key={match.image}
@@ -99,7 +93,7 @@ export function Personality({ quizzes }: { quizzes: PersonalityQuiz[] }) {
                 className="rounded-xl w-full max-w-md h-64 object-cover mx-auto mb-6"
               />
               <p className="text-lg mb-6">
-                {localized(match.description, match.description_ur)}
+                <ContentText en={match.description} ur={match.description_ur} />
               </p>
               <p className="text-sm text-gray-500 dark:text-gray-400 mb-6">
                 {app.profile.name} · Based on your {quiz.questions.length}{" "}
@@ -143,7 +137,7 @@ export function Personality({ quizzes }: { quizzes: PersonalityQuiz[] }) {
           ) : question ? (
             <section className="panel">
               <h2 className="text-xl font-bold mb-4">
-                {localized(quiz.title, quiz.title_ur)}
+                <ContentText en={quiz.title} ur={quiz.title_ur} />
               </h2>
               <div className="flex justify-between mb-2 text-sm">
                 <p>
@@ -158,13 +152,13 @@ export function Personality({ quizzes }: { quizzes: PersonalityQuiz[] }) {
                 value={index}
               />
               <h3 className="text-2xl font-bold mb-6">
-                {localized(question.question, question.question_ur)}
+                <ContentText en={question.question} ur={question.question_ur} />
               </h3>
               <div className="grid sm:grid-cols-2 gap-4">
                 {question.options.map((option, i) => (
                   <button
                     key={i}
-                    className={`answer ${answers[index] === i ? "answer-selected" : ""}`}
+                    className={`answer flex items-start gap-3 ${answers[index] === i ? "answer-selected" : ""}`}
                     aria-pressed={answers[index] === i}
                     onClick={() => {
                       const updated = [...answers];
@@ -172,8 +166,14 @@ export function Personality({ quizzes }: { quizzes: PersonalityQuiz[] }) {
                       setAnswers(updated);
                     }}
                   >
-                    <span className="text-3xl me-3">{option.emoji}</span>
-                    {localized(option.text, option.text_ur)}
+                    <span aria-hidden="true" className="text-3xl shrink-0">
+                      {option.emoji}
+                    </span>
+                    <ContentText
+                      className="flex-1"
+                      en={option.text}
+                      ur={option.text_ur}
+                    />
                   </button>
                 ))}
               </div>
@@ -239,10 +239,10 @@ export function Personality({ quizzes }: { quizzes: PersonalityQuiz[] }) {
                 />
                 <div className="p-6 flex-1 flex flex-col">
                   <h2 className="text-xl font-bold mb-3">
-                    {localized(q.title, q.title_ur)}
+                    <ContentText en={q.title} ur={q.title_ur} />
                   </h2>
                   <p className="text-gray-600 dark:text-gray-300 mb-4 flex-1">
-                    {localized(q.description, q.description_ur)}
+                    <ContentText en={q.description} ur={q.description_ur} />
                   </p>
                   <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
                     {q.questions.length} questions · {q.time} min
@@ -272,7 +272,7 @@ export function Personality({ quizzes }: { quizzes: PersonalityQuiz[] }) {
           </div>
         </>
       )}
-      <section className="panel mt-12">
+      <section id="quiz-history" className="panel mt-12">
         <div className="flex justify-between gap-4 mb-5">
           <h2 className="text-2xl font-bold">Your Quiz History</h2>
           <button
@@ -302,7 +302,7 @@ export function Personality({ quizzes }: { quizzes: PersonalityQuiz[] }) {
               <h3 className="font-bold mb-2">{h.title}</h3>
               <p className="text-brand dark:text-secondary">{h.result}</p>
               <p className="text-sm mt-2 text-gray-500 dark:text-gray-400">
-                {new Date(h.date).toLocaleDateString()}
+                {new Date(h.date).toLocaleDateString("en-US")}
               </p>
             </div>
           ))}

@@ -9,7 +9,7 @@ export default function Page() {
         <h2>Using QuizVerse</h2>
         <p>
           QuizVerse provides educational and entertainment quizzes, personality
-          tests, and flashcards. Use the platform responsibly, keep account
+          tests, and quotes. Use the platform responsibly, keep account
           credentials private, and do not submit abusive public display names or
           attempt to access other users’ data.
         </p>

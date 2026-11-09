@@ -8,13 +8,14 @@ test("retired module routes return 404 and no links remain on active pages", asy
     "/learn?cat=science-nature",
     "/learning-categories.html",
     "/learn.html",
+    "/flashcards",
+    "/flashcards.html",
   ]) {
     expect((await request.get(route, { maxRedirects: 0 })).status()).toBe(404);
   }
   for (const route of [
     "/",
     "/quizzes",
-    "/flashcards",
     "/personality",
     "/account",
     "/about",
@@ -22,12 +23,15 @@ test("retired module routes return 404 and no links remain on active pages", asy
   ]) {
     await page.goto(route);
     await expect(
-      page.locator('a[href^="/learning"], a[href^="/learn?"]'),
+      page.locator(
+        'a[href^="/learning"], a[href^="/learn?"], a[href^="/flashcards"]',
+      ),
     ).toHaveCount(0);
     await expect(page.locator("#learning-hub")).toHaveCount(0);
   }
   const sitemap = await request.get("/sitemap.xml");
   expect(await sitemap.text()).not.toContain("/learning");
+  expect(await sitemap.text()).not.toContain("/flashcards");
 });
 test("new logo renders, favicon matches, and clock endpoint is uncached", async ({
   page,
@@ -157,9 +161,9 @@ test("homepage design, working CTA, and mobile navigation", async ({
   await page.getByRole("button", { name: "Toggle navigation" }).click();
   await page
     .getByRole("navigation", { name: "Mobile navigation" })
-    .getByRole("link", { name: "Flashcards" })
+    .getByRole("link", { name: "Personality Tests" })
     .click();
-  await expect(page).toHaveURL(/\/flashcards/);
+  await expect(page).toHaveURL(/\/personality/);
   expect(errors).toEqual([]);
   expect(
     await page.evaluate(
@@ -201,27 +205,110 @@ test("theme and Urdu persist across routes and reload", async ({ page }) => {
   await page.goto("/quizzes");
   await page.getByRole("button", { name: "Toggle theme" }).click();
   await expect(page.locator("html")).toHaveClass(/dark/);
-  await page.getByRole("button", { name: "Switch to Urdu" }).click();
-  await expect(page.locator("html")).toHaveAttribute("dir", "rtl");
-  await page.goto("/flashcards");
-  await expect(page.locator("html")).toHaveAttribute("lang", "ur");
+  await page.getByRole("button", { name: "Switch content to Urdu" }).click();
+  await expect(page.locator("html")).toHaveAttribute("dir", "ltr");
+  await expect(
+    page.getByRole("heading", { name: "Quiz Categories", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator('article span[lang="ur"]').first()).toBeVisible();
+  await page.goto("/personality");
+  await expect(page.locator("html")).toHaveAttribute("lang", "en");
+  await expect(
+    page.getByRole("heading", {
+      name: "Discover Your Personality",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(page.locator('article span[lang="ur"]').first()).toBeVisible();
   await expect(page.locator("html")).toHaveClass(/dark/);
 });
-test("flashcard mastery uses stable IDs even after shuffle", async ({
+test("Urdu questions and answer content never translate navigation or controls", async ({
   page,
 }) => {
-  await page.goto("/flashcards");
-  await page.getByRole("button", { name: "Study Now" }).first().click();
-  await page
-    .getByRole("button", { name: "Flip card to reveal answer" })
-    .click();
-  await page.getByRole("button", { name: "Mark Learned", exact: true }).click();
+  await page.goto("/quiz?cat=general_knowledge&type=true-false&lang=ur");
   await expect(
-    page.getByRole("button", { name: "Mark Unlearned" }),
+    page.getByRole("button", { name: "Switch content to English" }),
+  ).toBeEnabled();
+  await expect(
+    page
+      .getByRole("navigation", { name: "Main navigation" })
+      .getByRole("link", { name: "Quizzes", exact: true }),
   ).toBeVisible();
-  await page.getByRole("button", { name: "Back to decks" }).click();
-  await page.reload();
-  await expect(page.getByText("3 cards · Students · 1 learned")).toBeVisible();
+  await page.getByRole("button", { name: "Start Quiz", exact: true }).click();
+  await expect(page.locator('h2 span[lang="ur"]').first()).toBeVisible();
+  await expect(page.locator('h2 span[lang="ur"]').first()).toHaveAttribute(
+    "dir",
+    "rtl",
+  );
+  await page.getByRole("button", { name: "درست", exact: true }).click();
+  await expect(
+    page.getByRole("button", { name: "Next", exact: false }),
+  ).toBeVisible();
+  await expect(page.locator("html")).toHaveAttribute("lang", "en");
+  await expect(page.locator("html")).toHaveAttribute("dir", "ltr");
+  await expect(
+    page
+      .getByRole("contentinfo")
+      .getByRole("heading", { name: "Help & Information" }),
+  ).toBeVisible();
+});
+test("footer shortcuts target existing pages and real section IDs", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: "Switch content to Urdu" }).click();
+  const footer = page.getByRole("contentinfo");
+  await expect(footer).toHaveAttribute("lang", "en");
+  for (const name of [
+    "Quiz Categories",
+    "Quiz Player",
+    "Personality Tests",
+    "Casual Leaderboard",
+    "Sign In / Register",
+    "About QuizVerse",
+    "Privacy Policy",
+    "Terms of Service",
+    "Cookies & Storage",
+  ]) {
+    await expect(footer.getByRole("link", { name, exact: true })).toHaveCount(
+      1,
+    );
+  }
+  const links = await footer
+    .locator("a")
+    .evaluateAll((nodes) => nodes.map((node) => node.getAttribute("href")!));
+  for (const href of links.filter(
+    (href) => href.startsWith("/") && href.includes("#"),
+  )) {
+    await page.goto(href);
+    const hash = new URL(href, "http://localhost").hash;
+    await expect(page.locator(`[id="${hash.slice(1)}"]`)).toHaveCount(1);
+  }
+});
+test("personality content changes language while headings and buttons stay English", async ({
+  page,
+}) => {
+  await page.goto("/personality");
+  await page.getByRole("button", { name: "Switch content to Urdu" }).click();
+  await expect(
+    page.getByRole("heading", {
+      name: "Discover Your Personality",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await page.getByRole("button", { name: "Start Quiz" }).first().click();
+  await expect(page.locator('.answer span[lang="ur"]').first()).toBeVisible();
+  await page.locator(".answer").first().click();
+  await expect(
+    page.getByRole("button", { name: "Next", exact: false }),
+  ).toBeEnabled();
+  await page.getByRole("button", { name: "Switch content to English" }).click();
+  await expect(page.locator('.answer span[lang="en"]').first()).toBeVisible();
+  await expect(page.locator(".answer").first()).toHaveAttribute(
+    "aria-pressed",
+    "true",
+  );
+  await expect(page.locator("html")).toHaveAttribute("dir", "ltr");
 });
 test("personality previous answers can be changed without duplicate scoring", async ({
   page,

@@ -27,26 +27,6 @@ export interface QuizCategory {
   color: string;
   icon: string;
 }
-export interface Flashcard {
-  id: string;
-  front: string;
-  back: string;
-  hint?: string;
-  example?: string;
-  image?: string | null;
-  mnemonic?: string;
-  reference?: string;
-}
-export interface Deck {
-  id: string;
-  title: string;
-  category: string;
-  group: string;
-  description: string;
-  tags: string[];
-  difficulty: string;
-  cards: Flashcard[];
-}
 export interface PersonalityQuiz {
   id: string;
   title: string;
@@ -100,12 +80,6 @@ export interface PersonalityResult {
   title: string;
   result: string;
   date: string;
-}
-export interface CardProgress {
-  learned: boolean;
-  difficult: boolean;
-  reviewedAt: string;
-  dueAt: string;
 }
 // Individual timestamped entries (including deletion tombstones) avoid whole-profile overwrite races.
 export interface Entry {

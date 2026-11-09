@@ -83,12 +83,7 @@ export function Account() {
   }
   return (
     <div className="page max-w-5xl">
-      <PageHeading
-        title={{
-          en: "Your Profile & Progress",
-          ur: "آپ کی پروفائل اور پیش رفت",
-        }}
-      />
+      <PageHeading title="Your Profile & Progress" />
       {!app.ready && <Notice>Loading your profile…</Notice>}
       <section className="panel mb-8">
         <div className="flex flex-wrap items-center justify-between gap-4">
@@ -205,7 +200,10 @@ export function Account() {
           </>
         )}
       </section>
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 mb-8">
+      <div
+        id="progress-summary"
+        className="grid grid-cols-2 lg:grid-cols-3 gap-5 mb-8"
+      >
         {[
           [results.length, "Quizzes completed"],
           [results.reduce((n, r) => n + r.score, 0), "Correct answers"],
@@ -219,11 +217,12 @@ export function Account() {
           </div>
         ))}
       </div>
-      <section className="panel">
+      <section id="quiz-history" className="panel">
         <div className="flex flex-wrap justify-between gap-3 mb-6">
           <h2 className="text-2xl font-bold">Quiz History</h2>
           <button
             className="btn-secondary"
+            id="data-export"
             onClick={() =>
               downloadText(
                 "quizverse-progress.json",
@@ -265,7 +264,7 @@ export function Account() {
               <div>
                 <h3 className="font-bold">{r.title}</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  {new Date(r.date).toLocaleDateString()} · {r.seconds}s
+                  {new Date(r.date).toLocaleDateString("en-US")} · {r.seconds}s
                 </p>
               </div>
               <p className="text-xl text-brand dark:text-secondary font-bold">
@@ -283,12 +282,12 @@ export function Account() {
           </button>
         )}
       </section>
-      <section className="panel mt-8">
+      <section id="data-controls" className="panel mt-8">
         <h2 className="text-xl font-bold mb-4">Data controls</h2>
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
-          Clearing progress removes quiz history, flashcard records, and
-          retained legacy data. Empty deletion markers are retained for
-          cross-device consistency. Profile and settings are kept.
+          Clearing progress removes quiz history, favorites, and retained legacy
+          data. Empty deletion markers are retained for cross-device
+          consistency. Profile and settings are kept.
         </p>
         <div className="flex flex-wrap gap-3">
           <button

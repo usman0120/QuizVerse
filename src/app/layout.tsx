@@ -6,8 +6,6 @@ import "@fontsource/poppins/400.css";
 import "@fontsource/poppins/500.css";
 import "@fontsource/poppins/600.css";
 import "@fontsource/poppins/700.css";
-import "@fontsource/playfair-display/400.css";
-import "@fontsource/playfair-display/700.css";
 import "@fontsource/noto-nastaliq-urdu/400.css";
 import "@fontsource/noto-nastaliq-urdu/700.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -20,7 +18,7 @@ export const metadata: Metadata = {
     template: "%s | QuizVerse",
   },
   description:
-    "Free English and Urdu quizzes, personality tests, and flashcards. Play as a guest or sign in to sync your progress.",
+    "Free English and Urdu quizzes and personality tests. Play as a guest or sign in to sync your progress.",
   icons: { icon: { url: "/brand/quizverse-mark.svg", type: "image/svg+xml" } },
 };
 export default function RootLayout({
@@ -29,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" dir="ltr" suppressHydrationWarning>
       <body>
         <AppProvider>
           <a href="#main" className="skip-link">

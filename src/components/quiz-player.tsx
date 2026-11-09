@@ -14,7 +14,7 @@ import {
   Icon,
   Notice,
   shareText,
-  Text,
+  ContentText,
 } from "./ui";
 
 interface Answer {
@@ -63,8 +63,6 @@ export function QuizPlayer({
   }, [initialLanguage, ready, updateSettings]);
   const question = questions[index];
   const answered = answers[index];
-  const text = (q: Question, field: "question" | "hint" | "explanation") =>
-    language === "ur" ? q[`${field}_ur`] || q[field] : q[field];
 
   function start() {
     const chosen = embedded ? [...pool] : shuffle(pool).slice(0, 10);
@@ -205,7 +203,7 @@ export function QuizPlayer({
   const wrapper = embedded ? "" : "page max-w-4xl";
   if (!pool.length)
     return (
-      <div className={wrapper}>
+      <div id={embedded ? undefined : "quiz-tools"} className={wrapper}>
         <Notice>
           No questions are available for this category or question type.
         </Notice>
@@ -216,7 +214,7 @@ export function QuizPlayer({
     );
   if (phase === "setup")
     return (
-      <div className={wrapper}>
+      <div id={embedded ? undefined : "quiz-tools"} className={wrapper}>
         <div className={embedded ? "" : "panel text-center"}>
           <h1 className={embedded ? "text-xl font-bold mb-4" : "section-title"}>
             {title}
@@ -264,7 +262,7 @@ export function QuizPlayer({
             </>
           )}
           <button className="btn-accent" onClick={start} disabled={!app.ready}>
-            <Text en="Start Quiz" ur="کوئز شروع کریں" />
+            Start Quiz
             <Icon name="arrow-right" />
           </button>
           {!embedded && (
@@ -280,14 +278,12 @@ export function QuizPlayer({
     );
   if (phase === "result" && result)
     return (
-      <div className={wrapper}>
+      <div id={embedded ? undefined : "quiz-tools"} className={wrapper}>
         <div className={embedded ? "" : "panel text-center"}>
           <div className="text-5xl mb-4">
             {result.score >= result.total * 0.8 ? "🏆" : "🎯"}
           </div>
-          <h2 className="text-2xl font-bold mb-4">
-            <Text en="Quiz Completed!" ur="کوئز مکمل ہو گیا!" />
-          </h2>
+          <h2 className="text-2xl font-bold mb-4">Quiz Completed!</h2>
           <p className="text-4xl font-bold text-accent mb-4">
             {result.score}/{result.total}
           </p>
@@ -384,7 +380,8 @@ export function QuizPlayer({
                       key={q.id}
                     >
                       <h3 className="font-medium">
-                        {i + 1}. {text(q, "question")}
+                        {i + 1}.{" "}
+                        <ContentText en={q.question} ur={q.question_ur} />
                       </h3>
                       <p className="my-2">
                         {answers[i]?.correct
@@ -393,7 +390,14 @@ export function QuizPlayer({
                             ? "Skipped"
                             : "✗ Incorrect"}
                       </p>
-                      <p className="text-sm">{text(q, "explanation")}</p>
+                      {q.explanation && (
+                        <p className="text-sm">
+                          <ContentText
+                            en={q.explanation}
+                            ur={q.explanation_ur}
+                          />
+                        </p>
+                      )}
                     </div>
                   ))}
                 </div>
@@ -405,19 +409,14 @@ export function QuizPlayer({
     );
   const options: { label: string; value: number | boolean }[] =
     question.type === "mcq"
-      ? (question.options?.[language] || question.options?.en || []).map(
-          (label, value) => ({ label, value }),
-        )
+      ? (question.options?.en || []).map((label, value) => ({ label, value }))
       : [
-          { label: language === "ur" ? "درست" : "True", value: true },
-          { label: language === "ur" ? "غلط" : "False", value: false },
+          { label: "True", value: true },
+          { label: "False", value: false },
         ];
   return (
-    <div className={wrapper}>
-      <div
-        className={embedded ? "" : "panel"}
-        dir={language === "ur" ? "rtl" : "ltr"}
-      >
+    <div id={embedded ? undefined : "quiz-tools"} className={wrapper}>
+      <div className={embedded ? "" : "panel"}>
         <div className="flex justify-between text-sm mb-3">
           <p>
             {index + 1}/{questions.length}
@@ -442,10 +441,8 @@ export function QuizPlayer({
             style={{ width: `${(answers.length / questions.length) * 100}%` }}
           />
         </div>
-        <h2
-          className={`font-bold mb-6 ${embedded ? "text-lg" : "text-2xl"} ${language === "ur" ? "urdu" : ""}`}
-        >
-          {text(question, "question")}
+        <h2 className={`font-bold mb-6 ${embedded ? "text-lg" : "text-2xl"}`}>
+          <ContentText en={question.question} ur={question.question_ur} />
         </h2>
         {question.type === "fill-blanks" ? (
           <form
@@ -458,6 +455,8 @@ export function QuizPlayer({
               Your answer
               <input
                 className="field"
+                lang={language}
+                dir="auto"
                 autoComplete="off"
                 value={typed}
                 onChange={(e) => setTyped(e.target.value)}
@@ -479,7 +478,16 @@ export function QuizPlayer({
                 onClick={() => submit(o.value)}
                 disabled={!!answered}
               >
-                {o.label}
+                <ContentText
+                  en={o.label}
+                  ur={
+                    question.type === "mcq"
+                      ? question.options?.ur?.[Number(o.value)]
+                      : o.value
+                        ? "درست"
+                        : "غلط"
+                  }
+                />
               </button>
             ))}
           </div>
@@ -497,8 +505,20 @@ export function QuizPlayer({
                   : "Not quite!"}
             </strong>
             <p className="mt-2 text-sm">
-              {text(question, "explanation") ||
-                `Answer: ${String(language === "ur" ? question.correctAnswer_ur || question.correctAnswer : question.correctAnswer)}`}
+              {question.explanation ? (
+                <ContentText
+                  en={question.explanation}
+                  ur={question.explanation_ur}
+                />
+              ) : (
+                <>
+                  Answer:{" "}
+                  <ContentText
+                    en={String(question.correctAnswer)}
+                    ur={question.correctAnswer_ur}
+                  />
+                </>
+              )}
             </p>
             {question.source?.url?.startsWith("https://") && (
               <a
@@ -514,7 +534,11 @@ export function QuizPlayer({
         )}
         {showHint && (
           <Notice>
-            {text(question, "hint") || "No hint available for this question."}
+            {question.hint ? (
+              <ContentText en={question.hint} ur={question.hint_ur} />
+            ) : (
+              "No hint available for this question."
+            )}
           </Notice>
         )}
         <div className="flex flex-wrap gap-3 mt-6 justify-between">

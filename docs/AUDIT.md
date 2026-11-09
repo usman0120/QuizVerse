@@ -1,5 +1,13 @@
 # QuizVerse migration audit
 
+## Latest scope: English interface and flashcards retired
+
+The owner has also removed the complete flashcards module, including its route, legacy redirect, homepage/menu/footer links, deck data, renderer/types, flip styles, study recorder, and unused heading font. Both retired modules stay absent; historical user records remain export-only rather than being mass-deleted from Firestore.
+
+The current shell is always English/LTR. Only quiz/category and personality content uses the persisted English/Urdu preference, with explicit `lang` and `dir` on each content block. Buttons, settings, section headings, and navigation no longer translate. Footer groups cover the current modules, account pages, help/legal pages, and working daily/random/quote/history/export shortcuts. Older sections below describe earlier versions and are not current feature claims.
+
+Latest validation: 25 unit/content tests, 15 browser tests, and 2 Firestore permission tests passed, plus lint, TypeScript, production build, and dependency audit. Browser checks verify English navigation/headings during Urdu content mode, bilingual quiz/personality choices, all footer hash targets, correct random-quiz navigation, and 404s for both retired modules.
+
 ## Current scope: Learning Hub removed
 
 At the owner's request, the complete Learning Hub module has been retired: both routes, legacy redirects, navigation/homepage/result links, catalog and article reader, note/draft editor, types, CSS, all 24 article-data files, and unused sanitization dependencies are removed. Quizzes, flashcards, personality tests, quotes, accounts, and their progress remain supported. Existing users' retired records remain available through private exports; no production Firestore data was mass-deleted, and active flows do not recreate or re-sync those records.

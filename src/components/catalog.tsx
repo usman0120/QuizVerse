@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import type { QuizCategory } from "@/lib/types";
 import { useApp } from "./provider";
-import { Icon, Notice, PageHeading, Text } from "./ui";
+import { Icon, Notice, PageHeading, ContentText } from "./ui";
 
 export function QuizCatalog({ categories }: { categories: QuizCategory[] }) {
   const { settings, ready } = useApp();
@@ -24,11 +24,8 @@ export function QuizCatalog({ categories }: { categories: QuizCategory[] }) {
   return (
     <div className="page">
       <PageHeading
-        title={{ en: "Quiz Categories", ur: "کوئز کے زمرے" }}
-        description={{
-          en: "Find your next challenge. Choose a topic, question type, and difficulty.",
-          ur: "اپنا اگلا چیلنج تلاش کریں۔ موضوع، سوال کی قسم اور مشکل کا انتخاب کریں۔",
-        }}
+        title="Quiz Categories"
+        description="Find your next challenge. Choose a topic, question type, and difficulty."
       />
       <div className="panel mb-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <label>
@@ -122,10 +119,10 @@ export function QuizCatalog({ categories }: { categories: QuizCategory[] }) {
               <Icon name={c.icon} className="text-2xl" />
             </div>
             <h2 className="text-xl font-bold mb-2">
-              <Text {...c.name} />
+              <ContentText {...c.name} />
             </h2>
             <p className="text-sm text-gray-600 dark:text-gray-300 mb-4 flex-1">
-              <Text {...c.description} />
+              <ContentText {...c.description} />
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
               {c.count} unique questions · {c.difficulty}
@@ -135,7 +132,7 @@ export function QuizCatalog({ categories }: { categories: QuizCategory[] }) {
               href={`/quiz?cat=${c.id}&type=${type}&lang=${settings.language}`}
               aria-disabled={!ready}
             >
-              <Text en="Start Quiz" ur="کوئز شروع کریں" />
+              Start Quiz
               <Icon name="arrow-right" />
             </Link>
           </article>

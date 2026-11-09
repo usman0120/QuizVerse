@@ -11,7 +11,7 @@ export default function Page() {
         <p>
           Guest progress stays in your browser. When you sign in, Firebase
           Authentication manages your account and Firestore stores your private
-          QuizVerse profile, quiz results, preferences, and flashcard progress.
+          QuizVerse profile, quiz results, preferences, and quote favorites.
           Country, age, education level, and gender are optional. QuizVerse
           never stores passwords in profiles.
         </p>

@@ -4,17 +4,10 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useApp } from "./provider";
-import { CONTACT_URL, Icon, Text } from "./ui";
+import { Icon } from "./ui";
 import { Brand } from "./brand";
+import { navigation, footerGroups } from "@/lib/navigation";
 
-const nav = [
-  ["/", "Home", "ہوم"],
-  ["/quizzes", "Quizzes", "کوئز"],
-  ["/flashcards", "Flashcards", "فلیش کارڈز"],
-  ["/personality", "Personality Tests", "شخصیت"],
-  ["/leaderboard", "Leaderboard", "لیڈر بورڈ"],
-  ["/about", "About", "تعارف"],
-];
 export function Header() {
   const app = useApp();
   const pathname = usePathname();
@@ -33,14 +26,14 @@ export function Header() {
           aria-label="Main navigation"
           className="hidden xl:flex items-center gap-5 text-sm"
         >
-          {nav.map(([href, en, ur]) => (
+          {navigation.map(([href, label]) => (
             <Link
               key={href}
               href={href}
               aria-current={pathname === href ? "page" : undefined}
               className="hover:text-accent"
             >
-              <Text en={en} ur={ur} />
+              {label}
             </Link>
           ))}
         </nav>
@@ -49,8 +42,8 @@ export function Header() {
             className="icon-btn"
             aria-label={
               app.settings.language === "en"
-                ? "Switch to Urdu"
-                : "Switch to English"
+                ? "Switch content to Urdu"
+                : "Switch content to English"
             }
             disabled={!app.ready}
             onClick={() =>
@@ -59,7 +52,7 @@ export function Header() {
               })
             }
           >
-            {app.settings.language === "en" ? "اردو" : "EN"}
+            {app.settings.language === "en" ? "UR" : "EN"}
           </button>
           <button
             className="icon-btn"
@@ -77,10 +70,7 @@ export function Header() {
             href={app.user ? "/account" : "/auth"}
             className="bg-accent text-textDark px-3 py-2 rounded-lg text-sm font-medium"
           >
-            <Text
-              en={app.user ? "Profile" : "Sign In"}
-              ur={app.user ? "پروفائل" : "لاگ اِن"}
-            />
+            {app.user ? "Profile" : "Sign In"}
           </Link>
           <button
             className="icon-btn xl:hidden"
@@ -99,13 +89,13 @@ export function Header() {
           aria-label="Mobile navigation"
           className="xl:hidden bg-secondary px-6 py-4 grid grid-cols-2 gap-4"
         >
-          {nav.map(([href, en, ur]) => (
+          {navigation.map(([href, label]) => (
             <Link href={href} key={href} onClick={() => setOpen(false)}>
-              <Text en={en} ur={ur} />
+              {label}
             </Link>
           ))}
           <Link href="/account" onClick={() => setOpen(false)}>
-            <Text en="My progress" ur="میری پیش رفت" />
+            My progress
           </Link>
         </nav>
       )}
@@ -114,47 +104,44 @@ export function Header() {
 }
 export function Footer() {
   return (
-    <footer className="bg-gray-800 text-white pt-12 pb-6">
+    <footer lang="en" dir="ltr" className="bg-gray-800 text-white pt-12 pb-6">
       <div className="container mx-auto px-4">
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
-          <div>
-            <h2 className="text-xl font-bold mb-4">
-              <Brand />
-            </h2>
-            <p className="text-gray-300 text-sm">
-              Learn, challenge yourself, and have fun with free English and Urdu
-              quizzes.
-            </p>
-          </div>
-          <div>
-            <h2 className="font-bold mb-3">Explore</h2>
-            <div className="grid gap-2 text-gray-300">
-              {nav
-                .filter(([href]) => !["/", "/about"].includes(href))
-                .map(([href, en, ur]) => (
-                  <Link key={href} href={href}>
-                    <Text en={en} ur={ur} />
-                  </Link>
+        <div className="mb-10 max-w-xl">
+          <h2 className="text-xl font-bold mb-4">
+            <Brand />
+          </h2>
+          <p className="text-gray-300 text-sm">
+            Learn, challenge yourself, and have fun with free English and Urdu
+            quizzes.
+          </p>
+        </div>
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
+          {footerGroups.map((group) => (
+            <nav key={group.title} aria-label={`Footer ${group.title}`}>
+              <h2 className="font-semibold text-accent mb-4">{group.title}</h2>
+              <ul className="space-y-3 text-sm text-gray-300">
+                {group.links.map(([href, label]) => (
+                  <li key={href}>
+                    {href.startsWith("https://") ? (
+                      <a
+                        className="hover:text-white transition-colors"
+                        href={href}
+                      >
+                        {label}
+                      </a>
+                    ) : (
+                      <Link
+                        className="hover:text-white transition-colors"
+                        href={href}
+                      >
+                        {label}
+                      </Link>
+                    )}
+                  </li>
                 ))}
-            </div>
-          </div>
-          <div>
-            <h2 className="font-bold mb-3">Information</h2>
-            <div className="grid gap-2 text-gray-300">
-              <Link href="/about">About QuizVerse</Link>
-              <a href={CONTACT_URL}>Contact & Suggestions</a>
-              <a href={CONTACT_URL}>Report an issue</a>
-            </div>
-          </div>
-          <div>
-            <h2 className="font-bold mb-3">Your data</h2>
-            <div className="grid gap-2 text-gray-300">
-              <Link href="/account">Profile & progress</Link>
-              <Link href="/privacy">Privacy Policy</Link>
-              <Link href="/terms">Terms of Service</Link>
-              <Link href="/cookies">Cookies & Storage</Link>
-            </div>
-          </div>
+              </ul>
+            </nav>
+          ))}
         </div>
         <div className="border-t border-gray-700 pt-6 text-sm text-gray-400 text-center">
           © {new Date().getFullYear()} QuizVerse. Developed by Usman Ahmad.

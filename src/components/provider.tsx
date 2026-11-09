@@ -17,7 +17,6 @@ import {
   waitForPendingWrites,
 } from "firebase/firestore";
 import { SyncClock, withTimeout } from "@/lib/clock";
-import { localDay } from "@/lib/quiz";
 import { firebaseServices, friendlyError } from "@/lib/firebase";
 import {
   mergeEntries,
@@ -63,7 +62,6 @@ interface AppState {
   importGuest: () => void;
   retrySync: () => void;
   flushSync: () => Promise<void>;
-  recordStudy: (seconds: number) => void;
 }
 const Context = createContext<AppState | null>(null);
 export function AppProvider({ children }: { children: React.ReactNode }) {
@@ -80,7 +78,6 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   const inFlight = useRef(new Map<string, number>());
   const failed = useRef(new Map<string, number>());
   const clock = useRef(new SyncClock());
-  const studyTab = useRef<string | null>(null);
 
   const persist = useCallback((next: Entries) => {
     state.current = next;
@@ -347,34 +344,6 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     },
     [persist, upload, user?.uid],
   );
-  const recordStudy = useCallback(
-    (seconds: number) => {
-      if (
-        !Number.isFinite(seconds) ||
-        seconds <= 0 ||
-        activeUid.current !== user?.uid
-      )
-        return;
-      if (!studyTab.current) {
-        try {
-          studyTab.current =
-            sessionStorage.getItem("quizverse:study-tab") ||
-            crypto.randomUUID();
-          sessionStorage.setItem("quizverse:study-tab", studyTab.current);
-        } catch {
-          studyTab.current = crypto.randomUUID();
-        }
-      }
-      const key = `study:${localDay()}:${studyTab.current}`;
-      const previous = state.current[key];
-      const total =
-        previous && !previous.deleted && typeof previous.value === "number"
-          ? previous.value
-          : 0;
-      set(key, total + Math.floor(seconds));
-    },
-    [set, user?.uid],
-  );
   function get<T>(key: string, fallback: T): T {
     return entries[key] && !entries[key].deleted
       ? (entries[key].value as T)
@@ -396,14 +365,14 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       "dark",
       settings.theme === "dark",
     );
-    document.documentElement.lang = settings.language;
-    document.documentElement.dir = settings.language === "ur" ? "rtl" : "ltr";
+    document.documentElement.lang = "en";
+    document.documentElement.dir = "ltr";
     try {
       localStorage.setItem("theme", settings.theme);
     } catch {
       /* Main storage warning already covers this. */
     }
-  }, [ready, settings.theme, settings.language]);
+  }, [ready, settings.theme]);
   const importGuest = () => {
     if (!user) return;
     for (const [key, entry] of Object.entries(readEntries())) {
@@ -449,7 +418,6 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
         list,
         importGuest,
         flushSync,
-        recordStudy,
         retrySync: () => setRetry((x) => x + 1),
         updateSettings: (value) => set("settings", { ...settings, ...value }),
       }}

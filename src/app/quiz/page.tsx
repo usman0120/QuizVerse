@@ -37,7 +37,7 @@ export default async function Page({
         (alias[cat] ? `${alias[cat]} Quiz` : "Quiz unavailable");
   return (
     <QuizPlayer
-      key={`${cat}:${type}:${params.cats || ""}`}
+      key={`${params.random === "true" ? "random" : cat}:${type}:${params.cats || ""}`}
       category={params.random === "true" ? "random" : cat}
       title={title}
       questions={questions}

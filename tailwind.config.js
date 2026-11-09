@@ -26,7 +26,6 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        heading: ["Playfair Display", "serif"],
         nastaliq: ["Noto Nastaliq Urdu", "serif"],
       },
       animation: {

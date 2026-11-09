@@ -61,9 +61,7 @@ export function Leaderboard({ preview = false }: { preview?: boolean }) {
     .slice(0, preview ? 5 : 100);
   return (
     <div className={preview ? "" : "page"}>
-      {!preview && (
-        <PageHeading title={{ en: "Casual Leaderboard", ur: "لیڈر بورڈ" }} />
-      )}
+      {!preview && <PageHeading title="Casual Leaderboard" />}
       <p className="text-sm text-gray-600 dark:text-gray-300 mb-5">
         Opt-in, client-reported scores from the latest 100 submissions. These
         results are not verified or suitable for competitive rankings.

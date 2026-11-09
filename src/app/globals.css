@@ -20,9 +20,6 @@
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
   }
-  [lang="ur"] h1,
-  [lang="ur"] h2,
-  [lang="ur"] h3,
   .urdu {
     font-family: "Noto Nastaliq Urdu", serif;
     line-height: 2.2;
@@ -84,23 +81,6 @@
 }
 .skip-link:focus {
   top: 1rem;
-}
-.flip-card {
-  perspective: 1000px;
-}
-.flip-inner {
-  position: relative;
-  transform-style: preserve-3d;
-  transition: transform 0.5s;
-}
-.flip-inner.flipped {
-  transform: rotateY(180deg);
-}
-.flip-face {
-  backface-visibility: hidden;
-}
-.flip-back {
-  transform: rotateY(180deg);
 }
 @media (prefers-reduced-motion: reduce) {
   *,
